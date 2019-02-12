@@ -29,15 +29,22 @@ h1 {
   font-size: 2em; /* Override smaller h1 sizes when embedded in certain sectioning content */
 }
 
-/* 
-  Stops underlines on links from crashing into decenders.
-  This is for browsers which don't support text-decoration-skip-ink: auto
-*/
-@supports(background-image: linear-gradient(to left, #fff 0%, #fff 100%)) {
-  p a {
+p a {
+
+  &:focus {
+    background-color: #bada55;
+    outline: none;
+  }
+
+  /* 
+    Stops underlines on links from crashing into decenders.
+    This is for browsers which don't support text-decoration-skip-ink: auto
+    e.g. Firefox
+  */
+  @supports(background-image: linear-gradient(to left, #fff 0%, #fff 100%)) {
     background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
     background-repeat: repeat-x;
-    background-position: bottom .08em center;
+    background-position: bottom .05em center;
     background-size: 100% .05em;
     text-decoration: none;
     text-shadow: .05em 0 0 #fff, -.05em 0 0 #fff,
@@ -45,16 +52,10 @@ h1 {
                   .1em 0 0 #fff, -.1em 0 0 #fff,
                   0 .1em 0 #fff, 0 -.1em 0 #fff;
   }
-}
 
-/* TODO: Add syntax for Safari */
-/* TODO: Refine, see gov.uk */
-/* 
-  W3C official syntax
-  Wrapped inside @supports rule so older browsers still have regular underlines
-*/
-@supports(text-decoration-skip-ink: auto) {
-  p a {
+  // Official syntax
+  // Chrome, Opera etc
+  @supports(text-decoration-skip-ink: auto) {
     background: unset;
     text-decoration: underline;
     text-decoration-skip-ink: auto;
@@ -62,14 +63,19 @@ h1 {
   }
 }
 
-p a:focus {
-  background-color: #bada55;
-  outline: none;
-}
-
 q,
 blockquote {
   quotes: "“" "”" "‘" "’";
+
+  &::before {
+    content: open-quote;
+    float: left;
+  }
+
+  &::after {
+    content: close-quote;
+  }
+
 }
 
 blockquote {
@@ -77,18 +83,8 @@ blockquote {
   margin-left: 2.5rem; /* 40px */
 }
 
-q,
-blockquote::before {
-  content: open-quote;
-  float: left;
-}
-
-q,
-blockquote::after {
-  content: close-quote;
-}
-
 /* Flow */
+// TODO: What about <sections>
 main * + * {
   margin-top: calc(var(--flow) * 1rem);
 }
