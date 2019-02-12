@@ -5,11 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn run dev",
-    "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve & yarn run dev:functions",
+    "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
     "build": "gulp build & ELEVENTY_ENV=dev eleventy && yarn run build:functions",
-    "seed": "gulp build & ELEVENTY_ENV=seed eleventy",
-    "build:functions": "netlify-lambda build src/lambda",
-    "dev:functions": "netlify-lambda serve src/lambda"
+    "seed": "gulp build & ELEVENTY_ENV=seed eleventy"
   },
   "keywords": [
     "11ty",
