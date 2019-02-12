@@ -2,6 +2,7 @@
   "name": "vision2learn-pattern-library",
   "version": "1.0.0",
   "description": "Frontend Styleguide and Pattern Library for Vision2Learn",
+  "repository": "https://github.com/MrSleeth/v2l-pattern-library/",
   "main": "index.js",
   "scripts": {
     "start": "yarn run dev",
@@ -35,5 +36,8 @@
   },
   "resolutions": {
     "terser": "3.14.*"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.0.0"
   }
 }
