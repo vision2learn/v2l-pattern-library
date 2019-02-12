@@ -1,5 +1,6 @@
 var gulp    = require('gulp');
 var sass    = require("gulp-sass");
+var project = require('./toolchest/_project');
 
 /*
   generate the css with sass
@@ -10,5 +11,5 @@ gulp.task('css', function() {
       outputStyle: 'compressed'
     })
     .on('error', sass.logError))
-    .pipe(gulp.dest('./src/site/_includes/css'));
+    .pipe(gulp.dest(`${project.buildDest}/css`));
 });
