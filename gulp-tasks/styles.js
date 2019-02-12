@@ -1,5 +1,6 @@
 var gulp    = require('gulp');
-var sass    = require("gulp-sass");
+var sass    = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer')
 var project = require('./toolchest/_project');
 
 /*
@@ -11,5 +12,8 @@ gulp.task('css', function() {
       outputStyle: 'compressed'
     })
     .on('error', sass.logError))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions']
+    }))
     .pipe(gulp.dest(`${project.buildDest}/css`));
 });
