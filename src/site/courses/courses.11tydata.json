@@ -1,0 +1,7 @@
+{
+  "layout": "layouts/course",
+  "pagination": {
+    "data": "test.sessionsX",
+    "size": 1
+  }
+}
