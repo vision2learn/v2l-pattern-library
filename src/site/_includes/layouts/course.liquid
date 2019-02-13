@@ -1,0 +1,59 @@
+---
+layout: layouts/default
+---
+
+<header>
+
+  <h1>{{ course-title }}: Level {{ level }}</h1>
+  
+  <h2>Units in this course:</h2>
+
+  <p>
+    {{ unit-title }} {{ unitX[unit-title]["sessions"] }}!
+  </p>
+
+  <p>
+    {{ unitX[0] }}
+  </p>
+
+  {%- for item in unitX -%}
+
+    <p>{{item[0]}}</p>
+    
+  {%- endfor -%}
+
+  <ol>
+    {%- for unit in units -%}
+      <li>
+        {{ unit.title }}
+        <ol>
+          {%- for session in units[forloop.index0].sessions -%}
+          {%- comment -%}TODO: Work out how to do the URLs{%- endcomment -%}
+            <li>Session {{ forloop.index }}: <a href="{{ pagination.hrefs[forloop.index0] }}">{{ session }}</a></li>
+          {%- endfor -%}
+        </ol>
+      </li>
+    {%- endfor -%}
+  </ol>
+
+  {% comment %} <h3>This is {{ page.fileSlug | capitalize }}: {{ unit-title }}</h3> {% endcomment %}
+</header>
+
+<main>
+  <h1>{{ pagination.items[0] | capitalize }}</h1>
+
+  <details>
+    <summary>Pagination Object Info</summary>
+    {{ pagination }}
+  </details>
+
+  {{ content }}
+</main>
+
+<nav>
+  Pagination
+</nav>
+
+<footer>
+  &copy; Vision2Learn
+</footer>
