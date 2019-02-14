@@ -1,0 +1,15 @@
+{%- assign currentCourse = all-courses[course-title] -%}
+{%- assign units = currentCourse.units -%}
+
+{%- for unit in units -%}
+  {%- if unit.title ==  unit-title -%}
+    {%- assign unit-num = forloop.index -%}
+    {%- assign currentUnit = unit -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for session in currentUnit.sessions -%}
+  {%- if session == session-title -%}
+    {%- assign session-num = forloop.index -%}
+  {%- endif -%}
+{%- endfor -%}
