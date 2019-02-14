@@ -1,6 +1,0 @@
----
----
-
-## Content...
-
-Hello there
