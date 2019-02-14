@@ -2,53 +2,26 @@
 layout: layouts/default
 ---
 
+{% include logic/course-vars %}
+
 <header>
-
-  <h1>{{ course-title }}: Level {{ level }}</h1>
-  
-  <h2>Units in this course:</h2>
-
   <p>
-    {{ unit-title }} {{ unitX[unit-title]["sessions"] }}!
+    <b class="visually-hidden">Course: </b>{{ course-title | capitalize }} level {{ currentCourse.level }} 
+    &gt; {{ unit-title | capitalize }} <b class="visually-hidden">(Unit {{ unit-num }} of {{ currentCourse.units.length }})</b>
+    &gt; {{session-title | capitalize }} <b class="visually-hidden">(Session {{ session-num }} of {{ currentUnit.sessions.length }})</b>
   </p>
 
-  <p>
-    {{ unitX[0] }}
-  </p>
-
-  {%- for item in unitX -%}
-
-    <p>{{item[0]}}</p>
-    
-  {%- endfor -%}
-
-  <ol>
-    {%- for unit in units -%}
-      <li>
-        {{ unit.title }}
-        <ol>
-          {%- for session in units[forloop.index0].sessions -%}
-          {%- comment -%}TODO: Work out how to do the URLs{%- endcomment -%}
-            <li>Session {{ forloop.index }}: <a href="{{ pagination.hrefs[forloop.index0] }}">{{ session }}</a></li>
-          {%- endfor -%}
-        </ol>
-      </li>
-    {%- endfor -%}
-  </ol>
-
-  {% comment %} <h3>This is {{ page.fileSlug | capitalize }}: {{ unit-title }}</h3> {% endcomment %}
 </header>
 
-<main>
-  <h1>{{ pagination.items[0] | capitalize }}</h1>
-
-  <details>
-    <summary>Pagination Object Info</summary>
-    {{ pagination }}
-  </details>
+<main id="main">
+  <h1>{{ title }}</h1>
 
   {{ content }}
 </main>
+
+<aside>
+  {% include components/course-nav %}
+</aside>
 
 <nav>
   Pagination
