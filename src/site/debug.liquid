@@ -1,0 +1,20 @@
+---
+layout: default
+testdata:
+  - one
+  - two
+  - three
+tags: word
+---
+
+{%- for item in collections.lean-management -%}
+  <p>{{item.fileSlug }} {{ item.data.tags }}{{ item.data.title }}, {{ item.url }}</p>
+
+  {%- if forloop.index0 == 0 -%}
+    <section>
+      <h1>{{ item.data.title }}</h1>
+      {{ item.templateContent }}
+    </section>
+  {%- endif -%}
+  
+{%- endfor -%}
