@@ -1,17 +1,6 @@
-  * Session 1
-  * [Session 2](../../unit01/session02/pg1.asp)
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business Session 1: A lean environment 
-
-# Benefits of eliminating waste
-
-Pages:
-
-  * __
-  * __
+---
+title: Benefits of eliminating waste
+---
 
 In a workplace that is focused on continuous improvement, the main aim is to identify and eliminate waste. The idea is that by always looking for ways to improve and lower costs, improved outputs will inevitably occur.
 

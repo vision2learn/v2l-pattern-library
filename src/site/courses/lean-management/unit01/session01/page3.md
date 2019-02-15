@@ -1,17 +1,6 @@
-  * Session 1
-  * [Session 2](../../unit01/session02/pg1.asp)
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business Session 1: A lean environment 
-
-# History of lean management
-
-Pages:
-
-  * __
-  * __
+---
+title: History of lean management
+---
 
 The lean approach to manufacturing and business organisation focuses on creating **more value with less work**. It sees the expenditure of resources on any goal other than the creation of value for the end customer to be wasteful. By eliminating this waste, the organisation becomes leaner.
 

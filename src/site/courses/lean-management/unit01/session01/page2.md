@@ -1,4 +1,6 @@
-## Your learning goals 
+---
+title: Your learning goals
+---
 
 Embrace a 'can-do' attitude throughout your Lean Organisation Management Techniques course and be **honest** about the effort you put into each Session. Focus on your goals, think about your future, and you will be surprised by how much **you** can **achieve**.
 

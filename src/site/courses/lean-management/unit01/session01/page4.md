@@ -1,17 +1,6 @@
-  * Session 1
-  * [Session 2](../../unit01/session02/pg1.asp)
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business Session 1: A lean environment 
-
-# Principles of lean management
-
-Pages:
-
-  * __
-  * __
+---
+title: Principles of lean management
+---
 
 The philosophy of lean management and manufacturing is a generic set of ideas that have been adapted to fit different kinds of manufacturing and business processes.
 

@@ -1,17 +1,6 @@
-  * Session 1
-  * [Session 2](../../unit01/session02/pg1.asp)
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business Session 1: A lean environment 
-
-# Types of waste
-
-Pages:
-
-  * __
-  * __
+---
+title: Types of waste
+---
 
 Perhaps the most distinctive aspect of lean management is the way that the concept of waste is split into seven distinct types of waste that must be reduced to increase efficiency. Minimising these types of waste will make for a leaner work environment.
 

@@ -1,17 +1,6 @@
-  * Session 1
-  * [Session 2](../../unit01/session02/pg1.asp)
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business Session 1: A lean environment 
-
-# Benefits of a lean environment
-
-Pages:
-
-  * __
-  * __
+---
+title: Benefits of a lean environment
+---
 
 There are many benefits of a lean work environment. At the heart of it all is an effort to improve the quality of service: making processes more efficient, improving employee morale and saving money.
 
