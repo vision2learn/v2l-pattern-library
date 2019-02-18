@@ -1,55 +1,43 @@
 ---
 layout: default
 tags: word
+permalink: false
+---
+
+{% comment %} 
 pagination:
   data: collections.session-1
   size: 1
   alias: unikitty
   resolve: values
-testdata:
-  one: 
-    val1: bob
-  two: 
-    val2: bill
-  three: 
-    val3: ben
 title: Debug
-
----
+{% endcomment %}
 
 <main>
 
-{{ pagination.items[0].data.title }}
-{{ pagination.items[0].url }}
+<p>
+  {{ pagination.hrefs.size }}
+</p>
+
+<p>
+  {{ collections.session-1.size }}
+</p>
+
+<p>
+  {{ unikitty.data.tags }}
+</p>
+<p> 
+  {{ pagination.items[0].url }}
+</p>
+
+<ul> 
+  {%- for uri in pagination.hrefs -%}
+    <li><a href="{{ uri }}">Link</a></li>
+  {%- endfor -%}
+</ul>
 
 <section>
+  <h1>{{ pagination.items[0].data.title }}</h1>
   {{pagination.items[0].templateContent }}
 </section>
-{% comment %} permalink: unikitty/{{unikitty}}/index.html {% endcomment %}
-
-{% comment %} <p>{{ unikitty }}...</p> {% endcomment %}
-{% comment %} <p>PagObj: {{ pagination }}...</p> {% endcomment %}
-
-{%- for item in collections.session-1  -%}
-  <p>{{item.data.title}}</p>
-  {% comment %} <p>{{item.fileSlug }} {{ item.data.tags }}{{ item.data.title }}, {{ item.url }}</p> {% endcomment %}
-  <p>URL: {{ item.url }}</p>
-  {% comment %} <p>{{item.fileSlug | slug }}</p> {% endcomment %}
-{%- endfor -%}
-
-{% comment %} 
-
-{%- for item in collections.lean-management -%}
-  <p>{{item.fileSlug }} {{ item.data.tags }}{{ item.data.title }}, {{ item.url }}</p>
-
-{%- if forloop.index0 == 0 -%}
-    <section>
-      <h1>{{ item.data.title }}</h1>
-      {{ item.templateContent }}
-    </section>
-  {%- endif -%} 
-  
-{%- endfor -%}
-
- {% endcomment %}
- </main>
+</main>
