@@ -1,5 +1,10 @@
 {
-  "tags": ["lean-management", "level-2", "unit-1", "session-1"],
   "session-title": "a lean environment",
-  "layout": "layouts/unit"
+  "layout": "layouts/unit",
+  "pagination": {
+    "data": "collections.session-1",
+    "size": 1,
+    "alias": "module",
+    "resolve": "values"
+  }
 }

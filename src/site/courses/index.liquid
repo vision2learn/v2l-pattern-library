@@ -1,5 +1,4 @@
 ---
-layout: layouts/course
 pagination:
   data: collections.session-1
   size: 1
@@ -7,4 +6,4 @@ pagination:
   resolve: values
 ---
 
-{{ pagination.items[0].templateContent }}
+{% comment %} {{ pagination.items[0].templateContent }} {% endcomment %}
