@@ -1,22 +1,24 @@
 ---
 layout: layouts/default
+permalink: courses/{{ this-course | slug }}/{{ this-unit | slug }}/{{ this-session | slug }}/{{ pagination.items[0].data.title | slug }}/index.html
 ---
 
 {% include logic/course-vars %}
 
 <header>
   <p>
-    <b class="visually-hidden">Course: </b>{{ course-title | capitalize }} level {{ currentCourse.level }} 
-    &gt; {{ unit-title | capitalize }} <b class="visually-hidden">(Unit {{ unit-num }} of {{ currentCourse.units.length }})</b>
-    &gt; {{session-title | capitalize }} <b class="visually-hidden">(Session {{ session-num }} of {{ currentUnit.sessions.length }})</b>
+    <b class="visually-hidden">Course: </b>{{ this-course | capitalize }} level {{ course-data.level }} 
+    &gt; {{ this-unit | capitalize }} <b class="visually-hidden">(Unit {{ unit-num }} of {{ course-data.units.length }})</b>
+    &gt; {{ this-session | capitalize }} <b class="visually-hidden">(Session {{ session-num }} of {{ currentUnit.sessions.length }})</b>
   </p>
-
 </header>
 
 <main id="main">
-  <h1>{{ title }}</h1>
+  <h1>{{ pagination.items[0].data.title }}</h1>
+
 
   {{ content }}
+
 </main>
 
 <aside>
