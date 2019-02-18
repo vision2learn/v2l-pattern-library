@@ -1,8 +1,14 @@
-{%- assign currentCourse = all-courses[course-title] -%}
-{%- assign units = currentCourse.units -%}
+{%- assign course-data = all-courses[module.data.course] -%}
+{%- assign this-course = module.data.course -%}
+{%- assign unitIndex = module.data.unit | minus: 1 -%}
+{%- assign sessionIndex = module.data.session | minus: 1 -%}
+{%- assign this-unit = course-data.units[unitIndex].title -%}
+{%- assign this-session = course-data.units[unitIndex].sessions[sessionIndex] -%}
+
+{%- assign units = course-data.units -%}
 
 {%- for unit in units -%}
-  {%- if unit.title ==  unit-title -%}
+  {%- if unit.title ==  this-unit -%}
     {%- assign unit-num = forloop.index -%}
     {%- assign currentUnit = unit -%}
   {%- endif -%}
