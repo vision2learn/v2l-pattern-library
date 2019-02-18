@@ -1,0 +1,19 @@
+---
+layout: layouts/default.liquid
+test: lean management 2
+---
+
+{% comment %} 
+courses/{{ item.data.course-title | slug }}/{{ item.data.unit-title | slug }}/{{ item.data.session-title | slug }}/{{ item.data.title | slug }}/index.html
+{% endcomment %}
+
+<ul>
+  {%- for item in collections.course limit: 1 -%}
+    <li>
+      <a href="{{ item.course-title }}">{{ item.data.course }}</a>
+      <p>
+        {{ all-courses[test] }}
+      </p>
+    </li>
+  {%- endfor -%}
+</ul>
