@@ -1,7 +1,8 @@
-{%- assign course-data = all-courses[module.data.course] -%}
-{%- assign this-course = module.data.course -%}
-{%- assign unitIndex = module.data.unit | minus: 1 -%}
-{%- assign sessionIndex = module.data.session | minus: 1 -%}
+{%- assign course = coursedata.data -%}
+{%- assign course-data = all-courses[course.course] -%}
+{%- assign this-course = course.course -%}
+{%- assign unitIndex = course.unit | minus: 1 -%}
+{%- assign sessionIndex = course.session | minus: 1 -%}
 {%- assign this-unit = course-data.units[unitIndex].title -%}
 {%- assign this-session = course-data.units[unitIndex].sessions[sessionIndex] -%}
 

@@ -1,9 +1,9 @@
 ---
 layout: layouts/default
-permalink: courses/{{ this-course | slug }}/{{ this-unit | slug }}/{{ this-session | slug }}/{{ pagination.items[0].data.title | slug }}/index.html
+permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html
 ---
 
-{% include logic/course-vars %}
+{% include logic/course-vars, coursedata: module %}
 
 <header>
   <p>
@@ -14,11 +14,9 @@ permalink: courses/{{ this-course | slug }}/{{ this-unit | slug }}/{{ this-sessi
 </header>
 
 <main id="main">
-  <h1>{{ pagination.items[0].data.title }}</h1>
+  <h1>{{ module.data.title }}</h1>
 
-
-  {{ content }}
-
+  {{ module.templateContent }}
 </main>
 
 <aside>
