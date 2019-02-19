@@ -1,5 +1,5 @@
 ---
-title: Who is involved in the Productivity Needs Analysis process?
+title: Who is involved in the Productivity Needs Analysis process
 ---
 
   * [Session 1](../../unit01/session01/pg1.asp)
