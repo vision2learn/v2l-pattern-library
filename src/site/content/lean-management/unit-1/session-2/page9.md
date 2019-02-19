@@ -1,0 +1,76 @@
+---
+title: Reviewing the Productivity Needs Analysis process
+---
+
+
+  * [Session 1](../../unit01/session01/pg1.asp)
+  * Session 2
+  * [Session 3](../../unit01/session03/pg1.asp)
+
+# LEAN ORGANISATION TECHNIQUES
+
+Unit 1: Lean organisation techniques in business   
+Session 2: The Productivity Needs Analysis process  
+
+# Reviewing the Productivity Needs Analysis process
+
+Pages:
+
+  * __
+  * __
+
+In this Session we have seen what a Productivity Needs Analysis is.
+
+Let’s take a final recap by looking at the flowchart on the right.
+
+### In summary ![In summary](../../images/icons/icon-summary.svg)
+
+ClickTap below to see a summarised flowchart.
+
+Measuring relevant info areas
+
+__
+
+Prioritise measures
+
+__
+
+Set objectives
+
+__
+
+Processes to reach objectives (across scales of organisation)
+
+__
+
+Deliver required outputs to reach desired productivity
+
+* * *
+
+### The next step
+
+In a lean organisation there will be waste elimination tools and techniques that may be applied to the gaps identified by the Productivity Needs Analysis. Many of the most commonly used lean techniques will be covered in Unit 2.
+
+Organisations will apply lean techniques in an attempt to meet productivity needs. This approach is further enhanced when combined with process mapping. You will cover this topic in the next Session.
+
+  * Pages:
+  * [1](pg1.asp)
+  * [2](pg2.asp)
+  * [3](pg3.asp)
+  * [4](pg4.asp)
+  * [5](pg5.asp)
+  * [6](pg6.asp)
+  * [7](pg7.asp)
+  * [8](pg8.asp)
+  * 9
+  * [10](pg10.asp)
+  * [Previous page](pg8.asp)
+  * [Next page](pg10.asp)
+
+© Copyright Creating Careers Limited, 2019. All rights reserved.  
+
+
+
+This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
+
+Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.
