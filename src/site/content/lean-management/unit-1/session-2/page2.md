@@ -1,6 +1,6 @@
-  ---
-  title: The 5 step PNA process
-  ---
+---
+title: The 5 step PNA process
+---
   
   * [Session 1](../../unit01/session01/pg1.asp)
   * Session 2
