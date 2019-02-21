@@ -2,23 +2,6 @@
 title: Varying case measures
 ---
 
-
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# Varying case measures
-
-Pages:
-
-  * __
-  * __
-
 ### Case study ![Case study](../../images/icons/icon-case-study.svg)
 
 On the previous page you saw some of the most common areas organisations use to identify their productivity.
@@ -50,25 +33,3 @@ Here we can see how Keith has attempted to **measure productivity**. Where Amy l
 ### Conclusion
 
 Different businesses, depending on the sector they find themselves in and the nature of their organisation, will value some areas of interest higher than others. Here you have seen two very different organisations measure their productivity through different areas, depending on their individual company needs. You will explore this concept further on the [next page](pg5.asp).
-
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * 4
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * [7](pg7.asp)
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg3.asp)
-  * [Next page](pg5.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.

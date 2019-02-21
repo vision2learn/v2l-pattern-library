@@ -2,22 +2,6 @@
 title: Areas of measures
 ---
 
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# Areas of measures
-
-Pages:
-
-  * __
-  * __
-
 So far you’ve learnt that lean organisations begin to improve productivity by **measuring** the existing productivity within a business.
 
 Now you will learn about the various types of information that show business performance.
@@ -138,25 +122,3 @@ Foremost, when we talk about turnover within the area of common data, it refers 
 However, you may also see turnover discussed in another sense. It can also refer to the rate at which employees leave a workforce and are replaced. This is more commonly referred to as staff turnover. As staff are an integral part of the productivity of a business, organisations often measure their productivity by assessing staff turnover.
 
 Familiarising yourself with these terms now will avoid any potential confusion that you may encounter throughout the course!
-
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * 3
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * [7](pg7.asp)
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg2.asp)
-  * [Next page](pg4.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.

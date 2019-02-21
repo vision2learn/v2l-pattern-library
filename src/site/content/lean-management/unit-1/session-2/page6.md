@@ -1,23 +1,6 @@
 ---
 title: Who is involved in the Productivity Needs Analysis process
 ---
-
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# People involved in the PNA process
-
-Pages:
-
-  * __
-  * __
-
 Who is involved in the Productivity Needs Analysis process?
 
 As we saw on [page 3](../../unit01/session02/pg3.asp), staff turnover is a common key area measured by organisations in order to evaluate its own productivity.  
@@ -91,25 +74,3 @@ ClickTap to see an example of average scores given by customers on the products 
 In this example it is clear that improvements in **reliability** and **delivery** are necessary, in order to meet with rating demands. This would result in the organisation looking closely at those processes linked to **product reliability** and **product delivery**.
 
 There may be times when there are conflicts between what different stakeholders require. In this case the organisation must seek to have a very clear description of what really matters. Those things that matter are the ones where **measurement** is likely to be **most important**.
-
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * 6
-  * [7](pg7.asp)
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg5.asp)
-  * [Next page](pg7.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.
