@@ -2,22 +2,6 @@
 title: Where to use and apply measures
 ---
 
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# Where to use and apply measures
-
-Pages:
-
-  * __
-  * __
-
 The previous page gave examples of different measures of lean organisation.  
 
 The two case studies exemplified that measures relevant to one organisation may not be as relevant to another organisation. In other words, **measures are relevant to the individual organisation.**
@@ -50,14 +34,6 @@ There is an old saying that ‘what gets measured gets done’. There is a degre
 
 ### In summary ![Summary](../../images/icons/icon-summary.svg)
 
-__
-
-__
-
-__
-
-__
-
 So it is possible to conclude that there are many things that may be measured. The measures may be done at different levels of an organisation. The measures will vary in their importance.
 
 ### Time to think ![Time to think](../../images/icons/icon-think-about-it.svg)
@@ -75,25 +51,3 @@ Text area:
 For your Assessment you will (2.2) undertake a Productivity Needs Analysis in a selected organisation.
 
 You can either begin to think about how lean areas and measures could apply to your organisation or if you are not currently employed, use the case study in your Assessment.
-
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * 5
-  * [6](pg6.asp)
-  * [7](pg7.asp)
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg4.asp)
-  * [Next page](pg6.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.

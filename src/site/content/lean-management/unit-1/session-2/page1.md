@@ -2,33 +2,10 @@
 title: Your learning goals
 ---
   
-  
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business Session 2: The Productivity Needs Analysis process 
-
-# Productivity Needs Analysis process
-
-Pages:
-
-  * __
-  * __
-
 In this Session you’ll look at implementing the Productivity Needs Analysis process. 
 
 ### Your learning goals
 
-__
-
-__
-
-__
-
-__
 
 In this Session, you will work towards the following learning goals.
 
@@ -56,28 +33,3 @@ Productivity is the effectiveness of productive effort, especially in industry, 
 All businesses should be looking to improve their productivity. Despite the simplicity of this concept, it can often be difficult for businesses to put it into practice. 
 
 The Productivity Needs Analysis process will give you a great basis and will help you to understand how businesses can systematically improve productivity.
-
-  * Pages:
-  * 1
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * [7](pg7.asp)
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Next page](pg2.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved. 
-
-
-Thanks,
-
-Dan
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.

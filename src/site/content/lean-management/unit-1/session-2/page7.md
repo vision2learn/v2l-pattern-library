@@ -2,31 +2,6 @@
 title: Selecting the appropriate measures
 ---
 
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-#   * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# Selecting the appropriate measures
-
-Pages:
-
-  * __
-  * __
-
 ### Which measures should be prioritised?
 
 When prioritising measures, organisations and people within these organisations should follow the **four step** approach. This way, consistent approaches will be used throughout the organisation.  
@@ -80,34 +55,6 @@ Note your ideas in the journal.
 
 Text area:
 
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * 7
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg6.asp)
-  * [Next page](pg8.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.
-
-
-Pages:
-
-  * __
-  * __
-
 ### Which measures should be prioritised?
 
 When prioritising measures, organisations and people within these organisations should follow the **four step** approach. This way, consistent approaches will be used throughout the organisation.  
@@ -160,25 +107,3 @@ Briefly describe some **team objectives** each set of staff would be expected to
 Note your ideas in the journal.  
 
 Text area:
-
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * 7
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg6.asp)
-  * [Next page](pg8.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.

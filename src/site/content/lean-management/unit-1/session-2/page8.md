@@ -2,22 +2,6 @@
 title: The processes of a Productivity Needs Analysis
 ---
 
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# The processes of a Productivity Needs Analysis
-
-Pages:
-
-  * __
-  * __
-
 Once an organisation has a clear understanding of what it is seeking to achieve it can identify the **key processes, performances** and **outputs**. The organisation can also decide upon the way prioritised outputs will be measured.  
 
 With the measures in effect, an organisation is well placed to conduct a Productivity Needs Analysis. To understand the basic ideas underpinning a Productivity Needs Analysis, it is helpful to consider it with reference to a more familiar training needs analysis.  
@@ -120,25 +104,3 @@ In both cases the Productivity Needs Analysis shows there to be a detrimental ga
 ### Outcome
 
 As the Productivity Needs Analysis has highlighted inadequate performance, the organisation should recognise that action must be taken in order to improve. The organisation should identify the processes and tasks that have an impact on these returns and deliveries outcomes. These processes and tasks will also have relevant measurable outcomes that may form a part of the Productivity Needs Analysis.
-
-  * Pages:
-  * [1](pg1.asp)
-  * [2](pg2.asp)
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * [7](pg7.asp)
-  * 8
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg7.asp)
-  * [Next page](pg9.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.

@@ -2,22 +2,6 @@
 title: The 5 step PNA process
 ---
   
-  * [Session 1](../../unit01/session01/pg1.asp)
-  * Session 2
-  * [Session 3](../../unit01/session03/pg1.asp)
-
-# LEAN ORGANISATION TECHNIQUES
-
-Unit 1: Lean organisation techniques in business   
-Session 2: The Productivity Needs Analysis process  
-
-# Conducting the PNA
-
-Pages:
-
-  * __
-  * __
-
 A Productivity Needs Analysis (PNA) measures current productivity so that processes can be designed and implemented in order to create improvements.  
 
 The PNA process helps us to understand ways that businesses can systematically, regularly improve their own productivity.
@@ -27,9 +11,6 @@ There are five steps which form the PNA process.
 Look at the five steps on the right to learn more about each of these steps.  
 
 ### The 5 step PNA process
-
-   
-
 
 1  
 
@@ -112,25 +93,3 @@ However, in lean organisations the measures will be heavily influenced by curren
 ### Assessment key point ![Assessment key point](../../images/icons/icon-assessment-flag.svg)
 
 In your Assessment you will have to (2.1) describe the process for conducting a Productivity Needs Analysis. On the next page you will identify the various measurements organisations may use to assess their productivity which will help when it comes to answering this question in your Assessment.
-
-  * Pages:
-  * [1](pg1.asp)
-  * 2
-  * [3](pg3.asp)
-  * [4](pg4.asp)
-  * [5](pg5.asp)
-  * [6](pg6.asp)
-  * [7](pg7.asp)
-  * [8](pg8.asp)
-  * [9](pg9.asp)
-  * [10](pg10.asp)
-  * [Previous page](pg1.asp)
-  * [Next page](pg3.asp)
-
-© Copyright Creating Careers Limited, 2019. All rights reserved.  
-
-
-
-This message has been scanned by Capita systems, but if you believe it to be spam, please send it to spam@forcepoint.com.
-
-Messages sent to spam@forcepoint.com are queued for email analysis by Forcepoint Threat Lab.
