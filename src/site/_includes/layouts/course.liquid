@@ -1,5 +1,6 @@
 ---
 layout: layouts/default
+date: 2019-01-01
 permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html
 ---
 
@@ -13,19 +14,27 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   </p>
 </header>
 
+<hr>
+
 <main id="main">
   <h1>{{ module.data.title }}</h1>
 
   {{ module.templateContent }}
 </main>
 
+<hr>
+
 <aside>
   {% include components/course-nav %}
 </aside>
 
+<hr>
+
 <nav>
-  Pagination
+  {% include components/pagination %}
 </nav>
+
+<hr>
 
 <footer>
   &copy; Vision2Learn
