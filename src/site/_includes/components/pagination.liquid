@@ -1,0 +1,25 @@
+{%- assign pages = collections[module.data.id] -%}
+
+{{pages.size}}
+
+{%- for p in pages -%}
+  {{ p.data.title }}: {{ p.outputPath }}<br>
+{%- endfor -%}
+
+{%- if pagination.previousPageHref -%}
+  <a href="{{ pagination.previousPageHref }}">Previous Page</a>  
+{%- endif -%}
+
+{%- if pagination.nextPageHref -%}
+  <a href="{{ pagination.nextPageHref }}">Next Page</a>
+{%- endif -%}
+
+<p id="pageNos">Page: </p>
+<ol>
+  {%- for href in pagination.hrefs -%}
+    {% comment %} TODO: Review use of aria-describedby {% endcomment %}
+    <li aria-describedby="pageNos">
+      <a href="{{ href }}" data-v2l-pagetitle="" {% if page.url == href %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+    </li>
+  {%- endfor -%}
+</ol>
