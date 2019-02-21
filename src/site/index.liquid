@@ -8,12 +8,19 @@ courses/{{ item.data.course-title | slug }}/{{ item.data.unit-title | slug }}/{{
 {% endcomment %}
 
 <ul>
-  {%- for item in collections.course limit: 1 -%}
+  {%- for item in collections.lm-2-u1-s1 -%}
     <li>
-      <a href="{{ item.course-title }}">{{ item.data.course }}</a>
-      <p>
-        {{ all-courses[test] }}
-      </p>
+      <a href="{{ item.course-title }}">{{ item.data.title }}</a>
+    </li>
+  {%- endfor -%}
+</ul>
+
+<hr>
+
+<ul>
+  {%- for item in collections["lm-2-u1-s2"] -%}
+    <li>
+      <a href="{{ item.course-title }}">{{ item.data.title }}</a>
     </li>
   {%- endfor -%}
 </ul>
