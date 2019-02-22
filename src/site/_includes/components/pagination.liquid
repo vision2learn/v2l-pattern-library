@@ -1,0 +1,49 @@
+{% include logic/pagination %}
+
+
+{%- if pagination.previousPageHref -%}
+  <a href="{{ pagination.previousPageHref }}">Previous Page</a>  
+{%- endif -%}
+
+<style>
+  {% comment %} TODO: Roll into proper stylesheet and refactor {% endcomment %}
+  .c-pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .c-pagination li > a::after {
+    content: ". " attr(data-v2l-pagetitle);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+
+  .c-pagination li > a:focus::after,
+  .c-pagination li > a:hover::after {
+    content: ". " attr(data-v2l-pagetitle);
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: unset;
+    clip: unset;
+  } 
+</style>
+
+<p>Page: </p>
+<ol role="list" class="c-pagination">
+  {%- for href in pagination.hrefs -%}
+    {% comment %} TODO: Review component with VoiceOver {% endcomment %}
+    <li role="listitem">
+      <a href="{{ page-urls[forloop.index0] | prepend: '/courses/' }}" data-v2l-pagetitle="{{ page-titles[forloop.index0] }}" aria-labelX="{{ page-titles[forloop.index0] }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+    </li>
+  {%- endfor -%}
+</ol>
+
+{%- if pagination.nextPageHref -%}
+  <a href="{{ pagination.nextPageHref }}">Next Page</a>
+{%- endif -%}
