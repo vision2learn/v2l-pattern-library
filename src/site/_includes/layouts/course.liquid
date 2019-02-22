@@ -1,0 +1,41 @@
+---
+layout: layouts/default
+date: 2019-01-01
+permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html
+---
+
+{% include logic/course-vars, coursedata: module %}
+
+<header>
+  <p>
+    <b class="visually-hidden">Course: </b>{{ this-course | capitalize }} level {{ course-data.level }} 
+    &gt; {{ this-unit | capitalize }} <b class="visually-hidden">(Unit {{ unit-num }} of {{ course-data.units.length }})</b>
+    &gt; {{ this-session | capitalize }} <b class="visually-hidden">(Session {{ session-num }} of {{ currentUnit.sessions.length }})</b>
+  </p>
+</header>
+
+<hr>
+
+<main id="main">
+  <h1>{{ module.data.title }}</h1>
+
+  {{ module.templateContent }}
+</main>
+
+<hr>
+
+<aside>
+  {% include components/course-nav %}
+</aside>
+
+<hr>
+
+<nav>
+  {% include components/pagination %}
+</nav>
+
+<hr>
+
+<footer>
+  &copy; Vision2Learn
+</footer>

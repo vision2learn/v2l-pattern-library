@@ -3,3 +3,6 @@ node_modules
 _site
 dist
 *.log
+src/site/_data/debug.js
+src/site/debug.liquid
+.DS_Store
