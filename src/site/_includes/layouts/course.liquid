@@ -6,36 +6,25 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 
 {% include logic/course-vars, coursedata: module %}
 
-<header>
-  <p>
-    <b class="visually-hidden">Course: </b>{{ this-course | capitalize }} level {{ course-data.level }} 
-    &gt; {{ this-unit | capitalize }} <b class="visually-hidden">(Unit {{ unit-num }} of {{ course-data.units.length }})</b>
-    &gt; {{ this-session | capitalize }} <b class="visually-hidden">(Session {{ session-num }} of {{ currentUnit.sessions.length }})</b>
-  </p>
-</header>
+{% include components/header %}
 
 <hr>
 
 <main id="main">
-  <h1>{{ module.data.title }}</h1>
-
-  {{ module.templateContent }}
+    {{ module.templateContent }}
 </main>
 
 <hr>
 
 <aside>
+  {% include components/using-the-site %}
   {% include components/course-nav %}
 </aside>
 
 <hr>
 
-<nav>
-  {% include components/pagination %}
-</nav>
-
 <hr>
 
 <footer>
-  &copy; Vision2Learn
+  &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
 </footer>

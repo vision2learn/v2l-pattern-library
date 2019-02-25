@@ -22,11 +22,18 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: var(--flow);
+  margin: 0 .5rem;
 }
 
 /* Text */
 h1 {
   font-size: 2em; /* Override smaller h1 sizes when embedded in certain sectioning content */
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
 }
 
 p a {
@@ -81,6 +88,18 @@ blockquote {
 blockquote {
   font-style: italic;
   margin-left: 2.5rem; /* 40px */
+}
+
+nav {
+  > ul,
+  > ol {
+    padding: 0;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
 }
 
 /* Flow */
@@ -158,3 +177,72 @@ select {
 input:focus {
   outline: solid 2px #bada55;
 }
+
+
+// ******************************************************** //
+
+.page-title {
+  &::before {
+    @extend .visually-hidden;
+    content: "Page ";
+  }
+}
+ 
+.breadcrumb {
+  font-size: .8em;
+
+  &__node {
+    &::after {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
+
+.c-pagination {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 100%;
+
+  &__prev {
+    order: -1;
+  }
+
+  &__next {
+    order: 2;
+  }
+
+  li {
+    display: inline-block; /* Fallback */
+    display: inline-flex;
+    flex: 1;
+    
+    > {
+      a {
+    
+        flex: 1;
+        padding: .5em 0;
+        text-align: center;
+    
+        &::after {
+          content: ". " attr(data-v2l-pagetitle);
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          clip: rect(1px, 1px, 1px, 1px);
+        }
+      }
+    }
+  }
+}
+.c-pagination li > a:focus::after,
+.c-pagination li > a:hover::after {
+  // content: ". " attr(data-v2l-pagetitle);
+  // position: static;
+  // width: auto;
+  // height: auto;
+  // overflow: unset;
+  // clip: unset;
+} 
