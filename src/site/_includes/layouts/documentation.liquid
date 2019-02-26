@@ -11,8 +11,11 @@ layout: layouts/default
 <header>
   <h1>Component: {{ page.fileSlug | capitalize }}</h1>
   <p>
-    Location: {{ component.inputPath }}
+    {{ desc }}
   </p>
+  {% comment %} <p>
+    Location: {{ component.inputPath }}
+  </p> {% endcomment %}
 </header>
 
 <main>
@@ -20,19 +23,21 @@ layout: layouts/default
     {{ content }}
   </section>
 
-  <section>
-    <h2>Rendered Component</h2>
-    <div style="border-top: dashed black 2px; border-bottom: dashed black 2px; padding: 2rem 0;">
-      {% include page.fileSlug %}
-    </div>
-    <p>
-      <a href="{{ component.url }}">View standalone component</a>
-    </p>
-    <details>
-      <summary>View rendered source for <code>{{ page.fileSlug }}</code></summary>
-      <pre>
-        {{ component.templateContent | escape }}
-      </pre>
-    </details>
-  </section>
+  {%- unless no-include -%}
+    <section>
+      <h2>Rendered Component</h2>
+      <div style="border-top: dashed black 2px; border-bottom: dashed black 2px; padding: 2rem 0;">
+        {% include page.fileSlug %}
+      </div>
+      <p>
+        <a href="{{ component.url }}">View standalone component</a>
+      </p>
+      <details>
+        <summary>View rendered source for <code>{{ page.fileSlug }}</code></summary>
+        <pre>
+          {{ component.templateContent | escape }}
+        </pre>
+      </details>
+    </section>
+  {%- endunless -%}
 </main>
