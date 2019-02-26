@@ -1,0 +1,38 @@
+---
+layout: layouts/default
+---
+
+{%- for item in collections.components -%}
+  {%- if page.fileSlug == item.fileSlug -%}
+    {%- assign component = item -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<header>
+  <h1>Component: {{ page.fileSlug | capitalize }}</h1>
+  <p>
+    Location: {{ component.inputPath }}
+  </p>
+</header>
+
+<main>
+  <section>
+    {{ content }}
+  </section>
+
+  <section>
+    <h2>Rendered Component</h2>
+    <div style="border-top: dashed black 2px; border-bottom: dashed black 2px; padding: 2rem 0;">
+      {% include page.fileSlug %}
+    </div>
+    <p>
+      <a href="{{ component.url }}">View standalone component</a>
+    </p>
+    <details>
+      <summary>View source for <code>{{ page.fileSlug }}</code></summary>
+      <pre>
+        {{ component.templateContent | escape }}
+      </pre>
+    </details>
+  </section>
+</main>
