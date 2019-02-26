@@ -1,6 +1,6 @@
 ---
 no-include: true
-desc: This page shows the default styling of common textual elements as they appear inside the <main> element
+desc: This page shows the default styling of common textual elements as they appear inside the ```<main>``` element
 ---
 
 # Heading level 1
