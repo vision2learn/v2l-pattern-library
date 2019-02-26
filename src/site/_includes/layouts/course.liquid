@@ -4,9 +4,9 @@ date: 2019-01-01
 permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html
 ---
 
-{% include logic/course-vars, coursedata: module %}
+{% include 'course-vars', coursedata: module %}
 
-{% include components/header %}
+{% include 'header' %}
 
 <hr>
 
@@ -17,8 +17,8 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 <hr>
 
 <aside>
-  {% include components/using-the-site %}
-  {% include components/course-nav %}
+  {% include 'using-the-site' %}
+  {% include 'course-nav' %}
 </aside>
 
 <hr>
