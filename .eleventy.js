@@ -9,6 +9,12 @@ module.exports = function(config) {
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/default.liquid');
 
+  config.addFilter("markdownify", function(value) {
+    var MarkdownIt = require('markdown-it'),
+      md = new MarkdownIt();
+    return md.render(value);
+  });
+
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
   config.addFilter("dateDisplay", (dateObj, format = "LLL d, y") => {
