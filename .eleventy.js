@@ -17,6 +17,11 @@ module.exports = function(config) {
     }).toFormat(format);
   });
 
+  // liquid options
+  config.setLiquidOptions({
+    dynamicPartials: true
+  });
+
   // minify the html output
   // config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
 
@@ -37,7 +42,6 @@ module.exports = function(config) {
     // markdownTemplateEngine : "njk",
     passthroughFileCopy: true
   };
-
 };
 
 
