@@ -8,4 +8,6 @@ pagination:
 permalink: /components/{{ component.fileSlug }}/index.html
 ---
 
-{% include component.fileSlug %}
+{%- unless component.data.no-include -%}
+  {% include component.fileSlug %}  
+{%- endunless -%}
