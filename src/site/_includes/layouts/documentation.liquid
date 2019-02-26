@@ -10,9 +10,13 @@ layout: layouts/default
 
 <header>
   <h1>Component: {{ page.fileSlug | capitalize }}</h1>
-  <p>
-    {{ desc }}
-  </p>
+
+  {%- if desc -%}
+    <p>
+      {{ desc | markdownify }}
+    </p>  
+  {%- endif -%}
+  
   {% comment %} <p>
     Location: {{ component.inputPath }}
   </p> {% endcomment %}
