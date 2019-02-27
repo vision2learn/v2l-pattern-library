@@ -1,4 +1,5 @@
 {
   "layout": "layouts/documentation",
-  "tags": "docs"
+  "tags": "docs",
+  "addAllPagesToCollections": true
 }
