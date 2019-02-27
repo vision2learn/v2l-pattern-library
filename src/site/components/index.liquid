@@ -1,0 +1,14 @@
+---
+layout: default
+tags: components
+pagination:
+  data: collections.docs
+  size: 1
+  alias: component
+  addAllPagesToCollections: true
+permalink: /components/{{ component.fileSlug }}/index.html
+---
+
+{%- unless component.data.no-include -%}
+  {% include component.fileSlug %}  
+{%- endunless -%}

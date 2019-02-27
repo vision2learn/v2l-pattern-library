@@ -237,12 +237,12 @@ input:focus {
     }
   }
 }
-.c-pagination li > a:focus::after,
-.c-pagination li > a:hover::after {
-  // content: ". " attr(data-v2l-pagetitle);
-  // position: static;
-  // width: auto;
-  // height: auto;
-  // overflow: unset;
-  // clip: unset;
-} 
+// .c-pagination li > a:focus::after,
+// .c-pagination li > a:hover::after {
+//   content: ". " attr(data-v2l-pagetitle);
+//   position: static;
+//   width: auto;
+//   height: auto;
+//   overflow: unset;
+//   clip: unset;
+// } 

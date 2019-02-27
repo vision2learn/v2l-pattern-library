@@ -6,7 +6,7 @@ test: lean management 2
 {%- assign ids = "lm-2-u1-s1, lm-2-u1-s2" | split: ', '-%}
 
 {%- for id in ids -%}
-  {%- include logic/pagination, mod: id -%}
+  {%- include 'logic-pagination', mod: id -%}
   <h2>{{ id }}</h2>
   <ul>
     {%- for item in collections[id] -%}
