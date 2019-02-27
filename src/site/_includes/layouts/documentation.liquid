@@ -1,5 +1,7 @@
 ---
 layout: layouts/default
+theme:
+  name: prism-xonokai
 ---
 {% comment %} TODO: Dynamic collection loading is only possible in 11ty >= 0.7.2 {% endcomment %}
 {%- assign component-url = page.fileSlug | prepend: "/components/" -%}
@@ -39,9 +41,9 @@ layout: layouts/default
       TODO: Reimplement in 0.7.2
       <details>
         <summary>View rendered source for <code>{{ page.fileSlug }}</code></summary>
-        <pre>
+          {% highlight html %}      
           {{ component.templateContent | escape }}
-        </pre>
+          {% endhighlight %}
       </details>
       {% endcomment %}
     </section>
