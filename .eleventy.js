@@ -1,13 +1,21 @@
 const { DateTime } = require("luxon");
-
+const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(config) {
 
   // A useful way to reference to the contect we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
 
+  config.addPlugin(pluginSyntaxHighlight);
+
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/default.liquid');
+
+  config.addFilter("markdownify", function(value) {
+    var MarkdownIt = require('markdown-it'),
+      md = new MarkdownIt();
+    return md.render(value);
+  });
 
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
@@ -17,12 +25,14 @@ module.exports = function(config) {
     }).toFormat(format);
   });
 
-  // minify the html output
-  // config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
-
+  // liquid options
+  config.setLiquidOptions({
+    dynamicPartials: true
+  });
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
+  config.addPassthroughCopy("./src/site/css/themes");
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
@@ -37,35 +47,4 @@ module.exports = function(config) {
     // markdownTemplateEngine : "njk",
     passthroughFileCopy: true
   };
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// module.exports = function(eleventyConfig) {
-//     eleventyConfig.setBrowserSyncConfig({
-//       host: "0.0.0.0"
-//     });
-
-//     eleventyConfig.addPassthroughCopy("styles");
-
-//     return {
-//       passthroughFileCopy: true
-//     }
-//   };
