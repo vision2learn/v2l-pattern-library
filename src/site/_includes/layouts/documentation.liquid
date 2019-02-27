@@ -1,12 +1,15 @@
 ---
 layout: layouts/default
 ---
+{% comment %} TODO: Dynamic collection loading is only possible in 11ty >= 0.7.2 {% endcomment %}
+{%- assign component-url = page.fileSlug | prepend: "/components/" -%}
 
-{%- for item in collections.components -%}
+{% comment %} {%- for item in collections.components -%}
+  {{ item.fileSlug }}<br>
   {%- if page.fileSlug == item.fileSlug -%}
     {%- assign component = item -%}
   {%- endif -%}
-{%- endfor -%}
+{%- endfor -%} {% endcomment %}
 
 <header>
   <h1>Component: {{ page.fileSlug | capitalize }}</h1>
@@ -16,10 +19,6 @@ layout: layouts/default
       {{ desc | markdownify }}
     </p>  
   {%- endif -%}
-  
-  {% comment %} <p>
-    Location: {{ component.inputPath }}
-  </p> {% endcomment %}
 </header>
 
 <main>
@@ -34,14 +33,17 @@ layout: layouts/default
         {% include page.fileSlug %}
       </div>
       <p>
-        <a href="{{ component.url }}">View standalone component</a>
+        <a href="{{ component-url }}">View standalone component</a>
       </p>
+      {% comment %} 
+      TODO: Reimplement in 0.7.2
       <details>
         <summary>View rendered source for <code>{{ page.fileSlug }}</code></summary>
         <pre>
           {{ component.templateContent | escape }}
         </pre>
       </details>
+      {% endcomment %}
     </section>
   {%- endunless -%}
 </main>
