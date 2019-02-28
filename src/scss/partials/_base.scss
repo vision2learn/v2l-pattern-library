@@ -183,7 +183,12 @@ thead th {
 
 /* Forms */
 label {
-  display: block;
+  
+  // Makes labels act like block elements when they have <input> after and inline if label is after input
+  &::after {
+    content: "\A";
+    white-space: pre;
+  }
 }
 
 input:not([type="color"]),
