@@ -1,1 +1,6 @@
 @import "partials/base";
+@import "partials/components";
+
+.debug {
+  outline: dotted 2px lawngreen;
+}
