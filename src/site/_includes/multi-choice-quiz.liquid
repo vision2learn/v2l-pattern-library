@@ -1,0 +1,17 @@
+<form action="#multi-quiz" class="c-quiz c-quiz--multi l-quiz" id="multi-quiz">
+  <fieldset class="l-quiz">
+    <legend class="c-quiz__legend l-vc">{{ components.multi-choice-quiz.question }}</legend>
+    {%- for answer in components.multi-choice-quiz.answers -%}
+      <div class="c-quiz__answer l-vc">
+        <input type="checkbox" class="c-quiz__control" name="quick-quiz" id="q{{ top-index }}-a{{ forloop.index }}">
+        <label for="q{{ top-index }}-a{{ forloop.index }}" data-v2l-correct="{{ answer[1] }}"> 
+          {{ answer[0] | capitalize }}
+        </label>
+      </div>
+    {%- endfor -%}
+  </fieldset>
+  <input type="submit" value="Check answers">
+  <p class="c-quiz__fb" hidden>
+    {{ components.multi-choice-quiz.feedback }}
+  </p>
+</form>

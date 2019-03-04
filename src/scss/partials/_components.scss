@@ -23,11 +23,13 @@ body {
     padding: .5em;
   }
 
-  &::before {
-    @extend %l-vc;
-    counter-increment: quiz;
-    content: "Question " counter(quiz);
-    justify-self: start;
+  &--quick {
+    &::before {
+      @extend %l-vc;
+      counter-increment: quiz;
+      content: "Question " counter(quiz);
+      justify-self: start;
+    }
   }
 
   fieldset {
@@ -51,7 +53,7 @@ body {
     
     &::before {
       counter-increment: answers;
-      content: counter(answers, upper-alpha);
+      content: counter(answers, upper-alpha) ". ";
       left: 0;
     }
 
@@ -72,7 +74,8 @@ body {
     }
   }
 
-  [type="radio"] {
+  // TODO: Abstract into reusable class?
+  &__control {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -87,8 +90,9 @@ body {
       + label {
         background-color: rgba(255,255,255, .2);
 
+        @extend .debug;
+
         &::after {
-          content: attr(data-v2l-correct);
           float: right;
         }
       }
@@ -108,4 +112,12 @@ body {
   &__fb {
     font-size: .8em;
   }
+}
+
+[data-v2l-correct=true]::after {
+  content: url(/images/svg/check.svg); //attr(data-v2l-correct);
+}
+
+[data-v2l-correct=false]::after {
+  content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
 }
