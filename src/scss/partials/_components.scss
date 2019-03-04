@@ -48,7 +48,6 @@ body {
   label {
     cursor: pointer;
     display: inline-block;
-    margin: 0;
     width: 100%;
     
     &::before {
@@ -68,7 +67,6 @@ body {
       top: 0;
       width: calc((50 / 16) * 1em);
       height: 100%;
-      margin: 0;
       text-align: center;
       justify-content: center;      
     }
@@ -82,19 +80,24 @@ body {
     left: 0;
     width: 0;
     height: 0;
-    cursor: pointer; 
-    margin: 0;
+    cursor: pointer;
     opacity: 0;
 
     &:checked {
       + label {
         background-color: rgba(255,255,255, .2);
-
-        @extend .debug;
-
+        
         &::after {
           float: right;
         }
+      }
+
+      + [data-v2l-correct=true]::after {
+        content: url(/images/svg/check.svg); //attr(data-v2l-correct);
+      }
+      
+      + [data-v2l-correct=false]::after {
+        content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
       }
     }
   }
@@ -112,12 +115,4 @@ body {
   &__fb {
     font-size: .8em;
   }
-}
-
-[data-v2l-correct=true]::after {
-  content: url(/images/svg/check.svg); //attr(data-v2l-correct);
-}
-
-[data-v2l-correct=false]::after {
-  content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
 }

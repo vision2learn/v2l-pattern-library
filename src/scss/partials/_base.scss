@@ -108,6 +108,8 @@ nav {
 
 /* Flow */
 // TODO: What about <sections>
+// main * + *:not([class^="c-"]),
+// main * + *:not([class^="c-"] > *) {
 main * + * {
   margin-top: 1.5rem;
 
@@ -123,6 +125,13 @@ main * + * {
   @supports(--a: 0) {
     margin-top: calc(var(--flow) * 1em);
   }
+}
+
+// Don't follow the flow system if the element is part of a component.
+// All components have classes prefixed with "c-"
+[class^="c-"],
+[class^="c-"] > * {
+  margin: 0;
 }
 
 li,
