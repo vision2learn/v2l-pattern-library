@@ -94,6 +94,10 @@ blockquote {
   margin-left: 2.5rem; /* 40px */
 }
 
+[class*="c-"] * {
+  padding: 0;
+}
+
 nav {
   > ul,
   > ol {
@@ -129,8 +133,8 @@ main * + * {
 
 // Don't follow the flow system if the element is part of a component.
 // All components have classes prefixed with "c-"
-[class^="c-"],
-[class^="c-"] > * {
+[class*="c-"],
+[class*="c-"] > * {
   margin: 0;
 }
 
@@ -143,7 +147,7 @@ td,
 figcaption,
 input,
 select {
-  margin: 0 !important;
+  margin: 0; // !important;
 }
 
 main * + blockquote,
