@@ -1,0 +1,23 @@
+{
+  "How do you get to Carnegie Hall?": {
+    "answers": {
+      "Practice": true,
+      "Oh, I see. You'd have to go to New York, Dougal.": false
+    },
+    "feedback": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo necessitatibus aliquid repellat temporibus exercitationem illo commodi cupiditate eius deleniti!"
+  },
+  "OK, one more time": {
+    "answers": {
+      "Small": true,
+      "Faraway": false
+    },
+    "feedback": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo necessitatibus aliquid repellat temporibus exercitationem illo commodi cupiditate eius deleniti!"
+  },
+  "I wanna listen to some music": {
+    "answers": {
+      "Go ahead": false,
+      "I wasn't asking for permission": true
+    },
+    "feedback": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo necessitatibus aliquid repellat temporibus exercitationem illo commodi cupiditate eius deleniti!"
+  }
+}
