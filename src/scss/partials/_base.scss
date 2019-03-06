@@ -108,6 +108,8 @@ nav {
 
 /* Flow */
 // TODO: What about <sections>
+// main * + *:not([class^="c-"]),
+// main * + *:not([class^="c-"] > *) {
 main * + * {
   margin-top: 1.5rem;
 
@@ -123,6 +125,13 @@ main * + * {
   @supports(--a: 0) {
     margin-top: calc(var(--flow) * 1em);
   }
+}
+
+// Don't follow the flow system if the element is part of a component.
+// All components have classes prefixed with "c-"
+[class^="c-"],
+[class^="c-"] > * {
+  margin: 0;
 }
 
 li,
@@ -183,7 +192,12 @@ thead th {
 
 /* Forms */
 label {
-  display: block;
+  
+  // Makes labels act like block elements when they have <input> after and inline if label is after input
+  &::after {
+    content: "\A";
+    white-space: pre;
+  }
 }
 
 input:not([type="color"]),

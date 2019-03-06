@@ -1,0 +1,24 @@
+{% comment %} 
+  TODO: role=list & listitem?
+{% endcomment %}
+
+{%- for question in components.quick-quiz -%}
+  <form action="#q{{ forloop.index }}" class="c-quiz c-quiz--quick l-quiz" id="q{{ forloop.index }}">
+  {%- assign top-index = forloop.index -%}
+    <fieldset class="l-quiz">
+      <legend class="c-quiz__legend l-vc">{{ question[0] | capitalize }}</legend>
+      {%- for answer in question[1].answers -%}
+        <div class="c-quiz__answer l-vc">
+          <input type="radio" class="c-quiz__control" name="quick-quiz" id="q{{ top-index }}-a{{ forloop.index }}">
+          <label for="q{{ top-index }}-a{{ forloop.index }}" data-v2l-correct="{{ answer[1] }}"> 
+            {{ answer[0] | capitalize }}
+          </label>
+        </div>
+      {%- endfor -%}
+    </fieldset>
+    <input type="submit" value="Show question feedback">
+    <p class="c-quiz__fb" hidden>
+      {{ question[1].feedback }}
+    </p>
+  </form>
+{%- endfor -%}
