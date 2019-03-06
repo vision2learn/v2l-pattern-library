@@ -120,9 +120,6 @@ body {
 // // Slider
 .c-slider {
   position: relative;
-  outline: solid 1px black;
-  outline-offset: -1px;
-
   counter-reset: slides;
 
   &__container {
@@ -130,10 +127,8 @@ body {
     scroll-snap-type: mandatory;
     scroll-snap-points-x: repeat(100%);
     -webkit-overflow-scrolling: touch;
-
+    scroll-behavior: smooth;
     scrollbar-width: none;
-
-    
 
     &::-webkit-scrollbar {
       height: .75rem;
@@ -154,27 +149,11 @@ body {
 
     li {
       list-style: none;
-      flex: 0 0 100%;
+      flex: 0 0 auto;
+      width: 100%; // IE
       padding: 2rem;
-      // height: 60vh;
       scroll-snap-align: start;
-
       counter-increment: slides;
-
-      // TODO: Overkill on screen readers?
-      // TODO: Fix
-      // &.visible::after {
-      //   content: "Slide " counter(slides) " of " attr(data-v2l-count);
-      //   position: absolute;
-      //   bottom: .5em;
-      //   right: 3.5rem;
-      //   background: rgba(255,255,255,.4);
-      //   font-size: .8em;
-      //   padding: .5em;
-      //   border-radius: 5px;
-      //   line-height: 1;
-      // }
-     
     }
 
     &:focus,
@@ -203,11 +182,26 @@ body {
     }
   }
 
+  &__count {
+    .visible &::after {
+      content: "Slide " counter(slides) " of " attr(data-v2l-count);
+      position: absolute;
+      bottom: 3.5rem;
+      right: 3.5rem;
+      background: #fff;
+      font-size: .8em;
+      padding: .5em;
+      border-radius: 5px;
+      line-height: 1;
+    }
+  }
+
   &__instructions {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    height: 3rem; // if you change this, change the corresponding value in the button height
 
     svg,
     p {
@@ -233,12 +227,12 @@ body {
 
 
 .c-slider__container:focus, 
-[aria-label="gallery controls"] button:focus {
+[aria-label="slider controls"] button:focus {
   outline: 4px solid DodgerBlue;
   outline-offset: -6px;
 }
 
-[aria-label="gallery controls"] {
+[aria-label="slider controls"] {
 
   li {
     list-style: none;
@@ -252,7 +246,7 @@ body {
     border: none;
     border-radius: 0;
     width: 3rem;
-    height: 100%; //calc(60vh + 4px);
+    height: calc(100% - 3rem);
 
     &:focus {
       outline-offset: -4px;
