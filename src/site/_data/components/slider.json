@@ -1,0 +1,32 @@
+{
+  "slider-title": "Content slider",
+  "slider-style": "large",
+  "slides": [
+    {
+      "title": "Slide 1 title",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem?",
+      "img": false
+    },
+    {
+      "title": "Slide 2 title",
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem</p>",
+      "img": false
+    },{
+      "title": "Slide 3 title",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem?",
+      "img": false
+    },{
+      "title": "Slide 4 title",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem?",
+      "img": false
+    },{
+      "title": "Slide 5 title",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem?",
+      "img": false
+    },{
+      "title": "Slide 6 title",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium provident, incidunt similique aliquid sunt quo tempore sint eum necessitatibus rerum saepe, sed id ut adipisci? Dignissimos provident totam aliquam autem?",
+      "img": false
+    }
+  ]
+}

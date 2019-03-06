@@ -116,3 +116,161 @@ body {
     font-size: .8em;
   }
 }
+
+// // Slider
+.c-slider {
+  position: relative;
+  counter-reset: slides;
+
+  &__container {
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-x: repeat(100%);
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      height: .75rem;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: #eee;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #000;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+    }
+
+    li {
+      list-style: none;
+      flex: 0 0 auto;
+      width: 100%; // IE
+      padding: 2rem;
+      scroll-snap-align: start;
+      counter-increment: slides;
+    }
+
+    &:focus,
+    &:hover {
+      + #instructions svg {
+        display: inline;
+      }
+    }
+
+    &:focus + #instructions #focus,
+    &:hover + #instructions #hover {
+      display: block;
+    }
+
+    &:hover + #instructions #hover + #focus {
+      display: none;
+    }
+
+    &:hover:focus + #instructions #hover, 
+    &:hover:focus + #instructions #focus {
+      display: none;
+    }
+
+    &:hover:focus + #instructions #hover-and-focus {
+      display: block;
+    }
+  }
+
+  &__count {
+    .visible &::after {
+      content: "Slide " counter(slides) " of " attr(data-v2l-count);
+      position: absolute;
+      bottom: 3.5rem;
+      right: 3.5rem;
+      background: #fff;
+      font-size: .8em;
+      padding: .5em;
+      border-radius: 5px;
+      line-height: 1;
+    }
+  }
+
+  &__instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 3rem; // if you change this, change the corresponding value in the button height
+
+    svg,
+    p {
+      display: none;
+    }
+
+    p {
+      padding: 1rem;
+      text-align: center;
+      // color: #fefefe;
+      // background-color: #111;
+    }
+  }
+
+  svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor;
+    vertical-align: -.5rem;
+  }
+  
+}
+
+
+.c-slider__container:focus, 
+[aria-label="slider controls"] button:focus {
+  outline: 4px solid DodgerBlue;
+  outline-offset: -6px;
+}
+
+[aria-label="slider controls"] {
+
+  li {
+    list-style: none;
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    color: currentColor;
+    background: none;
+    border: none;
+    border-radius: 0;
+    width: 3rem;
+    height: calc(100% - 3rem);
+
+    &:focus {
+      outline-offset: -4px;
+    }
+  }
+
+  #previous {
+    left: 0;
+  }
+  
+  #next {
+    right: 0;
+  }
+}
+
+.touch #instructions p {
+  display: none !important;
+}
+
+.touch #instructions #touch {
+  display: block !important;
+}
+
+button svg {
+  width: 2rem;
+  height: 2rem;
+}
