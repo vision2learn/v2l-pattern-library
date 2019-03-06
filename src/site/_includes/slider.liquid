@@ -3,24 +3,24 @@
     <span class="visually-hidden" id="slider-label">{{ components.slider.slider-title }}</span>
     <ul role="list">
       {%- for slide in components.slider.slides -%}
-        <li role="listitem" data-v2l-count="{{ components.slider.slides.size }}">
+        <li role="listitem">
           <h3>{{ slide.title }}</h3>
           <p>{{ slide.text }}</p>
+          <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ components.slider.slides.size }}"></span>
         </li>
       {%- endfor -%}
     </ul>
   </div>
   <div id="instructions" class="c-slider__instructions">
-    {% comment %} <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-left"></use></svg>
+    <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-left"></use></svg>
     <p id="touch">swipe for more</p>
     <p id="hover">scroll for more</p>
     <p id="focus">use your arrow keys for more</p>
     <p id="hover-and-focus">scroll or use arrow keys for more</p>
-    <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-right"/></svg> {% endcomment %}
+    <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-right"/></svg>
   </div>
 </div>
 
-<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 <script>
 'use strict';
 
@@ -45,13 +45,17 @@
     rootMargin: '-10px'
   };
 
+  
   if ('IntersectionObserver' in window) {
+    
     var scrollIt = function scrollIt(slideToShow) {
+      console.log("scrollIt");
       var scrollPos = Array.prototype.indexOf.call(slides, slideToShow) * (slider.scrollWidth / slides.length);
       slider.scrollLeft = scrollPos;
     };
 
     var showSlide = function showSlide(dir, slides) {
+      console.log("showSlide");
       var visible = document.querySelectorAll('.c-slider__container .visible');
       var i = dir === 'previous' ? 0 : 1;
 
@@ -66,6 +70,7 @@
     };
 
     var callback = function callback(slides, observer) {
+      console.log("callback");
       Array.prototype.forEach.call(slides, function (entry) {
         entry.target.classList.remove('visible');
         //var link = entry.target.querySelector('a');
@@ -92,7 +97,7 @@
     });
 
     var controls = document.createElement('ul');
-    controls.setAttribute('aria-label', 'gallery controls');
+    controls.setAttribute('aria-label', 'slider controls');
     controls.innerHTML = '\n    <li><button type="button" id="previous" aria-label="previous">\n      <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-left"></use></svg>\n    </button></li>\n    <li><button type="button" id="next" aria-label="next">\n      <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-right"/></svg>\n    </button></li>\n    ';
     instructions.parentNode.insertBefore(controls, instructions.nextElementSibling);
     instructions.parentNode.style.padding = '0 3rem';
