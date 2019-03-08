@@ -274,3 +274,19 @@ button svg {
   width: 2rem;
   height: 2rem;
 }
+
+.c-wordbank {
+
+  &__questions {
+
+    li {
+      margin-top: calc(var(--flow) * 1rem);
+      padding: 1em;
+    }
+  }
+
+  &__options {
+    display: inline-block;
+    width: auto;
+  }
+}
