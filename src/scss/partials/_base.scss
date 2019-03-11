@@ -11,6 +11,18 @@
   height: 1px;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
+
+  &:focus {
+    top: 10px;
+    left: 10px;
+    background: white;
+    display: block;
+    width: auto;
+    height: auto;
+    clip: auto;
+    padding: .5em;
+    border: solid yellow;
+  }
 }
 
 /* Reset the box model and zero margins... */
@@ -23,7 +35,13 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
-  margin: 0 .5rem;
+  margin: 0 auto;
+  max-width: 50rem; // 800px
+
+  @supports(display: grid) {
+    margin: 0;
+    max-width: 100%;
+  }
 
   @supports(--a: 0) {
     line-height: var(--flow);
@@ -319,6 +337,10 @@ input:focus {
       }
     }
   }
+}
+
+.v2l-logo {
+  max-width: 190px;
 }
 // .c-pagination li > a:focus::after,
 // .c-pagination li > a:hover::after {
