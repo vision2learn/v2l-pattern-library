@@ -38,7 +38,7 @@ TODO: Instructions for local Node and running through Docker
 2. "permalink" - this is set to false so that 11ty does not convert these source pages into HTML
 4. `course`, `unit` and `session` keys are used to generate the page's permalink and retrieve course information from `all-courses.json` via the `course-vars.liquid` include.
 
-**Enumerating the units and sessions means we can change the corresponding titles in `all-courses.json` and this will automatically update every page without breaking the build.
+**Enumerating the units and sessions means we can change the corresponding titles in `all-courses.json` and this will automatically update every page without breaking the build.**
 
 ### Courses folder
 
