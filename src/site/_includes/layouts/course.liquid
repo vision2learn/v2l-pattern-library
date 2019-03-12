@@ -3,27 +3,18 @@ layout: layouts/default
 date: 2019-01-01
 permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html
 ---
-
-{% include 'course-vars', coursedata: module %}
+{% include 'course-vars' %}
 
 {% include 'header' %}
-
-<hr>
 
 <main id="main">
     {{ module.templateContent }}
 </main>
 
-<hr>
-
 <aside>
   {% include 'using-the-site' %}
   {% include 'course-nav' %}
 </aside>
-
-<hr>
-
-<hr>
 
 <footer>
   &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
