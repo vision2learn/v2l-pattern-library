@@ -1,0 +1,23 @@
+.l-page {
+  // display: grid;
+  // grid-template-columns: 1fr [main-start] minmax(auto, 64.5rem) [main-end] 1fr;
+}
+
+.l-head {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  // grid-template-columns: 1fr repeat(auto-fill, 1fr) 190px 1fr;
+  grid-template-areas: 
+    "logo"
+    "nav"
+    "details";
+    padding: .5rem 1rem;
+
+  @media (min-width: 40em) {
+    grid-template-columns: 1fr 182px;
+    grid-template-rows: max-content max-content;
+    grid-template-areas: 
+      "nav logo"
+      "details details";
+  }
+}

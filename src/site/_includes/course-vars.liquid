@@ -1,22 +1,19 @@
-{%- assign course = coursedata.data -%}
-{%- assign course-data = all-courses[course.course] -%}
-{%- assign this-course = course.course -%}
-{%- assign unitIndex = course.unit | minus: 1 -%}
-{%- assign sessionIndex = course.session | minus: 1 -%}
-{%- assign this-unit = course-data.units[unitIndex].title -%}
-{%- assign this-session = course-data.units[unitIndex].sessions[sessionIndex] -%}
+{% comment %} 
+  Maps to the all-courses.json file in the _data directory. Course structure is detailed there
+  module.data is the pagination object (from calling file, course.liquid), so module.data is the data object for each specific page in the collection
+{% endcomment %}
 
-{%- assign units = course-data.units -%}
+{% comment %} Get course info for this specific page {% endcomment %}
+{%- assign course-data = all-courses[module.data.course] -%}
 
-{%- for unit in units -%}
-  {%- if unit.title ==  this-unit -%}
-    {%- assign unit-num = forloop.index -%}
-    {%- assign currentUnit = unit -%}
-  {%- endif -%}
-{%- endfor -%}
+{% comment %} Gets unit number from session-x.11tydata file, and subtracts by 1 for array looping {% endcomment %}
+{%- assign unit-index = module.data.unit | minus: 1 -%}
 
-{%- for session in currentUnit.sessions -%}
-  {%- if session == session-title -%}
-    {%- assign session-num = forloop.index -%}
-  {%- endif -%}
-{%- endfor -%}
+{% comment %} Gets session number from session-x.11tydata file, and subtracts by 1 for array looping {% endcomment %}
+{%- assign session-index = module.data.session | minus: 1 -%}
+
+{% comment %} Gets unit name from all-courses.json using unit number as index {% endcomment %}
+{%- assign this-unit = course-data.units[unit-index].title -%}
+
+{% comment %} Gets session name from all-courses.json using session number as index {% endcomment %}
+{%- assign this-session = course-data.units[unit-index].sessions[session-index] -%}
