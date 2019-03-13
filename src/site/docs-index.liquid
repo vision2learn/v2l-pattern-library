@@ -12,7 +12,7 @@ permalink: /documentation/
   <ul>
     {%- for item in collections.docs -%}
       <li>
-        <a href="{{ item.url }}" {%- if item.data.core -%}data-v2l-patterngroup="core"{%- endif -%}>{{ item.fileSlug | capitalize }}</a>
+        <a href="{{ item.url }}" {%- if item.data.core -%}data-v2l-patterngroup="core"{%- endif -%}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
       </li>
     {%- endfor -%}
   </ul>
