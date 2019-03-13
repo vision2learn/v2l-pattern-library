@@ -21,3 +21,43 @@
       "details details";
   }
 }
+
+.l-vc,
+%l-vc {
+  display: flex;
+  align-items: center;
+}
+
+.l-quiz {
+  display: grid;
+  grid-template-rows: repeat(3, minmax(50px, max-content));
+  grid-auto-rows: minmax(50px, max-content);
+  // grid-gap: 3px;
+}
+
+.l-btn-group {
+  padding: 0;
+
+  li,
+  a {
+    align-items: center;
+  }
+
+  li {
+    display: block;
+    padding: .2rem;
+  }
+
+  @media (min-width: 37.5em) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      display: flex;
+      padding: 0;
+      justify-content: center;
+      line-height: 0; // weird Safari bug
+    }
+  }
+}

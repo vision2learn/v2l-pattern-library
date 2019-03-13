@@ -14,7 +14,7 @@ theme:
 {%- endfor -%} {% endcomment %}
 
 <header>
-  <h1>Component: {{ page.fileSlug | capitalize }}</h1>
+  <h1>Component: {{ page.fileSlug | capitalize | replace: '-', ' '}}</h1>
 
   {%- if desc -%}
     <p>
