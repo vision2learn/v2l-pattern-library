@@ -6,7 +6,7 @@
   <ul class="l-btn-group">
     {%- for session in course-data.units[unit-index].sessions -%}
       <li>
-        {% include 'unit-overview-btn', num: forloop.index %}
+        {% include 'unit-overview-button', num: forloop.index %}
       </li>
     {%- endfor -%}
   </ul>
