@@ -1,66 +1,32 @@
+{% comment %} Get course data {% endcomment %}
+{% include 'course-vars' %}
+
+<h2>Unit overview</h2>
 <div class="tabbed ">
   <ul class="l-btn-group">
-    <li>
-      <a href="#section1" id="tab1" class="c-unit-btn">
-        <span>1</span>
-      </a>
-    </li>
-    <li>
-      <a href="#section2" id="tab2" class="c-unit-btn">
-        <span>2</span>
-      </a>
-    </li>
-    <li>
-      <a href="#section3" id="tab3" class="c-unit-btn">
-        <span>3</span>
-      </a>
-    </li>
-    <li>
-      <a href="#section4" id="tab4" class="c-unit-btn">
-        <span>4</span>
-      </a>
-    </li>
+    {%- for session in course-data.units[unit-index].sessions -%}
+      <li>
+        {% include 'unit-overview-btn', num: forloop.index %}
+      </li>
+    {%- endfor -%}
   </ul>
 
-  <section id="section1">
-    <h2>Section 1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, tortor nec pharetra ultricies, ante erat
-      imperdiet
-      velit, nec laoreet enim lacus a velit.
-      <a href="#">Nam luctus</a>, enim in interdum condimentum, nisl diam iaculis lorem, vel volutpat mi leo sit amet
-      lectus. Praesent
-      non odio bibendum magna bibendum accumsan.</p>
-  </section>
-
-  <section id="section2">
-    <h2>Section 2</h2>
-    <p>Nullam at diam nec arcu suscipit auctor non a erat. Sed et magna semper, eleifend magna non, facilisis nisl.
-      Proin
-      et est et lorem dictum finibus ut nec turpis. Aenean nisi tortor, euismod a mauris a, mattis scelerisque
-      tortor.
-      Sed dolor risus, varius a nibh id, condimentum lacinia est. In lacinia cursus odio a aliquam. Curabitur tortor
-      magna,
-      laoreet ut rhoncus at, sodales consequat tellus.</p>
-  </section>
-
-  <section id="section3">
-    <h2>Section 3</h2>
-    <p>Phasellus ac tristique orci. Nulla maximus
-      <a href="">justo nec dignissim consequat</a>. Sed vehicula diam sit amet mi efficitur vehicula in in nisl.
-      Aliquam erat volutpat.
-      Suspendisse lorem turpis, accumsan consequat consectetur gravida,
-      <a href="#">pellentesque ac ante</a>. Aliquam in commodo ligula, sit amet mollis neque. Vestibulum at facilisis
-      massa.</p>
-  </section>
-
-  <section id="section4">
-    <h2>Section 4</h2>
-    <p>Nam luctus, enim in interdum condimentum, nisl diam iaculis lorem, vel volutpat mi leo sit amet lectus.
-      Praesent non
-      odio bibendum magna bibendum accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod,
-      tortor
-      nec pharetra ultricies, ante erat imperdiet velit, nec laoreet enim lacus a velit. </p>
-  </section>
+  {%- for session in course-data.units[unit-index].sessions -%}
+    <section id="section{{ forloop.index }}">
+      <h2>Session {{ forloop.index }} - "{{ session[0] | capitalize }}" topics:</h2>
+      <ul>
+        {%- for item in session[1] -%}
+          <li>{{ item }}</li>
+        {%- endfor -%}
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod, tortor nec pharetra ultricies, ante erat
+        imperdiet
+        velit, nec laoreet enim lacus a velit.
+        <a href="#">Nam luctus</a>, enim in interdum condimentum, nisl diam iaculis lorem, vel volutpat mi leo sit amet
+        lectus. Praesent
+        non odio bibendum magna bibendum accumsan.</p>
+    </section>
+  {%- endfor -%}
 </div>
 
 

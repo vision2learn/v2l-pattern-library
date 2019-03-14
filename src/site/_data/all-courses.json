@@ -4,28 +4,67 @@
     "units": [
       {
         "title": "lean organisation techniques in business",
-        "sessions": [
-          "a lean environment",
-          "the productivity needs analysis process",
-          "producing a process map"
-        ]
+        "sessions": {
+          "a lean environment": [
+            "The history of lean organisation",
+            "Key lean terms",
+            "Five principles of lean organisation",
+            "Seven types of waste",
+            "Benefits of a lean environment"
+          ],
+          "the productivity needs analysis process": [
+            "Productivity",
+            "Measuring performance",
+            "Areas of productivity measures",
+            "Scales of organisation",
+            "Measuring organisation productivity",
+            "Stakeholders and customer voice",
+            "Scorecards",
+            "Selecting appropriate measures",
+            "The four steps of Priority",
+            "Using the Productivity Needs Analysis"
+          ],
+          "producing a process map": [
+            "Mapping processes",
+            "Symbols and terminology",
+            "Flowchart process",
+            "Detailed process maps",
+            "Customer voice",
+            "Processes and value",
+            "Analysing process maps"
+          ]
+        }
       },
       {
         "title": "business improvement tools and techniques",
-        "sessions": [
-          "continuous improvement techniques",
-          "principles and techniques of workplace organisation",
-          "use visual indicators to improve the work environment",
-          "eliminate variance from processes in the workplace" 
-        ]
+        "sessions": {
+          "continuous improvement techniques": [
+
+          ],
+          "principles and techniques of workplace organisation": [
+
+          ],
+          "use visual indicators to improve the work environment": [
+
+          ],
+          "eliminate variance from processes in the workplace": [
+
+          ] 
+        }
       },
       {
         "title": "working in business teams",
-        "sessions": [
-          "making an effective team",
-          "working effectively in a team",
-          "the role of team leader"
-        ]
+        "sessions": {
+          "making an effective team": [
+
+          ],
+          "working effectively in a team": [
+
+          ],
+          "the role of team leader": [
+
+          ]
+        }
       }
     ]
   }
