@@ -13,8 +13,11 @@ theme:
   {%- endif -%}
 {%- endfor -%} {% endcomment %}
 
+{% comment %} Use the dummy data file to populate components {% endcomment %}
+{%- assign data = default-data[page.fileSlug] -%}
+
 <header>
-  <h1>Component: {{ page.fileSlug | capitalize }}</h1>
+  <h1>Component: {{ page.fileSlug | capitalize | replace: '-', ' '}}</h1>
 
   {%- if desc -%}
     <p>
