@@ -7,6 +7,16 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% include 'header' %}
 
 <main id="main">
+    {%- if module.data.intro -%}
+      <p>
+        {{ module.data.intro }}
+      </p>
+    {%- endif -%}
+    
+    {%- if pagination.pageNumber == 0 -%}
+      {%- include 'unit-overview-tabs' -%}
+    {%- endif -%}
+    
     {{ module.templateContent }}
 </main>
 
