@@ -25,12 +25,19 @@
   }
 }
 
+[hidden] {
+  display: none;
+}
+
 /* Reset the box model and zero margins... */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;  /* TODO: Zeroing all margins could be too destructive? */
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -46,6 +53,16 @@ body {
   @supports(--a: 0) {
     line-height: var(--flow);
   }
+}
+
+// For IE
+main,
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
 }
 
 /* Text */
@@ -66,31 +83,7 @@ p a {
     outline: none;
   }
 
-  /* 
-    Stops underlines on links from crashing into decenders.
-    This is for browsers which don't support text-decoration-skip-ink: auto
-    e.g. Firefox
-  */
-  @supports(background-image: linear-gradient(to left, #fff 0%, #fff 100%)) {
-    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
-    background-repeat: repeat-x;
-    background-position: bottom .05em center;
-    background-size: 100% .05em;
-    text-decoration: none;
-    text-shadow: .05em 0 0 #fff, -.05em 0 0 #fff,
-                  0 .05em 0 #fff, 0 -.05em 0 #fff,
-                  .1em 0 0 #fff, -.1em 0 0 #fff,
-                  0 .1em 0 #fff, 0 -.1em 0 #fff;
-  }
-
-  // Official syntax
-  // Chrome, Opera etc
-  @supports(text-decoration-skip-ink: auto) {
-    background: unset;
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
-    text-shadow: unset;
-  }
+  text-decoration-skip-ink: auto;
 }
 
 q,
@@ -214,6 +207,27 @@ select {
   & option {
     font-weight:normal;
   }
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+
+  &::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+
+  &:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
 }
 
 main * + blockquote,
