@@ -3,6 +3,21 @@
   // grid-template-columns: 1fr [main-start] minmax(auto, 64.5rem) [main-end] 1fr;
 }
 
+body {
+  > header,
+  > main > section,
+  > aside,
+  > footer {
+    display: grid;
+    grid-template-columns: minmax(.5rem, 1fr) minmax(auto, 62.5rem) minmax(.5rem, 1fr);
+    
+    > * {
+      grid-column: 2 / span 1;
+    }
+  }
+}
+
+
 .l-head {
   display: grid;
   grid-row-gap: 1.5rem;
@@ -12,6 +27,11 @@
     "nav"
     "details";
     padding: .5rem 1rem;
+
+  @supports (display: grid) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   @media (min-width: 40em) {
     grid-template-columns: 1fr 182px;
