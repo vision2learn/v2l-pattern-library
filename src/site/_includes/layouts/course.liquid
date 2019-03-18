@@ -7,17 +7,14 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% include 'header' %}
 
 <main id="main">
-    {%- if module.data.intro -%}
-      <p>
-        {{ module.data.intro }}
-      </p>
-    {%- endif -%}
-    
-    {%- if pagination.pageNumber == 0 -%}
-      {%- include 'unit-overview-tabs' -%}
-    {%- endif -%}
-    
-    {{ module.templateContent }}
+  
+  {% include 'banner' %}
+  
+  {%- if pagination.pageNumber == 0 -%}
+    {%- include 'unit-overview-tabs' -%}
+  {%- endif -%}
+  
+  {{ module.templateContent }}
 </main>
 
 <aside>
@@ -26,5 +23,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 </aside>
 
 <footer>
-  &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
+  <small>
+    &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
+  </small>
 </footer>

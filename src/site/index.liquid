@@ -1,7 +1,17 @@
 ---
-layout: layouts/default.liquid
+layout: layouts/longform.liquid
 test: lean management 2
 ---
+
+<h2>Components</h2>
+
+<ul>
+  {%- for item in collections.docs -%}
+    <li>
+      <a href="{{ item.url }}" {%- if item.data.core -%}data-v2l-patterngroup="core"{%- endif -%}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
+    </li>
+  {%- endfor -%}
+</ul>
 
 {%- assign ids = "lm-2-u1-s1, lm-2-u1-s2" | split: ', '-%}
 
