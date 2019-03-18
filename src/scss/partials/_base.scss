@@ -146,7 +146,8 @@ main * + * {
 // Don't follow the flow system if the element is part of a component.
 // All components have classes prefixed with "c-"
 // [class*="c-"],
-[class*="c-"] > * {
+// TODO: Flow system isn't working really
+[class*="c-"] > *:not(p) {
   margin: 0;
 }
 
@@ -355,6 +356,11 @@ input:focus {
 
 .v2l-logo {
   max-width: 190px;
+  height: 40px; // IE11
+
+  @supports (display: grid) {
+    height: auto;
+  }
 }
 // .c-pagination li > a:focus::after,
 // .c-pagination li > a:hover::after {

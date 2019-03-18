@@ -381,3 +381,30 @@ button svg {
 .c-btn-group {
   background-color: lightslategrey;
 }
+
+
+.c-banner {
+  display: grid;
+  grid-template-columns: minmax(.5rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(.5rem, 1fr);
+  grid-template-rows: 3rem max-content minmax(1rem, 1fr);
+
+  min-height: 36vw; // maintains aspect ratio
+
+  &__text {
+    background-color: rgba(0,0,0,.9);
+    color: #fff;
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    z-index: 1;
+  }
+
+  img {
+    grid-area: 1 / 1 / -1 / -1;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.boxout {
+  padding: 2em;
+}

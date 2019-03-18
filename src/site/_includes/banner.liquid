@@ -1,0 +1,14 @@
+{%- unless module -%}
+  {%- assign banner = default-data.banner -%}
+{%- else -%}
+  {%- assign banner-img = module.data.banner | prepend: '/images/banners/' -%}
+{%- endunless -%}
+<section class="c-banner">
+  <div class="c-banner__text boxout">
+    <h1>{{ module.data.title | default: banner.title }}</h1>
+    <p>
+      {{ module.data.intro | default: banner.text }}
+    </p>
+  </div>
+  <img src="{{ banner-img | default: banner.img }}" alt="">
+</section>
