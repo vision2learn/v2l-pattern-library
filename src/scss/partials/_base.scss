@@ -53,6 +53,10 @@ body {
   @supports(--a: 0) {
     line-height: var(--flow);
   }
+
+  &.component {
+    margin-top: 0;
+  }
 }
 
 // For IE
@@ -126,7 +130,7 @@ nav {
 // TODO: What about <sections>
 // main * + *:not([class^="c-"]),
 // main * + *:not([class^="c-"] > *) {
-main * + * {
+* + p {
   margin-top: 1.5rem;
 
   @supports(--a: 0) {
@@ -147,9 +151,9 @@ main * + * {
 // All components have classes prefixed with "c-"
 // [class*="c-"],
 // TODO: Flow system isn't working really
-[class*="c-"] > *:not(p) {
-  margin: 0;
-}
+// [class*="c-"] > *:not(p) {
+//   margin: 0;
+// }
 
 li,
 dt,

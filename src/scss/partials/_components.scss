@@ -398,7 +398,7 @@ button svg {
     z-index: 1;
   }
 
-  img {
+  &__img {
     grid-area: 1 / 1 / -1 / -1;
     object-fit: cover;
     height: 100%;
