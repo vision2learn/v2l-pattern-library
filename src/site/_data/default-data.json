@@ -9,5 +9,10 @@
   },
   "unit-overview-tabs": {
     "key": "val"
+  },
+  "banner": {
+    "img": "https://via.placeholder.com/1000x360?text=Placeholder",
+    "title": "Page title",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate asperiores error dolorem consequatur porro quasi atque sapiente aliquid ullam, soluta non quibusdam saepe aut iure, ut est? Quam, quasi!"
   }
 }
