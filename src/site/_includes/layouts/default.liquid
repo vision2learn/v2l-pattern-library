@@ -10,8 +10,13 @@
     <link rel="stylesheet" href="/css/themes/{{ theme.name }}.css">
   {%- endif -%}
 </head>
-<body class="l-page">
-  <a href="#main" class="skip-link X visually-hidden">Skip to main content</a>
+
+{%- if tags[0] == "components" -%}
+  {%- assign body-class = "component" -%}
+{%- endif -%}
+
+<body class="{{ body-class }}">
+  <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
   {{ content }}
   <script src="/js/script.js"></script>
 </body>
