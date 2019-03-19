@@ -13,7 +13,7 @@ test: lean management 2
   {%- endfor -%}
 </ul>
 
-{%- assign ids = "lm-2-u1-s1, lm-2-u1-s2" | split: ', '-%}
+{%- assign ids = "lm-2-u1-s1, lm-2-u1-s2, ba-1-u1-s1" | split: ', '-%}
 
 {%- for id in ids -%}
   {%- include 'logic-pagination', mod: id -%}
