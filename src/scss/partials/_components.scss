@@ -114,6 +114,7 @@
 
 .v2l-logo {
   grid-area: logo;
+  width: 100%;
   max-width: 190px;
   height: 40px; // IE11
 
@@ -455,7 +456,7 @@ button svg {
   display: grid;
   grid-template-columns: minmax(.5rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(.5rem, 1fr);
   grid-template-rows: 3rem max-content minmax(1rem, 1fr);
-
+  position: relative;
   min-height: 36vw; // maintains aspect ratio
 
   &__text {
@@ -469,6 +470,8 @@ button svg {
   &__img {
     grid-area: 1 / 1 / -1 / -1;
     object-fit: cover;
+    position: absolute; // Safari is being weird
+    width: 100%;
     height: 100%;
   }
 }
