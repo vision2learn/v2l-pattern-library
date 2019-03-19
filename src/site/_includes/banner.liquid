@@ -3,7 +3,7 @@
 {%- else -%}
   {%- assign banner-img = module.data.banner | prepend: '/images/banners/' -%}
 {%- endunless -%}
-<header class="c-banner">
+<section class="c-banner">
   <div class="c-banner__text boxout">
     <h1>{{ module.data.title | default: banner.title }}</h1>
     <p>
@@ -11,4 +11,4 @@
     </p>
   </div>
   <img src="{{ banner-img | default: banner.img }}" class="c-banner__img" alt="">
-</header>
+</section>

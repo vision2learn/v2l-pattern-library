@@ -29,6 +29,10 @@
   display: none;
 }
 
+:focus {
+  outline: solid 2px dodgerblue;
+}
+
 /* Reset the box model and zero margins... */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -298,6 +302,10 @@ input:focus {
   outline: solid 2px #bada55;
 }
 
+svg {
+  fill: currentColor;
+  width: 1em;
+}
 
 // ******************************************************** //
 
@@ -318,60 +326,3 @@ input:focus {
     }
   }
 }
-
-.c-pagination {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  width: 100%;
-
-  &__prev {
-    order: -1;
-  }
-
-  &__next {
-    order: 2;
-  }
-
-  li {
-    display: inline-block; /* Fallback */
-    display: inline-flex;
-    flex: 1;
-    
-    > {
-      a {
-    
-        flex: 1;
-        padding: .5em 0;
-        text-align: center;
-    
-        &::after {
-          content: ". " attr(data-v2l-pagetitle);
-          position: absolute;
-          width: 1px;
-          height: 1px;
-          overflow: hidden;
-          clip: rect(1px, 1px, 1px, 1px);
-        }
-      }
-    }
-  }
-}
-
-.v2l-logo {
-  max-width: 190px;
-  height: 40px; // IE11
-
-  @supports (display: grid) {
-    height: auto;
-  }
-}
-// .c-pagination li > a:focus::after,
-// .c-pagination li > a:hover::after {
-//   content: ". " attr(data-v2l-pagetitle);
-//   position: static;
-//   width: auto;
-//   height: auto;
-//   overflow: unset;
-//   clip: unset;
-// } 
