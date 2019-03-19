@@ -1,40 +1,63 @@
 .c-main-head {
   background-color: #000;
+  border-bottom: solid currentColor 5px;
   color: #fff;
+
+  nav {
+    display: flex;
+    grid-area: pagination;
+
+    // &::before {
+    //   content: "Pages: "
+    // }
+
+    a {
+      transition: transform .1s ease-in-out;
+    }
+
+    a:hover,
+    a:focus {
+      transform: scale(1.5);
+    }
+
+    [aria-current="page"] {
+      background: #fff;
+      color: #000;
+    }
+  }
 
   &__details {
     font-size: 1.125em; // 18px @ 16px base
     grid-area: details;
+    margin-top: 0;
 
     span {
       display: block;
     }
   }
 
-  nav {
-    grid-area: nav;
-    
-    ul {
-      list-style: none;
-      padding-left: 0;
-      display: flex;
-      flex-wrap: wrap;
-      // gap: .5em;
-      justify-content: flex-start;
+  &__sessions {
+    grid-area: session-nav;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    // gap: .5em;
+    justify-content: flex-start;
 
-      li {
-        display: inline-block;
-        margin: 0 .5em 10px 0;
+    li {
+      display: inline-block;
+      margin: 0 .5em 10px 0;
 
-        // @supports (row-gap: 1px) {
-        //   margin: 0;
-        // }
+      // @supports (row-gap: 1px) {
+      //   margin: 0;
+      // }
 
-        a {
-          color: currentColor;
-          border-top: solid 4px;
-          display: block;
-        }
+      a {
+        color: currentColor;
+        border-top: solid 4px;
+        display: block;
+        text-decoration: none;
       }
     }
   }
@@ -50,8 +73,53 @@
   }
 }
 
+.c-pagination {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 100%;
+
+  &__prev {
+    order: -1;
+  }
+
+  &__next {
+    order: 2;
+  }
+
+  li {
+    display: inline-block; /* Fallback */
+    display: inline-flex;
+    flex: 1;
+    
+    > {
+      a {
+    
+        flex: 1;
+        padding: .5em 0;
+        text-align: center;
+    
+        &::after {
+          content: ". " attr(data-v2l-pagetitle);
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          clip: rect(1px, 1px, 1px, 1px);
+        }
+      }
+    }
+  }
+}
+
 .v2l-logo {
   grid-area: logo;
+  max-width: 190px;
+  height: 40px; // IE11
+
+  @supports (display: grid) {
+    height: auto;
+  }
 }
 
 .c-quiz {

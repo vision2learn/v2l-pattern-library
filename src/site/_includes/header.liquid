@@ -17,12 +17,13 @@
       <span>Unit {{ module.data.unit | default: "X"}} of {{ course-data.units.size }}: {{ this-unit | default: "Unit Name" | capitalize }}</span>
       <span class="c-main-head__session">Session {{ module.data.session | default: "X"}} of {{ sessions.size }}: {{ this-session | default: "Session Name" | capitalize }}</span>
     </p>
-    <nav aria-label="sessions in unit {{ module.data.unit | default: 'X' }}">
-      <ul class="">
-        {%- for session in course-data.units[unit-index].sessions -%}
-          <li><a href="abc" {% if forloop.index == module.data.unit %} aria-current="step" {% endif %}>Session {{ forloop.index }}</a></li>
-        {%- endfor -%}
-      </ul>
-    </nav>
+    
+    {% include 'pagination' %}
+    
+    <ul class="c-main-head__sessions" aria-label="sessions in unit {{ module.data.unit | default: 'X' }}">
+      {%- for session in course-data.units[unit-index].sessions -%}
+        <li><a href="abc" {% if forloop.index == module.data.unit %} aria-current="step" {% endif %}>Session {{ forloop.index }}</a></li>
+      {%- endfor -%}
+    </ul>
   </div>
 </header>
