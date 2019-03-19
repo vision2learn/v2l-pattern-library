@@ -1,25 +1,30 @@
 {% include 'logic/pagination' %}
+<nav aria-labelledby="pagination">
+  <ol role="list" class="c-pagination">
+    {%- if pagination.previousPageHref -%}
+      <li class="c-pagination__prev">
+        <a href="{{ pagination.previousPageHref }}">
+          <i class="visually-hidden">Previous Page</i>
+          {% include 'icon', icon: 'chevron-left' %}
+        </a>  
+      </li>
+    {%- endif -%}
 
-<ol role="list" class="c-pagination">
-  {%- if pagination.previousPageHref -%}
-    <li class="c-pagination__prev">
-      <a href="{{ pagination.previousPageHref }}"><i class="visually-hidden">Previous Page</i>&lt;</a>  
-    </li>
-  {%- endif -%}
+    {% comment %} TODO: Re-order visually with CSS {% endcomment %}
+    {%- if pagination.nextPageHref -%}
+      <li class="c-pagination__next">
+        <a href="{{ pagination.nextPageHref }}">
+          <i class="visually-hidden">Next Page</i>
+          {% include 'icon', icon: 'chevron-right' %}
+        </a>
+      </li>
+    {%- endif -%}
 
-  {% comment %} TODO: Re-order visually with CSS {% endcomment %}
-  {%- if pagination.nextPageHref -%}
-    <li class="c-pagination__next">
-      <a href="{{ pagination.nextPageHref }}"><i class="visually-hidden">Next Page</i>&gt;</a>
-    </li>
-  {%- endif -%}
-
-  {%- for href in pagination.hrefs -%}
-    {% comment %} TODO: Review component with VoiceOver {% endcomment %}
-    <li role="listitem">
-      <a href="{{ page-urls[forloop.index0] | prepend: '/courses/' }}" data-v2l-pagetitle="{{ page-titles[forloop.index0] }}" aria-labelX="{{ page-titles[forloop.index0] }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
-    </li>
-  {%- endfor -%}
-
-</ol>
-
+    {%- for href in pagination.hrefs -%}
+      {% comment %} TODO: Review component with VoiceOver {% endcomment %}
+      <li role="listitem">
+        <a href="{{ href | prepend: '/courses/' }}" data-v2l-pagetitle="{{ page-titles[forloop.index0] }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+      </li>
+    {%- endfor -%}
+  </ol>
+</nav>

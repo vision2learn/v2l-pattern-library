@@ -24,8 +24,9 @@ body {
   // grid-template-columns: 1fr repeat(auto-fill, 1fr) 190px 1fr;
   grid-template-areas: 
     "logo"
-    "nav"
-    "details";
+    "session-nav"
+    "details"
+    "pagination";
     padding: .5rem 1rem;
 
   @supports (display: grid) {
@@ -37,8 +38,9 @@ body {
     grid-template-columns: 1fr 182px;
     grid-template-rows: max-content max-content;
     grid-template-areas: 
-      "nav logo"
-      "details details";
+      "session-nav logo"
+      "details details"
+      "pagination pagination";
   }
 }
 
