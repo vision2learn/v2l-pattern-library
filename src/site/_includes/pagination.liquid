@@ -1,8 +1,7 @@
-{% include 'logic/pagination' %}
-<nav aria-labelledby="pagination">
-  <ol role="list" class="c-pagination">
+<nav>
+  <ol aria-label="Pages in this session" role="list" class="c-pagination">
     {%- if pagination.previousPageHref -%}
-      <li class="c-pagination__prev">
+      <li class="c-pagination__prev" role="listitem">
         <a href="{{ pagination.previousPageHref }}">
           <i class="visually-hidden">Previous Page</i>
           {% include 'icon', icon: 'chevron-left' %}
@@ -12,7 +11,7 @@
 
     {% comment %} TODO: Re-order visually with CSS {% endcomment %}
     {%- if pagination.nextPageHref -%}
-      <li class="c-pagination__next">
+      <li class="c-pagination__next" role="listitem">
         <a href="{{ pagination.nextPageHref }}">
           <i class="visually-hidden">Next Page</i>
           {% include 'icon', icon: 'chevron-right' %}
@@ -23,7 +22,7 @@
     {%- for href in pagination.hrefs -%}
       {% comment %} TODO: Review component with VoiceOver {% endcomment %}
       <li role="listitem">
-        <a href="{{ href | prepend: '/courses/' }}" data-v2l-pagetitle="{{ page-titles[forloop.index0] }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
+        <a href="{{ href }}" data-v2l-pagetitle="{{ page-titles[forloop.index0] }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ forloop.index }}</a>
       </li>
     {%- endfor -%}
   </ol>

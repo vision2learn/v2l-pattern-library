@@ -29,6 +29,10 @@
   display: none;
 }
 
+:focus {
+  outline: solid 2px dodgerblue;
+}
+
 /* Reset the box model and zero margins... */
 *, *::before, *::after {
   box-sizing: border-box;
