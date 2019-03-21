@@ -1,6 +1,9 @@
 .c-main-head {
-  background-color: #000;
-  border-bottom: solid currentColor 5px;
+  background-color: rgb(37, 40, 43);
+  border-width: 0;
+  border-style: solid;
+  border-color: var(--primary1);
+  border-bottom-width: 5px;
   color: #fff;
 
   nav {
@@ -47,7 +50,7 @@
     }
 
     [aria-current="step"] {
-      color: dodgerblue;
+      color: var(--primary1);
     }
   }
 
@@ -89,7 +92,7 @@
     // height: 3em; // creates a 48px square box
      
     > a {
-      background-color: #000;
+      // background-color: #000;
       border-radius: 100%;  
       display: flex;
       height: 100%;
@@ -99,11 +102,11 @@
       
       &:hover,
       &:focus {
-        filter: invert(1);
+        color: var(--primary1);
       }
 
       &[aria-current="page"] {
-        background-color: dodgerblue;
+        background-color: var(--primary1);
         filter: unset;
       }
     }
@@ -346,7 +349,7 @@
   button {
     position: absolute;
     top: 0;
-    color: currentColor;
+    color: var(--secondary1);
     background: none;
     border: none;
     border-radius: 0;
@@ -369,6 +372,7 @@
 
 .touch #instructions p {
   display: none !important;
+  margin-top: 0;
 }
 
 .touch #instructions #touch {
@@ -398,14 +402,14 @@ button svg {
 
 // Big Button
 .c-unit-btn {
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.3);
   border-radius: 45px;
-  border: solid 3px currentColor;
+  // border: solid 3px currentColor;
   color: #fff;
   font-size: 1.2em;
   font-family: sans-serif; // Windows is being weird with Segoe UI's vertical centering :'('
   text-shadow: 1px 1px 2px rgba(0,0,0,.6);
-  box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,.6);
+  // box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,.6);
   display: flex;
   text-decoration: none;
   width: 100%;
@@ -455,7 +459,7 @@ button svg {
   min-height: 36vw; // maintains aspect ratio
 
   &__text {
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(37, 40, 43, .9);
     color: #fff;
     grid-column: 2 / span 1;
     grid-row: 2;
@@ -473,4 +477,25 @@ button svg {
 
 .boxout {
   padding: 2em;
+}
+
+.c-reveal-block {
+  position: relative;
+  overflow: hidden;
+
+  &__icon {
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+  }
+
+  &__desc {
+    background-color: #fff;
+    padding: 1em;
+    position: absolute;
+    top: 100%;
+    transition: top .3s ease-in-out;
+    will-change: top;
+    width: 100%;
+    height: 100%;
+  }
 }
