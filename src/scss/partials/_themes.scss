@@ -1,0 +1,25 @@
+[class^="t-bg-primary"],
+[class^="t-bg-secondary"] {
+  color: #fff;
+}
+
+.t-bg-primary {
+  background-color: var(--primary1);
+}
+
+.t-bg-primary2 {
+  background-color: var(--primary3);
+}
+
+.t-bg-white {
+  background-color: #fff;
+  color: var(--secondary1);
+}
+
+.t-bg-secondary2 {
+  background-color: var(--secondary2);
+}
+
+.t-bg-grey {
+  background-color: var(--supporting2);
+}

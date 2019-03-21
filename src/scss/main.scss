@@ -1,7 +1,17 @@
 @import "partials/base";
+@import "partials/themes";
 @import "partials/components";
 @import "partials/layout";
 
 .debug {
   outline: dotted 2px lawngreen;
+}
+
+
+// Catch bad code
+img:not([alt]),
+label:not([for]),
+a:not([href]),
+a[href="#"] {
+  outline: dotted red 1px;
 }

@@ -1,13 +1,13 @@
 {% comment %} Get course data {% endcomment %}
 {% include 'course-vars' %}
 
-<section>
+<section class="t-bg-primaryX">
   <h2>Unit overview</h2>
   <p>
     Press on each circle below to see which learning topics will be covered in each Session of Unit {{ unit-num }}. 
   </p>
   <div class="tabbed ">
-    <ul class="l-btn-group">
+    <ul class="l-btn-group t-bg-primary">
       {%- for session in course-data.units[unit-index].sessions -%}
         <li>
           {% include 'unit-overview-button', num: forloop.index %}
