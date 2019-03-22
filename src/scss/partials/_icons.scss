@@ -1,0 +1,43 @@
+[class*="i-"] h2 {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+  }
+}
+
+.i-quiz h2::before {
+  content: url(/images/svg/Quiz_Course_Feature.svg);
+}
+
+.i-on-web h2::before {
+  content: url(/images/svg/Web_Course_Feature.svg);
+}
+
+.i-summary h2::before {
+  content: url(/images/svg/Summary_Course_Feature.svg);
+}
+
+.i-stretch h2::before {
+  content: url(/images/svg/Stretch_Course_Feature.svg);
+}
+
+.i-keypoint h2::before {
+  content: url(/images/svg/KeyPoint_Course_Feature.svg);
+}
+
+.i-think h2::before {
+  content: url(/images/svg/Think_Course_Feature.svg);
+}
+
+.i-read h2::before {
+  content: url(/images/svg/Read_Course_Feature.svg);
+}
+
+.i-watch h2::before {
+  content: url(/images/svg/Watch_Course_Feature.svg);
+}
