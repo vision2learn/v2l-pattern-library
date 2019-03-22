@@ -227,6 +227,7 @@
 
 // // Slider
 .c-slider {
+  padding-left: 0;
   position: relative;
   counter-reset: slides;
 
@@ -294,6 +295,7 @@
     .visible &::after {
       content: "Slide " counter(slides) " of " attr(data-v2l-count);
       position: absolute;
+      color: var(--secondary1);
       bottom: 3.5rem;
       right: 3.5rem;
       background: #fff;
