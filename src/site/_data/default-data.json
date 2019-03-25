@@ -7,6 +7,48 @@
       "id": "Course ID"
     }
   },
+  "course-features": [
+    {
+      "title": "on the web",
+      "desc": "See links to useful websites and videos that can help you to take your learning further.",
+      "icon": "web2"
+    },
+    {
+      "title": "quick quiz",
+      "desc": "Quick quizzes are a great way to test your knowledge.",
+      "icon": "quiz2"
+    },
+    {
+      "title": "summary",
+      "desc": "Read key summaries of content covered so far in the course materials.",
+      "icon": "summary2"
+    },
+    {
+      "title": "stretch",
+      "desc": "These optional activities help you to expand your knowledge and explore the subject further.",
+      "icon": "stretch2"
+    },
+    {
+      "title": "key point",
+      "desc": "Use these to reflect on how you will answer the Assessment questions.",
+      "icon": "keypoint2"
+    },
+    {
+      "title": "time to think",
+      "desc": "Note your ideas in the box provided. Use them to help answer Assessment questions.",
+      "icon": "think2"
+    },
+    {
+      "title": "read all about it",
+      "desc": "",
+      "icon": "read2"
+    },
+    {
+      "title": "watch",
+      "desc": "",
+      "icon": "watch2"
+    }
+  ],
   "unit-overview-tabs": {
     "key": "val"
   },
