@@ -66,33 +66,36 @@ var Toolkit = (function () {
 
       // Add the required aria attributes to the show/hide components
       _ariaControls.forEach(function (item) {
-        var controlled = document.querySelector(
-          '#' + item.getAttribute('data-controls')
-        ); // the region/element this button shows/hides
+        var controlled = item.nextElementSibling;
         controlled.setAttribute('aria-hidden', true);
 
+        // replace the image with a button then inject the image into the button
+        var img = item.cloneNode();
+        var parent = item.parentNode;
+
         // get the innerText of the element and remove it
-        var text = item.innerText;
-        item.innerText = "";
+        // var text = item.innerText;
+        // item.innerText = "";
 
         // inject a button into the element and give it the text from above
         var btn = Toolkit.createElement('button');
-        btn.innerText = text;
-        item.appendChild(btn);
+        btn.appendChild(img);
+        parent.replaceChild(btn, item);
 
         btn.setAttribute('class', "a11y-btn");
         btn.setAttribute('aria-expanded', "false");
-        btn.setAttribute('aria-controls', item.getAttribute('data-controls'));
+        // btn.setAttribute('aria-controls', item.getAttribute('data-controls'));
       });
 
       // attach onclick events to controls
       Toolkit.addHandler(document.querySelectorAll("button[aria-expanded=false]"), 'click', function () {
         // toggle aria-expanded property of button
-        Toolkit.toggleAttr(this, 'aria-expanded', 'true', 'false');
-
+        // Toolkit.toggleAttr(this, 'aria-expanded', 'true', 'false');
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        var target = this.nextElementSibling;
+        this.setAttribute('aria-expanded', !expanded);
         // check aria-hidden status of sibling and toggle
-        var hiddenEl = document.getElementById(this.getAttribute('aria-controls'));
-        Toolkit.toggleAttr(hiddenEl, 'aria-hidden', 'true', 'false');
+        target.setAttribute('aria-hidden', expanded);
       });
     }
   };
