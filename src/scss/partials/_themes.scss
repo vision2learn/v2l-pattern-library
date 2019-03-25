@@ -1,6 +1,9 @@
 [class^="t-bg-primary"],
 [class^="t-bg-secondary"] {
-  color: #fff;
+
+  @supports (--a: 0) {
+    color: #fff;
+  }
 }
 
 .t-bg-primary {
