@@ -15,6 +15,11 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   {%- endif -%}
   
   {{ module.templateContent }}
+
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
+    {% include "submitting-assessments" %}
+  {%- endif -%}
+
 </main>
 
 <aside hidden>
