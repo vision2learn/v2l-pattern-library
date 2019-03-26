@@ -65,6 +65,7 @@
   }
 }
 
+// TODO: Fix pagination so that it doesn't wrap. Go back to flexbox?
 .c-pagination {
   display: flex; // fallback
   display: grid;
@@ -73,6 +74,11 @@
   flex-wrap: wrap;
   list-style-type: none;
   width: 100%;
+
+  &::before {
+    content: "Page: ";
+    align-self: center;
+  }
 
   @supports (display: grid) {
     justify-content: space-between;

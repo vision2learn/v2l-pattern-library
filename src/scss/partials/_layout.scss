@@ -118,13 +118,17 @@ main > section:not(.c-banner) {
     padding-right: 0;
   }
 
-  @media (min-width: 40em) {
-    grid-template-columns: 1fr 182px;
+  @media (min-width: 50em) {
+    grid-template-columns: 5fr 1fr 182px;
+    grid-column-gap: 1rem;
     grid-template-rows: max-content max-content;
     grid-template-areas: 
-      "session-nav logo"
-      "details details"
-      "pagination pagination";
+      "session-nav . logo"
+      "details pagination pagination";
+
+    nav {
+      align-self: end;
+    }
   }
 }
 
