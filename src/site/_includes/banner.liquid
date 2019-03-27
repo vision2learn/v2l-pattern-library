@@ -6,9 +6,9 @@
 <section class="c-banner">
   <div class="c-banner__text boxout">
     <h1>{{ module.data.title | default: banner.title }}</h1>
-    <p>
-      {{ module.data.intro | default: banner.text }}
-    </p>
+    {% comment %} <p> {% endcomment %}
+      {{ module.data.intro | default: banner.text | escape | markdownify }}
+    {% comment %} </p> {% endcomment %}
   </div>
   <img src="{{ banner-img | default: banner.img }}" class="c-banner__img" alt="">
 </section>
