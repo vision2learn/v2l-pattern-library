@@ -1,0 +1,50 @@
+{%- set sentences = defaultdata.wordQuiz.sentences -%}
+
+{#  Build answers list  #}
+{% set answerList = [] %}
+
+{%- for answer, question in sentences | groupby('answer') -%}
+  {% set x = answerList.push(answer.toLowerCase()) %}
+{%- endfor -%}
+
+{# Build options #}
+{% set options %}
+  <option>---</option>
+  {%- for answer in answerList %}
+    <option value='{{ loop.index }}'>{{ answer | upper }}</option>
+  {% endfor -%}
+{% endset %}
+
+<p>Add the correct words from the word bank and into the following sentences:</p>
+
+<h3>Word Bank</h3>
+  <ul>
+    {%- for answer in answerList | sort -%}
+      <li>{{ answer | title }}</li>
+    {%- endfor -%}
+  </ul>
+
+
+<form class="c-wordbank">
+  <ol class="c-wordbank__questions">
+    {%- for item in sentences -%}
+      {%- set id = 'q' + loop.index -%}
+      {% set dropdown %}
+        <select id="{{ id }}" name="{{ id }}" class="c-wordbank__options">
+          {{ options | safe }}
+        </select>
+      {% endset %}
+      {%- set sentence = item.sentence | replace(item.answer, dropdown) | safe -%}
+      
+      <li data-v2l-q="{{ loop.index }}">
+        <label class="visually-hidden" for="{{ id }}">Select the correct word for question {{ loop.index }}</label>
+        <p>
+          {{ sentence }}
+        </p>
+      </li>
+    {%- endfor -%}
+  </ol>
+</form>
+
+
+ 
