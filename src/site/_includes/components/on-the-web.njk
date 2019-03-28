@@ -1,0 +1,10 @@
+<h2>On the web</h2>
+<p>
+  The following websites are all useful sources of information:
+</p>
+
+<ul>
+  {% for i in range(0, 5) %}
+    <li>{{ "https://google.com" | urlize | safe }}</li>
+  {% endfor %}
+</ul>

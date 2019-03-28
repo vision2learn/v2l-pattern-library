@@ -1,0 +1,119 @@
+<svg style="display:none">
+  <symbol id="icon-chevron-left" viewBox="0 0 10 10">
+    <path fill="currentColor" d="m9 4h-4v-2l-4 3 4 3v-2h4z"/>
+  </symbol>
+  <symbol id="icon-chevron-right" viewBox="0 0 10 10">
+    <path fill="currentColor" d="m1 4h4v-2l4 3-4 3v-2h-4z"/>
+  </symbol>
+</svg>
+
+<div class="gallery c-slider">
+  <div class="c-slider__container" role="region" tabindex="0" aria-describedby="instructions" aria-labelledby="slider-label">
+    <span class="visually-hidden" id="slider-label">{{ components.slider.slider-title }}</span>
+    <ul role="list">
+      {%- for slide in components.slider.slides -%}
+        <li role="listitem">
+          <h3>{{ slide.title }}</h3>
+          <p>{{ slide.text }}</p>
+          <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ components.slider.slides.size }}"></span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div id="instructions" class="c-slider__instructions">
+    <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-left"></use></svg>
+    <p id="touch">swipe for more</p>
+    <p id="hover">scroll for more</p>
+    <p id="focus">use your arrow keys for more</p>
+    <p id="hover-and-focus">scroll or use arrow keys for more</p>
+    <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-right"/></svg>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+(function () {
+  /* touch detection */
+  window.addEventListener('touchstart', function touched() {
+    document.body.classList.add('touch');
+    window.removeEventListener('touchstart', touched, false);
+  }, false);
+
+  /* lazy loading and button controls */
+  var slider = document.querySelector('.c-slider__container');
+  var slides = slider.querySelectorAll('li');
+  var instructions = document.getElementById('instructions');
+
+  //Array.prototype.forEach.call(slides, function (slide) {
+  //  slide.querySelector('a').setAttribute('tabindex', '-1');
+  //});
+
+  var observerSettings = {
+    root: slider,
+    rootMargin: '-10px'
+  };
+
+  
+  if ('IntersectionObserver' in window) {
+    
+    var scrollIt = function scrollIt(slideToShow) {
+      console.log("scrollIt");
+      var scrollPos = Array.prototype.indexOf.call(slides, slideToShow) * (slider.scrollWidth / slides.length);
+      slider.scrollLeft = scrollPos;
+    };
+
+    var showSlide = function showSlide(dir, slides) {
+      console.log("showSlide");
+      var visible = document.querySelectorAll('.c-slider__container .visible');
+      var i = dir === 'previous' ? 0 : 1;
+
+      if (visible.length > 1) {
+        scrollIt(visible[i]);
+      } else {
+        var newSlide = i === 0 ? visible[0].previousElementSibling : visible[0].nextElementSibling;
+        if (newSlide) {
+          scrollIt(newSlide);
+        }
+      }
+    };
+
+    var callback = function callback(slides, observer) {
+      console.log("callback");
+      Array.prototype.forEach.call(slides, function (entry) {
+        entry.target.classList.remove('visible');
+        //var link = entry.target.querySelector('a');
+        //link.setAttribute('tabindex', '-1');
+
+        if (!entry.intersectionRatio > 0) {
+          return;
+        }
+        
+        //var img = entry.target.querySelector('img');
+        //console.log(img);
+        //if (img.dataset.src) {
+        //  img.setAttribute('src', img.dataset.src);
+        //  img.removeAttribute('data-src');
+        //}
+        entry.target.classList.add('visible');
+        //link.removeAttribute('tabindex', '-1');
+      });
+    };
+
+    var observer = new IntersectionObserver(callback, observerSettings);
+    Array.prototype.forEach.call(slides, function (t) {
+      return observer.observe(t);
+    });
+
+    var controls = document.createElement('ul');
+    controls.setAttribute('aria-label', 'slider controls');
+    controls.innerHTML = '\n    <li><button type="button" id="previous" aria-label="previous">\n      <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-left"></use></svg>\n    </button></li>\n    <li><button type="button" id="next" aria-label="next">\n      <svg aria-hidden="true" focusable="false"><use xlink:href="#icon-chevron-right"/></svg>\n    </button></li>\n    ';
+    instructions.parentNode.insertBefore(controls, instructions.nextElementSibling);
+    instructions.parentNode.style.padding = '0 3rem';
+
+    controls.addEventListener('click', function (e) {
+      showSlide(e.target.closest('button').id, slides);
+    });
+  }
+})();
+</script>

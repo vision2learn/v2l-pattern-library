@@ -6,15 +6,22 @@ layout: layouts/course2
   {% block section %}
     <section id="{{ section.title | replace(' ', '-')}}" {% if section.theme %}class="{{ section.theme }}"
     {% endif %}>
+
+    {% if section.include %}
+      {% include 'components/' + section.include + '.njk' ignore missing %}
+    {% elseif section.layout == "media" or section.layout == "media-rev" %}
+      {% include 'components/media.njk' ignore missing %}
+    {% else %}
       <h2>{{ section.title | title }}</h2>
       
       {% if section.copy %}
         {{ section.copy | markdownify | safe }}
       {% endif %}
 
-      {% if section.include %}
-        {% include 'components/' + section.include + '.njk' ignore missing %}
+      {% if section.subInc %}
+        {% include 'components/' + section.subInc + '.njk' ignore missing %}
       {% endif %}
+    {% endif %}
     </section>
   {% endblock section %}
 {% endfor %}
