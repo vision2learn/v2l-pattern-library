@@ -1,0 +1,27 @@
+{# {% comment %} 
+  TODO: role=list & listitem?
+  TODO: Refactor: don't need separate <form> elements now
+{% endcomment %} #}
+
+{%- for question, answers in components.quickQuiz -%}
+  <form action="#q{{ loop.index }}" class="c-quiz c-quiz--quick l-quiz" id="q{{ loop.index }}">
+  {%- set topIndex = loop.index -%}
+    <fieldset class="l-quiz">
+      <legend class="c-quiz__legend l-vc">{{ question | capitalize }}</legend>
+      
+      {%- for response, result in answers.answers -%}
+        <div class="c-quiz__answer l-vc">
+          <input type="radio" class="c-quiz__control" name="quick-quiz" id="q{{ topIndex }}-a{{ loop.index }}">
+          <label for="q{{ topIndex }}-a{{ loop.index }}" data-v2l-correct="{{ result }}"> 
+            {{ response | capitalize }}
+          </label>
+        </div>
+      {%- endfor -%}
+
+    </fieldset>
+    <input type="submit" value="Show question feedback">
+    <p class="c-quiz__fb" hidden>
+      {{ answers.feedback }}
+    </p>
+  </form>
+{%- endfor -%}
