@@ -1,0 +1,94 @@
+{
+  "module": {
+    "data": {
+      "course": "Course Name",
+      "unit": 1,
+      "session": 1,
+      "id": "Course ID"
+    }
+  },
+  "courseFeatures": [
+    {
+      "title": "on the web",
+      "desc": "See links to useful websites and videos that can help you to take your learning further.",
+      "icon": "web2"
+    },
+    {
+      "title": "quick quiz",
+      "desc": "Quick quizzes are a great way to test your knowledge.",
+      "icon": "quiz2"
+    },
+    {
+      "title": "summary",
+      "desc": "Read key summaries of content covered so far in the course materials.",
+      "icon": "summary2"
+    },
+    {
+      "title": "stretch",
+      "desc": "These optional activities help you to expand your knowledge and explore the subject further.",
+      "icon": "stretch2"
+    },
+    {
+      "title": "key point",
+      "desc": "Use these to reflect on how you will answer the Assessment questions.",
+      "icon": "keypoint2"
+    },
+    {
+      "title": "time to think",
+      "desc": "Note your ideas in the box provided. Use them to help answer Assessment questions.",
+      "icon": "think2"
+    },
+    {
+      "title": "read all about it",
+      "desc": "",
+      "icon": "read2"
+    },
+    {
+      "title": "watch",
+      "desc": "",
+      "icon": "watch2"
+    }
+  ],
+  "unitOverviewTabs": {
+    "key": "val"
+  },
+  "banner": {
+    "img": "https://via.placeholder.com/1000x360?text=Placeholder",
+    "title": "Page title",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptate asperiores error dolorem consequatur porro quasi atque sapiente aliquid ullam, soluta non quibusdam saepe aut iure, ut est? Quam, quasi!"
+  },
+  "multiChoiceQuiz": {
+    "question": "Take away the suit and what are you?",
+    "answers": {
+      "Billionaire": true,
+      "Playboy": true,
+      "Philanthropist": false,
+      "Iron Man": true
+    },
+    "feedback": "All of the above are true"
+  },
+  "wordQuiz": {
+    "sentences": [
+      {
+        "sentence": "Statutory employment rights address the legal rights of every employee in the country",
+        "answer": "Statutory"
+      },
+      {
+        "sentence": "Many small businesses provide their employees with access to a stakeholder pension scheme",
+        "answer": "stakeholder"
+      },
+      {
+        "sentence": "The Equality Act 2010 protects women from being paid less than men for doing the same job",
+        "answer": "Equality Act 2010"
+      },
+      {
+        "sentence": "The Working Time Regulations provide employees with the right to paid annual leave",
+        "answer": "annual leave"
+      },
+      {
+        "sentence": "The Data Protection Act 1998 restricts the use of personal data an organisation can hold about someone",
+        "answer": "personal data"
+      }
+    ]
+  }
+}
