@@ -1,0 +1,20 @@
+---
+layout: layouts/course2
+---
+
+{% for section in module.data.sections %}
+  {% block section %}
+    <section id="{{ section.title | replace(' ', '-')}}" {% if section.theme %}class="{{ section.theme }}"
+    {% endif %}>
+      <h2>{{ section.title | title }}</h2>
+      
+      {% if section.copy %}
+        {{ section.copy | markdownify | safe }}
+      {% endif %}
+
+      {% if section.include %}
+        {% include 'components/' + section.include + '.njk' ignore missing %}
+      {% endif %}
+    </section>
+  {% endblock section %}
+{% endfor %}
