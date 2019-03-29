@@ -1,0 +1,12 @@
+<ul class="l-icon-grid">
+{%- for feature in default-data.course-features -%}
+{%- assign iconpath = feature.icon | prepend: 'course-features/' -%}
+<li class="c-reveal-block">
+  {% comment %} TODO: Fix SVG colour issues {% include 'icon', icon: iconpath %} {% endcomment %}
+  <img class="c-reveal-block__icon js-showhide" src="/images/svg/{{ iconpath | append: '.svg' }}" alt="{{ feature.title }}">
+  <div class="c-reveal-block__desc">
+    <h3 aria-hidden="true">{{ feature.title | capitalize }}</h3>
+    <p>{{ feature.desc }}</p>
+  </div>
+</li>
+{%- endfor -%}

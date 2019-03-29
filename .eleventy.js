@@ -43,7 +43,8 @@ module.exports = function(config) {
       output: "dist",
       data: "_data"
     },
-    // templateFormats : ["njk", "md"],
+    templateFormats : ["njk", "liquid", "html", "md"],
+    dataTemplateEngine: "njk",
     // htmlTemplateEngine : "njk",
     // markdownTemplateEngine : "njk",
     passthroughFileCopy: true
