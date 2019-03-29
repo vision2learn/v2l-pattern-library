@@ -2,7 +2,7 @@
 
 :root {
   --flow: 1.5;
-  --highlight: dodgerblue;
+  --highlight: #d6006d;
 
   --primary1: #00a6e0;
   --primary2: #007da8;
@@ -33,7 +33,6 @@
     height: auto;
     clip: auto;
     padding: .5em;
-    border: solid yellow;
   }
 }
 
@@ -42,7 +41,7 @@
 }
 
 :focus {
-  outline: solid 2px dodgerblue;
+  outline: solid 2px var(--highlight);
 }
 
 /* Reset the box model and zero margins... */
@@ -302,7 +301,7 @@ input:focus {
 
 svg {
   fill: currentColor;
-  width: 1em;
+  // width: 1em;
 }
 
 // ******************************************************** //
