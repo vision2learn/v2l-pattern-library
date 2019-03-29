@@ -2,26 +2,67 @@
 layout: layouts/course2
 ---
 
-{% for section in module.data.sections %}
-  {% block section %}
-    <section id="{{ section.title | replace(' ', '-')}}" {% if section.theme %}class="{{ section.theme }}"
-    {% endif %}>
+{% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
-    {% if section.include %}
-      {% include 'components/' + section.include + '.njk' ignore missing %}
-    {% elseif section.layout == "media" or section.layout == "media-rev" %}
-      {% include 'components/media.njk' ignore missing %}
-    {% else %}
-      <h2>{{ section.title | title }}</h2>
-      
-      {% if section.copy %}
-        {{ section.copy | markdownify | safe }}
-      {% endif %}
+{# TODO: Logic for section 1 only #}
+{% if pagination.pageNumber == 990 %}
+  <p>Page 1</p>
+{% elseif pagination.pageNumber == 991 %}
+  <p>Page 2</p>
+{% elseif lastPage %}
+  <section class="t-bg-grey i-quiz">
+    {% include 'components/quick-quiz.njk' ignore missing %}
+  </section>
 
-      {% if section.subInc %}
-        {% include 'components/' + section.subInc + '.njk' ignore missing %}
+  <section class="t-bg-primary2 i-think">
+    {% include 'components/time-to-think.njk' ignore missing %}
+  </section>
+
+  <section class="t-bg-grey">
+    <div class="l-media">
+      <h2 class="l-media__title">Unit assessment</h2>
+      <p class="l-media__body">
+        Complete Part {{ module.data.session }} of your Unit {{ module.data.unit }} Assessment which counts towards your qualiﬁcation.
+         Remember to save the document to your computer. Use your notes and answers from your Time to Think and Forum entries to help you. 
+         Select the following icon to go to your assessment. 
+      </p>
+      <img class="l-media__img" src="/images/svg/Assessment_button.svg" alt="">
+    </div>
+  </section>
+
+  {% include 'submitting-assessments.liquid' ignore missing %}
+
+  <section>
+    <div class="l-media">
+      <h2 class="l-media__title">Ready to move on?</h2>
+      <p class="l-media__body">
+        Once you’ve completed the relevant part of the Assessment you can move on to Session 2.
+      </p>
+      <img class="l-media__img" src="/images/svg/Next_button.svg" alt="">
+    </div>
+  </section>
+{% else %}
+  {% for section in module.data.sections %}
+    {% block section %}
+      <section id="{{ section.title | replace(' ', '-')}}" {% if section.theme %}class="{{ section.theme }}"
+      {% endif %}>
+
+      {% if section.include %}
+        {% include 'components/' + section.include + '.njk' ignore missing %}
+      {% elseif section.layout == "media" or section.layout == "media-rev" %}
+        {% include 'components/media.njk' ignore missing %}
+      {% else %}
+        <h2>{{ section.title | title }}</h2>
+        
+        {% if section.copy %}
+          {{ section.copy | markdownify | safe }}
+        {% endif %}
+
+        {% if section.subInc %}
+          {% include 'components/' + section.subInc + '.njk' ignore missing %}
+        {% endif %}
       {% endif %}
-    {% endif %}
-    </section>
-  {% endblock section %}
-{% endfor %}
+      </section>
+    {% endblock section %}
+  {% endfor %}
+{% endif %}
