@@ -1,0 +1,6 @@
+{% for reveal in section.subInc.content %}
+  <details>
+    <summary>{{ reveal.title | d("Title " + loop.index) }}</summary>
+    {{ reveal.copy | markdownify | safe }}
+  </details>
+{% endfor %}
