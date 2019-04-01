@@ -44,7 +44,7 @@ layout: layouts/course2
 {% else %}
   {% for section in module.data.sections %}
     {% block section %}
-      <section id="{{ section.title | replace(' ', '-')}}" {% if section.theme %}class="{{ section.theme }}"
+      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"
       {% endif %}>
 
       {% if section.include %}
@@ -59,7 +59,14 @@ layout: layouts/course2
         {% endif %}
 
         {% if section.subInc %}
-          {% include 'components/' + section.subInc + '.njk' ignore missing %}
+          {# Is this a basic or more complex include type? #}
+          {% set inc = section.subInc %}
+
+          {% if section.subInc.type %}
+            {% set inc = section.subInc.type %}
+          {% endif %}
+
+          {% include 'components/' + inc + '.njk' ignore missing %}
         {% endif %}
       {% endif %}
       </section>
