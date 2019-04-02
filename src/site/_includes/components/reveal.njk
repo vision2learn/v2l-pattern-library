@@ -1,6 +1,8 @@
 {% for reveal in section.subInc.content %}
-  <details>
-    <summary>{{ reveal.title | d("Title " + loop.index) }}</summary>
+  <details class="c-reveal boxout-medium">
+    <summary>
+      <h3>{{ reveal.title | d("Title " + loop.index) }}</h3>
+    </summary>
     {{ reveal.copy | markdownify | safe }}
   </details>
 {% endfor %}
