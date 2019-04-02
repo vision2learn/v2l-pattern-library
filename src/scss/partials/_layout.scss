@@ -50,6 +50,18 @@ main > section:not(.c-banner) {
   }
 }
 
+.boxout {
+  padding: 2em;
+
+  &-medium {
+    padding: 1em;
+  }
+
+  &-small {
+    padding: .5em;
+  }
+}
+
 .l-media {
   display: grid;
   grid-gap: 1.5rem 4rem;
