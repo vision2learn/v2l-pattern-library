@@ -9,7 +9,7 @@ body {
   > aside,
   > footer {
     display: grid;
-    grid-template-columns: minmax(.5rem, 1fr) minmax(auto, 62.5rem) minmax(.5rem, 1fr);
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 62.5rem) minmax(1rem, 1fr);
     
     > * {
       grid-column: 2 / span 1;
