@@ -1,12 +1,9 @@
 {% if section.include %}
   {%- set sentences = section.include.content -%}
-  <!-- 1 -->
 {% elseif section.subInc %}
   {%- set sentences = section.subInc.content -%}
-  <!-- 2 -->
 {% else %}
   {%- set sentences = defaultdata.wordQuiz.sentences -%}
-  <!-- 3 -->
 {% endif %}
 
 

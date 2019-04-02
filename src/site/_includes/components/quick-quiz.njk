@@ -3,7 +3,15 @@
   TODO: Refactor: don't need separate <form> elements now
 {% endcomment %} #}
 
-{%- for question, answers in components.quickQuiz -%}
+{% if section.include %}
+  {%- set quiz = section.include.content -%}
+{% elseif section.subInc %}
+  {%- set quiz = section.subInc.content -%}
+{% else %}
+  {%- set quiz = defaultdata.wordQuiz.sentences -%}
+{% endif %}
+
+{%- for question, answers in quiz -%}
   <form action="#q{{ loop.index }}" class="c-quiz c-quiz--quick l-quiz" id="q{{ loop.index }}">
   {%- set topIndex = loop.index -%}
     <fieldset class="l-quiz">
