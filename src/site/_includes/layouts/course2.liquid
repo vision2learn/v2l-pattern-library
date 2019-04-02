@@ -20,7 +20,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   {{ content | safe }}
 
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
-    {% include "submitting-assessments" %}
+    {% include "submitting-assessments.njk" %}
   {%- endif -%}
 
 </main>
