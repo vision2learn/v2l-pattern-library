@@ -52,7 +52,7 @@ layout: layouts/course2
       {% endif %}>
 
       {% if section.include %}
-        {% include 'components/' + section.include + '.njk' ignore missing %}
+        {% include 'components/' + section.include.type + '.njk' ignore missing %}
       {% elseif section.layout == "media" or section.layout == "media-rev" %}
         {% include 'components/media.njk' ignore missing %}
       {% else %}
