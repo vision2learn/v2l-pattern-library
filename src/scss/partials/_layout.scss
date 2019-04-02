@@ -61,7 +61,7 @@ main > section:not(.c-banner) {
     ". img img img .";
 
   @media (min-width: 500px) {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: auto auto;
     grid-template-rows: max-content max-content;
     grid-template-areas:
       "title img"
@@ -80,6 +80,7 @@ main > section:not(.c-banner) {
   }
   
   &__title {
+    align-self: end;
     grid-area: title;
   }
 
@@ -93,11 +94,14 @@ main > section:not(.c-banner) {
     align-self: center;
     display: block;
     margin: auto;
-    max-width: 40%; // fallback
+    
+    > img,
+    > svg {
+      max-width: 300px;
+    }
 
     @supports (display: grid) {
       margin: unset;
-      max-width: unset;
     }
   }
 }
