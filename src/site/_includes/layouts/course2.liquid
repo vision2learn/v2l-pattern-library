@@ -2,16 +2,16 @@
 layout: layouts/default
 permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html
 ---
-{% include 'course-vars' %}
+{% include 'course-vars.liquid' %}
 
-{% include 'header' %}
+{% include 'header.liquid' %}
 
 <main id="main">
   
-  {% include 'banner' %}
+  {% include 'banner.liquid' %}
   
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
-    {%- include 'unit-overview-tabs' -%}
+    {%- include 'unit-overview-tabs.liquid' -%}
   {%- endif -%}
   
   <!-- module.templateContent --> 
@@ -20,14 +20,18 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   {{ content | safe }}
 
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
+    <section>
+      <h2>Course features</h2>
+      {% include "course-features.liquid" %}
+    </section>
     {% include "submitting-assessments.njk" %}
   {%- endif -%}
 
 </main>
 
 <aside hidden>
-  {% include 'using-the-site' %}
-  {% include 'course-nav' %}
+  {% include 'using-the-site.liquid' %}
+  {% include 'course-nav.liquid' %}
 </aside>
 
 <footer>
