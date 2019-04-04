@@ -9,7 +9,7 @@ body {
   > aside,
   > footer {
     display: grid;
-    grid-template-columns: minmax(.5rem, 1fr) minmax(auto, 62.5rem) minmax(.5rem, 1fr);
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 62.5rem) minmax(1rem, 1fr);
     
     > * {
       grid-column: 2 / span 1;
@@ -50,6 +50,18 @@ main > section:not(.c-banner) {
   }
 }
 
+.boxout {
+  padding: 2em;
+
+  &-medium {
+    padding: 1em;
+  }
+
+  &-small {
+    padding: .5em;
+  }
+}
+
 .l-media {
   display: grid;
   grid-gap: 1.5rem 4rem;
@@ -61,7 +73,7 @@ main > section:not(.c-banner) {
     ". img img img .";
 
   @media (min-width: 500px) {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: auto auto;
     grid-template-rows: max-content max-content;
     grid-template-areas:
       "title img"
@@ -80,6 +92,7 @@ main > section:not(.c-banner) {
   }
   
   &__title {
+    align-self: end;
     grid-area: title;
   }
 
@@ -93,11 +106,14 @@ main > section:not(.c-banner) {
     align-self: center;
     display: block;
     margin: auto;
-    max-width: 40%; // fallback
+    
+    > img,
+    > svg {
+      max-width: 300px;
+    }
 
     @supports (display: grid) {
       margin: unset;
-      max-width: unset;
     }
   }
 }

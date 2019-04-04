@@ -1,10 +1,10 @@
 <h2>On the web</h2>
 <p>
-  The following websites are all useful sources of information:
+  {{ section.include.copy | d("The following websites are all useful sources of information:") | markdownify | safe }}
 </p>
 
 <ul>
-  {% for i in range(0, 5) %}
-    <li>{{ "https://google.com" | urlize | safe }}</li>
+  {% for text, link in section.include.links %}
+    <li><a href="{{ link }}">{{ text }}</a></li>
   {% endfor %}
 </ul>
