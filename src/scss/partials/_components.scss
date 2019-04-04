@@ -461,7 +461,7 @@ button svg {
 
 .c-banner {
   display: grid;
-  grid-template-columns: minmax(.5rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(.5rem, 1fr);
+  grid-template-columns: minmax(1rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(1rem, 1fr);
   grid-template-rows: 3rem max-content minmax(1rem, 1fr);
   position: relative;
   min-height: 36vw; // maintains aspect ratio
@@ -481,10 +481,6 @@ button svg {
     width: 100%;
     height: 100%;
   }
-}
-
-.boxout {
-  padding: 2em;
 }
 
 .c-reveal-block {
@@ -544,6 +540,26 @@ button svg {
       position: absolute;
       margin-top: 0;
       top: 0;
+    }
+  }
+}
+
+.c-reveal {
+  color: var(--primary1);
+  border: solid 1px;
+  margin-top: calc(var(--flow) * 1em);
+
+  summary {
+    display: block;
+    
+    h3::after {
+      content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="28"><path d="M22 11.5v3a1.5 1.5 0 0 1-1.5 1.5H14v6.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 8 22.5V16H1.5A1.5 1.5 0 0 1 0 14.5v-3A1.5 1.5 0 0 1 1.5 10H8V3.5A1.5 1.5 0 0 1 9.5 2h3A1.5 1.5 0 0 1 14 3.5V10h6.5a1.5 1.5 0 0 1 1.5 1.5z"/></svg>');
+    }
+  }
+
+  &[open] {
+    h3::after {
+      content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="28"><path d="M22 11.5v3a1.5 1.5 0 0 1-1.5 1.5h-19A1.5 1.5 0 0 1 0 14.5v-3A1.5 1.5 0 0 1 1.5 10h19a1.5 1.5 0 0 1 1.5 1.5z"/></svg>');
     }
   }
 }
