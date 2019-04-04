@@ -14,7 +14,7 @@
 {%- endunless -%}
 
 {% comment %} Get course info for this specific page {% endcomment %}
-{%- assign course-data = all-courses[course] -%}
+{%- assign course-data = allcourses[course] -%}
 
 {% comment %} Gets unit number from session-x.11tydata file, and subtracts by 1 for array looping {% endcomment %}
 {%- assign unit-index = unit | minus: 1 -%}
