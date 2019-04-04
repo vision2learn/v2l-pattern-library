@@ -1,4 +1,11 @@
-{%- set sentences = defaultdata.wordQuiz.sentences -%}
+{% if section.include %}
+  {%- set sentences = section.include.content -%}
+{% elseif section.subInc %}
+  {%- set sentences = section.subInc.content -%}
+{% else %}
+  {%- set sentences = defaultdata.wordQuiz.sentences -%}
+{% endif %}
+
 
 {#  Build answers list  #}
 {% set answerList = [] %}
