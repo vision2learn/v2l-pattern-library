@@ -4,7 +4,7 @@
 
 {%- unless module.data -%}
   {%- assign module = default-data.module -%}
-  {%- assign course-data = all-courses["lean management"] -%}
+  {%- assign course-data = allcourses["lean management"] -%}
   {%- assign unit-index = 1 -%}
   {%- assign session-index = 1 -%}
 {%- endunless -%}
@@ -24,7 +24,7 @@
     
     <ul class="c-main-head__sessions" aria-label="sessions in unit {{ module.data.unit | default: 'X' }}">
       {%- for session in course-data.units[unit-index].sessions -%}
-        <li><a href="abc" {% if forloop.index == module.data.unit %} aria-current="step" {% endif %}>Session {{ forloop.index }}</a></li>
+        <li><a href="/courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ forloop.index }}/0/" {% if forloop.index == module.data.session %} aria-current="step" {% endif %}>Session {{ forloop.index }}</a></li>
       {%- endfor -%}
     </ul>
   </div>
