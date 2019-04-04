@@ -6,16 +6,26 @@
     <path fill="currentColor" d="m1 4h4v-2l4 3-4 3v-2h-4z"/>
   </symbol>
 </svg>
+{% if section %}
+  {% set slideData = section.subInc.slides %}
+{% else %}
+  {% set slideData = components.slider.slides %}
+{% endif %}
 
 <div class="gallery c-slider">
   <div class="c-slider__container" role="region" tabindex="0" aria-describedby="instructions" aria-labelledby="slider-label">
-    <span class="visually-hidden" id="slider-label">{{ components.slider.slider-title }}</span>
+    <span class="visually-hidden" id="slider-label">{{ section.subInc.title }}</span>
     <ul role="list">
-      {%- for slide in components.slider.slides -%}
-        <li role="listitem">
-          <h3>{{ slide.title }}</h3>
-          <p>{{ slide.text }}</p>
-          <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ components.slider.slides.size }}"></span>
+      {%- for slide in slideData -%}
+        <li role="listitem" class="l-media">
+          <h3 class="l-media__title">{{ slide.title | safe }}</h3>
+          <div class="l-media__body">
+            <p>{{ slide.text | markdownify | safe }}</p>
+          </div>
+          {% if slideData.img %}
+            <img class="l-media__img" src="{{ slideData.img }}">
+          {% endif %}
+          <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span>
         </li>
       {%- endfor -%}
     </ul>
