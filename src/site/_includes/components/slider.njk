@@ -22,8 +22,8 @@
           <div class="l-media__body">
             <p>{{ slide.text | markdownify | safe }}</p>
           </div>
-          {% if slideData.img %}
-            <img class="l-media__img" src="{{ slideData.img }}">
+          {% if slide.img %}
+            <img class="l-media__img" src="{{ slide.img }}">
           {% endif %}
           <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span>
         </li>
