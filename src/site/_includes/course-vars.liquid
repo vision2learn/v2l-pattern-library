@@ -32,9 +32,9 @@
   {%- assign sessions = sessions | append: session[0] -%}
 
   {%- unless forloop.last -%}
-    {%- assign sessions = sessions | append: ',' -%}
+    {%- assign sessions = sessions | append: ':' -%}
   {%- else -%}
-    {%- assign sessions = sessions | split: ',' -%}
+    {%- assign sessions = sessions | split: ':' -%}
   {%- endunless -%}
 {%- endfor -%}
 
