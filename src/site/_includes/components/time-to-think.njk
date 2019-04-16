@@ -1,10 +1,10 @@
 <div class="l-media l-media--half">
   <h2 class="l-media__title">Time to think {% if lastPage %}- Summary{% endif %}</h2>
   <div class="l-media__body">
-    {# {{ tttIntro }} TODO: Implement? #}
-    <p>
-      Write your thoughts in the following text box and then <b>save</b> to your journal.
-    </p>
+    <!-- {{ section.include | dump }} -->
+    {% if section.include.copy %}
+      {{ section.include.copy | markdownify | safe }}
+    {% endif %}
     <p>
       <em>You can reference your journal entries to help you with your assessment at the end of this session and unit.</em>
     </p>
