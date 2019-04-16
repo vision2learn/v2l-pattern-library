@@ -64,7 +64,7 @@ main > section:not(.c-banner) {
 
 .l-media {
   display: grid;
-  grid-gap: 1.5rem 4rem;
+  grid-gap: 1.5rem 2rem;
 
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas:
@@ -73,7 +73,7 @@ main > section:not(.c-banner) {
     ". img img img .";
 
   @media (min-width: 500px) {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 35%;
     grid-template-rows: max-content max-content;
     grid-template-areas:
       "title img"
