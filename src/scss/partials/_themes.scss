@@ -11,18 +11,47 @@
 }
 
 .t-bg-primary2 {
+  background-color: var(--primary2);
+}
+
+.t-bg-primary3 {
+  background-color: var(--primary3);
+}
+
+.t-bg-primary2 {
   background-color: var(--primary3);
 }
 
 .t-bg-white {
   background-color: #fff;
-  color: var(--secondary1);
+}
+
+.t-bg-secondary1 {
+  background-color: var(--secondary1);
 }
 
 .t-bg-secondary2 {
   background-color: var(--secondary2);
 }
 
+.t-bg-secondary3 {
+  background-color: var(--secondary3);
+}
+
+.t-bg-supporting1 {
+  background-color: var(--supporting1);
+}
+
+.t-bg-supporting2 {
+  background-color: var(--supporting2);
+}
+
 .t-bg-grey {
   background-color: var(--supporting2);
+}
+
+.t-bg-white,
+.t-bg-supporting1,
+.t-bg-supporting2 {
+  color: var(--secondary1);
 }
