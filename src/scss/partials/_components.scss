@@ -270,31 +270,6 @@
       scroll-snap-align: start;
       counter-increment: slides;
     }
-
-    &:focus,
-    &:hover {
-      + #instructions svg {
-        display: inline;
-      }
-    }
-
-    &:focus + #instructions #focus,
-    &:hover + #instructions #hover {
-      display: block;
-    }
-
-    &:hover + #instructions #hover + #focus {
-      display: none;
-    }
-
-    &:hover:focus + #instructions #hover, 
-    &:hover:focus + #instructions #focus {
-      display: none;
-    }
-
-    &:hover:focus + #instructions #hover-and-focus {
-      display: block;
-    }
   }
 
   &__count {
@@ -338,9 +313,11 @@
     fill: currentColor;
     vertical-align: -.5rem;
   }
-  
 }
 
+.gallery .l-media {
+  // grid-template-columns: auto 30%;
+}
 
 .c-slider__container:focus, 
 [aria-label="slider controls"] button:focus {
