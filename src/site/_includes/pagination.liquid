@@ -1,4 +1,4 @@
-<nav>
+<nav {% if class %}class="{{ class }}"{% endif %}>
   <ol aria-label="Pages in this session" role="list" class="c-pagination">
     {%- if pagination.previousPageHref -%}
       <li class="c-pagination__prev" role="listitem">
