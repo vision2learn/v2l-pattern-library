@@ -202,12 +202,13 @@ main > section:not(.c-banner) {
   flex-wrap: wrap;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fill, 120px);
   grid-auto-rows: max-content;
   grid-gap: 2em;
 
   > li {
     flex: 1 1 14em;
+    grid-column-end: span 2;
   }
 }
 
