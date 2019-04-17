@@ -155,7 +155,10 @@ nav {
 // TODO: What about <sections>
 // main * + *:not([class^="c-"]),
 // main * + *:not([class^="c-"] > *) {
-* + p {
+* + p,
+* + ul:not([class]),
+* + ol,
+* + div:not(.gallery) {
   margin-top: 1.5rem;
 
   @supports(--a: 0) {
