@@ -5,5 +5,14 @@
   <div class="l-media__body">
     {{ section.copy | markdownify | safe }}
   </div>
-  <img class="l-media__img" src="{{ section.img }}" alt="">
+  {% if section.img %}
+    <img class="l-media__img" src="{{ section.img }}" alt="">
+  {% elseif section.video %}
+    <video controls class="l-media__img">
+        <source src="/videos/{{ section.video }}"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+  {% endif %}
+  
 </div>
