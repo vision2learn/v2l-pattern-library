@@ -1,8 +1,16 @@
-{% for reveal in section.subInc.content %}
-  <details class="c-reveal boxout-medium">
-    <summary>
-      <h3>{{ reveal.title | d("Title " + loop.index) }}</h3>
-    </summary>
-    {{ reveal.copy | markdownify | safe }}
-  </details>
+{% macro reveal(heading='reveal title', copy='reveal copy', image) %}
+  <li class="c-reveal-block">
+    <img class="c-reveal-block__icon js-showhide" src="/images/svg/{{ image }}" alt="">
+    <div class="c-reveal-block__desc">
+      <h3 aria-hidden="true">{{ heading }}</h3>
+      {{ copy | markdownify | safe }}
+    </div>
+  </li>
+{% endmacro %}
+
+<ul class="l-icon-grid">
+{% for revealItem in section.subInc.content %}
+  <!-- {{ revealItem.img }} -->
+  {{ reveal(heading=revealItem.title, copy=revealItem.copy, image=revealItem.img) }}
 {% endfor %}
+</ul>
