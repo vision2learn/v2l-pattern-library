@@ -457,6 +457,7 @@ button svg {
     position: absolute; // Safari is being weird
     width: 100%;
     height: 100%;
+    z-index: -1;
   }
 }
 
