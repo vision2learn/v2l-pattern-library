@@ -36,6 +36,11 @@ layout: layouts/course2
 
           {% include 'components/' + inc + '.njk' ignore missing %}
         {% endif %}
+
+        {% if section.copy2 %}
+          {{ section.copy2 | markdownify | safe }}
+        {% endif %}
+
       {% endif %}
       </section>
     {% endblock section %}
