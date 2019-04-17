@@ -1,6 +1,3 @@
-<!-- Slider 2 -->
-
-
   <style>
     .gallery-container {
       position: relative;
@@ -30,18 +27,18 @@
       padding: 0;
     }
 
-    .gallery li {
+    .gallery ul > li {
       flex: 0 0 100%;
       display: flex;
       align-items: center;
       min-width: 0;
     }
 
-    .gallery li * {
+    .gallery ul > li * {
       min-width: 0;
     }
 
-    .gallery li > div {
+    .gallery ul > li > div {
       width: 100%;
       padding: 2rem;
     }
@@ -153,7 +150,7 @@
 {% else %}
   {% set slideData = components.slider.slides %}
 {% endif %}
-Î
+
 {# TODO: this should just be generic media component #}
 {% macro media(heading, copy, image) %}
   <div class="l-media">
@@ -191,7 +188,7 @@
   <script>
     const gallery = document.querySelector('.gallery');
     gallery.classList.remove('no-js');
-    const slides = gallery.querySelectorAll('.gallery li');
+    const slides = gallery.querySelectorAll('.gallery ul > li');
 
     const observerSettings = {
       root: document.querySelector('.gallery'),
