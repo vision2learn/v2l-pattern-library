@@ -33,6 +33,8 @@
   {%- assign lastPage = true -%}
   {%- assign bannerTitle = "What did you learn?" -%}
   {%- assign bannerText = "Well done, you’ve now completed the " | append: sessionIs | append: " session of this unit!" -%}
+{%- elsif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 -%}
+  {%- assign bannerTitle = "Your learning goals" -%}
 {%- else -%}
   {%- assign bannerTitle = module.data.title | default: banner.title -%}
   {%- assign bannerText = module.data.intro | default: banner.text -%}
@@ -41,10 +43,17 @@
 <section class="c-banner" data-session="{{ module.data.session }}">
   <div class="c-banner__text boxout">
     <h1>{{ bannerTitle }}</h1>
+    {%- if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 -%}
+      <p>
+        Work hard throughout your {{ module.data.course | capitalize }} course and be honest about the effort you put into each Session.
+      </p>
+
+      <p>
+        Focus on your learning goals and you may be surprised by how much you can achieve.
+      </p>
+    {%- else -%}
       {{ bannerText | escape | markdownify }}
-      {% comment %} 
-        TODO: List out previous page titles when on final page
-      {% endcomment %}
+    {%- endif -%}
   </div>
   <img src="{{ banner-img | default: banner.img }}" class="c-banner__img" alt="">
 </section>
