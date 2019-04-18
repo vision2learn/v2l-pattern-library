@@ -541,3 +541,132 @@ button svg {
     }
   }
 }
+
+// Temporary slider styles
+.gallery-container {
+  position: relative;
+}
+
+.gallery {
+  border: 2px solid;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  // -webkit-scroll-snap-type: mandatory;
+  // -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  // -webkit-scroll-snap-points-x: repeat(100%);
+  // -ms-scroll-snap-points-x: repeat(100%);
+  scroll-snap-points-x: repeat(100%);
+}
+
+.gallery:focus,
+.gallery-controls button:focus {
+  outline: 4px solid skyBlue;
+  outline-offset: -4px;
+}
+
+.gallery > ul {
+  display: flex;
+  padding: 0;
+}
+
+.gallery > ul > li {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.gallery > ul > li * {
+  min-width: 0;
+}
+
+.gallery > ul > li > div {
+  width: 100%;
+  padding: 2rem;
+}
+
+.gallery img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 1px;
+  min-height: 1px;
+}
+
+.gallery::-webkit-scrollbar {
+  height: 0.75rem;
+}
+
+.gallery::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+#instructions {
+  display: none;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.gallery:hover+#instructions,
+.gallery:focus+#instructions,
+.touch #instructions {
+  display: block;
+}
+
+.gallery figure,
+noscript {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  height: 50vh;
+}
+
+noscript {
+  padding: 0;
+}
+
+.gallery figcaption {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gallery-controls li {
+  display: inline;
+}
+
+.gallery-controls button {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 3rem;
+  border: 0;
+  padding: 0.5rem;
+  background: #000;
+}
+
+.gallery-controls svg {
+  width: 100%;
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+.previous {
+  left: 0;
+}
+
+.next {
+  left: calc(100% - 3rem);
+}
