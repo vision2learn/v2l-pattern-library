@@ -17,13 +17,13 @@ layout: layouts/longform.liquid
 {%- for id in ids -%}
   {%- include 'logic-pagination', mod: id -%}
   <h2>{{ id }}</h2>
-  <ul>
+  <ol>
     {%- for item in collections[id] -%}
       <li>
         <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
       </li>
     {%- endfor -%}
-  </ul>  
+  </ol>  
 
 {%- endfor -%}
 
