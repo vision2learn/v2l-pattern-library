@@ -12,7 +12,7 @@ layout: layouts/longform.liquid
   {%- endfor -%}
 </ul>
 
-{%- assign ids = "ba-1-u1-s1, ba-1-u1-s2, ba-1-u1-s3, ba-1-u1-s4, ba-1-u1-s5, ba-1-u1-s6, ba-1-u1-s7" | split: ', '-%}
+{%- assign ids = "ba-l2-u1-s1, ba-l2-u1-s2, ba-l2-u1-s3, ba-l2-u1-s4, ba-l2-u1-s5, ba-l2-u1-s6, ba-l2-u1-s7" | split: ', '-%}
 
 {%- for id in ids -%}
   {%- include 'logic-pagination', mod: id -%}
@@ -20,8 +20,13 @@ layout: layouts/longform.liquid
   <ul>
     {%- for item in collections[id] -%}
       <li>
-        <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
+        <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }} - {{ item.data.tags }}</a>
       </li>
     {%- endfor -%}
   </ul>  
+
 {%- endfor -%}
+
+<p>
+  <small>Site updated: {{ "now" | date: "%A, %d %B %Y %H:%M" }}</small>
+</p>
