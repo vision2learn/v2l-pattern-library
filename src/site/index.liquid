@@ -2,7 +2,7 @@
 layout: layouts/longform.liquid
 ---
 
-<h2>Components</h2>
+<h2>Components.</h2>
 
 <ul>
   {%- for item in collections.docs -%}
@@ -20,7 +20,7 @@ layout: layouts/longform.liquid
   <ul>
     {%- for item in collections[id] -%}
       <li>
-        <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }} - {{ item.data.tags }}</a>
+        <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
       </li>
     {%- endfor -%}
   </ul>  
