@@ -36,7 +36,7 @@ TODO: Instructions for local Node and running through Docker
 
 1. "tags" - This adds each page to a corresponding [11ty collection](https://www.11ty.io/docs/collections/), which allows them to be paginated. Each string in the array is seen as a unique collection by 11ty.
 2. "permalink" - this is set to false so that 11ty does not convert these source pages into HTML
-4. `course`, `unit` and `session` keys are used to generate the page's permalink and retrieve course information from `all-courses.json` via the `course-vars.liquid` include.
+4. `course`, `unit` and `session` keys are used to generate the page's permalink and retrieve course information from `all-courses.json` via the `course-vars.njk` include.
 
 **Enumerating the units and sessions means we can change the corresponding titles in `all-courses.json` and this will automatically update every page without breaking the build.**
 
@@ -74,29 +74,29 @@ permalink: {% raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data.
   - "courses/course-name/unit-number/session-number/page-title/"
 - course-name, unit-number and session-number are set in the `session-x.11tydata.json` file and the page-title is set from the `title` key of each individual Markdown file in the `content` directory.
 - `| slug` is a liquid filter which takes strings and makes them suitable for use as URLs by converting spaces to hyphens and making the text lowercase.
-- The template first makes a call to the `course-vars` include file, passing in the `module.data` object aliased to `course` for use inside the include.
+- The template first makes a call to the `course-vars.njk` include file, passing in the `module.data` object aliased to `course` for use inside the include.
 
-### course-vars.liquid
+### course-vars.njk
 ``` liquid
 {%- raw -%}
-{%- assign course-data = all-courses[module.data.course] -%}
+{%- assign courseData = all-courses[module.data.course] -%}
 
-{%- assign unit-index = module.data.unit | minus: 1 -%}
+{%- assign unitIndex = module.data.unit | minus: 1 -%}
 
-{%- assign session-index = module.data.session | minus: 1 -%}
+{%- assign sessionIndex = module.data.session | minus: 1 -%}
 
-{%- assign this-unit = course-data.units[unit-index].title -%}
+{%- assign thisUnit = courseData.units[unitIndex].title -%}
 
-{%- assign this-session = course-data.units[unit-index].sessions[session-index] -%}
+{%- assign thisSession = courseData.units[unitIndex].sessions[sessionIndex] -%}
 {%- endraw -%}
 ```
 
 - `module.data` is the pagination object (from calling file, `course.liquid`), so module.data is the data object for each specific page in the collection
-- `course-data` = course info for this specific page
-- `unit-index` = gets unit number from session-x.11tydata file, and subtracts by 1 for array mapping
-- `session-index` = gets session number from session-x.11tydata file, and subtracts by 1 for array mapping
-- `this-unit` = gets unit name from `all-courses.json` using `unit-index` as the array index
-- `this-session` = gets session name from `all-courses.json` using `session-index` as array index
+- `courseData` = course info for this specific page
+- `unitIndex` = gets unit number from session-x.11tydata file, and subtracts by 1 for array mapping
+- `sessionIndex` = gets session number from session-x.11tydata file, and subtracts by 1 for array mapping
+- `thisUnit` = gets unit name from `all-courses.json` using `unitIndex` as the array index
+- `thisSession` = gets session name from `all-courses.json` using `sessionIndex` as array index
 
 ### all-courses.json extract
 
