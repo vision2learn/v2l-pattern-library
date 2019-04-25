@@ -1,4 +1,4 @@
----
+{% comment %} ---
 layout: default
 tags: components
 pagination:
@@ -11,4 +11,4 @@ permalink: /components/{{ component.fileSlug }}/index.html
 <!-- Comment -->
 {%- unless component.data.no-include -%}
   {% include component.fileSlug %}  
-{%- endunless -%}
+{%- endunless -%} {% endcomment %}

@@ -1,10 +1,12 @@
+{# --- Responsive Images--- #}
+
 {% macro img(file, class, alt, type) %}
   {# These widths mirror those set in the images.js gulp task #}
   {% set widths = [400, 600, 800, 1000, 2000] %}
   
   {# Set basepath to image folder #}
   {# TODO: Alter value based on type var #}
-  {% set basepath = "/images/" %}
+  {# {% set basepath = "/images/" %} #}
 
   {# split name and extension from filename #}
   {% set basefile = file.split('.') %}
@@ -13,7 +15,7 @@
   {%- set srcset -%}
     {%- set comma = joiner() -%}
     {%- for width in widths -%}
-      {{ comma() }} {{ basepath + basefile[0] + "-" + width + "." + basefile[1] }} {{ width + "w"}}
+      {{ comma() }} {{ basefile[0] + "-" + width + "." + basefile[1] }} {{ width + "w"}}
     {%- endfor -%}
   {%- endset -%}
 
@@ -21,5 +23,14 @@
       {% if class %} class="{{ class }}" {% endif %}
       srcset="{{ srcset | trim }}"
       sizes="100vw"
-      src='{{ basepath + basefile[0] + "-" + widths[0] + "." + basefile[1] }}" alt="{{ alt }}'>
+      src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}" alt="{{ alt }}'>
+{% endmacro %}
+
+{# --- Unit Overview Buttons--- #}
+{% macro unitOverviewBtn(num) %}
+<a class="c-unit-btn" href="#section{{ num }}">
+  <span>
+    {{ num }}
+  </span>
+</a>
 {% endmacro %}
