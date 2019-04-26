@@ -30,7 +30,7 @@ jobs:
       # run
       - run: yarn build
       - run: cd dist && ls -la
-      - run: cd dist/images && ls -la
+      - run: cd dist/images/banners && ls -la
       - run: cd dist/js && ls -la
 
       - persist_to_workspace:
