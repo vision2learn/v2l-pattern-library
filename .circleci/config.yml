@@ -29,6 +29,7 @@ jobs:
 
       # run
       - run: yarn build
+      - run: cd dist && ls -la
       - persist_to_workspace:
           root: .
           paths: dist/*
