@@ -28,7 +28,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: yarn build
+      - run: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
       - run: cd dist && ls -la
       - run: cd dist/images/banners && ls -la
       - run: cd dist/js && ls -la
