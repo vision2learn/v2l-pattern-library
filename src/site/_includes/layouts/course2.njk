@@ -5,6 +5,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 
 
 {% include 'header.njk' %}
+{% import 'components/all.njk' as components %}
 
 <main id="main">
   
@@ -36,7 +37,8 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 </aside> 
 #}
 
-{# {% include 'pagination', class: "t-bg-secondary1" %} #}
+{# {% include 'pagination.liquid', class: "t-bg-secondary1" %} #}
+{{ components.pagination(class='t-bg-secondary1', pagination=pagination) }}
 <footer>
   <small>
     &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 

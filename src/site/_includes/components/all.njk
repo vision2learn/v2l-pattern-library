@@ -1,3 +1,38 @@
+{# --- pagination--- #}
+{% macro pagination(class, pagination) %}
+
+<nav {% if class %}class="{{ class }}"{% endif %}>
+  <ol aria-label="Pages in this session" role="list" class="c-pagination">
+    {%- if pagination.previousPageHref -%}
+      <li class="c-pagination__prev" role="listitem">
+        <a href="{{ pagination.previousPageHref }}">
+          <i class="visually-hidden">Previous Page</i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
+        </a>  
+      </li>
+    {%- endif -%}
+
+    <!-- TODO: Re-order visually with CSS -->
+    {%- if pagination.nextPageHref -%}
+      <li class="c-pagination__next" role="listitem">
+        <a href="{{ pagination.nextPageHref }}">
+          <i class="visually-hidden">Next Page</i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
+        </a>
+      </li>
+    {%- endif -%}
+
+    {%- for href in pagination.hrefs -%}
+      <!-- TODO: Review component with VoiceOver -->
+      <li role="listitem">
+        <a href="{{ href }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ loop.index }}</a>
+      </li>
+    {%- endfor -%}
+  </ol>
+</nav>
+
+{% endmacro %}
+
 {# --- Responsive Images--- #}
 
 {% macro img(file, class, alt, type) %}
