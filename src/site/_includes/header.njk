@@ -1,4 +1,6 @@
 {% import "course-vars.njk" as courseVars %}
+{% import 'components/all.njk' as components %}
+
 {%- set courseData = allcourses[module.data.course] -%}
 
 <header class="c-main-head">
@@ -12,7 +14,7 @@
       <span class="c-main-head__session">Session {{ module.data.session | d("X")}} of {{ courseVars.getSessionSize(module.data, courseData) }}: {{ courseVars.getSessionName(module.data, courseData) | d("Session Name") | title }}</span>
     </p>
     
-    {% include 'pagination.liquid' %}
+    {{ components.pagination(pagination=pagination) }}
     
     <ul class="c-main-head__sessions" aria-label="sessions in unit {{ module.data.unit | d('X') }}">
       {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions -%}
