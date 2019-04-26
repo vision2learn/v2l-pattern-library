@@ -8,6 +8,6 @@ var project = require('./toolchest/_project');
 */
 gulp.task('js', function() {
   return gulp.src("./src/js/**/*.js")
-    .pipe(concat('scripts.js'))
+    .pipe(concat('script.js'))
     .pipe(gulp.dest(`${project.buildDest}/js`));
 });

@@ -20,6 +20,7 @@ jobs:
 
       - run: sudo apt update && sudo apt install graphicsmagick
       - run: yarn install
+      - run: ls -la
 
       - save_cache:
           paths:
