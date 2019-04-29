@@ -20,7 +20,9 @@
       {{ media(heading, copy, image) }}
     {% else %}
       <div>
-        <h3>{{ heading | safe }}</h3>
+        {% if heading %}
+          <h3>{{ heading | safe }}</h3>
+        {% endif %}
         {{ copy | markdownify | safe }}
       </div>
     {% endif %}
