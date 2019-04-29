@@ -8,7 +8,7 @@
     "start": "yarn run dev",
     "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
     "debug": "gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
-    "build": "gulp build & ELEVENTY_ENV=dev eleventy",
+    "build": "gulp build && ELEVENTY_ENV=dev yarn eleventy",
     "seed": "gulp build & ELEVENTY_ENV=seed eleventy"
   },
   "keywords": [
@@ -28,6 +28,7 @@
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-image-resize": "^0.13.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "html-minifier": "^3.5.21",
