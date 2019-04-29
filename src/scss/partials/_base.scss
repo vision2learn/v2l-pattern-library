@@ -107,6 +107,8 @@ a {
 
 p a {
 
+  color: currentColor;
+
   &:focus {
     background-color: #bada55;
     outline: none;
