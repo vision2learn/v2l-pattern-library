@@ -18,7 +18,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
+      - run: sudo apt update && sudo apt install graphicsmagick
       - run: yarn install
+      - run: ls -la
 
       - save_cache:
           paths:
@@ -26,7 +28,11 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: yarn build
+      - run: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
+      - run: cd dist && ls -la
+      - run: cd dist/images/banners && ls -la
+      - run: cd dist/js && ls -la
+
       - persist_to_workspace:
           root: .
           paths: dist/*
