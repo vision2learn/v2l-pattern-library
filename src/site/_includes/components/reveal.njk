@@ -1,14 +1,18 @@
 {% macro reveal(heading='reveal title', copy='reveal copy', image) %}
   <li class="c-reveal-block">
     <img class="c-reveal-block__icon js-showhide" src="/images/svg/{{ image }}" alt="">
+    {# TODO: Fix this horrible, dirty, nasty hack #}
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ heading }}</h3>
       {{ copy | markdownify | safe }}
     </div>
+    {# <div aria-hidden="true" style="opacity: 1; margin-top: -100%;">
+      {{ copy | markdownify | safe }}
+    </div> #}
   </li>
 {% endmacro %}
 
-<ul class="l-icon-grid">
+<ul class="l-icon-grid {{'l-icon-grid--' + section.subInc.layout }}">
 {% for revealItem in section.subInc.content %}
   <!-- {{ revealItem.img }} -->
   {{ reveal(heading=revealItem.title, copy=revealItem.copy, image=revealItem.img) }}

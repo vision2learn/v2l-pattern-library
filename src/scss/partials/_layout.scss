@@ -210,6 +210,10 @@ main > section:not(.c-banner) {
     flex: 1 1 14em;
     grid-column-end: span 2;
   }
+
+  &--2x2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .l-think {
