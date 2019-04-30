@@ -5,14 +5,20 @@
   <div class="l-media__body">
     {{ section.copy | markdownify | safe }}
   </div>
-  {% if section.img %}
-    <img class="l-media__img" src="{{ section.img }}" alt="">
-  {% elseif section.video %}
-    <video controls class="l-media__img">
-        <source src="/videos/{{ section.video }}"
-                type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
+  {% if section.activity %}
+    <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/" class="l-media__img">
+      <img src="{{ section.img }}" alt="">
+    </a>
+  {% else %}
+    {% if section.img %}
+      <img class="l-media__img" src="{{ section.img }}" alt="">
+    {% elseif section.video %}
+      <video controls class="l-media__img">
+          <source src="/videos/{{ section.video }}"
+                  type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+      </video>
+    {% endif %}
   {% endif %}
   
 </div>
