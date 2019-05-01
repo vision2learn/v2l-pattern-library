@@ -1,7 +1,7 @@
 ---
 layout: layouts/course2
 ---
-
+{% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
 {% if pagination.pageNumber == 990 %}
@@ -43,7 +43,54 @@ layout: layouts/course2
     <h3>Your motivation map</h3>
     <p>
       A Motivation Map has three parts. <a href="/documents/motivation-map-blank.doc">Download your own motivation map</a> and work your way through the steps below.
-    </p>      
+    </p>
+    
+    <div class="tabbed ">
+      <ul class="l-btn-group t-bg-primary">
+        {%- for i in range(1, 4) -%}
+          <li>
+            {{ components.unitOverviewBtn(i) }}
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      <section id="section1">
+        <h3>Step 1: What and when</h3>
+        <p>
+          List what you want to achieve and when you want to achieve it. One helpful word to remember is ‘SMART’. Select the letters below to learn more.
+        </p>
+
+        <dl>
+          <dt>S:</dt>
+          <dd><em>Specific</em> - Give yourself exact and clear goals. For example, completing your course within the deadlines set out in your Action Plan.</dd>
+          <dt>M:</dt>
+          <dd><em>Measurable</em> - Make sure you can measure how successful you are at achieving your goals. Your certificate will be proof of your success.</dd>
+          <dt>A:</dt>
+          <dd><em>Acceptable</em> - Your goals must have reasonable and acceptable outcomes. For example, this course may lead to further qualifications.</dd>
+          <dt>R:</dt>
+          <dd><em>Realistic</em> - Is your goal achievable? If you’re realistic about your strengths and weaknesses, you can set goals that play to your strengths.</dd>
+          <dt>T:</dt>
+          <dd><em>Timed</em> - You need to have a realistic timescale. For example, you have an Action Plan in your ‘My study’ area to help you submit your Unit Assessments on time.</dd>
+        </dl>
+      </section>
+
+      <section id="section2">
+        <h3>Step 2: Why those goals</h3>
+        <p>
+          When filling out the ‘Why’ section of your map list the reasons why you want to achieve your goal. Include as many reasons as possible; the more strong reasons that you have for wanting to achieve something, the higher your motivation will be. These reasons can be practical such as, "So I can go to college with good grades," or personal such as, "So I can build my confidence when caring for people with dementia."
+        </p>
+      </section>
+
+      <section id="section3">
+        <h3>Step 3: How to achieve your goals</h3>
+        <p>
+          When filling out the ‘How’ section of your map, list all the practical actions you will take to achieve your goals. Be realistic about what you will do; no-one can revise for 10 hours every day!
+        </p>
+        <p>
+          The ‘How’ section of your Motivation Map may also include two or three milestones. These are important targets that you need to reach on the way to achieving bigger goals, such as completing an Assessment by a certain date.
+        </p>
+      </section>
+    </div>
   </section>
 
   <section class="t-bg-primary">      
