@@ -160,6 +160,7 @@ nav {
 * + p,
 * + ul:not([class]),
 * + ol,
+* + dl,
 * + div:not(.gallery) {
   margin-top: 1.5rem;
 
@@ -321,6 +322,27 @@ input:focus {
 svg {
   fill: currentColor;
   // width: 1em;
+}
+
+// Lists
+
+
+dt,
+dd {
+  display: inline;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+
+  & + dt::before {
+    content: "\A";
+    white-space: pre;
+  }
 }
 
 // ******************************************************** //
