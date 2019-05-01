@@ -2,28 +2,28 @@
 layout: layouts/longform.liquid
 ---
 
+{% comment %} 
 <h2>Components.</h2>
-
 <ul>
   {%- for item in collections.docs -%}
     <li>
       <a href="{{ item.url }}" {%- if item.data.core -%}data-v2l-patterngroup="core"{%- endif -%}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
     </li>
   {%- endfor -%}
-</ul>
+</ul> {% endcomment %}
 
 {%- assign ids = "ba-l2-u1-s1, ba-l2-u1-s2, ba-l2-u1-s3, ba-l2-u1-s4, ba-l2-u1-s5, ba-l2-u1-s6, ba-l2-u1-s7" | split: ', '-%}
 
 {%- for id in ids -%}
   {%- include 'logic-pagination', mod: id -%}
   <h2>{{ id }}</h2>
-  <ul>
+  <ol>
     {%- for item in collections[id] -%}
       <li>
         <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
       </li>
     {%- endfor -%}
-  </ul>  
+  </ol>  
 
 {%- endfor -%}
 

@@ -1,0 +1,24 @@
+{#
+  Maps to the all-courses.json file in the _data directory. Course structure is detailed there
+  moduleData is the pagination object (from calling file, course.liquid), so moduleData is the data object for each specific page in the collection
+#}
+
+{% macro getUnit(moduleData, courseData) %}
+  {{ courseData.units[moduleData.unit - 1].title }}
+{% endmacro %}
+
+{% macro getSessionSize(moduleData, courseData) %}
+  {% set size = 0 %}
+  {% for session, breakdown in courseData.units[moduleData.unit - 1].sessions %}
+    {% set size = loop.length %}
+  {% endfor %}
+  {{ size }}
+{% endmacro %}
+
+{% macro getSessionName(moduleData, courseData) %}
+  {% for session, breakdown in courseData.units[moduleData.unit - 1].sessions %}
+    {% if loop.index == moduleData.session %}
+      {{ session }}
+    {% endif %}
+  {% endfor %}
+{% endmacro %} 
