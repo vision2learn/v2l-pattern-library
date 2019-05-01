@@ -12,7 +12,7 @@
   </li>
 {% endmacro %}
 
-<ul class="l-icon-grid {{'l-icon-grid--' + section.subInc.layout }}">
+<ul class="l-icon-grid {% if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{% endif %}">
 {% for revealItem in section.subInc.content %}
   <!-- {{ revealItem.img }} -->
   {{ reveal(heading=revealItem.title, copy=revealItem.copy, image=revealItem.img) }}
