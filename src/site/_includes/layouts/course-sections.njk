@@ -65,7 +65,7 @@ layout: layouts/course2
           <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
         {% endif %} #}
       {% else %}
-        <h2>{{ section.title | title }}</h2>
+        <h2>{{ section.title }}</h2>
         
         {% if section.copy %}
           {{ section.copy | markdownify | safe }}
