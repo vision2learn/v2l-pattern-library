@@ -476,6 +476,7 @@ button svg {
     display: block;
     cursor: pointer;
     width: 100%;
+    height: 100%;
     padding: 0;
 
     &:focus {
@@ -484,8 +485,10 @@ button svg {
     }
   }
 
-  &__img {
+  &__icon {
     display: block;
+    height: 100%;
+    object-fit: cover;
   }
 
   &__desc {
