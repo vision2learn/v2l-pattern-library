@@ -43,7 +43,7 @@ layout: layouts/course2
     
     <h3>Your motivation map</h3>
     <p>
-      A Motivation Map has three parts. <a href="">Download your own motivation map</a> and work your way through the steps below.
+      A Motivation Map has three parts. <a href="/documents/motivation-map-blank.doc">Download your own motivation map</a> and work your way through the steps below.
     </p>      
 </section>
 
@@ -57,9 +57,14 @@ layout: layouts/course2
       {% endif %}>
 
       {% if section.include %}
-        {% include 'components/' + section.include.type + '.njk' ignore missing %}
+        {% set inc = section.include.type | lower %}
+        {% include 'components/' + inc + '.njk' ignore missing %}
       {% elseif section.layout == "media" or section.layout == "media-rev" %}
         {% include 'components/media.njk' ignore missing %}
+
+        {# {% if section.activity %}
+          <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
+        {% endif %} #}
       {% else %}
         <h2>{{ section.title | title }}</h2>
         

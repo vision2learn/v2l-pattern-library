@@ -499,7 +499,11 @@ button svg {
   }
 
   &__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(255,255,255,.9);
+    color: var(--secondary1);
     padding: 1em;
     transition: top .3s ease-in-out;
     will-change: top;
@@ -669,4 +673,10 @@ noscript {
 
 .next {
   left: calc(100% - 3rem);
+}
+
+.c-activity {
+  border: none;
+  width: 100%;
+  height: 100%;
 }
