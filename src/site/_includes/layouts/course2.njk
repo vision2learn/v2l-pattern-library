@@ -2,16 +2,17 @@
 layout: layouts/default
 permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber }}/index.html
 ---
-{% include 'course-vars.liquid' %}
 
-{% include 'header.liquid' %}
+
+{% include 'header.njk' %}
+{% import 'components/all.njk' as components %}
 
 <main id="main">
   
-  {% include 'banner.liquid' %}
+  {% include 'banner.njk' %}
   
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
-    {%- include 'unit-overview-tabs.liquid' -%}
+    {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
   <!-- module.templateContent --> 
@@ -29,12 +30,15 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 
 </main>
 
+{# 
 <aside hidden>
   {% include 'using-the-site.liquid' %}
   {% include 'course-nav.liquid' %}
-</aside>
+</aside> 
+#}
 
-{% include 'pagination', class: "t-bg-secondary1" %}
+{# {% include 'pagination.liquid', class: "t-bg-secondary1" %} #}
+{{ components.pagination(class='t-bg-secondary1', pagination=pagination, page=page) }}
 <footer>
   <small>
     &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 

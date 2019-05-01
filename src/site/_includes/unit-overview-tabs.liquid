@@ -1,5 +1,6 @@
 {% comment %} Get course data {% endcomment %}
-{% include 'course-vars' %}
+{% import "course-vars.njk" as courseVars %}
+{%- set courseData = allcourses[module.data.course] -%}
 
 <section class="t-bg-primary">
   <h2>Unit overview</h2>
@@ -8,14 +9,14 @@
   </p>
   <div class="tabbed ">
     <ul class="l-btn-group t-bg-primary">
-      {%- for session in course-data.units[unit-index].sessions -%}
+      {%- for session in courseData.units[module.data.unit - 1].sessions -%}
         <li>
           {% include 'unit-overview-button', num: forloop.index %}
         </li>
       {%- endfor -%}
     </ul>
 
-    {%- for session in course-data.units[unit-index].sessions -%}
+    {%- for session in courseData.units[module.data.unit - 1].sessions -%}
       <section id="section{{ forloop.index }}">
         <h3>Session {{ forloop.index }} - "{{ session[0] | capitalize }}" topics:</h3>
         <ul>
