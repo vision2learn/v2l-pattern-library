@@ -23,7 +23,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
     <section>
       <h2>Course features</h2>
-      {% include "course-features.liquid" %}
+      {% include "course-features.njk" %}
     </section>
     {% include "submitting-assessments.njk" %}
   {%- endif -%}

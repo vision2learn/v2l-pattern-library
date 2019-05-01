@@ -33,7 +33,8 @@ module.exports = function(config) {
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/css/themes");
-  // config.addPassthroughCopy("./src/site/js");
+  config.addPassthroughCopy("./src/site/captivate");
+  config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");
 

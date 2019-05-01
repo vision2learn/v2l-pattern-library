@@ -107,6 +107,8 @@ a {
 
 p a {
 
+  color: currentColor;
+
   &:focus {
     background-color: #bada55;
     outline: none;
@@ -233,8 +235,16 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
+[type="submit"],
+.button {
+  -webkit-appearance: none;
+  background-color: var(--primary1);
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: .5em 1em;
+  width: max-content;
 
   &::-moz-focus-inner {
     border-style: none;
