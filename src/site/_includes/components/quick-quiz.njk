@@ -20,7 +20,7 @@
         
         {%- for response, result in answers.answers -%}
           <div class="c-quiz__answer l-vc">
-            <input type="radio" class="c-quiz__control" name="quick-quiz" id="q{{ topIndex }}-a{{ loop.index }}">
+            <input type="radio" class="c-quiz__control" name="qq-{{ topIndex }}" id="q{{ topIndex }}-a{{ loop.index }}">
             <label for="q{{ topIndex }}-a{{ loop.index }}" data-v2l-correct="{{ result }}"> 
               {{ response }}
             </label>
