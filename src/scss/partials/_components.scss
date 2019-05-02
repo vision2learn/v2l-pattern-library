@@ -120,8 +120,11 @@
   }
 }
 
-.c-quiz {
+.c-quiz {  
   counter-reset: quiz;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: calc(var(--flow) * 1rem);
 
   *, *::before, &::before {    
     padding: .5em;
@@ -130,6 +133,7 @@
   &--quick {
     &::before {
       @extend %l-vc;
+      background-color: var(--secondary1);
       counter-increment: quiz;
       content: "Question " counter(quiz);
       justify-self: start;
@@ -142,11 +146,14 @@
     flex-direction: column;
     align-items: stretch;
     padding: 0;
+    margin: .2em 0;
   }
 
   &__answer {
+    background-color: var(--primary2);
     position: relative;
     padding: 0 calc((50 / 16) * 1em);
+    margin-top: 0 !important;
   }
 
   label {
@@ -174,6 +181,11 @@
       text-align: center;
       justify-content: center;      
     }
+
+    &:hover,
+    &:focus {
+      background-color: var(--primary1);
+    }
   }
 
   // TODO: Abstract into reusable class?
@@ -189,19 +201,22 @@
 
     &:checked {
       + label {
-        background-color: rgba(255,255,255, .2);
+        background-color: var(--primary1);
         
         &::after {
+          background-color: inherit;
           float: right;
         }
       }
 
       + [data-v2l-correct=true]::after {
         content: url(/images/svg/check.svg); //attr(data-v2l-correct);
+        filter: invert(1);
       }
       
       + [data-v2l-correct=false]::after {
         content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
+        filter: invert(1);
       }
     }
   }
@@ -213,7 +228,10 @@
   }
 
   &__legend {
+    background-color: var(--primary3);
     font-weight: bold;
+    padding: .5em;
+    width: 100%;
   }
   
   &__fb {
