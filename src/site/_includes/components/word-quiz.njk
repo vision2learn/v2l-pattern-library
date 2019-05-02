@@ -14,11 +14,13 @@
   {% set x = answerList.push(answer.toLowerCase()) %}
 {%- endfor -%}
 
+{% set answerList = answerList | sort %}
+
 {# Build options #}
 {% set options %}
   <option>---</option>
   {%- for answer in answerList %}
-    <option value='{{ loop.index }}'>{{ answer | upper }}</option>
+    <option value='{{ loop.index0 }}'>{{ answer | upper }}</option>
   {% endfor -%}
 {% endset %}
 
@@ -27,7 +29,7 @@
 <h3>Word Bank</h3>
   <ul>
     {%- for answer in answerList | sort -%}
-      <li>{{ answer | title }}</li>
+      <li>{{ answer | upper }}</li>
     {%- endfor -%}
   </ul>
 
@@ -35,12 +37,16 @@
 <form class="c-wordbank">
   <ol class="c-wordbank__questions">
     {%- for item in sentences -%}
+      {% set word = item.answer | lower %}
+      {% set answerIndex = answerList.indexOf(word) %}
+
       {%- set id = 'q' + loop.index -%}
       {% set dropdown %}
-        <select id="{{ id }}" name="{{ id }}" class="c-wordbank__options">
+        <select id="{{ id }}" name="{{ id }}" data-v2l-ai="{{ answerIndex }}" class="c-wordbank__options">
           {{ options | safe }}
         </select>
       {% endset %}
+
       {%- set sentence = item.sentence | replace(item.answer, dropdown) | safe -%}
       
       <li data-v2l-q="{{ loop.index }}">

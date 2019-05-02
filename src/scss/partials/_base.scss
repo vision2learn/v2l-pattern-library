@@ -119,11 +119,12 @@ p a {
 
 q,
 blockquote {
+  font-size: 1.5em;
   quotes: "“" "”" "‘" "’";
 
   &::before {
     content: open-quote;
-    float: left;
+    // float: left;
   }
 
   &::after {
@@ -313,10 +314,6 @@ label {
 input:not([type="color"]) {
   font-size: 1rem;
   padding: .5em;
-}
-
-input:focus {
-  outline: solid 2px #bada55;
 }
 
 svg {
