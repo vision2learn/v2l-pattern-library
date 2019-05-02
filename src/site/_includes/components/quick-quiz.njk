@@ -2,37 +2,35 @@
   TODO: role=list & listitem?
   TODO: Refactor: don't need separate <form> elements now
 {% endcomment %} #}
-{% if lastPage %}
-  {%- set quiz = module.data.quickquiz -%}
+
+{% if section.include %}
+  {%- set quiz = section.include.content -%}
+{% elseif section.subInc %}
+  {%- set quiz = section.subInc.content -%}
 {% else %}
-  {% if section.include %}
-    {%- set quiz = section.include.content -%}
-  {% elseif section.subInc %}
-    {%- set quiz = section.subInc.content -%}
-  {% else %}
-    {%- set quiz = defaultdata.wordQuiz.sentences -%}
-  {% endif %}
+  {%- set quiz = defaultdata.wordQuiz.sentences -%}
 {% endif %}
 
-{%- for question, answers in quiz -%}
-  <form action="#q{{ loop.index }}" class="c-quiz c-quiz--quick l-quiz" id="q{{ loop.index }}">
-  {%- set topIndex = loop.index -%}
-    <fieldset class="l-quiz">
-      <legend class="c-quiz__legend l-vc">{{ question | capitalize }}</legend>
-      
-      {%- for response, result in answers.answers -%}
-        <div class="c-quiz__answer l-vc">
-          <input type="radio" class="c-quiz__control" name="quick-quiz" id="q{{ topIndex }}-a{{ loop.index }}">
-          <label for="q{{ topIndex }}-a{{ loop.index }}" data-v2l-correct="{{ result }}"> 
-            {{ response }}
-          </label>
-        </div>
-      {%- endfor -%}
 
-    </fieldset>
-    <input type="submit" value="Show question feedback">
-    <p class="c-quiz__fb" hidden>
-      {{ answers.feedback }}
-    </p>
-  </form>
-{%- endfor -%}
+<form action="#q-loop.index" class="c-quiz c-quiz--quick l-quiz" id="q-loop.index">
+  {%- for question, answers in quiz -%}
+    {%- set topIndex = loop.index -%}
+      <fieldset class="l-quiz">
+        <legend class="c-quiz__legend l-vc">{{ question }}</legend>
+        
+        {%- for response, result in answers.answers -%}
+          <div class="c-quiz__answer l-vc">
+            <input type="radio" class="c-quiz__control" name="quick-quiz" id="q{{ topIndex }}-a{{ loop.index }}">
+            <label for="q{{ topIndex }}-a{{ loop.index }}" data-v2l-correct="{{ result }}"> 
+              {{ response }}
+            </label>
+          </div>
+        {%- endfor -%}
+
+      </fieldset>
+      <input type="submit" value="Show question feedback" hidden>
+      <p class="c-quiz__fb" hidden>
+        {{ answers.feedback }}
+      </p>
+  {%- endfor -%}
+</form>

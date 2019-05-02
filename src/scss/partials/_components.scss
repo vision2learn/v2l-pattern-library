@@ -130,10 +130,11 @@
     padding: .5em;
   }
 
-  &--quick {
+  &--quick legend {
     &::before {
-      @extend %l-vc;
-      background-color: var(--secondary1);
+      // @extend %l-vc;
+      // background-color: var(--secondary1);
+      font-size: 1rem;
       counter-increment: quiz;
       content: "Question " counter(quiz);
       justify-self: start;
@@ -229,7 +230,6 @@
 
   &__legend {
     background-color: var(--primary3);
-    font-weight: bold;
     padding: .5em;
     width: 100%;
   }
