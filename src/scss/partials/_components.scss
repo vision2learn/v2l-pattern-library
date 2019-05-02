@@ -366,6 +366,7 @@ button svg {
     li {
       margin-top: calc(var(--flow) * 1rem);
       padding: 1em;
+      position: relative;
     }
   }
 
@@ -373,6 +374,28 @@ button svg {
     display: inline-block;
     width: auto;
   }
+
+  p::after {
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+  }
+
+  .correct::after {
+    content: url(/images/svg/check.svg);
+  }
+
+  .incorrect::after {
+    content: url(/images/svg/cross.svg);
+  }
+
+  
+
+  // @for $i from 0 through 10 {
+  //   [data-v2l-ai="#{$i}"] > [value="#{$i}"]:checked :root {
+  //     background: yellow;
+  //   }
+  // }
 }
 
 // Big Button
