@@ -119,11 +119,12 @@ p a {
 
 q,
 blockquote {
+  font-size: 1.5em;
   quotes: "“" "”" "‘" "’";
 
   &::before {
     content: open-quote;
-    float: left;
+    // float: left;
   }
 
   &::after {
@@ -160,6 +161,7 @@ nav {
 * + p,
 * + ul:not([class]),
 * + ol,
+* + dl,
 * + div:not(.gallery) {
   margin-top: 1.5rem;
 
@@ -314,13 +316,30 @@ input:not([type="color"]) {
   padding: .5em;
 }
 
-input:focus {
-  outline: solid 2px #bada55;
-}
-
 svg {
   fill: currentColor;
   // width: 1em;
+}
+
+// Lists
+
+
+dt,
+dd {
+  display: inline;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+
+  & + dt::before {
+    content: "\A";
+    white-space: pre;
+  }
 }
 
 // ******************************************************** //

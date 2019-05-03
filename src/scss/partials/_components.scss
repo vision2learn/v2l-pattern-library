@@ -65,23 +65,15 @@
   }
 }
 
-// TODO: Fix pagination so that it doesn't wrap. Go back to flexbox?
 .c-pagination {
-  display: flex; // fallback
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 2.75rem);
-  grid-auto-rows: 2.75rem;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
   width: 100%;
 
   &::before {
     content: "Page: ";
     align-self: center;
-  }
-
-  @supports (display: grid) {
-    justify-content: space-between;
   }
 
   &__prev {
@@ -94,12 +86,10 @@
 
   li {
     display: inline-block; /* Fallback */
-    // width: 3em;
-    // height: 3em; // creates a 48px square box
+    flex: 0 1 44px;
+    padding: 0 .5em;
      
     > a {
-      // background-color: #000;
-      // border-radius: 100%;  
       display: flex;
       height: 100%;
       text-align: center; // fallback
@@ -130,16 +120,21 @@
   }
 }
 
-.c-quiz {
+.c-quiz {  
   counter-reset: quiz;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: calc(var(--flow) * 1rem);
 
   *, *::before, &::before {    
     padding: .5em;
   }
 
-  &--quick {
+  &--quick legend {
     &::before {
-      @extend %l-vc;
+      // @extend %l-vc;
+      // background-color: var(--secondary1);
+      font-size: 1rem;
       counter-increment: quiz;
       content: "Question " counter(quiz);
       justify-self: start;
@@ -152,11 +147,14 @@
     flex-direction: column;
     align-items: stretch;
     padding: 0;
+    margin: .2em 0;
   }
 
   &__answer {
+    background-color: var(--primary2);
     position: relative;
     padding: 0 calc((50 / 16) * 1em);
+    margin-top: 0 !important;
   }
 
   label {
@@ -184,6 +182,11 @@
       text-align: center;
       justify-content: center;      
     }
+
+    &:hover,
+    &:focus {
+      background-color: var(--primary1);
+    }
   }
 
   // TODO: Abstract into reusable class?
@@ -199,19 +202,22 @@
 
     &:checked {
       + label {
-        background-color: rgba(255,255,255, .2);
+        background-color: var(--primary1);
         
         &::after {
+          background-color: inherit;
           float: right;
         }
       }
 
       + [data-v2l-correct=true]::after {
         content: url(/images/svg/check.svg); //attr(data-v2l-correct);
+        filter: invert(1);
       }
       
       + [data-v2l-correct=false]::after {
         content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
+        filter: invert(1);
       }
     }
   }
@@ -223,7 +229,9 @@
   }
 
   &__legend {
-    font-weight: bold;
+    background-color: var(--primary3);
+    padding: .5em;
+    width: 100%;
   }
   
   &__fb {
@@ -376,6 +384,7 @@ button svg {
     li {
       margin-top: calc(var(--flow) * 1rem);
       padding: 1em;
+      position: relative;
     }
   }
 
@@ -383,6 +392,28 @@ button svg {
     display: inline-block;
     width: auto;
   }
+
+  p::after {
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+  }
+
+  .correct::after {
+    content: url(/images/svg/check.svg);
+  }
+
+  .incorrect::after {
+    content: url(/images/svg/cross.svg);
+  }
+
+  
+
+  // @for $i from 0 through 10 {
+  //   [data-v2l-ai="#{$i}"] > [value="#{$i}"]:checked :root {
+  //     background: yellow;
+  //   }
+  // }
 }
 
 // Big Button
@@ -486,6 +517,7 @@ button svg {
     display: block;
     cursor: pointer;
     width: 100%;
+    height: 100%;
     padding: 0;
 
     &:focus {
@@ -494,8 +526,10 @@ button svg {
     }
   }
 
-  &__img {
+  &__icon {
     display: block;
+    height: 100%;
+    object-fit: cover;
   }
 
   &__desc {
