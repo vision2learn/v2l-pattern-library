@@ -157,8 +157,8 @@ main > section:not(.c-banner) {
 
 .l-quiz {
   display: grid;
-  grid-template-rows: repeat(3, minmax(50px, max-content));
-  grid-auto-rows: minmax(50px, max-content);
+  grid-template-rows: 50px, auto;
+  grid-auto-rows: minmax(50px, auto);
   // grid-gap: 3px;
 }
 
