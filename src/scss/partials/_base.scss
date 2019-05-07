@@ -40,7 +40,8 @@
   display: none;
 }
 
-:focus {
+:focus,
+%focus {
   outline: solid 2px var(--highlight);
 }
 
@@ -243,7 +244,7 @@ button,
   background-color: var(--primary1);
   border: none;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-transform: uppercase;
   padding: .5em 1em;
   width: max-content;
