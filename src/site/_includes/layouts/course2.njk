@@ -7,7 +7,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% include 'header.njk' %}
 {% import 'components/all.njk' as components %}
 
-<main id="main">
+<main id="main" data-v2l-tags="{{ tags }}">
   
   {% include 'banner.njk' %}
   
@@ -16,7 +16,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   {%- endif -%}
   
   <!-- module.templateContent --> 
-  {{ module.templateContent }}
+  {# {{ module.templateContent }} #}
   <!-- Content -->
   {{ content | safe }}
 

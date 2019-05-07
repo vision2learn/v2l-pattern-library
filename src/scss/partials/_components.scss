@@ -190,7 +190,8 @@
   }
 
   // TODO: Abstract into reusable class?
-  &__control {
+  [type='radio'],
+  [type='checkbox'] {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -207,18 +208,23 @@
         &::after {
           background-color: inherit;
           float: right;
+          filter: invert(1);
         }
       }
+    }
+  }
 
-      + [data-v2l-correct=true]::after {
-        content: url(/images/svg/check.svg); //attr(data-v2l-correct);
-        filter: invert(1);
-      }
-      
-      + [data-v2l-correct=false]::after {
-        content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
-        filter: invert(1);
-      }
+  [type='checkbox']:checked + label::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28"><path d="M24 14c0 6.625-5.375 12-12 12S0 20.625 0 14 5.375 2 12 2s12 5.375 12 12z"/></svg>');
+  }
+
+  [type='radio']:checked {
+    + [data-v2l-correct=true]::after {
+      content: url(/images/svg/check.svg); //attr(data-v2l-correct);
+    }
+    
+    + [data-v2l-correct=false]::after {
+      content: url(/images/svg/cross.svg); //attr(data-v2l-correct);
     }
   }
 

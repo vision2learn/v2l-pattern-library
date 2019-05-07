@@ -24,17 +24,14 @@
         {%- for response, result in answers.answers -%}
           <div class="c-quiz__answer l-vc">
             {{ components.quizQuestion(type=qType, qNumber=topIndex, aNumber=loop.index, answer=response, trueOrFalse=result) }}
-            {# <input type="radio" class="c-quiz__control" name="qq-{{ topIndex }}" id="q{{ topIndex }}-a{{ loop.index }}">
-            <label for="q{{ topIndex }}-a{{ loop.index }}" data-v2l-correct="{{ result }}"> 
-              {{ response }}
-            </label> #}
           </div>
         {%- endfor -%}
-
-      </fieldset>
-      <input type="submit" value="Show question feedback" hidden>
-      <p class="c-quiz__fb" hidden>
+      
+      <input type="submit" value="Submit answers for question {{ loop.index }}" hidden>
+      <p class="c-quiz__fb" hidden data-v2l-feedback="{{ answers.feedback }}">
         {{ answers.feedback }}
       </p>
+
+      </fieldset>
   {%- endfor -%}
 </form>
