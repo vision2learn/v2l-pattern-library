@@ -189,7 +189,7 @@
     }
   }
 
-  // TODO: Abstract into reusable class?
+  // Binding styles to attribute types rather than class to encourage correct markup
   [type='radio'],
   [type='checkbox'] {
     position: absolute;
