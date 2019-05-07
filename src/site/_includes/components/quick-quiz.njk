@@ -1,14 +1,17 @@
-{# {% comment %} 
-  TODO: role=list & listitem?
-  TODO: Refactor: don't need separate <form> elements now
-{% endcomment %} #}
+{% import 'components/all.njk' as components %}
 
 {% if section.include %}
   {%- set quiz = section.include.content -%}
+  {%- set mode = section.include.mode -%}
 {% elseif section.subInc %}
   {%- set quiz = section.subInc.content -%}
+  {%- set mode = section.subInc.mode -%}
 {% else %}
   {%- set quiz = defaultdata.wordQuiz.sentences -%}
+{% endif %}
+
+{% if mode == "multi-choice" %}
+  {% set qType = "checkbox" %}
 {% endif %}
 
 
@@ -20,17 +23,15 @@
         
         {%- for response, result in answers.answers -%}
           <div class="c-quiz__answer l-vc">
-            <input type="radio" class="c-quiz__control" name="qq-{{ topIndex }}" id="q{{ topIndex }}-a{{ loop.index }}">
-            <label for="q{{ topIndex }}-a{{ loop.index }}" data-v2l-correct="{{ result }}"> 
-              {{ response }}
-            </label>
+            {{ components.quizQuestion(type=qType, qNumber=topIndex, aNumber=loop.index, answer=response, trueOrFalse=result) }}
           </div>
         {%- endfor -%}
-
-      </fieldset>
-      <input type="submit" value="Show question feedback" hidden>
-      <p class="c-quiz__fb" hidden>
+      
+      <input type="submit" value="Submit answers for question {{ loop.index }}" hidden>
+      <p class="c-quiz__fb" hidden data-v2l-feedback="{{ answers.feedback }}">
         {{ answers.feedback }}
       </p>
+
+      </fieldset>
   {%- endfor -%}
 </form>

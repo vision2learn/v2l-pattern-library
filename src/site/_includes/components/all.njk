@@ -1,4 +1,15 @@
-{# --- pagination--- #}
+{#
+  Reusable code components in this file:
+
+  1. Pagination 
+  2. Responsive Images
+  3. Unit Overview Buttons
+  4. Quick Quiz
+
+#}
+
+{# --- 1. Pagination--- #}
+
 {% macro pagination(class, pagination, page) %}
 
 <nav {% if class %}class="{{ class }}"{% endif %}>
@@ -33,7 +44,7 @@
 
 {% endmacro %}
 
-{# --- Responsive Images--- #}
+{# --- 2. Responsive Images--- #}
 
 {% macro img(file, class, alt, type) %}
   {# These widths mirror those set in the images.js gulp task #}
@@ -61,11 +72,20 @@
       src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}" alt="{{ alt }}'>
 {% endmacro %}
 
-{# --- Unit Overview Buttons--- #}
+{# --- 3. Unit Overview Buttons--- #}
 {% macro unitOverviewBtn(num) %}
 <a class="c-unit-btn" href="#section{{ num }}">
   <span>
     {{ num }}
   </span>
 </a>
+{% endmacro %}
+
+{# --- 4. Quick Quiz --- #}
+
+{% macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
+  <input type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}">
+  <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}"> 
+    {{ answer }}
+  </label>
 {% endmacro %}
