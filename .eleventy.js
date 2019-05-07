@@ -30,6 +30,9 @@ module.exports = function(config) {
     dynamicPartials: true
   });
 
+  // set deep data merge
+  config.setDataDeepMerge(true);
+
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/css/themes");
