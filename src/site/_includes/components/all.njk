@@ -84,7 +84,7 @@
 {# --- 4. Quick Quiz --- #}
 
 {% macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
-  <input type="{{ type | d('radio') }}" class="c-quiz__control" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}">
+  <input type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}">
   <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}"> 
     {{ answer }}
   </label>
