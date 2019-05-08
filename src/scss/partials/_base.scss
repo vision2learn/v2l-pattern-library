@@ -43,6 +43,7 @@
 :focus,
 %focus {
   outline: solid 2px var(--highlight);
+  outline-offset: -2px;
 }
 
 /* Reset the box model and zero margins... */

@@ -5,6 +5,7 @@
   2. Responsive Images
   3. Unit Overview Buttons
   4. Quick Quiz
+  5. Accordion
 
 #}
 
@@ -88,4 +89,14 @@
   <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}"> 
     {{ answer }}
   </label>
+{% endmacro %}
+
+{# --- 5. Accordion --- #}
+{# Taken from: https://inclusive-components.design/collapsible-sections/ #}
+
+{% macro accordion(heading='Accordion title', copy='Accordion copy', class="") %}
+<toggle-section open="false" {% if class%}class="{{ class }}"{% endif %}>
+  <h3 id="section-1">{{ heading }}</h3>
+  {{ copy | markdownify | safe }}
+</toggle-section>
 {% endmacro %}
