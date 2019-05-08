@@ -1,57 +1,5 @@
-{% macro accordion(heading='Accordion title', copy='Accordion copy') %}
-<toggle-section open="false">
-  <h3 id="section-1">{{ heading }}</h3>
-  {{ copy | markdownify | safe }}
-</toggle-section>
-{% endmacro %}
-
-  <style>
-    .controls {
-      text-align: right;
-      margin-bottom: 1em;
-    }
-
-    .controls li {
-      display: inline;
-    }
-
-    .controls button {
-      background: #000;
-      color: #fff;
-      border: 0;
-      font-size: 0.85rem;
-      border-radius: 0.25rem;
-      padding: 0.25rem 0.75rem;
-    }
-
-    .controls button:focus {
-      outline: none;
-      box-shadow: 0 0 0 0.25rem skyBlue;
-    }
-
-    /*
-    Custom elements are inline by default
-    */
-
-    toggle-section {
-      display: block;
-    }
-
-    /*
-    Only applies if script runs and 
-    `role="region"` is added
-    */
-
-    toggle-section[role="region"] {
-      border-width: 2px 0;
-      border-style: solid;
-    }
-
-    toggle-section[role="region"]+toggle-section {
-      border-top: 0;
-    }
-  </style>
+{% import "components/all.njk" as components %}
 
 {% for reveal in section.subInc.content %}
-  {{ accordion(reveal.title, reveal.copy) }}
+  {{ components.accordion(reveal.title, reveal.copy) }}
 {% endfor %}

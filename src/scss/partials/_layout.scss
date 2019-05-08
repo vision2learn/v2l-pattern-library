@@ -157,17 +157,19 @@ main > section:not(.c-banner) {
 
 .l-quiz {
   display: grid;
-  // grid-template-rows: 50px auto;
   grid-auto-rows: minmax(50px, auto);
-  // grid-gap: 3px;
+
+  label {
+    display: grid;
+    grid-template-columns: 65px 1fr 65px;
+    grid-auto-rows: minmax(65px, auto);
+  }
 }
 
 .l-btn-group {
   padding: 1em;
   width: max-content;
   gap: 1em;
-  // margin-left: auto;
-  // margin-right: auto;
 
   li,
   a {
