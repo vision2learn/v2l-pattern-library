@@ -14,23 +14,21 @@
   {% set qType = "checkbox" %}
 {% endif %}
 
-
-<form action="#q-loop.index" class="c-quiz c-quiz--quick l-quiz" id="q-loop.index">
+<form class="c-quiz l-quiz" action="">
   {%- for question, answers in quiz -%}
     {%- set topIndex = loop.index -%}
       <fieldset class="l-quiz">
-        <legend class="c-quiz__legend l-vc">{{ question }}</legend>
+        <legend>{{ question }}</legend>
         
         {%- for response, result in answers.answers -%}
-          <div class="c-quiz__answer l-vc">
+          <div class="c-quiz__answer">
             {{ components.quizQuestion(type=qType, qNumber=topIndex, aNumber=loop.index, answer=response, trueOrFalse=result) }}
           </div>
         {%- endfor -%}
       
-      <input type="submit" value="Submit answers for question {{ loop.index }}" hidden>
-      <p class="c-quiz__fb" hidden data-v2l-feedback="{{ answers.feedback }}">
-        {{ answers.feedback }}
-      </p>
+      {% if answers.feedback %}
+        {{ components.accordion(heading="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
+      {% endif %}
 
       </fieldset>
   {%- endfor -%}

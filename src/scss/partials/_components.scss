@@ -126,67 +126,63 @@
   font-size: 1.5em;
   margin-top: calc(var(--flow) * 1rem);
 
-  *, *::before, &::before {    
-    padding: .5em;
-  }
-
-  &--quick legend {
-    &::before {
-      // @extend %l-vc;
-      // background-color: var(--secondary1);
-      font-size: 1rem;
-      counter-increment: quiz;
-      content: "Question " counter(quiz);
-      justify-self: start;
-    }
-  }
-
   fieldset {
+    background-color: var(--primary3);
     border: 0;
     counter-reset: answers;
     flex-direction: column;
     align-items: stretch;
     padding: 0;
     margin: 3rem 0 0;
+
+    > * {
+      // padding: .5em;
+    }
   }
 
-  &__answer {
-    background-color: var(--primary2);
-    position: relative;
-    padding: 0 calc((50 / 16) * 1em);
-    margin-top: 0 !important;
-  }
-
-  label {
-    cursor: pointer;
-    display: inline-block;
+  legend {
+    background-color: var(--primary3);
+    padding: .5em;
     width: 100%;
     
     &::before {
-      counter-increment: answers;
-      content: counter(answers, upper-alpha) ". ";
-      left: 0;
+      display: block;
+      font-size: 1rem;
+      counter-increment: quiz;
+      content: "Question " counter(quiz);
+      justify-self: start;
     }
-
-    &::after {
-      right: 0;
-    }
-
-    &::before,
-    &::after {
-      @extend %l-vc;
-      position: absolute;
-      top: 0;
-      width: calc((50 / 16) * 1em);
-      height: 100%;
-      text-align: center;
-      justify-content: center;      
-    }
-
+  }
+  
+  label {
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    
     &:hover,
     &:focus {
       background-color: var(--primary1);
     }
+
+    &::before {
+      counter-increment: answers;
+      content: counter(answers, upper-alpha) ". ";
+      text-align: center;
+    }
+
+  }
+
+  &__fb {
+    background-color: var(--primary3);
+    font-size: 1rem;
+    padding: .5em;
+  }
+
+  &__answer {
+    background-color: var(--primary2);
+    // position: relative;
+    margin-top: 0 !important;
   }
 
   // Binding styles to attribute types rather than class to encourage correct markup
@@ -203,13 +199,15 @@
 
     &:focus + label {
       @extend %focus;
-      outline-offset: -2px;
     }
 
     &:checked + label {
       &::after {
         background-color: inherit;
-        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
         filter: invert(1);
       }
     }
@@ -234,30 +232,6 @@
     + [data-v2l-correct=false]::after {
       content: url(/images/svg/cross.svg);
     }
-  }
-
-  &__legend {
-    background-color: var(--primary3);
-    padding: .5em;
-    width: 100%;
-  }
-
-  button {
-    justify-self: end;
-    margin-top: 1.5rem;
-
-    &:active,
-    &:focus {
-      + .c-quiz__fb {
-        display: block;
-      }
-    }
-  }
-  
-  &__fb {
-    background-color: var(--primary3);
-    border-radius: 10px;
-    font-size: .8em;
   }
 }
 
@@ -735,4 +709,52 @@ noscript {
   border: none;
   width: 100%;
   height: 100%;
+}
+
+// Accordion
+// TODO: Refactor accordion CSS to match naming conventions elsewhere
+
+.controls {
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+.controls li {
+  display: inline;
+}
+
+.controls button {
+  background: #000;
+  color: #fff;
+  border: 0;
+  font-size: 0.85rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+}
+
+.controls button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem skyBlue;
+}
+
+/*
+Custom elements are inline by default
+*/
+
+toggle-section {
+  display: block;
+}
+
+/*
+Only applies if script runs and 
+`role="region"` is added
+*/
+
+toggle-section[role="region"] {
+  border-width: 2px 0;
+  border-style: solid;
+}
+
+toggle-section[role="region"]+toggle-section {
+  border-top: 0;
 }
