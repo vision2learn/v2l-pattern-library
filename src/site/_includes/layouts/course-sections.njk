@@ -1,12 +1,34 @@
 ---
 layout: layouts/course2
+lastpage:
+  - 
+    title: Time to think summary
+    layout: media media-half
+    think: true
+    include: 
+      type: time-to-think
+      copy: TBC
+    theme: t-bg-primary3 i-think
+  - 
+    title: Unit assessment
+    layout: media
+    copy: Complete Part XX of your Unit XX Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes and answers from your Time to think and Forum entries to help you.
+    img: /images/svg/Assessment_button.svg
+  - 
+    title: Webinar video
+    layout: media
+    theme: i-watch
+    video: Submitting_Assessment_Recording.mp4
+  - 
+    title: Ready to move on?
+    layout: media
+    copy: Once you’ve completed the relevant part of the Assessment you can move on to the next session
+    img: /images/svg/Next_button.svg
 ---
 {% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
-{% if pagination.pageNumber == 990 %}
-  <p>One</p>
-{% elseif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+{% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   <section>      
     <h2>Your learning goals</h2>
     
@@ -96,11 +118,22 @@ layout: layouts/course2
   <section class="t-bg-primary">      
     <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
   </section>
+{% elseif lastPage %}
+
+  {# Show the quiz, if there is one. Should be the 1st and only section in the file #}
+  {% if module.data.sections %}
+    {{ components.section(module.data.sections[0])}}
+  {% endif %}
+
+  {# Show the default sections for the last page #}
+  {% for section in lastpage %}
+    {{ components.section(section) }}
+  {% endfor %}
+
 {% else %}
   {% for section in module.data.sections %}
     {% block section %}
-      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"
-      {% endif %}>
+      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
 
       {% if section.include %}
         {% set inc = section.include.type | lower %}
@@ -127,7 +160,7 @@ layout: layouts/course2
           {% if inc %}
             {% include 'components/' + inc + '.njk' %}
           {% else %}
-            <p><b>FECK: {{ inc }}</b></p>
+            {# ??? #}
           {% endif %}
           
         {% endif %}

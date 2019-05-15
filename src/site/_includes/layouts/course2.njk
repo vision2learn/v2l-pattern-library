@@ -7,9 +7,11 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% include 'header.njk' %}
 {% import 'components/all.njk' as components %}
 
+{%- if pagination.lastPageHref == page.url -%}
+  {%- set lastPage = true -%}
+{%- endif -%}
 <main id="main" data-v2l-tags="{{ tags }}">
-  
-  {% include 'banner.njk' %}
+  {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }}
   
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
     {%- include 'components/unit-overview-tabs.njk' -%}
@@ -44,3 +46,18 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
     &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
   </small>
 </footer>
+
+<script>
+(function() {
+  if(document.querySelectorAll('.c-quiz__answer > input')) {
+    var inputs = document.querySelectorAll('.c-quiz__answer > input');
+
+    inputs.forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        console.log(e);
+        e.preventDefault();
+      });
+    })
+  }
+})();
+</script>
