@@ -133,8 +133,12 @@
     flex-direction: column;
     align-items: stretch;
     padding: 0;
-    margin: 3rem 0 0;
+
+    + fieldset {
+      margin: 3rem 0 0;
+    }
   }
+
 
   legend {
     background-color: var(--primary3);
