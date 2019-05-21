@@ -36,7 +36,21 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: dist/*
-          
+  staging:
+    machine:
+      enabled: true
+    working_directory: ~/repo
+    steps:
+      -  add_ssh_keys:
+          fingerprints:
+            - "a2:aa:ee:91:eb:fe:c7:cb:a9:cc:98:40:fd:d2:6f:27"
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Deploy Over SSH
+          command: |
+            scp -r ~/repo/dist/* $SSH_USER@$SSH_HOST:~/backgroundyellow.net/v2l/test
+
   deploy:
     machine:
       enabled: true
@@ -58,6 +72,12 @@ workflows:
   build-and-deploy:
     jobs:
       - build
+      - staging:
+          requires:
+            - build
+          filters:
+            branches:
+              only: bleeding-edge
       - deploy:
           requires:
             - build
