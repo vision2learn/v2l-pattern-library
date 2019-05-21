@@ -79,14 +79,14 @@
   },
   "lean management": {
     "level": 2,
-    "why": "TBC",
+    "why": "Lean is a term used to describe a wide range of business improvement techniques that help to eliminate waste and increase efficiency. While lean approaches were originally designed to improve quality and reduce production costs in the manufacturing industry, the concepts are now applied to a whole range of non-manufacturing processes such as offices or service industry environments. \n\n As a result, anyone involved in business at any level should have some understanding of business improvement techniques. Lean production techniques and lean office principles can be generally applied to provide continuous improvements to quality, processes and costs across a wide range of sectors and industries. \n\n Even if you’re seeking employment, knowledge of lean management and continuous improvement techniques will provide useful underpinning knowledge about business techniques, expanding your skill set which will prove attractive to employers. \n\n * It’s important to set goals in your studies, as goal-setting gives you **control** over your learning.\n * Research has proven that people who write their goals down have a greater **motivation** to achieve them.\n\n Setting yourself a specific **deadline** to achieve each goal also keeps you focused and increases your chance of success.",
     "goals": {
       "will": [
-        "TBC"
+        "Understand the concept of a lean environment"
       ],
       "can": [
-        "TBC",
-        "TBC"
+        "Describe the principles of lean organisation techniques",
+        "Explain the benefits of a lean environment"
       ]
     },
     "units": [
@@ -127,16 +127,37 @@
         "title": "business improvement tools and techniques",
         "sessions": {
           "continuous improvement techniques": [
-
+            "Business improvement techniques",
+            "Continuous improvement techniques",
+            "Customer feedback",
+            "Quality, cost and delivery (QCD)",
+            "Kaizen techniques and new thinking organisations",
+            "Waste",
+            "Benchmarking"
           ],
           "principles and techniques of workplace organisation": [
-
+            "The work environment",
+            "Workplace organisation",
+            "Planning an observation",
+            "The 5S/5C technique",
+            "Red tagging",
+            "Auditing and radar charts"
           ],
           "use visual indicators to improve the work environment": [
-
+            "Types of visual information",
+            "Benefits of visual information",
+            "Guiding principles of visual management",
+            "Preparing visual management techniques",
+            "Effective visual management techniques",
+            "Making further improvements"
           ],
           "eliminate variance from processes in the workplace": [
-
+            "Consistency and predictability",
+            "Standardisation",
+            "The benefits of standardisation",
+            "Standard operations and standard operating procedures",
+            "Standard operating sheets",
+            "Creating and reviewing a standard operating procedure"
           ] 
         }
       },
