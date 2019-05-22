@@ -122,7 +122,7 @@ layout: layouts/course2
           {# Is this a basic or more complex include type? #}
           {# {% set inc = section.subInc %} #}
 
-          {% set inc = section.subInc.type %}
+          {% set inc = section.subInc.type | lower %}
           
           {% if inc %}
             {% include 'components/' + inc + '.njk' %}
