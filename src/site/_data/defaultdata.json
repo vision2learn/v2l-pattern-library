@@ -7,6 +7,41 @@
       "id": "Course ID"
     }
   },
+  "sections": [
+    {
+      "title": "Learning points",
+      "theme": "t-bg-primary",
+      "copy": "Take a look at the following learning points to see a summary of what you have covered in this Session:"
+    },
+    { 
+      "title": "Time to think summary...",
+      "layout": "media media-half",
+      "think": true,
+      "theme": "t-bg-primary3 i-think",
+      "include": {
+        "type": "time-to-think",
+        "copy": "TBC"
+      }
+    },
+    { 
+      "title": "Unit assessment",
+      "layout": "media",
+      "copy": "Complete Part XX of your Unit XX Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes and answers from your Time to think and Forum entries to help you.",
+      "img": "/images/svg/Assessment_button.svg"
+    },
+    { 
+      "title": "Webinar video",
+      "layout": "media",
+      "theme": "i-watch",
+      "video": "Submitting_Assessment_Recording.mp4"
+    },
+    { 
+      "title": "Ready to move on?",
+      "layout": "media",
+      "copy": "Once you’ve completed the relevant part of the Assessment you can move on to the next session",
+      "img": "/images/svg/Next_button.svg"
+    }
+  ],
   "courseFeatures": [
     {
       "title": "on the web",

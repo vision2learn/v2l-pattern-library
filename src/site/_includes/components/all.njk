@@ -137,7 +137,12 @@
 
 {% endmacro %}
 
-{# --- 7. Section --- #}
+{# 7. Section
+  
+  Arguments:
+    section (object) - found in individual page front matter or from predefined in _data/sections.json...
+
+#}
 
 {% macro section(section) %}
 
@@ -168,6 +173,12 @@
     {% endif %}
     
   </section>
+
+{% endmacro %}
+
+{% macro sectionX() %}
+
+  <p>Hello</p>
 
 {% endmacro %}
 
