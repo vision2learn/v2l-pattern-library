@@ -97,10 +97,15 @@
 {# --- 5. Accordion --- #}
 {# Taken from: https://inclusive-components.design/collapsible-sections/ #}
 
-{% macro accordion(heading='Accordion title', copy='Accordion copy', class="") %}
-<toggle-section open="false" {% if class%}class="{{ class }}"{% endif %}>
-  <h3 id="section-1">{{ heading }}</h3>
-  {{ copy | markdownify | safe }}
+{% macro accordion(title='Accordion title', copy='Accordion copy', img, class) %}
+
+<toggle-section open="false">
+  {% if img %}
+    {{ media(title=title, copy=copy, img=img) }}
+  {% else %}
+    <h3>{{ title }}</h3>
+    {{ copy | markdownify | safe }}
+  {% endif %}
 </toggle-section>
 {% endmacro %}
 

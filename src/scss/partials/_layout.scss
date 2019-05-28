@@ -94,6 +94,12 @@ main > section:not(.c-banner) {
 
   &__body {
     grid-area: body;
+
+    // When a media  object is used inside a Reveal, JS moves the title so we need to rejig the the layout
+    toggle-section & {
+      align-self: center;
+      grid-row: 1 / -1;
+    }
   }
 
   &__img {

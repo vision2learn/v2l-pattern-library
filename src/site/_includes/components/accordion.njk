@@ -1,5 +1,5 @@
 {% import "components/all.njk" as components %}
 
 {% for reveal in section.subInc.content %}
-  {{ components.accordion(reveal.title, reveal.copy) }}
+  {{ components.accordion(title=reveal.title, copy=reveal.copy, img=reveal.img) }}
 {% endfor %}
