@@ -261,7 +261,13 @@ var Toolkit = (function () {
             this.btn = this.shadowRoot.querySelector('h2 button');
 
             // Get the first element in Light DOM
-            const oldHeading = this.querySelector(':first-child');
+            let oldHeading = this.querySelector('h2');
+
+            // reassign oldHeading when media object inside toggle-section
+            if (this.querySelector(':first-child').tagName.substr(0,1) === 'H') {
+              oldHeading = this.querySelector(':first-child');
+            }
+            
             // and cast its heading level (which should, but may not, exist)
             let level = parseInt(oldHeading.tagName.substr(1));
             // Then take its `id` (may be null)
@@ -278,7 +284,7 @@ var Toolkit = (function () {
             // If there is no level, there is no heading.
             // Add a warning.
             if (!level) {
-              console.warn('The first element inside each <toggle-section> should be a heading of an appropriate level.');
+              console.warn('<toggle-section> should contain a heading of an appropriate level.');
             }
 
             // If the level is a real integer but not 2
@@ -310,15 +316,17 @@ var Toolkit = (function () {
               // Update the hash if the collapsible section's 
               // heading has an `id` and we are opening, not closing
               if (this.heading.id && !open) {
-                history.pushState(null, null, '#' + this.heading.id);
+                // history.pushState(null, null, '#' + this.heading.id);
               }
             }
           }
 
           connectedCallback() {
+            
             if (window.location.hash.substr(1) === this.heading.id) {
-              this.setAttribute('open', 'true');
-              this.btn.focus();
+              // console.log(window.location.hash, ' ', this.heading.id);
+              // this.setAttribute('open', 'true');
+              // this.btn.focus();
             }
           }
 
