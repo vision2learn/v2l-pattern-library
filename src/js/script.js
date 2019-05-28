@@ -321,15 +321,6 @@ var Toolkit = (function () {
             }
           }
 
-          connectedCallback() {
-            
-            if (window.location.hash.substr(1) === this.heading.id) {
-              // console.log(window.location.hash, ' ', this.heading.id);
-              // this.setAttribute('open', 'true');
-              // this.btn.focus();
-            }
-          }
-
           // Identify just the `open` attribute as an observed attribute
           static get observedAttributes() {
             return ['open'];
@@ -354,12 +345,7 @@ var Toolkit = (function () {
             <li><button id="collapse">collapse all</button></li>
           </ul>
         `;
-
-        // Get the first `toggle-section` on the page
-        // and all toggle sections as a node list
-        // const firstX = document.querySelector('toggle-section');
         
-
         const toggleGroups = document.querySelectorAll('.toggle-group');
 
         Array.prototype.forEach.call(toggleGroups, tg => {
