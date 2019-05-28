@@ -749,10 +749,7 @@ Only applies if script runs and
 toggle-section[role="region"] {
   border-width: 2px 0;
   border-style: solid;
-
-  &:not(:first-of-type) {
-    margin-top: 0;
-  }
+  margin-top: 0;
 }
 
 toggle-section[role="region"]+toggle-section {

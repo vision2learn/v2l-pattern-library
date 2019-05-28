@@ -191,7 +191,7 @@ var Toolkit = (function () {
     // Check for <template> support
     if ('content' in document.createElement('template')) {
       const tmpl = document.createElement('template');
-
+      
       // Create the web component's template
       // featuring a <slot> for the Light DOM content
       tmpl.innerHTML = `
@@ -357,21 +357,27 @@ var Toolkit = (function () {
 
         // Get the first `toggle-section` on the page
         // and all toggle sections as a node list
-        const first = document.querySelector('toggle-section');
-        const all = document.querySelectorAll('toggle-section');
+        // const firstX = document.querySelector('toggle-section');
+        
 
-        // Insert the button controls before the first <toggle-section>
-        first.parentNode.insertBefore(buttons, first);
+        const toggleGroups = document.querySelectorAll('.toggle-group');
 
-        // Place the click on the parent <ul>...
-        buttons.addEventListener('click', e => {
-          // ...then determine which button was the target 
-          let expand = e.target.id === 'expand';
+        Array.prototype.forEach.call(toggleGroups, tg => {
+          let all = tg.querySelectorAll('toggle-section');
+          let first = tg.querySelector('toggle-section');
+          let btns = buttons.cloneNode(true);
+          first.parentNode.insertBefore(btns, first);
 
-          // Iterate over the toggle sections to switch
-          // each one's state uniformly
-          Array.prototype.forEach.call(all, t => {
-            t.setAttribute('open', expand);
+          // Place the click on the parent <ul>...
+          btns.addEventListener('click', e => {
+            // ...then determine which button was the target 
+            let expand = e.target.id === 'expand';
+
+            // Iterate over the toggle sections to switch
+            // each one's state uniformly
+            Array.prototype.forEach.call(all, t => {
+              t.setAttribute('open', expand);
+            });
           });
         });
       }
