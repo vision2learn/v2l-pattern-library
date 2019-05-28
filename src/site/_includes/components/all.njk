@@ -5,6 +5,10 @@
   2. Responsive Images
   3. Unit Overview Buttons
   4. Quick Quiz
+  5. Accordion
+  6. Banner
+  7. Section
+  8. Media Object
 
 #}
 
@@ -12,35 +16,35 @@
 
 {% macro pagination(class, pagination, page) %}
 
-<nav {% if class %}class="{{ class }}"{% endif %}>
-  <ol aria-label="Pages in this session" role="list" class="c-pagination">
-    {%- if pagination.previousPageHref -%}
-      <li class="c-pagination__prev" role="listitem">
-        <a href="{{ pagination.previousPageHref }}">
-          <i class="visually-hidden">Previous Page</i>
-          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
-        </a>  
-      </li>
-    {%- endif -%}
+  <nav {% if class %}class="{{ class }}"{% endif %}>
+    <ol aria-label="Pages in this session" role="list" class="c-pagination">
+      {%- if pagination.previousPageHref -%}
+        <li class="c-pagination__prev" role="listitem">
+          <a href="{{ pagination.previousPageHref }}">
+            <i class="visually-hidden">Previous Page</i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
+          </a>  
+        </li>
+      {%- endif -%}
 
-    <!-- TODO: Re-order visually with CSS -->
-    {%- if pagination.nextPageHref -%}
-      <li class="c-pagination__next" role="listitem">
-        <a href="{{ pagination.nextPageHref }}">
-          <i class="visually-hidden">Next Page</i>
-          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
-        </a>
-      </li>
-    {%- endif -%}
+      <!-- TODO: Re-order visually with CSS -->
+      {%- if pagination.nextPageHref -%}
+        <li class="c-pagination__next" role="listitem">
+          <a href="{{ pagination.nextPageHref }}">
+            <i class="visually-hidden">Next Page</i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
+          </a>
+        </li>
+      {%- endif -%}
 
-    {%- for href in pagination.hrefs -%}
-      <!-- TODO: Review component with VoiceOver -->
-      <li role="listitem">
-        <a href="{{ href }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ loop.index }}</a>
-      </li>
-    {%- endfor -%}
-  </ol>
-</nav>
+      {%- for href in pagination.hrefs -%}
+        <!-- TODO: Review component with VoiceOver -->
+        <li role="listitem">
+          <a href="{{ href }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ loop.index }}</a>
+        </li>
+      {%- endfor -%}
+    </ol>
+  </nav>
 
 {% endmacro %}
 
@@ -65,7 +69,7 @@
     {%- endfor -%}
   {%- endset -%}
 
-    <img 
+    <img alt=""
       {% if class %} class="{{ class }}" {% endif %}
       srcset="{{ srcset | trim }}"
       sizes="100vw"
@@ -88,4 +92,130 @@
   <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}"> 
     {{ answer }}
   </label>
+{% endmacro %}
+
+{# --- 5. Accordion --- #}
+{# Taken from: https://inclusive-components.design/collapsible-sections/ #}
+
+{% macro accordion(title='Accordion title', copy='Accordion copy', img, class) %}
+
+<toggle-section open="false">
+  {% if img %}
+    {{ media(title=title, copy=copy, img=img) }}
+  {% else %}
+    <h3>{{ title }}</h3>
+    {{ copy | markdownify | safe }}
+  {% endif %}
+</toggle-section>
+{% endmacro %}
+
+{# --- 6. Banner --- #}
+
+{% macro banner(title="Banner title", copy="Banner copy", image="PLACEHOLDER.jpg", unit=1, session=1, pageNo=1, lastpage=false, sessionMap) %}
+  {% from "components/all.njk" import img as srcset %}
+
+  {% set bannerTitle = title %}
+  {% set bannerText = copy %}
+  {% set banner = "/images/banners/" + image %}
+
+  {% set sessionIs = sessionMap[session - 1] %}
+  
+  {%- if lastpage -%}
+    {%- set bannerTitle = "What did you learn?" -%}
+    {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!\n\n" + copy -%}
+  {%- elseif pageNo == 1 and session == 1 and unit == 1 -%}
+    {%- set bannerTitle = "Your learning goals" -%}
+    {% set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each Session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
+  {%- endif -%}
+
+  <section class="c-banner" data-session="{{ session }}">
+    <div class="c-banner__text boxout">
+      <h1>{{ title }}</h1>
+      {{ bannerText | markdownify | safe }}
+    </div>
+    {% if banner.endsWith('.svg') %}
+      <img src="{{ banner }}" class="c-banner__img" alt="">
+    {% else %}
+      {{ srcset(file=banner, class="c-banner__img")}}
+    {% endif %}
+  </section>
+
+{% endmacro %}
+
+{# 7. Section
+  
+  Arguments:
+    section (object) - found in individual page front matter or from predefined in _data/sections.json...
+
+#}
+
+{% macro section(section) %}
+
+  <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
+    {% if section.layout %}
+      {{ media(title=section.title, copy=section.copy, img=section.img, video=section.video, activity=section.activty, think=section.think, layout=section.layout) }}
+    {% else %}
+      <h2>{{ section.title }}</h2>
+
+      {% if section.copy %}
+          {{ section.copy | markdownify | safe }}
+        {% endif %}
+        
+        {% if section.subInc %}
+          {# Is this a basic or more complex include type? #}
+          {# {% set inc = section.subInc %} #}
+
+          {% set inc = section.subInc.type %}
+          
+          {% include 'components/' + inc + '.njk' %}
+
+        {% endif %}
+
+        {% if section.copy2 %}
+          {{ section.copy2 | markdownify | safe }}
+        {% endif %}
+
+    {% endif %}
+    
+  </section>
+
+{% endmacro %}
+
+{% macro sectionX() %}
+
+  <p>Hello</p>
+
+{% endmacro %}
+
+{# --- 8. Media object --- #}
+
+{% macro media(title, copy, img, layout, think, video) %}
+  <div class="l-media {% if layout == 'media-rev' %} l-media--rev {% elseif layout == 'media-half' %} l-media--half {% endif %}">
+    <h2 class="l-media__title">{{ title | title }}</h2>
+
+    <div class="l-media__body">
+      {{ copy | markdownify | safe }}
+    </div>
+    {% if activity %}
+      <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
+        <img src="/images/svg/Activity_button.svg" alt="Open activity">
+      </a>
+    {% else %}
+      {% if img %}
+        <img class="l-media__img" src="{{ img }}" alt="">
+      {% elseif video %}
+        <video controls class="l-media__img">
+            <source src="/videos/{{ video }}"
+                    type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+      {% elseif think %}
+        <form class="l-media__img l-think">
+          <textarea>
+          </textarea>
+          <button>Save</button>
+        </form>
+      {% endif %}
+    {% endif %}
+  </div>
 {% endmacro %}
