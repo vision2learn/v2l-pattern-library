@@ -738,6 +738,8 @@ Custom elements are inline by default
 
 toggle-section {
   display: block;
+  margin-top: 1.5rem;
+
 }
 
 /*
@@ -748,6 +750,7 @@ Only applies if script runs and
 toggle-section[role="region"] {
   border-width: 2px 0;
   border-style: solid;
+  margin-top: 0;
 }
 
 toggle-section[role="region"]+toggle-section {
