@@ -352,7 +352,10 @@ var Toolkit = (function () {
           let all = tg.querySelectorAll('toggle-section');
           let first = tg.querySelector('toggle-section');
           let btns = buttons.cloneNode(true);
-          first.parentNode.insertBefore(btns, first);
+
+          if(all.length > 1) {
+            first.parentNode.insertBefore(btns, first);
+          }
 
           // Place the click on the parent <ul>...
           btns.addEventListener('click', e => {
