@@ -191,7 +191,7 @@ var Toolkit = (function () {
     // Check for <template> support
     if ('content' in document.createElement('template')) {
       const tmpl = document.createElement('template');
-
+      
       // Create the web component's template
       // featuring a <slot> for the Light DOM content
       tmpl.innerHTML = `
@@ -261,7 +261,13 @@ var Toolkit = (function () {
             this.btn = this.shadowRoot.querySelector('h2 button');
 
             // Get the first element in Light DOM
-            const oldHeading = this.querySelector(':first-child');
+            let oldHeading = this.querySelector('h2');
+
+            // reassign oldHeading when media object inside toggle-section
+            if (this.querySelector(':first-child').tagName.substr(0,1) === 'H') {
+              oldHeading = this.querySelector(':first-child');
+            }
+            
             // and cast its heading level (which should, but may not, exist)
             let level = parseInt(oldHeading.tagName.substr(1));
             // Then take its `id` (may be null)
@@ -278,7 +284,7 @@ var Toolkit = (function () {
             // If there is no level, there is no heading.
             // Add a warning.
             if (!level) {
-              console.warn('The first element inside each <toggle-section> should be a heading of an appropriate level.');
+              console.warn('<toggle-section> should contain a heading of an appropriate level.');
             }
 
             // If the level is a real integer but not 2
@@ -310,15 +316,8 @@ var Toolkit = (function () {
               // Update the hash if the collapsible section's 
               // heading has an `id` and we are opening, not closing
               if (this.heading.id && !open) {
-                history.pushState(null, null, '#' + this.heading.id);
+                // history.pushState(null, null, '#' + this.heading.id);
               }
-            }
-          }
-
-          connectedCallback() {
-            if (window.location.hash.substr(1) === this.heading.id) {
-              this.setAttribute('open', 'true');
-              this.btn.focus();
             }
           }
 
@@ -346,24 +345,28 @@ var Toolkit = (function () {
             <li><button id="collapse">collapse all</button></li>
           </ul>
         `;
+        
+        const toggleGroups = document.querySelectorAll('.toggle-group');
 
-        // Get the first `toggle-section` on the page
-        // and all toggle sections as a node list
-        const first = document.querySelector('toggle-section');
-        const all = document.querySelectorAll('toggle-section');
+        Array.prototype.forEach.call(toggleGroups, tg => {
+          let all = tg.querySelectorAll('toggle-section');
+          let first = tg.querySelector('toggle-section');
+          let btns = buttons.cloneNode(true);
 
-        // Insert the button controls before the first <toggle-section>
-        first.parentNode.insertBefore(buttons, first);
+          if(all.length > 1) {
+            first.parentNode.insertBefore(btns, first);
+          }
 
-        // Place the click on the parent <ul>...
-        buttons.addEventListener('click', e => {
-          // ...then determine which button was the target 
-          let expand = e.target.id === 'expand';
+          // Place the click on the parent <ul>...
+          btns.addEventListener('click', e => {
+            // ...then determine which button was the target 
+            let expand = e.target.id === 'expand';
 
-          // Iterate over the toggle sections to switch
-          // each one's state uniformly
-          Array.prototype.forEach.call(all, t => {
-            t.setAttribute('open', expand);
+            // Iterate over the toggle sections to switch
+            // each one's state uniformly
+            Array.prototype.forEach.call(all, t => {
+              t.setAttribute('open', expand);
+            });
           });
         });
       }
