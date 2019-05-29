@@ -1,6 +1,6 @@
 
 <div class="l-media {% if section.layout == 'media-rev' %} l-media--rev {% endif %}">
-  <h2 class="l-media__title">{{ section.title | title }}</h2>
+  <h2 class="l-media__title">{{ section.title }}</h2>
 
   <div class="l-media__body">
     {{ section.copy | markdownify | safe }}
