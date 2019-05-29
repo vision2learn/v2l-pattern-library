@@ -11,7 +11,7 @@
     <div class="l-media__body">
       {{ copy | markdownify | safe }}
     </div>
-    <img class="l-media__img" src="/images/svg/{{ image | safe }}" alt="">
+    <img class="l-media__img" src="/images/svg/{{ image | safe | lower }}" alt="">
   </div>
 {% endmacro %}
 
