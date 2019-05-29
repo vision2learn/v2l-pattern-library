@@ -7,7 +7,7 @@
   </div>
   {% if section.activity %}
     <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/" class="l-media__img">
-      <img src="{{ section.img }}" alt="">
+      <img src="{{ section.img | lower }}" alt="">
     </a>
   {% else %}
     {% if section.img %}

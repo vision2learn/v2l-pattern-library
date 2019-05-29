@@ -9,7 +9,8 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 
 <main id="main" data-v2l-tags="{{ tags }}">
   
-  {% include 'banner.njk' %}
+  {% include 'banner.njk' %} 
+  {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
   
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
     {%- include 'components/unit-overview-tabs.njk' -%}
