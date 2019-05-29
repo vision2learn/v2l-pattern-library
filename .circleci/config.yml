@@ -74,7 +74,9 @@ workflows:
             - build
           filters:
             branches:
-              only: bleeding-edge
+              only: 
+                - bleeding-edge
+                - rayner-mod
       - deploy:
           requires:
             - build
