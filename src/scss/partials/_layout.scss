@@ -210,6 +210,8 @@ main > section:not(.c-banner) {
   grid-auto-rows: max-content;
   grid-gap: 2em;
 
+  font-size: .8em; // TODO: Remove, temp fix for overflow
+
   > li {
     flex: 1 1 14em;
     grid-column-end: span 2;
