@@ -64,7 +64,7 @@
   {%- set srcset -%}
     {%- set comma = joiner() -%}
     {%- for width in widths -%}
-      {{ comma() }} {{ basefile[0] + "-" + width + "." + basefile[1] }} {{ width + "w"}}
+      {{ comma() }} {{ basefile[0] + "-" + width + "." + basefile[1] | lower }} {{ width + "w"}}
     {%- endfor -%}
   {%- endset -%}
 
@@ -133,7 +133,7 @@
       {{ bannerText | markdownify | safe }}
     </div>
     {% if banner.endsWith('.svg') %}
-      <img src="{{ banner }}" class="c-banner__img" alt="">
+      <img src="{{ banner | lower }}" class="c-banner__img" alt="">
     {% else %}
       {{ srcset(file=banner, class="c-banner__img")}}
     {% endif %}
@@ -197,11 +197,11 @@
     </div>
     {% if activity %}
       <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
-        <img src="/images/svg/Activity_button.svg" alt="Open activity">
+        <img src="/images/svg/activity_button.svg" alt="Open activity">
       </a>
     {% else %}
       {% if img %}
-        <img class="l-media__img" src="{{ img }}" alt="">
+        <img class="l-media__img" src="{{ img | lower }}" alt="">
       {% elseif video %}
         <video controls class="l-media__img">
             <source src="/videos/{{ video }}"
