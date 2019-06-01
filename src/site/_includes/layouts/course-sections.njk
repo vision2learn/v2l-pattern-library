@@ -195,10 +195,34 @@ layout: layouts/course2
             Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.
           </p>
         </div>
-        <a href="" class="l-media__img">
-          <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
-        </a>
-      </div>
+        {# /courses/lean-management/unit-2/session-1/4/ #}
+        {# 
+          Determine if we're linking to the next session or 
+          the next unit or we're done
+        #}
+
+        {% set courseData = allcourses[module.data.course] %}
+        {% set unitsInCourse = courseData.units.length %}
+        {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
+        {% if (module.data.unit - 1) == unitsInCourse %}
+          {# We're done! #}
+        {% else %}
+
+          {% if (module.data.session - 1) < sessionsInUnit %}
+            {% set nextSession = module.data.session + 1 %}
+            {% set nextUnit = module.data.unit %}
+          {% else %}
+            {% set nextSession = 1 %}
+            {% set nextUnit = module.data.unit + 1 %}
+          {% endif %}
+          {# http://localhost:8080/courses/lean-management/unit-2/session-1/4/ #}
+          <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a>
+        </div>
+      {% endif %}
+
     </section>
 
   {% endif %}
