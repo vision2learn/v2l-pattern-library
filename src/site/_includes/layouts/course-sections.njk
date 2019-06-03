@@ -187,19 +187,52 @@ layout: layouts/course2
     </section>
 
     {# Logic for when on final page of section, unit etc #}
+
+    {# 
+      Determine if we're linking to the next session or 
+      the next unit or we're done
+    #}
+
+    {% set courseData = allcourses[module.data.course] %}
+    {% set unitsInCourse = courseData.units.length %}
+    {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
+    {% if (module.data.session) < sessionsInUnit %}
+      {% set nextSession = module.data.session + 1 %}
+      {% set nextUnit = module.data.unit %}
+    {% else %}
+      {% set nextSession = 1 %}
+      {% set nextUnit = module.data.unit + 1 %}
+    {% endif %}
+
     <section class="t-bg-primary  ">
       <div class="l-media">
-        <h2 class="l-media__title">Ready to move on?</h2>
-        <div class="l-media__body">
-          <p>
-            Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.
-          </p>
-        </div>
-        <a href="" class="l-media__img">
-          <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
-        </a>
+        
+        <!-- {{module.data.unit}}/{{ unitsInCourse }} {{ module.data.session }}/{{ sessionsInUnit }}-->
+
+        {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
+          {# We're done! #}
+          <h2 class="l-media__title">Congratulations!</h2>
+          <div class="l-media__body">
+            <p>
+              You've reached the end of this course.
+            </p>
+          </div>
+          {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a> #}
+        {% else %}
+          <h2 class="l-media__title">Ready to move on?</h2>
+          <div class="l-media__body">
+            <p>
+              Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.
+            </p>
+          </div>
+          <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a>
+        {% endif %}
       </div>
     </section>
-
   {% endif %}
 {% endif %}
