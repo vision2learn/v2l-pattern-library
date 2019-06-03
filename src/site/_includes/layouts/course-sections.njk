@@ -140,4 +140,99 @@ layout: layouts/course2
       </section>
     {% endblock section %}
   {% endfor %}
+
+  {% if lastPage %}
+
+    <section class="t-bg-primary3 i-think">
+      <div class="l-media l-media--half">
+        <h2 class="l-media__title">Time to Think Summary</h2>
+        <div class="l-media__body">
+          <p>
+            <em>Use your previous journal entries to help you with your assessment.</em>
+          </p>
+        </div>
+        <form class="l-media__img l-think">
+          <textarea rows="15"></textarea>
+          <button>Save</button>
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div class="l-media">
+        <h2 class="l-media__title">Unit assessment</h2>
+        <div class="l-media__body">
+          <p>
+            Now it’s time to complete Part {{ module.data.session }} of your Unit {{ module.data.unit }} Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.
+          </p>
+        </div>
+        <a href="" class="l-media__img">
+          <img src="/images/svg/assessment_button.svg" alt="Continue to the next unit">
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="l-media">
+        <h2 class="l-media__title">Watch the webinar</h2>
+        <div class="l-media__body">
+          <p>
+            <strong><i>Coming soon...</i></strong>
+          </p>
+        </div>
+        <a href="" class="l-media__img">
+          <img src="/images/svg/assessment_video_button.svg" alt="Watch the webinar">
+        </a>
+      </div>
+    </section>
+
+    {# Logic for when on final page of section, unit etc #}
+
+    {# 
+      Determine if we're linking to the next session or 
+      the next unit or we're done
+    #}
+
+    {% set courseData = allcourses[module.data.course] %}
+    {% set unitsInCourse = courseData.units.length %}
+    {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
+    {% if (module.data.session) < sessionsInUnit %}
+      {% set nextSession = module.data.session + 1 %}
+      {% set nextUnit = module.data.unit %}
+    {% else %}
+      {% set nextSession = 1 %}
+      {% set nextUnit = module.data.unit + 1 %}
+    {% endif %}
+
+    <section class="t-bg-primary  ">
+      <div class="l-media">
+        
+        <!-- {{module.data.unit}}/{{ unitsInCourse }} {{ module.data.session }}/{{ sessionsInUnit }}-->
+
+        {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
+          {# We're done! #}
+          <h2 class="l-media__title">Congratulations!</h2>
+          <div class="l-media__body">
+            <p>
+              You've reached the end of this course.
+            </p>
+          </div>
+          {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a> #}
+        {% else %}
+          <h2 class="l-media__title">Ready to move on?</h2>
+          <div class="l-media__body">
+            <p>
+              Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.
+            </p>
+          </div>
+          <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
 {% endif %}
