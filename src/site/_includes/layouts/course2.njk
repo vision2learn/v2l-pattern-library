@@ -7,7 +7,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% include 'header.njk' %}
 {% import 'components/all.njk' as components %}
 
-<main id="main" data-v2l-tags="{{ tags }}">
+<main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ module.data.course }}" data-v2l-unit="{{ module.data.unit }}" data-v2l-session="{{ module.data.session }}" data-v2l-page="{{ pagination.pageNumber }}">
   
   {% include 'banner.njk' %} 
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
