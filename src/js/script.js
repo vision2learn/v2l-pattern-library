@@ -538,7 +538,6 @@ var Toolkit = (function () {
   }
 
   if(storageAvailable('localStorage')) {
-    console.log('LocalStorage OK');
 
     // is there a Time to Think component on the page?
     const timeToThink = document.querySelectorAll('.js-think');
@@ -547,25 +546,64 @@ var Toolkit = (function () {
       // get this page's dataset from main
       // creates a unique storage key for the page
       const mainData = document.querySelector('main').dataset;
+      const courseKey = `${mainData.v2lCourse.replace(' ', '_')}_level${mainData.v2lLevel}`;
+      const unitKey = `unit${mainData.v2lUnit}`;
+      const sessionKey = `session${mainData.v2lSession}`;
+      const pageKey = `p${parseInt(mainData.v2lPage) + 1}`;
+
       
-      let keyName = `${mainData.v2lCourse.replace(' ', '_')}_u${mainData.v2lUnit}_s${mainData.v2lSession}_p${mainData.v2lPage}`;
+      // console.log(JSON.stringify(tttData));
+      
       
       let storage = window.localStorage;
       
+      // build the empty object
+      
+      const tttData = `{"${unitKey}": {"${sessionKey}": {"${pageKey}": {}}}}`;
+      // console.log(tttData);
+      
+      // check for top-level key or create it
+      if(!storage.getItem(courseKey)) {
+        storage.setItem(courseKey, "{}");
+      }
+      // get the object and add to it if we need to
+      let pageData = JSON.parse(storage.getItem(courseKey));
 
+      // does a unitkey exist?
+      if(!pageData[unitKey]) {
+        pageData[unitKey] = {};
+        pageData[unitKey][sessionKey] = {};
+      }
+
+      if(!pageData[unitKey][sessionKey]) {
+        pageData[unitKey][sessionKey] = {};
+      }
+      
       Array.prototype.forEach.call(timeToThink, (think, i) => {
-        keyName = `${keyName}_${i}`;
+        if(!pageData[unitKey][sessionKey][pageKey]) {
+          pageData[unitKey][sessionKey][pageKey] = {};
+        }
+
+        let keyName = `ttt_${i}`;
+        let tttText = pageData[unitKey][sessionKey][pageKey][keyName];
+
+        if(tttText) {
+          think.value = tttText;
+        }
+
         think.addEventListener('blur', function() {
           if(think.value !== null) {
-            storage.setItem(keyName, think.value);
+            pageData[unitKey][sessionKey][pageKey][keyName] = think.value;      
+            storage.setItem(courseKey, JSON.stringify(pageData));
           }
         });
         
-        // populate the textbox if localstorage values exist
-        if (storage.getItem(keyName) !== null) {
-          think.value = storage.getItem(keyName);
-        }
+        // // populate the textbox if localstorage values exist
+        // if (storage.getItem(keyName) !== null) {
+        //   think.value = storage.getItem(keyName);
+        // }
       });
+
     }
   }
 })();
