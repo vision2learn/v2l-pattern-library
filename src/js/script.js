@@ -541,26 +541,18 @@ var Toolkit = (function () {
 
     // is there a Time to Think component on the page?
     const timeToThink = document.querySelectorAll('.js-think');
+    let tttSummary = document.getElementById('tttSummary');
 
-    if(timeToThink.length > 0) {
+    if(timeToThink.length > 0 || tttSummary !== null) {
+      
       // get this page's dataset from main
       // creates a unique storage key for the page
       const mainData = document.querySelector('main').dataset;
       const courseKey = `${mainData.v2lCourse.replace(' ', '_')}_level${mainData.v2lLevel}`;
       const unitKey = `unit${mainData.v2lUnit}`;
       const sessionKey = `session${mainData.v2lSession}`;
-      const pageKey = `p${parseInt(mainData.v2lPage) + 1}`;
-
-      
-      // console.log(JSON.stringify(tttData));
-      
-      
+      const pageKey = `page_${parseInt(mainData.v2lPage) + 1}`;
       let storage = window.localStorage;
-      
-      // build the empty object
-      
-      const tttData = `{"${unitKey}": {"${sessionKey}": {"${pageKey}": {}}}}`;
-      // console.log(tttData);
       
       // check for top-level key or create it
       if(!storage.getItem(courseKey)) {
@@ -597,12 +589,20 @@ var Toolkit = (function () {
             storage.setItem(courseKey, JSON.stringify(pageData));
           }
         });
-        
-        // // populate the textbox if localstorage values exist
-        // if (storage.getItem(keyName) !== null) {
-        //   think.value = storage.getItem(keyName);
-        // }
       });
+      
+      if(tttSummary !== null) {
+        let summaryObj = pageData[unitKey][sessionKey];
+
+        const pageDataArr = Object.entries(summaryObj);
+        let summaryText = "";
+
+        for(const [page, tttdata] of pageDataArr) {
+          summaryText += `${page.replace('_', ' ')}:\n\n${Object.values(tttdata).toString()}\n\n**************\n\n`;
+        }
+        
+        tttSummary.value = summaryText;
+      }
 
     }
   }
