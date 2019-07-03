@@ -191,6 +191,7 @@
     height: 0;
     cursor: pointer;
     opacity: 0;
+    visibility: hidden; // fixes weird jump to top bug
 
     &:focus + label {
       @extend %focus;
@@ -751,6 +752,12 @@ toggle-section[role="region"] {
   border-width: 2px 0;
   border-style: solid;
   margin-top: 0;
+
+  // When a media  object is used inside a Reveal, JS moves the title so we need to rejig the the layout
+  .l-media__body {
+    align-self: center;
+    grid-row: 1 / -1;
+  }
 }
 
 toggle-section[role="region"]+toggle-section {
