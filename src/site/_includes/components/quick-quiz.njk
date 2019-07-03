@@ -27,7 +27,7 @@
         {%- endfor -%}
       
       {% if answers.feedback %}
-        {{ components.accordion(heading="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
+        {{ components.accordion(title="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
       {% endif %}
 
       </fieldset>
