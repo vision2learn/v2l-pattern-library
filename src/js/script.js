@@ -576,6 +576,7 @@ var Toolkit = (function () {
           pageData[unitKey][sessionKey][pageKey] = {};
         }
 
+        let saveBtn = think.nextElementSibling;
         let keyName = `ttt_${i}`;
         let tttText = pageData[unitKey][sessionKey][pageKey][keyName];
 
@@ -588,6 +589,10 @@ var Toolkit = (function () {
             pageData[unitKey][sessionKey][pageKey][keyName] = think.value;      
             storage.setItem(courseKey, JSON.stringify(pageData));
           }
+        });
+
+        saveBtn.addEventListener('click', function(e) {
+          e.preventDefault();
         });
       });
       
