@@ -105,7 +105,7 @@ layout: layouts/course2
       {% if section.include %}
         {% set inc = section.include.type | lower %}
         {% include 'components/' + inc + '.njk' ignore missing %}
-      {% elseif section.layout == "media" or section.layout == "media-rev" %}
+      {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
         {% include 'components/media.njk' ignore missing %}
 
         {# {% if section.activity %}
