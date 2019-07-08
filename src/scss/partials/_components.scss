@@ -763,8 +763,26 @@ toggle-section[role="region"] {
     align-self: center;
     grid-row: 1 / -1;
   }
+  
+  > h3 {
+    display: none;
+  }
 }
 
 toggle-section[role="region"]+toggle-section {
   border-top: 0;
+}
+
+// Code for polyfilled browsers (IE11, pre-Blink Edge etc)
+// can be removed eventually
+toggle-section[role="region"] .style-scope:not(p) {
+  margin: 0 !important;
+  background-color: inherit;
+  color: currentColor;
+  text-transform: capitalize;
+}
+
+h2.toggle-section::before {
+  content: "";
+  display: none;
 }
