@@ -206,42 +206,42 @@ var Toolkit = (function () {
         <div class="content" hidden>
           <slot></slot>
         </div>
-        <style>
-          h2 {
-            margin: 0;
-          }
+          <style>
+            h2 {
+              margin: 0;
+            }
 
-          h2 + div {
-            padding-bottom: 1.5rem;
-          }
+            h2 + div {
+              padding-bottom: 1.5rem;
+            }
 
-          h2 button {
-            all: inherit;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            padding: 0.5em 0;
-          }
+            h2 button {
+              all: inherit;
+              box-sizing: border-box;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+              padding: 0.5em 0;
+            }
 
-          h2 button:focus svg {
-            outline: 2px solid;
-          }
+            h2 button:focus svg {
+              outline: 2px solid;
+            }
 
-          button svg {
-            height: 1em;
-            margin-left: 0.5em;
-          }
+            button svg {
+              height: 1em;
+              margin-left: 0.5em;
+            }
 
-          [aria-expanded="true"] .vert {
-            display: none;
-          }
+            [aria-expanded="true"] .vert {
+              display: none;
+            }
 
-          [aria-expanded] rect {
-            fill: currentColor;
-          }
-        </style>
+            [aria-expanded] rect {
+              fill: currentColor;
+            }
+          </style>
       `;
 
       // Check for latest Shadow DOM syntax support
@@ -296,6 +296,7 @@ var Toolkit = (function () {
             // Add the Light DOM heading label to the innerHTML of the toggle button
             // and remove the now unwanted Light DOM heading
             this.btn.innerHTML = oldHeading.textContent + this.btn.innerHTML;
+          
             oldHeading.parentNode.removeChild(oldHeading);
 
             // The main state switching function
@@ -576,6 +577,7 @@ var Toolkit = (function () {
           pageData[unitKey][sessionKey][pageKey] = {};
         }
 
+        let saveBtn = think.nextElementSibling;
         let keyName = `ttt_${i}`;
         let tttText = pageData[unitKey][sessionKey][pageKey][keyName];
 
@@ -588,6 +590,10 @@ var Toolkit = (function () {
             pageData[unitKey][sessionKey][pageKey][keyName] = think.value;      
             storage.setItem(courseKey, JSON.stringify(pageData));
           }
+        });
+
+        saveBtn.addEventListener('click', function(e) {
+          e.preventDefault();
         });
       });
       

@@ -169,6 +169,11 @@
 
   }
 
+  toggle-section {
+    font-size: 1rem;
+    padding: .5em;
+  }
+
   &__fb {
     background-color: var(--primary3);
     font-size: 1rem;
@@ -191,6 +196,7 @@
     height: 0;
     cursor: pointer;
     opacity: 0;
+    visibility: hidden; // fixes weird jump to top bug
 
     &:focus + label {
       @extend %focus;
@@ -751,8 +757,32 @@ toggle-section[role="region"] {
   border-width: 2px 0;
   border-style: solid;
   margin-top: 0;
+
+  // When a media  object is used inside a Reveal, JS moves the title so we need to rejig the the layout
+  .l-media__body {
+    align-self: center;
+    grid-row: 1 / -1;
+  }
+  
+  > h3 {
+    display: none;
+  }
 }
 
 toggle-section[role="region"]+toggle-section {
   border-top: 0;
+}
+
+// Code for polyfilled browsers (IE11, pre-Blink Edge etc)
+// can be removed eventually
+toggle-section[role="region"] .style-scope:not(p) {
+  margin: 0 !important;
+  background-color: inherit;
+  color: currentColor;
+  text-transform: capitalize;
+}
+
+h2.toggle-section::before {
+  content: "";
+  display: none;
 }
