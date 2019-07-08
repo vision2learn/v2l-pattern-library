@@ -296,10 +296,7 @@ var Toolkit = (function () {
             // Add the Light DOM heading label to the innerHTML of the toggle button
             // and remove the now unwanted Light DOM heading
             this.btn.innerHTML = oldHeading.textContent + this.btn.innerHTML;
-            // console.log(oldHeading.parentNode.removeChild(oldHeading));
-            oldHeading.classList.add('hello');
-            console.log(typeof oldHeading.parentNode);
-            
+          
             oldHeading.parentNode.removeChild(oldHeading);
 
             // The main state switching function
