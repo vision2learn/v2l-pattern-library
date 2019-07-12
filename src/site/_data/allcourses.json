@@ -1,6 +1,6 @@
 {
   "business and administration": {
-    "level": 1,
+    "level": 2,
     "why": "Whether you’re returning to work, preparing for the workplace, or upskilling in your current role, studying Business and Administration will help you to gain essential knowledge in carrying out a range of administrative tasks.\n\nIt’s important to set goals in your studies, as goal-setting gives you control over your learning.\n\nResearch has proven that people who write their goals down have a greater motivation to achieve them.",
     "goals": {
       "will": [
@@ -61,48 +61,53 @@
         }
       },
       {
-        "title": "Unit 2 Title (TBC)",
+        "title": "Principles of providing administrative services",
         "sessions": {
-          "session 1 title (tbc)": [
-            "Page 1",
-            "Page 2",
-            "Page 3",
-            "Page 4"
+          "Using the telephone": [
+            "The different features of telephone systems",
+            "Procedures for making and receiving telephone calls",
+            "Giving a positive image when using the phone."
           ],
-          "session 2 title (tbc)": [
-            "Page 1",
-            "Page 2",
-            "Page 3"
+          "Handling mail": [
+            "Dealing with incoming and outgoing mail",
+            "Finding services to deal with mail",
+            "Calculating postage charges."
           ],
-          "session 3 title (tbc)": [
-            "Page 1",
-            "Page 2",
-            "Page 3"
+          "Using different types of office equipment": [
+            "The different types of equipment and their purpose",
+            "Following manufacturers' instructions",
+            "Keeping equipment clean, hygienic and ready for the next user."
           ],
-          "session 4 title (tbc)": [
-            "Page 1",
-            "Page 2",
-            "Page 3"
+          "Minimising waste at work": [
+            "Why waste should be kept to a minimum",
+            "The main causes of waste",
+            "Ways of keeping waste to a minimum."
           ],
-          "session 5 title (tbc)": [
-            "Page 1",
-            "Page 2",
-            "Page 3"
+          "Making arrangements for meetings": [
+            "Identifying different types of meetings and their main features",
+            "Identifying the sources and types of information needed to arrange a meeting",
+            "How to arrange meetings."
 
           ],
-          "session 6 title (tbc)": [
-            "Page 1",
-            "Page 2",
-            "Page 3"
+          "Organising travel and accommodation": [
+            "Instructions and requirements for business travel and accommodation",
+            "Types of business travel/accommodation arrangements",
+            "Keeping records of business travel/accommodation."
           ],
-          "session 7 title (tbc)": [
-            "Page 1"
+          "Diary management procedures": [
+            "Why it's important to use a diary system to plan activities",
+            "The information needed to maintain a diary system."
           ],
-          "session 8 title (tbc)": [
-            "Page 1"
+          "Delivering effective customer service": [
+            "Internal and external customers",
+            "Why customer service should meet customer expectations",
+            "Identifying ways of building positive relationships with customers",
+            "Identifying how customers demonstrate their own needs and expectations."
           ],
-          "session 9 title (tbc)": [
-            "Page 1"
+          "Reception services and procedures": [
+            "The receptionist as the first point of contact",
+            "How to give a positive image",
+            "Carrying out entry departure, security and confidentiality procedures."
           ]
         }
       }

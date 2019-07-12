@@ -99,9 +99,7 @@ layout: layouts/course2
 {% else %}
   {% for section in module.data.sections %}
     {% block section %}
-      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"
-      {% endif %}>
-
+      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
       {% if section.include %}
         {% set inc = section.include.type | lower %}
         {% include 'components/' + inc + '.njk' ignore missing %}
@@ -134,6 +132,10 @@ layout: layouts/course2
 
         {% if section.copy2 %}
           {{ section.copy2 | markdownify | safe }}
+        {% endif %}
+
+        {% if section.interactive %}
+          {% include 'components/animate-canvas.html' %}
         {% endif %}
 
       {% endif %}
@@ -172,7 +174,7 @@ layout: layouts/course2
       </div>
     </section>
 
-    <section>
+    <section class="t-bg-primary2">
       <div class="l-media">
         <h2 class="l-media__title">Watch the webinar</h2>
         <div class="l-media__body">
