@@ -613,3 +613,33 @@ var Toolkit = (function () {
     }
   }
 })();
+
+// quick quiz navigation
+(function() {
+  
+  const quizzes = document.querySelectorAll('.c-quiz');
+
+  if(quizzes.length > 0) {
+    Array.prototype.forEach.call(quizzes, quiz => {
+      quiz.classList.add('js-quiz');
+      const questions = quiz.querySelectorAll('fieldset');
+      quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
+      
+      Array.prototype.forEach.call(questions, q => {
+
+        // create and add next button
+        const nextBtn = document.createElement('button');
+        nextBtn.appendChild(document.createTextNode('Next Question'));
+        q.appendChild(nextBtn);
+
+        // attach click handler to control moving through quiz
+        nextBtn.addEventListener('click', e => {
+          e.preventDefault();
+          q.removeAttribute('data-v2l-active');
+          q.nextElementSibling.setAttribute('data-v2l-active', true);
+
+        });
+      });
+    });
+  }
+})();
