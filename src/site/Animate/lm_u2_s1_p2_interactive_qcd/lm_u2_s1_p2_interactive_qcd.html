@@ -19,7 +19,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"lm_u2_s1_p2_interactive_qcd_atlas_", frames: [[288,4258,141,31],[0,4258,142,31],[144,4258,142,31],[0,0,4233,4256]]}
+		{name:"lm_u2_s1_p2_interactive_qcd_atlas_", frames: [[288,4258,141,31],[144,4258,142,31],[0,4258,142,31],[0,0,4233,4256]]}
 ];
 // symbols:
 (lib.Bitmap1 = function() {
@@ -242,27 +242,22 @@ p.nominalBounds = new cjs.Rectangle(-70.1,-34,142.3,70.1);
 	this.ST_button.parent = this;
 	this.ST_button.setTransform(74.5,335.6);
 	new cjs.ButtonHelper(this.ST_button, 0, 1, 1);
-	this.PP_button = new lib.Button_1();
-	this.PP_button.name = "PP_button";
-	this.PP_button.parent = this;
-	this.PP_button.setTransform(74.5,261.35);
-	new cjs.ButtonHelper(this.PP_button, 0, 1, 1);
 	this.NRFT_button = new lib.Button_1();
 	this.NRFT_button.name = "NRFT_button";
 	this.NRFT_button.parent = this;
 	this.NRFT_button.setTransform(76.25,114.25);
 	new cjs.ButtonHelper(this.NRFT_button, 0, 1, 1);
-	this.PP_button_1 = new lib.Button_1();
-	this.PP_button_1.name = "PP_button_1";
-	this.PP_button_1.parent = this;
-	this.PP_button_1.setTransform(78.15,262.35);
-	new cjs.ButtonHelper(this.PP_button_1, 0, 1, 1);
+	this.PP_button = new lib.Button_1();
+	this.PP_button.name = "PP_button";
+	this.PP_button.parent = this;
+	this.PP_button.setTransform(78.15,262.35);
+	new cjs.ButtonHelper(this.PP_button, 0, 1, 1);
 	this.DSA_button = new lib.Button_1();
 	this.DSA_button.name = "DSA_button";
 	this.DSA_button.parent = this;
 	this.DSA_button.setTransform(78.15,188.35);
 	new cjs.ButtonHelper(this.DSA_button, 0, 1, 1);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.DSA_button},{t:this.PP_button_1},{t:this.NRFT_button},{t:this.PP_button},{t:this.ST_button},{t:this.OEE_button},{t:this.VAPP_button},{t:this.FSU_button}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.DSA_button},{t:this.PP_button},{t:this.NRFT_button},{t:this.ST_button},{t:this.OEE_button},{t:this.VAPP_button},{t:this.FSU_button}]}).wait(1));
 }).prototype = getMCSymbolPrototype(lib.Scene_1_Buttons, null, null);
 // stage content:
 (lib.lm_u2_s1_p2_interactive_qcd = function(mode,startPosition,loop) {
@@ -321,7 +316,6 @@ p.nominalBounds = new cjs.Rectangle(-70.1,-34,142.3,70.1);
 		this.DSA_button = this.Buttons.DSA_button;
 		this.PP_button = this.Buttons.PP_button;
 		this.NRFT_button = this.Buttons.NRFT_button;
-		this.PP_button = this.Buttons.PP_button;
 		this.ST_button = this.Buttons.ST_button;
 		this.OEE_button = this.Buttons.OEE_button;
 		this.VAPP_button = this.Buttons.VAPP_button;
@@ -415,7 +409,7 @@ p.nominalBounds = new cjs.Rectangle(-70.1,-34,142.3,70.1);
 	this.image.maskLayerName = 0
 	this.timeline.addTween(cjs.Tween.get(this.image).wait(1));
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(300,300,300,300);
+p.nominalBounds = new cjs.Rectangle(300,300,299.9,300);
 // library properties:
 lib.properties = {
 	id: 'BF88F2F66EB64E2DB17EB02613B93BDE',
