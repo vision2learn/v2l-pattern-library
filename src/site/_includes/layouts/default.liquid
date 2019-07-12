@@ -18,7 +18,7 @@
   {%- assign body-class = "component" -%}
 {%- endif -%}
 
-<body class="{{ body-class }}">
+<body class="{{ body-class }}" onload="init();">
   <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
   {{ content }}
   <script src="/js/script.js"></script>

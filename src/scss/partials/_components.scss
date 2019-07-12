@@ -183,6 +183,7 @@
   &__answer {
     background-color: var(--primary2);
     margin-top: 0 !important;
+    position: relative;
   }
 
   // Binding styles to attribute types rather than class to encourage correct markup
@@ -192,11 +193,11 @@
     z-index: 1;
     top: 0;
     left: 0;
-    width: 0;
-    height: 0;
+    width: 65px;
+    height: 65px;
     cursor: pointer;
     opacity: 0;
-    visibility: hidden; // fixes weird jump to top bug
+    // visibility: hidden; // fixes weird jump to top bug
 
     &:focus + label {
       @extend %focus;
@@ -234,6 +235,23 @@
       content: url(/images/svg/cross.svg);
     }
   }
+}
+
+.js-quiz {
+
+  position: relative;
+  overflow: hidden;
+  
+  fieldset {
+    // display: none;
+    position: absolute;
+    left: 100%;
+    
+    &[data-v2l-active=true] {
+      position: static;
+    }
+  }
+
 }
 
 //Slider
