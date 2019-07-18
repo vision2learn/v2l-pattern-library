@@ -120,11 +120,20 @@
   }
 }
 
-.c-quiz {  
-  counter-reset: quiz;
+.c-quiz {
   color: #fff;
   font-size: 1.5em;
   margin-top: calc(var(--flow) * 1rem);
+
+  &.js-form-error {
+    border-left: solid 5px #fa0;
+    padding-left: .5rem;
+
+    .field-validation-error {
+      color: #fa0;
+      display: block;
+    }
+  }
 
   fieldset {
     background-color: var(--primary3);
@@ -144,8 +153,7 @@
     &::before {
       display: block;
       font-size: 1rem;
-      counter-increment: quiz;
-      content: "Question " counter(quiz);
+      content: attr(data-v2l-qnum);
       justify-self: start;
     }
   }
@@ -252,6 +260,29 @@
     }
   }
 
+}
+
+.js-quiz,
+#formQuiz {
+  fieldset {
+    margin-top: 0;
+  }
+}
+
+#formQuiz {
+  label::after {
+    display: none;
+  }
+
+  .field-validation-error {
+    display: block;
+    color: red;
+    background: white;
+    margin: .5em 0;
+    padding: .5em;
+    outline: dashed currentColor;
+    outline-offset: -5px;
+  }
 }
 
 //Slider
