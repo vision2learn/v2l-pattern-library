@@ -617,7 +617,7 @@ var Toolkit = (function () {
 // quick quiz navigation
 (function() {
   
-  const quizzes = document.querySelectorAll('.c-quiz');
+  const quizzes = document.querySelectorAll('.c-quiz:not(#formQuiz)');
 
   if(quizzes.length > 0) {
     Array.prototype.forEach.call(quizzes, quiz => {
@@ -640,6 +640,13 @@ var Toolkit = (function () {
 
         });
       });
+    });
+  }
+
+  // End of unit quizzes
+  if(document.getElementById('formQuiz')) {
+    $('#formQuiz').on('invalid-form.validate', function () {
+        $(this).addClass('js-form-error');
     });
   }
 })();
