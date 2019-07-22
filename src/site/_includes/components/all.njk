@@ -88,8 +88,13 @@
 
 {% macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
   <input type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}">
-  <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}"> 
-    {{ answer }}
+  <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}" >
+    {% if answer == "true" or answer == "false" %}
+      {{ answer | capitalize }}
+    {% else %}
+      {{ answer }}
+    {% endif %}
+    
   </label>
 {% endmacro %}
 
