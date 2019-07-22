@@ -18,7 +18,7 @@
   {%- for question, answers in quiz -%}
     {%- set topIndex = loop.index -%}
       <fieldset class="l-quiz">
-        <legend>{{ question }}</legend>
+        <legend data-v2l-qnum="Question {{ loop.index }}">{{ question }}</legend>
         
         {%- for response, result in answers.answers -%}
           <div class="c-quiz__answer">
@@ -27,7 +27,7 @@
         {%- endfor -%}
       
       {% if answers.feedback %}
-        {{ components.accordion(heading="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
+        {{ components.accordion(title="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
       {% endif %}
 
       </fieldset>
