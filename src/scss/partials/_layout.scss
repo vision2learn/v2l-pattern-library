@@ -115,6 +115,10 @@ main > section:not(.c-banner) {
 }
 
 .l-head {
+  // fallback
+  display: flex;
+  flex-direction: column;
+
   display: grid;
   grid-row-gap: 1.5rem;
   // grid-template-columns: 1fr repeat(auto-fill, 1fr) 190px 1fr;
@@ -197,6 +201,7 @@ main > section:not(.c-banner) {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 1.5em;
 
   display: grid;
@@ -207,7 +212,7 @@ main > section:not(.c-banner) {
   font-size: .8em; // TODO: Remove, temp fix for overflow
 
   > li {
-    flex: 1 1 14em;
+    flex: 0 1 260px;
     grid-column-end: span 2;
   }
 
