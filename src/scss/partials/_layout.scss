@@ -14,7 +14,11 @@ body {
 }
 
 main > section:not(.c-banner) {
-  padding: 2.5rem 0;
+  padding: 2.5rem;
+
+  @supports(display: grid) {
+    padding: 2.5rem 0;
+  }
 
   // * + * {
   //   margin-top: 1.5rem;
@@ -27,10 +31,7 @@ main > section:not(.c-banner) {
   * + h2,
   * + h3 {
     margin-top: 1.5em;
-  
-    @supports(--a: 0) {
-      margin-top: calc($flow * 1em);
-    }
+    margin-top: calc($flow * 1em);
   }
 
   li,
