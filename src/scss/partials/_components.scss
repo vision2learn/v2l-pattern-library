@@ -2,7 +2,7 @@
   background-color: rgb(37, 40, 43);
   border-width: 0;
   border-style: solid;
-  border-color: var(--primary1);
+  border-color: $primary1;
   border-bottom-width: 5px;
   color: #fff;
 
@@ -52,7 +52,7 @@
     }
 
     [aria-current="step"] {
-      color: var(--primary1);
+      color: $primary1;
     }
   }
 
@@ -100,11 +100,11 @@
       
       &:hover,
       &:focus {
-        color: var(--primary1);
+        color: $primary1;
       }
 
       &[aria-current="page"] {
-        border-bottom: solid 4px var(--primary1);
+        border-bottom: solid 4px $primary1;
         filter: unset;
       }
     }
@@ -127,7 +127,7 @@
 .c-quiz {
   color: #fff;
   font-size: 1.5em;
-  margin-top: calc(var(--flow) * 1rem);
+  margin-top: calc($flow * 1rem);
 
   &.js-form-error {
     border-left: solid 5px #fa0;
@@ -140,7 +140,7 @@
   }
 
   fieldset {
-    background-color: var(--primary3);
+    background-color: $primary3;
     border: 0;
     counter-reset: answers;
     flex-direction: column;
@@ -150,7 +150,7 @@
   }
 
   legend {
-    background-color: var(--primary3);
+    background-color: $primary3;
     padding: .5em;
     width: 100%;
     
@@ -170,7 +170,7 @@
     
     &:hover,
     &:focus {
-      background-color: var(--primary1);
+      background-color: $primary1;
     }
 
     &::before {
@@ -187,13 +187,13 @@
   }
 
   &__fb {
-    background-color: var(--primary3);
+    background-color: $primary3;
     font-size: 1rem;
     padding: .5em;
   }
 
   &__answer {
-    background-color: var(--primary2);
+    background-color: $primary2;
     margin-top: 0 !important;
     position: relative;
   }
@@ -229,7 +229,7 @@
     &:checked,
     &:focus {
       + label {
-        background-color: var(--primary1);
+        background-color: $primary1;
       }
     }
   }
@@ -334,7 +334,7 @@
     .visible &::after {
       content: "Slide " counter(slides) " of " attr(data-v2l-count);
       position: absolute;
-      color: var(--secondary1);
+      color: $secondary1;
       bottom: 3.5rem;
       right: 3.5rem;
       background: #fff;
@@ -392,7 +392,7 @@
   button {
     position: absolute;
     top: 0;
-    color: var(--secondary1);
+    color: $secondary1;
     background: none;
     border: none;
     border-radius: 0;
@@ -432,7 +432,7 @@ button svg {
   &__questions {
 
     li {
-      margin-top: calc(var(--flow) * 1rem);
+      margin-top: calc($flow * 1rem);
       padding: 1em;
       position: relative;
     }
@@ -611,7 +611,7 @@ button svg {
     flex-direction: column;
     justify-content: center;
     background-color: rgba(255,255,255,.9);
-    color: var(--secondary1);
+    color: $secondary1;
     padding: 1em;
     transition: top .3s ease-in-out;
     will-change: top;
@@ -635,9 +635,9 @@ button svg {
 }
 
 .c-reveal {
-  color: var(--primary1);
+  color: $primary1;
   border: solid 1px;
-  margin-top: calc(var(--flow) * 1em);
+  margin-top: calc($flow * 1em);
 
   summary {
     display: block;

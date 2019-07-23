@@ -20,7 +20,7 @@ main > section:not(.c-banner) {
   //   margin-top: 1.5rem;
 
   //   @supports(--a: 0) {
-  //     margin-top: calc(var(--flow) * 1rem);
+  //     margin-top: calc($flow * 1rem);
   //   }
   // }
 
@@ -29,7 +29,7 @@ main > section:not(.c-banner) {
     margin-top: 1.5em;
   
     @supports(--a: 0) {
-      margin-top: calc(var(--flow) * 1em);
+      margin-top: calc($flow * 1em);
     }
   }
 
