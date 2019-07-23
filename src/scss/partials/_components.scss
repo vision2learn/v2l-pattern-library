@@ -562,61 +562,82 @@ button svg {
 }
 
 .c-reveal-block {
-  display: block;
-  position: relative;
-  overflow: hidden;
 
-  [aria-expanded] {
-    transition: transform .3s ease-in-out;
-    transform: scale(1);
-  }
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
 
-  [aria-expanded="true"] {
-    transform: scale(.7);
-
-    &:focus {
-      outline: 0;
-    }
-  }
-
-  > button {
-    appearance: none;
-    background: none;
-    border: none;
+  .js & {
     display: block;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    position: relative;
+    margin-bottom: 0;
+    overflow: hidden;
 
-    &:focus {
-      outline-offset: -2px;
-      outline-width: 4px;
+    [aria-expanded] {
+      transition: transform .3s ease-in-out;
+      transform: scale(1);
+    }
+
+    [aria-expanded="true"] {
+      transform: scale(.7);
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    > button {
+      appearance: none;
+      background: none;
+      border: none;
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+  
+      &:focus {
+        outline-offset: -2px;
+        outline-width: 4px;
+      }
     }
   }
 
   &__icon {
     display: block;
-    object-fit: cover;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+
+    .js & {
+      object-fit: cover;
     
-    @supports(display: grid) {
-      height: 100%;
+      @supports(display: grid) {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 
   &__desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(255,255,255,.9);
-    color: $secondary1;
-    padding: 1em;
-    transition: top .3s ease-in-out;
+    flex: 5;
+    margin-left: 1em;
+    margin-top: 0 !important; // TODO: remove important
     will-change: top;
-    width: 100%;
-    height: 100%;
-    margin-top: 0;
-    top: 100%;
+
+    [aria-expanded] + & {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(255,255,255,.9);
+      color: $secondary1;
+      padding: 1em;
+      transition: top .3s ease-in-out;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      top: 100%;
+    }
 
     [aria-expanded="false"] + & {
       position: absolute;

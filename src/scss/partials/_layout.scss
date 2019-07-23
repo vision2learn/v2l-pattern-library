@@ -198,27 +198,33 @@ main > section:not(.c-banner) {
 }
 
 .l-icon-grid {
+  column-width: 20em;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 1.5em;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 120px);
-  grid-auto-rows: max-content;
-  grid-gap: 2em;
-
-  font-size: .8em; // TODO: Remove, temp fix for overflow
-
-  > li {
-    flex: 0 1 260px;
-    grid-column-end: span 2;
-  }
-
-  &--2x2 {
-    grid-template-columns: repeat(4, 1fr);
+  .js & {
+    // TODO: fallback needed?
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    
+    column-width: unset;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+    grid-auto-rows: max-content;
+    grid-gap: 2em;
+    
+    font-size: .8em; // TODO: Remove, temp fix for overflow
+    
+    > li {
+      flex: 0 1 260px;
+      grid-column-end: span 2;
+    }
+    
+    &--2x2 {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 }
 
