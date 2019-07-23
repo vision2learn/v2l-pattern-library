@@ -21,6 +21,21 @@
 <body class="{{ body-class }}" onload="init();">
   <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
   {{ content }}
-  <script src="/js/script.js"></script>
+
+  <script>
+    // detect ES6 support
+    (function() {
+      try {
+        new Function("(a = 0) => a");
+        
+        var script = document.createElement("script");
+        script.src = "/js/script.js";
+        document.head.appendChild(script);
+      }
+      catch (err) {
+        return false;
+      }
+    })();
+  </script>
 </body>
 </html>
