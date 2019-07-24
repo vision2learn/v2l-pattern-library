@@ -84,61 +84,61 @@ main > section:not(.c-banner) {
     }
   }
 
-  // display: grid;
-  // grid-gap: 1.5rem 2rem;
+  @supports(display: grid) {
+    display: grid;
+    grid-gap: 1.5rem 2rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "title title title title title"
+      "body body body body body"
+      ". img img img .";
 
-  // grid-template-columns: repeat(5, 1fr);
-  // grid-template-areas:
-  //   "title title title title title"
-  //   "body body body body body"
-  //   ". img img img .";
-
-  // @media (min-width: 500px) {
-  //   grid-template-columns: auto 35%;
-  //   grid-template-rows: max-content max-content;
-  //   grid-template-areas:
-  //     "title img"
-  //     "body img";
+    @media (min-width: 500px) {
+      grid-template-columns: auto 35%;
+      grid-template-rows: max-content max-content;
+      grid-template-areas:
+        "title img"
+        "body img";
     
-  //   &--rev {
-  //     grid-template-columns: 1fr 3fr;
-  //     grid-template-areas:
-  //     "img title"
-  //     "img body";
-  //   }
-  // }
+      &--rev {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+        "img title"
+        "img body";
+      }
+    }
 
-  // &--half {
-  //   grid-template-columns: 1fr 1fr;
-  // }
+    &--half {
+      grid-template-columns: 1fr 1fr;
+    }
   
-  // &__title {
-  //   align-self: end;
-  //   grid-area: title;
-  // }
+    &__title {
+      align-self: end;
+      grid-area: title;
+      width: unset;
+    }
 
-  // &__body {
-  //   grid-area: body;
-  // }
+    &__body {
+      grid-area: body;
+      width: unset;
+    }
 
-  // &__img {
-  //   grid-area: img;
-  //   margin-top: 0;
-  //   align-self: center;
-  //   display: block;
-  //   margin: 1.5em auto 0;
-  //   max-width: 50%;
+    &__img {
+      grid-area: img;
+      margin-top: 0;
+      align-self: center;
+      display: block;
+      margin: unset;
+      max-width: unset;
+      position: static;
     
-  //   > img,
-  //   > svg {
-  //     max-width: 300px;
-  //   }
+      > img,
+      > svg {
+        max-width: 300px;
+      }
 
-  //   @supports (display: grid) {
-  //     margin: unset;
-  //     max-width: unset;
-  //   }
-  // }
+    }
+  }
 }
 
 .l-head {

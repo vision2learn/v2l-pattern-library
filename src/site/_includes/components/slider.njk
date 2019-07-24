@@ -7,7 +7,7 @@
 {% import "components/all.njk" as components %}
 
 <div class="gallery-container">
-  <div role="group" class="gallery no-js" aria-label="gallery (scroll for more)" tabindex="0">
+  <div role="group" class="gallery no-js">
     <ul>
       {%- for slide in slideData -%}
         <li role="listitem" data-img="{{ slide.img}}">

@@ -229,11 +229,13 @@
     {% if image %}
       {{ media(title=heading, copy=copy, img='/images/svg/'+image) }}
     {% else %}
-      <div>
+      <div class="l-media">
         {% if heading %}
-          <h3>{{ heading | safe }}</h3>
+          <h3 class="l-media__title">{{ heading | safe }}</h3>
         {% endif %}
-        {{ copy | markdownify | safe }}
+        <div class="l-media__body">
+          {{ copy | markdownify | safe }}
+        </div>
       </div>
     {% endif %}
     {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}

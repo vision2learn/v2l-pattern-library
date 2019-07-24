@@ -416,6 +416,9 @@ var Toolkit = (function () {
     galleryList.forEach(function(gal) {
       const gallery = gal;
       gallery.classList.remove('no-js');
+      gallery.setAttribute('role', 'group');
+      gallery.setAttribute('aria-label', 'gallery (scroll for more)');
+      gallery.setAttribute('tabindex', 0);
       const slides = gallery.querySelectorAll('.gallery > ul > li');
       
       const observerSettings = {
