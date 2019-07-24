@@ -60,59 +60,85 @@ main > section:not(.c-banner) {
 }
 
 .l-media {
-  display: grid;
-  grid-gap: 1.5rem 2rem;
-
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas:
-    "title title title title title"
-    "body body body body body"
-    ". img img img .";
-
-  @media (min-width: 500px) {
-    grid-template-columns: auto 35%;
-    grid-template-rows: max-content max-content;
-    grid-template-areas:
-      "title img"
-      "body img";
-    
-    &--rev {
-      grid-template-columns: 1fr 3fr;
-      grid-template-areas:
-      "img title"
-      "img body";
-    }
-  }
-
-  &--half {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  &__title {
-    align-self: end;
-    grid-area: title;
-  }
-
-  &__body {
-    grid-area: body;
-  }
+  // fallback
 
   &__img {
-    grid-area: img;
-    margin-top: 0;
-    align-self: center;
     display: block;
-    margin: auto;
-    
-    > img,
-    > svg {
-      max-width: 300px;
+    max-width: calc(650px * .35); // 60%;
+    margin: 1.5em auto 0;
+  }
+
+  @media (min-width: 650px) {
+    position: relative;
+
+    &__body,
+    &__title {
+      width: 60%;
     }
 
-    @supports (display: grid) {
-      margin: unset;
+    &__img {
+      position: absolute;
+      margin: 0;
+      top: 0;
+      right: 0;
     }
   }
+
+  // display: grid;
+  // grid-gap: 1.5rem 2rem;
+
+  // grid-template-columns: repeat(5, 1fr);
+  // grid-template-areas:
+  //   "title title title title title"
+  //   "body body body body body"
+  //   ". img img img .";
+
+  // @media (min-width: 500px) {
+  //   grid-template-columns: auto 35%;
+  //   grid-template-rows: max-content max-content;
+  //   grid-template-areas:
+  //     "title img"
+  //     "body img";
+    
+  //   &--rev {
+  //     grid-template-columns: 1fr 3fr;
+  //     grid-template-areas:
+  //     "img title"
+  //     "img body";
+  //   }
+  // }
+
+  // &--half {
+  //   grid-template-columns: 1fr 1fr;
+  // }
+  
+  // &__title {
+  //   align-self: end;
+  //   grid-area: title;
+  // }
+
+  // &__body {
+  //   grid-area: body;
+  // }
+
+  // &__img {
+  //   grid-area: img;
+  //   margin-top: 0;
+  //   align-self: center;
+  //   display: block;
+  //   margin: 1.5em auto 0;
+  //   max-width: 50%;
+    
+  //   > img,
+  //   > svg {
+  //     max-width: 300px;
+  //   }
+
+  //   @supports (display: grid) {
+  //     margin: unset;
+  //     max-width: unset;
+  //   }
+  // }
 }
 
 .l-head {
