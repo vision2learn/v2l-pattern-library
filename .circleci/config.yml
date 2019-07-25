@@ -33,8 +33,13 @@ jobs:
           root: .
           paths: dist/*
 
+      - run:
+          name: Compress Artifacts
+          command: tar -cvf html_pages.tar dist/courses
+
       - store_artifacts:
-          path: dist/courses
+          path: html_pages.tar
+          destination: pages
   staging:
     machine:
       enabled: true
