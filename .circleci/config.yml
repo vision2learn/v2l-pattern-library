@@ -35,11 +35,11 @@ jobs:
 
       - run:
           name: Compress Artifacts
-          command: tar -cvf html_pages.tar dist/courses
+          command: tar -cvf html_pages.tar dist/courses dist/images dist/videos
 
       - store_artifacts:
           path: html_pages.tar
-          destination: pages
+          destination: assets.tar
   staging:
     machine:
       enabled: true

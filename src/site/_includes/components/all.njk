@@ -9,6 +9,7 @@
   6. Banner
   7. Section
   8. Media Object
+  9. Slider
 #}
 
 {# --- 1. Pagination--- #}
@@ -193,12 +194,20 @@
 
 {# --- 8. Media object --- #}
 
-{% macro media(title, copy, img, layout, think, video) %}
+{% macro media(title, copy, img, layout, think, video, slider=false) %}
   <div class="l-media {% if layout == 'media-rev' %} l-media--rev {% elseif layout == 'media-half' %} l-media--half {% endif %}">
-    <h2 class="l-media__title">{{ title | title }}</h2>
+    <h2 class="l-media__title">
+      {% if title %}
+        {{ title | title }}
+      {% endif %}
+    </h2>
 
     <div class="l-media__body">
-      {{ copy | markdownify | safe }}
+      {% if slider %}
+        {{ copy | safe }}
+      {% else %}
+        {{ copy | markdownify | safe }}
+      {% endif %}
     </div>
     {% if activity %}
       <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
@@ -224,19 +233,20 @@
   </div>
 {% endmacro %}
 
-{# --- Slider --- #}
+{# --- 9. Slider --- #}
 {% macro slideItem(heading='Slider title', copy='Slider copy', image) %}
+{# 
     {% if image %}
-      {{ media(title=heading, copy=copy, img='/images/svg/'+image) }}
+      {% set copy = copy | markdownify %}
+      {{ media(title=heading, copy=copy, img='/images/svg/'+image, slider=true) }}
     {% else %}
-      <div class="l-media">
+    {% endif %}
+     #}
+      <div>
         {% if heading %}
           <h3 class="l-media__title">{{ heading | safe }}</h3>
         {% endif %}
-        <div class="l-media__body">
-          {{ copy | markdownify | safe }}
-        </div>
+        {{ copy | markdownify | safe }}
       </div>
-    {% endif %}
     {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
 {% endmacro %}
