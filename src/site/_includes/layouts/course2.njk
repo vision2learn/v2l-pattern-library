@@ -26,7 +26,22 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
       <h2>Course features</h2>
       {% include "course-features.njk" %}
     </section>
-    {% include "submitting-assessments.njk" %}
+    <section class="t-bg-primary">
+      {{ components.media(
+          title="Submitting Assessments",
+          copy="Once you’ve completed all Assessment questions in a Unit, you will need to send your completed Assessment to your tutor. Watch this video to see how.",
+          layout="media-half",
+          video="Submitting_Assessment_Recording.mp4"
+      ) }}
+    </section>
+    <section class="t-bg-primary">
+      {{ components.media(
+          title="Time to Think",
+          copy="Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          layout="media-half",
+          video="time-to-think.mp4"
+      ) }}
+    </section>
   {%- endif -%}
 
 </main>
