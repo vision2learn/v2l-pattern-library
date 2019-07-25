@@ -9,7 +9,8 @@
     "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
     "debug": "gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
     "build": "gulp build && ELEVENTY_ENV=dev yarn eleventy",
-    "seed": "gulp build & ELEVENTY_ENV=seed eleventy"
+    "seed": "gulp build & ELEVENTY_ENV=seed eleventy",
+    "dotnet": "gulp dev & ELEVENTY_ENV=dotnet eleventy"
   },
   "keywords": [
     "11ty",

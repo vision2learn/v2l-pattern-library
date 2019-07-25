@@ -1,5 +1,5 @@
 module.exports = function() {
-  let layout = (process.env.ELEVENTY_ENV === 'dev') ? 'course-sections' : 'course-stub';
+  let layout = (process.env.ELEVENTY_ENV === 'dotnet') ? 'course-stub' : 'course-sections';
 
   return {
     "date": "2019-01-01",
