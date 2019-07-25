@@ -32,14 +32,6 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: dist/*
-
-      - run:
-          name: Compress Artifacts
-          command: tar -cvf html_pages.tar dist/dotnet dist/images dist/videos
-
-      - store_artifacts:
-          path: html_pages.tar
-          destination: assets.tar
   dotnet:
     docker:
       - image: circleci/node:8.15
