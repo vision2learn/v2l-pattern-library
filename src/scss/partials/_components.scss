@@ -566,6 +566,7 @@ button svg {
   margin-bottom: 2em;
   display: flex;
   align-items: center;
+  break-inside: avoid; // makes items flow nicely in CSS columns
 
   .js & {
     display: block;

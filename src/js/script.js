@@ -62,6 +62,10 @@ var Toolkit = (function () {
 
   document.querySelector('body').classList.add('js');
 
+  if(document.querySelector('#canvas')) {
+    init();
+  }
+
   var page = {
     initShowHide: function () {
       // get the DOM elements which control the show/hide behaviour
