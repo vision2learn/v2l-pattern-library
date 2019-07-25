@@ -1,0 +1,21 @@
+---
+permalink: courses/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Session0{{ module.data.session }}/Page{{ pagination.pageNumber + 1 }}.cshtml
+---
+{%- import 'components/all.njk' as components -%}
+
+  {% include 'banner.njk' %} 
+  {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
+  
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
+    {%- include 'components/unit-overview-tabs.njk' -%}
+  {%- endif -%}
+  
+  {{ content | safe }}
+
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
+    <section>
+      <h2>Course features</h2>
+      {% include "course-features.njk" %}
+    </section>
+    {% include "submitting-assessments.njk" %}
+  {%- endif -%}
