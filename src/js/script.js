@@ -59,6 +59,13 @@ var Toolkit = (function () {
  */
 
 (function () {
+
+  document.querySelector('body').classList.add('js');
+
+  if(document.querySelector('#canvas')) {
+    init();
+  }
+
   var page = {
     initShowHide: function () {
       // get the DOM elements which control the show/hide behaviour
@@ -101,6 +108,7 @@ var Toolkit = (function () {
   };
 
   page.initShowHide();
+
 })();
 
 
@@ -110,9 +118,14 @@ var Toolkit = (function () {
   // Get relevant elements and collections
   if(document.querySelector('.tabbed')) {
     var tabbed = document.querySelector('.tabbed');
+    tabbed.classList.add('js-tabs');
     var tablist = tabbed.querySelector('ul');
     var tabs = tablist.querySelectorAll('a');
     var panels = tabbed.querySelectorAll('[id^="section"]'); // The tab switching function
+    var parent = tabbed.parentNode;
+  
+    // show first paragraph (explains tabs)
+    parent.querySelector('p').removeAttribute('hidden');
 
     var switchTab = function switchTab(oldTab, newTab) {
       newTab.focus(); // Make the active tab focusable by the user (Tab key)
@@ -407,6 +420,9 @@ var Toolkit = (function () {
     galleryList.forEach(function(gal) {
       const gallery = gal;
       gallery.classList.remove('no-js');
+      gallery.setAttribute('role', 'group');
+      gallery.setAttribute('aria-label', 'gallery (scroll for more)');
+      gallery.setAttribute('tabindex', 0);
       const slides = gallery.querySelectorAll('.gallery > ul > li');
       
       const observerSettings = {

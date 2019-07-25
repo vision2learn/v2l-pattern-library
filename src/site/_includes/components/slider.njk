@@ -4,39 +4,16 @@
   {% set slideData = components.slider.slides %}
 {% endif %}
 
-{# TODO: this should just be generic media component #}
-{% macro media(heading, copy, image) %}
-  <div class="l-media">
-    <h3 class="l-media__title">{{ heading | safe }}</h3>
-    <div class="l-media__body">
-      {{ copy | markdownify | safe }}
-    </div>
-    <img class="l-media__img" src="/images/svg/{{ image | safe | lower }}" alt="">
-  </div>
-{% endmacro %}
+{% import "components/all.njk" as components %}
 
-{% macro slideItem(heading='Slider title', copy='Slider copy', image) %}  
-    {% if image %}
-      {{ media(heading, copy, image) }}
-    {% else %}
-      <div>
-        {% if heading %}
-          <h3>{{ heading | safe }}</h3>
-        {% endif %}
-        {{ copy | markdownify | safe }}
-      </div>
-    {% endif %}
-    {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
-{% endmacro %}
-
-  <div class="gallery-container">
-    <div role="group" class="gallery no-js" aria-label="gallery (scroll for more)" tabindex="0">
-      <ul>
-        {%- for slide in slideData -%}
-          <li role="listitem" data-img="{{ slide.img}}">
-            {{ slideItem(heading=slide.title, copy=slide.text, image=slide.img) }}
-          </li>
-        {%- endfor -%}
-      </ul>
-    </div>
+<div class="gallery-container">
+  <div role="group" class="gallery no-js">
+    <ul>
+      {%- for slide in slideData -%}
+        <li role="listitem" data-img="{{ slide.img}}">
+          {{ components.slideItem(heading=slide.title, copy=slide.text, image=slide.img) }}
+        </li>
+      {%- endfor -%}
+    </ul>
   </div>
+</div>
