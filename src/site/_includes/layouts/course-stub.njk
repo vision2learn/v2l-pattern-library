@@ -2,6 +2,7 @@
 permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Session0{{ module.data.session }}/Page{{ pagination.pageNumber + 1 }}.cshtml
 ---
 {%- import 'components/all.njk' as components -%}
+{% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
   {% include 'banner.njk' %} 
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
