@@ -10,8 +10,243 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
     {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
-  {{ content | safe }}
+  {# {{ content | safe }} #}
+  {# Start #}
 
+  {% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+  <section>      
+    <h2>Your learning goals</h2>
+    
+    <p>
+      By working through this Session, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | title }} qualification:
+    </p>
+    
+    <h3>The learner will:</h3>
+    <ol>
+      {% for goal in allcourses[module.data.course].goals.will %}
+        <li>{{ goal }}</li>
+      {% endfor %}
+    </ol>
+
+    <h3>The learner can:</h3>
+    <ol>
+      {% for goal in allcourses[module.data.course].goals.can %}
+        <li>{{ goal }}</li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="t-bg-primary">      
+    <h2>Why study {{ module.data.course | title }}?</h2>
+    {{ allcourses[module.data.course].why | markdownify | safe }}
+  </section>
+
+  <section id="goal-setting" class="t-bg-supporting2">      
+    <h2>Goal Setting</h2>    
+    <p>
+      It is important to set yourself achievable targets and specific deadlines. These will keep you focused and increase your chance of overall success. Writing down your goals often gives you greater motivation to achieve them.
+    </p>
+    
+    <h3>Your motivation map</h3>
+    <p>
+      A Motivation Map has three parts. <a href="/documents/motivation-map-blank.doc">Download your own motivation map</a> and work your way through the steps below.
+    </p>
+    
+    <div class="tabbed ">
+      <ul class="l-btn-group t-bg-primary">
+        {%- for i in range(1, 4) -%}
+          <li>
+            {{ components.unitOverviewBtn(i) }}
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      <section id="section1">
+        <h3>Step 1: What and when</h3>
+        <p>
+          List what you want to achieve and when you want to achieve it. One helpful word to remember is ‘SMART’. Select the letters below to learn more.
+        </p>
+
+        <dl>
+          <dt>S:</dt>
+          <dd><em>Specific</em> - Give yourself exact and clear goals. For example, completing your course within the deadlines set out in your Action Plan.</dd>
+          <dt>M:</dt>
+          <dd><em>Measurable</em> - Make sure you can measure how successful you are at achieving your goals. Your certificate will be proof of your success.</dd>
+          <dt>A:</dt>
+          <dd><em>Acceptable</em> - Your goals must have reasonable and acceptable outcomes. For example, this course may lead to further qualifications.</dd>
+          <dt>R:</dt>
+          <dd><em>Realistic</em> - Is your goal achievable? If you’re realistic about your strengths and weaknesses, you can set goals that play to your strengths.</dd>
+          <dt>T:</dt>
+          <dd><em>Timed</em> - You need to have a realistic timescale. For example, you have an Action Plan in your ‘My study’ area to help you submit your Unit Assessments on time.</dd>
+        </dl>
+      </section>
+
+      <section id="section2">
+        <h3>Step 2: Why those goals</h3>
+        <p>
+          When filling out the ‘Why’ section of your map list the reasons why you want to achieve your goal. Include as many reasons as possible; the more strong reasons that you have for wanting to achieve something, the higher your motivation will be. These reasons can be practical such as, "So I can go to college with good grades," or personal such as, "So I can build my confidence when caring for people with dementia."
+        </p>
+      </section>
+
+      <section id="section3">
+        <h3>Step 3: How to achieve your goals</h3>
+        <p>
+          When filling out the ‘How’ section of your map, list all the practical actions you will take to achieve your goals. Be realistic about what you will do; no-one can revise for 10 hours every day!
+        </p>
+        <p>
+          The ‘How’ section of your Motivation Map may also include two or three milestones. These are important targets that you need to reach on the way to achieving bigger goals, such as completing an Assessment by a certain date.
+        </p>
+      </section>
+    </div>
+  </section>
+
+  <section class="t-bg-primary">      
+    <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
+  </section>
+{% else %}
+  {% for section in module.data.sections %}
+    {% block section %}
+      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
+      {% if section.include %}
+        {% set inc = section.include.type | lower %}
+        {% include 'components/' + inc + '.njk' ignore missing %}
+      {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+        {% include 'components/media.njk' ignore missing %}
+
+        {# {% if section.activity %}
+          <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
+        {% endif %} #}
+      {% else %}
+        <h2>{{ section.title }}</h2> 
+        
+        {% if section.copy %}
+          {{ section.copy | markdownify | safe }}
+        {% endif %}
+        
+        {% if section.subInc %}
+          {# Is this a basic or more complex include type? #}
+          {# {% set inc = section.subInc %} #}
+
+          {% set inc = section.subInc.type | lower %}
+          
+          {% if inc %}
+            {% include 'components/' + inc + '.njk' %}
+          {% else %}
+            <p><b>FECK: {{ inc }}</b></p>
+          {% endif %}
+          
+        {% endif %}
+
+        {% if section.copy2 %}
+          {{ section.copy2 | markdownify | safe }}
+        {% endif %}
+
+        {% if section.interactive %}
+          {% include 'components/animate-canvas.html' %}
+        {% endif %}
+
+      {% endif %}
+      </section>
+    {% endblock section %}
+  {% endfor %}
+
+  {% if lastPage %}
+
+    {# <section class="t-bg-primary3 i-think">
+      <div class="l-media l-media--half">
+        <h2 class="l-media__title">Time to Think Summary</h2>
+        <div class="l-media__body">
+          <p>
+            <em>Use your previous journal entries to help you with your assessment.</em>
+          </p>
+        </div>
+        <form class="l-media__img l-think">
+          <textarea rows="15" id="tttSummary"></textarea>
+          <button>Save</button>
+        </form>
+      </div>
+    </section> #}
+
+    <section>
+      <div class="l-media">
+        <h2 class="l-media__title">Unit assessment</h2>
+        <div class="l-media__body">
+          <p>
+            Now it’s time to complete Part {{ module.data.session }} of your Unit {{ module.data.unit }} Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.
+          </p>
+        </div>
+        <a href="" class="l-media__img">
+          <img src="/images/svg/assessment_button.svg" alt="Continue to the next unit">
+        </a>
+      </div>
+    </section>
+
+    <section class="t-bg-primary2">
+      <div class="l-media">
+        <h2 class="l-media__title">Watch the webinar</h2>
+        <div class="l-media__body">
+          <p>
+            <strong><i>Coming soon...</i></strong>
+          </p>
+        </div>
+        <a href="" class="l-media__img">
+          <img src="/images/svg/assessment_video_button.svg" alt="Watch the webinar">
+        </a>
+      </div>
+    </section>
+
+    {# Logic for when on final page of section, unit etc #}
+
+    {# 
+      Determine if we're linking to the next session or 
+      the next unit or we're done
+    #}
+
+    {% set courseData = allcourses[module.data.course] %}
+    {% set unitsInCourse = courseData.units.length %}
+    {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
+    {% if (module.data.session) < sessionsInUnit %}
+      {% set nextSession = module.data.session + 1 %}
+      {% set nextUnit = module.data.unit %}
+    {% else %}
+      {% set nextSession = 1 %}
+      {% set nextUnit = module.data.unit + 1 %}
+    {% endif %}
+
+    <section class="t-bg-primary  ">
+      <div class="l-media">
+        
+        <!-- {{module.data.unit}}/{{ unitsInCourse }} {{ module.data.session }}/{{ sessionsInUnit }}-->
+
+        {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
+          {# We're done! #}
+          <h2 class="l-media__title">Congratulations!</h2>
+          <div class="l-media__body">
+            <p>
+              You've reached the end of this course.
+            </p>
+          </div>
+          {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a> #}
+        {% else %}
+          <h2 class="l-media__title">Ready to move on?</h2>
+          <div class="l-media__body">
+            <p>
+              Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.
+            </p>
+          </div>
+          <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
+            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+          </a>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
+{% endif %}
+
+  {# End #}
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
     <section>
       <h2>Course features</h2>
@@ -23,6 +258,14 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           copy="Once you’ve completed all Assessment questions in a Unit, you will need to send your completed Assessment to your tutor. Watch this video to see how.",
           layout="media-half",
           video="Submitting_Assessment_Recording.mp4"
+      ) }}
+    </section>
+    <section class="t-bg-primary">
+      {{ components.media(
+          title="Time to Think",
+          copy="Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          layout="media-half",
+          video="time-to-think.mp4"
       ) }}
     </section>
   {%- endif -%}
