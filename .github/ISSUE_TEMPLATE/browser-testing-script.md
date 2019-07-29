@@ -1,17 +1,11 @@
 ---
 name: Browser Testing Script
 about: Checklist to follow when conducting SAT in browsers
-title: "[Browser Test]"
+title: "[Browser Name (Version no.)] - Course name, Unit no., Session no., Page no."
 labels: Browser Test
 assignees: MrSleeth
 
 ---
-
-- Course:
-- Unit:
-- Session:
-- Page:
-- Browser (Name/Version): e.g. Firefox 60
 
 *Note: Modern browsers = Latest Chrome, Firefox, Edge, Safari. Other browsers considered legacy (e.g. IE11)*
 
