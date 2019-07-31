@@ -106,6 +106,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
   </section>
 {% else %}
   {% for section in module.data.sections %}
+    {% if (not lastPage) and not (section.theme == "i-quiz") %}
     {% block section %}
       <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
       {% if section.include %}
@@ -149,6 +150,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
       {% endif %}
       </section>
     {% endblock section %}
+    {% endif %}
   {% endfor %}
 
   {% if lastPage %}
@@ -167,6 +169,17 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
         </form>
       </div>
     </section> #}
+
+    <section>
+      {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
+      {% set link = link | replace(' ', '-') %}
+      {{ components.media(
+        title="Unit Quiz",
+        copy="Now it’s time to complete the End of Unit Quiz",
+        img="~/images/svg/assessment_button.svg",
+        link=link
+      ) }}
+    </section>
 
     <section>
       <div class="l-media">

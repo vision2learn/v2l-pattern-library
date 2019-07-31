@@ -67,7 +67,7 @@ jobs:
 
       - run:
           name: Compress Artifacts
-          command: tar -cvf html_pages.tar dist/dotnet dist/images dist/videos
+          command: tar -cvf html_pages.tar dist/dotnet dist/images
 
       - store_artifacts:
           path: html_pages.tar
