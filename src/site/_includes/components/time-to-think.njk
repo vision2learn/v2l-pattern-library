@@ -4,7 +4,11 @@
     {% if section.include.copy %}
       {{ section.include.copy | markdownify | safe }}
     {% endif %}
+    <p>
       <em>You can reference your journal entries from the My course page</em>
+    </p>
+    <p>
+      {{ section.include.copy | striptags(false)}}
     </p>
   </div>
   {% if site.env === 'dev'%}
@@ -15,7 +19,7 @@
   {% else %}
     @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
             (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
-            "{{ section.include.copy }}",
+            "{{ section.include.copy | striptags(false)}}",
             formClassAttribute: "l-media__img l-think"))
   {% endif %}
 </div>
