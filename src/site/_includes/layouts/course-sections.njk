@@ -5,9 +5,7 @@ layout: layouts/course2
 {% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
-{% if pagination.pageNumber == 990 %}
-  <p>One</p>
-{% elseif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+{% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   <section>      
     <h2>Your learning goals</h2>
     
@@ -145,21 +143,22 @@ layout: layouts/course2
   {% endfor %}
 
   {% if lastPage %}
-
-    {# <section class="t-bg-primary3 i-think">
-      <div class="l-media l-media--half">
-        <h2 class="l-media__title">Time to Think Summary</h2>
-        <div class="l-media__body">
-          <p>
-            <em>Use your previous journal entries to help you with your assessment.</em>
-          </p>
+    {% if site.tttSummary %}
+      <section class="t-bg-primary3 i-think">
+        <div class="l-media l-media--half">
+          <h2 class="l-media__title">Time to Think Summary</h2>
+          <div class="l-media__body">
+            <p>
+              <em>Use your previous journal entries to help you with your assessment.</em>
+            </p>
+          </div>
+          <form class="l-media__img l-think">
+            <textarea rows="15" id="tttSummary"></textarea>
+            <button>Save</button>
+          </form>
         </div>
-        <form class="l-media__img l-think">
-          <textarea rows="15" id="tttSummary"></textarea>
-          <button>Save</button>
-        </form>
-      </div>
-    </section> #}
+      </section>
+    {% endif %}
 
     <section>
       <div class="l-media">

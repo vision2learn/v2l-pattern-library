@@ -7,5 +7,6 @@ module.exports = {
         1000,
         2000
     ],
-    "env": process.env.ELEVENTY_ENV
+    "env": process.env.ELEVENTY_ENV,
+    "tttSummary": false
 }
