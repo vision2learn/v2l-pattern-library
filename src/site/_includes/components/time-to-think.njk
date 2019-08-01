@@ -1,16 +1,22 @@
 <div class="l-media l-media--half">
   <h2 class="l-media__title">Time to think {% if lastPage %}- Summary{% endif %}</h2>
   <div class="l-media__body">
-    <!-- {{ section.include | dump }} -->
     {% if section.include.copy %}
       {{ section.include.copy | markdownify | safe }}
     {% endif %}
     <p>
-      <em>You can reference your journal entries to help you with your assessment at the end of this session and unit.</em>
+      <em>You can reference your journal entries from the My course page</em>
     </p>
   </div>
-  <form class="l-media__img l-think">
-    <textarea class="js-think"></textarea>
-    <button>Save</button>
-  </form>
+  {% if site.env === 'dev'%}
+    <form class="l-media__img l-think">
+      <textarea class="js-think"></textarea>
+      <button>Save</button>
+    </form>
+  {% else %}
+    @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
+            (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
+            "{{ section.include.copy | striptags(false)}}",
+            formClassAttribute: "l-media__img l-think"))
+  {% endif %}
 </div>

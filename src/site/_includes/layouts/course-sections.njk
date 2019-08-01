@@ -5,9 +5,7 @@ layout: layouts/course2
 {% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
-{% if pagination.pageNumber == 990 %}
-  <p>One</p>
-{% elseif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+{% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   <section>      
     <h2>Your learning goals</h2>
     
@@ -99,67 +97,82 @@ layout: layouts/course2
   </section>
 {% else %}
   {% for section in module.data.sections %}
-    {% block section %}
-      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
-      {% if section.include %}
-        {% set inc = section.include.type | lower %}
-        {% include 'components/' + inc + '.njk' ignore missing %}
-      {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
-        {% include 'components/media.njk' ignore missing %}
+    {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+    {% if (not lastPage) and not (section.theme == "i-quiz") %}
+      {% block section %}
+        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
+        {% if section.include %}
+          {% set inc = section.include.type | lower %}
+          {% include 'components/' + inc + '.njk' ignore missing %}
+        {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+          {% include 'components/media.njk' ignore missing %}
 
-        {# {% if section.activity %}
-          <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
-        {% endif %} #}
-      {% else %}
-        <h2>{{ section.title }}</h2> 
-        
-        {% if section.copy %}
-          {{ section.copy | markdownify | safe }}
-        {% endif %}
-        
-        {% if section.subInc %}
-          {# Is this a basic or more complex include type? #}
-          {# {% set inc = section.subInc %} #}
-
-          {% set inc = section.subInc.type | lower %}
+          {# {% if section.activity %}
+            <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
+          {% endif %} #}
+        {% else %}
+          <h2>{{ section.title }}</h2> 
           
-          {% if inc %}
-            {% include 'components/' + inc + '.njk' %}
-          {% else %}
-            <p><b>FECK: {{ inc }}</b></p>
+          {% if section.copy %}
+            {{ section.copy | markdownify | safe }}
           {% endif %}
           
-        {% endif %}
+          {% if section.subInc %}
+            {# Is this a basic or more complex include type? #}
+            {# {% set inc = section.subInc %} #}
 
-        {% if section.copy2 %}
-          {{ section.copy2 | markdownify | safe }}
-        {% endif %}
+            {% set inc = section.subInc.type | lower %}
+            
+            {% if inc %}
+              {% include 'components/' + inc + '.njk' %}
+            {% else %}
+              <p><b>FECK: {{ inc }}</b></p>
+            {% endif %}
+            
+          {% endif %}
 
-        {% if section.interactive %}
-          {% include 'components/animate-canvas.html' %}
-        {% endif %}
+          {% if section.copy2 %}
+            {{ section.copy2 | markdownify | safe }}
+          {% endif %}
 
-      {% endif %}
-      </section>
-    {% endblock section %}
+          {% if section.interactive %}
+            {% include 'components/animate-canvas.html' %}
+          {% endif %}
+
+        {% endif %}
+        </section>
+      {% endblock section %}
+    {% endif %}
   {% endfor %}
 
   {% if lastPage %}
-
-    {# <section class="t-bg-primary3 i-think">
-      <div class="l-media l-media--half">
-        <h2 class="l-media__title">Time to Think Summary</h2>
-        <div class="l-media__body">
-          <p>
-            <em>Use your previous journal entries to help you with your assessment.</em>
-          </p>
+    {% if site.tttSummary %}
+      <section class="t-bg-primary3 i-think">
+        <div class="l-media l-media--half">
+          <h2 class="l-media__title">Time to Think Summary</h2>
+          <div class="l-media__body">
+            <p>
+              <em>Use your previous journal entries to help you with your assessment.</em>
+            </p>
+          </div>
+          <form class="l-media__img l-think">
+            <textarea rows="15" id="tttSummary"></textarea>
+            <button>Save</button>
+          </form>
         </div>
-        <form class="l-media__img l-think">
-          <textarea rows="15" id="tttSummary"></textarea>
-          <button>Save</button>
-        </form>
-      </div>
-    </section> #}
+      </section>
+    {% endif %}
+
+    <section>
+      {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
+      {% set link = link | replace(' ', '-') %}
+      {{ components.media(
+        title="Unit Quiz",
+        copy="Now it’s time to complete the End of Unit Quiz",
+        img="/images/svg/assessment_button.svg",
+        link=link
+      ) }}
+    </section>
 
     <section>
       <div class="l-media">
