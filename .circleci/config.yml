@@ -66,8 +66,11 @@ jobs:
           paths: dist/*
 
       - run:
-          name: Compress Artifacts
-          command: tar -cvf html_pages.tar dist/dotnet dist/images
+          name: Compress Pages
+          command: tar -cvf html_pages.tar dist/dotnet
+      - run:
+          name: Compress Images
+          command: tar -cvf images.tar dist/images
 
       - store_artifacts:
           path: html_pages.tar
