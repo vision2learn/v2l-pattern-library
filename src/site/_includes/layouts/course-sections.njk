@@ -2,6 +2,25 @@
 layout: layouts/course2
 ---
 
+{# Logic for when on final page of section, unit etc #}
+
+{# 
+  Determine if we're linking to the next session or 
+  the next unit or we're done
+#}
+
+{% set courseData = allcourses[module.data.course] %}
+{% set unitsInCourse = courseData.units.length %}
+{% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
+{% if (module.data.session) < sessionsInUnit %}
+  {% set nextSession = module.data.session + 1 %}
+  {% set nextUnit = module.data.unit %}
+{% else %}
+  {% set nextSession = 1 %}
+  {% set nextUnit = module.data.unit + 1 %}
+{% endif %}
+
 {% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
@@ -97,9 +116,11 @@ layout: layouts/course2
   </section>
 {% else %}
   {% for section in module.data.sections %}
-    {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
-    {% if (not lastPage) and not (section.theme == "i-quiz") %}
-      {% block section %}
+    {% if section.theme == "i-quiz" and lastPage %}
+      {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+    {% else %}
+      
+      {# {% block section %} #}
         <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
         {% if section.include %}
           {% set inc = section.include.type | lower %}
@@ -141,10 +162,11 @@ layout: layouts/course2
 
         {% endif %}
         </section>
-      {% endblock section %}
+      
+      {# {% endblock section %} #}
     {% endif %}
   {% endfor %}
-
+  
   {% if lastPage %}
     {% if site.tttSummary %}
       <section class="t-bg-primary3 i-think">
@@ -163,16 +185,19 @@ layout: layouts/course2
       </section>
     {% endif %}
 
-    <section>
-      {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
-      {% set link = link | replace(' ', '-') %}
-      {{ components.media(
-        title="Unit Quiz",
-        copy="Now it’s time to complete the End of Unit Quiz",
-        img="/images/svg/assessment_button.svg",
-        link=link
-      ) }}
-    </section>
+<!-- {{module.data.unit}} and {{unitsInCourse}}... -->
+    {% if module.data.unit === unitsInCourse %}
+      <section>
+        {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
+        {% set link = link | replace(' ', '-') %}
+        {{ components.media(
+          title="Unit Quiz",
+          copy="Now it’s time to complete the End of Unit Quiz",
+          img="/images/svg/assessment_button.svg",
+          link=link
+        ) }}
+      </section>
+    {% endif %}
 
     <section>
       <div class="l-media">
@@ -201,25 +226,6 @@ layout: layouts/course2
         </a>
       </div>
     </section>
-
-    {# Logic for when on final page of section, unit etc #}
-
-    {# 
-      Determine if we're linking to the next session or 
-      the next unit or we're done
-    #}
-
-    {% set courseData = allcourses[module.data.course] %}
-    {% set unitsInCourse = courseData.units.length %}
-    {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
-
-    {% if (module.data.session) < sessionsInUnit %}
-      {% set nextSession = module.data.session + 1 %}
-      {% set nextUnit = module.data.unit %}
-    {% else %}
-      {% set nextSession = 1 %}
-      {% set nextUnit = module.data.unit + 1 %}
-    {% endif %}
 
     <section class="t-bg-primary  ">
       <div class="l-media">
