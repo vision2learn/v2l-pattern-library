@@ -12,7 +12,7 @@ function init() {
 		handleComplete({},comp);
 	}
 	else {
-		var loader = new createjs.LoadQueue(false, "/");
+		var loader = new createjs.LoadQueue(false, {{ '"@ViewBag.ApplicationPath/"' | safe if site.env === "dotnet" else '"/"' | safe }});
 		loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 		loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 		var lib=comp.getLibrary();
