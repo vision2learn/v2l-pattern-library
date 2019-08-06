@@ -74,7 +74,10 @@ jobs:
 
       - store_artifacts:
           path: html_pages.tar
-          destination: assets.tar
+          destination: html.tar
+      - store_artifacts:
+          path: images.tar
+          destination: images.tar
   staging:
     machine:
       enabled: true
