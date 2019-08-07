@@ -7,14 +7,14 @@
   </div>
   {% if section.activity %}
     <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/" class="l-media__img">
-      <img src="{{ section.img | lower }}" alt="">
+      <img {{ '~' if site.env === 'dotnet' }}{{ section.img | lower }}" alt="">
     </a>
   {% else %}
     {% if section.img %}
-      <img class="l-media__img" src="{{ section.img | lower }}" alt="">
+      <img class="l-media__img" {{ '~' if site.env === 'dotnet' }}{{ section.img | lower }}" alt="">
     {% elseif section.video %}
       <video controls class="l-media__img">
-          <source src="/videos/{{ section.video }}"
+          <source {{ '~' if site.env === 'dotnet' }}/videos/{{ section.video }}"
                   type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
       </video>

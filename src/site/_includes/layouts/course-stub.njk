@@ -116,7 +116,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
         {% include 'components/media.njk' ignore missing %}
 
         {# {% if section.activity %}
-          <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
+          <iframe class="c-activity" id="{{ section.activity }}" {{ '~' if site.env === 'dotnet' }}/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
         {% endif %} #}
       {% else %}
         <h2>{{ section.title }}</h2> 
@@ -190,7 +190,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           </p>
         </div>
         <a href="~/{{ module.data.unit }}/assessment" class="l-media__img">
-          <img src="/images/svg/assessment_button.svg" alt="Continue to the next unit">
+          <img {{ '~' if site.env === 'dotnet' }}/images/svg/assessment_button.svg" alt="Continue to the next unit">
         </a>
       </div>
     </section>
@@ -204,7 +204,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           </p>
         </div>
         <a href="" class="l-media__img">
-          <img src="/images/svg/assessment_video_button.svg" alt="Watch the webinar">
+          <img {{ '~' if site.env === 'dotnet' }}/images/svg/assessment_video_button.svg" alt="Watch the webinar">
         </a>
       </div>
     </section>
@@ -242,7 +242,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
             </p>
           </div>
           {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
-            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+            <img {{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a> #}
         {% else %}
 
@@ -255,7 +255,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
             </p>
           </div>
           <a href="~/{{ nextUnit }}/{{ nextSession }}/1" class="l-media__img">
-            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+            <img {{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a>
         {% endif %}
       </div>

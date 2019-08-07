@@ -139,7 +139,7 @@
       {{ bannerText | markdownify | safe }}
     </div>
     {% if banner.endsWith('.svg') %}
-      <img src="{{ banner | lower }}" class="c-banner__img" alt="">
+      <img {{ '~' if site.env === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
     {% else %}
       {{ srcset(file=banner, class="c-banner__img")}}
     {% endif %}
@@ -207,18 +207,18 @@
     </div>
     {% if activity %}
       <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
-        <img src="/images/svg/activity_button.svg" alt="Open activity">
+        <img {{ '~' if site.env === 'dotnet' }}/images/svg/activity_button.svg" alt="Open activity">
       </a>
     {% else %}
       {% if img and (not link) %}
-        <img class="l-media__img" src="{{ img | lower }}" alt="xxxxx">
+        <img class="l-media__img" {{ '~' if site.env === 'dotnet' }}{{ img | lower }}" alt="xxxxx">
       {% elseif img and link %}
         <a href="{{ link }}" class="l-media__img">
-          <img  src="{{ img | lower }}" alt="">
+          <img  {{ '~' if site.env === 'dotnet' }}{{ img | lower }}" alt="">
         </a>
       {% elseif video %}
         <video controls class="l-media__img">
-            <source src="/videos/{{ video }}"
+            <source {{ '~' if site.env === 'dotnet' }}/videos/{{ video }}"
                     type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
         </video>
@@ -246,7 +246,7 @@
         <div class="l-media__body">
           {{ copy | markdownify | safe }}
         </div>
-        <img class="l-media__img" src="/images/svg/{{ image | lower }}" alt="">
+        <img class="l-media__img" {{ '~' if site.env === 'dotnet' }}/images/svg/{{ image | lower }}" alt="">
     {% else %}
       <div>
         {% if heading %}
