@@ -1,6 +1,7 @@
 ---
 layout: layouts/default
-permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber }}/index.html
+permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber + 1}}/index.html
+testitem: Dan
 ---
 
 
@@ -16,9 +17,6 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
     {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
-  <!-- module.templateContent --> 
-  {# {{ module.templateContent }} #}
-  <!-- Content -->
   {{ content | safe }}
 
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
@@ -46,14 +44,6 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 
 </main>
 
-{# 
-<aside hidden>
-  {% include 'using-the-site.liquid' %}
-  {% include 'course-nav.liquid' %}
-</aside> 
-#}
-
-{# {% include 'pagination.liquid', class: "t-bg-secondary1" %} #}
 {{ components.pagination(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
 <footer>
   <small>
