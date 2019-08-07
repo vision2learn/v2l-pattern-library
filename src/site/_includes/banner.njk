@@ -59,7 +59,7 @@
   </div>
   
   {% if bannerImg.endsWith(".svg") %}
-    <img {{ '~' if site.env === 'dotnet' }}{{ '~' if site.env === 'dotnet' }}{{ bannerImg | d('banner.img') | lower }}" class="c-banner__img" alt="">
+    <img {{ '~' if site.env === 'dotnet' }}{{ bannerImg | d('banner.img') | lower }}" class="c-banner__img" alt="">
   {% else %}
     {{ components.img(file=bannerImg, class="c-banner__img")}}
   {% endif %}
