@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{%- if title -%}{{ title }}{%- else -%}{{ site.title }}{%- endif -%}</title>
-  <script {{ '~' if site.env === 'dotnet' }}https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
-  <script {{ '~' if site.env === 'dotnet' }}https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
+  <script src="{{ '~' if site.env === 'dotnet' }}https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
+  <script src="{{ '~' if site.env === 'dotnet' }}https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
   <link rel="stylesheet" href="/css/main.css">
   {%- if theme -%}

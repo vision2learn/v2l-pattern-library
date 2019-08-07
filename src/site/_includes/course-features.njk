@@ -5,7 +5,7 @@
     {# <div class="c-reveal-block__icon js-showhideX">
       {% include 'course-features/' + feature.icon + '.svg' %}
     </div> #}
-    <img class="c-reveal-block__icon js-showhide" {{ '~' if site.env === 'dotnet' }}/images/svg/{{ iconpath + '.svg' }}" alt="{{ feature.title }}">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if site.env === 'dotnet' }}/images/svg/{{ iconpath + '.svg' }}" alt="{{ feature.title }}">
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ feature.title | capitalize }}</h3>
       <p>{{ feature.desc }}</p>
