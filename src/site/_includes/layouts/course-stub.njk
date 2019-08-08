@@ -11,7 +11,6 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
     {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
-  {# {{ content | safe }} #}
   {# Start #}
 
   {% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
@@ -114,10 +113,6 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
         {% include 'components/' + inc + '.njk' ignore missing %}
       {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
         {% include 'components/media.njk' ignore missing %}
-
-        {# {% if section.activity %}
-          <iframe class="c-activity" id="{{ section.activity }}" src="{{ '~' if site.env === 'dotnet' }}/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
-        {% endif %} #}
       {% else %}
         <h2>{{ section.title }}</h2> 
         
@@ -133,8 +128,6 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           
           {% if inc %}
             {% include 'components/' + inc + '.njk' %}
-          {% else %}
-            <p><b>FECK: {{ inc }}</b></p>
           {% endif %}
           
         {% endif %}

@@ -126,11 +126,9 @@ layout: layouts/course2
           {% set inc = section.include.type | lower %}
           {% include 'components/' + inc + '.njk' ignore missing %}
         {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
-          {% include 'components/media.njk' ignore missing %}
-
-          {# {% if section.activity %}
-            <iframe class="c-activity" id="{{ section.activity }}" src="{{ '~' if site.env === 'dotnet' }}/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
-          {% endif %} #}
+          {# {% include 'components/media.njk' ignore missing %} #}
+         
+          {{ components.media2(section, module.data) }}
         {% else %}
           <h2>{{ section.title }}</h2> 
           
@@ -146,8 +144,6 @@ layout: layouts/course2
             
             {% if inc %}
               {% include 'components/' + inc + '.njk' %}
-            {% else %}
-              <p><b>FECK: {{ inc }}</b></p>
             {% endif %}
             
           {% endif %}
