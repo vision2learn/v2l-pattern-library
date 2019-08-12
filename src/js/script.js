@@ -63,7 +63,13 @@ var Toolkit = (function () {
   document.querySelector('body').classList.add('js');
 
   if(document.querySelector('#canvas')) {
-    init();
+    try {
+      AdobeAn.length;
+      init();
+    }
+    catch {
+      console.error("Problem loading Adobe Animate libraries");
+    }
   }
 
   var page = {
