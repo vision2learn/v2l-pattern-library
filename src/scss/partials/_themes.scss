@@ -1,21 +1,18 @@
 [class^="t-bg-primary"],
 [class^="t-bg-secondary"] {
-
-  @supports (--a: 0) {
-    color: #fff;
-  }
+  color: #fff;
 }
 
 .t-bg-primary {
-  background-color: var(--primary1);
+  background-color: $primary1;
 }
 
 .t-bg-primary2 {
-  background-color: var(--primary2);
+  background-color: $primary2;
 }
 
 .t-bg-primary3 {
-  background-color: var(--primary3);
+  background-color: $primary3;
 }
 
 .t-bg-primary1a {
@@ -35,23 +32,23 @@
 }
 
 .t-bg-secondary1 {
-  background-color: var(--secondary1);
+  background-color: $secondary1;
 }
 
 .t-bg-secondary2 {
-  background-color: var(--secondary2);
+  background-color: $secondary2;
 }
 
 .t-bg-secondary3 {
-  background-color: var(--secondary3);
+  background-color: $secondary3;
 }
 
 .t-bg-supporting1 {
-  background-color: var(--supporting1);
+  background-color: $supporting1;
 }
 
 .t-bg-supporting2 {
-  background-color: var(--supporting2);
+  background-color: $supporting2;
 }
 
 .t-bg-supporting3 {
@@ -59,12 +56,12 @@
 }
 
 .t-bg-grey {
-  background-color: var(--supporting2);
+  background-color: $supporting2;
 }
 
 .t-bg-white,
 .t-bg-primary1c,
 .t-bg-supporting1,
 .t-bg-supporting2 {
-  color: var(--secondary1);
+  color: $secondary1;
 }

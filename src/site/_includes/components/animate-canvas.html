@@ -1,8 +1,0 @@
-<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-{% include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
-
-<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:{{ section.interactive.width }}px; height:{{ section.interactive.height }}px">
-  <canvas id="canvas" width="{{ section.interactive.width }}" height="{{ section.interactive.height }}" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-  <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:{{ section.interactive.width }}px; height:{{ section.interactive.height }}px; position: absolute; left: 0px; top: 0px; display: block;">
-  </div>
-</div>

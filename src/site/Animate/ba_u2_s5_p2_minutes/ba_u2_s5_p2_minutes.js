@@ -495,7 +495,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ba_u2_s5_p2_minutes_atlas_.png?1563782619054", id:"ba_u2_s5_p2_minutes_atlas_"}
+		{src:"ba_u2_s5_p2_minutes_atlas_.png", id:"ba_u2_s5_p2_minutes_atlas_"}
 	],
 	preloads: []
 };

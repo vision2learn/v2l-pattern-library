@@ -1,0 +1,27 @@
+<script https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+{% include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
+<script>
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("{{ section.interactive.composition }}");
+	var lib=comp.getLibrary();
+	
+	if(lib.properties.manifest.length === 0) {
+		handleComplete({},comp);
+	}
+	else {
+		var loader = new createjs.LoadQueue(false, {{ '"@ViewBag.ApplicationPath/"' | safe if site.env === "dotnet" else '"/"' | safe }});
+		loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+		loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+		var lib=comp.getLibrary();
+		loader.loadManifest(lib.properties.manifest);
+	}
+}
+</script>
+<div id="animation_container" style="background-color: inherit; width:{{ section.interactive.width }}px; height:{{ section.interactive.height }}px">
+  <canvas id="canvas" width="{{ section.interactive.width }}" height="{{ section.interactive.height }}" style="position: absolute; display: block; background-color:inherit"></canvas>
+  <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:{{ section.interactive.width }}px; height:{{ section.interactive.height }}px; position: absolute; left: 0px; top: 0px; display: block;">
+  </div>
+</div>

@@ -13,24 +13,32 @@ body {
   }
 }
 
+main {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  // grid-row-gap: 80px;
+}
+
 main > section:not(.c-banner) {
-  padding: 2.5rem 0;
+  padding: 2.5rem;
+
+  @supports(display: grid) {
+    padding: 2.5rem 0;
+  }
 
   // * + * {
   //   margin-top: 1.5rem;
 
   //   @supports(--a: 0) {
-  //     margin-top: calc(var(--flow) * 1rem);
+  //     margin-top: calc($flow * 1rem);
   //   }
   // }
 
   * + h2,
   * + h3 {
     margin-top: 1.5em;
-  
-    @supports(--a: 0) {
-      margin-top: calc(var(--flow) * 1em);
-    }
+    margin-top: calc($flow * 1em);
   }
 
   li,
@@ -59,62 +67,93 @@ main > section:not(.c-banner) {
 }
 
 .l-media {
-  display: grid;
-  grid-gap: 1.5rem 2rem;
-
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas:
-    "title title title title title"
-    "body body body body body"
-    ". img img img .";
-
-  @media (min-width: 500px) {
-    grid-template-columns: auto 35%;
-    grid-template-rows: max-content max-content;
-    grid-template-areas:
-      "title img"
-      "body img";
-    
-    &--rev {
-      grid-template-columns: 1fr 3fr;
-      grid-template-areas:
-      "img title"
-      "img body";
-    }
-  }
-
-  &--half {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  &__title {
-    align-self: end;
-    grid-area: title;
-  }
-
-  &__body {
-    grid-area: body;
-  }
+  // fallback
 
   &__img {
-    grid-area: img;
-    margin-top: 0;
-    align-self: center;
     display: block;
-    margin: auto;
-    
-    > img,
-    > svg {
-      max-width: 300px;
+    max-width: calc(650px * .35); // 60%;
+    height: 100%;
+    margin: 1.5em auto 0;
+  }
+
+  @media (min-width: 650px) {
+    position: relative;
+
+    &__body,
+    &__title {
+      width: 60%;
     }
 
-    @supports (display: grid) {
+    &__img {
+      position: absolute;
+      margin: 0;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  @supports(display: grid) {
+    display: grid;
+    grid-gap: 1.5rem 2rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      "title title title title title"
+      "body body body body body"
+      ". img img img .";
+
+    @media (min-width: 650px) {
+      grid-template-columns: auto 35%;
+      grid-template-rows: max-content max-content;
+      grid-template-areas:
+        "title img"
+        "body img";
+    
+      &--rev {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+        "img title"
+        "img body";
+      }
+
+      &--half {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    &__title {
+      align-self: end;
+      grid-area: title;
+      width: unset;
+    }
+
+    &__body {
+      grid-area: body;
+      width: unset;
+    }
+
+    &__img {
+      grid-area: img;
+      margin-top: 0;
+      align-self: center;
+      display: block;
       margin: unset;
+      max-width: 100%;
+      position: static;
+    
+      > img,
+      > svg {
+        max-width: 300px;
+      }
+
     }
   }
 }
 
 .l-head {
+  // fallback
+  display: flex;
+  flex-direction: column;
+
   display: grid;
   grid-row-gap: 1.5rem;
   // grid-template-columns: 1fr repeat(auto-fill, 1fr) 190px 1fr;
@@ -193,26 +232,34 @@ main > section:not(.c-banner) {
 }
 
 .l-icon-grid {
+  column-width: 20em;
+  column-gap: 2em;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 1.5em;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 120px);
-  grid-auto-rows: max-content;
-  grid-gap: 2em;
-
-  font-size: .8em; // TODO: Remove, temp fix for overflow
-
-  > li {
-    flex: 1 1 14em;
-    grid-column-end: span 2;
-  }
-
-  &--2x2 {
-    grid-template-columns: repeat(4, 1fr);
+  .js & {
+    // TODO: fallback needed?
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    
+    column-width: unset;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+    grid-auto-rows: max-content;
+    grid-gap: 2em;
+    
+    font-size: .8em; // TODO: Remove, temp fix for overflow
+    
+    > li {
+      flex: 0 1 260px;
+      grid-column-end: span 2;
+    }
+    
+    &--2x2 {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 }
 
@@ -233,4 +280,8 @@ main > section:not(.c-banner) {
       box-shadow: inset 0px 0px 10px 3px rgba(0,0,0,.3);
     }
   }
+}
+
+#animation_container {
+  justify-self: center;
 }

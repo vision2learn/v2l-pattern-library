@@ -14,7 +14,14 @@ module.exports = function(config) {
   config.addFilter("markdownify", function(value) {
     var MarkdownIt = require('markdown-it'),
       md = new MarkdownIt();
-    return md.render(value);
+      
+      try {
+        return md.render(value);
+      } 
+      catch (error) {
+        console.log('val: ', value, ' ', typeof value);
+        return "markdown error";
+      }
   });
 
   // Add some utiliuty filters

@@ -9,12 +9,12 @@
   6. Banner
   7. Section
   8. Media Object
+  9. Slider
 #}
 
 {# --- 1. Pagination--- #}
 
 {% macro pagination(class, pagination, page) %}
-
   <nav {% if class %}class="{{ class }}"{% endif %}>
     <ol aria-label="Pages in this session" role="list" class="c-pagination">
       {%- if pagination.previousPageHref -%}
@@ -98,17 +98,27 @@
   </label>
 {% endmacro %}
 
-{# --- 5. Accordion --- #}
-{# Taken from: https://inclusive-components.design/collapsible-sections/ #}
+{# 
+--- 5. Accordion --- 
 
-{% macro accordion(title='Accordion title', copy='Accordion copy', img, class) %}
+Taken from: https://inclusive-components.design/collapsible-sections/
+
+#}
+
+{% macro accordion(data, env) %}
 
 <toggle-section open="false">
-  {% if img %}
-    {{ media(title=title, copy=copy, img=img) }}
+  {% if data.img %}
+    {{ media2({
+      title: data.title,
+      copy: data.copy,
+      media: {
+        ref: data.img
+      }
+    }, env) }}
   {% else %}
-    <h3>{{ title }}</h3>
-    {{ copy | markdownify | safe }}
+    <h3>{{ data.title }}</h3>
+    {{ data.copy | markdownify | safe }}
   {% endif %}
 </toggle-section>
 {% endmacro %}
@@ -138,7 +148,7 @@
       {{ bannerText | markdownify | safe }}
     </div>
     {% if banner.endsWith('.svg') %}
-      <img src="{{ banner | lower }}" class="c-banner__img" alt="">
+      <img src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
     {% else %}
       {{ srcset(file=banner, class="c-banner__img")}}
     {% endif %}
@@ -185,31 +195,113 @@
 
 {% endmacro %}
 
-{% macro sectionX() %}
+{# 
+--- 8. Media object --- 
 
-  <p>Hello</p>
+  params:
+    data: {
+      title (o): String, 
+      copy (r): String/markdown,
+      layout (o): String: "media-rev" || "media-half"
+      media (r): {
+        ref (r): String: path/to/file
+        link (o): href to link out to, images only
+      }
+    }
+    env: build environment from module.data pagination object
 
+#}
+
+{% macro media2(data, buildenv) %}
+  <!-- MEDIA2 -->
+  
+  {# Remove leading slash from object path if there is one #}
+  {%- set  mediaObj = "" + data.media.ref -%}
+  {%- if mediaObj | first === "/"  %}
+    {% set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
+  {% endif -%}
+
+  {# Detect media type, img/video etc #}
+  {%- if (mediaObj.endsWith('svg')) or (mediaObj.endsWith('png')) or (mediaObj.endsWith('jpg')) or (mediaObj.endsWith('jpeg')) %}
+    {% set mediaType = "image" %}
+  {% elseif mediaObj.endsWith('mp4') %}
+    {% set mediaType = "video" %}
+  {% elseif mediaObj === "think" %}
+    {% set mediaType = "think" %}
+  {% else %}
+    {% set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
+  {% endif -%}
+
+  <div class="l-media {% if data.layout == 'media-rev' %} l-media--rev {% elseif data.layout == 'media-half' %} l-media--half {% endif %}">
+    {% if data.title %}
+      {# TODO: dynamic heading level #}
+      <h2 class="l-media__title">
+        {{ data.title | title }}
+      </h2>
+    {% endif %}
+
+    <div class="l-media__body">
+      {{ data.copy | markdownify | safe }}
+    </div>
+
+    {% if mediaType === "image" %}
+      {% if data.media.link %}
+        <a href="{{ data.media.link }}" class="l-media__img">
+      {% endif %}
+        <img class="{{ 'l-media__img' if not data.media.link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+      {% if data.media.link %}
+        </a>
+      {% endif %}
+    {% elseif mediaType === "video" %}
+      <video controls class="l-media__img">
+          <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
+                  type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+      </video>
+    {% elseif mediaType === "think" %}
+      {% if buildenv === 'dev'%}
+        <form class="l-media__img l-think">
+          <textarea class="js-think"></textarea>
+          <button>Save</button>
+        </form>
+      {% else %}
+        @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
+                (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
+                "{{ data.copy | striptags(false)}}",
+                formClassAttribute: "l-media__img l-think"))
+      {% endif %}
+    {% else %}
+      <p>{{ mediaError + ": " + mediaObj }}</p>
+    {% endif %}  
+  </div>
 {% endmacro %}
 
-{# --- 8. Media object --- #}
-
-{% macro media(title, copy, img, layout, think, video) %}
+{% macro media(title, copy, img, link, layout, think, video) %}
+  <!-- MEDIA?? {{ site.env }} -->
   <div class="l-media {% if layout == 'media-rev' %} l-media--rev {% elseif layout == 'media-half' %} l-media--half {% endif %}">
-    <h2 class="l-media__title">{{ title | title }}</h2>
+    <h2 class="l-media__title">
+      {% if title %}
+        {{ title | title }}
+      {% endif %}
+    </h2>
 
     <div class="l-media__body">
       {{ copy | markdownify | safe }}
     </div>
     {% if activity %}
       <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
-        <img src="/images/svg/activity_button.svg" alt="Open activity">
+        <img src="{{ '~' if module.data.buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Open activity">
       </a>
     {% else %}
-      {% if img %}
-        <img class="l-media__img" src="{{ img | lower }}" alt="">
+      {% if img and (not link) %}
+        <img class="l-media__img" src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="xxxxx">
+      {% elseif img and link %}
+        <a href="{{ link }}" class="l-media__img">
+          <img  src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="">
+        </a>
       {% elseif video %}
-        <video controls class="l-media__img">
-            <source src="/videos/{{ video }}"
+        <video controls class="l-media__img" {{ module.data.buildenv }}>
+            <source src="{{ '~' if module.data.buildenv === 'dotnet' }}/videos/{{ video }}"
                     type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
         </video>
@@ -222,4 +314,33 @@
       {% endif %}
     {% endif %}
   </div>
+{% endmacro %}
+
+{# --- 9. Slider --- #}
+{% macro slideItem(slidedata, buildenv) %}
+  {# TODO: Support other media types for slider #}
+    {% if slidedata.img or slidedata.media %}
+      {{ media2({
+            title: slidedata.heading,
+            copy: slidedata.text,
+            media: {
+              ref: slidedata.img
+            }
+          },
+          buildenv
+        ) }}
+    {% else %}
+     <div>
+        {% if slidedata.heading %}
+          <h3>{{ slidedata.heading | safe }}</h3>
+        {% endif %}
+        {{ slidedata.text | markdownify | safe }}
+      </div> 
+    {% endif %}
+    
+    {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
+{% endmacro %}
+
+{% macro test() %}
+  <p>Test Macro</p>
 {% endmacro %}

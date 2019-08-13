@@ -2,7 +2,7 @@
   background-color: rgb(37, 40, 43);
   border-width: 0;
   border-style: solid;
-  border-color: var(--primary1);
+  border-color: $primary1;
   border-bottom-width: 5px;
   color: #fff;
 
@@ -25,12 +25,14 @@
   }
 
   &__sessions {
+
+    order: -1; // fallback
+
     grid-area: session-nav;
     list-style: none;
     padding-left: 0;
     display: flex;
     flex-wrap: wrap;
-    // gap: .5em;
     justify-content: flex-start;
 
     li {
@@ -50,7 +52,7 @@
     }
 
     [aria-current="step"] {
-      color: var(--primary1);
+      color: $primary1;
     }
   }
 
@@ -98,11 +100,11 @@
       
       &:hover,
       &:focus {
-        color: var(--primary1);
+        color: $primary1;
       }
 
       &[aria-current="page"] {
-        border-bottom: solid 4px var(--primary1);
+        border-bottom: solid 4px $primary1;
         filter: unset;
       }
     }
@@ -113,7 +115,9 @@
   grid-area: logo;
   width: 100%;
   max-width: 190px;
-  height: 40px; // IE11
+  // IE11
+  height: 40px; 
+  display: block;
 
   @supports (display: grid) {
     height: auto;
@@ -123,7 +127,8 @@
 .c-quiz {
   color: #fff;
   font-size: 1.5em;
-  margin-top: calc(var(--flow) * 1rem);
+  margin-top: calc(1.5 * 1rem);
+  // TODO: Sass vars in calc() don't work?
 
   &.js-form-error {
     border-left: solid 5px #fa0;
@@ -136,7 +141,7 @@
   }
 
   fieldset {
-    background-color: var(--primary3);
+    background-color: $primary3;
     border: 0;
     counter-reset: answers;
     flex-direction: column;
@@ -146,7 +151,7 @@
   }
 
   legend {
-    background-color: var(--primary3);
+    background-color: $primary3;
     padding: .5em;
     width: 100%;
     
@@ -166,7 +171,7 @@
     
     &:hover,
     &:focus {
-      background-color: var(--primary1);
+      background-color: $primary1;
     }
 
     &::before {
@@ -183,13 +188,13 @@
   }
 
   &__fb {
-    background-color: var(--primary3);
+    background-color: $primary3;
     font-size: 1rem;
     padding: .5em;
   }
 
   &__answer {
-    background-color: var(--primary2);
+    background-color: $primary2;
     margin-top: 0 !important;
     position: relative;
   }
@@ -225,7 +230,7 @@
     &:checked,
     &:focus {
       + label {
-        background-color: var(--primary1);
+        background-color: $primary1;
       }
     }
   }
@@ -330,7 +335,7 @@
     .visible &::after {
       content: "Slide " counter(slides) " of " attr(data-v2l-count);
       position: absolute;
-      color: var(--secondary1);
+      color: $secondary1;
       bottom: 3.5rem;
       right: 3.5rem;
       background: #fff;
@@ -388,7 +393,7 @@
   button {
     position: absolute;
     top: 0;
-    color: var(--secondary1);
+    color: $secondary1;
     background: none;
     border: none;
     border-radius: 0;
@@ -428,7 +433,7 @@ button svg {
   &__questions {
 
     li {
-      margin-top: calc(var(--flow) * 1rem);
+      margin-top: calc($flow * 1rem);
       padding: 1em;
       position: relative;
     }
@@ -514,13 +519,24 @@ button svg {
 
 
 .c-banner {
+  // fallback
+  display: flex;
+  align-items: center;
+
   display: grid;
   grid-template-columns: minmax(1rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(1rem, 1fr);
   grid-template-rows: 3rem max-content minmax(1rem, 1fr);
   position: relative;
-  min-height: 36vw; // maintains aspect ratio
+  overflow: hidden;
+
+  @supports(display: grid) {
+    min-height: 36vw; // maintains aspect ratio
+  }
 
   &__text {
+
+    flex: 0 0 25rem; //fallback
+
     background-color: rgba(37, 40, 43, .9);
     color: #fff;
     grid-column: 2 / span 1;
@@ -529,68 +545,101 @@ button svg {
   }
 
   &__img {
+
+    // fallback
+    transform: scale(2) translate(-25%, 0); // mimics object fit
+
     grid-area: 1 / 1 / -1 / -1;
     object-fit: cover;
-    position: absolute; // Safari is being weird
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    z-index: 0;
+    
+    @supports(display: grid) {
+      transform: initial;
+      width: 100%;
+      height: 100%;
+      position: absolute; // Safari is being weird
+    }
   }
 }
 
 .c-reveal-block {
-  display: block;
-  position: relative;
-  overflow: hidden;
 
-  [aria-expanded] {
-    transition: transform .3s ease-in-out;
-    transform: scale(1);
-  }
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  break-inside: avoid; // makes items flow nicely in CSS columns
 
-  [aria-expanded="true"] {
-    transform: scale(.7);
-
-    &:focus {
-      outline: 0;
-    }
-  }
-
-  > button {
-    appearance: none;
-    background: none;
-    border: none;
+  .js & {
     display: block;
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    position: relative;
+    margin-bottom: 0;
+    overflow: hidden;
 
-    &:focus {
-      outline-offset: -2px;
-      outline-width: 4px;
+    [aria-expanded] {
+      transition: transform .3s ease-in-out;
+      transform: scale(1);
+    }
+
+    [aria-expanded="true"] {
+      transform: scale(.7);
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    > button {
+      appearance: none;
+      background: none;
+      border: none;
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+  
+      &:focus {
+        outline-offset: -2px;
+        outline-width: 4px;
+      }
     }
   }
 
   &__icon {
     display: block;
-    height: 100%;
-    object-fit: cover;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+
+    .js & {
+      object-fit: cover;
+    
+      @supports(display: grid) {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   &__desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(255,255,255,.9);
-    color: var(--secondary1);
-    padding: 1em;
-    transition: top .3s ease-in-out;
+    flex: 5;
+    margin-left: 1em;
+    margin-top: 0 !important; // TODO: remove important
     will-change: top;
-    width: 100%;
-    height: 100%;
-    margin-top: 0;
-    top: 100%;
+
+    [aria-expanded] + & {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(255,255,255,.9);
+      color: $secondary1;
+      padding: 1em;
+      transition: top .3s ease-in-out;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      top: 100%;
+    }
 
     [aria-expanded="false"] + & {
       position: absolute;
@@ -607,9 +656,9 @@ button svg {
 }
 
 .c-reveal {
-  color: var(--primary1);
+  color: $primary1;
   border: solid 1px;
-  margin-top: calc(var(--flow) * 1em);
+  margin-top: calc($flow * 1em);
 
   summary {
     display: block;
@@ -626,140 +675,153 @@ button svg {
   }
 }
 
-// Temporary slider styles
-.gallery-container {
-  position: relative;
-}
-
-.gallery {
-  border: 2px solid;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  // -webkit-scroll-snap-type: mandatory;
-  // -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
-  // -webkit-scroll-snap-points-x: repeat(100%);
-  // -ms-scroll-snap-points-x: repeat(100%);
-  scroll-snap-points-x: repeat(100%);
-}
-
-.gallery:focus,
-.gallery-controls button:focus {
-  outline: 4px solid skyBlue;
-  outline-offset: -4px;
-}
-
 .gallery > ul {
-  display: flex;
+  list-style-type: none;
   padding: 0;
 }
 
 .gallery > ul > li {
-  flex: 0 0 100%;
-  display: flex;
-  align-items: center;
-  min-width: 0;
+  margin-top: 1.5rem !important;
 }
 
-.gallery > ul > li * {
-  min-width: 0;
+.js {
+  // Temporary slider styles
+  .gallery-container {
+    position: relative;
+  }
+
+  .gallery {
+    border: 2px solid;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    // -webkit-scroll-snap-type: mandatory;
+    // -ms-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+    // -webkit-scroll-snap-points-x: repeat(100%);
+    // -ms-scroll-snap-points-x: repeat(100%);
+    scroll-snap-points-x: repeat(100%);
+  }
+
+  .gallery:focus,
+  .gallery-controls button:focus {
+    outline: 4px solid skyBlue;
+    outline-offset: -4px;
+  }
+
+  .gallery > ul {
+    display: flex;
+    padding: 0;
+  }
+
+  .gallery > ul > li {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0 !important;
+    min-width: 0;
+  }
+
+  .gallery > ul > li * {
+    min-width: 0;
+  }
+
+  .gallery > ul > li > div {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .gallery img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 1px;
+    min-height: 1px;
+  }
+
+  .gallery::-webkit-scrollbar {
+    height: 0.75rem;
+  }
+
+  .gallery::-webkit-scrollbar-track {
+    background-color: #ddd;
+  }
+
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: #000;
+  }
+
+  #instructions {
+    display: none;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .gallery:hover+#instructions,
+  .gallery:focus+#instructions,
+  .touch #instructions {
+    display: block;
+  }
+
+  .gallery figure,
+  noscript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    height: 50vh;
+  }
+
+  noscript {
+    padding: 0;
+  }
+
+  .gallery figcaption {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .gallery-controls li {
+    display: inline;
+  }
+
+  .gallery-controls button {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 3rem;
+    border: 0;
+    padding: 0.5rem;
+    background: #000;
+  }
+
+  .gallery-controls svg {
+    width: 100%;
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+  }
+
+  .previous {
+    left: 0;
+  }
+
+  .next {
+    left: calc(100% - 3rem);
+  }
+
+  .c-activity {
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.gallery > ul > li > div {
-  width: 100%;
-  padding: 2rem;
-}
-
-.gallery img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  min-width: 1px;
-  min-height: 1px;
-}
-
-.gallery::-webkit-scrollbar {
-  height: 0.75rem;
-}
-
-.gallery::-webkit-scrollbar-track {
-  background-color: #ddd;
-}
-
-.gallery::-webkit-scrollbar-thumb {
-  background-color: #000;
-}
-
-#instructions {
-  display: none;
-  text-align: center;
-  margin-top: 0.5rem;
-}
-
-.gallery:hover+#instructions,
-.gallery:focus+#instructions,
-.touch #instructions {
-  display: block;
-}
-
-.gallery figure,
-noscript {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  padding: 1rem;
-  height: 50vh;
-}
-
-noscript {
-  padding: 0;
-}
-
-.gallery figcaption {
-  height: 2rem;
-  line-height: 2rem;
-  font-size: 0.75rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.gallery-controls li {
-  display: inline;
-}
-
-.gallery-controls button {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  width: 3rem;
-  border: 0;
-  padding: 0.5rem;
-  background: #000;
-}
-
-.gallery-controls svg {
-  width: 100%;
-  fill: #fff;
-  stroke: #000;
-  stroke-width: 1.5;
-  stroke-linejoin: round;
-}
-
-.previous {
-  left: 0;
-}
-
-.next {
-  left: calc(100% - 3rem);
-}
-
-.c-activity {
-  border: none;
-  width: 100%;
-  height: 100%;
-}
 
 // Accordion
 // TODO: Refactor accordion CSS to match naming conventions elsewhere
@@ -834,4 +896,31 @@ toggle-section[role="region"] .style-scope:not(p) {
 h2.toggle-section::before {
   content: "";
   display: none;
+}
+
+#unit-overview {
+  .l-btn-group {
+    display: none;
+  }
+
+  .l-btn-group[role='tablist'] {
+    display: flex;
+  }
+}
+
+.tabbed:not(.js-tabs) {
+  display: flex;
+
+  > section {
+    flex: 1;
+
+    &:nth-of-type(2) {
+      margin: 0 2em;
+    }
+
+    ul {
+      list-style-position: inside;
+      padding-left: 0;
+    }
+  }
 }
