@@ -148,6 +148,9 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   {% for section in module.data.sections %}
     {% if section.theme == "i-quiz" and lastPage %}
       {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+    {% elseif section.title == nil %}
+      {# Don't write out blanks #}
+      <!-- blank -->
     {% else %}
         <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
         {% if section.include %}
