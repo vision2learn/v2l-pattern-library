@@ -1,32 +1,22 @@
-<!DOCTYPE html>
-<!--
-	NOTES:
-	1. All tokens are represented by '$' sign in the template.
-	2. You can write your code only wherever mentioned.
-	3. All occurrences of existing tokens will be replaced by their appropriate values.
-	4. Blank lines will be removed automatically.
-	5. Remove unnecessary comments before creating your template.
--->
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>lm_u1_s2_p3_interactive_scorecard</title>
-<!-- write your code here -->
-<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script>
 (function (cjs, an) {
+
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"lm_u1_s2_p3_interactive_scorecard_atlas_", frames: [[0,0,799,478]]}
 ];
+
+
 // symbols:
+
+
+
 (lib.lm_u1_s2_p3_scorecard_v2sml = function() {
 	this.initialize(ss["lm_u1_s2_p3_interactive_scorecard_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
+
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
 	clone.gotoAndStop(this.currentFrame);
@@ -34,6 +24,7 @@ function mc_symbol_clone() {
 	clone.framerate = this.framerate;
 	return clone;
 }
+
 function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	var prototype = cjs.extend(symbol, cjs.MovieClip);
 	prototype.clone = mc_symbol_clone;
@@ -41,32 +32,50 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	prototype.frameBounds = frameBounds;
 	return prototype;
 	}
+
+
 (lib.text_bg_Layer_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#01A7E1").s().p("A18ImIAAxLMAr5AAAIAARLg");
 	this.shape.setTransform(0.025,0);
+
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
 }).prototype = getMCSymbolPrototype(lib.text_bg_Layer_1, null, null);
+
+
 (lib.Scene_1_table_image = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	// table_image
 	this.instance = new lib.lm_u1_s2_p3_scorecard_v2sml();
 	this.instance.parent = this;
 	this.instance.setTransform(-3,0,1.0057,1.0134);
+
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
 }).prototype = getMCSymbolPrototype(lib.Scene_1_table_image, null, null);
+
+
 (lib.Button_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(153,219,243,0.027)").s().p("ApDDXQjwhZAAh+QAAh9DwhaQDxhZFSAAQFTAADxBZQDwBaAAB9QAAB+jwBZQjxBalTAAQlSAAjxhag");
+
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
+
+
 (lib.text_bg = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	// Layer_1_obj_
 	this.Layer_1 = new lib.text_bg_Layer_1();
 	this.Layer_1.name = "Layer_1";
@@ -77,10 +86,15 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	this.Layer_1.layerDepth = 0
 	this.Layer_1.layerIndex = 0
 	this.Layer_1.maskLayerName = 0
+
 	this.timeline.addTween(cjs.Tween.get(this.Layer_1).wait(1));
+
 }).prototype = getMCSymbolPrototype(lib.text_bg, new cjs.Rectangle(-140.4,-55,280.9,110), null);
+
+
 (lib.Scene_1_dynamic_text = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	// dynamic_text
 	this.Item_text = new cjs.Text("text", "16px 'Open Sans'", "#FFFFFF");
 	this.Item_text.name = "Item_text";
@@ -89,55 +103,72 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	this.Item_text.lineWidth = 244;
 	this.Item_text.parent = this;
 	this.Item_text.setTransform(399.4156,228.0426,0.9984,0.9984);
+
 	this.text_bg1 = new lib.text_bg();
 	this.text_bg1.name = "text_bg1";
 	this.text_bg1.parent = this;
 	this.text_bg1.setTransform(398.65,278.6,0.9204,1.2003,0,0,0,0.2,0.7);
+
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_bg1},{t:this.Item_text}]}).wait(1));
+
 }).prototype = getMCSymbolPrototype(lib.Scene_1_dynamic_text, null, null);
+
+
 (lib.Scene_1_buttons = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	// buttons
 	this.button_excellent = new lib.Button_1();
 	this.button_excellent.name = "button_excellent";
 	this.button_excellent.parent = this;
 	this.button_excellent.setTransform(727.4,440.8,0.7063,0.9984,0,0,0,0.1,0);
 	new cjs.ButtonHelper(this.button_excellent, 0, 1, 1);
+
 	this.button_average = new lib.Button_1();
 	this.button_average.name = "button_average";
 	this.button_average.parent = this;
 	this.button_average.setTransform(464.85,440.8,0.7063,0.9984,0,0,0,0.1,0);
 	new cjs.ButtonHelper(this.button_average, 0, 1, 1);
+
 	this.button_poor = new lib.Button_1();
 	this.button_poor.name = "button_poor";
 	this.button_poor.parent = this;
 	this.button_poor.setTransform(199.4,440.8,0.7063,0.9984,0,0,0,0.2,0);
 	new cjs.ButtonHelper(this.button_poor, 0, 1, 1);
+
 	this.button_support = new lib.Button_1();
 	this.button_support.name = "button_support";
 	this.button_support.parent = this;
 	this.button_support.setTransform(69.6,373.9,0.7063,0.9984,0,0,0,0.2,0);
 	new cjs.ButtonHelper(this.button_support, 0, 1, 1);
+
 	this.button_delivery = new lib.Button_1();
 	this.button_delivery.name = "button_delivery";
 	this.button_delivery.parent = this;
 	this.button_delivery.setTransform(69.6,305,0.7063,0.9984,0,0,0,0.2,0);
 	new cjs.ButtonHelper(this.button_delivery, 0, 1, 1);
+
 	this.button_price = new lib.Button_1();
 	this.button_price.name = "button_price";
 	this.button_price.parent = this;
 	this.button_price.setTransform(58.55,171.3,0.6088,0.9002,0,0,0,0.1,0.1);
 	new cjs.ButtonHelper(this.button_price, 0, 1, 1);
+
 	this.button_reliability = new lib.Button_1();
 	this.button_reliability.name = "button_reliability";
 	this.button_reliability.parent = this;
 	this.button_reliability.setTransform(69.6,238.2,0.7063,0.9984,0,0,0,0.2,0);
 	new cjs.ButtonHelper(this.button_reliability, 0, 1, 1);
+
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_reliability},{t:this.button_price},{t:this.button_delivery},{t:this.button_support},{t:this.button_poor},{t:this.button_average},{t:this.button_excellent}]}).wait(1));
+
 }).prototype = getMCSymbolPrototype(lib.Scene_1_buttons, null, null);
+
+
 // stage content:
 (lib.lm_u1_s2_p3_interactive_scorecard = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
+
 	this.___GetDepth___ = function(obj) {
 		var depth = obj.depth;
 		var cameraObj = this.___camera___instance;
@@ -166,6 +197,7 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 			this.sortChildren(curTimeline.___sortFunction___);
 		}
 	});
+
 	// timeline functions:
 	this.frame_0 = function() {
 		this.button_reliability = this.buttons.button_reliability;
@@ -179,58 +211,81 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 		this.Item_text = this.dynamic_text.Item_text;
 		this.text_bg1.visible = false;
 		this.Item_text.visible = false;
+		
 		this.button_price.addEventListener("click", Price_function.bind(this));
+		
 		function Price_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Price - How satisfied customers are with the cost of the product.";
+			
 		}
+		
 		this.button_reliability.addEventListener("click", Reliability_function.bind(this));
+		
 		function Reliability_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Reliability - How much customers depend on the product to be consistent.";
+			
 		}
+		
 		this.button_delivery.addEventListener("click", Delivery_function.bind(this));
+		
 		function Delivery_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Delivery - Does the delivery of the product meet customer satisfaction?";
+			
 		}
+		
 		this.button_support.addEventListener("click", Support_function.bind(this));
+		
 		function Support_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Support - Has the customer received an adequate amount of support in choosing / purchasing the product?";
+			
 		}
+		
 		this.button_poor.addEventListener("click", Poor_function.bind(this));
+		
 		function Poor_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Poor - The rating suggests much customer dissatisfaction with the service.";
+			
 		}
+		
 		this.button_average.addEventListener("click", Average_function.bind(this));
+		
 		function Average_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Average - The rating suggests some satisfaction but room for improvement.";
+			
 		}
+		
 		this.button_excellent.addEventListener("click", Excellent_function.bind(this));
+		
 		function Excellent_function()
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
 			this.Item_text.text = "Excellent - The rating suggests high customer satisfaction with the service.";
+			
 		}
 	}
+
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
 	// buttons_obj_
 	this.buttons = new lib.Scene_1_buttons();
 	this.buttons.name = "buttons";
@@ -242,7 +297,9 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	this.buttons.layerDepth = 0
 	this.buttons.layerIndex = 0
 	this.buttons.maskLayerName = 0
+
 	this.timeline.addTween(cjs.Tween.get(this.buttons).wait(1));
+
 	// dynamic_text_obj_
 	this.dynamic_text = new lib.Scene_1_dynamic_text();
 	this.dynamic_text.name = "dynamic_text";
@@ -254,7 +311,9 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	this.dynamic_text.layerDepth = 0
 	this.dynamic_text.layerIndex = 1
 	this.dynamic_text.maskLayerName = 0
+
 	this.timeline.addTween(cjs.Tween.get(this.dynamic_text).wait(1));
+
 	// table_image_obj_
 	this.table_image = new lib.Scene_1_table_image();
 	this.table_image.name = "table_image";
@@ -266,7 +325,9 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	this.table_image.layerDepth = 0
 	this.table_image.layerIndex = 2
 	this.table_image.maskLayerName = 0
+
 	this.timeline.addTween(cjs.Tween.get(this.table_image).wait(1));
+
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(396.5,242.5,404.1,241.89999999999998);
 // library properties:
@@ -278,14 +339,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/lm_u1_s2_p3_interactive_scorecard_atlas_.png", id:"lm_u1_s2_p3_interactive_scorecard_atlas_"}
+		{src:"lm_u1_s2_p3_interactive_scorecard_atlas_.png", id:"lm_u1_s2_p3_interactive_scorecard_atlas_"}
 	],
 	preloads: []
 };
+
+
+
 // bootstrap callback support:
+
 (lib.Stage = function(canvas) {
 	createjs.Stage.call(this, canvas);
 }).prototype = p = new createjs.Stage();
+
 p.setAutoPlay = function(autoPlay) {
 	this.tickEnabled = autoPlay;
 }
@@ -293,11 +359,14 @@ p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(th
 p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
 p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
 p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
 p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
 an.bootcompsLoaded = an.bootcompsLoaded || [];
 if(!an.bootstrapListeners) {
 	an.bootstrapListeners=[];
 }
+
 an.bootstrapCallback=function(fnCallback) {
 	an.bootstrapListeners.push(fnCallback);
 	if(an.bootcompsLoaded.length > 0) {
@@ -306,6 +375,7 @@ an.bootstrapCallback=function(fnCallback) {
 		}
 	}
 };
+
 an.compositions = an.compositions || {};
 an.compositions['B459E4802A3A47C988A11F6CF58E183B'] = {
 	getStage: function() { return exportRoot.getStage(); },
@@ -313,16 +383,21 @@ an.compositions['B459E4802A3A47C988A11F6CF58E183B'] = {
 	getSpriteSheet: function() { return ss; },
 	getImages: function() { return img; }
 };
+
 an.compositionLoaded = function(id) {
 	an.bootcompsLoaded.push(id);
 	for(var j=0; j<an.bootstrapListeners.length; j++) {
 		an.bootstrapListeners[j](id);
 	}
 }
+
 an.getComposition = function(id) {
 	return an.compositions[id];
 }
+
+
 // Layer depth API : 
+
 AdobeAn.Layer = new function() {
 	this.getLayerZDepth = function(timeline, layerName)
 	{
@@ -363,190 +438,7 @@ AdobeAn.Layer = new function() {
 		timeline.addChild(layer);
 	}
 }
+
+
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 var createjs, AdobeAn;
-</script>
-<script>
-var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-function init() {
-	canvas = document.getElementById("canvas");
-	anim_container = document.getElementById("animation_container");
-	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("B459E4802A3A47C988A11F6CF58E183B");
-	var lib=comp.getLibrary();
-	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
-	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
-	var lib=comp.getLibrary();
-	loader.loadManifest(lib.properties.manifest);
-}
-function handleFileLoad(evt, comp) {
-	var images=comp.getImages();	
-	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
-}
-function handleComplete(evt,comp) {
-	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	var lib=comp.getLibrary();
-	var ss=comp.getSpriteSheet();
-	var queue = evt.target;
-	var ssMetadata = lib.ssMetadata;
-	for(i=0; i<ssMetadata.length; i++) {
-		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
-	}
-	exportRoot = new lib.lm_u1_s2_p3_interactive_scorecard();
-	stage = new lib.Stage(canvas);
-	stage.enableMouseOver();	
-	//Registers the "tick" event listener.
-	fnStartAnimation = function() {
-		stage.addChild(exportRoot);
-		createjs.Ticker.setFPS(lib.properties.fps);
-		createjs.Ticker.addEventListener("tick", stage)
-		stage.addEventListener("tick", handleTick)
-		function getProjectionMatrix(container, totalDepth) {
-			var focalLength = 528.25;
-			var projectionCenter = { x : lib.properties.width/2, y : lib.properties.height/2 };
-			var scale = (totalDepth + focalLength)/focalLength;
-			var scaleMat = new createjs.Matrix2D;
-			scaleMat.a = 1/scale;
-			scaleMat.d = 1/scale;
-			var projMat = new createjs.Matrix2D;
-			projMat.tx = -projectionCenter.x;
-			projMat.ty = -projectionCenter.y;
-			projMat = projMat.prependMatrix(scaleMat);
-			projMat.tx += projectionCenter.x;
-			projMat.ty += projectionCenter.y;
-			return projMat;
-		}
-		function handleTick(event) {
-			var cameraInstance = exportRoot.___camera___instance;
-			if(cameraInstance !== undefined && cameraInstance.pinToObject !== undefined)
-			{
-				cameraInstance.x = cameraInstance.pinToObject.x + cameraInstance.pinToObject.pinOffsetX;
-				cameraInstance.y = cameraInstance.pinToObject.y + cameraInstance.pinToObject.pinOffsetY;
-				if(cameraInstance.pinToObject.parent !== undefined && cameraInstance.pinToObject.parent.depth !== undefined)
-				cameraInstance.depth = cameraInstance.pinToObject.parent.depth + cameraInstance.pinToObject.pinOffsetZ;
-			}
-			applyLayerZDepth(exportRoot);
-		}
-		function applyLayerZDepth(parent)
-		{
-			var cameraInstance = parent.___camera___instance;
-			var focalLength = 528.25;
-			var projectionCenter = { 'x' : 0, 'y' : 0};
-			if(parent === exportRoot)
-			{
-				var stageCenter = { 'x' : lib.properties.width/2, 'y' : lib.properties.height/2 };
-				projectionCenter.x = stageCenter.x;
-				projectionCenter.y = stageCenter.y;
-			}
-			for(child in parent.children)
-			{
-				var layerObj = parent.children[child];
-				if(layerObj == cameraInstance)
-					continue;
-				applyLayerZDepth(layerObj, cameraInstance);
-				if(layerObj.layerDepth === undefined)
-					continue;
-				if(layerObj.currentFrame != layerObj.parent.currentFrame)
-				{
-					layerObj.gotoAndPlay(layerObj.parent.currentFrame);
-				}
-				var matToApply = new createjs.Matrix2D;
-				var cameraMat = new createjs.Matrix2D;
-				var totalDepth = layerObj.layerDepth ? layerObj.layerDepth : 0;
-				var cameraDepth = 0;
-				if(cameraInstance && !layerObj.isAttachedToCamera)
-				{
-					var mat = cameraInstance.getMatrix();
-					mat.tx -= projectionCenter.x;
-					mat.ty -= projectionCenter.y;
-					cameraMat = mat.invert();
-					cameraMat.prependTransform(projectionCenter.x, projectionCenter.y, 1, 1, 0, 0, 0, 0, 0);
-					cameraMat.appendTransform(-projectionCenter.x, -projectionCenter.y, 1, 1, 0, 0, 0, 0, 0);
-					if(cameraInstance.depth)
-						cameraDepth = cameraInstance.depth;
-				}
-				if(layerObj.depth)
-				{
-					totalDepth = layerObj.depth;
-				}
-				//Offset by camera depth
-				totalDepth -= cameraDepth;
-				if(totalDepth < -focalLength)
-				{
-					matToApply.a = 0;
-					matToApply.d = 0;
-				}
-				else
-				{
-					if(layerObj.layerDepth)
-					{
-						var sizeLockedMat = getProjectionMatrix(parent, layerObj.layerDepth);
-						if(sizeLockedMat)
-						{
-							sizeLockedMat.invert();
-							matToApply.prependMatrix(sizeLockedMat);
-						}
-					}
-					matToApply.prependMatrix(cameraMat);
-					var projMat = getProjectionMatrix(parent, totalDepth);
-					if(projMat)
-					{
-						matToApply.prependMatrix(projMat);
-					}
-				}
-				layerObj.transformMatrix = matToApply;
-			}
-		}
-	}	    
-	//Code to support hidpi screens and responsive scaling.
-	function makeResponsive(isResp, respDim, isScale, scaleType) {		
-		var lastW, lastH, lastS=1;		
-		window.addEventListener('resize', resizeCanvas);		
-		resizeCanvas();		
-		function resizeCanvas() {			
-			var w = lib.properties.width, h = lib.properties.height;			
-			var iw = window.innerWidth, ih=window.innerHeight;			
-			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
-			if(isResp) {                
-				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
-					sRatio = lastS;                
-				}				
-				else if(!isScale) {					
-					if(iw<w || ih<h)						
-						sRatio = Math.min(xRatio, yRatio);				
-				}				
-				else if(scaleType==1) {					
-					sRatio = Math.min(xRatio, yRatio);				
-				}				
-				else if(scaleType==2) {					
-					sRatio = Math.max(xRatio, yRatio);				
-				}			
-			}			
-			canvas.width = w*pRatio*sRatio;			
-			canvas.height = h*pRatio*sRatio;
-			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
-			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
-			stage.scaleX = pRatio*sRatio;			
-			stage.scaleY = pRatio*sRatio;			
-			lastW = iw; lastH = ih; lastS = sRatio;            
-			stage.tickOnUpdate = false;            
-			stage.update();            
-			stage.tickOnUpdate = true;		
-		}
-	}
-	makeResponsive(true,'both',false,1);	
-	AdobeAn.compositionLoaded(lib.properties.id);
-	fnStartAnimation();
-}
-</script>
-<!-- write your code here -->
-</head>
-<body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:799px; height:485px">
-		<canvas id="canvas" width="799" height="485" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:799px; height:485px; position: absolute; left: 0px; top: 0px; display: block;">
-		</div>
-	</div>
-</body>
-</html>

@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ba_u2_s6_p1_travel_part_a_atlas_", frames: [[0,0,800,800]]}
+		{name:"lm_u2_s2_p3_interactive_redtaglog_atlas_", frames: [[0,0,6113,3171]]}
 ];
 
 
@@ -11,8 +11,8 @@ lib.ssMetadata = [
 
 
 
-(lib.ba_u2_s6_p1_travel_misunderstandings = function() {
-	this.initialize(ss["ba_u2_s6_p1_travel_part_a_atlas_"]);
+(lib.LM_U2_S2_P3_RTLog_Table = function() {
+	this.initialize(ss["lm_u2_s2_p3_interactive_redtaglog_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -34,33 +34,55 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
+(lib.text_bg_Layer_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#98DBF3").s().p("A18ImIAAxLMAr5AAAIAARLg");
+	this.shape.setTransform(0.025,0);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.text_bg_Layer_1, null, null);
+
+
 (lib.Scene_1_text = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// text
-	this.Item_text = new cjs.Text("text", "18px 'Open Sans'");
+	this.title_text = new cjs.Text("Action code:", "22px 'Open Sans'");
+	this.title_text.name = "title_text";
+	this.title_text.textAlign = "center";
+	this.title_text.lineHeight = 32;
+	this.title_text.lineWidth = 326;
+	this.title_text.parent = this;
+	this.title_text.setTransform(395.7308,209.4758,0.9984,0.9984);
+
+	this.Item_text = new cjs.Text("text", "22px 'Open Sans'", "#333333");
 	this.Item_text.name = "Item_text";
 	this.Item_text.textAlign = "center";
-	this.Item_text.lineHeight = 27;
-	this.Item_text.lineWidth = 237;
+	this.Item_text.lineHeight = 32;
+	this.Item_text.lineWidth = 326;
 	this.Item_text.parent = this;
-	this.Item_text.setTransform(581.7504,441.1101,0.9984,0.9984,-9.6996);
+	this.Item_text.setTransform(395.7308,252.3258,0.9984,0.9984);
 
-	this.timeline.addTween(cjs.Tween.get(this.Item_text).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.Item_text},{t:this.title_text}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.Scene_1_text, null, null);
 
 
-(lib.Scene_1_background = function(mode,startPosition,loop) {
+(lib.Scene_1_table_image = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// background
-	this.instance = new lib.ba_u2_s6_p1_travel_misunderstandings();
+	// table_image
+	this.instance = new lib.LM_U2_S2_P3_RTLog_Table();
 	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.1309,0.1309);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.Scene_1_background, null, null);
+}).prototype = getMCSymbolPrototype(lib.Scene_1_table_image, null, null);
 
 
 (lib.Button_1 = function(mode,startPosition,loop) {
@@ -69,62 +91,89 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	// Layer_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(153,219,243,0.027)").s().p("ApDDXQjwhZAAh+QAAh9DwhaQDxhZFSAAQFTAADxBZQDwBaAAB9QAAB+jwBZQjxBalTAAQlSAAjxhag");
-	this.shape.setTransform(0,-3.8,0.5603,1.0782);
+	this.shape.setTransform(-6,-3.7,0.8781,0.8787);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-45.9,-36.7,91.9,65.80000000000001);
+p.nominalBounds = new cjs.Rectangle(-78,-30.5,144,53.6);
+
+
+(lib.text_bg = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1_obj_
+	this.Layer_1 = new lib.text_bg_Layer_1();
+	this.Layer_1.name = "Layer_1";
+	this.Layer_1.parent = this;
+	this.Layer_1.depth = 0;
+	this.Layer_1.isAttachedToCamera = 0
+	this.Layer_1.isAttachedToMask = 0
+	this.Layer_1.layerDepth = 0
+	this.Layer_1.layerIndex = 0
+	this.Layer_1.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.Layer_1).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.text_bg, new cjs.Rectangle(-140.4,-55,280.9,110), null);
+
+
+(lib.Scene_1_text_bg = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// text_bg
+	this.text_bg1 = new lib.text_bg();
+	this.text_bg1.name = "text_bg1";
+	this.text_bg1.parent = this;
+	this.text_bg1.setTransform(398.3,267.55,1.1872,0.4702,0,0,0,0.4,0.7);
+
+	this.timeline.addTween(cjs.Tween.get(this.text_bg1).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Scene_1_text_bg, null, null);
 
 
 (lib.Scene_1_buttons = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// buttons
-	this.button_nights = new lib.Button_1();
-	this.button_nights.name = "button_nights";
-	this.button_nights.parent = this;
-	this.button_nights.setTransform(675.75,150.95,2.1775,3.1089);
-	new cjs.ButtonHelper(this.button_nights, 0, 1, 1);
+	this.button_5 = new lib.Button_1();
+	this.button_5.name = "button_5";
+	this.button_5.parent = this;
+	this.button_5.setTransform(63.15,387.2,0.7063,0.9984,0,0,0,0.2,0);
+	new cjs.ButtonHelper(this.button_5, 0, 1, 1);
 
-	this.button_times = new lib.Button_1();
-	this.button_times.name = "button_times";
-	this.button_times.parent = this;
-	this.button_times.setTransform(381,101.2,1.5968,2.1522,0,0,0,0.2,0.2);
-	new cjs.ButtonHelper(this.button_times, 0, 1, 1);
+	this.button_4 = new lib.Button_1();
+	this.button_4.name = "button_4";
+	this.button_4.parent = this;
+	this.button_4.setTransform(64.15,327.7,0.7063,0.9984,0,0,0,0.2,0);
+	new cjs.ButtonHelper(this.button_4, 0, 1, 1);
 
-	this.button_transport = new lib.Button_1();
-	this.button_transport.name = "button_transport";
-	this.button_transport.parent = this;
-	this.button_transport.setTransform(118.7,383.3,2.5721,2.1522,0,0,0,0.2,0.2);
-	new cjs.ButtonHelper(this.button_transport, 0, 1, 1);
+	this.button_3 = new lib.Button_1();
+	this.button_3.name = "button_3";
+	this.button_3.parent = this;
+	this.button_3.setTransform(64.15,271.15,0.7063,0.9984,0,0,0,0.2,0);
+	new cjs.ButtonHelper(this.button_3, 0, 1, 1);
 
-	this.button_similar = new lib.Button_1();
-	this.button_similar.name = "button_similar";
-	this.button_similar.parent = this;
-	this.button_similar.setTransform(267.35,491.75,1.9997,1.1324,0,0,0,0.4,0.1);
-	new cjs.ButtonHelper(this.button_similar, 0, 1, 1);
+	this.button_1 = new lib.Button_1();
+	this.button_1.name = "button_1";
+	this.button_1.parent = this;
+	this.button_1.setTransform(59.1,153.1,0.6088,0.9002,0,0,0,0.1,0.1);
+	new cjs.ButtonHelper(this.button_1, 0, 1, 1);
 
-	this.button_hide = new lib.Button_1();
-	this.button_hide.name = "button_hide";
-	this.button_hide.parent = this;
-	this.button_hide.setTransform(569.5,341.65,1.8316,1.2424,-8.2651,0,0,0.4,0.3);
-	new cjs.ButtonHelper(this.button_hide, 0, 1, 1);
+	this.button_2 = new lib.Button_1();
+	this.button_2.name = "button_2";
+	this.button_2.parent = this;
+	this.button_2.setTransform(62.15,213,0.7063,0.9984,0,0,0,0.2,0);
+	new cjs.ButtonHelper(this.button_2, 0, 1, 1);
 
-	this.button_same = new lib.Button_1();
-	this.button_same.name = "button_same";
-	this.button_same.parent = this;
-	this.button_same.setTransform(174,645.35,2.5721,1.4193,0,0,0,0.2,0.1);
-	new cjs.ButtonHelper(this.button_same, 0, 1, 1);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_same},{t:this.button_hide},{t:this.button_similar},{t:this.button_transport},{t:this.button_times},{t:this.button_nights}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_2},{t:this.button_1},{t:this.button_3},{t:this.button_4},{t:this.button_5}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.Scene_1_buttons, null, null);
 
 
 // stage content:
-(lib.ba_u2_s6_p1_travel_part_a = function(mode,startPosition,loop) {
-if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
+(lib.lm_u2_s2_p3_interactive_redtaglog = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
 		var depth = obj.depth;
@@ -157,63 +206,71 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// timeline functions:
 	this.frame_0 = function() {
-		this.button_same = this.buttons.button_same;
-		this.button_hide = this.buttons.button_hide;
-		this.button_similar = this.buttons.button_similar;
-		this.button_transport = this.buttons.button_transport;
-		this.button_times = this.buttons.button_times;
-		this.button_nights = this.buttons.button_nights;
+		this.button_2 = this.buttons.button_2;
+		this.button_1 = this.buttons.button_1;
+		this.button_3 = this.buttons.button_3;
+		this.button_4 = this.buttons.button_4;
+		this.button_5 = this.buttons.button_5;
 		this.Item_text = this.text.Item_text;
-		this.Item_text.text = "There are many possible misunderstandings that may occur with travel arrangements. \n \n Select various items within this image to see examples.";
+		this.title_text = this.text.title_text;
+		this.text_bg1 = this.text_bg.text_bg1;
+		this.text_bg1.visible = false;
+		this.Item_text.visible = false;
+		this.title_text.visible = false;
 		
+		this.button_1.addEventListener("click", one_function.bind(this));
 		
-		this.button_hide.addEventListener("click", Hide_function.bind(this));
-		
-		function Hide_function()
+		function one_function()
 		{
-			this.Item_text.visible = false;
-		}
-		
-		
-		this.button_same.addEventListener("click", Same_function.bind(this));
-		
-		function Same_function()
-		{
+			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "Places with the same names. \n \n For example Sunderland is a city in North East England, but there is also a village called Sunderland in the Lake District.";
+			this.title_text.visible = true;
+			this.Item_text.text = "1. Move to tag area";
 			
 		}
 		
-		this.button_similar.addEventListener("click", Similar_function.bind(this));
+		this.button_2.addEventListener("click", two_function.bind(this));
 		
-		function Similar_function()
+		function two_function()
 		{
+			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "Places with similar sounding names. \n \n For example, Harrow and Jarrow. Harrow is a part of Greater London but Jarrow is a town in North East England.";
+			this.title_text.visible = true;
+			this.Item_text.text = "2. Return to area";
+			
 		}
 		
-		this.button_times.addEventListener("click", Times_function.bind(this));
+		this.button_3.addEventListener("click", three_function.bind(this));
 		
-		function Times_function()
+		function three_function()
 		{
+			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "Confusion over times and dates. \n \n For example, 11.30 could refer to 11.30 am, 11.30 pm, or even the 30th of November.";
+			this.title_text.visible = true;
+			this.Item_text.text = "3. Remove and dispose";
+			
 		}
 		
-		this.button_transport.addEventListener("click", Transport_function.bind(this));
+		this.button_4.addEventListener("click", four_function.bind(this));
 		
-		function Transport_function()
+		function four_function()
 		{
+			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "Confusion over modes of transport. \n\n In an extreme case, a taxi could refer to a car driven taxi, or even a small boat/ferry (as in a water taxi).";
+			this.title_text.visible = true;
+			this.Item_text.text = "4. Store distant to area";
+			
 		}
 		
-		this.button_nights.addEventListener("click", Nights_function.bind(this));
+		this.button_5.addEventListener("click", five_function.bind(this));
 		
-		function Nights_function()
+		function five_function()
 		{
+			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "Confusion over the number of nights of a stay. \n\n For example, 3 days in a b&b could refer to 3 nights' stay or 2 nights and three breakfasts.";
+			this.title_text.visible = true;
+			this.Item_text.text = "5. Other (state)";
+			
 		}
 	}
 
@@ -224,7 +281,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.buttons = new lib.Scene_1_buttons();
 	this.buttons.name = "buttons";
 	this.buttons.parent = this;
-	this.buttons.setTransform(387.9,354.1,1,1,0,0,0,387.9,354.1);
+	this.buttons.setTransform(58.8,267.9,1,1,0,0,0,58.8,267.9);
 	this.buttons.depth = 0;
 	this.buttons.isAttachedToCamera = 0
 	this.buttons.isAttachedToMask = 0
@@ -238,7 +295,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.text = new lib.Scene_1_text();
 	this.text.name = "text";
 	this.text.parent = this;
-	this.text.setTransform(604.6,574.3,1,1,0,0,0,604.6,574.3);
+	this.text.setTransform(395.8,245.8,1,1,0,0,0,395.8,245.8);
 	this.text.depth = 0;
 	this.text.isAttachedToCamera = 0
 	this.text.isAttachedToMask = 0
@@ -248,32 +305,46 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
-	// background_obj_
-	this.background = new lib.Scene_1_background();
-	this.background.name = "background";
-	this.background.parent = this;
-	this.background.setTransform(400,400,1,1,0,0,0,400,400);
-	this.background.depth = 0;
-	this.background.isAttachedToCamera = 0
-	this.background.isAttachedToMask = 0
-	this.background.layerDepth = 0
-	this.background.layerIndex = 2
-	this.background.maskLayerName = 0
+	// text_bg_obj_
+	this.text_bg = new lib.Scene_1_text_bg();
+	this.text_bg.name = "text_bg";
+	this.text_bg.parent = this;
+	this.text_bg.setTransform(397.9,267.2,1,1,0,0,0,397.9,267.2);
+	this.text_bg.depth = 0;
+	this.text_bg.isAttachedToCamera = 0
+	this.text_bg.isAttachedToMask = 0
+	this.text_bg.layerDepth = 0
+	this.text_bg.layerIndex = 2
+	this.text_bg.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.background).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text_bg).wait(1));
+
+	// table_image_obj_
+	this.table_image = new lib.Scene_1_table_image();
+	this.table_image.name = "table_image";
+	this.table_image.parent = this;
+	this.table_image.setTransform(399.9,207.5,1,1,0,0,0,399.9,207.5);
+	this.table_image.depth = 0;
+	this.table_image.isAttachedToCamera = 0
+	this.table_image.isAttachedToMask = 0
+	this.table_image.layerDepth = 0
+	this.table_image.layerIndex = 3
+	this.table_image.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.table_image).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(400,400,400,400);
+p.nominalBounds = new cjs.Rectangle(400,207.5,400,207.60000000000002);
 // library properties:
 lib.properties = {
-	id: '0076B3A425734F8398AF8719A7CB7CA4',
+	id: 'B459E4802A3A47C988A11F6CF58E183B',
 	width: 800,
-	height: 800,
+	height: 415,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"ba_u2_s6_p1_travel_part_a_atlas_.png", id:"ba_u2_s6_p1_travel_part_a_atlas_"}
+		{src:"lm_u2_s2_p3_interactive_redtaglog_atlas_.png", id:"lm_u2_s2_p3_interactive_redtaglog_atlas_"}
 	],
 	preloads: []
 };
@@ -311,7 +382,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['0076B3A425734F8398AF8719A7CB7CA4'] = {
+an.compositions['B459E4802A3A47C988A11F6CF58E183B'] = {
 	getStage: function() { return exportRoot.getStage(); },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
