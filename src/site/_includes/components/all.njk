@@ -98,17 +98,27 @@
   </label>
 {% endmacro %}
 
-{# --- 5. Accordion --- #}
-{# Taken from: https://inclusive-components.design/collapsible-sections/ #}
+{# 
+--- 5. Accordion --- 
 
-{% macro accordion(title='Accordion title', copy='Accordion copy', img, class) %}
+Taken from: https://inclusive-components.design/collapsible-sections/
+
+#}
+
+{% macro accordion(data, env) %}
 
 <toggle-section open="false">
-  {% if img %}
-    {{ media(title=title, copy=copy, img=img) }}
+  {% if data.img %}
+    {{ media2({
+      title: data.title,
+      copy: data.copy,
+      media: {
+        ref: data.img
+      }
+    }, env) }}
   {% else %}
-    <h3>{{ title }}</h3>
-    {{ copy | markdownify | safe }}
+    <h3>{{ data.title }}</h3>
+    {{ data.copy | markdownify | safe }}
   {% endif %}
 </toggle-section>
 {% endmacro %}
@@ -208,7 +218,7 @@
   {# Remove leading slash from object path if there is one #}
   {%- set  mediaObj = "" + data.media.ref -%}
   {%- if mediaObj | first === "/"  %}
-    {% set  mediaObj = mediaObj | replace("/","",1) %}
+    {% set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
   {% endif -%}
 
   {# Detect media type, img/video etc #}
