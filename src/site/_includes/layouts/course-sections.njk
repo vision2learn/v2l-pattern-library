@@ -2,6 +2,25 @@
 layout: layouts/course2
 ---
 
+{# Logic for when on final page of section, unit etc #}
+
+{# 
+  Determine if we're linking to the next session or 
+  the next unit or we're done
+#}
+
+{% set courseData = allcourses[module.data.course] %}
+{% set unitsInCourse = courseData.units.length %}
+{% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
+{% if (module.data.session) < sessionsInUnit %}
+  {% set nextSession = module.data.session + 1 %}
+  {% set nextUnit = module.data.unit %}
+{% else %}
+  {% set nextSession = 1 %}
+  {% set nextUnit = module.data.unit + 1 %}
+{% endif %}
+
 {% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
@@ -97,19 +116,19 @@ layout: layouts/course2
   </section>
 {% else %}
   {% for section in module.data.sections %}
-    {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
-    {% if (not lastPage) and not (section.theme == "i-quiz") %}
-      {% block section %}
+    {% if section.theme == "i-quiz" and lastPage %}
+      {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+    {% else %}
+      
+      {# {% block section %} #}
         <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
         {% if section.include %}
           {% set inc = section.include.type | lower %}
           {% include 'components/' + inc + '.njk' ignore missing %}
         {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
-          {% include 'components/media.njk' ignore missing %}
-
-          {# {% if section.activity %}
-            <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
-          {% endif %} #}
+          {# {% include 'components/media.njk' ignore missing %} #}
+         
+          {{ components.media2(section, module.data) }}
         {% else %}
           <h2>{{ section.title }}</h2> 
           
@@ -125,8 +144,6 @@ layout: layouts/course2
             
             {% if inc %}
               {% include 'components/' + inc + '.njk' %}
-            {% else %}
-              <p><b>FECK: {{ inc }}</b></p>
             {% endif %}
             
           {% endif %}
@@ -136,15 +153,16 @@ layout: layouts/course2
           {% endif %}
 
           {% if section.interactive %}
-            {% include 'components/animate-canvas.html' %}
+            {% include 'components/animate-canvas.njk' %}
           {% endif %}
 
         {% endif %}
         </section>
-      {% endblock section %}
+      
+      {# {% endblock section %} #}
     {% endif %}
   {% endfor %}
-
+  
   {% if lastPage %}
     {% if site.tttSummary %}
       <section class="t-bg-primary3 i-think">
@@ -163,16 +181,19 @@ layout: layouts/course2
       </section>
     {% endif %}
 
-    <section>
-      {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
-      {% set link = link | replace(' ', '-') %}
-      {{ components.media(
-        title="Unit Quiz",
-        copy="Now it’s time to complete the End of Unit Quiz",
-        img="/images/svg/assessment_button.svg",
-        link=link
-      ) }}
-    </section>
+<!-- {{module.data.unit}} and {{unitsInCourse}}... -->
+    {% if module.data.unit === unitsInCourse %}
+      <section>
+        {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
+        {% set link = link | replace(' ', '-') %}
+        {{ components.media(
+          title="Unit Quiz",
+          copy="Now it’s time to complete the End of Unit Quiz",
+          img="/images/svg/assessment_button.svg",
+          link=link
+        ) }}
+      </section>
+    {% endif %}
 
     <section>
       <div class="l-media">
@@ -183,7 +204,7 @@ layout: layouts/course2
           </p>
         </div>
         <a href="" class="l-media__img">
-          <img src="/images/svg/assessment_button.svg" alt="Continue to the next unit">
+          <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/assessment_button.svg" alt="Continue to the next unit">
         </a>
       </div>
     </section>
@@ -197,29 +218,10 @@ layout: layouts/course2
           </p>
         </div>
         <a href="" class="l-media__img">
-          <img src="/images/svg/assessment_video_button.svg" alt="Watch the webinar">
+          <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/assessment_video_button.svg" alt="Watch the webinar">
         </a>
       </div>
     </section>
-
-    {# Logic for when on final page of section, unit etc #}
-
-    {# 
-      Determine if we're linking to the next session or 
-      the next unit or we're done
-    #}
-
-    {% set courseData = allcourses[module.data.course] %}
-    {% set unitsInCourse = courseData.units.length %}
-    {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
-
-    {% if (module.data.session) < sessionsInUnit %}
-      {% set nextSession = module.data.session + 1 %}
-      {% set nextUnit = module.data.unit %}
-    {% else %}
-      {% set nextSession = 1 %}
-      {% set nextUnit = module.data.unit + 1 %}
-    {% endif %}
 
     <section class="t-bg-primary  ">
       <div class="l-media">
@@ -235,7 +237,7 @@ layout: layouts/course2
             </p>
           </div>
           {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
-            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+            <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a> #}
         {% else %}
           <h2 class="l-media__title">Ready to move on?</h2>
@@ -245,7 +247,7 @@ layout: layouts/course2
             </p>
           </div>
           <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
-            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+            <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a>
         {% endif %}
       </div>

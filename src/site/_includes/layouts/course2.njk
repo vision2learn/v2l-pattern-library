@@ -1,6 +1,6 @@
 ---
 layout: layouts/default
-permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber }}/index.html
+permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber + 1}}/index.html
 ---
 
 
@@ -8,7 +8,7 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% import 'components/all.njk' as components %}
 
 <main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ module.data.course }}" data-v2l-level="{{ module.data.level }}" data-v2l-unit="{{ module.data.unit }}" data-v2l-session="{{ module.data.session }}" data-v2l-page="{{ pagination.pageNumber }}">
-  
+
   {% include 'banner.njk' %} 
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
   
@@ -16,9 +16,6 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
     {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
-  <!-- module.templateContent --> 
-  {# {{ module.templateContent }} #}
-  <!-- Content -->
   {{ content | safe }}
 
   {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
@@ -27,36 +24,32 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
       {% include "course-features.njk" %}
     </section>
     <section class="t-bg-primary">
-      {{ components.media(
-          title="Submitting Assessments",
-          copy="Once you’ve completed all Assessment questions in a Unit, you will need to send your completed Assessment to your tutor. Watch this video to see how.",
-          layout="media-half",
-          video="Submitting_Assessment_Recording.mp4"
+      {{ components.media2({
+            title: "Submitting Assessments",
+            copy: "Once you’ve completed all Assessment questions in a Unit, you will need to send your completed Assessment to your tutor. Watch this video to see how.",
+            layout: "media-half",
+            video: "Submitting_Assessment_Recording.mp4"
+          },
+          module.data
       ) }}
     </section>
     <section class="t-bg-primary">
-      {{ components.media(
-          title="Time to Think",
-          copy="Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          layout="media-half",
-          video="time-to-think.mp4"
+      {{ components.media2({
+            title: "Time to Think",
+            copy: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            layout: "media-half",
+            video: "time-to-think.mp4"
+          },
+          module.data
       ) }}
     </section>
   {%- endif -%}
 
 </main>
 
-{# 
-<aside hidden>
-  {% include 'using-the-site.liquid' %}
-  {% include 'course-nav.liquid' %}
-</aside> 
-#}
-
-{# {% include 'pagination.liquid', class: "t-bg-secondary1" %} #}
 {{ components.pagination(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
 <footer>
   <small>
-    &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
+    &copy; Copyright Creating Careers Limited, 2019. All rights reserved (Env: {{ module.data.buildenv }}). 
   </small>
 </footer>

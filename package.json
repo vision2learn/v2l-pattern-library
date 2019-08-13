@@ -23,7 +23,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.7 || ^0.8",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "concurrent-transform": "^1.0.0",
     "dotenv": "^6.2.0",
     "gulp": "^4.0.0",
