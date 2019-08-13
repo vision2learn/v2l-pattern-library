@@ -127,7 +127,8 @@
 .c-quiz {
   color: #fff;
   font-size: 1.5em;
-  margin-top: calc($flow * 1rem);
+  margin-top: calc(1.5 * 1rem);
+  // TODO: Sass vars in calc() don't work?
 
   &.js-form-error {
     border-left: solid 5px #fa0;

@@ -9,39 +9,40 @@
     margin-right: 1em;
   }
 }
-
+// data:image/svg+xml;charset=UTF-8,<svg ...> ... </svg>
 .i-quiz h2::before {
-  content: url(/images/svg/course-features/quiz.svg);
+  // content: url(/images/svg/course-features/quiz.svg);
+  content: url("data:image/svg+xml;base64,#{$quiz}")
 }
 
 .i-on-web h2::before {
-  content: url(/images/svg/course-features/web.svg);
+  content: url("data:image/svg+xml;base64,#{$web}");
 }
 
 .i-summary h2::before {
-  content: url(/images/svg/course-features/summary.svg);
+  content: url("data:image/svg+xml;base64,#{$summary}");
 }
 
 .i-stretch h2::before {
-  content: url(/images/svg/course-features/stretch.svg);
+  content: url("data:image/svg+xml;base64,#{$stretch}");
 }
 
 .i-keypoint h2::before {
-  content: url(/images/svg/course-features/keypoint.svg);
+  content: url("data:image/svg+xml;base64,#{$keypoint}");
 }
 
 .i-think h2::before {
-  content: url(/images/svg/course-features/think.svg);
+  content: url("data:image/svg+xml;base64,#{$think}");
 }
 
 .i-read h2::before {
-  content: url(/images/svg/course-features/read.svg);
+  content: url("data:image/svg+xml;base64,#{$read}");
 }
 
 .i-watch h2::before {
-  content: url(/images/svg/course-features/watch.svg);
+  content: url("data:image/svg+xml;base64,#{$watch}");
 }
 
 .i-case-study h2::before {
-  content: url(/images/svg/course-features/casestudy.svg);
+  content: url("data:image/svg+xml;base64,#{$case-study}");
 }

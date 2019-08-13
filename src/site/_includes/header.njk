@@ -18,7 +18,7 @@
     
     <ul class="c-main-head__sessions" aria-label="sessions in unit {{ module.data.unit | d('X') }}">
       {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions -%}
-        <li><a href="/courses/{{ module.data.course | lower | replace(' ', '-') }}/unit-{{ module.data.unit}}/session-{{ loop.index }}/0/" {% if loop.index == module.data.session %} aria-current="step" {% endif %}>Session {{ loop.index }}</a></li>
+        <li><a href="/courses/{{ module.data.course | lower | replace(' ', '-') }}/unit-{{ module.data.unit}}/session-{{ loop.index }}/1/" {% if loop.index == module.data.session %} aria-current="step" {% endif %}>Session {{ loop.index }}</a></li>
       {%- endfor -%}
     </ul>
   </div>
