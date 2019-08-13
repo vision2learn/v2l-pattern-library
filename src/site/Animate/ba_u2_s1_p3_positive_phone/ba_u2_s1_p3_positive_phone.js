@@ -267,7 +267,7 @@ p.nominalBounds = new cjs.Rectangle(-45.9,-36.7,91.9,65.80000000000001);
 
 // stage content:
 (lib.ba_u2_s1_p3_positive_phone = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
 		var depth = obj.depth;
@@ -524,7 +524,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ba_u2_s1_p3_positive_phone_atlas_.png?1563205281531", id:"ba_u2_s1_p3_positive_phone_atlas_"}
+		{src:"ba_u2_s1_p3_positive_phone_atlas_.png", id:"ba_u2_s1_p3_positive_phone_atlas_"}
 	],
 	preloads: []
 };

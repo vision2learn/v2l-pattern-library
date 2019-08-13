@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ba_u2_s6_p1_travel_part_b_atlas_", frames: [[1209,806,352,452],[1609,0,401,401],[803,403,401,401],[1206,0,401,401],[803,0,401,401],[1609,403,401,401],[1206,403,401,401],[0,803,401,401],[403,806,401,401],[806,806,401,401],[0,0,801,801]]}
+		{name:"ba_u2_s6_p1_travel_part_b_atlas_", frames: [[1209,806,352,452],[1609,0,401,401],[1609,403,401,401],[0,803,401,401],[403,806,401,401],[806,806,401,401],[803,0,401,401],[1206,0,401,401],[1206,403,401,401],[803,403,401,401],[0,0,801,801]]}
 ];
 
 
@@ -816,7 +816,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ba_u2_s6_p1_travel_part_b_atlas_.png?1563477488463", id:"ba_u2_s6_p1_travel_part_b_atlas_"}
+		{src:"ba_u2_s6_p1_travel_part_b_atlas_.png", id:"ba_u2_s6_p1_travel_part_b_atlas_"}
 	],
 	preloads: []
 };

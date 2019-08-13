@@ -273,7 +273,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ba_u2_s6_p1_travel_part_a_atlas_.png?1563414053680", id:"ba_u2_s6_p1_travel_part_a_atlas_"}
+		{src:"ba_u2_s6_p1_travel_part_a_atlas_.png", id:"ba_u2_s6_p1_travel_part_a_atlas_"}
 	],
 	preloads: []
 };
