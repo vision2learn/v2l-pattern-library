@@ -1,10 +1,11 @@
 ---
 layout: layouts/course2
 ---
-
-{# Logic for when on final page of section, unit etc #}
+{% import "components/all.njk" as components %}
 
 {# 
+  Logic for when on final page of section, unit etc
+
   Determine if we're linking to the next session or 
   the next unit or we're done
 #}
@@ -21,7 +22,6 @@ layout: layouts/course2
   {% set nextUnit = module.data.unit + 1 %}
 {% endif %}
 
-{% import "components/all.njk" as components %}
 {% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
 {% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
@@ -118,17 +118,22 @@ layout: layouts/course2
   {% for section in module.data.sections %}
     {% if section.theme == "i-quiz" and lastPage %}
       {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+    {% elseif section.title === "" %}
+      <!-- No section data -->
     {% else %}
-      
-      {# {% block section %} #}
         <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
         {% if section.include %}
           {% set inc = section.include.type | lower %}
           {% include 'components/' + inc + '.njk' ignore missing %}
         {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
-          {# {% include 'components/media.njk' ignore missing %} #}
-         
-          {{ components.media2(section, module.data) }}
+          {{ components.media2({
+              title: section.title,
+              copy: section.copy,
+              layout: section.layout,
+              media: {
+                ref: section.img
+              }
+            }, module.data.buildenv) }}
         {% else %}
           <h2>{{ section.title }}</h2> 
           
@@ -186,71 +191,66 @@ layout: layouts/course2
       <section>
         {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
         {% set link = link | replace(' ', '-') %}
-        {{ components.media(
-          title="Unit Quiz",
-          copy="Now it’s time to complete the End of Unit Quiz",
-          img="/images/svg/assessment_button.svg",
-          link=link
+        {{ components.media2({
+            title: "Unit Quiz",
+            copy: "Now it’s time to complete the End of Unit Quiz",
+            media: {
+              ref: "assessment_button.svg",
+              link: link
+            }
+          },
+          site.env
         ) }}
       </section>
     {% endif %}
 
     <section>
-      <div class="l-media">
-        <h2 class="l-media__title">Unit assessment</h2>
-        <div class="l-media__body">
-          <p>
-            Now it’s time to complete Part {{ module.data.session }} of your Unit {{ module.data.unit }} Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.
-          </p>
-        </div>
-        <a href="" class="l-media__img">
-          <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/assessment_button.svg" alt="Continue to the next unit">
-        </a>
-      </div>
+      {{ components.media2({
+            title: "Unit assessment",
+            copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
+            media: {
+              ref: "assessment_button.svg",
+              link: "#"
+            }
+          },
+          site.env
+        ) }}
     </section>
 
     <section class="t-bg-primary2">
-      <div class="l-media">
-        <h2 class="l-media__title">Watch the webinar</h2>
-        <div class="l-media__body">
-          <p>
-            <strong><i>Coming soon...</i></strong>
-          </p>
-        </div>
-        <a href="" class="l-media__img">
-          <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/assessment_video_button.svg" alt="Watch the webinar">
-        </a>
-      </div>
+      {{ components.media2({
+            title: "Watch the webinar",
+            copy: "**Coming soon...**",
+            media: {
+              ref: "assessment_video_button.svg",
+              link: "#"
+            }
+          },
+          site.env
+        ) }}
     </section>
 
-    <section class="t-bg-primary  ">
-      <div class="l-media">
-        
-        <!-- {{module.data.unit}}/{{ unitsInCourse }} {{ module.data.session }}/{{ sessionsInUnit }}-->
-
-        {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
-          {# We're done! #}
-          <h2 class="l-media__title">Congratulations!</h2>
-          <div class="l-media__body">
-            <p>
-              You've reached the end of this course.
-            </p>
-          </div>
-          {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
-            <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
-          </a> #}
-        {% else %}
-          <h2 class="l-media__title">Ready to move on?</h2>
-          <div class="l-media__body">
-            <p>
-              Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.
-            </p>
-          </div>
-          <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
-            <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
-          </a>
-        {% endif %}
-      </div>
+    <section class="t-bg-primary">
+      {# We're done! #}
+      {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
+        <h2>Congratulations!</h2>
+        <p>
+          You've reached the end of this course.
+        </p>
+      {% else %}
+        {% set link = "/courses/" + module.data.course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
+        {% set link = link | replace(' ', '-') %}
+        {{ components.media2({
+            title: "Ready to move on?",
+            copy: "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.",
+            media: {
+              ref: "next_button.svg",
+              link: link
+            }
+          },
+          site.env
+        ) }}
+      {% endif %}
     </section>
   {% endif %}
 {% endif %}
