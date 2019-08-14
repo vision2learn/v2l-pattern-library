@@ -1,17 +1,17 @@
 <h2>Units in this course:</h2>
 <ol>
-  {%- for unit in units -%}
-    <li {% if unit.title == unit-title %} aria-current="page" {% endif %}>
+  {%- for unit in units %}
+    <li {%- if unit.title == unit-title %} aria-current="page" {%- endif %}>
       <details>
         <summary>
           {{ unit.title | capitalize }} (<i>{{ unit.sessions.length }} Sessions</i>)
         </summary>
         <ol>
-          {%- for session in unit.sessions -%}
+          {%- for session in unit.sessions %}
             <li>{{ session | capitalize }}</li>
-          {%- endfor -%}
+          {%- endfor %}
         </ol>
       </details>
     </li>
-  {%- endfor -%}
+  {%- endfor %}
 </ol>

@@ -1,19 +1,19 @@
 ---
 permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Session0{{ module.data.session }}/Page{{ pagination.pageNumber + 1 }}.cshtml
 ---
-{%- import 'components/all.njk' as components -%}
-{% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
+{%- import 'components/all.njk' as components %}
+{%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
-  {% include 'banner.njk' %} 
+  {%- include 'banner.njk' %} 
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
   
-  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
-    {%- include 'components/unit-overview-tabs.njk' -%}
-  {%- endif -%}
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
+    {%- include 'components/unit-overview-tabs.njk' %}
+  {%- endif %}
   
   {# Start #}
 
-  {% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+  {%- if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   <section>      
     <h2>Your learning goals</h2>
     
@@ -23,16 +23,16 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
     
     <h3>The learner will:</h3>
     <ol>
-      {% for goal in allcourses[module.data.course].goals.will %}
+      {%- for goal in allcourses[module.data.course].goals.will %}
         <li>{{ goal }}</li>
-      {% endfor %}
+      {%- endfor %}
     </ol>
 
     <h3>The learner can:</h3>
     <ol>
-      {% for goal in allcourses[module.data.course].goals.can %}
+      {%- for goal in allcourses[module.data.course].goals.can %}
         <li>{{ goal }}</li>
-      {% endfor %}
+      {%- endfor %}
     </ol>
   </section>
 
@@ -54,11 +54,11 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
     
     <div class="tabbed ">
       <ul class="l-btn-group t-bg-primary">
-        {%- for i in range(1, 4) -%}
+        {%- for i in range(1, 4) %}
           <li>
             {{ components.unitOverviewBtn(i) }}
           </li>
-        {%- endfor -%}
+        {%- endfor %}
       </ul>
 
       <section id="section1">
@@ -103,50 +103,50 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
   <section class="t-bg-primary">      
     <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
   </section>
-{% else %}
-  {% for section in module.data.sections %}
-    {% if (not lastPage) and not (section.theme == "i-quiz") %}
-    {% block section %}
-      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
-      {% if section.include %}
-        {% set inc = section.include.type | lower %}
-        {% include 'components/' + inc + '.njk' ignore missing %}
-      {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
-        {% include 'components/media.njk' ignore missing %}
-      {% else %}
+{%- else %}
+  {%- for section in module.data.sections %}
+    {%- if (not lastPage) and not (section.theme == "i-quiz") %}
+    {%- block section %}
+      <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
+      {%- if section.include %}
+        {%- set inc = section.include.type | lower %}
+        {%- include 'components/' + inc + '.njk' ignore missing %}
+      {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+        {%- include 'components/media.njk' ignore missing %}
+      {%- else %}
         <h2>{{ section.title }}</h2> 
         
-        {% if section.copy %}
+        {%- if section.copy %}
           {{ section.copy | markdownify | safe }}
-        {% endif %}
+        {%- endif %}
         
-        {% if section.subInc %}
+        {%- if section.subInc %}
           {# Is this a basic or more complex include type? #}
-          {# {% set inc = section.subInc %} #}
+          {# {%- set inc = section.subInc %} #}
 
-          {% set inc = section.subInc.type | lower %}
+          {%- set inc = section.subInc.type | lower %}
           
-          {% if inc %}
-            {% include 'components/' + inc + '.njk' %}
-          {% endif %}
+          {%- if inc %}
+            {%- include 'components/' + inc + '.njk' %}
+          {%- endif %}
           
-        {% endif %}
+        {%- endif %}
 
-        {% if section.copy2 %}
+        {%- if section.copy2 %}
           {{ section.copy2 | markdownify | safe }}
-        {% endif %}
+        {%- endif %}
 
-        {% if section.interactive %}
-          {% include 'components/animate-canvas.njk' %}
-        {% endif %}
+        {%- if section.interactive %}
+          {%- include 'components/animate-canvas.njk' %}
+        {%- endif %}
 
-      {% endif %}
+      {%- endif %}
       </section>
-    {% endblock section %}
-    {% endif %}
-  {% endfor %}
+    {%- endblock section %}
+    {%- endif %}
+  {%- endfor %}
 
-  {% if lastPage %}
+  {%- if lastPage %}
 
     {# <section class="t-bg-primary3 i-think">
       <div class="l-media l-media--half">
@@ -164,8 +164,8 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
     </section> #}
 
     <section>
-      {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
-      {% set link = link | replace(' ', '-') %}
+      {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
+      {%- set link = link | replace(' ', '-') %}
       {{ components.media(
         title="Unit Quiz",
         copy="Now it’s time to complete the End of Unit Quiz",
@@ -209,24 +209,24 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
       the next unit or we're done
     #}
 
-    {% set courseData = allcourses[module.data.course] %}
-    {% set unitsInCourse = courseData.units.length %}
-    {% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+    {%- set courseData = allcourses[module.data.course] %}
+    {%- set unitsInCourse = courseData.units.length %}
+    {%- set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
 
-    {% if (module.data.session) < sessionsInUnit %}
-      {% set nextSession = module.data.session + 1 %}
-      {% set nextUnit = module.data.unit %}
-    {% else %}
-      {% set nextSession = 1 %}
-      {% set nextUnit = module.data.unit + 1 %}
-    {% endif %}
+    {%- if (module.data.session) < sessionsInUnit %}
+      {%- set nextSession = module.data.session + 1 %}
+      {%- set nextUnit = module.data.unit %}
+    {%- else %}
+      {%- set nextSession = 1 %}
+      {%- set nextUnit = module.data.unit + 1 %}
+    {%- endif %}
 
     <section class="t-bg-primary  ">
       <div class="l-media">
         
         <!-- {{module.data.unit}}/{{ unitsInCourse }} {{ module.data.session }}/{{ sessionsInUnit }}-->
 
-        {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
+        {%- if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
           {# We're done! #}
           <h2 class="l-media__title">Congratulations!</h2>
           <div class="l-media__body">
@@ -237,7 +237,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
             <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a> #}
-        {% else %}
+        {%- else %}
 
 
 
@@ -250,17 +250,17 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           <a href="~/{{ nextUnit }}/{{ nextSession }}/1" class="l-media__img">
             <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a>
-        {% endif %}
+        {%- endif %}
       </div>
     </section>
-  {% endif %}
-{% endif %}
+  {%- endif %}
+{%- endif %}
 
   {# End #}
-  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
     <section>
       <h2>Course features</h2>
-      {% include "course-features.njk" %}
+      {%- include "course-features.njk" %}
     </section>
     <section class="t-bg-primary">
       {{ components.media(
@@ -278,4 +278,4 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           video="time-to-think.mp4"
       ) }}
     </section>
-  {%- endif -%}
+  {%- endif %}

@@ -2,8 +2,8 @@
 layout: layouts/default
 permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber + 1}}/index.html
 ---
-{% import 'components/all.njk' as components %}
-{% include 'header.njk' %}
+{%- import 'components/all.njk' as components %}
+{%- include 'header.njk' %}
 
 <main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ module.data.course }}" data-v2l-level="{{ module.data.level }}" data-v2l-unit="{{ module.data.unit }}" data-v2l-session="{{ module.data.session }}" data-v2l-page="{{ pagination.pageNumber }}">
   {{ content | safe }}

@@ -1,19 +1,19 @@
-{% if section %}
-  {% set slideData = section.subInc.slides %}
-{% else %}
-  {% set slideData = components.slider.slides %}
-{% endif %}
+{%- if section %}
+  {%- set slideData = section.subInc.slides %}
+{%- else %}
+  {%- set slideData = components.slider.slides %}
+{%- endif %}
 
-{% import "components/all.njk" as components %}
+{%- import "components/all.njk" as components %}
 
 <div class="gallery-container">
   <div role="group" class="gallery no-js">
     <ul>
-      {%- for slide in slideData -%}
+      {%- for slide in slideData %}
         <li role="listitem" data-img="{{ module.data.buildenv }}/{{ site.env }}">
           {{ components.slideItem(slide, module.data.buildenv) }}
         </li>
-      {%- endfor -%}
+      {%- endfor %}
     </ul>
   </div>
 </div>
