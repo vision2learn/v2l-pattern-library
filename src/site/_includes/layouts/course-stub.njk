@@ -11,7 +11,6 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
     {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
-  {# {{ content | safe }} #}
   {# Start #}
 
   {% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
@@ -114,10 +113,6 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
         {% include 'components/' + inc + '.njk' ignore missing %}
       {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
         {% include 'components/media.njk' ignore missing %}
-
-        {# {% if section.activity %}
-          <iframe class="c-activity" id="{{ section.activity }}" src="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ section.activity }}/">
-        {% endif %} #}
       {% else %}
         <h2>{{ section.title }}</h2> 
         
@@ -133,8 +128,6 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           
           {% if inc %}
             {% include 'components/' + inc + '.njk' %}
-          {% else %}
-            <p><b>FECK: {{ inc }}</b></p>
           {% endif %}
           
         {% endif %}
@@ -144,7 +137,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
         {% endif %}
 
         {% if section.interactive %}
-          {% include 'components/animate-canvas.html' %}
+          {% include 'components/animate-canvas.njk' %}
         {% endif %}
 
       {% endif %}
@@ -190,7 +183,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           </p>
         </div>
         <a href="~/{{ module.data.unit }}/assessment" class="l-media__img">
-          <img src="/images/svg/assessment_button.svg" alt="Continue to the next unit">
+          <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/assessment_button.svg" alt="Continue to the next unit">
         </a>
       </div>
     </section>
@@ -204,7 +197,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
           </p>
         </div>
         <a href="" class="l-media__img">
-          <img src="/images/svg/assessment_video_button.svg" alt="Watch the webinar">
+          <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/assessment_video_button.svg" alt="Watch the webinar">
         </a>
       </div>
     </section>
@@ -242,7 +235,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
             </p>
           </div>
           {# <a href="/courses/{{module.data.course | replace(' ', '-')}}/unit-{{ nextUnit }}/session-{{ nextSession }}/0" class="l-media__img">
-            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+            <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a> #}
         {% else %}
 
@@ -255,7 +248,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
             </p>
           </div>
           <a href="~/{{ nextUnit }}/{{ nextSession }}/1" class="l-media__img">
-            <img src="/images/svg/next_button.svg" alt="Continue to the next unit">
+            <img src="{{ '~' if site.env === 'dotnet' }}/images/svg/next_button.svg" alt="Continue to the next unit">
           </a>
         {% endif %}
       </div>

@@ -2,7 +2,7 @@
 
 {% macro reveal(heading='reveal title', copy='reveal copy', image) %}
   <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="/images/svg/{{ image | lower }}" alt="">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if site.env === 'dotnet' }}/images/svg/{{ image | lower }}" alt="">
     {# TODO: Fix this horrible, dirty, nasty hack #}
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ heading }}</h3>

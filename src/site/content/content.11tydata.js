@@ -1,8 +1,9 @@
 module.exports = function() {
-  let layout = (process.env.ELEVENTY_ENV === 'dotnet') ? 'course-stub' : 'course-sections';
+  let layout = (process.env.ELEVENTY_ENV === 'dotnet') ? 'course-stub' : 'course2';
 
   return {
-    "date": "2019-01-01",
-    "layout": "layouts/" + layout
+    date: "2019-01-01",
+    buildenv: process.env.ELEVENTY_ENV,
+    layout: "layouts/course2"
   }
 };
