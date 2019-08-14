@@ -3,33 +3,33 @@ layout: layouts/longform.liquid
 ---
 <style>
 body {
-  color: white;
+  color: darkgrey;
 }
 </style>
-{% comment %} 
+{%- comment %} 
 <h2>Components.</h2>
 <ul>
-  {%- for item in collections.docs -%}
+  {%- for item in collections.docs %}
     <li>
-      <a href="{{ item.url }}" {%- if item.data.core -%}data-v2l-patterngroup="core"{%- endif -%}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
+      <a href="{{ item.url }}" {%- if item.data.core %}data-v2l-patterngroup="core"{%- endif %}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
     </li>
-  {%- endfor -%}
-</ul> {% endcomment %}
+  {%- endfor %}
+</ul> {%- endcomment %}
 
-{%- assign ids = "ln-l2-u1-s1, ln-l2-u1-s2, ln-l2-u1-s3, ln-l2-u2-s1, ln-l2-u2-s2, ln-l2-u2-s3, ln-l2-u2-s4, ln-l2-u3-s1, ln-l2-u3-s2, ln-l2-u3-s3, ba-l2-u1-s1, ba-l2-u1-s2, ba-l2-u1-s3, ba-l2-u1-s4, ba-l2-u1-s5, ba-l2-u1-s6, ba-l2-u1-s7, ba-l2-u2-s1, ba-l2-u2-s2, ba-l2-u2-s3, ba-l2-u2-s4, ba-l2-u2-s5, ba-l2-u2-s6, ba-l2-u2-s7, ba-l2-u2-s8, ba-l2-u2-s9, ba-l2-u3-s1, ba-l2-u3-s2, ba-l2-u3-s3, ba-l2-u3-s4" | split: ', '-%}
+{%- assign ids = "ln-l2-u1-s1, ln-l2-u1-s2, ln-l2-u1-s3, ln-l2-u2-s1, ln-l2-u2-s2, ln-l2-u2-s3, ln-l2-u2-s4, ln-l2-u3-s1, ln-l2-u3-s2, ln-l2-u3-s3, ba-l2-u1-s1, ba-l2-u1-s2, ba-l2-u1-s3, ba-l2-u1-s4, ba-l2-u1-s5, ba-l2-u1-s6, ba-l2-u1-s7, ba-l2-u2-s1, ba-l2-u2-s2, ba-l2-u2-s3, ba-l2-u2-s4, ba-l2-u2-s5, ba-l2-u2-s6, ba-l2-u2-s7, ba-l2-u2-s8, ba-l2-u2-s9, ba-l2-u3-s1, ba-l2-u3-s2, ba-l2-u3-s3, ba-l2-u3-s4" | split: ', '%}
 
-{%- for id in ids -%}
-  {%- include 'logic-pagination', mod: id -%}
+{%- for id in ids %}
+  {%- include 'logic-pagination', mod: id %}
   <h2>{{ id }}</h2>
   <ol>
-    {%- for item in collections[id] -%}
+    {%- for item in collections[id] %}
       <li>
         <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
       </li>
-    {%- endfor -%}
+    {%- endfor %}
   </ol>  
 
-{%- endfor -%}
+{%- endfor %}
 
 <p>
   <small>Site updated: {{ "now" | date: "%A, %d %B %Y %H:%M" }}</small>

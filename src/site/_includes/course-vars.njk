@@ -3,22 +3,22 @@
   moduleData is the pagination object (from calling file, course.liquid), so moduleData is the data object for each specific page in the collection
 #}
 
-{% macro getUnit(moduleData, courseData) %}
+{%- macro getUnit(moduleData, courseData) %}
   {{ courseData.units[moduleData.unit - 1].title }}
-{% endmacro %}
+{%- endmacro %}
 
-{% macro getSessionSize(moduleData, courseData) %}
-  {% set size = 0 %}
-  {% for session, breakdown in courseData.units[moduleData.unit - 1].sessions %}
-    {% set size = loop.length %}
-  {% endfor %}
+{%- macro getSessionSize(moduleData, courseData) %}
+  {%- set size = 0 %}
+  {%- for session, breakdown in courseData.units[moduleData.unit - 1].sessions %}
+    {%- set size = loop.length %}
+  {%- endfor %}
   {{ size }}
-{% endmacro %}
+{%- endmacro %}
 
-{% macro getSessionName(moduleData, courseData) %}
-  {% for session, breakdown in courseData.units[moduleData.unit - 1].sessions %}
-    {% if loop.index == moduleData.session %}
+{%- macro getSessionName(moduleData, courseData) %}
+  {%- for session, breakdown in courseData.units[moduleData.unit - 1].sessions %}
+    {%- if loop.index == moduleData.session %}
       {{ session }}
-    {% endif %}
-  {% endfor %}
-{% endmacro %} 
+    {%- endif %}
+  {%- endfor %}
+{%- endmacro %} 

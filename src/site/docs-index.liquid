@@ -4,16 +4,16 @@ title: All components
 permalink: /documentation/
 ---
 
-{% comment %} <h1>Vision2Learn Pattern Library</h1>
+{%- comment %} <h1>Vision2Learn Pattern Library</h1>
 
 <h2>Components</h2>
 
 <nav>
   <ul>
-    {%- for item in collections.docs -%}
+    {%- for item in collections.docs %}
       <li>
-        <a href="{{ item.url }}" {%- if item.data.core -%}data-v2l-patterngroup="core"{%- endif -%}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
+        <a href="{{ item.url }}" {%- if item.data.core %}data-v2l-patterngroup="core"{%- endif %}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
       </li>
-    {%- endfor -%}
+    {%- endfor %}
   </ul>
-</nav> {% endcomment %}
+</nav> {%- endcomment %}

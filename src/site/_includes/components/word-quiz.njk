@@ -1,53 +1,53 @@
-{% if section.include %}
-  {%- set sentences = section.include.content -%}
-{% elseif section.subInc %}
-  {%- set sentences = section.subInc.content -%}
-{% else %}
-  {%- set sentences = defaultdata.wordQuiz.sentences -%}
-{% endif %}
+{%- if section.include %}
+  {%- set sentences = section.include.content %}
+{%- elseif section.subInc %}
+  {%- set sentences = section.subInc.content %}
+{%- else %}
+  {%- set sentences = defaultdata.wordQuiz.sentences %}
+{%- endif %}
 
 
 {#  Build answers list  #}
-{% set answerList = [] %}
+{%- set answerList = [] %}
 
-{%- for answer, question in sentences | groupby('answer') -%}
-  {% set x = answerList.push(answer.toLowerCase()) %}
-{%- endfor -%}
+{%- for answer, question in sentences | groupby('answer') %}
+  {%- set x = answerList.push(answer.toLowerCase()) %}
+{%- endfor %}
 
-{% set answerList = answerList | sort %}
+{%- set answerList = answerList | sort %}
 
 {# Build options #}
-{% set options %}
+{%- set options %}
   <option>---</option>
   {%- for answer in answerList %}
     <option value='{{ loop.index0 }}'>{{ answer | upper }}</option>
-  {% endfor -%}
-{% endset %}
+  {%- endfor %}
+{%- endset %}
 
 <p>Add the correct words from the word bank and into the following sentences:</p>
 
 <h3>Word Bank</h3>
   <ul>
-    {%- for answer in answerList | sort -%}
+    {%- for answer in answerList | sort %}
       <li>{{ answer | upper }}</li>
-    {%- endfor -%}
+    {%- endfor %}
   </ul>
 
 {# TODO: identify correct answer for each question #}
 <form class="c-wordbank">
   <ol class="c-wordbank__questions">
-    {%- for item in sentences -%}
-      {% set word = item.answer | lower %}
-      {% set answerIndex = answerList.indexOf(word) %}
+    {%- for item in sentences %}
+      {%- set word = item.answer | lower %}
+      {%- set answerIndex = answerList.indexOf(word) %}
 
-      {%- set id = 'q' + loop.index -%}
-      {% set dropdown %}
+      {%- set id = 'q' + loop.index %}
+      {%- set dropdown %}
         <select id="{{ id }}" name="{{ id }}" data-v2l-ai="{{ answerIndex }}" class="c-wordbank__options">
           {{ options | safe }}
         </select>
-      {% endset %}
+      {%- endset %}
 
-      {%- set sentence = item.sentence | replace(item.answer, dropdown) | safe -%}
+      {%- set sentence = item.sentence | replace(item.answer, dropdown) | safe %}
       
       <li data-v2l-q="{{ loop.index }}">
         <label class="visually-hidden" for="{{ id }}">Select the correct word for question {{ loop.index }}</label>
@@ -55,7 +55,7 @@
           {{ sentence }}
         </p>
       </li>
-    {%- endfor -%}
+    {%- endfor %}
   </ol>
 </form>
 

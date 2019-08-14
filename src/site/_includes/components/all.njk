@@ -14,89 +14,89 @@
 
 {# --- 1. Pagination--- #}
 
-{% macro pagination(class, pagination, page) %}
-  <nav {% if class %}class="{{ class }}"{% endif %}>
+{%- macro pagination(class, pagination, page) %}
+  <nav {%- if class %}class="{{ class }}"{%- endif %}>
     <ol aria-label="Pages in this session" role="list" class="c-pagination">
-      {%- if pagination.previousPageHref -%}
+      {%- if pagination.previousPageHref %}
         <li class="c-pagination__prev" role="listitem">
           <a href="{{ pagination.previousPageHref }}">
             <i class="visually-hidden">Previous Page</i>
             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>  
         </li>
-      {%- endif -%}
+      {%- endif %}
 
       <!-- TODO: Re-order visually with CSS -->
-      {%- if pagination.nextPageHref -%}
+      {%- if pagination.nextPageHref %}
         <li class="c-pagination__next" role="listitem">
           <a href="{{ pagination.nextPageHref }}">
             <i class="visually-hidden">Next Page</i>
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>
         </li>
-      {%- endif -%}
+      {%- endif %}
 
-      {%- for href in pagination.hrefs -%}
+      {%- for href in pagination.hrefs %}
         <!-- TODO: Review component with VoiceOver -->
         <li role="listitem">
-          <a href="{{ href }}" {% if page.url == href %}aria-current="page"{% endif %}>{{ loop.index }}</a>
+          <a href="{{ href }}" {%- if page.url == href %}aria-current="page"{%- endif %}>{{ loop.index }}</a>
         </li>
-      {%- endfor -%}
+      {%- endfor %}
     </ol>
   </nav>
 
-{% endmacro %}
+{%- endmacro %}
 
 {# --- 2. Responsive Images--- #}
 
-{% macro img(file, class, alt, type) %}
+{%- macro img(file, class, alt, type) %}
   {# These widths mirror those set in the images.js gulp task #}
-  {% set widths = [400, 600, 800, 1000, 2000] %}
+  {%- set widths = [400, 600, 800, 1000, 2000] %}
   
   {# Set basepath to image folder #}
   {# TODO: Alter value based on type var #}
-  {# {% set basepath = "/images/" %} #}
+  {# {%- set basepath = "/images/" %} #}
 
   {# split name and extension from filename #}
-  {% set basefile = file.split('.') %}
+  {%- set basefile = file.split('.') %}
 
   {# Use the file name and widths to build up the srcset attribute #}
-  {%- set srcset -%}
-    {%- set comma = joiner() -%}
-    {%- for width in widths -%}
+  {%- set srcset %}
+    {%- set comma = joiner() %}
+    {%- for width in widths %}
       {{ comma() }} {{ basefile[0] + "-" + width + "." + basefile[1] | lower }} {{ width + "w"}}
-    {%- endfor -%}
-  {%- endset -%}
+    {%- endfor %}
+  {%- endset %}
 
     <img alt=""
-      {% if class %} class="{{ class }}" {% endif %}
+      {%- if class %} class="{{ class }}" {%- endif %}
       srcset="{{ srcset | trim }}"
       sizes="100vw"
       src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}" alt="{{ alt }}'>
-{% endmacro %}
+{%- endmacro %}
 
 {# --- 3. Unit Overview Buttons--- #}
-{% macro unitOverviewBtn(num) %}
+{%- macro unitOverviewBtn(num) %}
 <a class="c-unit-btn" href="#section{{ num }}">
   <span>
     {{ num }}
   </span>
 </a>
-{% endmacro %}
+{%- endmacro %}
 
 {# --- 4. Quick Quiz --- #}
 
-{% macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
+{%- macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
   <input type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}">
   <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}" >
-    {% if answer == "true" or answer == "false" %}
+    {%- if answer == "true" or answer == "false" %}
       {{ answer | capitalize }}
-    {% else %}
+    {%- else %}
       {{ answer }}
-    {% endif %}
+    {%- endif %}
     
   </label>
-{% endmacro %}
+{%- endmacro %}
 
 {# 
 --- 5. Accordion --- 
@@ -105,10 +105,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 #}
 
-{% macro accordion(data, env) %}
+{%- macro accordion(data, env) %}
 
 <toggle-section open="false">
-  {% if data.img %}
+  {%- if data.img %}
     {{ media2({
       title: data.title,
       copy: data.copy,
@@ -116,45 +116,45 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         ref: data.img
       }
     }, env) }}
-  {% else %}
+  {%- else %}
     <h3>{{ data.title }}</h3>
     {{ data.copy | markdownify | safe }}
-  {% endif %}
+  {%- endif %}
 </toggle-section>
-{% endmacro %}
+{%- endmacro %}
 
 {# --- 6. Banner --- #}
 
-{% macro banner(title="Banner title", copy="Banner copy", image="PLACEHOLDER.jpg", unit=1, session=1, pageNo=1, lastpage=false, sessionMap) %}
-  {% from "components/all.njk" import img as srcset %}
+{%- macro banner(title="Banner title", copy="Banner copy", image="PLACEHOLDER.jpg", unit=1, session=1, pageNo=1, lastpage=false, sessionMap) %}
+  {%- from "components/all.njk" import img as srcset %}
 
-  {% set bannerTitle = title %}
-  {% set bannerText = copy %}
-  {% set banner = "/images/banners/" + image %}
+  {%- set bannerTitle = title %}
+  {%- set bannerText = copy %}
+  {%- set banner = "/images/banners/" + image %}
 
-  {% set sessionIs = sessionMap[session - 1] %}
+  {%- set sessionIs = sessionMap[session - 1] %}
   
-  {%- if lastpage -%}
-    {%- set bannerTitle = "What did you learn?" -%}
-    {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!\n\n" + copy -%}
-  {%- elseif pageNo == 1 and session == 1 and unit == 1 -%}
-    {%- set bannerTitle = "Your learning goals" -%}
-    {% set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each Session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
-  {%- endif -%}
+  {%- if lastpage %}
+    {%- set bannerTitle = "What did you learn?" %}
+    {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!\n\n" + copy %}
+  {%- elseif pageNo == 1 and session == 1 and unit == 1 %}
+    {%- set bannerTitle = "Your learning goals" %}
+    {%- set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each Session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
+  {%- endif %}
 
   <section class="c-banner" data-session="{{ session }}">
     <div class="c-banner__text boxout">
       <h1>{{ title }}</h1>
       {{ bannerText | markdownify | safe }}
     </div>
-    {% if banner.endsWith('.svg') %}
+    {%- if banner.endsWith('.svg') %}
       <img src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
-    {% else %}
+    {%- else %}
       {{ srcset(file=banner, class="c-banner__img")}}
-    {% endif %}
+    {%- endif %}
   </section>
 
-{% endmacro %}
+{%- endmacro %}
 
 {# 7. Section
   
@@ -163,37 +163,37 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 #}
 
-{% macro section(section) %}
+{%- macro section(section) %}
 
-  <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
-    {% if section.layout %}
+  <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
+    {%- if section.layout %}
       {{ media(title=section.title, copy=section.copy, img=section.img, video=section.video, activity=section.activty, think=section.think, layout=section.layout) }}
-    {% else %}
+    {%- else %}
       <h2>{{ section.title }}</h2>
 
-      {% if section.copy %}
+      {%- if section.copy %}
           {{ section.copy | markdownify | safe }}
-        {% endif %}
+        {%- endif %}
         
-        {% if section.subInc %}
+        {%- if section.subInc %}
           {# Is this a basic or more complex include type? #}
-          {# {% set inc = section.subInc %} #}
+          {# {%- set inc = section.subInc %} #}
 
-          {% set inc = section.subInc.type %}
+          {%- set inc = section.subInc.type %}
           
-          {% include 'components/' + inc + '.njk' %}
+          {%- include 'components/' + inc + '.njk' %}
 
-        {% endif %}
+        {%- endif %}
 
-        {% if section.copy2 %}
+        {%- if section.copy2 %}
           {{ section.copy2 | markdownify | safe }}
-        {% endif %}
+        {%- endif %}
 
-    {% endif %}
+    {%- endif %}
     
   </section>
 
-{% endmacro %}
+{%- endmacro %}
 
 {# 
 --- 8. Media object --- 
@@ -212,114 +212,114 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 #}
 
-{% macro media2(data, buildenv) %}
+{%- macro media2(data, buildenv) %}
   <!-- MEDIA2 -->
   
   {# Remove leading slash from object path if there is one #}
-  {%- set  mediaObj = "" + data.media.ref -%}
+  {%- set  mediaObj = "" + data.media.ref %}
   {%- if mediaObj | first === "/"  %}
-    {% set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
-  {% endif -%}
+    {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
+  {%- endif %}
 
   {# Detect media type, img/video etc #}
   {%- if (mediaObj.endsWith('svg')) or (mediaObj.endsWith('png')) or (mediaObj.endsWith('jpg')) or (mediaObj.endsWith('jpeg')) %}
-    {% set mediaType = "image" %}
-  {% elseif mediaObj.endsWith('mp4') %}
-    {% set mediaType = "video" %}
-  {% elseif mediaObj === "think" %}
-    {% set mediaType = "think" %}
-  {% else %}
-    {% set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
-  {% endif -%}
+    {%- set mediaType = "image" %}
+  {%- elseif mediaObj.endsWith('mp4') %}
+    {%- set mediaType = "video" %}
+  {%- elseif mediaObj === "think" %}
+    {%- set mediaType = "think" %}
+  {%- else %}
+    {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
+  {%- endif %}
 
-  <div class="l-media {% if data.layout == 'media-rev' %} l-media--rev {% elseif data.layout == 'media-half' %} l-media--half {% endif %}">
-    {% if data.title %}
+  <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %}">
+    {%- if data.title %}
       {# TODO: dynamic heading level #}
       <h2 class="l-media__title">
         {{ data.title | title }}
       </h2>
-    {% endif %}
+    {%- endif %}
 
     <div class="l-media__body">
       {{ data.copy | markdownify | safe }}
     </div>
 
-    {% if mediaType === "image" %}
-      {% if data.media.link %}
+    {%- if mediaType === "image" %}
+      {%- if data.media.link %}
         <a href="{{ data.media.link }}" class="l-media__img">
-      {% endif %}
+      {%- endif %}
         <img class="{{ 'l-media__img' if not data.media.link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
-      {% if data.media.link %}
+      {%- if data.media.link %}
         </a>
-      {% endif %}
-    {% elseif mediaType === "video" %}
+      {%- endif %}
+    {%- elseif mediaType === "video" %}
       <video controls class="l-media__img">
           <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
                   type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
       </video>
-    {% elseif mediaType === "think" %}
-      {% if buildenv === 'dev'%}
+    {%- elseif mediaType === "think" %}
+      {%- if buildenv === 'dev'%}
         <form class="l-media__img l-think">
           <textarea class="js-think"></textarea>
           <button>Save</button>
         </form>
-      {% else %}
+      {%- else %}
         @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
                 (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
                 "{{ data.copy | striptags(false)}}",
                 formClassAttribute: "l-media__img l-think"))
-      {% endif %}
-    {% else %}
+      {%- endif %}
+    {%- else %}
       <p>{{ mediaError + ": " + mediaObj }}</p>
-    {% endif %}  
+    {%- endif %}  
   </div>
-{% endmacro %}
+{%- endmacro %}
 
-{% macro media(title, copy, img, link, layout, think, video) %}
+{%- macro media(title, copy, img, link, layout, think, video) %}
   <!-- MEDIA?? {{ site.env }} -->
-  <div class="l-media {% if layout == 'media-rev' %} l-media--rev {% elseif layout == 'media-half' %} l-media--half {% endif %}">
+  <div class="l-media {%- if layout == 'media-rev' %} l-media--rev {%- elseif layout == 'media-half' %} l-media--half {%- endif %}">
     <h2 class="l-media__title">
-      {% if title %}
+      {%- if title %}
         {{ title | title }}
-      {% endif %}
+      {%- endif %}
     </h2>
 
     <div class="l-media__body">
       {{ copy | markdownify | safe }}
     </div>
-    {% if activity %}
+    {%- if activity %}
       <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
         <img src="{{ '~' if module.data.buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Open activity">
       </a>
-    {% else %}
-      {% if img and (not link) %}
+    {%- else %}
+      {%- if img and (not link) %}
         <img class="l-media__img" src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="xxxxx">
-      {% elseif img and link %}
+      {%- elseif img and link %}
         <a href="{{ link }}" class="l-media__img">
           <img  src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="">
         </a>
-      {% elseif video %}
+      {%- elseif video %}
         <video controls class="l-media__img" {{ module.data.buildenv }}>
             <source src="{{ '~' if module.data.buildenv === 'dotnet' }}/videos/{{ video }}"
                     type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
         </video>
-      {% elseif think %}
+      {%- elseif think %}
         <form class="l-media__img l-think">
           <textarea>
           </textarea>
           <button>Save</button>
         </form>
-      {% endif %}
-    {% endif %}
+      {%- endif %}
+    {%- endif %}
   </div>
-{% endmacro %}
+{%- endmacro %}
 
 {# --- 9. Slider --- #}
-{% macro slideItem(slidedata, buildenv) %}
+{%- macro slideItem(slidedata, buildenv) %}
   {# TODO: Support other media types for slider #}
-    {% if slidedata.img or slidedata.media %}
+    {%- if slidedata.img or slidedata.media %}
       {{ media2({
             title: slidedata.heading,
             copy: slidedata.text,
@@ -329,18 +329,18 @@ Taken from: https://inclusive-components.design/collapsible-sections/
           },
           buildenv
         ) }}
-    {% else %}
+    {%- else %}
      <div>
-        {% if slidedata.heading %}
+        {%- if slidedata.heading %}
           <h3>{{ slidedata.heading | safe }}</h3>
-        {% endif %}
+        {%- endif %}
         {{ slidedata.text | markdownify | safe }}
       </div> 
-    {% endif %}
+    {%- endif %}
     
     {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
-{% endmacro %}
+{%- endmacro %}
 
-{% macro test() %}
+{%- macro test() %}
   <p>Test Macro</p>
-{% endmacro %}
+{%- endmacro %}

@@ -1,35 +1,35 @@
-{% import 'components/all.njk' as components %}
+{%- import 'components/all.njk' as components %}
 
-{% if section.include %}
-  {%- set quiz = section.include.content -%}
-  {%- set mode = section.include.mode -%}
-{% elseif section.subInc %}
-  {%- set quiz = section.subInc.content -%}
-  {%- set mode = section.subInc.mode -%}
-{% else %}
-  {%- set quiz = defaultdata.wordQuiz.sentences -%}
-{% endif %}
+{%- if section.include %}
+  {%- set quiz = section.include.content %}
+  {%- set mode = section.include.mode %}
+{%- elseif section.subInc %}
+  {%- set quiz = section.subInc.content %}
+  {%- set mode = section.subInc.mode %}
+{%- else %}
+  {%- set quiz = defaultdata.wordQuiz.sentences %}
+{%- endif %}
 
-{% if mode == "multi-choice" %}
-  {% set qType = "checkbox" %}
-{% endif %}
+{%- if mode == "multi-choice" %}
+  {%- set qType = "checkbox" %}
+{%- endif %}
 
 <form class="c-quiz l-quiz">
-  {%- for question, answers in quiz -%}
-    {%- set topIndex = loop.index -%}
+  {%- for question, answers in quiz %}
+    {%- set topIndex = loop.index %}
       <fieldset class="l-quiz">
         <legend data-v2l-qnum="Question {{ loop.index }}">{{ question }}</legend>
         
-        {%- for response, result in answers.answers -%}
+        {%- for response, result in answers.answers %}
           <div class="c-quiz__answer">
             {{ components.quizQuestion(type=qType, qNumber=topIndex, aNumber=loop.index, answer=response, trueOrFalse=result) }}
           </div>
-        {%- endfor -%}
+        {%- endfor %}
       
-      {% if answers.feedback %}
+      {%- if answers.feedback %}
         {{ components.accordion(title="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
-      {% endif %}
+      {%- endif %}
 
       </fieldset>
-  {%- endfor -%}
+  {%- endfor %}
 </form>
