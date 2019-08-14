@@ -70,10 +70,10 @@ main > section:not(.c-banner) {
   // fallback
 
   &__img {
-    display: block;
-    max-width: calc(650px * .35); // 60%;
-    height: 100%;
-    margin: 1.5em auto 0;
+    // display: block;
+    // max-width: calc(650px * .35); // 60%;
+    // max-height: 100%;
+    // margin: 1.5em auto 0;
   }
 
   @media (min-width: 650px) {
@@ -103,10 +103,11 @@ main > section:not(.c-banner) {
 
     @media (min-width: 650px) {
       grid-template-columns: auto 35%;
-      grid-template-rows: max-content max-content;
+      grid-template-rows: auto auto;
       grid-template-areas:
         "title img"
         "body img";
+      align-items: center;
     
       &--rev {
         grid-template-columns: 1fr 3fr;
@@ -127,17 +128,24 @@ main > section:not(.c-banner) {
     }
 
     &__body {
+      align-self: start;
       grid-area: body;
       width: unset;
+      margin-top: 0 !important; // TODO FIX MARGIN-TOP INHERITANCE
+
+      &--full {
+        grid-row: span 2;
+        align-self: center;
+      }
     }
 
     &__img {
       grid-area: img;
-      margin-top: 0;
-      align-self: center;
-      display: block;
-      margin: unset;
-      max-width: 100%;
+      // margin-top: 0;
+      // align-self: center;
+      // display: block;
+      // margin: unset;
+      // max-width: 100%;
       position: static;
     
       > img,

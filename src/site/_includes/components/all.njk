@@ -15,7 +15,7 @@
 {# --- 1. Pagination--- #}
 
 {%- macro pagination(class, pagination, page) %}
-  <nav {%- if class %}class="{{ class }}"{%- endif %}>
+  <nav class="{{ class if class }}">
     <ol aria-label="Pages in this session" role="list" class="c-pagination">
       {%- if pagination.previousPageHref %}
         <li class="c-pagination__prev" role="listitem">
@@ -240,7 +240,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       </h2>
     {%- endif %}
 
-    <div class="l-media__body">
+    <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
       {{ data.copy | markdownify | safe }}
     </div>
 
@@ -261,7 +261,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- elseif mediaType === "think" %}
       {%- if buildenv === 'dev'%}
         <form class="l-media__img l-think">
-          <textarea class="js-think"></textarea>
+          <textarea class="js-think" rows="15"></textarea>
           <button>Save</button>
         </form>
       {%- else %}
@@ -319,6 +319,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {# --- 9. Slider --- #}
 {%- macro slideItem(slidedata, buildenv) %}
   {# TODO: Support other media types for slider #}
+    {# {%- if 1 === 2 %} #}
     {%- if slidedata.img or slidedata.media %}
       {{ media2({
             title: slidedata.heading,

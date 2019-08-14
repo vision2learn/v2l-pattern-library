@@ -688,6 +688,7 @@ button svg {
   // Temporary slider styles
   .gallery-container {
     position: relative;
+    max-width: calc(100vw - 2rem);
   }
 
   .gallery {
