@@ -2,7 +2,7 @@
 
 <div class="toggle-group">
 {% for reveal in section.subInc.content %}
-  {{ components.accordion(reveal, pagedata.env) }}
+  {{ components.accordion(reveal, site.env) }}
 {% endfor %}
 </div>
 

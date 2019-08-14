@@ -4,24 +4,6 @@
 }
 ---
 {% import 'components/all.njk' as components %}
-<!-- COURSE2....NJK -->
-<!-- {{ layout }} -->
-<!-- {{ site.env }} -->
-
-{# {
-
-"permalink": 
-  test: function() {
-    
-    console.log("HEllo from front matter");
-    return "layouts/default".toString();
-  }
-} #}
-{# layout: layouts/default,
-
-#}
-{% include 'header.njk' %}
-<main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ module.data.course }}" data-v2l-level="{{ module.data.level }}" data-v2l-unit="{{ module.data.unit }}" data-v2l-session="{{ module.data.session }}" data-v2l-page="{{ pagination.pageNumber }}">
 
   {% include 'banner.njk' %} 
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
@@ -30,18 +12,15 @@
     {%- include 'components/unit-overview-tabs.njk' -%}
   {%- endif -%}
   
-  {# 
-    {{ content | safe }}
-  #}
 
   {# *********** START ********************* #}
 
   {# 
-  Logic for when on final page of section, unit etc
+    Logic for when on final page of section, unit etc
 
-  Determine if we're linking to the next session or 
-  the next unit or we're done
-#}
+    Determine if we're linking to the next session or 
+    the next unit or we're done
+  #}
 
 {% set courseData = allcourses[module.data.course] %}
 {% set unitsInCourse = courseData.units.length %}
@@ -321,12 +300,3 @@
       ) }}
     </section>
   {%- endif -%}
-
-</main>
-
-{{ components.pagination(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
-<footer>
-  <small>
-    &copy; Copyright Creating Careers Limited, 2019. All rights reserved (Env: {{ module.data.buildenv }}). 
-  </small>
-</footer>
