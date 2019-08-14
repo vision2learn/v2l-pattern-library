@@ -1,7 +1,7 @@
 ---
 layout: layouts/course2
 ---
-{% import "components/all.njk" as components %}
+{%- import "components/all.njk" as components %}
 
 {# 
   Logic for when on final page of section, unit etc
@@ -10,21 +10,21 @@ layout: layouts/course2
   the next unit or we're done
 #}
 
-{% set courseData = allcourses[module.data.course] %}
-{% set unitsInCourse = courseData.units.length %}
-{% set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+{%- set courseData = allcourses[module.data.course] %}
+{%- set unitsInCourse = courseData.units.length %}
+{%- set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
 
-{% if (module.data.session) < sessionsInUnit %}
-  {% set nextSession = module.data.session + 1 %}
-  {% set nextUnit = module.data.unit %}
-{% else %}
-  {% set nextSession = 1 %}
-  {% set nextUnit = module.data.unit + 1 %}
-{% endif %}
+{%- if (module.data.session) < sessionsInUnit %}
+  {%- set nextSession = module.data.session + 1 %}
+  {%- set nextUnit = module.data.unit %}
+{%- else %}
+  {%- set nextSession = 1 %}
+  {%- set nextUnit = module.data.unit + 1 %}
+{%- endif %}
 
-{% set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
+{%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
-{% if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+{%- if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   <section>      
     <h2>Your learning goals</h2>
     
@@ -34,16 +34,16 @@ layout: layouts/course2
     
     <h3>The learner will:</h3>
     <ol>
-      {% for goal in allcourses[module.data.course].goals.will %}
+      {%- for goal in allcourses[module.data.course].goals.will %}
         <li>{{ goal }}</li>
-      {% endfor %}
+      {%- endfor %}
     </ol>
 
     <h3>The learner can:</h3>
     <ol>
-      {% for goal in allcourses[module.data.course].goals.can %}
+      {%- for goal in allcourses[module.data.course].goals.can %}
         <li>{{ goal }}</li>
-      {% endfor %}
+      {%- endfor %}
     </ol>
   </section>
 
@@ -65,11 +65,11 @@ layout: layouts/course2
     
     <div class="tabbed ">
       <ul class="l-btn-group t-bg-primary">
-        {%- for i in range(1, 4) -%}
+        {%- for i in range(1, 4) %}
           <li>
             {{ components.unitOverviewBtn(i) }}
           </li>
-        {%- endfor -%}
+        {%- endfor %}
       </ul>
 
       <section id="section1">
@@ -114,18 +114,18 @@ layout: layouts/course2
   <section class="t-bg-primary">      
     <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
   </section>
-{% else %}
-  {% for section in module.data.sections %}
-    {% if section.theme == "i-quiz" and lastPage %}
+{%- else %}
+  {%- for section in module.data.sections %}
+    {%- if section.theme == "i-quiz" and lastPage %}
       {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
-    {% elseif section.title === "" %}
+    {%- elseif section.title === "" %}
       <!-- No section data -->
-    {% else %}
-        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %}class="{{ section.theme }}"{% endif %}>
-        {% if section.include %}
-          {% set inc = section.include.type | lower %}
-          {% include 'components/' + inc + '.njk' ignore missing %}
-        {% elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+    {%- else %}
+        <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
+        {%- if section.include %}
+          {%- set inc = section.include.type | lower %}
+          {%- include 'components/' + inc + '.njk' ignore missing %}
+        {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
           {{ components.media2({
               title: section.title,
               copy: section.copy,
@@ -134,42 +134,42 @@ layout: layouts/course2
                 ref: section.img
               }
             }, module.data.buildenv) }}
-        {% else %}
+        {%- else %}
           <h2>{{ section.title }}</h2> 
           
-          {% if section.copy %}
+          {%- if section.copy %}
             {{ section.copy | markdownify | safe }}
-          {% endif %}
+          {%- endif %}
           
-          {% if section.subInc %}
+          {%- if section.subInc %}
             {# Is this a basic or more complex include type? #}
-            {# {% set inc = section.subInc %} #}
+            {# {%- set inc = section.subInc %} #}
 
-            {% set inc = section.subInc.type | lower %}
+            {%- set inc = section.subInc.type | lower %}
             
-            {% if inc %}
-              {% include 'components/' + inc + '.njk' %}
-            {% endif %}
+            {%- if inc %}
+              {%- include 'components/' + inc + '.njk' %}
+            {%- endif %}
             
-          {% endif %}
+          {%- endif %}
 
-          {% if section.copy2 %}
+          {%- if section.copy2 %}
             {{ section.copy2 | markdownify | safe }}
-          {% endif %}
+          {%- endif %}
 
-          {% if section.interactive %}
-            {% include 'components/animate-canvas.njk' %}
-          {% endif %}
+          {%- if section.interactive %}
+            {%- include 'components/animate-canvas.njk' %}
+          {%- endif %}
 
-        {% endif %}
+        {%- endif %}
         </section>
       
-      {# {% endblock section %} #}
-    {% endif %}
-  {% endfor %}
+      {# {%- endblock section %} #}
+    {%- endif %}
+  {%- endfor %}
   
-  {% if lastPage %}
-    {% if site.tttSummary %}
+  {%- if lastPage %}
+    {%- if site.tttSummary %}
       <section class="t-bg-primary3 i-think">
         <div class="l-media l-media--half">
           <h2 class="l-media__title">Time to Think Summary</h2>
@@ -184,13 +184,13 @@ layout: layouts/course2
           </form>
         </div>
       </section>
-    {% endif %}
+    {%- endif %}
 
 <!-- {{module.data.unit}} and {{unitsInCourse}}... -->
-    {% if module.data.unit === unitsInCourse %}
+    {%- if module.data.unit === unitsInCourse %}
       <section>
-        {% set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
-        {% set link = link | replace(' ', '-') %}
+        {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
+        {%- set link = link | replace(' ', '-') %}
         {{ components.media2({
             title: "Unit Quiz",
             copy: "Now it’s time to complete the End of Unit Quiz",
@@ -202,7 +202,7 @@ layout: layouts/course2
           site.env
         ) }}
       </section>
-    {% endif %}
+    {%- endif %}
 
     <section>
       {{ components.media2({
@@ -232,14 +232,14 @@ layout: layouts/course2
 
     <section class="t-bg-primary">
       {# We're done! #}
-      {% if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
+      {%- if (module.data.unit == unitsInCourse) and (module.data.session == sessionsInUnit) %}
         <h2>Congratulations!</h2>
         <p>
           You've reached the end of this course.
         </p>
-      {% else %}
-        {% set link = "/courses/" + module.data.course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
-        {% set link = link | replace(' ', '-') %}
+      {%- else %}
+        {%- set link = "/courses/" + module.data.course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
+        {%- set link = link | replace(' ', '-') %}
         {{ components.media2({
             title: "Ready to move on?",
             copy: "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.",
@@ -250,7 +250,7 @@ layout: layouts/course2
           },
           site.env
         ) }}
-      {% endif %}
+      {%- endif %}
     </section>
-  {% endif %}
-{% endif %}
+  {%- endif %}
+{%- endif %}

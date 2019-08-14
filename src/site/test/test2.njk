@@ -5,9 +5,9 @@ permalink: imagetest/index.html
 
 <h1>{{ site.title }}</h1>
 
-{% import "course-vars.njk" as courseVars %}
+{%- import "course-vars.njk" as courseVars %}
 
-{% set modData = {
+{%- set modData = {
   "course": "business and administration",
   "unit": 1,
   "session": 1
@@ -16,7 +16,7 @@ permalink: imagetest/index.html
 
 <p>
   {# course vars: {{ courseVars.getCourseData(courseData=allcourses[modData.course]) }} #}
-  {# {% set vars = courseVars.getCourseData(courseData=allcourses['business and administration']) %} #}
+  {# {%- set vars = courseVars.getCourseData(courseData=allcourses['business and administration']) %} #}
 </p>
 
 <p>

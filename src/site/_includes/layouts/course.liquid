@@ -10,15 +10,15 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
   
   {% include 'banner' %}
   
-  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
-    {%- include 'unit-overview-tabs' -%}
-  {%- endif -%}
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
+    {%- include 'unit-overview-tabs' %}
+  {%- endif %}
   
   {{ module.templateContent }}
 
-  {%- if pagination.pageNumber == 0 and module.data.session == 1 -%}
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
     {% include "submitting-assessments" %}
-  {%- endif -%}
+  {%- endif %}
 
 </main>
 

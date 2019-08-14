@@ -11,13 +11,13 @@
   <div class="c-slider__container" role="region" tabindex="0" aria-describedby="instructions" aria-labelledby="slider-label">
     <span class="visually-hidden" id="slider-label">{{ components.slider.slider-title }}</span>
     <ul role="list">
-      {%- for slide in components.slider.slides -%}
+      {%- for slide in components.slider.slides %}
         <li role="listitem">
           <h3>{{ slide.title }}</h3>
           <p>{{ slide.text }}</p>
           <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ components.slider.slides.size }}"></span>
         </li>
-      {%- endfor -%}
+      {%- endfor %}
     </ul>
   </div>
   <div id="instructions" class="c-slider__instructions">

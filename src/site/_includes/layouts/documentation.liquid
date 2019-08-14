@@ -3,27 +3,27 @@ layout: layouts/default
 theme:
   name: prism-xonokai
 ---
-{% comment %} TODO: Dynamic collection loading is only possible in 11ty >= 0.7.2 {% endcomment %}
-{%- assign component-url = page.fileSlug | prepend: "/components/" -%}
+{%- comment %} TODO: Dynamic collection loading is only possible in 11ty >= 0.7.2 {%- endcomment %}
+{%- assign component-url = page.fileSlug | prepend: "/components/" %}
 
-{% comment %} {%- for item in collections.components -%}
+{%- comment %} {%- for item in collections.components %}
   {{ item.fileSlug }}<br>
-  {%- if page.fileSlug == item.fileSlug -%}
-    {%- assign component = item -%}
-  {%- endif -%}
-{%- endfor -%} {% endcomment %}
+  {%- if page.fileSlug == item.fileSlug %}
+    {%- assign component = item %}
+  {%- endif %}
+{%- endfor %} {% endcomment %}
 
 {% comment %} Use the dummy data file to populate components {% endcomment %}
-{%- assign data = default-data[page.fileSlug] -%}
+{%- assign data = default-data[page.fileSlug] %}
 
 <header>
   <h1>Component: {{ page.fileSlug | capitalize | replace: '-', ' '}}</h1>
 
-  {%- if desc -%}
+  {%- if desc %}
     <p>
       {{ desc | markdownify }}
     </p>  
-  {%- endif -%}
+  {%- endif %}
 </header>
 
 <main>
@@ -31,7 +31,7 @@ theme:
     {{ content }}
   </section>
 
-  {%- unless no-include -%}
+  {%- unless no-include %}
     <section>
       <h2>Rendered Component</h2>
       <div style="border-top: dashed black 2px; border-bottom: dashed black 2px; padding: 2rem 0;">
@@ -50,5 +50,5 @@ theme:
       </details>
       {% endcomment %}
     </section>
-  {%- endunless -%}
+  {%- endunless %}
 </main>

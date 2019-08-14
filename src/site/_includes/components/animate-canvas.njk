@@ -1,5 +1,5 @@
 <script https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-{% include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
+{%- include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
 <script>
 function init() {
 	canvas = document.getElementById("canvas");

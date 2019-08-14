@@ -1,6 +1,6 @@
-{% import "components/all.njk" as components %}
-{% import "course-vars.njk" as courseVars %}
-{%- set courseData = allcourses[module.data.course] -%}
+{%- import "components/all.njk" as components %}
+{%- import "course-vars.njk" as courseVars %}
+{%- set courseData = allcourses[module.data.course] %}
 
 <section class="t-bg-primary" id="unit-overview">
   <h2>Unit overview</h2>
@@ -10,22 +10,22 @@
 
   <div class="tabbed ">
     <ul class="l-btn-group t-bg-primary">
-      {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions -%}
+      {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}
         <li>
           {{ components.unitOverviewBtn(loop.index) }}
         </li>
-      {%- endfor -%}
+      {%- endfor %}
     </ul>
 
-    {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions -%}
+    {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}
       <section id="section{{ loop.index }}">
         <h3>Session {{ loop.index }} - "{{ session | capitalize }}" topics:</h3>
         <ul>
-          {%- for item in breakdown -%}
+          {%- for item in breakdown %}
             <li>{{ item }}</li>
-          {%- endfor -%}
+          {%- endfor %}
         </ul>
       </section>
-    {%- endfor -%}
+    {%- endfor %}
   </div>
 </section>
