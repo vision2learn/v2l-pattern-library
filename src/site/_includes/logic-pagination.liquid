@@ -9,7 +9,7 @@
   {%- assign pUnit = p.data.unit | prepend: '/unit-' -%}
   {%- assign pSession = p.data.session | prepend: '/session-' -%}
   {%- assign pTitle = p.data.title | replace: ",", "&#44;" | slug | prepend: '/' -%}
-  {%- assign page-urls = page-urls | append: pCourse | append: pUnit | append: pSession | append: '/' | append: forloop.index0 | append: '/' -%}
+  {%- assign page-urls = page-urls | append: pCourse | append: pUnit | append: pSession | append: '/' | append: forloop.index | append: '/' -%}
   {%- assign page-titles = page-titles | append: p.data.title | downcase -%}
 
   {%- unless forloop.last -%}

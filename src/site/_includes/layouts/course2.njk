@@ -1,9 +1,12 @@
----
-layout: layouts/default
-permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber + 1}}/index.html
+---js
+{
+  layout: (process.env.ELEVENTY_ENV === 'dotnet') ? 'layouts/dotnet.njk' : 'layouts/prototype.njk'
+}
 ---
 {% import 'components/all.njk' as components %}
-<!-- COURSE2.NJK -->
+<!-- COURSE2....NJK -->
+<!-- {{ layout }} -->
+<!-- {{ site.env }} -->
 
 {# {
 
