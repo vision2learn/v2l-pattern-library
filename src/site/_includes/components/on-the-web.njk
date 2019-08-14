@@ -4,7 +4,7 @@
 </p>
 
 <ul>
-  {% for text, link in section.include.links %}
+  {%- for text, link in section.include.links %}
     <li><a href="{{ link }}">{{ text }}</a></li>
-  {% endfor %}
+  {%- endfor %}
 </ul>

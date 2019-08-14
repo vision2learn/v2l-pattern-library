@@ -1,9 +1,9 @@
 <ul class="l-icon-grid">
-{%- for feature in defaultdata.courseFeatures -%}
-  {%- set iconpath = 'course-features/' + feature.icon -%}
+{%- for feature in defaultdata.courseFeatures %}
+  {%- set iconpath = 'course-features/' + feature.icon %}
   <li class="c-reveal-block">
     {# <div class="c-reveal-block__icon js-showhideX">
-      {% include 'course-features/' + feature.icon + '.svg' %}
+      {%- include 'course-features/' + feature.icon + '.svg' %}
     </div> #}
     <img class="c-reveal-block__icon js-showhide" src="{{ '~' if site.env === 'dotnet' }}/images/svg/{{ iconpath + '.svg' }}" alt="{{ feature.title }}">
     <div class="c-reveal-block__desc">
@@ -11,5 +11,5 @@
       <p>{{ feature.desc }}</p>
     </div>
   </li>
-{%- endfor -%}
+{%- endfor %}
 </ul>

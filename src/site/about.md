@@ -66,7 +66,7 @@ pagination:
 
 ``` yaml
 layout: layouts/default
-permalink: {% raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html{% endraw %}
+permalink: {%- raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html{%- endraw %}
 ```
 
 - The `permalink` key relies on the session-level data file in the this course's `content` directory, accessed via `module.data`.
@@ -78,17 +78,17 @@ permalink: {% raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data.
 
 ### course-vars.njk
 ``` liquid
-{%- raw -%}
-{%- assign courseData = all-courses[module.data.course] -%}
+{%- raw %}
+{%- assign courseData = all-courses[module.data.course] %}
 
-{%- assign unitIndex = module.data.unit | minus: 1 -%}
+{%- assign unitIndex = module.data.unit | minus: 1 %}
 
-{%- assign sessionIndex = module.data.session | minus: 1 -%}
+{%- assign sessionIndex = module.data.session | minus: 1 %}
 
-{%- assign thisUnit = courseData.units[unitIndex].title -%}
+{%- assign thisUnit = courseData.units[unitIndex].title %}
 
-{%- assign thisSession = courseData.units[unitIndex].sessions[sessionIndex] -%}
-{%- endraw -%}
+{%- assign thisSession = courseData.units[unitIndex].sessions[sessionIndex] %}
+{%- endraw %}
 ```
 
 - `module.data` is the pagination object (from calling file, `course.liquid`), so module.data is the data object for each specific page in the collection
