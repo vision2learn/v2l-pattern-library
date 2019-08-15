@@ -1,7 +1,7 @@
 ---
 name: Browser Testing Script
 about: Checklist to follow when conducting SAT in browsers
-title: "[Course / Unit / Session / Page]"
+title: "[Course / Unit / session / Page]"
 labels: Browser Test
 assignees: MrSleeth
 
@@ -31,7 +31,7 @@ assignees: MrSleeth
 
 ### Navigation
 
-#### Session nav links work
+#### session nav links work
 - [ ] Chrome
 - [ ] FF
 - [ ] Edge
