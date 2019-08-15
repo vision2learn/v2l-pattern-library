@@ -470,10 +470,11 @@ button svg {
 // Big Button
 .c-unit-btn {
   background-color: rgba(0,0,0,.3);
-  border-radius: 45px;
-  // border: solid 3px currentColor;
+  // border-radius: 45px;
+  border-radius: 100%;
+  border: solid 3px currentColor;
   color: #fff;
-  font-size: 1.2em;
+  font-size: calc(2em + 1vw);
   font-family: sans-serif; // Windows is being weird with Segoe UI's vertical centering :'('
   text-shadow: 1px 1px 2px rgba(0,0,0,.6);
   // box-shadow: inset 0px 0px 9px 0px rgba(0,0,0,.6);
@@ -481,18 +482,18 @@ button svg {
   text-decoration: none;
   width: 100%;
   height: 100%;
-  padding: .5em 1em;
+  // padding: .5em 1em;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
-  span::before {
-    content: "Unit ";
-    white-space: nowrap;
-  }
+  // span::before {
+  //   content: "Unit ";
+  //   white-space: nowrap;
+  // }
 
-  &::after {
-    content: "+";
-  }
+  // &::after {
+  //   content: "+";
+  // }
 
   &:hover,
   &:focus {
@@ -500,7 +501,6 @@ button svg {
   }
 
   @media (min-width: 37.5em) {
-    border-radius: 100%;
     padding: 0;
     font-size: 6rem;
     justify-content: center;
@@ -688,6 +688,7 @@ button svg {
   // Temporary slider styles
   .gallery-container {
     position: relative;
+    max-width: calc(100vw - 2rem);
   }
 
   .gallery {
