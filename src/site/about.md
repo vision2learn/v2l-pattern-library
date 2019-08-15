@@ -46,7 +46,7 @@ TODO: Instructions for local Node and running through Docker
 - In order for 11ty to generate pages from the files in the `content` folder, you must add corresponding template files into a top-level folder matching the name of the unit.
 - For example, `content/lean-management` will have an equivalent `courses/lean-management` directory 
 - Unlike the `content` directory, you don't need additional folders for units and sessions. Just create template files in the root folder with names following this convention:
-  - `u1-s1.liquid`. This will generate all pages in Unit 1, Session 1 of the relevant course, provided the content files are present
+  - `u1-s1.liquid`. This will generate all pages in Unit 1, session 1 of the relevant course, provided the content files are present
 - Course templates must contain the following front matter:
 
 ``` yaml
@@ -87,7 +87,7 @@ permalink: {%- raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data
 
 {%- assign thisUnit = courseData.units[unitIndex].title %}
 
-{%- assign thisSession = courseData.units[unitIndex].sessions[sessionIndex] %}
+{%- assign thissession = courseData.units[unitIndex].sessions[sessionIndex] %}
 {%- endraw %}
 ```
 
@@ -96,7 +96,7 @@ permalink: {%- raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data
 - `unitIndex` = gets unit number from session-x.11tydata file, and subtracts by 1 for array mapping
 - `sessionIndex` = gets session number from session-x.11tydata file, and subtracts by 1 for array mapping
 - `thisUnit` = gets unit name from `all-courses.json` using `unitIndex` as the array index
-- `thisSession` = gets session name from `all-courses.json` using `sessionIndex` as array index
+- `thissession` = gets session name from `all-courses.json` using `sessionIndex` as array index
 
 ### all-courses.json extract
 
