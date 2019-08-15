@@ -292,4 +292,10 @@ main > section:not(.c-banner) {
 
 #animation_container {
   justify-self: center;
+  max-width: calc(100vw - 2rem) !important;
+  width: 100% !important;
+}
+
+#canvas {
+  width: calc(100vw - 2rem) !important;
 }
