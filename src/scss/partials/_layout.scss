@@ -70,10 +70,10 @@ main > section:not(.c-banner) {
   // fallback
 
   &__img {
-    display: block;
-    max-width: calc(650px * .35); // 60%;
-    height: 100%;
-    margin: 1.5em auto 0;
+    // display: block;
+    // max-width: calc(650px * .35); // 60%;
+    // max-height: 100%;
+    // margin: 1.5em auto 0;
   }
 
   @media (min-width: 650px) {
@@ -101,12 +101,20 @@ main > section:not(.c-banner) {
       "body body body body body"
       ". img img img .";
 
+    &--video {
+      grid-template-areas:
+      "title title title title title"
+      "body body body body body"
+      "img img img img img";
+    }
+
     @media (min-width: 650px) {
       grid-template-columns: auto 35%;
-      grid-template-rows: max-content max-content;
+      grid-template-rows: auto auto;
       grid-template-areas:
         "title img"
         "body img";
+      align-items: center;
     
       &--rev {
         grid-template-columns: 1fr 3fr;
@@ -118,6 +126,12 @@ main > section:not(.c-banner) {
       &--half {
         grid-template-columns: 1fr 1fr;
       }
+
+      &--video {
+        grid-template-areas: 
+          "title img"
+          "body img";
+      }
     }
 
     &__title {
@@ -127,17 +141,24 @@ main > section:not(.c-banner) {
     }
 
     &__body {
+      align-self: start;
       grid-area: body;
       width: unset;
+      margin-top: 0 !important; // TODO FIX MARGIN-TOP INHERITANCE
+
+      &--full {
+        grid-row: span 2;
+        align-self: center;
+      }
     }
 
     &__img {
       grid-area: img;
-      margin-top: 0;
-      align-self: center;
-      display: block;
-      margin: unset;
-      max-width: 100%;
+      // margin-top: 0;
+      // align-self: center;
+      // display: block;
+      // margin: unset;
+      // max-width: 100%;
       position: static;
     
       > img,
@@ -202,8 +223,9 @@ main > section:not(.c-banner) {
 
 .l-btn-group {
   padding: 1em;
-  width: max-content;
+  width: 100%;
   gap: 1em;
+  flex-wrap: wrap;
 
   li,
   a {
@@ -212,15 +234,19 @@ main > section:not(.c-banner) {
 
   li {
     display: block;
+    width: 20vw;
+    height: 20vw;
+    // flex: 1 1 100%;
     // padding: .2rem;
-    width: 8rem;
-    height: 8rem;
+    max-width: 8rem;
+    max-height: 8rem;
+
   }
 
   @media (min-width: 37.5em) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    // justify-content: space-between;
 
     // a {
     //   display: flex;
@@ -284,4 +310,10 @@ main > section:not(.c-banner) {
 
 #animation_container {
   justify-self: center;
+  max-width: calc(100vw - 2rem) !important;
+  width: 100% !important;
+}
+
+#canvas {
+  width: calc(100vw - 2rem) !important;
 }
