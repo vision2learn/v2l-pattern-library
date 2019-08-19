@@ -113,7 +113,11 @@ workflows:
   version: 2
   dotnetify:
     jobs:
-      - dotnet
+      - dotnet:
+          filters:
+            branches:
+              only: 
+                - master
   build-and-deploy:
     jobs:
       - build
