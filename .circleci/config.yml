@@ -28,10 +28,17 @@ jobs:
 
       # run
       - run: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
+      
+      # compress the output for more efficient deployment...
+      - run: tar -czvf site.tar.gz dist
 
       - persist_to_workspace:
           root: .
           paths: dist/*
+      
+      - persist_to_workspace:
+          root: .
+          paths: site.tar.gz
   dotnet:
     docker:
       - image: circleci/node:8.15
@@ -91,7 +98,11 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            scp -r ~/repo/dist $SSH_USER@$SSH_HOST:~/backgroundyellow.net/v2l/test
+            scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
+      - run:
+          name: Uncompress tarball
+          command: |
+            ssh $SSH_USER@$SSH_HOST && tar -xzvf site.tar.gz /tmp
 
   deploy:
     machine:
