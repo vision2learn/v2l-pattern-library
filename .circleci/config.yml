@@ -98,9 +98,6 @@ jobs:
           name: Deploy Over SSH
           command: |
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-      - run:
-          name: Uncompress tarball
-          command: |
             ssh $SSH_USER@$SSH_HOST && tar -xzvf site.tar.gz /tmp
 
   deploy:
@@ -117,14 +114,7 @@ jobs:
           name: Deploy Over SSH
           command: |
             scp -r ~/repo/dist $SSH_USER@$SSH_HOST:~/backgroundyellow.net/v2l
-            # cd ~/repo/dist && ls -la
-      - run:
-          name: Deploy Over SSH
-          command: |
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-      - run:
-          name: Uncompress tarball
-          command: |
             ssh $SSH_USER@$SSH_HOST && tar -xzvf site.tar.gz /tmp
 
 workflows:
