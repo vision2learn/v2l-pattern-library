@@ -890,10 +890,13 @@ toggle-section[role="region"]+toggle-section {
 
 // Code for polyfilled browsers (IE11, pre-Blink Edge etc)
 // can be removed eventually
-toggle-section[role="region"] .style-scope:not(p) {
+toggle-section[role="region"] .style-scope {
   margin: 0 !important;
   background-color: inherit;
   color: currentColor;
+}
+
+toggle-section[role="region"] button.style-scope {
   text-transform: capitalize;
 }
 
