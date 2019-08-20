@@ -260,6 +260,7 @@ main > section:not(.c-banner) {
 .l-icon-grid {
   column-width: 20em;
   column-gap: 2em;
+  break-inside: avoid;
   padding: 0;
   list-style: none;
   margin-top: 1.5em;

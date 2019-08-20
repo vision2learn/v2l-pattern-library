@@ -67,8 +67,8 @@ var Toolkit = (function () {
       AdobeAn.length;
       init();
     }
-    catch {
-      console.error("Problem loading Adobe Animate libraries");
+    catch(e) {
+      console.error("Problem loading Adobe Animate libraries: ", e);
     }
   }
 
