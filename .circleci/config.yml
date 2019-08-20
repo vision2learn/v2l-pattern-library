@@ -98,7 +98,7 @@ jobs:
           name: Deploy Over SSH
           command: |
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-            ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C v2l/test
+            ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
 
   deploy:
     machine:
@@ -114,7 +114,7 @@ jobs:
           name: Deploy Over SSH
           command: |
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-            ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C v2l
+            ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l
 
 workflows:
   version: 2
