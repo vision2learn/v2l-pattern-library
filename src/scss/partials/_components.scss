@@ -536,6 +536,7 @@ button svg {
   &__text {
 
     flex: 0 0 25rem; //fallback
+    position: relative;
 
     background-color: rgba(37, 40, 43, .9);
     color: #fff;
