@@ -39,7 +39,7 @@
       {%- for href in pagination.hrefs %}
         <!-- TODO: Review component with VoiceOver -->
         <li role="listitem">
-          <a href="{{ href }}" {%- if page.url == href %}aria-current="page"{%- endif %}>{{ loop.index }}</a>
+          <a href="{{ href }}" {% if page.url == href %} aria-current="page"{% endif %}>{{ loop.index }}</a>
         </li>
       {%- endfor %}
     </ol>

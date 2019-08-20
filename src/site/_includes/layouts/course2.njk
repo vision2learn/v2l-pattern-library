@@ -134,7 +134,7 @@
       {# Don't write out blanks #}
       <!-- blank -->
     {%- else %}
-        <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
+        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
         {%- if section.include %}
           {%- set inc = section.include.type | lower %}
           {%- include 'components/' + inc + '.njk' ignore missing %}
