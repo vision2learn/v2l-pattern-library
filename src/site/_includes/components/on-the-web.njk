@@ -1,7 +1,6 @@
 <h2>On the web</h2>
-<p>
-  {{ section.include.copy | d("The following website(s) are all useful sources of information:") | markdownify | safe }}
-</p>
+
+{{ section.include.copy | d("The following website(s) are all useful sources of information:") | markdownify | safe }}
 
 <ul>
   {%- for text, link in section.include.links %}

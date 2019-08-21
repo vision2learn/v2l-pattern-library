@@ -134,17 +134,21 @@
       {# Don't write out blanks #}
       <!-- blank -->
     {%- else %}
-        <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
+        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
         {%- if section.include %}
           {%- set inc = section.include.type | lower %}
           {%- include 'components/' + inc + '.njk' ignore missing %}
         {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+          {%- set mediaItem -%}
+            {{- section.img if section.img else section.video -}}
+          {%- endset -%}
+
           {{ components.media2({
               title: section.title,
               copy: section.copy,
               layout: section.layout,
               media: {
-                ref: section.img
+                ref: mediaItem
               }
             }, module.data.buildenv) }}
         {%- else %}
@@ -235,6 +239,7 @@
       {{ components.media2({
             title: "Watch the webinar",
             copy: "**Text TBC**",
+            layout: "media-half",
             media: {
               ref: "webinars/" + course + "/unit-" + module.data.unit + "-session-" + module.data.session + ".mp4"
             }

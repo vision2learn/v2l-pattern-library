@@ -39,7 +39,7 @@
       {%- for href in pagination.hrefs %}
         <!-- TODO: Review component with VoiceOver -->
         <li role="listitem">
-          <a href="{{ href }}" {%- if page.url == href %}aria-current="page"{%- endif %}>{{ loop.index }}</a>
+          <a href="{{ href }}" {% if page.url == href %} aria-current="page"{% endif %}>{{ loop.index }}</a>
         </li>
       {%- endfor %}
     </ol>
@@ -214,17 +214,23 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 {%- macro media2(data, buildenv) %}
   <!-- MEDIA2 -->
-  
   {# Remove leading slash from object path if there is one #}
-  {%- set  mediaObj = "" + data.media.ref %}
+  
+  {%- if data.title === "Forum" -%}
+    {%- set link = '/student-dotnet/group-forum.aspx' -%}
+  {%- else -%}
+    {%- set link = data.media.link -%}
+  {%- endif -%}
+
+  {%- set  mediaObj = "" + data.media.ref | safe | striptags() %}
   {%- if mediaObj | first === "/"  %}
     {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
   {%- endif %}
 
   {# Detect media type, img/video etc #}
-  {%- if (mediaObj.endsWith('svg')) or (mediaObj.endsWith('png')) or (mediaObj.endsWith('jpg')) or (mediaObj.endsWith('jpeg')) %}
+  {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg')) %}
     {%- set mediaType = "image" %}
-  {%- elseif mediaObj.endsWith('mp4') %}
+  {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
   {%- elseif mediaObj === "think" %}
     {%- set mediaType = "think" %}
@@ -245,11 +251,11 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     </div>
 
     {%- if mediaType === "image" %}
-      {%- if data.media.link %}
-        <a href="{{ data.media.link }}" class="l-media__img">
+      {%- if link %}
+        <a href="{{ link }}" class="l-media__img">
       {%- endif %}
-        <img class="{{ 'l-media__img' if not data.media.link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
-      {%- if data.media.link %}
+        <img class="{{ 'l-media__img' if not link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+      {%- if link !== "false" %}
         </a>
       {%- endif %}
     {%- elseif mediaType === "video" %}
