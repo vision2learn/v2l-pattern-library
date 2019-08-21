@@ -215,6 +215,13 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {%- macro media2(data, buildenv) %}
   <!-- MEDIA2 -->
   {# Remove leading slash from object path if there is one #}
+  
+  {%- if data.title === "Forum" -%}
+    {%- set link = '/student-dotnet/group-forum.aspx' -%}
+  {%- else -%}
+    {%- set link = data.media.link -%}
+  {%- endif -%}
+
   {%- set  mediaObj = "" + data.media.ref | safe | striptags() %}
   {%- if mediaObj | first === "/"  %}
     {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
@@ -244,11 +251,11 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     </div>
 
     {%- if mediaType === "image" %}
-      {%- if data.media.link %}
-        <a href="{{ data.media.link }}" class="l-media__img">
+      {%- if link %}
+        <a href="{{ link }}" class="l-media__img">
       {%- endif %}
-        <img class="{{ 'l-media__img' if not data.media.link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
-      {%- if data.media.link %}
+        <img class="{{ 'l-media__img' if not link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+      {%- if link !== "false" %}
         </a>
       {%- endif %}
     {%- elseif mediaType === "video" %}
