@@ -647,20 +647,21 @@ var Toolkit = (function () {
       const questions = quiz.querySelectorAll('fieldset');
       quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
       
-      Array.prototype.forEach.call(questions, q => {
-
-        // create and add next button
-        const nextBtn = document.createElement('button');
-        nextBtn.appendChild(document.createTextNode('Next Question'));
-        q.appendChild(nextBtn);
-
-        // attach click handler to control moving through quiz
-        nextBtn.addEventListener('click', e => {
-          e.preventDefault();
-          q.removeAttribute('data-v2l-active');
-          q.nextElementSibling.setAttribute('data-v2l-active', true);
-
-        });
+      Array.prototype.forEach.call(questions, (q, i) => {
+        if(i !== questions.length - 1) {
+          // create and add next button
+          const nextBtn = document.createElement('button');
+          nextBtn.appendChild(document.createTextNode('Next Question'));
+          q.appendChild(nextBtn);
+  
+          // attach click handler to control moving through quiz
+          nextBtn.addEventListener('click', e => {
+            e.preventDefault();
+            q.removeAttribute('data-v2l-active');
+            q.nextElementSibling.setAttribute('data-v2l-active', true);
+  
+          });
+        }
       });
     });
   }
