@@ -259,7 +259,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         </a>
       {%- endif %}
     {%- elseif mediaType === "video" %}
-      <video controls class="l-media__img">
+      <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
           <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
                   type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
