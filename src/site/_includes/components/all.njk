@@ -253,10 +253,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- if mediaType === "image" %}
       {%- if link %}
         <a href="{{ link }}" class="l-media__img">
-      {%- endif %}
-        <img class="{{ 'l-media__img' if not link }}" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
-      {%- if link !== "false" %}
+          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
         </a>
+      {% else %}
+        <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
       {%- endif %}
     {%- elseif mediaType === "video" %}
       <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
