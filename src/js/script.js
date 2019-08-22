@@ -560,7 +560,8 @@ var Toolkit = (function () {
     }
   }
 
-  if(storageAvailable('localStorage')) {
+  // TODO: Re-enable later
+  if(storageAvailable('localStorage') && 1 === 2) {
 
     // is there a Time to Think component on the page?
     const timeToThink = document.querySelectorAll('.js-think');
