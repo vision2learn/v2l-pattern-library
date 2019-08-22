@@ -140,8 +140,9 @@
           {%- include 'components/' + inc + '.njk' ignore missing %}
         {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
           {%- set mediaItem -%}
-            {{ section.img if section.img else section.video }}
+            {{- section.img if section.img else section.video -}}
           {%- endset -%}
+
           {{ components.media2({
               title: section.title,
               copy: section.copy,
@@ -203,7 +204,8 @@
     {%- endif %}
 
 <!-- {{module.data.unit}} and {{unitsInCourse}}... -->
-    {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %}
+    {# {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %} #}
+    {%- if module.data.session === sessionsInUnit %}
       <section>
         {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
         {%- set link = link | replace(' ', '-') %}
