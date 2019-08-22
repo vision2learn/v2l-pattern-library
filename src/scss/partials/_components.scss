@@ -876,7 +876,7 @@ toggle-section[role="region"] {
   // When a media  object is used inside a Reveal, JS moves the title so we need to rejig the the layout
   .l-media__body {
     align-self: center;
-    grid-row: 1 / -1;
+    // grid-row: 1 / -1;
   }
   
   > h3 {
