@@ -259,6 +259,9 @@
         </p>
       {%- else %}
         {%- set link = "/courses/" + module.data.course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
+        {% if site.env === 'dotnet' %}
+          {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
+        {% endif %}
         {%- set link = link | replace(' ', '-') %}
         {{ components.media2({
             title: "Ready to move on?",
