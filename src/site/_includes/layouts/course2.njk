@@ -204,7 +204,7 @@
     {%- endif %}
 
 <!-- {{module.data.unit}} and {{unitsInCourse}}... -->
-    #{%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %}
+    {# {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %} #}
     {%- if module.data.session === sessionsInUnit %}
       <section>
         {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
