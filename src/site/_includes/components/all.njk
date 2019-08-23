@@ -326,9 +326,16 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {%- macro slideItem(slidedata, buildenv) %}
   {# TODO: Support other media types for slider #}
     {# {%- if 1 === 2 %} #}
+    <!-- {{ slidedata | dump | safe }} -->
+    {%- if slidedata.heading -%}
+      {%- set title = slidedata.heading -%}
+    {%- elseif slidedata.title -%}
+      {%- set title = slidedata.title -%}
+    {%- endif -%}
+
     {%- if slidedata.img or slidedata.media %}
       {{ media2({
-            title: slidedata.heading,
+            title: title,
             copy: slidedata.text,
             media: {
               ref: slidedata.img
