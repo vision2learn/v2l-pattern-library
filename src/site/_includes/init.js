@@ -6,7 +6,7 @@ function init() {
 	dom_overlay_container = document.getElementById("dom_overlay_container");
 	var comp=AdobeAn.getComposition("{{ section.interactive.composition }}");
 	var lib=comp.getLibrary();
-	var loader = new createjs.LoadQueue(false, {{ '"@ViewBag.ApplicationPath/"' | safe if site.env === "dotnet" else '"/images/"' | safe }});
+	var loader = new createjs.LoadQueue(false, {{ '"@ViewBag.ApplicationPath/images/"' | safe if site.env === "dotnet" else '"/images/"' | safe }});
 	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
 	var lib=comp.getLibrary();
