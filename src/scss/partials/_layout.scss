@@ -101,7 +101,8 @@ main > section:not(.c-banner) {
       "body body body body body"
       ". img img img .";
 
-    &--video {
+    &--video,
+    &--max {
       grid-template-areas:
       "title title title title title"
       "body body body body body"
