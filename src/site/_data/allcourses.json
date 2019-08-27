@@ -136,6 +136,42 @@
             "Procedures to be followed when preparing text from notes."
           ]
         }
+      },
+      {
+        "title": "Unit 4 title",
+        "sessions": {
+          "Session 1": [
+            "Page title",
+            "Page title",
+            "Page title"
+          ],
+          "Session 2": [
+            "Page title",
+            "Page title",
+            "Page title"
+          ],
+          "Session 3": [
+            "Page title",
+            "Page title"
+          ]
+        }
+      },
+      {
+        "title": "Unit 5 title",
+        "sessions": {
+          "Session 1": [
+            "Page title",
+            "Page title",
+            "Page title",
+            "Page title"
+          ],
+          "Session 2": [
+            "Page title"
+          ],
+          "Session 3": [
+            "Page title"
+          ]
+        }
       }
     ]
   },
