@@ -10,7 +10,7 @@
   <div role="group" class="gallery no-js">
     <ul>
       {%- for slide in slideData %}
-        <li role="listitem" data-img="{{ module.data.buildenv }}/{{ site.env }}">
+        <li role="listitem">
           {{ components.slideItem(slide, module.data.buildenv) }}
         </li>
       {%- endfor %}

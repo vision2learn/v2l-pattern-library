@@ -223,12 +223,13 @@
     {%- endif %}
 
     <section>
+      {% set assLink = "~/" + module.data.unit + "/assessment" %}
       {{ components.media2({
             title: "Unit assessment",
             copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
             media: {
               ref: "assessment_button.svg",
-              link: "#"
+              link: assLink
             }
           },
           site.env
@@ -258,6 +259,9 @@
         </p>
       {%- else %}
         {%- set link = "/courses/" + module.data.course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
+        {% if site.env === 'dotnet' %}
+          {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
+        {% endif %}
         {%- set link = link | replace(' ', '-') %}
         {{ components.media2({
             title: "Ready to move on?",
