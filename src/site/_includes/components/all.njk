@@ -218,7 +218,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   
   {%- if data.title === "Forum" -%}
     {%- set link = '/student-dotnet/group-forum.aspx' -%}
-  {%- else -%}
+  {%- elseif data.media.link -%}
     {%- set link = data.media.link -%}
   {%- endif -%}
 
@@ -326,14 +326,17 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {%- macro slideItem(slidedata, buildenv) %}
   {# TODO: Support other media types for slider #}
     {# {%- if 1 === 2 %} #}
-    <!-- {{ slidedata | dump | safe }} -->
+    <!-- {{ slidedata | dump | safe }} xx -->
     {%- if slidedata.heading -%}
-      {%- set title = slidedata.heading -%}
+      {%- set title = slidedata.heading | safe | striptags() -%}
     {%- elseif slidedata.title -%}
-      {%- set title = slidedata.title -%}
+      {%- set title = slidedata.title | safe | striptags() -%}
+    {%- else -%}
+      {%- set title = "" -%}
     {%- endif -%}
 
     {%- if slidedata.img or slidedata.media %}
+    {# {%- if 2 === 3 -%} #}
       {{ media2({
             title: title,
             copy: slidedata.text,
