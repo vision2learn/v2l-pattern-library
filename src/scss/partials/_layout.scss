@@ -77,22 +77,6 @@ main > section:not(.c-banner) {
     margin: 1.5em auto 0;
   }
 
-  @media (min-width: 650px) {
-    // position: relative;
-
-    // &__body,
-    // &__title {
-    //   width: 60%;
-    // }
-
-    // &__img {
-    //   position: absolute;
-    //   margin: 0;
-    //   top: 0;
-    //   right: 0;
-    // }
-  }
-
   @supports(display: grid) {
     display: grid;
     grid-gap: 1.5rem 2rem;
@@ -162,6 +146,7 @@ main > section:not(.c-banner) {
       margin: unset;
       width: unset;
       max-width: 100%;
+      max-height: unset;
       position: static;
     
       > img,
