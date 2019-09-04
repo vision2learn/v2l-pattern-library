@@ -327,6 +327,10 @@ video {
   max-width: 100%;
 }
 
+video {
+  object-fit: scale-down;
+}
+
 
 /* Tables */
 table {
