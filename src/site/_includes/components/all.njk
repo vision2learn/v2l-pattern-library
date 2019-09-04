@@ -26,7 +26,7 @@
         </li>
       {%- endif %}
 
-      <!-- TODO: Re-order visually with CSS -->
+      {# <!-- TODO: Re-order visually with CSS --> #}
       {%- if pagination.nextPageHref %}
         <li class="c-pagination__next" role="listitem">
           <a href="{{ pagination.nextPageHref }}">
@@ -37,7 +37,7 @@
       {%- endif %}
 
       {%- for href in pagination.hrefs %}
-        <!-- TODO: Review component with VoiceOver -->
+        {# <!-- TODO: Review component with VoiceOver --> #}
         <li role="listitem">
           <a href="{{ href }}" {% if page.url == href %} aria-current="page"{% endif %}>{{ loop.index }}</a>
         </li>
@@ -213,7 +213,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 #}
 
 {%- macro media2(data, buildenv) %}
-  <!-- MEDIA2 -->
   {# Remove leading slash from object path if there is one #}
   
   {%- if data.title === "Forum" -%}
@@ -283,7 +282,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {%- endmacro %}
 
 {%- macro media(title, copy, img, link, layout, think, video) %}
-  <!-- MEDIA?? {{ site.env }} -->
+  
   <div class="l-media {%- if layout == 'media-rev' %} l-media--rev {%- elseif layout == 'media-half' %} l-media--half {%- endif %}">
     <h2 class="l-media__title">
       {%- if title %}
@@ -325,8 +324,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {# --- 9. Slider --- #}
 {%- macro slideItem(slidedata, buildenv) %}
   {# TODO: Support other media types for slider #}
-    {# {%- if 1 === 2 %} #}
-    <!-- {{ slidedata | dump | safe }} xx -->
     {%- if slidedata.heading -%}
       {%- set title = slidedata.heading | safe | striptags() -%}
     {%- elseif slidedata.title -%}
@@ -336,7 +333,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- endif -%}
 
     {%- if slidedata.img or slidedata.media %}
-    {# {%- if 2 === 3 -%} #}
       {{ media2({
             title: title,
             copy: slidedata.text,
