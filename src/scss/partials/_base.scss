@@ -128,6 +128,26 @@ h3 {
 
 a {
   color: $primary1;
+
+  &[target="_blank"] {
+    display: inline-flex;
+    align-items: center;
+
+    &::after {
+      content: "Link opens in a new tab or window";
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    > svg {
+      width: 1em;
+      height: 1em;
+      margin-left: .5em;
+    }
+  }
 }
 
 p a {
@@ -296,6 +316,10 @@ main * + figure {
 img,
 video {
   max-width: 100%;
+}
+
+video {
+  object-fit: scale-down;
 }
 
 
