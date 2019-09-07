@@ -457,14 +457,14 @@ var Toolkit = (function () {
       controls.setAttribute('aria-label', 'gallery controls');
       controls.innerHTML = `
       <li>
-        <button class="previous" aria-label="previous artwork">
+        <button class="previous" aria-label="previous slide">
           <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20">
             <path d="M18,2 2,10 18,18" />
           </svg>
         </button>
       </li>
       <li>
-        <button class="next" aria-label="next artwork">
+        <button class="next" aria-label="next slide">
           <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20">
             <path d="M2,2 18,10 2,18" />
           </svg>
