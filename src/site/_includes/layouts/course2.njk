@@ -72,7 +72,7 @@
     
     <h3>Your motivation map</h3>
     <p>
-      A Motivation Map has three parts. <a href="/documents/motivation-map-blank.doc">Download your own motivation map</a> and work your way through the steps below.
+      A Motivation Map has three parts. <a href="~/documents/motivation-map-blank.doc">Download your own motivation map</a> and work your way through the steps below.
     </p>
     
     <div class="tabbed ">
@@ -206,7 +206,7 @@
 <!-- {{module.data.unit}} and {{unitsInCourse}}... -->
     {# {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %} #}
     {%- if module.data.session === sessionsInUnit %}
-      <section>
+      <section class="t-bg-supporting3">
         {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
         {%- set link = link | replace(' ', '-') %}
         {{ components.media2({
