@@ -206,7 +206,7 @@
 <!-- {{module.data.unit}} and {{unitsInCourse}}... -->
     {# {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %} #}
     {%- if module.data.session === sessionsInUnit %}
-      <section>
+      <section class="t-bg-supporting3">
         {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
         {%- set link = link | replace(' ', '-') %}
         {{ components.media2({
