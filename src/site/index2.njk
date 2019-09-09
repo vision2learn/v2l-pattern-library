@@ -1,12 +1,26 @@
 ---
 layout: layouts/longform.liquid
+permalink: meta/index.html
 ---
 <style>
 body {
   color: darkgrey;
 }
 </style>
-{%- comment %} 
+
+<p>
+  {# {{ collections["courses"] }} #}
+</p>
+
+<ol>
+  {% for item in collections.courses %}
+    {% if  1 === 1 %}
+      <li>{{ item.url }} ==> {{ item.pageNumber }}/{{item.items[0].nextPageHref }} {{ module.data.title }}</li>
+    {% endif %}
+  {% endfor %}
+</ol>
+
+{# {%- comment %} 
 <h2>Components.</h2>
 <ul>
   {%- for item in collections.docs %}
@@ -43,4 +57,4 @@ body {
 
 <p>
   <small>Site updated: {{ "now" | date: "%A, %d %B %Y %H:%M" }}</small>
-</p>
+</p> #}

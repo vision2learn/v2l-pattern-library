@@ -8,6 +8,9 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight);
 
+  // https://www.11ty.io/docs/config/#data-deep-merge
+  config.setDataDeepMerge(true);
+
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/default.liquid');
 
@@ -38,7 +41,7 @@ module.exports = function(config) {
   });
 
   // set deep data merge
-  config.setDataDeepMerge(true);
+//   config.setDataDeepMerge(true);
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
