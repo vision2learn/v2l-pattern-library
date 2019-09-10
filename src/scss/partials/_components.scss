@@ -589,7 +589,7 @@ button svg {
       }
     }
 
-    > button {
+    > button:first-of-type {
       appearance: none;
       background: none;
       border: none;
@@ -652,6 +652,22 @@ button svg {
       position: absolute;
       margin-top: 0;
       top: 0;
+    }
+
+    + button {
+      background-color: transparent;
+      color: currentColor;
+      opacity: 0;
+      padding: 0;
+      transition: opacity .5s .5s ease-in-out;
+    }
+
+    + .js-close-btn {
+      position: absolute;
+      top: .5em;
+      right: .5em;
+      outline-offset: -7px;
+      opacity: 1;
     }
   }
 }
