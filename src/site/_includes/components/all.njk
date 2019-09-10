@@ -10,6 +10,7 @@
   7. Section
   8. Media Object
   9. Slider
+  10. Reveal
 #}
 
 {# --- 1. Pagination--- #}
@@ -354,6 +355,15 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
 {%- endmacro %}
 
-{%- macro test() %}
-  <p>Test Macro</p>
+{# 10. Reveal (show/hide) #}
+
+{%- macro reveal(data) %}
+  <li class="c-reveal-block">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if site.env === 'dotnet' }}/images/svg/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
+    
+    <div class="c-reveal-block__desc">
+      <h3 aria-hidden="true">{{ data.heading | capitalize | d('Panel heading')}}</h3>
+      {{ data.copy | markdownify | safe | d('Panel copy')}}
+    </div>
+  </li>
 {%- endmacro %}

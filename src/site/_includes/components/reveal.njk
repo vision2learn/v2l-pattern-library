@@ -1,22 +1,20 @@
-{# TODO: Move to components file #}
+{%- import "components/all.njk" as components %}
 
-{%- macro reveal(heading='reveal title', copy='reveal copy', image) %}
-  <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if site.env === 'dotnet' }}/images/svg/{{ image | lower }}" alt="">
-    {# TODO: Fix this horrible, dirty, nasty hack #}
-    <div class="c-reveal-block__desc">
-      <h3 aria-hidden="true">{{ heading }}</h3>
-      {{ copy | markdownify | safe }}
-    </div>
-    {# <div aria-hidden="true" style="opacity: 1; margin-top: -100%;">
-      {{ copy | markdownify | safe }}
-    </div> #}
-  </li>
-{%- endmacro %}
+{% set subpath = "" %}
+
+{% if section.subInc.content %}
+  {% set revealdata = section.subInc.content %}
+{% else %}
+  {% set revealdata = defaultdata.courseFeatures %}
+  {% set subpath = "course-features/" %}
+{% endif %}
 
 <ul class="l-icon-grid {%- if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{%- endif %}">
-{%- for revealItem in section.subInc.content %}
-  <!-- {{ revealItem.img }} -->
-  {{ reveal(heading=revealItem.title, copy=revealItem.copy, image=revealItem.img) }}
+{%- for revealItem in revealdata %}
+  {{ components.reveal({
+      heading: revealItem.title, 
+      copy: revealItem.copy, 
+      image: subpath + revealItem.img
+    }) }}
 {%- endfor %}
 </ul>
