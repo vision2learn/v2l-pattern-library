@@ -357,9 +357,9 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 {# 10. Reveal (show/hide) #}
 
-{%- macro reveal(data) %}
+{%- macro reveal(data, env) %}
   <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if site.env === 'dotnet' }}/images/svg/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
     
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ data.heading | capitalize | d('Panel heading')}}</h3>
