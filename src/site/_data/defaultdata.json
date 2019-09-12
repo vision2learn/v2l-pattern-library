@@ -10,48 +10,48 @@
   "courseFeatures": [
     {
       "title": "on the web",
-      "desc": "See links to useful websites and videos that can help you to take your learning further.",
-      "icon": "web2"
+      "copy": "See links to useful websites and videos that can help you to take your learning further.",
+      "img": "web2.svg"
     },
     {
       "title": "quick quiz",
-      "desc": "Quick quizzes are a great way to test your knowledge.",
-      "icon": "quiz2"
+      "copy": "Quick quizzes are a great way to test your knowledge.",
+      "img": "quiz2.svg"
     },
     {
       "title": "summary",
-      "desc": "Read key summaries of content covered so far in the course materials.",
-      "icon": "summary2"
+      "copy": "Read key summaries of content covered so far in the course materials.",
+      "img": "summary2.svg"
     },
     {
       "title": "stretch",
-      "desc": "These optional activities help you to expand your knowledge and explore the subject further.",
-      "icon": "stretch2"
+      "copy": "These optional activities help you to expand your knowledge and explore the subject further.",
+      "img": "stretch2.svg"
     },
     {
       "title": "key point",
-      "desc": "Use these to reflect on how you will answer the Assessment questions.",
-      "icon": "keypoint2"
+      "copy": "Use these to reflect on how you will answer the Assessment questions.",
+      "img": "keypoint2.svg"
     },
     {
       "title": "time to think",
-      "desc": "Note your ideas in the box provided. Use them to help answer Assessment questions.  (You can save your Time to think text to your journal).",
-      "icon": "think2"
+      "copy": "Note your ideas in the box provided. Use them to help answer Assessment questions.  (You can save your Time to think text to your journal).",
+      "img": "think2.svg"
     },
     {
       "title": "read more about it",
-      "desc": "Learn about a topic in even greater detail.",
-      "icon": "read2"
+      "copy": "Learn about a topic in even greater detail.",
+      "img": "read2.svg"
     },
     {
       "title": "watch",
-      "desc": "Watch a video to learn more about a topic",
-      "icon": "watch2"
+      "copy": "Watch a video to learn more about a topic",
+      "img": "watch2.svg"
     },
     {
       "title": "case study",
-      "desc": "Read, listen to, or interact with case studies throughout the course to explore examples in context.",
-      "icon": "CaseStudy2"
+      "copy": "Read, listen to, or interact with case studies throughout the course to explore examples in context.",
+      "img": "CaseStudy2.svg"
     }
   ],
   "unitOverviewTabs": {

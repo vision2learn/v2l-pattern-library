@@ -16,7 +16,7 @@ body {
   {%- endfor %}
 </ul> {%- endcomment %}
 
-{%- assign ids = "ln-l2-u1-s1, ln-l2-u1-s2, ln-l2-u1-s3, ln-l2-u2-s1, ln-l2-u2-s2, ln-l2-u2-s3, ln-l2-u2-s4, ln-l2-u3-s1, ln-l2-u3-s2, ln-l2-u3-s3, ba-l2-u1-s1, ba-l2-u1-s2, ba-l2-u1-s3, ba-l2-u1-s4, ba-l2-u1-s5, ba-l2-u1-s6, ba-l2-u1-s7, ba-l2-u2-s1, ba-l2-u2-s2, ba-l2-u2-s3, ba-l2-u2-s4, ba-l2-u2-s5, ba-l2-u2-s6, ba-l2-u2-s7, ba-l2-u2-s8, ba-l2-u2-s9, ba-l2-u3-s1, ba-l2-u3-s2, ba-l2-u3-s3, ba-l2-u3-s4" | split: ', '%}
+{%- assign ids = "ln-l2-u1-s1, ln-l2-u1-s2, ln-l2-u1-s3, ln-l2-u2-s1, ln-l2-u2-s2, ln-l2-u2-s3, ln-l2-u2-s4, ln-l2-u3-s1, ln-l2-u3-s2, ln-l2-u3-s3, ba-l2-u1-s1, ba-l2-u1-s2, ba-l2-u1-s3, ba-l2-u1-s4, ba-l2-u1-s5, ba-l2-u1-s6, ba-l2-u1-s7, ba-l2-u2-s1, ba-l2-u2-s2, ba-l2-u2-s3, ba-l2-u2-s4, ba-l2-u2-s5, ba-l2-u2-s6, ba-l2-u2-s7, ba-l2-u2-s8, ba-l2-u2-s9, ba-l2-u3-s1, ba-l2-u3-s2, ba-l2-u3-s3, ba-l2-u3-s4, ba-l2-u4-s1, ba-l2-u4-s2, ba-l2-u4-s3, ba-l2-u5-s1, ba-l2-u5-s2, ba-l2-u5-s3, ba-l2-u6-s1, ba-l2-u6-s2, ba-l2-u6-s3" | split: ', '%}
 
 {%- for id in ids %}
   {%- include 'logic-pagination', mod: id %}
