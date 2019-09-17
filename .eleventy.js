@@ -24,6 +24,17 @@ module.exports = function(config) {
       }
   });
 
+  config.addFilter("trimit", function(value, start, end) {
+    start = start ? start : 0;
+
+    if(!end) {
+      return value.slice(start);
+    }
+    else {
+      return value.slice(start, end);
+    }
+  });
+
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
   config.addFilter("dateDisplay", (dateObj, format = "LLL d, y") => {
