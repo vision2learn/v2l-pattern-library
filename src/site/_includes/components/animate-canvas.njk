@@ -3,6 +3,7 @@
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script>
 {%- include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
+{% include 'init.js' %}
 </script>
 <div data-comp="{{ section.interactive.composition }}" id="animation_container" style="background-color: inherit; max-width: calc({{ section.interactive.width }}px - 2rem); height:{{ section.interactive.height }}px">
   <canvas id="canvas" width="100%" height="{{ section.interactive.height }}" style="position: absolute; display: block; background-color:inherit; max-width: calc({{ section.interactive.width }}px - 2rem)"></canvas>
