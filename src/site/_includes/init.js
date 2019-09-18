@@ -1,12 +1,15 @@
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 // inc
-function init() {
-	canvas = document.getElementById("canvas");
-	anim_container = document.getElementById("animation_container");
-	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("{{ section.interactive.composition }}");
+function init(canvasID, compID) {
+	console.log(compID);
+	
+	canvas = document.querySelectorAll(".c-interactive")[canvasID];
+	anim_container = document.querySelectorAll("[data-v2l-id=animation_container]")[canvasID];
+	dom_overlay_container = document.querySelectorAll("[data-v2l-id=dom_overlay_container]")[canvasID];
+	
+	
+	var comp=AdobeAn.getComposition(compID);
 	var lib=comp.getLibrary();
-	console.log(lib.properties.manifest.length);
 	
 	// We need to do different things if the item calls external images or not
 	if(lib.properties.manifest.length === 0) {

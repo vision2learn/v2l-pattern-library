@@ -62,10 +62,15 @@ var Toolkit = (function () {
 
   document.querySelector('body').classList.add('js');
 
-  if(document.querySelector('#canvas')) {
+  if(document.querySelector('.c-interactive')) {
     try {
       AdobeAn.length;
-      init();
+      const canvases = document.querySelectorAll('.c-interactive');
+
+      for(var i = 0; i < canvases.length; i++) {
+        var comp = document.querySelectorAll('[data-v2l-comp]')[i].dataset.v2lComp;
+        init(i, comp);
+      }
     }
     catch(e) {
       console.error("Problem loading Adobe Animate libraries: ", e);
