@@ -1,9 +1,12 @@
+{% if section.interactive.composition %}
+{# Don't render canvas unless interactive is fully implemented #}
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script>
 {%- include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
 </script>
-<div id="animation_container" style="background-color: inherit; max-width: calc({{ section.interactive.width }}px - 2rem); height:{{ section.interactive.height }}px">
+<div data-comp="{{ section.interactive.composition }}" id="animation_container" style="background-color: inherit; max-width: calc({{ section.interactive.width }}px - 2rem); height:{{ section.interactive.height }}px">
   <canvas id="canvas" width="100%" height="{{ section.interactive.height }}" style="position: absolute; display: block; background-color:inherit; max-width: calc({{ section.interactive.width }}px - 2rem)"></canvas>
   <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:{{ section.interactive.width }}px; height:{{ section.interactive.height }}px; position: absolute; left: 0px; top: 0px; display: block;">
   </div>
 </div>
+{% endif %}
