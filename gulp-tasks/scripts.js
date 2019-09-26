@@ -7,7 +7,7 @@ var project = require('./toolchest/_project');
   Uglify our javascript files into one.
 */
 gulp.task('js', function() {
-  return gulp.src("./src/js/**/*.js")
+  return gulp.src(["./src/js/script.js", "./src/js/_functions/**/*.js"])
     .pipe(concat('script.js'))
     .pipe(gulp.dest(`${project.buildDest}/js`));
 });
