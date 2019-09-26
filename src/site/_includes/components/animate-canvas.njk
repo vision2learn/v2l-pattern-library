@@ -2,7 +2,7 @@
 {# Don't render canvas unless interactive is fully implemented #}
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script>
-{%- include 'interactive/' + section.interactive.file +'.js.html' ignore missing %}
+{%- include 'interactive/' + section.interactive.file +'.js' ignore missing %}
 {% include 'init.js' %}
 </script>
 <div data-v2l-comp="{{ section.interactive.composition }}" data-v2l-id="animation_container" style="background-color: inherit; max-width: calc({{ section.interactive.width }}px - 2rem); height:{{ section.interactive.height }}px">
