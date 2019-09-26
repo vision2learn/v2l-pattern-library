@@ -1,7 +1,6 @@
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 // inc
 function init(canvasID, compID) {
-	console.log(compID);
 	
 	canvas = document.querySelectorAll(".c-interactive")[canvasID];
 	anim_container = document.querySelectorAll("[data-v2l-id=animation_container]")[canvasID];
