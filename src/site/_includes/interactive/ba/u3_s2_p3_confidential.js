@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ba_u3_s2_p3_confidential_atlas_", frames: [[803,0,800,800],[0,0,801,801],[803,802,444,336],[1249,802,49,67],[0,803,801,801],[1249,871,48,67]]}
+		{name:"ba_u3_s3_p3_confidential_atlas_", frames: [[803,0,800,800],[0,0,801,801],[803,802,444,336],[1249,802,49,67],[0,803,801,801],[1249,871,48,67]]}
 ];
 
 
@@ -11,43 +11,43 @@ lib.ssMetadata = [
 
 
 
-(lib.ba_u3_s2_p3_confidential_bg = function() {
-	this.initialize(ss["ba_u3_s2_p3_confidential_atlas_"]);
+(lib.ba_u3_s3_p3_confidential_bg = function() {
+	this.initialize(ss["ba_u3_s3_p3_confidential_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s2_p3_confidential_computer = function() {
-	this.initialize(ss["ba_u3_s2_p3_confidential_atlas_"]);
+(lib.ba_u3_s3_p3_confidential_computer = function() {
+	this.initialize(ss["ba_u3_s3_p3_confidential_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s2_p3_confidential_folder = function() {
-	this.initialize(ss["ba_u3_s2_p3_confidential_atlas_"]);
+(lib.ba_u3_s3_p3_confidential_folder = function() {
+	this.initialize(ss["ba_u3_s3_p3_confidential_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s2_p3_confidential_lock = function() {
-	this.initialize(ss["ba_u3_s2_p3_confidential_atlas_"]);
+(lib.ba_u3_s3_p3_confidential_lock = function() {
+	this.initialize(ss["ba_u3_s3_p3_confidential_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s2_p3_confidential_paperv2 = function() {
-	this.initialize(ss["ba_u3_s2_p3_confidential_atlas_"]);
+(lib.ba_u3_s3_p3_confidential_paperv2 = function() {
+	this.initialize(ss["ba_u3_s3_p3_confidential_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s2_p3_confidential_unlock = function() {
-	this.initialize(ss["ba_u3_s2_p3_confidential_atlas_"]);
+(lib.ba_u3_s3_p3_confidential_unlock = function() {
+	this.initialize(ss["ba_u3_s3_p3_confidential_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
@@ -74,23 +74,23 @@ lib.ssMetadata = [
 	this.initialize(mode,startPosition,loop,{});
 
 	// images
-	this.instance = new lib.ba_u3_s2_p3_confidential_lock();
+	this.instance = new lib.ba_u3_s3_p3_confidential_lock();
 	this.instance.parent = this;
 	this.instance.setTransform(741,722);
 
-	this.instance_1 = new lib.ba_u3_s2_p3_confidential_bg();
+	this.instance_1 = new lib.ba_u3_s3_p3_confidential_bg();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-1,1);
 
-	this.instance_2 = new lib.ba_u3_s2_p3_confidential_unlock();
+	this.instance_2 = new lib.ba_u3_s3_p3_confidential_unlock();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(741,722);
 
-	this.instance_3 = new lib.ba_u3_s2_p3_confidential_computer();
+	this.instance_3 = new lib.ba_u3_s3_p3_confidential_computer();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(-1,-1);
 
-	this.instance_4 = new lib.ba_u3_s2_p3_confidential_paperv2();
+	this.instance_4 = new lib.ba_u3_s3_p3_confidential_paperv2();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(-1,-1);
 
@@ -103,7 +103,7 @@ lib.ssMetadata = [
 	this.initialize(mode,startPosition,loop,{});
 
 	// folder
-	this.instance = new lib.ba_u3_s2_p3_confidential_folder();
+	this.instance = new lib.ba_u3_s3_p3_confidential_folder();
 	this.instance.parent = this;
 	this.instance.setTransform(5,487);
 
@@ -226,7 +226,7 @@ p.nominalBounds = new cjs.Rectangle(-118.7,-31.6,237.5,63.3);
 
 
 // stage content:
-(lib.ba_u3_s2_p3_confidential = function(mode,startPosition,loop) {
+(lib.ba_u3_s3_p3_confidential = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
@@ -525,7 +525,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"ba_u3_s2_p3_confidential_atlas_.png", id:"ba_u3_s2_p3_confidential_atlas_"}
+		{src:"ba_u3_s3_p3_confidential_atlas_.png", id:"ba_u3_s3_p3_confidential_atlas_"}
 	],
 	preloads: []
 };
