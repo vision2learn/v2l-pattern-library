@@ -678,16 +678,14 @@ var Toolkit = (function () {
 
     let totalScore = 0;
 
-    function calcScore(question, totalQs) {
+    function calcScore(question) {
       if(question === "true") {
         totalScore++;
       }
-      // console.log(totalScore, totalQs);
     }
 
     Array.prototype.forEach.call(quizzes, quiz => {
       const questions = quiz.querySelectorAll('fieldset');
-      // console.log(questions.length);
       
       quiz.classList.add('js-quiz');
       quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
@@ -724,10 +722,10 @@ var Toolkit = (function () {
             });
             
             if(unanswered === questionGroup.length) {
-              console.log('aah, howay man'); 
+              // TODO: Handle errors; 
             }
             else {
-              calcScore(answer.nextElementSibling.dataset.v2lCorrect, questions.length);
+              calcScore(answer.nextElementSibling.dataset.v2lCorrect);
               
               if(i !== questions.length - 1) {
                 q.removeAttribute('data-v2l-active');
@@ -745,27 +743,7 @@ var Toolkit = (function () {
               }
             }
           });
-        // }
-        // else {
-        //   // we're on the final question
-        //   const scoreBtn = document.createElement('button');
-        //   scoreBtn.appendChild(document.createTextNode('Show Results'));
-        //   q.appendChild(scoreBtn);
-        //   const resultPanel = document.createElement('div');
-        //   resultPanel.classList.add('c-quiz__result');
-        //   resultPanel.setAttribute('style', 'display: none');
-          
-        //   q.appendChild(resultPanel);
-        //   scoreBtn.addEventListener('click', e => {
-        //     e.preventDefault();
-        //     calcScore()
-        //     resultPanel.innerHTML = `
-        //       <p>You have scored ${totalScore}</p>
-        //     `;
-        //     resultPanel.removeAttribute('style');
-        //   });
-        // }
-      });
+         });
     });
   }
 
