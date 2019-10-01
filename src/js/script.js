@@ -675,26 +675,96 @@ var Toolkit = (function () {
   const quizzes = document.querySelectorAll('.c-quiz:not(#formQuiz)');
 
   if(quizzes.length > 0) {
+
+    let totalScore = 0;
+
+    function calcScore(question, totalQs) {
+      if(question === "true") {
+        totalScore++;
+      }
+      // console.log(totalScore, totalQs);
+    }
+
     Array.prototype.forEach.call(quizzes, quiz => {
-      quiz.classList.add('js-quiz');
       const questions = quiz.querySelectorAll('fieldset');
+      // console.log(questions.length);
+      
+      quiz.classList.add('js-quiz');
       quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
       
       Array.prototype.forEach.call(questions, (q, i) => {
-        if(i !== questions.length - 1) {
+        // if(i !== questions.length - 1) {
           // create and add next button
           const nextBtn = document.createElement('button');
-          nextBtn.appendChild(document.createTextNode('Next Question'));
+          
+          if(i !== questions.length - 1) {
+            nextBtn.appendChild(document.createTextNode('Next Question'));
+          }
+          else {
+            nextBtn.appendChild(document.createTextNode('Show My Score'));
+          }
           q.appendChild(nextBtn);
+          let unanswered = 0;
+          let thisQuestion = nextBtn.parentElement;
+          let answer = null;
+          let questionGroup = thisQuestion.querySelectorAll('input');
   
           // attach click handler to control moving through quiz
           nextBtn.addEventListener('click', e => {
             e.preventDefault();
-            q.removeAttribute('data-v2l-active');
-            q.nextElementSibling.setAttribute('data-v2l-active', true);
-  
+            unanswered = 0;
+
+            questionGroup.forEach(rdo => {
+              if(!rdo.checked) {
+                unanswered++;
+              }
+              else {
+                answer = rdo;
+              }
+            });
+            
+            if(unanswered === questionGroup.length) {
+              console.log('aah, howay man'); 
+            }
+            else {
+              calcScore(answer.nextElementSibling.dataset.v2lCorrect, questions.length);
+              
+              if(i !== questions.length - 1) {
+                q.removeAttribute('data-v2l-active');
+                q.nextElementSibling.setAttribute('data-v2l-active', true);
+              }
+              else {
+                const resultPanel = document.createElement('div');
+                resultPanel.classList.add('c-quiz__result');
+                resultPanel.setAttribute('style', 'display: none');
+                q.appendChild(resultPanel);
+                resultPanel.innerHTML = `
+                  <p>You have scored ${totalScore} out of ${questions.length}</p>
+                `;
+                resultPanel.removeAttribute('style');
+              }
+            }
           });
-        }
+        // }
+        // else {
+        //   // we're on the final question
+        //   const scoreBtn = document.createElement('button');
+        //   scoreBtn.appendChild(document.createTextNode('Show Results'));
+        //   q.appendChild(scoreBtn);
+        //   const resultPanel = document.createElement('div');
+        //   resultPanel.classList.add('c-quiz__result');
+        //   resultPanel.setAttribute('style', 'display: none');
+          
+        //   q.appendChild(resultPanel);
+        //   scoreBtn.addEventListener('click', e => {
+        //     e.preventDefault();
+        //     calcScore()
+        //     resultPanel.innerHTML = `
+        //       <p>You have scored ${totalScore}</p>
+        //     `;
+        //     resultPanel.removeAttribute('style');
+        //   });
+        // }
       });
     });
   }
