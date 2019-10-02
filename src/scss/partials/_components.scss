@@ -241,11 +241,12 @@
 
     &:checked + label {
       &::after {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // height: 100%;
         background-color: inherit;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
+        line-height: 1;
         padding: .7em;
         filter: invert(1);
       }
