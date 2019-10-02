@@ -72,8 +72,8 @@
     <img 
       {%- if class %} class="{{ class }}" {%- endif %}
       src='{{ basefile[0] + "-" + widths[1] + "." + basefile[1] }}'
-      {# srcset="{{ srcset | trim }}" #}
-      {# sizes="100vw" #}
+      srcset="{{ srcset | trim }}"
+      sizes="100vw"
       alt='{{ alt }}'>
 {%- endmacro %}
 

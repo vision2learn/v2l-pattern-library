@@ -550,44 +550,45 @@ button svg {
   color: #fff;
   // align-items: center;
 
-  // display: grid;
-  // grid-template-columns: minmax(1rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(1rem, 1fr);
-  // grid-template-rows: 3rem max-content minmax(1rem, 1fr);
-  // position: relative;
-  // overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(1rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(1rem, 1fr);
+  grid-template-rows: 3rem max-content minmax(1rem, 1fr);
+  position: relative;
+  overflow: hidden;
 
-  // @supports(display: grid) {
-  //   min-height: 36vw; // maintains aspect ratio
-  // }
+  @supports(display: grid) {
+    min-height: 36vw; // maintains aspect ratio
+  }
 
   &__text {
 
     flex: 1 1 25rem; //fallback
-    
-  //   position: relative;
 
-  //   grid-column: 2 / span 1;
-  //   grid-row: 2;
-  //   z-index: 1;
+    position: relative;
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    z-index: 1;
+
+    @supports(display: grid) {
+      background-color: inherit;
+    }
   }
 
   &__img {
 
-  //   // fallback
-  flex: 2 0 auto;
-  align-self: center;
-  //   transform: scale(2) translate(-25%, 0); // mimics object fit
+    // fallback
+    flex: 2 0 auto;
+    align-self: center;
 
-  //   grid-area: 1 / 1 / -1 / -1;
-  //   object-fit: cover;
-  //   z-index: 0;
+    grid-area: 1 / 1 / -1 / -1;
+    object-fit: cover;
+    z-index: 0;
     
-  //   @supports(display: grid) {
-  //     transform: initial;
-  //     width: 100%;
-  //     height: 100%;
-  //     position: absolute; // Safari is being weird
-  //   }
+    @supports(display: grid) {
+      width: 100%;
+      height: 100%;
+      position: absolute; // Safari is being weird
+    }
   }
 }
 
@@ -962,17 +963,17 @@ h2.toggle-section::before {
 
 .tabbed:not(.js-tabs) {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
   > section {
-    flex: 1;
-
-    &:nth-of-type(2) {
-      margin: 0 2em;
-    }
+    background: rgba(0,0,0,.3);
+    flex: 0 1 285px;
+    padding: 1em;
+    margin-bottom: 1.5rem;
 
     ul {
-      list-style-position: inside;
-      padding-left: 0;
+      padding-left: 40px;
     }
   }
 }
