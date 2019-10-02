@@ -69,11 +69,12 @@
     {%- endfor %}
   {%- endset %}
 
-    <img alt=""
+    <img 
       {%- if class %} class="{{ class }}" {%- endif %}
+      src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}'
       srcset="{{ srcset | trim }}"
       sizes="100vw"
-      src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}" alt="{{ alt }}'>
+      alt='{{ alt }}'>
 {%- endmacro %}
 
 {# --- 3. Unit Overview Buttons--- #}
@@ -88,7 +89,7 @@
 {# --- 4. Quick Quiz --- #}
 
 {%- macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
-  <input type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}">
+  <input autocomplete="off" type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}" value="{{ answer | lower | replace(' ', '_')}}">
   <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}" >
     {%- if answer == "true" or answer == "false" %}
       {{ answer | capitalize }}
@@ -242,7 +243,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- if data.title %}
       {# TODO: dynamic heading level #}
       <h2 class="l-media__title">
-        {{ data.title | title }}
+        {{ data.title }}
       </h2>
     {%- endif %}
 

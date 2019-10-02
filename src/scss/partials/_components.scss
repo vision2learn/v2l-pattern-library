@@ -199,6 +199,29 @@
     position: relative;
   }
 
+  &__result {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background:
+    rgb(255, 255, 255);
+    margin: 0;
+    padding: 3rem;
+    box-shadow: 0 0 0 100px
+    rgba(0,0,0,.7);
+    color:
+    black;
+    border: solid
+    #00a3dc 10px;
+
+    > * {
+      margin: auto;
+    }
+  }
+
   // Binding styles to attribute types rather than class to encourage correct markup
   [type='radio'],
   [type='checkbox'] {
@@ -218,11 +241,12 @@
 
     &:checked + label {
       &::after {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // height: 100%;
         background-color: inherit;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
+        line-height: 1;
         padding: .7em;
         filter: invert(1);
       }

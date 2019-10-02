@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ba_u3_s3_p2_documents_atlas_", frames: [[0,1254,333,420],[884,1200,680,800],[0,0,882,1252],[884,0,848,1198]]}
+		{name:"ba_u3_s3_p1_documents_atlas_", frames: [[0,1254,333,420],[884,1200,680,800],[0,0,882,1252],[884,0,848,1198]]}
 ];
 
 
@@ -12,28 +12,28 @@ lib.ssMetadata = [
 
 
 (lib.ba_u2_s3_p2_tidy_clipboard = function() {
-	this.initialize(ss["ba_u3_s3_p2_documents_atlas_"]);
+	this.initialize(ss["ba_u3_s3_p1_documents_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s3_p2_documents_bg = function() {
-	this.initialize(ss["ba_u3_s3_p2_documents_atlas_"]);
+(lib.ba_u3_s3_p1_documents_bg = function() {
+	this.initialize(ss["ba_u3_s3_p1_documents_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s3_p2_example_letter = function() {
-	this.initialize(ss["ba_u3_s3_p2_documents_atlas_"]);
+(lib.ba_u3_s3_p1_example_letter = function() {
+	this.initialize(ss["ba_u3_s3_p1_documents_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ba_u3_s3_p2_example_report = function() {
-	this.initialize(ss["ba_u3_s3_p2_documents_atlas_"]);
+(lib.ba_u3_s3_p1_example_report = function() {
+	this.initialize(ss["ba_u3_s3_p1_documents_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -106,7 +106,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// BG_image
-	this.instance = new lib.ba_u3_s3_p2_documents_bg();
+	this.instance = new lib.ba_u3_s3_p1_documents_bg();
 	this.instance.parent = this;
 	this.instance.setTransform(2,1);
 
@@ -133,7 +133,7 @@ p.nominalBounds = new cjs.Rectangle(-47.8,-17.4,95.69999999999999,34.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.ba_u3_s3_p2_example_report();
+	this.instance = new lib.ba_u3_s3_p1_example_report();
 	this.instance.parent = this;
 	this.instance.setTransform(-307,-301,0.6772,0.6768);
 
@@ -146,7 +146,7 @@ p.nominalBounds = new cjs.Rectangle(-47.8,-17.4,95.69999999999999,34.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.ba_u3_s3_p2_example_letter();
+	this.instance = new lib.ba_u3_s3_p1_example_letter();
 	this.instance.parent = this;
 	this.instance.setTransform(-353,-384,0.6803,0.6799);
 
@@ -371,7 +371,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 
 // stage content:
-(lib.ba_u3_s3_p2_documents = function(mode,startPosition,loop) {
+(lib.ba_u3_s3_p1_documents = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
@@ -764,7 +764,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"ba_u3_s3_p2_documents_atlas_.png", id:"ba_u3_s3_p2_documents_atlas_"}
+		{src:"ba_u3_s3_p1_documents_atlas_.png", id:"ba_u3_s3_p1_documents_atlas_"}
 	],
 	preloads: []
 };

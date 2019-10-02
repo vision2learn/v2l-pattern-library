@@ -4025,11 +4025,7 @@ p.nominalBounds = new cjs.Rectangle(-45.9,-36.7,91.9,65.80000000000001);
 
 	this.instance_2 = new lib.CompoundPath_0_1();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(660.5,323.35,0.4004,0.4003,0,0,0,14.6,13.6);
 	this.instance_2.alpha = 0.5195;
-
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#ABB7AF").s().p("AqbFbIALlIQACgoAhgcQAhgdAuAAIE2ACIADhCQADhaBJg/QBIg+BiAAQBjABBEBAQBEBAgDBaIgDBCIE7ADQAuABAfAdQAfAdgBAoIgLFIgAgvjIQgaAXgCAgQgBAhAZAXQAZAXAjABQAkAAAbgXQAagXABggQABghgYgYQgZgXgkAAQgkAAgaAXg");
 	this.shape.setTransform(659.6776,328.9372,0.4004,0.4003);
 
 	this.instance_3 = new lib.Path_2_2();
