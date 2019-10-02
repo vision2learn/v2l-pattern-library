@@ -69,11 +69,12 @@
     {%- endfor %}
   {%- endset %}
 
-    <img alt=""
+    <img 
       {%- if class %} class="{{ class }}" {%- endif %}
+      src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}'
       srcset="{{ srcset | trim }}"
       sizes="100vw"
-      src='{{ basefile[0] + "-" + widths[0] + "." + basefile[1] }}" alt="{{ alt }}'>
+      alt='{{ alt }}'>
 {%- endmacro %}
 
 {# --- 3. Unit Overview Buttons--- #}
