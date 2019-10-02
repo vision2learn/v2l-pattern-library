@@ -545,45 +545,49 @@ button svg {
 .c-banner {
   // fallback
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(37, 40, 43, .9);
+  color: #fff;
+  // align-items: center;
 
-  display: grid;
-  grid-template-columns: minmax(1rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(1rem, 1fr);
-  grid-template-rows: 3rem max-content minmax(1rem, 1fr);
-  position: relative;
-  overflow: hidden;
+  // display: grid;
+  // grid-template-columns: minmax(1rem, 1fr) minmax(18.75rem, 25rem) minmax(auto, 41.5rem) minmax(1rem, 1fr);
+  // grid-template-rows: 3rem max-content minmax(1rem, 1fr);
+  // position: relative;
+  // overflow: hidden;
 
-  @supports(display: grid) {
-    min-height: 36vw; // maintains aspect ratio
-  }
+  // @supports(display: grid) {
+  //   min-height: 36vw; // maintains aspect ratio
+  // }
 
   &__text {
 
-    flex: 0 0 25rem; //fallback
-    position: relative;
+    flex: 1 1 25rem; //fallback
+    
+  //   position: relative;
 
-    background-color: rgba(37, 40, 43, .9);
-    color: #fff;
-    grid-column: 2 / span 1;
-    grid-row: 2;
-    z-index: 1;
+  //   grid-column: 2 / span 1;
+  //   grid-row: 2;
+  //   z-index: 1;
   }
 
   &__img {
 
-    // fallback
-    transform: scale(2) translate(-25%, 0); // mimics object fit
+  //   // fallback
+  flex: 2 0 auto;
+  align-self: center;
+  //   transform: scale(2) translate(-25%, 0); // mimics object fit
 
-    grid-area: 1 / 1 / -1 / -1;
-    object-fit: cover;
-    z-index: 0;
+  //   grid-area: 1 / 1 / -1 / -1;
+  //   object-fit: cover;
+  //   z-index: 0;
     
-    @supports(display: grid) {
-      transform: initial;
-      width: 100%;
-      height: 100%;
-      position: absolute; // Safari is being weird
-    }
+  //   @supports(display: grid) {
+  //     transform: initial;
+  //     width: 100%;
+  //     height: 100%;
+  //     position: absolute; // Safari is being weird
+  //   }
   }
 }
 
