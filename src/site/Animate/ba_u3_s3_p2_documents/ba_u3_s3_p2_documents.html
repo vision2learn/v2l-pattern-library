@@ -11,7 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>ba_u3_s2_p3_confidential</title>
+<title>ba_u3_s3_p2_documents</title>
 <!-- write your code here -->
 <style>
   #animation_container {
@@ -22,14 +22,14 @@
   }
 </style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="ba_u3_s2_p3_confidential.js?1570041313336"></script>
+<script src="ba_u3_s3_p2_documents.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("786DA3F1042B4C23A41F4E90074ECD41");
+	var comp=AdobeAn.getComposition("2A6902E15C74434CB229D928272E2EA2");
 	var lib=comp.getLibrary();
 	handleComplete({},comp);
 }
@@ -37,7 +37,7 @@ function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
 	var lib=comp.getLibrary();
 	var ss=comp.getSpriteSheet();
-	exportRoot = new lib.ba_u3_s2_p3_confidential();
+	exportRoot = new lib.ba_u3_s3_p2_documents();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
@@ -187,9 +187,9 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:800px; height:800px">
-		<canvas id="canvas" width="800" height="800" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:800px; height:800px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:700px; height:800px">
+		<canvas id="canvas" width="700" height="800" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:700px; height:800px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
