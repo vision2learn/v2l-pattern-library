@@ -24,6 +24,17 @@ module.exports = function(config) {
       }
   });
 
+  config.addFilter("trimit", function(value, start, end) {
+    start = start ? start : 0;
+
+    if(!end) {
+      return value.slice(start);
+    }
+    else {
+      return value.slice(start, end);
+    }
+  });
+
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
   config.addFilter("dateDisplay", (dateObj, format = "LLL d, y") => {
@@ -43,10 +54,11 @@ module.exports = function(config) {
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/css/themes");
-  config.addPassthroughCopy("./src/site/captivate");
+  // config.addPassthroughCopy("./src/site/captivate");
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");
+  config.addPassthroughCopy("./src/site/js/interactive");
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;

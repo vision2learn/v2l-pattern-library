@@ -11,38 +11,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>ba_u2_s6_p1_travel_part_a</title>
+<title>ba_u2_s6_p1_travel</title>
 <!-- write your code here -->
+<style>
+  #animation_container {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="ba_u2_s6_p1_travel_part_a.js"></script>
+<script src="ba_u2_s6_p1_travel.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("0076B3A425734F8398AF8719A7CB7CA4");
+	var comp=AdobeAn.getComposition("509730A6FBDD4F5AB9854ADBAF29D97D");
 	var lib=comp.getLibrary();
-	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
-	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
-	var lib=comp.getLibrary();
-	loader.loadManifest(lib.properties.manifest);
-}
-function handleFileLoad(evt, comp) {
-	var images=comp.getImages();	
-	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+	handleComplete({},comp);
 }
 function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
 	var lib=comp.getLibrary();
 	var ss=comp.getSpriteSheet();
-	var queue = evt.target;
-	var ssMetadata = lib.ssMetadata;
-	for(i=0; i<ssMetadata.length; i++) {
-		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
-	}
-	exportRoot = new lib.ba_u2_s6_p1_travel_part_a();
+	exportRoot = new lib.ba_u2_s6_p1_travel();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
