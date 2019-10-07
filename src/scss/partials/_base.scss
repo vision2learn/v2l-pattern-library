@@ -207,7 +207,8 @@ nav {
 * + ul:not([class]),
 * + ol,
 * + dl,
-* + div:not(.gallery) {
+* + div:not(.gallery),
+* + table {
   margin-top: 1.5rem;
   margin-top: calc($flow * 1rem);
 }
