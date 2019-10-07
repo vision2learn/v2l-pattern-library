@@ -34,6 +34,7 @@
 {%- if pagination.lastPageHref == page.url %}
   {%- set lastPage = true %}
   {%- set bannerTitle = "What did you learn?" %}
+  {# {%- set bannerText = module.data.intro | d("Well done, you’ve completed this session!") %} #}
   {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!" %}
 {%- elseif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   {%- set bannerTitle = "Your learning goals" %}

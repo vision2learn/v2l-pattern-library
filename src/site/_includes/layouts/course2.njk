@@ -127,9 +127,7 @@
     <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
   </section>
 {%- else %}
-  {%- for section in module.data.sections %}
-    {%- if section.theme == "i-quiz" and lastPage %}
-      {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+  {%- for section in module.data.sections %}      {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
     {%- elseif section.title == nil %}
       {# Don't write out blanks #}
       <!-- blank -->
