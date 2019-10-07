@@ -241,14 +241,9 @@
 
     &:checked + label {
       &::after {
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // height: 100%;
         background-color: inherit;
         line-height: 1;
         padding: .7em;
-        // filter: invert(1);
       }
     }
 
@@ -261,7 +256,7 @@
   }
 
   [type='checkbox']:checked + label::after {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28"><path d="M24 14c0 6.625-5.375 12-12 12S0 20.625 0 14 5.375 2 12 2s12 5.375 12 12z"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" fill="white"><path d="M24 14c0 6.625-5.375 12-12 12S0 20.625 0 14 5.375 2 12 2s12 5.375 12 12z"/></svg>');
   }
 
   [type='radio']:checked {
