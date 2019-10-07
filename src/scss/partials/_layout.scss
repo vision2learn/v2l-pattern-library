@@ -101,6 +101,12 @@ main > section:not(.c-banner) {
         "title img"
         "body img";
       align-items: center;
+
+      toggle-section & {
+        grid-template-areas:
+        "body img"
+        "body img";
+      }
     
       &--rev {
         grid-template-columns: 1fr 3fr;
