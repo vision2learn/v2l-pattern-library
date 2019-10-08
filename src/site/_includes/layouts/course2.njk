@@ -123,12 +123,19 @@
     </div>
   </section>
 
+  {{ components.section({
+    title: "Hints and Tips",
+    copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](/pdfs/ba_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+    theme: "t-bg-primary2 i-read"
+  }) }}
+
   <section class="t-bg-primary">      
     <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
   </section>
 {%- else %}
   {%- for section in module.data.sections %}
-    {%- if section.theme == "i-quiz" and lastPage %}
+    {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.data.session) %}
+      <!-- {{ sessionsInUnit }} {{ module.data.session }}-->
       {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
     {%- elseif section.title == nil %}
       {# Don't write out blanks #}
@@ -207,8 +214,7 @@
     {# {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %} #}
     {%- if module.data.session === sessionsInUnit %}
       <section class="t-bg-supporting3">
-        {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
-        {%- set link = link | replace(' ', '-') %}
+        {%- set link = "~/" + module.data.unit + "/quiz" %}
         {{ components.media2({
             title: "Unit Quiz",
             copy: "Now it’s time to complete the End of Unit Quiz",
@@ -279,10 +285,16 @@
 {%- endif %}
 
   {# ************* END ********************* #}
-
   {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
+    {% if module.data.unit !== 1 %}
+      {{ components.section({
+        title: "Hints & Tips",
+        copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](/pdfs/ba_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+        theme: "t-bg-primary2 i-read"
+      }) }}
+    {% endif %}
     <section>
-      <h2>Course features</h2>
+      <h2>Course features </h2>
       {%- include "components/reveal.njk" %}
     </section>
     <section class="t-bg-primary">

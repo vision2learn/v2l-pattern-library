@@ -19,7 +19,7 @@
 
     {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}
       <section id="section{{ loop.index }}">
-        <h3>Session {{ loop.index }} - "{{ session | capitalize }}" topics:</h3>
+        <h3>Session {{ loop.index }} - "{{ session }}" topics:</h3>
         <ul>
           {%- for item in breakdown %}
             <li>{{ item }}</li>
