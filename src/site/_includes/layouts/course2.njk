@@ -129,6 +129,7 @@
 {%- else %}
   {%- for section in module.data.sections %}
     {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.data.session) %}
+      <!-- {{ sessionsInUnit }} {{ module.data.session }}-->
       {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
     {%- elseif section.title == nil %}
       {# Don't write out blanks #}
@@ -207,8 +208,7 @@
     {# {%- if (module.data.unit === unitsInCourse) and (module.data.session === sessionsInUnit) %} #}
     {%- if module.data.session === sessionsInUnit %}
       <section class="t-bg-supporting3">
-        {%- set link = "/courses/" + module.data.course + "/" + module.data.unit + "/quiz" %}
-        {%- set link = link | replace(' ', '-') %}
+        {%- set link = "~/" + module.data.unit + "/quiz" %}
         {{ components.media2({
             title: "Unit Quiz",
             copy: "Now it’s time to complete the End of Unit Quiz",
