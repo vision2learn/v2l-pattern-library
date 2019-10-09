@@ -22,11 +22,11 @@
     the next unit or we're done
   #}
 
-{% if site.env == "dotnet" %}
-  {% set tilde = "~" %}
-{% else %}
-  {% set tilde = "bob" %}
-{% endif %}
+{%- if site.env == "dotnet" -%}
+  {%- set tilde = "~" -%}
+{%- else -%}
+  {%- set tilde = "bob" -%}
+{%- endif -%}
 
 {%- set courseData = allcourses[module.data.course] %}
 {%- set shortcode = courseData.shortcode -%}
