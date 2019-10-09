@@ -22,10 +22,17 @@
     the next unit or we're done
   #}
 
+{%- if site.env == "dotnet" -%}
+  {%- set tilde = "~" -%}
+{%- else -%}
+  {%- set tilde = "bob" -%}
+{%- endif -%}
+
 {%- set courseData = allcourses[module.data.course] %}
 {%- set shortcode = courseData.shortcode -%}
 {%- set unitsInCourse = courseData.units.length %}
 {%- set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
 
 {%- if (module.data.session) < sessionsInUnit %}
   {%- set nextSession = module.data.session + 1 %}
@@ -126,7 +133,7 @@
 
   {{ components.section({
     title: "Hints and Tips",
-    copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](/pdfs/" + shortcode + "_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+    copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
     theme: "t-bg-primary2 i-read"
   }) }}
 
@@ -244,7 +251,7 @@
           ) }}
       </section>
     {% endif %}
-    
+
     <section class="t-bg-primary2">
     {%- set course = module.data.course | replace(" ", "-") %}
       {{ components.media2({
@@ -292,7 +299,7 @@
     {% if module.data.unit !== 1 %}
       {{ components.section({
         title: "Hints & Tips",
-        copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](/pdfs/ba_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+        copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
         theme: "t-bg-primary2 i-read"
       }) }}
     {% endif %}
