@@ -1,6 +1,7 @@
 {
   "business and administration": {
     "level": 2,
+    "shortcode": "ba",
     "why": "Whether you’re returning to work, preparing for the workplace, or upskilling in your current role, studying Business and Administration will help you to gain essential knowledge in carrying out a range of administrative tasks.\n\nIt’s important to set goals in your studies, as goal-setting gives you control over your learning.\n\nResearch has proven that people who write their goals down have a greater motivation to achieve them.",
     "goals": {
       "will": [
@@ -19,7 +20,7 @@
       {
         "title": "principles of personal responsibilities and working in a business environment",
         "sessions": {
-          "rights and responsibilities at work": [
+          "Rights and responsibilities at work": [
             "Employment contracts",
             "Legislation",
             "Sources of information",
@@ -27,33 +28,33 @@
             "Equality and diversity"
 
           ],
-          "health, safety and security": [
+          "Health, safety and security": [
             "Employer and employee responsibilities",
             "The purpose of following procedures",
             "How to maintain a safe and secure environment"
           ],
-          "communicating effectively with others": [
+          "Communicating effectively with others": [
             "Methods of communication",
             "Choosing the best way to communicate with others",
             "Active listening"
           ],
-          "working with others": [
+          "Working with others": [
             "Agreeing standards of work with others",
             "Taking on new challenges and adapting to change",
             "Treating others with honesty and consideration"
           ],
-          "planning your own work": [
+          "Planning your own work": [
             "Meeting work standards and deadlines",
             "Planning your work",
             "Keeping people informed of your progress"
           ],
-          "improving your performance": [
+          "Improving your performance": [
             "The importance of continuously improving your own performance",
             "Describing ways of improving your own performance",
             "Identifying different career paths available"
 
           ],
-          "problems at work": [
+          "Problems at work": [
             "The types of problems that may occur",
             "How to deal with these problems",
             "How and when to refer problems to colleagues"
@@ -195,6 +196,7 @@
   },
   "lean management": {
     "level": 2,
+    "shortcode": "ln",
     "why": "Lean is a term used to describe a wide range of business improvement techniques that help to eliminate waste and increase efficiency. While lean approaches were originally designed to improve quality and reduce production costs in the manufacturing industry, the concepts are now applied to a whole range of non-manufacturing processes such as offices or service industry environments. \n\n As a result, anyone involved in business at any level should have some understanding of business improvement techniques. Lean production techniques and lean office principles can be generally applied to provide continuous improvements to quality, processes and costs across a wide range of sectors and industries. \n\n Even if you’re seeking employment, knowledge of lean management and continuous improvement techniques will provide useful underpinning knowledge about business techniques, expanding your skill set which will prove attractive to employers. \n\n * It’s important to set goals in your studies, as goal-setting gives you **control** over your learning.\n * Research has proven that people who write their goals down have a greater **motivation** to achieve them.\n\n Setting yourself a specific **deadline** to achieve each goal also keeps you focused and increases your chance of success.",
     "goals": {
       "will": [
@@ -209,14 +211,14 @@
       {
         "title": "lean organisation techniques in business",
         "sessions": {
-          "a lean environment": [
+          "A lean environment": [
             "The history of lean organisation",
             "Key lean terms",
             "Five principles of lean organisation",
             "Seven types of waste",
             "Benefits of a lean environment"
           ],
-          "the productivity needs analysis process": [
+          "The productivity needs analysis process": [
             "Productivity",
             "Measuring performance",
             "Areas of productivity measures",
@@ -228,7 +230,7 @@
             "The four steps of Priority",
             "Using the Productivity Needs Analysis"
           ],
-          "producing a process map": [
+          "Producing a process map": [
             "Mapping processes",
             "Symbols and terminology",
             "Flowchart process",
@@ -242,7 +244,7 @@
       {
         "title": "business improvement tools and techniques",
         "sessions": {
-          "continuous improvement techniques": [
+          "Continuous improvement techniques": [
             "Business improvement techniques",
             "Continuous improvement techniques",
             "Customer feedback",
@@ -251,7 +253,7 @@
             "Waste",
             "Benchmarking"
           ],
-          "principles and techniques of workplace organisation": [
+          "Principles and techniques of workplace organisation": [
             "The work environment",
             "Workplace organisation",
             "Planning an observation",
@@ -259,7 +261,7 @@
             "Red tagging",
             "Auditing and radar charts"
           ],
-          "use visual indicators to improve the work environment": [
+          "Use visual indicators to improve the work environment": [
             "Types of visual information",
             "Benefits of visual information",
             "Guiding principles of visual management",
@@ -267,7 +269,7 @@
             "Effective visual management techniques",
             "Making further improvements"
           ],
-          "eliminate variance from processes in the workplace": [
+          "Eliminate variance from processes in the workplace": [
             "Consistency and predictability",
             "Standardisation",
             "The benefits of standardisation",
@@ -280,14 +282,14 @@
       {
         "title": "working in business teams",
         "sessions": {
-          "making an effective team": [
+          "Making an effective team": [
             "Teams in the workplace",
             "Team effectiveness",
             "Types of teams in the workplace",
             "Team roles, behavioural styles and skills and capabilities in teams",
             "Benefits of team working"
           ],
-          "working effectively in a team": [
+          "Working effectively in a team": [
             "Problems and difficulties within teams",
             "Clear goals, roles and behaviour",
             "Working relationships",
@@ -298,7 +300,7 @@
             "Reviewing overall effectiveness and self-management"
 
           ],
-          "the role of team leader": [
+          "The role of team leader": [
             "Leadership competencies",
             "Leadership qualities",
             "Functions of leadership",

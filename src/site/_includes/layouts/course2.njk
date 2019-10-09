@@ -22,9 +22,17 @@
     the next unit or we're done
   #}
 
+{%- if site.env == "dotnet" -%}
+  {%- set tilde = "~" -%}
+{%- else -%}
+  {%- set tilde = "bob" -%}
+{%- endif -%}
+
 {%- set courseData = allcourses[module.data.course] %}
+{%- set shortcode = courseData.shortcode -%}
 {%- set unitsInCourse = courseData.units.length %}
 {%- set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
+
 
 {%- if (module.data.session) < sessionsInUnit %}
   {%- set nextSession = module.data.session + 1 %}
@@ -122,6 +130,12 @@
       </section>
     </div>
   </section>
+
+  {{ components.section({
+    title: "Hints and Tips",
+    copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+    theme: "t-bg-primary2 i-read"
+  }) }}
 
   <section class="t-bg-primary">      
     <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
@@ -222,19 +236,21 @@
       </section>
     {%- endif %}
 
-    <section>
-      {% set assLink = "~/" + module.data.unit + "/assessment" %}
-      {{ components.media2({
-            title: "Unit assessment",
-            copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
-            media: {
-              ref: "assessment_button.svg",
-              link: assLink
-            }
-          },
-          site.env
-        ) }}
-    </section>
+    {% if module.data.session === 1 %}
+      <section>
+        {% set assLink = "~/" + module.data.unit + "/assessment" %}
+        {{ components.media2({
+              title: "Unit assessment",
+              copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
+              media: {
+                ref: "assessment_button.svg",
+                link: assLink
+              }
+            },
+            site.env
+          ) }}
+      </section>
+    {% endif %}
 
     <section class="t-bg-primary2">
     {%- set course = module.data.course | replace(" ", "-") %}
@@ -279,10 +295,16 @@
 {%- endif %}
 
   {# ************* END ********************* #}
-
   {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
+    {% if module.data.unit !== 1 %}
+      {{ components.section({
+        title: "Hints & Tips",
+        copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+        theme: "t-bg-primary2 i-read"
+      }) }}
+    {% endif %}
     <section>
-      <h2>Course features</h2>
+      <h2>Course features </h2>
       {%- include "components/reveal.njk" %}
     </section>
     <section class="t-bg-primary">
@@ -303,7 +325,7 @@
             copy: "As you work through the course, you will be presented with a number of Time to Think boxes. Please watch this video which will show you how to use these and why they are important.",
             layout: "media-half",
             media: {
-              ref: "time-to-think.mp4"
+              ref: shortcode + "-time-to-think.mp4"
             }
           },
           module.data.buildenv
