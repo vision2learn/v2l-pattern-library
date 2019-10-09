@@ -229,20 +229,22 @@
       </section>
     {%- endif %}
 
-    <section>
-      {% set assLink = "~/" + module.data.unit + "/assessment" %}
-      {{ components.media2({
-            title: "Unit assessment",
-            copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
-            media: {
-              ref: "assessment_button.svg",
-              link: assLink
-            }
-          },
-          site.env
-        ) }}
-    </section>
-
+    {% if module.data.session === 1 %}
+      <section>
+        {% set assLink = "~/" + module.data.unit + "/assessment" %}
+        {{ components.media2({
+              title: "Unit assessment",
+              copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
+              media: {
+                ref: "assessment_button.svg",
+                link: assLink
+              }
+            },
+            site.env
+          ) }}
+      </section>
+    {% endif %}
+    
     <section class="t-bg-primary2">
     {%- set course = module.data.course | replace(" ", "-") %}
       {{ components.media2({
