@@ -697,12 +697,12 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	this.Item_text.lineHeight = 24;
 	this.Item_text.lineWidth = 244;
 	this.Item_text.parent = this;
-	this.Item_text.setTransform(400.4458,225.7563,1.0061,1.012);
+	this.Item_text.setTransform(400.4156,228.7426,0.9984,0.9984);
 
 	this.text_bg1 = new lib.text_bg();
 	this.text_bg1.name = "text_bg1";
 	this.text_bg1.parent = this;
-	this.text_bg1.setTransform(399.75,277.05,0.9275,1.2166,0,0,0,0.3,0.8);
+	this.text_bg1.setTransform(399.65,279.3,0.9204,1.2003,0,0,0,0.2,0.7);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_bg1},{t:this.Item_text}]}).wait(1));
 
@@ -1310,135 +1310,135 @@ p.nominalBounds = new cjs.Rectangle(-82,-30.5,164,61);
 	// LEAN_Table_images_ai
 	this.instance = new lib.ClipGroup();
 	this.instance.parent = this;
-	this.instance.setTransform(400.2,40.2,1.0047,1.0047,0,0,0,396,32.7);
+	this.instance.setTransform(400.55,42.15,1,1,0,0,0,395.9,32.5);
 
 	this.instance_1 = new lib.ClipGroup_1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_1.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_2 = new lib.ClipGroup_2();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_2.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_3 = new lib.ClipGroup_3();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_3.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_4 = new lib.ClipGroup_4();
 	this.instance_4.parent = this;
-	this.instance_4.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_4.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_5 = new lib.ClipGroup_5();
 	this.instance_5.parent = this;
-	this.instance_5.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_5.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_6 = new lib.ClipGroup_6();
 	this.instance_6.parent = this;
-	this.instance_6.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_6.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_7 = new lib.ClipGroup_7();
 	this.instance_7.parent = this;
-	this.instance_7.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_7.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_8 = new lib.ClipGroup_8();
 	this.instance_8.parent = this;
-	this.instance_8.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_8.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_9 = new lib.ClipGroup_9();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_9.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_10 = new lib.ClipGroup_10();
 	this.instance_10.parent = this;
-	this.instance_10.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_10.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_11 = new lib.ClipGroup_11();
 	this.instance_11.parent = this;
-	this.instance_11.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_11.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_12 = new lib.ClipGroup_12();
 	this.instance_12.parent = this;
-	this.instance_12.setTransform(400.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_12.setTransform(401.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_13 = new lib.ClipGroup_13();
 	this.instance_13.parent = this;
-	this.instance_13.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_13.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_14 = new lib.ClipGroup_14();
 	this.instance_14.parent = this;
-	this.instance_14.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_14.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_15 = new lib.ClipGroup_15();
 	this.instance_15.parent = this;
-	this.instance_15.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_15.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.instance_16 = new lib.ClipGroup_16();
 	this.instance_16.parent = this;
-	this.instance_16.setTransform(401.95,242.95,1.0047,1.0047,0,0,0,397.2,234.5);
+	this.instance_16.setTransform(402.3,243.85,1,1,0,0,0,397.1,234.2);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#3CB9E4").ss(7.4).p("AAA/2MAAAA/t");
-	this.shape.setTransform(134.0301,276.5445,1.0047,1.0047);
+	this.shape.setTransform(135.4,277.25);
 
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f().s("#3CB9E4").ss(7.4).p("AAA/2MAAAA/t");
-	this.shape_1.setTransform(266.8454,276.5445,1.0047,1.0047);
+	this.shape_1.setTransform(267.6,277.25);
 
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f().s("#3CB9E4").ss(7.4).p("AAA/2MAAAA/t");
-	this.shape_2.setTransform(399.7109,276.5445,1.0047,1.0047);
+	this.shape_2.setTransform(399.85,277.25);
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f().s("#3CB9E4").ss(7.4).p("AAA/2MAAAA/t");
-	this.shape_3.setTransform(532.5261,276.5445,1.0047,1.0047);
+	this.shape_3.setTransform(532.05,277.25);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f().s("#3CB9E4").ss(7.4).p("AAA/2MAAAA/t");
-	this.shape_4.setTransform(665.3916,276.5445,1.0047,1.0047);
+	this.shape_4.setTransform(664.3,277.25);
 
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f().s("#3CB9E4").ss(7.4).p("Eg9+AAAMB79AAA");
-	this.shape_5.setTransform(399.7109,140.01,1.0047,1.0047);
+	this.shape_5.setTransform(399.85,141.35);
 
 	this.shape_6 = new cjs.Shape();
 	this.shape_6.graphics.f().s("#3CB9E4").ss(7.4).p("Eg9+AAAMB79AAA");
-	this.shape_6.setTransform(399.7109,208.2773,1.0047,1.0047);
+	this.shape_6.setTransform(399.85,209.3);
 
 	this.shape_7 = new cjs.Shape();
 	this.shape_7.graphics.f().s("#3CB9E4").ss(7.4).p("Eg9+AAAMB79AAA");
-	this.shape_7.setTransform(399.7109,276.5445,1.0047,1.0047);
+	this.shape_7.setTransform(399.85,277.25);
 
 	this.shape_8 = new cjs.Shape();
 	this.shape_8.graphics.f().s("#3CB9E4").ss(7.4).p("Eg9+AAAMB79AAA");
-	this.shape_8.setTransform(399.7109,344.862,1.0047,1.0047);
+	this.shape_8.setTransform(399.85,345.25);
 
 	this.shape_9 = new cjs.Shape();
 	this.shape_9.graphics.f().s("#3CB9E4").ss(7.4).p("Eg9+AAAMB79AAA");
-	this.shape_9.setTransform(399.7109,413.1293,1.0047,1.0047);
+	this.shape_9.setTransform(399.85,413.2);
 
 	this.shape_10 = new cjs.Shape();
 	this.shape_10.graphics.f().s("#3CB9E4").ss(7.4).p("Eg9+gf2MB79AAAMAAAA/tMh79AAAg");
-	this.shape_10.setTransform(399.7109,276.5445,1.0047,1.0047);
+	this.shape_10.setTransform(399.85,277.25);
 
 	this.shape_11 = new cjs.Shape();
 	this.shape_11.graphics.f("#C3E9F7").s().p("Egz1AU5MAAAgpwMBnrAAAMAAAApwg");
-	this.shape_11.setTransform(467.8658,277.0094,1.0047,1.0047);
+	this.shape_11.setTransform(467.675,277.7);
 
 	this.shape_12 = new cjs.Shape();
 	this.shape_12.graphics.f("#9BDBF2").s().p("AqpazMAAAg1lIVTAAMAAAA1lg");
-	this.shape_12.setTransform(66.7455,311.3455,1.0047,1.0047);
+	this.shape_12.setTransform(68.425,311.875);
 
 	this.shape_13 = new cjs.Shape();
 	this.shape_13.graphics.f("#3CB9E4").s().p("Eg+jALNIAA2ZMB9HAAAIAAWZgEg9nAKRMB7QAAAIAA0hMh7QAAAg");
-	this.shape_13.setTransform(399.7109,70.7129,1.0047,1.0047);
+	this.shape_13.setTransform(399.85,72.375);
 
 	this.shape_14 = new cjs.Shape();
 	this.shape_14.graphics.f("#9BDBF2").s().p("Eg+jALNIAA2ZMB9HAAAIAAWZg");
-	this.shape_14.setTransform(399.7109,70.7129,1.0047,1.0047);
+	this.shape_14.setTransform(399.85,72.375);
 
 	this.shape_15 = new cjs.Shape();
 	this.shape_15.graphics.f("#9BDBF2").s().p("Eg+FAFnIAArNMB8LAAAIAALNg");
-	this.shape_15.setTransform(401.9334,447.3839,1.0047,1.0047);
+	this.shape_15.setTransform(402.05,447.275);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
@@ -1491,7 +1491,6 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		this.Item_text = this.dynamic_text.Item_text;
 		this.text_bg1.visible = false;
 		this.Item_text.visible = false;
-		//this.Item_text.text = "\n\nSelect the items below and on the left";
 		
 		this.button_price.addEventListener("click", Price_function.bind(this));
 		
@@ -1499,7 +1498,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "\nPrice - How satisfied customers are with the cost of the product.";
+			this.Item_text.text = "Price - How satisfied customers are with the cost of the product.";
 			
 		}
 		
@@ -1509,7 +1508,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "\nReliability - How much customers depend on the product to be consistent.";
+			this.Item_text.text = "Reliability - How much customers depend on the product to be consistent.";
 			
 		}
 		
@@ -1519,7 +1518,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "\nDelivery - Does the delivery of the product meet customer satisfaction?";
+			this.Item_text.text = "Delivery - Does the delivery of the product meet customer satisfaction?";
 			
 		}
 		
@@ -1539,7 +1538,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "\nPoor - The rating suggests much customer dissatisfaction with the service.";
+			this.Item_text.text = "Poor - The rating suggests much customer dissatisfaction with the service.";
 			
 		}
 		
@@ -1549,7 +1548,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "\nAverage - The rating suggests some satisfaction but room for improvement.";
+			this.Item_text.text = "Average - The rating suggests some satisfaction but room for improvement.";
 			
 		}
 		
@@ -1559,7 +1558,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		{
 			this.text_bg1.visible = true;
 			this.Item_text.visible = true;
-			this.Item_text.text = "\nExcellent - The rating suggests high customer satisfaction with the service.";
+			this.Item_text.text = "Excellent - The rating suggests high customer satisfaction with the service.";
 			
 		}
 	}
@@ -1585,7 +1584,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.dynamic_text = new lib.Scene_1_dynamic_text();
 	this.dynamic_text.name = "dynamic_text";
 	this.dynamic_text.parent = this;
-	this.dynamic_text.setTransform(399.4,276.1,1,1,0,0,0,399.4,276.1);
+	this.dynamic_text.setTransform(399.4,278.4,1,1,0,0,0,399.4,278.4);
 	this.dynamic_text.depth = 0;
 	this.dynamic_text.isAttachedToCamera = 0
 	this.dynamic_text.isAttachedToMask = 0
@@ -1599,7 +1598,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.LEAN_Table_images_ai = new lib.Scene_1_LEAN_Table_images_ai();
 	this.LEAN_Table_images_ai.name = "LEAN_Table_images_ai";
 	this.LEAN_Table_images_ai.parent = this;
-	this.LEAN_Table_images_ai.setTransform(399.7,241.9,1,1,0,0,0,399.7,241.9);
+	this.LEAN_Table_images_ai.setTransform(399.9,242.8,1,1,0,0,0,399.9,242.8);
 	this.LEAN_Table_images_ai.depth = 0;
 	this.LEAN_Table_images_ai.isAttachedToCamera = 0
 	this.LEAN_Table_images_ai.isAttachedToMask = 0
@@ -1610,7 +1609,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.timeline.addTween(cjs.Tween.get(this.LEAN_Table_images_ai).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(397,241.2,405,243.90000000000003);
+p.nominalBounds = new cjs.Rectangle(399,243.2,401.29999999999995,241.7);
 // library properties:
 lib.properties = {
 	id: 'B459E4802A3A47C988A11F6CF58E183B',

@@ -13,6 +13,14 @@
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <title>lm_u2_s2_p3_interactive_redtaglog</title>
 <!-- write your code here -->
+<style>
+  #animation_container {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
 <script src="lm_u2_s2_p3_interactive_redtaglog.js"></script>
 <script>
@@ -23,25 +31,12 @@ function init() {
 	dom_overlay_container = document.getElementById("dom_overlay_container");
 	var comp=AdobeAn.getComposition("B459E4802A3A47C988A11F6CF58E183B");
 	var lib=comp.getLibrary();
-	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
-	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
-	var lib=comp.getLibrary();
-	loader.loadManifest(lib.properties.manifest);
-}
-function handleFileLoad(evt, comp) {
-	var images=comp.getImages();	
-	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+	handleComplete({},comp);
 }
 function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
 	var lib=comp.getLibrary();
 	var ss=comp.getSpriteSheet();
-	var queue = evt.target;
-	var ssMetadata = lib.ssMetadata;
-	for(i=0; i<ssMetadata.length; i++) {
-		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
-	}
 	exportRoot = new lib.lm_u2_s2_p3_interactive_redtaglog();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
