@@ -162,13 +162,23 @@
       justify-self: start;
     }
   }
+
+  [disabled] + label {
+    // background-color: inherit;
+    filter: opacity(.2);
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: inherit;
+    }
+  }
   
   label {
     cursor: pointer;
     display: inline-block;
     align-items: center;
     width: 100%;
-    
+
     &:hover,
     &:focus {
       background-color: $primary1;
@@ -235,7 +245,7 @@
     opacity: 0;
     // visibility: hidden; // fixes weird jump to top bug
 
-    &:focus + label {
+    &:focus:not([disabled]) + label {
       @extend %focus;
     }
 
