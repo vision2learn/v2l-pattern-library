@@ -721,23 +721,36 @@ var Toolkit = (function () {
         // attach click handler to control moving through quiz
         nextBtn.addEventListener('click', e => {
           e.preventDefault();
-          
           calcScore(answer.nextElementSibling.dataset.v2lCorrect);
           
           if(i !== questions.length - 1) {
             q.removeAttribute('data-v2l-active');
             q.nextElementSibling.setAttribute('data-v2l-active', true);
+            
           }
           else {
             const resultPanel = document.createElement('div');
             resultPanel.classList.add('c-quiz__result');
             resultPanel.setAttribute('style', 'display: none');
             q.appendChild(resultPanel);
-            resultPanel.innerHTML = `
-              <p>You have scored ${totalScore} out of ${questions.length}</p>
-            `;
+            var panelText = totalScore === questions.length ? `<p><strong>Congratulations!</strong> You scored ${totalScore} out of ${questions.length}` :  `<p>You have scored ${totalScore} out of ${questions.length}</p><p><button>Try again?</button></p>`;
+            resultPanel.innerHTML = panelText;
             resultPanel.removeAttribute('style');
+
+            let retryBtn = resultPanel.querySelector('button');
+            retryBtn.addEventListener('click', e => {
+              e.preventDefault();
+              q.removeAttribute('data-v2l-active');
+              questions[0].setAttribute('data-v2l-active', true);
+              totalScore = 0;
+              document.querySelector('.c-quiz__result').remove();
+              quiz.querySelectorAll('input').forEach(input => {
+                input.disabled = false;
+                input.checked = false;
+              });
+            });
           }
+
         });
       });
     });
