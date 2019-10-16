@@ -690,8 +690,9 @@ var Toolkit = (function () {
       quiz.classList.add('js-quiz');
       quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
       
-      Array.prototype.forEach.call(questions, (q, i) => {
-        // if(i !== questions.length - 1) {
+      if(questions.length > 1) {
+        Array.prototype.forEach.call(questions, (q, i) => {
+          
           // create and add next button
           const nextBtn = document.createElement('button');
           
@@ -743,7 +744,8 @@ var Toolkit = (function () {
               }
             }
           });
-         });
+        });
+      }
     });
   }
 
