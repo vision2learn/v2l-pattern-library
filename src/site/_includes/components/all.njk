@@ -110,7 +110,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 #}
 
 {%- macro accordion(data, env) %}
-
 <toggle-section open="false">
   {%- if data.img %}
     {{ media2({
@@ -121,8 +120,8 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       }
     }, env) }}
   {%- else %}
-    <h3>{{ data.title }}</h3>
-    {{ data.copy | markdownify | safe }}
+    <h3>{{ data.title | d("Title") }}</h3>
+    {{ data.copy | safe | d("Copy") }}
   {%- endif %}
 </toggle-section>
 {%- endmacro %}
@@ -274,6 +273,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
           <button>Save</button>
         </form>
       {%- else %}
+      {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
         @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
                 (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
                 "{{ data.copy | striptags(false)}}",
