@@ -142,7 +142,6 @@
   </section>
 {%- else %}
   {%- for section in module.data.sections %}
-    <!-- 1. {{ loop.index }} -->
     
     {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.data.session) %}
       <!-- {{ sessionsInUnit }} {{ module.data.session }}-->
