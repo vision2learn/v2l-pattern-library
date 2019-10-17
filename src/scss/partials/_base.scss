@@ -296,12 +296,16 @@ button,
   &:-moz-focusring {
     outline: 1px dotted ButtonText;
   }
-}
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  &[disabled] {
+    filter: opacity(.2);
+    cursor: not-allowed;
+  }}
 
 main * + blockquote,
 main * + figure {

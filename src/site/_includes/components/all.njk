@@ -110,7 +110,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 #}
 
 {%- macro accordion(data, env) %}
-
 <toggle-section open="false">
   {%- if data.img %}
     {{ media2({
@@ -121,8 +120,8 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       }
     }, env) }}
   {%- else %}
-    <h3>{{ data.title }}</h3>
-    {{ data.copy | markdownify | safe }}
+    <h3>{{ data.title | d("Title") }}</h3>
+    {{ data.copy | safe | d("Copy") }}
   {%- endif %}
 </toggle-section>
 {%- endmacro %}
@@ -216,7 +215,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 #}
 
-{%- macro media2(data, buildenv) %}
+{%- macro media2(data, buildenv, course="") %}
   {# Remove leading slash from object path if there is one #}
   
   {%- if data.title === "Forum" -%}
@@ -237,6 +236,8 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set mediaType = "video" %}
   {%- elseif mediaObj === "think" %}
     {%- set mediaType = "think" %}
+  {%- elseif mediaObj === "activity" %}
+    {%- set mediaType = "activity" %}
   {%- else %}
     {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
   {%- endif %}
@@ -267,6 +268,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
                   type="video/mp4">
           Sorry, your browser doesn't support embedded videos.
       </video>
+    {%- elseif mediaType === "activity" %}
+      <a href="/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img">
+        <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
+      </a>
     {%- elseif mediaType === "think" %}
       {%- if buildenv === 'dev'%}
         <form class="l-media__img l-think">
@@ -274,6 +279,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
           <button>Save</button>
         </form>
       {%- else %}
+      {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
         @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
                 (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
                 "{{ data.copy | striptags(false)}}",
@@ -285,7 +291,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   </div>
 {%- endmacro %}
 
-{%- macro media(title, copy, img, link, layout, think, video) %}
+{# {%- macro media(title, copy, img, link, layout, think, video) %}
   
   <div class="l-media {%- if layout == 'media-rev' %} l-media--rev {%- elseif layout == 'media-half' %} l-media--half {%- endif %}">
     <h2 class="l-media__title">
@@ -323,7 +329,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- endif %}
     {%- endif %}
   </div>
-{%- endmacro %}
+{%- endmacro %} #}
 
 {# --- 9. Slider --- #}
 {%- macro slideItem(slidedata, buildenv) %}

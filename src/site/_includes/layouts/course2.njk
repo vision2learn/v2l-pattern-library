@@ -154,18 +154,51 @@
           {%- set inc = section.include.type | lower %}
           {%- include 'components/' + inc + '.njk' ignore missing %}
         {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+          {# {% if section.img %}
+            {%- set mediaItem = section.img -%}
+          {%- elseif section.video -%}
+          {% endif %} #}
           {%- set mediaItem -%}
-            {{- section.img if section.img else section.video -}}
+            {{- section.img if section.img -}}
+            {{- section.video if section.video -}}
           {%- endset -%}
+          {#
+            data: {
+                title: section.title,
+                copy: section.copy,
+                layout: section.layout,
+                media: {
+                  link: section.activity.ref,
+                  ref: 'activity'
+                }
+              }, 
+              buildenv: module.data.buildenv 
+          #}
 
-          {{ components.media2({
-              title: section.title,
-              copy: section.copy,
-              layout: section.layout,
-              media: {
-                ref: mediaItem
-              }
-            }, module.data.buildenv) }}
+          {%- if section.activity -%}
+            {{ components.media2(
+              {
+                title: section.title,
+                copy: section.copy,
+                layout: section.layout,
+                media: {
+                  link: section.activity.ref,
+                  ref: 'activity'
+                }
+              },
+              module.data.buildenv,
+              module.data.course
+            ) }}
+          {%- else -%}
+            {{ components.media2({
+                title: section.title,
+                copy: section.copy,
+                layout: section.layout,
+                media: {
+                  ref: mediaItem
+                }
+              }, module.data.buildenv) }}
+          {%- endif -%}
         {%- else %}
           <h2>{{ section.title }}</h2> 
           
@@ -237,22 +270,33 @@
     {%- endif %}
 
     {% if module.data.session === 1 %}
-      <section>
-        {% set assLink = "~/" + module.data.unit + "/assessment" %}
-        {{ components.media2({
-              title: "Unit assessment",
-              copy: "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.",
-              media: {
-                ref: "assessment_button.svg",
-                link: assLink
-              }
-            },
-            site.env
-          ) }}
-      </section>
+      {% set assCopy = "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you." %}
+    {% else %}
+      {% set assCopy = "Now that you have completed this session, you should complete the relevant section in the assessment booklet. If you have not already done so, please click on the assessment link to the right, then download and save the assessment file in a suitable location on your computer." %}
+    {% endif %}
+    <section>
+      {% set assLink = "~/" + module.data.unit + "/assessment" %}
+      {{ components.media2({
+            title: "Unit assessment",
+            copy: assCopy,
+            media: {
+              ref: "assessment_button.svg",
+              link: assLink
+            }
+          },
+          site.env
+        ) }}
+    </section>
+
+    {% if module.data.session === 1 %}
+      {{ components.section({
+          title: "Hints & Tips",
+          copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.data.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.data.unit + "_s"+ module.data.session +"_p1_hints_u" + module.data.unit + ".pdf)\n\n_**Please note:** This link will take you to the document on the same page - press the browser back button to return to this page or right click on link to open in a new tab_",
+          theme: "t-bg-primary2 i-read"
+        }) }}
     {% endif %}
 
-    <section class="t-bg-primary2">
+    <section class="t-bg-primary2 i-watch">
     {%- set course = module.data.course | replace(" ", "-") %}
       {{ components.media2({
             title: "Watch the webinar",
@@ -279,9 +323,16 @@
           {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
         {% endif %}
         {%- set link = link | replace(' ', '-') %}
+
+        {% if module.data.session == sessionsInUnit %}
+          {%- set moveOnText = "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit." -%}
+        {%- else -%}
+          {%- set moveOnText = "Once you’ve finished this part of your Assessment, you can move on to the next session." -%}
+        {% endif %}
+
         {{ components.media2({
             title: "Ready to move on?",
-            copy: "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.",
+            copy: moveOnText,
             media: {
               ref: "next_button.svg",
               link: link
