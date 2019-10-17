@@ -121,7 +121,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     }, env) }}
   {%- else %}
     <h3>{{ data.title | d("Title") }}</h3>
-    {{ data.copy | safe | d("Copy") }}
+    {{ data.copy | markdownify | safe }}
   {%- endif %}
 </toggle-section>
 {%- endmacro %}
