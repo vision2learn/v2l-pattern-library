@@ -154,18 +154,51 @@
           {%- set inc = section.include.type | lower %}
           {%- include 'components/' + inc + '.njk' ignore missing %}
         {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+          {# {% if section.img %}
+            {%- set mediaItem = section.img -%}
+          {%- elseif section.video -%}
+          {% endif %} #}
           {%- set mediaItem -%}
-            {{- section.img if section.img else section.video -}}
+            {{- section.img if section.img -}}
+            {{- section.video if section.video -}}
           {%- endset -%}
+          {#
+            data: {
+                title: section.title,
+                copy: section.copy,
+                layout: section.layout,
+                media: {
+                  link: section.activity.ref,
+                  ref: 'activity'
+                }
+              }, 
+              buildenv: module.data.buildenv 
+          #}
 
-          {{ components.media2({
-              title: section.title,
-              copy: section.copy,
-              layout: section.layout,
-              media: {
-                ref: mediaItem
-              }
-            }, module.data.buildenv) }}
+          {%- if section.activity -%}
+            {{ components.media2(
+              {
+                title: section.title,
+                copy: section.copy,
+                layout: section.layout,
+                media: {
+                  link: section.activity.ref,
+                  ref: 'activity'
+                }
+              },
+              module.data.buildenv,
+              module.data.course
+            ) }}
+          {%- else -%}
+            {{ components.media2({
+                title: section.title,
+                copy: section.copy,
+                layout: section.layout,
+                media: {
+                  ref: mediaItem
+                }
+              }, module.data.buildenv) }}
+          {%- endif -%}
         {%- else %}
           <h2>{{ section.title }}</h2> 
           
