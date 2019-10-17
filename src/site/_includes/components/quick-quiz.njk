@@ -27,7 +27,14 @@
         {%- endfor %}
       
       {%- if answers.feedback %}
-        {{ components.accordion(title="Question " + loop.index + " feedback", copy=answers.feedback, class="c-quiz__fb")}}        
+        {% set feedback = answers.feedback | markdownify %}
+        {{ components.accordion({
+            title: "Question " + loop.index + " feedback", 
+            copy: feedback, 
+            class: "c-quiz__fb"
+          },
+          site.env
+        )}}        
       {%- endif %}
 
       </fieldset>
