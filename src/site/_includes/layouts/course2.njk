@@ -142,6 +142,8 @@
   </section>
 {%- else %}
   {%- for section in module.data.sections %}
+    <!-- 1. {{ loop.index }} -->
+    
     {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.data.session) %}
       <!-- {{ sessionsInUnit }} {{ module.data.session }}-->
       {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
@@ -154,26 +156,10 @@
           {%- set inc = section.include.type | lower %}
           {%- include 'components/' + inc + '.njk' ignore missing %}
         {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
-          {# {% if section.img %}
-            {%- set mediaItem = section.img -%}
-          {%- elseif section.video -%}
-          {% endif %} #}
           {%- set mediaItem -%}
             {{- section.img if section.img -}}
             {{- section.video if section.video -}}
           {%- endset -%}
-          {#
-            data: {
-                title: section.title,
-                copy: section.copy,
-                layout: section.layout,
-                media: {
-                  link: section.activity.ref,
-                  ref: 'activity'
-                }
-              }, 
-              buildenv: module.data.buildenv 
-          #}
 
           {%- if section.activity -%}
             {{ components.media2(

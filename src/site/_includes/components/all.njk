@@ -215,7 +215,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 #}
 
-{%- macro media2(data, buildenv, course="") %}
+{%- macro media2(data, buildenv, course="", formID=1) %}
   {# Remove leading slash from object path if there is one #}
   
   {%- if data.title === "Forum" -%}
@@ -274,7 +274,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       </a>
     {%- elseif mediaType === "think" %}
       {%- if buildenv === 'dev'%}
-        <form class="l-media__img l-think">
+        <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
           <textarea class="js-think" rows="15"></textarea>
           <button>Save</button>
         </form>
@@ -283,7 +283,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
                 (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
                 "{{ data.copy | striptags(false)}}",
-                formClassAttribute: "l-media__img l-think"))
+                formClassAttribute: "l-media__img l-think", formIdAttribute="{{ 'formJournal'+formID }}"))
       {%- endif %}
     {%- else %}
       <p>{{ mediaError + ": " + mediaObj }}</p>
