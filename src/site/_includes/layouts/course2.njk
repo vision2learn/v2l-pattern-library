@@ -323,9 +323,16 @@
           {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
         {% endif %}
         {%- set link = link | replace(' ', '-') %}
+
+        {% if module.data.session == sessionsInUnit %}
+          {%- set moveOnText = "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit." -%}
+        {%- else -%}
+          {%- set moveOnText = "Once you’ve finished this part of your Assessment, you can move on to the next session." -%}
+        {% endif %}
+
         {{ components.media2({
             title: "Ready to move on?",
-            copy: "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit.",
+            copy: moveOnText,
             media: {
               ref: "next_button.svg",
               link: link
