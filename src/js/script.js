@@ -722,7 +722,8 @@ var Toolkit = (function () {
         nextBtn.addEventListener('click', e => {
           e.preventDefault();
           calcScore(answer.nextElementSibling.dataset.v2lCorrect);
-          
+          e.target.disabled = true;
+
           if(i !== questions.length - 1) {
             q.removeAttribute('data-v2l-active');
             q.nextElementSibling.setAttribute('data-v2l-active', true);
