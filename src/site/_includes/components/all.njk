@@ -283,7 +283,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
                 (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
                 "{{ data.copy | striptags(false)}}",
-                formClassAttribute: "l-media__img l-think", formIdAttribute="{{ 'formJournal'+formID }}"))
+                formClassAttribute: "l-media__img l-think", formIdAttribute: "{{ 'formJournal'+formID }}"))
       {%- endif %}
     {%- else %}
       <p>{{ mediaError + ": " + mediaObj }}</p>
