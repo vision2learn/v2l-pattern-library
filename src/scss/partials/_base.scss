@@ -414,3 +414,10 @@ dd {
     }
   }
 }
+
+// Hacky code to keep code examples clean
+code {
+  br + br {
+    display: none;
+  }
+}

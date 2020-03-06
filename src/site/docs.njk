@@ -1,0 +1,15 @@
+---
+layout: layouts/longform
+permalink: docsx/
+theme:
+  name: prism-xonokai
+---
+
+{%- import "components/all.njk" as components %}
+
+
+{% highlight "html" %}
+  {{ components.pagination() }}
+{% endhighlight %}
+
+{{ components.pagination(demo=true) }}

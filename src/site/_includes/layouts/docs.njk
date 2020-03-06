@@ -1,0 +1,32 @@
+---
+layout: layouts/default
+theme:
+  name: prism-xonokai
+permalink: docs/{{ page.fileSlug | lower }}/
+---
+{%- import 'components/all.njk' as components -%}
+
+<main>
+  <h1>{{ page.fileSlug | lower }}</h1>
+
+  <ul>
+  {% for param in params %}
+    <li>{{ param }}</li>
+  {% endfor %}
+  </ul>
+
+  <h2>Description</h2>
+  {{ content | safe }}
+  
+  {% if components[page.fileSlug] %}
+    <h2>Code</h2>
+    {% highlight "html" %}
+      {{ getContext(components, page.fileSlug)() }}
+    {% endhighlight %}
+
+    <h2>Example</h2>
+    {{ components[page.fileSlug]() }}
+  {% else %}
+    <p>No macro defined for {{ page.fileSlug }}!</p>
+  {% endif %}
+</main>

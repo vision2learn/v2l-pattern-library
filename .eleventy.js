@@ -1,10 +1,16 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-
+let Nunjucks = require("nunjucks");
 module.exports = function(config) {
 
   // A useful way to reference to the contect we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
+
+  let njkEnv = new Nunjucks.Environment(
+    new Nunjucks.FileSystemLoader("src/site/_includes")
+  );
+
+  config.setLibrary("njk", njkEnv);
 
   config.addPlugin(pluginSyntaxHighlight);
 
@@ -32,6 +38,35 @@ module.exports = function(config) {
     }
     else {
       return value.slice(start, end);
+    }
+  });
+
+  config.addFilter("getkeys", function(obj){
+    // for (const key in obj) {
+    //   if (obj.hasOwnProperty(key)) {
+    //     console.log(element);
+    //   }
+    // }
+    return Object.keys(obj);
+  });
+
+  // njkEnv.addGlobal('getContext', function(name) { 
+  //   // console.log('1: ', name, '\n2: ', this.ctx[name], '\n3: ', this.ctx);
+  //   console.log('1: ', this, this === njkEnv);
+  //   console.log('2: ', njkEnv);
+  //   return true
+  //   // return (name) ? this.ctx[name] : this.ctx;
+  // });
+
+  njkEnv.addGlobal('getContext', function(obj, fn) { 
+    if(typeof obj[fn] === 'function') {
+      console.log('1');
+      
+      return obj[fn];
+    }
+    else {
+      console.log('2');
+      return false;
     }
   });
 
