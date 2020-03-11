@@ -6,4 +6,4 @@ dist
 src/site/_data/debug.js
 src/site/debug.liquid
 .DS_Store
-src/site/content/**/raw-content
+**/raw-content
