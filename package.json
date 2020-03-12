@@ -5,7 +5,7 @@
   "repository": "https://github.com/MrSleeth/v2l-pattern-library/",
   "main": "index.js",
   "scripts": {
-    "start": "yarn run dev",
+    "start": "yarn install && yarn run dev",
     "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
     "debug": "gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
     "build": "gulp build && ELEVENTY_ENV=dev yarn eleventy",
@@ -21,7 +21,7 @@
   "author": "Daniel Sleeth",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.7 || ^0.8",
+    "@11ty/eleventy": "^0.10",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "axios": "^0.18.1",
     "concurrent-transform": "^1.0.0",
