@@ -68,12 +68,18 @@ $case-study: "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ij
   margin: 0;  /* TODO: Zeroing all margins could be too destructive? */
 }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: $secondary1;
+  background-color: $secondary1; //can't remember why I did this?
+  background-color: #fff;
   border-left: solid 1px rgba(255,255,255,.6);
   border-right: solid 1px rgba(255,255,255,.6);
   color: $secondary1;
