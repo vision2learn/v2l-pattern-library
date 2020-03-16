@@ -41,13 +41,8 @@ module.exports = function(config) {
     }
   });
 
-  config.addFilter("getkeys", function(obj){
-    // for (const key in obj) {
-    //   if (obj.hasOwnProperty(key)) {
-    //     console.log(element);
-    //   }
-    // }
-    return Object.keys(obj);
+  config.addFilter("logit", function(obj){
+    console.log(obj);
   });
 
   // njkEnv.addGlobal('getContext', function(name) { 
@@ -60,14 +55,10 @@ module.exports = function(config) {
 
   njkEnv.addGlobal('getContext', function(obj, fn) { 
     if(typeof obj[fn] === 'function') {
-      console.log('1');
-      
       return obj[fn];
     }
-    else {
-      console.log('2');
-      return false;
-    }
+    
+    return false;
   });
 
   // Add some utiliuty filters
