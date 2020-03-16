@@ -21,31 +21,31 @@
 {%- macro pagination(class, pagination, page, demo=false) %}
   <nav class="{{ class if class }}" data-demo={{demo}}>
     <ol aria-label="Pages in this session" role="list" class="c-pagination">
-      {%- if pagination.previousPageHref %}
-        <li class="c-pagination__prev" role="listitem">
+      {%- if pagination.previousPageHref -%}
+        <li class="c-pagination__prev">
           <a href="{{ pagination.previousPageHref }}">
             <i class="visually-hidden">Previous Page</i>
             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>  
         </li>
-      {%- endif %}
+      {%- endif -%}
 
       {# <!-- TODO: Re-order visually with CSS --> #}
-      {%- if pagination.nextPageHref %}
-        <li class="c-pagination__next" role="listitem">
+      {%- if pagination.nextPageHref -%}
+        <li class="c-pagination__next">
           <a href="{{ pagination.nextPageHref }}">
             <i class="visually-hidden">Next Page</i>
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>
         </li>
-      {%- endif %}
+      {%- endif -%}
 
-      {%- for href in pagination.hrefs %}
+      {%- for href in pagination.hrefs -%}
         {# <!-- TODO: Review component with VoiceOver --> #}
-        <li role="listitem">
+        <li>
           <a href="{{ href }}" {% if page.url == href %} aria-current="page"{% endif %}>{{ loop.index }}</a>
         </li>
-      {%- endfor %}
+      {%- endfor -%}
     </ol>
   </nav>
 
@@ -145,17 +145,17 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each Session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
   {%- endif %}
 
-  <section class="c-banner" data-session="{{ session }}">
-    <div class="c-banner__text boxout">
-      <h1>{{ title }}</h1>
-      {{ bannerText | markdownify | safe }}
-    </div>
-    {%- if banner.endsWith('.svg') %}
-      <img src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
-    {%- else %}
-      {{ srcset(file=banner, class="c-banner__img")}}
-    {%- endif %}
-  </section>
+<section class="c-banner" data-session="{{ session }}">
+  <div class="c-banner__text boxout">
+    <h1>{{ title }}</h1>
+    {{ bannerText | markdownify | safe }}
+  </div>
+  {%- if banner.endsWith('.svg') %}
+    <img src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
+  {%- else %}
+    {{ srcset(file=banner, class="c-banner__img")}}
+  {%- endif %}
+</section>
 
 {%- endmacro %}
 
