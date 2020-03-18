@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn install && yarn run dev",
-    "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve",
+    "dev": "gulp dev & ELEVENTY_ENV=dev eleventy --serve --quiet",
     "debug": "gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
     "build": "gulp build && ELEVENTY_ENV=dev yarn eleventy",
     "seed": "gulp build & ELEVENTY_ENV=seed eleventy",

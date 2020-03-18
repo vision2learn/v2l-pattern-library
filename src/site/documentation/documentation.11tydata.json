@@ -1,3 +1,5 @@
 {
-  "layout": "layouts/docs.njk"
+  "layout": "layouts/docs.njk",
+  "tags": "docs",
+  "doctype": "component"
 }

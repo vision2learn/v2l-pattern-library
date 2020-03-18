@@ -1,12 +1,24 @@
+// TODO: Just make this a class?
 body {
   > header,
   > main > section,
   > aside,
   > footer,
-  > nav {
+  > nav,
+  .l-docs {
     display: grid;
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 62.5rem) minmax(1rem, 1fr);
-    
+
+    > main {
+      grid-column: 2 / span 1;
+    }
+  }
+
+  > header,
+  > main > section,
+  > aside,
+  > footer,
+  > nav {
     > * {
       grid-column: 2 / span 1;
     }
@@ -14,9 +26,9 @@ body {
 }
 
 main {
-  background: #fff;
-  display: grid;
-  grid-template-columns: 1fr;
+  // background: #fff;
+  // display: grid;
+  // grid-template-columns: 1fr;
   // grid-row-gap: 80px;
 }
 
@@ -321,4 +333,45 @@ main > section:not(.c-banner) {
 
 .c-interactive {
   width: calc(100vw - 2rem) !important;
+}
+
+.l-docs {
+  > main {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: minmax(45ch, 70ch) 1fr;
+    margin-bottom: 3rem;
+
+    > article {
+      grid-row: 1;
+
+      p code {
+        display: inline-block;
+        background: lightgray;
+        padding: 0 .5em;
+        border-radius: 5px;
+      }
+    }
+
+    > aside {
+      grid-row: 1
+
+      ul ul {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+// NOT LAYOUT CODE, SLEETH
+.l-code-example {
+  grid-row-start: 2;
+  grid-column: span 3;
+  padding: 3rem 0;
+  
+  background: lightgray;
+
+  > div {
+    box-shadow: 0 0 12px 4px rgba(0,0,0,.5)
+  }
 }

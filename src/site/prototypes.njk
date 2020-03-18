@@ -1,0 +1,10 @@
+---
+layout: layouts/longform.liquid
+permalink: prototypes/
+---
+
+{# {{ collections.prototype | logit }} #}
+
+{#{% for proto in collections.prototype %}
+  {{ loop.index }}: {{ proto.data.tags }} {{ proto.fileSlug }}<br>
+{% endfor %}#}

@@ -1,32 +1,84 @@
 ---
-layout: layouts/default
+layout: layouts/documentation
 theme:
   name: prism-xonokai
 permalink: docs/{{ page.fileSlug | lower }}/
 ---
+
 {%- import 'components/all.njk' as components -%}
 
-<main>
-  <h1>{{ page.fileSlug | lower }}</h1>
+<main class="t-docs">
+  <aside>
+   {#  <h2>Called with...</h2>
+    <p>
+      <code>
+        {% raw %} {{ {% endraw %}
+        components.{{ page.fileSlug }}(<i>parameters</i>)
+        {% raw %} }} {% endraw %}
+      </code>
+    </p>
+    #}
+    
+    <h2>YAML Parameters</h2>
+    <p>Use the following keys in course content (<code>.md</code>) files to populate the {{ page.fileSlug | title }} component:</p>
+    <ul>
+    {% for param, info in params %}
+      <li>
+        <code>{{ param }}</code>:
+        <ul>
+          {% for item, details in info %}
+            <li>
+              <code>{{ item }}</code>: {{ details }}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
+    
+{% highlight "yaml" %}
+---
+{% for param, info in params %}
+{% if param != 'top-level' %}
+{{ param }}:
+{% endif %}
+{% for item, details in info %}
+  {{ item }}: {{ details }}
 
-  <ul>
-  {% for param in params %}
-    <li>{{ param }}</li>
-  {% endfor %}
-  </ul>
+{% endfor %}
+{% endfor %}
+---
+{% endhighlight %}
+  </aside>
 
-  <h2>Description</h2>
-  {{ content | safe }}
-  
-  {% if components[page.fileSlug] %}
-    <h2>Code</h2>
-    {% highlight "html" %}
-      {{ getContext(components, page.fileSlug)() }}
-    {% endhighlight %}
+  {# TODO: Article? #}
+  <article>
+    <h2>Description</h2>
+    {{ content | safe }}
+    
+    {% if components[page.fileSlug] %}
+      <h2>Rendered Code</h2>
 
-    <h2>Example</h2>
-    {{ components[page.fileSlug]() }}
-  {% else %}
-    <p>No macro defined for {{ page.fileSlug }}!</p>
-  {% endif %}
+{% highlight "html" %}
+{{ getContext(components, page.fileSlug)(slideData=params.subInc.slides) }}
+{% endhighlight %}
+
+    {% else %}
+      <p>No macro defined for {{ page.fileSlug }}!</p>
+
+      {# TODO: Handle includes and/or macros? #}
+      {# {% include 'components/' + page.fileSlug + '.njk' %} #}
+    {% endif %}
+  </article>
 </main>
+
+<section class="l-code-example">
+  {# <h2>Example</h2> #}
+  <div>
+    {% if components[page.fileSlug] %}
+      {{ components[page.fileSlug](pagination=pagination) }}
+    {% else %}
+      {%- include 'components/' + page.fileSlug + '.njk' %}
+    {% endif %}
+  </div>
+</section>

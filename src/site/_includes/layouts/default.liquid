@@ -12,6 +12,9 @@
   {%- if theme %}
     <link rel="stylesheet" href="/css/themes/{{ theme.name }}.css">
   {%- endif %}
+  {%- if doc %}  
+    <link rel="stylesheet" href="https://use.typekit.net/ttj2ymc.css">
+  {%- endif -%}
 </head>
 
 {%- if tags[0] == "components" %}

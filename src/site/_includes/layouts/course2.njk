@@ -151,8 +151,13 @@
       {# Don't write out blanks #}
       <!-- blank -->
     {%- else %}
-        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
-        {%- if section.include %}
+      {% set formattedTitle = section.title | replace(' ', '-') | lower %}
+      {% set formattedTitle2 = section.title | replace(' ', '') | lower %}
+        <section id="{{ formattedTitle }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
+        {%- if section.include.type == 'on-the-web' %}
+          {{ components[formattedTitle2]() }}
+          <p>HELLO</p>
+        {%- elseif section.include %}
           {%- set inc = section.include.type | lower %}
           {%- include 'components/' + inc + '.njk' ignore missing %}
         {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}

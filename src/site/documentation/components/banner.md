@@ -1,14 +1,14 @@
 ---
 params:
-  - title
-  - copy
-  - image
-  - unit
-  - session
-  - pageNo
-  - lastpage
-  - sessionMap
+  top-level:
+    title: string
+    intro: string / markdown
+    image: JPEG / SVG
 ---
+
+All pages feature a large, full-width banner housing the page title (the ```<h1>```) and some introductory text, which should use [Markdown syntax](https://daringfireball.net/projects/markdown/syntax) when spanning more than one line.
+
+Images should be placed in the ```/images/banners/``` directory. If ```.jpg``` or ```.png``` images are used, the build system will automatically create multiple versions of the image for different screen sizes and resolutions. 
 
 The banner component overrides the basic section-level grid in order to have the text inside the overlay box align with the text on the rest of the page. Were it to simply inherit the standard layout, the left edge of the text box would be aligned to the other text creating a slightly disjointed appearance.
 
