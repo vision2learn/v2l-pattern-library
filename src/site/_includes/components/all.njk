@@ -403,7 +403,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   }
 #}
 {% macro ontheweb(data) %}
-<h2>On the webby web web</h2>
+<h2>On the web</h2>
 
 {{ data.copy | d("The following website(s) are all useful sources of information:") | markdownify | safe }}
 
@@ -416,4 +416,8 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 <p>
   <small>Knowledgepool is not responsible for the content of external sites.</small>
 </p>
+{% endmacro %}
+
+{% macro test(arg="Dan") %}
+  <h1>word, {{arg}}</h1>
 {% endmacro %}

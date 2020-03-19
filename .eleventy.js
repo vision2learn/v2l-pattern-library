@@ -7,7 +7,7 @@ module.exports = function(config) {
   let env = process.env.ELEVENTY_ENV;
 
   let njkEnv = new Nunjucks.Environment(
-    new Nunjucks.FileSystemLoader("src/site/_includes")
+    new Nunjucks.FileSystemLoader("src/site/_includes", {noCache: true})
   );
 
   config.setLibrary("njk", njkEnv);
