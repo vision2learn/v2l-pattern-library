@@ -23,6 +23,7 @@
   the next unit or we're done
 #}
 
+{%- set tilde = "" -%}
 {%- if site.env == "dotnet" -%}
   {%- set tilde = "~" -%}
 {%- endif -%}
@@ -66,10 +67,11 @@
     </ol>
   </section>
 
-  <section class="t-bg-primary">      
-    <h2>Why study {{ module.data.course | title }}?</h2>
-    {{ allcourses[module.data.course].why | markdownify | safe }}
-  </section>
+  {{ components.section({
+    title: "Why study " + module.data.course | title + "?",
+    copy: allcourses[module.data.course].why,
+    theme: "t-bg-primary"
+  }) }}
 
   <section id="goal-setting" class="t-bg-supporting2">      
     <h2>Goal Setting</h2>    
@@ -136,9 +138,10 @@
     theme: "t-bg-primary2 i-read"
   }) }}
 
-  <section class="t-bg-primary">      
-    <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
-  </section>
+  {{ components.section({
+    title: "You're Now Ready To Start Your Course. Good Luck!",
+    theme: "t-bg-primary"
+  }) }}
 {%- else %}
 
   {%- for section in module.data.sections %}
@@ -152,15 +155,15 @@
       <!-- blank -->
     {%- else %}
       
-      {% set componentName = section.title | replace(' ', '') | lower %}
+      {# {% set componentName = section.title | replace(' ', '') | lower %} #}
         
       <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
         
         {# New include stuff via components file #}
-        {% if components[componentName] %}
+        {# {% if components[componentName] %}
           <!-- NUSTYLE -->
           {{ components[componentName](section.include) }}
-        {% else %}
+        {% else %} #}
           <!-- OLDSTYLE -->
           {%- if section.include %}
 
@@ -214,9 +217,14 @@
               {# {%- set inc = section.subInc %} #}
 
               {%- set inc = section.subInc.type | lower %}
-              {%- if inc %}
+              
+              {% if inc == 'reveal'  %}
+                {# {{ components[inc](section.subInc, site.env) }} #}
+              {% endif %}
+              
+              {# {%- if inc %}
                 {%- include 'components/' + inc + '.njk' %}
-              {%- endif %}
+              {%- endif %} #}
             {%- endif %}
 
             {%- if section.copy2 %}
@@ -228,7 +236,7 @@
             {%- endif %}
           {% endif %}
           
-        {%- endif %}
+        {# {%- endif %} #}
       </section>
     {%- endif %}
   {%- endfor %}
