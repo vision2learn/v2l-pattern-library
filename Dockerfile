@@ -4,4 +4,4 @@ EXPOSE 3001
 WORKDIR /code
 RUN apt install -y graphicsmagick
 VOLUME /code
-ENTRYPOINT ["yarn", "start"]
+CMD ["yarn", "start"]
