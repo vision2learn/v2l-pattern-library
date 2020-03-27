@@ -45,14 +45,6 @@ module.exports = function(config) {
     console.log(obj);
   });
 
-  // njkEnv.addGlobal('getContext', function(name) { 
-  //   // console.log('1: ', name, '\n2: ', this.ctx[name], '\n3: ', this.ctx);
-  //   console.log('1: ', this, this === njkEnv);
-  //   console.log('2: ', njkEnv);
-  //   return true
-  //   // return (name) ? this.ctx[name] : this.ctx;
-  // });
-
   njkEnv.addGlobal('getContext', function(obj, fn) { 
     if(typeof obj[fn] === 'function') {
       return obj[fn];
