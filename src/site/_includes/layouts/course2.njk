@@ -23,6 +23,7 @@
   the next unit or we're done
 #}
 
+{# When exporting to .NET, we sometimes need to add the magic ~ to hrefs etc #}
 {%- set tilde = "" -%}
 {%- if site.env == "dotnet" -%}
   {%- set tilde = "~" -%}
@@ -45,6 +46,7 @@
 {%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
 {%- if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+  {# First page of the first session of the first unit #}
   <section>      
     <h2>Your learning goals</h2>
     
@@ -213,18 +215,17 @@
             {%- endif %}
 
             {%- if section.subInc %}
-              {# Is this a basic or more complex include type? #}
+              {# Is this a basic or more comp lex include type? #}
               {# {%- set inc = section.subInc %} #}
 
               {%- set inc = section.subInc.type | lower %}
               
               {% if inc == 'reveal'  %}
-                {# {{ components[inc](section.subInc, site.env) }} #}
-              {% endif %}
-              
-              {# {%- if inc %}
+                {{ components[inc](section.subInc, site.env) }}
+              {%- elseif inc %}
                 {%- include 'components/' + inc + '.njk' %}
-              {%- endif %} #}
+              {%- endif %}
+              
             {%- endif %}
 
             {%- if section.copy2 %}

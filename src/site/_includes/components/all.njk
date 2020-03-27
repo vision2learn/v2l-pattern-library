@@ -110,20 +110,24 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 #}
 
 {%- macro accordion(data, env) %}
-<toggle-section open="false">
-  {%- if data.img %}
-    {{ media2({
-      title: data.title,
-      copy: data.copy,
-      media: {
-        ref: data.img
-      }
-    }, env) }}
-  {%- else %}
-    <h3>{{ data.title | d("Title") }}</h3>
-    {{ data.copy | markdownify | safe }}
-  {%- endif %}
-</toggle-section>
+{# <div class="toggle-group">
+</div> #}
+  {%- for accordion in data %}
+    <toggle-section open="false">
+      {%- if accordion.img %}
+        {{ media2({
+          title: accordion.title,
+          copy: accordion.copy,
+          media: {
+            ref: accordion.img
+          }
+        }, env) }}
+      {%- else %}
+        <h3>{{ accordion.title | d("Title") }}</h3>
+        {{ accordion.copy | markdownify | safe }}
+      {%- endif %}
+    </toggle-section>
+  {%- endfor %}
 {%- endmacro %}
 
 {# --- 6. Banner --- #}
@@ -170,27 +174,36 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
   <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
     {%- if section.layout %}
-      {{ media(title=section.title, copy=section.copy, img=section.img, video=section.video, activity=section.activty, think=section.think, layout=section.layout) }}
+      {# {{ media2({
+          title: section.title, 
+          copy: section.copy, 
+          layout: section.layout,
+          media: {
+            ref: "",
+            link: ""
+          },
+          
+      ) }} #}
     {%- else %}
       <h2>{{ section.title }}</h2>
 
       {%- if section.copy %}
-          {{ section.copy | markdownify | safe }}
-        {%- endif %}
+        {{ section.copy | markdownify | safe }}
+      {%- endif %}
         
-        {%- if section.subInc %}
-          {# Is this a basic or more complex include type? #}
-          {# {%- set inc = section.subInc %} #}
+      {%- if section.subInc %}
+        {# Is this a basic or more complex include type? #}
+        {# {%- set inc = section.subInc %} #}
 
-          {%- set inc = section.subInc.type %}
-          
-          {%- include 'components/' + inc + '.njk' %}
+        {%- set inc = section.subInc.type %}
+        
+        {%- include 'components/' + inc + '.njk' %}
 
-        {%- endif %}
+      {%- endif %}
 
-        {%- if section.copy2 %}
-          {{ section.copy2 | markdownify | safe }}
-        {%- endif %}
+      {%- if section.copy2 %}
+        {{ section.copy2 | markdownify | safe }}
+      {%- endif %}
 
     {%- endif %}
     
@@ -378,46 +391,56 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
 {%- endmacro %}
 
+{% macro one() %}
+  <p>One</p>
+{% endmacro %}
+
+{# 
+{% macro two %}
+{% endmacro %}
+
+{% macro three %}
+{% endmacro %}
+
+{% macro four %}
+{% endmacro %}
+
+{% macro five %}
+{% endmacro %} 
+#}
+
+
 {# 10. Reveal (show/hide) #}
 
 {%- macro reveal(data, env) %}
-  <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
-    
-    <div class="c-reveal-block__desc">
-      <h3 aria-hidden="true">{{ data.heading | capitalize | d('Panel heading')}}</h3>
-      {{ data.copy | markdownify | safe | d('Panel copy')}}
-    </div>
-  </li>
+
+  {% if data.content %}
+    {% set revealdata = data.content %}
+  {% else %}
+    {% set revealdata = defaultdata.courseFeatures %}
+    {% set subpath = "course-features/" %}
+  {% endif %}
+
+  <ul class="l-icon-grid {%- if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{%- endif %}">
+    {%- for revealItem in revealdata %}
+      <li class="c-reveal-block">
+        <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ revealItem.img | lower }}" alt="{{ revealItem.title | d('Panel heading') }}">
+      
+        <div class="c-reveal-block__desc">
+          <h3 aria-hidden="true">{{ revealItem.title | capitalize | d('Panel heading')}}</h3>
+          {{ revealItem.copy | markdownify | safe | d('Panel copy')}}
+        </div>
+      </li>
+    {# {{ reveal({
+        heading: revealItem.title, 
+        copy: revealItem.copy, 
+        image: subpath + revealItem.img
+      }, site.env) }} #}
+    {%- endfor %}
+  </ul>
 {%- endmacro %}
-
-
-
-{# On the web #}
-{# 
-  Data = {
-    copy: string,
-    links: {
-      text: link
-    }
-  }
-#}
-{% macro ontheweb(data) %}
-<h2>On the web</h2>
-
-{{ data.copy | d("The following website(s) are all useful sources of information:") | markdownify | safe }}
-
-<ul>
-  {%- for text, link in data.links %}
-    <li><a href="{{ link }}" target="_blank" rel="noopener">{{ text }} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M22 14.5v5c0 2.484-2.016 4.5-4.5 4.5h-13A4.502 4.502 0 0 1 0 19.5v-13C0 4.016 2.016 2 4.5 2h11c.281 0 .5.219.5.5v1c0 .281-.219.5-.5.5h-11A2.507 2.507 0 0 0 2 6.5v13C2 20.875 3.125 22 4.5 22h13c1.375 0 2.5-1.125 2.5-2.5v-5c0-.281.219-.5.5-.5h1c.281 0 .5.219.5.5zM28 1v8c0 .547-.453 1-1 1a.99.99 0 0 1-.703-.297l-2.75-2.75L13.36 17.14c-.094.094-.234.156-.359.156s-.266-.063-.359-.156l-1.781-1.781c-.094-.094-.156-.234-.156-.359s.063-.266.156-.359L21.048 4.454l-2.75-2.75a.996.996 0 0 1-.297-.703c0-.547.453-1 1-1h8c.547 0 1 .453 1 1z"/></svg></a></li>
-  {%- endfor %}
-</ul>
-
-<p>
-  <small>Knowledgepool is not responsible for the content of external sites.</small>
-</p>
-{% endmacro %}
 
 {% macro test(arg="Dan") %}
   <h1>word, {{arg}}</h1>
+  <p>ENV: {{ environ }}</p>
 {% endmacro %}

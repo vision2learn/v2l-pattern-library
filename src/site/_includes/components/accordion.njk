@@ -1,9 +1,9 @@
-{%- import "components/all.njk" as components %}
+{%- from "components/all.njk" import accordion as accordion %}
 
 <div class="toggle-group">
-{%- for reveal in section.subInc.content %}
-  {{ components.accordion(reveal, site.env) }}
-{%- endfor %}
+{# {%- for reveal in section.subInc.content %} #}
+  {{ accordion(section.subInc.content, site.env) }}
+{# {%- endfor %} #}
 </div>
 
 {# title=reveal.title, copy=reveal.copy, img=reveal.img #}

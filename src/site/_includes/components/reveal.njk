@@ -1,4 +1,4 @@
-{%- import "components/all.njk" as components %}
+{%- from "components/all.njk" import reveal as reveal %}
 
 {% set subpath = "" %}
 
@@ -11,7 +11,7 @@
 
 <ul class="l-icon-grid {%- if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{%- endif %}">
 {%- for revealItem in revealdata %}
-  {{ components.reveal({
+  {{ reveal({
       heading: revealItem.title, 
       copy: revealItem.copy, 
       image: subpath + revealItem.img

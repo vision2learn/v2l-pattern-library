@@ -1,4 +1,4 @@
-{%- import "components/all.njk" as components %}
+{%- from "components/all.njk" import unitOverviewBtn as overviewBtn %}
 {%- import "course-vars.njk" as courseVars %}
 {%- set courseData = allcourses[module.data.course] %}
 
@@ -12,7 +12,7 @@
     <ul class="l-btn-group t-bg-primary">
       {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}
         <li>
-          {{ components.unitOverviewBtn(loop.index) }}
+          {{ overviewBtn(loop.index) }}
         </li>
       {%- endfor %}
     </ul>

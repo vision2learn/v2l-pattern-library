@@ -1,5 +1,6 @@
-{%- import "components/all.njk" as components %}
-{{ components.media2({
+{%- from "components/all.njk" import media2 as media %}
+
+{{ media({
     title: "Time to think",
     copy: section.include.copy,
     layout: "media-half",

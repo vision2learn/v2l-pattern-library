@@ -313,5 +313,44 @@
         }
       }
     ]
+  },
+  "test": {
+    "level": 2,
+    "shortcode": "tst",
+    "why": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio blanditiis tenetur dolorem doloremque earum, sit veritatis maiores aspernatur voluptate ab, quia ea dignissimos laborum quos! Blanditiis recusandae sequi vitae modi.",
+    "goals": {
+      "will": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, voluptate?"
+      ],
+      "can": [
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore deserunt fugit aliquam soluta.",
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum excepturi quas eligendi eaque! Reprehenderit, perferendis fugit?"
+      ]
+    },
+    "units": [
+      {
+        "title": "Test unit",
+        "sessions": {
+          "A test session": [
+            "Test page one",
+            "Test page two",
+            "Test page three",
+            "Test page four"
+          ],
+          "A second test session": [
+            "Test page one",
+            "Test page two",
+            "Test page three",
+            "Test page four"
+          ],
+          "A third test session": [
+            "Test page one",
+            "Test page two",
+            "Test page three",
+            "Test page four"
+          ]
+        }
+      }
+    ]
   }
 }
