@@ -1,4 +1,4 @@
-{%- import 'components/all.njk' as components %}
+{%- from 'components/all.njk' import img as cImg %}
 
 {%- if module.data.banner %}
   {%- set bannerImg = '/images/banners/' + module.data.banner %}
@@ -61,6 +61,6 @@
   {%- if bannerImg.endsWith(".svg") %}
     <img src="{{ '~' if site.env === 'dotnet' }}{{ bannerImg | d('banner.img') | lower }}" class="c-banner__img" alt="">
   {%- else %}
-    {{ components.img(file=bannerImg, class="c-banner__img", env=site.env)}}
+    {{ cImg(file=bannerImg, class="c-banner__img", env=site.env)}}
   {%- endif %}
 </section>

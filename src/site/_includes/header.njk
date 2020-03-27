@@ -1,8 +1,7 @@
 {%- import "course-vars.njk" as courseVars %}
-{%- import 'components/all.njk' as components %}
+{%- from 'components/all.njk' import pagination as cPagination %}
 
 {%- set courseData = allcourses[module.data.course] %}
-
 <header class="c-main-head">
   <div class="l-head">
     <a href="/" class="v2l-logo" aria-label="Vision 2 Learn">
@@ -13,8 +12,11 @@
       <span>Unit {{ module.data.unit | d("X")}} of {{ courseData.units.length }}: {{ courseVars.getUnit(module.data, courseData) | d("Unit Name") | title }}</span>
       <span class="c-main-head__session">Session {{ module.data.session | d("X")}} of {{ courseVars.getSessionSize(module.data, courseData) }}: {{ courseVars.getSessionName(module.data, courseData) | d("Session Name") | title }}</span>
     </p>
-    
-    {{ components.pagination(pagination=pagination, page=page) }}
+    <!--
+      A: {{ pagination.items | length }}
+      B: {{ collections.ln-l2-u1-s1 | length }}
+    -->
+    {{ cPagination(pagination=pagination, page=page) }}
     
     <ul class="c-main-head__sessions" aria-label="sessions in unit {{ module.data.unit | d('X') }}">
       {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}

@@ -18,7 +18,7 @@
 
 {% set environ = site.env %}
 
-{%- macro pagination(class, pagination, page, demo=false) %}
+{%- macro pagination(class, pagination, page) %}
   <nav class="{{ class if class }}" data-demo={{demo}}>
     <ol aria-label="Pages in this session" role="list" class="c-pagination">
       {%- if pagination.previousPageHref -%}
