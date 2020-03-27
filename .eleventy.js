@@ -76,6 +76,8 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");
+  config.addPassthroughCopy("./src/site/server.cert");
+  config.addPassthroughCopy("./src/site/server.key");
   // config.addPassthroughCopy("./src/site/js/interactive");
 
   // make the seed target act like prod

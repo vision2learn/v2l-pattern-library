@@ -7,3 +7,5 @@ src/site/_data/debug.js
 src/site/debug.liquid
 .DS_Store
 **/raw-content
+*.crt
+*.key
