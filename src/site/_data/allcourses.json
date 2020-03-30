@@ -313,5 +313,95 @@
         }
       }
     ]
+  },
+  "essential it skills level 1": {
+    "level": 1,
+    "shortcode": "it1",
+    "why": "By working through this course, you will cover the following criteria of your Level 1 Certificate in Essentials IT skills qualification:",
+    "goals": {
+      "will": [
+        "Understand something"
+      ],
+      "can": [
+        "Describe ",
+        "Explain "
+      ]
+    },
+    "units": [
+      {
+        "title": "Word Processing Software (Level 1)",
+        "sessions": {
+          "Working with documents": [
+            "Creating new documents",
+            "Working with text, numbers and symbols",
+            "Saving and Printing"
+          ],
+          "Getting to grips with word processing": [
+            "Page layout",
+            "Checking your work",
+            "Using Tables",
+            "Scales of organisation",
+            "Headers and footers",
+            "etc"
+          ],
+          "Formatting your documents": [
+            "Typeface and font size",
+            "Amending etc",
+            "Common editing tools",
+            "Images"
+          ]
+        }
+      },
+      {
+        "title": "Spreadsheet Software",
+        "sessions": {
+          "Working with spreadsheet data": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Using formulae and functions": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Working with graphs": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Formatting your spreadsheet": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Saving and printing your work": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ] 
+        }
+      }
+    ]
   }
 }
