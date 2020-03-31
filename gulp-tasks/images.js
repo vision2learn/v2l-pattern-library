@@ -12,7 +12,7 @@ var resizeImageTasks = [];
 [400,600,800,1000,2000].forEach(function(size) {
   var resizeImageTask = 'resize_' + size;
   gulp.task(resizeImageTask, function(done) {
-    gulp.src(project.buildSrc + '/site/images/**/*.jpg')
+    gulp.src([project.buildSrc + '/site/images/**/*.jpg',project.buildSrc + '/site/images/**/*.png'])
     .pipe(parallel(
       imageResize({ width : size }),
       os.cpus().length
