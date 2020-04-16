@@ -1770,7 +1770,7 @@ lib.ssMetadata = [];
 	this.shape_149.setTransform(141.1009,139.0236,1.2251,1.225);
 
 	this.shape_150 = new cjs.Shape();
-	this.shape_150.graphics.f().s("#0F5CA9").ss(0.3).p("AADAVIgFAAIAAgeIAFAAgAADgOIgFAAIAAgGIAFAAg");
+	this.shape_150.graphics.f().s("#0F5CA9").ss(0.3).p("AADgOIgFAAIAAgGIAFAAgAADAVIgFAAIAAgeIAFAAg");
 	this.shape_150.setTransform(622.357,101.3499,1.2251,1.225);
 
 	this.shape_151 = new cjs.Shape();
@@ -2792,7 +2792,7 @@ p.nominalBounds = new cjs.Rectangle(-32.3,-17.3,65,34.7);
 
 
 // stage content:
-(lib.it1_u1_s1_p3_toolbar1 = function(mode,startPosition,loop) {
+(lib.it1_u1_s1_p5_toolbar1 = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
