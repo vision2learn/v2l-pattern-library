@@ -13,7 +13,7 @@ gulp.task('css', function() {
     })
     .on('error', sass.logError))
     .pipe(autoprefixer({
-      browsers: ['last 2 versions']
+      overrideBrowserslist: ['last 2 versions']
     }))
     .pipe(gulp.dest(`${project.buildDest}/css`));
 });
