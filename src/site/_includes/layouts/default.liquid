@@ -18,13 +18,62 @@
   {%- assign body-class = "component" %}
 {%- endif %}
 
-<body class="{{ body-class }}">
+<body class="{{ body-class }}" data-v2l-env="{{ site.env }}">
   <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
   {{ content }}
 
   <script>
-    // detect ES6 support
     (function() {
+
+      // animate libraries
+      // TODO: Implement https://www.html5rocks.com/en/tutorials/speed/script-loading/
+      if(document.querySelector('.c-interactive')) {
+        
+        var fileRef;
+
+        var createJS = document.createElement("script");
+        createJS.src = "https://code.createjs.com/createjs-2015.11.26.min.js";
+        createJS.async = false;
+        document.head.appendChild(createJS);
+
+        var canvases = document.querySelectorAll('.c-interactive');
+        
+        var initJS = document.createElement("script");
+        initJS.async = false;
+        initJS.addEventListener('load', function() {
+
+          for(var i = 0; i < canvases.length; i++) {
+            fileRef = document.querySelectorAll('[data-v2l-comp]')[i].dataset.v2lInteractive;
+            var interactiveJS = document.createElement("script");
+            
+            interactiveJS.addEventListener('load', function(){      
+              try {  
+                
+                AdobeAn.length;
+                var canvases = document.querySelectorAll('.c-interactive');
+
+                for(var i = 0; i < canvases.length; i++) {
+                  var comp = document.querySelectorAll('[data-v2l-comp]')[i].dataset.v2lComp;
+                  init(i, comp, fileRef);
+                }
+              }
+              catch(e) {
+                document.querySelectorAll('[data-v2l-comp]')[i].innerHTML = "<p><strong>There was a problem loading this content. Please reload your browser and try again. If the problem persists, please contact support.</strong></p>";
+                console.error("Problem loading Adobe Animate libraries: ", e);
+              }
+            });
+
+            interactiveJS.src = "/js/interactive/" + fileRef + ".js";
+            interactiveJS.async = false;
+            document.head.appendChild(interactiveJS);
+          }
+        });
+
+        initJS.src = "/js/interactive/init.js";
+        document.head.appendChild(initJS);
+      }
+
+      // detect ES6 support, then load the main script file if OK
       try {
         new Function("(a = 0) => a");
         

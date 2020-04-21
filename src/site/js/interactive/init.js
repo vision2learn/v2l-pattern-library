@@ -1,10 +1,11 @@
-var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation, v2l_fileToLoad;
 // inc
-function init(canvasID, compID) {
+function init(canvasID, compID, fileRef) {
 	
 	canvas = document.querySelectorAll(".c-interactive")[canvasID];
 	anim_container = document.querySelectorAll("[data-v2l-id=animation_container]")[canvasID];
 	dom_overlay_container = document.querySelectorAll("[data-v2l-id=dom_overlay_container]")[canvasID];
+	v2l_fileToLoad = fileRef;
 	
 	
 	var comp=AdobeAn.getComposition(compID);
@@ -15,7 +16,16 @@ function init(canvasID, compID) {
 		handleComplete({},comp);
 	}
 	else {
-		var loader = new createjs.LoadQueue(false, {{ '"@ViewBag.ApplicationPath/images/"' | safe if site.env === "dotnet" else '"/images/"' | safe }});
+		// get the build env
+		var env = document.querySelector('body').dataset.v2lEnv;
+
+		if(env === 'dev') {
+			var loader = new createjs.LoadQueue(false, "/images/");
+		}
+		else {
+			var loader = new createjs.LoadQueue(false, "@ViewBag.ApplicationPath/images/");
+		}
+
 		loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
 		loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
   	loader.loadManifest(lib.properties.manifest);
@@ -36,7 +46,10 @@ function handleComplete(evt,comp) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 
-	exportRoot = new lib.{{ section.interactive.file | replace('/', '_') }}();
+	// var fileRegex = ///gi;
+	var file = v2l_fileToLoad.replace('/', '_');
+	
+	exportRoot = new lib[file]();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
