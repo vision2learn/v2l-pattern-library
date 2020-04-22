@@ -320,7 +320,7 @@
     "why": "Essential IT Skills will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific elements of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills as well as how to keep yourself and your data secure.",
     "goals": {
       "will": [
-        "DOESNT THIS NEED TO BE FOR THE WHOLE UNIT? - IF SO IT NEEDS TO BE AN ACCORDION. Enter, edit and combine text and other information accurately within word processing documents",
+        "Enter, edit and combine text and other information accurately within word processing documents",
         "Structure information within word processing documents",
         "Use word processing software tools to format and present documents"
       ],
@@ -414,18 +414,19 @@
   "it user skills level 2": {
     "level": 2,
     "shortcode": "it2",
-    "why": "text.",
+    "why": "IT User Skills Level 2 will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific element of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills.",
     "goals": {
       "will": [
-        "one",
-        "two",
-        "three"
+        "Enter and combine text and other information accurately within word processing documents"
       ],
       "can": [
-        "Identify ",
-        "two",
-        "three",
-        "four"
+        "Identify what types of information are needed in documents",
+        "Use appropriate techniques to enter text and other information accurately and efficiently",
+        "Select and use appropriate templates for different purposes",
+        "Identify when and how to combine and merge information from other software or other documents",
+        "Select and use a range of editing tools to amend document content",
+        "Combine or merge information within a document from a range of sources",
+        "Store and retrieve document and template files effectively, in line with local guidelines and conventions where available"
       ]
     },
     "units": [
@@ -433,23 +434,23 @@
         "title": "Word Processing Software",
         "sessions": {
           "Welcome": [
-            "Introduction",
-            "types of information",
+            "Using Microsoft Office",
+            "Word processing software",
             "Inputting text and keyboard shortcuts"
           ],
-          "Managing your documents": [
+          "Managing documents": [
             "File management",
             "Protecting files",
             "Archiving",
             "Printing"
           ],
-          "Editing tools": [
+          "Word processing editing tools": [
             "one",
             "two",
             "three",
             "four"
           ],
-          "Four": [
+          "Structure and layout": [
             "one",
             "two",
             "three",
@@ -458,7 +459,15 @@
             "six",
             "seven"
           ],
-          "Five": [
+          "Combining information": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six"
+          ],
+          "Document quality control": [
             "one",
             "two",
             "three",
