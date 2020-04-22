@@ -16,7 +16,7 @@ body {
   {%- endfor %}
 </ul> {%- endcomment %}
 
-{%- assign ids = "it-l1-u1-s1", "it-l1-u1-s2", "it-l2-u1-s1", "it-l2-u1-s2", "it-l2-u1-s3",  | split: ', '%}
+{%- assign ids = "it-l2-u1-s1", "it-l2-u1-s2", "it-l2-u1-s3"  | split: ', '%}
 
 {%- for id in ids %}
   {%- include 'logic-pagination', mod: id %}

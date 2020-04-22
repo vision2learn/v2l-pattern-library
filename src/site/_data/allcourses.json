@@ -410,5 +410,114 @@
         }
       }
     ]
+  },
+  "it user skills level 2": {
+    "level": 2,
+    "shortcode": "it2",
+    "why": "text.",
+    "goals": {
+      "will": [
+        "one",
+        "two",
+        "three"
+      ],
+      "can": [
+        "Identify ",
+        "two",
+        "three",
+        "four"
+      ]
+    },
+    "units": [
+      {
+        "title": "Word Processing Software",
+        "sessions": {
+          "Welcome": [
+            "Introduction",
+            "types of information",
+            "Inputting text and keyboard shortcuts"
+          ],
+          "Managing your documents": [
+            "File management",
+            "Protecting files",
+            "Archiving",
+            "Printing"
+          ],
+          "Editing tools": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "Four": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Five": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six"
+          ]
+        }
+      },
+      {
+        "title": "Presentation software",
+        "sessions": {
+          "one": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "two": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "three": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Four": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Five": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ] 
+        }
+      }
+    ]
   }
 }
