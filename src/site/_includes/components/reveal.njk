@@ -1,20 +1,27 @@
 {%- import "components/all.njk" as components %}
 
-{% set subpath = "" %}
-
-{% if section.subInc.content %}
-  {% set revealdata = section.subInc.content %}
-{% else %}
-  {% set revealdata = defaultdata.courseFeatures %}
-  {% set subpath = "course-features/" %}
-{% endif %}
-
 <ul class="l-icon-grid {%- if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{%- endif %}">
-{%- for revealItem in revealdata %}
-  {{ components.reveal({
-      heading: revealItem.title, 
-      copy: revealItem.copy, 
-      image: subpath + revealItem.img
-    }, site.env) }}
-{%- endfor %}
+  
+  {% if section.subInc.content %}
+    {% set revealdata = section.subInc.content %}
+
+    {%- for revealItem in revealdata %}
+      {{ components.reveal({
+          heading: revealItem.title, 
+          copy: revealItem.copy, 
+          image: revealItem.img
+        }, site.env) }}
+    {%- endfor %}
+  {% else %}
+    {% set revealdata = defaultdata.courseFeatures %}
+    
+    {%- for key, val in revealdata %}
+      {{ components.reveal({
+          heading: key, 
+          copy: val.copy, 
+          image: "course-features/" + val.img
+        }, site.env) }}
+    {%- endfor %}
+    
+  {% endif %}
 </ul>
