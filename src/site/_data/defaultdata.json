@@ -7,53 +7,44 @@
       "id": "Course ID"
     }
   },
-  "courseFeatures": [
-    {
-      "title": "on the web",
+  "courseFeatures": {
+    "on the web": {
       "copy": "See links to useful websites and videos that can help you to take your learning further.",
       "img": "web2.svg"
     },
-    {
-      "title": "quick quiz",
+    "quick quiz": {
       "copy": "Quick quizzes are a great way to test your knowledge.",
       "img": "quiz2.svg"
     },
-    {
-      "title": "summary",
+    "summary": {
       "copy": "Read key summaries of content covered so far in the course materials.",
       "img": "summary2.svg"
     },
-    {
-      "title": "stretch",
+    "stretch": {
       "copy": "These optional activities help you to expand your knowledge and explore the subject further.",
       "img": "stretch2.svg"
     },
-    {
-      "title": "key point",
+    "key point": {
       "copy": "Use these to reflect on how you will answer the Assessment questions.",
       "img": "keypoint2.svg"
     },
-    {
-      "title": "time to think",
+    "time to think": {
       "copy": "Note your ideas in the box provided. Use them to help answer Assessment questions.  (You can save your Time to think text to your journal).",
       "img": "think2.svg"
     },
-    {
-      "title": "read more about it",
+    "read more about it": {
       "copy": "Learn about a topic in even greater detail.",
       "img": "read2.svg"
     },
-    {
-      "title": "watch",
+    "watch": {
       "copy": "Watch a video to learn more about a topic",
       "img": "watch2.svg"
     },
-    {
-      "title": "case study",
+    "case study": {
       "copy": "Read, listen to, or interact with case studies throughout the course to explore examples in context.",
       "img": "CaseStudy2.svg"
     }
-  ],
+  },
   "unitOverviewTabs": {
     "key": "val"
   },
