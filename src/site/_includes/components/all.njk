@@ -222,6 +222,8 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set link = '/student-dotnet/group-forum.aspx' -%}
   {%- elseif data.media.link -%}
     {%- set link = data.media.link -%}
+  {%- elseif data.link -%}
+    {%- set link = data.link -%}
   {%- endif -%}
 
   {%- set  mediaObj = "" + data.media.ref | safe | striptags() %}
