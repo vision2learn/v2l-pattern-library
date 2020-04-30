@@ -45,10 +45,38 @@ var Toolkit = (function () {
     return document.createElement(el);
   }
 
+  // Check localStorage is available
+  // See https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+  function storageAvailable(type) {
+    var storage;
+    try {
+      storage = window[type];
+      var x = '__storage_test__';
+      storage.setItem(x, x);
+      storage.removeItem(x);
+      return true;
+    }
+    catch(e) {
+      return e instanceof DOMException && (
+        // everything except Firefox
+        e.code === 22 ||
+        // Firefox
+        e.code === 1014 ||
+        // test name field too, because code might not be present
+        // everything except Firefox
+        e.name === 'QuotaExceededError' ||
+        // Firefox
+        e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
+        // acknowledge QuotaExceededError only if there's something already stored
+        (storage && storage.length !== 0);
+    }
+  }
+
   toolkit = {
     toggleAttr: toggleAttr,
     addHandler: addHandler,
-    createElement: createElement
+    createElement: createElement,
+    storageAvailable: storageAvailable
   };
 
   return toolkit;
@@ -550,35 +578,10 @@ var Toolkit = (function () {
 // LocalStorage (Time to Think)
 (function () {
 
-  // Check localStorage is available
-  // See https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
-  function storageAvailable(type) {
-    var storage;
-    try {
-      storage = window[type];
-      var x = '__storage_test__';
-      storage.setItem(x, x);
-      storage.removeItem(x);
-      return true;
-    }
-    catch(e) {
-      return e instanceof DOMException && (
-        // everything except Firefox
-        e.code === 22 ||
-        // Firefox
-        e.code === 1014 ||
-        // test name field too, because code might not be present
-        // everything except Firefox
-        e.name === 'QuotaExceededError' ||
-        // Firefox
-        e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
-        // acknowledge QuotaExceededError only if there's something already stored
-        (storage && storage.length !== 0);
-    }
-  }
+  
 
   // TODO: Re-enable later
-  if(storageAvailable('localStorage') && 1 === 2) {
+  if(Toolkit.storageAvailable('localStorage') && 1 === 2) {
 
     // is there a Time to Think component on the page?
     const timeToThink = document.querySelectorAll('.js-think');
@@ -748,4 +751,95 @@ var Toolkit = (function () {
         $(this).addClass('js-form-error');
     });
   }
+})();
+  
+// Mac/PC toggle switch
+(function(){
+  // check we're in IT?
+  const course = document.getElementById('main').dataset.v2lTags;
+  
+  // don't go any further if we're not in IT or localStorage isn't available
+  if(course !== 'it' || !Toolkit.storageAvailable('localStorage')) {
+    return false;
+  }
+
+  const toggleSwitch = `
+        <section>
+          <h2 id='formTitle'>Choose your operating system</h2>
+          <p>
+            You can choose to view PC or Mac-specific videos and course content.
+          </p>
+          <form action="" id="switcher">
+            <fieldset>
+              <legend>Mac or PC?</legend>
+              <div class="c-toggle-btn" role="presentation">
+                <div role="presentation">
+                  <input type="radio" name="switcher" value="pc" id="switcher_pc" aria-label="PC" checked> <label for="switcher_pc" role="presentation"><b role="presentation">PC</b></label>
+                </div>
+                <div role="presentation">
+                  <input type="radio" name="switcher" value="mac" id="switcher_mac" aria-label="Mac"> <label for="switcher_mac" role="presentation"><b role="presentation">Mac</b></label>
+                </div>
+              </div>
+              <input type="checkbox" name="switcher_pref" id="switcher_pref" checked> <label for="switcher_pref"> Remember my preference</label>
+              <button>Submit preference</button>
+            </fieldset>
+          </form>
+        <section>
+      `;
+      
+  let storage = window.localStorage;
+  const switchKey = "hello-im-a-mac";  
+  const videos = document.querySelectorAll('[src$=".mp4"]');
+  let baseVidSrc = [];
+
+  // get the base file name before modding 
+  // TODO: THIS WON'T WORK IF DEFAULT IS _pc!!
+  videos.forEach(function(video) {
+    baseVidSrc.push(video.src.split('.')[0]);
+  });
+  
+  // check for top-level key or create it
+  if(!storage.getItem(switchKey)) {
+    // show the Mac/PC toggle after the baner
+    const banner = document.querySelector('.c-banner');
+    banner.insertAdjacentHTML('afterend', toggleSwitch);
+
+    // handle form submission
+    const switchForm = document.getElementById('switcher');
+
+    switchForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      new FormData(switchForm);
+    });
+
+    switchForm.addEventListener('formdata', (e) => {
+      const data = e.formData;
+      const save = data.get('switcher_pref');
+      const macOrPc = data.get('switcher');
+      
+      urlSwitch(macOrPc);
+
+      if(save === 'on') {
+        storage.setItem(switchKey, data.get('switcher'));
+      }
+      else {
+        storage.removeItem(switchKey);
+      }
+    });
+  }
+  else {
+    urlSwitch(storage.getItem(switchKey));
+  }
+      
+  
+  
+  function urlSwitch(urlMod) {
+    videos.forEach(function(video, index) {
+      
+      
+      video.src = `${baseVidSrc[index]}_${urlMod}.${video.src.split('.')[1]}`;
+    });
+  }
+
+  // storage.removeItem(switchKey); // DEBUG!!!!
 })();
