@@ -984,3 +984,107 @@ h2.toggle-section::before {
     }
   }
 }
+
+.c-toggle-btn {
+  --toggle-height: 40px;
+  --button-height: calc(var(--toggle-height) - 10px);
+  background: hsl(200, 80, 50);
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1.8rem;
+  height: var(--toggle-height);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  padding: 0 20px;
+  box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,.3);
+  cursor: pointer;
+  
+  
+  label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  
+  > div {
+    display: inline-block;
+    flex: 1;
+    text-align: right;
+  }
+  
+  [type='radio'] {
+    position: absolute;
+    display: block;
+    top: -2px;
+    left: -2px;
+    margin: 0;
+    opacity: 0;
+    
+   
+    
+    + label > b {
+      opacity: 0;
+      font-weight: normal;
+      transition: opacity .3s ease-in-out;
+      flex: 1;
+    }
+    
+    &:checked {
+      + label {
+        z-index: 0
+      }
+      
+      + label > b {
+        opacity: 1;
+      }
+    }
+  }
+  
+  [type='radio']:hover,
+  [type='radio']:focus {
+    + label {
+      box-shadow: 0 0 5px 1px hsla(60, 50, 50, .8);
+      border-radius: 50px;
+    }
+  }
+  
+  > div:first-of-type {
+      text-align: left;
+    
+      [type='radio'] {
+      
+        
+        + label::before {
+        
+            position: absolute;
+            content: '';
+            display: block;
+            background: white;
+            top: calc((60px - 50px) / 2);
+            left: 5px;
+            border-radius: 50px;
+            width: var(--button-height);
+            height: var(--button-height);
+            box-shadow: 0 0 5px 1px rgba(0,0,0,.4);
+            transition: left .3s ease-in-out;
+
+        }
+    
+        &:checked {
+          + label::before {
+            left: calc(100% - (var(--button-height) + 5px));
+          }
+        }
+    }
+  }
+}
