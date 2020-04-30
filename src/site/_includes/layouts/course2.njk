@@ -343,7 +343,6 @@
     {% endif %}
     <section>
       <h2>Course features </h2>
-      
       {%- if not module.data.courseFeatures -%}
         {%- include "components/reveal.njk" %}
       {% else %}
@@ -352,8 +351,8 @@
           {%- for feature in module.data.courseFeatures %}
             {{ components.reveal({
                 heading: feature, 
-                copy: defaultdata.courseFeatures2[feature].copy, 
-                image: "course-features/" + defaultdata.courseFeatures2[feature].img
+                copy: defaultdata.courseFeatures[feature].copy, 
+                image: "course-features/" + defaultdata.courseFeatures[feature].img
             }, site.env) }}
           {%- endfor %}
         </ul>
