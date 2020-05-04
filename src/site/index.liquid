@@ -6,15 +6,19 @@ body {
   color: darkgrey;
 }
 </style>
-{%- comment %} 
-<h2>Components.</h2>
+
+<h2>Courses</h2>
 <ul>
-  {%- for item in collections.docs %}
-    <li>
-      <a href="{{ item.url }}" {%- if item.data.core %}data-v2l-patterngroup="core"{%- endif %}>{{ item.fileSlug | capitalize | replace: '-', ' '}}</a>
-    </li>
-  {%- endfor %}
-</ul> {%- endcomment %}
+  <li>
+    <a href="/courses/lean-management/unit-1/session-1/1/">Lean</a>
+  </li>
+  <li>
+    <a href="/courses/business-and-administration/unit-1/session-1/1/">BA</a>
+  </li>
+  <li>
+    <a href="/courses/it-user-skills-level-2/unit-1/session-1/1/">IT2</a>
+  </li>
+</ul>
 
 {%- assign ids = "it-l2-u1-s1", "it-l2-u1-s2", "it-l2-u1-s3"  | split: ', '%}
 
