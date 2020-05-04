@@ -758,7 +758,7 @@ button svg {
   }
 
   .gallery {
-    border: 2px solid;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
     overflow-x: scroll;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -772,7 +772,7 @@ button svg {
 
   .gallery:focus,
   .gallery-controls button:focus {
-    outline: 4px solid skyBlue;
+    outline: 4px solid $highlight;
     outline-offset: -4px;
   }
 
@@ -807,7 +807,7 @@ button svg {
   }
 
   .gallery::-webkit-scrollbar {
-    height: 0.75rem;
+    height: .75rem;
   }
 
   .gallery::-webkit-scrollbar-track {
@@ -863,13 +863,15 @@ button svg {
     width: 3rem;
     border: 0;
     padding: 0.5rem;
-    background: #000;
+    background: transparent;
   }
 
-  .gallery-controls svg {
+  // TODO: Fix colour
+  .gallery-controls svg 
+  {
     width: 100%;
-    fill: #fff;
-    stroke: #000;
+    fill: currentColor;
+    stroke: currentColor;
     stroke-width: 1.5;
     stroke-linejoin: round;
   }
