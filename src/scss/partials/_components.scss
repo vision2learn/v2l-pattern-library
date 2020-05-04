@@ -460,19 +460,30 @@ button svg {
 }
 
 .c-wordbank {
+  // color: #fff;
+  margin-top: #{$flow}rem;
 
   &__questions {
+    background-color: $supporting3;
 
     li {
-      margin-top: calc($flow * 1rem);
       padding: 1em;
       position: relative;
+      background-color: $supporting3;
+
+      &:nth-child(even) {
+        background-color: $supporting2
+      }
     }
   }
 
   &__options {
     display: inline-block;
     width: auto;
+  }
+
+  p {
+    margin: 0;
   }
 
   p::after {

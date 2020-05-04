@@ -24,14 +24,16 @@
   {%- endfor %}
 {%- endset %}
 
-<p>Add the correct words from the word bank and into the following sentences:</p>
+<p>Add the correct words into the sentences that follow:</p>
 
-<h3>Word Bank</h3>
+<div class="visually-hidden">
+  <h3>Word Bank</h3>
   <ul>
     {%- for answer in answerList | sort %}
       <li>{{ answer | upper }}</li>
     {%- endfor %}
   </ul>
+</div>
 
 {# TODO: identify correct answer for each question #}
 <form class="c-wordbank">
