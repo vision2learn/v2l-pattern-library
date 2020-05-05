@@ -746,6 +746,7 @@ button svg {
 
 .gallery > ul > li {
   margin-top: 1.5rem !important;
+  scroll-snap-align: start;
 }
 
 .js {
@@ -761,12 +762,13 @@ button svg {
     overflow-x: scroll;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    -webkit-scroll-snap-type: mandatory;
-    -ms-scroll-snap-type: mandatory;
-    scroll-snap-type: mandatory;
-    -webkit-scroll-snap-points-x: repeat(100%);
-    -ms-scroll-snap-points-x: repeat(100%);
-    scroll-snap-points-x: repeat(100%);
+    scroll-snap-type: x mandatory;
+    // -webkit-scroll-snap-type: mandatory;
+    // -ms-scroll-snap-type: mandatory;
+    // scroll-snap-type: mandatory;
+    // -webkit-scroll-snap-points-x: repeat(100%);
+    // -ms-scroll-snap-points-x: repeat(100%);
+    // scroll-snap-points-x: repeat(100%);
   }
 
   .gallery:focus,
@@ -805,17 +807,17 @@ button svg {
     min-height: 1px;
   }
 
-  .gallery::-webkit-scrollbar {
-    height: .75rem;
-  }
+  // .gallery::-webkit-scrollbar {
+  //   height: .75rem;
+  // }
 
-  .gallery::-webkit-scrollbar-track {
-    background-color: #ddd;
-  }
+  // .gallery::-webkit-scrollbar-track {
+  //   background-color: #ddd;
+  // }
 
-  .gallery::-webkit-scrollbar-thumb {
-    background-color: #000;
-  }
+  // .gallery::-webkit-scrollbar-thumb {
+  //   background-color: #000;
+  // }
 
   #instructions {
     display: none;
