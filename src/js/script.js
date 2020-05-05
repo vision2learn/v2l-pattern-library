@@ -755,6 +755,10 @@ var Toolkit = (function () {
   
 // Mac/PC toggle switch
 (function(){
+
+  // disable for now 
+  return;
+
   // check we're in IT?
   const course = document.getElementById('main').dataset.v2lTags;
   
