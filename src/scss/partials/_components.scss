@@ -758,15 +758,14 @@ button svg {
   }
 
   .gallery {
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
     overflow-x: scroll;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    // -webkit-scroll-snap-type: mandatory;
-    // -ms-scroll-snap-type: mandatory;
+    -webkit-scroll-snap-type: mandatory;
+    -ms-scroll-snap-type: mandatory;
     scroll-snap-type: mandatory;
-    // -webkit-scroll-snap-points-x: repeat(100%);
-    // -ms-scroll-snap-points-x: repeat(100%);
+    -webkit-scroll-snap-points-x: repeat(100%);
+    -ms-scroll-snap-points-x: repeat(100%);
     scroll-snap-points-x: repeat(100%);
   }
 
