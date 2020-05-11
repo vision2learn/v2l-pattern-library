@@ -1,6 +1,6 @@
 {% if section.interactive.composition %}
-<div data-v2l-comp="{{ section.interactive.composition }}" data-v2l-interactive="{{ section.interactive.file }}" data-v2l-id="animation_container" style="background-color: inherit; max-width: calc(100vw - 2rem); height:{{ section.interactive.height }}px">
-  <canvas data-v2l-id="canvas" class="c-interactive" width="100%" height="{{ section.interactive.height }}" style="position: absolute; display: block; background-color:inherit; max-width: calc({{ section.interactive.width }}px - 2rem)"></canvas>
+<div data-v2l-comp="{{ section.interactive.composition }}" data-v2l-interactive="{{ section.interactive.file }}" data-v2l-id="animation_container" style="background-color: inherit; max-width: calc(100vw - 2rem); height:{{ section.interactive.height }}px;">
+  <canvas data-v2l-id="canvas" class="c-interactive" width="100%" height="{{ section.interactive.height }}px" style="position: absolute; display: block; background-color:inherit; max-width: calc({{ section.interactive.width }}px - 2rem); height:{{ section.interactive.height }}px"></canvas>
   <div data-v2l-id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:{{ section.interactive.width }}px; height:{{ section.interactive.height }}px; position: absolute; left: 0px; top: 0px; display: block;">
   </div>
 </div>
