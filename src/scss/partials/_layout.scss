@@ -1,6 +1,28 @@
-body {
+.l-wrapper {
+
+  // transition: filter .2s ease-in-out;
+  /* Flow */
+  // TODO: What about <sections>
+  // main * + *:not([class^="c-"]),
+  // main * + *:not([class^="c-"] > *) {
+  * + p,
+  * + ul:not([class]),
+  * + ol,
+  * + dl,
+  * + div:not(.gallery),
+  * + table {
+    margin-top: 1.5rem;
+    margin-top: calc($flow * 1rem);
+  }
+
+  * + h2,
+  * + h3 {
+    margin-top: 1.5em;
+    margin-top: calc($flow * 1em);
+  }
+
   > header,
-  > main > section,
+  > main > section:not(.c-banner),
   > aside,
   > footer,
   > nav {
@@ -321,4 +343,14 @@ main > section:not(.c-banner) {
 
 .c-interactive {
   width: calc(100vw - 2rem) !important;
+}
+
+[data-v2l-overlay] {
+  height: 100vh;
+  overflow: hidden;
+
+  > .l-wrapper {
+    height: 100%;
+    filter: blur(20px);
+  }
 }
