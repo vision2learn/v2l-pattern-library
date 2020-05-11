@@ -19,9 +19,10 @@
 {%- endif %}
 
 <body class="{{ body-class }}" data-v2l-env="{{ site.env }}">
-  <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
-  {{ content }}
-
+  <div class="l-wrapper" >
+    <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+    {{ content }}
+  </div> 
   <script>
     (function() {
 

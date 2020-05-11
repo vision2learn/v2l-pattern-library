@@ -147,7 +147,8 @@ h3 {
 a {
   color: $primary1;
 
-  &[target="_blank"] {
+  &[target="_blank"],
+  &[href$=".pdf"] {
     display: inline-flex;
     align-items: center;
 
@@ -217,25 +218,6 @@ nav {
   }
 }
 
-/* Flow */
-// TODO: What about <sections>
-// main * + *:not([class^="c-"]),
-// main * + *:not([class^="c-"] > *) {
-* + p,
-* + ul:not([class]),
-* + ol,
-* + dl,
-* + div:not(.gallery),
-* + table {
-  margin-top: 1.5rem;
-  margin-top: calc($flow * 1rem);
-}
-
-* + h2,
-* + h3 {
-  margin-top: 1.5em;
-  margin-top: calc($flow * 1em);
-}
 
 // Don't follow the flow system if the element is part of a component.
 // All components have classes prefixed with "c-"
