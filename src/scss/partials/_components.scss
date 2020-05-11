@@ -1126,6 +1126,8 @@ h2.toggle-section::before {
   }
 
   button {
-    background-color: var(--highlight);
+    background-color: var(--primary1);
+    border: solid #fff 3px;
+    outline: solid #000 3px;
   }
 }
