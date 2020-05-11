@@ -147,7 +147,8 @@ h3 {
 a {
   color: $primary1;
 
-  &[target="_blank"] {
+  &[target="_blank"],
+  &[href$=".pdf"] {
     display: inline-flex;
     align-items: center;
 

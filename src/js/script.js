@@ -854,21 +854,49 @@ var Toolkit = (function () {
   // Requirements:
   // Get activity URL
 
-  document.querySelectorAll('[data-v2l-activity').forEach(function(anchor, index){
+  // Find and add trigger to PDF links
+  document.querySelectorAll('a[href$=".pdf"]').forEach(pdf => {
+    pdf.setAttribute('data-v2l-activity', true);
+  });
+
+  document.querySelectorAll('[data-v2l-activity').forEach(function(anchor){
     anchor.addEventListener('click', function(e) {
       e.preventDefault();
       
+      
+      const inertLoaded = () => {
+        const scripts = document.querySelectorAll('head > script');
+        scripts.forEach(script => {
+          if(script.src.indexOf('/js/inert.js') > 0) {
+            return true;
+          }
+        });
+        return false;
+      };
+
+      
+
       // load the inert polyfill (if needed)
-      const inertPoly = document.createElement("script");
-      inertPoly.src = "/js/inert.js";
-      document.head.appendChild(inertPoly);
+      if(!inertLoaded) {
+        const inertPoly = document.createElement("script");
+        inertPoly.src = "/js/inert.js";
+        document.head.appendChild(inertPoly);
+      }
 
       let activeUrl = anchor.href;
       const body = document.querySelector('body');
       
       // get the section's h2 to label the overlay
-      let parentNode = anchor.parentElement.tagName === 'SECTION' ? anchor.parentElement : anchor.parentElement.parentElement;
-      let label = parentNode.querySelector('h2').innerText;
+      
+      let label;
+
+      if(anchor.innerText == '') {
+        let parentNode = anchor.parentElement.tagName === 'SECTION' ? anchor.parentElement : anchor.parentElement.parentElement;
+        label = parentNode.querySelector('h2').innerText;
+      }
+      else {
+        label = anchor.innerText;
+      }
             
       body.dataset.v2lOverlay = true;
 
@@ -879,7 +907,6 @@ var Toolkit = (function () {
       closeBtn.addEventListener('click', closeModal);
       
       overlay.addEventListener('keydown', function(e) {
-        console.log(e.code);
         
         if(e.code == "Escape") {
           e.preventDefault();
@@ -888,7 +915,6 @@ var Toolkit = (function () {
       });
 
       iframe.addEventListener('keydown', function(e) {
-        console.log(e.code);
         
         if(e.code == "Escape") {
           e.preventDefault();
@@ -897,15 +923,16 @@ var Toolkit = (function () {
       });
 
       function closeModal() {
-        body.removeChild(overlay);
-        body.removeAttribute('data-v2l-overlay');
         Array.prototype.forEach.call(elems, elem => {
           elem.removeAttribute('inert');
         });
+        
+        body.removeChild(overlay);
+        body.removeAttribute('data-v2l-overlay');
         anchor.focus();
       }
 
-      closeBtn.innerText = "Close activity";
+      closeBtn.innerText = "Close";
       overlay.classList.add('c-overlay');
       iframe.src = activeUrl;
       iframe.width = "90%";
@@ -915,18 +942,20 @@ var Toolkit = (function () {
       overlay.append(closeBtn);
       overlay.setAttribute('role', 'dialog');
       overlay.setAttribute('aria-label', label);
-      overlay.setAttribute('tab-index', -1);
 
       const elems = document.querySelectorAll('body > *');
       Array.prototype.forEach.call(elems, elem => {
         elem.setAttribute('inert', 'inert');
+        
+        
       });
 
-      body.append(overlay);
-      overlay.querySelector('button').focus();
-    });
-  });
 
+      body.append(overlay);
+      // overlay.querySelector('button').focus();
+    });
+
+  });
   
   // disable default behaviour
 
@@ -936,6 +965,6 @@ var Toolkit = (function () {
   // dismiss with button and Esc
   
 
-  
+   
 
 })();

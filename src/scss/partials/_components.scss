@@ -1124,4 +1124,8 @@ h2.toggle-section::before {
   [data-v2l-overlay] & {
     opacity: 1;
   }
+
+  button {
+    background-color: var(--highlight);
+  }
 }
