@@ -22,58 +22,96 @@
   <div class="l-wrapper" >
     <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
     {{ content }}
-  </div> 
+  </div>
+  {% comment %} <script src='/js/animateload.js'></script> {% endcomment %}
   <script>
+
+    
+    var animateVars = {};
+    var AdobeAn = {};
+
     (function() {
-
-      // animate libraries
-      // TODO: Implement https://www.html5rocks.com/en/tutorials/speed/script-loading/
-      if(document.querySelector('.c-interactive')) {
-        
-        var fileRef;
-
-        var createJS = document.createElement("script");
-        createJS.src = "https://code.createjs.com/createjs-2015.11.26.min.js";
-        createJS.async = false;
-        document.head.appendChild(createJS);
-
-        var canvases = document.querySelectorAll('.c-interactive');
-        
-        var initJS = document.createElement("script");
-        initJS.async = false;
-        initJS.addEventListener('load', function() {
-
-          for(var i = 0; i < canvases.length; i++) {
-            fileRef = document.querySelectorAll('[data-v2l-comp]')[i].dataset.v2lInteractive;
-            var interactiveJS = document.createElement("script");
-            
-            interactiveJS.addEventListener('load', function(){      
-              try {  
-                
-                AdobeAn.length;
-                var canvases = document.querySelectorAll('.c-interactive');
-
-                for(var i = 0; i < canvases.length; i++) {
-                  var comp = document.querySelectorAll('[data-v2l-comp]')[i].dataset.v2lComp;
-                  init(i, comp, fileRef);
-                }
-              }
-              catch(e) {
-                document.querySelectorAll('[data-v2l-comp]')[i].innerHTML = "<p><strong>There was a problem loading this content. Please reload your browser and try again. If the problem persists, please contact support.</strong></p>";
-                console.error("Problem loading Adobe Animate libraries: ", e);
-              }
-            });
-
-            interactiveJS.src = "/js/interactive/" + fileRef + ".js";
-            interactiveJS.async = false;
-            document.head.appendChild(interactiveJS);
-          }
-        });
-
-        initJS.src = "/js/interactive/init.js";
-        document.head.appendChild(initJS);
+      
+      if(document.querySelectorAll('.c-interactive').length > 0) {
+        attachHandlers();
       }
 
+      function attachHandlers() {
+        document.querySelectorAll('[data-v2l-loadbtn]').forEach(function(btn) {
+          btn.addEventListener('click', loadCanvas);
+        });
+      }
+
+      function loadCanvas() {
+        // Is there a canvas element on the page already?
+        var canvasLoaded = document.querySelector('.c-interactive > canvas');
+    
+        if(canvasLoaded) {
+          canvasLoaded.parentElement.replaceWith(animateVars.activeCanvas);
+        }
+
+        animateVars.activeCanvas = this.parentElement.cloneNode(true);
+        {% comment %} console.log(animateVars.activeCanvas); {% endcomment %}
+        // console.log(AdobeAn);
+        var canvas = document.createElement('canvas');
+        canvas.id = +new Date();
+
+        animateVars.fileRef = this.parentElement.dataset.v2lInteractive;
+        animateVars.compRef = this.parentElement.dataset.v2lComp;
+        animateVars.canvasID = canvas.id;
+        
+        this.replaceWith(canvas);
+        attachHandlers();
+
+        loadAnimateJS();
+         
+        
+        
+      }
+      function loadAnimateJS() {
+        {% comment %} console.log(animateVars); {% endcomment %}
+        if(!animateVars.loaded) {
+          var scripts = [
+            '//code.createjs.com/createjs-2015.11.26.min.js',
+            '/js/interactive/'+ animateVars.fileRef +'.js',
+            '/js/interactive/init.js'
+          ].forEach(function(src) {
+            var script = document.createElement('script');
+            script.src = src;
+            script.async = false;
+            document.head.appendChild(script);
+          });
+
+          animateVars.loaded = true;
+        }
+        else {
+          AdobeAn = {};
+         // var scriptsLoaded = false;
+
+          Array.prototype.forEach.call(document.scripts, function(script) {
+            if(script.src.indexOf('/js/interactive/'+ animateVars.fileRef +'.js') > 0) {
+              scriptsLoaded = true;
+            }
+          });
+          //console.log(animateVars.canvasID, ' ', scriptsLoaded, ' ', animateVars);
+          //if(scriptsLoaded) {
+          //  console.log(document.getElementById(animateVars.canvasID), ' ', animateVars.canvasID);
+          //  init(animateVars.canvasID, animateVars.compRef, animateVars.fileRef);
+          //}
+          //else {
+            var scripts = [
+              '/js/interactive/'+ animateVars.fileRef +'.js',
+              '/js/animateload.js'
+            ].forEach(function(src) {
+              var script = document.createElement('script');
+              script.src = src;
+              script.async = false;
+              document.head.appendChild(script);
+            });
+          //}
+        }
+      }
+      
       // detect ES6 support, then load the main script file if OK
       try {
         new Function("(a = 0) => a");

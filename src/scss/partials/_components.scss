@@ -1131,3 +1131,19 @@ h2.toggle-section::before {
     outline: solid #000 3px;
   }
 }
+
+.c-interactive,
+[data-v2l-id='animation_container'] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--supporting3);
+
+  > canvas {
+    position: absolute; 
+    display: block; 
+    background-color:inherit; 
+    max-width: calc(100% - 2rem); 
+    // height:{{ section.interactive.height }}px
+  }
+}

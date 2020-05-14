@@ -2,9 +2,9 @@ var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAni
 // inc
 function init(canvasID, compID, fileRef) {
 	
-	canvas = document.querySelectorAll(".c-interactive")[canvasID];
-	anim_container = document.querySelectorAll("[data-v2l-id=animation_container]")[canvasID];
-	dom_overlay_container = document.querySelectorAll("[data-v2l-id=dom_overlay_container]")[canvasID];
+	canvas = document.getElementById(canvasID);
+	anim_container = canvas.parentNode; //document.querySelectorAll("[data-v2l-id=animation_container]")[canvasID];
+	dom_overlay_container = anim_container.querySelector("[data-v2l-id=dom_overlay_container]");
 	v2l_fileToLoad = fileRef;
 	
 	
@@ -195,3 +195,5 @@ function handleComplete(evt,comp) {
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
+
+init(animateVars.canvasID, animateVars.compRef, animateVars.fileRef);
