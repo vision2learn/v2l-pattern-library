@@ -860,11 +860,16 @@ button svg {
   .gallery-controls button {
     position: absolute;
     bottom: 0;
+    color: currentColor;
     top: 0;
     width: 3rem;
     border: 0;
     padding: 0.5rem;
     background: transparent;
+
+    &:active {
+      box-shadow: none;
+    }
   }
 
   // TODO: Fix colour
