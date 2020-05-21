@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:8.15
+      - image: circleci/node:10
 
     working_directory: ~/repo
 
@@ -40,7 +40,7 @@ jobs:
             
   dotnet:
     docker:
-      - image: circleci/node:8.15
+      - image: circleci/node:10
 
     working_directory: ~/repo
 

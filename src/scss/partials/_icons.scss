@@ -46,3 +46,7 @@
 .i-case-study h2::before {
   content: url("data:image/svg+xml;base64,#{$case-study}");
 }
+
+.i-practice h2::before {
+  content: url("data:image/svg+xml;base64,#{$practice}");
+}
