@@ -1,0 +1,29 @@
+---
+layout: layouts/prototype.njk
+permalink: /login/index.html
+---
+<style>
+  html,
+  body,
+  .l-wrapper {
+    height: 100%;
+  }
+
+  .l-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+    align-content: start;
+  }
+</style>
+
+<section>
+  <h2>Please log in to view the course preview</h2>
+  <div data-netlify-identity-button></div>
+  <p>
+    <small>Site updated: {{ site.date().build }}</small>
+  </p>
+</section>

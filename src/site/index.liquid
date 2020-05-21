@@ -6,35 +6,37 @@ body {
   color: darkgrey;
 }
 </style>
-<div data-netlify-identity-menu></div>
-<h2>Courses</h2>
-<ul>
-  <li>
-    <a href="/courses/lean-management/unit-1/session-1/1/">Lean</a>
-  </li>
-  <li>
-    <a href="/courses/business-and-administration/unit-1/session-1/1/">BA</a>
-  </li>
-  <li>
-    <a href="/courses/it-user-skills-level-2/unit-1/session-1/1/">IT2</a>
-  </li>
-</ul>
+<section>
+  <div data-netlify-identity-menu></div>
+  <h2>Courses</h2>
+  <ul>
+    <li>
+      <a href="/courses/lean-management/unit-1/session-1/1/">Lean</a>
+    </li>
+    <li>
+      <a href="/courses/business-and-administration/unit-1/session-1/1/">BA</a>
+    </li>
+    <li>
+      <a href="/courses/it-user-skills-level-2/unit-1/session-1/1/">IT2</a>
+    </li>
+  </ul>
 
-{%- assign ids = "it-l2-u1-s1", "it-l2-u1-s2", "it-l2-u1-s3"  | split: ', '%}
+  {%- assign ids = "it-l2-u1-s1", "it-l2-u1-s2", "it-l2-u1-s3"  | split: ', '%}
 
-{%- for id in ids %}
-  {%- include 'logic-pagination', mod: id %}
-  <h2>{{ id }}</h2>
-  <ol>
-    {%- for item in collections[id] %}
-      <li>
-        <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
-      </li>
-    {%- endfor %}
-  </ol>  
+  {%- for id in ids %}
+    {%- include 'logic-pagination', mod: id %}
+    <h2>{{ id }}</h2>
+    <ol>
+      {%- for item in collections[id] %}
+        <li>
+          <a href="/courses/{{ page-urls[forloop.index0] }}">{{ item.data.title }}</a>
+        </li>
+      {%- endfor %}
+    </ol>  
 
-{%- endfor %}
+  {%- endfor %}
 
-<p>
-  <small>Site updated: {{ "now" | date: "%A, %d %B %Y %H:%M" }}</small>
-</p>
+  <p>
+    <small>Site updated: {{ "now" | date: "%A, %d %B %Y %H:%M" }}</small>
+  </p>
+</section>
