@@ -756,9 +756,6 @@ var Toolkit = (function () {
 // Mac/PC toggle switch
 (function(){
 
-  // disable for now 
-  return;
-
   // check we're in IT?
   const course = document.getElementById('main').dataset.v2lTags;
   
@@ -784,7 +781,9 @@ var Toolkit = (function () {
                   <input type="radio" name="switcher" value="mac" id="switcher_mac" aria-label="Mac"> <label for="switcher_mac" role="presentation"><b role="presentation">Mac</b></label>
                 </div>
               </div>
-              <input type="checkbox" name="switcher_pref" id="switcher_pref" checked> <label for="switcher_pref"> Remember my preference</label>
+              <div>
+                <input type="checkbox" name="switcher_pref" id="switcher_pref" checked> <label for="switcher_pref"> Remember my preference</label>
+              </div>
               <button>Submit preference</button>
             </fieldset>
           </form>
@@ -794,12 +793,19 @@ var Toolkit = (function () {
   let storage = window.localStorage;
   const switchKey = "hello-im-a-mac";  
   const videos = document.querySelectorAll('[src$=".mp4"]');
+  const interactives = document.querySelectorAll('.c-interactive');
   let baseVidSrc = [];
+  let baseIntSrc = [];
 
   // get the base file name before modding 
   // TODO: THIS WON'T WORK IF DEFAULT IS _pc!!
   videos.forEach(function(video) {
-    baseVidSrc.push(video.src.split('.')[0]);
+    baseVidSrc.push(video.src.substring(0, video.src.indexOf('_pc')));
+  });
+
+  interactives.forEach(function(int) {
+    let intJS = int.dataset.v2lInteractive;
+    baseIntSrc.push(intJS.substring(0, intJS.indexOf('_pc')));
   });
   
   // check for top-level key or create it
@@ -814,6 +820,7 @@ var Toolkit = (function () {
     switchForm.addEventListener('submit', (e) => {
       e.preventDefault();
       new FormData(switchForm);
+      switchForm.parentElement.style = "display: none";
     });
 
     switchForm.addEventListener('formdata', (e) => {
@@ -839,9 +846,12 @@ var Toolkit = (function () {
   
   function urlSwitch(urlMod) {
     videos.forEach(function(video, index) {
-      
-      
-      video.src = `${baseVidSrc[index]}_${urlMod}.${video.src.split('.')[1]}`;
+      video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.${video.src.split('.')[1]}`);
+      video.parentElement.load();
+    });
+
+    interactives.forEach(function(int, index) {
+      int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
     });
   }
 
