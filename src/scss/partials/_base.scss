@@ -281,7 +281,8 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"],
-.button {
+.button,
+.netlify-identity-button {
   -webkit-appearance: none;
   background-color: $primary1;
   border: none;

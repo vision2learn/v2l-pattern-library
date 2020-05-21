@@ -1,1 +1,3 @@
-/courses/*  200!  Role=Reviewer
+/courses/it-user-skills-level-2/unit-1/*  200!  Role=Reviewer,admin
+/courses/*  200!  Role=admin
+/courses/it-user-skills-level-2/unit-1/*  /login  401!
