@@ -48,5 +48,5 @@
 }
 
 .i-practice h2::before {
-  content: url("data:image/svg+sml;base64,#{$practice}");
+  content: url("data:image/svg+xml;base64,#{$practice}");
 }
