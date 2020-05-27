@@ -36,5 +36,6 @@ jobs:
         with:
           name: build
       - name: Add Key
-        with:
+        env:
           PRIVATE_KEY: ${{ secrets.PrivateKey }}
+        run: la -la
