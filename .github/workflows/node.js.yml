@@ -18,6 +18,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-    - run: apt install graphicsmagick
+    - run: sudo apt install graphicsmagick
     - run: yarn install
     - run: yarn gulp build && yarn eleventy 
