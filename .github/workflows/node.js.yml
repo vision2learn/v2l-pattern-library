@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get built site
-      uses: actions/download-artifact@v1
+    - uses: actions/download-artifact@v1
       with:
         name: build
     - name: SSH
