@@ -20,8 +20,8 @@ jobs:
         node-version: 10.x
     - name: Publish
       env:
-        USER: ${{ secrets.bgyUser }}
-        SERVER: ${{ secrets.bgyIP }}  
+        USER: ${{ secrets.BYG_USER }}
+        SERVER: ${{ secrets.BYG_IP }}  
       run: | 
         ssh "$USER"@"$SERVER"
     # - run: tar -czvf site.tar.gz dist
