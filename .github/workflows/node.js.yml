@@ -38,4 +38,4 @@ jobs:
       - name: Add Key
         env:
           PRIVATE_KEY: ${{ secrets.PrivateKey }}
-        run: echo "${{ PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        run: echo "$PRIVATE_KEY" > ~/.ssh/id_rsa
