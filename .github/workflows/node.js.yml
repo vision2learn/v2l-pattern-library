@@ -33,8 +33,3 @@ jobs:
     - uses: actions/download-artifact@v1
       with:
         name: build
-    - name: SSH
-      with:
-        private_key: ${{ secrets.PrivateKey }}
-    - run: echo "$private_key" > ~/.ssh/id_rsa
-      
