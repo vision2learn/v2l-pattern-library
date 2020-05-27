@@ -18,26 +18,31 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-    - run: yarn install  
-    - run: yarn gulp build && yarn eleventy
-    - run: tar -czvf site.tar.gz dist
-    - name: Upload build
-      uses: actions/upload-artifact@v1
-      with:
-        name: build
-        path:  site.tar.gz
-  deploy_staging:
-    needs: [build]
-    runs-on: [self-hosted, macOS]
-    steps:
-      - name: Get built site
-        uses: actions/download-artifact@v1
-        with:
-          name: build
-      - name: Publish
-        env:
-          USER: ${{ secrets.bgyUser }}
-          SERVER: ${{ secrets.bgyIP }}  
-        run: | 
-          scp -r build/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-          ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
+    - name: Publish
+      env:
+        USER: ${{ secrets.bgyUser }}
+        SERVER: ${{ secrets.bgyIP }}  
+      run: | 
+        scp -r build/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
+        ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
+    # - run: tar -czvf site.tar.gz dist
+    # - name: Upload build
+    #   uses: actions/upload-artifact@v1
+    #   with:
+    #     name: build
+    #     path:  site.tar.gz
+  # deploy_staging:
+  #   needs: [build]
+  #   runs-on: [self-hosted, macOS]
+  #   steps:
+  #     - name: Get built site
+  #       uses: actions/download-artifact@v1
+  #       with:
+  #         name: build
+  #     - name: Publish
+  #       env:
+  #         USER: ${{ secrets.bgyUser }}
+  #         SERVER: ${{ secrets.bgyIP }}  
+  #       run: | 
+  #         scp -r build/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
+  #         ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
