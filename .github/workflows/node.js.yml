@@ -17,14 +17,14 @@ jobs:
       with:
         node-version: 10.x
     - run: sudo apt install graphicsmagick
-    #- run: yarn install
-    #- run: yarn gulp build && yarn eleventy
-    #- run: tar -czvf site.tar.gz dist
-    #- name: Upload build
-    #  uses: actions/upload-artifact@v1
-    #  with:
-    #    name: build
-    #    path:  site.tar.gz
+    - run: yarn install
+    - run: yarn gulp build && yarn eleventy
+    - run: tar -czvf site.tar.gz dist
+    - name: Upload build
+      uses: actions/upload-artifact@v1
+      with:
+        name: build
+        path:  site.tar.gz
   deploy_staging:
     needs: [build]
     runs-on: ubuntu-latest
