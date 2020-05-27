@@ -23,8 +23,7 @@ jobs:
         USER: ${{ secrets.bgyUser }}
         SERVER: ${{ secrets.bgyIP }}  
       run: | 
-        scp -r build/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-        ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
+        ssh $SSH_USER@$SSH_HOST ls -la
     # - run: tar -czvf site.tar.gz dist
     # - name: Upload build
     #   uses: actions/upload-artifact@v1
