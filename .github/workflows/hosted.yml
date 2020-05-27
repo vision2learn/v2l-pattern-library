@@ -34,3 +34,9 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: build
+      - name: Publish
+        with:
+          USER: ${{ secrets.bgyUser }}
+          SERVER: ${{ secrets.bgyIP }}  
+      - run: scp -r build/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
+      - run: ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
