@@ -23,7 +23,7 @@ jobs:
         USER: ${{ secrets.bgyUser }}
         SERVER: ${{ secrets.bgyIP }}  
       run: | 
-        ssh $SSH_USER@$SSH_HOST ls -la
+        ssh $USER@$SERVER ls -la
     # - run: tar -czvf site.tar.gz dist
     # - name: Upload build
     #   uses: actions/upload-artifact@v1
