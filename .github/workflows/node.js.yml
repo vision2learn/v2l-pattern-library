@@ -9,7 +9,9 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 10.x
@@ -29,7 +31,10 @@ jobs:
     needs: [build]
     runs-on: ubuntu-latest
     steps:
-    - name: Get built site
-    - uses: actions/download-artifact@v1
-      with:
-        name: build
+      - name: Get built site
+        uses: actions/download-artifact@v1
+        with:
+          name: build
+      - name: Add Key
+        with:
+          PRIVATE_KEY: ${{ secrets.PrivateKey }}
