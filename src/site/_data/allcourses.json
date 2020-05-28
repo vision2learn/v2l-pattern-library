@@ -473,50 +473,71 @@
       {
         "title": "Presentation software",
         "sessions": {
-          "one": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+          "Entering information into presentations": [
+            "Types of information",
+            "Entering information",
+            "Inserting items"
           ],
-          "two": [
+          "Managing presentations": [
+            "File management",
+            "Protecting files",
+            "Archiving and compressing files",
+            "Printing"
+          ],
+          "Presentation editing tools": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
+          ],
+          "Slide formatting": [
+            "one",
+            "two",
+            "three"
+          ],
+          "Animating your presentation": [
+            "one",
+            "two",
+            "three"
+          ],
+          "Preparing your presentation": [
+            "one",
+            "two",
+            "three"
+          ] 
+        }
+      },
+      {
+        "title": "Spreadsheet software",
+        "sessions": {
+          "Creating a spreadsheet": [
+            "one",
+            "two",
+            "three"
+          ],
+          "Managing spreadsheets": [
+            "one",
+            "two",
+            "three"
           ],
           "three": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
           ],
           "Four": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
           ],
           "Five": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
+          ],
+          "six": [
+            "one",
+            "two",
+            "three"
           ] 
         }
       }
