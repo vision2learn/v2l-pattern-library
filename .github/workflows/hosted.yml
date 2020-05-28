@@ -31,8 +31,7 @@ jobs:
     steps:
       - name: Upload
         run: |
-          echo "$TEST"
-          ssh "$USER"@"$SERVER"
+          echo "$TEST" "$USER" "$SERVER" 
           ls -la
   # publish:  
   #  - name: Publish
