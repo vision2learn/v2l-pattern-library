@@ -25,18 +25,12 @@ jobs:
     name: Publish site to Staging
     needs: [build]
     env:
-      TEST: dan 
-      USER: ${{ secrets.BYG_USER }}
-      SERVER: ${{ secrets.BYG_IP }}
-      X: ${{ secrets.test }} 
+      USER: ${{ secrets.BGY_USER }}
+      SERVER: ${{ secrets.BGY_IP }}
     steps:
       - name: Upload
         run: |
-          export TESTVAR="$USER"
-          echo "$TEST" "$USER" "$SERVER" 
-          echo "$TESTVAR" > tmp.txt
-          echo "$X"  > tmp2.txt
-          ls -la
+          scp -r dist/index.html "USER"@"$SERVER":~/backgroundyellow.net
   # publish:  
   #  - name: Publish
   #    env:
