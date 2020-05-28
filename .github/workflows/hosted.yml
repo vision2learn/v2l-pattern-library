@@ -20,6 +20,15 @@ jobs:
       run: |
         yarn install
         yarn run build
+  publish:
+    runs-on: [self-hosted, macOS]
+    name: Publish site to Staging
+    needs: [build]
+    steps:
+      - name: Upload
+        run: |
+          bgy
+          ls -la
   # publish:  
   #  - name: Publish
   #    env:
