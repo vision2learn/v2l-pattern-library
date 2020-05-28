@@ -27,7 +27,8 @@ jobs:
     env:
       TEST: dan 
       USER: ${{ secrets.BYG_USER }}
-      SERVER: ${{ secrets.BYG_IP }}  
+      SERVER: ${{ secrets.BYG_IP }}
+      X: ${{ secrets.ABCD }} 
     steps:
       - name: Upload
         run: |
