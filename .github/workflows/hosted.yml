@@ -30,7 +30,7 @@ jobs:
     steps:
       - name: Upload
         run: |
-          scp -r dist/index.html "USER"@"$SERVER":~/backgroundyellow.net
+          scp -r dist/index.html "$USER"@"$SERVER":~/backgroundyellow.net
   # publish:  
   #  - name: Publish
   #    env:
