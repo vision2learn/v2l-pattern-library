@@ -5,7 +5,7 @@ name: Mac mini CI
 
 on:
   push:
-    branches: [ github-actions ]
+    branches: [ rayner-mod ]
      
 jobs:
   build:
