@@ -20,42 +20,22 @@ jobs:
       run: |
         yarn install
         yarn run build
+  zip:
+    runs-on: [self-hosted, macOS]
+    name: Zip build
+    needs: [build]
+    steps:
+      - name: Zipit
+        run: tar -czvf site.tar.gz dist
   publish:
     runs-on: [self-hosted, macOS]
     name: Publish site to Staging
-    needs: [build]
+    needs: [build, zip]
     env:
       USER: ${{ secrets.BGY_USER }}
       SERVER: ${{ secrets.BGY_IP }}
     steps:
-      - name: Upload
+      - name: Upload & Unzip
         run: |
-          scp -r dist/index.html "$USER"@"$SERVER":~/backgroundyellow.net
-  # publish:  
-  #  - name: Publish
-  #    env:
-  #      USER: ${{ secrets.BYG_USER }}
-  #      SERVER: ${{ secrets.BYG_IP }}  
-  #    run: | 
-  #      ssh "$USER"@"$SERVER"
-    # - run: tar -czvf site.tar.gz dist
-    # - name: Upload build
-    #   uses: actions/upload-artifact@v1
-    #   with:
-    #     name: build
-    #     path:  site.tar.gz
-  # deploy_staging:
-  #   needs: [build]
-  #   runs-on: [self-hosted, macOS]
-  #   steps:
-  #     - name: Get built site
-  #       uses: actions/download-artifact@v1
-  #       with:
-  #         name: build
-  #     - name: Publish
-  #       env:
-  #         USER: ${{ secrets.bgyUser }}
-  #         SERVER: ${{ secrets.bgyIP }}  
-  #       run: | 
-  #         scp -r build/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-  #         ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
+          scp -r site.tar.gz "$USER"@"$SERVER":~/backgroundyellow.net
+          ssh "$USER"@"$SERVER" tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
