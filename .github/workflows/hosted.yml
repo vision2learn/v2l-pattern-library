@@ -28,13 +28,14 @@ jobs:
       TEST: dan 
       USER: ${{ secrets.BYG_USER }}
       SERVER: ${{ secrets.BYG_IP }}
-      X: ${{ secrets.ABCD }} 
+      X: ${{ secrets.test }} 
     steps:
       - name: Upload
         run: |
           export TESTVAR="$USER"
           echo "$TEST" "$USER" "$SERVER" 
           echo "$TESTVAR" > tmp.txt
+          echo "$X"  > tmp2.txt
           ls -la
   # publish:  
   #  - name: Publish
