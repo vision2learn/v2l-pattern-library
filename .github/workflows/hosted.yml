@@ -1,29 +1,32 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Node.js CI
+name: Mac mini CI
 
 on:
   push:
     branches: [ github-actions ]
-
+     
 jobs:
   build:
 
     runs-on: [self-hosted, macOS]
+    env:
+      ELEVENTY_ENV: dev
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js 10.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 10.x
-    - name: Publish
-      env:
-        USER: ${{ secrets.BYG_USER }}
-        SERVER: ${{ secrets.BYG_IP }}  
-      run: | 
-        ssh "$USER"@"$SERVER"
+    - name: Build site 
+      run: |
+        yarn install
+        yarn run build
+  # publish:  
+  #  - name: Publish
+  #    env:
+  #      USER: ${{ secrets.BYG_USER }}
+  #      SERVER: ${{ secrets.BYG_IP }}  
+  #    run: | 
+  #      ssh "$USER"@"$SERVER"
     # - run: tar -czvf site.tar.gz dist
     # - name: Upload build
     #   uses: actions/upload-artifact@v1
