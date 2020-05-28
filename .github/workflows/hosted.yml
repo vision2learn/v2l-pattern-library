@@ -32,6 +32,7 @@ jobs:
       - name: Upload
         run: |
           echo "$TEST" "$USER" "$SERVER" 
+          echo "$USER" > tmp.txt
           ls -la
   # publish:  
   #  - name: Publish
