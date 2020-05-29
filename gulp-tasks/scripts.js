@@ -15,7 +15,7 @@ gulp.task('otherjs', function() {
 });
 
 gulp.task('js', function() {
-  return gulp.src(["./src/js/script.js", "./src/js/_functions/**/*.js"])
+  return gulp.src(["./src/js/modules/Toolkit.js", "./src/js/modules/PageSetup.js", "./src/js/modules/*.js"])
     .pipe(concat('script.js'))
     .pipe(uglify())
     .pipe(gulp.dest(`${project.buildDest}/js`));
