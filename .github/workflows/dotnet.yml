@@ -25,7 +25,6 @@ jobs:
       env:
         ELEVENTY_ENV: dotnet 
       run: |
-        yarn install
         yarn eleventy
     - name: Package files
       run: tar -czvf site.tar.gz dist		
