@@ -82,7 +82,7 @@ jobs:
           command: tar -cvf scss.tar src/scss
       - run:
           name: JS
-          command: tar -cvf js.tar src/js
+          command: tar -cvf js.tar dist/js
 
       - store_artifacts:
           path: html_pages.tar
