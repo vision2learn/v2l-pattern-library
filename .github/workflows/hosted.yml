@@ -1,0 +1,42 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+#
+
+name: Mac mini CI
+
+on:
+  push:
+    branches: [ rayner-mod ]
+     
+jobs:
+  build:
+
+    runs-on: [self-hosted, macOS]
+    env:
+      ELEVENTY_ENV: dev
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build site 
+      run: |
+        yarn install
+        yarn run build
+  zip:
+    runs-on: [self-hosted, macOS]
+    name: Zip build
+    needs: [build]
+    steps:
+      - name: Zipit
+        run: tar -czvf site.tar.gz dist
+  publish:
+    runs-on: [self-hosted, macOS]
+    name: Publish site to Staging
+    needs: [build, zip]
+    env:
+      USER: ${{ secrets.BGY_USER }}
+      SERVER: ${{ secrets.BGY_IP }}
+    steps:
+      - name: Upload & Unzip
+        run: |
+          scp -r site.tar.gz "$USER"@"$SERVER":~/backgroundyellow.net
+          ssh "$USER"@"$SERVER" tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test

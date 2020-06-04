@@ -417,12 +417,14 @@
     "why": "IT User Skills Level 2 will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific element of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills.",
     "goals": {
       "will": [
-        "Enter and combine text and other information accurately within word processing documents"
+        "Enter and combine text and other information accurately within word processing documents",
+        "Create and modify layout and structures for word processing documents",
+        "Use word processing software tools to format and present documents effectively to meet requirements"
       ],
       "can": [
-        "Identify what types of information are needed in documents",
-        "Use appropriate techniques to enter text and other information accurately and efficiently",
-        "Store and retrieve document and template files effectively, in line with local guidelines and conventions where available"
+        "Enter and combine text and other information accurately",
+        "Create and modify layout and structures",
+        "Format and present documents effectively to meet requirements."
       ]
     },
     "units": [
@@ -471,50 +473,74 @@
       {
         "title": "Presentation software",
         "sessions": {
-          "one": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+          "Entering information into presentations": [
+            "Types of information",
+            "Entering information",
+            "Inserting items"
           ],
-          "two": [
+          "Managing presentations": [
+            "File management",
+            "Protecting files",
+            "Archiving and compressing files",
+            "Printing"
+          ],
+          "Presentation editing tools": [
+            "Placing items",
+            "Editing tools",
+            "Formatting text",
+            "Editing your presentation"
+          ],
+          "Slide formatting": [
+            "Slide formatting",
+            "Design and formatting",
+            "Master slides",
+            "Evidencing your editing skills"
+          ],
+          "Animating your presentation": [
+            "Adding effects to slides",
+            "Adding transitions",
+            "Evidencing your animation skills"
+          ],
+          "Preparing your presentation": [
+            "Reviewing your aims",
+            "Preparing slides",
+            "Checking accuracy",
+            "Other factors"
+          ] 
+        }
+      },
+      {
+        "title": "Spreadsheet software",
+        "sessions": {
+          "Creating a spreadsheet": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
+          ],
+          "Managing spreadsheets": [
+            "one",
+            "two",
+            "three"
           ],
           "three": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
           ],
           "Four": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
           ],
           "Five": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
+          ],
+          "six": [
+            "one",
+            "two",
+            "three"
           ] 
         }
       }

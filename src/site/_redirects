@@ -1,0 +1,5 @@
+/courses/it-user-skills-level-2/*  200!  Role=reviewer,admin
+/courses/it-user-skills-level-2/*  /login 401!
+/courses/lean-management/*  200!  Role=admin
+/courses/business-and-administration/*  200!  Role=admin
+/admin/* 200! Role=admin

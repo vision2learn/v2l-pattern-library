@@ -34,7 +34,6 @@
 {%- set unitsInCourse = courseData.units.length %}
 {%- set sessionsInUnit = courseData.units[module.data.unit - 1].sessions | length  %}
 
-
 {%- if (module.data.session) < sessionsInUnit %}
   {%- set nextSession = module.data.session + 1 %}
   {%- set nextUnit = module.data.unit %}
@@ -50,7 +49,7 @@
     <h2>Your learning goals</h2>
     
     <p>
-      By working through this Session, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | title }} qualification:
+      By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | title }} qualification:
     </p>
     
     <h3>The learner will:</h3>
@@ -372,9 +371,15 @@
       ) }}
     </section>
     <section class="t-bg-primary3">
+      {% if shortcode !== 'it2' %}
+        {% set timeToWhat = 'Think'%}
+      {% else %}
+        {% set timeToWhat = 'Practice'%}
+      {% endif %}
+      
       {{ components.media2({
-            title: "Time to Think",
-            copy: "As you work through the course, you will be presented with a number of Time to Think boxes. Please watch this video which will show you how to use these and why they are important.",
+            title: "Time to " + timeToWhat,
+            copy: "As you work through the course, you will be presented with a number of Time to " + timeToWhat + " boxes. Please watch this video which will show you how to use these and why they are important.",
             layout: "media-half",
             media: {
               ref: shortcode + "-time-to-think.mp4"
