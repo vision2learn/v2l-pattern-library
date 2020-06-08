@@ -16,11 +16,14 @@
     {% set revealdata = defaultdata.courseFeatures %}
     
     {%- for key, val in revealdata %}
-      {{ components.reveal({
-          heading: key, 
-          copy: val.copy, 
-          image: "course-features/" + val.img
-        }, site.env) }}
+      {# Not ideal, but the first 9 in default data are the standard course features #}
+      {% if loop.index < 10 %}
+        {{ components.reveal({
+            heading: key, 
+            copy: val.copy, 
+            image: "course-features/" + val.img
+          }, site.env) }}
+      {% endif %}
     {%- endfor %}
     
   {% endif %}
