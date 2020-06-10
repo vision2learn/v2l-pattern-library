@@ -141,7 +141,6 @@ workflows:
             branches:
               only: 
                 - master
-                - rayner-mod
       - staging:
           requires:
             - build
