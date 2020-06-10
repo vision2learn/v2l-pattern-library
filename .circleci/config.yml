@@ -29,7 +29,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: git lfs fetch --all
+      - run: git lfs fetch --all && git lfs pull
       - run: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
       
       # compress the output for more efficient deployment...
