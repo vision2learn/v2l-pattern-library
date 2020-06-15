@@ -1,0 +1,23 @@
+---
+layout: layouts/blank.njk
+pagination:
+  data: allcourses
+  size: 1
+permalink: /xml/{{ pagination.items[0] | slug }}/CourseStructure.xml
+---
+{%- set coursedata = allcourses[pagination.items[0]] -%}
+
+<!-- CourseStructure.xml for {{ pagination.items[0] | title }} ({{ coursedata.year }}) -->
+<Course id="{{ coursedata.dotnetID }}" name="{{ pagination.items[0] | title }}">
+  <Units>
+    {%- for unit in coursedata.units %}
+    <Unit number="{{ loop.index }}" title="Unit {{ loop.index }} of {{ coursedata.units.length }}: {{ unit.title | capitalize }}">
+      <Sessions>
+        {%- for session, pages in unit['sessions'] %}
+          <Session number="{{ loop.index }}" title="Session {{ loop.index }} of {{ pages.length }}: {{ session | capitalize }}" pages="{{ pages.length }}" />
+        {%- endfor %}
+      </Sessions>
+    </Unit>
+    {%- endfor %}
+  </Units>
+</Course>
