@@ -271,7 +271,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
           Sorry, your browser doesn't support embedded videos.
       </video>
     {%- elseif mediaType === "activity" %}
-      <a href="/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
+      <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
         <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
       </a>
     {%- elseif mediaType === "think" %}
