@@ -19,6 +19,8 @@ jobs:
             - v1-dependencies-
 
       - run: sudo apt update && sudo apt install graphicsmagick
+      - run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+      - run: sudo apt install git-lfs
       - run: yarn install
 
       - save_cache:
@@ -27,6 +29,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
+      - run: git lfs fetch --all && git lfs pull
       - run: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
       
       # compress the output for more efficient deployment...
@@ -82,7 +85,7 @@ jobs:
           command: tar -cvf scss.tar src/scss
       - run:
           name: JS
-          command: tar -cvf js.tar src/js
+          command: tar -cvf js.tar dist/js
 
       - store_artifacts:
           path: html_pages.tar
@@ -138,7 +141,6 @@ workflows:
             branches:
               only: 
                 - master
-                - rayner-mod
       - staging:
           requires:
             - build

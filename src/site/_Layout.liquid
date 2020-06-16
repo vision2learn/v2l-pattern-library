@@ -1,0 +1,55 @@
+---
+permalink: _Layout.cshtml
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>@ViewBag.CourseName</title>
+  <script src="https://unpkg.com/&#64;webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
+  <script src="https://unpkg.com/&#64;webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  @Styles.Render("~/bundles/css")
+  @*<link rel="stylesheet" href="/css/themes/???.css">*@
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5865731-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-5865731-7');
+  </script>
+</head>
+
+<body class="@ViewBag.BodyClass">
+  <div class="l-wrapper" >
+    <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+
+    @Html.Partial("_Header")
+
+    <main id="main" data-v2l-tags="" data-v2l-course="@ViewBag.CourseName" data-v2l-level="2" data-v2l-unit="@ViewBag.CurrentUnit" data-v2l-session="@ViewBag.CurrentSession" data-v2l-page="@(ViewBag.CurrentPage-1)">
+      @RenderBody()
+    </main>
+
+    @RenderSection("footer", false)
+    @if (!IsSectionDefined("footer"))
+    {
+      @Html.Partial("_Footer")
+    }
+    </div>
+  @Scripts.Render("~/bundles/jquery")
+  @Scripts.Render("~/bundles/jqueryajax")
+  @Scripts.Render("~/bundles/jqueryval")
+  @Scripts.Render("~/bundles/course")
+
+  <script>
+    {% include 'bodyscript' %}
+  </script>
+</body>
+</html>
+
+

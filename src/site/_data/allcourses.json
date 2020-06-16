@@ -1,5 +1,7 @@
 {
   "business and administration": {
+    "dotnetID": 133,
+    "year": 2019,
     "level": 2,
     "shortcode": "ba",
     "why": "Whether you’re returning to work, preparing for the workplace, or upskilling in your current role, studying Business and Administration will help you to gain essential knowledge in carrying out a range of administrative tasks.\n\nIt’s important to set goals in your studies, as goal-setting gives you control over your learning.\n\nResearch has proven that people who write their goals down have a greater motivation to achieve them.",
@@ -195,6 +197,8 @@
     ]
   },
   "lean management": {
+    "dotnetID": 132,
+    "year": 2019,
     "level": 2,
     "shortcode": "ln",
     "why": "Lean is a term used to describe a wide range of business improvement techniques that help to eliminate waste and increase efficiency. While lean approaches were originally designed to improve quality and reduce production costs in the manufacturing industry, the concepts are now applied to a whole range of non-manufacturing processes such as offices or service industry environments. \n\n As a result, anyone involved in business at any level should have some understanding of business improvement techniques. Lean production techniques and lean office principles can be generally applied to provide continuous improvements to quality, processes and costs across a wide range of sectors and industries. \n\n Even if you’re seeking employment, knowledge of lean management and continuous improvement techniques will provide useful underpinning knowledge about business techniques, expanding your skill set which will prove attractive to employers. \n\n * It’s important to set goals in your studies, as goal-setting gives you **control** over your learning.\n * Research has proven that people who write their goals down have a greater **motivation** to achieve them.\n\n Setting yourself a specific **deadline** to achieve each goal also keeps you focused and increases your chance of success.",
@@ -413,6 +417,7 @@
   },
   "it user skills level 2": {
     "level": 2,
+    "year": 2020,
     "shortcode": "it2",
     "why": "IT User Skills Level 2 will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific element of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills.",
     "goals": {
@@ -473,50 +478,73 @@
       {
         "title": "Presentation software",
         "sessions": {
-          "one": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+          "Entering information into presentations": [
+            "Types of information",
+            "Entering information",
+            "Inserting items"
           ],
-          "two": [
+          "Managing presentations": [
+            "File management",
+            "Protecting files",
+            "Archiving and compressing files",
+            "Printing"
+          ],
+          "Presentation editing tools": [
+            "Placing items",
+            "Editing tools",
+            "Formatting text",
+            "Editing your presentation"
+          ],
+          "Slide formatting": [
+            "Slide formatting",
+            "Design and formatting",
+            "Master slides",
+            "Evidencing your editing skills"
+          ],
+          "Animating your presentation": [
+            "Adding effects to slides",
+            "Adding transitions"
+          ],
+          "Preparing your presentation": [
+            "Reviewing your aims",
+            "Preparing slides",
+            "Checking accuracy",
+            "Other factors"
+          ] 
+        }
+      },
+      {
+        "title": "Spreadsheet software",
+        "sessions": {
+          "Creating a spreadsheet": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
+          ],
+          "Managing spreadsheets": [
+            "one",
+            "two",
+            "three"
           ],
           "three": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
           ],
           "Four": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
           ],
           "Five": [
             "one",
             "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "three"
+          ],
+          "six": [
+            "one",
+            "two",
+            "three"
           ] 
         }
       }
