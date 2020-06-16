@@ -1,0 +1,43 @@
+---
+layout: layouts/blank.njk
+permalink: /legacyvids/index.html
+videos:
+  - WP-S3-P3-paragraph-group.mp4
+  - WP-S6-P2-using-find-replace.mp4
+  - WP-S4-P3-sorting-text.mp4
+  - WP-S4-P3-creating-tables.mp4
+  - WP-S2-P1-folders.mp4
+  - WP-S5-P3-formatting-images.mp4
+  - WP-S5-P5-mail-merge.mp4
+  - WP-S4-P4-form-with-drop-down.mp4
+  - PS2-S4-P2-inserting-a-border.mp4
+  - PS2-S4-P2-using-existing-templates.mp4
+  - PS2-S1-P4-inserting-a-chart.mp4
+  - PS2-S1-P3-creating-an-internal-hyperlink.mp4
+  - PS2-S1-P4-creating-a-table.mp4
+  - PS2-S2-P3-compressing-images.mp4
+  - ss2-S1-P4-working-with-multiple-cells.mp4
+  - WP-S2-P5-compress.mp4
+  - ss2-S4-P3-using-wrap-text-options.mp4
+  - ss2-S5-P4-editing-titles.mp4
+  - ss2-S2-P1-moving-worksheets.mp4
+  - PS2-S4-P3-using-master-slides.mp4
+  - PS2-S5-P1-adding-animation-effects.mp4
+  - PS2-S5-P2-adding-transitions.mp4
+  - PS2-S6-P2-changing-the-order-of-slides.mp4
+  - ss2-S1-P2-cells.mp4
+  - ss2-S3-P1-creating-simple-formulae.mp4
+  - ss2-S3-P2-using-the-IF-function.mp4
+  - ss2-S3-P3-filtering-results.mp4
+  - ss2-S3-P3-perform-a-complex-sort.mp4
+  - ss2-S3-P4-creating-a-table.mp4
+  - ss2-S4-P4-hiding-rows-and-columns.mp4
+  - ss2-S5-P3-creating-a-column-chart.mp4
+---
+{% for video in videos %}
+  <video controls preload="metadata" width="500">
+    <source src="https://d1slqzkeec5koo.cloudfront.net/it-skills/legacy/{{ video }}"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+  </video>
+{% endfor %}
