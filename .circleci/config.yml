@@ -69,8 +69,8 @@ jobs:
 
       # run
       - run: yarn gulp build && ELEVENTY_ENV=dotnet yarn eleventy
-      - run: find /dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
-      - run: find /dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
+      - run: find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
+      - run: find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
 
       - persist_to_workspace:
           root: .
