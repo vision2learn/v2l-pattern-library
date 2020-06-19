@@ -28,8 +28,9 @@ jobs:
         
     - name: Add "~" to URLs
       run: |
-        grep -rl href=\"\/pdf dist/dotnet | xargs sed -i 's/href=\"\/pdf/href=\"~\/pdf/g'
-        # find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
+        find dist/dotnet -type f -exec sed -i 's/href=\“\/pdfs/href=\“~\/pdfs/g' {} \;
+        # grep -rl href=\"\/pdf dist/dotnet | xargs sed -i 's/href=\"\/pdf/href=\"~\/pdf/g'
+        # 
         
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
