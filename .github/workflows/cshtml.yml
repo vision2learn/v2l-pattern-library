@@ -26,15 +26,15 @@ jobs:
         yarn install
         yarn cshtml
         
-    - name: Add "~" to URLs
-      run: |
-        find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
-        find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
-        
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2
       with:
         # Artifact name
         name: CSHTML
         # A file, directory or wildcard pattern that describes what to upload
-        path: $GITHUB_WORKSPACE/dist/dotnet/*
+        path: dist/dotnet
+    - name: Add "~" to URLs
+      run: |
+        find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
+        find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
+        
