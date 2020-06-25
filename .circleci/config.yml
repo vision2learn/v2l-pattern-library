@@ -72,7 +72,7 @@ jobs:
       - run: find dist/dotnet -name '*.cshtml'
       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
-      - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="http://_//_g' "{}" \;
+      - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="http://_href="//_g' "{}" \;
       #- run: grep -i -R 'href="/pdf' dist/dotnet
       #- run: grep -i -R 'href="/documents' dotnet
       #- run: find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
