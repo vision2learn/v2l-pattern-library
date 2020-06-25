@@ -64,15 +64,9 @@
 
     switchForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      new FormData(switchForm);
-      switchForm.parentElement.style = "display: none";
-    });
-
-    switchForm.addEventListener('formdata', (e) => {
-      const data = e.formData;
+      const data = new FormData(switchForm);
       const save = data.get('switcher_pref');
       const macOrPc = data.get('switcher');
-      
       urlSwitch(macOrPc);
 
       if(save === 'on') {
@@ -81,6 +75,8 @@
       else {
         storage.removeItem(switchKey);
       }
+      
+      switchForm.parentElement.style = "display: none";
     });
   }
   else {
