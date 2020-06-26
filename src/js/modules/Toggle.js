@@ -37,11 +37,13 @@
               padding: 0.5em 0;
             }
 
-            h2 button:focus svg {
-              outline: 2px solid;
+            button:focus {
+              outline: none;
+              background-color: rgba(0,0,0,.3);
             }
 
             button svg {
+              background: transparent !important;
               height: 1em;
               margin-left: 0.5em;
             }
