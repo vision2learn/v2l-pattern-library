@@ -87,8 +87,10 @@
   
   function urlSwitch(urlMod) {
     videos.forEach(function(video, index) {
-      video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.${video.src.split('.')[1]}`);
-      video.parentElement.load();
+      if(baseVidSrc[index] !== '') {
+        video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.mp4`);
+        video.parentElement.load();
+      }
     });
 
     interactives.forEach(function(int, index) {
