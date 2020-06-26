@@ -922,7 +922,8 @@ button svg {
 
 .controls button:focus {
   outline: none;
-  box-shadow: 0 0 0 0.25rem skyBlue;
+  box-shadow: 0 0 0 0.25rem $highlight;
+  box-shadow: 0 0 0 0.25rem var(--highlight);
 }
 
 /*
@@ -970,6 +971,10 @@ toggle-section[role="region"] .style-scope {
 
 toggle-section[role="region"] button.style-scope {
   text-transform: capitalize;
+
+  &:focus {
+    background-color: rgba(0,0,0,.3);
+  }
 }
 
 h2.toggle-section::before {
