@@ -7701,7 +7701,7 @@ p.nominalBounds = new cjs.Rectangle(-32.3,-17.3,65,34.7);
 
 
 // stage content:
-(lib.it2_u3_s3_p1_cell_references = function(mode,startPosition,loop) {
+(lib.it2_u3_s3_p1_cell_references_pc = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	this.___GetDepth___ = function(obj) {
