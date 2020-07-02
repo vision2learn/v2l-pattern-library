@@ -52,7 +52,7 @@
     let intJS = int.dataset.v2lInteractive;
     baseIntSrc.push(intJS.substring(0, intJS.indexOf('_pc')));
   });
-  
+
   // check for top-level key or create it
   if(!storage.getItem(switchKey)) {
     // show the Mac/PC toggle after the baner
@@ -83,8 +83,6 @@
     urlSwitch(storage.getItem(switchKey));
   }
       
-  
-  
   function urlSwitch(urlMod) {
     videos.forEach(function(video, index) {
       if(baseVidSrc[index] !== '') {
@@ -94,7 +92,9 @@
     });
 
     interactives.forEach(function(int, index) {
-      int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
+      if(baseIntSrc[index] !== '') {
+        int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
+      }
     });
   }
 
