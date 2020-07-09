@@ -1150,11 +1150,15 @@ h2.toggle-section::before {
   justify-content: center;
   position: relative;
 
+  [data-v2l-loadbtn] {
+    margin: 4rem;
+  }
+
   > canvas {
-    position: absolute; 
+    // position: absolute; 
     display: block; 
     background-color:inherit; 
-    max-width: calc(100% - 2rem);
+    max-width: 100%; //calc(100% - 2rem);
     top: 0;
     left: 0; // For IE11
 
