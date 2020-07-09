@@ -1155,16 +1155,9 @@ h2.toggle-section::before {
   }
 
   > canvas {
-    // position: absolute; 
     display: block; 
     background-color:inherit; 
     max-width: 100%; //calc(100% - 2rem);
-    top: 0;
-    left: 0; // For IE11
-
-    @supports(left: unset) {
-      left: unset;
-    }
-    // height:{{ section.interactive.height }}px
+    flex: 1;
   }
 }
