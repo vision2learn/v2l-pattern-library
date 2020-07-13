@@ -123,8 +123,9 @@
               this.shadowRoot.querySelector('.content').hidden = !expanded;
             }
 
-            this.btn.onclick = () => {
+            this.btn.onclick = (e) => {
               // Change the component's `open` attribute value on click
+              e.preventDefault();
               let open = this.getAttribute('open') === 'true';
               this.setAttribute('open', open ? 'false' : 'true')
 
