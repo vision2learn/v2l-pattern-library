@@ -27,7 +27,7 @@
         {%- endfor %}
       
       {%- if answers.feedback %}
-        {% set feedback = answers.feedback | markdownify %}
+        {% set feedback = answers.feedback %}
         {{ components.accordion({
             title: "Question " + loop.index + " feedback", 
             copy: feedback, 
