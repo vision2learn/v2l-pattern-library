@@ -275,7 +275,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
       </a>
     {%- elseif mediaType === "think" %}
-      {%- if buildenv === 'dev'%}
+      {%- if buildenv !== 'dotnet'%}
         <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
           <textarea class="js-think" rows="15"></textarea>
           <button>Save</button>

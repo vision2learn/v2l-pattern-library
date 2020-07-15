@@ -11,7 +11,8 @@
     "build": "gulp build && ELEVENTY_ENV=dev yarn eleventy",
     "seed": "gulp build & ELEVENTY_ENV=seed eleventy",
     "dotnet": "gulp build & ELEVENTY_ENV=dotnet eleventy",
-    "cshtml": "ELEVENTY_ENV=dotnet eleventy"
+    "cshtml": "ELEVENTY_ENV=dotnet eleventy",
+    "netlify": "gulp dev & ELEVENTY_ENV=netlify eleventy --serve"
   },
   "keywords": [
     "11ty",
