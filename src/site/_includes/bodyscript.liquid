@@ -3,7 +3,7 @@ var AdobeAn = {};
 
 (function() {
 
-  var appPath = document.querySelector('body').dataset.v2lEnv === 'dev' ? '' : '@ViewBag.ApplicationPath';
+  var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
   
   if(document.querySelectorAll('.c-interactive').length > 0) {
     attachHandlers();
