@@ -6,3 +6,5 @@ RUN yarn
 VOLUME [ "/code/node_modules" ]
 CMD ["build"]
 ENTRYPOINT ["yarn", "run"]
+EXPOSE 8080
+EXPOSE 3001
