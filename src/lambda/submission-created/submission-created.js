@@ -7,14 +7,14 @@
 
 // // details in https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget
 const fetch = require('node-fetch')
-const { GH_TOKEN } = process.env.GitHub_Auth
+const { GitHub_Auth } = process.env
 exports.handler = async event => {
   const fb = JSON.parse(event.body).payload
   console.log(`Recieved feedback: ${JSON.stringify(fb)}`)
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
     method: 'POST',
     headers: {
-      'Authorization': `Token ${GH_TOKEN}`,
+      'Authorization': `Token ${GitHub_Auth}`,
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: {
