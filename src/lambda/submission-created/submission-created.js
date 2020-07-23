@@ -9,8 +9,18 @@
 const fetch = require('node-fetch')
 const { GitHub_Auth } = process.env
 exports.handler = async event => {
-  const fb = JSON.parse(event.body).payload
-  console.log(`Recieved feedback: ${JSON.stringify(fb)}`)
+  const fb = JSON.parse(event.body).payload.data
+  // console.log(`Recieved feedback: ${JSON.stringify(fb)}`)
+
+  const issueBody = `
+    - Reviewer: ${fb.name}
+    - Email: ${fb.email}
+    - User Agent: ${fb.UA}
+
+    ### Details
+    ${fb.message}
+  `;
+
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
     method: 'POST',
     headers: {
@@ -18,13 +28,13 @@ exports.handler = async event => {
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: {
-      title: `Test Issue ${+new Date()}`,
-      body: JSON.stringify({ fb })
+      title: `Issue on page ${fb.page}`,
+      body: issueBody
     }
   })
     .then(response => response.json())
     .then(data => {
-      console.log(`Submitted Issue to GitHub:\n ${data}`)
+      console.log(`Submitted Issue to GitHub:\n ${JSON.stringify(data)}`)
     })
     .catch(error => ({ statusCode: 422, body: String(error) }))
 }
