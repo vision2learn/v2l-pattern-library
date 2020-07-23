@@ -9,7 +9,7 @@
 const fetch = require('node-fetch')
 const { GH_TOKEN } = process.env.GitHub_Auth
 exports.handler = async event => {
-  const fb = JSON.parse(event.body).payload.feedback
+  const fb = JSON.parse(event.body).payload
   console.log(`Recieved feedback: ${fb}`)
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
     method: 'POST',
@@ -18,7 +18,7 @@ exports.handler = async event => {
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: {
-      title: "Test Issue",
+      title: `Test Issue ${+new Date()}`,
       body: JSON.stringify({ fb })
     }
   })
