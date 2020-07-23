@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import fetch from "node-fetch";
+const fetch = require('node-fetch');
 
 const API_ENDPOINT = "https://icanhazdadjoke.com/";
 
