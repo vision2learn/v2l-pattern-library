@@ -18,7 +18,7 @@ exports.handler = async event => {
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: JSON.stringify(GHJSON),
-    labels: ['Feedback from Review']
+    labels: ["Feedback from Review"]
   })
     .then(response => response.json())
     .then(data => {
