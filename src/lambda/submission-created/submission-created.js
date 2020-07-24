@@ -13,13 +13,15 @@ exports.handler = async event => {
   // console.log(`Recieved feedback: ${JSON.stringify(fb)}`)
 
   const issueBody = `
-    - Reviewer: ${fb.name}
-    - Email: ${fb.email}
-    - User Agent: ${fb.UA}
+    - Reviewer: ${fb.name}\n
+    - Email: ${fb.email}\n
+    - User Agent: ${fb.UA}\n\n
 
     ### Details
     ${fb.message}
   `;
+
+  console.log(issueBody)
 
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
     method: 'POST',
@@ -28,8 +30,8 @@ exports.handler = async event => {
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: {
-      title: `Issue on page ${fb.page}`,
-      body: issueBody
+      "title": `Issue on page ${fb.page}`,
+      "body": issueBody
     }
   })
     .then(response => response.json())
