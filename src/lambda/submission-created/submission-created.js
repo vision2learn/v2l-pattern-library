@@ -8,7 +8,7 @@ exports.handler = async event => {
 
   const GHJSON = {
     title: `Issue on page ${fb.page}`,
-    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n'+fb.files[0] : ''}`,
+    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n- Full URL: https://v2lrefresh.netlify.app/${fb.page}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n'+JSON.stringify(fb.files) : ''}`,
     labels: ["Feedback from Review"]
   }
 
