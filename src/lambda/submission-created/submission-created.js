@@ -8,7 +8,7 @@ exports.handler = async event => {
 
   const GHJSON = {
     title: `Issue on page ${fb.page}`,
-    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n\n### Details\n\n${fb.message}`
+    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n###Screenshot\n\n'+fb.files : ''}`
   }
 
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
