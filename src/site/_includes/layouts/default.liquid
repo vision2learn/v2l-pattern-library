@@ -24,6 +24,45 @@
     <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
     {{ content }}
   </div>
+  {% if site.env == 'netlify' %}
+    <style>
+      .toolbar {
+        background: var(--secondary2);
+        border-bottom: solid black 1px;
+        box-shadow: 0 0 10px 8px rgba(0,0,0,.4);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding: .5rem 1rem;
+        z-index: 20;
+        filter: opacity(55%);
+        transition: filter .3s ease-in-out;
+      }
+
+      .toolbar:hover,
+      .toolbar:focus {
+        filter: opacity(100%);
+      }
+
+      .toolbar > button {
+        all: unset;
+      }
+
+      .netlify-identity-menu {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+      }
+    </style>
+
+    <div class="toolbar">
+      <div data-netlify-identity-menu></div>
+      <a href="/feedback/" id="feedbackBtn" data-v2l-activity="true">Feedback</a>
+    </div>
+  {% endif %}
   <script>
     {% include 'bodyscript' %}
   </script>
