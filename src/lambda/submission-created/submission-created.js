@@ -8,7 +8,8 @@ exports.handler = async event => {
 
   const GHJSON = {
     title: `Issue on page ${fb.page}`,
-    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n###Screenshot\n\n'+fb.files : ''}`
+    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n'+fb.files[0] : ''}`,
+    labels: ["Feedback from Review"]
   }
 
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
@@ -18,7 +19,6 @@ exports.handler = async event => {
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: JSON.stringify(GHJSON),
-    labels: ["Feedback from Review"]
   })
     .then(response => response.json())
     .then(data => {
