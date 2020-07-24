@@ -35,7 +35,7 @@ exports.handler = async event => {
       'Authorization': `Token ${GitHub_Auth}`,
       'Content-Type': 'application/vnd.github.v3+json',
     },
-    body: GHJSON
+    body: JSON.stringify(GHJSON)
   })
     .then(response => response.json())
     .then(data => {
