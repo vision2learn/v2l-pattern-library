@@ -21,7 +21,13 @@ exports.handler = async event => {
     ${fb.message}
   `;
 
-  console.log(issueBody)
+  const GHJSON = {
+    title: `Issue on page ${fb.page}`,
+    body: issueBody
+  }
+
+  console.log(GHJSON);
+  console.log(JSON.stringify(GHJSON));
 
   return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
     method: 'POST',
@@ -29,10 +35,7 @@ exports.handler = async event => {
       'Authorization': `Token ${GitHub_Auth}`,
       'Content-Type': 'application/vnd.github.v3+json',
     },
-    body: {
-      "title": `Issue on page ${fb.page}`,
-      "body": issueBody
-    }
+    body: GHJSON
   })
     .then(response => response.json())
     .then(data => {
