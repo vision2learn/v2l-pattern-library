@@ -3,7 +3,7 @@ var AdobeAn = {};
 
 (function() {
 
-  var appPath = document.querySelector('body').dataset.v2lEnv === 'dev' ? '' : '@ViewBag.ApplicationPath';
+  var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
   
   if(document.querySelectorAll('.c-interactive').length > 0) {
     attachHandlers();
@@ -84,8 +84,7 @@ var AdobeAn = {};
     new Function("(a = 0) => a");
     
     [
-      appPath+'/js/script.js',
-      '//identity.netlify.com/v1/netlify-identity-widget.js'
+      appPath+'/js/script.js'
     ].forEach(function(src) {
       var script = document.createElement('script');
       script.src = src;
@@ -93,7 +92,7 @@ var AdobeAn = {};
       document.head.appendChild(script);
     });
 
-    if (window.netlifyIdentity) {
+    {% comment %} if (window.netlifyIdentity) {
       const loc = window.location;
       window.netlifyIdentity.on("init", function(user) {
         if (!user) {
@@ -102,7 +101,7 @@ var AdobeAn = {};
           });
         }
       });
-    }
+    } {% endcomment %}
     
   }
   catch (err) {
@@ -110,7 +109,7 @@ var AdobeAn = {};
     // return false;
   }
 })();
-
+{% comment %} 
 if (window.netlifyIdentity) {
   const loc = window.location;
   window.netlifyIdentity.on("init", function() {
@@ -120,4 +119,4 @@ if (window.netlifyIdentity) {
       });
     }
   });
-}
+} {% endcomment %}
