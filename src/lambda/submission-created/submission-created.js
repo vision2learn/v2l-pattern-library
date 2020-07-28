@@ -57,7 +57,7 @@ async function callApi(path, method, body) {
 
 async function getProjects(page, url) {
   details.page = page;
-  datails.url = url;
+  details.url = url;
   preview = true;
 
   let data = await callApi(`${baseAPI}/repos/${repo.owner}/${repo.name}/projects`, 'GET')
@@ -142,7 +142,7 @@ exports.handler = async event => {
 
   const GHJSON = {
     title: `Issue on page ${fb.page}`,
-    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n- Full URL: https://v2lrefresh.netlify.app/${fb.page}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n![]('+fb.files.url+')' : ''}`,
+    body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n- Full URL: https://v2lrefresh.netlify.app${fb.page}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n![]('+fb.files.url+')' : ''}`,
     labels: ["Feedback from Review"]
   }
 
