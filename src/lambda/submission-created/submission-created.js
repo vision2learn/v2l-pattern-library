@@ -156,7 +156,7 @@ exports.handler = async event => {
   })
     .then(response => response.json())
     .then(data => {
-      await getProjects(fb.page, data.html_url);
+      getProjects(fb.page, data.html_url);
       console.log(`Submitted Issue to GitHub:\n ${JSON.stringify(data)}`)
     })
     .catch(error => ({ statusCode: 422, body: String(error) }))
