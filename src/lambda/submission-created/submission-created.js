@@ -3,23 +3,11 @@
 const fetch = require('node-fetch')
 const { GitHub_Auth } = process.env
 const baseAPI = 'https://api.github.com';
-const course = {
-  name: 'it',
-  level: 2,
-  unit: 3,
-  session: 1,
-  page: 2
-};
 
-const repo = {
-  owner: 'mrsleeth',
-  name: 'v2l-pattern-library'
-};
-
-const cardName = `unit ${course.unit} review - feedback`;
-
+let cardName; 
 let preview;
 let details = {};
+let course = {};
 
 async function callApi(path, method, body) {
   let options = {
@@ -56,6 +44,11 @@ async function callApi(path, method, body) {
 }
 
 async function getProjects(page, url) {
+  const repo = {
+    owner: 'mrsleeth',
+    name: 'v2l-pattern-library'
+  };
+
   details.page = page;
   details.url = url;
   preview = true;
@@ -139,26 +132,54 @@ async function findIssue(issueUrl) {
 
 exports.handler = async event => {
   const fb = JSON.parse(event.body).payload.data
-  console.log(event.body);
-  console.log(fb);
+  console.log('EVENT BODY: ', event.body);
+  console.log('FEEDBACK: ', fb);
   const GHJSON = {
     title: `Issue on page ${fb.page}`,
     body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n- Full URL: https://v2lrefresh.netlify.app${fb.page}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n![]('+fb.files.url+')' : ''}`,
     labels: ["Feedback from Review"]
   }
 
-  return fetch('https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues', {
+  course = {
+    name: fb.courseName,
+    level: fb.courseLevel,
+    unit: fb.courseUnit,
+    session: fb.courseSession,
+    page: fb.coursePage
+  };
+
+  cardName = `unit ${course.unit} review - feedback`;
+  const API_ENDPOINT = 'https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues';
+  const OPTIONS =  {
     method: 'POST',
     headers: {
       'Authorization': `Token ${GitHub_Auth}`,
       'Content-Type': 'application/vnd.github.v3+json',
     },
     body: JSON.stringify(GHJSON),
-  })
-    .then(response => response.json())
-    .then(data => {
-      getProjects(fb.page, data.html_url);
-      console.log(`Submitted Issue to GitHub:\n ${JSON.stringify(data)}`)
+  };
+
+  let response;
+
+  try {
+    response = await fetch(API_ENDPOINT, OPTIONS)
+    // handle response
+    let data = await response.json();
+    getProjects(fb.page, data.html_url);
+
+  } catch (err) {
+    return {
+      statusCode: err.statusCode || 500,
+      body: JSON.stringify({
+        error: err.message
+      })
+    }
+  }
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({
+      data: response
     })
-    .catch(error => ({ statusCode: 422, body: String(error) }))
+  }
 }
