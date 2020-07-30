@@ -40,6 +40,12 @@ title: Feedback form
   <form name="contact" method="POST" enctype="multipart/form-data" data-netlify="true">
     <input type="hidden" name="UA" id="uastring" value="" />
     <input type="hidden" name="page" id="page" value="">
+    <input type="hidden" name="courseName" id="courseName" value="">
+    <input type="hidden" name="courseLevel" id="courseLevel" value="">
+    <input type="hidden" name="courseUnit" id="courseUnit" value="">
+    <input type="hidden" name="courseSession" id="courseSession" value="">
+    <input type="hidden" name="coursePage" id="coursePage" value="">
+    
     <div>
       <label for="name">Your Name (optional): </label><input type="text" name="name" id="name" />
     </div>
@@ -62,9 +68,21 @@ title: Feedback form
 
   var uaStringField = document.getElementById('uastring');
   var pageField = document.getElementById('page');
-
+  var nameField = document.getElementById('courseName');
+  var levelField = document.getElementById('courseLevel');
+  var unitField = document.getElementById('courseUnit');
+  var sessionField = document.getElementById('courseSession');
+  var pageNoField = document.getElementById('coursePage');
+  var parent = window.parent.document;
+  var main = parent.querySelector('main');
+  
   uaStringField.value = navigator.userAgent;
   pageField.value = window.location.pathname === '/feedback/' ? window.parent.location.pathname : 'unknown';
-
+  nameField.value = main.dataset.v2lTags;
+  levelField.value = main.dataset.v2lLevel;
+  unitField.value = main.dataset.v2lUnit;
+  sessionField.value = main.dataset.v2lSession;
+  pageNoField.value = main.dataset.v2lPage;
+  
 })();
 </script>
