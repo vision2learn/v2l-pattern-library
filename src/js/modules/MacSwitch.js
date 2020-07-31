@@ -52,7 +52,7 @@
     let intJS = int.dataset.v2lInteractive;
     baseIntSrc.push(intJS.substring(0, intJS.indexOf('_pc')));
   });
-  
+
   // check for top-level key or create it
   if(!storage.getItem(switchKey)) {
     // show the Mac/PC toggle after the baner
@@ -64,15 +64,9 @@
 
     switchForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      new FormData(switchForm);
-      switchForm.parentElement.style = "display: none";
-    });
-
-    switchForm.addEventListener('formdata', (e) => {
-      const data = e.formData;
+      const data = new FormData(switchForm);
       const save = data.get('switcher_pref');
       const macOrPc = data.get('switcher');
-      
       urlSwitch(macOrPc);
 
       if(save === 'on') {
@@ -81,22 +75,26 @@
       else {
         storage.removeItem(switchKey);
       }
+      
+      switchForm.parentElement.style = "display: none";
     });
   }
   else {
     urlSwitch(storage.getItem(switchKey));
   }
       
-  
-  
   function urlSwitch(urlMod) {
     videos.forEach(function(video, index) {
-      video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.${video.src.split('.')[1]}`);
-      video.parentElement.load();
+      if(baseVidSrc[index] !== '') {
+        video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.mp4`);
+        video.parentElement.load();
+      }
     });
 
     interactives.forEach(function(int, index) {
-      int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
+      if(baseIntSrc[index] !== '') {
+        int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
+      }
     });
   }
 

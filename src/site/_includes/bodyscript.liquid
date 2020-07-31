@@ -3,7 +3,7 @@ var AdobeAn = {};
 
 (function() {
 
-  var appPath = document.querySelector('body').dataset.v2lEnv === 'dev' ? '' : '@ViewBag.ApplicationPath';
+  var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
   
   if(document.querySelectorAll('.c-interactive').length > 0) {
     attachHandlers();
@@ -16,6 +16,8 @@ var AdobeAn = {};
   }
 
   function loadCanvas() {
+    console.log('click!');
+    
     // Is there a canvas element on the page already?
     var canvasLoaded = document.querySelector('.c-interactive > canvas');
     var canvas = document.createElement('canvas');
@@ -77,26 +79,44 @@ var AdobeAn = {};
   }
   
   // detect ES6 support, then load the main script file if OK
+  // detect ES6 support, then load the main script file if OK
   try {
     new Function("(a = 0) => a");
     
-    var script = document.createElement("script");
-    script.src = appPath+"/js/script.js";
-    document.head.appendChild(script);
+    [
+      appPath+'/js/script.js'
+    ].forEach(function(src) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      document.head.appendChild(script);
+    });
 
+    {% comment %} if (window.netlifyIdentity) {
+      const loc = window.location;
+      window.netlifyIdentity.on("init", function(user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function() {
+            document.location.href = loc;
+          });
+        }
+      });
+    } {% endcomment %}
+    
   }
   catch (err) {
-    return false;
+    console.info("Old browser, JS performance will be limited");
+    // return false;
   }
 })();
-
+{% comment %} 
 if (window.netlifyIdentity) {
   const loc = window.location;
-  window.netlifyIdentity.on("init", user => {
+  window.netlifyIdentity.on("init", function() {
     if (!user) {
-      window.netlifyIdentity.on("login", () => {
+      window.netlifyIdentity.on("login", function() {
         document.location.href = loc;
       });
     }
   });
-}
+} {% endcomment %}

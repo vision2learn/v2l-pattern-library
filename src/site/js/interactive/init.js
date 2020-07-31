@@ -4,7 +4,7 @@ function init(canvasID, compID, fileRef) {
 	
 	canvas = document.getElementById(canvasID);
 	anim_container = canvas.parentNode; //document.querySelectorAll("[data-v2l-id=animation_container]")[canvasID];
-	dom_overlay_container = anim_container.querySelector("[data-v2l-id=dom_overlay_container]");
+	// dom_overlay_container = anim_container.querySelector("[data-v2l-id=dom_overlay_container]");
 	v2l_fileToLoad = fileRef;
 	
 	
@@ -156,42 +156,34 @@ function handleComplete(evt,comp) {
 		}
 	}	    
 	//Code to support hidpi screens and responsive scaling.
-	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+	function makeResponsive() {		
 		var lastW, lastH, lastS=1;		
 		window.addEventListener('resize', resizeCanvas);		
 		resizeCanvas();		
 		function resizeCanvas() {			
 			var w = lib.properties.width, h = lib.properties.height;			
 			var iw = window.innerWidth, ih=window.innerHeight;			
-			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
-			if(isResp) {                
-				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
-					sRatio = lastS;                
-				}				
-				else if(!isScale) {					
-					if(iw<w || ih<h)						
-						sRatio = Math.min(xRatio, yRatio);				
-				}				
-				else if(scaleType==1) {					
-					sRatio = Math.min(xRatio, yRatio);				
-				}				
-				else if(scaleType==2) {					
-					sRatio = Math.max(xRatio, yRatio);				
-				}			
-			}			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			               
+							
+			if(iw<w || ih<h) {
+				sRatio = Math.min(xRatio, yRatio);				
+			}
+						
 			canvas.width = w*pRatio*sRatio;			
 			canvas.height = h*pRatio*sRatio;
-			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
-			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+			// canvas.style.width = dom_overlay_container.style.width = w*sRatio+'px';				
+			// canvas.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
 			lastW = iw; lastH = ih; lastS = sRatio;            
 			stage.tickOnUpdate = false;            
 			stage.update();            
-			stage.tickOnUpdate = true;		
+			stage.tickOnUpdate = true;
+
+			window.stage = stage;
 		}
 	}
-	makeResponsive(true,'both',false,1);	
+	makeResponsive();	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }

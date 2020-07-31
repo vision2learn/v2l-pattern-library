@@ -11,7 +11,8 @@
     "build": "gulp build && ELEVENTY_ENV=dev yarn eleventy",
     "seed": "gulp build & ELEVENTY_ENV=seed eleventy",
     "dotnet": "gulp build & ELEVENTY_ENV=dotnet eleventy",
-    "cshtml": "ELEVENTY_ENV=dotnet eleventy"
+    "cshtml": "ELEVENTY_ENV=dotnet eleventy",
+    "netlify": "gulp dev & ELEVENTY_ENV=netlify eleventy --serve"
   },
   "keywords": [
     "11ty",
@@ -27,6 +28,7 @@
     "axios": "^0.18.1",
     "concurrent-transform": "^1.0.0",
     "dotenv": "^6.2.0",
+    "node-fetch": "^2.3.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-image-resize": "^0.13.0",

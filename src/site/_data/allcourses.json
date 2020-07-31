@@ -437,9 +437,10 @@
         "title": "Word Processing Software",
         "sessions": {
           "Welcome": [
+            "Approaching a task",
             "Using Microsoft Office",
             "Word processing software",
-            "Inputting text and keyboard shortcuts"
+            "Inputting text and working more efficiently"
           ],
           "Managing documents": [
             "File management",
@@ -452,13 +453,13 @@
             "Textual effects",
             "Paragraph editing",
             "Styles",
-            "templates"
+            "Templates"
           ],
           "Structure and layout": [
             "Document structure",
             "Page layout",
             "Working with Tables",
-            "Working Forms"
+            "Working with Forms"
           ],
           "Combining information": [
             "Transferring data",
@@ -480,6 +481,7 @@
         "sessions": {
           "Entering information into presentations": [
             "Types of information",
+            "What to consider",
             "Entering information",
             "Inserting items"
           ],
@@ -493,7 +495,8 @@
             "Placing items",
             "Editing tools",
             "Formatting text",
-            "Editing your presentation"
+            "Editing your presentation",
+            "Other considerations"
           ],
           "Slide formatting": [
             "Slide formatting",
@@ -509,7 +512,8 @@
             "Reviewing your aims",
             "Preparing slides",
             "Checking accuracy",
-            "Other factors"
+            "Other factors",
+            "Evaluating the use of IT"
           ] 
         }
       },
@@ -523,29 +527,33 @@
             "Structure, design and layout"
           ],
           "Managing spreadsheets": [
-            "one",
-            "two",
-            "three"
+            "File management",
+            "Saving files",
+            "Printing"
           ],
           "Analysing data": [
-            "one",
-            "two",
-            "three"
+            "Formula basics",
+            "Functions and formula",
+            "Summarising data"
           ],
           "Formatting and presenting data": [
-            "one",
-            "two",
-            "three"
+            "The importance of presentation",
+            "Formatting numerical data",
+            "Formatting cells, rows and columns",
+            "Presenting data and page layout"
           ],
           "Charts and graphs": [
-            "one",
-            "two",
-            "three"
+            "Chart elements",
+            "The different chart types",
+            "Creating charts",
+            "Formatting charts and graphs",
+            "Altering your chart"
           ],
           "Spreadsheet quality control": [
-            "one",
-            "two",
-            "three"
+            "Checking your work",
+            "Numerical errors",
+            "Solving problems",
+            "Improving productivity and efficiency"
           ] 
         }
       }

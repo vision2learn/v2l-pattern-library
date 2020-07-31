@@ -1,3 +1,17 @@
+[data-v2l-env="netlify"] {
+  display: grid;
+  grid-template-rows: max-content auto;
+  grid-template-areas: 'toolbar' 'site';
+
+  > .l-wrapper {
+    grid-area: site;
+  }
+
+  > .toolbar {
+    grid-area: toolbar;
+  }
+}
+
 .l-wrapper {
 
   // transition: filter .2s ease-in-out;
@@ -342,7 +356,7 @@ main > section:not(.c-banner) {
 }
 
 .c-interactive {
-  width: calc(100% - 2rem) !important;
+  // width: calc(100% - 2rem) !important;
 }
 
 [data-v2l-overlay] {

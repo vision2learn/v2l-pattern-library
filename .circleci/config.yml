@@ -59,7 +59,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: sudo apt update && sudo apt install graphicsmagick
+      - run: sudo apt update
       - run: yarn install
 
       - save_cache:
@@ -68,9 +68,16 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: yarn gulp build && ELEVENTY_ENV=dotnet yarn eleventy
-      - run: find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
-      - run: find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
+      - run: ELEVENTY_ENV=dotnet yarn eleventy
+      - run: find dist/dotnet -name '*.cshtml'
+      - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
+      - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
+      - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="http://_href="//_g' "{}" \;
+      - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_src="/images_src="~/images_g' "{}" \;
+      #- run: grep -i -R 'href="/pdf' dist/dotnet
+      #- run: grep -i -R 'href="/documents' dotnet
+      #- run: find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
+      #- run: find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
 
       - persist_to_workspace:
           root: .

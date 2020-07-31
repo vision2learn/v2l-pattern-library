@@ -922,7 +922,8 @@ button svg {
 
 .controls button:focus {
   outline: none;
-  box-shadow: 0 0 0 0.25rem skyBlue;
+  box-shadow: 0 0 0 0.25rem $highlight;
+  box-shadow: 0 0 0 0.25rem var(--highlight);
 }
 
 /*
@@ -970,6 +971,10 @@ toggle-section[role="region"] .style-scope {
 
 toggle-section[role="region"] button.style-scope {
   text-transform: capitalize;
+
+  &:focus {
+    background-color: rgba(0,0,0,.3);
+  }
 }
 
 h2.toggle-section::before {
@@ -1145,17 +1150,14 @@ h2.toggle-section::before {
   justify-content: center;
   position: relative;
 
+  [data-v2l-loadbtn] {
+    margin: 4rem;
+  }
+
   > canvas {
-    position: absolute; 
     display: block; 
     background-color:inherit; 
-    max-width: calc(100% - 2rem);
-    top: 0;
-    left: 0; // For IE11
-
-    @supports(left: unset) {
-      left: unset;
-    }
-    // height:{{ section.interactive.height }}px
+    max-width: 100%; //calc(100% - 2rem);
+    flex: 1;
   }
 }
