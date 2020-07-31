@@ -1,0 +1,436 @@
+﻿1
+00:00:01,190 --> 00:00:05,640
+when creating documents within word
+
+2
+00:00:03,570 --> 00:00:07,589
+there may be occasions where you wish to
+
+3
+00:00:05,640 --> 00:00:09,540
+include some interactive element within
+
+4
+00:00:07,589 --> 00:00:13,110
+the document so just check boxes or
+
+5
+00:00:09,540 --> 00:00:14,519
+drop-down lists to do this you would
+
+6
+00:00:13,110 --> 00:00:16,830
+need to use the tools that are featured
+
+7
+00:00:14,519 --> 00:00:18,660
+on the Developer tab so if you look at
+
+8
+00:00:16,830 --> 00:00:20,730
+the top of your toolbar if the
+
+9
+00:00:18,660 --> 00:00:23,070
+development tab isn't available you
+
+10
+00:00:20,730 --> 00:00:25,170
+would first need to activate it to do
+
+11
+00:00:23,070 --> 00:00:28,920
+that if you go along to the word menu
+
+12
+00:00:25,170 --> 00:00:31,500
+and select Preferences and then ribbon
+
+13
+00:00:28,920 --> 00:00:33,270
+in tool bar and on the ribbon toolbar on
+
+14
+00:00:31,500 --> 00:00:35,940
+the right hand side you can see that the
+
+15
+00:00:33,270 --> 00:00:37,800
+main tabs are all ticked if the
+
+16
+00:00:35,940 --> 00:00:40,020
+developer tab isn't ticked you would
+
+17
+00:00:37,800 --> 00:00:42,210
+just need to tick that select Save and
+
+18
+00:00:40,020 --> 00:00:45,149
+then that will activate the Developer
+
+19
+00:00:42,210 --> 00:00:47,100
+tab so once you're on the Developer tab
+
+20
+00:00:45,149 --> 00:00:49,559
+you'll see a range of tools that can be
+
+21
+00:00:47,100 --> 00:00:51,390
+used to add various functionality to the
+
+22
+00:00:49,559 --> 00:00:53,640
+document the two that we're going to
+
+23
+00:00:51,390 --> 00:00:56,940
+focus on our check boxes aren't combo
+
+24
+00:00:53,640 --> 00:00:58,670
+box so for this first letter I'm just
+
+25
+00:00:56,940 --> 00:01:01,109
+going to add some simple check boxes
+
+26
+00:00:58,670 --> 00:01:03,030
+what I needed to do is place makers are
+
+27
+00:01:01,109 --> 00:01:04,619
+to the right of the first option and I'm
+
+28
+00:01:03,030 --> 00:01:07,320
+gonna use the tab key to line them up
+
+29
+00:01:04,619 --> 00:01:09,210
+just a little bit further away and then
+
+30
+00:01:07,320 --> 00:01:12,180
+I'm gonna click the check box icon which
+
+31
+00:01:09,210 --> 00:01:15,479
+will then insert a check box I will
+
+32
+00:01:12,180 --> 00:01:20,299
+repeat that for the next five options so
+
+33
+00:01:15,479 --> 00:01:23,630
+I move it down tab key add the check box
+
+34
+00:01:20,299 --> 00:01:29,150
+use the tab key check box
+
+35
+00:01:23,630 --> 00:01:32,430
+a tab key to line them up and finally
+
+36
+00:01:29,150 --> 00:01:34,079
+the last check box so now I have all the
+
+37
+00:01:32,430 --> 00:01:36,299
+check boxes inserted and that all lined
+
+38
+00:01:34,079 --> 00:01:38,430
+up and now I need to make them active
+
+39
+00:01:36,299 --> 00:01:40,890
+and to do that I need to click on the
+
+40
+00:01:38,430 --> 00:01:43,799
+protect form once you've clicked on the
+
+41
+00:01:40,890 --> 00:01:47,310
+protect form button you can then select
+
+42
+00:01:43,799 --> 00:01:50,579
+or deselect the check boxes as required
+
+43
+00:01:47,310 --> 00:01:54,240
+I can't edit any of the rest of the
+
+44
+00:01:50,579 --> 00:01:56,420
+document however anyone could unprotect
+
+45
+00:01:54,240 --> 00:01:58,500
+the form and then make changes to
+
+46
+00:01:56,420 --> 00:02:01,049
+protect the document fully you would
+
+47
+00:01:58,500 --> 00:02:03,439
+need to add a password and to do that
+
+48
+00:02:01,049 --> 00:02:06,090
+you would need to go to the Tools menu
+
+49
+00:02:03,439 --> 00:02:09,000
+from tools you would select protect
+
+50
+00:02:06,090 --> 00:02:10,979
+document that will then allow you to add
+
+51
+00:02:09,000 --> 00:02:13,900
+a password and the protection you're
+
+52
+00:02:10,979 --> 00:02:19,870
+looking for is to protect the document
+
+53
+00:02:13,900 --> 00:02:21,519
+four forms at the password select your
+
+54
+00:02:19,870 --> 00:02:27,280
+care and we'll ask you to repeat the
+
+55
+00:02:21,519 --> 00:02:28,329
+password select your care and that is
+
+56
+00:02:27,280 --> 00:02:30,670
+now set
+
+57
+00:02:28,329 --> 00:02:33,640
+so once the document has been protected
+
+58
+00:02:30,670 --> 00:02:35,470
+with a password by clicking on that you
+
+59
+00:02:33,640 --> 00:02:41,379
+would need to enter a password to
+
+60
+00:02:35,470 --> 00:02:43,359
+unprotect the document as well an ardent
+
+61
+00:02:41,379 --> 00:02:45,849
+checkboxes there may be occasions where
+
+62
+00:02:43,359 --> 00:02:47,379
+you wish to add a drop-down box so as
+
+63
+00:02:45,849 --> 00:02:48,790
+you can see I've slightly edited the
+
+64
+00:02:47,379 --> 00:02:51,040
+letter that I was working with and
+
+65
+00:02:48,790 --> 00:02:52,659
+reduced some of the options I'm now
+
+66
+00:02:51,040 --> 00:02:55,480
+gonna add some drop-down lists which
+
+67
+00:02:52,659 --> 00:02:57,159
+will indicate a specific number and then
+
+68
+00:02:55,480 --> 00:02:58,720
+the reader can then select that number
+
+69
+00:02:57,159 --> 00:03:01,629
+to see which experience that they're
+
+70
+00:02:58,720 --> 00:03:04,180
+interested in so again I'm on the
+
+71
+00:03:01,629 --> 00:03:06,670
+Developer tab and what I need to do is
+
+72
+00:03:04,180 --> 00:03:10,180
+I'm going to add your combo box so I'm
+
+73
+00:03:06,670 --> 00:03:12,870
+going to use the tab cages to space the
+
+74
+00:03:10,180 --> 00:03:15,730
+drop-down list away from the option
+
+75
+00:03:12,870 --> 00:03:18,819
+select a combo box and then click on
+
+76
+00:03:15,730 --> 00:03:21,069
+options now it's basically asking me
+
+77
+00:03:18,819 --> 00:03:23,560
+what I want to include in the drop-down
+
+78
+00:03:21,069 --> 00:03:27,810
+list so the first thing I'm going to add
+
+79
+00:03:23,560 --> 00:03:37,449
+some numbers so I click one and add that
+
+80
+00:03:27,810 --> 00:03:41,019
+two three four and finally five plus at
+
+81
+00:03:37,449 --> 00:03:43,030
+that so we now have all of the options I
+
+82
+00:03:41,019 --> 00:03:45,760
+want in the drop-down list and I'm just
+
+83
+00:03:43,030 --> 00:03:47,680
+going to edit the name so I just drop
+
+84
+00:03:45,760 --> 00:03:50,680
+down one remove the - from there and
+
+85
+00:03:47,680 --> 00:03:53,400
+click look here and that will have added
+
+86
+00:03:50,680 --> 00:03:54,909
+the drop-down list so I click on that
+
+87
+00:03:53,400 --> 00:03:57,400
+nothing happens
+
+88
+00:03:54,909 --> 00:04:00,489
+again you have to protect the form so
+
+89
+00:03:57,400 --> 00:04:03,329
+once it's protected I can then make
+
+90
+00:04:00,489 --> 00:04:07,120
+selections from the drop-down list
+
+91
+00:04:03,329 --> 00:04:09,159
+I'll just protect the form again now to
+
+92
+00:04:07,120 --> 00:04:11,260
+repeat that for the next two options I
+
+93
+00:04:09,159 --> 00:04:14,290
+would go again to the combo box do the
+
+94
+00:04:11,260 --> 00:04:16,150
+options and add the five numbers or
+
+95
+00:04:14,290 --> 00:04:18,789
+whatever else I wanted to add to the
+
+96
+00:04:16,150 --> 00:04:20,349
+drop-down box alternatively because I
+
+97
+00:04:18,789 --> 00:04:21,909
+know that the drop-down box is going to
+
+98
+00:04:20,349 --> 00:04:25,919
+be the same for both of the other
+
+99
+00:04:21,909 --> 00:04:25,919
+experiences I can just highlight that
+
+100
+00:04:26,290 --> 00:04:31,720
+use the command + C to copy it and go
+
+101
+00:04:28,540 --> 00:04:34,530
+down to the next option use a command in
+
+102
+00:04:31,720 --> 00:04:37,810
+V and again for that one
+
+103
+00:04:34,530 --> 00:04:42,670
+come on in V and then if I protect the
+
+104
+00:04:37,810 --> 00:04:47,110
+form I have now added the drop-down
+
+105
+00:04:42,670 --> 00:04:49,720
+lists to all three of the options as
+
+106
+00:04:47,110 --> 00:04:51,430
+with the forms if you wish to protect it
+
+107
+00:04:49,720 --> 00:04:54,070
+with a password you would need to go to
+
+108
+00:04:51,430 --> 00:04:58,050
+the Tools menu and then select protect
+
+109
+00:04:54,070 --> 00:04:58,050
+document and add a password
+

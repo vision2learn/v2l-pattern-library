@@ -1,0 +1,504 @@
+﻿1
+00:00:02,639 --> 00:00:06,879
+a useful feature within word
+
+2
+00:00:04,480 --> 00:00:07,600
+is the ability to merge the contents of
+
+3
+00:00:06,879 --> 00:00:09,519
+a letter
+
+4
+00:00:07,600 --> 00:00:10,960
+with the database of clients names and
+
+5
+00:00:09,519 --> 00:00:12,719
+addresses
+
+6
+00:00:10,960 --> 00:00:14,160
+in this example i'm going to use the
+
+7
+00:00:12,719 --> 00:00:15,360
+files that you can download from the
+
+8
+00:00:14,160 --> 00:00:17,279
+vision alone website
+
+9
+00:00:15,360 --> 00:00:19,359
+to show how you can link the names and
+
+10
+00:00:17,279 --> 00:00:21,520
+addresses of four clients
+
+11
+00:00:19,359 --> 00:00:23,359
+to the letter which can then be sent out
+
+12
+00:00:21,520 --> 00:00:27,279
+without having to type out each
+
+13
+00:00:23,359 --> 00:00:29,359
+individual person's names and addresses
+
+14
+00:00:27,279 --> 00:00:31,039
+so the first thing i need to do is open
+
+15
+00:00:29,359 --> 00:00:32,079
+the letter which i have done on the
+
+16
+00:00:31,039 --> 00:00:35,040
+screen there
+
+17
+00:00:32,079 --> 00:00:36,960
+and to access the mail merge tool i need
+
+18
+00:00:35,040 --> 00:00:39,040
+to go to the mailings tab so if i click
+
+19
+00:00:36,960 --> 00:00:40,719
+on the mailings tab
+
+20
+00:00:39,040 --> 00:00:42,079
+this brings up a range of options and
+
+21
+00:00:40,719 --> 00:00:43,840
+the tool we're going to use here is the
+
+22
+00:00:42,079 --> 00:00:45,360
+mail merge wizard so if i click on the
+
+23
+00:00:43,840 --> 00:00:47,360
+start meal merge
+
+24
+00:00:45,360 --> 00:00:49,280
+and select the step-by-step mail merge
+
+25
+00:00:47,360 --> 00:00:51,520
+wizard
+
+26
+00:00:49,280 --> 00:00:53,280
+that will then bring up the dialog box
+
+27
+00:00:51,520 --> 00:00:54,719
+on the right hand side
+
+28
+00:00:53,280 --> 00:00:56,960
+now there are six steps in the mail
+
+29
+00:00:54,719 --> 00:00:58,480
+merge process and we'll work through
+
+30
+00:00:56,960 --> 00:01:00,960
+each one individually
+
+31
+00:00:58,480 --> 00:01:02,640
+so the first one is select document type
+
+32
+00:01:00,960 --> 00:01:04,720
+so what type of document are you working
+
+33
+00:01:02,640 --> 00:01:08,320
+on well we're working on a letter
+
+34
+00:01:04,720 --> 00:01:10,400
+so we're happy with that and step two
+
+35
+00:01:08,320 --> 00:01:12,159
+and select the starting document so how
+
+36
+00:01:10,400 --> 00:01:13,840
+do you want to set up your letters
+
+37
+00:01:12,159 --> 00:01:15,840
+and again we're going to use the first
+
+38
+00:01:13,840 --> 00:01:18,240
+option here is use the current document
+
+39
+00:01:15,840 --> 00:01:19,680
+you could go from a template and start
+
+40
+00:01:18,240 --> 00:01:22,400
+from an existing document that's
+
+41
+00:01:19,680 --> 00:01:22,400
+somewhere else
+
+42
+00:01:22,560 --> 00:01:25,840
+so we'll now move to step three now at
+
+43
+00:01:24,640 --> 00:01:26,799
+this point this is where you're going to
+
+44
+00:01:25,840 --> 00:01:28,880
+link the letter
+
+45
+00:01:26,799 --> 00:01:32,000
+with the data source so what you need to
+
+46
+00:01:28,880 --> 00:01:33,840
+do is you need to browse
+
+47
+00:01:32,000 --> 00:01:35,280
+to the location where you see if the
+
+48
+00:01:33,840 --> 00:01:35,920
+spreadsheet containing the names and
+
+49
+00:01:35,280 --> 00:01:38,560
+addresses
+
+50
+00:01:35,920 --> 00:01:40,159
+downloaded so i'll save these and my
+
+51
+00:01:38,560 --> 00:01:42,240
+documents folder
+
+52
+00:01:40,159 --> 00:01:44,000
+in the it course and in the word
+
+53
+00:01:42,240 --> 00:01:45,600
+processing folder
+
+54
+00:01:44,000 --> 00:01:47,040
+and you will see this as an excel
+
+55
+00:01:45,600 --> 00:01:49,439
+spreadsheet and it is sample
+
+56
+00:01:47,040 --> 00:01:51,439
+mail merge addresses so i just simply
+
+57
+00:01:49,439 --> 00:01:53,600
+double click on that
+
+58
+00:01:51,439 --> 00:01:55,439
+and that then gives me the option so
+
+59
+00:01:53,600 --> 00:02:00,240
+it's asking me to select a table
+
+60
+00:01:55,439 --> 00:02:01,600
+and i'm happy with that i click ok
+
+61
+00:02:00,240 --> 00:02:04,000
+this then brings up the mail merge
+
+62
+00:02:01,600 --> 00:02:06,159
+recipients dialog box so this tells me
+
+63
+00:02:04,000 --> 00:02:09,039
+what the contents of the spreadsheet are
+
+64
+00:02:06,159 --> 00:02:10,560
+so i know there are four people within
+
+65
+00:02:09,039 --> 00:02:12,480
+that spreadsheet and the names and
+
+66
+00:02:10,560 --> 00:02:14,400
+addresses are all there
+
+67
+00:02:12,480 --> 00:02:16,000
+if i didn't want to send the letter to a
+
+68
+00:02:14,400 --> 00:02:18,319
+specific person i can
+
+69
+00:02:16,000 --> 00:02:20,000
+tick or untick that box and it will
+
+70
+00:02:18,319 --> 00:02:22,879
+remove them it won't include them
+
+71
+00:02:20,000 --> 00:02:25,599
+in the merge and when i'm happy with
+
+72
+00:02:22,879 --> 00:02:27,680
+that i click ok
+
+73
+00:02:25,599 --> 00:02:28,800
+and it is now time to move on to the
+
+74
+00:02:27,680 --> 00:02:32,400
+next step
+
+75
+00:02:28,800 --> 00:02:33,840
+so if i go to step four
+
+76
+00:02:32,400 --> 00:02:35,760
+this is about right your letter so if
+
+77
+00:02:33,840 --> 00:02:37,440
+you hadn't already done so at this point
+
+78
+00:02:35,760 --> 00:02:39,040
+you would write the letter
+
+79
+00:02:37,440 --> 00:02:40,959
+but what we need to do now is the letter
+
+80
+00:02:39,040 --> 00:02:42,959
+is already written so we simply need to
+
+81
+00:02:40,959 --> 00:02:44,160
+insert the address block and the
+
+82
+00:02:42,959 --> 00:02:46,879
+greeting line
+
+83
+00:02:44,160 --> 00:02:48,720
+so the address block is traditionally
+
+84
+00:02:46,879 --> 00:02:49,519
+inserted at the top left-hand section of
+
+85
+00:02:48,720 --> 00:02:51,840
+the letter
+
+86
+00:02:49,519 --> 00:02:53,760
+so i will place the cursor there where i
+
+87
+00:02:51,840 --> 00:02:56,000
+want the address block to appear
+
+88
+00:02:53,760 --> 00:02:58,000
+and if i look along to the right if i
+
+89
+00:02:56,000 --> 00:03:00,239
+click on address block
+
+90
+00:02:58,000 --> 00:03:01,920
+i then have the insert address block
+
+91
+00:03:00,239 --> 00:03:04,159
+dialog box
+
+92
+00:03:01,920 --> 00:03:06,000
+in here it will show me what the
+
+93
+00:03:04,159 --> 00:03:07,680
+addresses will look like
+
+94
+00:03:06,000 --> 00:03:09,120
+there are four recipients on the off so
+
+95
+00:03:07,680 --> 00:03:12,159
+it will then preview
+
+96
+00:03:09,120 --> 00:03:13,599
+each one and i'm happy with that so i
+
+97
+00:03:12,159 --> 00:03:16,239
+can then
+
+98
+00:03:13,599 --> 00:03:17,040
+select okay so it will insert the
+
+99
+00:03:16,239 --> 00:03:19,280
+address block
+
+100
+00:03:17,040 --> 00:03:20,319
+merge field i'm also going to add the
+
+101
+00:03:19,280 --> 00:03:22,080
+greeting line
+
+102
+00:03:20,319 --> 00:03:24,239
+and the greeting line would be just
+
+103
+00:03:22,080 --> 00:03:27,200
+above the main body of text so i'll
+
+104
+00:03:24,239 --> 00:03:28,640
+place the cursor there and select
+
+105
+00:03:27,200 --> 00:03:30,480
+reading line
+
+106
+00:03:28,640 --> 00:03:33,040
+again this will give me a dialog box
+
+107
+00:03:30,480 --> 00:03:33,599
+which shows me a demonstration of a
+
+108
+00:03:33,040 --> 00:03:37,280
+preview
+
+109
+00:03:33,599 --> 00:03:40,000
+of what will be seen on the letter
+
+110
+00:03:37,280 --> 00:03:41,760
+if i'm happy with that i click ok and
+
+111
+00:03:40,000 --> 00:03:43,920
+that inserts it reading
+
+112
+00:03:41,760 --> 00:03:45,200
+so now what we need to do is we need to
+
+113
+00:03:43,920 --> 00:03:48,879
+preview the letters
+
+114
+00:03:45,200 --> 00:03:50,400
+so i click on step five
+
+115
+00:03:48,879 --> 00:03:52,080
+you can see that the address block and
+
+116
+00:03:50,400 --> 00:03:54,080
+the greeting line have changed and
+
+117
+00:03:52,080 --> 00:03:55,680
+are now the full names and addresses of
+
+118
+00:03:54,080 --> 00:03:57,840
+the people
+
+119
+00:03:55,680 --> 00:04:01,840
+again i can preview each of the letters
+
+120
+00:03:57,840 --> 00:04:01,840
+to see that i'm happy with it
+
+121
+00:04:02,000 --> 00:04:06,959
+i can't exclude recipients or i can even
+
+122
+00:04:04,720 --> 00:04:08,560
+edit the recipient list at this point
+
+123
+00:04:06,959 --> 00:04:12,720
+so the final step would be to complete
+
+124
+00:04:08,560 --> 00:04:14,959
+the merge and if i selected print
+
+125
+00:04:12,720 --> 00:04:19,600
+i can then select all and i could print
+
+126
+00:04:14,959 --> 00:04:19,600
+out the letters
+
