@@ -1,0 +1,88 @@
+---
+layout: layouts/blank-html
+permalink: /feedback/
+title: Feedback form
+---
+<style>
+  html,
+  body,
+  .l-feedback {
+    height: 100%;
+  }
+
+  .l-feedback {
+    display: block;
+    padding: 1rem;
+  }
+
+  .l-feedback * + *:not(input):not(textarea) {
+    margin-top: 1.5rem;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  form[data-netlify] {
+
+  }
+</style>
+
+<main class="l-feedback">
+  <h1>{{ title }}</h1>
+  <p>
+    Please use this form to record any issues, bugs or feedback you have for this page.
+  </p>
+  <form name="contact" method="POST" enctype="multipart/form-data" data-netlify="true">
+    <input type="hidden" name="UA" id="uastring" value="" />
+    <input type="hidden" name="page" id="page" value="">
+    <input type="hidden" name="courseName" id="courseName" value="">
+    <input type="hidden" name="courseLevel" id="courseLevel" value="">
+    <input type="hidden" name="courseUnit" id="courseUnit" value="">
+    <input type="hidden" name="courseSession" id="courseSession" value="">
+    <input type="hidden" name="coursePage" id="coursePage" value="">
+    
+    <div>
+      <label for="name">Your Name (optional): </label><input type="text" name="name" id="name" />
+    </div>
+    <div>
+      <label for="email">Your Email (optional): </label><input type="email" name="email" id="email" />
+    </div>
+    <div>
+      <label for="feedback">Please describe the issue you're having:</label>
+      <textarea name="message" id="feedback" rows="15"></textarea>
+    </div>
+    <div>
+      <label for="files">Upload screenshot (optional): </label><input type="file" name="files" id="files"/>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+</main>
+
+<script>
+(function() {
+
+  var uaStringField = document.getElementById('uastring');
+  var pageField = document.getElementById('page');
+  var nameField = document.getElementById('courseName');
+  var levelField = document.getElementById('courseLevel');
+  var unitField = document.getElementById('courseUnit');
+  var sessionField = document.getElementById('courseSession');
+  var pageNoField = document.getElementById('coursePage');
+  var parent = window.parent.document;
+  var main = parent.querySelector('main');
+  
+  uaStringField.value = navigator.userAgent;
+  pageField.value = window.location.pathname === '/feedback/' ? window.parent.location.pathname : 'unknown';
+  nameField.value = main.dataset.v2lTags;
+  levelField.value = main.dataset.v2lLevel;
+  unitField.value = main.dataset.v2lUnit;
+  sessionField.value = main.dataset.v2lSession;
+  pageNoField.value = main.dataset.v2lPage;
+  
+})();
+</script>

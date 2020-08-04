@@ -28,6 +28,7 @@
     "axios": "^0.18.1",
     "concurrent-transform": "^1.0.0",
     "dotenv": "^6.2.0",
+    "node-fetch": "^2.3.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-image-resize": "^0.13.0",
