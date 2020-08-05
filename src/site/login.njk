@@ -18,17 +18,42 @@ permalink: /login/index.html
     flex: 1;
     align-content: start;
   }
+
+  img {
+    display: block;
+    margin-top: 1.5rem;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 </style>
 
 <section>
   <h2>Please log in to view the course preview</h2>
   <div data-netlify-identity-button></div>
-  
+
+  <h3>Submitting Feedback</h3>
+
+  <p>Please use the Feedback button, shown on all pages, to log issues:</p>
+
+  <div class="feedback-container">
+    <img src="/images/feedback1.png" alt="The feedback button is in the top right of each page">
+
+    <p>This will open the feedback form in an overlay window. Please enter as much information as you can and attach screenshots if applicable.</p>
+
+    <p>The feedback form automatically logs information on the page you're currently on and the web browser/operating system you're using so there is no need to enter this information.</p>
+    <img src="/images/feedback2.png" alt="">
+  </div>
+
   <p>
     <a href="/courses/it-user-skills-level-2/unit-1/session-1/1" target="_blank">Proceed to Unit 1</a>
   </p>
   <p>
     <a href="/courses/it-user-skills-level-2/unit-2/session-1/1" target="_blank">Proceed to Unit 2</a>
+  </p>
+  <p>
+    <a href="/courses/it-user-skills-level-2/unit-3/session-1/1" target="_blank">Proceed to Unit 3</a>
   </p>
   <p>
     <small>Site updated: {{ site.date().build }}</small>
