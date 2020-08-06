@@ -4,7 +4,6 @@
 }
 ---
 {%- import 'components/all.njk' as components %}
-
   {%- include 'banner.njk' %}
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
   
@@ -48,7 +47,7 @@
     <h2>Your learning goals</h2>
     
     <p>
-      By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | title }} qualification:
+      By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | formattitle }} qualification:
     </p>
     
     <h3>The learner will:</h3>
