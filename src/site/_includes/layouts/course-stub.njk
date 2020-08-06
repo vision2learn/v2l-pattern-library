@@ -4,6 +4,12 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
 {%- import 'components/all.njk' as components %}
 {%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
+{% if shortcode !== 'it2' %}
+  {% set timeToWhat = 'Think'%}
+{% else %}
+  {% set timeToWhat = 'Practice'%}
+{% endif %}
+
   {%- include 'banner.njk' %} 
   {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
   
@@ -179,7 +185,7 @@ permalink: dotnet/{{ module.data.course | slug }}/Unit0{{ module.data.unit}}/Ses
         <h2 class="l-media__title">Unit assessment</h2>
         <div class="l-media__body">
           <p>
-            Now it’s time to complete Part {{ module.data.session }} of your Unit {{ module.data.unit }} Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to think journals to help you.
+            Now it’s time to complete Part {{ module.data.session }} of your Unit {{ module.data.unit }} Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to {{ timeToWhat }} journals to help you.
           </p>
         </div>
         <a href="~/{{ module.data.unit }}/assessment" class="l-media__img">
