@@ -24,7 +24,9 @@
   {%- endfor %}
 {%- endset %}
 
-<p>Add the correct words into the sentences that follow:</p>
+{% if section.subInc.noIntro %}
+  <p>Add the correct words into the sentences that follow:</p>
+{% endif %}
 
 <div class="visually-hidden">
   <h3>Word Bank</h3>
