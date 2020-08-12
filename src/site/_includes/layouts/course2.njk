@@ -56,19 +56,23 @@
       By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | formattitle }} qualification:
     </p>
     
-    <h3>The learner will:</h3>
-    <ol>
-      {%- for goal in allcourses[module.data.course].goals.will %}
-        <li>{{ goal }}</li>
-      {%- endfor %}
-    </ol>
+    {% if allcourses[module.data.course].goals.will %}
+      <h3>The learner will:</h3>
+      <ol>
+        {%- for goal in allcourses[module.data.course].goals.will %}
+          <li>{{ goal }}</li>
+        {%- endfor %}
+      </ol>
+    {% endif %}
 
-    <h3>The learner can:</h3>
-    <ol>
-      {%- for goal in allcourses[module.data.course].goals.can %}
-        <li>{{ goal }}</li>
-      {%- endfor %}
-    </ol>
+    {% if allcourses[module.data.course].goals.can %}
+      <h3>The learner can:</h3>
+      <ol>
+        {%- for goal in allcourses[module.data.course].goals.can %}
+          <li>{{ goal }}</li>
+        {%- endfor %}
+      </ol>
+    {% endif %}
   </section>
 
   {% if shortcode === 'it2' %}
