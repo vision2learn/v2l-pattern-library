@@ -87,7 +87,7 @@ async function findCard(cardsUrl) {
   data.forEach(card => {
     if(card.note) {
       let cardTitle = card.note.toLowerCase();
-      // console.log(cardTitle,'\n', cardTitle.indexOf(cardName), '\n', cardName);
+      console.log(cardTitle.indexOf(cardName), cardTitle.indexOf('feedback'), cardTitle.indexOf('review'));
       if(cardTitle.indexOf(cardName) !== -1 && cardTitle.indexOf('feedback') !== -1 && cardTitle.indexOf('review') !== -1) {
         updateCard(card.url, card.note);
         return true;
@@ -115,6 +115,8 @@ async function findIssue(issueUrl) {
       console.log('There was a problem fetching the unique card data: ', e.message);
     });
 
+    console.log(data.title.indexOf(cardName), data.title.indexOf('feedback'), data.title.indexOf('review'));
+  
     if(data.title.indexOf(cardName) !== -1 && data.title.indexOf('feedback') !== -1 && data.title.indexOf('review') !== -1) {
       console.log('Issue title: ', data.title);
       console.log(data.body);
@@ -132,8 +134,8 @@ async function findIssue(issueUrl) {
 
 exports.handler = async event => {
   const fb = JSON.parse(event.body).payload.data
-  console.log('EVENT BODY: ', event.body);
-  console.log('FEEDBACK: ', fb);
+  //console.log('EVENT BODY: ', event.body);
+  //console.log('FEEDBACK: ', fb);
   const GHJSON = {
     title: `Issue on page ${fb.page}`,
     body: `- Reviewer: ${fb.name}\n- Email: ${fb.email}\n- User Agent: ${fb.UA}\n- Full URL: https://v2lrefresh.netlify.app${fb.page}\n\n### Details\n\n${fb.message}${fb.files ? '\n\n### Screenshot\n\n![]('+fb.files.url+')' : ''}`,
@@ -149,6 +151,9 @@ exports.handler = async event => {
   };
 
   cardName = `unit ${course.unit}`;// review - feedback`;
+  
+  console.log(cardName);
+
   const API_ENDPOINT = 'https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues';
   const OPTIONS =  {
     method: 'POST',
