@@ -88,7 +88,7 @@ async function findCard(cardsUrl) {
     if(card.note) {
       let cardTitle = card.note.toLowerCase();
       // console.log(cardTitle,'\n', cardTitle.indexOf(cardName), '\n', cardName);
-      if(cardTitle.indexOf(cardName) !== -1) {
+      if(cardTitle.indexOf(cardName) !== -1 && cardTitle.indexOf('feedback') !== -1 && cardTitle.indexOf('review') !== -1) {
         updateCard(card.url, card.note);
         return true;
       }
@@ -115,7 +115,7 @@ async function findIssue(issueUrl) {
       console.log('There was a problem fetching the unique card data: ', e.message);
     });
 
-    if(data.title.toLowerCase().indexOf(cardName) !== -1) {
+    if(data.title.indexOf(cardName) !== -1 && data.title.indexOf('feedback') !== -1 && data.title.indexOf('review') !== -1) {
       console.log('Issue title: ', data.title);
       console.log(data.body);
       preview = false;
@@ -148,7 +148,7 @@ exports.handler = async event => {
     page: fb.coursePage
   };
 
-  cardName = `unit ${course.unit} review - feedback`;
+  cardName = `unit ${course.unit}`;// review - feedback`;
   const API_ENDPOINT = 'https://api.github.com/repos/mrsleeth/v2l-pattern-library/issues';
   const OPTIONS =  {
     method: 'POST',
