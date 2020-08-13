@@ -56,20 +56,45 @@
       By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ module.data.course | formattitle }} qualification:
     </p>
     
-    <h3>The learner will:</h3>
-    <ol>
-      {%- for goal in allcourses[module.data.course].goals.will %}
-        <li>{{ goal }}</li>
-      {%- endfor %}
-    </ol>
+    {% if allcourses[module.data.course].goals.will %}
+      <h3>The learner will:</h3>
+      <ol>
+        {%- for goal in allcourses[module.data.course].goals.will %}
+          <li>{{ goal }}</li>
+        {%- endfor %}
+      </ol>
+    {% endif %}
 
-    <h3>The learner can:</h3>
-    <ol>
-      {%- for goal in allcourses[module.data.course].goals.can %}
-        <li>{{ goal }}</li>
-      {%- endfor %}
-    </ol>
+    {% if allcourses[module.data.course].goals.can %}
+      <h3>The learner can:</h3>
+      <ol>
+        {%- for goal in allcourses[module.data.course].goals.can %}
+          <li>{{ goal }}</li>
+        {%- endfor %}
+      </ol>
+    {% endif %}
+
+    {% if shortcode === 'it2' %}
+      <p>
+        <a href="/pdfs/v2l_it2_learning_outcomes_u{{ module.data.unit }}.pdf">View the complete set of learning outcomes for this unit.</a>
+      </p>
+    {% endif %}
   </section>
+
+  {% if shortcode === 'it2' %}
+
+    {{ components.section({
+      title: "What you will learn",
+      theme: "t-bg-primary1a",
+      copy: "
+In this session you will learn about the following:
+  - Approaching a task
+  - Using Microsoft Office
+  - Word Processing software
+  - Inputting text and working more efficiently"
+    }) }}
+
+  {% endif %}
 
   <section class="t-bg-primary">      
     <h2>Why study {{ module.data.course | title }}?</h2>

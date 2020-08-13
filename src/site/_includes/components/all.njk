@@ -254,6 +254,12 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
     <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
       {{ data.copy | markdownify | safe }}
+
+      {% if mediaType === "image" and data.title === "Stretch" and link %}
+        <p>
+          <small>Capita Learning is not responsible for the content of external sites.</small>
+        </p>
+      {% endif %}
     </div>
 
     {%- if mediaType === "image" %}
@@ -306,7 +312,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {{ copy | markdownify | safe }}
     </div>
     {%- if activity %}
-      <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
+      <a href="/captivate/{{ module.data.course | slug }}/{{ activity }}/" class="l-media__img">
         <img src="{{ '~' if module.data.buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Open activity">
       </a>
     {%- else %}
