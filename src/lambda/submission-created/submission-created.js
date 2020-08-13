@@ -10,6 +10,7 @@ let details = {};
 let course = {};
 
 async function callApi(path, method, body) {
+  console.log('call api');
   let options = {
     method: method,
     headers: {
@@ -44,6 +45,7 @@ async function callApi(path, method, body) {
 }
 
 async function getProjects(page, url) {
+  console.log('get projects');
   const repo = {
     owner: 'mrsleeth',
     name: 'v2l-pattern-library'
@@ -68,6 +70,7 @@ async function getProjects(page, url) {
 }
 
 async function getColumns(colUrl) {
+  console.log('get columns');
   let data = await callApi(colUrl, 'GET')
     .catch(e => {
       console.log('There was a problem fetching the Columns data: ', e.message);
@@ -79,6 +82,7 @@ async function getColumns(colUrl) {
 }
 
 async function findCard(cardsUrl) {
+  console.log('find card');
   let data = await callApi(cardsUrl, 'GET')
     .catch(e => {
       console.log('There was a problem fetching the Cards data: ', e.message);
@@ -102,6 +106,7 @@ async function findCard(cardsUrl) {
 }
 
 async function updateCard(cardUrl, details) {
+  console.log('update card');
   await callApi(cardUrl, 'PATCH', JSON.stringify({note: `${details} \n- ${details.page} - ${details.url}`}))
     .catch(e => {
       console.log('There was a problem fetching the unique card data: ', e.message);
@@ -110,6 +115,7 @@ async function updateCard(cardUrl, details) {
 }
 
 async function findIssue(issueUrl) {
+  console.log('find issue');
   let data = await callApi(issueUrl, 'GET')
     .catch(e => {
       console.log('There was a problem fetching the unique card data: ', e.message);
