@@ -244,7 +244,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
   {%- endif %}
 
-  <div data-debug="{{ mediaType }}" class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
+  <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
     {%- if data.title %}
       {# TODO: dynamic heading level #}
       <h2 class="l-media__title">
