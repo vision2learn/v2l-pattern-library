@@ -34,13 +34,17 @@
           </form>
         <section>
       `;
-      
-  let storage = window.localStorage;
+  // use session storage if we're on netlify platform    
+  let storage = document.querySelector('[data-v2l-env=netlify]') ? window.sessionStorage : window.localStorage;
   const switchKey = "hello-im-a-mac";  
   const videos = document.querySelectorAll('[src$=".mp4"]');
   const interactives = document.querySelectorAll('.c-interactive');
   let baseVidSrc = [];
   let baseIntSrc = [];
+
+  if(document.querySelector('[data-v2l-env=netlify]')) {
+    window.localStorage.removeItem(switchKey);
+  }
 
   // get the base file name before modding 
   // TODO: THIS WON'T WORK IF DEFAULT IS _pc!!
@@ -97,6 +101,4 @@
       }
     });
   }
-
-  // storage.removeItem(switchKey); // DEBUG!!!!
 })();
