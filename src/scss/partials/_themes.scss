@@ -2,6 +2,11 @@
   --highlight: hsl(44,100%,50%);
 }
 
+[data-v2l-toggleText] {
+  font-size: .8em;
+  color: var(--secondary2);
+}
+
 [class^="t-bg-primary"],
 [class^="t-bg-secondary"] {
   color: #fff;

@@ -177,7 +177,7 @@ p a {
   color: currentColor;
 
   &:focus {
-    background-color: #bada55;
+    background-color: var(--highlight);
     outline: none;
   }
 
@@ -326,13 +326,20 @@ main * + figure {
 }
 
 /* Media */
-img,
-video {
+img {
   max-width: 100%;
 }
 
 video {
+  max-width: 70%;
+  justify-self: center;
   object-fit: scale-down;
+
+  &[poster$="watch.svg"] {
+    background-color: var(--primary1);
+    border: solid 2px var(--secondary1);
+    // border-radius: 5px;
+  }
 }
 
 

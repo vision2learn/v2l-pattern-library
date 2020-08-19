@@ -16,7 +16,6 @@ var AdobeAn = {};
   }
 
   function loadCanvas() {
-    console.log('click!');
     
     // Is there a canvas element on the page already?
     var canvasLoaded = document.querySelector('.c-interactive > canvas');
@@ -91,17 +90,6 @@ var AdobeAn = {};
       script.async = false;
       document.head.appendChild(script);
     });
-
-    {% comment %} if (window.netlifyIdentity) {
-      const loc = window.location;
-      window.netlifyIdentity.on("init", function(user) {
-        if (!user) {
-          window.netlifyIdentity.on("login", function() {
-            document.location.href = loc;
-          });
-        }
-      });
-    } {% endcomment %}
     
   }
   catch (err) {
@@ -109,14 +97,3 @@ var AdobeAn = {};
     // return false;
   }
 })();
-{% comment %} 
-if (window.netlifyIdentity) {
-  const loc = window.location;
-  window.netlifyIdentity.on("init", function() {
-    if (!user) {
-      window.netlifyIdentity.on("login", function() {
-        document.location.href = loc;
-      });
-    }
-  });
-} {% endcomment %}

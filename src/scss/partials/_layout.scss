@@ -24,7 +24,8 @@
   * + ol,
   * + dl,
   * + div:not(.gallery),
-  * + table {
+  * + table,
+  * + video {
     margin-top: 1.5rem;
     margin-top: calc($flow * 1rem);
   }

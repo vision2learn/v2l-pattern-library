@@ -244,100 +244,71 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
   {%- endif %}
 
-  <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
-    {%- if data.title %}
-      {# TODO: dynamic heading level #}
-      <h2 class="l-media__title">
-        {{ data.title }}
-      </h2>
-    {%- endif %}
-
-    <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
-      {{ data.copy | markdownify | safe }}
-
-      {% if mediaType === "image" and data.title === "Stretch" and link %}
-        <p>
-          <small>Capita Learning is not responsible for the content of external sites.</small>
-        </p>
-      {% endif %}
-    </div>
-
-    {%- if mediaType === "image" %}
-      {%- if link %}
-        <a href="{{ link }}" class="l-media__img">
-          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
-        </a>
-      {% else %}
-        <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+  {% if mediaType !== 'video' %}
+    <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
+      {%- if data.title %}
+        {# TODO: dynamic heading level #}
+        <h2 class="l-media__title">
+          {{ data.title }}
+        </h2>
       {%- endif %}
-    {%- elseif mediaType === "video" %}
-      <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
-          <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
-                  type="video/mp4">
-          Sorry, your browser doesn't support embedded videos.
-      </video>
-    {%- elseif mediaType === "activity" %}
-      <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
-        <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
-      </a>
-    {%- elseif mediaType === "think" %}
-      {%- if buildenv !== 'dotnet'%}
-        <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
-          <textarea class="js-think" rows="15"></textarea>
-          <button>Save</button>
-        </form>
-      {%- else %}
-      {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
-        @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
-                (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
-                "{{ data.copy | striptags(false)}}",
-                formClassAttribute: "l-media__img l-think", formIdAttribute: "{{ 'formJournal'+formID }}"))
-      {%- endif %}
-    {%- else %}
-      <p>{{ mediaError + ": " + mediaObj }}</p>
-    {%- endif %}  
-  </div>
-{%- endmacro %}
 
-{# {%- macro media(title, copy, img, link, layout, think, video) %}
-  
-  <div class="l-media {%- if layout == 'media-rev' %} l-media--rev {%- elseif layout == 'media-half' %} l-media--half {%- endif %}">
-    <h2 class="l-media__title">
-      {%- if title %}
-        {{ title | title }}
-      {%- endif %}
-    </h2>
+      <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
+        {{ data.copy | markdownify | safe }}
 
-    <div class="l-media__body">
-      {{ copy | markdownify | safe }}
-    </div>
-    {%- if activity %}
-      <a href="/captivate/{{ module.data.course | slug }}/{{ activity }}/" class="l-media__img">
-        <img src="{{ '~' if module.data.buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Open activity">
-      </a>
-    {%- else %}
-      {%- if img and (not link) %}
-        <img class="l-media__img" src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="xxxxx">
-      {%- elseif img and link %}
-        <a href="{{ link }}" class="l-media__img">
-          <img  src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="">
-        </a>
-      {%- elseif video %}
-        <video controls class="l-media__img" {{ module.data.buildenv }}>
-            <source src="{{ '~' if module.data.buildenv === 'dotnet' }}/videos/{{ video }}"
+        {% if mediaType === "image" and data.title === "Stretch" and link %}
+          <p>
+            <small>Capita Learning is not responsible for the content of external sites.</small>
+          </p>
+        {% endif %}
+      </div>
+
+      {%- if mediaType === "image" %}
+        {%- if link %}
+          <a href="{{ link }}" class="l-media__img">
+            <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+          </a>
+        {% else %}
+          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+        {%- endif %}
+      {%- elseif mediaType === "video" %}
+        <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
+            <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
                     type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
         </video>
-      {%- elseif think %}
-        <form class="l-media__img l-think">
-          <textarea>
-          </textarea>
-          <button>Save</button>
-        </form>
-      {%- endif %}
-    {%- endif %}
-  </div>
-{%- endmacro %} #}
+      {%- elseif mediaType === "activity" %}
+        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
+          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
+        </a>
+      {%- elseif mediaType === "think" %}
+        {%- if buildenv !== 'dotnet'%}
+          <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
+            <textarea class="js-think" rows="15"></textarea>
+            <button>Save</button>
+          </form>
+        {%- else %}
+        {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
+          @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
+                  (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
+                  "{{ data.copy | striptags(false)}}",
+                  formClassAttribute: "l-media__img l-think", formIdAttribute: "{{ 'formJournal'+formID }}"))
+        {%- endif %}
+      {%- else %}
+        <p>{{ mediaError + ": " + mediaObj }}</p>
+      {%- endif %}  
+    </div>
+  {% else %}
+    <h2>{{ data.title }}</h2>
+    {{ data.copy | markdownify | safe }}
+    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg">
+      <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
+        type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+  {% endif %}
+  
+{%- endmacro %}
 
 {# --- 9. Slider --- #}
 {%- macro slideItem(slidedata, buildenv) %}
