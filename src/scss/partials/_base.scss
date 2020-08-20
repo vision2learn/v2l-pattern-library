@@ -83,6 +83,16 @@ $practice: "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAg
   outline-offset: -2px;
 }
 
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border: 0;
+  border-style: none;
+  padding: 0;
+}
+
 /* Reset the box model and zero margins... */
 *, *::before, *::after {
   box-sizing: border-box;
