@@ -265,7 +265,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
       {%- if mediaType === "image" %}
         {%- if link %}
-          <a href="{{ link }}" class="l-media__img">
+          <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }}>
             <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
           </a>
         {% else %}
