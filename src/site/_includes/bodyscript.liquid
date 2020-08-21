@@ -1,15 +1,18 @@
 var animateVars = {};
 var AdobeAn = {};
 
-(function() {
+var V2lPage = (function() {
 
+  var v2l = {};
   var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
   
-  if(document.querySelectorAll('.c-interactive').length > 0) {
-    attachHandlers();
+  v2l.init = function() {
+    if(document.querySelectorAll('.c-interactive').length > 0) {
+      v2l.attachHandlers();
+    }
   }
 
-  function attachHandlers() {
+  v2l.attachHandlers = function() {
     document.querySelectorAll('[data-v2l-loadbtn]').forEach(function(btn) {
       btn.addEventListener('click', loadCanvas);
     });
@@ -36,7 +39,7 @@ var AdobeAn = {};
     btnParent.insertBefore(canvas, this);
     btnParent.removeChild(this);
     
-    attachHandlers();
+    v2l.attachHandlers();
     loadAnimateJS();
   }
   function loadAnimateJS() {
@@ -96,4 +99,8 @@ var AdobeAn = {};
     console.info("Old browser, JS performance will be limited");
     // return false;
   }
+
+  return v2l;
 })();
+
+V2lPage.init();
