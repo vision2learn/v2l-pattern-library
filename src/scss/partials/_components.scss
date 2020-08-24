@@ -411,7 +411,7 @@
 
 .c-slider__container:focus, 
 [aria-label="slider controls"] button:focus {
-  outline: 4px solid DodgerBlue;
+  outline: 1px solid; // DodgerBlue;
   outline-offset: -6px;
 }
 
@@ -774,7 +774,7 @@ button svg {
 
   .gallery:focus,
   .gallery-controls button:focus {
-    outline: 4px solid $highlight;
+    // outline: 4px solid $highlight;
     outline-offset: -4px;
   }
 
