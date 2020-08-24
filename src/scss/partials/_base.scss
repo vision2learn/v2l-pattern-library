@@ -276,8 +276,8 @@ select {
 
   &:focus {
     border-color: $highlight;
-    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    border-color: var(--highlight);
+    box-shadow: 0 0 1px 3px var(--highlight);
     color: #222; 
     outline: none;
   }
