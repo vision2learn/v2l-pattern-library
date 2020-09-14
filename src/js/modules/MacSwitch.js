@@ -1,4 +1,5 @@
 // Mac/PC toggle switch
+// TODO: Fix handling of non-switchable videos/interactions
 const ContentToggle = (() => {
 
   const course = document.getElementById('main').dataset.v2lTags;
@@ -54,12 +55,16 @@ const ContentToggle = (() => {
     let formattedFormat = storage.getItem(switchKey) === 'mac' ? 'Mac' : 'PC';
     const switchStatement = `<p data-v2l-toggleText="true"><em>You are viewing ${formattedFormat}-specific content. <button onclick="ContentToggle.toggleIt()" style="all: unset; text-decoration: underline; cursor: pointer">Switch to ${storage.getItem(switchKey) === 'mac' ? 'PC' : 'Mac'} content?</button></em></p>`;
 
-    videos.forEach(video => {
-      video.parentElement.insertAdjacentHTML('beforebegin', switchStatement);
+    videos.forEach((video, index) => {
+      if(baseVidSrc[index]) {
+        video.parentElement.insertAdjacentHTML('beforebegin', switchStatement);
+      }
     });
 
-    interactives.forEach(int => {
-      int.insertAdjacentHTML('beforebegin', switchStatement);
+    interactives.forEach((int, index) => {
+      if(baseIntSrc[index]) {
+        int.insertAdjacentHTML('beforebegin', switchStatement);
+      }
     });
   }
   
@@ -68,16 +73,20 @@ const ContentToggle = (() => {
     
     
     videos.forEach((video, index) => {
-      video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.mp4`);
-      video.parentElement.load();
+      if(baseVidSrc[index]) {
+        video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.mp4`);
+        video.parentElement.load();
+      }
       
     });
 
     interactives.forEach((int, index) => {
-      int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
-      int.removeChild(int.firstElementChild);
-      int.appendChild(intBtn);
-      V2lPage.attachHandlers();
+      if(baseIntSrc[index]) {
+        int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
+        int.removeChild(int.firstElementChild);
+        int.appendChild(intBtn);
+        V2lPage.attachHandlers();
+      }
     });
 
     toggle.addButton();
