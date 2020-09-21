@@ -71,9 +71,18 @@
         });
 
       });
+    },
+    tableWrapper: function() {
+      // need to wrap tables in an element to handle overflow on narrow screens
+      document.querySelectorAll('table').forEach(table => {
+        let wrapper = document.createElement('div');
+        wrapper.classList.add('l-tablewrapper');
+        let theTable = table.parentNode.replaceChild(wrapper, table);
+        wrapper.appendChild(theTable);
+      });
     }
   };
 
   page.initShowHide();
-
+  page.tableWrapper();
 })();
