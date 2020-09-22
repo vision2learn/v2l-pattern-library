@@ -395,3 +395,8 @@ main > section:not(.c-banner) {
     font-size: 1.1rem;
   }
 }
+
+.l-tablewrapper {
+  overflow-x: scroll;
+  max-width: calc(100vw - 2rem);
+}

@@ -10,9 +10,6 @@ const ContentToggle = (() => {
   let storage = document.querySelector('[data-v2l-env=netlify]') ? window.sessionStorage : window.localStorage; // use session storage if we're on netlify platform    
   let baseVidSrc = [];
   let baseIntSrc = [];
-  const intBtn = document.createElement("button");
-  intBtn.setAttribute('data-v2l-loadbtn', true);
-  intBtn.innerText = "Begin Activity";
   // check we're in IT?
 
   toggle.init = () => {
@@ -82,13 +79,14 @@ const ContentToggle = (() => {
 
     interactives.forEach((int, index) => {
       if(baseIntSrc[index]) {
+        let intBtn = document.createElement("button");
+        intBtn.setAttribute('data-v2l-loadbtn', true);
+        intBtn.innerText = "Begin Activity";
         int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
-        int.removeChild(int.firstElementChild);
-        int.appendChild(intBtn);
-        V2lPage.attachHandlers();
+        int.replaceChild(intBtn, int.firstElementChild);
       }
     });
-
+    V2lPage.attachHandlers();
     toggle.addButton();
   }
 
@@ -103,6 +101,10 @@ const ContentToggle = (() => {
     toggle.urlSwitch()
   }
 
+  toggle.vids = videos;
+  toggle.ints = interactives;
+  toggle.baseIntSrc = baseIntSrc;
+  toggle.baseVidSrc = baseVidSrc;
   return toggle;
 })();
 
