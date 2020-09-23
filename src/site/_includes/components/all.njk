@@ -236,8 +236,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set mediaType = "image" %}
   {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
-  {%- elseif mediaObj === "think" %}
-    {%- set mediaType = "think" %}
   {%- elseif mediaObj === "activity" %}
     {%- set mediaType = "activity" %}
   {%- else %}
@@ -245,7 +243,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   {%- endif %}
 
   {% if mediaType !== 'video' %}
-    <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
+    <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }}">
       {%- if data.title %}
         {# TODO: dynamic heading level #}
         <h2 class="l-media__title">
@@ -281,19 +279,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
           <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
         </a>
-      {%- elseif mediaType === "think" %}
-        {%- if buildenv !== 'dotnet'%}
-          <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
-            <textarea class="js-think" rows="15"></textarea>
-            <button>Save</button>
-          </form>
-        {%- else %}
-        {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
-          @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
-                  (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
-                  "{{ data.copy | striptags(false)}}",
-                  formClassAttribute: "l-media__img l-think", formIdAttribute: "{{ 'formJournal'+formID }}"))
-        {%- endif %}
       {%- else %}
         <p>{{ mediaError + ": " + mediaObj }}</p>
       {%- endif %}  
