@@ -24,7 +24,7 @@
         <li class="c-pagination__prev" role="listitem">
           <a href="{{ pagination.previousPageHref }}">
             <i class="visually-hidden">Previous Page</i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>  
         </li>
       {%- endif %}
@@ -34,7 +34,7 @@
         <li class="c-pagination__next" role="listitem">
           <a href="{{ pagination.nextPageHref }}">
             <i class="visually-hidden">Next Page</i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>
         </li>
       {%- endif %}
@@ -284,9 +284,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- endif %}  
     </div>
   {% else %}
-    <h2>{{ data.title }}</h2>
+    {%- set id = data.title | slug | uniqueID %}
+    <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
-    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg">
+    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
       <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
         type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
