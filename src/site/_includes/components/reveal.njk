@@ -1,4 +1,4 @@
-{%- import "components/all.njk" as components %}
+{%- from "components/all.njk" import reveal as reveal %}
 
 <ul class="l-icon-grid {%- if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{%- endif %}">
   
@@ -6,7 +6,7 @@
     {% set revealdata = section.subInc.content %}
 
     {%- for revealItem in revealdata %}
-      {{ components.reveal({
+      {{ reveal({
           heading: revealItem.title, 
           copy: revealItem.copy, 
           image: revealItem.img
@@ -18,7 +18,7 @@
     {%- for key, val in revealdata %}
       {# Not ideal, but the first 9 in default data are the standard course features #}
       {% if loop.index < 10 %}
-        {{ components.reveal({
+        {{ reveal({
             heading: key, 
             copy: val.copy, 
             image: "course-features/" + val.img

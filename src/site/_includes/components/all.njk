@@ -24,7 +24,7 @@
         <li class="c-pagination__prev" role="listitem">
           <a href="{{ pagination.previousPageHref }}">
             <i class="visually-hidden">Previous Page</i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>  
         </li>
       {%- endif %}
@@ -34,7 +34,7 @@
         <li class="c-pagination__next" role="listitem">
           <a href="{{ pagination.nextPageHref }}">
             <i class="visually-hidden">Next Page</i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>
         </li>
       {%- endif %}
@@ -236,8 +236,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set mediaType = "image" %}
   {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
-  {%- elseif mediaObj === "think" %}
-    {%- set mediaType = "think" %}
   {%- elseif mediaObj === "activity" %}
     {%- set mediaType = "activity" %}
   {%- else %}
@@ -245,7 +243,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   {%- endif %}
 
   {% if mediaType !== 'video' %}
-    <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
+    <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }}">
       {%- if data.title %}
         {# TODO: dynamic heading level #}
         <h2 class="l-media__title">
@@ -281,27 +279,15 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
           <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
         </a>
-      {%- elseif mediaType === "think" %}
-        {%- if buildenv !== 'dotnet'%}
-          <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
-            <textarea class="js-think" rows="15"></textarea>
-            <button>Save</button>
-          </form>
-        {%- else %}
-        {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
-          @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
-                  (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
-                  "{{ data.copy | striptags(false)}}",
-                  formClassAttribute: "l-media__img l-think", formIdAttribute: "{{ 'formJournal'+formID }}"))
-        {%- endif %}
       {%- else %}
         <p>{{ mediaError + ": " + mediaObj }}</p>
       {%- endif %}  
     </div>
   {% else %}
-    <h2>{{ data.title }}</h2>
+    {%- set id = data.title | slug | uniqueID %}
+    <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
-    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg">
+    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
       <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
         type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
