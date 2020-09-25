@@ -84,6 +84,12 @@ jobs:
           paths: dist/*
 
       - run:
+          name: Create Export Package
+          command: for dir in dist/dotnet/* ; do echo $dir ; cp -R --strip-trailing-slashes src/scss $dir/scss/ ; cp -R --strip-trailing-slashes dist/images $dir/images ; cp -R --strip-trailing-slashes dist/js $dir/js ; done
+      - run:
+          name: Zip .NET Export
+          command: tar -cvf dotnet.tar dist/dotnet
+      - run:
           name: Compress Pages
           command: tar -cvf html_pages.tar dist/dotnet
       - run:
@@ -96,6 +102,9 @@ jobs:
           name: JS
           command: tar -cvf js.tar dist/js
 
+      - store_artifacts:
+          path: dotnet.tar
+          destination: dotnet.tar
       - store_artifacts:
           path: html_pages.tar
           destination: html.tar
