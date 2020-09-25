@@ -69,6 +69,8 @@ module.exports = function(config) {
     }
   });
 
+  config.addFilter("uniqueID", val => {return `${val}_${+new Date()}` });
+
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
   config.addFilter("dateDisplay", (dateObj, format = "LLL d, y") => {
