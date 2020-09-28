@@ -59,7 +59,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: sudo apt update
+      - run: sudo apt update && sudo apt install graphicsmagick
+      - run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+      - run: sudo apt install git-lfs
       - run: yarn install
 
       - save_cache:
