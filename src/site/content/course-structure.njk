@@ -3,7 +3,7 @@ layout: layouts/blank.njk
 pagination:
   data: allcourses
   size: 1
-permalink: /xml/{{ pagination.items[0] | slug }}/CourseStructure.xml
+permalink: dotnet/{{ pagination.items[0] | slug }}/AppData/CourseStructure.xml
 ---
 {%- set coursedata = allcourses[pagination.items[0]] -%}
 {# 
