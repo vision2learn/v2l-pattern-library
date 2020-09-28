@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewBag.CourseName</title>
+    <script src="https://unpkg.com/&#64;webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
+    <script src="https://unpkg.com/&#64;webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    @Styles.Render("~/bundles/css")
+    @*<link rel="stylesheet" href="/css/themes/???.css">*@
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5865731-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-5865731-8');
+    </script>
+</head>
+
+<body class="@ViewBag.BodyClass" data-v2l-env="dotnet" data-v2l-theme="it">
+    <div class="l-wrapper">
+        <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+
+        @Html.Partial("_Header")
+
+        <main id="main" data-v2l-tags="it" data-v2l-course="@ViewBag.CourseName" data-v2l-level="2" data-v2l-unit="@ViewBag.CurrentUnit" data-v2l-session="@ViewBag.CurrentSession" data-v2l-page="@(ViewBag.CurrentPage-1)">
+            @RenderBody()
+        </main>
+
+        @RenderSection("footer", false)
+        @if (!IsSectionDefined("footer"))
+        {
+            @Html.Partial("_Footer")
+        }
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryajax")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/course")
+
+    <script>
+    var animateVars = {};
+    var AdobeAn = {};
+
+    var V2lPage = (function() {
+
+        var v2l = {};
+        var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
+  
+          v2l.init = function() {
+            if(document.querySelectorAll('.c-interactive').length > 0) {
+              v2l.attachHandlers();
+            }
+          }
+
+          v2l.attachHandlers = function() {
+            document.querySelectorAll('[data-v2l-loadbtn]').forEach(function(btn) {
+              btn.addEventListener('click', loadCanvas);
+            });
+          }
+
+          function loadCanvas() {
+    
+            // Is there a canvas element on the page already?
+            var canvasLoaded = document.querySelector('.c-interactive > canvas');
+            var canvas = document.createElement('canvas');
+            canvas.id = +new Date();
+            var btnParent = this.parentElement;
+
+            if(canvasLoaded) {
+              canvasLoaded.parentElement.parentElement.insertBefore(animateVars.activeCanvas, canvasLoaded.parentElement);
+              canvasLoaded.parentElement.parentElement.removeChild(canvasLoaded.parentElement);
+            }
+
+            animateVars.activeCanvas = this.parentElement.cloneNode(true)
+            animateVars.fileRef = btnParent.dataset.v2lInteractive;
+            animateVars.compRef = btnParent.dataset.v2lComp;
+            animateVars.canvasID = canvas.id;
+    
+            btnParent.insertBefore(canvas, this);
+            btnParent.removeChild(this);
+    
+            v2l.attachHandlers();
+            loadAnimateJS();
+          }
+          function loadAnimateJS() {
+            if(!animateVars.loaded) {
+              var scripts = [
+                '//code.createjs.com/createjs-2015.11.26.min.js',
+                appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
+                appPath+'/js/interactive/init.js'
+              ].forEach(function(src) {
+                var script = document.createElement('script');
+                script.src = src;
+                script.async = false;
+                document.head.appendChild(script);
+              });
+
+              animateVars.loaded = true;
+            }
+            else {
+              AdobeAn = {};
+
+              Array.prototype.forEach.call(document.scripts, function(script) {
+                if(script.src.indexOf('/js/interactive/'+ animateVars.fileRef +'.js') > 0) {
+                  scriptsLoaded = true;
+                }
+              });
+      
+      
+                var scripts = [
+                  appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
+                  appPath+'/js/animateload.js'
+                ].forEach(function(src) {
+                  var script = document.createElement('script');
+                  script.src = src;
+                  script.async = false;
+                  document.head.appendChild(script);
+                });
+              //}
+            }
+          }
+  
+          // detect ES6 support, then load the main script file if OK
+          // detect ES6 support, then load the main script file if OK
+          try {
+            new Function("(a = 0) => a");
+    
+            [
+              appPath+'/js/script.js'
+            ].forEach(function(src) {
+              var script = document.createElement('script');
+              script.src = src;
+              script.async = false;
+              document.head.appendChild(script);
+            });
+    
+          }
+          catch (err) {
+            console.info("Old browser, JS performance will be limited");
+            // return false;
+          }
+
+          return v2l;
+        })();
+
+        V2lPage.init();
+    </script>
+</body>
+</html>
