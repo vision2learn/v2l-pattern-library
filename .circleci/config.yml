@@ -68,7 +68,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: ELEVENTY_ENV=dotnet yarn eleventy
+      - run: git lfs fetch --all && git lfs pull
+      - run: yarn gulp build && ELEVENTY_ENV=dotnet yarn eleventy
       - run: find dist/dotnet -name '*.cshtml'
       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
