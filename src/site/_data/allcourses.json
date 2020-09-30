@@ -389,7 +389,13 @@
       {
         "title": "Presentation Software",
         "sessions": {
-          "One": [
+          "Setting up a presentation": [
+            "Introduction",
+            "Setting up a presentation",
+            "Presentation Guidelines",
+            "Maintaining consistency"
+          ],
+          "Entering data in a presentation": [
             "Introduction",
             "two",
             "three",
@@ -398,7 +404,7 @@
             "six",
             "seven"
           ],
-          "Two": [
+          "More presentation skills": [
             "Introduction",
             "two",
             "three",
@@ -407,16 +413,7 @@
             "six",
             "seven"
           ],
-          "Three": [
-            "Introduction",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
-          ],
-          "Four": [
+          "Saving and printing a presentation": [
             "Introduction",
             "two",
             "three",
