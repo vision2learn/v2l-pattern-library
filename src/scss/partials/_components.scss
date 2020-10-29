@@ -480,6 +480,7 @@ button svg {
   &__options {
     display: inline-block;
     width: auto;
+    max-width: max-content;
   }
 
   p {
