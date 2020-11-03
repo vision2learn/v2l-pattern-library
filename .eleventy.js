@@ -24,6 +24,40 @@ module.exports = function(config) {
       }
   });
 
+  config.addFilter("formattitle", value => {
+    const str = value;
+    let iterator; // = str[Symbol.iterator]();
+    let formatted = '';
+
+    if(str.startsWith('it')) {
+      iterator = str.substring(2)[Symbol.iterator]();
+      formatted = 'IT ';
+    }
+    else {
+      formatted = str.substring(0,1).toUpperCase();
+      iterator = str.substring(1)[Symbol.iterator]();
+    }
+
+    let theChar = iterator.next();
+    let newWord = false;
+
+    while (!theChar.done) {
+      // console.log(theChar.value);
+      let letter = theChar.value;
+
+      if(newWord) {
+        letter = letter.toUpperCase();  
+      }
+
+      theChar.value === ' ' ? newWord = true : newWord = false;
+
+      formatted = `${formatted}${letter}`
+      theChar = iterator.next();
+    }
+    
+    return formatted;
+  });
+
   config.addFilter("trimit", function(value, start, end) {
     start = start ? start : 0;
 
@@ -34,6 +68,8 @@ module.exports = function(config) {
       return value.slice(start, end);
     }
   });
+
+  config.addFilter("uniqueID", val => {return `${val}_${+new Date()}` });
 
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );

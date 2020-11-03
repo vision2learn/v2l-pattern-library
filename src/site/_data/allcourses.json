@@ -318,10 +318,10 @@
       }
     ]
   },
-  "essential it skills level 1": {
+  "it user skills level 1": {
     "level": 1,
     "shortcode": "it1",
-    "why": "Essential IT Skills will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific elements of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills as well as how to keep yourself and your data secure.",
+    "why": "IT User Skills will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific elements of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills as well as how to keep yourself and your data secure.",
     "goals": {
       "will": [
         "Enter, edit and combine text and other information accurately within word processing documents",
@@ -329,13 +329,8 @@
         "Use word processing software tools to format and present documents"
       ],
       "can": [
-        "Identify what types of information are needed in documents",
-        "Identify what templates are available and when to use them",
-        "Use keyboard or other input method to enter or insert text and other information",
-        "Combine information of different types or from different sources into a document",
-        "Enter information into existing tables, forms and templates",
-        "Use editing tools to amend document content",
-        "Store and retrieve document files effectively, in line with local guidelines and conventions where available"
+        "link to pdf learning outcomes needed here",
+        "Also need a What you will learn section on this page - see level 2 version"
       ]
     },
     "units": [
@@ -343,23 +338,72 @@
         "title": "Word Processing Software",
         "sessions": {
           "Working with documents": [
-            "Creating new documents",
-            "Working with text, numbers and symbols",
-            "Saving and Printing"
+            "Using Microsoft Office",
+            "Microsoft Word",
+            "Inputting text and working more efficiently",
+            "IPU page"
           ],
           "Getting to grips with word processing": [
-            "Page layout",
-            "Checking your work",
+            "Page setup and layout",
             "Using Tables",
-            "Scales of organisation",
-            "Headers and footers",
-            "etc"
+            "Paragraph editing, Styles and Templates",
+            "Headers and footers"
           ],
           "Formatting your documents": [
             "Typeface and font size",
-            "Amending etc",
-            "Common editing tools",
-            "Images"
+            "Amending your documents",
+            "Using images",
+            "Checking your work"
+          ]
+        }
+      },
+      {
+        "title": "IT Security for Users",
+        "sessions": {
+          "IT security for users": [
+            "Introduction",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ],
+          "Two": [
+            "Introduction",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven"
+          ]
+        }
+      },
+      {
+        "title": "Presentation Software",
+        "sessions": {
+          "Setting up a presentation": [
+            "Introduction",
+            "Setting up a presentation",
+            "Presentation Guidelines",
+            "Maintaining consistency"
+          ],
+          "Entering data in a presentation": [
+            "Presentation structure",
+            "Entering and formatting text",
+            "Editing your presentation"
+          ],
+          "More presentation skills": [
+            "Images, shapes and icons",
+            "Charts and Tables",
+            "Speaker notes",
+            "Slide transitions and timing"
+          ],
+          "Preparing and managing a presentation": [
+            "Checking your work",
+            "Saving and closing your presentation",
+            "Printing your work"
           ]
         }
       },
@@ -367,55 +411,40 @@
         "title": "Spreadsheet Software",
         "sessions": {
           "Working with spreadsheet data": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "Welcome",
+            "Working with spreadsheet data",
+            "Editing your spreadsheet"
           ],
           "Using formulae and functions": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
-          ],
-          "Working with graphs": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "Creating simple formula",
+            "Working with cell references",
+            "Using functions",
+            "Sorting data"
           ],
           "Formatting your spreadsheet": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+            "Formatting numerical data",
+            "Formatting text",
+            "Alignment",
+            "Formatting cells, rows and columns"
           ],
-          "Saving and printing your work": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+          "Working with graphs and charts": [
+            "Types of charts",
+            "Selecting data",
+            "Formatting charts and graphs",
+            "Amending charts and graphs"
+          ],
+          "Finalising your work": [
+            "Checking your work",
+            "Saving and closing your spreadsheet",
+            "Page layout",
+            "Printing your work"
           ] 
         }
       }
     ]
   },
   "it user skills level 2": {
+    "dotnetID": 134,
     "level": 2,
     "year": 2020,
     "shortcode": "it2",
@@ -425,11 +454,6 @@
         "Enter and combine text and other information accurately within word processing documents",
         "Create and modify layout and structures for word processing documents",
         "Use word processing software tools to format and present documents effectively to meet requirements"
-      ],
-      "can": [
-        "Enter and combine text and other information accurately",
-        "Create and modify layout and structures",
-        "Format and present documents effectively to meet requirements."
       ]
     },
     "units": [
@@ -437,41 +461,34 @@
         "title": "Word Processing Software",
         "sessions": {
           "Welcome": [
+            "Approaching a task",
             "Using Microsoft Office",
             "Word processing software",
-            "Inputting text and keyboard shortcuts"
+            "Inputting text and working more efficiently"
           ],
           "Managing documents": [
-            "File management",
-            "Protecting files",
-            "Archiving and compressing files",
-            "Printing"
+            "Managing your documents",
+            "Protect, archive and compress files"
           ],
           "Word processing editing tools": [
-            "Text editing tools",
-            "Textual effects",
-            "Paragraph editing",
-            "Styles",
-            "templates"
+            "Word processing editing tools",
+            "Textual effects and paragraph editing",
+            "Styles and templates"
           ],
           "Structure and layout": [
-            "Document structure",
+            "Structure and layout",
             "Page layout",
             "Working with Tables",
-            "Working Forms"
+            "Working with Forms"
           ],
           "Combining information": [
-            "Transferring data",
-            "Integrating text and data",
-            "Integrating images and charts",
-            "Linking information",
+            "Combining information",
+            "Images, charts and links",
             "Mail merge"
           ],
           "Document quality control": [
-            "Proofreading and correcting mistakes",
-            "Dictonary and language settings",
-            "Selling and Grammar checks",
-            "Find and Replace"
+            "Quality control",
+            "Spelling and grammar check"
           ]
         }
       },
@@ -480,36 +497,30 @@
         "sessions": {
           "Entering information into presentations": [
             "Types of information",
-            "Entering information",
-            "Inserting items"
+            "What to consider",
+            "Entering information"
           ],
           "Managing presentations": [
-            "File management",
-            "Protecting files",
-            "Archiving and compressing files",
-            "Printing"
+            "Managing your documents",
+            "Reducing file size"
           ],
           "Presentation editing tools": [
-            "Placing items",
-            "Editing tools",
-            "Formatting text",
+            "Presentation items and editing tools",
+            "Editing and Formatting",
             "Editing your presentation"
           ],
           "Slide formatting": [
             "Slide formatting",
             "Design and formatting",
-            "Master slides",
-            "Evidencing your editing skills"
+            "Master slides"
           ],
           "Animating your presentation": [
-            "Adding effects to slides",
-            "Adding transitions"
+            "Animating your presentation"
           ],
           "Preparing your presentation": [
-            "Reviewing your aims",
-            "Preparing slides",
+            "Preparing your presentation",
             "Checking accuracy",
-            "Other factors"
+            "Evaluating the use of IT"
           ] 
         }
       },
@@ -517,38 +528,35 @@
         "title": "Spreadsheet software",
         "sessions": {
           "Creating a spreadsheet": [
-            "Types of information",
             "Spreadsheet components",
-            "Entering information",
-            "Structure, design and layout"
+            "Entering information into spreadsheets"
           ],
           "Managing spreadsheets": [
-            "File management",
-            "Saving files",
-            "Printing"
+            "Creating and mange folders",
+            "Saving and printing files"
           ],
           "Analysing data": [
-            "Formula basics",
-            "Functions and formula",
+            "Analysing data",
+            "Functions and Formula",
+            "More Functions",
             "Summarising data"
           ],
           "Formatting and presenting data": [
-            "The importance of presentation",
-            "Formatting numerical data",
+            "Formatting and presenting data",
             "Formatting cells, rows and columns",
-            "Presenting data and page layout"
+            "Presenting your spreadsheet"
           ],
           "Charts and graphs": [
-            "Chart elements",
-            "The different chart types",
-            "Creating charts",
-            "Formatting charts and graphs",
+            "Charts and graphs",
+            "Creating and formatting charts",
             "Altering your chart"
           ],
           "Spreadsheet quality control": [
             "Checking your work",
             "Numerical errors",
-            "Solving problems"
+            "Solving problems",
+            "Improving productivity and efficiency",
+            "Testing your improvements"
           ] 
         }
       }

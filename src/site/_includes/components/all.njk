@@ -24,7 +24,7 @@
         <li class="c-pagination__prev" role="listitem">
           <a href="{{ pagination.previousPageHref }}">
             <i class="visually-hidden">Previous Page</i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="21" height="28"><path d="M18.297 4.703L10 13l8.297 8.297a.99.99 0 0 1 0 1.406l-2.594 2.594a.99.99 0 0 1-1.406 0L2.703 13.703a.99.99 0 0 1 0-1.406L14.297.703a.99.99 0 0 1 1.406 0l2.594 2.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>  
         </li>
       {%- endif %}
@@ -34,7 +34,7 @@
         <li class="c-pagination__next" role="listitem">
           <a href="{{ pagination.nextPageHref }}">
             <i class="visually-hidden">Next Page</i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19" height="28"><path d="M17.297 13.703L5.703 25.297a.99.99 0 0 1-1.406 0l-2.594-2.594a.99.99 0 0 1 0-1.406L10 13 1.703 4.703a.99.99 0 0 1 0-1.406L4.297.703a.99.99 0 0 1 1.406 0l11.594 11.594a.99.99 0 0 1 0 1.406z"/></svg>
           </a>
         </li>
       {%- endif %}
@@ -142,7 +142,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!\n\n" + copy %}
   {%- elseif pageNo == 1 and session == 1 and unit == 1 %}
     {%- set bannerTitle = "Your learning goals" %}
-    {%- set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each Session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
+    {%- set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
   {%- endif %}
 
   <section class="c-banner" data-session="{{ session }}">
@@ -236,102 +236,65 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set mediaType = "image" %}
   {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
-  {%- elseif mediaObj === "think" %}
-    {%- set mediaType = "think" %}
   {%- elseif mediaObj === "activity" %}
     {%- set mediaType = "activity" %}
   {%- else %}
     {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
   {%- endif %}
 
-  <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }} {{ 'l-media--max' if mediaType === 'think' }}">
-    {%- if data.title %}
-      {# TODO: dynamic heading level #}
-      <h2 class="l-media__title">
-        {{ data.title }}
-      </h2>
-    {%- endif %}
-
-    <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
-      {{ data.copy | markdownify | safe }}
-    </div>
-
-    {%- if mediaType === "image" %}
-      {%- if link %}
-        <a href="{{ link }}" class="l-media__img">
-          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
-        </a>
-      {% else %}
-        <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+  {% if mediaType !== 'video' %}
+    <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }}">
+      {%- if data.title %}
+        {# TODO: dynamic heading level #}
+        <h2 class="l-media__title">
+          {{ data.title }}
+        </h2>
       {%- endif %}
-    {%- elseif mediaType === "video" %}
-      <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
-          <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
-                  type="video/mp4">
-          Sorry, your browser doesn't support embedded videos.
-      </video>
-    {%- elseif mediaType === "activity" %}
-      <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
-        <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
-      </a>
-    {%- elseif mediaType === "think" %}
-      {%- if buildenv !== 'dotnet'%}
-        <form class="l-media__img l-think" id="{{ 'formJournal'+formID }}">
-          <textarea class="js-think" rows="15"></textarea>
-          <button>Save</button>
-        </form>
-      {%- else %}
-      {# TODO: Handle .NET formID when multiple TtTs on page eg, formIdAttribute: "formJournal2" #}
-        @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
-                (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
-                "{{ data.copy | striptags(false)}}",
-                formClassAttribute: "l-media__img l-think", formIdAttribute: "{{ 'formJournal'+formID }}"))
-      {%- endif %}
-    {%- else %}
-      <p>{{ mediaError + ": " + mediaObj }}</p>
-    {%- endif %}  
-  </div>
-{%- endmacro %}
 
-{# {%- macro media(title, copy, img, link, layout, think, video) %}
-  
-  <div class="l-media {%- if layout == 'media-rev' %} l-media--rev {%- elseif layout == 'media-half' %} l-media--half {%- endif %}">
-    <h2 class="l-media__title">
-      {%- if title %}
-        {{ title | title }}
-      {%- endif %}
-    </h2>
+      <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
+        {{ data.copy | markdownify | safe }}
 
-    <div class="l-media__body">
-      {{ copy | markdownify | safe }}
-    </div>
-    {%- if activity %}
-      <a href="/captivate/{{ module.data.course | replace(' ', '-') }}/{{ activity }}/" class="l-media__img">
-        <img src="{{ '~' if module.data.buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Open activity">
-      </a>
-    {%- else %}
-      {%- if img and (not link) %}
-        <img class="l-media__img" src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="xxxxx">
-      {%- elseif img and link %}
-        <a href="{{ link }}" class="l-media__img">
-          <img  src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ img | lower }}" alt="">
-        </a>
-      {%- elseif video %}
-        <video controls class="l-media__img" {{ module.data.buildenv }}>
-            <source src="{{ '~' if module.data.buildenv === 'dotnet' }}/videos/{{ video }}"
+        {% if mediaType === "image" and data.title === "Stretch" and link %}
+          <p>
+            <small>Capita Learning is not responsible for the content of external sites.</small>
+          </p>
+        {% endif %}
+      </div>
+
+      {%- if mediaType === "image" %}
+        {%- if link %}
+          <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }}>
+            <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+          </a>
+        {% else %}
+          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+        {%- endif %}
+      {%- elseif mediaType === "video" %}
+        <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
+            <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
                     type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
         </video>
-      {%- elseif think %}
-        <form class="l-media__img l-think">
-          <textarea>
-          </textarea>
-          <button>Save</button>
-        </form>
-      {%- endif %}
-    {%- endif %}
-  </div>
-{%- endmacro %} #}
+      {%- elseif mediaType === "activity" %}
+        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
+          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
+        </a>
+      {%- else %}
+        <p>{{ mediaError + ": " + mediaObj }}</p>
+      {%- endif %}  
+    </div>
+  {% else %}
+    {%- set id = data.title | slug | uniqueID %}
+    <h2 id="{{ id }}">{{ data.title }}</h2>
+    {{ data.copy | markdownify | safe }}
+    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
+      <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
+        type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+  {% endif %}
+  
+{%- endmacro %}
 
 {# --- 9. Slider --- #}
 {%- macro slideItem(slidedata, buildenv) %}

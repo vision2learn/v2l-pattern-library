@@ -1,102 +1,111 @@
 // Mac/PC toggle switch
-(function(){
+// TODO: Fix handling of non-switchable videos/interactions
+const ContentToggle = (() => {
 
-  // check we're in IT?
   const course = document.getElementById('main').dataset.v2lTags;
-  
-  // don't go any further if we're not in IT or localStorage isn't available
-  if(course !== 'it' || !Toolkit.storageAvailable('localStorage')) {
-    return false;
-  }
-
-  const toggleSwitch = `
-        <section>
-          <h2 id='formTitle'>Choose your operating system</h2>
-          <p>
-            You can choose to view PC or Mac-specific videos and course content.
-          </p>
-          <form action="" id="switcher">
-            <fieldset>
-              <legend>Mac or PC?</legend>
-              <div class="c-toggle-btn" role="presentation">
-                <div role="presentation">
-                  <input type="radio" name="switcher" value="pc" id="switcher_pc" aria-label="PC" checked> <label for="switcher_pc" role="presentation"><b role="presentation">PC</b></label>
-                </div>
-                <div role="presentation">
-                  <input type="radio" name="switcher" value="mac" id="switcher_mac" aria-label="Mac"> <label for="switcher_mac" role="presentation"><b role="presentation">Mac</b></label>
-                </div>
-              </div>
-              <div>
-                <input type="checkbox" name="switcher_pref" id="switcher_pref" checked> <label for="switcher_pref"> Remember my preference</label>
-              </div>
-              <button>Submit preference</button>
-            </fieldset>
-          </form>
-        <section>
-      `;
-      
-  let storage = window.localStorage;
   const switchKey = "hello-im-a-mac";  
   const videos = document.querySelectorAll('[src$=".mp4"]');
   const interactives = document.querySelectorAll('.c-interactive');
+  let toggle = {};
+  let storage = document.querySelector('[data-v2l-env=netlify]') ? window.sessionStorage : window.localStorage; // use session storage if we're on netlify platform    
   let baseVidSrc = [];
   let baseIntSrc = [];
+  // check we're in IT?
 
-  // get the base file name before modding 
-  // TODO: THIS WON'T WORK IF DEFAULT IS _pc!!
-  videos.forEach(function(video) {
-    baseVidSrc.push(video.src.substring(0, video.src.indexOf('_pc')));
-  });
+  toggle.init = () => {
+    // don't go any further if we're not in IT or localStorage isn't available
+    if(course !== 'it' || !Toolkit.storageAvailable('localStorage')) {
+      return false;
+    }
+    
+    if(document.querySelector('[data-v2l-env=netlify]')) {
+      // clear any legacy localStorage items on Netlify
+      window.localStorage.removeItem(switchKey);
+    }
 
-  interactives.forEach(function(int) {
-    let intJS = int.dataset.v2lInteractive;
-    baseIntSrc.push(intJS.substring(0, intJS.indexOf('_pc')));
-  });
-
-  // check for top-level key or create it
-  if(!storage.getItem(switchKey)) {
-    // show the Mac/PC toggle after the baner
-    const banner = document.querySelector('.c-banner');
-    banner.insertAdjacentHTML('afterend', toggleSwitch);
-
-    // handle form submission
-    const switchForm = document.getElementById('switcher');
-
-    switchForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const data = new FormData(switchForm);
-      const save = data.get('switcher_pref');
-      const macOrPc = data.get('switcher');
-      urlSwitch(macOrPc);
-
-      if(save === 'on') {
-        storage.setItem(switchKey, data.get('switcher'));
+    // get the base file name before modding 
+    // TODO: Is this unnecessary?
+    videos.forEach(video => {
+      if(video.src.indexOf('_pc') > -1) {
+        baseVidSrc.push(video.src.substring(0, video.src.indexOf('_pc')));
       }
-      else {
-        storage.removeItem(switchKey);
+    });
+
+    interactives.forEach(int => {
+      let intJS = int.dataset.v2lInteractive;
+      if(intJS.indexOf('_pc') > -1) {
+        baseIntSrc.push(intJS.substring(0, intJS.indexOf('_pc')));
       }
-      
-      switchForm.parentElement.style = "display: none";
+    });
+
+    // check for top-level key and set to pc if not present
+    if(!storage.getItem(switchKey)) {
+      storage.setItem(switchKey, 'pc');
+      toggle.addButton();
+    }
+    else {
+      toggle.urlSwitch();
+    }
+  }
+
+  toggle.addButton = () => {
+    let formattedFormat = storage.getItem(switchKey) === 'mac' ? 'Mac' : 'PC';
+    const switchStatement = `<p data-v2l-toggleText="true"><em>You are viewing ${formattedFormat}-specific content. <button onclick="ContentToggle.toggleIt()" style="all: unset; text-decoration: underline; cursor: pointer">Switch to ${storage.getItem(switchKey) === 'mac' ? 'PC' : 'Mac'} content?</button></em></p>`;
+
+    videos.forEach((video, index) => {
+      if(baseVidSrc[index]) {
+        video.parentElement.insertAdjacentHTML('beforebegin', switchStatement);
+      }
+    });
+
+    interactives.forEach((int, index) => {
+      if(baseIntSrc[index]) {
+        int.insertAdjacentHTML('beforebegin', switchStatement);
+      }
     });
   }
-  else {
-    urlSwitch(storage.getItem(switchKey));
-  }
-      
-  function urlSwitch(urlMod) {
-    videos.forEach(function(video, index) {
-      if(baseVidSrc[index] !== '') {
+  
+  toggle.urlSwitch = () => {
+    const urlMod = storage.getItem(switchKey);
+    
+    
+    videos.forEach((video, index) => {
+      if(baseVidSrc[index]) {
         video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.mp4`);
         video.parentElement.load();
       }
+      
     });
 
-    interactives.forEach(function(int, index) {
-      if(baseIntSrc[index] !== '') {
+    interactives.forEach((int, index) => {
+      if(baseIntSrc[index]) {
+        let intBtn = document.createElement("button");
+        intBtn.setAttribute('data-v2l-loadbtn', true);
+        intBtn.innerText = "Begin Activity";
         int.dataset.v2lInteractive = `${baseIntSrc[index]}_${urlMod}`;
+        int.replaceChild(intBtn, int.firstElementChild);
       }
     });
+    V2lPage.attachHandlers();
+    toggle.addButton();
   }
 
-  // storage.removeItem(switchKey); // DEBUG!!!!
+  toggle.toggleIt = () => {
+    const newKey = storage.getItem(switchKey) === 'mac' ? 'pc' : 'mac';
+    storage.setItem(switchKey, newKey);
+
+    document.querySelectorAll('[data-v2l-toggleText]').forEach((text) => {
+      text.remove();
+    });
+
+    toggle.urlSwitch()
+  }
+
+  toggle.vids = videos;
+  toggle.ints = interactives;
+  toggle.baseIntSrc = baseIntSrc;
+  toggle.baseVidSrc = baseVidSrc;
+  return toggle;
 })();
+
+ContentToggle.init();

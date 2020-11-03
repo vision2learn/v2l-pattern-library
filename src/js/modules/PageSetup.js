@@ -13,6 +13,7 @@
 
       // Add the required aria attributes to the show/hide components
       _ariaControls.forEach(function (item) {
+        item.setAttribute('aria-hidden', true);
         var controlled = item.nextElementSibling;
         controlled.setAttribute('aria-hidden', true);
 
@@ -21,6 +22,7 @@
         // replace the image with a button then inject the image into the button
         var img = item.cloneNode();
         var parent = item.parentNode;
+        var buttonTitle = parent.querySelector('h3').innerText;
 
         // get the innerText of the element and remove it
         // var text = item.innerText;
@@ -33,6 +35,7 @@
 
         btn.setAttribute('class', "a11y-btn");
         btn.setAttribute('aria-expanded', "false");
+        btn.setAttribute('aria-label', buttonTitle)
         // btn.setAttribute('aria-controls', item.getAttribute('data-controls'));
 
         // attach onclick events to controls
@@ -52,7 +55,7 @@
               // create close button and inject into content div
               let closeBtn = document.createElement('button');
               closeBtn.classList.add('js-close-btn');
-              closeBtn.setAttribute('aria-label', 'Close panel');
+              closeBtn.setAttribute('aria-label', `Close ${buttonTitle} panel`);
               closeBtn.setAttribute('tabindex', '0');
               closeBtn.innerHTML = `
                 <svg aria-hidden="true" viewBox="0 0 10 10" style="transform: rotate(45deg)">
@@ -71,9 +74,18 @@
         });
 
       });
+    },
+    tableWrapper: function() {
+      // need to wrap tables in an element to handle overflow on narrow screens
+      document.querySelectorAll('table').forEach(table => {
+        let wrapper = document.createElement('div');
+        wrapper.classList.add('l-tablewrapper');
+        let theTable = table.parentNode.replaceChild(wrapper, table);
+        wrapper.appendChild(theTable);
+      });
     }
   };
 
   page.initShowHide();
-
+  page.tableWrapper();
 })();

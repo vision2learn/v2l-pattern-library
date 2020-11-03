@@ -59,7 +59,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: sudo apt update
+      - run: sudo apt update && sudo apt install graphicsmagick
+      - run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+      - run: sudo apt install git-lfs
       - run: yarn install
 
       - save_cache:
@@ -68,7 +70,8 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: ELEVENTY_ENV=dotnet yarn eleventy
+      - run: git lfs fetch --all && git lfs pull
+      - run: yarn gulp build && ELEVENTY_ENV=dotnet yarn eleventy
       - run: find dist/dotnet -name '*.cshtml'
       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
@@ -84,8 +87,14 @@ jobs:
           paths: dist/*
 
       - run:
-          name: Compress Pages
-          command: tar -cvf html_pages.tar dist/dotnet
+          name: Create Export Package
+          command: for dir in dist/dotnet/* ; do echo $dir ; cp -R --strip-trailing-slashes src/scss $dir/scss/ ; cp -R --strip-trailing-slashes dist/js $dir/js ; done
+      - run:
+          name: Move Images
+          command: cp -R --strip-trailing-slashes dist/images dist/dotnet/images
+      - run:
+          name: Zip .NET Export
+          command: tar -cvf dotnet.tar dist/dotnet
       - run:
           name: Compress Images
           command: tar -cvf images.tar dist/images
@@ -97,8 +106,8 @@ jobs:
           command: tar -cvf js.tar dist/js
 
       - store_artifacts:
-          path: html_pages.tar
-          destination: html.tar
+          path: dotnet.tar
+          destination: dotnet.tar
       - store_artifacts:
           path: images.tar
           destination: images.tar
