@@ -407,9 +407,13 @@ In this session you will learn about the following:
       {% endif %}
     </section>
     <section class="t-bg-primary">
+    {% set assTitle = "Submitting assessments" %}
+    {% if shortcode === 'it2' or shortcode === 'it1' %}
+      {% set assTitle = "Using this site and submitting assessments" %}
+    {% endif %}
       {{ components.media2({
-            title: "Submitting Assessments",
-            copy: "Once you’ve completed all Assessment questions in a Unit, you will need to send your completed Assessment to your tutor. Watch this video to see how.",
+            title: assTitle,
+            copy: "Once you’ve completed all assessment questions in a unit, you will need to send your completed assessment to your tutor. Watch this video to see how.",
             layout: "media-half",
             media: {
               ref: "Submitting_Assessment_Recording.mp4"
