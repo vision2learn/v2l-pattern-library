@@ -287,9 +287,12 @@ In this session you will learn about the following:
 
     {% if module.data.session === 1 %}
       {% set assCopy = "Now it’s time to complete Part " + module.data.session + " of your Unit " + module.data.unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to " + timeToWhat + " journals to help you." %}
+    {% elif shortcode === 'it2' or shortcode === 'it1' %}
+      {% set assCopy = "Now that you have completed this session, you should complete the relevant section in the assessment booklet. If you have not already done so, please [download and save the assessment file]("+ assLink +") in a suitable location on your computer. Use your notes on the assessment so far, and the work you have done in your 'Time to Practice' activities to assist you" %}
     {% else %}
       {% set assCopy = "Now that you have completed this session, you should complete the relevant section in the assessment booklet. If you have not already done so, please click on the assessment link to the right, then download and save the assessment file in a suitable location on your computer." %}
     {% endif %}
+
     <section>
       {% set assLink = "~/" + module.data.unit + "/assessment" %}
       {{ components.media2({
@@ -360,9 +363,11 @@ In this session you will learn about the following:
         {%- set link = link | replace(' ', '-') %}
 
         {% if module.data.session == sessionsInUnit %}
-          {%- set moveOnText = "Once you’ve finished your Assessment and sent it to your tutor for marking, you can move on to the next unit." -%}
+          {%- set moveOnText = "Once you’ve finished your assessment and sent it to your tutor for marking, you can move on to the next unit." -%}
+          {% set altText = "Next unit" %}
         {%- else -%}
-          {%- set moveOnText = "Once you’ve finished this part of your Assessment, you can move on to the next session." -%}
+          {%- set moveOnText = "Once you’ve finished this part of your assessment, you can move on to the next session." -%}
+          {% set altText = "Next session" %}
         {% endif %}
 
         {{ components.media2({
@@ -370,7 +375,8 @@ In this session you will learn about the following:
             copy: moveOnText,
             media: {
               ref: "next_button.svg",
-              link: link
+              link: link,
+              alt: altText
             }
           },
           site.env
