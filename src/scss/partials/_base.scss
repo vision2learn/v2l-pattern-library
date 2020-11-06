@@ -342,8 +342,8 @@ main * + figure {
   margin-bottom: 3rem;
   margin-top: 3rem;
 
-  margin-top: calc($flow * 2rem);
-  margin-bottom: calc($flow * 2rem);
+  margin-top: calc(var(--flow) * 2rem);
+  margin-bottom: calc(var(--flow) * 2rem);
 }
 
 /* Media */
