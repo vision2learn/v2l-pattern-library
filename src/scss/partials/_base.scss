@@ -171,8 +171,8 @@ h3 {
 a {
   color: $primary1;
 
-  &[target="_blank"],
-  &[href$=".pdf"] {
+  &[target="_blank"]:not([class]),
+  &[href$=".pdf"]:not([class]) {
     display: inline-flex;
     align-items: center;
 
@@ -342,8 +342,8 @@ main * + figure {
   margin-bottom: 3rem;
   margin-top: 3rem;
 
-  margin-top: calc($flow * 2rem);
-  margin-bottom: calc($flow * 2rem);
+  margin-top: calc(var(--flow) * 2rem);
+  margin-bottom: calc(var(--flow) * 2rem);
 }
 
 /* Media */
