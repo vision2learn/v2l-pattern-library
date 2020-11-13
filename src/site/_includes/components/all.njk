@@ -263,7 +263,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
       {%- if mediaType === "image" %}
         {%- if link %}
-          <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }}>
+          <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
             <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
           </a>
         {% else %}
@@ -336,7 +336,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
     
     <div class="c-reveal-block__desc">
-      <h3 aria-hidden="true">{{ data.heading | capitalize | d('Panel heading')}}</h3>
+      <h3 aria-hidden="true">{{ data.heading | d('Panel heading')}}</h3>
       {{ data.copy | markdownify | safe | d('Panel copy')}}
     </div>
   </li>

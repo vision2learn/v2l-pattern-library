@@ -144,6 +144,7 @@
     background-color: $primary3;
     border: 0;
     counter-reset: answers;
+    display: inline-block; // Blink fix
     flex-direction: column;
     align-items: stretch;
     padding: 0;
@@ -480,6 +481,7 @@ button svg {
   &__options {
     display: inline-block;
     width: auto;
+    max-width: max-content;
   }
 
   p {
