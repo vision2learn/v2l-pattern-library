@@ -1974,9 +1974,9 @@ camelcase@^5.0.0:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001043, caniuse-lite@^1.0.30001061:
-  version "1.0.30001061"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001061.tgz#80ca87ef14eb543a7458e7fd2b5e2face3458c9f"
-  integrity sha512-SMICCeiNvMZnyXpuoO+ot7FHpMVPlrsR+HmfByj6nY4xYDHXLqMTbgH7ecEkDNXWkH1vaip+ZS0D7VTXwM1KYQ==
+  version "1.0.30001158"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001158.tgz"
+  integrity sha512-s5loVYY+yKpuVA3HyW8BarzrtJvwHReuzugQXlv1iR3LKSReoFXRm86mT6hT7PEF5RxW+XQZg+6nYjlywYzQ+g==
 
 caseless@~0.12.0:
   version "0.12.0"
