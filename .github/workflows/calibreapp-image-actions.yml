@@ -1,8 +1,5 @@
 name: Compress images
-on:
-  push:
-    branches: 
-      - rayner-mod
+on: pull_request
 jobs:
   build:
     name: calibreapp/image-actions
