@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn run dev",
-    "dev": "ELEVENTY_ENV=dev gulp dev & eleventy --serve",
-    "debug": "ELEVENTY_ENV=dev gulp dev & DEBUG=Eleventy* eleventy --serve",
-    "build": "ELEVENTY_ENV=dev gulp build && yarn eleventy",
-    "dotnet": "ELEVENTY_ENV=dotnet gulp build & eleventy",
+    "dev": "ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev eleventy --serve",
+    "debug": "ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
+    "build": "ELEVENTY_ENV=dev gulp build && ELEVENTY_ENV=dev yarn eleventy",
+    "dotnet": "ELEVENTY_ENV=dotnet gulp build & ELEVENTY_ENV=dotnet eleventy",
     "cshtml": "ELEVENTY_ENV=dotnet eleventy",
-    "netlify": "ELEVENTY_ENV=netlify gulp dev & eleventy --serve",
+    "netlify": "ELEVENTY_ENV=netlify gulp dev & ELEVENTY_ENV=netlify eleventy --serve",
     "start-proto": "docker run -d --rm --cpus='.75' --name 'v2l-prototype' -v $(pwd):/code:cached -p 8080:8080 -p 3001:3001  mrsleeth/v2l:node10 dev",
     "stop-proto": "docker stop v2l-prototype"
   },
