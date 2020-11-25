@@ -1,5 +1,6 @@
 module.exports = {
     "title": "Vision2Learn Pattern Library",
+    "v2l": "vision&#x200B;2&#x200B;learn",
     "srcset": [
         400,
         600,
