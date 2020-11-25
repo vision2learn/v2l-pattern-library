@@ -3,18 +3,8 @@
   layout: (process.env.ELEVENTY_ENV === 'dotnet') ? 'layouts/dotnet.njk' : 'layouts/prototype.njk'
 }
 ---
-{%- import 'components/all.njk' as components %}
-  {%- include 'banner.njk' %}
-  {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
-  
-  {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
-    {%- include 'components/unit-overview-tabs.njk' %}
-  {%- endif %}
-  
 
-  {# *********** START ********************* #}
-
-  {# 
+{# 
     Logic for when on final page of section, unit etc
 
     Determine if we're linking to the next session or 
@@ -47,6 +37,17 @@
 {%- endif %}
 
 {%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
+
+{%- import 'components/all.njk' as components %}
+  {%- include 'banner.njk' %}
+  {# {{ components.banner(title=module.data.title, copy=module.data.intro, image=module.data.banner, unit=module.data.unit, session=module.data.session, pageNo=pagination.pageNumber, lastpage=lastPage, sessionMap=site.sessionMap) }} #}
+  
+  {%- if pagination.pageNumber == 0 and module.data.session == 1 %}
+    {%- include 'components/unit-overview-tabs.njk' %}
+  {%- endif %}
+  
+
+  {# *********** START ********************* #}
 
 {%- if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
   <section>      
