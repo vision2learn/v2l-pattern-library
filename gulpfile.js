@@ -48,5 +48,3 @@ gulp.task('dev', gulp.series(
   'build',
   'watch'
 ));
-
-console.log(process.env.ELEVENTY_ENV);

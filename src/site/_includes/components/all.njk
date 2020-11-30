@@ -256,7 +256,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
         {% if mediaType === "image" and data.title === "Stretch" and link %}
           <p>
-            <small>Capita Learning is not responsible for the content of external sites.</small>
+            <small>{{ site.v2l | safe }} is not responsible for the content of external sites.</small>
           </p>
         {% endif %}
       </div>
@@ -297,7 +297,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {%- endmacro %}
 
 {# --- 9. Slider --- #}
-{%- macro slideItem(slidedata, buildenv) %}
+{%- macro slideItem(slidedata, buildenv, shortcode) %}
   {# TODO: Support other media types for slider #}
     {%- if slidedata.heading -%}
       {%- set title = slidedata.heading | safe | striptags() -%}
@@ -312,7 +312,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
             title: title,
             copy: slidedata.text,
             media: {
-              ref: slidedata.img
+              ref: '/' + shortcode + '/' + slidedata.img
             }
           },
           buildenv
@@ -333,7 +333,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 {%- macro reveal(data, env) %}
   <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.shortcode }}/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
     
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ data.heading | d('Panel heading') | capitalize }}</h3>
