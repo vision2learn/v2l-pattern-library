@@ -360,23 +360,16 @@
       {
         "title": "IT Security for Users",
         "sessions": {
-          "IT security for users": [
-            "Introduction",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+          "System performance and Information security": [
+            "System performance",
+            "Identifying security issues",
+            "Taking security precautions",
+            "Information security"
           ],
-          "Two": [
-            "Introduction",
-            "two",
-            "three",
-            "four",
-            "five",
-            "six",
-            "seven"
+          "Guidelines, procedures and backing up data": [
+            "Guidelines and procedures for the secure use of IT",
+            "Backing up data securely",
+            "Backing up data to appropriate media"
           ]
         }
       },
