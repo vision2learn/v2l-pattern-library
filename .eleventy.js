@@ -9,7 +9,7 @@ module.exports = function(config) {
   config.addPlugin(pluginSyntaxHighlight);
 
   // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/default.liquid');
+  config.addLayoutAlias('default', 'default.liquid');
 
   config.addFilter("markdownify", function(value) {
     var MarkdownIt = require('markdown-it'),
