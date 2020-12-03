@@ -1,7 +1,74 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{%- if title %}{{ title }}{%- else %}{{ site.title }}{%- endif %}</title>
+  <link rel="stylesheet" href="/css/themes/{{ theme.name }}.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #fffaf7;
+      line-height: 1.5;
+    }
 
-<main>
-  {{ content }}
-</main>
+    main {
+      max-width: 70ch;
+      padding: 2ch;
+      margin: auto;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    header {
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      margin-bottom: .5rem;
+    }
+
+    time {
+      color: #888;
+      text-decoration: italic;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
+
+    hr {
+      margin-top: 2rem;
+    }
+
+    #fn {
+      font-size: 85%;
+    }
+
+    a {
+      color: #ff3c3c;
+      text-decoration: none;
+      outline: 0;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ::selection {
+      background-color: #fff888;
+    }
+  </style>
+</head>
+
+<body class="{{ body-class }}" data-v2l-env="{{ site.env }}" data-v2l-theme="{{ tags[0] }}">
+  <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+    
+  <main id="main">
+    {{ content }}
+  </main> 
+</body>
+</html>
