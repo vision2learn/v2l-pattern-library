@@ -104,7 +104,8 @@ module.exports = function(config) {
     dir: {
       input: "src/site",
       output: "dist",
-      data: "_data"
+      data: "_data",
+      layouts: "_layouts"
     },
     templateFormats : ["njk", "liquid", "html", "md"],
     dataTemplateEngine: "njk",
