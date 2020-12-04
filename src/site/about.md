@@ -1,7 +1,7 @@
 ---
 title: Understanding the Pattern Library
 permalink: /about/
-layout: layouts/longform
+layout: longform
 theme:
   name: prism-xonokai
 ---
@@ -65,7 +65,7 @@ pagination:
 - The layout file for courses is found inside the `_includes/layouts` directory
 
 ``` yaml
-layout: layouts/default
+layout: default
 permalink: {%- raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html{%- endraw %}
 ```
 
