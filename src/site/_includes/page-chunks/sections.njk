@@ -1,0 +1,78 @@
+{%- for section in module.data.sections %}
+    
+  {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.data.session) %}
+    <!-- {{ sessionsInUnit }} {{ module.data.session }}-->
+    {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
+  {%- elseif section.title == nil %}
+    {# Don't write out blanks #}
+    <!-- blank -->
+  {%- else %}
+      <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
+
+      {%- if section.include %}
+        {%- set inc = section.include.type | lower %}
+        {%- include 'components/' + inc + '.njk' ignore missing %}
+      {%- elseif section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+        {%- set mediaItem -%}
+          {{- section.img if section.img -}}
+          {{- section.video if section.video -}}
+        {%- endset -%}
+
+        {%- if section.activity -%}
+          {{ components.media2(
+            {
+              title: section.title,
+              copy: section.copy,
+              layout: section.layout,
+              media: {
+                link: section.activity.ref,
+                ref: 'activity'
+              }
+            },
+            site.env,
+            module.data.course
+          ) }}
+        {%- else -%}
+          {{ components.media2({
+              title: section.title,
+              copy: section.copy,
+              layout: section.layout,
+              media: {
+                ref: mediaItem,
+                link: section.link
+              }
+            }, site.env) }}
+        {%- endif -%}
+      {%- else %}
+        <h2>{{ section.title }}</h2> 
+        
+        {%- if section.copy %}
+          {{ section.copy | markdownify | safe }}
+        {%- endif %}
+        
+        {%- if section.subInc %}
+          {# Is this a basic or more complex include type? #}
+          {# {%- set inc = section.subInc %} #}
+
+          {%- set inc = section.subInc.type | lower %}
+          
+          {%- if inc %}
+            {%- include 'components/' + inc + '.njk' %}
+          {%- endif %}
+          
+        {%- endif %}
+
+        {%- if section.copy2 %}
+          {{ section.copy2 | markdownify | safe }}
+        {%- endif %}
+
+        {%- if section.interactive %}
+          {%- include 'components/animate-canvas.njk' %}
+        {%- endif %}
+
+      {%- endif %}
+      </section>
+    
+    {# {%- endblock section %} #}
+  {%- endif %}
+{%- endfor %}

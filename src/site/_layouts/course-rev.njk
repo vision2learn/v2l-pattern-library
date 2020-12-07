@@ -1,0 +1,71 @@
+---js
+{
+  layout: (process.env.ELEVENTY_ENV === 'dotnet') ? 'dotnet.njk' : 'prototype.njk'
+}
+---
+
+{# 
+    Logic for when on final page of section, unit etc
+
+    Determine if we're linking to the next session or 
+    the next unit or we're done
+  #}
+
+{%- if site.env == "dotnet" -%}
+  {%- set tilde = "~" -%}
+{%- else -%}
+  {# Probably don't need this? #}
+  {%- set tilde = "" -%} 
+{%- endif -%}
+
+{% set dataset = module.data %} {# So we don't have to write module.data all the time #}
+
+{%- set courseData = allcourses[module.data.course] %} {# Needed? #}
+{%- set shortcode = module.data.shortcode -%}
+{%- set unitsInCourse = module.data.units.length %}
+{%- set sessionsInUnit = module.data.units[module.data.unit - 1].sessions | length  %}
+
+{% if shortcode !== 'it2' %}
+  {% set timeToWhat = 'Think'%}
+{% else %}
+  {% set timeToWhat = 'Practice'%}
+{% endif %}
+
+{%- if (module.data.session) < sessionsInUnit %}
+  {%- set nextSession = module.data.session + 1 %}
+  {%- set nextUnit = module.data.unit %}
+{%- else %}
+  {%- set nextSession = 1 %}
+  {%- set nextUnit = module.data.unit + 1 %}
+{%- endif %}
+
+{%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
+
+{%- import 'components/all.njk' as components %}
+<!-- course-rev -->
+{# BANNER #}
+{%- include 'banner.njk' %}
+{# /BANNER #}
+
+{%- if pagination.pageNumber == 0 and module.data.session == 1 %}
+  {# IMPORT Page 1 layout #}
+  <!-- session1_page1 -->
+  {# {%- include 'page-chunks/session1_page1.njk' %} #}
+  
+
+{# *********** START ************** #}
+
+{%- elseif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+  {# IMPORT Unit 1 Session 1 Page 2 layout #}
+  <!-- unit1_session1_page2 -->
+  {# {%- include 'page-chunks/unit1_session1_page2.njk' %} #}
+{%- else %}
+  {# NORMAL PAGES #}
+  {# {%- include 'page-chunks/sections.njk' %} #}
+  
+  {%- if lastPage %}
+  {# {%- include 'page-chunks/lastpage.njk' %} #}
+    
+{%- endif %}
+
+{# ************* FIN **************** #}
