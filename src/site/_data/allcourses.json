@@ -196,6 +196,116 @@
       }
     ]
   },
+  "employability and personal development": {
+    "level": 2,
+    "shortcode": "epd",
+    "why": "Employability and personal development - why text here.",
+    "goals": {
+      "will": [
+        "learning outcome 1",
+        "learning outcome 2",
+        "learning outcome 3"
+      ],
+      "can": [
+        "link to pdf learning outcomes needed here",
+        "Also need a What you will learn section on this page - see level 2 version"
+      ]
+    },
+    "units": [
+      {
+        "title": "Preparing for an Interview and applying for a job",
+        "sessions": {
+          "Preparing for an interview": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "Applying for a job": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "session three": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ]
+        }
+      },
+      {
+        "title": "Effective skills, qualities and attitudes for learning and work",
+        "sessions": {
+          "session one": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "session two": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "u2 session three": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ]
+        }
+      },
+      {
+        "title": "Teamworking skills",
+        "sessions": {
+          "u3 session one title": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "u3 session two title": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "u3 session three title": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ]
+        }
+      },
+      {
+        "title": "Optional unit 2",
+        "sessions": {
+          "u4 session one title": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "u4 session two title": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "u4 session three title": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ] 
+        }
+      }
+    ]
+  },
   "lean management": {
     "dotnetID": 132,
     "year": 2019,
