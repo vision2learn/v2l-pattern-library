@@ -153,7 +153,11 @@ workflows:
   version: 2
   build-and-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - rayner-mod
       - dotnet:
           filters:
             branches:
@@ -164,8 +168,7 @@ workflows:
             - build
           filters:
             branches:
-              only: 
-                - bleeding-edge
+              only:
                 - rayner-mod
       - deploy:
           requires:
