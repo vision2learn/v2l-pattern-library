@@ -1,0 +1,157 @@
+
+title: People and Processes
+intro: | 
+  Who is involved in the Productivity Needs Analysis process?
+
+  And what are the processes of a Productivity Needs Analysis?
+banner: LM_U1_S2_p3_people.svg
+sections:
+  -
+    title: People involved in the PNA process
+    theme: t-bg-primary
+    copy: |
+      As we saw previously, staff turnover is a common key area measured by organisations in order to evaluate its own productivity.
+
+      However, staff are not the only people involved in the PNA process.
+      
+      Scroll through the slides below to see more:
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: Stakeholders
+          text: A stakeholder is someone with a vested interest in an organisation. These may include managers, board members, shareholders, employees, suppliers, government and community.
+          img: LM_U1_S2_p3_slider_1_people.svg
+        -
+          title: Customer voice 
+          text: As well as staff and stakeholders, customers are another fundamentally important group of people who may be involved in the PNA process. It is important for a lean organisation to ensure that the voice of the customer is given the highest priority.
+          img: LM_U1_S2_p3_slider_2_people.svg
+        -
+          title: Example 1
+          text: For example, a publically funded hospital may have some very specific targets on waiting lists, quality of treatment and budgets set by politicians (a key stakeholder).
+          img: LM_U1_S2_p3_slider_3_people.svg
+        -
+          title: Example 2
+          text: A private sector organisation may have targets set by an owner (a stakeholder) on profits, market share and dividends.
+          img: LM_U1_S2_p3_slider_4_people.svg
+        -
+          title: 
+          text: In both cases there may also be specific things that patients and customers expect.
+          img: LM_U1_S2_p3_slider_5_people.svg
+  -
+    title: Case study - Scorecards
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      When organisations wish to collect information or collate feedback from customers they may develop a scorecard. This provides a numerical and visual record of how customers experience the product or service.
+
+      An organisation is concerned about its customer’s opinions regarding their reliability and delivery. To collect information on these and other areas, they develop the following scorecard. They decide that reliability should score 5 and delivery should score 4 in order to meet general customer demand. Here you can see an example of average scores given by customers on the products made by an organisation.
+      
+      Click on the scorecard to gain an understanding of its features.
+    interactive: 
+      file: lm/u1_s2_p3_interactive_scorecard
+      width: 799
+      height: 485
+      composition: B459E4802A3A47C988A11F6CF58E183B
+  -
+    theme: t-bg-primary1a
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Average scores example
+          copy: |
+            
+            In this example it is clear that improvements in reliability and delivery are necessary, in order to meet with rating demands. This would result in the organisation looking closely at those processes linked to product reliability and product delivery.
+
+            There may be times when there are conflicts between what different stakeholders require. In this case the organisation must seek to have a very clear description of what really matters. Those things that matter are the ones where measurement is likely to be most important.
+  -
+    title: The processes of a Productivity Needs Analysis
+    theme: t-bg-supporting2
+    copy: |
+      Once an organisation has a clear understanding of what it is seeking to achieve it can identify the **key processes, performances** and **outputs**. The organisation can also decide upon the way prioritised outputs will be measured. 
+
+      With the measures in effect, an organisation is well placed to conduct a Productivity Needs Analysis. To understand the basic ideas underpinning a Productivity Needs Analysis, it is helpful to consider it with reference to a more familiar training needs analysis. 
+
+      The slider below compares a simplified training analysis model to a Productivity Needs Analysis; Scroll through the slides to see the similarities and differences.
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: Training Needs Analysis
+          text: |
+            1. Identify tasks to be performed by an organisation and the skills required to perform those tasks.
+            2. Assess the employees’ ability to perform the required tasks.
+            3. Where gaps exist, take action to remove the gap.
+            4. Check the action has resulted in the gap being closed.
+
+          img: LM_U1_S2_p3_slider_6_process.svg
+        -
+          title: Productivity Needs Analysis
+          text: |
+            1. Identify the **objectives** to be achieved by the organisation and the **outputs** needed (in processes, teams and by individuals) to deliver the objectives. 
+            2. Identify any gaps between the required outputs and the actual output capability (the productivity gap). 
+            3. Where gaps exist, take action to remove the gap.
+            4. Check the action has resulted in the gap being closed.
+          img: LM_U1_S2_p3_slider_7_process.svg
+  -
+    title: Key processes
+    
+    theme: t-bg-supporting3
+    copy: |
+      As an organisation specifies what it aims to achieve, it is possible to do a Productivity Needs Analysis. The key processes and tasks can be identified and measured.
+    subInc:
+      type: accordion
+      content:
+        - 
+          title: scorecard
+          copy: |
+            As you saw ealier you can see this by looking at a scorecard.
+
+            This scorecard identified that improvements in reliability and delivery were most important for customers.
+          img: /images/svg/leanmanagement/LM_U1_S2_P3_ScoreCard.svg
+  -
+    theme: t-bg-supporting3
+    copy: See below to explore objectives considered by the organisation.
+    subInc:
+      type: accordion
+      content:
+        - 
+          title: Objectives
+          copy: |
+            With further consideration, the organisation had an objective of delivering:
+
+            * **The number of returned defective products to be a maximum of 5 in 100,000**
+            * **To have on time deliveries at 95%**
+
+            From these objectives the organisation would look at current measures of returned products and on time deliveries. (If they did not already exist then these measures would have to be established for the first time.)
+        - 
+          title: PNA
+          copy: |
+            A Productivity Needs Analysis would then be done. It would find out the current performance of the organisation. In this case the measures showed the following:
+
+            * **The number of returned defective products is currently 7 in 100,000**
+            * **On time deliveries are currently at 87.7%**
+
+            In both cases the Productivity Needs Analysis shows there to be a detrimental gap. There are too many returned products and too few on time deliveries.
+
+        - 
+          title: Outcome
+          copy: |
+            As the Productivity Needs Analysis has highlighted inadequate performance, the organisation should recognise that action must be taken in order to improve. The organisation should identify the processes and tasks that have an impact on these returns and deliveries outcomes. These processes and tasks will also have relevant measurable outcomes that may form a part of the Productivity Needs Analysis.
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      ### Reviewing the Productivity Needs Analysis process
+
+      In this session we have seen what a Productivity Needs Analysis is.
+
+      Let’s take a final recap by looking at the steps below:
+
+      1. Measuring relevant info areas
+      2. Prioritise measures
+      3. Set objectives
+      4. Processes to reach objectives (across scales of organisation)
+      5. Deliver required outputs to reach desired productivity   

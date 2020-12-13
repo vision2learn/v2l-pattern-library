@@ -1,0 +1,101 @@
+
+title: Eliminate variance from processes in the workplace
+intro: |
+  ### Welcome to session 4
+
+  In this session, you will learn about **the ways to eliminate variance from processes in the workplace.**
+banner: LM_U2_S4_P1_variance.svg
+sections:
+  -
+    title: Learning goals
+    theme: t-bg-primary
+    copy: |
+      In this session, you will work towards the following learning goals.
+
+      You will:
+
+      1. Know ways to eliminate variance from processes in the workplace. 
+
+      At the end of the session you can:
+
+      1. Describe the benefits of standard working methods. 
+      2. Prepare a standardised work document suggesting how to eliminate variance to process. 
+
+      One of the most significant influences in business performance is standardisation. However, it is something that is rarely recognised. Organisations strive to achieve consistency and predictability and to eliminate variance. In order to do so, they must establish greater standardisation.
+
+      In this session, you will be introduced to **standardisation and standard operating procedure**.
+  -
+    title: Consistency and predictability
+    layout: media
+    theme: t-bg-supporting3
+    copy: |
+      Consistency and predictability are very important within organisations. A lack of consistency and predictability is undesirable to customers and employees. When people operate in impractical ways, and supplies have a high degree of variation, there is the potential for chaos.  Read on to learn more about the importance of consistently and predictability.
+
+      Imagine a customer going to a fast food franchise and ordering a specific set meal. When their meal arrives, the burger is 4oz (not 8oz), the drink is a small milkshake rather than a diet Cola, and no fries are provided. The customer would be disappointed and would probably choose to go elsewhere the next time they decide to go out for fast food.
+
+      When there are high levels of variation in a business process, such as in the fast food franchise, the likelihood of problems and dissatisfaction is increased. Fast food franchises – like all organisations – must provide consistency and predictability through standardisation. In this way, internal and external customers get exactly what they expect and need, enabling the organisation to operate more effectively.
+
+    img: /images/svg/leanmanagement/LM_U2_S4_P1_image_1.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Think of some situations where a lack of standardisation would make day-to-day living difficult. Make a note of your thoughts in the box to the right. 
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      Tom is a chocolatier who owns a company that creates a range of products. When Tom first started his business, he received some complaints from customers about one particular chocolate bar product that often varied in size. Following the complaints, Tom made an effort to ensure that the size of the chocolate bar in question was standardised. Since doing so, he has received no more complaints and sales of the chocolate bar have increased. 
+
+    img: /images/svg/leanmanagement/LM_U2_S4_P1_CaseStudy.svg
+  -
+    title: Standardisation
+    theme: 
+    copy: |
+      Standardisation is in operation in every aspect of organisations. There are certain standards that we all tend to accept automatically. These standards are described as universal For example, photocopiers have a setting for A4 paper and organisations usually use A4 copier paper. This consistency and predictability saves people time and energy. 
+
+      Organisations may also use other standards in addition to these ‘universal standards’. 
+
+      Scroll through the slides below to learn more about these additional standards.
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: Standardisation and design
+          text: Components may be designed so that they could be used in a range of products/models. For example, a car door lock may be standardised so that it could be used in a variety of cars and models.
+          img: LM_U2_S4_P1_Slide_1.svg
+        -
+          title: Standardisation and processes
+          text: Using similar methods to produce similar components makes it possible to standardise machine tooling. 
+          img: LM_U2_S4_P1_Slide_2.svg
+        -
+          title: Standardisation and systems 
+          text: Using the same systems (such as computer systems) across plants and/or countries enables companies to use standard approaches to training, maintaining and upgrading.
+          img: LM_U2_S4_P1_Slide_3.svg
+        -
+          title: Standardisation and components 
+          text: It is possible to have components that are identical in shape and size but made in different materials. They could be colour-coded for prompt identification. 
+          img: LM_U2_S4_P1_Slide_4.svg
+        -
+          title: Standardisation and procedures
+          text: Organisations may introduce standard procedures in order to solve problems, reduce set up times or identify improvements. The **PDSA** approach (Plan, Do, Study, Act) is often used in business improvement organisations. 
+          img: LM_U2_S4_P1_Slide_5.svg
+  -
+    title: Stats and Facts
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      Some examples of everyday products that abide by universal standards include electrical sockets, office staples and smoke alarms. 
+    img: /images/svg/leanmanagement/LM_Stats.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: For more information about standardisation, select the link below.
+
+      links:
+        What is standardisation?: //c2plusconsulting.com/2012/02/what-is-standardisation/

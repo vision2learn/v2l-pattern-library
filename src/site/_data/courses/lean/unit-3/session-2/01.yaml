@@ -1,0 +1,197 @@
+
+title: Working effectively in a team
+intro: | 
+  ### Welcome to session 2 
+
+  In this session, you will learn about **problems and difficulties within teams.**
+
+
+banner: lm_u3_s2_p1_effectiveteam.svg
+sections:
+  -
+    title: Learning goals
+    theme: t-bg-primary
+    copy: |
+      In this session, you will work towards the following learning goals.
+
+      You will:
+
+      1. Be able to work effectively in a team. 
+
+      At the end of the session you can:
+
+      1. Know how to deal with any conflict or difficult situations as a team member. 
+      2. Know how to deal with any conflict or difficult situations as a team leader. 
+      3. Review the team’s overall effectiveness and own contribution to achieving goals. 
+
+  -
+    title: Working effectively within a team
+    theme: 
+    layout: media
+    copy: |
+      Teams often face problems or difficult situations that they must overcome as a collective. In order to do this, team members and team leaders must know how to work together and work effectively so they can deal with any problems and achieve their goals.
+    img: /images/svg/leanmanagement/lm_u3_s2_p1_image_1.svg
+  -
+    title: Potential workplace problems
+    theme: t-bg-supporting2
+    copy: |
+      There are many potential problems and difficulties that can influence team performance. Some of the most common problems can be divided into four categories: 
+
+      1. Purpose
+      2. Roles
+      3. Relationships
+      4. Processes
+
+      Scroll through the slides below to learn more. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Purpose
+          text: |
+              The purpose of the team is expressed through goals and objectives. Problems occur when people do not understand or accept the team purpose or key objectives. 
+
+          img: lm_u3_s2_p1_slide_1.svg
+        -
+          title: Roles
+          text: |
+              Roles provide details about what people must do to achieve team goals and objectives. Problems occur when there is confusion about what team members should expect from each other, when there are inconsistencies between team objectives and individual objectives, and when roles overlap. 
+
+          img: lm_u3_s2_p1_slide_2.svg
+        -
+          title: Relationships
+          text: |
+              Relationships between team members can sometimes be problematic and this can negatively affect team performance. Problems occur when team members have negative feelings about each other, when there are personality clashes or when team members do not believe their needs are being met. Problems can also occur when there is a lack of communication. 
+
+          img: lm_u3_s2_p1_slide_3.svg
+        -
+          title: Processes
+          text: |
+              If there are problems with processes, outcomes may not be delivered. Problems occur when there is confusion about who has authority to make decisions, when cross-team communications fail, when processes for conflict resolutions are substandard and when co-ordination and monitoring are not carried out. 
+          img: lm_u3_s2_p1_slide_4.svg
+  -
+    title: Team member responsibility
+    theme: t-bg-primary
+    copy: |
+      Each team member, including the team leader, has a **responsibility** to help the team achieve its purpose. Each individual should ask themselves whether any of their actions are undermining team performance and, if so, how they can change their actions. Whenever problems occur, the people involved should aim to **understand the facts** and focus on achieving the desired team outcomes. 
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: A key question to ask is 
+          copy: |
+            "What changes will enable us to achieve our desired outcomes?"
+
+            Both team members and leaders share the responsibility of helping the team achieve its purpose.
+          img: /images/svg/leanmanagement/lm_u3_s2_p1_accordion_1.svg
+
+        - 
+          title: Each individual should ask themselves 
+          copy: |
+            "Are any of my actions or behaviours undermining team performance?" 
+
+            "How can I change them?"
+          img: /images/svg/leanmanagement/lm_u3_s2_p1_accordion_2.svg
+
+    copy2:  Throughout this session we will look at how team members and team leaders can deal with the issues outlined above.
+
+  -
+    title: Quick quiz
+    copy: Match each scenario to the correct team that would deal with each issue.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A team working for a big IT company do not completely understand their main objectives. A Purpose team would deal with this issue.
+          answer: Purpose team
+        -
+          sentence: Harry and Kate both work for the same company and believe that they are both fulfilling only one position.  A Roles team would deal with this issue.
+          answer: Roles team
+        -
+          sentence: Sam finds it difficult to talk openly about his concerns with his team mates.  A Relationships team would deal with this issue.
+          answer: Relationships team
+        -
+          sentence: There is a lack of communication between the sales team and the marketing team at a new clothes retailer.  A Processes team would deal with this issue.
+          answer: Processes team
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: To learn more about possible problems in teams, select the link below
+      links:
+        Workplace psychology – Common team problems: https://workplacepsychology.net/2010/12/17/eight-common-problems-teams-encounter/
+
+  -
+    title: Effective working relationships
+    theme: t-bg-supporting3
+    copy: |
+      When dealing with conflict, teams can help prevent problems and difficulties by creating and maintaining effective working relationships. There are many interactions in a working environment every day. Agreeing targets, liaising with other departments, meetings, setting quality standards and many more are communicated through employee interactions. When positive relationships exist in the workplace, these interactions are made easier.
+
+      Remember, effective working relationships between team members and team leaders can be supported by the following attitudes and relationships.
+
+      Select each image below to learn more about 
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Shared knowledge
+          copy: |
+            The whole team must understand the aims of the team and the contributions that everyone must make.
+
+          img: lm_u3_s2_p1_reveal_1.svg
+        -
+          title: Mutual respect
+          copy: |
+            All team members should treat one another with respect, especially when there are differences of opinion.
+
+          img: lm_u3_s2_p1_reveal_2.svg
+        -
+          title: Trust
+          copy: |
+            Team mates should not have to worry about lies, deception or manipulation. They should be confident that fellow workers will be reliable, dependable and keep their word. 
+
+          img: lm_u3_s2_p1_reveal_3.svg
+        -
+          title: Openness
+          copy: |
+            A free flow of information within and between teams is very important.
+          img: lm_u3_s2_p1_reveal_4.svg
+        -
+          title: Co-operation
+          copy: |
+            Individuals should cooperate with colleagues by encouraging them, supporting them, remaining calm, not being overly judgemental, being good humoured and generally being helpful. 
+
+          img: lm_u3_s2_p1_reveal_5.svg
+        -
+          title: Evidence
+          copy: |
+            When issues or problems arise it is often helpful to provide proof or signs of the issue. For example the number of sales over a period of time or emails from colleagues.
+
+          img: lm_u3_s2_p1_reveal_6.svg
+        -
+          title: Team objectives
+          copy: |
+            If everyone on the team is focused on and working towards the same team objective this will have a positive effect on the team relationship, efficiency and production. 
+
+          img: lm_u3_s2_p1_reveal_7.svg
+        -
+          title: Listening
+          copy: |
+            It is vitally important to listen to both team leaders and team members. Good listening skills are vital for efficient team working.
+
+          img: lm_u3_s2_p1_reveal_8.svg
+        -
+          title: Communication
+          copy: |
+            Constructive feedback should not involve personal feelings or judgements. Instead, it should be based on real information, evidence and/or observations.
+
+          img: lm_u3_s2_p1_reveal_9.svg
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Individuals can improve their working relationships by developing their people skills, scheduling time to build relationships and by generally being positive.  

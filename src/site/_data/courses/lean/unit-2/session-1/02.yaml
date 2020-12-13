@@ -1,0 +1,182 @@
+
+title: Continuous Improvement
+intro: | 
+  In this session, you will acquire the essential knowledge and understanding of the principles and benefits of **continuous improvement deployment**. 
+
+  You will discover why **continuous improvement** is so important to a working environment. You will also learn about the different types of improvement that are often made in the workplace.
+
+banner: LM_U2_S1_p1_improvements2.svg
+sections:
+  -
+    title: Using business improvement techniques
+    theme: t-bg-supporting2
+    copy: |
+      The philosophy of lean production, and its relevance as a basis for improvement within the workplace, has been identified through productivity research. Its development has been applied to the public sector and back office functions of organisations.
+      
+      Scroll through the slides below to see each point
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: The Gershon Report 
+          text: The **Gershon report** is one good example of research which supports the philosophy and relevance of lean production. The report established **operation improvement targets** within local authorities which have been achieved through the application of **lean environment principles**. These lean environment principles can also be applied throughout the public sector.
+          img: LM_U2_S1_P2_Slide_1.svg
+        -
+          title: Lean Techniques 
+          text: This unit has been designed to give you the understanding and confidence to employ world-class techniques within your own working environment. These techniques can be applied to improve a wide range of operations, such as payroll and room usage. 
+
+          img: LM_U2_S1_P2_Slide_2.svg
+        -
+          title: Lean Systems
+          text: The Unit will enable you to investigate the **continuous improvement of process management** and will equip you with **Kaizen tools and techniques** which can be applied within the workplace to facilitate **Lean Systems**. 
+
+          img: LM_U2_S1_P2_Slide_3.svg
+        -
+          title: Principles
+          text: You will also develop your knowledge and understanding of the **principles of workplace organisation**, implementing 5S/5C improvements, and visual management techniques.
+
+          img: LM_U2_S1_P2_Slide_4.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Think of an organisation you have been involved with. Can you think of any business improvement techniques which were adopted across the business processes?
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: |
+        Select the following website to see a copy of Gershon’s report to the government.
+      links:
+        Gershon Review – Independent Review of Public Sector Efficiency (PDF): http://webarchive.nationalarchives.gov.uk/20130129110402/http:/www.hm-treasury.gov.uk/d/efficiency_review120704.pdf
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+
+      Consider two companies called Company A and Company B. They produce very similar products of comparable quality and price.
+
+      Company A consistently delivers its products year after year.
+
+      Company B seeks to continuously improve its production and delivery. As a result of this, the products improve by 5% each year and their prices come down by 5% each year.
+
+      If all other things are equal, what are the consequences for Company A and Company B? See the ‘consequences’ below to learn more. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Consequences
+          copy: |
+            It is most likely that more and more customers will go to Company B and fewer to Company A. This is because Company A’s product remains unchanged, whilst Company B’s product gets continually better and cheaper.
+
+            The consequences of these differences are not only experienced by customers. They will also have an impact on security and future employment prospects. An expanding company is better placed to offer promotion opportunities, higher earning potential, better pensions and other similar benefits. As organisations grow, they provide the basis for a stronger and more competitive national economy.
+
+            There are many ways that Company B may have achieved its improved performance. Two common methods are through **innovation** and **continuous improvement**.
+
+  -
+    title: Stats and Facts
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      Toyota, Motorola and FedEx are all examples of companies which use continuous improvement techniques to improve their products and services.
+    img: /images/svg/leanmanagement/LM_Stats.svg
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Companies can improve their products and performance through innovation and continuous improvement. By engaging in continuous improvement, companies can increase their number of customers and provide promotion opportunities, higher earning potential and better pensions for employees.
+  -
+    title: Customer Feedback
+    theme: t-bg-supporting3
+    copy: |
+      As the phrase suggests, **continuous improvement** involves seeking to improve a product or service continuously over time.
+
+      For continuous improvement to be effective, an organisation must know how to define ‘**improvement**’. The definition of improvement must be determined by the **customers**. 
+
+      ### Asking for customer feedback 
+
+      In order to determine what is meant by improvement, a company must ask its customers the following two questions:
+
+        1. What changes in product / delivery / quality / price would be an improvement?
+        2. What should be changed as a priority?
+
+      See the three stages below to learn more about using customer feedback for continuous improvement.  
+
+    subInc: 
+        type: accordion
+        content:
+            -
+                title: Stage 1. The continuous improvement process
+                copy: |
+                     It would be foolish and wasteful for an organisation to allocate resources to make changes and improvements that the customer does not desire. The first stage in the continuous improvement process is to ask the customer about which aspects of the company they would like to see improved.  
+
+            -
+                title: Stage 2. Acting on customer feedback
+                copy: |
+                    Once the customer feedback has been collected and analysed, the organisation can identify the work activities and processes that have the most significant impact on the desired outcome of customers. This is the second stage in the continuous improvement process.
+            -
+                title: Stage 3. Implementing change
+                copy: |
+                    Once an organisation has identified the most significant activities and processes, it can look for ways to change them in order to improve the product or service. This is the third stage of the continuous improvement process.
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The company identifies the work activities and processes that have the biggest impact on the desired outcomes of the customers. This is an example of stage 2.
+          answer: stage 2
+        -
+          sentence: The company looks for a way to change its activities and processes in order to improve the product or service.  This is an example of stage 3.
+          answer: stage 3
+        -
+          sentence: The company asks the customers about which aspects of the product or service could be improved. This is an example of stage 1.
+          answer: stage 1
+    theme: i-quiz
+  -
+    title: Quality, cost and delivery (QCD)
+    theme: t-bg-supporting2
+    copy: |
+      **Continuous improvement** has an impact on three broad categories. These are **quality, cost** and **delivery**. 
+
+      These three categories are usually abbreviated to **QCD**.
+
+      The **Department of Trade and Industry** (DTI) has developed a pack of **seven measures of competitiveness** related to QCD (quality, cost and delivery). See below to find out what they are.  
+
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: The seven QCD measures
+          copy: |
+            **NRFT** : Not right first time (NRFT) _defects per million_  
+            **DSA** : Delivery schedule achievement (DSA) _percentage on time_  
+            **PP** : People productivity (PP) _output per operator hour_  
+            **OEE** : Overall equipment effectiveness (OEE) _equipment specific measures_  
+            **ST** : Stock turns (ST) _ratio of total inventory to sales_  
+            **VAPP** : Value added per person (VAPP) _output value minus input value_  
+            **FSU** : Floor space utilisation (FSU) _sales per square metre_
+  -
+    title: Impact on QCD
+    theme: t-bg-primary
+    copy: |
+      Take a look at the matrix below. Click on each of the seven measures to find out whether it has a primary impact (P), secondary impact (S) or no impact (NI) on QCD.
+
+    interactive: 
+      file: lm/u2_s1_p2_interactive_qcd
+      width: 600
+      height: 600
+      composition: BF88F2F66EB64E2DB17EB02613B93BDE
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: Please see the following document for more information about measuring manufacturing performance.
+
+      links:
+        The Department of Trade and Industry’s QDC -  Measuring Manufacturing Performance (PDF): http://webarchive.nationalarchives.gov.uk/+/http://www.dti.gov.uk/bestpractice/assets/qcd.pdf
