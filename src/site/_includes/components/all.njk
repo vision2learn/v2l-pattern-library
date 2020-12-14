@@ -142,7 +142,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!\n\n" + copy %}
   {%- elseif pageNo == 1 and session == 1 and unit == 1 %}
     {%- set bannerTitle = "Your learning goals" %}
-    {%- set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
+    {%- set bannerText = "Work hard throughout your " + module.course  + " course and be honest about the effort you put into each session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
   {%- endif %}
 
   <section class="c-banner" data-session="{{ session }}">
@@ -151,7 +151,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {{ bannerText | markdownify | safe }}
     </div>
     {%- if banner.endsWith('.svg') %}
-      <img src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
+      <img src="{{ '~' if module.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
     {%- else %}
       {{ srcset(file=banner, class="c-banner__img")}}
     {%- endif %}
@@ -211,7 +211,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         link (o): href to link out to, images only
       }
     }
-    env: build environment from module.data pagination object
+    env: build environment from module pagination object
 
 #}
 

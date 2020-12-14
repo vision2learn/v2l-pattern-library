@@ -1,7 +1,7 @@
-{%- for section in module.data.sections %}
+{%- for section in module.sections %}
     
-  {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.data.session) %}
-    <!-- {{ sessionsInUnit }} {{ module.data.session }}-->
+  {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.session) %}
+    <!-- {{ sessionsInUnit }} {{ module.session }}-->
     {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
   {%- elseif section.title == nil %}
     {# Don't write out blanks #}
@@ -30,7 +30,7 @@
               }
             },
             site.env,
-            module.data.course
+            module.course
           ) }}
         {%- else -%}
           {{ components.media2({
