@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: courses/{{ module.course | slug }}/unit-{{ module.unit}}/session-{{ module.session }}/{{ module.title | slug }}/index.html
+permalink: courses/{{ module.course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | slug }}/index.html
 ---
 {% include 'course-vars.njk' %}
 
@@ -10,13 +10,13 @@ permalink: courses/{{ module.course | slug }}/unit-{{ module.unit}}/session-{{ m
   
   {% include 'banner' %}
   
-  {%- if pagination.pageNumber == 0 and module.session == 1 %}
+  {%- if pagination.pageNumber == 0 and session == 1 %}
     {%- include 'unit-overview-tabs' %}
   {%- endif %}
   
   {{ module.templateContent }}
 
-  {%- if pagination.pageNumber == 0 and module.session == 1 %}
+  {%- if pagination.pageNumber == 0 and session == 1 %}
     {% include "submitting-assessments" %}
   {%- endif %}
 

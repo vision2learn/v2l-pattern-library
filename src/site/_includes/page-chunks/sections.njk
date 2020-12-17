@@ -1,7 +1,7 @@
 {%- for section in module.sections %}
     
-  {%- if section.theme == "i-quiz" and lastPage and (sessionsInUnit == module.session) %}
-    <!-- {{ sessionsInUnit }} {{ module.session }}-->
+  {%- if section.theme == "i-quiz" and lastPage and (sessionCount == session) %}
+    <!-- {{ sessionCount }} {{ session }}-->
     {# Don't display the inline end of unit quiz - we jump out to the .NET version #}
   {%- elseif section.title == nil %}
     {# Don't write out blanks #}

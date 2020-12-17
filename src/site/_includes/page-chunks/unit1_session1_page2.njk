@@ -26,7 +26,7 @@
 
   {% if shortcode === 'it2' %}
     <p>
-      <a href="/pdfs/v2l_it2_learning_outcomes_u{{ module.unit }}.pdf">View the complete set of learning outcomes for this unit.</a>
+      <a href="/pdfs/v2l_it2_learning_outcomes_u{{ unit }}.pdf">View the complete set of learning outcomes for this unit.</a>
     </p>
   {% endif %}
 </section>
@@ -112,7 +112,7 @@ In this session you will learn about the following:
 
 {{ components.section({
   title: "Hints and Tips",
-  copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.unit + "_s"+ module.session +"_p1_hints_u" + module.unit + ".pdf)",
+  copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + unit + "_s"+ session +"_p1_hints_u" + unit + ".pdf)",
   theme: "t-bg-primary2 i-read"
 }) }}
 

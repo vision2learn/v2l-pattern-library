@@ -66,7 +66,7 @@ pagination:
 
 ``` yaml
 layout: default
-permalink: {%- raw %}courses/{{ module.course | slug }}/unit-{{ module.unit}}/session-{{ module.session }}/{{ module.title | slug }}/index.html{%- endraw %}
+permalink: {%- raw %}courses/{{ module.course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | slug }}/index.html{%- endraw %}
 ```
 
 - The `permalink` key relies on the session-level data file in the this course's `content` directory, accessed via `module`.
@@ -81,9 +81,9 @@ permalink: {%- raw %}courses/{{ module.course | slug }}/unit-{{ module.unit}}/se
 {%- raw %}
 {%- assign courseData = all-courses[module.course] %}
 
-{%- assign unitIndex = module.unit | minus: 1 %}
+{%- assign unitIndex = unit | minus: 1 %}
 
-{%- assign sessionIndex = module.session | minus: 1 %}
+{%- assign sessionIndex = session | minus: 1 %}
 
 {%- assign thisUnit = courseData.units[unitIndex].title %}
 

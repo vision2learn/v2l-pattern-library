@@ -8,7 +8,18 @@ body {
 </style>
 <section>
   <div data-netlify-identity-menu></div>
-  <h2>{{ site.v2l }} Courses</h2>
+  <h2>{{ site.v2l }} Courses {{ courses["lean"].unit-1.session-1.01.title }}</h2>
+
+<ul>
+{% comment %} {%- for unit in courses.lean -%}
+  {%- for session in unit -%}
+    {%- for page in session -%}
+      <li>HELLO: {{ page }}</li>
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%} {% endcomment %}
+</ul>
+
   <ul>
     <li>
       <a href="/courses/lean-management/unit-1/session-1/1/">Lean</a>
@@ -23,7 +34,24 @@ body {
       <a href="/courses/it-user-skills-level-1/unit-1/session-1/1/">IT1</a>
     </li>
   </ul>
+{%- for page in collections.lean -%}
+    <p>
+      {{ page.data.tags }} {{ page.fileSlug }} {{ page.url }}
+    </p>
+  {%- endfor -%}
 
+
+  <details>
+    <summary><h2 style="display: inline-block">Lean</h2></summary>
+
+    <ul>
+    {%- for page in collections.lean -%}
+      {%- if page.url -%}
+        <li><a href="{{ page.url }}">{{ page.url }}</a> <small>{{page.inputPath }}</small></li>
+      {%- endif -%}
+    {%- endfor -%}
+    <ul>
+  </details>
   {%- assign ids = "it-l2-u1-s1", "it-l2-u1-s2", "it-l2-u1-s3"  | split: ', '%}
 
   {%- for id in ids %}

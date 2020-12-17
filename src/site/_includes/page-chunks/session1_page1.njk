@@ -1,15 +1,15 @@
 {# Session 1 Page 1 #}
 
-{%- if pagination.pageNumber == 0 and module.session == 1 %}
+{%- if pagination.pageNumber == 0 and session == 1 %}
   {%- include 'components/unit-overview-tabs.njk' %}
 {%- endif %}
 
-{% if module.unit !== 1 %}
+{% if unit !== 1 %}
   {%- include 'page-chunks/sections.njk' %}
   
   {{ components.section({
     title: "Hints & Tips",
-    copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + module.unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + module.unit + "_s"+ module.session +"_p1_hints_u" + module.unit + ".pdf)",
+    copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + unit + "_s"+ session +"_p1_hints_u" + unit + ".pdf)",
     theme: "t-bg-primary2 i-read"
   }) }}
 

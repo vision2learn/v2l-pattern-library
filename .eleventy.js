@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const yaml = require("js-yaml");
 
 module.exports = function(config) {
 
@@ -7,6 +8,7 @@ module.exports = function(config) {
   let env = process.env.ELEVENTY_ENV;
 
   config.addPlugin(pluginSyntaxHighlight);
+  config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
@@ -22,6 +24,16 @@ module.exports = function(config) {
         console.log('val: ', value, ' ', typeof value);
         return "markdown error";
       }
+  });
+
+  // Pass in an object, return the number of keys/values?
+  config.addFilter("objectsize", obj => {
+    return Object.entries(obj).length;
+  });
+
+  // Pass in an object, return the keys?
+  config.addFilter("keys", obj => {
+    return Object.keys(obj);
   });
 
   config.addFilter("formattitle", value => {
@@ -109,8 +121,6 @@ module.exports = function(config) {
     },
     templateFormats : ["njk", "liquid", "html", "md"],
     dataTemplateEngine: "njk",
-    // htmlTemplateEngine : "njk",
-    // markdownTemplateEngine : "njk",
     passthroughFileCopy: true
   };
 };
