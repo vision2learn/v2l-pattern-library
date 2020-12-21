@@ -65,7 +65,7 @@
   {% endif %}
 {% else %}
   <section class="t-bg-grey i-watch">
-    {%- set course = module.course | replace(" ", "-") %}
+    {%- set course = course | slug %}
     {{ components.media2({
       title: "Watch the webinar",
       copy: "To assist you with your assessment please watch this video which provides guidance on how to complete the assessment questions for this section.",
@@ -87,7 +87,7 @@
       You've reached the end of this course.
     </p>
   {%- else %}
-    {%- set link = "/courses/" + module.course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
+    {%- set link = "/courses/" + course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
     {% if site.env === 'dotnet' %}
       {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
     {% endif %}
