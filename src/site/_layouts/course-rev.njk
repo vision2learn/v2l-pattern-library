@@ -11,22 +11,34 @@
     the next unit or we're done
   #}
 
-{%- if site.env == "dotnet" -%}
-  {%- set tilde = "~" -%}
-{%- endif -%}
+{%- set tilde = "~" if site.env == "dotnet" -%}
+
+<!-- {{ tilde2 }} -->
+
+{# {% 
+  set pageData = {
+    unitNameFilter: "0"+ unit,
+    sessionNameFilter: "0" + session,
+    courseData: courses[course],
+    unitCount: Object.entries(courses[course]).length
+  } 
+%}
+
+{{ pageData | log }} #}
 
 {%- set unitNameFilter = "0" + unit -%}
 {%- set sessionNameFilter = "0" + session -%}
 
+
+
 {%- set courseData = courses[course] %}
 {%- set unitCount = courses[course] | length %}
 {%- set sortedData = courseData | dictsort %}
-{%- set thisUnit = sortedData[0][unit - 1] %}
+{%- set thisUnit = sortedData[unit - 1][0] %}
 {%- set unitName = thisUnit | replace(unitNameFilter, "") | trim | capitalize -%}
-
 {%- set sessions = courseData[thisUnit] | dictsort -%}
 {%- set sessionCount = sessions | length -%}
-{%- set thisSession = sessions[0][session - 1] %}
+{%- set thisSession = sessions[session - 1][0] %}
 {%- set sessionName = thisSession | replace(sessionNameFilter, "") | trim | capitalize -%}
 
 <!--
@@ -51,6 +63,7 @@ Session {{ session }} of {{ sessionCount }}: {{ sessionName}}<br>
 {%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
 {%- import 'components/all.njk' as components %}
+
 <!-- course-rev -->
 {# BANNER #}
 {%- include 'banner.njk' %}
@@ -59,7 +72,7 @@ Session {{ session }} of {{ sessionCount }}: {{ sessionName}}<br>
 {%- if pagination.pageNumber == 0 and session == 1 %}
   {# IMPORT Page 1 layout #}
   <!-- session1_page1 -->
-  {# {%- include 'page-chunks/session1_page1.njk' %} #}
+  {%- include 'page-chunks/session1_page1.njk' %}
   
 
 {# *********** START ************** #}
@@ -67,13 +80,13 @@ Session {{ session }} of {{ sessionCount }}: {{ sessionName}}<br>
 {%- elseif pagination.pageNumber == 1 and session == 1 and unit == 1 %}
   {# IMPORT Unit 1 Session 1 Page 2 layout #}
   <!-- unit1_session1_page2 -->
-  {# {%- include 'page-chunks/unit1_session1_page2.njk' %} #}
+  {%- include 'page-chunks/unit1_session1_page2.njk' %}
 {%- else %}
   {# NORMAL PAGES #}
-  {# {%- include 'page-chunks/sections.njk' %} #}
+  {%- include 'page-chunks/sections.njk' %}
   <!-- unit1_session1_page2 -->
   {%- if lastPage %}
-  {# {%- include 'page-chunks/lastpage.njk' %} #}
+  {%- include 'page-chunks/lastpage.njk' %}
     <!-- unit1_session1_page2 -->
   {%- endif -%}
 {%- endif %}
