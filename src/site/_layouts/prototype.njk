@@ -1,19 +1,41 @@
 ---
 layout: default
 #permalink: "courses/{{ module.course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ pagination.pageNumber + 1}}/index.html"
-permalink: "courses/new/{{ course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ pagination.pageNumber + 1}}/index.html"
+permalink: "courses/{{ course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ pagination.pageNumber + 1}}/index.html"
 ---
+{%- set unitNameFilter = "0" + unit -%}
+{%- set sessionNameFilter = "0" + session -%}
 
-{%- import 'components/all.njk' as components %}
+{# {%- set courseData = courses[course] %}
+{%- set unitCount = courses[course] | length %}
+{%- set sortedData %}
+  {{ courses[course] | dictsort }}
+{%- endset %}
+{{ courseData | dictsort | log }} #}
 
+{#
+{%- set thisUnit = sortedData[0][unit - 1] %}
+{%- set unitName = thisUnit | replace(unitNameFilter, "") | trim | capitalize -%}
+
+{%- set sessions = courseData[thisUnit] | dictsort -%}
+{%- set sessionCount = sessions | length -%}
+{%- set thisSession = sessions[0][session - 1] %}
+{%- set sessionName = thisSession | replace(sessionNameFilter, "") | trim | capitalize -%} 
+#}
+
+{%- from 'components/all.njk' import pagination as pag %}
+<!--
+{{ unit }}
+{{ session }}
+-->
 {%- include 'header.njk' %}
 
-<main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ module.course }}" data-v2l-level="{{ module.level }}" data-v2l-unit="{{ unit }}" data-v2l-session="{{ session }}" data-v2l-page="{{ pagination.pageNumber }}">
+<main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ course }}" data-v2l-level="{{ level }}" data-v2l-unit="{{ unit }}" data-v2l-session="{{ session }}" data-v2l-page="{{ pagination.pageNumber }}">
   {{ content | safe }}
 </main>
 
 {% if page.url != '/login/' %}
-  {{ components.pagination(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
+  {{ pag(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
 {% endif %}
 <footer>
   <small>
