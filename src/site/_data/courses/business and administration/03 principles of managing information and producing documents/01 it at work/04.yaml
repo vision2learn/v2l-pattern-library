@@ -1,0 +1,36 @@
+title: "What did you learn?" 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      
+      ### In brief
+
+      By working through this session, you have learned all about:
+
+      * Different types of IT used for work tasks.
+      * The benefits of using IT for work tasks.
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "IT is not used very often in business.":
+          answers:
+            True: false
+            False: true
+        Which of the following is NOT an example of a popular search engine?:
+          answers:
+            Google: false
+            Bing: false
+            Facebook: true
+        Select one option to complete the following sentence "The most well-known word processing software is Microsoft ___________.":
+          answers:
+            Word: true
+            Letter: false
+            Number: false
