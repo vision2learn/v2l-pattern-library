@@ -18,8 +18,8 @@
 {% set environ = site.env %}
 
 {%- macro pagination(class, pagination, page) %}
-  <nav class="{{ class if class }}">
-    <ol aria-label="Pages in this session" role="list" class="c-pagination">
+  <nav class="{{ class if class }}" aria-label="Pages in this session">
+    <ol role="list" class="c-pagination">
       {%- if pagination.previousPageHref %}
         <li class="c-pagination__prev" role="listitem">
           <a href="{{ pagination.previousPageHref }}">
