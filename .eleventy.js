@@ -119,7 +119,7 @@ module.exports = function(config) {
       data: "_data",
       layouts: "_layouts"
     },
-    templateFormats : ["njk", "liquid", "html", "md"],
+    templateFormats : ["njk", "liquid", "html", "md","11ty.js"],
     dataTemplateEngine: "njk",
     passthroughFileCopy: true
   };
