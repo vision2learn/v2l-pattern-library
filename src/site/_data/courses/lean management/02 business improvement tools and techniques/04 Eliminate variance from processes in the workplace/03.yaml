@@ -95,7 +95,7 @@ sections:
         - 
           title: Standard operating sheet example
           copy: |
-            ![](/images/svg/leanmanagement/lm_u2_s4_p3_image_1_table.svg)
+            ![](/images/svg/ln/lm_u2_s4_p3_image_1_table.svg)
   -
     title: SOS elements
     theme: t-bg-supporting3
@@ -155,12 +155,12 @@ sections:
             Other forms of documentation are used alongside SOS sheets. These include flowcharts and process maps, visual management techniques (such as photographs and diagrams) and Total Productive Maintenance checklists. The use of multiple complementary improvement techniques is a commonly used business improvement technique.
 
             It is important to make the distinction between an **operation** and the **main step of a process**. For example, when an item is being manufactured, there are hundreds of operations, each made up of **sub-operations**. Each operation is part of a group of operations, called a **step**.
-          img: /images/svg/leanmanagement/LM_U2_S4_P3_Image_2.svg
+          img: /images/svg/ln/LM_U2_S4_P3_Image_2.svg
         -
           title: Motorcar manufacturing process
           copy: |
             Take a look at the diagram which shows a **step**, an **operation** and a **sub-operation** in the motorcar manufacturing process.
-          img: /images/svg/leanmanagement/LM_U2_S4_P3_Image_3_diagram.svg
+          img: /images/svg/ln/LM_U2_S4_P3_Image_3_diagram.svg
   -
     title: Time to think
     theme: t-bg-primary3 i-think
