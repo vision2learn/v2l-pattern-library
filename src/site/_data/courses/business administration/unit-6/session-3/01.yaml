@@ -1,4 +1,4 @@
----
+
 title: Managing budgets
 intro: |
   In this session you will look at how budgets are managed.
@@ -117,7 +117,7 @@ sections:
             Extract budget in £ for first and second quarter
 
             | Sales 2019 | Q1 Estimate| Q1 Actual | Q1 Variance | Q2 Estimate | Q2 Actual| Q2 Variance |
-            |------|------|------|------|------|------|------|
+            ||||||||
             | **Basic skis** | |  |  |  |  |  |
             | Volume | 1000 | 1050 | +50 | 1300 |  |  |
             | Price | 80 | 80 |  | 80 |  |  |
@@ -157,4 +157,3 @@ sections:
             True: true
             False: false
   -
----

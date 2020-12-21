@@ -1,4 +1,4 @@
----
+
 title: The purpose of budgets
 intro: |
     In this session you will learn about: 
@@ -71,7 +71,7 @@ sections:
             Extract budget in £ for first and second quarter
 
             | Sales 2019 | Q1 Estimate| Q1 Actual | Q1 Variance | Q2 Estimate | Q2 Actual| Q2 Variance |
-            |------|------|------|------|------|------|------|
+            ||||||||
             | **Basic skis** | |  |  |  |  |  |
             | Volume |  1000|  |  |   1300|  |  |
             | Price |     80|  |  |     80|  |  |
@@ -101,7 +101,7 @@ sections:
 
 
             | Production 2019 | Q1 Estimate| Q1 Actual | Q1 Variance | Q2 Estimate | Q2 Actual| Q2 Variance |
-            |------|------|------|------|------|------|------|
+            ||||||||
             | **Materials** | |  |  |  |  |  |
             | Volume |  2700|  |  |   3000|  |  |
             | Price |    120|  |  |     1200|  |  |
@@ -133,7 +133,7 @@ sections:
 
 
             | DISTRIBUTION AND LOGISTICS 2019 | January| January | January | February | February| February| March| March | March |
-            |------|------|------|------|------|------|------|------|------|------|
+            |||||||||||
             |  |  Estimate| Actual | Variance | Estimate| Actual | Variance | Estimate| Actual | Variance |
             | Staff pay | 18000 |  |  |19000  |  |  |19000 |  |  |
             | Fuel and oil | 8500 |  |  | 8750 |  |  |8750 |  |  |
@@ -215,4 +215,3 @@ sections:
         * Collecting information on estimated and actual performance
         * Using this information to make informed decisions in future business planning.
   -
----
