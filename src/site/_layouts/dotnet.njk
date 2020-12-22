@@ -1,5 +1,5 @@
 ---
-permalink: dotnet/{{ module.course | slug }}/Views/Unit0{{ unit}}/Session0{{ session }}/Page{{ pagination.pageNumber + 1 }}.cshtml
+permalink: dotnet/{{ module.course | d('no string') | slug }}/Views/Unit0{{ unit}}/Session0{{ session }}/Page{{ pagination.pageNumber + 1 }}.cshtml
 ---
 
 {{ content | safe }}

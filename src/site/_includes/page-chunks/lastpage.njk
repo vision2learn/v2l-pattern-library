@@ -65,7 +65,7 @@
   {% endif %}
 {% else %}
   <section class="t-bg-grey i-watch">
-    {%- set course = course | slug %}
+    {%- set course = course | d('no string') | slug %}
     {{ components.media2({
       title: "Watch the webinar",
       copy: "To assist you with your assessment please watch this video which provides guidance on how to complete the assessment questions for this section.",

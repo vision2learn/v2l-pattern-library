@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: courses/{{ module.course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | slug }}/index.html
+permalink: courses/{{ module.course | d('no string') | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | d('no string') | slug }}/index.html
 ---
 {% include 'course-vars.njk' %}
 

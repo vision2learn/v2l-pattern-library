@@ -5,10 +5,10 @@
 {%- assign page-titles = '' %}
 
 {%- for p in pages %}
-  {%- assign pCourse = p.data.course | slug %}
+  {%- assign pCourse = p.data.course | d('no string') | slug %}
   {%- assign pUnit = p.data.unit | prepend: '/unit-' %}
   {%- assign pSession = p.data.session | prepend: '/session-' %}
-  {%- assign pTitle = p.data.title | replace: ",", "&#44;" | slug | prepend: '/' %}
+  {%- assign pTitle = p.data.title | replace: ",", "&#44;" | d('no string') | slug | prepend: '/' %}
   {%- assign page-urls = page-urls | append: pCourse | append: pUnit | append: pSession | append: '/' | append: forloop.index | append: '/' %}
   {%- assign page-titles = page-titles | append: p.data.title | downcase %}
 

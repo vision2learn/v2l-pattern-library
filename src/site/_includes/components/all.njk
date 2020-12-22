@@ -276,7 +276,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
             Sorry, your browser doesn't support embedded videos.
         </video>
       {%- elseif mediaType === "activity" %}
-        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
+        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
           <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
         </a>
       {%- else %}
@@ -284,7 +284,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- endif %}  
     </div>
   {% else %}
-    {%- set id = data.title | slug | uniqueID %}
+    {%- set id = data.title | d('no string') | d('no string') | slug | uniqueID %}
     <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
     <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
