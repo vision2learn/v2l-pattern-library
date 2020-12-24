@@ -1,0 +1,37 @@
+title: "What did you learn?" 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      
+      ### In brief
+
+      By working through this session, you have learned all about:
+
+      * What budgets are
+      * Different types of budgets
+      * Why budgets are important in a business environment
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "A budget is an estimate of income and expenditure of an organisation.":
+          answers:
+            True: true
+            False: false
+        Which of the following is NOT an example of a type of budget used in an organisation?:
+          answers:
+            Sales budget: false
+            Departmental budget: false
+            Common budget: true
+        Select one option to complete the following sentence - "Budgets help businesses to ____________ their objectives.":
+          answers:
+            achieve: true
+            forget: false
+            ignore: false

@@ -6,7 +6,7 @@
     {{ section.copy | markdownify | safe }}
   </div>
   {%- if section.activity %}
-    <a href="/captivate/{{ module.data.course | slug }}/{{ section.activity }}/" class="l-media__img">
+    <a href="/captivate/{{ module.course | d('no string') | slug }}/{{ section.activity }}/" class="l-media__img">
       <img src="{{ '~' if site.env === 'dotnet' }}{{ section.img | lower }}" alt="">
     </a>
   {%- else %}

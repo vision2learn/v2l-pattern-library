@@ -1,7 +1,7 @@
 ---
 title: Understanding the Pattern Library
 permalink: /about/
-layout: layouts/longform
+layout: longform
 theme:
   name: prism-xonokai
 ---
@@ -54,6 +54,7 @@ pagination:
   data: collections.lm-2-u1-s1
   size: 1
   alias: module
+  resolve: values
   addAllPagesToCollections: true
 ```
 
@@ -65,25 +66,25 @@ pagination:
 - The layout file for courses is found inside the `_includes/layouts` directory
 
 ``` yaml
-layout: layouts/default
-permalink: {%- raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ module.data.title | slug }}/index.html{%- endraw %}
+layout: default
+permalink: {%- raw %}courses/{{ module.course | d('no string') | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | d('no string') | slug }}/index.html{%- endraw %}
 ```
 
-- The `permalink` key relies on the session-level data file in the this course's `content` directory, accessed via `module.data`.
+- The `permalink` key relies on the session-level data file in the this course's `content` directory, accessed via `module`.
 - Each page will have a friendly url in the following format:
   - "courses/course-name/unit-number/session-number/page-title/"
 - course-name, unit-number and session-number are set in the `session-x.11tydata.json` file and the page-title is set from the `title` key of each individual Markdown file in the `content` directory.
-- `| slug` is a liquid filter which takes strings and makes them suitable for use as URLs by converting spaces to hyphens and making the text lowercase.
-- The template first makes a call to the `course-vars.njk` include file, passing in the `module.data` object aliased to `course` for use inside the include.
+- `| d('no string') | slug` is a liquid filter which takes strings and makes them suitable for use as URLs by converting spaces to hyphens and making the text lowercase.
+- The template first makes a call to the `course-vars.njk` include file, passing in the `module` object aliased to `course` for use inside the include.
 
 ### course-vars.njk
 ``` liquid
 {%- raw %}
-{%- assign courseData = all-courses[module.data.course] %}
+{%- assign courseData = all-courses[module.course] %}
 
-{%- assign unitIndex = module.data.unit | minus: 1 %}
+{%- assign unitIndex = unit | minus: 1 %}
 
-{%- assign sessionIndex = module.data.session | minus: 1 %}
+{%- assign sessionIndex = session | minus: 1 %}
 
 {%- assign thisUnit = courseData.units[unitIndex].title %}
 
@@ -91,7 +92,7 @@ permalink: {%- raw %}courses/{{ module.data.course | slug }}/unit-{{ module.data
 {%- endraw %}
 ```
 
-- `module.data` is the pagination object (from calling file, `course.liquid`), so module.data is the data object for each specific page in the collection
+- `module` is the pagination object (from calling file, `course.liquid`), so module is the data object for each specific page in the collection
 - `courseData` = course info for this specific page
 - `unitIndex` = gets unit number from session-x.11tydata file, and subtracts by 1 for array mapping
 - `sessionIndex` = gets session number from session-x.11tydata file, and subtracts by 1 for array mapping

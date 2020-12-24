@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const yaml = require("js-yaml");
 
 module.exports = function(config) {
 
@@ -7,9 +8,10 @@ module.exports = function(config) {
   let env = process.env.ELEVENTY_ENV;
 
   config.addPlugin(pluginSyntaxHighlight);
+  config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
 
   // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/default.liquid');
+  config.addLayoutAlias('default', 'default.liquid');
 
   config.addFilter("markdownify", function(value) {
     var MarkdownIt = require('markdown-it'),
@@ -22,6 +24,26 @@ module.exports = function(config) {
         console.log('val: ', value, ' ', typeof value);
         return "markdown error";
       }
+  });
+
+  
+  config.addFilter("courseinfo", unit => {
+
+    if(unit) {
+      return {
+        keysOrdered: Object.keys(unit).sort(),
+        size: Object.keys(unit).sort().length
+      }
+    }
+    else {
+      console.log("ERROR: Unit passed to 'courseinfo' is undefined")
+      return false;
+    }
+  });
+
+  // Pass in an object, return the keys?
+  config.addFilter("keys", obj => {
+    return Object.keys(obj);
   });
 
   config.addFilter("formattitle", value => {
@@ -104,12 +126,11 @@ module.exports = function(config) {
     dir: {
       input: "src/site",
       output: "dist",
-      data: "_data"
+      data: "_data",
+      layouts: "_layouts"
     },
-    templateFormats : ["njk", "liquid", "html", "md"],
+    templateFormats : ["njk", "liquid", "html", "md", "11ty.js"],
     dataTemplateEngine: "njk",
-    // htmlTemplateEngine : "njk",
-    // markdownTemplateEngine : "njk",
     passthroughFileCopy: true
   };
 };

@@ -22,12 +22,23 @@ gulp.task("watch", function() {
 /*
   Let's build this sucker.
 */
-gulp.task('build', gulp.parallel(
-  'images',
-  'css',
-  'js',
-  'otherjs'
-));
+
+
+if(process.env.ELEVENTY_ENV === 'dev') {
+  gulp.task('build', gulp.parallel(
+    'css',
+    'js'
+  ));
+} 
+else {
+  gulp.task('build', gulp.parallel(
+    'images',
+    'css',
+    'js',
+    'otherjs'
+  ));
+}
+
 
 /*
   Build and watch things during dev

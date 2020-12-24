@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: courses/{{ module.course | d('no string') | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | d('no string') | slug }}/index.html
+---
+{% include 'course-vars.njk' %}
+
+{% include 'header' %}
+
+<main id="main">
+  
+  {% include 'banner' %}
+  
+  {%- if pagination.pageNumber == 0 and session == 1 %}
+    {%- include 'unit-overview-tabs' %}
+  {%- endif %}
+  
+  {{ module.templateContent }}
+
+  {%- if pagination.pageNumber == 0 and session == 1 %}
+    {% include "submitting-assessments" %}
+  {%- endif %}
+
+</main>
+
+<aside hidden>
+  {% include 'using-the-site' %}
+  {% include 'course-nav' %}
+</aside>
+
+<footer>
+  <small>
+    &copy; Copyright Creating Careers Limited, 2019. All rights reserved. 
+  </small>
+</footer>

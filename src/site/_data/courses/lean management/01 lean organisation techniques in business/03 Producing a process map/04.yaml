@@ -1,0 +1,159 @@
+
+title: Creating your process map
+intro: | 
+  It is now time to create your own process map. You will create a flowchart to provide a visual representation of an organisation’s processes. 
+
+  Once you have your completed flowchart you will then look at using it to increase the productivity of your chosen organisation. 
+
+banner: LM_U1_S3_P3_createMap.svg
+sections:
+  -
+    title: Recap
+    theme: t-bg-supporting3
+    copy: |
+      Before you begin to put your flowchart together click on the shapes below to remind yourself of some of the most commonly used symbols in flowcharts.
+    subInc: 
+        type: reveal
+        content:
+            -
+                title: Start or End flow of activity
+                copy: |
+                    The oval shape represents the start or the end of a flow. For example, if the flowchart represented a complaint process, it would start with the complaint being received and end with it being dealt with.
+
+                img: LM_U1_S3_p1_Symbol_StartEnd_1.svg
+            -
+                title: Process or activity
+                copy: |
+                    Rectangles are usually the most common symbols found in flowcharts as they represent processes or activities. Examples can range from making phone calls in an office to cutting metal in a factory.
+                img: LM_U1_S3_p1_Symbol_Process_1.svg
+            -
+                title: Decision – yes or no outcome
+                copy: |
+                    A diamond symbol represents decisions in a flowchart. You’ll see these a lot as they lead to yes or no outcomes, shaping the rest of the process.
+                img: LM_U1_S3_p1_Symbol_Decision_1.svg
+            -
+                title: Document
+                copy: |
+                    A document symbol can sometimes be seen in flowcharts. For example, it may feature when reports must be completed or when forms need filling out.
+                img: LM_U1_S3_p1_Symbol_Document_1.svg
+            -
+                title: Storage
+                copy: |
+                    The downwards triangle symbol represents storage in a process. For example, this could be the storage of documents or the stacking of envelopes in a mailing process.
+                img: LM_U1_S3_p1_Symbol_Storage_1.svg
+            -
+                title: Database
+                copy: |
+                    You may see a database symbol used in flowcharts that deal with data. For example, this may be in the form of stock files or sales records.
+                img: LM_U1_S3_p1_Symbol_Database_1.svg
+    
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      You will create a process map for the case below.
+
+      A supermarket has decided to create a new ‘make your own’ pizza section in store. At the counter, customers can create a pizza of their own choice, providing an alternative to buying pre-packaged pizza. Fresh foods manager, Valerie, collects customer feedback to investigate how successful the new foods section is operating. It seems whilst many customers are more than satisfied with their pizzas, there remains some dissatisfaction. In some cases, customers complained about their waiting time although the biggest complaint seemed to be with the highly popular advertised ‘special sauce’ option often being unavailable.
+
+      ### Pizza processing
+
+      The diagram below will remind you of what to include in a process map.
+
+      ![](/images/svg/ln/lm_u1_s3_p1_summary_flowchart.svg)
+  -
+    title: Brainstorming session
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      This process may be unfamiliar to you, so a brainstorming session has been provided. Read the main parts of the pizza making process which you will have to put in a flowchart yourself.
+
+    img: /images/svg/ln/LM_U1_S3_P3_Post-it_All.svg
+  -
+    title: Pizza processing
+    copy: |
+      You learnt about the main stages of the pizza making process from the results of the brainstorming session. These stages now need to be transferred into a flowchart to show what type of process happens at each stage and in what order.
+
+      Take a look at the following flowchart and answer the questions below.
+      ![](/images/svg/ln/lm_u1_s3_p3_quiz_flowchart.svg)
+  -
+    title: Quick quiz
+    copy: |
+      Take a look at the above flowchart and answer the questions below.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Stage 1 - Start
+          answer: Start
+        -
+          sentence: Stage 2 - Take customer's order
+          answer: Take customer's order
+        -
+          sentence: Stage 3 - Stack pizza bases
+          answer: Stack pizza bases
+        -
+          sentence: Stage 4 - Does customer want special sauce?
+          answer: Does customer want special sauce?
+        -
+          sentence: Stage 5 - Yes - Apply special sauce and cheese
+          answer: Yes - Apply special sauce and cheese
+        -
+          sentence: Stage 6 - No - Apply tomato sauce and cheese
+          answer: No - Apply tomato sauce and cheese
+        -
+          sentence: Stage 7 - Select desired toppings
+          answer: Select desired toppings
+        -
+          sentence: Stage 8 - Attach cellophane cover
+          answer: Attach cellophane cover
+        -
+          sentence: Stage 9 - Apply barcode sticker
+          answer: Apply barcode sticker
+        -
+          sentence: Stage 10 - End
+          answer: End
+    theme: i-quiz
+    
+  -
+    title: Analysis
+    theme: t-bg-supporting2
+    copy: |
+      Your completion of the flowchart in the previous tasks means that you now have a clear indication of how the process operates and in what order. You are now able to ask a series of questions about the process which could help to create an improved service.
+
+      ### The question process
+
+      Select the images below to see some questions that arose from the process map.
+    subInc: 
+        type: reveal
+        content:
+            -
+                title: Review
+                copy: |
+                    Review the process being studied and its boundaries as defined by your project.
+                img: LM_U1_S3_p3_Reveal_1.svg
+            -
+                title: Quantity
+                copy: |
+                    Are there enough pizza bases near the counter?
+                img: LM_U1_S3_p3_Reveal_2.svg
+            -
+                title: Timing
+                copy: |
+                    Is anything else slowing the process?
+                img: LM_U1_S3_p3_Reveal_3.svg
+            -
+                title: Timing
+                copy: |
+                    In which areas can the process be quickened?
+                img: LM_U1_S3_p3_Reveal_4.svg
+            -
+                title: Quantity
+                copy: |
+                    Do more ingredients need to be stored before taking an order?
+                img: LM_U1_S3_p3_Reveal_5.svg
+    copy2: |
+      ### Actions
+
+      The creation of the flowchart showed you a clear overview of the whole process. As a result, you can question the process and identify areas where waste can be reduced and productivity can be improved.
+
+      For example, to meet the demand of popularity, the pizza counter may choose to store more ingredients and special sauce. This could be represented visually in a new flowchart by introducing more storage symbols which would add value to the process.
