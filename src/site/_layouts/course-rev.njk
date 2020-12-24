@@ -29,22 +29,15 @@
 {%- set unitNameFilter = "0" + unit -%}
 {%- set sessionNameFilter = "0" + session -%}
 
-
-
-{%- set courseData = courses[course] %}
-{%- set unitCount = courses[course] | length %}
-{%- set sortedData = courseData | dictsort %}
-{%- set thisUnit = sortedData[unit - 1][0] %}
+{%- set unitData = courses[course] | courseinfo %}
+{%- set thisUnit = unitData.keysOrdered[unit - 1] %}
 {%- set unitName = thisUnit | replace(unitNameFilter, "") | trim | capitalize -%}
-{%- set sessions = courseData[thisUnit] | dictsort -%}
-{%- set sessionCount = sessions | length -%}
-{%- set thisSession = sessions[session - 1][0] %}
+{%- set sessionData = courses[course][thisUnit] | courseinfo -%}
+{%- set thisSession = sessionData.keysOrdered[session - 1] %}
 {%- set sessionName = thisSession | replace(sessionNameFilter, "") | trim | capitalize -%}
 
-<!--
-Unit {{ unit }} of {{ unitCount }}: {{ unitName}}<br>
-Session {{ session }} of {{ sessionCount }}: {{ sessionName}}<br>
--->
+{%- set unitCount = unitData.size %}
+{%- set sessionCount = sessionData.size -%}
 
 {% if shortcode !== 'it2' %}
   {% set timeToWhat = 'Think'%}

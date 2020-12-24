@@ -26,9 +26,12 @@ module.exports = function(config) {
       }
   });
 
-  // Pass in an object, return the number of keys/values?
-  config.addFilter("objectsize", obj => {
-    return Object.entries(obj).length;
+  
+  config.addFilter("courseinfo", unit => {
+    return {
+      keysOrdered: Object.keys(unit).sort(),
+      size: Object.keys(unit).sort().length
+    }
   });
 
   // Pass in an object, return the keys?
