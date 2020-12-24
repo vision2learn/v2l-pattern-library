@@ -54,6 +54,7 @@ pagination:
   data: collections.lm-2-u1-s1
   size: 1
   alias: module
+  resolve: values
   addAllPagesToCollections: true
 ```
 
@@ -66,14 +67,14 @@ pagination:
 
 ``` yaml
 layout: default
-permalink: {%- raw %}courses/{{ module.course | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | slug }}/index.html{%- endraw %}
+permalink: {%- raw %}courses/{{ module.course | d('no string') | slug }}/unit-{{ unit}}/session-{{ session }}/{{ module.title | d('no string') | slug }}/index.html{%- endraw %}
 ```
 
 - The `permalink` key relies on the session-level data file in the this course's `content` directory, accessed via `module`.
 - Each page will have a friendly url in the following format:
   - "courses/course-name/unit-number/session-number/page-title/"
 - course-name, unit-number and session-number are set in the `session-x.11tydata.json` file and the page-title is set from the `title` key of each individual Markdown file in the `content` directory.
-- `| slug` is a liquid filter which takes strings and makes them suitable for use as URLs by converting spaces to hyphens and making the text lowercase.
+- `| d('no string') | slug` is a liquid filter which takes strings and makes them suitable for use as URLs by converting spaces to hyphens and making the text lowercase.
 - The template first makes a call to the `course-vars.njk` include file, passing in the `module` object aliased to `course` for use inside the include.
 
 ### course-vars.njk

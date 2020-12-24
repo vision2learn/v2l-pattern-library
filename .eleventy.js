@@ -28,9 +28,16 @@ module.exports = function(config) {
 
   
   config.addFilter("courseinfo", unit => {
-    return {
-      keysOrdered: Object.keys(unit).sort(),
-      size: Object.keys(unit).sort().length
+
+    if(unit) {
+      return {
+        keysOrdered: Object.keys(unit).sort(),
+        size: Object.keys(unit).sort().length
+      }
+    }
+    else {
+      console.log("ERROR: Unit passed to 'courseinfo' is undefined")
+      return false;
     }
   });
 

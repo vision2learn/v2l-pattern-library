@@ -13,19 +13,6 @@
 
 {%- set tilde = "~" if site.env == "dotnet" -%}
 
-<!-- {{ tilde2 }} -->
-
-{# {% 
-  set pageData = {
-    unitNameFilter: "0"+ unit,
-    sessionNameFilter: "0" + session,
-    courseData: courses[course],
-    unitCount: Object.entries(courses[course]).length
-  } 
-%}
-
-{{ pageData | log }} #}
-
 {%- set unitNameFilter = "0" + unit -%}
 {%- set sessionNameFilter = "0" + session -%}
 
@@ -77,10 +64,10 @@
 {%- else %}
   {# NORMAL PAGES #}
   {%- include 'page-chunks/sections.njk' %}
-  <!-- unit1_session1_page2 -->
+  <!-- seciotns -->
   {%- if lastPage %}
   {%- include 'page-chunks/lastpage.njk' %}
-    <!-- unit1_session1_page2 -->
+    <!-- last -->
   {%- endif -%}
 {%- endif %}
 
