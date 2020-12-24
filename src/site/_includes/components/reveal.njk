@@ -4,12 +4,13 @@
   
   {% if section.subInc.content %}
     {% set revealdata = section.subInc.content %}
-
+    <!-- {{ module.data.shortcode }} -->
     {%- for revealItem in revealdata %}
       {{ reveal({
           heading: revealItem.title, 
           copy: revealItem.copy, 
-          image: revealItem.img
+          image: revealItem.img,
+          shortcode: module.data.shortcode
         }, site.env) }}
     {%- endfor %}
   {% else %}

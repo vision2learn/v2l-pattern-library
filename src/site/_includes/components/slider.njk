@@ -4,14 +4,14 @@
   {%- set slideData = components.slider.slides %}
 {%- endif %}
 
-{%- import "components/all.njk" as components %}
-
+{%- from "components/all.njk" import slideItem as slider %}
 <div class="gallery-container">
   <div role="group" class="gallery no-js">
     <ul>
       {%- for slide in slideData %}
         <li role="listitem">
-          {{ components.slideItem(slide, module.data.buildenv) }}
+          
+          {{ slider(slide, site.env, module.data.shortcode) }}
         </li>
       {%- endfor %}
     </ul>

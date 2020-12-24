@@ -16,6 +16,6 @@ permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/se
 {% endif %}
 <footer>
   <small>
-    &copy; Copyright Vision2Learn, {{ site.date().year }}. All rights reserved (Env: {{ env.env }}). 
+    &copy; Copyright {{ site.v2l | safe }}, {{ site.date().year }}. All rights reserved (Env: {{ site.env }}). 
   </small>
 </footer>
