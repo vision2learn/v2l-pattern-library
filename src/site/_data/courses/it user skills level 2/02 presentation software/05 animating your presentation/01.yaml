@@ -1,0 +1,102 @@
+title: Animating your presentation
+intro: |
+    The animation tools in PowerPoint give you the opportunity to decide how to animate objects in your presentation. You can also decide on the transition from one slide to another, and set timings for your slides animation.  These are useful if you are creating a presentation that will be viewed on-screen as a slideshow.
+banner: it2_u2_s5_p1_animation.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about animation tools in Microsoft PowerPoint:
+        * Adding effects to slides
+        * Adding transitions
+        * Evidencing your animation skills
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Why do you think animation and slide transitions are a useful part of presentations?
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+        Make sure you fully understand the following information as you will be asked to apply animation and transition effects to a presentation in your assessment.
+      
+  -
+  -
+    title: Adding effects to slides and slide transitions
+    theme: t-bg-primary
+    copy: |
+      There are a number of different options that you can choose from when it comes to adding effects and transistions to slides. Scroll through the slides below to learn more.
+
+      Be careful when adding animation – too much animation can distract readers from the main message of your presentation and make presentations appear unprofessional.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: View the Animation Pane
+          text: |
+            Before you begin to add effects to objects on your slides, it is useful if you view the *Animation Pane* so that you can see the effects you add.
+          img: it2_u2_s5_p1_slide1.svg
+        -
+          title: Adding effects to slides
+          text: |
+            There are three different kinds of animation that you can apply to objects on your slides. You can change how your object enters the slide, how it appears on the slide and how it will leave the slide.
+
+            If you only want to add one kind of animation to an object, such as an *Entrance*, then you can select the animation effect from the *Animation Pane* once the object is selected.
+
+            
+          img: it2_u2_s5_p1_slide2.svg
+        -
+          title: Choosing effect options
+          text: |
+            Once you’ve chosen an object to animate and the effect you want to use, you can now set various options for the effect.
+
+            Once you have added an effect to an object, you will see it appear in the *Animation Pane*.  You can see the effects options window by clicking on the arrow next to the animation.  On a Mac this is shown in the same pane below the animations list.
+
+          img: it2_u2_s5_p1_slide3.png
+        -
+          title: Removing effects from slides
+          text: |
+            If you are unhappy with your chosen animation, or you want to delete some of the effects that you have applied to your slides, simply right click on the effect that you want to delete in the *Animation Pane* and select *Remove* from the menu that appears.
+
+            On a Mac select the animation from the list and click the red cross in the upper right corner.
+          img: it2_u2_s5_p1_slide4.png
+        -
+          title: Transitions
+          text: |
+            A slide transition is the way in which one slide of your presentation moves on to the next. Rather than slides just appearing one after one, you can choose a range of effects as each new slide appears. Using transitions can add a really professional feel to your presentation and can be used on every slide.
+          img: it2_u2_s5_p1_slide5.svg
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+        Please see the following video for a demonstration on adding effects and slide transitions.
+
+    video: it2_u2_s5_p1_animation_pc.mp4
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, apply the different animation tools to to your practice document that you worked on in the last session.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Animations are a key part in a good presentation, allowing the speaker to bring different images or pieces of text on to the screen at certain points.  Here is a PowerPoint animation tutorial clip which will show you how well this can work.
+
+      links:
+        PowerPoint animation tutorial: https://www.youtube.com/watch?v=T04uBHvUBow
+        
+  -
+  -

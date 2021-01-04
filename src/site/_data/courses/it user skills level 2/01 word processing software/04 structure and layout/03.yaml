@@ -1,0 +1,147 @@
+title: Working with tables
+intro: |
+  Tables can be used for organising and presenting comparisons, schedules, and lining up text in Word documents. Tables are also an effective way of presenting lists of figures in documents like marketing and business reports.
+  
+banner: it2_u1_s4_p3_tables.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      It’s really an important that you understand how to create and format tables, including how to expand columns/rows, apply borders/shading and table styles as you will be required to use these tools as part of your assessment.
+  -
+  -
+    title: Creating a table
+    theme: t-bg-primary
+    copy: |
+      Tables are made up of rows, columns and cells. Columns run from top to bottom and rows run across, from left to right. Where the lines of a column and row meet, a cell is created – data can then be inputted into these cells.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Step 1
+          text: |
+           To create a table in your new Word document:     
+           
+           a. Click your cursor to the point that you would like to insert the table.
+           
+           b. Click on the *Insert* tab and click the *Table* icon in the *Tables* group.
+
+          img: it2_u1_s4_p3_slide1.svg
+        -
+          title: Step 2
+          text: |
+           a. Click on *Insert table* from the drop down that appears. The *Insert Table* dialog box will appear.
+
+           b. Select the number of rows and columns that you would like for your table. Click OK and your table will appear in your document.
+           
+           c. To add data to your table, simply click in a cell and begin typing.
+
+          img: it2_u1_s4_p3_slide2.svg
+    copy2: You can also create a table quickly by using the grid that appears when you click on the Table icon in the Tables group. Simply click and drag your mouse over the grid until you have the correct number of rows and columns.
+  -
+  -
+    title: Converting text
+    layout: media
+    theme: t-bg-supporting3
+    copy: |
+      There are a number of steps that you need to take to convert text into a table, these include:
+
+      * Displaying formatting marks
+      * Writing the text to be converted
+      * Converting the text into a table
+
+    img: /images/svg/it2/it2_u1_s4_p3_image1.svg
+  -
+  -
+    title: Formatting your table
+    theme: t-bg-primary
+    copy: |
+      There are a large number of formatting tools that you can use on your tables. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Add borders and shading
+          text: |
+           Your table may benefit from additional borders and shading, especially if there are cells that need to stand out from the rest! Borders and shading can also be used to stop your table looking drab and boring.
+           
+           You have already seen that you can apply styles to your table using the *Table Styles* group on the *Design* tab, but you can also apply borders and shading manually.
+
+          img: it2_u1_s4_p3_slide3.svg
+        -
+          title: Alter columns, rows and cells
+          text: |
+           Occasionally, you may want to alter the column width or row height of your cells so that the contents of the table fit better.
+
+           You can check the exact height and width of your rows and columns in the *Cell Size* group of the *Layout* tab.  You can also autofit your cells to their content by right clicking on the right hand border of a row or column!
+
+           You can change the amount of space between the outline of your cell and the text inside it by changing the margins of your cells. 
+
+          img: it2_u1_s4_p3_slide4.svg
+        -
+          title: Align text
+          text: |
+           Word allows you to align text in a table so that it sits to the left, right or in the centre of a cell. 
+
+           You can also change the direction of the text so that it reads vertically rather than horizontally. 
+
+          img: it2_u1_s4_p3_slide5.svg
+        -
+          title: Insert or delete rows, columns and cells
+          text: |
+           Sometimes you may need to add or delete rows, columns and cells from your table. 
+
+          img: it2_u1_s4_p3_slide6.svg
+        -
+          title: Merge or split cells
+          text: |
+           Once you have created your table, you can edit the number of cells that it contains.
+           
+           To merge several cells into one, select all of the cells that you wish to merge, right-click and select *Merge Cells*.
+           
+           To split cells that have been merged, select the cell you wish to split, right-click and select *Split cells*. A dialog box will appear that lets you choose the number of rows / columns you want to split the cells into.
+
+
+          img: it2_u1_s4_p3_slide7.svg
+        -
+          title: Sort data
+          text: |
+           Sometimes, you might need to sort your data, especially if the table has a lot of different fields. The *Sort* button in Word allows you to sort data into ascending or descending alphabetical order. You can also sort data in an entire table or in entire rows.
+
+          img: it2_u1_s4_p3_slide8.svg
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Coverting text and format a table
+
+      There are a number of steps that you need to take to convert text into a table, and format your table.
+
+      Please see the following video for a demonstration:
+
+    video: it2_u1_s4_p3_tables_video_pc.mp4
+  -
+  -
+    title: Read - Creating and formatting a table
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document which shows an example of text that has been converted to a table and then formatted.
+
+      [Creating and formatting a Table](/pdfs/it2_u1_s4_p3_read_tables.pdf)
+
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt how to create and format a table, it is time for you to practice creating your own table in Word.  
+      
+      Open up a new Word document and click on this link - [Excel spreadsheet](/pdfs/it2_u1_s4_p3_table_data.xlsx) - to download the data you will need to create your table in Word.
+  -

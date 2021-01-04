@@ -1,0 +1,107 @@
+title: Images, charts and links
+intro: |
+  You can insert images and charts into your documents to add interest and help you to make your points clearer.
+
+  It is really useful to be able to link information in Word to content outside of the document. 
+banner: it2_u1_s5_p2_imageslinks.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      You should take the time to fully understand how to insert and format images as you will be required to do this in your assessment.
+  -
+    title: Inserting an image or chart
+    theme: t-bg-primary
+    copy: |
+      Using images is a really good way to add interest to your document – for example, you could include an image, such as a company logo or photograph, to illustrate a particular point.
+
+      You can insert a range of image files into your document – for example, you can include .jpg, .bmp, .png and .gif files, which are some of the most commonly used image formats.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Step 1
+          text: |
+            Position your cursor at the point in the document where you would like to insert the image.
+      
+            Click on the *Insert* tab, and then click on the *Picture* icon in the *Illustrations* group.
+
+            You can choose a picture from your computer, stock images or online.
+          img: it2_u1_s5_p2_slide1.svg
+        -
+          title: Step 2
+          text: |
+            The *Insert Picture* dialog box will appear where you can choose your image.  (How this window looks will depend on your choice.)
+
+            Use the main window to navigate to an image file you want to insert and then click to select the file.
+      
+            Click the *Insert* button to insert the file into your Word document.
+          img: it2_u1_s5_p2_slide2.png
+  -
+    title: Formatting an image
+    theme: 
+    copy: |
+      Once you have inserted your image, there are a number of things that you can do to format your images. 
+      
+      These tools can be found on the *Picture Format* tab that will appear **when you click on an image.** 
+      
+      You can use this formatting tab for a number of different things. Click on the different buttons in the *Format* tab below to learn more about the tools you can use to format your images.
+    interactive: 
+      file: it2/u1_s5_p2_format_tab_pc
+      width: 2000
+      height: 430
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Integrating images and charts
+
+      You can also integrate images and charts into your documents. Charts and images are very useful as they allow us to present data in a highly visual format that is easy to understand.
+      
+      A common source of charts is Microsoft’s spreadsheet program – Microsoft Excel. Word provides several ways in which you can import Excel data. *Don’t worry if you aren’t familiar with Excel – You will learn more about Microsoft Excel in Unit 3 of this course.*
+
+      
+      Please see the following video for a demonstration on how to insert and format images and charts:
+
+    video: it2_u1_s5_p2_images_video_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Insert and format your own image and chart
+      
+      Now that you have learnt about inserting images and charts, its time to try this out.  Download the following four files (you can use an image of your own choice if you wish).
+      
+      [Balloon.jpg](/pdfs/it2_u1_s5_p2_image_balloon.jpg) (*Right click on this item with your mouse to download*)
+
+      [Excel spreadsheet](/pdfs/it2_u1_s5_p2_chart_data.xlsx)
+
+      [Image practice letter](/pdfs/it2_u1_s5_p2_image_practice_letter.docx)
+
+      [Chart practice letter](/pdfs/it2_u1_s5_p2_chart_practice_letter.docx)
+    
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      You should take the time to fully understand how to create links as you will be required to do this in your assessment.
+  -
+  -
+    title: Read - Linking information
+    theme: t-bg-primary2 i-read
+    copy: | 
+      When creating documents, you might want to include the option for the reader to be able to access another document, file or webpage. To allow them to do this you would need to create a hyperlink to that document, file or webpage. 
+
+      For example, you may want to add a hyperlink on a specific word in a sentence such as:
+
+      For more information on this product click [here](/pdfs/it2_u1_s5_p2_linking_information_pc.pdf).
+
+      Click on the link in the sentence above to take a look at a document for instructions on creating links and then have a go yourself.  Please select [this document](/pdfs/it2_u1_s5_p2_linking_information_mac.pdf) for a Mac version. 
+  -

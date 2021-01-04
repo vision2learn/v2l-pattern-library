@@ -1,0 +1,165 @@
+title: Preparing your presentation
+intro: |
+    Once you finish a presentation, there are a number of checks that you need to perform before you can present or print it.
+banner: it2_u2_s6_p1_prepare.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about the following for preparing your  Microsoft PowerPoint presentation:
+        * Reviewing your aims
+        * Preparing slides
+        * Checking accuracy
+        * Other factors
+        * Evaluating strengths and weaknesses
+        * Improving your work
+        * Reviewing your outcomes
+        * Evaluating productivity and efficiency
+
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+       In this session you will learn about the different things that you can check once you have finished a presentation. Make sure you can remember at least five of them for your assessment. 
+  -
+  -
+    title: Reviewing your aims
+    theme: t-bg-supporting2
+    copy: |
+        Once you think that your presentation is finished, the first thing that you should do is review your aims. Two key questions that you should consider include:
+
+        * Who is the intended audience of the presentation?
+        * What is the main message you want to communicate?
+
+        By carefully considering the audience and purpose of your presentation, you can decide whether or not your presentation meets your original aims. Select the images below to see how two different people might review their presentations.    
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Sports club
+          copy: |
+            The finance manager at Marc’s Fitness and Training has written a presentation to inform the other managers at the company about the recent sales figures. The language should not be too complicated. The figures should be made clear through graphs and tables. The animations should be the same on every slide so that they do not distract the audience from the key facts. 
+          img: it2_u2_s6_p1_reveal1.svg
+        -
+          title: School
+          copy: |
+            A teacher has designed a presentation to help a class of primary school children to learn the basic rules of spelling and grammar. She needs to make sure that the language and slide designs are simple and clear, and that the animations are varied, to keep students interested. The slides should also contain a number of images and items of clip art. 
+          img: it2_u2_s6_p1_reveal2.svg
+  -
+  -
+    title: Preparing slides
+    theme: t-bg-primary
+    copy: |
+      Once you have reviewed your aims, you can begin to check the design and layout of your presentation. This will help you to see whether or not your presentation is clear and concise.
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: When you are planning your presentation, it is important that you consider the timing of your slides.
+          answer: timing
+        -
+          sentence: When you are presenting your slides it’s important that you consider the audience.
+          answer: audience
+        -
+          sentence: You need to make sure that you spend enough time on each slide – people need to be able to read the information.
+          answer: read
+        -
+          sentence: You also need to make sure your information is organised so that it makes sense to your content.
+          answer: organised
+    theme: i-quiz
+  -
+  -
+    title: Checking your presentation
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides to learn more about checking your presentation.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Checking content
+          text: |
+            When checking the content of your slides, you need to ask yourself three key questions:
+
+            1. Have you included all the essential content?
+            2. Does the content follow a clear structure?
+            3. Does your presentation communicate information clearly?
+
+          img: it2_u2_s6_p1_slide1.svg
+        -
+          title: Checking design
+          text: |
+            When you check the design of your presentation, there are three key areas that you need to look at:
+
+            1. Font and background colours – can you read what is written on the slide?
+            2. Placement of images, graphs, tables and charts – are they clear? Do they add anything to your slideshow?
+            3. The amount of information on each slide – Is there too much information? Does it appear confusing?
+
+          img: it2_u2_s6_p1_slide2.svg
+        -
+          title: Changing the order of slides
+          text: |
+            Sometimes, when you are putting together a particularly detailed presentation, you might not realise until the end that some of your slides should be arranged in a different order.
+
+          img: it2_u2_s6_p1_slide3.svg
+        -
+          title: Rehearsing timings
+          text: |
+
+            It’s really important to check the timings of your slideshow so that you know that PowerPoint will move through your slides at a reasonable speed. If your presentation moves too fast or too slow then it may be less effective. To rehearse timings, you need to use the *Rehearse Timings* feature.
+
+          img: it2_u2_s6_p1_slide4.svg
+  -
+  -
+    title: Checking animation and effects
+    theme: 
+    copy: |
+      It’s important to check your animation and slide transitions. The best way to do this is to click on the *Slide Show* tab and click the *From Beginning* button in the *Start Slide Show* group. You can then look through your slideshow and see if there are any transitions or animations that need to be changed.
+      
+      Make sure that you display the *Animation Pane* by clicking the *Animation Pane* button in the *Advanced Animation* group on the *Animation* tab.  Select the images below to read more.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Changing transitions
+          copy: |
+            If, after you have looked through your presentation, you want to make changes to the transitions between slides, click on the slide that you want to change and click on the *Transitions* tab. Here you can edit your transition options.
+          img: it2_u2_s6_p1_reveal3.svg
+        -
+          title: Changing animation effects
+          copy: |
+            If you want to make changes to some of the animation in your presentation, select the slide / object that you want to change, and then click on the *Animations* tab. Here you can edit your animation options. You can use the *Reorder Animation* options in the *Timing* group to move your animations around.
+          img: it2_u2_s6_p1_reveal4.svg
+        -
+          title: Removing animation effects
+          copy: |
+            You can quickly remove animation effects from an object by clicking the drop-down arrow to the right of the animation listed in the *Animation Pane*. On a Mac you would click the red cross in the upper right corner.
+          img: it2_u2_s6_p1_reveal5.png
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+        Please see the following video for a demonstration on the following:
+        * Order of slides
+        * Rehearsing timings
+        * Altering animation and effects
+        * Setting up your slideshow
+
+    video: it2_u2_s6_p1_preparing_pc.mp4
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, apply the different techniques and tools to your practice document that you worked on in the last session.
+  -
+  -

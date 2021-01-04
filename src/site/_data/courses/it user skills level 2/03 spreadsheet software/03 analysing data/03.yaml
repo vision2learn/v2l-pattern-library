@@ -1,0 +1,73 @@
+title: More Functions
+intro: |
+  There are also other types of functions which can be used on your spreadsheet. These are:
+  * Conditional functions
+  * Financial functions
+banner: it2_u3_s3_p3_functions2.jpg
+sections:
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Pay close attention to the conditional IF function; you will need to use it as part of your assessment.
+  -
+  -
+    title: Conditional functions
+    theme: t-bg-primary
+    copy: |
+      The logical functions that you are going to learn about are also known as conditional functions. Conditional functions can be used to calculate whether a value meets a certain ‘condition’, for example whether the value in the cell is more than 15 or less than 43. 
+      
+      Take a look at the images below to learn more.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: The IF function
+          copy: |
+            The IF function is one of the most useful logical functions within Excel. You can use it to make decisions based on your data and label it ‘True’ or ‘False’ or ‘Yes’ or ‘No’ based on the cell contents.
+          img: it2_u3_s3_p3_reveal1.png
+        -
+          title: The SUMIF function
+          copy: |
+            The SUMIF function can be used to add the contents of cells if they meet a particular criterion.
+          img: it2_u3_s3_p3_reveal2.png        
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Conditional functions
+      Please see the following video for a demonstration on how to create an IF function.
+    video: it2_u3_s3_p3_conditional.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at creating a IF conditional function in your practice document that you worked in on the previous page.
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Financial functions
+
+      Excel also includes a large number of financial functions covering everything from simple tasks, such as setting up a household budget or calculating a mortgage payment, to more complicated tasks, such as forecasting future interest payments. 
+      
+      Click on the owl image on the right to take you to a website to learn more about financial functions.
+
+    img: /images/svg/stretch_button.svg 
+    link: https://www.excel-easy.com/functions/financial-functions.html
+  -
+  -
+    title: Read - Formulae and Functions guide
+    theme: t-bg-primary3 i-read
+    copy: | 
+      Take a look at the following document to help support you with formulae and functions.
+
+      [Excel Formulae and Functions](/pdfs/it2_u3_s3_p3_formula.pdf).
+  -
+  -
