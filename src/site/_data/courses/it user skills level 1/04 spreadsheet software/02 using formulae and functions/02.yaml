@@ -1,0 +1,90 @@
+title: Working with cell references
+intro: |
+  On this page you will learn about:
+  * Using cell references
+  * Working with mutiply cells
+  * Relative and absolute cell references
+banner: it1_u4_s2_p2_autosum.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      key point text
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Do you know why it’s better to use cell references when creating formulae? Type your answer in the box to the right before reading on.
+  -
+  -
+    title: You could . . .
+    theme: t-bg-primary3
+    copy: 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title:
+          copy: |
+            . . . type a calculation as =6+11, instead of =B4+B7 – but what if you had to change the number in cell B4 from 6 to 8? Your =6+11 calculation would now be incorrect.
+  -
+  -
+    title: Using cell references
+    theme: 
+    copy: |
+      The following activity gives an example of a spreadsheet containing data about the salaries of five members or staff in an office.  It will help you understand how to use cell references to automate calculations.
+    interactive: 
+      file: it1/u4_s2_p2_references_example
+      width: 1200
+      height: 600
+      composition: F4B4CBABE55F4B5599D9AC1D71B95150
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Using cell references
+
+      *Apply exercise from old p3*
+
+      Please see the following video for a demonstration on 
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at 
+      
+      Go back to the Sales.xls spreadsheet you created in session 1. You’re now going to create a formula to calculate the Income figure in column D of the spreadsheet.
+  -
+  -
+    title: Working with multiple cells
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      You can quickly and easily replicate formulae across multiple cells by clicking and dragging using the autofill or fill tool.
+
+      By highlighting the cell containing the formula you want to replicate and then dragging up / down a column or across a row, Excel will populate the cells that you want to include in the selected formula.
+
+      This is a very useful technique to remember when creating spreadsheets. You can see how much quicker it is to get Excel to replicate your formula – and it means you don’t have to worry about any typing errors or inaccuracies.
+
+    img: /images/svg/it1/it1_u4_s1_p3_slide2b.png
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Advanced cell referencing
+
+      You have now learned about cell referencing in the above activity and video, however, if you wish to learn about **absolute** and **relative** referencing as well, please click on the owl image on the right.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.excel-easy.com/functions/cell-references.html
+  -
+  -

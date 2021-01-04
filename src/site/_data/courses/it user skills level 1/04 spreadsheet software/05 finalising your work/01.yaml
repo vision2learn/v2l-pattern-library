@@ -1,0 +1,83 @@
+title: Finalising your work
+intro: |
+    Once you finish a spreadsheet, there are a number of items that you need to do including checking, saving, printing and closing.
+
+banner: it1_u4_s5_p1_spelling.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about the following in Spreadsheet software:
+      
+      * Checking your work
+      * Saving your work
+      * Page layout
+      * Printing
+      * Closing your spreadsheet
+  -
+  -
+    title: Checking your work
+    theme: t-bg-primary
+    copy: |
+      As you create your spreadsheet and add more information to it, it’s useful to check the accuracy of the work that you are doing.  You should spend time checking the accuracy of the numbers and the text in your spreadsheet. 
+
+      Accuracy is very important in a spreadsheet, especially when it comes to the data you are using. When you begin to perform calculations in your spreadsheet, you will do so using the data you have entered. If this data is incorrect then your calculations will also be wrong.
+
+      Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Check your numbers
+          text: |
+            You should check your data as you input it to ensure that it is correct. It is also important to check the accuracy of your spreadsheet as you perform calculations – in some cases, you will have an idea of what the outcomes should be and you will notice if your calculations produce results that differ greatly from your expectations.
+          img: it1_u4_s5_p1_slide1.svg
+        -
+          title: Text and spell check
+          text: |
+            You have already learnt a lot about the Spell Check tool in your previous units. Here’s how to use Spell Check in Microsoft Excel: 
+            1. Click on the *Review* tab
+            2. In the *Proofing* group, click the *Spelling* icon
+            3. The Spelling dialog box will appear. Here you can review, correct and ignore any errors that Excel has picked up.
+          img: it1_u4_s5_p1_slide2.svg
+        -
+          title: Numerical and text formatting
+          text: |
+            The formatting of your text and numbers are important as it will give clarity to your spreadsheet.  For instance the label text may need to stand out (e.g. bold), and numbers that are date of births will need to be in date format.
+          img: it1_u4_s5_p1_slide3.png
+        -
+          title: Data sources
+          text: |
+            You should proofread your spreadsheet and check the data source. By checking the source of your original data, you can make sure that you input the right information to start with.
+          img: it1_u4_s5_p1_slide4.svg
+        -
+          title: Formulae
+          text: |
+            It can be useful to see your data displayed as formulas rather than totals and results. This is helpful when checking your formulas are correct. Showing formulas does not change the spreadsheet – just the way it is displayed.
+          img: it1_u4_s5_p1_slide5.png
+        -
+          title: Graphs and charts
+          text: |
+            It is a good idea to check that you have used the most appropriate chart for the data, does the chart need data labels and a legend.
+          img: it1_u4_s5_p1_slide6.png
+  -
+  -
+    title: Saving files
+    layout: media
+    theme: 
+    copy: |
+      When you save a file, you can choose to save it to a folder on your hard disk drive, a network location, a DVD or CD, the desktop or a flash drive. You can also choose to save it in another file format.
+
+      To save your work in your chosen location, you can click to select a folder in the *Save As* dialog box.
+      
+      1. Click the *File* button (*File menu* on a Mac) and then click *Save As*. The *Save As* dialog box will open.
+      2. In the *File* name box, enter a new name for the file.
+      3. Use the Navigation pane in the *Save As* dialog box to choose where you would like to save the file.
+      4. Once you have selected all of your options, click *Save* to save your file in the chosen location.
+
+    img: /images/svg/it1/it1_u4_s5_p1_image1.svg
+  -
+  -

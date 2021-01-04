@@ -1,0 +1,36 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the second session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session you have learnt about:
+      * Formatting numerical data
+      * Formatting text
+      * Aligning text and numerical data
+      * Using borders and shading
+      * Changing height and width
+  -
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        True or false? "As well as formatting existing data in your spreadsheet, you can also format cells before you’ve entered any data. Anything you type in those cells will be automatically formatted.":
+          answers:
+            True: true
+            False: false
+        True or false? "You can change the orientation of text in your spreadsheet.":
+          answers:
+            True: true
+            False: false
+        Which one of the following is NOT a common formatting option for numerical data?:
+          answers:
+            Percentage: false
+            Currency: false
+            True/False: true
+  -

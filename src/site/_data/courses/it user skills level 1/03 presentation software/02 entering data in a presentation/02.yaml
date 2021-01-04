@@ -1,0 +1,128 @@
+title: Entering and formatting text
+intro: |
+  On this page you will learn about:
+  * Entering text
+  * Formatting text
+  * The Font and Paragraph groups
+banner: it1_u3_s2_p2_formattext.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      key point text
+  -
+  -
+    title: Entering text
+    layout: media
+    theme: 
+    copy: |
+        When you open PowerPoint, each slide will appear with a number of placeholders. These are specific areas of the slide that you can start typing into. These placeholders can be for titles, subtitles, text, lists or any other information you want to include!
+        
+        To add text to your PowerPoint, simply left click on a placeholder and start typing to add content. Alternatively, click on the *Insert* tab, and then click on *Text Box* in the *Text* group to add a new text box to type into.
+    img: /images/svg/it1/it1_u3_s2_p2_image1.svg
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Information from Word
+
+      Sometimes it may be useful to include information that you have already used in a different Microsoft Office program. This could be a paragraph of text from Word. 
+      
+      Please see the following video to see how to enter information from Microsoft Word.
+
+    video: it2_u2_s1_p3_wordinfo.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about including information from Word, try this out in a blank presentation using the content within this [Word document]().
+  -
+  -
+    title: Formatting text
+    theme: t-bg-primary
+    copy: |
+        You can format the content of your presentation in order to change the way it looks. The first thing you need to do before formatting any text is to select it, so that PowerPoint knows what you are trying to do. To do this, point with your mouse at the word you want to select and then either double-click with the left mouse button to select a single word, or drag the mouse over the word (or words) to select. Your selected text will appear highlighted on the screen. Once you have highlighted the text, you are ready to format it. 
+        
+        Some of the most commonly used formatting options that are in the *Font* group are:
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Font type and size
+          copy: |
+            To change the font type click the small arrow to the right of the font type menu to pull down the list of available typefaces. The text you have selected will now appear in this new font type.
+
+            To change the size of the selected text click the small arrow to the right of the font size menu to pull down the list of font sizes for you to select from.
+          img: it1_u3_s2_p2_reveal1.svg
+        -
+          title: Bold, italic and underline
+          copy: |
+            To emphasise sections of text in your presentation, you can choose to apply bold, italic or underline formatting.
+
+            Select the text you want to emphasise and then click the relevant button in the *Font* group.
+          img: it1_u3_s2_p2_reveal2.svg
+        -
+          title: Using colour
+          copy: |
+            When formatting your presentation, you can choose to apply colour to your text.
+
+            To change the colour of text in your presentation, select the text you want to change, then click the *Font Color* button in the *Font* group. Your selected text will now change to the colour you have chosen.
+          img: it1_u3_s2_p2_reveal3.svg        
+  -
+    title: The Font group
+    theme: 
+    copy: |
+      The Font group sits in the *Home* tab in the PowerPoint Ribbon. This is where you can do things like change the font size and make text bold. The Font group in PowerPoint is slightly different to the one in Microsoft Word. 
+      
+      Click on the different buttons in the *Font* group below to learn about their functions.
+    interactive: 
+      file: it2/u2_s3_p2_font_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Formatting text
+    theme: t-bg-primary
+    copy: |
+        Some of the most commonly used formatting options that are in the *Paragraph* group are:
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Bullets and numbering
+          copy: |
+            You can create a bulleted or numbered list to make key points stand out more. Some of the placeholders in PowerPoint will automatically create a bulleted list for you as you type. 
+            
+            You can create your own list by highlighting your text and selecting the bullet point icon in the *Paragraph* group.
+          img: it1_u1_s2_p3_slide1.svg
+        -
+          title: Alignment
+          copy: |
+            You can format the layout of each slide in your presentation by changing the way that content is aligned. You may find that most of your slide content is likely to be aligned to the left, but you can easily highlight certain areas of text (e.g. headings) and align them elsewhere.  Highlight your text and then click one of the alignment buttons in the *Paragraph* group.
+          img: it1_u1_s2_p1_slide4.svg
+        -
+          title: Line spacing
+          copy: |
+            This formatting technique allows you to change the amount of space between each line of text in your presentation.
+
+            Highlight your paragraph that you wish to format and then select the *Line and paragraph spacing* button in the *Paragraph* group.
+          img: it1_u1_s2_p1_slide6.svg
+  -
+  -
+    title: The Paragraph group
+    theme: t-bg-supporting2
+    copy: |
+      The Paragraph group in PowerPoint provides you with all the necessary tools you need to edit your work and make it look professional.  It is slightly different from the paragraph group in Microsoft Word.
+      
+      Click on the different buttons in the *Paragraph* group below to learn more about their functions and how to apply these items.
+    interactive: 
+      file: it2/u2_s3_p2_paragraph_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
