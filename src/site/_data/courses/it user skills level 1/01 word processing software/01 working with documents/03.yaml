@@ -1,0 +1,172 @@
+title: Planning an IT task
+intro: |
+    Before you start a task, it’s important to decide which kind of IT you are going to use. This can really help you to improve your productivity and performance. 
+banner: it1_u1_s1_p3_ipu_planning.jpg
+sections:
+  -
+    title: Identifying an IT task
+    theme: t-bg-primary
+    copy: |
+      When you have a particular task to complete, the first thing you need to do is find out as much information about the task as possible. This information will help you to understand the task and help you to plan it much more effectively.
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In relation to a task that you are currently working on (or one that you have recently completed), list some of the key information about the task. How did you find out this information?
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      You will be asked to plan a task as part of your assessment.
+  -
+  -
+    title: Key information
+    theme: 
+    copy: |
+      Have a look at some of the key information you will need when planning a task. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Who are you doing the task for?
+          text: |
+            **Who** are you doing the task for and **what information** do they need? You might be completing a task for your own benefit or someone else might ask you to do it (such as your teacher at school, a college tutor, etc).
+          img: it1_u1_s1_p3_ipu_slide_1.svg
+        -
+          title: When does it need to be completed?
+          text: |
+            **When** does the task need to be completed? This will give you a **deadline** that you can work towards when you are planning your work. 
+          img: it1_u1_s1_p3_ipu_slide_2.svg
+        -
+          title: What information is required?
+          text: |
+            **What** information do you need to include? What is the information for?
+          img: it1_u1_s1_p3_ipu_slide_3.svg
+        -
+          title: Where will the information be used?
+          text: |
+            **Where** will the information be used? (for example, it might be used on screen, printed out, sent to others by email, etc).
+          img: it1_u1_s1_p3_ipu_slide_4.svg
+    copy2: As you can see, all of this information is very useful in helping you to understand the task. You can use it to help you decide how much time you need to spend on the task, what format the work should be in, what information to include and so on.
+  -
+  -
+    title: Read - Planning in practice
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Let’s take a look at an example. Bill works as a marketing assistant for a large hotel. His manager has asked him to create some information for an upcoming exhibition. Bill has a meeting with his manager to find out more information about the task. During the meeting he makes the following notes: 
+
+      [Planning in practice example](/pdfs/it1_u1_s1_p3_ipu_planning_in_practice.pdf).
+  -
+  -
+    title: Benefits of using IT
+    theme: t-bg-primary
+    copy: |
+      Depending on the type of task you are doing, there are lots of IT tools that you can use to make it easier for you to complete your work. There are a number of key benefits to using IT. Select the images below to learn more:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Time
+          copy: |
+            IT saves time. For example it is much quicker to type a document than to write it by hand.
+          img: it1_u1_s1_p3_ipu_reveal_1.svg
+        -
+          title: Convenient
+          copy: |
+            IT is convenient as you can produce all the required information in one place - on a computer.  The variety of software now available enhances this benefit.
+          img: it1_u1_s1_p3_ipu_reveal_2.svg
+        -
+          title: Money
+          copy: |
+            IT can save you money.  As it has several uses such as Excel, Word etc, it can often save money on hiring specialist expertise or extra staff time - as one computer can perform many tasks.
+          img: it1_u1_s1_p3_ipu_reveal_3.svg
+        -
+          title: Accuracy
+          copy: |
+            IT helps you to produce work that is accurate as the programs have tools that you can use to help you check your spelling, grammar and calculations.
+          img: it1_u1_s1_p3_ipu_reveal_4.svg
+        -
+          title: Quality
+          copy: |
+            IT improves the quality of your work, such as giving you the ability to design a professional looking leaflet.
+          img: it1_u1_s1_p3_ipu_reveal_5.svg
+        -
+          title: Easier
+          copy: |
+            IT can make tasks easier to complete.
+          img: it1_u1_s1_p3_ipu_reveal_6.svg
+        -
+          title: Efficiency
+          copy: |
+            IT can improve business processes by cutting out any extra or unnecessary steps.  For example using a spell checker in Word is much quicker than doing it manually.
+          img: it1_u1_s1_p3_ipu_reveal_7.svg
+        -
+          title: Productivity
+          copy: |
+            IT improves your productivity as you can complete more tasks.
+          img: it1_u1_s1_p3_ipu_reveal_8.svg
+        -
+          title: Manual methods
+          copy: |
+            Although there are loads of benefits to using IT, sometimes, a manual approach might be more suitable and can be used together with IT. 
+            
+            Advantages include: less training is needed, less expensive and fewer technical problems.
+          img: it1_u1_s1_p3_ipu_reveal_9.svg
+  -
+  -
+    title: Benefits of different IT methods
+    theme: t-bg-supporting3
+    copy: |
+        Different IT methods have a number of different advantages and disadvantages. There are two main disadvantages of using IT in general. These are:
+
+        * More training is required
+        * Technical issues
+
+        However, each of the software programs that you will learn about, have their own advantages and disadvantages. See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Microsoft Word
+          copy: |
+            | Advantages | Disadvantages |
+            |------|------|
+            |Is well suited to create a wide range of documents such as letters, essays and posters  | Despite being compatible with many file types, not all file formats can be used with this software|
+            | Contains large amounts of writing and formatting tools to make your documents look more professional | Is not suited to working with or using numerical data |
+            | Can be used in conjunction with other Microsoft software packages, such as graphs from Excel | Is not suited to working on presentations |
+            | Is widely used and supports a number of file types |   |
+        - 
+          title: Microsoft PowerPoint
+          copy: |
+            | Advantages | Disadvantages |
+            |------|------|
+            | This program enables you to create professional-looking presentations | Does not work well with longer documents or too much text |
+            |  You can create and format each presentation slide | Does not have as many uses as Word; it can only really be used for presentations and notes |
+            | You can add images and animated effects and colour schemes to engage your audience |  It cannot really be transferred to the other software unlike Word or Excel |
+        - 
+          title: Microsoft Excel
+          copy: |
+            | Advantages | Disadvantages |
+            |------|------|
+            | You can use this program to create and format spreadsheets for budgets or financial reports |  Is not suited to using large amounts of text. Excel specialises in numbers and figures |
+            | Automatic updating of values in cells | Should not be used to create presentations |
+            | You can store large amounts of data | It can be quite complex and takes a bit of practice to use the more difficult formulas |
+            | You can perform complex calculations and create graphs to help you analyse your data | Data can only be displayed in cells |
+            | Graphs and tables can be copied into Word or PowerPoint to help provide a visual aid to a leaflet or presentation |  |        
+  -
+  -
+    title: Useful features
+    theme: t-bg-primary
+    copy: |
+      All of the Microsoft Office programs have useful features and tools to help you complete IT tasks. These features can really help you to:
+
+      * Complete your IT tasks effectively and efficiently
+      * Create professional-looking documents
+      * Improve your productivity

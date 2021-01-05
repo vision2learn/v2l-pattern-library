@@ -21,13 +21,15 @@
     </ul>
 
     {% for session in sessionData.keysOrdered %}
-      {% set masterLoop = loop.index %}
+      {% set masterloop = loop.index %}
       <section id="section{{ loop.index }}">
-        <h3>Session {{ loop.index }} - "{{ session | replace("0" + loop.index, "") | d('error') | trim | capitalize }}" topics:</h3>
+        <h3>Session {{ loop.index }} - "{{ session | replace("0" + loop.index, "") | d('error') | trim | formattitle }}" topics:</h3>
         <ul>
           {%- for pageNo, pageData in courses[course][thisUnit][session] %}
-            {% if not loop.last %}
-              <li>{{ pageData.title | title }}</li>
+            {% if masterloop == 1 and (loop.index == 1 or loop.index == 2) %}
+              {# BLANK #}
+            {% elseif not loop.last %}
+              <li>{{ pageData.title | formattitle }}</li>
             {% endif %}
           {%- endfor %}
         </ul>

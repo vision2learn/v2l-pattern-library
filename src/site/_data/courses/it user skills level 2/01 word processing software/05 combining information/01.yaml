@@ -1,0 +1,105 @@
+title: Combining information
+intro: |
+  There are different types of information that you can combine within your Word documents. From images to charts, these kinds of information are a useful way of enhancing the appearance and meaning of your work.
+banner: it2_u1_s5_p1_images.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      You will learn about the following features of Word:
+      * Transferring data
+      * Integrating text and data
+      * Integrating images and charts
+      * Linking information
+      * Mail merge
+  -
+  -
+    title: Combining information
+    theme: t-bg-supporting3
+    copy: |
+      From time to time, you might find that it is useful to include different types of information in your Word documents.
+
+      Information contained in spreadsheets is one of the most common types of data that is imported into word documents. For example, charts and tables for a progress report.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Guidelines for transferring data
+          text: |
+            When you’re transferring data, it’s important that you follow a number of basic guidelines:
+            * Before you import anything into your Word document, position your cursor at the point in the document where you want the data to appear
+            * Make sure you select the correct data or file to transfer
+            * Make sure that the data is in a suitable format for transferring into a Word document
+            * If you are importing a file you should check that the file size isn’t too large, as this will affect the usability of your document
+
+
+          img: it2_u1_s5_p1_slide1.svg
+        -
+          title: Presenting documents
+          text: |
+            One important point to bear in mind when integrating different types of data is the overall presentation of your document.
+
+            When inserting data from other files, you can change the layout of your original document. If your cursor is positioned in the wrong place, this can insert data into your document at the wrong point and spoil the document structure.
+
+            Whether your document is a letter, report or memo, it’s important that any data you import does not affect how suitable the document is for its purpose.
+
+
+          img: it2_u1_s5_p1_slide2.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Why do you think it’s important to make sure your information is reliable? If you have been asked to produce a report at work and your information is unreliable, what effects could this have?
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ### Integrating files into Word
+
+      Two of the main types of information that you might want to integrate into your documents. These are text files and data files
+
+      By importing data from a spreadsheet file into your document, you can present data in a professional, easy to read format. You can even create a link between your document and the Excel data which means that if the data in the spreadsheet changes it will also be updated in your word document too!
+
+      The best way to import spreadsheet data into your work is in .csv format. (Comma Separated value).  – this is a generic file format available as an option when saving Excel. Click on the owl image on the right to take you to a website for more information on CSV files.
+
+    img: /images/svg/stretch_button.svg
+    link: //www.guru99.com/excel-vs-csv.html
+  -
+  -
+    title: Data integrity
+    theme: t-bg-supporting2
+    copy: |
+      Data integrity is the level of validity that exists in your data for example is it accurate.
+
+      What affects data integrity? A number of different things can compromise the integrity of your documents and you can also minimise problems.
+      
+      Select the images below to learn about some of these things:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: What affects data integrity
+          copy: |
+            * Human errors when data is being entered
+            * Errors when the data is being transferred from one place to another
+            * Viruses
+            * Problems with hardware and or software
+          img: it2_u1_s5_p1_reveal1.svg
+        -
+          title: Minimising problems
+          copy: |
+            * Backing up your data on a regular basis
+            * Ensuring that only certain people can access and control your data
+            * Use tools to prevent invalid data being entered
+          img: it2_u1_s5_p1_reveal2.svg
+  -
+  -
+

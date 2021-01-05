@@ -9,6 +9,7 @@ src/site/debug.liquid
 src/site/raw-content
 src/site/server.crt
 src/site/server.key
+tmp/
 
 # Local Netlify folder
 .netlify

@@ -1,0 +1,152 @@
+title: Managing your documents
+intro: |
+  Once you have created your PowerPoint presentations, you may need to access them from time to time, for example to check your work, add more content or print them off. 
+  
+  In this session you will learn about managing files in Microsoft PowerPoint.  
+banner: it2_u2_s2_p1_documents.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about managing files in Microsoft PowerPoint:
+      * Creating and manage folders
+      * Saving files
+      * Printing files
+      * Using different file types
+      * Reducing file size
+      
+      Some of these items may seem familiar as this was also covered in your Word Processing unit.
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Folder and file management
+
+      Using folders to organise your files is a great way of grouping similar files together. Over time you can end up with hundreds or even thousands of files and by saving similar files together in one folder it allows you to access them quickly and avoid having  to waste time searching for them. 
+
+      Please see the following video for a demonstration on how to create a new folder, manage your documents, open and save your files.
+
+    video: it2_u1_s2_p1_folders_video_pc.mp4
+  -
+  -
+    title: Saving files
+    theme: t-bg-primary
+    copy: |
+      When you save a file, you can choose to save it to a folder on your hard disk drive, a network location, a DVD or CD, the desktop or a flash drive. You can also choose to save it in another file format.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Steps to Save As
+          copy: |
+            To save your work in your chosen location, you can click to select a folder in the *Save As* dialog box.
+            1. Click the *File* button (*File menu* on a Mac) and then click *Save As*. The *Save As* dialog box will open.
+            2. In the *File* name box, enter a new name for the file.
+            3. Use the *Navigation* pane in the *Save As* dialog box to choose where you would like to save the file.
+            4. In the *Save as type list*, click the file format that you want to save the file in. There are many file formats to choose from including pdf, video or older versions of PowerPoint (ppt).
+            5. Click *Save*.
+          img: /images/svg/it2/it2_u2_s2_p1_accordion.svg   
+        - 
+          title: PowerPoint Show
+          copy: |
+            Saving your presentation as an automatic slideshow is useful if you are delivering a presentation to an audience. You can quickly and easily begin your slideshow by simply double-clicking the file icon, instead of opening up your PowerPoint program and clicking the *From Beginning* icon in the *Start Slideshow* group on the *Slideshow* tab.
+            
+            This is also good to do if you are sending the presentation to a user who is unfamiliar with PowerPoint – the slideshow will begin automatically for them so you can make sure they see your work without any problems.
+
+            In the *Save as* type, you’ll find the *PowerPoint Show* option in this list.
+        
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Why do you think it might be useful to print speaker’s notes and handouts to accompany your presentation?
+  -
+  -
+    title: Printing your Presentation
+    theme: t-bg-supporting3
+    copy: |
+      Once your documents are stored on your computer, you can access them at any time. However there may be times when you need paper versions of your documents. When this happens you can print your documents.
+
+      Before you finish working on your presentation, there are a couple of final options to consider. As well as printing your presentation slides, you can also choose to produce handouts or add speaker’s notes to your presentation.
+
+      It’s important to select the right orientation when printing different parts of your presentation.
+
+      Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Print Preview
+          text: |
+            Check that your document is set at the right size and page orientation to be printed by clicking on the *Page Layout* tab and using the options in the *Page Setup* group.  To preview your document:
+            1. Click the *File* button (*File menu* on a Mac).
+            2. Click the *Print* option.
+            3. In the window displayed you can preview each page of your document before you print it.
+            4. Here you can select a number of options, including: output type (printer or PDF), the Printer, Paper size and Number of copies that you would like to print.
+          img: it2_u2_s2_p1_slide1.svg
+        -
+          title: Adding speaker notes
+          text: |
+            1. In PowerPoint, open up the presentation that you want to add notes to.
+            2. Click on the *Notes* icon on the status bar, this will open up the notes text area at the bottom of the screen.
+            3. In the notes text area you will see ‘Click to Add Notes’ - click here and begin typing to add notes to your presentation.
+
+            If you want to enlarge the notes box, simply move your mouse over the grey line that separates the notes area from the main slide area – your cursor should change to a black double-headed arrow. Now click and drag this line upwards to increase the size of the notes area that is displayed.
+
+          img: it2_u2_s2_p1_slide2.svg
+        -
+          title: Viewing speaker notes
+          text: |
+            1. Click on the *View* tab.
+            2. In the *Presentation Views* group, click on *Notes Page*.
+            3. Your presentation will now change to display the speaker’s notes as they will appear when printed.
+
+            To change your presentation view back to normal, simply click on the *View* tab and then click on the *Normal* button in the *Presentation Views* group.
+
+          img: it2_u2_s2_p1_slide3.svg
+        -
+          title: Printing your speaker notes
+          text: |
+            Printing speaker’s notes can be useful when you are giving your presentation, as it means that you can refer to your notes as you go along. This means that you don’t have to keep closing your presentation to read your notes!  To print your presentation as speaker’s notes:
+            1. Click the *File* button (*File menu* on a Mac) and then select *Print* from the menu.
+            2. Under *Settings*, click on the drop down that says *Full Page *Slides**. (Select *Layout* on a Mac)
+            3. Under *Print Layout*, select *Notes Pages*.
+            4. Once you are happy with your print options, click the *Print* icon.
+          img: it2_u2_s2_p1_slide4.png
+        -
+          title: Page orientation
+          text: | 
+            By default Microsoft PowerPoint will print presentation slides in landscape format.  It will print notes, handouts and outlines in portrait format.         
+            1. Click the *File* button (*File menu* on a Mac) and then select *Print* from the menu.
+            2. Use the *Full Page *Slides** drop-down (*Layout* on a Mac) to select what you would like to print, this might be the slides of your presentation, handouts, an outline or speakers notes.
+            3. Click on the *Orientation* drop down (*Orientation icon* on a Mac) and select either Portrait or Landscape orientation.
+            4. When you are happy with your selection, click the *Print* icon.
+          img: it2_u2_s2_p1_slide5.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        All of the options for printing work can be found on the Home tab.:
+          answers:
+            True: false
+            False: true
+        There are two possible orientations that you can print your documents in.:
+          answers:
+            True: true
+            False: false
+        You cannot print speaker’s notes.:
+          answers:
+            True: false
+            False: true
+  -

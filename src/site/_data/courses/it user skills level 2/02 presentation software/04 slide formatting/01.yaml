@@ -1,0 +1,92 @@
+title: Slide formatting
+intro: |
+   The structure and format of your slides is very important in any presentation. When you open PowerPoint, you will be presented with a blank slide, however there are a number of design and formatting options you can choose from to enhance your presentation.
+banner: it2_u2_s4_p1_designformatting.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about placing items and editing tools in Microsoft PowerPoint:
+        * Slide formatting
+        * Design and formatting
+        * Master slides
+        * Evidencing your editing skills
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      It’s really important that you can change the order of slides as this will be a key part of your assessment.
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: What kind of information might you include in headers and footers?
+  -
+  -
+    title: Some suggestions. . .
+    theme: t-bg-primary3
+    copy: 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            * Headers often include information like the date and time and slide numbers
+            * Footers often include your name, the company name and a copyright notice
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+        Please see the following video for a demonstration on how to apply the following items:
+
+        * Slide layout
+        * Slide order
+        * Slide orientation
+        * Hiding slides
+        * Headers and footers
+
+    video: it2_u2_s4_p1_slideformatting.mp4
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, apply the different techniques and tools to your practice document that you worked on in the last session.
+  -
+  -
+    title: Read - Slide layouts
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Select to see an example of how different [slide layouts](/pdfs/it2_u2_s4_p1_slide_layouts.pdf) could be used in your presentation.
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The options for hiding slides can be found on the slideshow tab.
+          answer: slideshow
+        -
+          sentence: The options for changing the layout can be found in the Home tab.
+          answer: layout
+        -
+          sentence: You would put repeated information in the Headers and footers part of the slide.
+          answer: Headers and footers
+        -
+          sentence: When you hide a slide it is not deleted.
+          answer: deleted
+        -
+          sentence: A hidden slide will still appear in the slides pane.
+          answer: slides
+        -
+          sentence: You can change the order of your slides with your mouse using drag and drop in the slides pane.
+          answer: order
+    theme: i-quiz
+  -

@@ -1,0 +1,126 @@
+title: Mail merge
+intro: |
+    Mail merge is a useful tool to use when you need to create standardised letters, labels and envelopes to send to a large number of people. A mail merge consists of three separate elements: the original document, the recipient information and the finished, merged documents.
+banner: it2_u1_s5_p3_mailmerge.jpg
+sections:
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      It is important that you fully understand how to use the mail merge tool as you will be required to complete a mail merge in your assessment.
+  -
+  -
+    title: Mail Merge
+    theme: t-bg-supporting3
+    copy: |
+      Select the images below:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Mail Merge Wizard on a PC
+          copy: |
+            The easiest way to create a mail merge is to use the Mail Merge Wizard. You would start with the Mail Merge Wizard which will bring up a panel/window and then go through six steps which you can see below.
+
+            On the *Mailings* tab select *Start Mail Merge*, from here select *Step-by-Step Mail Merge Wizard...* to start the wizard.
+          img: it2_u1_s5_p3_reveal1.svg
+        -
+          title: Mail Merge on a Mac
+          copy: |
+            Although the mail merge tool works slightly differently on a Mac, it will take you through the process step-by-step - similiar to the PC wizard.
+
+            On the *Mailings* tab select *Start Mail Merge*, then select the document type. You will then be prompted to take the next step *Select Recipients*.
+
+          img: it2_u1_s5_p3_reveal2.svg
+  -
+  -
+    title: Using the mail merge wizard on a PC
+    theme: t-bg-primary
+    copy: |
+      
+      Scroll through the slides below to learn more information and then watch the video demonstration for specific step by step instructions.
+
+      *Please note - there is no mail merge wizard on a MAC - but you can see how it works slightly differently in the video below.*
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Step 1. Select document type
+          text: |
+            Once you have opened the Wizard, you will see a panel appear at the right hand side of your document. Here you can select what kind of document you are working on.
+
+            As you can see you can create a large number of different documents. For the purposes of this course, you need to know how to create a letter.
+          img: it2_u1_s5_p3_slide1.svg
+        -
+          title: Step 2. Select a starting document
+          text: |
+            In this step, you can decide whether you want to set up your letters…
+            * Using the current document – this will allow you to type the text you want to include in your letter into the open document
+            * Starting from a template – this will allow you to start the merge using an existing template
+            * Starting from an existing document – this will allow you to start the merge using a document you have already written
+          img: it2_u1_s5_p3_slide2.svg
+        -
+          title: Step 3. Select recipients
+          text: |
+            At this point in the mail merge, you need to choose who you want to send the letter to. You will be given a number of options:
+
+            * If you select Type a new list, click on Create to input your data
+            * If you select Select from Outlook contacts, click on Choose Contacts folder and select contacts from your Outlook email
+            * If you select Use an existing list, click on Browse and select data already saved on your computer, this could be in the form of a spreadsheet
+
+          img: it2_u1_s5_p3_slide3.svg
+        -
+          title: Step 4. Write your letter
+          text: |
+            If you have not already edited the document so that it reads as you want, now is the time to write your letter. Some templates may have automatically inserted an Address Block or Greeting Line. If not, you can add them yourself.
+
+            Both the Address Block and Greeting Line dialog boxes give you the option to ‘Match fields’ It is worth clicking on this to check whether the information will appear in the right places – you wouldn’t want the postcode to appear as the first line of the address!
+          img: it2_u1_s5_p3_slide4.svg
+        -
+          title: Step 5. Preview your letter
+          text: |
+            Here you have the option to preview your letters. You can click through all of your letters to make sure that they are displaying properly, and you can also edit your recipient list.
+          img: it2_u1_s5_p3_slide5.svg
+        -
+          title: Step 6. Complete the merge
+          text: |
+            Here you can click to Print your letters, or you can Edit individual letters and make changes.
+
+            Remember! You can still use the arrows at the bottom of the Wizard to navigate back to the step that you want to change if there is something wrong with your letter!
+          img: it2_u1_s5_p3_slide6.svg
+        
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Mail Merge
+
+      Please see the following video for a demonstration on how to:
+      * Select your document type
+      * Select a starting document
+      * Select recipients
+      * Write your letter
+      * Preview your letter
+      * Complete the merge
+
+    video: it2_u1_s5_p3_mailmerge_video_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Mail Merge
+      
+      Now that you have watched how to use the mail merge tool its time to have a go yourself! If you click on the links below, you will be able to download the practice files required.
+
+      [Mail merge addresses document](/pdfs/it2_u1_s5_p3_sample_mailmerge_addresses.xls)
+      
+      [Mail merge letter document](/pdfs/it2_u1_s5_p3_sample_mail_merge_practice_letter.docx)
+  -
+  

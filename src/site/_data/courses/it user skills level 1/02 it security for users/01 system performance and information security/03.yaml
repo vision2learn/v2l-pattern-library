@@ -1,0 +1,109 @@
+title: Information security
+intro: |
+  text. (1.3) and (1.4)
+banner: it1_u2_s1_p3_infosecurity.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Identify threats to information security associated with the widespread use of technology. (1.3)
+  -
+  -
+    title: Threats to information security
+    theme: t-bg-primary
+    copy: |
+      Identify threats to information security associated with the widespread use of technology (1.3)
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg     
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Take appropriate precautions to keep information secure. (1.4)
+  -
+  -
+    title: Keep information secure
+    theme: t-bg-primary
+    copy: |
+      Take appropriate precautions to keep information secure. (1.4)
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 4 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 5 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Information security
+      Please see the following video for a demonstration on taking appropriate precautions to keep information secure.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the videos, have a go at . .  in the following [practice document]().
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about information security
+
+      links:
+        website description: http://www.google.co.uk
+        
+  -
+  -

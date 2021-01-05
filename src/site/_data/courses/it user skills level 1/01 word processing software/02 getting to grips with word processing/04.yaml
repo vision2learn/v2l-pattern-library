@@ -1,0 +1,58 @@
+title: Headers and footers
+intro: |
+  On this page we will look at:
+  * Headers and footers
+  * Adding useful data
+banner: it1_u1_s2_p4_headers.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: Adding useful data
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        - 
+          title: Page numbers
+          text: |
+            You can include page numbers if you create a header / footer in your document. You can also include page numbers directly from using the Insert tab.
+            
+          img: it1_u1_s2_p3_slide4.svg
+        - 
+          title: Date / Time
+          text: |
+            You can include date / time information if you create a header or footer in your document. You can also include the date directly from using the Insert tab.
+            
+          img: it1_u1_s2_p3_slide5.svg 
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Headers and Footers
+
+      When you add a header or footer to your document, it will appear on every page.
+      
+      It is often very useful to include a header or footer in your document, as it saves having to type the same text on every page – Word will automatically do it for you. For example, if you wanted to include a reference that appears at the bottom of every page in your document, you could use a footer to do this.
+
+      Please see the following video for a demonstration.
+
+      *level 2 example*
+
+    video: it2_u1_s4_p2_headers_video_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about header and footers, try this out in your practice document.
+  -

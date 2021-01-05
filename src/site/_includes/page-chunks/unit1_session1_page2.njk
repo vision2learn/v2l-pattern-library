@@ -47,7 +47,8 @@ In this session you will learn about the following:
 {% endif %}
 
 <section class="t-bg-primary">      
-  <h2>Why study {{ course | title }}?</h2>
+  {# TODO: IT isn't formatted correctly #}
+  <h2>Why study {{ course | formattitle }}?</h2> 
   {{ why | markdownify | safe }}
 </section>
 

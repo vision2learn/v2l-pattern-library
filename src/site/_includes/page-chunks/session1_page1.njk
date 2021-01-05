@@ -17,12 +17,12 @@
 
 <section>
   <h2>Course features </h2>
-  {%- if not module.courseFeatures -%}
+  {%- if not courseFeatures -%}
     {%- include "components/reveal.njk" %}
   {% else %}
     {# TODO: DRY this  #}
     <ul class="l-icon-grid">
-      {%- for feature in module.courseFeatures %}
+      {%- for feature in courseFeatures %}
         {{ components.reveal({
             heading: feature, 
             copy: defaultdata.courseFeatures[feature].copy, 

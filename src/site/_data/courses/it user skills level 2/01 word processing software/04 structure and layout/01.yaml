@@ -1,0 +1,138 @@
+title: Structure and layout
+intro: |
+  When creating a document using Microsoft Word, it’s really important to think about how you will structure your work. An effective layout and structure can make your documents easier to understand.
+banner: it2_u1_s4_p1_structure_layout.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about the following features of Word:
+      * Document structure
+      * Page Layout
+      * Working with Tables
+      * Working with Forms
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: How can formatting your documents improve the presentation and meaning of your work?
+  -
+  -
+    title: Some ideas...
+    theme: t-bg-primary3
+    copy: 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title:
+          copy: |
+            * Page numbers and dates act as excellent reference points
+            * Changing page orientation can help display information more clearly
+            * Bullet points and page numbering can be used to break down information and make it easier to read and understand
+            * Using tables also helps to break down information
+            * Colour and text formatting options can make your documents more interesting and attractive
+            * Styles and themes can provide your documents with a professional finish        
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      Make sure that you are familiar with the different types of section breaks as you will need to use these in your assessment.
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    copy: 
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Microsoft Word automatically inserts a page break at the end of a page.":
+          answers:
+            True: true
+            False: false
+        Is the following statement true or false? "You have to turn on Orphan and Widow Control in Microsoft Word.":
+          answers:
+            True: false
+            False: true
+        Is the following statement true or false? "To insert page numbers, you first need to click on the Page Layout tab.":
+          answers:
+            True: false
+            False: true
+    copy2: So how did you do? Take a look at the below slider to find out more.
+  -
+  -
+    title: Document structure
+    theme: t-bg-primary
+    copy: |
+      It’s important to structure documents properly so that they flow and make sense to the reader. Scroll through the slides below to learn more about some of the key aspects of document structure, and then watch the video below for the instructions.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Page breaks
+          text: |
+            When you reach the end of a page, Word automatically inserts a page break to take you to a new, blank page. If you want to insert a page break before the end of a page, you can insert a manual page break.
+
+          img: it2_u1_s4_p1_slide1.svg
+        -
+          title: Paragraph breaks
+          text: |
+            To create a paragraph break in your document, simply press the Enter key twice when you reach the end of a paragraph. This will move your cursor down onto a new line and you can begin to type a new paragraph.
+
+            By using this technique, you can space your document out so that it is easy to read and use paragraphs to group related text together.
+          img: it2_u1_s4_p1_slide2.svg
+        -
+          title: Orphans and widows
+          text: |
+            Good Word documents will not contain widows or orphans!
+
+            A widow is a page that begins with the last line of the paragraph before.
+
+            An orphan is a page that ends with the first line of the next paragraph.
+
+            To help you avoid these scenarios, you can use Widow and Orphan Control. 
+
+          img: it2_u1_s4_p1_slide3.svg
+        -
+          title: Section breaks
+          text: |
+            You can use section breaks to change the layout or formatting of a particular page (or pages) in your document. 
+            
+            For example, you might want one page of your document in portrait orientation and the second page in landscape orientation – **a Section break (Next Page)** would allow you to do this.
+
+          img: it2_u1_s4_p1_slide4.svg
+        -
+          title: Page numbers
+          text: |
+            It is often helpful to include page numbers on a document that has multiple pages. You touched on page numbering in session 3, but we will look at in more detail here.
+
+          img: it2_u1_s4_p1_slide5.svg     
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Document structure
+
+      The following video will give instructions on how to:
+      * Insert a page break and page numbers
+      * Enable orphan and widow control,
+      * Create line, section and page breaks
+      
+      Please see the following video for a demonstration:
+    video: it2_u1_s4_p1_documentstructure_video.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about structural and layout tools try these out in the following practice document.
+      
+      [Word practice file](/pdfs/it2_u1_s4_p1_practice_document.docx)
