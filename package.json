@@ -5,7 +5,7 @@
   "repository": "https://github.com/MrSleeth/v2l-pattern-library/",
   "main": "index.js",
   "scripts": {
-    "start-proto": "docker run -d --rm --cpus='.75' --name 'v2l-prototype' -v $(pwd):/code:cached -p 8080:8080 -p 3001:3001  mrsleeth/v2l:node10 dev",
+    "start-proto": "docker run -d --rm --cpus='.75' --name 'v2l-prototype' -v $(pwd):/code:cached -p 8080:8080 -p 3001:3001  mrsleeth/v2l:node10 start",
     "stop-proto": "docker stop v2l-prototype",
     "start": "yarn install && yarn run dev",
     "dev": "netlify-cms-proxy-server & ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev eleventy --serve",
