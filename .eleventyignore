@@ -1,3 +1,13 @@
 /src/site/Animate
 /src/site/captivate
 .DS_Store
+
+# Uncomment to stop building all courses
+# /src/site/content/
+
+# Uncomment to stop building specific courses
+/src/site/content/employability-and-personal-development
+# /src/site/content/business-administration
+# /src/site/content/it-user-skills-1
+# /src/site/content/it-user-skills-2
+# /src/site/content/lean-organisation-techniques
