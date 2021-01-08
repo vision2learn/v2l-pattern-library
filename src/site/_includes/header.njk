@@ -4,10 +4,10 @@
 
 {%- set unitData = courses[course] | courseinfo %}
 {%- set thisUnit = unitData.keysOrdered[unit - 1] %}
-{%- set unitName = thisUnit | replace(unitNameFilter, "") | trim | capitalize -%}
+{%- set unitName = thisUnit | replace(unitNameFilter, "") | replace("-", " ") | trim | capitalize -%}
 {%- set sessionData = courses[course][thisUnit] | courseinfo -%}
 {%- set thisSession = sessionData.keysOrdered[session - 1] %}
-{%- set sessionName = thisSession | replace(sessionNameFilter, "") | trim | capitalize -%}
+{%- set sessionName = thisSession | replace(sessionNameFilter, "") | replace("-", " ") | trim | capitalize -%}
 
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%} 
@@ -21,7 +21,7 @@
 
     {% if page.url != '/login/' %}
       <p class="c-main-head__details">
-        <span class="c-main-head__course">{{ course | d("Course Title")}}</span>
+        <span class="c-main-head__course">{{ course | replace("-", " ") | d("Course Title")}}</span>
         <span>Unit {{ unit | d("X")}} of {{ unitCount | d('X') }}: {{ unitName | d("Unit Name") | title }}</span>
         <span class="c-main-head__session">Session {{ session | d("X") }} of {{ sessionCount | d("X") }}: {{ sessionName | d("Session Name") | title }}</span>
       </p>

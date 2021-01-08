@@ -18,10 +18,10 @@
 
 {%- set unitData = courses[course] | courseinfo %}
 {%- set thisUnit = unitData.keysOrdered[unit - 1] %}
-{%- set unitName = thisUnit | replace(unitNameFilter, "") | trim | capitalize -%}
+{%- set unitName = thisUnit | replace(unitNameFilter, "") | replace("-", " ") | trim | capitalize -%}
 {%- set sessionData = courses[course][thisUnit] | courseinfo -%}
 {%- set thisSession = sessionData.keysOrdered[session - 1] %}
-{%- set sessionName = thisSession | replace(sessionNameFilter, "") | trim | capitalize -%}
+{%- set sessionName = thisSession | replace(sessionNameFilter, "") | replace("-", " ") | trim | capitalize -%}
 
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%}
