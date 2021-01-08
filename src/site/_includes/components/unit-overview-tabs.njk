@@ -1,31 +1,39 @@
-{%- import "components/all.njk" as components %}
-{%- import "course-vars.njk" as courseVars %}
-{%- set courseData = allcourses[module.data.course] %}
+{%- from "components/all.njk" import unitOverviewBtn as button %}
+
+{%- set unitData = courses[course] | courseinfo %}
+{%- set thisUnit = unitData.keysOrdered[unit - 1] %}
+{%- set sessionData = courses[course][thisUnit] | courseinfo -%}
+{%- set thisSession = sessionData.keysOrdered[session - 1] %}
 
 <section class="t-bg-primary" id="unit-overview">
   <h2>Unit overview</h2>
   <p hidden>
-    Press on each circle below to see which learning topics will be covered in each session of Unit {{ module.data.unit }}. 
+    Press on each circle below to see which learning topics will be covered in each session of Unit {{ unit }}. 
   </p>
 
   <div class="tabbed ">
     <ul class="l-btn-group t-bg-primary">
-      {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}
+      {%- for i in range(0, sessionCount) %}
         <li>
-          {{ components.unitOverviewBtn(loop.index) }}
+          {{ button(loop.index) }}
         </li>
       {%- endfor %}
     </ul>
 
-    {%- for session, breakdown in courseData.units[module.data.unit - 1].sessions %}
+    {% for session in sessionData.keysOrdered %}
+      {% set masterloop = loop.index %}
       <section id="section{{ loop.index }}">
-        <h3>Session {{ loop.index }} - "{{ session }}" topics:</h3>
+        <h3>Session {{ loop.index }} - "{{ session | replace("0" + loop.index, "") | replace("-", " ") | d('error') | trim | formattitle }}" topics:</h3>
         <ul>
-          {%- for item in breakdown %}
-            <li>{{ item }}</li>
+          {%- for pageNo, pageData in courses[course][thisUnit][session] %}
+            {% if masterloop == 1 and (loop.index == 1 or loop.index == 2) %}
+              {# BLANK #}
+            {% elseif not loop.last %}
+              <li>{{ pageData.title | formattitle }}</li>
+            {% endif %}
           {%- endfor %}
         </ul>
       </section>
-    {%- endfor %}
+    {% endfor %}
   </div>
 </section>

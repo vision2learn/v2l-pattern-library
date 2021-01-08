@@ -1,0 +1,112 @@
+title: Getting to grips with word processing
+intro: |
+  In this session we are going to look in more detail at how you can really make the most of the wide range of word processing tools that are available to you.
+  
+  As you work through the following pages, you’ll find out how to use word processing tools to create documents with a variety of features. 
+banner: it1_u1_s2_p1_word2.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about about structuring information in Microsoft Word:
+      * Page layout
+      * Page setup
+      * Create and modify tables
+      * Heading and formatting styles
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: Page Setup and Layout
+    theme: t-bg-primary
+    copy: |
+      Once you have created some content, there are a number of techniques that you can apply in order to change the layout of your document. Scroll through the slides below to find out more.
+      
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Page size and orientation
+          text: |
+            Most standard documents, such as letters, reports and memos, will usually be written in portrait orientation. However, it is often useful to change it to landscape orientation if the format would work better this way.
+
+            When you change the page orientation of your document, you have two options. You can change the orientation of pages in the whole document, or just individual pages.
+
+          img: it1_u1_s2_p1_slide1.svg
+        -
+          title: Margins
+          text: |
+            In Microsoft Word, it is possible to change or set page margins. Margins are the blank spaces around the edges of a page. The printable area of a document is set between the margins. Options for margins can be found in the *Page Setup* group on the *Page Layout* tab.
+
+          img: it1_u1_s2_p1_slide2.svg
+        -
+          title: Punctuation and spacing
+          text: |
+            As well as the letters and numbers that appear on your keyboard, you will also see various punctuation options.
+            
+            Full stops (.) and commas (,) are the most commonly used punctuation options. You will use . at the end of each sentence and , to separate a sentence into smaller segments.
+          img: it1_u1_s2_p1_slide3.svg
+        -
+          title: Alignment
+          text: |
+            You can set up the alignment of your document and this will change the layout of your page. The majority of your document is likely to be aligned to the left, but you can easily highlight certain areas of text (e.g. headings) and align them elsewhere.
+          img: it1_u1_s2_p1_slide4.svg
+        -
+          title: Justify alignment
+          text: |
+            You can also choose to ‘fully justify’ your text using the *Justify* alignment button. This adjusts the horizontal spacing of your document so that the text is aligned evenly along both the left and right margins. This creates a smooth edge on both sides of your page.
+            
+            You should be careful when justifying a particularly short line of text – it may end up looking a little odd as it will spread the text across the page and create a large amount of space between the words.
+          img: it1_u1_s2_p1_slide5.svg
+        -
+          title: Paragraph breaks and line spacing
+          text: |
+            You can format the layout of your document by adding paragraph breaks and also by changing the line spacing that is used.
+      
+            Once you start typing your document, it is useful to be able to split your text up into paragraphs. This makes your text easier to read and allows you to separate different pieces of text into relevant sections.
+          img: it1_u1_s2_p1_slide6.svg
+        -
+          title: Page breaks
+          text: |
+            When you reach the end of a page, Word automatically inserts a page break to take you onto a new blank page. If you want to insert a page break before the end of the page, you can insert a manual page break.
+          img: it1_u1_s2_p1_slide7.svg
+  -
+  -
+  
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Your page layout
+      
+      Before you start typing your document, you can check to see if the pages are set up to your liking. By default, Microsoft Word will assume that you’re using A4 sized paper in portrait orientation (with the short sides of the paper at the top and bottom). It also assumes that your margins will be 2.5cm at the top and bottom of your document, and 2.5cm left and right. If these default settings aren’t what you need for the document you are creating, you can change them.
+
+      Please see the following video for a demonstration.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Page layout
+    theme: 
+    copy: |
+      Click on the different buttons in the **Page Layout tab** below to learn more about their functions.
+
+    interactive: 
+      file: it2/u1_s4_p2_pagelayout_group_pc
+      width: 1500
+      height: 430
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about some of the page setup and layout techniques and tools, try these out in the following practice document.
+      
+      [Word practice file]()
+  -

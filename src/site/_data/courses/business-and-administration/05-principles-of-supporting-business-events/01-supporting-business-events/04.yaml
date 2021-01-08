@@ -1,0 +1,37 @@
+title: "What did you learn?" 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      
+      ### In brief
+
+      By working through this session, you have learned all about:
+
+      * The range of support activities that may be required when organising a business event
+      * The ways of providing support before, during and after a business event
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "There is a wide range of possible business events that may need to be organised.":
+          answers:
+            True: true
+            False: false
+        Which of the following is NOT an example of a pre-event activity?:
+            answers:
+              Sending out meeting requests: false
+              Booking a venue: false
+              Writing up minutes or notes: true
+        Helping to set out rooms, taking notes and ___________ refreshments are all examples of typical ‘during the event’ tasks.":
+            answers:
+              Serving: true
+              Removing: false
+              Buying: false
+

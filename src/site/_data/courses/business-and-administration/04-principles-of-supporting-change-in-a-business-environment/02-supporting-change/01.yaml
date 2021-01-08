@@ -1,0 +1,170 @@
+title: Supporting change
+intro: |
+  In this session, you will learn about three key aspects of supporting change. These are:
+  * Reasons for reviewing working methods, products or services
+  * Types of support needed during change
+  * The benefits of working with others during change.
+banner: ba_u4_s2_p1_support_change_1_v2.jpg
+sections:
+  -
+    title: Learning goals
+    theme: t-bg-primary
+    copy: |
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Business and Administration qualification:
+
+      You will:
+      1. Understand the purpose of supporting change in a business environment
+
+      At the end of the session you can:
+      1. Identify reasons for reviewing working methods, products or services
+      2. Describe types of support that people may need during change
+      3. Explain the benefits of working with others during change
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        As you work through this session, you can search for extra information on the following website:
+      links:
+        Change management: http://www.businessballs.com/changemanagement.htm
+  -
+    title: Reviewing the workplace
+    theme: t-bg-supporting2
+    copy: |
+      ### Methods, products and services
+
+      In session 1 you considered the influences that may create pressure for businesses to change. These can create pressures ranging from the very small to the very significant. Sometimes one small change can have a big effect on a whole operation.
+
+      They occur all the time so businesses need to be diligent in detecting these influences and responding appropriately to them. See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Impact on two areas
+          copy: |
+            It is usually possible for a business to assess the potential impact of change in two broad areas. These are:
+            * Impact on working methods
+            * Impact on the products or services provided.
+
+            The impact of change could affect either of these options or both, simultaneously. There will be many changes that have no impact at all on a business/organisation.
+
+            There are literally thousands of external changes happening all the time that are not relevant to an organisation or their impact is so small as to be meaningless.
+            
+          img: /images/svg/ba/ba_u4_s2_p1_accordion_1.svg
+  -
+    title: Consequences of not changing
+    theme: t-bg-primary
+    copy: |
+      ### The bottom line
+      
+      In business it is important to keep up with developments and review the impact of these on a regular basis. If this is not done it can have far-reaching repercussions for the organisation. 
+      
+      Scroll through the slides below to see examples:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Swiss watch industry
+          text: In the late 1960s the Swiss watch industry ignored the usefulness of using quartz to make watches. In a decade the Swiss watch industry saw its market share fall from 65% to 10% and close on 50,000 jobs were lost.
+
+          img: ba_u4_s2_p1_slide_1.svg
+        -
+          title: VAT increase
+          text: |
+            The move from 17.5% VAT to 20% VAT may have had potentially big effects on retailers. One of the biggest effects will have been to change prices on labels, as well as update computerised systems for stock control, payments and accounting, to reflect the price changes.
+          img: ba_u4_s2_p1_slide_2.svg
+        -
+          title: Legislation change
+          text: |
+            Another example would be changes in employment and disability legislation. These changes may have significant influences on personnel practices, which may in turn affect recruitment policies. But this change would not affect customers - only internal procedures would be affected.
+          img: ba_u4_s2_p1_slide_3.svg
+    copy2: |
+      The bottom line is that if organisations fail to make appropriate changes in their work practices, products or services then they may lose some or all of their customers. This means they risk going out of business.
+      
+      Most changes in products or services will necessitate changes in work practices. The structure of people’s jobs and the tasks they have to do will need to change.
+  -
+    title: Examining change
+    theme: t-bg-supporting3
+    copy: |
+      ### Two simple questions
+      When examining the internal and external changes that impact on a business, it helps to ask two simple questions:
+      1. How does [x] impact on the work methods of the business?
+      2. How does [x] impact on the products or services of the business?
+
+      It's worth bearing in mind that answers will depend on the type of business and what it sells. Select the images below to see examples:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Business 1
+          copy: |
+            **Type of business**  
+            Furniture store in the Midlands
+
+            **Question**  
+            How will the economic downturn affect the demand for new furniture?
+          img: ba_u4_s2_p1_reveal_1.svg
+        -
+          title: Business 2
+          copy: |
+            **Type of business**  
+            Higher education institution
+
+            **Question**  
+            How will higher university fees influence the demand for university places?
+          img: ba_u4_s2_p1_reveal_2.svg
+        -
+          title: Business 3
+          copy: |
+            **Type of business**  
+            Ice-cream parlour
+
+            **Question**  
+            How will the forecasted weather affect demand in the seaside ice-cream parlour?
+          img: ba_u4_s2_p1_reveal_3.svg
+        -
+          title: Business 4
+          copy: |
+            **Type of business**  
+            Office-based business
+
+            **Question**  
+            How will the MD's idea of introducing lean production techniques affect working practices?
+          img: ba_u4_s2_p1_reveal_4.svg
+    copy2: |
+      
+  -
+    title: Answer the questions in detail
+    theme: t-bg-supporting3
+    copy: |
+      The aim is to answer these questions in depth and note down exactly what changes the organisation will be making. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: For large-scale changes the detail could be...
+          copy: |
+            * Product by product
+            * Service by service
+            * Department by department
+            * Team by team
+            * Employee by employee
+            * Task by task
+
+            Taking the time to answer the key questions in detail will help to identify all the changes that the organisation will need to make if it is to continue to operate successfully. This is a detailed review of everywhere the proposed changes are expected to happen.
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      * When the drive for change is proactive and comes from within the organisation the changes will also focus upon the same two broad areas.
+      * Many businesses committed to quality will periodically review their work methods, products or services even if there are no external pressures for change or specific internal initiative. The aim is to continually improve performance.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Can you think of reasons why working methods, products and services would need to be reviewed?  Please write your notes in the box to the right.

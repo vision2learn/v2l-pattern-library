@@ -24,9 +24,8 @@ gulp.task("watch", function() {
 */
 
 
-if(process.env.ELEVENTY_ENV === 'dev') {
+if(process.env.ELEVENTY_ENV === 'dev' && 1 === 2) {
   gulp.task('build', gulp.parallel(
-    'images',
     'css',
     'js'
   ));

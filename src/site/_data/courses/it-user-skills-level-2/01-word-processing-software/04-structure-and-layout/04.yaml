@@ -1,0 +1,64 @@
+title: Working with forms
+intro: |
+  When you create a form in Microsoft Word, it means that users are only able to type in certain areas of your document. This protects the rest of your document from any changes.
+  
+banner: it2_u1_s4_p4_forms.jpg
+sections:
+  -
+    title: Working with forms
+    theme: t-bg-primary
+    copy: |
+      You can use forms for a wide range of tasks, such as creating questionnaires or filling in job applications.  Select the images below to read more.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Displaying the Developer tab
+          copy: |
+            Before you can create a form, you need to make sure that the *Developer* tab is on show. 
+            
+            Select File, Options, Customise Ribbon and tick the Developer box in the Main tabs window. (See the video below for more details).
+          img: it2_u1_s4_p4_reveal1.svg
+        -
+          title: Protect your form
+          copy: |
+            Before you send your form to people to be completed, you can protect your form so that other people can only make changes to certain parts of it. This means that no one can make changes to the questions in your form – they can just input their answers!
+          img: it2_u1_s4_p4_reveal2.svg
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Creating forms
+
+      Please see the following video for a demonstration on how to:
+      * Display the Developer tab
+      * Create drop-down options
+      * Create check boxes
+      * Protect your form
+
+    video: it2_u1_s4_p4_forms_video_pc.mp4
+ 
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about creating forms, its time to try this out.  Download the instructions and the practice document to make a start on creating your own form. 
+      
+      [Instructions on creating a form with check boxes](/pdfs/it2_u1_s4_p4_form_checkboxes.pdf)
+
+      [Word letter to create check boxes](/pdfs/it2_u1_s4_p4_forms_letter_checkbox.docx)
+
+      [Instructions on creating a form with drop down options](/pdfs/it2_u1_s4_p4_form_dropdown.pdf)
+
+      [Word letter to create drop down options](/pdfs/it2_u1_s4_p4_forms_letter_dropdownlists.docx)
+      
+      In your assessment you will need to create two different types of forms so it will be useful to complete the practice exercise so that you are comfortable with these tools.
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |     
+      Make sure you understand how to create a form with check boxes and a form with drop-down options as you will be asked to create these as part of your assessment.
+  -

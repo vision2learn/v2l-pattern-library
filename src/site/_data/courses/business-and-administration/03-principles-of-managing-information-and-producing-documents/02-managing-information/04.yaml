@@ -1,0 +1,39 @@
+title: "What did you learn?" 
+intro: Well done, you’ve now completed the second session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      
+      ### In brief
+
+      By working through this session, you have learned all about:
+
+      * The purpose of agreeing objectives and deadlines.
+      * Different ways to research, organise and report information.
+      * Why confidentiality is important.
+  -
+    title: Session Quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Research is important in business, as it provides information that can help with business decisions.
+          answer: decisions
+        -
+          sentence: Information should be stored, retrieved and handled in a consistent way.
+          answer: consistent
+        -
+          sentence: Access to confidential information should be strictly limited and secure.
+          answer: confidential
+        -
+          sentence: Information will be kept confidential for legal, commercial and moral reasons.
+          answer: moral
+        -
+          sentence: When information is archived, it is put into storage.
+          answer: storage
+    theme: i-quiz
+  -

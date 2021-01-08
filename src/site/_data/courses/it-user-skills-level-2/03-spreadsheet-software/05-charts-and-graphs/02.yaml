@@ -1,0 +1,79 @@
+title: Creating and formatting charts
+intro: |
+  Creating and formatting charts in Excel is really simple, and you may remember how to copy graphs from Excel into Microsoft Word and PowerPoint in your first two Units. It’s one of the easiest and most accurate ways to create a visual representation of your data.  
+banner: it2_u3_s5_p2_chart2.jpg
+sections:
+  -
+    title: Selecting data
+    theme: t-bg-primary
+    copy: |
+      Selecting the correct data for your chart is very important; it is the first step in creating any chart or graph.
+
+      If you know that you are going to use the data in a spreadsheet to create a graph then you should make sure that you structure your worksheet in such a way that you will be able to easily select the data that you going to use.
+
+      When it comes to selecting data for charts and graphs, there are many different options available. Select the images below to learn more. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Selecting a single data set
+          copy: |
+            You can create basic charts by simply selecting one column / row of data to display. 
+          img: it2_u3_s5_p2_reveal1.svg
+        -
+          title: Selecting a comparative data set
+          copy: |
+            If you want to create a chart or graph that displays a comparison of data, you will need to select two or more columns / rows of data.  
+          img: it2_u3_s5_p2_reveal2.svg
+        -
+          title: Selecting data from non-adjacent cells
+          copy: |
+            Occasionally, the columns / rows containing the data you want to include will not be next to each other in your spreadsheet. Here, you will need to select your data slightly differently in order to exclude the columns / rows you don't want to use.
+          img: it2_u3_s5_p2_reveal3.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Creating a chart
+      
+      To start making your chart, first you need to select the data that you want to include in your chart.
+
+      Please see the following video for a demonstration on how to create a chart.
+    video: it2_u3_s5_p2_creating_chart.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at creating a chart in your practice document that you worked on in the previous session.
+  -
+  -
+    title: Formatting charts and graphs
+    theme: t-bg-primary
+    copy: |
+      Once you have created your chart, you can improve it by giving it a title, labelling its axes and using legends.
+
+      Chart titles provide an overall title for your chart, letting others know what your chart or graph is for. Labelling axes helps the reader to interpret the units that each axis represents. A graph commonly has an X axis and a Y axis.
+
+      The legend is the key to interpreting your graph. It represents the different variables in the graph or chart (such as different coloured ‘slices’ in a pie chart!). 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Formatting charts
+      
+      Please see the following video for a demonstration on how to format a chart.
+    video: it2_u3_s5_p2_formatting_charts.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at formatting your chart in the same practice document as above.
+  -
+  -

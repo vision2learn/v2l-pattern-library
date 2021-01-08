@@ -1,18 +1,23 @@
 ---
 layout: default
-permalink: courses/{{ module.data.course | slug }}/unit-{{ module.data.unit}}/session-{{ module.data.session }}/{{ pagination.pageNumber + 1}}/index.html
+permalink: "courses/{{ course | d('no string') | slug }}/unit-{{ unit}}/session-{{ session }}/{{ pagination.pageNumber + 1}}/index.html"
 ---
+{%- set unitNameFilter = "0" + unit -%}
+{%- set sessionNameFilter = "0" + session -%}
 
-{%- import 'components/all.njk' as components %}
-
+{%- from 'components/all.njk' import pagination as pag %}
+<!--
+{{ unit }}
+{{ session }}
+-->
 {%- include 'header.njk' %}
 
-<main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ module.data.course }}" data-v2l-level="{{ module.data.level }}" data-v2l-unit="{{ module.data.unit }}" data-v2l-session="{{ module.data.session }}" data-v2l-page="{{ pagination.pageNumber }}">
+<main id="main" data-v2l-tags="{{ tags }}" data-v2l-course="{{ course }}" data-v2l-level="{{ level }}" data-v2l-unit="{{ unit }}" data-v2l-session="{{ session }}" data-v2l-page="{{ pagination.pageNumber }}">
   {{ content | safe }}
 </main>
 
 {% if page.url != '/login/' %}
-  {{ components.pagination(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
+  {{ pag(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
 {% endif %}
 <footer>
   <small>

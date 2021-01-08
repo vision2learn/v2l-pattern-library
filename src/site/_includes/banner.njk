@@ -1,31 +1,31 @@
 {%- import 'components/all.njk' as components %}
 
-{%- if module.data.banner %}
-  {%- set bannerImg = '/images/banners/' + module.data.shortcode + '/' + module.data.banner %}
+{%- if module.banner %}
+  {%- set bannerImg = '/images/banners/' + shortcode + '/' + module.banner %}
 {%- else %}
   {%- set bannerImg = '/images/banners/PLACEHOLDER.jpg' %}
 {%- endif %}
 
 
-{%- if module.data.session ==  1 %}
+{%- if session ==  1 %}
   {%- set sessionIs = "first" %}  
-{%- elseif module.data.session ==  2 %}
+{%- elseif session ==  2 %}
   {%- set sessionIs = "second" %}  
-{%- elseif module.data.session ==  3 %}
+{%- elseif session ==  3 %}
   {%- set sessionIs = "third" %}  
-{%- elseif module.data.session ==  4 %}
+{%- elseif session ==  4 %}
   {%- set sessionIs = "fourth" %}  
-{%- elseif module.data.session ==  5 %}
+{%- elseif session ==  5 %}
   {%- set sessionIs = "fifth" %}  
-{%- elseif module.data.session ==  6 %}
+{%- elseif session ==  6 %}
   {%- set sessionIs = "sixth" %}  
-{%- elseif module.data.session ==  7 %}
+{%- elseif session ==  7 %}
   {%- set sessionIs = "seventh" %}  
-{%- elseif module.data.session ==  8 %}
+{%- elseif session ==  8 %}
   {%- set sessionIs = "eighth" %}  
-{%- elseif module.data.session ==  9 %}
+{%- elseif session ==  9 %}
   {%- set sessionIs = "ninth" %}  
-{%- elseif module.data.session ==  10 %}  
+{%- elseif session ==  10 %}  
   {%- set sessionIs = "tenth" %}
 {%- else %}
   {%- set sessionIs = "--- not defined ---" %}
@@ -35,19 +35,19 @@
   {%- set lastPage = true %}
   {%- set bannerTitle = "What did you learn?" %}
   {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!" %}
-{%- elseif pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+{%- elseif pagination.pageNumber == 1 and session == 1 and unit == 1 %}
   {%- set bannerTitle = "Your learning goals" %}
 {%- else %}
-  {%- set bannerTitle = module.data.title | d("Page Title") %}
-  {%- set bannerText = module.data.intro | d("Page intro...") %}
+  {%- set bannerTitle = module.title | d("Page Title") %}
+  {%- set bannerText = module.intro | d("Page intro...") %}
 {%- endif %}
 
-<section class="c-banner" data-session="{{ module.data.session }}">
+<section class="c-banner" data-session="{{ session }}">
   <div class="c-banner__text boxout">
     <h1>{{ bannerTitle }}</h1>
-    {%- if pagination.pageNumber == 1 and module.data.session == 1 and module.data.unit == 1 %}
+    {%- if pagination.pageNumber == 1 and session == 1 and unit == 1 %}
       <p>
-        Work hard throughout your {{ module.data.course | formattitle }} course and be honest about the effort you put into each session.
+        Work hard throughout your {{ course | formattitle }} course and be honest about the effort you put into each session.
       </p>
 
       <p>

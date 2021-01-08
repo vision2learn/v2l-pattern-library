@@ -1,0 +1,87 @@
+title: Formatting your documents
+intro: |
+  In this session, we’re going to cover some key formatting techniques that you can use in Word.
+  
+  Do you know why it is useful to be able to format documents?
+banner: it1_u1_s3_p1_formattingtitle.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about formatting your documents in Microsoft Word:
+      * Formatting and amending text
+      * Characters and paragraphs formatting
+      * Using images
+      * Checking your work
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: Typeface and font size
+    theme: t-bg-primary
+    copy: |
+      The text and numbers you type in your document will display on the page in a certain typeface. This refers to the style of the text you are using. Microsoft Word has a wide range of different typefaces for you to choose from.
+
+      Scroll through the slides below to learn more.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Pre selection
+          text: |
+            Before you start typing a Word document, you can select the typeface you wish to use. To do this, simply click the small arrow to the right of the typeface menu on the toolbar to pull down the list of available typefaces. You can also select the size that you would like your text to appear as you type. 
+          img: it1_u1_s3_p1_slide1.png
+        -
+          title: Post selection
+          text: |
+            As well as selecting a typeface and font size at the beginning of a new document, you can also select existing text in a document and change its typeface / font size in the same way.
+          img: it1_u1_s3_p1_slide2.png
+  -
+    title: The Font group
+    theme: 
+    copy: |
+      The Font group sits in the *Home* tab in the Word Ribbon. This is where you can do things like change the font size and make text bold.  Click on the different buttons in the *Font* group below to learn about their functions.
+    interactive: 
+      file: it2/u1_s3_p2_font_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Read - Style guide
+    theme: t-bg-primary3 i-read
+    copy: | 
+      When you have applied different typefaces and font sizes to your document, you should check to make sure you have applied them accurately and consistently. A house style or style guide can help you to do this. 
+
+      You can use a style guide to record all of the different formats you want to include in your document, for example the typeface and font size you will use for headings / sub headings / paragraphs, etc. You can then use this to help you check that you have applied the correct formatting techniques throughout your document.
+
+      Take a look at the following example of a style guide:
+
+      [House styles](/pdfs/it2_u1_s3_p3_read_house_styles.pdf).
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+        ### Typefaces, selecting and emphasising text
+
+        Whenever you want to format, move, copy or delete a section of text, you must first select the text so that Word knows what you are trying to do.
+
+        You can use the bold, italic and underline options to emphasise sections of your text, to help make it stand out more in your document. 
+
+        Please see the following video for a demonstration:
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about selecting and formatting text, try this out in your practice document.
+  -

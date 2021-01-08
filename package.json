@@ -1,6 +1,6 @@
 {
   "name": "vision2learn-pattern-library",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Frontend Styleguide and Pattern Library for Vision2Learn",
   "repository": "https://github.com/MrSleeth/v2l-pattern-library/",
   "main": "index.js",
@@ -24,7 +24,7 @@
   "author": "Daniel Sleeth",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.7 || ^0.8",
+    "@11ty/eleventy": "^0.11",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "axios": "^0.18.1",
     "concurrent-transform": "^1.0.0",
@@ -51,6 +51,7 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
+    "js-yaml": "^3.14.1",
     "svgo": "^1.1.1"
   }
 }
