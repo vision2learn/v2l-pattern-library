@@ -1,5 +1,7 @@
 {
+  "course": "employability-and-personal-development",
   "tags": "epd",
+  "dotnetID": false,
   "level": 2,
   "courseFeatures": [
     "on the web",
@@ -12,5 +14,17 @@
     "time to practice",
     "read more about it"
   ],
-  "shortcode": "epd"
+  "shortcode": "epd",
+  "why": "Employability and personal development - why text here.",
+  "goals": {
+    "will": [
+      "learning outcome 1",
+      "learning outcome 2",
+      "learning outcome 3"
+    ],
+    "can": [
+      "link to pdf learning outcomes needed here",
+      "Also need a What you will learn section on this page - see it2 level 2 version for example"
+    ]
+  }
 }
