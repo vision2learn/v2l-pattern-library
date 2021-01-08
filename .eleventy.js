@@ -47,6 +47,11 @@ module.exports = function(config) {
   });
 
   config.addFilter("formattitle", value => {
+    if(!value) {
+      console.log("Error: ", value);
+      return false;
+    }
+    
     const str = value;
     let iterator; // = str[Symbol.iterator]();
     let formatted = '';
