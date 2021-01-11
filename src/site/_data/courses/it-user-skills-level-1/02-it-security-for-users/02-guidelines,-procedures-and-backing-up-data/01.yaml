@@ -41,7 +41,7 @@ sections:
             * Confidentiality
             * Disclosure of information
 
-          img: placeholder_icon.svg
+          img: it1_u2_s2_p1_slide1.svg
         -
           title: Information security policies
           text: |
@@ -51,7 +51,7 @@ sections:
             * Data classifications
             * Security procedures
 
-          img: placeholder_icon.svg
+          img: it1_u2_s2_p1_slide2.svg
         -
           title: Backup and storage policies
           text: |
@@ -61,7 +61,7 @@ sections:
             * Encryption protocols
             * Recovery guidelines
 
-          img: placeholder_icon.svg
+          img: it1_u2_s2_p1_slide3.svg
         
   -
   -
@@ -86,11 +86,11 @@ sections:
           sentence: External devices being connected to the system restrictions would be found in the Acceptable Use Policy.
           answer: Acceptable Use Policy
         -
-          sentence: User access levels would be found in the Information Security Policy.
-          answer: Information Security Policy
-        -
           sentence: Data backup schedules and procedures would be found the Backup and Storage Policy.
           answer: Backup and Storage Policy
+        -
+          sentence: User access levels would be found in the Information Security Policy.
+          answer: Information Security Policy
         
     theme: i-quiz
   -
@@ -124,7 +124,7 @@ sections:
       type: accordion
       content:
         - 
-          title: Certain information is kept confidential for several reasons. 
+          title: Certain information is kept confidential for several reasons 
           copy: |
             These include:
 

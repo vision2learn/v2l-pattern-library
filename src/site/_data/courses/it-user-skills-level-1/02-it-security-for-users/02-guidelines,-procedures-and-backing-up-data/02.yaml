@@ -15,7 +15,7 @@ sections:
     copy: |
       Describe why it is important to backup data securely (1.6)
 
-      Select the images below to read CHANGE TO SLIDER
+      Select the images below to 
     subInc: 
       type: slider
       title: 
@@ -23,6 +23,7 @@ sections:
         -
           title: a
           text: |
+            blah blah blah blah blah
 
           img: placeholder_icon.svg
         -
