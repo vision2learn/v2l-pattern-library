@@ -22,42 +22,42 @@ sections:
           title: Malicious programs
           copy: |
             Malicious programs such as viruses, worms, trojans, spyware
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal1.svg
         -
           title: Phishing
           copy: |
             Phishing and or Identity theft
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal2.svg
         -
           title: Cybercrime
           copy: |
             Cybercriminals pretending to be legitimate people to gain access to personal and sensitive data
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal3.svg
         -
           title: Insecure passwords
           copy: |
             The use of insecure passwords or using shared passwords
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal4.svg
         -
           title: Browser security
           copy: |
             Saving usernames and passwords in browsers
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal5.svg
         -
           title: Unsecured information
           copy: |
             Failing to log out when leaving a computer unattended and providing personal information over unsecured or public networks.
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal6.svg
         -
           title: Outdated Security Software
           copy: |
             Security software is designed to identify and protect information from known threats to data. Failure to keep security software updated means that any new threats will go undetected.
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_reveal7.svg
         -
           title: Lack of Encryption
           copy: |
             When sending sensitive information via email or storing information on removable media failure to encrypt the data can result in it being intercepted/accessed.
-          img: placeholder_icon.svg   
+          img: it1_u2_s1_p3_reveal8.svg   
   -
   -
     title: Key point
@@ -79,27 +79,27 @@ sections:
           title: Passwords
           text: |
             It can be easy to create passwords that are easily remembered such as birthdays or names but following a few simple steps will ensure that passwords provide a high level of security. Make sure that passwords contain a random mix of upper and lower case letters, numbers and symbol. The more complex the password the better and it is important that your password is never shared with others. 
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_slide1.svg
         -
           title: Saving passwords and usernames in browers
           text: |
             While it can be convenient to save passwords and usernames within the browsers settings for frequently visited sites, it does have the potential to be a serious security risk. Saving passwords and usernames should only be done if you are 100% confident that only you have access to the device and that your security settings are fully up to date. 
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_slide2.svg
         -
           title: Failing to logout / lock screen when leaving a computer
           text: |
             This is one of the simplest threats to eliminate but does account for quite a lot of security issues. Make sure that if you are leaving your device for any length of time that you lock your device which will ensure that no one else is able to access it while you are away. If you have finished using the device you should always remember to logout fully before leaving.
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_slide3.svg
         -
           title: Outdated security software
           text: |
             All software, but especially security software, can be likened to food as it can go out of date quite quickly and, the longer it is left the worse it gets. Cybercriminals are constantly creating new threats and software vendors are constantly updating their software to counter these threats. Making sure that you have automatic updates turned on or get into the habit of checking for and installing updates will mean that you system is protected from the latest threats.
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_slide4.svg
         -
           title: Encryption
           text: |
             By encrypting data you can ensure that data that you don’t want anyone else to have access to is fully secure. This is especially true if you need to share information online or stored on removable media such as disks or USB drives. By encrypting the data you only you and others with the correct key can gain access to the data. 
-          img: placeholder_icon.svg
+          img: it1_u2_s1_p3_slide5.svg
   -
   -
     title: Watch 

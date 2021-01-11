@@ -24,50 +24,75 @@ sections:
     title: Guidelines and procedures
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
+      It is important that organisations have specific guidelines and procedures in place for employees to follow in relation to the use of IT in the workplace. There are various policies that an organisation will have, scroll through the slides below to learn about three of the most important:
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Acceptable Use Policy
           text: |
-            text
+            These policies define how anyone using the system must act and covers a wide range of activities such as:
+            * Restriction on external devices being connected to the system such as USB memory devices.
+            * Rules on passwords such as the number of characters, the use of letter, numbers and symbols
+            * Rules on which websites can and cannot be accessed
+            * Restrictions on installing software or apps
+            * Confidentiality
+            * Disclosure of information
+
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Information security policies
           text: |
-            text
+            These policies are a set of rules and regulations that govern the way information is handled and makes it clear who and what people have access to and how the information can be used. This policy sets out things such as: 
+            * Access levels to determine what facilities users can access.
+            * How information is stored
+            * Data classifications
+            * Security procedures
+
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Backup and storage policies
           text: |
-            text
+            Effective backup and storage policies are essential for every organisation as it ensures that information is stored securely and allows for recovery of data loss in the event of a hardware failure, data corruption or malicious attack. The policy will set out guidelines for:
+            * Data backup schedule
+            * Data backup procedures
+            * Encryption protocols
+            * Recovery guidelines
+
           img: placeholder_icon.svg
-        -
-          title: slide 4 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 5 title
-          text: |
-            text
-          img: placeholder_icon.svg
+        
   -
   -
-    title: Interactivity - 
-    theme: 
-    
-    copy: |
-      text
-
-      drag and drop - rights and wrong types of guidelines and procedures
-
-      The following activity gives a scenario of 
-
-         
+    title: Quick Quiz
+    copy: Select the correct Policy that the following items would be found in.
+    subInc:  
+      type: word-quiz
+      content:
+        -
+          sentence: Confidentiality and disclosure of information would be found in the Acceptable Use Policy.
+          answer: Acceptable Use Policy
+        -
+          sentence: Data classifications would be found in the Information Security Policy.
+          answer: Information Security Policy
+        -
+          sentence: Rules on passwords would be found in the Acceptable Use Policy.
+          answer: Acceptable Use Policy
+        -
+          sentence: Encryption protocols would be found the Backup and Storage Policy.
+          answer: Backup and Storage Policy
+        -
+          sentence: External devices being connected to the system restrictions would be found in the Acceptable Use Policy.
+          answer: Acceptable Use Policy
+        -
+          sentence: User access levels would be found in the Information Security Policy.
+          answer: Information Security Policy
+        -
+          sentence: Data backup schedules and procedures would be found the Backup and Storage Policy.
+          answer: Backup and Storage Policy
+        
+    theme: i-quiz
   -
   -
     title: On the web
@@ -81,37 +106,6 @@ sections:
         website description: http://www.google.co.uk
         
   -
-  -
-    title: Confidentiality
-    theme: 
-    copy: |
-      ### Beyond data protection
-
-      Confidentiality applies to a much wider range of information than the information specified in data protection legislation.  Select the images below.
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Business information
-          copy: |
-            Information about the business (future plans and financial situation)
-          img: it1_u2_s2_p1_reveal1.svg
-        -
-          title: Other businesses
-          copy: |
-            Information about other businesses (data protection applies to individuals)
-          img: it1_u2_s2_p1_reveal2.svg
-        -
-          title: Unrecorded information
-          copy: |
-            Information not recorded on paper or electronically
-          img: it1_u2_s2_p1_reveal3.svg
-        -
-          title: Unstructured information
-          copy: |
-            Information on paper but in such an unstructured way that it is not a relevant filing system.
-          img: it1_u2_s2_p1_reveal4.svg
   -
     title: Access to confidential information
     layout: media
@@ -130,33 +124,14 @@ sections:
       type: accordion
       content:
         - 
-          title: 
+          title: Certain information is kept confidential for several reasons. 
           copy: |
-            Certain information is kept confidential for several reasons. These include:
+            These include:
 
             * Legal requirements, including complying with legislation such as the Data Protection Act or the content of legally enforceable contracts.
             * Commercial requirements, such as keeping confidential information secret. A lack of confidentiality can show a lack of competence and/or trust.
             * Moral requirements. There is a strong moral obligation to respect people's privacy and confidentiality. If this is broken then people will withhold information and lack trust.
             
             People need to know what they can and cannot access and the repercussions that may follow if confidence and trust are broken.   
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: Identify the types of documents that can be kept confidential in business.
-  -
-    title: Dealing with confidential information
-    theme: 
-    copy: |
-      The aim is to ensure that the organisation identifies the level of sensitivity of a document and ensures the level of access to it is appropriate.
-
-      Click on the folder icons within the interactivity below to see examples of procedures for dealing with different types of confidential information.
-
-    interactive: 
-      file: it1/u2_s2_p1_confidential
-      width: 800
-      height: 800
-      composition: 786DA3F1042B4C23A41F4E90074ECD41
   
   -

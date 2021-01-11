@@ -10,56 +10,39 @@ sections:
       Describe why it is important to backup data securely. (1.6)
   -
   -
-    title: Pros
+    title: The importance of backing up data
     theme: t-bg-primary
     copy: |
       Describe why it is important to backup data securely (1.6)
 
-      Select the images below to read 
-
+      Select the images below to read CHANGE TO SLIDER
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
           title: a
-          copy: |
-            text
+          text: |
+
           img: placeholder_icon.svg
         -
           title: b
-          copy: |
+          text: |
             text
           img: placeholder_icon.svg
         -
           title: c
-          copy: |
-            text
-          img: placeholder_icon.svg     
-  -
-  -
-    title: Cons
-    theme: 
-    copy: |
-      Describe why it is important to backup data securely (1.6)
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
+          text: |
             text
           img: placeholder_icon.svg
         -
-          title: b
-          copy: |
-            text
+          title: d
+          text: |
+
           img: placeholder_icon.svg
         -
-          title: c
-          copy: |
+          title: e
+          text: |
             text
           img: placeholder_icon.svg
   -
