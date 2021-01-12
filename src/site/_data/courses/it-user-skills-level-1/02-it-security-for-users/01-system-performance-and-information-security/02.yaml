@@ -9,7 +9,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      Identify security issues that may threaten system performance. (1.1)
+      Identify security issues that may threaten system performance. 
   -
   -
     title: Introduction
@@ -98,7 +98,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      Take appropriate security precautions to protect IT systems and data. (1.2)
+      Take appropriate security precautions to protect IT systems and data.
   -
   -
     title: Read - Screenprints
@@ -128,7 +128,7 @@ sections:
         -
           title: Firewalls
           text: |
-            While a firewall can provide some protection, on its ownit will not provide protection against security threats. However this doesn’t mean that it isn’t important. A firewall is only one part of a security shield and when configured correctly and used in conjunction with other security software will make a significant contribution to system security.
+            While a firewall can provide some protection, on its own it will not provide protection against security threats. However this doesn’t mean that it isn’t important. A firewall is only one part of a security shield and when configured correctly and used in conjunction with other security software will make a significant contribution to system security.
           img: it1_u2_s1_p2_slide2b.svg
         -
           title: Browser security settings
@@ -167,23 +167,25 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Adware is a form of spyware":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        What type of program will help to detect and remove viruses from a computer?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Spam software: false
+            Word processing software: false
+            Antivirus software: true
+        Select one option to complete the following sentence:"____________ replicates system files so many times that it consumes hard disk space or memory.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            Trojans: false
+            Spyware: false
+            Worm viruses: true
+        Select one option to complete the following sentence:"By configuring the security settings in your chosen ______________ you can reduce the potential risks from malware":
+          answers:
+            browser: true
+            operating system: false
+            desktop: false
   -
   -
     title: On the web
