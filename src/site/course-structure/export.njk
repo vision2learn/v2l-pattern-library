@@ -4,7 +4,7 @@ pagination:
   size: 1
 permalink: dotnet/{{ pagination.items[0] | slug }}/App_Data/CourseStructure.xml
 ---
-<Course id="" name="{{ pagination.items[0] | replace('-', ' ') | formattitle }}">
+<Course id="{{ collections[pagination.items[0]][0].data.dotnetID if collections[pagination.items[0]][0].data.dotnetID else 'NO COURSE ID PROVIDED' }}" name="{{ pagination.items[0] | replace('-', ' ') | formattitle }}">
   <Units>
     {%- for unit, sessions in courseData.sortedData %}
     <Unit number="{{ loop.index }}" title="Unit {{ loop.index }} of {{ loop.length }}: {{ unit | replace('-', ' ') | replace('0'+loop.index, '') | trim | capitalize }}">
