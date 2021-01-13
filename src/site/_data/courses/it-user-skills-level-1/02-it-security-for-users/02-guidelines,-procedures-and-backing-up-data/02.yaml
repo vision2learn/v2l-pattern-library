@@ -40,23 +40,23 @@ sections:
           text: |
             There are various causes of data loss such as a  hardware breakdown, virus attack, power surges or even human error or equipment theft so it is important to have a backup and recovery plan in place. This will ensure that if any data is lost or corrupted you can quickly restore your data from the last backup point which will minimise any loss. 
 
-          img: placeholder_icon.svg
+          img: it1_u2_s2_p2_slide1.svg
         -
           title: Schedule regular backups
           text: |
-            Once you have made a full backup of the entire system you should then set automated incremental backup points. This will ensure that only new data, or changes to existing backed up data, are added to the backup. Having incremental backups will save time and diskspace as only the latest changes are added. These backup points should be set for the end of each day at least or more frequently if required. 
-          img: placeholder_icon.svg
+            Once you have made a full backup of the entire system you should then set automatedincremental backup points.Thiswill ensure that onlynew data,or changes toexistingbacked up data,are addedto the backup. Having incremental backups will save time and diskspace as only the latest changes are added. These backup points should be set for the end of each dayat least or more frequently if required. 
+          img: it1_u2_s2_p2_slide2.svg
         -
-          title: Backup to an external space
+          title: Backup to an external location
           text: |
-            It is a good idea to backup your data to a removable drive or a network drive as this will ensure that if the computer suffers physical damage you can restore to a new computer as your backups are separate to your system. As well as backing up to appropriate media you can also now backup to the cloud.  
-          img: placeholder_icon.svg
+            It is a good idea to backup your data to a removable drive, network drive or the cloud as this will ensure that if the computer suffers physical damage you can restore to a new computeras your backups are completely isolated from any damage. You could also encrypt your backups which will add an extra layer of security.  
+          img: it1_u2_s2_p2_slide3.svg
         -
-          title: Encription
+          title: Restoring backups
           text: |
-            text
+            It’s important to ensure that your new system is safe before restoring from backups. Always make sure that you carry out a full virus scan and make sure that all updates for the operating system and devices have been installed.
 
-          img: placeholder_icon.svg
+          img: it1_u2_s2_p2_slide4.svg
   -
   -
     title: Watch 
