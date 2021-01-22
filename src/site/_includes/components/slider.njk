@@ -1,7 +1,6 @@
-{%- if section %}
-  {%- set slideData = section.subInc.slides %}
-{%- else %}
-  {%- set slideData = components.slider.slides %}
+{%- set slideData = section.subInc.slides %}
+{%- if not section %}
+  {%- set slideData = example.subInc.slides %}
 {%- endif %}
 
 {%- from "components/all.njk" import slideItem as slider %}

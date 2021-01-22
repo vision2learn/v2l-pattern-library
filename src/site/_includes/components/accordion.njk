@@ -1,9 +1,10 @@
 {%- import "components/all.njk" as components %}
-
+{% set accData = section.subInc.content %}
+{% if not section %}
+  {% set accData = example.subInc.slides %}
+{% endif %}
 <div class="toggle-group">
-{%- for reveal in section.subInc.content %}
+{%- for reveal in accData %}
   {{ components.accordion(reveal, site.env) }}
 {%- endfor %}
 </div>
-
-{# title=reveal.title, copy=reveal.copy, img=reveal.img #}

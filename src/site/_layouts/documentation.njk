@@ -1,0 +1,45 @@
+---
+layout: longform
+theme:
+  name: prism-xonokai
+permatdnk: /documentation/{{ title | slug }}/index.html
+---
+<h1>{{ title | capitalize }}</h1>
+{% if review %}<p><i>Syntax under review</i></p>{% endif %}
+
+<h2>Description</h2>
+{{ content | safe }}
+
+{% if tabledata %}
+<h2>Available Keys/Values</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Required</th>
+      <th>Data Type</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for data in tabledata %}
+    <tr>
+      <td><code>{{ data.key }}</code></td>
+      <td>{{ "Yes" if data.required else "No"}}</td>
+      <td>{{ data.datatype}}</td>
+      <td>{{ data.default if data.default else "N/A"}}</td>
+      <td>{{ data.desc | markdownify | safe }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if example %}
+<h3>Rendered Example</h3>
+<div style="border: dashed 2px rgba(0,0,0,0.3); padding: 1em; overflow: hidden">
+  {%- include 'example.njk' %}
+</div>
+{% endif %}
