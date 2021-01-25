@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.components
+  size: 1
+permalink: "/documentation/components/rendered/{{ pagination.items[0].fileSlug }}/"
+layout: default
+---
+{%- set compData = examples[pagination.items[0].fileSlug] -%}
+<main>
+{%- include 'components/' + pagination.items[0].fileSlug + '.njk' ignore missing %}
+</main>

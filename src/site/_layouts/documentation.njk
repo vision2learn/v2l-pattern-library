@@ -6,12 +6,13 @@ permatdnk: /documentation/{{ title | slug }}/index.html
 ---
 <h1>{{ title | capitalize }}</h1>
 {% if review %}<p><i>Syntax under review</i></p>{% endif %}
+{{ tags }}
 
 <h2>Description</h2>
 {{ content | safe }}
 
 {% if tabledata %}
-<h2>Available Keys/Values</h2>
+<h2 id="keys">Available Keys/Values</h2>
 
 <table>
   <thead>
@@ -37,9 +38,11 @@ permatdnk: /documentation/{{ title | slug }}/index.html
 </table>
 {% endif %}
 
-{% if example %}
+{% if examples[page.fileSlug] %}
+{% set url = "/documentation/components/rendered/" + page.fileSlug %}
 <h3>Rendered Example</h3>
+<p><a href="{{ url }}">View stand-alone {{ title }} component.</a>
 <div style="border: dashed 2px rgba(0,0,0,0.3); padding: 1em; overflow: hidden">
-  {%- include 'example.njk' %}
+  <iframe src="{{ url }}" style="width: 100%; height: 500px; border: 0">
 </div>
 {% endif %}

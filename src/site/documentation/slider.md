@@ -7,21 +7,6 @@ tags:
   - subInc
   - components
 review: true
-example: 
-  subInc: 
-    type: slider
-    title: the four main areas covered by legislation
-    slides:
-      -
-        title: Example Slide 1 (image)
-        text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, hic.
-        img: ba_u1_s1_p3_statutory.svg
-      -
-        title: Example Slide 2 (no image)
-        text: |
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio id libero eum sit magni placeat unde deserunt nulla consequatur distinctio, eligendi similique quaerat ipsam tenetur facilis rerum facere ipsa? 
-          
-          Perferendis, at. Vitae tempora quos atque modi ullam beatae voluptatibus, nihil voluptas, alias nostrum praesentium exercitationem laudantium iure deleniti provident a?
 tabledata:
   - 
     key: title
@@ -52,3 +37,20 @@ tabledata:
 ---
 
 A horizonally-scrolling panel. Can be operated with keyboard, mouse and touch.
+
+```yaml
+subInc: 
+  type: slider
+  title: An accessible title
+  slides:
+    -
+      title: Example Slide 1 (image)
+      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, hic.
+      img: ba_u1_s1_p3_statutory.svg
+    -
+      title: Example Slide 2 (no image)
+      text: |
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio id libero eum sit magni placeat unde deserunt nulla consequatur distinctio, eligendi similique quaerat ipsam tenetur facilis rerum facere ipsa? 
+        
+        Perferendis, at. Vitae tempora quos atque modi ullam beatae voluptatibus, nihil voluptas, alias nostrum praesentium exercitationem laudantium iure deleniti provident a?
+```

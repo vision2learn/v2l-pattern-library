@@ -7,26 +7,6 @@ tags:
   - subInc
   - components
 review: true
-example: 
-  subInc: 
-    type: accordion
-    content:
-      - 
-        title: A sensible title
-        copy: |
-          Some Markdown, which will:
-
-          - be
-          - converted
-          - to
-          - HTML
-        img: /images/svg/ba/ba_u1_s1_p3_image_1.svg
-      - 
-        title: Another sensible title
-        copy: |
-          More **Markdown**
-
-          *Nice*
 tabledata:
   - 
     key: content

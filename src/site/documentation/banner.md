@@ -1,3 +1,30 @@
+---
+title: Banner
+layout: documentation.njk
+tags:
+  - documentation
+  - sections
+  - subInc
+  - components
+review: true
+tabledata:
+  - 
+    key: title
+    required: yes
+    datatype: String
+    desc: | 
+      TBC
+  - 
+    key: copy
+    required: yes
+    datatype: Markdown
+    desc: The information which is summarised by the `title` key
+  - 
+    key: img
+    datatype: Filename
+    desc: TBC
+---
+
 The banner component overrides the basic section-level grid in order to have the text inside the overlay box align with the text on the rest of the page. Were it to simply inherit the standard layout, the left edge of the text box would be aligned to the other text creating a slightly disjointed appearance.
 
 The banner element should house the page's `h1` element and some introductory text. The `h1` should be unique and meaningful to the content of the page.

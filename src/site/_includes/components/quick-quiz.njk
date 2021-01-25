@@ -1,14 +1,19 @@
 {%- import 'components/all.njk' as components %}
 
-{%- if section.include %}
-  {%- set quiz = section.include.content %}
-  {%- set mode = section.include.mode %}
-{%- elseif section.subInc %}
-  {%- set quiz = section.subInc.content %}
-  {%- set mode = section.subInc.mode %}
-{%- else %}
-  {%- set quiz = defaultdata.wordQuiz.sentences %}
-{%- endif %}
+{% if compData %}
+  {%- set quiz = compData.content %}
+  {%- set mode = compData.mode %}
+{% else %}
+  {%- if section.include %}
+    {%- set quiz = section.include.content %}
+    {%- set mode = section.include.mode %}
+  {%- elseif section.subInc %}
+    {%- set quiz = section.subInc.content %}
+    {%- set mode = section.subInc.mode %}
+  {%- else %}
+    {%- set quiz = defaultdata.wordQuiz.sentences %}
+  {%- endif %}
+{% endif %}
 
 {%- if mode == "multi-choice" %}
   {%- set qType = "checkbox" %}
