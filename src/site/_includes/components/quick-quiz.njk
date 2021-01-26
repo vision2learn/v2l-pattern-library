@@ -19,7 +19,7 @@
   {%- set qType = "checkbox" %}
 {%- endif %}
 
-<form class="c-quiz l-quiz" autocomplete="off">
+<form class="c-quiz l-quiz" autocomplete="off" {{ 'data-v2l-mcquiz=true' if mode }}>
   {%- for question, answers in quiz %}
     {%- set topIndex = loop.index %}
       <fieldset class="l-quiz">

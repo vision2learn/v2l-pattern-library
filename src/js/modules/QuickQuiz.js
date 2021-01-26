@@ -18,11 +18,10 @@
       
       quiz.classList.add('js-quiz');
       quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
-      
       Array.prototype.forEach.call(questions, (q, i) => {
         // create and add next button
         const nextBtn = document.createElement('button');
-        nextBtn.disabled = true;
+        nextBtn.disabled = (!quiz.dataset.v2lMcquiz) // true;
         var nextBtnText = i !== questions.length - 1 ? 'Next Question' : 'Show My Score';
         nextBtn.appendChild(document.createTextNode(nextBtnText));
 
@@ -39,9 +38,11 @@
             answer = q;           
             nextBtn.disabled = false;
 
-            questionGroup.forEach(qtn => {
-              qtn.disabled = true;
-            });
+            if(!quiz.dataset.v2lMcquiz) {
+              questionGroup.forEach(qtn => {
+                qtn.disabled = true;
+              });
+            }
 
             q.disabled = false;
           });
@@ -68,19 +69,20 @@
             resultPanel.removeAttribute('style');
 
             let retryBtn = resultPanel.querySelector('button');
-            retryBtn.addEventListener('click', e => {
-              e.preventDefault();
-              q.removeAttribute('data-v2l-active');
-              questions[0].setAttribute('data-v2l-active', true);
-              totalScore = 0;
-              document.querySelector('.c-quiz__result').remove();
-              quiz.querySelectorAll('input').forEach(input => {
-                input.disabled = false;
-                input.checked = false;
+            if(retryBtn) {
+              retryBtn.addEventListener('click', e => {
+                e.preventDefault();
+                q.removeAttribute('data-v2l-active');
+                questions[0].setAttribute('data-v2l-active', true);
+                totalScore = 0;
+                document.querySelector('.c-quiz__result').remove();
+                quiz.querySelectorAll('input').forEach(input => {
+                  input.disabled = false;
+                  input.checked = false;
+                });
               });
-            });
+            }
           }
-
         });
       });
     });
