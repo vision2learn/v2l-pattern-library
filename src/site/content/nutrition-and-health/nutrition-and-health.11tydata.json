@@ -1,0 +1,27 @@
+{
+  "course": "nutrition-and-health",
+  "tags": "nutrition-and-health",
+  "level": 2,
+  "dotnetID": false,
+  "year": 2021,
+  "shortcode": "nh",
+  "why": "why text",
+  "goals": {
+    "will": [
+      "LO1",
+      "LO2",
+      "LO3"
+    ]
+  },
+  "courseFeatures": [
+    "on the web",
+    "quick quiz",
+    "summary",
+    "stretch",
+    "key point",
+    "case study",
+    "watch",
+    "time to think",
+    "read more about it"
+  ]
+}
