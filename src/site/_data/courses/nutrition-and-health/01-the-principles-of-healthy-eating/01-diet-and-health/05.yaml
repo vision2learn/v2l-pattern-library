@@ -1,12 +1,36 @@
-title: Teens and Adults
+title: Key differences and Salt
 intro: |
   On this page you will learn about: 
-  * Diets for teenagers
-  * Diets for adults
+  * Key differences between diets for adults and children
+  * Controlling salt intake
 banner: placeholder.jpg
 sections:
   -
-    title: Diets for teenagers
+    title: Interactivity - Key differences
+    theme: 
+    
+    copy: |
+      text
+
+      Example activity from the BA course
+
+    interactive: 
+      file: ba/ba_u2_s3_p2_tidy_equipment
+      width: 800
+      height: 800       
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        text
+        
+        *You can refer to these notes in your journal which will support you when you come to your assessment*
+  -
+  -
+    title: Controlling salt intake
     theme: t-bg-primary
     copy: |
       Scroll through the slides below to learn more about ...
@@ -41,16 +65,7 @@ sections:
             text
           img: placeholder_icon.svg
   -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        text
-        
-        *You can refer to these notes in your journal which will support you when you come to your assessment*
-  -
+  
   -
     title: Stats and Facts
     layout: media
