@@ -5,6 +5,12 @@ intro: |
 banner: it1_u4_s5_p1_spelling.jpg
 sections:
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      As part of your assessment you will need to check that the spreadsheet information meets needs, use spreadsheet tools and make corrections as necessary.
+  -
+  -
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
