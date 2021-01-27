@@ -9,7 +9,7 @@ sections:
     title: Diet and health
     theme: t-bg-primary
     copy: |
-      Select the images below to learn more about the factors that can influence your diet. 
+      Select the images below to learn more about the factors that can influence your diet.
 
     subInc: 
       type: reveal
@@ -30,7 +30,7 @@ sections:
             People with certain illnesses or health conditions may have to eat more or less of certain foods. For example, diabetics often need to manage their sugar intake. 
           img: placeholder_icon.svg
         -
-          title: Activity levels
+          title: Activity levelsC
           copy: |
             The levels and type of activity that a person does every day will influence what makes their diet healthy or unhealthy. A healthy diet for an Olympic sprinter will be very different from an office worker who goes running once a week! 
           img: placeholder_icon.svg

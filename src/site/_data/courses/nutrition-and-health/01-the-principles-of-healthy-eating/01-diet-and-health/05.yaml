@@ -10,9 +10,13 @@ sections:
     theme: 
     
     copy: |
-      text
+      You’ve looked at what is needed for a healthy diet in both adults and children. Now let us look at the differences between the two.
 
-      Example activity from the BA course
+      A healthy diet for adults provides everything that the body needs to stay fit and healthy.
+
+      A healthy diet for children under 5 provides everything that they need to stay fit and healthy, as well as grow properly. 
+
+      *Example activity from the BA course*
 
     interactive: 
       file: ba/ba_u2_s3_p2_tidy_equipment
@@ -28,6 +32,23 @@ sections:
         text
         
         *You can refer to these notes in your journal which will support you when you come to your assessment*
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk     
   -
   -
     title: Controlling salt intake
@@ -50,87 +71,20 @@ sections:
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Checking salt content
           text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 4 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 5 title
-          text: |
-            text
+            Many pre-prepared and processed foods already contain salt, so monitoring how much is consumed can be difficult. Some foods tend to have higher salt content, while others will vary according to the manufacturer or brand.
+            The introduction of food labelling has made it easier to check the salt content of what you want to eat.
           img: placeholder_icon.svg
   -
-  
   -
     title: Stats and Facts
     layout: media
     theme: t-bg-supporting2
     copy: |
-      * In 2008 Toyota became the world’s biggest car manufacturer based on sales
-      * Toyota has even donated its methodologies to charities and non-profit organisations to help improve their efficiency
+      Take a look at the table below to see some examples of food that may contain a high amount of salt. 
+
+      *Table here or activity*
     img: /images/svg/ln/LM_Stats.svg
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk     
-  -
-  -
-    title: Diets for adults
-    theme: t-bg-supporting2
-    copy: |
-      text
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        text
-        
-        *You can refer to these notes in your journal which will support you when you come to your assessment*
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      text
-  -
+  
