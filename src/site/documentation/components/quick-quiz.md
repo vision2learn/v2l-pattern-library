@@ -1,11 +1,14 @@
 ---
 title: Quick Quiz
-layout: documentation.njk
 tags:
   - documentation
   - sections
   - subInc
   - components
+eleventyNavigation:
+  key: quick-quiz
+  parent: components
+  title: Quick Quiz
 review: true
 tabledata:
   - 

@@ -1,11 +1,14 @@
 ---
 title: Word Quiz
-layout: documentation.njk
 tags:
   - documentation
   - sections
   - subInc
   - components
+eleventyNavigation:
+  key: word-quiz
+  parent: components
+  title: Word Quiz
 review: true
 tabledata:
   - 

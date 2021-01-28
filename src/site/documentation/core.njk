@@ -1,0 +1,29 @@
+---
+eleventyNavigation:
+  key: core
+  parent: docs
+  title: Core
+permalink: /documentation/core/
+layout: longform
+---
+
+<h1>Core</h1>
+
+<p>
+  The following components are available to increase interactivity and engagement on a page and throughout a course:
+</p>
+
+{{ collections.all | eleventyNavigation("core") | eleventyNavigationToHtml | safe }}
+
+<h2>Colours</h2>
+
+{% for group, colourgroup in colours %}
+  <h3>{{ group | title }}</h3>
+  <div>
+    {% for colour, val in colourgroup %}
+      <div style="background: {{ val }}; width: 200px; height: 200px">
+        {{ colour }}: {{ val }}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

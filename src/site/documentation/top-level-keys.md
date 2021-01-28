@@ -1,11 +1,13 @@
 ---
 title: Top Level Keys
-layout: documentation.njk
 tags:
   - documentation
   - pages
   - pagedata
   - top-level-keys
+eleventyNavigation:
+  key: top-level-keys
+  parent: docs
 tabledata:
   - 
     key: title

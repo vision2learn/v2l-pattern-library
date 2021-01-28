@@ -1,0 +1,16 @@
+mode: multi-choice
+content:
+  Take away the suit and what are you?:
+    answers:
+      Billionaire: true
+      Playboy: true
+      Philanthropist: false
+      Iron Man: true
+    feedback: All of the above are true
+  Banner, what's your secret?:
+    answers:
+      I'm always angry: true
+      Playboy: true
+      Philanthropist: false
+      Iron Man: true
+    feedback: All of the above are true

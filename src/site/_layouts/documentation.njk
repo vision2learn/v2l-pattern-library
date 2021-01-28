@@ -2,11 +2,11 @@
 layout: longform
 theme:
   name: prism-xonokai
-permatdnk: /documentation/{{ title | slug }}/index.html
+permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
 ---
+
 <h1>{{ title | capitalize }}</h1>
 {% if review %}<p><i>Syntax under review</i></p>{% endif %}
-{{ tags }}
 
 <h2>Description</h2>
 {{ content | safe }}

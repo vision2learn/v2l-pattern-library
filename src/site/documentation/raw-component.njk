@@ -5,7 +5,12 @@ pagination:
 permalink: "/documentation/components/rendered/{{ pagination.items[0].fileSlug }}/"
 layout: default
 ---
+{% if pagination.items[0].fileSlug == 'quick-quiz-multi-choice' -%}
+  {% set incPath = 'components/quick-quiz.njk' %}
+{% else -%}
+  {% set incPath = 'components/' + pagination.items[0].fileSlug + '.njk' %}
+{% endif -%}
 {%- set compData = examples[pagination.items[0].fileSlug] -%}
 <main>
-{%- include 'components/' + pagination.items[0].fileSlug + '.njk' ignore missing %}
+{%- include incPath ignore missing %}
 </main>

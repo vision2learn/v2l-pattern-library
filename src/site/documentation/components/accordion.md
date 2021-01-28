@@ -1,11 +1,14 @@
 ---
 title: Accordion
-layout: documentation.njk
 tags:
   - documentation
   - sections
   - subInc
   - components
+eleventyNavigation:
+  key: accordion
+  parent: components
+  title: Accordion
 review: true
 tabledata:
   - 

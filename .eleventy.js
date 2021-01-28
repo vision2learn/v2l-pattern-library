@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 
 module.exports = function(config) {
@@ -9,6 +10,7 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  config.addPlugin(eleventyNavigationPlugin);
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
@@ -48,7 +50,7 @@ module.exports = function(config) {
 
   config.addFilter("formattitle", value => {
     if(!value) {
-      console.log("Error: ", value);
+      console.log("...Error: ", value);
       return false;
     }
     

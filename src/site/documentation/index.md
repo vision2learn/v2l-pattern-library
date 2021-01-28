@@ -1,5 +1,7 @@
 ---
 title: Course File and Folder Structure
+eleventyNavigation:
+  key: docs
 ---
 
 ## `site/_data/courses`

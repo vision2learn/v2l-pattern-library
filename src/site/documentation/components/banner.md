@@ -1,12 +1,14 @@
 ---
 title: Banner
-layout: documentation.njk
 tags:
   - documentation
   - sections
   - subInc
   - components
-review: true
+eleventyNavigation:
+  key: banner
+  parent: docs
+  title: Banner
 tabledata:
   - 
     key: title

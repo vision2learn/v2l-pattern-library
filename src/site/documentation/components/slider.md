@@ -1,11 +1,14 @@
 ---
 title: Slider
-layout: documentation.njk
 tags:
   - documentation
   - sections
   - subInc
   - components
+eleventyNavigation:
+  key: slider
+  parent: components
+  title: Slider
 review: true
 tabledata:
   - 
