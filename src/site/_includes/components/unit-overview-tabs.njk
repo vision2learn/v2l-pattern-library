@@ -29,7 +29,7 @@
             {% if masterloop == 1 and (loop.index == 1 or loop.index == 2) %}
               {# BLANK #}
             {% elseif not loop.last %}
-              <li>{{ pageData.title | formattitle }}</li>
+              <li>{{ pageData.title | d('Placeholder') | formattitle }}</li>
             {% endif %}
           {%- endfor %}
         </ul>

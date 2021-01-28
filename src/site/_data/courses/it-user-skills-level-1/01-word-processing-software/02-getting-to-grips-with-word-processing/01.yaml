@@ -7,19 +7,19 @@ banner: it1_u1_s2_p1_word2.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about about structuring information in Microsoft Word:
-      * Page layout
-      * Page setup
+      * Page setup and layout
       * Create and modify tables
-      * Heading and formatting styles
+      * Paragraph editing, styles and templates
+      * Headers and footers
   -
   -
     title: Key point
-    theme: t-bg-supporting2 i-keypoint
+    theme: t-bg-grey i-keypoint
     copy: |
-      text
+      As part of your assessment you will be asked to select and use appropriate page layout to present and print documents.
   -
   -
     title: Page Setup and Layout

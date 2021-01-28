@@ -1,13 +1,17 @@
-title: Placeholder
+title: TEMPLATE PAGE
 intro: |
-  introduction text.  
+  ### TEMPLATE PAGE
+  On this page you will learn about: 
+  * point 1
+  *  
 banner: placeholder.jpg
 sections:
   -
-    title: What you will learn
+    title: T E M P L A T E
+    layout: media
     theme: t-bg-primary
     copy: |
-      In this session you will learn about 
-      * lo 1
-      * etc
+      ### Title
+
+    img: /images/svg/placeholder_icon.svg
   -

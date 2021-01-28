@@ -4,12 +4,6 @@ intro: |
 banner: it1_u3_s3_p2_tables.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      key point text
-  -
-  -
     title: Using tables and charts
     theme: t-bg-primary1a
     copy: |
@@ -77,5 +71,5 @@ sections:
       If you wish you can click on the owl to learn how to use a chart in your presentation, and then try this in your own practice presentation document.
 
     img: /images/svg/stretch_button.svg
-    link: 
+    link: https://bettersolutions.com/powerpoint/charts/index.htm
   -

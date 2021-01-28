@@ -10,7 +10,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      key point text
+      In your assessment you will be required to use functions and formulae to meet calculation requirements.
   -
   -
     title: Using functions
@@ -135,6 +135,4 @@ sections:
       If you like you can see how to do this and try it out on your own spreadsheet.  Click on the owl to your right to go to a website which will show you how.
 
     img: /images/svg/stretch_button.svg
-    link: https://www.excel-easy.com/functions/cell-references.html
-  -
-  -
+    link: https://www.excel-easy.com/examples/date-filters.html 
