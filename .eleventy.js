@@ -2,6 +2,7 @@ const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
+const json2yaml = require('json-to-pretty-yaml');
 
 module.exports = function(config) {
 
@@ -26,6 +27,12 @@ module.exports = function(config) {
         console.log('val: ', value, ' ', typeof value);
         return "markdown error";
       }
+  });
+
+  config.addFilter("yamlify", function(value) {
+    // console.log("JSON: ", value);
+    // console.log('YAML: ', json2yaml.stringify(value));
+    return json2yaml.stringify(value);
   });
 
   
