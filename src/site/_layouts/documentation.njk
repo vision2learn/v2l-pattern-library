@@ -6,13 +6,19 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
 ---
 
 <h1>{{ title | capitalize }}</h1>
-{% if review %}<p><i>Syntax under review</i></p>{% endif %}
+
 
 <h2>Description</h2>
 {{ content | safe }}
 
+{# {% if examples[page.fileSlug] %}
+{% highlight "yaml" %}
+{{ examples[page.fileSlug] | yamlify }}
+{% endhighlight %}
+{% endif %} #}
+
 {% if tabledata %}
-<h2 id="keys">Available Keys/Values</h2>
+<h2 id="keys">Available Keys/Values {% if review %}<i class="review">(Syntax under review)</i>{% endif %}</h2>
 
 <table>
   <thead>
