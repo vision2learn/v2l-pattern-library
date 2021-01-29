@@ -37,9 +37,3 @@ This component presents the learner with a list of sentences where a key word or
 The drop down list is populated by all the possible answers in the quiz as set out in your page data (see [Available Keys/Values](#keys).).
 
 Feedback in the form of a tick or cross icon (displayed at the end of the sentence) is shown to the learner after choosing and answer.
-
-### YAML
-
-``` yaml
-
-```

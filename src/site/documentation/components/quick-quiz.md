@@ -34,9 +34,3 @@ tabledata:
     desc: |
       Holds a list of possible answers to the question in `key/value` pairs
 ---
-
-### YAML
-
-``` yaml
-
-```
