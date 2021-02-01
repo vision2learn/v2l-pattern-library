@@ -1,7 +1,30 @@
-title: Placeholder
+title: What did you learn? 
 intro: |
-  Welcome to the course! To achieve your Level 2 Certificate in Nutrition and Health:
-  * unit 1
-  * unit 2
-  * etc
-banner: placeholder.jpg
+  Well done, you’ve now completed the ﬁrst session of this unit! In this session you have learnt about 
+  
+banner: summary.svg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      Take a look at the following learning points to see a summary of what you have covered in this session:
+      * lo 1
+      * lo 2
+      * etc
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            * lo 1
+            * lo 2
+            * etc
+        - 
+          title: title
+          copy: |
+            * lo 1
+            * lo 2
+            * etc

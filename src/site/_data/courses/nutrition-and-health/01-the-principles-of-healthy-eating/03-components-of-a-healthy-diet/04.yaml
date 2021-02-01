@@ -1,7 +1,5 @@
 title: What did you learn? 
-intro: |
-  Well done, you’ve now completed the ﬁrst session of this unit! In this session you have learnt about 
-  
+intro: Well done, you’ve now completed the third session of this unit! In this session you have learnt about 
 banner: summary.svg
 
 sections:
@@ -16,12 +14,6 @@ sections:
     subInc: 
       type: accordion
       content:
-        - 
-          title: title
-          copy: |
-            * lo 1
-            * lo 2
-            * etc
         - 
           title: title
           copy: |
