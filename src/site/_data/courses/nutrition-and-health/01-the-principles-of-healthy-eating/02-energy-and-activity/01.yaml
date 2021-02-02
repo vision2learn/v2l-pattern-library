@@ -9,6 +9,81 @@ sections:
     theme: t-bg-primary1a
     copy: |
       In this session you will learn about 
-      * lo 1
-      * etc
+      * Energy in food
+      * Basic Metabolic Rate
+      * Physical activity levels
+      * Understanding activity levels
+      * Energy requirements and weight
+  -
+  -
+    title: Energy in food
+    theme: t-bg-supporting3
+    copy: |
+       Your body uses food as a source of energy. This energy is measured in calories.
+       
+       A calorie is the amount of energy needed to raise the temperature of 1g of water by 1°C. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Calories and energy
+          text: |
+            A calorie is one unit of energy. This energy is used to walk, talk, breathe, sleep or run. All activities burn calories! The human body receives energy in the form of calories from food. 
+          img: placeholder_icon.svg
+        -
+          title: Calories and food
+          text: |
+            Food contains calories. These can come from carbohydrates, fats or proteins. These terms are measured in grams. Each gram is defined as a number of calories. 
+          img: placeholder_icon.svg
+        -
+          title: Calories and health
+          text: |
+            Your body needs a certain amount of calories in order to maintain itself properly. Everything you do (including breathing and sleeping!) burns calories. The rate that these calories are burned is called the Basal Metabolic Rate (BMR). 
+          img: placeholder_icon.svg
+        -
+          title: Calories and weight
+          text: |
+             If people consume 3,500 calories more than they use they will gain 1lb in body fat.
+             
+             If they use 3,500 calories more than they consume they will lose 1lb in body fat. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Example link in content
+          copy: |
+            
+            Use [Google](https://www.google.co.uk) to try this search out and find the above pdf document. 
+            
+            (_Select the back button to return to this course_)
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk     
   -

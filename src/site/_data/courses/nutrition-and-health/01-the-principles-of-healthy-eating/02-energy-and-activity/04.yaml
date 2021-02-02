@@ -1,22 +1,33 @@
 title: What did you learn? 
 intro: Well done, you’ve now completed the second session of this unit! In this session you have learnt about 
-banner: summary.svg
+banner: summary.jpg
 
 sections:
   -
     title: Learning points
     theme: t-bg-primary
     copy: |
+      In this Session you have learnt about the links between diet and health. You have learnt about:
+      * Calories and the energy that comes from food.
+      * The relationship between calories, weight loss and weight gain.
+      * Basal Metabolic Rate and Physical Activity Levels, and their effect on weight.
+      
+
       Take a look at the following learning points to see a summary of what you have covered in this session:
-      * lo 1
-      * lo 2
-      * etc
+      * Influences on diet and health
+      * Diet and disease
     subInc: 
       type: accordion
       content:
         - 
-          title: title
+          title: Activity levels
           copy: |
-            * lo 1
-            * lo 2
-            * etc
+            * Physical activity level (PAL)
+            * Basic metabolic rate (BMR)
+            * Total Energy Required = BMR x PAL
+
+        -
+          title: Diet features
+          copy: |
+            * Energy intake
+            * Weight

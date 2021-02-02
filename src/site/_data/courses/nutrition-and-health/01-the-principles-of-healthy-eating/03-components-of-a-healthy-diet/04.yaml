@@ -1,22 +1,36 @@
 title: What did you learn? 
 intro: Well done, you’ve now completed the third session of this unit! In this session you have learnt about 
-banner: summary.svg
+banner: summary.jpg
 
 sections:
   -
-    title: Learning points
+    title: Summary and learning points
     theme: t-bg-primary
     copy: |
+      In this Session you have learnt about the components of a healthy diet. You have learnt about:
+
+      The five food groups, and the different foods that make up each group.
+      Examples of current healthy eating advice including the 5 a day initiative.
+      The importance of eating a wide variety of foods.
+
       Take a look at the following learning points to see a summary of what you have covered in this session:
-      * lo 1
-      * lo 2
-      * etc
+      * The five food groups
+      * Healthy diet advice
+      * Reasons to eat a wide variety of food
+
     subInc: 
       type: accordion
       content:
         - 
-          title: title
+          title: The five food groups
           copy: |
-            * lo 1
-            * lo 2
-            * etc
+            * 
+        -
+          title: Healthy diet advice
+          copy: |
+            * 
+        -
+          title: Reasons to eat a wide variety of food
+          copy: |
+            * 
+

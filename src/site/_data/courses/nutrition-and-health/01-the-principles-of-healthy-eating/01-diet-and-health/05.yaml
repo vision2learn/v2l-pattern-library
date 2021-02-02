@@ -143,4 +143,27 @@ sections:
       | 11+ years old | 6 grams |
 
     img: /images/svg/ln/LM_Stats.svg
-  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Type 2 diabetes (where the body has problems with insulin) is strongly linked with obesity.":
+          answers:
+            True: true
+            False: false
+          feedback: If obesity is avoided by eating healthily and exercising then the risk of Type 2 diabetes is significantly reduced.
+        What makes it easier to check the salt content in pre-packaged foods?:
+          answers:
+            The small print on the back of the package: false
+            Information on the food website: false
+            Food labelling: true
+          feedback: The introduction of food labelling has made it easier to check the salt content of what you want to eat.
+        Select one option to complete the following sentence:"When people are at their recommended weight, they have a much less risk of developing ____________.":
+          answers:
+            activity: false
+            fitness: false
+            illness: true
+          feedback: When people are obese, they are often at greater risk of developing illnesses such as angina, heart disease, diabetes, some cancers and lower back / joint pains.
+  -
