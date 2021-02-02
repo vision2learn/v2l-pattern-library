@@ -14,7 +14,6 @@ require('require-dir')('./gulp-tasks');
 gulp.task("watch", function() {
   gulp.watch('./src/scss/**/*.scss', gulp.parallel('css'));
   gulp.watch('./src/js/**/*.js', gulp.parallel('js'));
-  gulp.watch('./src/site/js/**/*.js', gulp.parallel('otherjs'));
   gulp.watch('./src/image/**/*.jpg', gulp.parallel('images'));
 });
 
@@ -34,8 +33,7 @@ else {
   gulp.task('build', gulp.parallel(
     'images',
     'css',
-    'js',
-    'otherjs'
+    'js'
   ));
 }
 
