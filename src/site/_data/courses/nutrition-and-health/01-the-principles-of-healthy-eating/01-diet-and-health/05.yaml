@@ -154,16 +154,14 @@ sections:
             True: true
             False: false
           feedback: If obesity is avoided by eating healthily and exercising then the risk of Type 2 diabetes is significantly reduced.
+        Select one option to complete the following sentence - "When people are at their recommended weight, they have a much less risk of developing ____________.":
+          answers:
+            fitness: false
+            illness: true
+          feedback: When people are obese, they are often at greater risk of developing illnesses such as angina, heart disease, diabetes, some cancers and lower back / joint pains.
         What makes it easier to check the salt content in pre-packaged foods?:
           answers:
             The small print on the back of the package: false
             Information on the food website: false
             Food labelling: true
-          feedback: The introduction of food labelling has made it easier to check the salt content of what you want to eat.
-        Select one option to complete the following sentence:"When people are at their recommended weight, they have a much less risk of developing ____________.":
-          answers:
-            activity: false
-            fitness: false
-            illness: true
-          feedback: When people are obese, they are often at greater risk of developing illnesses such as angina, heart disease, diabetes, some cancers and lower back / joint pains.
-  -
+          feedback: Food labelling has made it easier to check the salt content of what you want to eat.

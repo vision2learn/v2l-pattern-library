@@ -104,9 +104,9 @@ sections:
     copy2: It’s important to remember that the dietary needs of adults will vary depending on their life stage and their lifestyle.
   -
   -
-    title: Interactivity - Key differences
-    theme: 
-    
+    title: Activity - Key differences
+    layout: media
+    theme: t-bg-primary2
     copy: |
       You’ve looked at what is needed for a healthy diet in both adults and children. Now let us look at the differences between the two.
 
@@ -114,10 +114,39 @@ sections:
 
       A healthy diet for children under 5 provides everything that they need to stay fit and healthy, as well as grow properly. 
 
+      Select the following icon to see the key differences between adults and children.
+
+      *Content in activity:*
+
+      Fat in diets
+      Milk in diets
+      Fibre in diets
+
+      https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7.asp
+
+
+
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+  
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Kate and Jake's lifestyle differences
+
+      The lifestyles of adults and children can differ greatly and this has an effect on the foods that they eat.
+
+      Kate has decided to keep a food diary for herself and her son Jake (aged 4). She wants to compare their diets so that she can see whether they are both eating healthily.
+
+      She calculated the average intake they had over a two week period. They were both active for approximately 30 minutes a day, and they both drink enough water.
+
+      *Interactive item here showing the food diary*  (reference https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7-a.asp)
     interactive: 
       file: 
       width: 800
-      height: 800       
+      height: 800
   -
   -
     title: Time to think

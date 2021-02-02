@@ -51,30 +51,125 @@ sections:
           img: placeholder_icon.svg
   -
   -
+    title: Interactivity - Grams to calories
+    theme: 
+    
+    copy: |
+      Roll your mouse over the image below to discover how many calories are in a gram of carbohydrate, protein and fat.
+
+      See: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg9.asp for reference
+
+    interactive: 
+      file: 
+      width: 800
+      height: 800       
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+       Make sure you know about how many calories come from different sources of energy!
+       
+       Understanding the sources of energy that food provides is a key part of your Assessment. 
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      The calorie is a useful measure that helps us to know how much energy certain foods have, and how many calories are needed so that people can live and function. 
+  -
+  -
+    title: Basal Metabolic Rate
+    theme: t-bg-supporting2
+    copy: |
+      The Basal Metabolic Rate (BMR) is the rate at which a person uses energy to maintain the basic functions of the body.
+
+      This includes breathing, keeping warm and keeping the heart beating!
+
+      Not everybody will have the same BMR.
+
+      Select the images below to learn more.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Average BMR
+          copy: |
+            Most adults will use about 1.1 calories every minute just breathing, keeping warm and keeping the heart beating. A person's BMR is usually about ¾ of a person’s energy needs. 
+          img: placeholder_icon.svg
+        -
+          title: Children's BMR
+          copy: |
+            Infants and young children tend to have a high BMR for their size due to their rapid growth and development. 
+          img: placeholder_icon.svg
+        -
+          title: Muscle mass
+          copy: |
+            People with more muscle mass tend to have a higher BMR because it takes more energy to maintain muscles. The more muscles you have, the more energy you use. 
+          img: placeholder_icon.svg
+        -
+          title: BMR and age
+          copy: |
+            Older adults tend to have a lower BMR than younger people because their muscle mass decreases with age. 
+          img: placeholder_icon.svg
+  -
+  -
     title: Case study
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Case study - Bill and Jane
 
-      text
+      Bill and Jane begin to calculate their BMR. To do this, they first write down their age, weight and height.
+
+      Bill aged 35, weighs 170 lbs and 6’ tall.
+
+      Jane aged 34, weighs 140 lbs and 5’ 7” tall.
+
+      They then used the following formulae to work out their BMR
     subInc: 
       type: accordion
       content:
         - 
-          title: Example link in content
+          title: BMR formulae
           copy: |
-            
-            Use [Google](https://www.google.co.uk) to try this search out and find the above pdf document. 
-            
-            (_Select the back button to return to this course_)
+            BMR
+
+            Male = 66 + (6.23 x weight in pounds) + (12.7 x height in inches) – (6.8 x age in years)
+
+            Female = 655 + (4.35 x weight in pounds) + (4.7 x height in inches ) – (4.7 x age in years)
+
+            Bill and Jane then calculate their BMR:
+        -
+          title: Bill BMR
+          copy: |
+            66 + (6.23 x 170) + (12.7 x 72) – (6.8 x 35) kcals
+
+            = 66 + 1059.1 + 914.4 – 238 kcals
+
+            = 1801.5 kcals (BMR)
+
           img: /images/svg/placeholder_icon.svg
+        -
+          title: Jane BMR
+          copy: |
+            655 + (4.35 x 140) + (4.7 x 67) – (4.7 x 34) kcals
+
+            = 655 + 609 + 314.9 – 159.8 kcals
+
+            = 1419.1 kcals (BMR)
+
+          img: /images/svg/placeholder_icon.svg
+  
+    copy2: It’s important to remember that Basal Metabolic Rate is affected by a person’s physical activity levels and age.  
   -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: |
+        Calculate your own BMR. Use the journal entry box to type the calculation and work out your answer! 
   -
   -
     title: On the web
@@ -82,8 +177,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Use this online calculator to help you work out your BMR: 
 
       links:
-        website description: http://www.google.co.uk     
+        BMR Calculator: https://www.calculator.net/bmr-calculator.html   
   -
