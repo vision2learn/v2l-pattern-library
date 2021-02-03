@@ -3,6 +3,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 const json2yaml = require('json-to-pretty-yaml');
+const hslToHex = require('@paulobontempo/hsl-to-hex')
 
 module.exports = function(config) {
 
@@ -29,10 +30,13 @@ module.exports = function(config) {
       }
   });
 
-  config.addFilter("yamlify", function(value) {
-    // console.log("JSON: ", value);
-    // console.log('YAML: ', json2yaml.stringify(value));
+  config.addFilter("yamlify", value => {
     return json2yaml.stringify(value);
+  });
+
+  config.addFilter("hexify", value => {
+    let hsl = value.split(',');
+    return hslToHex(hsl[0], hsl[1], hsl[2]);
   });
 
   
