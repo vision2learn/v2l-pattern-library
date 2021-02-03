@@ -1,0 +1,36 @@
+:root {
+  --flow: 1.5;
+  --highlight: hsl(329, 100%, 42%);
+  --primary-hue: 196;
+
+  --primary1: hsl(var(--primary-hue), 100%, 44%);
+  --primary1a: hsl(var(--primary-hue), 78%, 55%);
+  --primary1b: hsl(var(--primary-hue), 78%, 66%);
+  --primary1c: hsl(var(--primary-hue), 78%, 78%);
+  --primary2: hsl(var(--primary-hue), 100%, 33%);
+  --primary3: hsl(var(--primary-hue), 100%, 22%);
+
+  --secondary1: hsl(210, 8%, 16%);
+  --secondary1blue: hsl(var(--primary-hue), 20%, 16%);
+  --secondary2: hsl(213, 7%, 31%);
+  --secondary3: hsl(329, 100%, 42%);// var(--highlight);//hsl(329, 100%, 42%);
+
+  --supporting1: hsl(140, 8%, 69%);
+  --supporting2: hsl(0, 0%, 90%);
+  --supporting3: hsl(0, 0%, 95%);
+}
+
+$flow: 1.5;
+$highlight: #d6006d;
+
+$primary1: #00a6e0;
+$primary2: #007da8;
+$primary3: #005370;
+
+$secondary1: #25282b;
+$secondary2: #4a4f55;
+$secondary3: #d6006d;
+
+$supporting1: #abb7af;
+$supporting2: #e6e6e6;
+$supporting3: #f3f3f3;

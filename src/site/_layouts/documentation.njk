@@ -5,17 +5,35 @@ theme:
 permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
 ---
 
-<h1>{{ title | capitalize }}</h1>
+<h1>{{ title | upper }}</h1>
 
 
 <h2>Description</h2>
 {{ content | safe }}
 
-{# {% if examples[page.fileSlug] %}
-{% highlight "yaml" %}
-{{ examples[page.fileSlug] | yamlify }}
-{% endhighlight %}
-{% endif %} #}
+{% if title | lower == 'colours' %}
+  <h2>Colour Palette</h2>
+  {% for colourgroup, palette in colours %}
+    <h3>{{ colourgroup | title }}</h3>
+    <div>
+      {% for colour, code in palette %}
+      <div class="d-colour-chip t-bg-{{ colour }}">
+        {% set rawHSL = code | replace('%', '') | replace('hsl', '') | replace('(', '') | replace(')', '') %}
+        {{ colour }}: {{ code }} {{ rawHSL | hexify }}
+      </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% endif %}
+
+{% if examples[page.fileSlug] %}
+{% set url = "/documentation/components/rendered/" + page.fileSlug %}
+<h2>Rendered Example</h2>
+<p><a href="{{ url }}">View stand-alone "{{ title }}" component.</a>
+<div style="border: dashed 2px rgba(0,0,0,0.3); padding: 1em; overflow: scroll">
+  <iframe src="{{ url }}" style="width: 100%; height: 350px; border: 0"></iframe>
+</div>
+{% endif %}
 
 {% if tabledata %}
 <h2 id="keys">Available Keys/Values {% if review %}<i class="review">(Syntax under review)</i>{% endif %}</h2>
@@ -42,13 +60,4 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
     {% endfor %}
   </tbody>
 </table>
-{% endif %}
-
-{% if examples[page.fileSlug] %}
-{% set url = "/documentation/components/rendered/" + page.fileSlug %}
-<h3>Rendered Example</h3>
-<p><a href="{{ url }}">View stand-alone {{ title }} component.</a>
-<div style="border: dashed 2px rgba(0,0,0,0.3); padding: 1em; overflow: hidden">
-  <iframe src="{{ url }}" style="width: 100%; height: 500px; border: 0">
-</div>
 {% endif %}

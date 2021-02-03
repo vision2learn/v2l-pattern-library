@@ -1,25 +1,31 @@
 {%- set unique -%}
   {{ '' | uniqueID | trim }}
 {%- endset -%}
-<div class="l-media l-media--half l-media--max">
-  <h2 class="l-media__title" id="ttt{{ unique | trim }}">
-    Time to Think {{ section.include.layout }}
-  </h2>
-  <div class="l-media__body" id="ttt_desc{{ unique | trim }}">
-    {{ section.include.copy | markdownify | safe }}
+{% set data = section.include %}
+{% if compData %}
+  {% set data = compData.include %}
+{% endif %}
+<section id="time-to-think" class="t-bg-primary3 i-think">
+  <div class="l-media l-media--half l-media--max">
+    <h2 class="l-media__title" id="ttt{{ unique | trim }}">
+      Time to Think {{ data.layout }}
+    </h2>
+    <div class="l-media__body" id="ttt_desc{{ unique | trim }}">
+      {{ data.copy | markdownify | safe }}
+    </div>
+    {%- if site.env !== 'dotnet'%}
+      <form class="l-media__img l-think" id="{{ 'formJournal' | uniqueID }}">
+        <textarea class="js-think" rows="15" aria-labelledby="ttt{{ unique | trim }}" aria-describedby="ttt_desc{{ unique | trim }}"></textarea>
+        <button>Save</button>
+      </form>
+    {%- else %}
+      @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
+        (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
+        "{{ data.copy | striptags(false)}}",
+        formClassAttribute: "l-media__img l-think", 
+        formIdAttribute: "{{ 'formJournal' | uniqueID }}", 
+        formLabelledBy: "ttt{{ unique | trim }}", 
+        formDescribedBy: "ttt_desc{{ unique | trim }}"))
+    {%- endif %}
   </div>
-  {%- if site.env !== 'dotnet'%}
-    <form class="l-media__img l-think" id="{{ 'formJournal' | uniqueID }}">
-      <textarea class="js-think" rows="15" aria-labelledby="ttt{{ unique | trim }}" aria-describedby="ttt_desc{{ unique | trim }}"></textarea>
-      <button>Save</button>
-    </form>
-  {%- else %}
-    @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
-      (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
-      "{{ section.include.copy | striptags(false)}}",
-      formClassAttribute: "l-media__img l-think", 
-      formIdAttribute: "{{ 'formJournal' | uniqueID }}", 
-      formLabelledBy: "ttt{{ unique | trim }}", 
-      formDescribedBy: "ttt_desc{{ unique | trim }}"))
-  {%- endif %}
-</div>
+</section>
