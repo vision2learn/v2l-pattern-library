@@ -4,11 +4,89 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
-    layout: media
-    theme: t-bg-primary
+    title: Energy requirements and weight
+    theme: t-bg-supporting2
     copy: |
-      ### Title
+      text
 
-    img: /images/svg/placeholder_icon.svg
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Decrease calorie intake
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Increase energy requirements
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: The best of both
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Interactivity - Understanding calories and weight
+    theme: 
+    
+    copy: |
+      text
+
+      
+
+    interactive: 
+      file: 
+      width: 800
+      height: 800       
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: item 1
+          copy: |
+            text
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      text
   -
