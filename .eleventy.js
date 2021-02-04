@@ -35,7 +35,7 @@ module.exports = function(config) {
   });
 
   config.addFilter("hexify", value => {
-    let hsl = value.split(',');
+    let hsl = value.replace(/[^0-9^,]+/g, '').split(',');
     return hslToHex(hsl[0], hsl[1], hsl[2]);
   });
 

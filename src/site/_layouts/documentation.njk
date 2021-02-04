@@ -15,12 +15,19 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
   <h2>Colour Palette</h2>
   {% for colourgroup, palette in colours %}
     <h3>{{ colourgroup | title }}</h3>
-    <div>
+    <div class="d-colours">
       {% for colour, code in palette %}
-      <div class="d-colour-chip t-bg-{{ colour }}">
-        {% set rawHSL = code | replace('%', '') | replace('hsl', '') | replace('(', '') | replace(')', '') %}
-        {{ colour }}: {{ code }} {{ rawHSL | hexify }}
-      </div>
+        <div class="d-colour-chip t-bg-{{ colour }}">
+          <div></div>
+        </div>
+        <dl>
+          <dt>HSL:</dt>
+          <dd><code>{{ code }}</code></dd>
+          <dt>HEX:</dt>
+          <dd><code>{{ code | hexify }}</code></dd>
+          <dt>Theme:</dt>
+          <dd><code>t-bg-{{ colour }}</code></dd>
+        </dl>
       {% endfor %}
     </div>
   {% endfor %}

@@ -49,8 +49,7 @@ main {
   * + p,
   * + ul:not([class]),
   * + ol,
-  * + dl,
-  * + div:not(.gallery),
+  * + div:not(.gallery):not(.d-colour-chip),
   * + table,
   * + video {
     margin-top: 1.5rem;
@@ -103,6 +102,20 @@ a:hover {
 
 ::selection {
   background-color: var(--primary3b);
+}
+
+dt{
+  display: inline-block;
+  width: 10%;
+}
+
+dd {
+  display: inline;
+}
+
+dd::after {
+  content: '\A';
+	white-space: pre;
 }
 
 table {
@@ -183,7 +196,26 @@ td:last-of-type {
   }
 }
 
+.d-colours {
+  align-items: center;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 2em;
+}
+
 .d-colour-chip {
   border-radius: 90px;
-  padding: 1em;
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  // padding: 1em;
+
+  > div {
+    background-color: currentColor;
+    border-radius: 90px;
+    margin: auto;
+    width: 1.5em;
+    height: 1.5em;
+  }
 }
