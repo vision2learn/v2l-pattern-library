@@ -19,7 +19,7 @@
     </header>  
     <aside>
       <h2>Documenation</h2>
-      <nav>
+      <nav class="d-nav">
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
       </nav>
     </aside>
@@ -30,5 +30,8 @@
       <p>&copy; 2021 {{ site.v2l | safe }}</p>
     </footer>
   </div>
+  <script>
+  {% include 'bodyscript.liquid' %}
+  </script>
 </body>
 </html>

@@ -153,11 +153,19 @@ td:last-of-type {
   display: grid;
   grid-template-columns: 1fr var(--aside) minmax(auto, var(--main)) 1fr;
   grid-template-rows: max-content 1fr max-content;
-  grid-template-areas:
+  grid-template-areas: 
     "header header header header"
-    ". aside main ."
+    "main main main main"
+    "aside aside aside aside"
     "footer footer footer footer";
   min-height: 100%;
+
+  @media(min-width: 600px) {
+    grid-template-areas:
+      "header header header header"
+      ". aside main ."
+      "footer footer footer footer";
+  }
 
   > header,
   > footer {
@@ -171,6 +179,7 @@ td:last-of-type {
     color: white;
     grid-area: header;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-size: 2em;
 
     svg {
@@ -196,6 +205,30 @@ td:last-of-type {
   }
 }
 
+.d-nav {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+
+  ul {
+    list-style: none;
+    padding-left: 1em;
+  }
+
+  > ul {
+    padding-left: 0;
+
+    > li {
+      margin-top: .5em;
+    }
+  }
+}
+
 .d-colours {
   align-items: center;
   display: grid;
@@ -218,4 +251,9 @@ td:last-of-type {
     width: 1.5em;
     height: 1.5em;
   }
+}
+
+.l-tablewrapper {
+  overflow-x: scroll;
+  max-width: calc(100vw - 2rem);
 }

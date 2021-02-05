@@ -7,7 +7,7 @@ tags:
   - components
 eleventyNavigation:
   key: banner
-  parent: docs
+  parent: components
   title: Banner
 tabledata:
   - 

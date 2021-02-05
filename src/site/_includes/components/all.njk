@@ -52,32 +52,31 @@
 
 {# --- 2. Responsive Images--- #}
 
-{%- macro img(file, class, alt, type, env) %}
-  {# These widths mirror those set in the images.js gulp task #}
-  {%- set widths = [400, 600, 800, 1000, 2000] %}
+{%- macro img(file, class, alt, type, env) -%}
+  {#- These widths mirror those set in the images.js gulp task -#}
+  {%- set widths = [400, 600, 800, 1000, 2000] -%}
   
-  {# Set basepath to image folder #}
-  {# TODO: Alter value based on type var #}
-  {# {%- set basepath = "/images/" %} #}
+  {#- Set basepath to image folder -#}
+  {#- TODO: Alter value based on type var -#}
+  {#- {%- set basepath = "/images/" %} -#}
 
-  {# split name and extension from filename #}
-  {%- set basefile = file.split('.') %}
+  {#- split name and extension from filename -#}
+  {%- set basefile = file.split('.') -%}
 
-  {# Use the file name and widths to build up the srcset attribute #}
-  {%- set srcset %}
-    {%- set comma = joiner() %}
+  {#- Use the file name and widths to build up the srcset attribute -#}
+  {%- set srcset -%}
+    {%- set comma = joiner() -%}
     {%- for width in widths %}
       {{ comma() }} {{ '~' if env === 'dotnet' }}{{ basefile[0] + "-" + width + "." + basefile[1] | lower }} {{ width + "w"}}
     {%- endfor %}
   {%- endset %}
-
-    <img
-      {%- if class %} class="{{ class }}" {%- endif %}
-      src='{{ "~" if env === "dotnet" }}{{ basefile[0] + "-" + widths[1] + "." + basefile[1] }}'
-      srcset="{{ srcset | trim }}"
-      sizes="100vw"
-      alt='{{ alt }}'>
-{%- endmacro %}
+  <img
+    {%- if class %} class="{{ class }}" {%- endif %}
+    src='{{ "~" if env === "dotnet" }}{{ basefile[0] + "-" + widths[1] + "." + basefile[1] }}'
+    srcset="{{ srcset | trim }}"
+    sizes="100vw"
+    alt='{{ alt }}'>
+{%- endmacro -%}
 
 {# --- 3. Unit Overview Buttons--- #}
 {%- macro unitOverviewBtn(num) %}
@@ -159,11 +158,9 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 {%- endmacro %}
 
-{# 7. Section
-  
+{# 7. Section 
   Arguments:
     section (object) - found in individual page front matter or from predefined in _data/sections.json...
-
 #}
 
 {%- macro section(section) %}
@@ -230,10 +227,15 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   {%- if mediaObj | first === "/"  %}
     {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
   {%- endif %}
-
+  
   {# Detect media type, img/video etc #}
-  {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg')) %}
+  {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg') or mediaObj.startsWith('https://via.placeholder')) %}
     {%- set mediaType = "image" %}
+    {% set filepath = '/images/svg/' %}
+
+    {% if mediaObj.startsWith('https://via.placeholder') %}
+      {% set filepath = '' %}
+    {% endif %}
   {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
   {%- elseif mediaObj === "activity" %}
@@ -264,10 +266,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- if mediaType === "image" %}
         {%- if link %}
           <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
-            <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+            <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
           </a>
         {% else %}
-          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
         {%- endif %}
       {%- elseif mediaType === "video" %}
         <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
@@ -284,7 +286,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- endif %}  
     </div>
   {% else %}
-    {%- set id = data.title | d('no string') | d('no string') | slug | uniqueID %}
+    {%- set id = data.title | d('no string') | slug | uniqueID %}
     <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
     <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">

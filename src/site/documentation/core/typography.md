@@ -4,6 +4,7 @@ eleventyNavigation:
   key: typography
   parent: core
   title: Typography
+  order: 5
 ---
 
 The typeface used throughout the content is Open Sans. If Open Sans is unavailable, default system fonts are used as fallbacks. Currently these are Segoe on Windows, San Francisco on macOS/iPadOS/iOS and Roboto on Android.

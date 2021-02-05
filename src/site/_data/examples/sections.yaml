@@ -1,0 +1,42 @@
+-
+  title: A basic section
+  copy: |
+    This is the most basic section, with only a title and some copy.
+-
+  title: A basic section with theme applied
+  theme: t-bg-primary2
+  copy: |
+    This is another basic section, but with a theme applied.
+
+    See [Themes]() for all available themes.
+-
+  title: Section with an image but no layout set
+  theme: t-bg-secondary2
+  copy: |
+    To have the image displayed beneath the text (on wide displays), use [Markdown syntax to add the image](https://daringfireball.net/projects/markdown/syntax#img.)
+
+    ![](https://via.placeholder.com/300)
+-
+  title: Section with an image and default media layout
+  theme: t-bg-primary
+  copy: |
+    This is another basic section, but with a theme applied.
+  img: https://via.placeholder.com/600
+  layout: media
+-
+  title: Section with image and text set to equal widths
+  copy: |
+    This is another basic section, but with a theme applied.
+
+    See [Themes]() for all available themes.
+  img: https://via.placeholder.com/600?text=layout+media-half
+  layout: media-half
+-
+  title: Section with reversed image and text layout
+  theme: t-bg-supporting2
+  copy: |
+    This is another basic section, but with a theme applied.
+
+    See [Themes]() for all available themes.
+  img: https://via.placeholder.com/600?text=layout+media-rev
+  layout: media-rev

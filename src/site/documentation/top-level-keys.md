@@ -7,7 +7,7 @@ tags:
   - top-level-keys
 eleventyNavigation:
   key: top-level-keys
-  parent: docs
+  order: 2
 tabledata:
   - 
     key: title

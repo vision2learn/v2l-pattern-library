@@ -1,4 +1,8 @@
-{%- for section in module.sections %}
+{% set sections = module.sections %}
+{% if not module.sections %}
+  {% set sections = examples.sections %}
+{% endif %}
+{%- for section in sections %}
   {#
     Only write out sections with data 
   #}

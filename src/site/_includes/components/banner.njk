@@ -1,46 +1,46 @@
-{%- import 'components/all.njk' as components %}
+{%- from 'components/all.njk' import img as img  -%}
 
-{%- if module.banner %}
-  {%- set bannerImg = '/images/banners/' + shortcode + '/' + module.banner %}
-{%- else %}
-  {%- set bannerImg = '/images/banners/PLACEHOLDER.jpg' %}
-{%- endif %}
+{%- if module.banner  -%}
+  {%- set bannerImg = '/images/banners/' + shortcode + '/' + module.banner  -%}
+{%- else -%}
+  {%- set bannerImg = '/images/banners/PLACEHOLDER.jpg'  -%}
+{%- endif -%}
 
 
-{%- if session ==  1 %}
-  {%- set sessionIs = "first" %}  
-{%- elseif session ==  2 %}
-  {%- set sessionIs = "second" %}  
-{%- elseif session ==  3 %}
-  {%- set sessionIs = "third" %}  
-{%- elseif session ==  4 %}
-  {%- set sessionIs = "fourth" %}  
-{%- elseif session ==  5 %}
-  {%- set sessionIs = "fifth" %}  
-{%- elseif session ==  6 %}
-  {%- set sessionIs = "sixth" %}  
-{%- elseif session ==  7 %}
-  {%- set sessionIs = "seventh" %}  
-{%- elseif session ==  8 %}
-  {%- set sessionIs = "eighth" %}  
-{%- elseif session ==  9 %}
-  {%- set sessionIs = "ninth" %}  
-{%- elseif session ==  10 %}  
-  {%- set sessionIs = "tenth" %}
-{%- else %}
-  {%- set sessionIs = "--- not defined ---" %}
-{%- endif %}
+{%- if session ==  1  -%}
+  {%- set sessionIs = "first"  -%}  
+{%- elseif session ==  2 -%}
+  {%- set sessionIs = "second"  -%}  
+{%- elseif session ==  3 -%}
+  {%- set sessionIs = "third" -%}  
+{%- elseif session ==  4 -%}
+  {%- set sessionIs = "fourth" -%}  
+{%- elseif session ==  5 -%}
+  {%- set sessionIs = "fifth" -%}  
+{%- elseif session ==  6 -%}
+  {%- set sessionIs = "sixth" -%}  
+{%- elseif session ==  7 -%}
+  {%- set sessionIs = "seventh" -%}  
+{%- elseif session ==  8 -%}
+  {%- set sessionIs = "eighth" -%}  
+{%- elseif session ==  9 -%}
+  {%- set sessionIs = "ninth" -%}  
+{%- elseif session ==  10 -%}  
+  {%- set sessionIs = "tenth" -%}
+{%- else -%}
+  {%- set sessionIs = "--- not defined ---" -%}
+{%- endif -%}
 
-{%- if pagination.lastPageHref == page.url %}
-  {%- set lastPage = true %}
-  {%- set bannerTitle = "What did you learn?" %}
-  {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!" %}
-{%- elseif pagination.pageNumber == 1 and session == 1 and unit == 1 %}
-  {%- set bannerTitle = "Your learning goals" %}
-{%- else %}
-  {%- set bannerTitle = module.title | d(compData.title) %}
-  {%- set bannerText = module.intro | d(compData.intro) %}
-{%- endif %}
+{%- if pagination.lastPageHref == page.url -%}
+  {%- set lastPage = true -%}
+  {%- set bannerTitle = "What did you learn?" -%}
+  {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!" -%}
+{%- elseif pagination.pageNumber == 1 and session == 1 and unit == 1 -%}
+  {%- set bannerTitle = "Your learning goals" -%}
+{%- else -%}
+  {%- set bannerTitle = module.title | d(compData.title) -%}
+  {%- set bannerText = module.intro | d(compData.intro) -%}
+{%- endif -%}
 
 <section class="c-banner" data-session="{{ session }}">
   <div class="c-banner__text boxout">
@@ -58,9 +58,9 @@
     {%- endif %}
   </div>
   
-  {%- if bannerImg.endsWith(".svg") %}
+  {%- if bannerImg.endsWith(".svg") -%}
     <img src="{{ '~' if site.env === 'dotnet' }}{{ bannerImg | d('banner.img') | lower }}" class="c-banner__img" alt="">
-  {%- else %}
-    {{ components.img(file=bannerImg, class="c-banner__img", env=site.env)}}
+  {%- else -%}
+    {{ img(file=bannerImg, class="c-banner__img", env=site.env)}}
   {%- endif %}
 </section>

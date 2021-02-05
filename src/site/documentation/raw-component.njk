@@ -5,8 +5,11 @@ pagination:
 permalink: "/documentation/components/rendered/{{ pagination.items[0].fileSlug }}/"
 layout: default
 ---
+{%- import 'components/all.njk' as components %}
 {% if pagination.items[0].fileSlug == 'quick-quiz-multi-choice' -%}
   {% set incPath = 'components/quick-quiz.njk' %}
+{% elif pagination.items[0].fileSlug == 'sections' %}
+  {% set incPath = 'page-chunks/sections.njk' %}
 {% else -%}
   {% set incPath = 'components/' + pagination.items[0].fileSlug + '.njk' %}
 {% endif -%}

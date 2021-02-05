@@ -149,6 +149,7 @@ module.exports = function(config) {
     },
     templateFormats : ["njk", "liquid", "html", "md", "11ty.js"],
     dataTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true
   };
 };
