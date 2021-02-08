@@ -58,20 +58,21 @@ sections:
     title: Diets for children under 5
     theme: t-bg-primary
     copy: |
-      Children under 5 usually only have access to the foods their parents, or guardians, buy or prepare for them.
+      Children under 5 usually only have access to the foods their parents, or guardians, buy or prepare for them. One of the most important things about a child’s diet is to get them into good habits so they can have a healthy diet throughout their life.
 
-      One of the most important things about a child’s diet is to get them into good habits so they can have a healthy diet throughout their life.
-
-      Children should have food that is freshly prepared. Menus should include plenty of fruit and vegetables, wholegrains, starchy foods (such as pasta or potatoes), and protein (from meat, fish or pulses).
-
-      Children also need plenty of fluids, from water, milk or diluted unsweetened juice – not fizzy or sugary drinks!
-
-      To learn more about an under 5’s diet scroll through the slides below.
+      To learn about an under 5’s diet scroll through the slides below.
 
     subInc: 
       type: slider
       title: 
       slides:
+        -
+          title: Fresh food and fluids
+          text: |
+            Children should have food that is freshly prepared. Menus should include plenty of fruit and vegetables, wholegrains, starchy foods (such as pasta or potatoes), and protein (from meat, fish or pulses). 
+            
+            Children also need plenty of fluids, from water, milk or diluted unsweetened juice – not fizzy or sugary drinks!
+          img: placeholder_icon.svg
         -
           title: Calories
           text: |

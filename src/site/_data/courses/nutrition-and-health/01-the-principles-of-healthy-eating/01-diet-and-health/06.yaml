@@ -1,7 +1,69 @@
-title: Placeholder
+title: What did you learn? 
 intro: |
-  Welcome to the course! To achieve your Level 2 Certificate in Nutrition and Health:
-  * unit 1
-  * unit 2
-  * etc
-banner: placeholder.jpg
+  Well done, you’ve now completed the ﬁrst session of this unit! In this session you have learnt about 
+  
+banner: summary.jpg
+
+sections:
+  -
+    title: Summary and learning points
+    theme: t-bg-primary
+    copy: |
+      In this Session you have learnt about the links between diet and health. You have learnt about:
+      * The link between diet and health.
+      * The link between diet and disease.
+      * The differences between healthy diets for adults and children.
+      * Calories and the energy that comes from food.
+      * The relationship between calories, weight loss and weight gain.
+      * Basal Metabolic Rate and Physical Activity Levels, and their effect on weight.
+      * Why it’s important to control your salt intake.
+
+
+      Take a look at the following learning points to see a summary of what you have covered in this session:
+      * Influences on diet and health
+      * Diet and disease
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Personal characteristics
+          copy: |
+            * Age
+            * Gender
+            * Health conditions
+        -
+          title: Health problems
+          copy: |
+            * Obesity
+            * Heart disease
+            * Cancer
+            * Diabetes
+            * Dental
+        -
+          title: Diet features
+          copy: |
+            * Salt intake
+            * Weight
+  -
+    title: Session quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

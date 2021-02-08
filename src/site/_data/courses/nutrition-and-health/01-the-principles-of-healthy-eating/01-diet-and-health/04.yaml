@@ -3,43 +3,56 @@ intro: |
   On this page you will learn about: 
   * Diets for teenagers
   * Diets for adults
+  * Key differences between diets for adults and children
 banner: placeholder.jpg
 sections:
   -
     title: Diets for teenagers
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
+      Children gain about 20% of adult height and 50% of adult weight during adolescence. Because growth and change is so rapid during this period, the nutritional and dietary requirements for the child also change. Scroll through the slides to see nutritional requirements of teens.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Salt
           text: |
-            text
+            The maximum recommended daily amount of salt for all people aged over 11 years (and for adults) is no more than 6g per day (or 2.4g sodium).
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Iron
           text: |
-            text
+            Adolescents need to make sure they get enough iron as this nutrient helps growth. Teenage girls in particular need to make sure they get enough iron.
+
+            11-18 year old males need 8 to 11 mg per day.
+
+            11-18 year old females need 10 to 15 mg per day.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Calories
           text: |
-            text
+            Due to all their growth and activity, adolescent boys need 2,500-2,800 per day, while girls need around 2,200 per day. It’s best to get these extra calories from lean protein, low-fat dairy, whole grains, and fruits and veggies. 
           img: placeholder_icon.svg
         -
-          title: slide 4 title
+          title: Protein
           text: |
-            text
+            In order for the body to grow and maintain muscle, teens need 45-55g per day. Most teenagers easily meet this need from eating meat, fish, and dairy, but vegetarians may need to increase their protein intake from non-animal sources like soy foods, beans, and nuts. 
           img: placeholder_icon.svg
         -
-          title: slide 5 title
+          title: Calcium
           text: |
-            text
+            Many teens do not get sufficient amounts of calcium, leading to weak bones and osteoporosis later in life. Encourage teens to cut back on fizzy drinks and other overly-sugary foods, which suck calcium from bones. The 800-1000mg of calcium needed per day should come from dairy, calcium-fortified juice and cereal, and other calcium-rich foods such as sesame seeds and leafy greens like spinach. 
           img: placeholder_icon.svg
+  -
+  -
+    title: Stats and Facts
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      Teens are more at risk of developing eating disorders than any other age group. We’ll look at eating disorders in a later unit.
+    img: /images/svg/ln/LM_Stats.svg
   -
   -
     title: Time to think
@@ -47,18 +60,109 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        text
+        Can you remember what kind of food you ate as a teenager? Were there any good or bad points to your diet? 
         
         *You can refer to these notes in your journal which will support you when you come to your assessment*
   -
   -
-    title: Stats and Facts
-    layout: media
+    title: Diets for adults
     theme: t-bg-supporting2
     copy: |
-      * In 2008 Toyota became the world’s biggest car manufacturer based on sales
-      * Toyota has even donated its methodologies to charities and non-profit organisations to help improve their efficiency
-    img: /images/svg/ln/LM_Stats.svg
+      A healthy diet for adults is balanced. It provides everything that the body needs to stay fit and healthy.
+
+      However, many adults in the UK are overweight as most of us overeat or consume more calories than we should. Adults need to eat a healthy diet for their weight and lifestyle.
+
+      Adults should eat diets rich in fresh fruit and vegetables, protein, starchy foods and a little fat. Click the tiles to the right to discover more about adult diets.
+
+      You’ll learn more about the importance of each of these later on in the Unit.
+
+      Select the images below to read more.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Low in fat
+          copy: |
+            Adults should all follow a diet that is low in fat. Many of us consume too much fat and eat too much of the wrong fat – the saturated kind! This is found in many processed foods such as cakes, biscuits and ready meals. 
+          img: placeholder_icon.svg
+        -
+          title: High in fibre
+          copy: |
+            Fibre is vital for proper digestive function. It can also help to prevent some lifestyle-associated diseases, such as heart disease. Lots of us do not eat enough fibre and should look to eat more of it. Adults should eat 18 grams a day. 
+          img: placeholder_icon.svg
+        -
+          title: Low in sugar and salt
+          copy: |
+            Too much sugar and salt in the diet can cause obesity and cardiovascular problems. Many people eat too much sugar and salt. Sugar is a source of energy but it is added to food and drink by manufacturers. Often we consume it without even thinking about it. 
+          img: placeholder_icon.svg
+        -
+          title: 5 portions of fruit and veg
+          copy: |
+            Eating 5 portions of fruit and veg a day has many health benefits. They contain vitamins and minerals as well as help to reduce the risk of heart disease and some cancers. They also contain lots of fibre, which helps to aid healthy digestion. 
+          img: placeholder_icon.svg
+    copy2: It’s important to remember that the dietary needs of adults will vary depending on their life stage and their lifestyle.
+  -
+  -
+    title: Activity - Key differences
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      You’ve looked at what is needed for a healthy diet in both adults and children. Now let us look at the differences between the two.
+
+      A healthy diet for adults provides everything that the body needs to stay fit and healthy.
+
+      A healthy diet for children under 5 provides everything that they need to stay fit and healthy, as well as grow properly. 
+
+      Select the following icon to see the key differences between adults and children.
+
+      *Content in activity:*
+
+      Fat in diets
+      Milk in diets
+      Fibre in diets
+
+      https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7.asp
+
+
+
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+  
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Kate and Jake's lifestyle differences
+
+      The lifestyles of adults and children can differ greatly and this has an effect on the foods that they eat.
+
+      Kate has decided to keep a food diary for herself and her son Jake (aged 4). She wants to compare their diets so that she can see whether they are both eating healthily.
+
+      She calculated the average intake they had over a two week period. They were both active for approximately 30 minutes a day, and they both drink enough water.
+
+      *Interactive item here showing the food diary*  (reference https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7-a.asp)
+    interactive: 
+      file: 
+      width: 800
+      height: 800
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        How do your dietary requirements differ from those of your friends and family? Do you think there are any major differences?
+
+        *You can refer to these notes in your journal which will support you when you come to your assessment*
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you understand the key differences between diets for adults and diets for children! You will need to write about this in your Assessment.
   -
   -
     title: On the web
@@ -66,56 +170,12 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Take a look at the following websites for more information.
 
       links:
-        website description: http://www.google.co.uk     
-  -
-  -
-    title: Diets for adults
-    theme: t-bg-supporting2
-    copy: |
-      text
+        nidirect: http://www.nidirect.gov.uk/healthy-eating-for-teenagers
+        wikiHow: http://www.wikihow.com/Improve-Your-Diet-for-Teens
+        bbc good food: https://www.bbcgoodfood.com/howto/guide/eat-your-age
+        British Nutrition Foundation: http://www.nutrition.org.uk/healthyliving/lifestages
 
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        text
-        
-        *You can refer to these notes in your journal which will support you when you come to your assessment*
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      text
   -
