@@ -7,9 +7,11 @@ sections:
     title: Energy requirements and weight
     theme: t-bg-supporting2
     copy: |
-      text
+      Once a person can calculate their total energy requirements they are in a position to maintain their weight.
 
-      Select the images below to read 
+      If they are taking on more energy than they are using, the excess calories will be converted into fat. You learnt about this earlier in the Session.
+
+      In order to lose weight, you have to use more energy than you consume. Select the images below to learn about how you could do this.
 
     subInc: 
       type: reveal
@@ -17,17 +19,17 @@ sections:
         -
           title: Decrease calorie intake
           copy: |
-            text
+            Look at the food you’re eating and find ways to decrease the amount of calories that you consume. For example, you could cut out certain foods or use low calorie alternatives. 
           img: placeholder_icon.svg
         -
           title: Increase energy requirements
           copy: |
-            text
+            This is done by increasing your activity levels, for example taking up exercise or sport.
           img: placeholder_icon.svg
         -
           title: The best of both
           copy: |
-            text
+            By increasing your energy requirements and decreasing calorie intake, you will lose weight more effectively, and are more likely to see long-term results! 
           img: placeholder_icon.svg
   -
   -
