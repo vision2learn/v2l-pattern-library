@@ -1,5 +1,5 @@
 ---
-title: Top Level Keys
+title: Page Basics
 tags:
   - documentation
   - pages
@@ -7,7 +7,8 @@ tags:
   - top-level-keys
 eleventyNavigation:
   key: top-level-keys
-  order: 2
+  title: Page Basics
+  order: 5
 tabledata:
   - 
     key: title

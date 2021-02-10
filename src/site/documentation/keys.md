@@ -1,9 +1,9 @@
 ---
-title: Key Types
+title: Understanding Key Types
 eleventyNavigation:
   key: key-types
-  title: Key Types
-  order: 1
+  title: Understanding Key Types
+  order: 4
 ---
 
 Throughout the documentation you will find references to the different key types you will use when creating pages in YAML format. Below is an explanation of these key types.

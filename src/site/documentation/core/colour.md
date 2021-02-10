@@ -4,7 +4,6 @@ eleventyNavigation:
   key: colours
   parent: core
   title: Colours
-  order: 4
 ---
 
 The colour palette for all of the revised courses is based on our corporate blue. The primary hints are used in backgrounds where a different shade is needed; the darker variants are used for certain content feature backgrounds. All shades are used for the vector artwork within the course.

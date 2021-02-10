@@ -3,12 +3,7 @@ title: Sections
 eleventyNavigation:
   key: sections
   title: Sections
-	order: 2
-tags:
-  - documentation
-  - sections
-  - subInc
-  - components
+  order: 6
 ---
 
 Apart from a few exceptions, most pages also require the `sections` key. This is where most of the actual course content will be placed.

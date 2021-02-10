@@ -2,6 +2,10 @@
 @import "partials/vars";
 @import "partials/themes";
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -147,8 +151,8 @@ td:last-of-type {
 }
 
 .l-docs {
-  --main: calc((710 / 16) * 1rem);
-  --aside: calc((320 / 16) * 1rem);
+  --main: calc((765 / 16) * 1rem);
+  --aside: calc((275 / 16) * 1rem);
   background: var(--supporting3);
   display: grid;
   grid-template-columns: 1fr var(--aside) minmax(auto, var(--main)) 1fr;
@@ -163,12 +167,11 @@ td:last-of-type {
   @media(min-width: 600px) {
     grid-template-areas:
       "header header header header"
-      ". aside main ."
+      "aside main main ."
       "footer footer footer footer";
   }
 
-  > header,
-  > footer {
+   > footer {
     display: flex;
     align-items: center;
     padding: 1rem calc(50% - calc((var(--main) + var(--aside) - 2rem) / 2));
@@ -177,13 +180,17 @@ td:last-of-type {
   > header {
     background-color: var(--primary1);
     color: white;
+    display: flex;
+    align-items: center;
     grid-area: header;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: 2em;
+    font-size: 1.5em;
+    padding: 1rem;
 
     svg {
       fill: currentColor;
+      max-width: 250px;
     }
   }
 

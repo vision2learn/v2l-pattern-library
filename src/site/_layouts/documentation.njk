@@ -8,7 +8,10 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
 <h1>{{ title | upper }}</h1>
 
 
+{% if eleventyNavigation.parent == "components" %}
 <h2>Description</h2>
+{% endif %}
+
 {{ content | safe }}
 
 {% if title | lower == 'colours' %}

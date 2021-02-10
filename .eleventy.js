@@ -129,6 +129,7 @@ module.exports = function(config) {
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
+  config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
   config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");

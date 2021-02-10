@@ -10,16 +10,14 @@ eleventyNavigation:
   parent: components
   title: On the Web
 review: true
-tabledata:
-  - 
-    key: copy
+tabledata: 
+  - key: copy
     required: yes
     datatype: Markdown
     default: "The following website(s) are all useful sources of information:"
     desc: | 
       Text to introduce and explain the purpose of the external links
-  - 
-    key: links
+  - key: links
     datatype: Array
     desc: | 
       Key/Value pairs of text and hyperlinks in the format:
