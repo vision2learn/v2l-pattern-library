@@ -56,7 +56,9 @@ tabledata:
 
   - 
     key: whatyoulearn
-    datatype: String
+    datatype: Array
+    desc: | 
+      TBC
 ---
 
 The Template Data File is required to correctly build a course and is written in JSON format, which is similar to YAML in that is based on key/value pairs but the formatting is different, as shown in the example below.
