@@ -22,7 +22,7 @@
               {{- section.img if section.img -}}
               {{- section.video if section.video -}}
             {%- endset -%}
-
+            
             {%- if section.activity -%}
               {{ components.media2(
                 {
@@ -53,6 +53,14 @@
             
             {%- if section.copy %}
               {{ section.copy | markdownify | safe }}
+            {%- endif %}
+
+            {%- if section.video %}
+              <video controls preload="metadata" aria-label="{{ section.title }}" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg">
+                <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ section.video | lower }}"
+                        type="video/mp4">
+                Sorry, your browser doesn't support embedded videos.
+            </video>
             {%- endif %}
             
             {%- if section.subInc %}
