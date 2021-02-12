@@ -22,12 +22,12 @@ tabledata:
     datatype: Markdown
     desc: A brief explaination of what will be covered on this page, expanding on the `title`.
   - 
-    key: img
+    key: banner
     datatype: Filename
     default: placeholder.jpg
     required: yes
     desc: |
-      Path the the banner image to use.
+      Filename of the banner image to display. You do not need to provide the full path as this is handled by templating. Images should be saved to `src/site/images/banners/{{ shortcode }}` folder where `{{ shortcode }}` maps to the the value of the `shortcode` key set in the [Template Data File](creating-courses/template-data-file/).
     
       You only nees to save a single, high-resolution image and the build system will automatically generate resized images for suitable for different screen sizes and densities.
 ---
@@ -40,5 +40,5 @@ intro: |
   Some introductory text.
 
   In **Markdown** format.
-banner: /path/to/image.jpg
+banner: image.jpg
 ```

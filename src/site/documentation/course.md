@@ -1,7 +1,7 @@
 ---
 title: Creating a Course
 eleventyNavigation:
-  key: test-page
+  key: creating-courses
   title: Creating a Course
   order: 2
 ---
@@ -28,4 +28,4 @@ If we take the IT User Skills Level 2 course as an example, these rules map to:
 
 ## Pages
 
-Pages are written in `YAML` format, a structured data format designed to be human-readable. It is a list of key/value pairs which instruct the system what to display on each page. The `keys` tell the page templates what type of data they are about to receive and the `values` are the actual content to be rendered. This is covered in more detail in [Page Basics](/page-basics).
+Pages are written in `YAML` format, a structured data format designed to be human-readable. It is a list of key/value pairs which instruct the system what to display on each page. The `keys` tell the page templates what type of data they are about to receive and the `values` are the actual content to be rendered. This is covered in more detail in [Page Basics](page-basics).

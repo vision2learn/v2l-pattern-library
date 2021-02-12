@@ -25,9 +25,9 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
         </div>
         <dl>
           <dt>HSL:</dt>
-          <dd><code>{{ code }}</dd>
+          <dd><code>{{ code }}</code></dd>
           <dt>HEX:</dt>
-          <dd><code>{{ code | hexify }}</dd>
+          <dd><code>{{ code | hexify }}</code></dd>
           <dt>Theme:</dt>
           <dd><code>t-bg-{{ colour }}</code></dd>
         </dl>
@@ -52,8 +52,8 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
   <thead>
     <tr>
       <th>Key</th>
+      <th>Type</th>
       <th>Required</th>
-      <th>Data Type</th>
       <th>Default</th>
       <th>Description</th>
     </tr>
@@ -62,8 +62,8 @@ permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
     {% for data in tabledata %}
     <tr>
       <td><code>{{ data.key }}</code></td>
-      <td>{{ "Yes" if data.required else "No"}}</td>
       <td>{{ data.datatype}}</td>
+      <td>{{ "Yes" if data.required else "No"}}</td>
       <td>{{ data.default if data.default else "N/A"}}</td>
       <td>{{ data.desc | markdownify | safe }}</td>
     </tr>

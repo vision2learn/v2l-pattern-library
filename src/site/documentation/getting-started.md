@@ -8,6 +8,7 @@ eleventyNavigation:
 
 ## Prerequisites
 
+- A [GitHub account](https://github.com/join)
 - Download the [{{ site.v2l | safe }} Design System source code](https://github.com/MrSleeth/v2l-pattern-library)
 - [Install Docker](https://www.docker.com/get-started) 
 - Install a good text editor, [Visual Studio Code](https://code.visualstudio.com/) is recommended but any code/text editor, such as [Atom](https://atom.io/), will work

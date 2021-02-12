@@ -8,35 +8,38 @@
   copy: |
     This is another basic section, but with a theme applied.
 
-    See [Themes]() for all available themes.
+    See [Colours](colours) for all available themes.
 -
   title: Section with an image but no layout set
   theme: t-bg-secondary2
   copy: |
-    To have the image displayed beneath the text (on wide displays), use [Markdown syntax to add the image](https://daringfireball.net/projects/markdown/syntax#img.)
+    To have the image displayed beneath the text use [Markdown syntax to add the image](https://daringfireball.net/projects/markdown/syntax#img.). Do not use the `img` key.
 
+    ### Markdown image syntax
     ![](https://via.placeholder.com/300)
 -
   title: Section with an image and default media layout
   theme: t-bg-primary
   copy: |
-    This is another basic section, but with a theme applied.
+    Default `media` layout displays the image to the right of the text on wide screen displays in an approximate 65/35 ratio.
   img: https://via.placeholder.com/600
   layout: media
 -
   title: Section with image and text set to equal widths
   copy: |
-    This is another basic section, but with a theme applied.
-
-    See [Themes]() for all available themes.
+    `media-half` layout displays the text and image in a 50/50 ratio
   img: https://via.placeholder.com/600?text=layout+media-half
   layout: media-half
 -
   title: Section with reversed image and text layout
   theme: t-bg-supporting2
   copy: |
-    This is another basic section, but with a theme applied.
-
-    See [Themes]() for all available themes.
+    The `media-rev` layout displays the image to the left of the text but maintains the default 65/35 ratio of text to image.
   img: https://via.placeholder.com/600?text=layout+media-rev
   layout: media-rev
+-
+  title: Section with video
+  theme: t-bg-primary
+  copy: |
+      A section with a video.
+  video: Submitting_Assessment_Recording.mp4

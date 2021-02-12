@@ -123,25 +123,26 @@ dd::after {
 }
 
 table {
-  border: solid 1px currentColor;
   border-collapse: collapse;
-  text-align: center;
   width: 100%;
+}
+
+tr {
+  border-bottom: solid 1px currentColor;
+}
+
+thead > tr {
+  border-width: 2px;
 }
 
 th,
 td {
-  border: solid 1px currentColor;
-  padding: .2em .5em;
+  padding: .5em 1em;
 }
 
 thead th {
   background-color: var(--primary2b);
   border-bottom-width: 3px;
-}
-
-td:nth-of-type(4),
-td:last-of-type {
   text-align: left;
 }
 

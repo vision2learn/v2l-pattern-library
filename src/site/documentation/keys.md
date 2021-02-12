@@ -14,3 +14,4 @@ Throughout the documentation you will find references to the different key types
 | Markdown | Multi-line text, must start with pipe character (`|`) and accepts [Markdown syntax](https://daringfireball.net/projects/markdown) which is then translated into HTML |
 | Filename | The filename, including extension (e.g. `image.jpg`, `movie.mp4` etc). The system will infer the full path based on a number of factors including the media type, component type etc. |
 | Array | A container which holds one or more of the component type defined by the array's key. New entries are denoted by a hyphen (`-`). |
+| Object | Requires specific child keys to be set |

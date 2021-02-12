@@ -1,7 +1,7 @@
 ---
 title: Template Files
 eleventyNavigation:
-  parent: test-page
+  parent: creating-courses
   key: building-courses
   title: Template Files
 ---
