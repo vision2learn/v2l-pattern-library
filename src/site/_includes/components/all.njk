@@ -287,7 +287,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     </div>
   {% else %}
     {%- set id = data.title | d('no string') | slug | uniqueID %}
-    <h2 id="{{ id }}">{{ data.title }} HELLO THERE</h2>
+    <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
     <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
       <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
