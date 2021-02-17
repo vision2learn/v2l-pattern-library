@@ -3,7 +3,36 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 const json2yaml = require('json-to-pretty-yaml');
-const hslToHex = require('@paulobontempo/hsl-to-hex')
+const hslToHex = require('@paulobontempo/hsl-to-hex');
+const Image = require('@11ty/eleventy-img');
+const path = require("path");
+
+async function imageShortcode(src, alt, sizes) {
+  let fullSrc = `./src/site/${src}`;
+  console.log(fullSrc, path.dirname(src));
+  let metadata = await Image(fullSrc, {
+    widths: [400, 600, 800, 1000, 2000],
+    formats: ["jpg"],
+    urlPath: `/${path.dirname(src)}`,
+    outputDir: `./dist/${path.dirname(src)}`,
+    filenameFormat: function(id, src, width, format, options) {
+      const extension = path.extname(src);
+      // const dirname = path.dirname(src).replace('/src/site/', '');
+      const name = path.basename(src, extension);
+      return `${name}-${width}.${format}`;
+    }
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = function(config) {
 
@@ -13,6 +42,7 @@ module.exports = function(config) {
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
