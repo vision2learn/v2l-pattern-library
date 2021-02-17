@@ -1,11 +1,12 @@
-{%- if section.include %}
-  {%- set sentences = section.include.content %}
-{%- elseif section.subInc %}
-  {%- set sentences = section.subInc.content %}
-{%- else %}
-  {%- set sentences = defaultdata.wordQuiz.sentences %}
-{%- endif %}
-
+{% if compData %}
+  {%- set sentences = compData.content %}
+{% else %}
+  {%- if section.include %}
+    {%- set sentences = section.include.content %}
+  {%- elseif section.subInc %}
+    {%- set sentences = section.subInc.content %}
+  {%- endif %}
+{%- endif -%}
 
 {#  Build answers list  #}
 {%- set answerList = [] %}
@@ -62,6 +63,3 @@
     {%- endfor %}
   </ol>
 </form>
-
-
- 

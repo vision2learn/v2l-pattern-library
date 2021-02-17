@@ -14,7 +14,7 @@ module.exports = {
     const date = new Date(Date.now());
     return {
       year: date.getFullYear(),
-      build: date.toString()
+      build: date.toUTCString()
     }
   }
 }

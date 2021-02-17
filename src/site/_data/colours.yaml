@@ -1,0 +1,15 @@
+primary:
+  primary: hsl(195, 100%, 44%)
+  primary1a: hsl(195, 78%, 55%)
+  primary1b: hsl(195, 78%, 66%)
+  primary1c: hsl(195, 78%, 78%)
+  primary2: hsl(195, 100%, 33%)
+  primary3: hsl(195, 100%, 22%)
+secondary:
+  secondary1: hsl(195, 8%, 16%);
+  secondary2: hsl(195, 7%, 31%);
+  # secondary3: hsl(329, 100%, 42%)
+supporting:
+  supporting1: hsl(140, 8%, 69%)
+  supporting2: hsl(0, 0%, 90%)
+  supporting3: hsl(0, 0%, 95%)

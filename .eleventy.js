@@ -1,6 +1,9 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
+const json2yaml = require('json-to-pretty-yaml');
+const hslToHex = require('@paulobontempo/hsl-to-hex')
 
 module.exports = function(config) {
 
@@ -9,6 +12,7 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  config.addPlugin(eleventyNavigationPlugin);
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
@@ -24,6 +28,15 @@ module.exports = function(config) {
         console.log('val: ', value, ' ', typeof value);
         return "markdown error";
       }
+  });
+
+  config.addFilter("yamlify", value => {
+    return json2yaml.stringify(value);
+  });
+
+  config.addFilter("hexify", value => {
+    let hsl = value.replace(/[^0-9^,]+/g, '').split(',');
+    return hslToHex(hsl[0], hsl[1], hsl[2]);
   });
 
   
@@ -48,7 +61,7 @@ module.exports = function(config) {
 
   config.addFilter("formattitle", value => {
     if(!value) {
-      console.log("Error: ", value);
+      console.log("...Error: ", value);
       return false;
     }
     
@@ -116,6 +129,7 @@ module.exports = function(config) {
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
+  config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
   config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
@@ -136,6 +150,7 @@ module.exports = function(config) {
     },
     templateFormats : ["njk", "liquid", "html", "md", "11ty.js"],
     dataTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true
   };
 };

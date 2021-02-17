@@ -1,16 +1,14 @@
-{%- if section %}
-  {%- set slideData = section.subInc.slides %}
-{%- else %}
-  {%- set slideData = components.slider.slides %}
-{%- endif %}
-
+{%- if compData -%}
+  {% set slideData = compData.subInc.slides %}
+{%- else -%}
+  {%- set slideData = section.subInc.slides -%}
+{%- endif -%}
 {%- from "components/all.njk" import slideItem as slider %}
 <div class="gallery-container">
   <div role="group" class="gallery no-js">
     <ul>
       {%- for slide in slideData %}
         <li role="listitem">
-          
           {{ slider(slide, site.env, shortcode) }}
         </li>
       {%- endfor %}
