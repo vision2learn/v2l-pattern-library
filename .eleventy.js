@@ -7,23 +7,23 @@ const hslToHex = require('@paulobontempo/hsl-to-hex');
 const Image = require('@11ty/eleventy-img');
 const path = require("path");
 
-async function imageShortcode(src, alt, sizes) {
+async function imageShortcode(src, cls, alt, sizes) {
   let fullSrc = `./src/site/${src}`;
-  console.log(fullSrc, path.dirname(src));
   let metadata = await Image(fullSrc, {
     widths: [400, 600, 800, 1000, 2000],
-    formats: ["jpg"],
+    formats: ["webp", "jpeg"],
+    svgShortCircuit: true,
     urlPath: `/${path.dirname(src)}`,
     outputDir: `./dist/${path.dirname(src)}`,
     filenameFormat: function(id, src, width, format, options) {
       const extension = path.extname(src);
-      // const dirname = path.dirname(src).replace('/src/site/', '');
       const name = path.basename(src, extension);
       return `${name}-${width}.${format}`;
     }
   });
 
   let imageAttributes = {
+    class: cls,
     alt,
     sizes,
     loading: "lazy",

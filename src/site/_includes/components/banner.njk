@@ -43,6 +43,7 @@
 {%- endif -%}
 
 <section class="c-banner" data-session="{{ session }}">
+  <!-- NU BANNERZ -->
   <div class="c-banner__text boxout">
     <h1>{{ bannerTitle }}</h1>
     {%- if pagination.pageNumber == 1 and session == 1 and unit == 1 %}
@@ -61,6 +62,7 @@
   {%- if bannerImg.endsWith(".svg") -%}
     <img src="{{ '~' if site.env === 'dotnet' }}{{ bannerImg | d('banner.img') | lower }}" class="c-banner__img" alt="">
   {%- else -%}
-    {{ img(file=bannerImg, class="c-banner__img", env=site.env)}}
+    {% image bannerImg, "c-banner__img", "", "100vw" %}
+    {# {{ img(file=bannerImg, class="c-banner__img", env=site.env)}} #}
   {%- endif %}
 </section>
