@@ -31,7 +31,6 @@ if(process.env.ELEVENTY_ENV === 'dev' && 1 === 1) {
 } 
 else {
   gulp.task('build', gulp.parallel(
-    'images',
     'css',
     'js'
   ));
