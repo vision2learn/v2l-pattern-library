@@ -1,7 +1,7 @@
 {%- from 'components/all.njk' import img as img  -%}
 
 {%- if module.banner  -%}
-  {%- set bannerImg = 'images/banners/' + shortcode + '/' + module.banner  -%}
+  {%- set bannerImg = '/images/banners/' + shortcode + '/' + module.banner  -%}
 {%- else -%}
   {%- set bannerImg = '/images/banners/placeholder.jpg'  -%}
 {%- endif -%}

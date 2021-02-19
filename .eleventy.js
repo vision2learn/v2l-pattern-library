@@ -8,16 +8,18 @@ const Image = require('@11ty/eleventy-img');
 const path = require("path");
 
 async function imageShortcode(src, cls, alt, sizes) {
-  console.log(src);
+  src = src.startsWith('/') ? src.replace('/', '') : src;
   let fullSrc = `src/site/${src}`;
+  const extension = path.extname(src);
+  let tilde = process.env.ELEVENTY_ENV !== 'dev' ? '~' : '';
+  let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
   let metadata = await Image(fullSrc, {
     widths: [400, 600, 800, 1000, 2000],
-    formats: ["webp", "jpeg"],
+    formats: formats,
     svgShortCircuit: true,
-    urlPath: `/${path.dirname(src)}`,
+    urlPath: `${tilde}/${path.dirname(src)}`,
     outputDir: `./dist/${path.dirname(src)}`,
     filenameFormat: function(id, src, width, format, options) {
-      const extension = path.extname(src);
       const name = path.basename(src, extension);
       return `${name}-${width}.${format}`;
     }

@@ -91,7 +91,7 @@
     {% if site.env === 'dotnet' %}
       {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
     {% endif %}
-    {%- set link = link | slug %}
+    {%- set link = link | replace(' ', '-') %}
 
     {% if session == sessionCount %}
       {%- set moveOnText = "Once you’ve finished your assessment and sent it to your tutor for marking, you can move on to the next unit." -%}

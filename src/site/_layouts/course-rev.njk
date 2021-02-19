@@ -22,7 +22,7 @@
 {%- set sessionData = courses[course][thisUnit] | courseinfo -%}
 {%- set thisSession = sessionData.keysOrdered[session - 1] %}
 {%- set sessionName = thisSession | replace(sessionNameFilter, "") | replace("-", " ") | trim | capitalize -%}
-
+{%- set coursename = course -%}
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%}
 
