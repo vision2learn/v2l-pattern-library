@@ -13,7 +13,7 @@ async function imageShortcode(src, cls, alt, sizes) {
   const extension = path.extname(src);
   let tilde = process.env.ELEVENTY_ENV !== 'dev' ? '~' : '';
   let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
-  let metadata = await Image(fullSrc, {
+  let metadata = await Image(fullSrc.toLowerCase(), {
     widths: [400, 600, 800, 1000, 2000],
     formats: formats,
     svgShortCircuit: true,
