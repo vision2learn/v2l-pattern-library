@@ -50,7 +50,7 @@
   {# Session 1 OR Last session in last unit #}
   {% if (session === 1) or (unit == unitCount and session == sessionCount) %}
     <section class="t-bg-grey i-watch">
-      {%- set course = module.course | replace(" ", "-") %}
+      {%- set course = course | slug %}
       {{ components.media2({
         title: "Watch the webinar",
         copy: "To assist you with your assessment please watch this video which provides guidance on how to complete the assessment questions for this section.",
@@ -91,7 +91,7 @@
     {% if site.env === 'dotnet' %}
       {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
     {% endif %}
-    {%- set link = link | replace(' ', '-') %}
+    {%- set link = link | slug %}
 
     {% if session == sessionCount %}
       {%- set moveOnText = "Once you’ve finished your assessment and sent it to your tutor for marking, you can move on to the next unit." -%}
