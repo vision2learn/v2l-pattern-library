@@ -8,7 +8,8 @@ const Image = require('@11ty/eleventy-img');
 const path = require("path");
 
 async function imageShortcode(src, cls, alt, sizes) {
-  let fullSrc = `./src/site/${src}`;
+  console.log(src);
+  let fullSrc = `src/site/${src}`;
   let metadata = await Image(fullSrc, {
     widths: [400, 600, 800, 1000, 2000],
     formats: ["webp", "jpeg"],
