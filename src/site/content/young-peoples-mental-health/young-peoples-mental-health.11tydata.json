@@ -6,6 +6,14 @@
   "year": 2021,
   "shortcode": "ypmh",
   "learningoutcomes": true,
+  "why": "why text",
+  "goals": {
+    "will": [
+      "LO1",
+      "LO2",
+      "LO3"
+    ]
+  },
   "courseFeatures": [
     "on the web",
     "quick quiz",
@@ -17,14 +25,6 @@
     "time to think",
     "read more about it"
   ],
-  "why": "why text",
-  "goals": {
-    "will": [
-      "LO1",
-      "LO2",
-      "LO3"
-    ]
-  },
   "whatyoulearn": [
     "session 1 one",
     "two",
