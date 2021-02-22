@@ -1,0 +1,36 @@
+title: Understanding the concept of mental health
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * mental health terms
+      * the relationship between mental health and well-being
+      * the prevalence of mental health problems in children and young people
+  -
+    title: a suitable title
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Topic introduction text here
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Please see the following video for a demonstration on 
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  
