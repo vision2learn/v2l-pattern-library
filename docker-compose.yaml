@@ -2,13 +2,13 @@
 version: "3.9"
 services:
   v2l:
-    image: mrsleeth/v2l:arm64
+    image: mrsleeth/v2l:node10
     container_name: v2l-design-system
     ports:
       - "8080:8080"
       - "8081:8081"
       - "3001:3001"
-    command: sh -c "yarn run start"
+    command: start
     working_dir: /code
     environment: 
       ELEVENTY_ENV: dev
