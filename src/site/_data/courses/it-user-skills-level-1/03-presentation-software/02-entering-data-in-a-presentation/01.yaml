@@ -1,0 +1,126 @@
+title: Entering data into a presentation
+intro: |
+    In this session we will look at how to enter data into your presentation as well as presentation tools which will help you with the structure, theme and text editing.
+
+banner: it1_u3_s2_p1_enterdata.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about the following in Presentation softare:
+      
+      * Presentation structure
+      * Templates and themes
+      * Entering text
+      * Editing your presentation
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      You will need to identify a slide structure and template to use in your assessment.
+
+  -
+  -
+    title: Adding and deleting slides
+    theme: t-bg-primary
+    copy: |
+      Before you begin adding content to your presentation, you may need to add slides.
+
+      You can add as many slides to your presentation as you need. Simply repeat this process until you have enough slides for your content.
+      
+      Scroll through the slides below to learn more:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Add slides
+          text: |
+            To add slides to your presentation:
+
+            1. Open the presentation you want to add slides to
+            2. On the *Home* tab, click the *New Slide* button
+
+          img: it1_u3_s2_p1_slide1.svg
+        -
+          title: Delete slides
+          text: |
+            To delete slides from your presentation:
+            1. In the Slide tab on the left hand side of your presentation, right click on the slide that you want to delete.
+            2. From the menu that appears, select *Delete Slide*
+
+          img: it1_u3_s2_p1_slide2.svg
+  -
+  -
+    title: Changing the order of your presentation
+    theme: 
+    copy: |
+      You can change the order of slides in your presentation and it can be very useful to be able to do this. For example, if you are putting together a particularly detailed presentation, you might lose track of the content you have added to each slide. It is often only when you finish the presentation and review your work that you realise that some information might be better placed elsewhere.
+    subInc: 
+      type: accordion
+      content:
+        -
+          title: Slide order
+          copy: |
+            If you want to make changes to the order of slides this is a quick and easy task to do within the slides panel.
+
+            1. Down the left-hand side of the screen, ensure that the Outline and *Slides* tabs are visible. If they are not, select View – Normal from the top menu.
+            2. In the *Slides* panel, click and drag to change the order of your slides. Left-click with your mouse button on the slide you want to move and then, while holding the mouse button down, drag the slide to its new position. Release the mouse button to ‘drop’ the slide into the new position.
+            3. You will see that the chosen slide now appears in a different point in your presentation and that your slides have all been renumbered to account for this change in order.
+          img: /images/svg/it1/it1_u3_s2_p1_accordion.svg
+  -
+  -
+    title: Structure, Templates and Themes
+    theme: t-bg-primary
+    copy: |
+      As you begin to put your presentation together, it is useful to spend time thinking about the structure and layout of your work. If you know what information you need to include in your presentation (such as text, images, charts, etc), this will help you to select a suitable structure and theme for your slides.
+
+      Scroll through the slides below to learn about templates, themes, designs and styles. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Templates
+          text: |
+            Templates are documents that are formatted so that the ‘look’ of the document is already in place. This includes elements such as colour schemes, text styles and slide structure.
+
+            Templates are very useful as instead of spending time saving the same kind of presentation over and over again, you are presented with a ‘clean slate’ that you can enter information into.
+          img: it1_u3_s2_p1_slide3.png
+        -
+          title: Themes, designs and styles
+          text: |
+            By default, PowerPoint applies a plain, blank theme to new presentations. However, there are a number of different themes that you can apply to your presentation.
+
+            These themes are pre-formatted slides that include colour schemes, backgrounds, fonts and styles that change the overall look of your presentation.
+          img: it1_u3_s2_p1_slide4.svg
+        - 
+          title: Slide themes
+          text: |
+            PowerPoint has a number of different slide themes that you can choose from to help you organise your presentation content most effectively.
+
+            If you click the arrow next to the New Slide button, you can choose from a wide range of slide themes for your next slide. Different slide themes contain different placeholders for different kinds of information.
+            
+          img: it1_u3_s2_p1_slide5.svg
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+        ### Slide templates and themes
+
+        Please see the following video for a demonstration on how to apply themes, designs and styles:
+
+    video: it2_u2_s4_p2_templates.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, apply the different slide design techniques and tools to your practice document that you worked on the previous session.
+  -

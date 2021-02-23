@@ -1,0 +1,34 @@
+---
+layout: blank.njk
+pagination:
+  data: allcourses
+  size: 1
+permalink: dotnet/{{ pagination.items[0] | d('no string') | slug }}/App_Data/CourseStructure.xml
+---
+{%- set coursedata = allcourses[pagination.items[0]] -%}
+{# 
+  NOTE: pageLenMod is needed because there are some pages which aren't accounted for in allcourses.json
+  Templated pages, such as S1 - P1, P2 and all final pages in a session, aren't in allcourses.json but need to be accounted for in the XML 
+#}
+<!-- CourseStructure.xml for {{ pagination.items[0] | title }} ({{ coursedata.year }}) -->
+<Course id="{{ coursedata.dotnetID if coursedata.dotnetID else 'NO COURSE ID PROVIDED' }}" name="{{ pagination.items[0] | formattitle}}">
+  <Units>
+    {%- for unit in coursedata.units %}
+    <Unit number="{{ loop.index }}" title="Unit {{ loop.index }} of {{ coursedata.units.length }}: {{ unit.title | capitalize }}">
+      {%- set outerLoop = loop.index %}
+      <Sessions>
+        {%- for session, pages in unit['sessions'] %}
+          {%- if outerLoop === 1 and loop.index === 1 %}
+            {%- set pageLenMod = 3 %}  
+          {%- elif loop.index === 1 %}
+            {%- set pageLenMod = 2 %}
+          {%- else %}
+            {%- set pageLenMod = 1 %}
+          {%- endif %}
+        <Session number="{{ loop.index }}" title="Session {{ loop.index }} of {{ loop.length }}: {{ session | capitalize }}" pages="{{ pages.length + pageLenMod}}" />
+        {%- endfor %}
+      </Sessions>
+    </Unit>
+    {%- endfor %}
+  </Units>
+</Course>

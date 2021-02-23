@@ -1,0 +1,79 @@
+title: Setting up a presentation
+intro: |
+  The Presentation Software Unit teaches you how to build effective presentations using Microsoft PowerPoint.
+
+  After learning the basics of creating a presentation you will be shown more advanced features such as formatting your presentation, inserting objects and manipulating the timing of slides.
+banner: it1_u3_s1_p2_powerpoint.jpg
+sections:
+  -
+    title: Microsoft Powerpoint
+    layout: media
+    theme: t-bg-primary
+    copy: |     
+      One of the most useful programs on your computer is Microsoft PowerPoint. You can create a wide range of presentations including reports, proposals and revision notes – you can quickly and easily make changes to these presentations without wasting any paper!
+
+      PowerPoint presentations often incorporate images and graphic elements such as lines, borders, charts or other objects. They can also include hyperlinks that link your presentation to an external source (such as a website), or another slideshow.
+
+      Before you get started, it is important that you are familiar with tasks such as opening Microsoft PowerPoint, starting a new document, taking screenprints and saving your work. Please see the section on **Microsoft Office** in Unit 1 if you need to refresh your memory.
+        
+    img: /images/svg/it1/it1_u3_s1_p2_image1.svg
+  -
+  -
+    title: Launching Microsoft Powerpoint
+    theme: 
+    copy: |
+        When you launch PowerPoint, a new presentation will open automatically. This new presentation will be based on the default template, with a plain white background and default font styles.
+        
+        The default template will have placeholders that you can start typing your content into (these placeholders are marked ‘Click to add...’).
+
+        When your presentation opens, it will contain one slide to begin with and, as you start to build your presentation, you will need to add new slides to your work.
+
+        ![](/images/svg/it1/it1_u3_s1_p2_powerpoint1.png)
+  -
+  -
+    title: Creating text areas
+    theme: t-bg-primary
+    copy: |
+      Later in this unit, we will look at how you can type content into your presentation slides. Before adding content to your presentation, it is useful to define text areas on the slide. These are set areas of the slide where you can enter, edit and format text.
+
+      When you start working with PowerPoint, you will see that each slide contains a series of pre-defined content areas for titles, subtitles, lists, images, etc. 
+      
+      If you want to, you can insert additional text areas in a slide - scroll through the slides below to see how its done.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Step 1 - Insert text box
+          text: |
+            Select *Insert* – *Text Box* from the top menu.
+            Now click and drag with your mouse on the slide to draw the text box in the size and position you want it.
+            Release your mouse button and your text box will appear on the slide.
+          img: it1_u3_s1_p2_slide1.svg
+        -
+          title: Step 2 - Edit text box
+          text: |
+            You can now double-click the text box and start typing content into it.
+            You can also click and drag the text box around the slide, and resize it if you need to.
+          img: it1_u3_s1_p2_slide2.png
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Adding a background
+
+      As well as adding content to your slides, you can also add a background to your presentation in order to make it easily identifiable as your work. For example you might want to include a company logo or an image that is related to the subject of the presentation.
+
+      By adding a background to your slides, you can create an eye-catching effect without detracting from the main content of your presentation. When adding a background, you can choose to apply it to all slides or just to a certain selection.
+
+      Please see the following video for a demonstration at how you can add a background to one slide.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at adding a background and a text box in the following [practice document]().
+  -

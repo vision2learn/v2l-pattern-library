@@ -1,0 +1,131 @@
+title: Spreadsheet Components
+intro: |
+  Spreadsheets can contain numbers, charts, graphs, text and images. Before you can start inserting these different kinds of information, you need to understand how spreadsheets are structured, and the components that they contain.
+banner: it2_u3_s1_p2_excel.jpg
+sections:
+  -
+  -
+    title: Microsoft Excel
+    layout: media
+    theme: t-bg-primary
+    copy: |
+        Microsoft Excel contains spreadsheets. These are like automatic calculators that can contain and process a lot of information. For example, imagine that you have a list of items for sale and you have added up the total cost at the bottom of the list. If one or two of the prices change, you would have to recalculate the whole thing!
+
+        However, a spreadsheet will do this for you automatically. As soon as any numerical data in your spreadsheet changes, any calculations that relate to this data will update…saving you lots of time and work!
+    img: /images/svg/it2/it2_u3_s1_p2_image.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: You have come across Microsoft Excel already in your Word processing and PowerPoint Units. What do you think Excel can be used for?
+  -
+  -
+    title: See here for some ideas
+    theme: t-bg-primary3
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            You can use spreadsheets to perform a wide range of tasks involving numbers – such as doing a tax return, putting together a budget and running a small business. Spreadsheets make mathematical tasks much easier, quicker and more accurate.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you can name at least four different kinds of information that can be used in a spreadsheet.
+  -
+  -
+    title: Excel Templates
+    theme: 
+    copy: |
+        When you first launch Microsoft Excel, you will be presented with a blank spreadsheet that you can add data to. However, much like in Word and PowerPoint, Microsoft Excel gives you a number of predefined templates to help you structure and present your data more effectively.
+  -
+  -
+    title: Types of information
+    theme: t-bg-primary
+    copy: |
+      There are a number of different types of information that you can include in a spreadsheet. Take a look at the icons below to learn about some of these types of information.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Numbers
+          copy: |
+            Spreadsheets can be used for many different types of numerical information and not just financial data, such as phone numbers and quantities of items.
+          img: it2_u3_s1_p2_reveal1.svg
+        -
+          title: Charts
+          copy: |
+            Charts can help you to summarise and interpret information or data in a different way to help give clarity.
+          img: it2_u3_s1_p2_reveal2.svg
+        -
+          title: Text
+          copy: |
+            As well as having numerical data in your spreadsheet you will also use text such as for titles, row and column headings.
+          img: it2_u3_s1_p2_reveal3.svg
+        -
+          title: Images
+          copy: |
+            Images can be used to add impact and interest to your spreadsheet.
+          img: it2_u3_s1_p2_reveal4.svg
+  -
+  -
+    title: Worksheets and workbooks
+    theme: t-bg-supporting2
+    copy: |
+      Worksheets and workbooks are tools to help you organise different spreadsheets. The starting point for any Excel document is the workbook, which initially contains three worksheets. Worksheets in Excel are made up of cells organised into columns and rows. 
+      
+      Using multiple worksheets within a spreadsheet helps you to store different sets of data that all relate to the same topic. For example, you may use *Sheet1* to record your expenses for one financial year, and *Sheet2* to record expenses for the next year and so on. Take a look at the below icons to learn more.
+  -
+    title: Cells, columns and rows
+    theme: 
+    copy: |
+        Every worksheet (or spreadsheet) is made up of cells that are organised into columns and rows.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Cells
+          copy: |
+            In a spreadsheet file, the series of rectangular boxes - labelled with letters along the top line, and numbers down the left-hand side are called cells.
+
+            In these cells is where you will insert the information (text, numbers, etc.) that you want to include in your spreadsheet.
+
+          img: it2_u3_s1_p2_reveal5.svg
+        -
+          title: Columns
+          copy: |
+            Columns are the lines of cells that run down the worksheet.
+
+            The letters along the top mark the columns. These are used to structure the content in cells.
+          img: it2_u3_s1_p2_reveal6.svg
+        -
+          title: Rows
+          copy: |
+            Rows are the lines of cells that run across your worksheets.
+
+            The numbers down the left mark rows. These are used to structure the content in cells.
+          img: it2_u3_s1_p2_reveal7.svg
+    copy2: Each cell in your spreadsheet has its own unique reference made up of the column letter and the row number. For example, C4 would be the reference for a cell located in column C, row 4. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Key components in Microsoft Excel
+      Please see the following video for a demonstration on the following components:
+      * Worksheets 
+      * Workbooks
+      * Cells, columns and rows
+    video: it2_u3_s1_p2_key_components.mp4
+  -
+  -

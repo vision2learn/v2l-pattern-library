@@ -1,0 +1,39 @@
+title: "What did you learn?" 
+intro: Well done, you’ve now completed the seventh session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      
+      ### In brief
+
+      By working through this session, you have learned all about:
+
+      * Internal and external customers
+      * Why customer service should meet expectations
+      * Ways of building positive relationships with customers
+      * How customers demonstrate needs and expections.
+  -
+    title: Session Quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A customer can be defined as anyone who has reasonable expectation that you will provide them with a product or service.
+          answer: product or service
+        -
+          sentence: External customers are customers outside the business you work in who recieve the product or service that the business produces.
+          answer: outside the business
+        -
+          sentence: There are many benefits of customer service, these include, customer loyalty, good publicity, and organisational growth.
+          answer: organisational growth
+        -
+          sentence: Businesses try very hard to meet customers' expectations so that customers are satisfied and continue to use that organisation to provide them with products or services.
+          answer: expectations
+        -
+          sentence: There are five key factors which contribute to positive relationships, these are communication, respect, trust, clarity and focus.
+          answer: clarity
+    theme: i-quiz

@@ -15,11 +15,11 @@
 
 {# --- 1. Pagination--- #}
 
-{% set environ = site.env %}
+{% set sitename = site.v2l %}
 
 {%- macro pagination(class, pagination, page) %}
-  <nav class="{{ class if class }}">
-    <ol aria-label="Pages in this session" role="list" class="c-pagination">
+  <nav class="{{ class if class }}" aria-label="Pages in this session">
+    <ol role="list" class="c-pagination">
       {%- if pagination.previousPageHref %}
         <li class="c-pagination__prev" role="listitem">
           <a href="{{ pagination.previousPageHref }}">
@@ -52,32 +52,31 @@
 
 {# --- 2. Responsive Images--- #}
 
-{%- macro img(file, class, alt, type, env) %}
-  {# These widths mirror those set in the images.js gulp task #}
-  {%- set widths = [400, 600, 800, 1000, 2000] %}
+{%- macro img(file, class, alt, type, env) -%}
+  {#- These widths mirror those set in the images.js gulp task -#}
+  {%- set widths = [400, 600, 800, 1000, 2000] -%}
   
-  {# Set basepath to image folder #}
-  {# TODO: Alter value based on type var #}
-  {# {%- set basepath = "/images/" %} #}
+  {#- Set basepath to image folder -#}
+  {#- TODO: Alter value based on type var -#}
+  {#- {%- set basepath = "/images/" %} -#}
 
-  {# split name and extension from filename #}
-  {%- set basefile = file.split('.') %}
+  {#- split name and extension from filename -#}
+  {%- set basefile = file.split('.') -%}
 
-  {# Use the file name and widths to build up the srcset attribute #}
-  {%- set srcset %}
-    {%- set comma = joiner() %}
+  {#- Use the file name and widths to build up the srcset attribute -#}
+  {%- set srcset -%}
+    {%- set comma = joiner() -%}
     {%- for width in widths %}
       {{ comma() }} {{ '~' if env === 'dotnet' }}{{ basefile[0] + "-" + width + "." + basefile[1] | lower }} {{ width + "w"}}
     {%- endfor %}
   {%- endset %}
-
-    <img
-      {%- if class %} class="{{ class }}" {%- endif %}
-      src='{{ "~" if env === "dotnet" }}{{ basefile[0] + "-" + widths[1] + "." + basefile[1] }}'
-      srcset="{{ srcset | trim }}"
-      sizes="100vw"
-      alt='{{ alt }}'>
-{%- endmacro %}
+  <img
+    {%- if class %} class="{{ class }}" {%- endif %}
+    src='{{ "~" if env === "dotnet" }}{{ basefile[0] + "-" + widths[1] + "." + basefile[1] }}'
+    srcset="{{ srcset | trim }}"
+    sizes="100vw"
+    alt='{{ alt }}'>
+{%- endmacro -%}
 
 {# --- 3. Unit Overview Buttons--- #}
 {%- macro unitOverviewBtn(num) %}
@@ -142,7 +141,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set bannerText = "Well done, you’ve now completed the " + sessionIs + " session of this unit!\n\n" + copy %}
   {%- elseif pageNo == 1 and session == 1 and unit == 1 %}
     {%- set bannerTitle = "Your learning goals" %}
-    {%- set bannerText = "Work hard throughout your " + module.data.course  + " course and be honest about the effort you put into each session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
+    {%- set bannerText = "Work hard throughout your " + module.course  + " course and be honest about the effort you put into each session.\n\nFocus on your learning goals and you may be surprised by how much you can achieve." %}
   {%- endif %}
 
   <section class="c-banner" data-session="{{ session }}">
@@ -151,7 +150,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {{ bannerText | markdownify | safe }}
     </div>
     {%- if banner.endsWith('.svg') %}
-      <img src="{{ '~' if module.data.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
+      <img src="{{ '~' if module.buildenv === 'dotnet' }}{{ banner | lower }}" class="c-banner__img" alt="">
     {%- else %}
       {{ srcset(file=banner, class="c-banner__img")}}
     {%- endif %}
@@ -159,11 +158,9 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 {%- endmacro %}
 
-{# 7. Section
-  
+{# 7. Section 
   Arguments:
     section (object) - found in individual page front matter or from predefined in _data/sections.json...
-
 #}
 
 {%- macro section(section) %}
@@ -211,7 +208,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         link (o): href to link out to, images only
       }
     }
-    env: build environment from module.data pagination object
+    env: build environment from module pagination object
 
 #}
 
@@ -230,10 +227,15 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   {%- if mediaObj | first === "/"  %}
     {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
   {%- endif %}
-
+  
   {# Detect media type, img/video etc #}
-  {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg')) %}
+  {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg') or mediaObj.startsWith('https://via.placeholder')) %}
     {%- set mediaType = "image" %}
+    {% set filepath = '/images/svg/' %}
+
+    {% if mediaObj.startsWith('https://via.placeholder') %}
+      {% set filepath = '' %}
+    {% endif %}
   {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
   {%- elseif mediaObj === "activity" %}
@@ -256,7 +258,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
         {% if mediaType === "image" and data.title === "Stretch" and link %}
           <p>
-            <small>{{ site.v2l | safe }} is not responsible for the content of external sites.</small>
+            <small>vision&#x200B;2&#x200B;learn is not responsible for the content of external sites.</small>
           </p>
         {% endif %}
       </div>
@@ -264,10 +266,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- if mediaType === "image" %}
         {%- if link %}
           <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
-            <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+            <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
           </a>
         {% else %}
-          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}/images/svg/{{ mediaObj | lower }}" alt="{{ mediaError }}">
+          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
         {%- endif %}
       {%- elseif mediaType === "video" %}
         <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
@@ -276,7 +278,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
             Sorry, your browser doesn't support embedded videos.
         </video>
       {%- elseif mediaType === "activity" %}
-        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
+        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
           <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
         </a>
       {%- else %}
@@ -284,7 +286,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- endif %}  
     </div>
   {% else %}
-    {%- set id = data.title | slug | uniqueID %}
+    {%- set id = data.title | d('no string') | slug | uniqueID %}
     <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
     <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
@@ -332,9 +334,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {# 10. Reveal (show/hide) #}
 
 {%- macro reveal(data, env) %}
+  {% set imgSrc = "images/svg/" + data.shortcode + "/" + data.image | lower %}
   <li class="c-reveal-block">
     <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.shortcode }}/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
-    
+    {# {% image imgSrc, "c-reveal-block__icon js-showhide", data.heading, "100vw" %} #}
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ data.heading | d('Panel heading') | capitalize }}</h3>
       {{ data.copy | markdownify | safe | d('Panel copy')}}

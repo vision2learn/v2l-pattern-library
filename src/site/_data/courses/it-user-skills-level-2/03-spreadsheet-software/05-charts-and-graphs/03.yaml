@@ -1,0 +1,71 @@
+title: Altering your chart
+intro: |
+  After you have completed your chart you may find that sometimes it is in the wrong place or that you want to change the chart type. In Excel you can move and resize charts, and you can change the chart type.
+banner: it2_u3_s5_p3_chart3.jpg
+sections:
+  -
+    title: Altering your chart
+    theme: t-bg-primary
+    copy: |
+      Select the images below. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Resizing a chart
+          copy: |
+            To resize a chart, simply move your mouse over the sizing handles. These are the faint dots that appear on the edges of the chart. When your mouse changes to the shape of a double headed arrow, simply hold down your left mouse button and drag the chart until it reaches the desired size.  
+          img: it2_u3_s5_p3_reveal1.png
+        -
+          title: Reposition your chart within a worksheet
+          copy: |
+            To reposition your chart within your worksheet, simply click on the chart and drag it to its new location within your worksheet. 
+          img: it2_u3_s5_p3_reveal2.png
+        -
+          title: Move your chart to a different worksheet
+          copy: |
+            You can also move your chart to a different worksheet by right-clicking on the chart and selecting *Move Chart*.
+          img: it2_u3_s5_p3_reveal3.png
+        -
+          title: Changing a chart type
+          copy: |
+            Sometimes, you may create a chart as a bar chart, and then decide that it would work better as a line graph.
+          img: it2_u3_s5_p3_reveal4.png
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Once you have created a chart, you cannot format it any further.:
+          answers:
+            True: false
+            False: true
+        Bar and column charts are very useful for comparing information.:
+          answers:
+            True: true
+            False: false
+        You should always use the same kinds of charts.:
+          answers:
+            True: false
+            False: true
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Altering your chart
+      
+      Please see the following video for a demonstration on how to alter your chart.
+    video: it2_u3_s5_p3_altering_chart.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at altering your chart in the same practice document from the previous page.
+  -
+  -

@@ -1,0 +1,121 @@
+{# Unit 1 Session 1 Page 2 #}
+<section>      
+  <h2>Your learning goals</h2>
+  
+  <p>
+    By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ course | replace('-', ' ') | formattitle }} qualification:
+  </p>
+  
+  {% if goals.will %}
+    <h3>The learner will:</h3>
+    <ol>
+      {%- for goal in goals.will %}
+        <li>{{ goal }}</li>
+      {%- endfor %}
+    </ol>
+  {% endif %}
+
+  {% if goals.can %}
+    <h3>The learner can:</h3>
+    <ol>
+      {%- for goal in goals.can %}
+        <li>{{ goal }}</li>
+      {%- endfor %}
+    </ol>
+  {% endif %}
+
+  {% if learningoutcomes %}
+    <p>
+      <a href="/pdfs/v2l_{{ shortcode }}_learning_outcomes_u{{ unit }}.pdf">View the complete set of learning outcomes for this unit.</a>
+    </p>
+  {% endif %}
+</section>
+
+{% if whatyoulearn %}
+  <section class="t-bg-primary1a">      
+    <h2>What you will learn</h2> 
+    <p>
+      In this session you will learn about the following:
+    </p>
+    <ul>
+    {% for point in whatyoulearn %}
+      <li>{{ point }}</li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endif %}
+
+<section class="t-bg-primary">      
+  {# TODO: IT isn't formatted correctly #}
+  <h2>Why study {{ course | replace('-', ' ') | formattitle }}?</h2> 
+  {{ why | markdownify | safe }}
+</section>
+
+<section id="goal-setting" class="t-bg-supporting2">      
+  <h2>Goal Setting</h2>    
+  <p>
+    It is important to set yourself achievable targets and specific deadlines. These will keep you focused and increase your chance of overall success. Writing down your goals often gives you greater motivation to achieve them.
+  </p>
+  
+  <h3>Your motivation map</h3>
+  <p>
+    A Motivation Map has three parts. <a href="~/documents/motivation-map-blank.doc">Download your own motivation map</a> and work your way through the steps below.
+  </p>
+  
+  <div class="tabbed ">
+    <ul class="l-btn-group">
+      {%- for i in range(1, 4) %}
+        <li>
+          {{ components.unitOverviewBtn(i) }}
+        </li>
+      {%- endfor %}
+    </ul>
+
+    <section id="section1">
+      <h3>Step 1: What and when</h3>
+      <p>
+        List what you want to achieve and when you want to achieve it. One helpful word to remember is ‘SMART’. Select the letters below to learn more.
+      </p>
+
+      <dl>
+        <dt>S:</dt>
+        <dd><em>Specific</em> - Give yourself exact and clear goals. For example, completing your course within the deadlines set out in your Action Plan.</dd>
+        <dt>M:</dt>
+        <dd><em>Measurable</em> - Make sure you can measure how successful you are at achieving your goals. Your certificate will be proof of your success.</dd>
+        <dt>A:</dt>
+        <dd><em>Acceptable</em> - Your goals must have reasonable and acceptable outcomes. For example, this course may lead to further qualifications.</dd>
+        <dt>R:</dt>
+        <dd><em>Realistic</em> - Is your goal achievable? If you’re realistic about your strengths and weaknesses, you can set goals that play to your strengths.</dd>
+        <dt>T:</dt>
+        <dd><em>Timed</em> - You need to have a realistic timescale. For example, you have an Action Plan in your ‘My study’ area to help you submit your Unit Assessments on time.</dd>
+      </dl>
+    </section>
+
+    <section id="section2">
+      <h3>Step 2: Why those goals</h3>
+      <p>
+        When filling out the ‘Why’ section of your map list the reasons why you want to achieve your goal. Include as many reasons as possible; the more strong reasons that you have for wanting to achieve something, the higher your motivation will be. These reasons can be practical such as, "So I can go to college with good grades," or personal such as, "So I can build my confidence when caring for people with dementia."
+      </p>
+    </section>
+
+    <section id="section3">
+      <h3>Step 3: How to achieve your goals</h3>
+      <p>
+        When filling out the ‘How’ section of your map, list all the practical actions you will take to achieve your goals. Be realistic about what you will do; no-one can revise for 10 hours every day!
+      </p>
+      <p>
+        The ‘How’ section of your Motivation Map may also include two or three milestones. These are important targets that you need to reach on the way to achieving bigger goals, such as completing an Assessment by a certain date.
+      </p>
+    </section>
+  </div>
+</section>
+
+{{ components.section({
+  title: "Hints and Tips",
+  copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + unit + "_s"+ session +"_p1_hints_u" + unit + ".pdf)",
+  theme: "t-bg-primary2 i-read"
+}) }}
+
+<section class="t-bg-primary">      
+  <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
+</section>

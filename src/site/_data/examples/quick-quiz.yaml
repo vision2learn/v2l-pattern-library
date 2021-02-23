@@ -1,0 +1,16 @@
+content:
+  Question one?:
+    answers:
+      Wrong answer 1: false
+      Wrong answer 2: false
+      Right answer: true
+  Question two:
+    answers:
+      True: true
+      False: false
+  Question three:
+    answers:
+      Wrong answer 1: false
+      Right answer: true
+      Wrong answer 2: false
+      Wrong answer 3: false

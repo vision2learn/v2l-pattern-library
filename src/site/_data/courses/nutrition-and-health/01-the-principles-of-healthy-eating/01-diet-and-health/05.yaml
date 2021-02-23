@@ -1,0 +1,167 @@
+title: Diet and disease
+intro: |
+  On this page you will learn about: 
+  * Diet and disease
+  * Controlling salt intake
+banner: placeholder.jpg
+sections:
+  -
+    title: Diet and disease
+    theme: t-bg-primary
+    copy: |
+      There are many diseases that are caused by or made worse by having an unhealthy diet.
+
+      Scroll through the slides below to learn more about the potential consequences of having a poor diet.  
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Obesity
+          text: |
+            It is estimated that over half of people in the UK are overweight and that 25% are clinically obese. These figures have been steadily rising over the last 25 years.
+
+            When people are obese, they are often at greater risk of developing illnesses such as angina, heart disease, diabetes, some cancers and lower back / joint pains.
+
+          img: placeholder_icon.svg
+        -
+          title: Heart disease
+          text: |
+            In the UK, heart disease is a major cause of ill health. Bad cholesterol collects and hardens on the inside of the blood vessel walls, which narrows them and reduces the flow of blood to the heart. This can lead to angina, and eventually heart attacks or strokes. Risk factors include age, gender and family history.
+
+            Some lifestyle factors may increase how likely a person is to develop heart disease.
+
+          img: placeholder_icon.svg
+        -
+          title: Cancer
+          text: |
+            An obese person is 50% more likely to develop colon cancer than someone who is not obese.
+
+            Smoking is another lifestyle factor associated with cancer. A person smoking 20 cigarettes a day is 20 – 40% more likely to develop lung, throat or mouth cancer than a non-smoker.
+
+            Every year, over a quarter of a million people are diagnosed with cancer. Half of these cancers are breast, lung, bowel or prostate.
+
+          img: placeholder_icon.svg
+        -
+          title: Diabetes
+          text: |
+            With diabetes, a person’s body can’t use glucose properly, but the condition can be managed. If it is not managed successfully, this can lead to blindness, kidney failure, foot ulceration, nerve damage and even heart disease.
+
+            Type 2 diabetes (where the body has problems with insulin) is strongly linked with obesity. If obesity is avoided by eating healthily and exercising then the risk of Type 2 diabetes is significantly reduced.
+
+          img: placeholder_icon.svg
+        -
+          title: Dental disease
+          text: |
+            Tooth decay is very common – over 50% of people in the UK suffer from some form of tooth decay. It is caused by acids breaking down the tooth. The acids come from fermented sugars and starches.
+            
+            Young children are particularly vulnerable to tooth decay because their enamel is still developing. Older people can suffer tooth decay because the enamel has been worn down.
+
+          img: placeholder_icon.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        You can find out more about how different diseases are affected by a healthy diet on the following websites: 
+
+      links:
+        British Nutrition Foundation: http://www.nutrition.org.uk/healthyliving/healthissues
+        NHS UK: http://www.nhs.uk/Conditions/Obesity/Pages/Obesitysymptoms.aspx
+
+  -
+  -
+    title: Controlling salt intake
+    theme: 
+    copy: |
+      Salt is present in many foods, and lots of people aren’t really aware of this.
+       
+      When you add salt for taste, this can lead to too much salt being consumed. 
+      
+      Select the images below to read more.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Salt and blood presure
+          copy: |
+            If a person eats too much salt, it can lead to raised blood pressure. This may increase the likelihood of someone suffering from heart disease and strokes. If a person eats a safe amount of salt then the risk of these problems developing is minimised. 
+          img: placeholder_icon.svg
+        -
+          title: Can salt affect children?
+          copy: |
+            When children are very young, their kidneys can find it difficult to deal with more than 1g of salt per day. Giving children too much salty food can mean that they develop a taste for it and are more likely to eat too much salt when they are adults. 
+          img: placeholder_icon.svg
+        -
+          title: Checking salt content
+          copy: |
+             Many pre-prepared and processed foods already contain salt, so monitoring how much is consumed can be difficult. Some foods tend to have higher salt content, while others will vary according to the manufacturer or brand.
+             
+             The introduction of food labelling has made it easier to check the salt content of what you want to eat.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Activity - Foods high in salt
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      REPLACE TABLE WITH ACTIVITY - Drag and Drop OR Hotspots.  
+      
+      Select the following icon to do an activity which will show examples of food that may contain a high amount of salt. 
+
+      REMOVE - Reference only
+      | Almost always high in salt content | Can be high in salt content |
+      |------|------|
+      | Bacon | Breakfast cereals |
+      | Cheese | Crisps |
+      | Gravy granules | Crumpets / bagels |
+      | Ham | Pasta sauces |
+      | Pickles | Pizza |
+      | Prawns | Ready meals |
+      | Salami | Sausages |
+      | Salted nuts | Tomato ketchup / mayonnaise |
+
+    img: /images/svg/Activity_button.svg
+    activity: U1-S2-P2_DSE
+  -
+  -
+    title: Stats and Facts
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      Take a look at the table below to see the recommended maximum quantity of salt per day:
+
+      | Age group | Salt quantity |
+      |------|------|
+      | Under 1 year | 1 gram |
+      | 1 - 3 years old | 2 grams|
+      | 4 - 6 years old | 3 grams |
+      | 7 - 10 years old | 5 grams |
+      | 11+ years old | 6 grams |
+
+    img: /images/svg/ln/LM_Stats.svg
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Type 2 diabetes (where the body has problems with insulin) is strongly linked with obesity.":
+          answers:
+            True: true
+            False: false
+          feedback: If obesity is avoided by eating healthily and exercising then the risk of Type 2 diabetes is significantly reduced.
+        Select one option to complete the following sentence - "When people are at their recommended weight, they have a much less risk of developing ____________.":
+          answers:
+            fitness: false
+            illness: true
+          feedback: When people are obese, they are often at greater risk of developing illnesses such as angina, heart disease, diabetes, some cancers and lower back / joint pains.
+        What makes it easier to check the salt content in pre-packaged foods?:
+          answers:
+            The small print on the back of the package: false
+            Information on the food website: false
+            Food labelling: true
+          feedback: Food labelling has made it easier to check the salt content of what you want to eat.

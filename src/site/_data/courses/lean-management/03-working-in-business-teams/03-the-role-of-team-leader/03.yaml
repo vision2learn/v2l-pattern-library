@@ -1,0 +1,235 @@
+
+title: Motivation
+intro: | 
+  Why some employees have the drive to do things – whereas others do not – has been the subject of psychological study. The challenge for team leaders is to understand what motivates their team members and makes them strive for improved performance.
+
+banner: lm_u3_s3_p3_motivate.svg
+sections:
+  -
+    title: Workforce motivation
+    theme: t-bg-primary
+    copy: |
+      Psychologists often refer to two different types of motivation: intrinsic and extrinsic. See below to learn more.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Intrinsic motivation
+          copy: |
+            Intrinsic motivation comes from the wants and desires that are inside a person. A young child may play a sport or paint because it is fun. Simply playing a game is enjoyable so the child wishes to play more often. Many people have careers and hobbies that they do because of the intrinsic pleasure. Employees may do a job because doing that type of work gives them pleasure.
+
+          img: /images/svg/ln/lm_u3_s3_p3_accordion_1.svg
+        - 
+          title: Extrinsic motivation
+          copy: |
+            Extrinsic motivation is when people are driven to do things by the offer of external rewards. Sometimes people may be externally rewarded for doing something that they are intrinsically motivated to do. For example, a professional footballer may be highly paid for something he would do for nothing. 
+            
+            There are times when the tasks being rewarded are not intrinsically appealing to an employee. Here the benefit of the external reward compensates for the person doing a task they are not intrinsically motivated to perform. A worker may find their work boring, but if it pays well the money earned can be spent on more interesting activities outside the workplace.
+
+          img: /images/svg/ln/lm_u3_s3_p3_accordion_2.svg
+  -
+    title: Maslow’s theory of human motivation
+    theme: 
+    copy: |
+      Maslow has ranked human needs and put them into a hierarchy of the order in which people are motivated to satisfy these needs. According to his theory, once a level of needs is met, people are able to move up to the next level. 
+
+      Click on each level of the pyramid to see examples of these needs.
+
+    interactive: 
+      file: lm/u3_s3_p3_interactive_maslow
+      width: 600
+      height: 600
+      composition: BF88F2F66EB64E2DB17EB02613B93BDE
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: Read more about Maslow’s theory and how it has been applied to business.
+      links:
+        Abraham Maslow and the pyramid that beguiled business: http://www.bbc.co.uk/news/magazine-23902918
+  -
+    title: Motivation at work theories
+    theme: t-bg-supporting3
+    copy: |
+      It is important to be aware of many motivation theories and be able to see their benefits and limitations. Here you will learn about three more theories of how people are motivated at work.
+      
+      ### McClelland and Atkinson
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: 
+          copy: |
+              The McClelland and Atkinson approach sought to explain why some people appear to be more motivated to achieve than others. These psychologists observed two important components: 
+              * Intrinsic motivation: a person’s internal desire to do something 
+              * Drive to avoid failure. 
+          img: lm_u3_s3_p3_reveal_1.svg
+        -
+          title: 
+          copy: |
+              In competitive situations the desire to succeed may be challenged by employees not wanting to be seen to fail. This can be represented in an equation: 
+              **Desire to succeed – How afraid they are of not succeeding. = Achievement motivation**
+
+          img: lm_u3_s3_p3_reveal_2.svg
+        -
+          title: 
+          copy: |
+              Therefore, an employee with a strong desire to succeed and no fears of failure will have a high achievement motivation. An employee with a moderate desire to succeed but a large fear of failure may have little or no motivation to work hard.
+
+          img: lm_u3_s3_p3_reveal_4.svg
+        -
+          title: Fear of success
+          copy: |
+              Research on motivation has also found that some people are motivated by a fear of success. These people will avoid situations where they are likely to be successful or even ‘self-sabotage’ themselves if success looks possible.
+          img: lm_u3_s3_p3_reveal_3.svg
+  -
+    title: Hertzberg
+    theme: t-bg-primary
+    layout: media-half
+    copy: |
+      Frederick Hertzberg looked at the relationship between motivation and job satisfaction in the workplace. He believed that there is a more complex relationship than just a manager motivating an employee. He identified two key factors: **satisfiers** and **dissatisfiers** which are listed in the image to your right.
+
+      The satisfiers motivate employees to perform well in the workplace. The dissatisfiers will lead to dissatisfaction if they are problematic in any way. Even if the dissatisfiers are only satisfactory, they will not motivate employees to do a better job. 
+
+
+    img: /images/svg/ln/lm_u3_s3_p3_image_2.svg
+  -
+    title: Expectancy theory
+    layout: media
+    theme: 
+    copy: |
+      This theory of motivation explores the process of motivation and was developed by Vroom, Lawler and Porter. These motivation specialists looked at how people perceive the relationship between **effort**, **performance** and **reward**. They reasoned that employees are motivated to put in effort at work when they believe their **effort** will have a noticeable impact on **performance** and a belief that the performance will lead to **rewards**.
+
+    img: /images/svg/ln/lm_u3_s3_p3_image_3.svg
+  -
+    title: Failure to motivate
+    theme: 
+    copy: |
+        Select to see some ways in which the relationship between effort, performance and rewards may fail to motivate employees.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            1. **Employee does not make effort** for example the employee has minimal interest in their work and its outcomes.
+            2. **Effort does not result in performance** for example the employee lacks skills or adequate equipment.
+            3. **Effective performance does not lead to rewards** for example, there is no system for linking individual performance and rewards or the organisation does not have the resources to adequately reward individuals.
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      There may be employees who fit McGregor’s theory X and others who fit theory Y. Some employees may be focusing on the lower levels of Maslow’s theory of needs while others focus on the higher levels. Some work environments may be lacking Hertzberg’s hygiene factors or motivators. Finally there may be employees believing in different effort / performance / reward relationships in an organisation. Remember, one theory does not fit all situations!
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Compare the theories that you have learnt about on the last two pages. Can you see any similarities between them? Record you notes in your journal using the text box to your right.
+
+  -
+    title: Applying motivation
+    theme: t-bg-supporting3
+    copy: |
+      The various theories show that different employees will be motivated in different ways. It is the team leader’s role to identify their team’s motivators and to take the appropriate action to try and establish them.
+      
+      ### Understanding team motivation
+      
+      You have learnt about some of the common theories of motivation in this session. It can be difficult for a team leader to work out the best way to motivate their team. The leader should research what motivates their team and how they can put it into place. Team leaders can use the following approach to understand how to motivate the team:
+      
+      **A.** Ask team members what motivates them.
+      
+      **B.** Based on the answer to question A the team leader can then apply one of the following questions: 
+      1. Can action be directly taken by the team leader?
+      2. Can action be directly taken by others – such as senior managers – within the organisation?
+      3. Is action unable to be taken by anyone in the organisation?
+
+      ## Approach in practice
+
+      See below to read more about each type of answer and what a team leader’s strategy could be in an example situation.
+  
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: A = B1
+          copy: |
+            #### 1. Can action be directly taken by the team leader?
+
+            Here, the motivations of each team member are within the control of the team leader. This means that the team leader has the ability to make decisions and take actions that will tap into the drive and enthusiasm of the team. 
+
+            If new staff are being selected for a team then one of the selection criterion may be that the person is strongly driven by the motivators that the team leader can deliver.
+
+            ### Example
+
+            The motivators for the team members that emerged from the questioning were:
+
+            * Being treated with respect
+            * Wanting to ‘belong’ to the team
+            * Wanting flexibility in work hours as long as objectives were not compromised.
+
+            The leader’s strategy is to work with team members in each of the three areas and create a motivated team.
+
+
+        - 
+          title: A = B2
+          copy: |
+            #### 2. Can action be directly taken by others – such as senior managers – within the organisation?
+
+            In this situation the things that motivate team members are not currently delivered by the team environment. However, they could be delivered by the organisation if senior managers wanted to do so.
+
+            If many team members would be motivated by changes, outside the power of the team leader, then they may discuss the situation with senior managers. 
+
+            Even if changes are unable to be made, team members will see that the issues have been raised. The senior managers will be aware of the mismatch between the motivators used by the organisation and the things which actually motivate the team.
+
+            ### Example
+
+            The motivators for the team members that emerged from the questioning were:
+
+            * Wanting flexibility in work hours as long as objectives were not compromised
+            * Part of their payment based in skills and experience as other teams were often asking staff for advice
+            * Post school crèche facilities for some of the team’s children.
+
+            These were motivators that were not controlled by the team leader in this organisation. The team leader could raise each issue with appropriate managers.
+
+            The senior managers may choose to make changes that will motivate the team, but they could decide that for the wider organisational needs and resources it is not the time to make any changes.
+
+
+        - 
+          title: A = B3
+          copy: |
+            #### 3. Is action unable to be taken by anyone in the organisation?
+
+            In this case both the team leader and more senior managers in the organisation are currently powerless to provide what motivates team members. There is a mismatch between what employees want and what the organisation is offering. 
+
+            The organisation may need to rethink what it offers if the overwhelming majority of staff are not motivated by what is on offer.
+
+            ### Example
+
+            The motivators for the team members that emerged from the questioning were:
+
+            * Higher pay 
+            * Bigger bonuses.
+
+            The team leader had no ability to satisfy these team members. Nor did the organisation have the resources to reward the team members to the level they desired.
+
+            The best the organisation and team leader could do was:
+
+            * Try and find other motivators that could be addressed
+            * Suggest that as things improve economically they could revisit the concerns of the team
+            * Start considering how current team members could be replaced if they choose to leave.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Think about any examples when you have motivated a team as a team leader.
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your assessment you will need to be able to (3.2) identify possible methods. Make sure that you are familiar with the process that a team leader should carry out to work out what motivates their team members. 

@@ -1,0 +1,100 @@
+title: Editing and Formatting
+intro: |
+  There are a wide range of editing tools that you can use to edit your PowerPoint presentations. 
+
+  It’s important that you consider the text formatting options when you are editing your presentation. These tools can help you to make your presentation more attractive and interesting to its audience.
+banner: it2_u2_s3_p2_formatting.jpg
+sections:
+  -
+    title: Editing tools
+    theme: t-bg-primary
+    copy: |
+        Once you have some text in your presentation, you can use a range of editing techniques to rearrange your content.
+
+        There are a number of different things that you can edit within your presentation. Take a look at the images below to see some of the main objects that you can edit.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Layout
+          copy: |
+            You can easily change the layout and appearance of your slides within your presentation. 
+          img: it2_u2_s3_p2_reveal1.svg
+        -
+          title: Slide order
+          copy: |
+            If, after you have looked through your presentation, you want to make changes to the order of slides this is a quick and easy task to do within the slides panel.
+          img: it2_u2_s3_p2_reveal2.svg
+        -
+          title: Slide formatting
+          copy: |
+            The design and theme of your presentation can be changed using a number of predefined templates from the *Design* toolbar.
+          img: it2_u2_s3_p2_reveal3.svg
+        -
+          title: Text
+          copy: |
+            Text changes could include font, size, colour, paragraph and content amendments.  These changes can be made easily from using the tools in the *Font* and *Paragraph* groups.
+          img: it2_u2_s3_p2_reveal4.svg
+        -
+          title: Images
+          copy: |
+            Images can be used to add impact and interest to your presentation.  Images can be replaced or changed using the various tools on the *Graphics Format* toolbar.
+          img: it2_u2_s3_p2_reveal5.svg
+        -
+          title: Shapes
+          copy: |
+            Shapes can be used to create diagrams and graphics.  These can be easy to change using the various tools on the *Shape Format* toolbar including colour, position, size and effects.
+          img: it2_u2_s3_p2_reveal6.svg
+        
+    copy2: |
+        The first thing you need to do before editing any text is to select it.
+
+        To do this, point with your mouse at the word you want to select and then either double-click with the left mouse button to select a single word, or drag the mouse over the word (or words) to select them.
+
+        Your selected text will appear highlighted on the screen. Once you have highlighted the text, you are ready to edit it.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can apply these text formatting techniques in PowerPoint – you will need to use them in your assessment.
+  -
+  -
+    title: Formatting text
+    theme: t-bg-primary
+    copy: |
+        There are a number of different ways that you can format your text in PowerPoint. Take a look at the items below to learn more.
+  -
+    title: The Font group
+    theme: 
+    copy: |
+      The Font group sits in the *Home* tab in the PowerPoint Ribbon. This is where you can do things like change the font size and make text bold. The Font group in PowerPoint is slightly different to the one in Microsoft Word. 
+      
+      Click on the different buttons in the *Font* group below to learn about their functions.
+    interactive: 
+      file: it2/u2_s3_p2_font_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: The Paragraph group
+    theme: t-bg-supporting2
+    copy: |
+      The Paragraph group in PowerPoint provides you with all the necessary tools you need to edit your work and make it look professional.  It is slightly different from the one in Microsoft Word.
+      
+      Click on the different buttons in the *Paragraph* group below to learn more about their functions and how to apply these items.
+    interactive: 
+      file: it2/u2_s3_p2_paragraph_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Read - Editing tools
+    theme: t-bg-primary3 i-read
+    copy: | 
+      Take a look at the following [Editing tools document](/pdfs/it2_u3_s3_p2_editing_tools.pdf) before and after the use of tools in the *Font* and *Paragraph* groups.
+  -
+

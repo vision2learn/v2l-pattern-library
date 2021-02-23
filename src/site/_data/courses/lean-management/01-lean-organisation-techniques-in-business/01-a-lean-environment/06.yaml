@@ -1,0 +1,63 @@
+
+title: What did you learn? 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! In this session you have learnt about the concept of a lean environment. You should now be able to describe the principles of lean organisation techniques and explain the benefits of a lean environment.
+banner: LM_Summary.svg
+
+sections:
+  -
+    title: Learning points
+    theme: t-bg-primary
+    copy: |
+      Take a look at the following learning points to see a summary of what you have covered in this session:
+      * The history of lean organisation
+      * Key lean terms
+      * Five principles of lean organisation
+      * Seven types of waste
+      * Benefits of a lean environment
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Introduction to lean
+          copy: |
+            History of lean
+            * Toyota Production System
+            * “Triumph of the Lean Production System”
+            Key lean terms
+            * Value added
+            * Non-value added
+            * Waste
+        - 
+          title: Principles of lean management
+          copy: |
+            Five principles
+            * Specify what creates value
+            * Identify steps along the process chain
+            * Make processes flow
+            * Respond to customer demand
+            * Strive for continual improvement
+
+            Types of waste
+            * Transportation
+            * Inventory
+            * Motion
+            * Waiting
+            * Overproduction
+            * Overprocessing
+            * Defects
+        -
+          title: Benefits of lean
+          copy: |
+            Benefits of eliminating waste
+            * Traditional organisations
+            * Lean organisations
+
+            Benefits of a lean environment
+            * Transportation
+            * Inventory
+            * Motion
+            * Waiting
+            * Overproduction
+            * Overprocessing
+            * Defects
+  -

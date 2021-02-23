@@ -1,0 +1,33 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! 
+banner: ba-u1-s1-p6.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session you have learnt about:
+      * How to set up your presentation
+      * Presentation guidelines
+      * Maintaining consistency
+      * What type of presentation to create
+  -
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        True or false? "You can set a company logo or an image related to the subject of a presentation as a background to your slides.":
+          answers:
+            True: true
+            False: false
+        Complete the following sentence - "____________ are set areas on a slide where you can enter, edit and format text.":
+          answers:
+            Text areas: true
+            Text boxes: false
+        True or false? "Fancy fonts are easier to read.":
+          answers:
+            True: false
+            False: true
+  -

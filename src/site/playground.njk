@@ -1,0 +1,30 @@
+---
+layout: longform
+permalink: "/playground/index.html"
+---
+<style>
+body {
+  color: darkgrey;
+}
+
+summary > h2,
+summary > h3 {
+  display: inline-block;
+}
+
+</style>
+
+
+<h1>Playground</h1>
+{# {{ courses['it-user-skills-level-1']['01-word-processing-software']['01-working-with-documents'] | dump }} #}
+{% for pageNo, pageData in courses['it-user-skills-level-1']['01-word-processing-software']['01-working-with-documents'] %}
+  {{ pageNo }} {{ pageData.title }} {{ pageData.page.date }}<br>
+{% endfor %}
+
+{% for pageNo, pageData in courses['it-user-skills-level-1']['01-word-processing-software']['02-getting-to-grips-with-word-processing'] %}
+  {{ pageNo }} {{ pageData.title }} {{ pageData.page.date }}<br>
+{% endfor %}
+
+{% for pageNo, pageData in courses['nutrition-and-health']['01-the-principles-of-healthy-eating']['01-diet-and-health'] %}
+  {{ pageNo }} {{ pageData.title }} {{ pageData.page.date }}<br>
+{% endfor %}

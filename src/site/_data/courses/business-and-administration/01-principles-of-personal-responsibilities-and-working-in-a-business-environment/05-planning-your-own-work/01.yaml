@@ -1,0 +1,153 @@
+title: "Planning your own work"
+intro: |
+  In this session, you will learn about three key areas of workplace communication:
+  - Meeting work standards and deadlines
+  - Planning your work
+  - Keeping people informed of your progress
+
+
+banner: BA_U1_S5_p1_Planning.svg
+sections:
+  -
+    title: Your learning goals
+    theme: t-bg-primary
+    copy: |
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Business and Administration qualification.
+
+      1. Know how to plan own work and be accountable to others
+      2. Explain the purpose of meeting work standards and deadlines when completing tasks
+      3. Identify ways of planning own work
+      4. Compare ways of keeping other people informed about progress
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web 
+    include: 
+      type: on-the-web
+      copy: |
+        As you work through this session, you can find lots of information about communicating with others at the following websites -
+      links:
+        prioritise and plan your work: https://www.interviewsuccessformula.com/job-search-advice/tips-on-how-to-prioritize-organize-and-plan-your-work.php
+        time management importance: https://www.activia.co.uk/blog/why-is-time-management-important-at-work
+        tips to meet deadlines: https://www.activia.co.uk/blog/11-essential-tips-on-how-to-meet-deadlines-in-the-workplace
+  -
+
+    title: Work standards and deadlines
+    theme: t-bg-supporting3
+    copy: |
+      When work standards and deadlines are not met, many problems can arise. For example:
+      
+      Scroll through the slides below to see each example
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: Customer expectations failed
+          text: Customers and clients of an organisation may not get the products or services that they expected.
+          img: ba_u1_s5_p1_slide_1.svg
+        -
+          title: Additional cost and effort
+          text: Sometimes the customers will get what they want but it will require a lot of additional cost and effort to get the products and services out.
+          img: ba_u1_s5_p1_slide_2.svg
+        -
+          title: Inefficiencies and delays
+          text: Without standards being met, there is a greater likelihood of inefficiencies and delays. This can be very damaging to an organisation.
+          img: ba_u1_s5_p1_slide_3.svg
+        -
+          title: Loss of customer
+          text: Ultimately, if the end customer does not get what they want, when they want it and at an acceptable price they will go elsewhere.
+          img: ba_u1_s5_p1_slide_4.svg
+        -
+          title: Key outcomes
+          text: The bottom line for an organisation is that if work standards and deadlines are not met then key outcomes may not be achieved.
+          img: ba_u1_s5_p1_slide_5.svg
+    copy2: All of these are problems that may occur when work standards and deadlines are not met.
+  -
+    title: Quick quiz
+    theme: i-quiz
+    copy: |
+      ### Work standards and deadlines - Fast food example
+
+      In a fast food restaurant, staff members preparing burgers are expected to prepare 100 burgers every hour. Along with meeting other food preparation targets, they can only produce 75 burgers an hour. Answer the questions below and identify the potential consequences of this:
+        
+    subInc:
+      type: quick-quiz
+      mode: 
+      content:
+        True or false - The customers are:
+          answers:
+            Having to wait too long for their burgers: true
+            Prepared to wait: false
+        True or false - There are:
+          answers:
+            Long delays at the drive-through counter: true
+            Customers who are satisfied with the service: false
+        True or false - There may be:
+          answers:
+            Repeat business: false
+            Queues as people wait for food: true
+        True or false - Potential customers:
+          answers:
+            Come back later: false
+            Leave without buying: true
+        True or false - The business may suffer with:
+          answers:
+            A loss of business: true
+            Repeat business: false
+        True or false - There will be:
+          answers:
+            Happier staff: false
+            More pressure being put on serving staff: true
+          feedback: In this scenario this is an example of poor planning. It is clear that along with meeting other food preparation targets, there is no way that the ‘100 burgers an hour; target can be met. Setting unrealistic targets is a contributing factor in failing to meet work standards and deadlines. Effective planning and setting realistic targets will ensure that the consequences mentioned in this scenario can be avoided.
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: 
+    subInc:
+      type: accordion
+      content:
+        -
+          title: Failed work standards
+          copy: |          
+            A production line in a car company is producing 4 doors (for 1 car) every 15 minutes. So the pace of work is for 4 cars an hour.
+
+            However, assembly lines in the company are geared up to produce one car every 10 minutes. So the pace of work is for 6 cars an hour. This means that for 20 minutes in every hour, the assembly workers can do very little.
+            
+            If their work standard is to fit the doors on 6 cars every hour they are doomed to fail! The consequences of this difference in work standards could include the rest of the system having to slow down to match the pace of the car producers or the building of a huge backlog of 'doorless' cars.
+          
+          img: /images/svg/ba/ba_u1_s5_p1_image_1.svg
+        -
+          title: Interdependence
+          copy: |
+            All of the people and functions in an organisation are interdependent. Each person will have a responsibility to do their job to an agreed standard. When this is not done, it has a knock on effect on other people in the organisation and may lead to adverse outcomes for customers.  
+  -
+    title: Why plan
+    theme: t-bg-grey
+    copy: |
+      - Organise your day
+      - It is important to plan your work and to be accountable to others.
+      - In your day-to-day life, you may make plans to do many things. If you change these plans, it may have little or no impact on other people.
+      - However, if you change your activities and plans in a work environment, this can have a significant impact on many colleagues and key processes. This can result in personal frustrations and poorer performance.
+
+      Before you move on, see below to read some useful tips for planning at work.
+            
+    subInc:
+      type: accordion
+      content:
+        -
+          title: Planning at work
+          copy: |
+            When planning tasks and activities at work, you should...
+            - Plan your daily workload
+            - Prioritise your work appropriately
+            - Deliver your workload
+            - Be flexible when changes occur
+                    
+            If plans must change, make sure you let all relevant people know about the changes.
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      An employee can make an important contribution to the efficient functioning of a business by meeting his/her work standards and deadlines.
+
+      In a work environment, if you plan your work and deliver as promised you will enhance effectiveness.

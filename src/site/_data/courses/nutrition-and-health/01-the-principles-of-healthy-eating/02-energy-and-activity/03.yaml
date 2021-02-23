@@ -1,0 +1,93 @@
+title: Energy requirements and weight
+intro: |
+  On this page you will learn about energy requirements and weight.
+banner: placeholder.jpg
+sections:
+  -
+    title: Energy requirements and weight
+    theme: t-bg-supporting2
+    copy: |
+      Once a person can calculate their total energy requirements they are in a position to maintain their weight.
+
+      If they are taking on more energy than they are using, the excess calories will be converted into fat. You learnt about this earlier in the Session.
+
+      In order to lose weight, you have to use more energy than you consume. Select the images below to learn about how you could do this.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Decrease calorie intake
+          copy: |
+            Look at the food you’re eating and find ways to decrease the amount of calories that you consume. For example, you could cut out certain foods or use low calorie alternatives. 
+          img: placeholder_icon.svg
+        -
+          title: Increase energy requirements
+          copy: |
+            This is done by increasing your activity levels, for example taking up exercise or sport.
+          img: placeholder_icon.svg
+        -
+          title: The best of both
+          copy: |
+            By increasing your energy requirements and decreasing calorie intake, you will lose weight more effectively, and are more likely to see long-term results! 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Interactivity - Understanding calories and weight
+    theme: 
+    
+    copy: |
+      text
+
+      
+
+    interactive: 
+      file: 
+      width: 800
+      height: 800       
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: item 1
+          copy: |
+            text
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      text

@@ -1,0 +1,157 @@
+title: Reviewing your work
+intro: |
+    The process of reviewing your work is very important as it can help you to discover lots of useful information. The information you collect when reviewing your work can help you to find more efficient and effective ways of doing things, and improve your performance the next time you work on a task.
+banner: it1_u3_s4_p3_ipu_reviewing.jpg
+sections:
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Can you think of any useful information that you could collect when reviewing your work?
+  -
+  -
+    title: Its important to review!
+    theme: t-bg-primary3
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: When you review your work, you can decide...
+          copy: |
+            * If the task was successful
+            * What went well
+            * What didn’t go well
+            * If you performed effectively during the task
+            * If your plan was useful in helping you complete the task
+            * If you would change / improve anything for your next task
+
+            Reviewing your work can help you to answer all of these questions (and more) – so you can see how useful it is to always review the work you have done.
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your assessment you will need to review the selection and use of IT tools to make sure that work activities are successful.
+  -
+  -
+    title: How effective were the IT tools used?
+    theme: t-bg-primary
+    copy: |
+      When you are reviewing the IT tools that you used for your task, you should try to decide whether the tools were appropriate for the task or would other IT tools have been more suitable. Scroll through the slides below to see the following key points to help you when deciding on the effectiveness of the IT tools used:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Time taken
+          text: |
+            Did the chosen IT tools help you to do the job quickly enough? Would other IT tools have been better?
+          img: it1_u3_s4_p3_ipu_slide_1.svg
+        -
+          title: Convenience
+          text: |
+            Were the chosen IT tools easy to use? Would other IT tools have made the task easier?
+          img: it1_u3_s4_p3_ipu_slide_2.svg
+        -
+          title: Cost
+          text: |
+            Were the chosen IT tools the most cost-effective option? Would other IT tools offer a more cost-effective option next time?
+          img: it1_u3_s4_p3_ipu_slide_3.svg
+        -
+          title: Quality
+          text: |
+            Did the chosen IT tools help you to complete the task to a level of quality that you were happy with? Would other IT tools help you to do a better job next time?
+          img: it1_u3_s4_p3_ipu_slide_4.svg
+        -
+          title: Accuracy
+          text: |
+            Did the chosen IT tools help you to check the accuracy of your task? Would you use different IT tools to do the job next time?
+          img: it1_u3_s4_p3_ipu_slide_5.svg
+  -
+  -
+    title: Did you acheive the required outcomes?
+    theme: t-bg-supporting2
+    copy: |
+      This is one of the most important questions to ask when reviewing your work.
+
+      Think back to the plan you created in Session 1. In your plan, you will have listed the key outcomes that you wanted to achieve. By checking if you have achieved your intended outcomes, you can decide if your task has been successful.
+
+      To help you decide if your outcomes have been achieved, you might find it useful to:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Quality of information
+          copy: |
+            Think about the quality of information you used to help you complete your task. This can have a direct impact on whether or not you are able to achieve your outcomes.
+
+          img: it1_u3_s4_p3_ipu_reveal_1.svg
+        -
+          title: Drafing
+          copy: |
+            Review draft versions of your work and review them against your plan. This will help you to see if you are on track to achieve your outcomes and give you the chance to make changes to your work if necessary.
+
+          img: it1_u3_s4_p3_ipu_reveal_2.svg
+        -
+          title: Check with audience
+          copy: |
+            Check your work with the intended audience. Again, this will help you to see if you are on track and producing work that will achieve your outcomes.
+
+          img: it1_u3_s4_p3_ipu_reveal_3.svg
+  -
+  -
+    title: What were the strengths and weaknesses?
+    theme: 
+    copy: |
+      When thinking about strengths and weaknesses, you should spend time looking at your own personal strengths and weaknesses, as well as those relating specifically to the final work.
+
+      To help you evaluate the strengths and weaknesses of your work, think about the following points:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Format
+          copy: |
+            How was the format and layout of your work?
+          img: it1_u3_s4_p3_ipu_reveal_4.svg
+        -
+          title: Accuracy
+          copy: |
+            How accurate was your work?
+          img: it1_u3_s4_p3_ipu_reveal_5.svg
+        -
+          title: Audience
+          copy: |
+            Was the work clear and easy for your audience to understand?
+          img: it1_u3_s4_p3_ipu_reveal_6.svg
+  -
+  -
+    title: Are there any improvements to make next time?
+    theme: t-bg-primary
+    copy: |
+      As you review your work, you will be able to identify things that you could do differently next time. This will help you to improve your performance and productivity from task to task.
+
+      The improvements you make could include:
+      * Correcting any mistakes in your work
+      * Trying to avoid having a negative affect on other people’s work
+      * Finding better ways of doing things
+      * Learning new techniques
+  -
+  -
+    title: Read - Planning in practice
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Lets take another look at our example that we last saw in Session 1.
+
+      After completing his marketing task, Bill decided to spend some time reviewing his work.  He created a review form that he could complete to help him cover the key points. 
+      
+      Select to see Bill’s [completed review form](/pdfs/it1_u3_s4_p3_ipu_review_form.pdf)
+  -
+  -

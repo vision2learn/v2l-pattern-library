@@ -1,0 +1,101 @@
+title: Key components
+intro: |
+  On this page you will learn about:
+  * Spreadsheet key components
+  * Amending your spreadsheet
+banner: it1_u4_s1_p3_excel2.jpg
+sections:
+  -
+    title: Key components in a spreadsheet
+    theme: 
+    copy: |
+        Every worksheet (or spreadsheet) is made up of cells that are organised into columns and rows.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Cells
+          copy: |
+            In a spreadsheet file, the series of rectangular boxes - labelled with letters along the top line, and numbers down the left-hand side are called cells.
+
+            In these cells is where you will insert the information (text, numbers, etc.) that you want to include in your spreadsheet.
+
+          img: it1_u4_s1_p2_reveal1.svg
+        -
+          title: Columns
+          copy: |
+            Columns are the lines of cells that run down the worksheet.
+
+            The letters along the top mark the columns. These are used to structure the content in cells.
+          img: it1_u4_s1_p2_reveal2.svg
+        -
+          title: Rows
+          copy: |
+            Rows are the lines of cells that run across your worksheets.
+
+            The numbers down the left mark rows. These are used to structure the content in cells.
+          img: it1_u4_s1_p2_reveal3.svg
+        -
+          title: Tabs
+          copy: |
+            When you launch a new spreadsheet file, you will see that it consists of a number of worksheets. Each worksheet will be indicated at the bottom of the screen by a tab – clicking a tab will take you to that worksheet.
+          img: it1_u4_s1_p3_reveal4.png
+        
+    copy2: Each cell in your spreadsheet has its own unique reference made up of the column letter and the row number. For example, C4 would be the reference for a cell located in column C, row 4. 
+  -
+  -
+    title: Inserting and amending your spreadsheet
+    theme: t-bg-primary
+    copy: |
+      You can change the format and layout of your spreadsheet by inserting, deleting, hiding and clearing your rows and columns. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Inserting rows and columns
+          text: |
+            You can insert rows and columns into your spreadsheet by selecting the row or column, right-clicking with your mouse and selecting *Insert* from the shortcut menu.
+          img: it1_u4_s1_p3_slide1.png
+        -
+          title: Deleting rows and columns
+          text: |
+            As well as inserting new rows and columns into your spreadsheet, you can also delete them.
+          img: it1_u4_s1_p3_slide2.png
+        -
+          title: Hiding rows and columns
+          text: |
+            If you want to remove rows and columns from your spreadsheet without deleting them altogether, you can choose to hide them instead. 
+            
+            Once these are hidden it is a simple step to display them again.
+          img: it1_u4_s1_p3_slide3.png
+        -
+          title: Clearing rows and columns
+          text: |
+            In some cases, you might want to remove content from your spreadsheet without deleting or hiding the actual rows or columns. To do this, you can *clear* rows and columns.
+
+            You can clear the contents of an *individual cell* in a similar way. Simply click to select the cell you want to clear and then press the Delete key on your keyboard.
+          img: it1_u4_s1_p3_slide4.png
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Key components and amending your spreadsheet
+      Please see the following video for a demonstration on the following:
+      * Worksheets 
+      * Workbooks
+      * Cells, columns and rows
+    video: it2_u3_s1_p2_key_components.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about some of the key components, try these out in the following practice document.
+      
+      [Excel practice file]()
+  -

@@ -2,7 +2,7 @@
 // TODO: Fix handling of non-switchable videos/interactions
 const ContentToggle = (() => {
 
-  const course = document.getElementById('main').dataset.v2lTags;
+  const course = document.querySelector('main').dataset.v2lTags; //document.getElementById('main').dataset.v2lTags;
   const switchKey = "hello-im-a-mac";  
   const videos = document.querySelectorAll('[src$=".mp4"]');
   const interactives = document.querySelectorAll('.c-interactive');

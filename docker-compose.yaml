@@ -1,0 +1,20 @@
+# docker run -it --rm --name 'v2l_arm64' -v $(pwd):/code:cached -v 11ty-v0.11:/code/node_modules:cached -w /code -p 8080:8080 -p 8081:8081 -p 3001:3001 mrsleeth/v2l:arm64 yarn start
+version: "3.9"
+services:
+  v2l:
+    image: mrsleeth/v2l:node10
+    container_name: v2l-design-system
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+      - "3001:3001"
+    command: start
+    working_dir: /code
+    environment: 
+      ELEVENTY_ENV: dev
+      NODE_ENV: dev
+    volumes: 
+      - .:/code
+      - "11ty-v0.11:/code/node_modules"
+volumes:
+  11ty-v0.11:

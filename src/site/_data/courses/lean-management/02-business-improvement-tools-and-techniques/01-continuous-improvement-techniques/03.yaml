@@ -1,0 +1,148 @@
+
+title: Kaizen
+intro: | 
+  An organisation can develop a mind-set and approach that seeks to continuously find and implement improvements.
+
+  There has been a significant commitment to **continuous improvement** in Japan. During the post-World War II period, American business experts like William Shewhart and W.E. Deming shared their ideas with Japanese industrialists. A significant outcome of this union was the emergence of **Kaizen**.
+
+banner: LM_U2_S1_p3_kaizen.svg
+sections: 
+  -
+    title: What is Kaizen?
+    theme: t-bg-primary
+    copy: |
+      The term ‘**Kaizen**’ means ‘gradual and orderly continuous improvement’. It comes from the words ‘kai’ (which means ‘continuous’) and ‘zen’ (which means ‘good’). 
+
+      In Japan, the word carries the meaning of **change, renewal and spirit**. Adopting a Kaizen approach in the workplace brings a spirit of renewal. This means the organisation should operate within a culture where change and continuous improvement are the norm. 
+
+      ### The four principles of Kaizen
+      Scroll through the slides below to see each point
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: 1. Continuous improvement
+          text: Kaizen encourages organisations to continually seek to improve their organisation and processes. Businesses should always be looking to make all areas of their organisation better.
+        -
+          title: 2. People
+          text: Employees need to have a voice and decision-making should not just be restricted to management. Information should flow between the customers, people in the organisation and the suppliers.
+        -
+          title: 3. Change
+          text: Change is good! Change should not be feared and avoided, but should be gradual. It is necessary for developing and improving businesses.
+        -
+          title: 4. Eliminating waste
+          text: The less waste, the better! Resources should be used as efficiently as possible. As waste is eliminated in a business, value is added.
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: Please see the following website for further information.
+
+      links:
+        Kaizen Institute – What is Kaizen?: http://uk.kaizen.com/about-us/definition-of-kaizen.html
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      The term ‘Kaizen’ means ‘gradual and orderly continuous improvement’. 
+      
+      Adopting a Kaizen approach in the workplace means that the organisation should operate within a culture where change and continuous improvement are the norm. Kaizen is a new way of thinking. 
+      
+      Decisions about day-to-day activities may be made by the people doing the activities, rather than by the managers at the top of the organisation. Therefore, information flows both up and down and back and forth throughout the organisation, rather than simply from the top-downwards. 
+
+  -
+    title: New thinking approaches
+    theme: 
+    copy: |
+      Traditionally, organisations are hierarchical – all important ideas and changes come down from those who have power and authority to those who have none. 
+
+      The Kaizen approach is a new thinking approach. It challenges many of the traditional and common ideas about how organisations operate. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Traditional thinking organisation
+          copy: |
+            In traditional thinking organisations there is a flow of information from one department to another. There is a limited flow of information between customers and suppliers.
+        - 
+          title: New thinking organisation
+          copy: |
+            A new thinking organisation may group work activities together into processes, and link processes into systems. They are committed to the Kaizen principles and continually seek to improve their processes.
+  -
+    title: Information flow
+    theme: t-bg-supporting3
+    copy: |
+      Scroll through the slides to find out more about the different ways information may flow within an organisation.
+    subInc:
+      type: slider
+      title: 
+      slides:
+        -
+          title: Information and bottom-up flow
+          text: |
+            As you can see, the information flows up and down (vertically) through the organisation. It is not simply a top-down flow. There are large quantities of important information at activities and processes level. Senior managers at the top of the organisation may, otherwise, be unaware of this information. Therefore, bottom-up flow is important.
+
+            This information flow does have some limitations. For example, there will still be many potential improvements at the level of activities and lower processes, and it makes little sense for the organisation to wait for a senior manager or director to decide on a small change in an activity. 
+          img: LM_U2_S1_P3_Slide_1.svg
+        -
+          title: Information and decision-making flow
+          text: |
+            This diagram shows another type of information flow called a decision-making flow. It shows how decisions about day-to-day activities may be made by the people doing the activities, so that information flow and decisions are made in both directions. 
+          img: LM_U2_S1_P3_Slide_2.svg
+        -
+          title: Information and product/service flow
+          text: |
+            This diagram shows that information also flows vertically in a new thinking organisation. The flow extends from the customers, back through the organisation, and through to suppliers. The information flows in both directions.  
+          img: LM_U2_S1_P3_Slide_3.svg
+  -
+    title: The benefits of new thinking
+    theme: 
+    copy: |
+      New thinking organisations recognise that thousands of activities and decisions occur every day. It is unrealistic to expect a few managers to understand and improve them all. However, if the people who participate in these activities and decisions are trained in the use of continuous improvement techniques, then many small changes can result in substantial improvements to the organisation.
+
+      Changes should not be made in isolation. The horizontal and vertical flow of information and communication is important. It is necessary to know how every change will affect colleagues, suppliers and customers. Therefore, any negative effects can be quickly detected and changed.
+
+      By adopting the new way of thinking, employees can see the ways they influence their organisation. They are able to produce a product or service then discover ways to improve it. 
+
+      See below to see some examples of typical improvements:
+    subInc: 
+      type: accordion
+      content:
+            -
+                title: Improvements
+                copy: |
+                    * Improved QCD
+                    * Improved health and safety
+                    * Reduced waste
+                    * Reduced costs
+                    * Improved information flows
+                    * Happier customers.
+                img: /images/svg/ln/lm_u2_s1_p3_image_5qs.svg
+  -
+    title: Five continuous improvement questions
+    theme: t-bg-primary
+    copy: |
+      At all times, the organisation and its staff should attempt to look at QCD and the seven Department of Trade and Industry (DTI) measures. The organisation should also be sensitive to the potential impact a change in one area may have on the performance of another. This is why the vertical flow of information is so important. 
+
+      See below the five questions that any organisation committed to continuous improvement should ask regularly.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Five questions
+          copy: |
+            1. Are the changes too big or small? 
+            2. Are the right people involved in the changes?
+            3. Is the necessary documentation and training available?
+            4. Are our improvement priorities right?
+            5. Are we focused on adding value for customers?
+
+            As you can see, any organisation that is committed to continuous improvement thinks and operates in very different ways to traditional businesses. The new approach requires information to be communicated more freely, and for staff to be trained and empowered to make more decisions. This requires a lot of time, effort and resources. However, the benefits to individuals, the organisation and the economy as a whole may be sizable.
+          img: /images/svg/ln/LM_U2_S1_P3_Image_Improve.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your assessment you must be able to (1.1) identify the principles of the Kaizen concept. Knowing the difference between traditional thinking and new thinking, and the benefits of new thinking, will help you to remember the key principles.

@@ -1,0 +1,86 @@
+title: Editing your presentation
+intro: |
+  On this page you will learn about editing your presentation.
+
+banner: it1_u3_s2_p3_edittext.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      You will need to be able to select and use appropriate techniques to edit slides for your assessment.
+  -
+  -
+    title: Editing your text
+    theme: t-bg-primary
+    copy: |
+      As well as formatting the content of your presentation, you can also apply a range of editing techniques if you need to rearrange your content. As before, you must first click and drag to select the text you want to edit. Once you have selected the text, you can begin to edit.
+
+      Scroll through the slides below to find out more about the editing tools you can use.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Cut, copy and paste
+          text: |
+            Cutting and pasting allows you to move text from one place to another (either within the same file or to another file altogether).
+
+            Copying and pasting is very similar to cutting text but, in this case, the original text remains in place and a duplicate is made of it.
+
+            While this is a nice easy way of editing text within your presentation, you need to be careful not to paste into the wrong position on a slide or cut some content that you need to keep.
+
+          img: it1_u1_s3_p2_slide1.svg
+        -
+          title: Delete and backspace
+          text: |
+            To delete text from your presentation, you can either use the Backspace key (by positioning your cursor at the end of the text) or, the Delete key (by highlighting your text).
+
+            Be careful when using the Backspace key – if you hold it down too long, you may end up deleting text that you don’t want to delete!
+          img: it1_u1_s3_p2_reveal3.svg
+        -
+          title: Find and replace
+          text: |
+            PowerPoint has a handy ‘find and replace’ tool that you can use to update your presentation content by replacing specified text. For example, you may want to update your presentation by finding all references to January and changing them to February.
+
+            This is a much easier way of updating content than manually going through and amending the entire presentation. However, you should take care when using the find and replace tool, as PowerPoint will make no exceptions to the content it will replace.
+          img: it1_u1_s3_p2_slide2.svg
+        -
+          title: Bulleted sub list
+          text: |
+            You can create sub-points within an existing bulleted list. The main bullet points are known as 1st level text, while the slightly indented sub-points are 2nd level text.
+
+            Just as with the main text in your presentation, you can change the format of a list (or part of a list) in your presentation by altering the line spacing between each bullet point. For example, you might want to apply 1.5 line spacing to the main bullet points in a list, and 0.5 line spacing to any sub-points.
+          img: it1_u3_s2_p3_slide4.png
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Editing your presentation
+      
+      Please see the following demonstration on how to edit your presentation.
+
+    video: it2_u2_s1_p3_wordinfo.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt about editing tools, you can try editing the text in your own practice presentation document that you worked in the previous page.
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Promote / demote
+
+      By selecting text on a particular slide and clicking the *Promote* button, you can move the text to a higher level in the outline. Similarly, you can move selected text down a level by clicking the *Demote* button.
+
+      The promotion / demotion of content allows you to quickly and easily restructure the content of your presentation.  Click on the owl to learn how and then try this in your own practice presentation document.
+
+    img: /images/svg/stretch_button.svg
+    link: https://bettersolutions.com/powerpoint/outlines/promoting-and-demoting.htm

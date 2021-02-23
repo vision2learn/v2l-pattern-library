@@ -1,16 +1,20 @@
 {%- from "components/all.njk" import reveal as reveal %}
-
-<ul class="l-icon-grid {%- if section.subInc.layout %}l-icon-grid--{{ section.subInc.layout }}{%- endif %}">
+{%- if compData -%}
+  {% set revealdata = compData.subInc %}
+{% elseif section %}
+  {% set revealdata = section.subInc %}
+{% endif %}
+<ul class="l-icon-grid {% if revealdata.layout %}l-icon-grid--{{ revealdata.layout }}{% endif %}">
   
-  {% if section.subInc.content %}
-    {% set revealdata = section.subInc.content %}
-    <!-- {{ module.data.shortcode }} -->
-    {%- for revealItem in revealdata %}
+  {% if revealdata %}
+    
+    <!-- {{ module.shortcode }} -->
+    {%- for revealItem in revealdata.content %}
       {{ reveal({
           heading: revealItem.title, 
           copy: revealItem.copy, 
           image: revealItem.img,
-          shortcode: module.data.shortcode
+          shortcode: shortcode
         }, site.env) }}
     {%- endfor %}
   {% else %}

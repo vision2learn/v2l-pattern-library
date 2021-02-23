@@ -1,0 +1,34 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the second session of this unit!
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session you have learnt about:
+      * Page setup and layout
+      * Creating and modify tables
+      * Paragraph editing, styles and templates
+      * Headers and footers
+  -
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        Which one of the following is NOT an example of data that could benefit from being presented in a table?:
+          answers:
+            Numerial data: false
+            Lists: false
+            Pictures: true
+        True or false? "‘Text wrapping’ refers to the method of ‘wrapping’ your content with headers and footers.":
+          answers:
+            True: false
+            False: true
+        Complete the following sentence - "By default, Microsoft Word will assume you’re using A4 sized paper in ________ orientation.":
+          answers:
+            Portrait: true
+            Landscape: false

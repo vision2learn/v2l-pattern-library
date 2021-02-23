@@ -1,0 +1,136 @@
+title: Guidelines and procedures for the secure use of IT
+intro: |
+    It is important that organisations have specific guidelines and procedures in place for employees to follow in relation to the use of IT in the workplace. 
+
+banner: it1_u2_s2_p1_securityguidelines.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about the following in IT security for users:
+      
+      * How to follow relavent guidelines and procedures
+      * Describe why it is important to backup data securely
+      * Ensure personal data is backed up to appropriate media
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Follow relevant guidelines and procedures for the secure use of IT.
+  -
+  -
+    title: Guidelines and procedures
+    theme: t-bg-primary
+    copy: |
+      There are various policies that an organisation will have, scroll through the slides below to learn about three of the most important:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Acceptable Use Policy
+          text: |
+            These policies define how anyone using the system must act and covers a wide range of activities such as:
+            * Restriction on external devices being connected to the system such as USB memory devices.
+            * Rules on passwords such as the number of characters, the use of letter, numbers and symbols
+            * Rules on which websites can and cannot be accessed
+            * Restrictions on installing software or apps
+            * Confidentiality
+            * Disclosure of information
+
+          img: it1_u2_s2_p1_slide1.svg
+        -
+          title: Information security policies
+          text: |
+            These policies are a set of rules and regulations that govern the way information is handled and makes it clear who and what people have access to and how the information can be used. This policy sets out things such as: 
+            * Access levels to determine what facilities users can access.
+            * How information is stored
+            * Data classifications
+            * Security procedures
+
+          img: it1_u2_s2_p1_slide2.svg
+        -
+          title: Backup and storage policies
+          text: |
+            Effective backup and storage policies are essential for every organisation as it ensures that information is stored securely and allows for recovery of data loss in the event of a hardware failure, data corruption or malicious attack. The policy will set out guidelines for:
+            * Data backup schedule
+            * Data backup procedures
+            * Encryption protocols
+            * Recovery guidelines
+
+          img: it1_u2_s2_p1_slide3.svg
+        
+  -
+  -
+    title: Quick Quiz
+    copy: Select the correct Policy that the following items would be found in.
+    subInc:  
+      type: word-quiz
+      content:
+        -
+          sentence: Confidentiality and disclosure of information would be found in the Acceptable Use Policy.
+          answer: Acceptable Use Policy
+        -
+          sentence: Data classifications would be found in the Information Security Policy.
+          answer: Information Security Policy
+        -
+          sentence: Rules on passwords would be found in the Acceptable Use Policy.
+          answer: Acceptable Use Policy
+        -
+          sentence: Encryption protocols would be found the Backup and Storage Policy.
+          answer: Backup and Storage Policy
+        -
+          sentence: External devices being connected to the system restrictions would be found in the Acceptable Use Policy.
+          answer: Acceptable Use Policy
+        -
+          sentence: Data backup schedules and procedures would be found the Backup and Storage Policy.
+          answer: Backup and Storage Policy
+        -
+          sentence: User access levels would be found in the Information Security Policy.
+          answer: Information Security Policy
+        
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+        
+  -
+  -
+    title: Access to confidential information
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      The business should make it clear who has access to which items of data and for which purposes. The issues of access may apply to people other than staff – it can apply to people outside the organisation.
+
+      Access to confidential information should be on a need-to-know basis. This means no-one should have access to information unless it is relevant to their work. Limits of confidentiality must also be set.
+    img: /images/svg/it1/it1_u2_s2_p1_image1.svg 
+  -
+  -
+    title: Why is information confidential?
+    theme: t-bg-primary
+    copy: 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Certain information is kept confidential for several reasons 
+          copy: |
+            These include:
+
+            * Legal requirements, including complying with legislation such as the Data Protection Act (2018) or the content of legally enforceable contracts.
+            * Commercial requirements, such as keeping confidential information secret. A lack of confidentiality can show a lack of competence and/or trust.
+            * Moral requirements. There is a strong moral obligation to respect people's privacy and confidentiality. If this is broken then people will withhold information and lack trust.
+            
+            People need to know what they can and cannot access and the repercussions that may follow if confidence and trust are broken.
+  -

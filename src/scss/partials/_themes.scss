@@ -9,6 +9,7 @@
 }
 
 [class^="t-bg-secondary"],
+[class*="t-bg-secondary"],
 .t-bg-primary2,
 .t-bg-primary3 {
   color: #fff;
@@ -50,27 +51,33 @@
 
 .t-bg-secondary1 {
   background-color: $secondary1;
+  background-color: var(--secondary1);
 }
 
 .t-bg-secondary2 {
   background-color: $secondary2;
+  background-color: var(--secondary2);
 }
 
 .t-bg-secondary3 {
   background-color: $secondary3;
+  background-color: var(--secondary3);
 }
 
 .t-bg-supporting1 {
   background-color: $supporting1;
+  background-color: var(--supporting1);
 }
 
 .t-bg-supporting2,
 .t-bg-grey {
   background-color: $supporting2;
+  background-color: var(--supporting2);
 }
 
 .t-bg-supporting3 {
   background-color: #f3f3f3;
+  background-color: var(--supporting3);
 }
 
 .t-bg-white,

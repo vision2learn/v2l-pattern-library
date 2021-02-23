@@ -1,0 +1,301 @@
+
+title: Producing a process map
+intro: | 
+  In this session you will learn how to produce a process map.  Examples and case studies are used throughout this session to support you in your understanding.
+
+  You will learn how to produce a process map through the use of visual representations using symbols and terminology.  
+
+banner: LM_U1_S3_p1_ProcessMaps.svg
+sections:
+  -
+    title: Learning goals
+    theme: t-bg-primary
+    copy: |
+      In this session, you will work towards the following learning goals.
+
+      You will:
+
+      1. Be able to produce a process map.
+
+      At the end of the session you can:
+
+      1. Produce a process map using appropriate symbols and terminology for an identified process
+  -
+    title: Understanding work processes
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+
+      In a workplace an **action** or **activity** does not take place in isolation. Instead, there is a **sequence** of interconnected and interrelated activities that lead to an outcome. These linked activities form a process.
+
+      However, it can be difficult to get an understanding of how the various activities are linked. One of the most effective ways to understand and improve workplace performance is to get a ‘picture’ or **visual representation** of what is happening.
+
+      In this session you will gain a better understanding of processes through the use of visual representations.
+    img: /images/svg/ln/LM_U1_S3_p1_WorkProcesses.svg
+  -
+    title: Beginning the process
+    theme: 
+    copy: |
+      Here you will be introduced to process maps. A process map is a **picture** of the sequence of steps in a process.
+      
+      Scroll through the slides below to learn more about mapping processes.
+    subInc:
+      type: slider
+      title: Starting to map a process
+      slides:
+        -
+          title: Symbols to represent
+          text: It is possible to use different boxes or symbols to represent different types of activity or different steps.
+          img: LM_U1_S3_p1_slide_start_1.svg
+
+        -
+          title: Pictures to describe
+          text: Step-by-step pictures can be used to describe a workplace process as it currently operates or as it could operate in the future.
+          img: LM_U1_S3_p1_slide_start_2.svg
+
+        -
+          title: Helps understanding
+          text: This helps people to understand what is currently happening in a process and helps identify what needs to be done to make improvements. 
+          img: LM_U1_S3_p1_slide_start_3.svg
+        -
+          title: Purpose of the process
+          text: It is important to know that before starting to map a process you need to be clear about the **purpose** of the process. 
+          img: LM_U1_S3_p1_slide_start_4.svg
+        -
+          title: Identifying output
+          text: This means identifying the **output** (product or service) that the work process is designed for, who receives the outputs and understanding what happens to inputs (materials, information or documents).
+          img: LM_U1_S3_p1_slide_start_5.svg
+        -
+          title: Clarity of flow
+          text: The aim is to be clear about what is **flowing** through the process and to be able to follow this activity.
+          img: LM_U1_S3_p1_slide_start_6.svg
+  -
+    title: Symbols and terminology
+    theme: t-bg-supporting3
+    copy: |
+      One popular method of process mapping is the creation of **flowcharts**. 
+
+      A flowchart provides a method for mapping the interlinked activities and tasks that form a process. It can help organisations to detect any problems that occur in processes.
+
+      Flowcharts work using symbols. Select each symbol below to learn more. 
+
+    subInc: 
+        type: reveal
+        content:
+            -
+                title: Start or End flow
+                copy: |
+                    Example:
+                    * Receive complaint
+                    * Receive request
+                    * Proposal
+
+                img: LM_U1_S3_p1_Symbol_StartEnd_1.svg
+            -
+                title: Process or activity
+                copy: |
+                    Example:
+                    * Hold a meeting
+                    * Make a phone call
+                    * Send a request
+                img: LM_U1_S3_p1_Symbol_Process_1.svg
+            -
+                title: Decision
+                copy: |
+                    Example:
+                    * Yes / No
+                    * Agree / Disagree
+                    * Pass / Fail
+                img: LM_U1_S3_p1_Symbol_Decision_1.svg
+            -
+                title: Document
+                copy: |
+                    Example:
+                    * Report is completed 
+                    * Meeting minutes 
+                    * Form is filled out
+                img: LM_U1_S3_p1_Symbol_Document_1.svg
+            -
+                title: Storage
+                copy: |
+                    Example:
+                    * Store documents
+                    * stack envelopes
+                    * File contacts
+                img: LM_U1_S3_p1_Symbol_Storage_1.svg
+            -
+                title: Database
+                copy: |
+                    Example:
+                    * Stock files
+                    * Order files
+                    * Sales record
+                img: LM_U1_S3_p1_Symbol_Database_1.svg
+    
+  -
+    title: The flow chart process
+    theme: t-bg-primary
+    copy: |
+      ### Main Steps
+
+      1. Identify all of the key processes or activities. You may write these on cards or sticky notes.
+      2. Sequence these processes on a large piece of paper.
+      3. Work through the sequence from start to finish, identifying key decisions and resulting documentation.
+      4. Finalise the sequence. Focus on links between processes, decisions and outputs.
+      5. Produce the final flowchart, checking you’ve involved all key personnel.
+  -
+    title: Turning on a TV
+    #layout: media-half
+    theme: 
+    copy: |
+      The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
+
+      ![](/images/svg/ln/lm_u1_s3_p1_tv_flowchart.svg)
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Turning on a TV to watch a programme is one of many simple home based processes. Can you think of any other processes you do at home which could be shown in a process map like the one above?
+      
+        Make some notes of your idea in the box to the right, and have a go at creating your own process map. Take a look at the below video to see how you can do this in PowerPoint.
+  -
+    title: Watch
+    theme: t-bg-supporting2 i-watch
+    layout: media
+    copy: |
+      ### How to create your own process map
+
+      Please see the following video to see how you can create your own process map using PowerPoint.
+
+      Remember that this is good to do now as it will help you with your assessment later on!
+    video: ba_u1_s3_p1_process_map.mp4
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your assessment you will have to (3.1) use the appropriate **symbols and terminology** found in process maps. You’ve seen some of these so far but make sure you’re familiar with the function of each symbol as you move through the session.
+  -
+    title: Case Study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Rajesh’s process map
+      
+      Use this example to give yourself some experience of ordering a process map. 
+
+      Rajesh is an I.T consultant for a large telecommunications organisation. Rajesh must create process maps as part of his job.
+      Rajesh wishes to attend a conference although to do so he must create and send his manager a process map to obtain approval to attend conferences.
+
+      Take a look at the process map on the right and try the questions below to decide which actions go into which parts of the process map to show the processes Rajesh will follow.
+
+    img: /images/svg/ln/lm_u1_s3_p1_quiz_flowchart.svg
+  -
+    title: Quick quiz
+    copy: |
+      Take a look at the process map above and try the questions below to decide which actions go into which parts of the process map to show the processes Rajesh will follow.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: 1. Start
+          answer: Start
+        -
+          sentence: 2. Request approval
+          answer: Request approval
+        -
+          sentence: 3. Travel
+          answer: Travel
+        -
+          sentence: 4. Attend Conference
+          answer: Attend Conference
+        -
+          sentence: 5. End
+          answer: End
+    theme: i-quiz
+    # Submit button needed with ticks/crosses at end of sentences
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      This is a basic but effective example of a completed process map to serve a purpose. The process map shows the actions Rajesh took to meet the purpose of attending a conference. The **oval** shapes represented the **start** and **end** of the process and the **rectangles** showed the **activities** within the process.
+
+      By the end of this session you will have to produce a process map for a process relating to your own work or experience; your work on this page is a great start!
+  -
+    title: Basic and detailed process maps
+    theme: 
+    copy: |
+      The basic steps for creating a process map are the same whatever the type of map you are creating. The aim is to use a level of detail that meets the needs of your problem solving. Too much detail and you are bogged down with detail…too little and there is little useful information. 
+
+      There are considerable similarities between flowcharts and process maps. Some quality specialists do not differentiate between the two; they simply see them both as ways of understanding and improving business processes. 
+
+      ### Creating a process map
+
+      To create a process map, you should follow ten steps. Each slide below contains a step, scroll through to see each point:
+    subInc:
+      type: slider
+      title: Ten steps
+      slides:
+        -
+          title: Step 1 
+          text: Review the process being studied and its boundaries as defined by your project. 
+          img: LM_U1_S3_p1_slide_Step1.svg
+        -
+          title: Step 2 
+          text: Have participants identify the steps in the process. Write each step on a card or Sticky note. 
+          img: LM_U1_S3_p1_slide_Step2.svg
+        -
+          title: Step 3
+          text: Working as a team, arrange the steps in order (placing the cards / notes in order). 
+          img: LM_U1_S3_p1_slide_Step3.svg
+        -
+          title: Step 4
+          text: Eliminate any duplicates and agree on the wording being used. 
+          img: LM_U1_S3_p1_slide_Step4.svg
+        -
+          title: Step 5
+          text: Agree and maintain the level of detail to be used. 
+          img: LM_U1_S3_p1_slide_Step5.svg
+        -
+          title: Step 6
+          text: Keep the process-flow moving in one direction, usually left to right or top to bottom. You should only go in the opposite direction if a step needs to be repeated. 
+          img: LM_U1_S3_p1_slide_Step6.svg
+        -
+          title: Step 7 
+          text: Discuss the results. Does it match the real situation that you know? Are adjustments required? 
+          img: LM_U1_S3_p1_slide_Step7.svg
+        -
+          title: Step 8 
+          text: When steps 1 to 7 have been done, number the tasks sequentially through the most direct route. Then number the offline tasks. 
+          img: LM_U1_S3_p1_slide_Step8.svg
+        -
+          title: Step 9
+          text: Transfer the whole process map to paper or computer. 
+          img: LM_U1_S3_p1_slide_Step9.svg
+        -
+          title: Step 10
+          text: Date the map and record the names of those involved. 
+          img: LM_U1_S3_p1_slide_Step10.svg
+
+    copy2: We will see the steps highlighted above in a practical example about a mailing company over the next few pages. 
+  -
+    title: The basic structure of a process map
+    theme: t-bg-supporting3
+    copy: |
+      Below is a basic example of a basic process map. Remember, the functions represented by **circles are connectors** and the functions represented by **rectangles are activities**.
+
+      ![](/images/svg/ln/lm_u1_s3_p1_basic_flowchart.svg)
+
+      A basic map will outline the major steps of a process. It is valuable when an overview is required. It is possible to go into greater detail when more information is needed. For a lean organisation, it is highly likely that more information will be required.
+
+      For a lean organisation, the processes are looked at in terms of them being value adding / non value adding or wasteful. To make these judgements, it is important to have accurate information flowing from the customer through the organisation.
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include: 
+      type: on-the-web
+      copy: The symbols used by organisations may vary. One of the most commonly used set of symbols are those devised by the American Standard for Methods Engineering (ASME). For more information on process mapping and the ASME symbols take a look at the links below
+      links:
+        Process mapping: http://www.ims-productivity.com/page.cfm/content/Process-Mapping/
+        Process charts: http://www.ims-productivity.com/page.cfm/content/Process-Charts/

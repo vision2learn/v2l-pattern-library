@@ -1,9 +1,19 @@
 {
-  "tags": "it",
+  "course": "it-user-skills-level-2",
+  "tags": "it-user-skills-level-2",
   "level": 2,
   "dotnetID": 134,
   "year": 2020,
   "shortcode": "it2",
+  "learningoutcomes": true,
+  "why": "IT User Skills Level 2 will help you to develop your skills in a range of IT software programmes. Each Unit focuses on an element of IT and will also help you to develop your general IT knowledge and skills. \n\nEach unit is broken down into sessions and focuses on a specific element of IT which will enable you to develop your skills and understanding of different types of office software and the tasks that they can be used for. These units will also help you to develop your general IT knowledge and skills.",
+  "goals": {
+    "will": [
+      "Enter and combine text and other information accurately within word processing documents",
+      "Create and modify layout and structures for word processing documents",
+      "Use word processing software tools to format and present documents effectively to meet requirements"
+    ]
+  },
   "courseFeatures": [
     "on the web",
     "quick quiz",
@@ -14,5 +24,11 @@
     "watch",
     "time to practice",
     "read more about it"
+  ],
+  "whatyoulearn": [
+    "Approaching a task",
+    "Using Microsoft Office",
+    "Word Processing software",
+    "Inputting text and working more efficiently"
   ]
 }

@@ -1,5 +1,41 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const yaml = require("js-yaml");
+const json2yaml = require('json-to-pretty-yaml');
+const hslToHex = require('@paulobontempo/hsl-to-hex');
+const Image = require('@11ty/eleventy-img');
+const path = require("path");
+
+async function imageShortcode(src, cls, alt, sizes) {
+  src = src.startsWith('/') ? src.replace('/', '') : src;
+  let fullSrc = `src/site/${src.toLowerCase()}`;
+  const extension = path.extname(src);
+  let tilde = process.env.ELEVENTY_ENV !== 'dev' ? '~' : '';
+  let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
+  let metadata = await Image(fullSrc.toLowerCase(), {
+    widths: [400, 600, 800, 1000, 2000],
+    formats: formats,
+    svgShortCircuit: true,
+    urlPath: `${tilde}/${path.dirname(src)}`,
+    outputDir: `./dist/${path.dirname(src)}`,
+    filenameFormat: function(id, src, width, format, options) {
+      const name = path.basename(src, extension);
+      return `${name}-${width}.${format}`;
+    }
+  });
+
+  let imageAttributes = {
+    class: cls,
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = function(config) {
 
@@ -7,9 +43,12 @@ module.exports = function(config) {
   let env = process.env.ELEVENTY_ENV;
 
   config.addPlugin(pluginSyntaxHighlight);
+  config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  config.addPlugin(eleventyNavigationPlugin);
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
 
   // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/default.liquid');
+  config.addLayoutAlias('default', 'default.liquid');
 
   config.addFilter("markdownify", function(value) {
     var MarkdownIt = require('markdown-it'),
@@ -24,7 +63,41 @@ module.exports = function(config) {
       }
   });
 
+  config.addFilter("yamlify", value => {
+    return json2yaml.stringify(value);
+  });
+
+  config.addFilter("hexify", value => {
+    let hsl = value.replace(/[^0-9^,]+/g, '').split(',');
+    return hslToHex(hsl[0], hsl[1], hsl[2]);
+  });
+
+  
+  config.addFilter("courseinfo", unit => {
+
+    if(unit) {
+      return {
+        keysOrdered: Object.keys(unit).sort(),
+        size: Object.keys(unit).sort().length
+      }
+    }
+    else {
+      console.log("ERROR: Unit passed to 'courseinfo' is undefined")
+      return false;
+    }
+  });
+
+  // Pass in an object, return the keys?
+  config.addFilter("keys", obj => {
+    return Object.keys(obj);
+  });
+
   config.addFilter("formattitle", value => {
+    if(!value) {
+      console.log("...Error: ", value);
+      return false;
+    }
+    
     const str = value;
     let iterator; // = str[Symbol.iterator]();
     let formatted = '';
@@ -89,6 +162,7 @@ module.exports = function(config) {
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
+  config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
   config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
@@ -104,12 +178,12 @@ module.exports = function(config) {
     dir: {
       input: "src/site",
       output: "dist",
-      data: "_data"
+      data: "_data",
+      layouts: "_layouts"
     },
-    templateFormats : ["njk", "liquid", "html", "md"],
+    templateFormats : ["njk", "liquid", "html", "md", "11ty.js"],
     dataTemplateEngine: "njk",
-    // htmlTemplateEngine : "njk",
-    // markdownTemplateEngine : "njk",
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true
   };
 };

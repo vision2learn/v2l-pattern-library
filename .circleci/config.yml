@@ -30,7 +30,10 @@ jobs:
 
       # run
       - run: git lfs fetch --all && git lfs pull
-      - run: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
+      - run: 
+          name: Build it
+          command: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
+          no_output_timeout: 30m
       
       # compress the output for more efficient deployment...
       - run: tar -czvf site.tar.gz dist
@@ -153,7 +156,11 @@ workflows:
   version: 2
   build-and-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - rayner-mod
       - dotnet:
           filters:
             branches:
@@ -164,8 +171,7 @@ workflows:
             - build
           filters:
             branches:
-              only: 
-                - bleeding-edge
+              only:
                 - rayner-mod
       - deploy:
           requires:
