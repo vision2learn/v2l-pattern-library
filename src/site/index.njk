@@ -11,6 +11,12 @@ body {
   
   <h2>Prototype courses</h2>
 
+  {# {% image "images/v2l-logo.svg", "", "100vw" %} #}
+
+  {% image "images/feedback2.png", "", "", "100vw" %}
+
+  {% image "images/banners/summary.jpg", "", "", "100vw" %}
+
   <ul>
   {% for course, unit in courses %}
     <li><a href="/courses/{{ course }}/unit-1/session-1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
