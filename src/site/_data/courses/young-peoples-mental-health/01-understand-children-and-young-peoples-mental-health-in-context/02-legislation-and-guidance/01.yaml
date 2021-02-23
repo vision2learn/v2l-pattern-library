@@ -1,4 +1,4 @@
-title: session 2 first page
+title: Legislation and guidance
 intro: |
   intro text 
   
@@ -14,5 +14,9 @@ sections:
       * item
       * item
       * item
-      
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to state the keypoints of legislation related to 
   -

@@ -5,14 +5,14 @@ banner: placeholder.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
       * mental health terms
       * the relationship between mental health and well-being
       * the prevalence of mental health problems in children and young people
   -
-    title: a suitable title
+    title: Mental health terms
     layout: media
     theme: t-bg-primary
     copy: |
@@ -25,7 +25,7 @@ sections:
     layout: media
     copy: |
       ### Title
-      Please see the following video for a demonstration on 
+      Please see the following video for a demonstration on mental health terms
     video: placeholder_pc.mp4
   -
     title: Time to think
