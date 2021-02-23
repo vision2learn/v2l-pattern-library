@@ -9,7 +9,7 @@ const path = require("path");
 
 async function imageShortcode(src, cls, alt, sizes) {
   src = src.startsWith('/') ? src.replace('/', '') : src;
-  let fullSrc = `src/site/${src}`;
+  let fullSrc = `src/site/${src.toLowerCase()}`;
   const extension = path.extname(src);
   let tilde = process.env.ELEVENTY_ENV !== 'dev' ? '~' : '';
   let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
