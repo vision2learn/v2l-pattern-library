@@ -1,12 +1,18 @@
----
-unit: 1
-session: 2
-pagination:
-  data: courses['young-peoples-mental-health']['01-understand-children-and-young-peoples-mental-health-in-context']['02-legislation-and-guidance']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 1,
+  session: 2,
+  pagination: {
+    data: "courses['young-peoples-mental-health']['01-understand-children-and-young-peoples-mental-health-in-context']['02-legislation-and-guidance']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }} -->

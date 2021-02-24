@@ -1,12 +1,18 @@
----
-unit: 3
-session: 1
-pagination:
-  data: courses['lean-management']['03-working-in-business-teams']['01-making-an-effective-team']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 3,
+  session: 1,
+  pagination: {
+    data: "courses['lean-management']['03-working-in-business-teams']['01-making-an-effective-team']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.title }} -->

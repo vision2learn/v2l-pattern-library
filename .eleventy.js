@@ -3,7 +3,48 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
 const json2yaml = require('json-to-pretty-yaml');
-const hslToHex = require('@paulobontempo/hsl-to-hex')
+const hslToHex = require('@paulobontempo/hsl-to-hex');
+const Image = require('@11ty/eleventy-img');
+const path = require("path");
+const fs = require("fs");
+
+async function imageShortcode(src, cls, alt, sizes) {
+  src = src.startsWith('/') ? src.replace('/', '') : src;
+  let fullSrc = `src/site/${src}`;
+
+  try {
+    fs.accessSync(fullSrc, fs.constants.F_OK);
+  } catch (err) {
+      console.error(`${fullSrc} not found. Using placeholder`);
+      fullSrc = "src/site/images/banners/placeholder.jpg";
+  }
+
+  const extension = path.extname(src);
+  let tilde = process.env.ELEVENTY_ENV !== 'dev' ? '~' : '';
+  let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
+  let metadata = await Image(fullSrc.toLowerCase(), {
+    widths: [400, 600, 800, 1000, 2000],
+    formats: formats,
+    svgShortCircuit: true,
+    urlPath: `${tilde}/${path.dirname(src)}`,
+    outputDir: `./dist/${path.dirname(src)}`,
+    filenameFormat: function(id, src, width, format, options) {
+      const name = path.basename(src, extension);
+      return `${name}-${width}.${format}`;
+    }
+  });
+
+  let imageAttributes = {
+    class: cls,
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = function(config) {
 
@@ -13,6 +54,7 @@ module.exports = function(config) {
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');

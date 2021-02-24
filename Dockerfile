@@ -1,6 +1,6 @@
-FROM node:10
+FROM node:10-buster
+RUN apt update && apt install -y imagemagick
 WORKDIR /code
-RUN apt update && apt install -y graphicsmagick
 COPY package.json .
 RUN yarn
 VOLUME [ "/code/node_modules" ]
