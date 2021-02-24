@@ -1,12 +1,18 @@
----
-unit: 4
-session: 3
-pagination:
-  data: courses['business-and-administration']['04-principles-of-supporting-change-in-a-business-environment']['03-responding-to-change']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 4,
+  session: 3,
+  pagination: {
+    data: "courses['business-and-administration']['04-principles-of-supporting-change-in-a-business-environment']['03-responding-to-change']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }} -->

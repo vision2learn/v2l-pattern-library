@@ -1,12 +1,18 @@
----
-unit: 2
-session: 2
-pagination:
-  data: courses['business-and-administration']['02-principles-of-providing-administrative-services']['02-handling-mail']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 2,
+  session: 2,
+  pagination: {
+    data: "courses['business-and-administration']['02-principles-of-providing-administrative-services']['02-handling-mail']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }} -->
