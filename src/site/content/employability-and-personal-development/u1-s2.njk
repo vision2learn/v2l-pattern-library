@@ -1,12 +1,18 @@
----
-unit: 1
-session: 2
-pagination:
-  data: courses['employability-and-personal-development']['01-preparing-for-an-interview-and-applying-for-a-job']['02-applying-for-a-job']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 1,
+  session: 2,
+  pagination: {
+    data: "courses['employability-and-personal-development']['01-preparing-for-an-interview-and-applying-for-a-job']['02-applying-for-a-job']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }}  -->

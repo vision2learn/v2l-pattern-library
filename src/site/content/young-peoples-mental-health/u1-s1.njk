@@ -1,0 +1,18 @@
+---js
+{
+  unit: 1,
+  session: 1,
+  pagination: {
+    data: "courses['young-peoples-mental-health']['01-understand-children-and-young-peoples-mental-health-in-context']['01-understanding-the-concept-of-mental-health']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

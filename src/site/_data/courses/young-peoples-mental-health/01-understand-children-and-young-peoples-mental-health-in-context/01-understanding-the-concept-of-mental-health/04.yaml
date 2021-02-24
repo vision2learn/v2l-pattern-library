@@ -1,0 +1,32 @@
+title: Mental health and well-being
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the relationship between mental health and well-being.
+  -
+    title: Mental health and well-being
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Topic introduction text here
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following video for to learn more about the relationship between mental health and well-being.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have watched the video, ....... note in the following text box .....

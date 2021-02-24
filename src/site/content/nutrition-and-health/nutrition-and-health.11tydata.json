@@ -5,14 +5,7 @@
   "dotnetID": false,
   "year": 2021,
   "shortcode": "nh",
-  "why": "why text",
-  "goals": {
-    "will": [
-      "LO1",
-      "LO2",
-      "LO3"
-    ]
-  },
+  "learningoutcomes": true,
   "courseFeatures": [
     "on the web",
     "quick quiz",
@@ -23,5 +16,19 @@
     "watch",
     "time to think",
     "read more about it"
+  ],
+  "why": "why text",
+  "goals": {
+    "will": [
+      "LO1",
+      "LO2",
+      "LO3"
+    ]
+  },
+  "whatyoulearn": [
+    "session 1 one",
+    "two",
+    "three",
+    "four"
   ]
 }
