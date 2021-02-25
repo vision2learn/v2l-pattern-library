@@ -8,10 +8,10 @@ services:
       - "8080:8080"
       - "8081:8081"
       - "3001:3001"
-    command: start
+    command: dotnet
     working_dir: /code
     environment: 
-      ELEVENTY_ENV: dev
+      ELEVENTY_ENV: dotnet
       NODE_ENV: dev
     volumes: 
       - .:/code
