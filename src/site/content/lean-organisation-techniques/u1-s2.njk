@@ -1,12 +1,18 @@
----
-unit: 1
-session: 2
-pagination:
-  data: courses['lean-management']['01-lean-organisation-techniques-in-business']['02-the-productivity-needs-analysis-process']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 1,
+  session: 2,
+  pagination: {
+    data: "courses['lean-management']['01-lean-organisation-techniques-in-business']['02-the-productivity-needs-analysis-process']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.title }} -->

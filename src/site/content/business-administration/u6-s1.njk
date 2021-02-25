@@ -1,12 +1,18 @@
----
-unit: 6
-session: 1
-pagination:
-  data: courses['business-and-administration']['06-principles-of-budgets-in-a-business-environment']['01-the-purpose-of-budgets']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 6,
+  session: 1,
+  pagination: {
+    data: "courses['business-and-administration']['06-principles-of-budgets-in-a-business-environment']['01-the-purpose-of-budgets']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }} -->

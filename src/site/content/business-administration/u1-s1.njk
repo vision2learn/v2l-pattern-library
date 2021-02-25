@@ -1,12 +1,18 @@
----
-unit: 1
-session: 1
-pagination:
-  data: courses['business-and-administration']['01-principles-of-personal-responsibilities-and-working-in-a-business-environment']['01-rights-and-responsibilities-at-work']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 1,
+  session: 1,
+  pagination: {
+    data: "courses['business-and-administration']['01-principles-of-personal-responsibilities-and-working-in-a-business-environment']['01-rights-and-responsibilities-at-work']",
+    size: 1,
+    alias: "module",
+    resolve: "values",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }} -->

@@ -6,10 +6,19 @@ const json2yaml = require('json-to-pretty-yaml');
 const hslToHex = require('@paulobontempo/hsl-to-hex');
 const Image = require('@11ty/eleventy-img');
 const path = require("path");
+const fs = require("fs");
 
 async function imageShortcode(src, cls, alt, sizes) {
   src = src.startsWith('/') ? src.replace('/', '') : src;
   let fullSrc = `src/site/${src.toLowerCase()}`;
+
+  try {
+    fs.accessSync(fullSrc, fs.constants.F_OK);
+  } catch (err) {
+      console.error(`${fullSrc} not found. Using placeholder`);
+      fullSrc = "src/site/images/banners/placeholder.jpg";
+  }
+
   const extension = path.extname(src);
   let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
   let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
