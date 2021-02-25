@@ -14,10 +14,10 @@ gulp.task("watch", function() {
   gulp.watch('./src/js/**/*.js', gulp.parallel('js'));
 });
 
-
 /*
   Let's build this sucker.
 */
+
 gulp.task('build', gulp.parallel(
   'css',
   'js'
