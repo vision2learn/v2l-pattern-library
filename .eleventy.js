@@ -10,7 +10,7 @@ const fs = require("fs");
 
 async function imageShortcode(src, cls, alt, sizes) {
   src = src.startsWith('/') ? src.replace('/', '') : src;
-  let fullSrc = `src/site/${src}`;
+  let fullSrc = `src/site/${src.toLowerCase()}`;
 
   try {
     fs.accessSync(fullSrc, fs.constants.F_OK);
