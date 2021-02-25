@@ -4,6 +4,9 @@ on:
 jobs:
   dotnet:
     runs-on: ubuntu-latest
+    container: 
+      image: mrsleeth/v2l:node-10
+      
     
     env:
       ELEVENTY_ENV: dotnet
