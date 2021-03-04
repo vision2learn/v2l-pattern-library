@@ -1,4 +1,4 @@
-title: Title
+title: Duty of care
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,9 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to state how duty of care applies for children and young people in different settings.
   -
-    title: learning outcome
+    title: Duty of care
     layout: media
     theme: t-bg-primary
     copy: |
@@ -17,19 +17,43 @@ sections:
 
     img: /images/svg/placeholder_icon.svg
   -
+    title: Duty of care in different settings
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn about the different settings duty of care is applied:
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Education
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Care provision
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: The criminal justice system
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       ### Title
-      Please see the following video for a demonstration on 
+      Please see the following video about duty of care.
     video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: |
+        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
   -
     title: Quick quiz
     theme: i-quiz
@@ -53,13 +77,3 @@ sections:
             Unprofessional: false
             Positive: true
           feedback: text
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk

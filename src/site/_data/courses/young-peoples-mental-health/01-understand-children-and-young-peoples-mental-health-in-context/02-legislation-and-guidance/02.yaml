@@ -1,4 +1,4 @@
-title: Title
+title: Safeguarding
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,9 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain what is meant by the term ‘safeguarding’ as applied to children and young people.
   -
-    title: learning outcome
+    title: Safeguarding
     layout: media
     theme: t-bg-primary
     copy: |
@@ -21,15 +21,15 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for a demonstration on 
+      Please see the following video about safeguarding.
     video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: |
+        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
   -
     title: Quick quiz
     theme: i-quiz

@@ -9,13 +9,70 @@ sections:
     title: What you will learn
     theme: t-bg-primary
     copy: |
-      In this session you will learn about    :
-      * item
-      * item
-      * item
-      * item
+      In this session you will learn about:
+      * the key points of legislation
+      * Safeguarding
+      * Duty of care
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to state the key points of legislation in relation to children and young people's mental health.
+  -
+    title: Key points of legislation
+    theme: t-bg-primary
+    copy: |
+      Text. Select the images below to learn more about each term.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Mental ill health
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Mental capacity
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Age of consent to treatment
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Parental responsibility
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Data protection
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text - for the lo 2.3 - Give examples of how legislation and guidance can be used to support children and young people with mental health concerns - would it be worth putting in a case study here to support video?
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+
+      Please see the following video on the key points of legislation.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.

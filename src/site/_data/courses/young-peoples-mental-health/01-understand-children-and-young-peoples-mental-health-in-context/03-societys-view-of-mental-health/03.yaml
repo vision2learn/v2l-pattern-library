@@ -1,4 +1,4 @@
-title: Title
+title: Media and Discrimination
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,9 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe how discrimination can affect the mental health of children and young people.
   -
-    title: learning outcome
+    title: Media and Discrimination
     layout: media
     theme: t-bg-primary
     copy: |
@@ -22,7 +22,7 @@ sections:
     layout: media
     copy: |
       ### Title
-      Please see the following video for a demonstration on 
+      Please see the following video to learn how discrimination can affect the mental health of children and young people.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -59,7 +59,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website to see an example of discrimination in the media.
 
       links:
         website description: http://www.google.co.uk
