@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "lean-management",
+    unit: "02-business-improvement-tools-and-techniques",
+    session: "01-continuous-improvement-techniques"
+  },
   unit: 2,
   session: 1,
   pagination: {
     data: "courses['lean-management']['02-business-improvement-tools-and-techniques']['01-continuous-improvement-techniques']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();
