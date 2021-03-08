@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "lean-management",
+    unit: "01-lean-organisation-techniques-in-business",
+    session: "03-producing-a-process-map"
+  },
   unit: 1,
   session: 3,
   pagination: {
     data: "courses['lean-management']['01-lean-organisation-techniques-in-business']['03-producing-a-process-map']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();
