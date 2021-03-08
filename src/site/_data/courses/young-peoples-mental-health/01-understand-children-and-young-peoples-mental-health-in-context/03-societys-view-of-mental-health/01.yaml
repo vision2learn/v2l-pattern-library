@@ -1,0 +1,51 @@
+title: Society's view of mental health
+intro: |
+  intro text 
+  
+  In this session you will learn about   
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Definition of terms
+      * Social and cultural attitudes
+      * Media and Discrimination
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Introduction text here about the terms.
+
+      Please see the following video about definition of terms.
+    video: placeholder_pc.mp4
+  -
+    title: Social and cultural attitudes
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Topic introduction text here
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how social and cultural attitudes towards mental health have changed over time. 
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following video about social and cultural attitudes.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.

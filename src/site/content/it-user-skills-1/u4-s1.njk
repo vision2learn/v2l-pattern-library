@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "it-user-skills-level-1",
+    unit: "04-spreadsheet-software",
+    session: "01-working-with-spreadsheet-data"
+  },
   unit: 4,
   session: 1,
   pagination: {
     data: "courses['it-user-skills-level-1']['04-spreadsheet-software']['01-working-with-spreadsheet-data']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();

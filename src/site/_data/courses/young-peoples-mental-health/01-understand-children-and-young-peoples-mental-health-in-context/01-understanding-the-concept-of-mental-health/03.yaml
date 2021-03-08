@@ -1,7 +1,7 @@
 title: Understanding the concept of mental health
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this course you will learn about children and young people’s mental health, which will help you with your general understanding and appreciation of the subject. To start with we are first going to look at the concept of mental health and what it means.
+banner: ypmh_u1_s1_p3_concept.jpg
 sections:
   -
     title: What you will learn
@@ -12,25 +12,81 @@ sections:
       * the relationship between mental health and well-being
       * the prevalence of mental health problems in children and young people
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define mental health terms.
+  -
     title: Mental health terms
+    theme: t-bg-supporting3
+    copy: |
+      Let’s look at four mental health terms, what they mean and how they relate to each other. Select the images below to learn more about each term.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Mental health
+          copy: |
+            Mental health involves emotional, psychological, and social well-being and affects an Individual’s thoughts, feelings and actions. It determines how they handle stress, relate to others, and make choices and is important at every stage of life.
+          img: ypmh_u1_s1_p3_reveal1.svg
+        -
+          title: Mental ill health
+          copy: |
+            Mental ill health, refers to a wide range of mental health conditions or disorders that affect mood, thinking and behaviour.  Mental ill health includes depression, anxiety disorders, schizophrenia, eating disorders and addictive behaviours.
+          img: ypmh_u1_s1_p3_reveal2.svg
+        -
+          title: Resilience
+          copy: |
+            Resilience refers to an individual’s capability to manage situations they perceive as stressful, such as issues at work, physical illness or bereavement.  Resilience means that individuals with these conditions are enabled to manage them more effectively.
+          img: ypmh_u1_s1_p3_reveal3.svg
+        -
+          title: Self-esteem
+          copy: |
+            Self-esteem is how people perceive themselves based on their own opinions and beliefs. Self-esteem can affect whether someone likes and values themselves as a person and is able to make decisions or assert their ideas or presence.
+          img: ypmh_u1_s1_p3_reveal4.svg
+  -
+    title: The relationship between mental health and well being
     layout: media
     theme: t-bg-primary
     copy: |
-      Topic introduction text here
-
-    img: /images/svg/placeholder_icon.svg
+      Mental health can be a positive concept relating to the social and emotional well-being of individuals. An individual’s level of well-being in adulthood and consequently their men-tal health can be affected by experiences in their earlier life, especially during childhood and adolescence. Well-being does not just refer to physical health, but to any aspect of an individual’s life that makes them feel content. 
+      
+      Good mental health, or being mentally healthy, is more than just the absence of illness, it’s a state of overall well-being, and generally relates to enjoying life, coping with stress and sadness, being able to set and fulfil goals, and having the ability to build and main-tain relationships with others.
+    img: /images/svg/ypmh/ypmh_u1_s1_p3_image1.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for a demonstration on mental health terms
+      Please see the following video on mental health terms and well-being.
     video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: instructions here which would relate to the video content.
-  
+      copy: A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Select one option to complete the following sentence:"Good mental health, or being mentally healthy, is more than just the absence of illness, it’s a state of overall _____________.":
+          answers:
+            physical health: false
+            mental health: false
+            well-being: true
+          feedback: text
+        Is the following statement true or false? "Mental ill health refers to mental health conditions or disorders":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Select one option to complete the following sentence:"___________ enables individuals to manage stressful situations more effectively.":
+          answers:
+            Thoughts: false
+            Resilience: true
+            Feelings: false
+          feedback: text
+  -

@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "lean-management",
+    unit: "03-working-in-business-teams",
+    session: "03-the-role-of-team-leader"
+  },
   unit: 3,
   session: 3,
   pagination: {
     data: "courses['lean-management']['03-working-in-business-teams']['03-the-role-of-team-leader']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();

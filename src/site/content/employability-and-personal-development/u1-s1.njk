@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "employability-and-personal-development",
+    unit: "01-preparing-for-an-interview-and-applying-for-a-job",
+    session: "01-preparing-for-an-interview"
+  },
   unit: 1,
   session: 1,
   pagination: {
     data: "courses['employability-and-personal-development']['01-preparing-for-an-interview-and-applying-for-a-job']['01-preparing-for-an-interview']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();

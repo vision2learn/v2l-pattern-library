@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "it-user-skills-level-2",
+    unit: "01-word-processing-software",
+    session: "02-managing-documents"
+  },
   unit: 1,
   session: 2,
   pagination: {
     data: "courses['it-user-skills-level-2']['01-word-processing-software']['02-managing-documents']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();
