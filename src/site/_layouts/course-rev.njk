@@ -11,6 +11,8 @@
     the next unit or we're done
   #}
 
+{% set module = courses[folders.course][folders.unit][folders.session][moduleNum] %}
+
 {%- set tilde = "~" if site.env == "dotnet" -%}
 
 {%- set unitNameFilter = "0" + unit -%}

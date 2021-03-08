@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "it-user-skills-level-1",
+    unit: "03-presentation-software",
+    session: "04-preparing-and-managing-a-presentation"
+  },
   unit: 3,
   session: 4,
   pagination: {
     data: "courses['it-user-skills-level-1']['03-presentation-software']['04-preparing-and-managing-a-presentation']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();

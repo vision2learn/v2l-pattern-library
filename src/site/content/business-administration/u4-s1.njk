@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "business-and-administration",
+    unit: "04-principles-of-supporting-change-in-a-business-environment",
+    session: "01-why-change-happens"
+  },
   unit: 4,
   session: 1,
   pagination: {
     data: "courses['business-and-administration']['04-principles-of-supporting-change-in-a-business-environment']['01-why-change-happens']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();
