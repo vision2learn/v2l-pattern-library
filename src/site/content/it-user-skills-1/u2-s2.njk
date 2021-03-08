@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "it-user-skills-level-1",
+    unit: "02-it-security-for-users",
+    session: "02-guidelines,-procedures-and-backing-up-data"
+  },
   unit: 2,
   session: 2,
   pagination: {
     data: "courses['it-user-skills-level-1']['02-it-security-for-users']['02-guidelines,-procedures-and-backing-up-data']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();
