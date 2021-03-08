@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "business-and-administration",
+    unit: "03-getting-your-documents-right",
+    session: "04-key-procedures-for-producing-documents"
+  },
   unit: 3,
   session: 4,
   pagination: {
     data: "courses['business-and-administration']['03-principles-of-managing-information-and-producing-documents']['04-key-procedures-for-producing-documents']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();

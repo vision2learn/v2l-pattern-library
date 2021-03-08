@@ -1,12 +1,16 @@
 ---js
 {
+  folders: {
+    course: "business-and-administration",
+    unit: "01-principles-of-personal-responsibilities-and-working-in-a-business-environment",
+    session: "06-improving-your-performance"
+  },
   unit: 1,
   session: 6,
   pagination: {
     data: "courses['business-and-administration']['01-principles-of-personal-responsibilities-and-working-in-a-business-environment']['06-improving-your-performance']",
     size: 1,
-    alias: "module",
-    resolve: "values",
+    alias: "moduleNum",
     addAllPagesToCollections: true,
     before: function(data) {
       return data.sort();
