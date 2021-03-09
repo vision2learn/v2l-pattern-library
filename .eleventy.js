@@ -8,6 +8,8 @@ const Image = require('@11ty/eleventy-img');
 const path = require("path");
 const fs = require("fs");
 
+let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
+
 async function imageShortcode(src, cls, alt, sizes) {
   src = src.startsWith('/') ? src.replace('/', '') : src;
   let fullSrc = `src/site/${src.toLowerCase()}`;
@@ -20,7 +22,6 @@ async function imageShortcode(src, cls, alt, sizes) {
   }
 
   const extension = path.extname(src);
-  let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
   let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
   let metadata = await Image(fullSrc.toLowerCase(), {
     widths: [400, 600, 800, 1000, 2000],
@@ -75,6 +76,25 @@ module.exports = function(config) {
       unit: objStr[1],
       session: objStr[2]
     }
+  });
+
+  config.addShortcode('video', file => {
+    let ext = path.extname(file);
+    let basename = path.basename(file, ext);
+    let track = '';
+
+    try {
+      fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
+      track = `<track label="English" kind="subtitles" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt" default>`;
+    } catch (err) {
+      console.log(`No VTT file for ${file}`);
+    }
+
+    return `
+      <video id="video" controls preload="metadata" data-base="${basename}" data-ext="${ext}">
+        <source src="${tilde}/videos/${file}" type="video/mp4">
+        ${track}
+      </video>`;
   });
 
   config.addFilter("markdownify", function(value) {
