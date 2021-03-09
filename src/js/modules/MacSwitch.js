@@ -14,7 +14,7 @@ const ContentToggle = (() => {
 
   toggle.init = () => {
     // don't go any further if we're not in IT or localStorage isn't available
-    if(course !== 'it' || !Toolkit.storageAvailable('localStorage')) {
+    if(!course.startsWith('it') || !Toolkit.storageAvailable('localStorage')) {
       return false;
     }
     
