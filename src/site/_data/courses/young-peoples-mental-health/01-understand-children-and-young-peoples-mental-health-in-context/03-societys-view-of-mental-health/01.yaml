@@ -7,21 +7,80 @@ banner: placeholder.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
       * Definition of terms
       * Social and cultural attitudes
       * Media and Discrimination
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Definition of terms
+    theme: t-bg-primary
     copy: |
-      Introduction text here about the terms.
+      Let’s define some of the terms used when we talk about how society views people with mental health problems negatively.
+      Scroll through the slides below to learn more.
 
-      Please see the following video about definition of terms.
-    video: placeholder_pc.mp4
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Prejudice
+          text: |
+            Prejudice is a ‘pre-formed’ negative judgment or attitude leading to views that certain individuals or groups are inferior. This can lead to stereotyping and discrimination from others. People without a mental illness can often feel fear, anxiety and avoidance from those who do. People with mental illness can sometimes anticipate this and feel rejection and discrimination and therefore impose stigma upon themselves.
+
+          img: placeholder_icon.svg
+        -
+          title: Discrimination
+          text: |
+            Discrimination is often the outcome of prejudice, and can blight the life for many people with mental illness, making a ‘normal’ social, family and work life much more difficult. 
+            
+            Actions must be taken to redress the social exclusion of people with mental illness, and use the legal measures intended to support all disabled people such as the Disability Discrimination Act to address this.
+
+          img: placeholder_icon.svg
+        -
+          title: Stigma
+          text: |
+            Stigma projects the fear and anxiety felt by people onto the person with the diagnosis of mental ill health and ‘shows a mark of disgrace’ associated with a particular person, ill-ness or disorder. Social stigma is the discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. The concept of stigma helps in understanding of experiences of social exclusion, but does not give the whole picture and show what is needed to promote social inclusion. 
+
+          img: placeholder_icon.svg
+        -
+          title: Stereotyping
+          text: |
+            Stereotyping is fuelled by ignorance and is an obstacle to competent communication, it is ignorance or the lack of correct information that means many people have little knowledge about mental illnesses. To combat this there is a pressing need to convey more useful information, for example about how to recognise the features of mental illness and where to get help.
+
+          img: placeholder_icon.svg
+        -
+          title: Common
+          text: |
+            Mental health problems are very common and can affect thousands of people at some time in their life directly or indirectly. Most people who experience mental health prob-lems recover fully, or are able to live with and manage them, especially if they get help early on. 
+          img: placeholder_icon.svg
+        -
+          title: Strong social stigma
+          text: |
+            But even though so many people are affected, there is still a strong social stigma at-tached to mental ill health.  Many people's problems are made worse by the stigma and discrimination they experience from society, but also from families, friends and employ-ers.
+            
+            People with mental health problems say that the stigma attached to mental ill health and the discrimination they experience can make their difficulties worse and make it harder to recover. So stigma and discrimination can trap people in a cycle of illness.
+
+          img: placeholder_icon.svg
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+  
   -
     title: Social and cultural attitudes
     layout: media
@@ -40,7 +99,23 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video about social and cultural attitudes.
+      _Lots of images showing how attitudes have changed over time_
+
+      Please see the following video about 3.2 attitudes over time.
+    video: placeholder_pc.mp4
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how social and cultural attitudes can affect a child or young person’s perception of their own mental health.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Scenario based_
+      
+      Please see the following video - 3.3 perception - about social and cultural attitudes 3.3.
     video: placeholder_pc.mp4
   -
     title: Time to think
