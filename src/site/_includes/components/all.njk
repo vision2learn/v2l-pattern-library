@@ -334,9 +334,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {# 10. Reveal (show/hide) #}
 
 {%- macro reveal(data, env) %}
-  {% set imgSrc = "images/svg/" + data.shortcode + "/" + data.image | lower %}
+  {# {% set imgSrc = "images/svg/" + data.shortcode + "/" + data.image | lower %} #}
+  {% set shortcode = data.shortcode + "/" %}
   <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.shortcode }}/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ shortcode }}{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
     {# {% image imgSrc, "c-reveal-block__icon js-showhide", data.heading, "100vw" %} #}
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ data.heading | d('Panel heading') | capitalize }}</h3>
