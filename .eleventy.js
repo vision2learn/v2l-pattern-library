@@ -59,6 +59,24 @@ module.exports = function(config) {
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
 
+  config.addFilter('folders', paginationStr => {
+    let objStr = paginationStr;
+
+    // clean up the object
+    objStr = objStr.replace("courses", "").replace(/]/g, "").replace(/'/g, "");
+
+    objStr = objStr.split("[");
+
+    objStr.reverse().pop(); // remove the empty string created by split()
+    objStr = objStr.reverse();
+
+    return {
+      course: objStr[0],
+      unit: objStr[1],
+      session: objStr[2]
+    }
+  });
+
   config.addFilter("markdownify", function(value) {
     var MarkdownIt = require('markdown-it'),
       md = new MarkdownIt();
