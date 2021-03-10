@@ -1,6 +1,7 @@
 title: Safeguarding
 intro: |
-  intro text
+  Safeguarding is the action that is taken to protect the health, well-being and rights of children and young people. 
+
 banner: placeholder.jpg
 sections:
   -
@@ -13,7 +14,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Topic introduction text here
+      Safeguarding topic introduction text here
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -21,6 +22,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      _Two Presenters - present the information paragraph by paragraph - some background images_
+
       Please see the following video about safeguarding.
     video: placeholder_pc.mp4
   -
@@ -32,27 +35,22 @@ sections:
         A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
   -
     title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    subInc: 
+      type: word-quiz
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
