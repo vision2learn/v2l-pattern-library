@@ -7,6 +7,7 @@ const hslToHex = require('@paulobontempo/hsl-to-hex');
 const Image = require('@11ty/eleventy-img');
 const path = require("path");
 const fs = require("fs");
+const MarkdownIt = require('markdown-it');
 
 let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
 
@@ -47,6 +48,18 @@ async function imageShortcode(src, cls, alt, sizes) {
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+function markdown(copy) {
+  let md = new MarkdownIt();
+      
+  try {
+    return md.render(copy);
+  } 
+  catch (error) {
+    console.log('val: ', copy, ' ', typeof copy);
+    return "markdown error";
+  }
+}
+
 module.exports = function(config) {
 
   // A useful way to reference to the contect we are runing eleventy in
@@ -78,11 +91,19 @@ module.exports = function(config) {
     }
   });
 
-  config.addShortcode('video', file => {
+  config.addShortcode('video', (file, id) => {
     let ext = path.extname(file);
     let basename = path.basename(file, ext);
     let track = '';
+    let transcript = '';
+    let multi = basename.indexOf('_pc') ? true : false;
+    let filesToCheck = [basename];
 
+    if(multi) {
+      filesToCheck.push(basename.replace('_pc', '_mac'))
+    }
+
+    // Is there a VTT for this video?
     try {
       fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
       track = `<track label="English" kind="subtitles" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt" default>`;
@@ -90,24 +111,45 @@ module.exports = function(config) {
       console.log(`No VTT file for ${file}`);
     }
 
+    filesToCheck.forEach((file, index) => {
+      let type = !multi ? [''] : ['(PC users)', '(Mac users)'];
+
+      try {
+
+        fs.accessSync(`src/site/videos/transcripts/${file}.md`, fs.constants.F_OK);
+        let transcriptContent = fs.readFileSync(`src/site/videos/transcripts/${file}.md`, 'utf-8', (err, data) => {
+          if (err) throw err;
+          return data;
+        });
+
+        transcript += `
+          <toggle-section open="false" data-debug="${multi} ${filesToCheck.length}">
+            <h3>Video transcript ${type[index]}</h3>
+            ${markdown(transcriptContent)}
+          </toggle-section>
+        `;
+      } catch (err) {
+        console.log(`No transcript for ${file}`);      
+      }
+    });
+    
+
     return `
-      <video id="video" controls preload="metadata" data-base="${basename}" data-ext="${ext}">
+      <video id="video" controls preload="metadata" poster="${tilde}/images/svg/course-features/watch.svg" aria-labelledby="${id}" 
+        data-base="${basename}" 
+        data-ext="${ext}" 
+        data-multi="${multi}"
+        data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
         <source src="${tilde}/videos/${file}" type="video/mp4">
         ${track}
-      </video>`;
+        <p>Sorry, your browser doesn't support embedded videos</p>
+      </video>
+      ${transcript}
+      `;
   });
 
-  config.addFilter("markdownify", function(value) {
-    var MarkdownIt = require('markdown-it'),
-      md = new MarkdownIt();
-      
-      try {
-        return md.render(value);
-      } 
-      catch (error) {
-        console.log('val: ', value, ' ', typeof value);
-        return "markdown error";
-      }
+  config.addFilter("markdownify", value => {
+    return markdown(value);
   });
 
   config.addFilter("yamlify", value => {
