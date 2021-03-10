@@ -80,7 +80,11 @@ sections:
         -
           sentence: example four
           answer: four
-  
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how social and cultural attitudes towards mental health have changed over time. 
   -
     title: Social and cultural attitudes
     layout: media
@@ -89,11 +93,6 @@ sections:
       Topic introduction text here
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to describe how social and cultural attitudes towards mental health have changed over time. 
   -
     title: Watch 
     theme: t-bg-grey i-watch
