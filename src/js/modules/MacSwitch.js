@@ -84,7 +84,7 @@ const ContentToggle = (() => {
           oldTrack.remove();
           const newTrack = document.createElement('track');
           newTrack.src = `${baseVidSrc[index].vttPath}_${urlMod}.vtt`;          
-          newTrack.label = `English (${urlMod})`;
+          newTrack.label = `English`;
           newTrack.kind = 'captions';
           newTrack.srclang = 'en';
           video.parentElement.appendChild(newTrack);
