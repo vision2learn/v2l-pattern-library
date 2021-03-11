@@ -11,3 +11,11 @@ sections:
       In this session you will learn about 
       * lo 1
       * etc
+  -
+    title: The five food groups
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+    img: /images/svg/placeholder_icon.svg
