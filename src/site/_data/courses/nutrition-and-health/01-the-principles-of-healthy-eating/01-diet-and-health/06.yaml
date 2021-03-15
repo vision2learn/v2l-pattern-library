@@ -19,10 +19,10 @@ sections:
 
   -
   -
-    title: NHS recommendations
+    title: Aerobic activity levels
     theme: t-bg-supporting2
     copy: |
-      Select the images below to learn more about the different recommended exercise levels. 
+      Select the images below to learn more about the different activity levels. 
 
     subInc: 
       type: reveal
@@ -30,58 +30,31 @@ sections:
         -
           title: Moderate intensity aerobic activity 
           copy: |
-            150 minutes of moderate intensity aerobic activity each week plus muscle strengthening activities on two or more days. The aerobic activity may be spread across the week, such as 30 minutes a day over 5 days. 
+            introduction text or example character here? 
           img: placeholder_icon.svg
         -
           title: Vigorous intensity aerobic activity
           copy: |
-            75 minutes of vigorous intensity aerobic activity and muscle strengthening activities two or more days a week. The aerobic activity may be spread across the week, such as 15 minutes a day over 5 days. 
+            introduction text or example character here? 
           img: placeholder_icon.svg
         -
           title: Muscle strengthening
           copy: |
-            A mix of moderate and vigorous aerobic activity and muscle strengthening.
+            introduction text or example character here? 
           img: placeholder_icon.svg
   -
   -
-    title: Aerobic activity levels
-    theme: t-bg-primary
+    title: Activity - Activity and Energy
+    layout: media
+    theme: t-bg-primary2
     copy: |
-      Select the images below to learn more about the different recommended exercise levels. 
+      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp_
 
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: What is moderate intensity aerobic activity?
-          copy: |
-            There are a number of different activities that could be classed as moderately intense, these include:
-            * Golf
-            * Tennis
-            * Skateboarding
-            * Swimming
-            * Volleyball. 
-          img: placeholder_icon.svg
-        -
-          title: What is vigorous intensity aerobic activity?
-          copy: |
-            Vigorous intensity aerobic activities include:
-            * Aerobics
-            * Football
-            * Basketball
-            * Hockey
-            * Running. 
-          img: placeholder_icon.svg
-        -
-          title: What is muscle strengthening?
-          copy: |
-            Muscle strengthening activities are anything that helps to build and maintain muscles. This could include:
-            * Press ups
-            * Sit ups
-            * Lifting weights
-            * Yoga
-            * Using resistance bands. 
-          img: placeholder_icon.svg
+      Select the following icon to . . .
+
+
+    img: /images/svg/Activity_button.svg
+    activity: 
   -
   -
     title: On the web
@@ -93,71 +66,6 @@ sections:
 
       links:
         NHS Active Lifestyle: http://www.nhs.uk/Livewell/fitness/Pages/activelifestyle.aspx    
-  -
-    title: Energy requirements and weight
-    theme: t-bg-supporting2
-    copy: |
-      Once a person can calculate their total energy requirements they are in a position to maintain their weight.
-
-      If they are taking on more energy than they are using, the excess calories will be converted into fat. You learnt about this earlier in the Session.
-
-      In order to lose weight, you have to use more energy than you consume. Select the images below to learn about how you could do this.
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Decrease calorie intake
-          copy: |
-            Look at the food you’re eating and find ways to decrease the amount of calories that you consume. For example, you could cut out certain foods or use low calorie alternatives. 
-          img: placeholder_icon.svg
-        -
-          title: Increase energy requirements
-          copy: |
-            This is done by increasing your activity levels, for example taking up exercise or sport.
-          img: placeholder_icon.svg
-        -
-          title: The best of both
-          copy: |
-            By increasing your energy requirements and decreasing calorie intake, you will lose weight more effectively, and are more likely to see long-term results! 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Interactivity - Understanding calories and weight
-    theme: 
-    
-    copy: |
-      _ID Note - Do an interactive item here to replace original images? or use a slider for quickness, or create a video and include the below case study_
-
-      Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp
-
-    interactive: 
-      file: 
-      width: 800
-      height: 800       
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      _ID Note - include this case study in a video or with the above interactive item_
-
-      ### Case study - Gerry
-
-      Gerry is 40 lbs overweight. His PAL is around 1.5. His BMR is 2200 calories per day and his total energy requirement is 3300 calories. However, he eats about 4000 calories every day. He is continuing to put on weight. 
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: item 1
-          copy: |
-             Gerry wants to lose weight. He starts by increasing his exercise regime so that his PAL is 1.8. This means his energy requirement becomes:
-             
-             2200 x 1.8 = 3960 calories
-
-             If Gerry keeps on eating the same amount but increases his activity level, he will more or less stop putting on weight. However, if he decided to eat 10% (400 calories per day) less he would lose about 1 lb. every 9 days. In a year this will be close to his target weight! 
-            
-          img: /images/svg/placeholder_icon.svg
-  -
   -
     title: Summary
     theme: t-bg-primary i-summary
