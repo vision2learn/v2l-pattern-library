@@ -1,9 +1,10 @@
-title: Energy and BMR
+title: Energy, BMR and PAL
 intro: |
   On this page you will learn about: 
   * Energy in food
   * Converting grams to calories
   * Basal Metabolic Rate (BMR)
+  * Physical activity levels (PAL)
    
 banner: placeholder.jpg
 sections:
@@ -72,91 +73,55 @@ sections:
       The calorie is a useful measure that helps us to know how much energy certain foods have, and how many calories are needed so that people can live and function. 
   -
   -
-    title: Basal Metabolic Rate
+    title: Basal Metabolic Rate (BMR) and Physical activity levels (PAL)
     theme: t-bg-supporting2
     copy: |
-      The Basal Metabolic Rate (BMR) is the rate at which a person uses energy to maintain the basic functions of the body.
+      The Basal Metabolic Rate (BMR) is the rate at which a person uses energy to maintain the basic functions of the body. This includes breathing, keeping warm and keeping the heart beating! Not everybody will have the same BMR. It’s important to remember that Basal Metabolic Rate is affected by a person’s physical activity levels and age. 
 
-      This includes breathing, keeping warm and keeping the heart beating!
+      Everything you do burns calories. While most calories are used for basic living, the rest of the calories are burned through exercise and activity.  Calories are burned even when an activity has stopped. By combining basal requirements with needs based on physical activity levels (PAL), you can calculate your total energy requirement.
 
-      Not everybody will have the same BMR.
-
-      Select the images below to learn more.
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Average BMR
-          copy: |
-            Most adults will use about 1.1 calories every minute just breathing, keeping warm and keeping the heart beating. A person's BMR is usually about ¾ of a person’s energy needs. 
-          img: placeholder_icon.svg
-        -
-          title: Children's BMR
-          copy: |
-            Infants and young children tend to have a high BMR for their size due to their rapid growth and development. 
-          img: placeholder_icon.svg
-        -
-          title: Muscle mass
-          copy: |
-            People with more muscle mass tend to have a higher BMR because it takes more energy to maintain muscles. The more muscles you have, the more energy you use. 
-          img: placeholder_icon.svg
-        -
-          title: BMR and age
-          copy: |
-            Older adults tend to have a lower BMR than younger people because their muscle mass decreases with age. 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      _ID note - this could be an animation or video showing the following scenario step by step - and we could create a 'Read' item with this example as a PDF download_
-
-      ### Case study - Bill and Jane
-
-      Bill and Jane begin to calculate their BMR. To do this, they first write down their age, weight and height.
-
-      Bill aged 35, weighs 170 lbs and 6’ tall.
-
-      Jane aged 34, weighs 140 lbs and 5’ 7” tall.
-
-      They then used the following formulae to work out their BMR
+      Please see below for the formulaes
     subInc: 
       type: accordion
       content:
         - 
-          title: BMR formulae
+          title: BMR formula
           copy: |
-            BMR
-
             Male = 66 + (6.23 x weight in pounds) + (12.7 x height in inches) – (6.8 x age in years)
 
-            Female = 655 + (4.35 x weight in pounds) + (4.7 x height in inches ) – (4.7 x age in years)
-
-            Bill and Jane then calculate their BMR:
+            Female = 655 + (4.35 x weight in pounds) + (4.7 x height in inches ) – (4.7 x age in years) 
         -
-          title: Bill BMR
+          title: PAL Table
           copy: |
-            66 + (6.23 x 170) + (12.7 x 72) – (6.8 x 35) kcals
-
-            = 66 + 1059.1 + 914.4 – 238 kcals
-
-            = 1801.5 kcals (BMR)
-
-          img: /images/svg/placeholder_icon.svg
+            A person's PAL is determined by the things a person does in a 24 hour period. It can also be estimated from the physical activities that person performs each day. Each activity is connected to a particular level of activity.
+      
+            | Level | Description| PAL factor |
+            |------|------|------|
+            | 1 - Sedentary | This level of activity is described as little or no exercise. | 1.2 | 
+            | 2 - Light exercise | This level of activity includes frequent walking in a job / daily activity or 60mins of intense activity in one week. | 1.375 |
+            | 3 - Moderate exercise | This level of activity could be a job that is quite physical throughout the day e.g. shop work or intense physical activity 30 – 60 minutes three or four times a week. | 1.55 |
+            | 4 - Very active | This level of activity could include a highly physical job such as brick laying or farming or intense exercise for 60 minutes five to seven days per week. | 1.725 |
+            | 5 - Extreme| This level of activity could include full time training for a sporting event; this level of activity is usually only reached by elite athletes.| 1.9
         -
-          title: Jane BMR
+          title: PAL formula
           copy: |
-            655 + (4.35 x 140) + (4.7 x 67) – (4.7 x 34) kcals
+            The higher the level of activity that a person does, the more energy they will need to burn. The equation used to calculate the total energy requirement is: 
+            
+            Total Energy Required = BMR x PAL
+  -
+  -
+    title: Interactivity - BMR and PAL Calculator
+    theme: 
+    
+    copy: |
+      _An interactive calculator to calculate the BMR - to replace most of the BMR items on old Page 10_
 
-            = 655 + 609 + 314.9 – 159.8 kcals
+      _Also instructions on how to use the PAL information to calculate your own energy requirements_
 
-            = 1419.1 kcals (BMR)
-
-          img: /images/svg/placeholder_icon.svg
-  
-    copy2: It’s important to remember that Basal Metabolic Rate is affected by a person’s physical activity levels and age.  
+    interactive: 
+      file: 
+      width: 
+      height:        
   -
   -
     title: Time to think
@@ -164,7 +129,13 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Calculate your own BMR. Use the journal entry box to type the calculation and work out your answer! 
+        Use the journal entry box to record your answers from the above activity. 
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you feel confident about calculating your own BMR and PAL. It’s important that you can use these calculations to estimate your own energy requirements. 
   -
   -
     title: On the web
@@ -172,7 +143,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _ID note - we could replace this with an interactive item if time and resource allows_
+        _ID note - may not need if we can replace this with an interactive item (time and resource allows)_
 
         Use this online calculator to help you work out your BMR: 
 

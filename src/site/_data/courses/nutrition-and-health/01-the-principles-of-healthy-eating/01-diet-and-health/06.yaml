@@ -1,99 +1,12 @@
 title: Activity levels and energy
 intro: |
   On this page you will learn about: 
-  * Physical activity levels
   * Understanding activity levels
   * Energy requirements
 
 banner: placeholder.jpg
 sections:
-  -
-    title: Physical activity levels
-    theme: t-bg-primary
-    copy: |
-      Everything you do burns calories. While most calories are used for basic living, the rest of the calories are burned through exercise and activity.
-      
-      Calories are burned even when an activity has stopped. By combining basal requirements with needs based on physical activity levels, you can calculate your total energy requirement.
-
-      Scroll through the slides below to learn more about physical activity levels.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Calculating PAL
-          text: |
-            The higher the level of activity that a person does, the more energy they will need to burn. The equation used to calculate the total energy requirement is: Total Energy Required = BMR x PAL. 
-          img: placeholder_icon.svg
-        -
-          title: Physical Activity Level (PAL)
-          text: |
-            A person's PAL is determined by the things a person does in a 24 hour period. It can also be estimated from the physical activities that person performs each day. Each activity is connected to a particular level of activity. 
-          img: placeholder_icon.svg
-        -
-          title: Level 1 - Sedentary
-          text: |
-            This level of activity is described as little or no exercise. The PAL factor is 1.2. 
-          img: placeholder_icon.svg
-        -
-          title: Level 2 - Light exercise
-          text: |
-            This level of activity includes frequent walking in a job / daily activity or 60mins of intense activity in one week. The PAL factor is 1.375. 
-          img: placeholder_icon.svg
-        -
-          title: Level 3 - Moderate exercise
-          text: |
-            This level of activity could be a job that is quite physical throughout the day e.g. shop work or intense physical activity 30 – 60 minutes three or four times a week. The PAL factor is 1.55. 
-          img: placeholder_icon.svg
-        -
-          title: Level 4 - Very active
-          text: |
-            This level of activity could include a highly physical job such as brick laying or farming or intense exercise for 60 minutes five to seven days per week. The PAL factor is 1.725. 
-          img: placeholder_icon.svg
-        -
-          title: Level 5 - Extreme
-          text: |
-            This level of activity could include full time training for a sporting event; this level of activity is usually only reached by elite athletes. The PAL factor is 1.9. 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      _ID Note - This could be a video or activity - continue theme from previous page_
-      
-      ### Case study - Bill and Jane
-
-       Bill and Jane now want to work out their physical activity levels. Bill has a very sedentary lifestyle so his PAL factor is 1.2. However Jane is a very active person with a PAL factor of 1.725.
-       
-       Now that Bill and Jane have calculated their BMR and PAL they can work out their energy requirements using the Harris Benedict formula.
-       
-       Energy requirement = BMR x PAL
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: BMR formula
-          copy: |
-            Bill and Jane use this to work out their BMR:
-
-            BMR 		PAL factor 		Energy requirement
-
-            Bill 	1801.5 	x 	1.2 	= 	2161.8 kcals
-            
-            Jane 	1419.1 	x 	1.725 	= 	2447.94 kcals
-
-            Bill and Jane now know what their daily energy requirement is! They can use this to plan a healthy diet and make sure they don’t gain or lose too much weight. 
-            
-          img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      Make sure that you feel confident about calculating your own BMR and PAL. It’s important that you can use these calculations to estimate your own energy requirements. 
-  -
+  
   -
     title: Understanding activity levels
     theme: t-bg-primary

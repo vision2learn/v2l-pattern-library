@@ -11,3 +11,51 @@ sections:
       In this session you will learn about 
       * lo 1
       * etc
+  -
+    title: Diet and health
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn more about the factors that can influence your diet.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Age
+          copy: |
+            People of different ages need different proportions of food. You will learn more about how age affects diet in Unit 2. 
+          img: placeholder_icon.svg
+        -
+          title: Lifesyle circumstances
+          copy: |
+            People’s dietary requirements change as their circumstances change. For example, pregnant women need to take on additional calories to support the developing baby. People who have gone through major operations may require diet changes. 
+          img: placeholder_icon.svg
+        -
+          title: Health conditions
+          copy: |
+            People with certain illnesses or health conditions may have to eat more or less of certain foods. For example, diabetics often need to manage their sugar intake. 
+          img: placeholder_icon.svg
+        -
+          title: Activity levels
+          copy: |
+            The levels and type of activity that a person does every day will influence what makes their diet healthy or unhealthy. A healthy diet for an Olympic sprinter will be very different from an office worker who goes running once a week! 
+          img: placeholder_icon.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      A healthy diet is something that covers all of your body’s needs, and ensures that your body gets all the nutrients that it requires to stay healthy in day to day life.
+      The things that you require will vary depending on a number of different factors including age, gender and activity levels. 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _ID NOTE - This would be better a 'poll' or tickbox activity_
+      
+        Look at the definition of a healthy diet on this page. Time to make a snap decision! Given the definition, do you think your diet is healthy, moderately healthy or unhealthy? Type your answer in the box to the right.
+        
+        *You can refer to these notes in your journal which will support you when you come to your assessment*
+  -
