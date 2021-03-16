@@ -1,4 +1,4 @@
-title: Lifelong condition
+title: TEMPLATE PAGE
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,7 +7,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain why it is important to recognise that autism is a lifelong condition.
+      In your assessment you will be required to 
   -
     title: introduction text
     layout: media
@@ -81,7 +81,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video which explains why autism is a lifelong condition.
+      Please see the following video on .
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -89,8 +89,46 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _activity - must relate to the video._
+        _LO or exercise - must relate to the video._
 
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
+
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Optional item depending on content_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _Optional item depending on content - useful for additional reading_
+
+      Take a look at the following document about 
+
+      [example doc]().
   -
     title: Quick quiz
     subInc: 
