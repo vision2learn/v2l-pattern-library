@@ -6,7 +6,6 @@ intro: |
 
 banner: placeholder.jpg
 sections:
-  
   -
     title: Understanding activity levels
     theme: t-bg-primary
@@ -16,7 +15,6 @@ sections:
       In the past, there were many jobs that were vigorous and physically demanding. These jobs, such as coal mining, construction or agricultural work would have required a large amount of physical effort.
 
       Nowadays, many jobs are desk based and most people struggle to get enough exercise.
-
   -
   -
     title: Aerobic activity levels
@@ -67,6 +65,11 @@ sections:
       links:
         NHS Active Lifestyle: http://www.nhs.uk/Livewell/fitness/Pages/activelifestyle.aspx    
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  - 
     title: Summary
     theme: t-bg-primary i-summary
     copy: |

@@ -1,0 +1,103 @@
+title: Introduction to Autism
+intro: |
+  On this course you will learn about , which will help you with your general understanding and appreciation of the subject. 
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * What is meant by Autism
+      * Autism definitions
+      * Spectrum disorder
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define the following:
+      * Autistic spectrum disorder 
+      * Asperger syndrome 
+      * High-functioning autism (HFA) 
+  -
+    title: Understand what is meant by 'autism'
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Introduction to first session text here.
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Autism definitions
+    theme: t-bg-supporting3
+    copy: |
+      Let’s look at three definitions of autism, what they mean and how they relate to each other. Select the images below to learn more about each term.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Austistic spectrum disorder
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Asperger syndrome
+          copy: |
+            text
+          img: ypmh_u1_s1_p3_reveal2.svg
+        -
+          title: High-functioning autism (HFA)
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain why autism is considered a spectrum disorder.
+  -
+    title: Why is autism considered a spectrum disorder?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      text
+    img: /images/svg/placeholder_icon.svg
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Introduction to topic - informative with presenters talking about sub-topics - different imagery for each sub-topic_
+      Please see the following video which introduces and explains what is meant by Autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Select one option to complete the following sentence:"text _____________.":
+          answers:
+            one: false
+            two: false
+            three: true
+          feedback: text
+        Is the following statement true or false? "text":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Select one option to complete the following sentence:"___________ text.":
+          answers:
+            one: false
+            two: false
+            three: true
+          feedback: text
+  -
