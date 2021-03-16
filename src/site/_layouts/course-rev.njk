@@ -30,10 +30,10 @@
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%}
 
-{% if shortcode !== 'it2' %}
-  {% set timeToWhat = 'Think'%}
-{% else %}
+{% if shortcode == 'it2' or shortcode == 'it1' %}
   {% set timeToWhat = 'Practice'%}
+{% else %}
+  {% set timeToWhat = 'Think'%}
 {% endif %}
 
 {%- if (session) < sessionCount %}
