@@ -25,7 +25,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Introduction to first session text here.
+      What is meant by Autism, the definition of autism has changed and will probably keep on changing as we understand more. Autism is a ‘spectrum’ condition and this refers to the wide range of symptoms and the severity. All autistic people share certain difficulties, but being autistic will affect them in different ways. 
+      
+      Some feel that the spectrum is too broad, as a person who needs full time support cannot be compared with someone who just finds things ‘too bright’ or ‘too loud’. But what is needed by all is understanding of what it is to be Autistic.  
     img: /images/svg/placeholder_icon.svg
   -
   -
@@ -39,17 +41,17 @@ sections:
         -
           title: Austistic spectrum disorder
           copy: |
-            text
+            ‘Autism spectrum disorder’ is a lifelong developmental condition, relative to brain devel-opment and impacts how a person perceives others, causing problems with communica-tion and social interaction. 
           img: placeholder_icon.svg
         -
           title: Asperger syndrome
           copy: |
-            text
+            Those with ‘Asperger syndrome’ don't have the learning disabilities that many autistic people have, but may have specific learning difficulties with understanding and pro-cessing language. 
           img: ypmh_u1_s1_p3_reveal2.svg
         -
           title: High-functioning autism (HFA)
           copy: |
-            text
+            “High-functioning’  autism isn’t an official medical term but its seen as more informative. It describes a milder form of autism or level 1 on the autism spectrum.
           img: placeholder_icon.svg
   -
     title: Key point
@@ -61,7 +63,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      text
+      Autism is considered a spectrum disorder because of the wide variation of symptoms and severity of those symptoms experienced and It occurs in ethnic and racial groups.
     img: /images/svg/placeholder_icon.svg
   -
 
