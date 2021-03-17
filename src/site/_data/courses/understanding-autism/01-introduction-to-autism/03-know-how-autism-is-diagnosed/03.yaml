@@ -1,17 +1,43 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the third session of Understanding autism Level 2! 
-banner: ba-u1-s1-p6.jpg
+title: Prevalence of autism in the UK
+intro: |
+  intro text
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
+      In your assessment you will be required to state the prevalence of autism in the UK.
   -
-    title: Session quiz
+    title: Prevalence of autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style with statistics e.g. A presenter with statistics appearing to the side_
+      
+      Please see the following video on the prevalence of autism in the UK.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using the link below carry out some research on current trends and statistics relating to autism in the UK. Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        autism in the UK statistics: https://www.google.co.uk
+
+  -
+    title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz

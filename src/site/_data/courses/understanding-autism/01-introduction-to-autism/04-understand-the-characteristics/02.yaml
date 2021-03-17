@@ -1,4 +1,4 @@
-title: TEMPLATE PAGE
+title: Triad of impairments
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,9 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to outline what is meant by the ‘triad of impairments’.
   -
-    title: introduction text
+    title: Triad of impairments
     layout: media
     theme: t-bg-primary
     copy: |
@@ -20,7 +20,13 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify positive and negative points of the triad of impairments.
+  -
+  -
+    title: Positive and negative points of the traid of impairments
     theme: t-bg-supporting2
     copy: |
       _Optional item depending on content_
@@ -47,41 +53,13 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on more in depth look at the triad of impairments and the challenges.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -90,24 +68,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -120,15 +80,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
     title: Quick quiz
     subInc: 
