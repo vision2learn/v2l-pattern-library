@@ -1,6 +1,5 @@
 title: Eating a variety of foods
 intro: |
-  ### TEMPLATE PAGE
   On this page you will learn about: 
   * point 1
   *  
@@ -8,9 +7,139 @@ banner: placeholder.jpg
 sections:
   -
     title: 5 a day
-    layout: media
     theme: t-bg-primary
     copy: |
-      ### Title
+      Scroll through the slides below to learn more about ...
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Fruit and vegetables
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Dried fruit
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Fruit juice
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Smoothies
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Beans and pulses
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Pre-package meals
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Root vegetables
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: What is a portion?
+    theme: t-bg-supporting2
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Broccoli
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Juice
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Smoothie
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Apple
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Banana
+          copy: |
+            Something about a minion's love of bananas can go here
+          img: placeholder_icon.svg
+        -
+          title: Baked beans
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the 5 a day initiative.
+
+      links:
+        NHS Choices: http://www.nhs.uk/LiveWell/5ADAY/Pages/5ADAYhome.aspx
+        BBC Goodfoods: http://www.bbcgoodfood.com/howto/guide/12-ways-get-your-five-day
+  -
+  -
+    title: Eating a variety of foods
+    theme: t-bg-primary
+    copy: |
+      There are many advantages to eating a wide variety of foods. A narrower range can be unhealthy, less enjoyable and more expensive. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Nutritional needs
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Pleasure
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Variety
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Availability
+          text: |
+            text
+          img: placeholder_icon.svg
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+       You need to be able to describe the importance of eating a variety of foods in your Assessment!
+       Make sure you feel confident about this before you move on.

@@ -12,10 +12,132 @@ sections:
       * lo 1
       * etc
   -
+  -
     title: The five food groups
-    layout: media
     theme: t-bg-primary
     copy: |
-      ### Title
+      Scroll through the slides below to learn more about ...
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Carbohydrates
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Fruit and veg
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Meat and protein
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Fatty or sugary foods
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Milk and dairy
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: What changes does Keith make?
+          copy: |
+            Keith agreed to take the following steps to change his life:
+
+            * Eat just one takeaway a week instead of five or six
+            * item 2
+            * etc
+
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Current healthy eating advice
+
+       There are many sources of information offering advice and tips on healthy eating. It’s best to stick to official sources of information, such as the NHS and Government websites.
+
+      The Food Standards Agency is a Government body for food and nutrition. Please see the following video for some of its tips for eating well. 
+
+      _Original content are 10 slides - this would would work better as a video with a presenter and images_
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -
+  -
+    title: Read - Eatwell Guide
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document from the Eatwell guide....
+
+      [example doc]().
+  -
+  -
+    title: Quick quiz
+    copy: Guess the food group
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A glass of milk is in the Milk and dairy group 
+          answer: Milk and dairy
+        -
+          sentence: Cake is in the Fatty or sugary foods group
+          answer: Fatty or sugary foods
+        -
+          sentence: Bread is in the Carbohydrates group
+          answer: Carbohydrates
+        -
+          sentence: Tuna fish is in the Meat and protein group
+          answer: Meat and protein
+        -
+          sentence: Pasta is in the Carbohydrates group
+          answer: Carbohydrates
+        -
+          sentence: Broccoli is in the Fruit and veg group
+          answer: Fruit and veg
+        -
+          sentence: Butter is in the Milk and dairy group
+          answer: Milk and dairy
+        -
+          sentence: An apple is in the Fruit and veg group
+          answer: Fruit and veg
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk     
+  -
