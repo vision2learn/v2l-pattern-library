@@ -1,0 +1,19 @@
+So now that the chart is correct, and I'm satisfied that the information is accurate. There may be an option that I want to move the chart or make it bigger. A chart works very similar to an image within Word or PowerPoint where you can click and hold it and move it around. So you can move around the screen anywhere you want.
+
+You can resize the chart by clicking on the small icons along the side and in the corners. So I can just click on that corner one there and that will resize the chart. It may also be a case that we need to move the chart to another worksheet. Now, in this instance, you would need to click on the chart and select move chart.
+
+The good point to note here is if you just clicked anywhere within the chart so, as you can see this second box in the middle here, that is the actual data. So if you clicked in there all you will get is the option to change chart types, save template, select data. If I click in this outer area here and right-click, I'm given a wider range of options.
+
+And what I want to do here is I want to move the chart. So if I select move chart, the move chart, dialogue box comes up. Now, at the moment I can move it as an object in so I can move it into the income or the average sales. So I click on those income, average sales. I can move it into one of those worksheets.
+
+Alternatively I can create a new sheet and it will be called chart one. And that will then create a new worksheet and it will only contain the chart. The problem with that is that I could not create a hyperlink to that page. So if I wanted to create a hyperlink on the sales data worksheet that link me directly to the chart I could not do that on a new page, on a new sheet. So what I would want to do is I want to create a new worksheet. So I'm just going to cancel out of that. And I'm going to click plus there, and that brings up sheet four, and I'm going to call that sheet chart one. So I'll just delete that.
+
+Call it chart one. And then if I go back to the sales data, if I now right click, I can move the chart and I want to move it as an object in chart one. So if I select that and select OK. As you can see, it's magically appeared on  chart one. It's no longer in the sales data worksheet and is now on its own worksheet.
+
+It may be a case that I wish to change the type of chart. So to do that, all I can do is on the chart design tab, as long as I've got the chart selected, I'll be on the chart design tab so I could change the chart type. So if I just have a look at that, we could change it to a line chart. And it gives you an example of what it will look like.
+
+We can change it to a pie chart. So again, a bar chart, an area chart, so there are a variety of different chart types you can change it to. So just to give an example, I'll select pie and select OK. And again, I don't think that gives a very good graphical representation of the data. I think the column chart was best, but you can, again, on the styles, you can change the different styles of the chart. So you can have exploded charts as a variety of different types there, but I'm just going to go back to the chart type, which was column. And I'm just going to stick with that one, that one will do for now. Click OK. And that is the column chart on a new worksheet. 
+
+So again, the thing to remember is that this is actually linked. So, as you can see here, as same as you had with the income on the average sales, this data is linked so if I went under the sales data and the January sales, for some reason jumped to 880, or sorry 1,880 and I then went to the chart. It will automatically update the information on the chart. So I'll just undo that.
+
+And again, if I wanted to link to the chart, I would just simply click in a box and type some text and I'll just put chart one. And then if I right click and select link and I select chart one, click OK, and I'll have a hyperlink directly to the chart one worksheet.
