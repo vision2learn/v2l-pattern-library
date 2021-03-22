@@ -12,7 +12,7 @@ permalink: dotnet/{{ pagination.items[0] | slug }}/App_Data/CourseStructure.xml
       {%- for session, pages in sessions %}
         <Session number="{{ loop.index }}" title="Session {{ loop.index }} of {{ loop.length }}: {{ session | replace('-', ' ') | replace('0'+loop.index, '') | trim | capitalize }}" pages="{{ pages | length }}" />
       {%- endfor %}
-      <Sessions>
+      </Sessions>
     </Unit>
     {%- endfor %}
   </Units>

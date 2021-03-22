@@ -1,0 +1,7 @@
+Over time you will generate a lot of files. One of the best ways to make sure that you know where your files are, is to organize them into folders. As you can see on this screen, I have my documents folder here, and I have three folders on there: Adobe, videos and ITQ.
+
+I've created the ITQ folder specifically to contain the actual files that I will require for the ITQ course. I've downloaded the IPU assessment, the PS2 assessment, the SS2 assessment and the WP2 assessment, which are the four assessments that you will complete as you work through the course. Ideally, I would like to create folders for each of the individual units. So as I gather information and download files relating to each of the various units of presentation, spreadsheets, or word processing, I can then organize those into folders.
+
+So to simply create a folder, you would go to the cog icon and select new folder, and I'm going to call that WP2 And then I can move the WP2 assessment into that folder. I'm going to create another new folder and I'm going to call that PS2 and I will move the PS2 assessment into that folder.
+
+Another new folder, which is SS2. I'll move the document into that and finally, a new folder. And that will be IPU2. So as you can see, I now have organized all of the relevant units into their folders. So when I download the files needed for word processing, I can store them all in the relevant folder, presentations, spreadsheets, and IPU. 

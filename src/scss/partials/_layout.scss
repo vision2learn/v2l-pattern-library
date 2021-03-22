@@ -31,7 +31,8 @@
   }
 
   * + h2,
-  * + h3 {
+  * + h3,
+  video + toggle-section {
     margin-top: 1.5em;
     margin-top: calc($flow * 1em);
   }

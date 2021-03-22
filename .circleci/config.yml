@@ -91,35 +91,13 @@ jobs:
 
       - run:
           name: Create Export Package
-          command: for dir in dist/dotnet/* ; do echo $dir ; cp -R --strip-trailing-slashes src/scss $dir/scss/ ; cp -R --strip-trailing-slashes dist/js $dir/js ; done
-      - run:
-          name: Move Images
-          command: cp -R --strip-trailing-slashes dist/images dist/dotnet/images
-      - run:
-          name: Zip .NET Export
-          command: tar -cvf dotnet.tar dist/dotnet
-      - run:
-          name: Compress Images
-          command: tar -cvf images.tar dist/images
-      - run:
-          name: Sass Assets
-          command: tar -cvf scss.tar src/scss
-      - run:
-          name: JS
-          command: tar -cvf js.tar dist/js
-
+          command: |
+            cp -R --strip-trailing-slashes src/scss dist/dotnet/scss
+            cp -R --strip-trailing-slashes dist/js dist/dotnet/js
+            cp -R --strip-trailing-slashes dist/images dist/dotnet/images
       - store_artifacts:
           path: dotnet.tar
           destination: dotnet.tar
-      - store_artifacts:
-          path: images.tar
-          destination: images.tar
-      - store_artifacts:
-          path: scss.tar
-          destination: scss.tar
-      - store_artifacts:
-          path: js.tar
-          destination: js.tar
   staging:
     machine:
       enabled: true
