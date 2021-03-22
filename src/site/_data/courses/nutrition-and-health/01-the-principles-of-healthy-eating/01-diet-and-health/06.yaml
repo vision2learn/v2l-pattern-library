@@ -46,7 +46,7 @@ sections:
     layout: media
     theme: t-bg-primary2
     copy: |
-      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp_
+      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp  ALSO include Case Study (Belinda and Dan) from S3 old P3_
 
       Select the following icon to . . .
 
@@ -54,6 +54,12 @@ sections:
     img: /images/svg/Activity_button.svg
     activity: 
   -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  - 
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -65,11 +71,37 @@ sections:
       links:
         NHS Active Lifestyle: http://www.nhs.uk/Livewell/fitness/Pages/activelifestyle.aspx    
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
+    title: Knowing what you need
+    theme: t-bg-supporting3
     copy: |
-      text
-  - 
+       Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
+       
+       The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Amount of activity
+          copy: |
+            Children, teenagers and adults should all follow a diet that is low in fat. Different levels of activity and the variations in this through the day will affect how much of each nutrient a person needs.  
+          img: placeholder_icon.svg
+        -
+          title: Health / condition
+          copy: |
+            If someone is ill, recovering from an injury or pregnant, then they may need different nutrients than someone who is not. 
+          img: placeholder_icon.svg
+        -
+          title: Age
+          copy: |
+            People of different ages will require different levels of each nutrient.
+          img: placeholder_icon.svg
+        -
+          title: Physical changes
+          copy: |
+            If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
+          img: placeholder_icon.svg
+  -
     title: Summary
     theme: t-bg-primary i-summary
     copy: |

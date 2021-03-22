@@ -6,54 +6,8 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
-    title: 5 a day
-    theme: t-bg-primary
-    copy: |
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Fruit and vegetables
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Dried fruit
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Fruit juice
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Smoothies
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Beans and pulses
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Pre-package meals
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Root vegetables
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: What is a portion?
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       text
 
@@ -107,7 +61,7 @@ sections:
   -
   -
     title: Eating a variety of foods
-    theme: t-bg-primary
+    theme: t-bg-supporting2
     copy: |
       There are many advantages to eating a wide variety of foods. A narrower range can be unhealthy, less enjoyable and more expensive. Scroll through the slides below to learn more.
 
@@ -136,6 +90,47 @@ sections:
             text
           img: placeholder_icon.svg
 
+  -
+
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: accordion title
+          copy: |
+            text
+            text
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
   -
   -
     title: Key point

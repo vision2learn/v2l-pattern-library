@@ -6,6 +6,17 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
+    title: Introduction
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Nutritional advise is usually general and you will find this throughout this course. It’s designed to provide you with the basics e.g. how and why you should include more nutritious food, reduce certain types of food, increase exercise and some of the common medical conditions associated with diet. 
+
+      Research is showing that a one size that fits all approach to general diets does not suit everyone and in the future personalised/individual nutrition is likely to become more common practice . This is because more is being discovered about how each person’s metabolism responds uniquely to food and processes the macro nutrients and micro nutrients we eat differently.  Therefore, what works for one person might not work for another. However, eating natural unprocessed foods that incorporates all of the key nutrients will ensure that you are maintaining good health and will reduce overall health risks.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
     title: A healthy diet
     theme: t-bg-primary
     copy: |
