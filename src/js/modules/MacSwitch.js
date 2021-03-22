@@ -87,6 +87,7 @@ const ContentToggle = (() => {
           newTrack.label = `English`;
           newTrack.kind = 'captions';
           newTrack.srclang = 'en';
+          video.parentElement.setAttribute('data-v2l-format', urlMod);
           video.parentElement.appendChild(newTrack);
         }
 

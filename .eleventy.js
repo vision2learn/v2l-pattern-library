@@ -10,6 +10,8 @@ const fs = require("fs");
 const MarkdownIt = require('markdown-it');
 
 let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
+let missingCaptions = [];
+let missingTranscripts = [];
 
 async function imageShortcode(src, cls, alt, sizes) {
   src = src.startsWith('/') ? src.replace('/', '') : src;
@@ -60,6 +62,12 @@ function markdown(copy) {
   }
 }
 
+function logMissing(files) {
+  files.forEach(file => {
+    console.log('No VTT for: ', file);
+  });
+}
+
 module.exports = function(config) {
 
   // A useful way to reference to the contect we are runing eleventy in
@@ -96,7 +104,7 @@ module.exports = function(config) {
     let basename = path.basename(file, ext);
     let track = '';
     let transcript = '';
-    let multi = basename.indexOf('_pc') ? true : false;
+    let multi = basename.indexOf('_pc') > 0 ? true : false;
     let filesToCheck = [basename];
 
     if(multi) {
@@ -108,7 +116,8 @@ module.exports = function(config) {
       fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
       track = `<track label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
     } catch (err) {
-      console.log(`No VTT file for ${file}`);
+      // console.log(`No VTT file for ${file}`);
+      missingCaptions.push(file);
     }
 
     filesToCheck.forEach((file, index) => {
@@ -123,13 +132,14 @@ module.exports = function(config) {
         });
 
         transcript += `
-          <toggle-section open="false" data-debug="${multi} ${filesToCheck.length}">
+          <toggle-section open="false">
             <h3>Video transcript ${type[index]}</h3>
             ${markdown(transcriptContent)}
           </toggle-section>
         `;
       } catch (err) {
-        console.log(`No transcript for ${file}`);      
+        // console.log(`No transcript for ${file}`);
+        missingTranscripts.push(file)      
       }
     });
     
