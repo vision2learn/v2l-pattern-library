@@ -1,0 +1,17 @@
+In this video, I'm going to give you some guidance on completing your unit three spreadsheet software assessment. So at this point you should have now completed unit one and unit two, and you've moved on to unit three. As with the other two units, you work through each of the sessions and you will be able to complete relevant sections of the assessment as you work through those sessions.
+
+So I'm just going to bring up the actual assessment document. So I'll navigate to the folder containing that, double-click, that will open it up in Word And it's exactly the same format as the word processing and presentation documents. And I can then scroll down. I can see the learning outcomes for spreadsheet software, and also Improving Productivity Using IT.
+
+And again, there is another scenario. So read through this scenario, make sure that you fully understand what the task is asking you to do. And then you can move on to the actual sections, completing the actual assessment. So exactly the same as word processing and presentations, you need to provide a screenshot showing the location of the saved assessment.
+
+So that would be that folder there. Take a screenshot and paste it into there. Then there are some questions and then you come on to actually creating the spreadsheet. So you've been provided with the content for the spreadsheet. You just then need to insert that into the actual blank spreadsheet that you've opened and work through each of the tasks within there. You will be asked to add certain screenshots at various locations, but again, it will make it clear. So that will be the spreadsheet that you've created at various points. So once you've done that as with word processing, I always recommend actually once I've completed it, highlighting it in green. And then as I work through, I can see exactly what has been done. If there's anything I'm unsure of I would highlight it in yellow. 
+
+Once you've completed part two, you can then go on to part three and you are provided with another spreadsheet to analyze. So you don't need to submit this actual and fruit and veggie data when you've finished your assessment, but it is required to assist you in answering the questions in this part here. 
+
+You would then move on to part four, which is about formatting and presenting your data. It asks you to apply various formatting and make changes to the spreadsheet. An important point to note as at step 12, you need to print your sales data worksheet as a PDF file. If you're using a Windows based machine, you can select Microsoft print to PDF. However, if you are using a Mac you can't do that you need to select save as PDF. So it's very similar, but you just don't have the Microsoft print to PDF feature. You need to save it as a PDF. And this print out will be submitted to your tutor for assessment, along with the spreadsheet and the assessment document.
+
+So again, once you've finished that section, you will move on to part five, which is about applying charts and graphs. So again, follow all of the instructions on there, apply the screen prints where required. 
+
+And then in section six, it is about quality control. This section here is all about questions and in part seven, it's all about improving productivity and efficiency, and it asks you to answer further questions.
+
+Again, once you've completed, make sure that you've happy with the work that you've done checked through your work, and then you will submit the assessment, the PDF file and the file that you've saved at "SS2 sales spreadsheet final".
