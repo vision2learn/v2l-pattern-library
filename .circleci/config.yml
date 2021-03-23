@@ -95,6 +95,7 @@ jobs:
             cp -R --strip-trailing-slashes src/scss dist/dotnet/scss
             cp -R --strip-trailing-slashes dist/js dist/dotnet/js
             cp -R --strip-trailing-slashes dist/images dist/dotnet/images
+            tar -cvf dotnet.tar dist/dotnet
       - store_artifacts:
           path: dotnet.tar
           destination: dotnet.tar
