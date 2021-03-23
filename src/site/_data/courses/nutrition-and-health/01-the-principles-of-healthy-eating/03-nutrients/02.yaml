@@ -1,0 +1,101 @@
+title: Water and hydration
+intro: |
+  On this page you will learn about: 
+  * point 1
+  *  
+banner: placeholder.jpg
+sections:
+  -
+    title: Poor hydration
+    theme: t-bg-primary
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Joint aches and pains
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: CNS function
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Digestive system function
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Body temperature
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Think about how much water you consume in a day. Can you think of any ways that you could increase your fluid intake?
+  -
+  -
+    title: Read - Water and exercise
+    theme: t-bg-primary2 i-read
+    copy: | 
+      When you exercise, you sweat. It’s important that you replace these lost fluids.
+
+      Take a look at the following to learn more about hydration during exercise. 
+
+      [example doc]().
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Mido and Tom
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Click to see a comparison of their water intakes!
+          copy: |
+            text
+          img: /images/svg/placeholder_icon.svg
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Dehydration can negatively affect a person’s body and mind. It’s very important that a person is properly hydrated. 
+
+      The amount of water that a person should consume depends on their lifestyle and how much water they are getting from their diet! 

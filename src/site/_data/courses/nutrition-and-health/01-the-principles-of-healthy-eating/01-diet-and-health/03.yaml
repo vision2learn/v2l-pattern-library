@@ -6,41 +6,73 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
-    title: Diet and health
+    title: Introduction
+    layout: media
     theme: t-bg-primary
     copy: |
-      Select the images below to learn more about the factors that can influence your diet.
+      Nutritional advise is usually general and you will find this throughout this course. It’s designed to provide you with the basics e.g. how and why you should include more nutritious food, reduce certain types of food, increase exercise and some of the common medical conditions associated with diet. 
 
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Age
-          copy: |
-            People of different ages need different proportions of food. You will learn more about how age affects diet in Unit 2. 
-          img: placeholder_icon.svg
-        -
-          title: Lifesyle circumstances
-          copy: |
-            People’s dietary requirements change as their circumstances change. For example, pregnant women need to take on additional calories to support the developing baby. People who have gone through major operations may require diet changes. 
-          img: placeholder_icon.svg
-        -
-          title: Health conditions
-          copy: |
-            People with certain illnesses or health conditions may have to eat more or less of certain foods. For example, diabetics often need to manage their sugar intake. 
-          img: placeholder_icon.svg
-        -
-          title: Activity levelsC
-          copy: |
-            The levels and type of activity that a person does every day will influence what makes their diet healthy or unhealthy. A healthy diet for an Olympic sprinter will be very different from an office worker who goes running once a week! 
-          img: placeholder_icon.svg
+      Research is showing that a one size that fits all approach to general diets does not suit everyone and in the future personalised/individual nutrition is likely to become more common practice . This is because more is being discovered about how each person’s metabolism responds uniquely to food and processes the macro nutrients and micro nutrients we eat differently.  Therefore, what works for one person might not work for another. However, eating natural unprocessed foods that incorporates all of the key nutrients will ensure that you are maintaining good health and will reduce overall health risks.
+
+    img: /images/svg/placeholder_icon.svg
   -
+  -
+    title: A healthy diet
+    theme: t-bg-primary
+    copy: |
+      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.
+
+      Select the images below to learn more about the influencing factors for a healthy diet.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Macro and Micronutrients
+          text: |
+            Macro nutrients are needed in larger quantities and provide the body with energy. These are: carbohydrates, fat and protein. Each of these groups contain vitamins and minerals that make up micronutrients. e.g. proteins such as fish and eggs contain the micronutrients iron, calcium and vitamin D; Oily fish also a good source of fat and provides Omega-3; carbohydrates such as wholegrain bread and rice contain magnesium, vitamin B and fibre. 
+            
+            By eating a varied diet with foods from the different macronutrients you should get enough micronutrients to keep you healthy. 
+          img: placeholder_icon.svg
+        -
+          title: Saturated and Unsaturated Fats
+          text: |
+            Fats are important for energy, growth, absorbing some vitamins, maintaining cell membranes and other important functions.
+            Unsaturated fats are found in natural foods e.g. nuts, seeds, avocados, oily fish and olive oil. Consuming unsaturated fats has been found to decrease the risk for heart disease. 
+
+            Unsaturated fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil.
+          img: placeholder_icon.svg
+        -
+          title: Herbs and Spices
+          text: |
+            For added health, herbs and spices should be included in a varied diet. Used by our ancestors, these do far more than add flavour and are used in many medicines. By adding herbs and spices to your meals it could help lower cholesterol and inflammation, prevent Alzheimers and strengthen the immune system. 
+          img: placeholder_icon.svg
+        -
+          title: Fibre
+          text: |
+            Fibre not only keeps the digestion functioning regularly, it can also help protect us from diseases such heart disease, diabetes and irritable bowl syndrome. It helps keep our microbiome healthy and reduces the amount saturated fat absorbed by the body. It also helps us to feel for longer and can aid in weight loss. 
+          img: placeholder_icon.svg
+        -
+          title: Water
+          text: |
+            Water will help you to digest food and absorb nutrients into the body. It is therefore important to drink plenty to gain as much goodness as you can from your diet. Along with preventing illness, improving skin and hair appearance and increasing cognitive thinking; it will also raise your energy levels and metabolism, leading to better weight loss. 
+          img: placeholder_icon.svg
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      A healthy diet is something that covers all of your body’s needs, and ensures that your body gets all the nutrients that it requires to stay healthy in day to day life.
-      The things that you require will vary depending on a number of different factors including age, gender and activity levels. 
+      Make sure that you understand the key differences between diets for adults and diets for children. You will need to write about this in your Assessment.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Key differences between adults and children.
+
+      Please see the following video to see .......
+
+      _ID Note - This is to be a scenario based video to replace content on old p7 and the case study - reference https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7-a.asp and https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7.asp_
+    video: placeholder_pc.mp4
   -
   -
     title: Time to think
@@ -48,127 +80,17 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        *ID NOTE - This would be better a 'poll' or tickbox activity*
-      
-        Look at the definition of a healthy diet on this page. Time to make a snap decision! Given the definition, do you think your diet is healthy, moderately healthy or unhealthy? Type your answer in the box to the right.
-        
+        Now you have watched the video, are you surprised by the differences between the diets of adults and children? Make some notes here before you move on.
+
         *You can refer to these notes in your journal which will support you when you come to your assessment*
-  -
-  -
-    title: Diets for children under 5
-    theme: t-bg-primary
-    copy: |
-      Children under 5 usually only have access to the foods their parents, or guardians, buy or prepare for them. One of the most important things about a child’s diet is to get them into good habits so they can have a healthy diet throughout their life.
-
-      To learn about an under 5’s diet scroll through the slides below.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Fresh food and fluids
-          text: |
-            Children should have food that is freshly prepared. Menus should include plenty of fruit and vegetables, wholegrains, starchy foods (such as pasta or potatoes), and protein (from meat, fish or pulses). 
-            
-            Children also need plenty of fluids, from water, milk or diluted unsweetened juice – not fizzy or sugary drinks!
-          img: placeholder_icon.svg
-        -
-          title: Calories
-          text: |
-            Children need fewer calories than adults because their bodies are not as big. However, children are usually very active – a child aged between one and three years needs approximately 1,165 to 1,230 calories per day. A child between four and six should have around 1,545 to 1,715 per day. Children should not be given the same size portions as adults. 
-          img: placeholder_icon.svg
-        -
-          title: Salt
-          text: |
-            Salt should never be added to young children’s food. The salt needed for a healthy diet comes from eating other foods. A baby’s kidneys can’t cope with high levels of salt. 
-          img: placeholder_icon.svg
-        -
-          title: Sugar
-          text: |
-            Never add processed sugar to a baby’s food, introducing sugar too early can lead to a preference for sweet foods and potentially lead to health issues. Fruit, such as apples, contain safe levels of sugar. Children should never be given sugary or fizzy drinks and babies should only drink milk or water.
-          img: placeholder_icon.svg
-        -
-          title: Milk
-          text: |
-            Until they are six months old the only food babies need is baby milk. Babies should drink about 600ml of milk every day until they are at least 12 months old. At a year old, children can have cow’s milk to drink. This should be full fat until they are two years old because they need the fat and calories found in full fat milk. While baby milk provides all of the nutrients needed in the first six months, as the baby grows their needs change and this means they need a more varied diet. 
-          img: placeholder_icon.svg
-        -
-          title: Solid food
-          text: |
-            Solid food is more difficult to digest and also contains more salt than milk. Starting solid food too early can cause stomach cramps, illness, allergies and even internal bleeding and long-term damage. From about 6 – 9 months children can eat mashed and finger foods like potato, vegetables and fruits, pieces of cheese, yogurt and pieces of toast cut into strips. At 9 months the baby should be able to eat small portions of chopped meat, pasta, fish, rice, beans and pulses. 
-          img: placeholder_icon.svg
-        -
-          title: Nutrients
-          text: |
-            A lack of vitamin D and calcium can cause a bone disease called rickets and a lack of iron in the diet can lead to anaemia. Children under 5 shouldn’t eat too much fibre as this can prevent them from eating food that contains other nutrients.
-
-            Some health professionals recommend a vitamin A or vitamin D supplement for children under five.
-
-            You’ll learn more about the importance of each of these later on in the Unit. 
-          img: placeholder_icon.svg
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Please see the following websites for more information:
+        Please see the following website where you can learn more about eating the right foods for your age.
 
       links:
-        Healthy meals for under 5s: http://www.sarahschenker.co.uk/?page_id=136
-        Healthy eating for under 5s: https://www.enjoyhealthyeating.info/nutrition/children-aged-1-5-years
-  -
-  -
-    title: Diets for over 5s
-    theme: t-bg-supporting2
-    copy: |
-      Children aged between 5 and 12 need different nutrition and more variety than other age groups.
-
-      As children develop, they require the same healthy foods adults eat, but with more vitamins and minerals to support their growing bodies. This means they need more whole grains, more calcium for growing bones, and more healthy proteins.
-
-      To learn more about the diets of over 5s select the images below.
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Variety
-          copy: |
-            At this age it is important that children try a variety of different foods. Experiencing different types of food allows children to find food that they like and can lead to more varied tastes. This means it will be easier for them to get the right nutrients and will help encourage healthy eating habits in later life. You will learn more about the importance of variety later in this unit. 
-          img: placeholder_icon.svg
-        -
-          title: Quantity
-          copy: |
-            Children at this age are still growing, not as quickly as before but enough that their diet must support them. Their calorie intake should reflect this. Children have small stomachs which they fill up and empty quickly. They therefore need to eat every few hours. 
-          img: placeholder_icon.svg
-        -
-          title: Nutrition
-          copy: |
-            As children approach school age, they should gradually move towards a diet that is higher in fibre and lower in fat.
-
-            Their iron intake will vary at this stage; children aged 4-6 years should have 6 to 7 mg of iron per day and those aged 7-10 years should have 8 to 10 mg per day. 
-          img: placeholder_icon.svg
-        -
-          title: Salt
-          copy: |
-            Their salt intake also varies; 4-6 year olds should have no more than 3g a day and 11 years and over should have no more than 6g a day. You may have noticed salt is an important feature of diet; we’ll look at this in more detail later in this Session. 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Forum
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      Can you remember what your favourite foods were as a child?
-
-      Why not visit the group forum and see how your childhood diet compares with others.
-
-    img: /images/svg/ln/LM_Forum.svg
-  -
-  -
-    title: Summary
-    theme: t-bg-primary i-summary
-    copy: |
-      Parents who prepare food for their children should be aware that their needs vary depending on the child’s age.
+        BBC Good Food: https://www.bbcgoodfood.com/howto/guide/eat-your-age
+        British Nutrition Foundation: http://www.nutrition.org.uk/healthyliving/lifestages

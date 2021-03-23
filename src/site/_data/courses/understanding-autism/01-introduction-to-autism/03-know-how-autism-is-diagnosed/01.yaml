@@ -1,0 +1,91 @@
+title: Know how autism is diagnosed
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Guidelines for diagnosis of autism
+      * Difficulties surrounding the diagnosis of autism
+      * Reluctance to get a diagnosis
+      * Importance of formal diagnosis
+      * Prevalence of autism in the UK
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the current guidelines for the diagnosis of autism in the UK.
+  -
+    title: Guidelines for diagnosis of autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      If an adult (or child) has symptoms they (or the parent if a child) can approach a GP or get in touch with the National Autistic society. They will refer them to the correct autism specialists for full assessment. 
+      
+      There is no actual ‘medical’ test but diagnosis is made with a comprehensive behaviour evaluation and developmental screening.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difficulties surrounding the diagnosis of autism.
+  -
+  -
+    title: Difficulties surrounding the diagnosis of autism
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about the difficulties surrounding the diagnosis of autism in relation to:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Formal diagnosis
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: The range of different diagnoses on the spectrum
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video about guidelines for diagnosis and difficulties surrounding those diagnosis.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+        Now you have watched the video, 'Question here'.  Make some notes in the box which you can refer to in your journal to help you with your assessment.
+
+  -
+  -
+    title: On the web OR Quiz?
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  

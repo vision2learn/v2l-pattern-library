@@ -1,0 +1,140 @@
+title: Eating a variety of foods
+intro: |
+  On this page you will learn about: 
+  * point 1
+  *  
+banner: placeholder.jpg
+sections:
+  -
+    title: What is a portion?
+    theme: t-bg-primary
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Broccoli
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Juice
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Smoothie
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Apple
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Banana
+          copy: |
+            Something about a minion's love of bananas can go here
+          img: placeholder_icon.svg
+        -
+          title: Baked beans
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the 5 a day initiative.
+
+      links:
+        NHS Choices: http://www.nhs.uk/LiveWell/5ADAY/Pages/5ADAYhome.aspx
+        BBC Goodfoods: http://www.bbcgoodfood.com/howto/guide/12-ways-get-your-five-day
+  -
+  -
+    title: Eating a variety of foods
+    theme: t-bg-supporting2
+    copy: |
+      There are many advantages to eating a wide variety of foods. A narrower range can be unhealthy, less enjoyable and more expensive. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Nutritional needs
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Pleasure
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Variety
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Availability
+          text: |
+            text
+          img: placeholder_icon.svg
+
+  -
+
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: accordion title
+          copy: |
+            text
+            text
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+       You need to be able to describe the importance of eating a variety of foods in your Assessment!
+       Make sure you feel confident about this before you move on.

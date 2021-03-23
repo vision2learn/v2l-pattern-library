@@ -1,0 +1,61 @@
+title: Prevalence of autism in the UK
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to state the prevalence of autism in the UK.
+  -
+    title: Prevalence of autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style with statistics e.g. A presenter with statistics appearing to the side_
+      
+      Please see the following video on the prevalence of autism in the UK.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using the link below carry out some research on current trends and statistics relating to autism in the UK. Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        autism in the UK statistics: https://www.google.co.uk
+
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

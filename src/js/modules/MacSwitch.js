@@ -14,7 +14,7 @@ const ContentToggle = (() => {
 
   toggle.init = () => {
     // don't go any further if we're not in IT or localStorage isn't available
-    if(course !== 'it' || !Toolkit.storageAvailable('localStorage')) {
+    if(!course.startsWith('it') || !Toolkit.storageAvailable('localStorage')) {
       return false;
     }
     
@@ -26,8 +26,13 @@ const ContentToggle = (() => {
     // get the base file name before modding 
     // TODO: Is this unnecessary?
     videos.forEach(video => {
-      if(video.src.indexOf('_pc') > -1) {
-        baseVidSrc.push(video.src.substring(0, video.src.indexOf('_pc')));
+      let url = new URL(video.src);
+      let basename = url.pathname.substring(0, url.pathname.indexOf('_pc'));
+      if(url.pathname.indexOf('_pc') > -1) {
+        baseVidSrc.push({
+          vidPath: basename,
+          vttPath: basename.replace('/videos/', '/videos/captions/vtt/')
+        });
       }
     });
 
@@ -71,7 +76,21 @@ const ContentToggle = (() => {
     
     videos.forEach((video, index) => {
       if(baseVidSrc[index]) {
-        video.setAttribute('src', `${baseVidSrc[index]}_${urlMod}.mp4`);
+        video.setAttribute('src', `${baseVidSrc[index].vidPath}_${urlMod}.mp4`);
+        // if there's an alternate subtitle track too, we need to switch to it
+        if(video.parentElement.dataset.multi) {
+          // console.log('Multi vid');
+          const oldTrack = video.parentElement.querySelector('track');
+          oldTrack.remove();
+          const newTrack = document.createElement('track');
+          newTrack.src = `${baseVidSrc[index].vttPath}_${urlMod}.vtt`;          
+          newTrack.label = `English`;
+          newTrack.kind = 'captions';
+          newTrack.srclang = 'en';
+          video.parentElement.setAttribute('data-v2l-format', urlMod);
+          video.parentElement.appendChild(newTrack);
+        }
+
         video.parentElement.load();
       }
       

@@ -17,3 +17,22 @@ a:not([href]),
 a[href="#"] {
   outline: dotted red 1px;
 }
+
+// not sure where to put this?
+video[data-v2l-format='pc'] + toggle-section {
+  display: block;
+}
+
+video[data-v2l-format='pc'] + toggle-section + toggle-section {
+  display: none;
+}
+
+video[data-v2l-format='mac'] + toggle-section {
+  display: none;
+}
+
+video[data-v2l-format='mac'] + toggle-section + toggle-section {
+  border-top: 2px solid;
+  display: block;
+  margin-top: 1.5rem;
+}

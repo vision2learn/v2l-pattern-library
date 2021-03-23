@@ -11,6 +11,8 @@
     the next unit or we're done
   #}
 
+{% set folders = pagination.data | folders %}
+
 {% set module = courses[folders.course][folders.unit][folders.session][moduleNum] %}
 
 {%- set tilde = "~" if site.env == "dotnet" -%}
@@ -28,10 +30,10 @@
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%}
 
-{% if shortcode !== 'it2' %}
-  {% set timeToWhat = 'Think'%}
-{% else %}
+{% if shortcode == 'it2' or shortcode == 'it1' %}
   {% set timeToWhat = 'Practice'%}
+{% else %}
+  {% set timeToWhat = 'Think'%}
 {% endif %}
 
 {%- if (session) < sessionCount %}

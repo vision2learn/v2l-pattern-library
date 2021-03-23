@@ -1,0 +1,11 @@
+As you've learned in the course materials, there may be occasions where you need to work with CSV files. CSVs are simply files that can be accessed by other software applications. So for example, you may have information in a spreadsheet that you need to import into a database, and you would save the Excel spreadsheet as a CSV file, which would then enable the database to be able to access it. Accountancy software is another example of software that uses CSV and that can be exported and imported from Excel and to Excel and from the software packages that you need. 
+
+So just to show an example of this, I have here a spreadsheet which is already formatted, I've just called that CSV example. But as you can see, this has a range of formatting applied. So it has been formatted and it looks presentable. If I now go to File and Save As and then select, rather than an Excel workbook, if I select a CSV. So comma delimited. So that quite simply means that it is a comma separated value. And if I save that now and I then close the example, which has got the formatting applied.
+
+As you can see, I have two files now I have the original example, which was an Excel worksheet. And this one here, which is the Excel comma separated value sheet. So if I double click on that and open that, you will see that it has saved it but it has primarily saved it just the information. It has took off all of the formatting, even the columns are now no longer wide enough to display the information.
+
+So that is what saving as a CSV file does. It only keeps the information. An example of this is if I just close that and just say Save, if I then go to a Word document. So if I open Word. And this will give you a good example of how it is structured. If I open the file the CSV example, you can see that that is how the document has been saved.
+
+One of the things there is if I actually made a change in Word, so if I changed that to 88, and then just saved that.
+
+So once I've saved it, I can close that. If I then go back to CSV and open the spreadsheet example, you can see that it has actually changed the figure in there. So I can edit it in other software packages, so I could edit the CSV file in Word, and then that can be transferred back into Excel.

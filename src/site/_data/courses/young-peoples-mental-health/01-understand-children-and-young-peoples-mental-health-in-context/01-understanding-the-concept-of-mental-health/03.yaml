@@ -49,7 +49,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Mental health can be a positive concept relating to the social and emotional well-being of individuals. An individual’s level of well-being in adulthood and consequently their men-tal health can be affected by experiences in their earlier life, especially during childhood and adolescence. Well-being does not just refer to physical health, but to any aspect of an individual’s life that makes them feel content. 
+      Mental health can be a positive concept relating to the social and emotional well-being of individuals. An individual’s level of well-being in adulthood and consequently their mental health can be affected by experiences in their earlier life, especially during childhood and adolescence. Well-being does not just refer to physical health, but to any aspect of an individual’s life that makes them feel content. 
       
       Good mental health, or being mentally healthy, is more than just the absence of illness, it’s a state of overall well-being, and generally relates to enjoying life, coping with stress and sadness, being able to set and fulfil goals, and having the ability to build and main-tain relationships with others.
     img: /images/svg/ypmh/ypmh_u1_s1_p3_image1.svg
@@ -58,6 +58,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      _Introduction to topic - informative with presenters talking about sub-topics - different imagery for each sub-topic_
       Please see the following video on mental health terms and well-being.
     video: placeholder_pc.mp4
   -

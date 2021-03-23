@@ -49,17 +49,17 @@
                 }, site.env) }}
             {%- endif -%}
           {% else %}
-            <h2>{{ section.title }}</h2> 
+            <h2 id="{{ section.title | d('') | slug }}">{{ section.title }}</h2> 
             
             {%- if section.copy %}
               {{ section.copy | markdownify | safe }}
             {%- endif %}
 
             {%- if section.video %}
-              <video controls preload="metadata" aria-label="{{ section.title }}" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg">
-                <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ section.video | lower }}"
-                        type="video/mp4">
-                Sorry, your browser doesn't support embedded videos.
+              <!-- sections.njk VIDEO! -->
+              {% set mediaObj = section.video | lower %}
+              {% set id = section.title | d('') | slug %}
+              {% video mediaObj, id %}
             </video>
             {%- endif %}
             

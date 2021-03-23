@@ -10,8 +10,9 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * the key points of legislation
+      * The key points of legislation
       * Safeguarding
+      * How legislation and guidance can be used to support children and young people
       * Duty of care
   -
     title: Key point
@@ -19,53 +20,57 @@ sections:
     copy: |
       In your assessment you will be required to state the key points of legislation in relation to children and young people's mental health.
   -
-    title: Key points of legislation
+    title: Legislation and guidance
     theme: t-bg-primary
     copy: |
-      Text. Select the images below to learn more about each term.
+      Let’s look at the key points of legislation for ‘Mental Health’ in the following slides:
+
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
-          title: Mental ill health
-          copy: |
-            text
+          title: Two key legislations
+          text: |
+            There are two specific pieces of legislation that relate to how people with mental health conditions receive care and treatment. They are the Mental Health Act (1983) updated in 2007 and the Mental Capacity Act 2005.
           img: placeholder_icon.svg
         -
-          title: Mental capacity
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Age of consent to treatment
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Parental responsibility
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Data protection
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+          title: The Mental Health Act
+          text: |
+            The Mental Health Act sets out when an individual can be admitted, treated and detained in hospital against their wishes and the code of practise for this is clear that this will only be done, if an individual is at risk of harming themselves or others. 
 
-      text - for the lo 2.3 - Give examples of how legislation and guidance can be used to support children and young people with mental health concerns - would it be worth putting in a case study here to support video?
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+            Being sectioned is the term often used for being held under this Act and for this to hap-pen three people must be in agreement. This should be an approved professional, a nearest relative, a doctor with specialist training such as a psychiatrist or a GP. An inter-view will take place with the individual to see how they are feeling at the time.
+          img: placeholder_icon.svg
+        -
+          title: The Mental Capacity Act
+          text: |
+            Following the Mental Capacity Act code of practise, anything done on behalf of the individual must be carried out with their best interests at heart.
+          img: placeholder_icon.svg
+        -
+          title: Human Rights Act
+          text: |
+            All services that provide mental health support to children and young people have a legal duty under the Human Rights Act to respect, protect and fulfil their human rights.
+            
+            This means that those working with a child or young person in a mental health setting have  to take reasonable steps to protect them where they are known to be at immediate risk, for example taking their own life.
+          img: placeholder_icon.svg
+        -
+          title: Parental Responsibility
+          text: |
+            Parental Responsibility is defined in the Children Act 1989 and attempts to focus on the parent’s duties towards their child rather than the parent’s rights over their child.
+            
+            When certain decisions have to be taken about a child, all those with ‘parental responsibility’, are allowed to have a say. 
+          img: placeholder_icon.svg
+        -
+          title: Data Protection
+          text: |
+            The Data Protection Act (DPA) was originally passed in 1988. It was developed to control how personal information is used by organisations or government bodies. It protects how data about people can be used. The Data Protection Act 2018 is the UK's implementation of the General Data Protection Regulation (GDPR). 
+          img: placeholder_icon.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
+      _Sub topics introduced in above slider - Video content to discuss - content is dry_
 
       Please see the following video on the key points of legislation.
     video: placeholder_pc.mp4
@@ -76,3 +81,36 @@ sections:
       type: time-to-think
       copy: |
         A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text - for the lo 2.3 - Give examples of how legislation and guidance can be used to support children and young people with mental health concerns - would it be worth putting in a case study here to support video? - questions below for the case study.
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

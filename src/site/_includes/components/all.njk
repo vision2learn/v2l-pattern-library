@@ -271,12 +271,6 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         {% else %}
           <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
         {%- endif %}
-      {%- elseif mediaType === "video" %}
-        <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" class="l-media__img">
-            <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
-                    type="video/mp4">
-            Sorry, your browser doesn't support embedded videos.
-        </video>
       {%- elseif mediaType === "activity" %}
         <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
           <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
@@ -289,11 +283,9 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set id = data.title | d('no string') | slug | uniqueID %}
     <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
-    <video controls preload="metadata" poster="{{ '~' if buildenv === 'dotnet' }}/images/svg/course-features/watch.svg" aria-labelledby="{{ id }}">
-      <source src="{{ '~' if buildenv === 'dotnet' }}/videos/{{ mediaObj | lower }}"
-        type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
+    <!-- all.njk VIDEO 2 -->
+    {% set mediaObj = mediaObj | lower %}
+    {% video mediaObj, id %}
   {% endif %}
   
 {%- endmacro %}
@@ -334,9 +326,12 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 {# 10. Reveal (show/hide) #}
 
 {%- macro reveal(data, env) %}
-  {% set imgSrc = "images/svg/" + data.shortcode + "/" + data.image | lower %}
+  {# {% set imgSrc = "images/svg/" + data.shortcode + "/" + data.image | lower %} #}
+  {% if data.shortcode %}
+    {% set shortcode = data.shortcode + "/" %}
+  {% endif %}
   <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ data.shortcode }}/{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ shortcode | d('') }}{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
     {# {% image imgSrc, "c-reveal-block__icon js-showhide", data.heading, "100vw" %} #}
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ data.heading | d('Panel heading') | capitalize }}</h3>

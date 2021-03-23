@@ -7,6 +7,11 @@ const hslToHex = require('@paulobontempo/hsl-to-hex');
 const Image = require('@11ty/eleventy-img');
 const path = require("path");
 const fs = require("fs");
+const MarkdownIt = require('markdown-it');
+
+let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
+let missingCaptions = [];
+let missingTranscripts = [];
 
 async function imageShortcode(src, cls, alt, sizes) {
   src = src.startsWith('/') ? src.replace('/', '') : src;
@@ -20,7 +25,6 @@ async function imageShortcode(src, cls, alt, sizes) {
   }
 
   const extension = path.extname(src);
-  let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
   let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
   let metadata = await Image(fullSrc.toLowerCase(), {
     widths: [400, 600, 800, 1000, 2000],
@@ -46,6 +50,24 @@ async function imageShortcode(src, cls, alt, sizes) {
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+function markdown(copy) {
+  let md = new MarkdownIt();
+      
+  try {
+    return md.render(copy);
+  } 
+  catch (error) {
+    console.log('val: ', copy, ' ', typeof copy);
+    return "markdown error";
+  }
+}
+
+function logMissing(files) {
+  files.forEach(file => {
+    console.log('No VTT for: ', file);
+  });
+}
+
 module.exports = function(config) {
 
   // A useful way to reference to the contect we are runing eleventy in
@@ -59,17 +81,85 @@ module.exports = function(config) {
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
 
-  config.addFilter("markdownify", function(value) {
-    var MarkdownIt = require('markdown-it'),
-      md = new MarkdownIt();
-      
+  config.addFilter('folders', paginationStr => {
+    let objStr = paginationStr;
+
+    // clean up the object
+    objStr = objStr.replace("courses", "").replace(/]/g, "").replace(/'/g, "");
+
+    objStr = objStr.split("[");
+
+    objStr.reverse().pop(); // remove the empty string created by split()
+    objStr = objStr.reverse();
+
+    return {
+      course: objStr[0],
+      unit: objStr[1],
+      session: objStr[2]
+    }
+  });
+
+  config.addShortcode('video', (file, id) => {
+    let ext = path.extname(file);
+    let basename = path.basename(file, ext);
+    let track = '';
+    let transcript = '';
+    let multi = basename.indexOf('_pc') > 0 ? true : false;
+    let filesToCheck = [basename];
+
+    if(multi) {
+      filesToCheck.push(basename.replace('_pc', '_mac'))
+    }
+
+    // Is there a VTT for this video?
+    try {
+      fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
+      track = `<track label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
+    } catch (err) {
+      // console.log(`No VTT file for ${file}`);
+      missingCaptions.push(file);
+    }
+
+    filesToCheck.forEach((file, index) => {
+      let type = !multi ? [''] : ['(PC users)', '(Mac users)'];
+
       try {
-        return md.render(value);
-      } 
-      catch (error) {
-        console.log('val: ', value, ' ', typeof value);
-        return "markdown error";
+
+        fs.accessSync(`src/site/videos/transcripts/${file}.md`, fs.constants.F_OK);
+        let transcriptContent = fs.readFileSync(`src/site/videos/transcripts/${file}.md`, 'utf-8', (err, data) => {
+          if (err) throw err;
+          return data;
+        });
+
+        transcript += `
+          <toggle-section open="false">
+            <h3>Video transcript ${type[index]}</h3>
+            ${markdown(transcriptContent)}
+          </toggle-section>
+        `;
+      } catch (err) {
+        // console.log(`No transcript for ${file}`);
+        missingTranscripts.push(file)      
       }
+    });
+    
+
+    return `
+      <video id="video" controls preload="metadata" poster="${tilde}/images/svg/course-features/watch.svg" aria-labelledby="${id}" 
+        data-base="${basename}" 
+        data-ext="${ext}" 
+        data-multi="${multi}"
+        data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
+        <source src="${tilde}/videos/${file}" type="video/mp4">
+        ${track}
+        <p>Sorry, your browser doesn't support embedded videos</p>
+      </video>
+      ${transcript}
+      `;
+  });
+
+  config.addFilter("markdownify", value => {
+    return markdown(value);
   });
 
   config.addFilter("yamlify", value => {
