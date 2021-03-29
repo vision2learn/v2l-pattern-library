@@ -13,40 +13,67 @@ sections:
       * etc
   -
   -
-    title: The five food groups
-    theme: t-bg-primary
+    title: The Eatwell guide
+    theme: 
     copy: |
-      Scroll through the slides below to learn more about ...
+      title
+    
+      
+      
+      ![](/images/svg/nh/nh_u1_s2_p1_eatwell_guide.jpg)         
+  -
+  -
+    title: Read - Eatwell Guide
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document from the Eatwell guide....
+
+      [Eatwell guide pdf](/pdfs/nh_u1_s2_p1_eatwell_guide.pdf).
+  -
+  -
+    title: The five food groups
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      Select the images below to read 
 
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: reveal
+      content:
         -
           title: Carbohydrates
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
         -
           title: Fruit and veg
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
         -
           title: Meat and protein
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
         -
           title: Fatty or sugary foods
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
         -
           title: Milk and dairy
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
+  -
+  -
+    title: Read - The five food groups
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document ......
+
+      [example doc]().
   -
   -
     title: Case study
@@ -90,14 +117,7 @@ sections:
       type: time-to-think
       copy: text
   -
-  -
-    title: Read - Eatwell Guide
-    theme: t-bg-primary2 i-read
-    copy: | 
-      Take a look at the following document from the Eatwell guide....
-
-      [example doc]().
-  -
+  
   -
     title: Quick quiz
     copy: Guess the food group
