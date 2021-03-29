@@ -1,8 +1,6 @@
 title: Society's view of mental health
 intro: |
-  intro text 
-  
-  In this session you will learn about   
+  In this session you will learn about how society views mental health, including social and cultural attitudes, and media and discrimination.
 banner: placeholder.jpg
 sections:
   -
@@ -69,17 +67,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Mental health problems are very common.   
+          answer: common
         -
-          sentence: example two
-          answer: two
+          sentence: Stereotyping comes from ignorance. 
+          answer: ignorance
         -
-          sentence: example three 
-          answer: three
+          sentence: Peoples problems are made worse by stigma.
+          answer: stigma
         -
-          sentence: example four
-          answer: four
+          sentence: People can recover from mental health.
+          answer: recover
+        -
+          sentence: Discrimination is often the outcome of prejudice.
+          answer: prejudice
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -90,8 +91,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Topic introduction text here
-
+      Our perception of Mental health has been transformed over the last seventy years or more, with the closure of the old asylums, moving care into the community and the increasing the use of counselling and talking therapies. These have had a positive im-pact on mental health care for all ages.
     img: /images/svg/ypmh/placeholder_icon.svg
   -
     title: Watch 
@@ -100,7 +100,7 @@ sections:
     copy: |
       _Lots of images showing how attitudes have changed over time_
 
-      Please see the following video about 3.2 attitudes over time.
+      Please watch the following video showing how attitudes to mental health have changed over time. 
     video: placeholder_pc.mp4
   -
     title: Key point
@@ -114,7 +114,7 @@ sections:
     copy: |
       _Scenario based_
       
-      Please see the following video - 3.3 perception - about social and cultural attitudes 3.3.
+      Let’s look at a video showing how changes in social and cultural attitudes towards men-tal health can affect a child or young persons perception of their own mental health.
     video: placeholder_pc.mp4
   -
     title: Time to think

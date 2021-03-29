@@ -1,6 +1,7 @@
 title: Media and Discrimination
 intro: |
-  intro text
+  On this page we are going to look at Media influences and the detrimental affect of discrimination. So let’s start by looking at how the media can influence attitudes towards Mental Health.
+
 banner: placeholder.jpg
 sections:
   -
@@ -13,9 +14,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Topic introduction on media text here
-
-      The way mental health and mental illness is portrayed and reported is incredibly powerful in educating and influencing the public. 
+      The way mental health and mental illness is portrayed and reported is incredibly powerful in educating and influencing the public. Media portrayals of those with mental illness often lean towards either stigmatisation or trivialisation. All forms of media including TV, film, magazines, newspapers, and social media have been criticised for creating negative stereotypes and inaccurate descriptions of those with mental illness. 
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -25,7 +24,7 @@ sections:
     copy: |
       _examples / images etc_
 
-      Please see the following video to learn how the media can influence attitudes toward mental health.
+      Please see the following video to learn how the media can influence attitudes towards mental health. 
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -39,72 +38,59 @@ sections:
     copy: |
       In your assessment you will be required to describe how discrimination can affect the mental health of children and young people.
   -
+  -
     title: Discrimination
     theme: t-bg-primary
     copy: |
-      When children are treated unfairly and discriminated against, this can have a detrimental effect on their mental health, their self-esteem, and their educational performance.
-
-      Select the images below to learn more:
-
+      When children are treated unfairly and discriminated against, this can have a detrimental effect on their mental health, their self-esteem, and their educational performance. The following slides will show how discrimination can affect the mental health of children and young people.
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
+        -
+          title: React in different ways
+          text: |
+            Children and young people who experience discrimination will have their mental health affected and will react in different ways depending on how resilient they are and how confident they are to ask for help.
+
+          img: placeholder_icon.svg
         -
           title: Schools and organisations
-          copy: |
-            It is important that schools and organisations understand who might be at risk of discrimination and what can be done to minimise that. Also how they can support children and families who may be at risk of being discriminated against.
+          text: |
+            It is important that schools and organisations understand who might be at risk of discrimination, what can be done to minimise that and how they can support children and families. Whenever a child is being discriminated against, and treated differently at school or in their community this is direct discrimination and negatively affects them, however they can also be affected indirectly if they are put at a disadvantage because of who they are and their social, economic or environmental background.
 
           img: placeholder_icon.svg
         -
-          title: REWORD or REMOVE?
-          copy: |
-            It doesn’t matter why the child is being discriminated against, when they are treated differently at school or in their community, this is direct discrimination and negatively affects them, however they can be affected indirectly if they are put at a disadvantage because of who they are and their social, economic or environmental background. 
+          title: Feel differently
+          text: |
+            Children who experience discrimination may feel different to other children in some way, or “less than” and this can impact their feelings of belonging, their identity, self-belief or self-worth making them feel powerless and frustrated. It can reduce aspirations and make them struggle to reach their full potential and may make them at higher risk of being bullied.
 
-          img: placeholder_icon.svg
-        -
-          title: Resilience
-          copy: |
-            Being discriminated against is a risk factor for poor mental health. Children who experience discrimination will be affected and will react in different ways depending on  how resilient the child is.
-
-          img: placeholder_icon.svg
-        -
-          title: Feeling different
-          copy: |
-            Children who experience discrimination may feel different to other children in some way, or “less than” and this can impact their feelings of belonging, their identity, self-belief or self-worth making them feel powerless and frustrated. 
-
-          img: placeholder_icon.svg
-        -
-          title: Reduce aspirations
-          copy: |
-            It can reduce aspirations and make them struggle to reach their full potential and may make them at higher risk of being bullied.
           img: placeholder_icon.svg
         -
           title: Ethnicity, faith, culture or language
-          copy: |
+          text: |
             Children can experience discrimination due to their ethnicity, as well as their faith, beliefs, culture or language whether perceived or real. They may feel isolated from society and can be at risk of becoming radicalised when they are seen to be vulnerable.
           img: placeholder_icon.svg
-    copy2: So it becomes obvious that discrimination can impact a child or young persons mental health but also mental health issues can make a child or young person open to discrimination. This can then become an ever increasing spiral of issues that can impact on their future, and their chances in life if not addressed.
+        -
+          title: Spiral of issues
+          text: |
+            So it becomes obvious that discrimination can impact a child or young persons mental health but also mental health issues can make a child or young person open to discrimination. This can then become an ever increasing spiral of issues that can impact on their future, and their chances in life if not addressed.
 
+          img: placeholder_icon.svg
+  -
   -
     title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    subInc: 
+      type: word-quiz
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        -
+          sentence: Mental health and mental ill health are commonly portrayed in the media both negatively and positively.  
+          answer: positively
+        -
+          sentence: Journalists, script writers and other media professionals have to ensure fictional and factual portrayals of people with mental health problems in the media are accurate and sensitive. 
+          answer: sensitive
+        -
+          sentence: Children who experience discrimination may feel different to other children in some way.
+          answer: discrimination
+        -
+          sentence: Being discriminated against can affect a persons self esteem.  
+          answer: self esteem

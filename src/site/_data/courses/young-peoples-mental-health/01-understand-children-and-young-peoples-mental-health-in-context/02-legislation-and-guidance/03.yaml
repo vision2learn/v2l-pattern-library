@@ -19,19 +19,19 @@ sections:
       type: reveal
       content:
         -
-          title: Education
+          title: Educational settings 
           copy: |
-            text
+            In education a teacher directly has the ‘duty of care’ for the children in their class or under  their supervision, as well as promoting the safety and welfare of the children in their care.
           img: placeholder_icon.svg
         -
           title: Care provision
           copy: |
-            text
+            Care workers owe a ‘duty of care’ to the children and young people they support and the public interest, this means providing high quality care to the best of their ability and pro-tecting individuals from abuse.
           img: placeholder_icon.svg
         -
           title: The criminal justice system
           copy: |
-            text
+            In the criminal justice system and especially within youth justice the minimum expectation for ‘duty of care’ is for all agencies to provide statutory services to ensure good outcomes for children and young adults that commit crimes.
           img: placeholder_icon.svg
   -
     title: Watch 
@@ -39,7 +39,8 @@ sections:
     layout: media
     copy: |
       _Presenters, informative with examples of the three different settings_
-      Please see the following video about duty of care.
+      
+      Please watch this video which looks further into these examples of what is involved in duty of care in different settings.
     video: placeholder_pc.mp4
   -
     title: Time to think

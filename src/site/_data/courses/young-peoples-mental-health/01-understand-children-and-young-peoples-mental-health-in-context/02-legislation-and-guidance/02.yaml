@@ -1,6 +1,6 @@
 title: Safeguarding
 intro: |
-  Safeguarding is the action that is taken to protect the health, well-being and rights of children and young people. 
+  Let’s now look at safeguarding and how it applies to children and young people.
 
 banner: placeholder.jpg
 sections:
@@ -14,7 +14,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Safeguarding topic introduction text here
+      Safeguarding is the action that is taken to protect the health, well-being and rights of all children and young people. It involves protecting them from abuse and maltreatment, preventing harm to to their health or development, ensuring they grow up with the provision of safe and effective care, and taking action to enable all children and young people to have the best outcomes in life.
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -35,22 +35,28 @@ sections:
         A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
   -
     title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
     theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        How many children who have been abused by an adult never tell anyone?:
+          answers:
+            1 in 10: false
+            1 in 8: false
+            1 in 5: false
+            1 in 3: true
+        Which of the following is NOT part of safeguarding?:
+          answers:
+            Theft: true
+            Self harm: false
+            Bullying: false
+            Radicalisation: false
+        What should you NOT do if you suspect a child has safeguarding issues?:
+          answers:
+            Tell a teacher: false
+            Confront the adult involved: true
+            Call the police: false
+            Discuss it with a friend: false
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
