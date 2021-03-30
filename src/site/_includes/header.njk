@@ -12,7 +12,6 @@
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%} 
 
-
 <header class="c-main-head">
   <div class="l-head">
     <a href="/" class="v2l-logo" aria-label="Vision 2 Learn">
@@ -21,7 +20,7 @@
 
     {% if page.url != '/login/' %}
       <p class="c-main-head__details">
-        <span class="c-main-head__course">{{ course | replace("-", " ") | replace("young peoples", "young people's") | d("Course Title")}}</span>
+        <span class="c-main-head__course">{{ fulltitle if fulltitle else course | replace("-", " ") | d("Course Title")}}</span>
         <span>Unit {{ unit | d("X")}} of {{ unitCount | d('X') }}: {{ unitName | replace("young peoples", "young people's") | d("Unit Name") | title }}</span>
         <span class="c-main-head__session">Session {{ session | d("X") }} of {{ sessionCount | d("X") }}: {{ sessionName | d("Session Name") | title }}</span>
       </p>
