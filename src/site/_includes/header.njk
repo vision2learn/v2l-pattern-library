@@ -21,8 +21,8 @@
 
     {% if page.url != '/login/' %}
       <p class="c-main-head__details">
-        <span class="c-main-head__course">{{ course | replace("-", " ") | d("Course Title")}}</span>
-        <span>Unit {{ unit | d("X")}} of {{ unitCount | d('X') }}: {{ unitName | d("Unit Name") | title }}</span>
+        <span class="c-main-head__course">{{ course | replace("-", " ") | replace("young peoples", "young people's") | d("Course Title")}}</span>
+        <span>Unit {{ unit | d("X")}} of {{ unitCount | d('X') }}: {{ unitName | replace("young peoples", "young people's") | d("Unit Name") | title }}</span>
         <span class="c-main-head__session">Session {{ session | d("X") }} of {{ sessionCount | d("X") }}: {{ sessionName | d("Session Name") | title }}</span>
       </p>
       
