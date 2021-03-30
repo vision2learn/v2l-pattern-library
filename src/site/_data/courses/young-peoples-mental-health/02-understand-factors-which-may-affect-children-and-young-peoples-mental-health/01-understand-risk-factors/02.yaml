@@ -1,0 +1,74 @@
+title: Risk factors which may affect the mental well-being
+intro: |
+  In this unit you will learn how the mental health of children and young people can be affected by a range of different factors. To start with we will look at risk factors and how they can affect mental health and well-being.
+
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe how risk factors can impact the mental health of children and young people. 
+  -
+    title: Reveals
+    theme: t-bg-supporting2
+    copy: |
+      Let’s look at some of the risk factors that may impact the mental health of children and young people. Select the images below to learn more about the risks.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Adult responsibilities
+          copy: |
+            If a child or young person or someone within the family has a long-term physical illness they may have to act as a carer and take on adult responsibilities.
+          img: placeholder_icon.svg
+        -
+          title: Parent issue
+          copy: |
+            They may have a parent who suffers from mental health problems or problems with alcohol or substance abuse or have experienced bereavement of someone close.
+
+          img: placeholder_icon.svg
+        -
+          title: Family disharmony
+          copy: |
+            A child who has been exposed to family dis-harmony or divorce, or where homelessness poverty or neglect may have turned their family life upside down or destroyed it.
+          img: placeholder_icon.svg
+        -
+          title: Abuse
+          copy: |
+            A child or young person may suffer from physical or sexual abuse from a family member or family friend or even from someone who should be able to be trusted.
+          img: placeholder_icon.svg
+        -
+          title: Discrimination
+          copy: |
+            They may have experienced discrimination because of their race, sexuality or religion.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify protective factors which could limit the impact of risk factors. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on 1.1 and 1.2 - Risk factors and their impact.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people

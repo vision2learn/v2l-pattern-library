@@ -1,0 +1,16 @@
+---js
+{
+  unit: 2,
+  session: 1,
+  pagination: {
+    data: "courses['young-peoples-mental-health']['02-understand-factors-which-may-affect-children-and-young-peoples-mental-health']['01-understand-risk-factors']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->
