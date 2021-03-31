@@ -83,18 +83,6 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
     title: Quick quiz
     subInc: 
       type: word-quiz
