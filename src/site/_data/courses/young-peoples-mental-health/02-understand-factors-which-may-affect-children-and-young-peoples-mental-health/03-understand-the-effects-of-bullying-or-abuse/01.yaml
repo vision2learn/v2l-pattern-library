@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Understand the effects of bullying or abuse
 intro: |
-  intro text
+  In this session you will learn about how abuse and bullying affects the mental health of children and young people.
 banner: placeholder.jpg
 sections:
   -
@@ -8,80 +8,64 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Types of abuse which a child or young person may experience
+      * Ways bullying can occur
+      * Why some are more vulnerable to abuse and/or bullying
+      * Witnessing abuse or bullying can affect a child or young person
+      * How abuse or bullying directed at a child or young person may affect their mental health and well-being
+
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to outline different types of abuse which a child or young person may experience.
   -
-    title: introduction text
-    layout: media
+  -
+    title: Types of abuse
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Let’s look at some of the types of abuse that children and young people may experience. Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Bullying
           text: |
-            text
+            Bullying is behaviour that hurts someone else. It includes name calling, hitting, pushing, spreading rumours, threatening or undermining someone. It can happen anywhere such as at school or at home. It's usually repeated over a long period of time and can hurt a child both physically and emotionally. Cyberbullying is bullying takes place online and unlike offline bullying and can follow the child wherever they go, via social networks, gaming and mobile phone.
+
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Neglect
           text: |
-            text
+            Neglect is the ongoing failure to meet a child's basic needs. A child might be left hungry or dirty, or without proper clothing, shelter, supervision or health care. Physical neglect is  where the child’s basic needs aren’t met. Educational neglect is where parents don’t ensure a child is educated. Emotional neglect is where a child is ignored, humiliated, in-timidated or isolated, and medical neglect where the child gets no real health care or dental care.
+
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Domestic abuse
           text: |
-            text
+            Domestic abuse is any type of controlling, bullying, threatening or violent behaviour in relationships either inside or outside the home. Children and young people who witness domestic abuse are in turn being subjected to child abuse. Physical abuse is any way of intentionally causing physical harm to a child or young person. This can happen in a domestic situation or elsewhere. It also includes making up the symptoms of an illness or causing a child to become unwell.
+
+          img: placeholder_icon.svg
+        -
+          title: Sexual abuse
+          text: |
+            Sexual Abuse is forcing or tricking a child or young person in to sexual activities. Often they are too young to know what is happening and that it’s wrong. Sexual abuse can also involve ‘child sexual exploitation', ‘grooming’, and ‘child trafficking’. When a child or young person is exploited they're given things, in exchange for performing sexual activi-ties. Grooming involves being tricked into thinking they are in a loving relationship either in person or online. Children and young people can be trafficked into or around the country to be sexually exploited using intimidation.
+
+          img: placeholder_icon.svg
+        -
+          title: Criminal exploitation
+          text: |
+            Criminal exploitation is child abuse where children and young people are manipulated and coerced into committing crimes. Children and young people can get involved with gangs through no fault of their own. They might become victims of violence or pressured into doing things like stealing or carrying drugs or weapons. They might be abused, exploited and put into dangerous situations.
+
           img: placeholder_icon.svg
   -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 3.2 and 3.3
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -89,7 +73,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on different ways bullying can occur 3.2 and 3.3.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -99,22 +83,6 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
   -
   -
     title: On the web
@@ -129,16 +97,8 @@ sections:
       links:
         website description: http://www.google.co.uk
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
     title: Quick quiz
+    copy: OPTIONAL item - Only one of the quizzes to be used if at all
     subInc: 
       type: word-quiz
       content:

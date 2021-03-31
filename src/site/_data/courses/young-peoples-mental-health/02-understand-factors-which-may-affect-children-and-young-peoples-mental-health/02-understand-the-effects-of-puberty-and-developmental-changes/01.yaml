@@ -1,6 +1,7 @@
-title: TEMPLATE PAGE
+title: Puberty and developmental changes
 intro: |
-  intro text
+  In this session you are going to learn about the potential effects of puberty and developmental changes on the mental health of children and young people.
+
 banner: placeholder.jpg
 sections:
   -
@@ -8,79 +9,22 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * The effects of puberty on children and young people
+      * How identity, self esteem and body image can affect mental well-being
+      * Opportunities and challenges faced during transition to adulthood
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe the effects of puberty on children and young people. 
   -
-    title: introduction text
+    title: How these changes can affect mental health and well-being
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      The changes caused by puberty can affect personal identity because as the body grows, so the young person becomes more mature and takes more things into consideration and how they look comes more important to them and their body image can cause them to worry. Poor body image is feeling a pressure to live up to an ‘ideal’ body type or appearance and being unhappy when they don’t.
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
   -
   -
     title: Watch 
@@ -89,7 +33,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on 2.1, 2.2, 2.3
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -99,22 +43,44 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
+        Make a note of your findings in the “Time to think” box to the right.
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      ### Case study - 
+      In your assessment you will be required to describe the opportunities and challenges young people may face during the transition to adulthood. 
+  -
+  -
+    title: Developmental changes
+    theme: t-bg-primary
+    copy: |
+      Let's look at how developmental changes affect the mental health of children and young people. Scroll through the following slides to find out more.
 
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Well developed self-esteem
+          text: |
+            Young people who are transitioning to adulthood need to have well developed self-esteem to help equip them to manage relationships in different contexts, including education and employment settings, as well as with family and friends.
+          img: placeholder_icon.svg
+        -
+          title: Additional problems to cope with
+          text: |
+            Those who have lived through multiple traumas and disruptive events by the time they begin their transition to adulthood, including abuse, neglect, bereavement, poverty or homelessness, lack of continuity in education, have additional problems to cope with on top of growing up.
+          img: placeholder_icon.svg
+        -
+          title: Support of a parent or caring adult
+          text: |
+            Young people who had the support of a parent or caring adult are less likely to get involved in unhealthy behaviours, such as unprotected sexual activity, alcohol and substance abuse, and crime.
+          img: placeholder_icon.svg
+        -
+          title: Permanent relationships
+          text: |
+            Permanent relationships with supporting adults are a powerful protective factor against the challenges life may throw at them as they transition to adulthood.
+          img: placeholder_icon.svg
   -
   -
     title: On the web
@@ -128,15 +94,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
     title: Quick quiz
     subInc: 

@@ -11,7 +11,7 @@ sections:
       In your assessment you will be required to describe how risk factors can impact the mental health of children and young people. 
   -
     title: Reveals
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       Let’s look at some of the risk factors that may impact the mental health of children and young people. Select the images below to learn more about the risks.
 
@@ -47,7 +47,7 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to identify protective factors which could limit the impact of risk factors. 
   -
