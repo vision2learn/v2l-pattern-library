@@ -1,6 +1,6 @@
 title: Conditions that commonly co-occur with autism
 intro: |
-  intro text
+  In this session you will learn about the different conditions that commonly co-occur with Autism let’s start by looking at the most common.
 banner: placeholder.jpg
 sections:
   -
@@ -10,7 +10,7 @@ sections:
       In this session you will learn about:
       * Certain conditions that may co-occur with autism
       * Other conditions that may co-occur with autism
-      * Concerns from co-occuring conditions
+      * Concerns that can arise from these co-occurring conditions
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -20,68 +20,61 @@ sections:
       * Learning disability.
   
   -
-    title: Conditions that may co-occur with autism
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to learn more about the conditions that may co-occur with autism:
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Mental ill-health
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Learning disability
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to describe other conditions that may co-occur with autism.
-  -
-  -
     title: Other conditions
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      
     
-      Scroll through the slides below to learn more about other conditions that may co-occur with autism.
+      Let’s look at some of the common conditions that may co-occur with Autism.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Introduction
           text: |
-            text
+            Alongside the usual characteristics of Autism Spectrum Disorder, there are a range of common conditions that may co-occur, and these conditions can vary from one individual to another. Many individuals on the spectrum have at least one of these conditions some may have four or more. However it is often difficult to isolate the condition from the characteristics of Autism spectrum disorder.
+
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Mental-health conditions
           text: |
-            text
+            ‘Mental-health conditions’, such as attention deficit hyperactivity disorder (ADHD), obsessive-compulsive disorder (OCD), anxiety or depression; ADHD traits may be mistaken or mask those of autism, delaying a diagnosis. Symptoms of ADHD include finding it hard to concentrate and getting easily distracted acting without thinking and not sitting still. 
+
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Anxiety
           text: |
-            text
+            Anxiety can assume unusual forms in people with autism, turning uncertainty, disruption to routine or even a colour, fabric, or sound, into a constant worry. Depression has been shown by several studies to be one of the most common co conditions in those with Au-tism spectrum disorder, and can develop and occur more in high-functioning individuals during adolescence, when the individual develops greater insight into their differences from others.
+          img: placeholder_icon.svg
+        -
+          title: Learning disability
+          text: |
+            ‘Developmental diagnoses’ such as intellectual disability or language delay, problems with reading, writing and spelling (dyslexia), clumsy movements and problems with or-ganisation and following instructions (dyspraxia). 
+          img: placeholder_icon.svg
+        -
+          title: Difficult to diagnose
+          text: |
+            A diagnosis for Autism which can be more difficult in those with intellectual disability or severe language delays. A person with a learning disability may find it hard to understand new or complicated information, look after themselves, learn new skills all of which can impact on their Autism.
+
           img: placeholder_icon.svg
   -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe other conditions that may co-occur with autism.
+  -
+  
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on a discussion on 4 co existing conditions, classic medical, developmental, mental health and genetic.
+      _Presenter(s) with images/video clips to support content._
+
+      Let’s look other conditions that may co-occur with Autism and the concerns arising from these. 
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -90,14 +83,3 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg

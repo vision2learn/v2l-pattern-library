@@ -1,5 +1,7 @@
-title: Main characteristics and variances
-intro: intro text
+title: Characteristics that may be present in individuals with autism
+intro: |
+  In this session you will learn about the characteristics associated with autism and how theses vary from individual to individual.
+
 banner: placeholder.jpg
 sections:
   -
@@ -8,92 +10,47 @@ sections:
     copy: |
       In this session you will learn about:
       * The main characteristic found in individuals with autism
-      * Variance of characteristics
-      * Traid of impairments
+      * How these characteristics can vary from individual to individual
+      * What is meant by the ‘triad of impairments’
+      * The positive and negative points of the triad of impairments
+
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to describe the main characteristics found in individuals with autism.
   -
-    title: introduction text
+    title: Characteristics of Autism
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here on main session topic - understand the characteristics that may be present in individuals with autism.
+      There are several characterisics of Austism which could include the following:
+      * Communication differences
+      * Social interaction
+      * Repetitive behaviour
+      * Sensory sensitivity
+      * Fixation
+      * Fluctuation of skills
+
+      Please see the below video for a more indepth look at these characteristics.
 
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Main characteristics
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe how these characteristics can vary from individual to individual.
-  -
-  -
-    title: Variance of characteristics
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _In SME document - this is the 7 slides information - there is too much information to go into slides. We think it would be better as a video. Two presenters, one talking at a time on each point, images/video clips to support content with sub-titles to break it down into seven parts_
       
-      Please see the following video on the main characteristics and how these can vary.
+      Let’s look at the main characteristics in a little more detail and how they may vary from individual to individual.
+
     video: placeholder_pc.mp4
   -
     title: Time to think

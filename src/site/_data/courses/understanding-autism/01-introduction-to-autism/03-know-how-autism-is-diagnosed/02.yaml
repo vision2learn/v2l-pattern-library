@@ -52,7 +52,7 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to explain why it is important for individuals to have a formal diagnosis. 
   -
@@ -60,9 +60,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presenter with a couple of images/video clips to support content_
       
-      Please see the following video on why is diagnosis important but people seem reluctant to get one.
+      In this video we are going to look at the importance of seeking a diagnosis.
     video: placeholder_pc.mp4
   
   -
@@ -85,37 +85,36 @@ sections:
     title: Prevalence
     theme: t-bg-primary
     copy: |
-      
-
-      Select the images below to read 
+      Here are some facts showing the prevalence of Autism in the UK. 
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: 700,000 people
           copy: |
-            text
+            It’s estimated that around 700,000 people in the UK have a diagnosis of autism. 
           img: placeholder_icon.svg
         -
-          title: b
+          title: one in 100
           copy: |
-            text
+            One in 100 children in the UK have a diagnosis of autism spectrum disorder.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Increase in diagnosis
           copy: |
-            text
+            Over the last 30 years, there has been a 25-fold increase in the diagnosis of autism and it is estimated that over 1% of the UK’s population are autistic.
           img: placeholder_icon.svg
         -
-          title: b
+          title: Boys more than girls
           copy: |
-            text
+            Autism is between 3 and 4 times more prevalent in boys than girls.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Undetected
           copy: |
-            text
+            Although diagnosis rates have increased over the years, many children with autism still remain undetected.
+
           img: placeholder_icon.svg
   -
   -

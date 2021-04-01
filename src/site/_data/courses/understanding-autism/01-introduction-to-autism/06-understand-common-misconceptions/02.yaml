@@ -1,106 +1,13 @@
-title: Discrimination
-intro: |
-  intro text
-banner: placeholder.jpg
+title: What did you learn? 
+intro: Well done, you’ve now completed the sixth session of Understanding autism Level 2! 
+banner: ba-u1-s1-p6.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
+    title: Summary
+    theme: t-bg-primary i-summary
     copy: |
-      In your assessment you will be required to describe discrimination against individuals with autism can occur inadvertently in society.
-  -
-    title: Introduction
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      Topic introduction on media text here
-
-    img: /images/svg/placeholder_icon.svg
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _examples / images etc_
-
-      Please see the following video to learn how discrimination against individuals with autism can occur inadvertently in society.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: text
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to describe how ddiscrimination against individuals with autism can occur inadvertently in society.
-  -
-    title: Discrimination
-    theme: t-bg-primary
-    copy: |
-      _These examples are from the YPMH course_
-
-      Select the images below to learn more:
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Schools and organisations
-          copy: |
-            text
-
-          img: placeholder_icon.svg
-        -
-          title: title 2
-          copy: |
-            text
-
-          img: placeholder_icon.svg
-        -
-          title: Resilience
-          copy: |
-            text
-
-          img: placeholder_icon.svg
-        -
-          title: Feeling different
-          copy: |
-            text
-
-          img: placeholder_icon.svg
-        -
-          title: Reduce aspirations
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: title 6
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+      In this session you will learn how:
+      * Attitudes and lack of understanding can compound the difficulties of individuals with autism
+      * Autism can be misrepresented in the media
+      * Discrimination against individuals with autism can occur inadvertently in society
+  

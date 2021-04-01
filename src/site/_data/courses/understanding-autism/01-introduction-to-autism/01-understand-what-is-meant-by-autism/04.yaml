@@ -1,6 +1,6 @@
 title: Lifelong condition
 intro: |
-  intro text
+  On this page we are going to look at why it is important to recognise that autism is a lifelong condition
 banner: placeholder.jpg
 sections:
   -
@@ -9,7 +9,7 @@ sections:
     copy: |
       In your assessment you will be required to explain why it is important to recognise that autism is a lifelong condition.
   -
-    title: introduction text
+    title: Lifelong condition
     layout: media
     theme: t-bg-primary
     copy: |
@@ -22,9 +22,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presenters with a mix of images/icons_
       
-      Please see the following video which explains why autism is a lifelong condition.
+      In this video we are going to look at why autism is recognised as a lifelong condition.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -32,7 +32,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _activity - must relate to the video._
+        _activity - to relate to the video._
 
   -
     title: Quick quiz
