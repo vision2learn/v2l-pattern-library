@@ -39,7 +39,7 @@ sections:
         -
           title: Stigma
           text: |
-            Stigma projects the fear and anxiety felt by people onto the person with the diagnosis of mental ill health and ‘shows a mark of disgrace’ associated with a particular person, ill-ness or disorder. Social stigma is the discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. The concept of stigma helps in understanding of experiences of social exclusion, but does not give the whole picture and show what is needed to promote social inclusion. 
+            Stigma projects the fear and anxiety felt by people onto the person with the diagnosis of mental ill health and ‘shows a mark of disgrace’ associated with a particular person, illness or disorder. Social stigma is the discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. The concept of stigma helps in understanding of experiences of social exclusion, but does not give the whole picture and show what is needed to promote social inclusion. 
 
           img: placeholder_icon.svg
         -
@@ -49,17 +49,17 @@ sections:
 
           img: placeholder_icon.svg
         -
-          title: Common
-          text: |
-            Mental health problems are very common and can affect thousands of people at some time in their life directly or indirectly. Most people who experience mental health prob-lems recover fully, or are able to live with and manage them, especially if they get help early on. 
-          img: placeholder_icon.svg
-        -
           title: Strong social stigma
           text: |
-            But even though so many people are affected, there is still a strong social stigma at-tached to mental ill health.  Many people's problems are made worse by the stigma and discrimination they experience from society, but also from families, friends and employ-ers.
+            But even though so many people are affected, there is still a strong social stigma attached to mental ill health.  Many people's problems are made worse by the stigma and discrimination they experience from society, but also from families, friends and employers.
             
             People with mental health problems say that the stigma attached to mental ill health and the discrimination they experience can make their difficulties worse and make it harder to recover. So stigma and discrimination can trap people in a cycle of illness.
 
+          img: placeholder_icon.svg
+        -
+          title: Recover fully
+          text: |
+            Mental health problems are very common and can affect thousands of people at some time in their life directly or indirectly. Most people who experience mental health problems recover fully, or are able to live with and manage them, especially if they get help early on. 
           img: placeholder_icon.svg
   -
     title: Quick quiz
@@ -98,7 +98,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Lots of images showing how attitudes have changed over time_
+      _Lots of images showing how attitudes have changed over time - narrator, maybe with icons that represent times_
 
       Please watch the following video showing how attitudes to mental health have changed over time. 
     video: placeholder_pc.mp4
@@ -112,7 +112,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Scenario based_
+      _Scenario based - for example an image or icon of child, lots of different images or icons of changes surrounding central image of child? or something else if that works better with the content, with narrator._
       
       Let’s look at a video showing how changes in social and cultural attitudes towards men-tal health can affect a child or young persons perception of their own mental health.
     video: placeholder_pc.mp4

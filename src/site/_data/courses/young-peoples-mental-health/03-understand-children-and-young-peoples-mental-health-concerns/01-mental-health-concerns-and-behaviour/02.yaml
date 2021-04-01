@@ -1,13 +1,13 @@
-title: TEMPLATE PAGE
+title: Mental health concerns and behaviours
 intro: |
-  intro text
+  In this session we will look at understanding the behaviour that is associated with mental health concerns in children and young people. 
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify a range of behaviours that may indicate concerns about a child’s or young person’s mental health. 
   -
     title: introduction text
     layout: media
@@ -75,13 +75,18 @@ sections:
           img: placeholder_icon.svg
   -
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe harmful behaviour that children and young people may demonstrate as a way of coping with their feelings. 
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on range of behaviours and feelings 1.1, 1.2, 1.3.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -91,27 +96,6 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web

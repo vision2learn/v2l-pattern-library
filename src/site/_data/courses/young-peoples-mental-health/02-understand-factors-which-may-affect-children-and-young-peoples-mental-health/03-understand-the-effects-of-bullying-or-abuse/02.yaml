@@ -10,9 +10,11 @@ sections:
       In your assessment you will be required to describe how witnessing abuse or bullying directed at others may affect a child or young person. 
   -
   -
-    title: Reveals
+    title: Witnessing abuse or bullying
     theme: t-bg-primary
     copy: |
+      _Placeholder - This could either be reveals, a slider or single section element_
+
       Witnessing abuse or bullying
 
     subInc: 
@@ -53,9 +55,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Narrator with short video clips showing examples of each point_
       
-      Please see the following video on the effects of bullying.
+      Please see the following video on the effects of bullying - 3.5?.
     video: placeholder_pc.mp4
   -
     title: Time to think
