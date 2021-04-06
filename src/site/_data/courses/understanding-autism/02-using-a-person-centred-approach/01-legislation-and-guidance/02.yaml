@@ -1,0 +1,103 @@
+title: Legislation and guidance
+intro: |
+  In this session we will look at how legislation and guidance underpins support for individuals with autism.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the key points of current legislation and guidance.
+  -
+    title: The key points of legislation and guidance
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the key points of legislation and how they relate to Autism in the following slides.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Autism Act
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Equality Act
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Mental Capacity Act
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Human Rights Act
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: ‘Fulfilling and Rewarding Lives’ and ‘Think Autism’
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Care Act
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline how legislation and guidance can be used to support individuals with autism.
+  -
+  -
+    title: How does Legislation and Guidance support individuals with Autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      All the major pieces of legislation and guidance we have discussed underpin support for individuals with autism but we need to go further into the laws and strategies that are autism specific. Social care, health and equality legislation apply to people with autism as with anyone else, but have not been used with sufficient consistency to support them in practice.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Let’s look further at how the acts and guidance are there to support individuals with Autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The Autism Act was the first ever disability specific legislation to be passed in the UK.
+          answer: Autism Act
+        -
+          sentence: The Human Rights Act sets out the fundamental rights and freedoms that everyone in the UK is entitled to. 
+          answer: Human Rights Act
+        -
+          sentence: The Care Act gives guidance and supports local authorities and the NHS.
+          answer: Care Act
+        -
+          sentence: The Equality Act makes clear what public, private and voluntary sectors must legally do to ensure that people with protected characteristics such as a learning disability are not disadvantaged.
+
+          answer: Equality Act
+    theme: i-quiz
