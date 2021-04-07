@@ -1,0 +1,129 @@
+title: Social interaction
+intro: |
+  In this session you will learn how social interaction may differ in Individuals with Autism, lets start by looking at how social development may be delayed of affected.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * How social development may be delayed or affected
+      * The difficulties individuals may experience with social interaction
+      * The links between social development and speech and language development
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how social development may be delayed or affected for individuals with autism.
+  -
+    title: Social Development
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      Many children and to some extent adults on the autism spectrum need help with their social development. They often have the desire to interact with others, but may not know how to engage friends or may be overwhelmed by the idea of new experiences. By improving their social skills with practice it can help to enhance participation in social environments. 
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Reveals
+    theme: t-bg-primary
+    copy: |
+      Let’s look at how social development may be delayed or affected in individuals with autism, select the images below to find out more. 
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Feelings
+          copy: |
+            Many children with autism have a limited understanding of other people's feelings and ideas or that their words and actions will affect other people.
+          img: placeholder_icon.svg
+        -
+          title: Not wait their turn
+          copy: |
+            They may not wait their turn and instead interrupt the person talking.
+          img: placeholder_icon.svg
+        -
+          title: Eye contact
+          copy: |
+            They have trouble with eye contact and may not show any facial expressions.
+          img: placeholder_icon.svg
+        -
+          title: Friends
+          copy: |
+            Children with autism can lack the ability to make or keep friends.
+          img: placeholder_icon.svg
+        -
+          title: Play
+          copy: |
+            They do not engage in normal imaginative play activities with others.
+          img: placeholder_icon.svg
+        -
+          title: Non verbal communication
+          copy: |
+            Individuals with autism typically have trouble with nonverbal communication for example, understanding the purpose of waving to say hello or goodbye. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difficulties individuals with autism may experience with social interaction.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      *Difficulties with social interactions*
+
+      Individuals with Autism spectrum disorder can have difficulties with social interaction, social communication, and social imagination. Difficulties often include the desire for social interaction but also the frustration of finding social interaction confusing. Watch the video to learn more. 
+    video: placeholder_pc.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the links between social development and speech and language development.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      *Links between social development and speech and language*
+      
+      Let’s look at some links between social development and speech and language development in the following video.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
