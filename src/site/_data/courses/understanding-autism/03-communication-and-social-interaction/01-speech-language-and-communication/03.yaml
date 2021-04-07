@@ -9,7 +9,7 @@ sections:
     copy: |
       In your assessment you will be required to describe different forms of communication used by individuals with autism.
   -
-    title: slider
+    title: Different forms of communication
     theme: t-bg-primary
     copy: |
       Individuals with Autism have unique methods of communication even when they are verbally fluent. We tend to think of communication as a language-based tool, however, a large portion of communication relies on body-language, gestures, and tone of voice. 
@@ -31,7 +31,7 @@ sections:
             Echolalia can be immediate or delayed and refers to the repetition of phrases that the autistic person may have heard, perhaps in a favourite movie or television program. Often the phrases may or may not “fit” the immediate context in which it is used, however, they typically do mean something and can relate to an answer indirectly. Often using Echolalia can be self soothing for an individual or give them time to process a question and they may even repeat the question as their answer.
           img: placeholder_icon.svg
         -
-          title: focusing on the literal meaning of words
+          title: Focusing on the literal meaning of words
           text: |
             Individuals with some form of Autism typically have trouble understanding idiomatic language and metaphors and have difficulty understanding jokes and humour which rely on sarcasm. Individuals with autism focus on the “key words” of a sentence so it is best to speak in simple, plain sentences without idioms or figures of speech that hide the “true message”of what is being said.
           img: placeholder_icon.svg
@@ -57,7 +57,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Introduction from a presenter and then to a video conversation-on the difficulties an individual with autism may have in communicating verbally when processing verbal information and interpreting verbal information- parent or individual ? _
+      _Presentation style - Introduction from a presenter and then to a video conversation-on the difficulties an individual with autism may have in communicating verbally when processing verbal information and interpreting verbal information- parent or individual_
       
       Please see the following video on difficulties in communicating verbally.
     video: placeholder_pc.mp4
@@ -68,20 +68,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
@@ -101,7 +87,6 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
   -
     title: Quick quiz
     theme: i-quiz

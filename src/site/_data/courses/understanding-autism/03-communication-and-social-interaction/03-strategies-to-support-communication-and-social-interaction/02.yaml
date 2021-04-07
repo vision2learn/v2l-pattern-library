@@ -11,7 +11,7 @@ sections:
     copy: |
       In your assessment you will be required to explain how a constructive environment can be created to aid communication and social interaction.
   -
-    title: introduction text
+    title: Constructive environment
     layout: media
     theme: t-bg-primary
     copy: |
@@ -26,7 +26,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Narrator with images to support each item_
       
       What is a constructive environment and how can this be created to aid communication and social interaction. Let’s look at this in the following video.
     video: placeholder_pc.mp4
@@ -40,7 +40,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Interview or conversation with speech therapist looking at how the uses communication tools and strategies to support individuals with Autism spectrum disorder. - Short interview with speech and language therapist could be added on to the previous video?._
+      _Presentation style - Interview or conversation with speech therapist looking at how the uses communication tools and strategies to support individuals with Autism spectrum disorder_
       
       Please see the following video on the role of specialists in supporting communication and social interaction.
     video: placeholder_pc.mp4
@@ -50,7 +50,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        _LO or exercise - must relate to both videos._
   -
   -
     title: On the web
@@ -58,32 +58,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
         Please see the following website where you can learn more about . . .
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

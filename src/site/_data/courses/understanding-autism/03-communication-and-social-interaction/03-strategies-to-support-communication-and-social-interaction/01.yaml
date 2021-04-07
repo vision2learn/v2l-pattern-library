@@ -87,49 +87,40 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Strategies to support
-    theme: t-bg-primary
-    copy: |
-      Let’s look at a range of strategies that can be used to support communication and social interaction in the following slides.
-      * PECS
-      * Makaton
-      * Social stories
-      * Music cues
-      * Comic strip conversations
-      * Visual supports and technology
-
-      _Think this should be a video as six slides and we already have a lot of items on this page?_
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Please can we have a video instead of the slides for this item as there is too much text and too many items on this page.  Presenter with image and title for each slide topic to the side_
       
       Let’s look at a range of strategies that can be used to support communication and social interaction in the following video.
     video: placeholder_pc.mp4
   -
+  -
+    title: Quick quiz
+    copy: Now you have watched the above video, select from each of the strategies in the dropdown list to complete the following statements.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Makaton is a language programme using symbols, signs and speech in spoken word order to enable communication. 
+          answer: Makaton
+        -
+          sentence: Children with autism seem to respond to emotions conveyed through music better than to other forms of communication. 
+          answer: music
+        -
+          sentence: Comic strip conversations use stick figures and symbols to represent social interactions and abstract aspects of conversation, and colour to represent the emotional content of a statement or message.
+          answer: Comic strip
+        -
+          sentence: PECS is a unique alternative/augmentative communication system that works for children who do not speak, who are unintelligible or who are minimally communicators.
+          answer: PECS
+        -
+          sentence: Visual supports help to provide structure and routine and improve understanding, avoiding frustration. 
+          answer: Visual supports
+        -
+          sentence: Social stories present information in a literal way, which may improve a person's understanding of a difficult situations or activities. 
+          answer: Social stories
+    theme: i-quiz
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -151,25 +142,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+        _LO or exercise - must relate to both the videos - emphasise assessment question re strategies_

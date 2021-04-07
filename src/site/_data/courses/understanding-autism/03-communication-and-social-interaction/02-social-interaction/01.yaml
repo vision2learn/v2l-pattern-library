@@ -73,9 +73,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - 1 Presenter with video clips to support content_
       
-      *Difficulties with social interactions*
+      ### Difficulties with social interactions
 
       Individuals with Autism spectrum disorder can have difficulties with social interaction, social communication, and social imagination. Difficulties often include the desire for social interaction but also the frustration of finding social interaction confusing. Watch the video to learn more. 
     video: placeholder_pc.mp4
@@ -113,9 +113,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - 1 Presenter with video clips to support content_
       
-      *Links between social development and speech and language*
+      ### Links between social development and speech and language
       
       Let’s look at some links between social development and speech and language development in the following video.
 
@@ -126,4 +126,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        _LO or exercise - must relate to both the videos._
