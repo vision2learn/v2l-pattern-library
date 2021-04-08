@@ -32,22 +32,23 @@ sections:
         -
           title: Mildest form
           text: |
-            text
+            In its mildest form, depression can mean just being in low spirits and doesn't stop an individual leading a normal life but it does make things seem less worthwhile and harder to do. 
           img: placeholder_icon.svg
         -
           title: Severe depression
           text: |
-            text
+            When extremely severe, depression can be life-threatening causing an individual to withdraw from everything and even feel suicidal. 
           img: placeholder_icon.svg
         -
           title: Long term problem
           text: |
-            text
+            Depression does not only affect adults. Children and young people can get depressed too. It's important for a  child or young person to get help early if they think they may be depressed. The longer it goes on, the more likely it is to turn into a long-term problem and potential continue into adulthood.
+
           img: placeholder_icon.svg
         -
           title: Who it affects
           text: |
-            text
+            Depression is thought to occur in around 3 percent of children and young people. Anybody can suffer from depression and it happens in people of all ages, races, income levels and educational levels. Teenage girls are twice as likely as teenage boys to be depressed.
           img: placeholder_icon.svg
   -
   -
@@ -61,7 +62,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Two presenters - one 'low mood' the other 'depression' alternate points with some images to support content - Show Text title for different topic_
       
       Let’s watch a video about the difference between low mood and depression.
     video: placeholder_pc.mp4
@@ -74,58 +75,21 @@ sections:
         _LO or exercise - must relate to the video._
 
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Most young people experience ups and downs during their childhood and teenage years and occasionally will feel down or upset by certain things going on in their lives. 
+          answer: ups and downs
         -
-          sentence: example two
-          answer: two
+          sentence: A low mood will tend to improve after a short time especially if the child or young person makes changes to resolve their problems, by discussing them, facing them head on or even getting more sleep.
+          answer: low mood
         -
-          sentence: example three 
-          answer: three
+          sentence: If children and young people are able to challenge their negative thoughts and replace them with positivity, they are more likely to improve their mood.
+          answer: positivity
         -
-          sentence: example four
-          answer: four
+          sentence: When a low mood doesn’t go away and just gets worse, that it becomes depression.
+          answer: depression
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

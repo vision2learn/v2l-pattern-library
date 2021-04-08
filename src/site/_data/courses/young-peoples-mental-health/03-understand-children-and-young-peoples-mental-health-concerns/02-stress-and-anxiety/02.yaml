@@ -1,6 +1,6 @@
 title: Resilience and stress
 intro: |
-  intro text
+  On this page we will look at the relationship between resiliance, stress and anxiety; plus how stress can be both helpful and harmful.
 banner: placeholder.jpg
 sections:
   -
@@ -12,8 +12,6 @@ sections:
     title: Resilience, stress and anxiety
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
       Scroll through the slides below to learn more about the relationship between resilience stress and anxiety.
 
     subInc: 
@@ -47,7 +45,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Two presenters - one 'good stress' the other 'bad stress', Show Text title for different topic, images to support_
       
       Let’s have a look at how stress can be helpful as well as harmful in the video below.
     video: placeholder_pc.mp4
@@ -60,58 +58,21 @@ sections:
         _LO or exercise - must relate to the video._
 
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: Take a look at the statements below and choose from the drop-down list if it is 'Good' or 'Bad' stress.
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Good stress is more likely to result in positive outcomes if it is seen as a challenge or something to strive to overcome and therefore can help motivate. 
+          answer: Good stress
         -
-          sentence: example two
-          answer: two
+          sentence: The more success children and young people have with dealing with stress; the more confident and in-control they’ll feel and when they are feeling successful, they don’t experience Bad stress. 
+          answer: Bad stress
         -
-          sentence: example three 
-          answer: three
+          sentence: Bad stress happens when a threatening situation goes on and on, and that can erode confidence and may seem overwhelming. 
+          answer: Bad stress
         -
-          sentence: example four
-          answer: four
+          sentence: Good stress is more likely to result in positive outcomes if it is seen as a challenge or something to strive to overcome and therefore can help motivate. 
+          answer: Good stress
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

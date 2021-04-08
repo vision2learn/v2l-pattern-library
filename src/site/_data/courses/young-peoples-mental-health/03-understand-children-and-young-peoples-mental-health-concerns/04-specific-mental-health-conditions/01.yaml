@@ -20,39 +20,51 @@ sections:
       In your assessment you will be required to outline a range of other mental health conditions that may present in children and young people.
   -
     title: Other mental health conditions
-    layout: media
     theme: t-bg-primary
     copy: |
       In the other sessions of this unit we have looked at the more common mental health conditions associated with children and young people such as mood, stress, anxiety and depression and we have seen that many of the causes, signs and symptoms are related or even the same to some degree. But we have also learnt that each child or young person is different in the way they handle things depending on their background, and/or mental and physical make up.
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: slider ???
-    theme: t-bg-primary
-    copy: |
-      Let’s now look at a range of other mental health conditions that may be present in some children and young adults and see how some of these may link to those already discussed. 
-
-      _There are 7 slides! not sure if this would work? _
+      Let’s now look at a range of other mental health conditions that may be present in some children and young adults and see how some of these may link to those already discussed.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Self-harm
           text: |
-            text
+            Self-harm is more common among teenage girls. However, boys who self-harm must be taken seriously, given an increased risk of suicide. Self-harm usually involves cutting, but can also include taking an overdose of tablets, scratching or burning, banging their head against the wall or pulling hair out. 
+
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Substance misuse
           text: |
-            text
+            Substance misuse is the regular excessive consumption of and dependence on alcohol, prescription medication or cannabis, ecstasy and other illegal substances. This often starts in a small way but then develops into full addiction. This can also be seen as self harm as well as other risky behaviours.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Conduct disorders
           text: |
-            text
+            When behaviour goes beyond being occasionally naughty, difficult, stubborn or aggressive behavioural disorders become a problem, especially when a child or young adult persistently won’t stick to the rules such as ‘conduct disorder’ and ‘oppositional defiant disorder’.
+          img: placeholder_icon.svg
+        -
+          title: ADHD
+          text: |
+            Attention deficit hyperactivity disorder is a condition that affects children and young peoples behaviour. They can seem restless, may have trouble concentrating and may act on impulse. Symptoms tend to be noticed at an early age and may become more noticeable when when they start school. They may also have additional problems, such as sleep and anxiety disorders.
+          img: placeholder_icon.svg
+        -
+          title: Eating disorders
+          text: |
+            Eating disorders are more than just faddy eating and can manifest themselves in a variety of ways. The most serious are anorexia and bulimia nervosa. These can be associated with general anxiety and depression but can also be present on their own, especially when they become an obsession.
+          img: placeholder_icon.svg
+        -
+          title: OCD
+          text: |
+            Obsessive-compulsive disorder is a type of anxiety disorder where the child or young person suffers from obsessions and/or compulsions that affect their everyday life, like doing things on time, putting things in order, needing symmetry, to extremes of hand washing and other hygiene issues.
+          img: placeholder_icon.svg
+        -
+          title: Psychosis
+          text: |
+            Psychosis is when a child or young person’s thoughts are so disturbed that they lose touch with reality.They might hear voices, see or feel things that aren't there, feel paranoid or believe things that don't rationally make sense. This type of problem can be severe and distressing and should be checked as it can be a symptom of serious mental illness like bipolar disorder or schizophrenia.
           img: placeholder_icon.svg
   -
   -
@@ -66,7 +78,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style 2 Presenters alternating each point with images/video clips to support content_
       
       Watch the following video to find out how to recognise a range of mental health problems and the impact they have on children and young people.
     video: placeholder_pc.mp4

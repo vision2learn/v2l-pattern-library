@@ -32,27 +32,27 @@ sections:
         -
           title: What is stress and anxiety
           text: |
-            text
+            Stress and anxiety share many of the same physical symptoms, making it difficult to spot the differences between them. Stress can cause individuals to experience mental and physical symptoms. Anxiety, however is defined by persistent, excessive worries that don't go away even in the absence of a stressor.
           img: placeholder_icon.svg
         -
           title: Stress signs and symptoms
           text: |
-            text
+            Signs and symptoms of stress can be physical, emotional and behavioural and include aches and pains, headaches and dizziness, tiredness, stomach or digestive troubles, and difficulty sleeping.
           img: placeholder_icon.svg
         -
           title: Stress causes
           text: |
-            text
+            Childhood stress can be present in any setting that requires the child to adapt or change. Stress may be caused by positive changes, such as starting a new activity, but it is most commonly linked with negative changes such as illness or death in the family.
           img: placeholder_icon.svg
         -
           title: Anxiety signs and symptoms
           text: |
-            text
+            Signs of anxiety in children can include behavioural changes such as moodiness, aggression, short temper or clinginess. They can develop a nervous habit, have difficulty concentrating or heightened fears. Symptoms can include not sleeping well or waking with bad dreams, constantly worrying and having negative thoughts, not eating properly, feeling tense, being irritable and prone to outbursts.
           img: placeholder_icon.svg
         -
           title: Anxiety causes
           text: |
-            text
+            Some children are more likely to suffer from anxiety than others. Some children find change difficult and may suffer from anxiety after a period of change, after a distressing or traumatic experience or through insecurity in their life.
           img: placeholder_icon.svg
   -
   -
@@ -83,7 +83,7 @@ sections:
           title: New life changes
           copy: |
             Starting nursery, school or moving to senior school brings fear of what to expect.
-          img: placeholder_icon.
+          img: placeholder_icon.svg
         -
           title: Family break up
           copy: |
@@ -110,7 +110,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style One presenter with video clips/images to illustrate content_
       
       Let’s look at how stress and anxiety affects children and young people and what can be done to help them to recognise and handle it.
     video: placeholder_pc.mp4
