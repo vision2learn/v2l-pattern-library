@@ -1,92 +1,76 @@
 title: Mental health concerns and behaviours
 intro: |
-  In this session we will look at understanding the behaviour that is associated with mental health concerns in children and young people. 
+  In this session you will learn about behaviour that is associated with mental health concerns in children and young people and how early intervention can help when identifying behavioural concerns. 
 banner: placeholder.jpg
 sections:
+  -
+    title: Range of behaviours that may indicate concerns about a child’s or young person’s mental health
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Mental illness in children can be hard to identify. As a result, many children who could benefit from treatment don't immediately get the help they need but by recognising the warning signs early intervention can be arranged. 
+
+    img: /images/svg/placeholder_icon.svg
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to identify a range of behaviours that may indicate concerns about a child’s or young person’s mental health. 
   -
-    title: introduction text
-    layout: media
+    title: Reveals
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+      Let’s look at some of the ways a child’s or young person’s behaviour may change select from the images below to learn more.
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Persistent sadness
           copy: |
-            text
+            Persistent sadness for more than couple of weeks and withdrawing from social interactions.
           img: placeholder_icon.svg
         -
-          title: b
+          title: Change in personality
           copy: |
-            text
+            Outbursts or extreme irritability, harmful out-of-control behaviour, drastic changes in mood or personality.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Loss of concentration
           copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
+            Difficulty concentrating on things and/or difficulty sleeping.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
-          text: |
-            text
+          title: Eating problems
+          copy: |
+            Changes in eating habits, binging and/or loss of weight.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
-          text: |
-            text
+          title: Medical complaints
+          copy: |
+            Complaining of frequent headaches or persistent stomachaches.
+          img: placeholder_icon.svg
+        -
+          title: Education problems
+          copy: |
+            Changes in academic performance, or avoiding or missing school.
           img: placeholder_icon.svg
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to describe harmful behaviour that children and young people may demonstrate as a way of coping with their feelings. 
+      In your assessment you will be required to explain how a child or young person expresses how they are feeling through their behaviour. 
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - video on behavioural issues intro with presenter and interview_
       
-      Please see the following video on range of behaviours and feelings 1.1, 1.2, 1.3.
+      Mental health issues in children are generally defined as delays or disruptions in development related to age-appropriate thinking, behaviours, social skills or regulation of their emotions. These problems are distressing to children and disrupt their ability to function well in the home, in school or in other social interactions.
+      
+      Let’s now watch a video on how a child or young person expresses how they are feeling.
     video: placeholder_pc.mp4
   -
     title: Time to think

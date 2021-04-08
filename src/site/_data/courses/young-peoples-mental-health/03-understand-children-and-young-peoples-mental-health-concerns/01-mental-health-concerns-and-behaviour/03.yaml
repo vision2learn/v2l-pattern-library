@@ -1,32 +1,65 @@
-title: Identifying behavioural concerns
+title: Harmful behaviour and coping with feelings
 intro: |
-  On this page we will look at identifying behavioural concerns.
+  Let’s look at harmful behaviour and how children and young people may demonstrate this as a way of coping with their feelings. 
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain the importance of early intervention when identifying behavioural concerns. 
+      In your assessment you will be required to describe harmful behaviour that children and young people may demonstrate as a way of coping with their feelings.
   -
-    title: introduction text
-    layout: media
+    title: Harmful behaviour
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
+      Children and young people can develop really harmful behaviour if their feelings are not identified as an issue. Let’s look at this harmful behaviour in a bit more detail in the following slides.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Anxiety disorders
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Self-harm
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: PTSD
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Eating disorders
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Depression and mood disorders
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of early intervention when identifying behavioural concerns.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - video or discussion on the importance of early intervention._
       
-      Please see the following video on 1.4 Importance of early intervention.
+      ### Early Intervention
+
+      Let’s have a look at how early intervention can help when identifying behavioural concerns.
+
     video: placeholder_pc.mp4
   -
     title: Time to think

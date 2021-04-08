@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Understand depression in children and young people
 intro: |
-  intro text
+  In this session you will learn about Depression in children and young people, the signs, symptoms and causes and how this affects them.
 banner: placeholder.jpg
 sections:
   -
@@ -8,79 +8,53 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Definition of the term depression
+      * The difference between low mood and depression
+      * Possible causes of depression for children and young people
+      * How to recognise signs that a child or young person could be depressed
+      * Examples of how depression may affect children and young people
+
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to define the term ‘depression'.
   -
-    title: introduction text
-    layout: media
+    title: What is depression?
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      What is exactly is depression? Depression is an extremely low mood that lasts for a long time, and affects everyday life. Let’s look at a few facts about Depression, look through the following slides to find out more.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Mildest form
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Severe depression
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Long term problem
           text: |
             text
           img: placeholder_icon.svg
+        -
+          title: Who it affects
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difference between low mood and depression.
   -
   -
     title: Watch 
@@ -89,7 +63,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Let’s watch a video about the difference between low mood and depression.
     video: placeholder_pc.mp4
   -
     title: Time to think
