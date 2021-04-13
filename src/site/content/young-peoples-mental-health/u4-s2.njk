@@ -1,0 +1,16 @@
+---js
+{
+  unit: 4,
+  session: 2,
+  pagination: {
+    data: "courses['young-peoples-mental-health']['04-understand-the-impact-of-children-and-young-peoples-mental-health-concerns']['02-the-impact-on-others']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->
