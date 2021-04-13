@@ -29,7 +29,7 @@ sections:
   -
   -
     title: Reveals
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       _Optional item depending on content_
 
@@ -99,6 +99,53 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
+
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Optional item depending on content_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Optional item depending on content_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _Optional item depending on content - useful for additional reading_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web

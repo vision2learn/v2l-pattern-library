@@ -1,5 +1,4 @@
-title: TEMPLATE PAGE
-intro: |
+title: Barriers and reluctance seeking a diagnosis
   intro text
 banner: placeholder.jpg
 sections:
@@ -7,70 +6,44 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
+      In your assessment you will be required to describe the barriers children and young people may face seeking a diagnosis.
   -
     title: Reveals
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+      Seeking help for a mental health problem can be difficult, and sometimes children and young people face barriers to seeking a diagnosis and getting the treatment they need. lets look at some of those barriers.
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Long waiting times
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Cost of services
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: c
+          title: Availability of services
           copy: |
             text
           img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
         -
-          title: slide 1 title
-          text: |
+          title: Negative experiences
+          copy: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
-          text: |
+          title: Past history
+          copy: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
-          text: |
+          title: Attitudes
+          copy: |
             text
           img: placeholder_icon.svg
   -
@@ -78,7 +51,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to give reasons why children and young people may be reluctant to seek medical intervention and a formal diagnosis.
   -
   -
     title: Watch 
@@ -87,7 +60,9 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      ### Reluctance to seek medical intervention and a formal diagnosis
+      
+      Let’s now look at a video about why children and young people may be reluctant to seek medical intervention and a diagnosis.
     video: placeholder_pc.mp4
   -
     title: Time to think

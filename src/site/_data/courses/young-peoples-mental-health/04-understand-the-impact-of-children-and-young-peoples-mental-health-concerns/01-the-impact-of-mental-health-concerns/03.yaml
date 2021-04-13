@@ -1,4 +1,4 @@
-title: The impact of mental health concerns
+title: Potential impact in both the short and long term
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,78 +7,46 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify the potential impact of mental health concerns for children and young people in both the short term and long term.
   -
-    title: introduction text
-    layout: media
+    title: The potential Impact of Mental Health Concerns
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+      Let’s look at the potential impact of mental health concerns for children and young people in the short term and in the long term:
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Family
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Relationships
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: c
+          title: Employment
           copy: |
             text
           img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
         -
-          title: slide 1 title
-          text: |
+          title: Physical well-being
+          copy: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
-          text: |
+          title: Future mental health
+          copy: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
-          text: |
+          title: Life changes
+          copy: |
             text
           img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -86,7 +54,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Let’s look at the potential impact of mental health concerns for children and young people and how can we address them in the short term and long term. 
     video: placeholder_pc.mp4
   -
     title: Time to think

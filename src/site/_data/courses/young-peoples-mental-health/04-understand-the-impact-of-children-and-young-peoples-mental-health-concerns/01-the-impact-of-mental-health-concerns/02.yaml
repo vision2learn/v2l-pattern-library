@@ -1,84 +1,38 @@
-title: The impact of mental health concerns
+title: The impact mental health concerns can have on children and young people
 intro: |
-  intro text
+  In this session you will learn about the impact mental health concerns can have on children and young people in their family life and education both short and long term.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe potential effects of mental health concerns on children and young people’s family life and relationships; and education.
   -
-    title: introduction text
-    layout: media
+    title: The potential effects of mental health concerns on children and young people
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Let’s look at the potential effects of mental health concerns, scroll through the sliders below.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Family life
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Relationships
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Education
           text: |
             text
           img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -86,7 +40,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Let’s look at this is a little more detail in the following video.
     video: placeholder_pc.mp4
   -
     title: Time to think

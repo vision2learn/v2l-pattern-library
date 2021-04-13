@@ -1,6 +1,6 @@
-title: The importance of diagnosis
+title: Understand the importance of being diagnosed with a mental health problem
 intro: |
-  intro text
+  In this session you will learn about the importance of being diagnosed with a mental health problem and any barriers to diagnosis.
 banner: placeholder.jpg
 sections:
   -
@@ -8,85 +8,58 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Reasons why it is important to seek support and a formal diagnosis 
+      * Barriers that children and young people may face seeking a diagnosis
+      * Reasons why children and young people may be reluctant to seek medical intervention and a formal diagnosis
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
+    title: Why is it important to seek support and a formal diagnosis
     layout: media
-    theme: t-bg-primary
+    theme: 
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      It is important to seek support and a formal diagnosis as it can give access to various support groups, treatment programmes, and medications that might not have been available previously. A mental health diagnosis works in the same way as a physical health diagnosis. It is a label for a particular group of symptoms that describes what an individual is going through.
 
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
-    theme: t-bg-supporting2
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to give reasons why it is important to seek support and a formal diagnosis.
   -
-  -
-    title: slider
+    title: What are the benefits of having a diagnosis? 
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about the benefits of having a diagnosis.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Makes sense
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Gives it a name
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Gives access
           text: |
             text
           img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
+        -
+          title: Improve interactions
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: More patience
+          text: |
+            text
+          img: placeholder_icon.svg
   -
   -
     title: Watch 
@@ -95,7 +68,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Why is important to have a child assessed for a mental health diagnosis? let’s look at this in a bit more detail.
     video: placeholder_pc.mp4
   -
     title: Time to think
