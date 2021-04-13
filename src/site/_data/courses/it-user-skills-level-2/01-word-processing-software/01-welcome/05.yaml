@@ -79,34 +79,4 @@ sections:
     theme: t-bg-grey i-keypoint
     copy: |
       It’s really important that you can list at least four different types of information for your assessment!
-  -
-  -
-    title: Choosing the right information
-    theme: t-bg-primary
-    copy: |
-      The types of information that your documents need to include will depend on the audience and purpose of the document.
-
-      See below to learn learn about the information that could be included in two different kinds of document.
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Formal
-          copy: |
-            ### A financial report
-            
-            An accountant has been asked to produce a summary of a sales report for a company that sells hot air balloon rides. The document must include a small paragraph summarising the findings of the report, a table containing numbers and a chart to make the information in the table easier to understand.
-
-            Take a look at the following formal document - [Financial report example](/pdfs/it2_u1_s1_p5_read_formal.pdf). Do you think it is fit for purpose and its audience?
-        - 
-          title: Informal
-          copy: |
-            ### A local event
-
-            The local primary school has decided to host a Summer Fete to raise funds for the school's accessibility department.  They wish to create a flyer to advertise the fete to the residents of the village.  The document must include the date, time, location, activities and images.
-            
-            Take a look at the following formal document - [Event flyer example](/pdfs/it2_u1_s1_p5_read_informal.pdf). Do you think it is fit for purpose and its audience?
-
-    copy2: As you can see, the information used in Word documents is not always the same. Different types of document require different types of information. You will learn more about these different kinds of information later in this unit.    
-  -
-
+  

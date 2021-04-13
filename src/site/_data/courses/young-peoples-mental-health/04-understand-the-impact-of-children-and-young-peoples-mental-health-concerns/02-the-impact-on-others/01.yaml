@@ -56,7 +56,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with text points to the side - appearing as spoken about - for example the second paragraph reads "When a family member such as a child or a sibling has mental health concerns can be an extremely stressful time and may in turn create health problems such as headaches, loss of appetite, fatigue, and insomnia for others in the family." - list the words headaches, loss of appetite, fatigue, insomia - then the third paragraph - anxiety, depression, guilt anger, etc. some images if needed_
+      _Presentation style - one presenter with text points to the side - appearing as spoken about - for example the second paragraph reads "When a family member such as a child or a sibling has mental health concerns can be an extremely stressful time and may in turn create health problems such as headaches, loss of appetite, fatigue, and insomnia for others in the family." - list the words headaches, loss of appetite, fatigue, insomia - then the third paragraph - anxiety, depression, guilt anger, etc. Images too support._
       
       Watch the video to look at the impact it can have on others in the family in more detail.
     video: placeholder_pc.mp4
@@ -70,16 +70,24 @@ sections:
   -
   -
     title: Quick quiz
-    mode: multi-choice
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Select multiple options:"sentence":
+        Is the following statement true or false? "statement":
           answers:
-            one: false
-            twp: true
-            three: true
-            fourth option: false
-        feedback: text
-  -
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

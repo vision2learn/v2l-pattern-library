@@ -49,10 +49,31 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style_
+      _Presentation style - Presenter with images and the actual websites with narration_
       
       Please watch this video to find out more information about the range of services that are available.
     video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
   -
   -
     title: Quick quiz
@@ -73,34 +94,3 @@ sections:
           sentence: example four - Stem4
           answer: Stem4
     theme: i-quiz
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to describe how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for the child or young person; and for others.
-  -
-  -
-    title: Cultural beliefs and social attitudes
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      Cultural beliefs and social attitudes play a big role in how people view mental health and the stigma that surrounds mental illness prevents many from seeking help. Shame, the fear of discrimination and rejection, and the lack of understanding can prevent them seeking diagnosis and effective treatment. The support of family and friends therefore can be really important in helping children and young people to cope with a diagnosis of mental health concerns.
-
-    img: /images/svg/placeholder_icon.svg
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style - Presenter with short introduction, then the same presenter but as a narrator with video clips illustrating the different cultures and countries_
-      
-      Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._

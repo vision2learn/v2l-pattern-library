@@ -1,92 +1,30 @@
-title: TEMPLATE PAGE
+title: Cultural beliefs and social attitudes
 intro: |
   Keep in case we decide to split Page 2
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for the child or young person; and for others.
   -
-    title: introduction text
+  -
+    title: Cultural beliefs and social attitudes
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      Cultural beliefs and social attitudes play a big role in how people view mental health and the stigma that surrounds mental illness prevents many from seeking help. Shame, the fear of discrimination and rejection, and the lack of understanding can prevent them seeking diagnosis and effective treatment. The support of family and friends therefore can be really important in helping children and young people to cope with a diagnosis of mental health concerns.
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter with short introduction, then the same presenter but as a narrator with video clips illustrating the different cultures and countries_
       
-      Please see the following video on .
+      Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -95,20 +33,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
