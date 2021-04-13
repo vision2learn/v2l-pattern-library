@@ -1,6 +1,6 @@
 title: Recognise and support sensory needs
 intro: |
-  intro text
+  In this session you will learn how to support sensory needs looking at different environments and how to support individuals who may experience sensory overload. You will also learn about dietary preferences.
 banner: placeholder.jpg
 sections:
   -
@@ -8,76 +8,47 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * The type of environments and situations that can cause an individual to experience sensory overload
+      * How individuals with autism may respond when experiencing sensory overload
+      * Strategies that can be used to support individuals experiencing sensory overload
+      * How to create a ‘low arousal’ sensory environment 
+      * Ways to increase sensory stimulation
+      * The benefits of sensory activities for individuals with autism 
+      * How sensory differences may have an influence on an individual’s dietary preferences
+      * How to support the dietary preferences of individuals with autism
+
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify examples of the type of environments and situations that might contribute to an individual experiencing sensory overload.
   -
-    title: introduction text
-    layout: media
+    title: Environments and situations that may cause sensory overload
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Let’s have a look at some environments and situations that we use every day that may cause an individual to experience sensory overload.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Home
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Education
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Public buildings
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Workplace
           text: |
             text
           img: placeholder_icon.svg
@@ -86,7 +57,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to give examples of how individuals with autism may respond when experiencing sensory overload.
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -94,7 +65,9 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      ### How individuals with autism may respond when experiencing sensory overload
+
+      Let’s look at how individuals with autism may respond when experiencing sensory overload.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -103,12 +76,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
   -
   -
     title: On the web

@@ -1,47 +1,48 @@
-title: How sensory information is processed
+title: Balance and body awareness
 intro: |
-  In this session you will learn how individuals process sensory information, how this affects their senses and how they may experience difficulties.
+  intro text
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to outline how differences in processing sensory information may affect each of the senses.
+      In your assessment you will be required to outline why individuals with autism may experience balance difficulties (vestibular sense).
   -
-    title: How processing sensory information may affect the senses.
+    title: Balance and body awareness difficulties
     theme: t-bg-primary
     copy: |
-      Select the images below to learn how processing sensory information may affect the senses.
+      Let’s look at 2 other senses that are affected by Hyposensitivity and Hypersensitivity.
 
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
-          title: Vision
-          copy: |
+          title: Experiencing balance difficulties
+          text: |
             text
           img: placeholder_icon.svg
         -
-          title: Hearing
-          copy: |
+          title: Experiencing Body Awareness difficulties
+          text: |
             text
           img: placeholder_icon.svg
-        -
-          title: Touch
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Taste
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Smell
-          copy: |
-            text
-          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how individuals with autism may experience difficulties with body awareness (proprioception).
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - interview or discussion about sensory difficulties with either a parent, carer or individual with Autism._
+      
+      Let’s listen to someone with Autism’s experience of sensory difficulties.
+    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
