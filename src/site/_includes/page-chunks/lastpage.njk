@@ -22,6 +22,25 @@
   {% set assCopy = "Now it’s time to complete Part " + session + " of your Unit " + unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to " + timeToWhat + " journals to help you." %}
 {% elif shortcode === 'it2' or shortcode === 'it1' %}
   {% set assCopy = "Now that you have completed this session, you should complete the relevant section in the assessment booklet. If you have not already done so, please [download and save the assessment file]("+ assLink +") in a suitable location on your computer. Use your notes on the assessment so far, and the work you have done in your 'Time to practice' activities to assist you" %}
+
+  {% if shortcode == 'it2' %}
+    {% if shortcode == 'it2' %}
+      {% import 'it2-text.njk' as it2text with context %}
+
+      {% if unit == 1 and session == 2 %}
+        {% set assCopy = it2text.it2_123 %}
+      {% elif unit == 1 and session == 3 %}
+        {% set assCopy = it2text.it2_134 %}
+      {% elif unit == 1 and session == 4 %}
+        {% set assCopy = it2text.it2_145 %}
+      {% elif unit == 1 and session == 5 %}
+        {% set assCopy = it2text.it2_155 %}
+      {% elif unit == 1 and session == 6 %}
+        {% set assCopy = it2text.it2_163 %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
 {% else %}
   {% set assCopy = "Now that you have completed this session, you should complete the relevant section in the assessment booklet. If you have not already done so, please click on the assessment link to the right, then download and save the assessment file in a suitable location on your computer." %}
 {% endif %}
