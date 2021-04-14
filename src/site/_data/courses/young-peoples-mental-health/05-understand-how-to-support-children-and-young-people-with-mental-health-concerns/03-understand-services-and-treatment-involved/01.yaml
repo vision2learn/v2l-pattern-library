@@ -25,7 +25,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - _
+      _Presentation style - Presenter with video clips/images - could include logos as well e.g. NHS. Use text to the side when referring to services e.g. CYPMHS; 'These services may be provided by a GP surgery, a large local health centre, a specialist mental health clinic or a hospital.' etc_
       
       ### Range of Services and professionals involved
 
@@ -85,7 +85,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - two presenters with video clips/images_
       
       ### What is meant by ‘Care Programme Approach’
 
@@ -99,48 +99,3 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
