@@ -1,4 +1,4 @@
-title: TEMPLATE PAGE
+title: Responding to behaviour and lifestyle choices that respects self-esteem
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,72 +7,56 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe how to promote interactions between children and young people and others to develop their well-being.
   -
-    title: introduction text
-    layout: media
+    title: How to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s self-esteem
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+      Lets look at how to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s Self-Esteem
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Show empathy
           copy: |
-            text
+            When things distress a child a parent or carer should show empathy and understanding for their concerns
           img: placeholder_icon.svg
         -
-          title: b
+          title: Give attention
           copy: |
-            text
+            Children should not have to seek attention they should receive undivided attention whenever they need it
           img: placeholder_icon.svg
         -
-          title: c
+          title: Love a child
           copy: |
-            text
+            A child should be loved unconditionally and always accepted for who they are
+          img: placeholder_icon.svg
+        -
+          title: Learning experience
+          copy: |
+            A child should be given a chance to contribute and if they make a mistake, they can learn from that experience
+          img: placeholder_icon.svg
+        -
+          title: Solving problems
+          copy: |
+            A child should learn to solve problems for themselves and make decisions when needed but with help where necessary
           img: placeholder_icon.svg
   -
-  -
-    title: slider
-    theme: t-bg-primary
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      _Presentation style .... _
+      
+      Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s self-esteem.
   -
   -
     title: Watch 
@@ -81,7 +65,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Let’s look at how adults and parents can help children and young people make good lifestyle choices to help with self-esteem.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -91,27 +75,6 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web

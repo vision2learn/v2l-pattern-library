@@ -1,0 +1,16 @@
+---js
+{
+  unit: 5,
+  session: 3,
+  pagination: {
+    data: "courses['young-peoples-mental-health']['05-understand-how-to-support-children-and-young-people-with-mental-health-concerns']['03-understand-services-and-treatment-involved']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->

@@ -1,0 +1,168 @@
+title: Person-centred approaches to supporting
+intro: |
+  In this session you will learn about person-centred approaches to supporting children and young people with mental health concerns, and how the rights of those with mental health concerns can be supported and upheld.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain what is meant by person-centred support for children and young people.
+  -
+    title: What is meant by person-centred support for children and young people
+    theme: t-bg-primary
+    copy: |
+      Many children and young people develop mental health conditions because they feel they cannot control their lives, If however they are supported in a ‘person-centred’ way, they should be more in control of the care and support that they receive. Look at the following sliders to find out more about Person Centred Support.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Key Principles
+          text: |
+            Person-centred care and support is based on the key principles of Individuality, Rights, Choice, Privacy, Dignity, Respect, Independence and multi-agency collaboration.
+          img: placeholder_icon.svg
+        -
+          title: Person centred practise
+          text: |
+            Applying ‘person-centred’ practice ensures that the individual is put at the centre of their own planning, enabled to make their own fully informed decisions, and to exercise their rights. They are seen as the expert in determining how they will recover from or manage their mental health condition. 
+          img: placeholder_icon.svg
+        -
+          title: Working together
+          text: |
+            It also ensures that all organisations work together to bring about the best outcomes for the individual to maintain their independence, dignity and self-worth to develop appropriate solutions. 
+          img: placeholder_icon.svg
+        -
+          title: Considering desires
+          text: |
+            Person-centred care is not just about giving people whatever they want. It is about considering people’s desires, values, family situations, social circumstances and lifestyles and overall seeing the person as an individual.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - standard - one or two presenters with video clips/images_
+      
+      Please see the following video for more information on what is meant by person-centred support for children and young people.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: What is the Recovery Model?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      The recovery model is a holistic, ‘person-centered’ approach to mental health concerns, and it has quickly gained momentum over the past decade becoming more the standard model of mental health care. Its main focus is that it is possible to recover from a mental health condition to lead full, satisfying lives, which is key for children and young people. It also advocates that the most effective recovery is person directed.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the recovery model which applies to children and young people with mental health concerns.
+  -
+  -
+    title: Reveals
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the characteristics of the Recovery Model.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Health
+          copy: |
+            In order to manage or recover from mental illness, children and young people must make choices that support both their physical and mental well-being.
+          img: placeholder_icon.svg
+        -
+          title: Home
+          copy: |
+            Children and young people need a safe and stable place to live in.
+          img: placeholder_icon.svg
+        -
+          title: Purpose
+          copy: |
+            Meaningful daily routines such as school, work, family, and community participation are important during the recovery process and for maintaining mental wellness.
+          img: placeholder_icon.svg
+        -
+          title: Community
+          copy: |
+            Supportive social relationships provide people with the love, emotional availability, and respect that they need to survive and thrive.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Let’s look at the positives of the recovery model in a little more detail in this video.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
