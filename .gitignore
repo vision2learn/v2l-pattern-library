@@ -10,6 +10,7 @@ src/site/raw-content
 src/site/server.crt
 src/site/server.key
 tmp/
+.eleventyignore
 
 # Local Netlify folder
 .netlify
