@@ -16,6 +16,8 @@
   </section>
 {%- endif %}
 
+{% set assLink = "~/" + unit + "/assessment" %}
+
 {% if session === 1 %}
   {% set assCopy = "Now it’s time to complete Part " + session + " of your Unit " + unit + " Assessment which counts towards your qualification. Remember to save the document to your computer. Use your notes on the assessment so far, and answers from any Time to " + timeToWhat + " journals to help you." %}
 {% elif shortcode === 'it2' or shortcode === 'it1' %}
@@ -25,7 +27,6 @@
 {% endif %}
 
 <section>
-  {% set assLink = "~/" + unit + "/assessment" %}
   {{ components.media2({
         title: "Unit assessment",
         copy: assCopy,
