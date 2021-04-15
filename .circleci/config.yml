@@ -95,9 +95,14 @@ jobs:
             cp -R --strip-trailing-slashes src/scss dist/dotnet/scss
             cp -R --strip-trailing-slashes dist/js dist/dotnet/js
             cp -R --strip-trailing-slashes dist/images dist/dotnet/images
+            tar -cvf dotnet.tar dist/dotnet
+            tar -cvf videos.tar dist/videos
       - store_artifacts:
           path: dotnet.tar
           destination: dotnet.tar
+      - store_artifacts:
+          path: videos.tar
+          destination: videos.tar
   staging:
     machine:
       enabled: true
