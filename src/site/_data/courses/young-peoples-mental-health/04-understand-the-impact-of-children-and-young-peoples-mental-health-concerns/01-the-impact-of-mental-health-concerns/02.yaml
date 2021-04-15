@@ -1,0 +1,72 @@
+title: The impact mental health concerns can have on children and young people
+intro: |
+  In this session you will learn about the impact mental health concerns can have on children and young people in their family life and education both short and long term.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe potential effects of mental health concerns on children and young people’s family life and relationships; and education.
+  -
+    title: The potential effects of mental health concerns on children and young people
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the potential effects of mental health concerns, scroll through the sliders below.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Family life
+          text: |
+            If a member of the family has a mental illness whether it’s a parent or child, it can affect everyone. Some types of mental health concerns and illness can cause big changes in a family’s routines, activities and finances and different people in the family will react differently to these changes. 
+          img: placeholder_icon.svg
+        -
+          title: Relationships
+          text: |
+            Mental illness of a parent can put stress on the family and can affect the parenting abilities, which in turn can harm the child. Parent and child relationships can be rather complex, and if a child is experiencing mental illness, caring for them can be difficult and can impact negatively on that relationship.
+          img: placeholder_icon.svg
+        -
+          title: Education
+          text: |
+            School-related stress is a serious problem and approximately two-thirds of primary school children worry all the time about at least one thing to do with their home life or school life. Children with mental health problems are less likely than their peers to gain academic qualifications, and more likely to have significant time off school, be excluded or get into trouble with the police.
+          img: placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - video clips for each paragraph with narrator_
+      
+      Let’s look at this is a little more detail in the following video.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz

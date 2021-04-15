@@ -1,0 +1,73 @@
+title: Informal networks
+intro: |
+  Let’s look at informal networks and how they can help to support individuals with autism and their families.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of the contribution that informal networks can make to supporting individuals with autism and their families.
+  -
+    title: Informal support networks
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Informal support networks are the people who offer help and assistance to each other in daily life. This could be parents, siblings, other family members, friends, colleagues, neighbours and other people in the community. Informal support can include emotional support, physical assistance, role models, joining a group, club or activity and anything that will help a person, have a richer life. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Two presenters alternating each point with some images to illustrate informal networks_
+      
+      Let’s look at a video on how informal networks can support individuals with Autism and their families. 
+    video: placeholder_pc.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of working in partnership with the individual and others.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Video Interview with parent, child, family member, support worker, or counsellor. _
+      
+      Supporting an Individual with autism is a collaborative process which involves effective partnerships between professionals, families and the individual where possible.These partnerships can involve a range of different people including friends & family, carers, healthcare professionals and social workers.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._

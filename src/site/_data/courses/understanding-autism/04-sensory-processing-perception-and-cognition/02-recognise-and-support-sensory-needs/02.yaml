@@ -1,0 +1,125 @@
+title: Sensory stimulation and activities
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to create a ‘low arousal’ sensory environment.
+  -
+    title: What is a low arousal sensory environment?
+    theme: t-bg-primary
+    copy: |
+      Let’s look at how to create a low arousal sensory environment.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Dimmed lighting
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Subdued sound
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Enclosed spaces
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Low odour
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Touch sensitivity
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline strategies that can be used to support individuals experiencing sensory overload.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - standard style - Presenter(s) with images and video clips showing examples e.g. flickering lights, sunglasses etc_
+      
+      Please see the following video on how individuals respond when experiencing sensory overload and what strategies can be used to support individuals.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of ways to increase sensory stimulation.
+  -
+  -
+    title: Ways to increase sensory stimulation
+    theme: t-bg-primary
+    copy: |
+      For those who are under sensitive there is often a need to increase sensory stimulation. Let’s look at how to increase sensory stimulation.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Visual supports
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Toys
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Activities
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Odours
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Weighted blankets
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the benefits of sensory activities for individuals with autism.
+  -
+  -
+    title: The benefit of therapies and sensory activities
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the benefits of sensory activities for individuals with autism. 
+
+      Occupational therapists can use physical activities and strategies to help individuals with autism to meet their sensory needs and help them to process sensory input in everyday environments. Autism feeding programs can address aversions to food textures or tastes, and sensitivities that can hamper chewing and swallowing. Speech therapy can include both sensitivity reducing and stimulating activities that improve speech, swallowing and related muscle movements. Cognitive behavioural therapy can gradually help to increase tolerance to overwhelming sensory experiences.
+    img: /images/svg/placeholder_icon.svg

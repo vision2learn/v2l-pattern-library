@@ -1,0 +1,113 @@
+title: Responding to behaviour and lifestyle choices that respects self-esteem
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to promote interactions between children and young people and others to develop their well-being.
+  -
+    title: How to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s self-esteem
+    theme: t-bg-primary
+    copy: |
+      Lets look at how to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s Self-Esteem
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Show empathy
+          copy: |
+            When things distress a child a parent or carer should show empathy and understanding for their concerns
+          img: placeholder_icon.svg
+        -
+          title: Give attention
+          copy: |
+            Children should not have to seek attention they should receive undivided attention whenever they need it
+          img: placeholder_icon.svg
+        -
+          title: Love a child
+          copy: |
+            A child should be loved unconditionally and always accepted for who they are
+          img: placeholder_icon.svg
+        -
+          title: Learning experience
+          copy: |
+            A child should be given a chance to contribute and if they make a mistake, they can learn from that experience
+          img: placeholder_icon.svg
+        -
+          title: Solving problems
+          copy: |
+            A child should learn to solve problems for themselves and make decisions when needed but with help where necessary
+          img: placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - one presenter with video clips/images_
+      
+      Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s self-esteem.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - two presenters with video clips/images_
+      
+      Let’s look at how adults and parents can help children and young people make good lifestyle choices to help with self-esteem.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

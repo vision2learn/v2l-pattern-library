@@ -1,0 +1,75 @@
+title: Crisis or emergency
+intro: |
+  On this page we look at what might constitute a mental health 'crisis' or emergency.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe what might constitute a mental health ‘crisis’ or emergency.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Presenter with images to support content_
+      
+      ### What is a mental health crisis?
+
+      Let’s look at a short video about what constitutes an emergency or mental health crisis.
+
+    video: placeholder_pc.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "A mental health crisis is an emergency that poses a direct and immediate threat to physical or emotional wellbeing.":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Narrator with video clips/images - e.g. new clips etc. (Needs to be in the 'past tense' to future proof video for once the pandemic is over we hope!)_
+      
+      Coronavirus specific.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

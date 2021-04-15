@@ -1,59 +1,34 @@
-title: Terminology
-intro: |
-  intro text
-banner: placeholder.jpg
+title: What did you learn? 
+intro: Well done, you’ve now completed the second session of Understanding autism Level 2! 
+banner: ba-u1-s1-p6.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
+    title: Summary
+    theme: t-bg-primary i-summary
     copy: |
-      In your assessment you will be required to explain how the terms ‘neurodiverse’ and ‘neurotypical’ are used in relation to autism.
-  
+      In this session, you have learnt about:
+      * The theoretical models related to identifying Autism
+      * What the terms ‘neurodiverse’ and ‘neurotypical’ mean in relation to Autism
   -
-    title: Terminology
-    theme: t-bg-primary
-    copy: |
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
+    title: Session quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
       content:
-        -
-          title: Neurodiverse
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Neurotypical
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on how the terms ‘neurodiverse’ and ‘neurotypical’ are used in relation to autism.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - OR WEB LINK
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

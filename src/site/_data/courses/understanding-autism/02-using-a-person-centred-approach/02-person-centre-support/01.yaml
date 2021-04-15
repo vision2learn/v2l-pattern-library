@@ -1,0 +1,100 @@
+title: Person centred support
+intro: |
+  In this session you will learn about how to use a ‘person centred approach’ to support individuals with Autism.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * Person-centred support
+      * Treating the person with autism as an individual
+      * Compassionate and non-judgemental support           
+      * Promoting the rights of individuals with autism.                                            
+      * Incorporating the preferences and needs of individuals  
+      * Importance of working with each individual’s strengths and abilities
+      * The contribution of informal networks                                                                  
+      * Working in partnership with the individual and others                                                   
+      * The principles of confidentiality 
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe what is meant by ‘person-centred support’.
+  
+  -
+    title: Reveals
+    theme: t-bg-primary
+    copy: |
+      Let’s start by looking at what is ‘person centred support’. Select from the images below to learn more about it.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Planning and Decision Making
+          copy: |
+            A Person-centred approach within a family context can ensure that children, young people and their parents are involved in all aspects of planning and decision-making.
+          img: placeholder_icon.svg
+        -
+          title: Live the Life they Want
+          copy: |
+            Person-centred support means that the individual whether child or adult, is at the centre of the service and the support works around them to help them live the life they want.
+          img: placeholder_icon.svg
+        -
+          title: Culturally Appropriate
+          copy: |
+            Person centred support and care, and the information people are given about it, should always be culturally appropriate.
+          img: placeholder_icon.svg
+        -
+          title: Services
+          copy: |
+            Person centred support is about services being flexible and not following a ‘one size fits all’ approach.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain why it is important to treat the person with autism as an individua; and give examples of how support can be provided in a way that is compassionate and non-judgemental.
+  -
+  -
+    title: Treating the person with autism as an individual
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Person-centred care is a way of thinking and doing things that sees the person with Autism as the focus. They are unique and as an individual need to be treated that way and not put into a pre planned mould. Support and care should always take into account their individual needs and preferences and they should have the opportunity to make informed decisions about their own care, in partnership with their healthcare professionals.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style  - Two presenters - alternate topic points - images, video clips to illustrate content - possible short discussion as suggested from SME - will leave that decision to videographer_
+      
+      Let’s look at why it is important that a person with autism is treated as an individual.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

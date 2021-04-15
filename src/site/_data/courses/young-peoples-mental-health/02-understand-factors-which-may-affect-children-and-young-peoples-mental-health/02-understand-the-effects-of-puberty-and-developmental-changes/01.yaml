@@ -1,0 +1,126 @@
+title: Puberty and developmental changes
+intro: |
+  In this session you are going to learn about the potential effects of puberty and developmental changes on the mental health of children and young people.
+
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The effects of puberty on children and young people
+      * How identity, self esteem and body image can affect mental well-being
+      * Opportunities and challenges faced during transition to adulthood
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the effects of puberty on children and young people. 
+  -
+    title: How these changes can affect mental health and well-being
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      The changes caused by puberty can affect personal identity because as the body grows, so the young person becomes more mature and takes more things into consideration and how they look comes more important to them and their body image can cause them to worry. Poor body image is feeling a pressure to live up to an ‘ideal’ body type or appearance and being unhappy when they don’t.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Video - 2 presenters that are different to each other with images to support content._
+      
+      Please see the following video on 2.1, 2.2, 2.3
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+        Make a note of your findings in the “Time to think” box to the right.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the opportunities and challenges young people may face during the transition to adulthood. 
+  -
+  -
+    title: Developmental changes
+    theme: t-bg-primary
+    copy: |
+      Let's look at how developmental changes affect the mental health of children and young people. Scroll through the following slides to find out more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Well developed self-esteem
+          text: |
+            Young people who are transitioning to adulthood need to have well developed self-esteem to help equip them to manage relationships in different contexts, including education and employment settings, as well as with family and friends.
+          img: placeholder_icon.svg
+        -
+          title: Additional problems to cope with
+          text: |
+            Those who have lived through multiple traumas and disruptive events by the time they begin their transition to adulthood, including abuse, neglect, bereavement, poverty or homelessness, lack of continuity in education, have additional problems to cope with on top of growing up.
+          img: placeholder_icon.svg
+        -
+          title: Support of a parent or caring adult
+          text: |
+            Young people who had the support of a parent or caring adult are less likely to get involved in unhealthy behaviours, such as unprotected sexual activity, alcohol and substance abuse, and crime.
+          img: placeholder_icon.svg
+        -
+          title: Permanent relationships
+          text: |
+            Permanent relationships with supporting adults are a powerful protective factor against the challenges life may throw at them as they transition to adulthood.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

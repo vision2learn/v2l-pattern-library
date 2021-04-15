@@ -1,0 +1,96 @@
+title: Services to support positive mental health
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the range of services that may be required to support positive mental health in children and young people.
+  -
+    title: The range of services that may be required to support positive mental health
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some of the services that may be required to support positive mental health in children and young people.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Help and Advice
+          text: |
+            GP’s can be an initial source of help and advice and refer children and young people to specific professionals specific to their needs.
+          img: placeholder_icon.svg
+        -
+          title: CYMPHS
+          text: |
+            Parents, carers and young people can receive support through CYPMHS, the Children and Young People’s Mental Health Services. Most CYPMHS have their own websites, with information about access and referrals and advice.
+          img: placeholder_icon.svg
+        -
+          title: CAMHS
+          text: |
+            ‘Child and Adolescent Mental Health Services’, is the older name for the NHS services that assess and treat young people with emotional, behavioural or mental health difficulties, but some areas still use this term.
+          img: placeholder_icon.svg
+        -
+          title: Specialists
+          text: |
+            Specialists such as psychiatrists, psychologists, therapists, who can help can often be accessed via other services such as charities and CYMPHS or privately.
+          img: placeholder_icon.svg
+        -
+          title: Charities
+          text: |
+            Non-profit organisations or charities, support individuals with mental health issues on a practical level, provide them with advice, and raise awareness of mental health issues through campaigning.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Presenter with images and the actual websites with narration_
+      
+      Please watch this video to find out more information about the range of services that are available.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+  -
+    title: Quick quiz
+    copy: Now you have watched the video, please complete the statements below by selecting the correct option from the drop-down list.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one - CYMPHS 
+          answer: CYMPHS 
+        -
+          sentence: example two - Youngminds
+          answer: Youngminds
+        -
+          sentence: example three - MIND
+          answer: MIND
+        -
+          sentence: example four - Stem4
+          answer: Stem4
+    theme: i-quiz

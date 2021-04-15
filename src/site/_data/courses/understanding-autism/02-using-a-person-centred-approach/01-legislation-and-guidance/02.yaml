@@ -1,0 +1,118 @@
+title: Legislation and guidance
+intro: |
+  In this session we will look at how legislation and guidance underpins support for individuals with autism.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the key points of current legislation and guidance.
+  -
+    title: The key points of legislation and guidance
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the key points of legislation and how they relate to Autism in the following slides.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Autism Act
+          text: |
+            The Autism Act of 2009 makes provision for the needs of adults on the autism spectrum and is the first ever disability specific legislation to be passed in the UK. It has brought about changes in the way those with Autism access support.
+          img: placeholder_icon.svg
+        -
+          title: Equality Act
+          text: |
+            The Equality Act of 2010 combined previous anti-discrimination laws into one. It provides a legal framework to protect the rights of individuals and promote equal opportunities for everyone. It makes clear what public, private and voluntary sectors must legally do to ensure that people with protected characteristics such as a learning disability are not disadvantaged.
+
+          img: placeholder_icon.svg
+        -
+          title: Mental Capacity Act
+          text: |
+            The Mental Capacity Act of 2005 (MCA) provides a framework to protect people who may lack capacity to make some decisions for themselves. To be able to make a decision, a person has to be able to understand and retain the relevant information. Individuals can have a ‘capacity assessment’ the purpose which is not to judge the decision a person makes but is to determine whether a person is able to make the decision.
+          img: placeholder_icon.svg
+        -
+          title: Human Rights Act
+          text: |
+            The Human Rights Act of 1998 sets out the fundamental rights and freedoms that everyone in the UK is entitled to. The Act requires all public authorities such as government departments, councils, hospitals, the police etc to act in a way which respects and protects an individual’s human rights, regardless of whether they have a learning disability or not.
+
+          img: placeholder_icon.svg
+        -
+          title: ‘Fulfilling and Rewarding Lives’ and ‘Think Autism’
+          text: |
+            In 2010 the Government set out a strategy with a built in reviews for meeting the needs of adults on the autism spectrum by improving the provision of services by local authorities and the NHS. This strategy ‘Fulfilling and Rewarding Lives’ aimed to improve outcomes for adults with autism and was updated with ‘Think autism’ in 2014 and called for a society and cultural shift so that equality and human rights of those with autism are respected.
+          img: placeholder_icon.svg
+        -
+          title: Care Act
+          text: |
+            The Care Act 2014 as well as expanding on previous guidance from 2010 expands on the responsibilities of local authorities and the NHS, for example, giving guidance on the different levels of training, preventative support and safeguarding, equality, supporting people with autism and complex needs, employment and criminal justice.
+
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline how legislation and guidance can be used to support individuals with autism.
+  -
+  -
+    title: How does Legislation and Guidance support individuals with Autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      All the major pieces of legislation and guidance we have discussed underpin support for individuals with autism but we need to go further into the laws and strategies that are autism specific. Social care, health and equality legislation apply to people with autism as with anyone else, but have not been used with sufficient consistency to support them in practice.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - one presenter with titles for each topic and images to illustrate each point _
+      
+      Let’s look further at how the acts and guidance are there to support individuals with Autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The Autism Act was the first ever disability specific legislation to be passed in the UK.
+          answer: Autism Act
+        -
+          sentence: The Human Rights Act sets out the fundamental rights and freedoms that everyone in the UK is entitled to. 
+          answer: Human Rights Act
+        -
+          sentence: The Care Act gives guidance and supports local authorities and the NHS.
+          answer: Care Act
+        -
+          sentence: The Equality Act makes clear what public, private and voluntary sectors must legally do to ensure that people with protected characteristics such as a learning disability are not disadvantaged.
+
+          answer: Equality Act
+    theme: i-quiz
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
