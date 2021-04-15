@@ -24,7 +24,7 @@ sections:
             GP’s can be an initial source of help and advice and refer children and young people to specific professionals specific to their needs.
           img: placeholder_icon.svg
         -
-          title: CYMPHS
+          title: CYPMHS
           text: |
             Parents, carers and young people can receive support through CYPMHS, the Children and Young People’s Mental Health Services. Most CYPMHS have their own websites, with information about access and referrals and advice.
           img: placeholder_icon.svg
@@ -36,7 +36,7 @@ sections:
         -
           title: Specialists
           text: |
-            Specialists such as psychiatrists, psychologists, therapists, who can help can often be accessed via other services such as charities and CYMPHS or privately.
+            Specialists such as psychiatrists, psychologists, therapists, who can help can often be accessed via other services such as charities and CYPMHS or privately.
           img: placeholder_icon.svg
         -
           title: Charities
@@ -82,8 +82,8 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one - CYMPHS 
-          answer: CYMPHS 
+          sentence: example one - CYPMHS 
+          answer: CYPMHS 
         -
           sentence: example two - Youngminds
           answer: Youngminds

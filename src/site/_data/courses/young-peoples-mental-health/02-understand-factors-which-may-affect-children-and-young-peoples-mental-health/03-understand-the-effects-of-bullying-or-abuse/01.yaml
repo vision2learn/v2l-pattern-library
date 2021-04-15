@@ -51,7 +51,7 @@ sections:
         -
           title: Sexual abuse
           text: |
-            Sexual Abuse is forcing or tricking a child or young person in to sexual activities. Often they are too young to know what is happening and that it’s wrong. Sexual abuse can also involve ‘child sexual exploitation', ‘grooming’, and ‘child trafficking’. When a child or young person is exploited they're given things, in exchange for performing sexual activi-ties. Grooming involves being tricked into thinking they are in a loving relationship either in person or online. Children and young people can be trafficked into or around the country to be sexually exploited using intimidation.
+            Sexual Abuse is forcing or tricking a child or young person in to sexual activities. Often they are too young to know what is happening and that it’s wrong. Sexual abuse can also involve ‘child sexual exploitation', ‘grooming’, and ‘child trafficking’. When a child or young person is exploited they're given things, in exchange for performing sexual activities. Grooming involves being tricked into thinking they are in a loving relationship either in person or online. Children and young people can be trafficked into or around the country to be sexually exploited using intimidation.
 
           img: placeholder_icon.svg
         -
@@ -65,7 +65,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 3.2 and 3.3
+      In your assessment you will be required to state different ways bullying can occur; and explain why some children or young people may be more vulnerable to abuse and/or bullying.
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -73,7 +73,10 @@ sections:
     copy: |
       _2 presenters that are different to each other with images to support content._
       
-      Please see the following video on different ways bullying can occur 3.2 and 3.3.
+      Not all bullies are the same and each one has a different style and uses different tactics to intimidate and control their victims. Some are very sly while others are really mean. There are also many more types of bullying than the standard physical bullying or name-calling that most people think of.
+
+      Lets have a look in this video at the different ways bullying can occur and how some are more vulnerable.
+
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -84,18 +87,6 @@ sections:
         _LO or exercise - must relate to the video._
 
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: OPTIONAL item - Only one of the quizzes to be used if at all

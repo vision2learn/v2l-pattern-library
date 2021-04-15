@@ -73,21 +73,53 @@ sections:
   -
   -
     title: Case study
-    layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      _Case study - am example of a high functioning ASD individual that maintains a successful and high profile career without others being aware of their diagnosis - relates to the discussion in the video._
+      ### Case study - Greta Thunberg
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      Let’s now look at a case study which highlights why Autism should not be seen as a disability. 
+      
+      Many high profile creative and pioneering individuals of the past show signs of being on the autism spectrum to some degree but this cannot be verified, however a current prominent figure and environmental activist in the world today, who can be verified, is Swedish teen activist Greta Thunberg, and she is now quite open about her autism spectrum disorder diagnosis.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Step outside of your comfort zone and make a difference
+          copy: |
+            Greta started protesting at the age of 15, about climate crisis, and developed an unprecedented global movement in 2018. She is known worldwide as the public face of the ‘school climate strike movement’ and has spoken about her Asperger’s syndrome diagosis after she was criticised over the condition.
+
+            She said on Twitter that before she started her climate action campaign she had; “no energy, no friends and I didn’t speak to anyone. I just sat alone at home, with an eating disorder.”
+
+            She also wasn’t open about her diagnosis in the beginning as she knew people would see it as a negative. However, Greta doesn’t view herself as having a disability, but instead she has a different way of seeing something.
+
+            While acknowledging that her diagnosis has limited her in the past, Greta tweets “I have Asperger’s and that means I’m sometimes a bit different from the norm,” and she sees being different as having a “superpower”.
+
+            For many Greta Thunberg’s diagnosis of Asperger’s Syndrome has not lowered their opinion of her and the qualities and characteristics that she exudes simply make her who she is.
+
+            Today she inspires people around the world, young and old, with or without autism, to step outside their comfort zone and make a difference.
+
+          img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Discussion on how discrimination can occur inadvertently in society
+        
+        Let’s look at some of the ways a person could be discriminated against because of their autism spectrum disorder.
 
-        Instructions to related to the discussion in the video.
+        possible choices or points for discussion:
+          
+        a)“further expanded discussion on Greta Thunberg”
+
+        b)“ autism should be seen not as a disability,”
+
+        c)“once someone is labelled as having a ‘disability’ such as ‘Autism spectrum disorder’ they are automatically in some people’s eyes seen as ‘disabled’ and not capable.”
+
+        d)“This is just pure discrimination as there are so many people, especially high function-ing ASD individuals today that maintain successful and high profile careers without oth-ers being aware of their diagnosis.”
+
   -
   -
     title: Quick quiz
