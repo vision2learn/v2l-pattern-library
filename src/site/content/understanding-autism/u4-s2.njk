@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 2,
+  pagination: {
+    data: "courses['understanding-autism']['04-sensory-processing-perception-and-cognition']['02-recognise-and-support-sensory-needs']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

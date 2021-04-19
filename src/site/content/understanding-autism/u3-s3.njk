@@ -1,0 +1,17 @@
+---js
+{
+  unit: 3,
+  session: 3,
+  pagination: {
+    data: "courses['understanding-autism']['03-communication-and-social-interaction']['03-strategies-to-support-communication-and-social-interaction']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

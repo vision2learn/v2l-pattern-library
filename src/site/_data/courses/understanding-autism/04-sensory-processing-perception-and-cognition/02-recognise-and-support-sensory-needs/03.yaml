@@ -1,0 +1,81 @@
+title: Sensory differences and dietary preferences
+intro: |
+  intro
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline how sensory differences may have an influence on an individual’s dietary preferences.
+  -
+    title: Reveals
+    theme: t-bg-primary
+    copy: |
+      Let’s look at how sensory differences may have an influence on an individual’s dietary preferences.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Sensory differences
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Environment
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Smells and Taste
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style Narrater with images and video clips_
+
+      Please watch this video for more information
+    video: placeholder_pc.mp4
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to support the dietary preferences of individuals with autism.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - standard style - Presenter(s) with images and video clips_
+
+      ### How to support the dietary preferences of individuals with autism
+
+      Watch this video to learn more about how to support the dietary preferences of individuals with autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

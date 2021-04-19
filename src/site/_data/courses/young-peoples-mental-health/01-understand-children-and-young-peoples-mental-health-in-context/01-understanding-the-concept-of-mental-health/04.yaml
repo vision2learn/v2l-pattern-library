@@ -1,7 +1,7 @@
 title: Prevalence of mental health problems
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this section we are going to look at the prevalence of mental health problems amongst children and young people.
+banner: ypmh_u1_s1_p4_prevalence.jpg
 sections:
   -
     title: Key point
@@ -13,18 +13,16 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Topic introduction text here 
+      More children and young people have problems with their mental health today than 30 years ago and that’s more than likely down the changes in how lives are lived and awareness in mental health issues.  Many of the risk factors for mental health problems in children and young people are based on inequality which may be social, economic or environmental and these inequalities can make them vulnerable to developing a mental health problem.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u1_s1_p4_image1.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style with statistics e.g. A presenter with statistics appearing to the side_
-      
-      Please see the following video on the prevanlence of mental health problems in children and young people.
-    video: placeholder_pc.mp4
+      Please watch the following video showing up to date data about the prevalence of mental health problems in children and young people.
+    video: ypmh_u1_s1_p4_prevalence_of_mental_health.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -42,20 +40,23 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Sleep problems aren't prevalent with mental ill health":
+          answers:
+            True: false
+            False: true
+        Is the following statement true or false? "Family breakup can affect mental health":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        Is the following statement true or false? "50 percent of lifetime mental health problems start in the mid teens":
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            True: true
+            False: false
+        Is the following statement true or false? "Emotional well being is not as important as physical wellbeing":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            True: false
+            False: true
+        Is the following statement true or false? "Social media always gives good advice on mental health ":
+          answers:
+            True: false
+            False: true

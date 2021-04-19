@@ -1,8 +1,6 @@
 title: Society's view of mental health
 intro: |
-  intro text 
-  
-  In this session you will learn about   
+  In this session you will learn about how society views mental health, including social and cultural attitudes, and media and discrimination.
 banner: placeholder.jpg
 sections:
   -
@@ -29,7 +27,7 @@ sections:
           text: |
             Prejudice is a ‘pre-formed’ negative judgment or attitude leading to views that certain individuals or groups are inferior. This can lead to stereotyping and discrimination from others. People without a mental illness can often feel fear, anxiety and avoidance from those who do. People with mental illness can sometimes anticipate this and feel rejection and discrimination and therefore impose stigma upon themselves.
 
-          img: placeholder_icon.svg
+          img: ypmh_u1_s3_p1_slide1.svg
         -
           title: Discrimination
           text: |
@@ -37,49 +35,52 @@ sections:
             
             Actions must be taken to redress the social exclusion of people with mental illness, and use the legal measures intended to support all disabled people such as the Disability Discrimination Act to address this.
 
-          img: placeholder_icon.svg
+          img: ypmh_u1_s3_p1_slide2.svg
         -
           title: Stigma
           text: |
-            Stigma projects the fear and anxiety felt by people onto the person with the diagnosis of mental ill health and ‘shows a mark of disgrace’ associated with a particular person, ill-ness or disorder. Social stigma is the discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. The concept of stigma helps in understanding of experiences of social exclusion, but does not give the whole picture and show what is needed to promote social inclusion. 
+            Stigma projects the fear and anxiety felt by people onto the person with the diagnosis of mental ill health and ‘shows a mark of disgrace’ associated with a particular person, illness or disorder. Social stigma is the discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. The concept of stigma helps in understanding of experiences of social exclusion, but does not give the whole picture and show what is needed to promote social inclusion. 
 
-          img: placeholder_icon.svg
+          img: ypmh_u1_s3_p1_slide3.svg
         -
           title: Stereotyping
           text: |
             Stereotyping is fuelled by ignorance and is an obstacle to competent communication, it is ignorance or the lack of correct information that means many people have little knowledge about mental illnesses. To combat this there is a pressing need to convey more useful information, for example about how to recognise the features of mental illness and where to get help.
 
-          img: placeholder_icon.svg
-        -
-          title: Common
-          text: |
-            Mental health problems are very common and can affect thousands of people at some time in their life directly or indirectly. Most people who experience mental health prob-lems recover fully, or are able to live with and manage them, especially if they get help early on. 
-          img: placeholder_icon.svg
+          img: ypmh_u1_s3_p1_slide4.svg
         -
           title: Strong social stigma
           text: |
-            But even though so many people are affected, there is still a strong social stigma at-tached to mental ill health.  Many people's problems are made worse by the stigma and discrimination they experience from society, but also from families, friends and employ-ers.
+            But even though so many people are affected, there is still a strong social stigma attached to mental ill health.  Many people's problems are made worse by the stigma and discrimination they experience from society, but also from families, friends and employers.
             
             People with mental health problems say that the stigma attached to mental ill health and the discrimination they experience can make their difficulties worse and make it harder to recover. So stigma and discrimination can trap people in a cycle of illness.
 
-          img: placeholder_icon.svg
+          img: ypmh_u1_s3_p1_slide5.svg
+        -
+          title: Recover fully
+          text: |
+            Mental health problems are very common and can affect thousands of people at some time in their life directly or indirectly. Most people who experience mental health problems recover fully, or are able to live with and manage them, especially if they get help early on. 
+          img: ypmh_u1_s3_p1_slide6.svg
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Mental health problems are very common.   
+          answer: common
         -
-          sentence: example two
-          answer: two
+          sentence: Stereotyping comes from ignorance. 
+          answer: ignorance
         -
-          sentence: example three 
-          answer: three
+          sentence: Peoples problems are made worse by stigma.
+          answer: stigma
         -
-          sentence: example four
-          answer: four
+          sentence: People can recover from mental health.
+          answer: recover
+        -
+          sentence: Discrimination is often the outcome of prejudice.
+          answer: prejudice
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -90,17 +91,16 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Topic introduction text here
-
+      Our perception of Mental health has been transformed over the last seventy years or more, with the closure of the old asylums, moving care into the community and the increasing the use of counselling and talking therapies. These have had a positive im-pact on mental health care for all ages.
     img: /images/svg/ypmh/placeholder_icon.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Lots of images showing how attitudes have changed over time_
+      _Lots of images showing how attitudes have changed over time - narrator, maybe with icons that represent times_
 
-      Please see the following video about 3.2 attitudes over time.
+      Please watch the following video showing how attitudes to mental health have changed over time. 
     video: placeholder_pc.mp4
   -
     title: Key point
@@ -112,9 +112,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Scenario based_
+      _Scenario based - for example an image or icon of child, lots of different images or icons of changes surrounding central image of child? or something else if that works better with the content, with narrator._
       
-      Please see the following video - 3.3 perception - about social and cultural attitudes 3.3.
+      Let’s look at a video showing how changes in social and cultural attitudes towards men-tal health can affect a child or young persons perception of their own mental health.
     video: placeholder_pc.mp4
   -
     title: Time to think

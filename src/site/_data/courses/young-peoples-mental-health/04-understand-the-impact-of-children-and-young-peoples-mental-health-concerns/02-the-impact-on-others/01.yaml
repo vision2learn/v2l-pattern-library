@@ -1,0 +1,93 @@
+title: The impact of mental health problems on others
+intro: |
+  In this session you will learn about the impact of children and young people’s mental health problems on others, the range of services available and social attitudes.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Impact on others of living with a child or young person with mental health concerns
+      *	Range of services that may be required to support positive mental health
+      *	How cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the impact on others of living with a child or young person with mental health concerns.
+  -
+    title: The impact of mental health problems on others
+    theme: t-bg-primary
+    copy: |
+      Let’s first look at the impact on others, when living with a child or young person with mental health concerns.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physical health
+          copy: |
+            Having a family member with a mental health concern can cause physical health problems for others in the family.
+          img: placeholder_icon.svg
+        -
+          title: Behavioural issues
+          copy: |
+            Sibling’s behaviour may be affected, as they may not understand why they get less attention or are missing out on things.
+          img: placeholder_icon.svg
+        -
+          title: Parental disharmony
+          copy: |
+            Parents may blame each other and cause more disharmony or even breakup.
+          img: placeholder_icon.svg
+        -
+          title: Family withdrawal
+          copy: |
+            The family may stop socialising due to worries about the views of others.
+          img: placeholder_icon.svg
+        -
+          title: Guilt
+          copy: |
+            A parent or sibling may wrongly feel it is all their fault.
+          img: placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - one presenter with text points to the side - appearing as spoken about - for example the second paragraph reads "When a family member such as a child or a sibling has mental health concerns can be an extremely stressful time and may in turn create health problems such as headaches, loss of appetite, fatigue, and insomnia for others in the family." - list the words headaches, loss of appetite, fatigue, insomia - then the third paragraph - anxiety, depression, guilt anger, etc. Images too support._
+      
+      Watch the video to look at the impact it can have on others in the family in more detail.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

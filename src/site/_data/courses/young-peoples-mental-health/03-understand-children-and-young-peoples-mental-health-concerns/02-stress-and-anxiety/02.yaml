@@ -1,0 +1,78 @@
+title: Resilience and stress
+intro: |
+  On this page we will look at the relationship between resiliance, stress and anxiety; plus how stress can be both helpful and harmful.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the relationship between resilience and stress.
+  -
+    title: Resilience, stress and anxiety
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about the relationship between resilience stress and anxiety.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Stress
+          text: |
+            Most people experience stress and anxiety at some point in their lives and this varies depending the age of the person and on the level of severity but they can detrimentally impact on ‘quality of life’. Generally, stress is a response to an external cause whereas anxiety is often caused as a reaction to stress. 
+          img: placeholder_icon.svg
+        -
+          title: Anxiety
+          text: |
+            Anxiety is typically a persistent feeling of apprehension even when the situation is not threatening or the stressor has gone. Anxiety can also progress to further problems affecting general health and wellbeing such as creating phobias, panic attacks and obsessive compulsive disorder.
+          img: placeholder_icon.svg
+        -
+          title: Resilience
+          text: |
+            Resilience is the ability to adapt well and recover quickly from stress, adversity, trauma or tragedy. It helps a child or young person to adapt to adversity without lasting difficulties and those who deal with minor stresses are more likely to be able to handle major crises with greater ease. Refer back to unit 1 to find out more about how resilience can help.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain why stress can be both helpful and harmful.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Two presenters - one 'good stress' the other 'bad stress', Show Text title for different topic, images to support_
+      
+      Let’s have a look at how stress can be helpful as well as harmful in the video below.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+    title: Quick quiz
+    copy: Take a look at the statements below and choose from the drop-down list if it is 'Good' or 'Bad' stress.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Good stress is more likely to result in positive outcomes if it is seen as a challenge or something to strive to overcome and therefore can help motivate. 
+          answer: Good stress
+        -
+          sentence: The more success children and young people have with dealing with stress; the more confident and in-control they’ll feel and when they are feeling successful, they don’t experience Bad stress. 
+          answer: Bad stress
+        -
+          sentence: Bad stress happens when a threatening situation goes on and on, and that can erode confidence and may seem overwhelming. 
+          answer: Bad stress
+        -
+          sentence: Good stress is more likely to result in positive outcomes if it is seen as a challenge or something to strive to overcome and therefore can help motivate. 
+          answer: Good stress
+    theme: i-quiz

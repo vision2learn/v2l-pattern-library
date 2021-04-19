@@ -1,0 +1,101 @@
+title: Services and treatment involved
+intro: |
+  In this session you will learn about services and treatments involved in the care of children and young people’s mental health.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Range of services and professionals involved in supporting children and young people’s mental health
+      * The importance of early intervention, support and treatment
+      * What is meant by ‘Care Programme Approach’ CPA
+      * Therapies that could be used to treat a child or young person experiencing mental health problems
+      * Types of medication used to treat children and young people experiencing mental 
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify a range of services and professionals involved in supporting children and young people’s mental health.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Presenter with video clips/images - could include logos as well e.g. NHS. Use text to the side when referring to services e.g. CYPMHS; 'These services may be provided by a GP surgery, a large local health centre, a specialist mental health clinic or a hospital.' etc_
+      
+      ### Range of Services and professionals involved
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of early intervention, support and treatment.
+  -
+  -
+    title: Early intervention
+    theme: t-bg-primary
+    copy: |
+      Let’s look at why early intervention is important, please scroll through the information below.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Mentally healthy
+          text: |
+            Most children grow up mentally healthy, but surveys suggest that more children and young people are having problems with their mental health than 30 years ago, probably due to the changes in the way we live today. 
+          img: placeholder_icon.svg
+        -
+          title: Long term consequences
+          text: |
+            Early intervention can help support a child or young person who is experiencing or demonstrating any of the early symptoms of mental illness, reducing its progress and improving their mental well-being for the future warding off potential long-term consequences.
+          img: placeholder_icon.svg
+        -
+          title: Infants or children
+          text: |
+            Early intervention can include the identification of infants or children with a higher risk of developing mental illness or severe behavioural and developmental disturbances.
+          img: placeholder_icon.svg
+        -
+          title: Adolescents
+          text: |
+            For adolescents, mental illness is a significant risk factor for not completing school and subsequent study, and for longer-term mental and physical health outcomes as well as impacting on their families, friends and others around them.
+          img: placeholder_icon.svg  
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe outline what is meant by ‘Care Programme Approach’ (CPA).
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - two presenters with video clips/images_
+      
+      ### What is meant by ‘Care Programme Approach’
+
+      The Care Programme Approach or CPA, is used in secondary specialist mental health services which are part of the NHS to assess needs and then plan, implement and evaluate the care that is needed let’s look at this in more detail.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._

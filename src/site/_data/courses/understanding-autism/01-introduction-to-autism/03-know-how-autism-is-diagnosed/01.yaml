@@ -1,6 +1,7 @@
 title: Know how autism is diagnosed
 intro: |
-  intro text
+  In this session you will learn about the process for diagnosing Autism and why some may be reluctant to seek diagnosis. Let’s start by first looking at the guidelines for diagnosis.
+
 banner: placeholder.jpg
 sections:
   -
@@ -8,26 +9,55 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * Guidelines for diagnosis of autism
-      * Difficulties surrounding the diagnosis of autism
-      * Reluctance to get a diagnosis
-      * Importance of formal diagnosis
-      * Prevalence of autism in the UK
+      * The current guidelines for the diagnosis of autism in the UK
+      * The difficulties surrounding the diagnosis of autism
+      * Why people may be reluctant to seek a diagnosis
+      * Why it is important for individuals to have a formal diagnosis
+      * The prevalence of autism in the UK
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to outline the current guidelines for the diagnosis of autism in the UK.
   -
-    title: Guidelines for diagnosis of autism
-    layout: media
+    title: Current guidelines
     theme: t-bg-primary
     copy: |
-      If an adult (or child) has symptoms they (or the parent if a child) can approach a GP or get in touch with the National Autistic society. They will refer them to the correct autism specialists for full assessment. 
-      
-      There is no actual ‘medical’ test but diagnosis is made with a comprehensive behaviour evaluation and developmental screening.
+      There are a number of tools which are used to diagnose individuals who might be autistic and they usually rely on descriptions of behaviour and direct observation. let’s look at the current guidelines.
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Autism referral
+          text: |
+            If parents or carers feel a child or young adult has symptoms of Autism they need to speak to someone about it.  They can approach a GP, health visitor, another health pro-fessional they see or a SENCO at school. If an adult has symptoms they should still ap-proach a GP or get in touch with the National Autistic society. They will be referred to the correct autism specialists for full assessment.
+          img: placeholder_icon.svg
+        -
+          title: Diagnostic Interview
+          text: |
+            The ‘Diagnostic Interview for Social and Communication Disorders’ (DISCO)  is a detailed, semi-structured interview designed to look at a person's development, behav-iour and skills since birth, It is for use with children, young people and adults of any age. It allows allows the clinician to advise on a working diagnosis to help develop a care plan or management programme. It should be used in conjunction with psychological assessments, observation and any other sources of reliable information.
+
+          img: placeholder_icon.svg
+        -
+          title: Autism Diagnostic Observation Schedule
+          text: |
+            The ‘Autism Diagnostic Observation Schedule’ (ADOS) is a semi-structured, standard-ised assessment of communication, social interaction, and play or imaginative use of ma-terials for individuals who have been referred because of possible autism. It is not based on developmental data and only looks at current behaviour and skills, from toddlers to adults, from individuals with no speech to those who are verbally fluent
+
+          img: placeholder_icon.svg
+        -
+          title: Autism Diagnostic Interview - Revised
+          text: |
+            The ‘Autism Diagnostic Interview - Revised’ (ADI-R) is a clinical diagnostic instrument for assessing autism in children and adults. It focuses on behaviour in three main areas: social interaction; communication and language; and restricted and repetitive, stereo-typed interests and behaviours. It is appropriate for children and adults with mental ages from about 18 months and above.
+
+          img: placeholder_icon.svg
+        -
+          title: Conclusion
+          text: |
+            These assessment tools, forms the basis for diagnosis, but also the judgement of the individual clinician is crucial.  They can recommend support of different levels such as regular substantial and very substantial. This allows them to give an indication of how much someone’s condition affects them and how much support an individual needs.
+
+          img: placeholder_icon.svg
   -
   -
     title: Key point
@@ -36,32 +66,20 @@ sections:
       In your assessment you will be required to describe the difficulties surrounding the diagnosis of autism.
   -
   -
-    title: Difficulties surrounding the diagnosis of autism
+    title: The difficulties surrounding the diagnosis of Autism
+    layout: media
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about the difficulties surrounding the diagnosis of autism in relation to:
+      It's not always easy to get an autism assessment. Waiting times can also be very long. If a person finds it hard to get an assessment they can approach the National Autistic Society who can give advice about options, including private assessments. There is no actual ‘medical’ test but diagnosis is made with a comprehensive behaviour evaluation and developmental screening.
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Formal diagnosis
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: The range of different diagnoses on the spectrum
-          text: |
-            text
-          img: placeholder_icon.svg
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Narrator, Infographics (e.g. questionnaire, Doctor icon, report, online test etc) - arrows showing path of getting a diagnosis?_
       
       Please see the following video about guidelines for diagnosis and difficulties surrounding those diagnosis.
     video: placeholder_pc.mp4

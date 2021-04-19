@@ -1,0 +1,142 @@
+title: Cognitive differences in processing information
+intro: |
+  In this session you will learn about the difficulties individuals with autism have in processing information and strategies that can be used to help them.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Difficulties an individual with autism may have processing information 
+      * Strategies to support an individual with autism to complete activities and tasks
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to Outline the difficulties an individual with autism may have with:
+      * processing information
+      * predicting the consequences of an action
+      * organising, prioritising and sequencing
+      * understanding the concept of time
+  -
+    title: Processing information
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn about the difficulties an individual with autism may have processing information.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Processing information
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Consequences of an action
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Organising and prioritising
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Sequencing
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Concept of time
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Let’s look at some of the difficulties individuals with autism have in processing information.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe strategies that could be used to support an individual with autism to complete activities/tasks.
+  -
+  -
+    title: Strategies to help
+    theme: t-bg-primary
+    copy: |
+      There are many different strategies people with autism can use to overcome their issues with processing information. Here are some ways in which people with autism spectrum disorder can organise and prioritise their daily activities and tasks. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Visual supports
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: colour coding
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Voice recording
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Lists
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Alarms and alerts
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Times of day, days of the week
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Let’s have look at this in a bit more detail in this video.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Managing money- Offered by MoneySuperMarket.com in association with the National Autistic Society, computer programmes, calendars and personal organiser apps._
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

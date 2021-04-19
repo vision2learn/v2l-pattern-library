@@ -1,0 +1,95 @@
+title: Understand depression in children and young people
+intro: |
+  In this session you will learn about Depression in children and young people, the signs, symptoms and causes and how this affects them.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Definition of the term depression
+      * The difference between low mood and depression
+      * Possible causes of depression for children and young people
+      * How to recognise signs that a child or young person could be depressed
+      * Examples of how depression may affect children and young people
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define the term ‘depression'.
+  -
+    title: What is depression?
+    theme: t-bg-primary
+    copy: |
+      What is exactly is depression? Depression is an extremely low mood that lasts for a long time, and affects everyday life. Let’s look at a few facts about Depression, look through the following slides to find out more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Mildest form
+          text: |
+            In its mildest form, depression can mean just being in low spirits and doesn't stop an individual leading a normal life but it does make things seem less worthwhile and harder to do. 
+          img: placeholder_icon.svg
+        -
+          title: Severe depression
+          text: |
+            When extremely severe, depression can be life-threatening causing an individual to withdraw from everything and even feel suicidal. 
+          img: placeholder_icon.svg
+        -
+          title: Long term problem
+          text: |
+            Depression does not only affect adults. Children and young people can get depressed too. It's important for a  child or young person to get help early if they think they may be depressed. The longer it goes on, the more likely it is to turn into a long-term problem and potential continue into adulthood.
+
+          img: placeholder_icon.svg
+        -
+          title: Who it affects
+          text: |
+            Depression is thought to occur in around 3 percent of children and young people. Anybody can suffer from depression and it happens in people of all ages, races, income levels and educational levels. Teenage girls are twice as likely as teenage boys to be depressed.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difference between low mood and depression.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Two presenters - one 'low mood' the other 'depression' alternate points with some images to support content - Show Text title for different topic_
+      
+      Let’s watch a video about the difference between low mood and depression.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Most young people experience ups and downs during their childhood and teenage years and occasionally will feel down or upset by certain things going on in their lives. 
+          answer: ups and downs
+        -
+          sentence: A low mood will tend to improve after a short time especially if the child or young person makes changes to resolve their problems, by discussing them, facing them head on or even getting more sleep.
+          answer: low mood
+        -
+          sentence: If children and young people are able to challenge their negative thoughts and replace them with positivity, they are more likely to improve their mood.
+          answer: positivity
+        -
+          sentence: When a low mood doesn’t go away and just gets worse, that it becomes depression.
+          answer: depression
+    theme: i-quiz

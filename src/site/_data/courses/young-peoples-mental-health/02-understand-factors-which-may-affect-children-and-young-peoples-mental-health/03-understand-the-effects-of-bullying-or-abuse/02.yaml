@@ -1,0 +1,124 @@
+title: Witnessing abuse or bullying, mental health and well being
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe how witnessing abuse or bullying directed at others may affect a child or young person. 
+  -
+  -
+    title: Witnessing abuse or bullying
+    theme: t-bg-primary
+    copy: |
+      _Placeholder - This could either be reveals, a slider or single section element_
+
+      Witnessing abuse or bullying
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how abuse or bullying directed at a child or young person may affect their mental health and well-being. 
+  -
+  -
+    title: The Effects of Bullying
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      How does bullying affect children and young people and why are some more vulnerable to it. The effects of bullying can last into adulthood and at its worst, bullying can cause children and young people to self-harm and eventuate their own lives.There are no sure indicators that someone is being bullied but there are tell tale signs and some seem more vulnerable than others.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Narrator with short video clips showing examples of each point_
+      
+      Please see the following video on the effects of bullying - 3.5?.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: OPTIONAL item - Only one of the quizzes to be used if at all
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
