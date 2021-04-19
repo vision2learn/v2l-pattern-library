@@ -1,35 +1,47 @@
-title: Hypersensitivity and Hyposensitivity
+title: Balance and body awareness
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to define what is meant by hypersensitivity and hyposensitivity.
+      In your assessment you will be required to outline why individuals with autism may experience balance difficulties (vestibular sense).
   -
-    title: What is meant by Hypersensitivity and Hyposensitivity?
-    layout: media
+    title: Balance and body awareness difficulties
     theme: t-bg-primary
     copy: |
-      Hypersensitivity is when individuals are extremely reactive to sensory stimulation to the extent that they may find stimuli overwhelming. Lights can be too bright or sounds that would not bother others, can cause them to cover their ears. Hyposensitivity is the opposite and involves individuals being under-sensitive to stimulation with decreased sensitivity to sensory input. Individuals have a harder time stimulating their senses than normally.
+      Let’s look at 2 other senses that are affected by Hyposensitivity and Hypersensitivity.
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Experiencing balance difficulties
+          text: |
+            Vestibular sense or balance can cause a range of problems depending on whether the individual is ‘hyposensitive’ or ‘hypersensitive. Those who are hyposensitive or under sensitive, often need to rock, swing or spin to gain some sensory input.  Using toys like rocking horses swing and roundabouts can help with children and an adult could use a rocking chair. Hypersensitive individuals struggle with activities like sport where they need to control their movements, they may also have problems changing direction quickly and suffer from motion sickness.
+          img: placeholder_icon.svg
+        -
+          title: Experiencing Body Awareness difficulties
+          text: |
+            Proprioception or Body awareness can also cause a range of different problems depending on whether the individual is ‘hyposensitive’ or ‘hypersensitive. Hyposensitive individuals stand very close to others and cannot judge personal space they also find it hard to avoid obstructions and navigate their way around spaces often bumping into people or things. Hypersensitive individuals may have problems with fine motor skills like tying shoes laces or fastening buttons and they may have to move their whole body to look at something.
+          img: placeholder_icon.svg
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to give examples of behaviours that may suggest an individual is hyposensitive or hypersensitive.
+      In your assessment you will be required to explain how individuals with autism may experience difficulties with body awareness (proprioception).
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - standard style - Presenter with images and video clips showing how people react_
+      _Presentation style - interview or discussion about sensory difficulties with either a parent, carer or individual with Autism._
       
-      Let’s look at this in more detail in this video.
+      Let’s listen to someone with Autism’s experience of sensory difficulties.
     video: placeholder_pc.mp4
   -
     title: Time to think
