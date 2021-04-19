@@ -1,0 +1,181 @@
+title: Coping strategies
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * How an individual with autism behaviours can have an impact on them and others
+      * Strategies that can be used in relation to behaviour that challenges 
+      * Ways to support an individual who is anxious and struggling to contain their own behaviour 
+      * How to support individuals to understand their behaviours in terms of events, feelings actions and consequences
+      * How family members can be supported to cope with behaviour that challenges
+      * Sources of support in relation to behaviours that challenge for the individual with autism and their family 
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how an individual with autism’s behaviour can have an impact on them and others.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      ### How behaviours Impact individuals with Autism and Others
+
+      Let’s find out more about how an individual with autism behaviours can have an impact on them and others.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of the following strategies that can be used in relation to behaviour that challenges:
+      * prevention
+      * de-escalation techniques
+      * coping strategies.
+  -
+  -
+    title: Behaviour that Challenges
+    theme: t-bg-primary
+    copy: |
+      ‘Behaviour that challenges’ is made up of a range of behaviours which some people with autism may display to get needs met and may put themselves or others at risk.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physically challenging behaviours
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Self-injury
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Emotionally challenging behaviours
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Destructive behaviours
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: PICA - Eating inedible objects
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Other behaviours
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Strategies for behaviour that challenges
+    theme: 
+    copy: |
+      Let’s look at some of the strategies that can be used in relation to behaviour that challenges.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Prevention strategies
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: De-escalation techniques
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Coping strategies
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Let’s watch a video about preventing, de-escalating and coping with behaviour that is challenging.
+    video: placeholder_pc.mp4
+  -
+  
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

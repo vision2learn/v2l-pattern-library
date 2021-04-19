@@ -1,77 +1,57 @@
-title: TEMPLATE PAGE
+title: Prompt dependencies and obsessions
 intro: |
-  intro text
+  Let’s look at prompt dependency and what approaches can be used to reduce prompt dependency in individuals with autism.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to outline the approaches that can be used to reduce prompt dependency in individuals with autism.
   -
-    title: introduction text
+    title: Prompt dependency
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
+      Prompt dependency is a type of behaviour where an individual relies on being told what to do by a parent or caregiver. It becomes a problem when the individual knows exactly what to do but is still waiting for the prompt before taking action. Being dependent on prompts can make it difficult or impossible for them to do things by themselves and in extreme cases even something as necessary as eating or going to the bathroom might not be possible without being prompted to do so.
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
-    theme: t-bg-primary
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
+      _Presentation style .... _
+      
+      Let’s look at this video giving more details into prompt dependency.
+    video: placeholder_pc.mp4
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline strategies to support an individual’s obsessions and special interests.
   -
   -
-    title: slider
+    title: Obsessions and special interests
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      ### Obsessions and special interests and how they can be supported to help with behaviour
+
+      Many individuals with autism have routines, rituals, obsessions and special interests. This behaviour helps them feel less stressed and better able to cope with their surroundings some may have them all, others just one or two.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Rituals
           text: |
-            text
+            Some have rituals like keeping a favourite object in a specific place, and then getting it out to touch at specific times to touch. Others may only drink from a specific cup or eat from a specific plate. 
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Routimes
           text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
+            Daily routines are very important so that they know what is going to happen every day. They might like to eat the same breakfast, leave at the same time and travel the same way, every day and if this is not possible will get upset. 
           img: placeholder_icon.svg
   -
   -
@@ -81,7 +61,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Let’s look at some strategies that can be used to support an individual’s obsessions and special interests.
     video: placeholder_pc.mp4
   -
     title: Time to think

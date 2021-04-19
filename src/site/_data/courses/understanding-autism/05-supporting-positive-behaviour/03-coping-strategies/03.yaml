@@ -1,0 +1,88 @@
+title: Supporting family members
+intro: |
+  On this page you will learn how family members can be supported to cope with behaviour that challenges.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe how family members can be supported to cope with behaviour that challenges.
+  -
+    title: How autism can affect family
+    layout: media
+    theme: 
+    copy: |
+      Having an autistic child or person in the family can cause a great deal of strain on their main carer as well as family members. The main carer might need to spend a lot of time helping and supporting them leaving less time for themselves or for family life. This can be very stressful and exhausting and can impact on the rest of the family and can affect relationships with each other. Siblings of an autistic child are more likely to be asked to manage their own feelings and needs, take on more household tasks, or postpone their own pleasures and may feel that their needs are being neglected or they feel left out. Adult siblings may also need to take on more and more responsibility for an autistic sibling as their parents are less able. If the individual displays challenging behaviour this can only make things worse. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Support for family members
+    theme: t-bg-primary
+    copy: |
+      let’s look at some ways family members can be supported to cope with behaviour that challenges.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Sibling responsibility
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Parent or main carer
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Other family member
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Partners of main carers
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify sources of support in relation to behaviours that challenge for the individual with autism and their family.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      ### Getting specialist help
+
+      Let’s look at some sources of support in relation to behaviours that challenge for the individual with autism and their family.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the below websites where you can learn more: 
+
+        Also, the National Autistic society has a Parent to Parent line on 0808 800 4106, which is a UK-wide confidential telephone service providing emotional support to parents and carers of autistic children or adults. 
+
+      links:
+        challenging behaviour: http://www.challengingbehaviour.org.uk
+        scope: http://www.scope.org.uk
