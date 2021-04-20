@@ -21,7 +21,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - one presenter with images/video clips, if resource allows would be nice to have some animation of a 'checklist' being 'ticked' as presentor talks about each task._
       
       Let’s look at this video giving more details into prompt dependency.
     video: placeholder_pc.mp4
@@ -59,7 +59,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Narrator with images/video clips_
       
       Let’s look at some strategies that can be used to support an individual’s obsessions and special interests.
     video: placeholder_pc.mp4
@@ -77,21 +77,11 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Case study - Special interest
 
-      _Optional item depending on content_
+      _Would like a high profile example of someone with a special interest and how this has been used for positivity_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
