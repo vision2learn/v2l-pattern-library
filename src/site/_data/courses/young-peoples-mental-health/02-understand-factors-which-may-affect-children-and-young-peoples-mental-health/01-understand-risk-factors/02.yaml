@@ -10,7 +10,7 @@ sections:
     copy: |
       In your assessment you will be required to describe how risk factors can impact the mental health of children and young people. 
   -
-    title: Reveals
+    title: Risk factors
     theme: t-bg-primary
     copy: |
       Let’s look at some of the risk factors that may impact the mental health of children and young people. Select the images below to learn more about the risks.
@@ -22,28 +22,28 @@ sections:
           title: Adult responsibilities
           copy: |
             If a child or young person or someone within the family has a long-term physical illness they may have to act as a carer and take on adult responsibilities.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal1.svg
         -
           title: Parent issue
           copy: |
             They may have a parent who suffers from mental health problems or problems with alcohol or substance abuse or have experienced bereavement of someone close.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal2.svg
         -
           title: Family disharmony
           copy: |
             A child who has been exposed to family dis-harmony or divorce, or where homelessness poverty or neglect may have turned their family life upside down or destroyed it.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal3.svg
         -
           title: Abuse
           copy: |
             A child or young person may suffer from physical or sexual abuse from a family member or family friend or even from someone who should be able to be trusted.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal4.svg
         -
           title: Discrimination
           copy: |
             They may have experienced discrimination because of their race, sexuality or religion.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal5.svg
   -
   -
     title: Key point
