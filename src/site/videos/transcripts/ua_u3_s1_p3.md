@@ -1,0 +1,3 @@
+JOE: People with Autism may have difficulties with interpreting verbal information and processing it and in turn have problems communicating verbally themselves. It often helps if the person verbally communicating is precise and sticks to the point. An autistic person finds it difficult to filter out the irrelevancies within a conversation which can create an overland of information. Also other stimuli such as different sounds can also be distracting making it hard to focus on the verbal information. Sometimes the lack of speech comprehension is interpreted by others as an unwillingness to answer or engage with, when in fact the person simply isn’t able to retrieve the meaning at that moment and needs time to respond.
+
+Let’s hear more about this…
