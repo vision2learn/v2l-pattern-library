@@ -1,0 +1,149 @@
+title: Support to maintain personal safety
+intro: |
+  In this session you will learn about how to support individuals with autism to maintain their personal safety against bullying and exploitation and protect themselves from harm and abuse.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Factors that may compromise the personal safety of an individual with autism
+      * Reasons why people with autism may be vulnerable to bullying and exploitation 
+      * How to safeguard against the bullying and exploitation of individuals with autism
+      * Strategies that individuals can use to protect themselves from harm and abuse 
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify factors that may compromise the personal safety of an individual with autism.
+  -
+    title: Factors that may compromise the personal safety of an individual with autism
+    theme: t-bg-primary
+    copy: |
+      Personal safety is a real concern for individuals with autism as most have difficulty communicating, understanding and identifying dangerous situations. Let’s look at some of the factors that may compromise personal safety.
+
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Wandering off
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Safety in the home
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Safety outside
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Sensory porcessing challenges
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Online security
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give reasons why people with autism may be vulnerable to:
+      * bullying
+      * exploitation.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style – Standard format – 2 presenters with video clips to illustrate each point_
+      
+      ### Individuals with autism and their vulnerability to bullying and exploitation 
+
+      Watch this video and learn about why individuals with autism are vulnerable to bullying and exploitation.
+
+    video: placeholder_pc.mp4
+  -
+  -
+    title: This or slides or case study item?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _something extra may be needed here to break up content?_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline ways to safeguard against the bullying and exploitation of individuals with autism.
+  
+  -
+    title: What can be done if an individual is being bullied? 
+    theme: t-bg-primary
+    copy: |
+      The is no definition of bullying in legislation, but bullying can involve	name calling, making fun of spreading rumours threatening or humiliating or taking money or other items from an individual.  Let’s look at some clues for a parent as to whether a child or young person with autism is being bullied.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physical signs
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Changing routines
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Reluctance to do things
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Mood changes
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Concentration issues
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Behavioural issues
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point - may need to break up content if video is too long (over 3 minutes) - could we can do this at the Amends stage?_
+      
+      Let’s look at how to safeguard against bullying and exploitation of individuals with autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._

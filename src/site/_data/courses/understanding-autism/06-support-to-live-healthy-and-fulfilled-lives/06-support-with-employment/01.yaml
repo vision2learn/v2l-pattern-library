@@ -29,7 +29,7 @@ sections:
   -
   -
     title: Reveals
-    theme: t-bg-primary
+    theme: t-bg-supporting2
     copy: |
       _Optional item depending on content_
 
@@ -67,17 +67,27 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: a
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: b
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
           text: |
             text
           img: placeholder_icon.svg
@@ -98,11 +108,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
 
   -
   -

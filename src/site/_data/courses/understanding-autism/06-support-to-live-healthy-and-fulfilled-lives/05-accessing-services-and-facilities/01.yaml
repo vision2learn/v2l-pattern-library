@@ -4,6 +4,14 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * one
+      * two
+      * three
+  -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
@@ -21,7 +29,7 @@ sections:
   -
   -
     title: Reveals
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       _Optional item depending on content_
 
@@ -59,17 +67,27 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: a
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: b
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
           text: |
             text
           img: placeholder_icon.svg
@@ -91,7 +109,32 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
+
   -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Optional item depending on content_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
   -
     title: Case study
     layout: media

@@ -1,21 +1,30 @@
-title: TEMPLATE PAGE
+title: Ways of support and involving others
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
   -
-    title: What you will learn
-    theme: t-bg-primary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
+      In your assessment you will be required to identify ways that individuals can be supported through transitions.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style – Standard format – 2 presenters with video clips to illustrate each point_
+      
+      Ways that individuals can be supported through transitions.
+    video: placeholder_pc.mp4
+  -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe how to involve others in the transition process.
+  -
   -
     title: introduction text
     layout: media
@@ -67,17 +76,27 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: a
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: b
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
           text: |
             text
           img: placeholder_icon.svg
@@ -87,9 +106,12 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style – Standard format – 2 presenters with video clips to illustrate each point_
       
-      Please see the following video on .
+      ### How to involve others in the transition process 
+
+      Let’s look at how to involve others in the transition process. 
+
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -99,32 +121,7 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
   -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
   -
     title: Case study
     layout: media

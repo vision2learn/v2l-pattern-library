@@ -1,15 +1,18 @@
-title: TEMPLATE PAGE
+title: Positive risk taking
 intro: |
-  intro text
+  In this session you will learn about the purpose of positive risk taking.
 banner: placeholder.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
+    title: What you will learn
+    theme: t-bg-primary1a
     copy: |
-      In your assessment you will be required to 
+      In this session you will learn about:
+      * Aspects of everyday life in which risk plays a part 
+      * The benefits individuals can gain from positive risk-taking
+      * How risk assessment can be used with individuals and others
   -
-    title: introduction text
+    title: Aspects of everyday life in which risk plays a part
     layout: media
     theme: t-bg-primary
     copy: |
@@ -20,68 +23,67 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify aspects of everyday life in which risk plays a part.
+  -
+  -
+    title: Everyday things that may involve risk
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+      Let’s have a look at some everyday things that may involve risk for individuals with autism.
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Money
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Cooking
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: c
+          title: Dressing
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Personal hygiene
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Travelling
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Internet use
           copy: |
             text
           img: placeholder_icon.svg
   -
   -
-    title: slider
-    theme: t-bg-primary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to outline the benefits individuals can gain from positive risk-taking.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
       
-      Please see the following video on .
+      ### Benefits individuals can gain from positive risk-taking
+
+      Let’s look at some of the benefits individuals can gain from positive risk-taking
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -90,28 +92,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
