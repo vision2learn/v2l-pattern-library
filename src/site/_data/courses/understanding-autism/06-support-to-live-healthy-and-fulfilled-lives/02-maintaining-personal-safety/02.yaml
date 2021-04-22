@@ -79,7 +79,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      _This or a slider - to break up content as video is very long_ 
+      _This or a slider - to break up content if video is very long_ 
       
       Text
 
@@ -128,7 +128,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point – very long, maybe break up content_
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point – may need to break up content if video is too long (over 3 minutes) - could we can do this at the Amends stage?_
       
       ### Ways to support individuals to use the internet and social media safely
 
