@@ -1,13 +1,13 @@
-title: TEMPLATE PAGE
+title: Risk assessment
 intro: |
-  intro text
+  How risk assessment can be used with individuals and others.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain how risk assessment can be used with individuals and others.
   -
     title: introduction text
     layout: media
@@ -59,17 +59,27 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: a
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: b
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
           text: |
             text
           img: placeholder_icon.svg
@@ -79,9 +89,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style  – Standard format – 2 presenters with video clips to illustrate each point_
       
-      Please see the following video on .
+      Let’s look at how risk assessment can be used with individuals with autism.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -91,27 +101,6 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web

@@ -1,87 +1,32 @@
-title: TEMPLATE PAGE
+title: The impact on family members
 intro: |
-  intro text
+  The impact on family members of supporting an individual with autism.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe the impact on family members of supporting:
+      * a child or young person with autism
+      * an adult with autism.
   -
-    title: introduction text
+    title: Supporting an individual with Autism
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      text
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Interview with a family member about the impact of supporting an individual with autism (a child or young person with autism & an adult with autism)_
       
-      Please see the following video on .
+      Let’s hear about the impact on family life when supporting an individual with autism.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -93,25 +38,62 @@ sections:
 
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      In your assessment you will be required to identify positive aspects of living with autism.
   -
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
+    title: The positive aspects of living with autism 
+    theme: t-bg-primary
+    copy: |
+      What are some of the positive aspects of living with autism? let’s look at these below.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Concentration
+          copy: |
+            Individuals often have good concentration levels.
+          img: placeholder_icon.svg
+        -
+          title: Technical ability
+          copy: |
+            They may have advanced technical ability especially in IT.
+          img: placeholder_icon.svg
+        -
+          title: Subject knowledge
+          copy: |
+            Subject knowledge may be extensive and highly detailed.
+          img: placeholder_icon.svg
+        -
+          title: Persistence and reliability
+          copy: |
+            They may show persistence and determination to complete tasks at all costs.
+          img: placeholder_icon.svg
+        -
+          title: Accuracy
+          copy: |
+            Attention to detail can help to produce accuracy
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style – Standard format with 2 presenters etc (but would have asked for animation if we had the time)._
+      
+      Watch this video to learn more about the positive aspects of living with someone with autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
 
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
