@@ -14,12 +14,11 @@ So, let’s begin shall we?
 
 JOE: First let’s start with some broad strokes on Autism.
 
-BETH: Autism spectrum disorder covers a wide variation of symptoms and the severity of those symptoms that can be experienced. It can occur in all ethnic and racial groups. 
+Autism spectrum disorder covers a wide variation of symptoms and the severity of those symptoms that can be experienced. It can occur in all ethnic and racial groups. 
 
 It is estimated that there are around 700,000 people in the UK, including one in 100 children, diagnosed with autism spectrum disorder according to the BMA in 2020.
 
-Autism spectrum disorder is a lifelong developmental condition, related to brain 
-development and affects the way a child, young person or adult responds to the world around them and impacts how they perceive others. 
+BETH: Autism spectrum disorder is a lifelong developmental condition, related to brain development and affects the way a child, young person or adult responds to the world around them and impacts how they perceive others. 
 
 JOE: On the whole individuals with autism have untypical social interactions or communication and may have some restrictive and or repetitive behaviours. 
 

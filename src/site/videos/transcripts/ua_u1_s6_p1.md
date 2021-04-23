@@ -6,8 +6,7 @@ JOE: While the majority of filmmakers, TV producers, journalists and so forth, d
 
 These may appear at first hand, to be positive portrayals, however this can create a belief that all individuals with Autism are the same. 
 
-BETH: More modern films and television shows, portray those with autism as very 
-high functioning geniuses with quirky personalities, or ‘mute’ or ‘savant’, but they omit certain groups and don’t portray the range of characteristics that are on the spectrum perpetuating the stereotype.
+BETH: More modern films and television shows, portray those with autism as very high functioning geniuses with quirky personalities, or ‘mute’ or ‘savant’, but they omit certain groups and don’t portray the range of characteristics that are on the spectrum perpetuating the stereotype.
 
 Some people therefore see individuals with Autism as high functioning with atypical abilities, such as enhanced ability for doing things, such as working with numbers, memory, music, drawing etc. 
 
@@ -18,9 +17,7 @@ JOE: So we can see that Individuals with Autism spectrum disorder face many diff
 If the media continues to portray Autism in a more positive way especially reflecting the nuanced characteristics of individuals on the spectrum, society should become more informed and tolerant and try to understand the nature of the individual. That would then in turn mean they are more likely to 
 understand and appreciate the differences.
 
-BETH: Many high profile creative and pioneering individuals of the past showed signs of being on the autism spectrum to some degree but this cannot be verified. 
-
-however, a current prominent figure and environmental activist in the world today, who can be verified, is Swedish teen activist, Greta Thunberg, and she is now quite open about her autism spectrum disorder diagnosis. 
+BETH: Many high profile creative and pioneering individuals of the past showed signs of being on the autism spectrum to some degree but this cannot be verified. However, a current prominent figure and environmental activist in the world today, who can be verified, is Swedish teen activist, Greta Thunberg, and she is now quite open about her autism spectrum disorder diagnosis. 
 
 JOE: Greta started protesting at the age of 15, about climate crisis, and developed an unprecedented global movement in 2018. She is known worldwide as the public face of the ‘school climate strike movement’ and has spoken about her Asperger’s syndrome diagnosis, after she was criticised over the condition.
 
