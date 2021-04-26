@@ -59,7 +59,7 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to outline the rights of individuals with autism in relation to accessing services and facilities.
   -
@@ -112,19 +112,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
