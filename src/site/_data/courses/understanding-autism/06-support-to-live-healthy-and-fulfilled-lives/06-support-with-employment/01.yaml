@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: How to support individuals with employment
 intro: |
-  intro text
+  In this session you will learn about how to support individuals with employment, looking at barriers, starting and continuing in employment and organisations and agencies that can help.
 banner: placeholder.jpg
 sections:
   -
@@ -8,88 +8,59 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Barriers that people with autism may face in gaining employment
+      * How individuals can be supported with gaining starting and continuing employment
+      * Organisations and agencies that support individuals with autism into employment
+
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify barriers that people with autism may face in gaining employment.
   -
-    title: introduction text
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
       
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
+      Please see the following video about challenges and barriers in gaining employment for people with autism. 
+    video: placeholder_pc.mp4
   -
   -
-    title: Reveals
-    theme: t-bg-supporting2
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to describe how individuals can be supported with:
+      * gaining employment
+      * starting employment
+      * continuing employment.
   -
   -
-    title: slider
+    title: How individuals can be supported with gaining, starting and continuing employment
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Individuals can be supported in different ways in gaining, starting and continuing in employment by helping them to understand the process and using different strategies to help them overcome any barriers.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: a
+          title: Gaining employment
           text: |
-            text
+            When an individual is looking for a job, they should be given some guidelines as to what to look for, such as jobs that are clear, detailing what the role is how it relates to their skills. It is also wise to see whether the company welcomes applications from ‘disabled’ people or specifically neurodiverse individuals. No one should be discriminated against for their ‘disability’ but it is often used in the selection process. Help can also be given in understanding the application process and interview techniques.
           img: placeholder_icon.svg
         -
-          title: b
+          title: Starting employment
           text: |
-            text
+            Success at the application and interview stage should be praised and should help to reassure them that they have the skills to do the job, however they may need further reassurance and support in preparing them for the formalities of starting employment. If the process is clearly laid out using timelines and visual supports to back it up, should make it easier for them to understand the process. Their job role and timetable should also be clearly defined so as not to create any ambiguity.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Continuing employment
           text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          text: |
-            text
+            The ‘work based’ environment may need reasonable adjustments, to facilitate the optimum working environment for the individual, taking into consideration any sensory needs. By supporting their needs there should be less distractions to their working day, and therefore they should be able to be more productive. HR should also be able to support their needs, by regularly reviewing their job role and any professional development needs.
           img: placeholder_icon.svg
   -
   -
@@ -97,10 +68,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
       
-      Please see the following video on .
+      Let’s look at how individuals can be supported with gaining, starting and continuing in employment in a little more detail in this video.
     video: placeholder_pc.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -108,49 +80,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web

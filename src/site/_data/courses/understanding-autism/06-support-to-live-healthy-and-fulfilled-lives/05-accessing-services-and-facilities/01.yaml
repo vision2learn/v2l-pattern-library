@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Accessing services and facilities
 intro: |
-  intro text
+  In this session you will learn about how to support individuals with autism to access services and facilities.
 banner: placeholder.jpg
 sections:
   -
@@ -8,60 +8,83 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Support an individual may need to access
+      * Rights of individuals with autism in relation to accessing services and facilities 
+      * Reasonable adjustments that could be made for individuals with autism
+      * Support available for individuals and families from rights groups and community support organisations
+
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify the support an individual may need to access:
+      * healthcare
+      * education and training
+      * leisure services.
   -
-    title: introduction text
+    title: Support an individual may need to access
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the support an individual with autism may need to access.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Healthcare
+          text: |
+            Health and care settings aren’t always flexible enough to adapt to the needs of individuals with autism. Issues such as noisy waiting areas, and not being able to see the same GP or social worker, can make a stressful experience even more difficult.
+          img: placeholder_icon.svg
+        -
+          title: Education and training
+          text: |
+            Education is a key part of every child’s life and a high proportion of children with autism attend mainstream schools. Opportunities for further education or training will vary across the country. Students at whatever level should always get the extra help and support they need.
+          img: placeholder_icon.svg
+        -
+          title: Leisure services
+          text: |
+            Playing sport, visiting the theatre or cinema, and going to museums, can have so many benefits for an individual with autism. However, the needs of people with autism should be supported, for them to be able to fully appreciate the experience. Some providers of leisure facilities have begun working to become more accessible, introducing autism-friendly measures.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Video – Standard format – 2 presenters with video clips to illustrate each point, may need to break up content if video is too long_
+      
+      Let’s look at this in more detail in this video.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the rights of individuals with autism in relation to accessing services and facilities.
+  -
+  -
+    title: The rights of individuals with autism in relation to accessing services and facilities
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      We have already covered the rights of individuals with autism through various acts and guidance in previous units but what do those rights actually mean in relation to accessing services and facilities. 
       
-      Topic introduction text here 
+      Each area in the country should have a multi-agency strategy group responsible for recognition, referral and diagnosis of children and young people. They should also provide access to the services that might be needed such as paediatricians, psychologists, speech and language therapists and social services. 
+      
+      Once an individual has received a diagnosis, information should be provided to prepare for the future and contact details should be given for local and national support organisations. It is the right of every individual with autism and their family to have access to these services and facilities when they need them in all aspects of their life.
+
+      _SME comment - could list the acts and guidance links as previously discussed_
+
 
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
+    title: Above OR Slides
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
+      _Maybe break down the above content into a slider_
     
-      Scroll through the slides below to learn more about ...
-
     subInc: 
       type: slider
       title: 
@@ -81,26 +104,7 @@ sections:
           text: |
             text
           img: placeholder_icon.svg
-        -
-          title: d
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          text: |
-            text
-          img: placeholder_icon.svg
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -108,53 +112,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
