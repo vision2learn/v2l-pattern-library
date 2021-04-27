@@ -98,10 +98,15 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Lots of images showing how attitudes have changed over time - narrator, maybe with icons that represent times_
-
       Please watch the following video showing how attitudes to mental health have changed over time. 
     video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -112,8 +117,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Scenario based - for example an image or icon of child, lots of different images or icons of changes surrounding central image of child? or something else if that works better with the content, with narrator._
-      
       Let’s look at a video showing how changes in social and cultural attitudes towards men-tal health can affect a child or young persons perception of their own mental health.
     video: placeholder_pc.mp4
   -
@@ -122,4 +125,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
+        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.

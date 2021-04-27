@@ -38,8 +38,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenters, informative with examples of the three different settings_
-      
       Please watch this video which looks further into these examples of what is involved in duty of care in different settings.
     video: placeholder_pc.mp4
   -
@@ -48,12 +46,22 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
-  
+        Using your learning from this page make a note of how duty of care applies to children and your people in different settings.
   -
-    title: Read - Duty of Care
-    theme: t-bg-primary2 i-read
-    copy: | 
-      Take a look at the following document about duty of care - REWORD
-
-      [example doc]().
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Safeguarding is the action that is taken to protect the health, well-being and rights of children and young people. 
+          answer: Safeguarding
+        -
+          sentence: Child protection is part of the safeguarding process and focuses on protecting children likely to suffer significant harm. 
+          answer: Child protection
+        -
+          sentence: All children and young people should be listened to and not dismissed, but their rights also need to be respected. 
+          answer: their rights
+        -
+          sentence: If a person suspects that any of the safeguarding issues have arisen they should record any information that can and tell someone who can report it.
+          answer: record any information
+    theme: i-quiz

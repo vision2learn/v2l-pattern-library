@@ -22,8 +22,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Lots of images showing how media can influence attitudes with narrator_
-
       Please see the following video to learn how the media can influence attitudes towards mental health. 
     video: placeholder_pc.mp4
   -
@@ -31,7 +29,8 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: |
+        Using your learning from this page, make some notes on how you think that media can influence attitudes towards mental health both positively and negatively. 
   -
     title: Key point
     theme: t-bg-grey i-keypoint
