@@ -14,7 +14,7 @@ BETH: This should enable support to be structured to create an ‘outcome focuse
 
 It should also be accessible to people with additional needs, such as physical, sensory or learning disabilities, and to people who do not speak or read English, however if individuals do not have the mental capacity, the code of practice that accompanies the Mental Capacity act should always be followed.
 
-JOE: *Remember an important thing to focus on with a person-centred approach is not to see the ‘limitations’ someone may have, but to see them as differences and as something the individual can overcome with support. 
+JOE: Remember an important thing to focus on with a person-centred approach is not to see the ‘limitations’ someone may have, but to see them as differences and as something the individual can overcome with support. 
 
 Showing empathy and compassion and being supportive, can help to gain understanding of the reactions and behaviours someone with autism may experience.
 
