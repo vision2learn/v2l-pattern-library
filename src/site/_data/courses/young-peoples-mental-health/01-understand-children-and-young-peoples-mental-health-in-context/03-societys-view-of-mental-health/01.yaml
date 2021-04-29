@@ -99,7 +99,7 @@ sections:
     layout: media
     copy: |
       Please watch the following video showing how attitudes to mental health have changed over time. 
-    video: placeholder_pc.mp4
+    video: ypmh_u1_s3_p1_attitudes_over_time.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -117,8 +117,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Let’s look at a video showing how changes in social and cultural attitudes towards men-tal health can affect a child or young persons perception of their own mental health.
-    video: ypmh_u1_s3_p1_2.mp4
+      Let’s look at a video showing how changes in social and cultural attitudes towards mental health can affect a child or young persons perception of their own mental health.
+    video: ypmh_u1_s3_p1_perception_affected.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
