@@ -1,6 +1,6 @@
 title: Healthy food preparation
 intro: |
-  introduction text. 
+  In this Session we’ll look at some of the principles behind healthy food preparation.
    
 banner: placeholder.jpg
 sections:
@@ -8,6 +8,144 @@ sections:
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this session you will learn about 
-      * lo 1
-      * etc
+      In this session you will learn about:      
+      * Factors to be considered when planning healthy meals
+      * How a variety of cooking methods affect the nutritional values of foods
+      * Healthy food preparation methods for a range of types of food
+  -
+    title: Reveal
+    theme: t-bg-primary
+    copy: |
+      In order to prepare healthy meals you need to use all the information you’ve learnt so far.
+
+      When asked to decide between a balanced meal that does not taste very nice, and a tasty meal with limited nutritional value, most people would choose the second option! This is because people get instant pleasure from nice tasting food, but it takes a while to see any benefits from nutrients.
+
+      However, it is possible to eat a balanced nutritional meal that is also enjoyable. Take a look at the images to see some of the things you need to consider when planning enjoyable meals. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Factors to be considered
+          copy: |
+            Remember how age, fitness levels, health conditions and even gender can affect nutritional needs. 
+          img: placeholder_icon.svg
+        -
+          title: The five food groups
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Nutritional factors
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Preparing meals
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Preferred flavours
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Preferred textures
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Preferred colours
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Prefered varieties within food groups
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Mim
+
+      Mim often chooses tasty, unhealthy foods over nutritionally balanced meals. She thinks that healthy food tastes awful and doesn’t make any effort to try and enjoy it.
+
+      Although there are very few immediate problems for Mim, over time she begins to feel tired and notices that her skin does not look as clear. After years of eating like this, she could face some of the problems that you learnt about in Session 1.
+
+      Mim’s friends are encouraging her to eat more healthily. Although she does not like eating boiled vegetables, she finds she likes them as part of a meal, such as stir-fry or a curry. Similarly, even though Mim doesn’t like fruit, she really enjoys smoothies.
+
+      By understanding her own tastes, she has been able to improve her diet and feel healthier.
+    
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make some notes about the things that you like and dislike. Could any of your preferences make it harder to eat for pleasure AND nutrition? 
+  -
+  -
+    title: Reveal
+    theme: t-bg-primary
+    copy: |
+       A simple way of making meals healthier is to use healthy alternatives. This involves substituting some ingredients for others that are lower in fat, salt or sugar.
+       
+       Another option is to reduce the amounts of a particular ingredient. Click on the images to see some examples of each method. 
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Substitution
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Reduction
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Forum
+    layout: media
+    theme: t-bg-primary3
+    copy: |
+      Why not visit the forum and discuss ...
+
+    img: /images/svg/ln/LM_Forum.svg
+  -
+  -
+    title: Activity - Case study
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      Drag and drop with a quiz to replace case study on old page 3
+
+      Select the following icon to . . .
+
+
+    img: /images/svg/Activity_button.svg
+    activity: U1-S2-P2_DSE
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+       It’s important to remember that meals can be nutritionally valuable and enjoyable to eat.
+       
+       Although everyone will have a different set of preferences, by understanding your own preferences you can find meal options that are enjoyable and nutritious.
+
+       Substitution and reduction can have a substantial impact on long-term health while allowing people to eat the things that they enjoy.
