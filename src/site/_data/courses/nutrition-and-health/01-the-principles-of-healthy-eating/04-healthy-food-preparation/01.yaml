@@ -13,64 +13,46 @@ sections:
       * How a variety of cooking methods affect the nutritional values of foods
       * Healthy food preparation methods for a range of types of food
   -
-    title: Reveal
+  -
+    title: Making choices
     theme: t-bg-primary
     copy: |
       In order to prepare healthy meals you need to use all the information you’ve learnt so far.
 
       When asked to decide between a balanced meal that does not taste very nice, and a tasty meal with limited nutritional value, most people would choose the second option! This is because people get instant pleasure from nice tasting food, but it takes a while to see any benefits from nutrients.
 
-      However, it is possible to eat a balanced nutritional meal that is also enjoyable. Take a look at the images to see some of the things you need to consider when planning enjoyable meals. 
+      However, it is possible to eat a balanced nutritional meal that is also enjoyable. Scroll through the slides below to see some of the things you need to consider when planning enjoyable meals. 
 
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
           title: Factors to be considered
-          copy: |
+          text: |
             Remember how age, fitness levels, health conditions and even gender can affect nutritional needs. 
+
+            We’ve looked at each of the five food groups and why they are important.
+
+            We looked at which nutrients we need and what they do/why we need them.
+
+            In this session we’ll look at these ideas and the different ways we can cook food.
           img: placeholder_icon.svg
         -
-          title: The five food groups
-          copy: |
-            text
+          title: Making choices
+          text: |
+            When asked to decide between a balanced meal that does not taste very nice, and a tasty meal with limited nutritional value, most people would choose the second option!
+
+            This is because people get instant pleasure from nice tasting food, but it takes a while to see any benefits from nutrients.
+
+            However, it is possible to eat a balanced nutritional meal that is also enjoyable. You need to consider prefferred falouvrs, textures, colours and varieties within food groups when planning enjoyable meals.
+          
           img: placeholder_icon.svg
-        -
-          title: Nutritional factors
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Preparing meals
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Preferred flavours
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Preferred textures
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Preferred colours
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Prefered varieties within food groups
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      text
+      In your assessment you will need to identify factors to be considered when planning healthy meals.
   -
   -
     title: Case study
@@ -110,22 +92,19 @@ sections:
         -
           title: Substitution
           copy: |
-            text
+            * Use lean steak mince instead of mince beef
+            * Use low fat crème fraiche instead of cream
+            * Use brown and whole-wheat varieties of rice, bread and pasta instead of white ones.
+
           img: placeholder_icon.svg
         -
           title: Reduction
           copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Forum
-    layout: media
-    theme: t-bg-primary3
-    copy: |
-      Why not visit the forum and discuss ...
+            * Use less cheese when making a pizza
+            * Use less meat and more vegetables in casseroles and pies
+            * Use less sugar in cakes and biscuits.
 
-    img: /images/svg/ln/LM_Forum.svg
+          img: placeholder_icon.svg
   -
   -
     title: Activity - Case study
