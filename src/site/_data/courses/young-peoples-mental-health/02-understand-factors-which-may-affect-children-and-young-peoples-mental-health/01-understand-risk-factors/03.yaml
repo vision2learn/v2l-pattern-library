@@ -28,6 +28,14 @@ sections:
     video: ypmh_u2_s1_p3_resilience.mp4
   -
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+         Resilience question? Make a note of these in the box to the right.
+  -
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -48,7 +56,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+         Identify different ways to support young people to recognise risk factors and signs of distress in themselves? Make a note of these in the box to the right.
   -
   -
     title: On the web

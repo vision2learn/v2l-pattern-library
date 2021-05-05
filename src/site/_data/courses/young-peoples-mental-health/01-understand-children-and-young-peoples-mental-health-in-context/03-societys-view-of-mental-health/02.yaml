@@ -30,7 +30,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Using your learning from this page, make some notes on how you think that media can influence attitudes towards mental health both positively and negatively. 
+        How do you think that media can influence attitudes towards mental health both positively and negatively? Use the box to the right to make notes. 
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -76,6 +76,13 @@ sections:
 
           img: ypmh_u1_s3_p2_slide5.svg
   -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Discrimination question here? Use the box to the right to make notes. 
   -
     title: Quick quiz
     subInc: 
