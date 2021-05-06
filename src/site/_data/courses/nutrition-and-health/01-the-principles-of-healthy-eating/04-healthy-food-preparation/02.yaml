@@ -1,16 +1,78 @@
-title: TEMPLATE PAGE
+title: Preparing food
 intro: |
-  ### TEMPLATE PAGE
-  On this page you will learn about: 
-  * point 1
-  *  
+  There are a number of different ways that you can cook and prepare your foods. Some of these methods will be healthier than others. 
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
+  -
+    title: Activity - Cooking methods and nutritional needs
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-primary2
     copy: |
-      ### Title
+      Include all the info from all slides - Cooking methods and nutritional needs, Advantages and disadvantges - old pages 4 and 5
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/Activity_button.svg
+    activity: U1-S2-P2_DSE
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      It’s important that you can identify healthy food preparation methods for a range of different food types. You should also be aware that different cooking methods can affect the nutritional value of foods.
+  -
+  -
+    title: Forum
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      Think about five ways that you could make your diet healthier without giving up the pleasure you get from eating meals.
+
+      If you get stuck, why not take to the forum to get some ideas from other learners!
+
+    img: /images/svg/ln/LM_Forum.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary2 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think about what you have eaten in the last three days. Which preparation methods did you use most?
+
+        Can you identify ways of preparing the same food more healthily?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more information on different cooking methods and their benefits, take a look at the following website: 
+
+      links:
+        Student cook - cooking methods: http://www.studentcook.co.uk/CookingMethodsAndTechniquesCategory.html
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Many people use a range of cooking methods when preparing meals. This encourages variation in their diet and they get to experiment with different cooking methods for different foods. 
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
