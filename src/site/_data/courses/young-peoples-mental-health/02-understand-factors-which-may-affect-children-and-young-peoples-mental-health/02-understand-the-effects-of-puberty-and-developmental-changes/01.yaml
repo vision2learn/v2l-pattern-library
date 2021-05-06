@@ -74,8 +74,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Video - 2 presenters that are different to each other with images to support content._
-      
       Please see the following video on how puberty and the changes it brings can affect the mental well being of children and young people.
     video: ypmh_u2_s2_p1_puberty.mp4
   -
@@ -129,5 +127,5 @@ sections:
     include: 
       type: time-to-think
       copy: |
-         Ppportunties and challenges that young people face question? Make a note of these effects in the box to the right.
+         Can you think of potential opportunities and challenges that young people may face as they make the transition to adulthood? make a note of these in the box to the right.
   -

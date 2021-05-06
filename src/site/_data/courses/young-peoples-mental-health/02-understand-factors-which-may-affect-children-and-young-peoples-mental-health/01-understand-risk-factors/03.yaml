@@ -22,8 +22,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenter and images_
-      
       Resilience is an important protective factor, watch the following video to find out more about it.
     video: ypmh_u2_s1_p3_resilience.mp4
   -
@@ -33,7 +31,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-         Resilience question? Make a note of these in the box to the right.
+         Can you think  why resilience is important in relation to childrens and young peoples mental health? Use the box to the right to make notes.
   -
   -
     title: Key point
