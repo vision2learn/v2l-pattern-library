@@ -67,20 +67,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Mental health problems are very common.   
-          answer: common
-        -
           sentence: Stereotyping comes from ignorance. 
           answer: ignorance
         -
           sentence: Peoples problems are made worse by stigma.
           answer: stigma
         -
-          sentence: People can recover from mental health.
-          answer: recover
+          sentence: Mental health problems are very common.   
+          answer: common
         -
           sentence: Discrimination is often the outcome of prejudice.
           answer: prejudice
+        -
+          sentence: People can recover from mental health.
+          answer: recover
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
