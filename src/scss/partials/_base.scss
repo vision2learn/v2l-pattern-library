@@ -317,13 +317,15 @@ picture {
 }
 
 video {
-  max-width: 70%;
+  max-width: 100%;
   justify-self: center;
-  object-fit: scale-down;
+  object-fit: contain;
+  aspect-ratio: 16 / 9;
 
-  &[poster$="watch.svg"] {
-    background-color: var(--primary1);
-    border: solid 2px var(--secondary1);
+  &[poster] {
+    background-color: black;//var(--primary1);
+    background-color: var(--secondary1);
+    // border: solid 1px var(--secondary1);
     // border-radius: 5px;
   }
 }
@@ -332,7 +334,7 @@ video {
 /* Tables */
 // TODO: Wide tables on narrow screens!
 table {
-  border: solid 1px currentColor;
+  // border: solid 1px currentColor;
   border-collapse: collapse;
   width: 100%;
 }

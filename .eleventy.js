@@ -145,15 +145,17 @@ module.exports = function(config) {
     
 
     return `
-      <video id="video" controls preload="metadata" poster="${tilde}/images/svg/course-features/watch.svg" aria-labelledby="${id}" 
-        data-base="${basename}" 
-        data-ext="${ext}" 
-        data-multi="${multi}"
-        data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
-        <source src="${tilde}/videos/${file}" type="video/mp4">
-        ${track}
-        <p>Sorry, your browser doesn't support embedded videos</p>
-      </video>
+      <div class="l-video-container">
+        <video poster="${tilde}/images/svg/poster.svg" controls preload="metadata" aria-labelledby="${id}" width="1000"
+          data-base="${basename}" 
+          data-ext="${ext}" 
+          data-multi="${multi}"
+          data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
+          <source src="${tilde}/videos/${file}" type="video/mp4">
+          ${track}
+          <p>Sorry, your browser doesn't support embedded videos</p>
+        </video>
+      </div>
       ${transcript}
       `;
   });
