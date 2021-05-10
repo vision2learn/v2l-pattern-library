@@ -5,18 +5,19 @@ banner: placeholder.jpg
 sections:
   -
   -
-    title: Activity - Cooking methods and nutritional needs
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary2
     copy: |
-      Include all the info from all slides - Cooking methods and nutritional needs, Advantages and disadvantges - old pages 4 and 5
+      ### Cooking methods and nutritional needs
+      Please see the following video for .....
 
-    img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+      _Include all the info from all slides - Cooking methods and nutritional needs, Advantages and disadvantges - old pages 4 and 5_
+    video: placeholder_pc.mp4
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       It’s important that you can identify healthy food preparation methods for a range of different food types. You should also be aware that different cooking methods can affect the nutritional value of foods.
   -
