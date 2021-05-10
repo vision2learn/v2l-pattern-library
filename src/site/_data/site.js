@@ -16,5 +16,6 @@ module.exports = {
       year: date.getFullYear(),
       build: date.toUTCString()
     }
-  }
+  },
+  "tilde": process.env.ELEVENTY_ENV === "dotnet" ? "~" : ""
 }
