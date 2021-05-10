@@ -59,7 +59,7 @@ const ContentToggle = (() => {
 
     videos.forEach((video, index) => {
       if(baseVidSrc[index]) {
-        video.parentElement.insertAdjacentHTML('beforebegin', switchStatement);
+        video.parentElement.parentElement.insertAdjacentHTML('beforebegin', switchStatement);
       }
     });
 
@@ -87,7 +87,7 @@ const ContentToggle = (() => {
           newTrack.label = `English`;
           newTrack.kind = 'captions';
           newTrack.srclang = 'en';
-          video.parentElement.setAttribute('data-v2l-format', urlMod);
+          video.parentElement.parentElement.setAttribute('data-v2l-format', urlMod);
           video.parentElement.appendChild(newTrack);
         }
 
