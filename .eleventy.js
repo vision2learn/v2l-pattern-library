@@ -160,7 +160,7 @@ module.exports = function(config) {
           data-ext="${ext}" 
           data-multi="${multi}"
           data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
-          <source src="${tilde}/videos/${file}" type="video/mp4">
+          <source src="${vidFilePath}" type="video/mp4">
           ${track}
           <p>Sorry, your browser doesn't support embedded videos</p>
         </video>
