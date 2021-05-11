@@ -95,6 +95,7 @@ jobs:
             cp -R --strip-trailing-slashes src/scss dist/dotnet/scss
             cp -R --strip-trailing-slashes dist/js dist/dotnet/js
             cp -R --strip-trailing-slashes dist/images dist/dotnet/images
+            mkdir -p dist/dotnet/videos/captions/vtt
             cp -R --strip-trailing-slashes dist/videos/captions/vtt dist/dotnet/videos/captions/vtt
             tar -cvf dotnet.tar dist/dotnet
             tar -cvf videos.tar dist/videos
