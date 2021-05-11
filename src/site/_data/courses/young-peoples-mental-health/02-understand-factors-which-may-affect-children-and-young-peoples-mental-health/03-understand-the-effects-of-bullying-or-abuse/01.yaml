@@ -86,7 +86,7 @@ sections:
   -
   -
     title: Quick quiz
-    copy: OPTIONAL item - Only one of the quizzes to be used if at all
+    copy: 
     subInc: 
       type: word-quiz
       content:
