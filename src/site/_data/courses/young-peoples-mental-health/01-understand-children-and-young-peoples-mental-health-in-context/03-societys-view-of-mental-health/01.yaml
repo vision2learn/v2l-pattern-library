@@ -1,7 +1,7 @@
 title: Society's view of mental health
 intro: |
   In this session you will learn about how society views mental health, including social and cultural attitudes, and media and discrimination.
-banner: placeholder.jpg
+banner: ypmh_u1_s3_p1_society.jpg
 sections:
   -
     title: What you will learn
@@ -67,20 +67,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Mental health problems are very common.   
-          answer: common
-        -
           sentence: Stereotyping comes from ignorance. 
           answer: ignorance
         -
           sentence: Peoples problems are made worse by stigma.
           answer: stigma
         -
-          sentence: People can recover from mental health.
-          answer: recover
+          sentence: Mental health problems are very common.   
+          answer: common
         -
           sentence: Discrimination is often the outcome of prejudice.
           answer: prejudice
+        -
+          sentence: People can recover from mental health.
+          answer: recover
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -91,17 +91,22 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Our perception of Mental health has been transformed over the last seventy years or more, with the closure of the old asylums, moving care into the community and the increasing the use of counselling and talking therapies. These have had a positive im-pact on mental health care for all ages.
-    img: /images/svg/ypmh/placeholder_icon.svg
+      Our perception of Mental health has been transformed over the last seventy years or more, with the closure of the old asylums, moving care into the community and the increasing the use of counselling and talking therapies. These have had a positive impact on mental health care for all ages.
+    img: /images/svg/ypmh/ypmh_u1_s3_p2_slide4.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Lots of images showing how attitudes have changed over time - narrator, maybe with icons that represent times_
-
       Please watch the following video showing how attitudes to mental health have changed over time. 
-    video: placeholder_pc.mp4
+    video: ypmh_u1_s3_p1_attitudes_over_time.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from the video above and your own research/experience, note down your own thoughts on how social and cultural attitudes have changed over time.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -112,14 +117,12 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Scenario based - for example an image or icon of child, lots of different images or icons of changes surrounding central image of child? or something else if that works better with the content, with narrator._
-      
-      Let’s look at a video showing how changes in social and cultural attitudes towards men-tal health can affect a child or young persons perception of their own mental health.
-    video: placeholder_pc.mp4
+      Let’s look at a video showing how changes in social and cultural attitudes towards mental health can affect a child or young persons perception of their own mental health.
+    video: ypmh_u1_s3_p1_perception_affected.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
+        Now that you have watched the video how to you think that changes to social and cultural attitudes can affect a childs or young persons perception of thier own mental health? Make some notes in the text box to the right.

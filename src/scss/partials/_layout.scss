@@ -27,14 +27,14 @@
   * + table,
   * + video {
     margin-top: 1.5rem;
-    margin-top: calc($flow * 1rem);
+    margin-top: calc(var(--flow) * 1rem);
   }
 
   * + h2,
   * + h3,
   video + toggle-section {
     margin-top: 1.5em;
-    margin-top: calc($flow * 1em);
+    margin-top: calc(var(--flow) * 1em);
   }
 
   > header,
@@ -69,14 +69,14 @@ main > section:not(.c-banner) {
   //   margin-top: 1.5rem;
 
   //   @supports(--a: 0) {
-  //     margin-top: calc($flow * 1rem);
+  //     margin-top: calc(var(--flow) * 1rem);
   //   }
   // }
 
   * + h2,
   * + h3 {
     margin-top: 1.5em;
-    margin-top: calc($flow * 1em);
+    margin-top: calc(var(--flow) * 1em);
   }
 
   li,
@@ -183,6 +183,7 @@ main > section:not(.c-banner) {
     }
 
     &__img {
+      
       grid-area: img;
       margin-top: 0;
       align-self: center;
@@ -197,7 +198,6 @@ main > section:not(.c-banner) {
       > svg {
         max-width: 300px;
       }
-
     }
   }
 }
@@ -400,4 +400,41 @@ main > section:not(.c-banner) {
 .l-tablewrapper {
   overflow-x: scroll;
   max-width: calc(100vw - 2rem);
+}
+
+.l-video-container {
+  height: 0;
+  padding-top: 56.25%; // 16 / 9 aspect ratio
+  position: relative;
+
+  > video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &[data-v2l-format='pc'] + toggle-section {
+    display: block;
+  }
+  
+  &[data-v2l-format='pc'] + toggle-section + toggle-section {
+    display: none;
+  }
+  
+  &[data-v2l-format='mac'] + toggle-section {
+    display: none;
+  }
+  
+  &[data-v2l-format='mac'] + toggle-section + toggle-section {
+    border-top: 2px solid;
+    display: block;
+    margin-top: 1.5rem;
+  }
+}
+
+.l-video-container + toggle-section {
+  margin-top: 1.5em;
+  margin-top: calc(var(--flow) * 1em);
 }

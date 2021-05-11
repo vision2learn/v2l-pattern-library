@@ -1,0 +1,80 @@
+title: Organisations and agencies that support
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify organisations and agencies that support individuals with autism into employment.
+  -
+    title: Supporting organisations and agencies
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some government organisations that can help with supporting individuals into employment.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Work Choice 
+          copy: |
+            Provides an overview of the work choice programme, how to apply, eligibility criteria and what it can assist with/provide.
+          img: placeholder_icon.svg
+        -
+          title: Access to work
+          copy: |
+            If you are already in employment or have an interview for a job, the government has a scheme called Access to Work. This scheme provides grants to support you in the workplace.
+          img: placeholder_icon.svg
+        -
+          title: Specialist Employability Support 
+          copy: |
+            Outlines the eligibility criteria, support available and application process for access to the specialist employability support. Intensive training and support for short periods of time as well as long term assistance is offered. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: | 
+        Please see the following websites for the above organisations and agencies that support individuals with autism into employment.
+
+      links:
+        Work Choice: http://www.gov.uk/work-choice/overview 
+        Access to work: http://www.gov.uk/access-to-work/overview
+        Specialist Employability Support: http://www.gov.uk/specialist-employability-support
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
+      
+      Please see the following video on .
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: | 
+        Please see the following websites for further websites that support individuals with autism into employment.
+
+      links:
+        Autism.org - Employment: https://www.autism.org.uk/what-we-do/employment
+        Ambitious about autism: https://www.ambitiousaboutautism.org.uk
+        Auticon: https://www.auticon.co.uk
+        Supporting and preparing autistic people for employment: https://care-trade.org/ 
+        Specialist Employability Support: http://www.gov.uk/specialist-employability-support
+        Remploy: https://https://www.remploy.co.uk
+        Tallo: https://tallo.com/adult-learners/neurodiversity-recruitment/

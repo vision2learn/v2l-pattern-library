@@ -1,0 +1,17 @@
+---js
+{
+  unit: 6,
+  session: 1,
+  pagination: {
+    data: "courses['understanding-autism']['06-support-to-live-healthy-and-fulfilled-lives']['01-living-with-autism']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

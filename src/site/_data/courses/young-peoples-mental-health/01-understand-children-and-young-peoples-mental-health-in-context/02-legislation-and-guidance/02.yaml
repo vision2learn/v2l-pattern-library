@@ -2,7 +2,7 @@ title: Safeguarding
 intro: |
   Let’s now look at safeguarding and how it applies to children and young people.
 
-banner: placeholder.jpg
+banner: ypmh_u1_s2_p2_safeguarding.jpg
 sections:
   -
     title: Key point
@@ -16,41 +16,39 @@ sections:
     copy: |
       Safeguarding is the action that is taken to protect the health, well-being and rights of all children and young people. It involves protecting them from abuse and maltreatment, preventing harm to to their health or development, ensuring they grow up with the provision of safe and effective care, and taking action to enable all children and young people to have the best outcomes in life.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u1_s2_p2_image.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Two Presenters - present the information paragraph by paragraph - some background images_
-
       Please see the following video about safeguarding.
-    video: placeholder_pc.mp4
+    video: ypmh_u1_s2_p2_safeguarding.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
+        Using your learning from this page explain what the term “safeguarding” means as applied to children and young people.
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        How many children who have been abused by an adult never tell anyone?:
-          answers:
-            1 in 10: false
-            1 in 8: false
-            1 in 5: false
-            1 in 3: true
         Which of the following is NOT part of safeguarding?:
           answers:
             Theft: true
             Self harm: false
             Bullying: false
             Radicalisation: false
+        How many children who have been abused by an adult never tell anyone?:
+          answers:
+            1 in 10: false
+            1 in 8: false
+            1 in 5: false
+            1 in 3: true
         What should you NOT do if you suspect a child has safeguarding issues?:
           answers:
             Tell a teacher: false
@@ -63,7 +61,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about safeguarding.
 
       links:
-        website description: http://www.google.co.uk
+        nspcc safeguarding: https://learning.nspcc.org.uk/safeguarding-child-protection

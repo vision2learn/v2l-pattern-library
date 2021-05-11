@@ -2,7 +2,7 @@ title: Media and Discrimination
 intro: |
   On this page we are going to look at Media influences and the detrimental affect of discrimination. So let’s start by looking at how the media can influence attitudes towards Mental Health.
 
-banner: placeholder.jpg
+banner: ypmh_u1_s3_p2_media.jpg
 sections:
   -
     title: Key point
@@ -16,22 +16,21 @@ sections:
     copy: |
       The way mental health and mental illness is portrayed and reported is incredibly powerful in educating and influencing the public. Media portrayals of those with mental illness often lean towards either stigmatisation or trivialisation. All forms of media including TV, film, magazines, newspapers, and social media have been criticised for creating negative stereotypes and inaccurate descriptions of those with mental illness. 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u1_s3_p2_image.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Lots of images showing how media can influence attitudes with narrator_
-
       Please see the following video to learn how the media can influence attitudes towards mental health. 
-    video: placeholder_pc.mp4
+    video: ypmh_u1_s3_p2_media_influences.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: |
+        How do you think that media can influence attitudes towards mental health both positively and negatively? Use the box to the right to make notes. 
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -77,6 +76,13 @@ sections:
 
           img: ypmh_u1_s3_p2_slide5.svg
   -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        How do you think that discrimination can affect childrens and young peoples mental health? Use the  box the rights to make notes.
   -
     title: Quick quiz
     subInc: 

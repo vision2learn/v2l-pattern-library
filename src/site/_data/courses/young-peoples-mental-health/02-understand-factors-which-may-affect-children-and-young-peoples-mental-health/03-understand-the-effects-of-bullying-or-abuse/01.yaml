@@ -1,7 +1,7 @@
 title: Understand the effects of bullying or abuse
 intro: |
   In this session you will learn about how abuse and bullying affects the mental health of children and young people.
-banner: placeholder.jpg
+banner: ypmh_u2_s3_p1_effects.jpg
 sections:
   -
     title: What you will learn
@@ -35,67 +35,55 @@ sections:
           text: |
             Bullying is behaviour that hurts someone else. It includes name calling, hitting, pushing, spreading rumours, threatening or undermining someone. It can happen anywhere such as at school or at home. It's usually repeated over a long period of time and can hurt a child both physically and emotionally. Cyberbullying is bullying takes place online and unlike offline bullying and can follow the child wherever they go, via social networks, gaming and mobile phone.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s3_p1_slide1.svg
         -
           title: Neglect
           text: |
             Neglect is the ongoing failure to meet a child's basic needs. A child might be left hungry or dirty, or without proper clothing, shelter, supervision or health care. Physical neglect is  where the child’s basic needs aren’t met. Educational neglect is where parents don’t ensure a child is educated. Emotional neglect is where a child is ignored, humiliated, in-timidated or isolated, and medical neglect where the child gets no real health care or dental care.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s3_p1_slide2.svg
         -
           title: Domestic abuse
           text: |
             Domestic abuse is any type of controlling, bullying, threatening or violent behaviour in relationships either inside or outside the home. Children and young people who witness domestic abuse are in turn being subjected to child abuse. Physical abuse is any way of intentionally causing physical harm to a child or young person. This can happen in a domestic situation or elsewhere. It also includes making up the symptoms of an illness or causing a child to become unwell.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s3_p1_slide3.svg
         -
           title: Sexual abuse
           text: |
-            Sexual Abuse is forcing or tricking a child or young person in to sexual activities. Often they are too young to know what is happening and that it’s wrong. Sexual abuse can also involve ‘child sexual exploitation', ‘grooming’, and ‘child trafficking’. When a child or young person is exploited they're given things, in exchange for performing sexual activi-ties. Grooming involves being tricked into thinking they are in a loving relationship either in person or online. Children and young people can be trafficked into or around the country to be sexually exploited using intimidation.
+            Sexual Abuse is forcing or tricking a child or young person in to sexual activities. Often they are too young to know what is happening and that it’s wrong. Sexual abuse can also involve ‘child sexual exploitation', ‘grooming’, and ‘child trafficking’. When a child or young person is exploited they're given things, in exchange for performing sexual activities. Grooming involves being tricked into thinking they are in a loving relationship either in person or online. Children and young people can be trafficked into or around the country to be sexually exploited using intimidation.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s3_p1_slide4.svg
         -
           title: Criminal exploitation
           text: |
             Criminal exploitation is child abuse where children and young people are manipulated and coerced into committing crimes. Children and young people can get involved with gangs through no fault of their own. They might become victims of violence or pressured into doing things like stealing or carrying drugs or weapons. They might be abused, exploited and put into dangerous situations.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s3_p1_slide5.svg
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 3.2 and 3.3
+      In your assessment you will be required to state different ways bullying can occur; and explain why some children or young people may be more vulnerable to abuse and/or bullying.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _2 presenters that are different to each other with images to support content._
-      
-      Please see the following video on different ways bullying can occur 3.2 and 3.3.
-    video: placeholder_pc.mp4
+      Not all bullies are the same and each one has a different style and uses different tactics to intimidate and control their victims. Some are very sly while others are really mean. There are also many more types of bullying than the standard physical bullying or name-calling that most people think of.
+
+      Lets have a look in this video at the different ways bullying can occur and how some are more vulnerable.
+
+    video: ypmh_u2_s3_p1_bullying.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+          What are the different ways can bullying occur? Can you think why some people may be more vulnerable to abuse and/or bullying? Make a note of your answers in the box to the right.
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: OPTIONAL item - Only one of the quizzes to be used if at all
@@ -103,39 +91,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Domestic abuse is any type of controlling, bullying, threatening or violent behaviour in relationships either inside or outside the home. 
+          answer: Domestic abuse
         -
-          sentence: example two
-          answer: two
+          sentence: Neglect is the ongoing failure to meet a child's basic needs. A child might be left hungry or dirty, or without proper clothing, shelter, supervision or health care.
+          answer: Neglect
         -
-          sentence: example three 
-          answer: three
+          sentence: Criminal exploitation is child abuse where children and young people are manipulated and coerced into committing crimes.  
+          answer: Criminal exploitation
         -
-          sentence: example four
-          answer: four
+          sentence: Cyberbullying is bullying takes place online and unlike offline bullying and can follow the child wherever they go, via social networks, gaming and mobile phone.
+          answer: Cyberbullying
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

@@ -2,7 +2,7 @@ title: Risk factors which may affect the mental well-being
 intro: |
   In this unit you will learn how the mental health of children and young people can be affected by a range of different factors. To start with we will look at risk factors and how they can affect mental health and well-being.
 
-banner: placeholder.jpg
+banner: ypmh_u2_s1_p2_risks.jpg
 sections:
   -
     title: Key point
@@ -10,7 +10,7 @@ sections:
     copy: |
       In your assessment you will be required to describe how risk factors can impact the mental health of children and young people. 
   -
-    title: Reveals
+    title: Risk factors
     theme: t-bg-primary
     copy: |
       Let’s look at some of the risk factors that may impact the mental health of children and young people. Select the images below to learn more about the risks.
@@ -22,28 +22,28 @@ sections:
           title: Adult responsibilities
           copy: |
             If a child or young person or someone within the family has a long-term physical illness they may have to act as a carer and take on adult responsibilities.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal1.svg
         -
           title: Parent issue
           copy: |
             They may have a parent who suffers from mental health problems or problems with alcohol or substance abuse or have experienced bereavement of someone close.
 
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal2.svg
         -
           title: Family disharmony
           copy: |
             A child who has been exposed to family dis-harmony or divorce, or where homelessness poverty or neglect may have turned their family life upside down or destroyed it.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal3.svg
         -
           title: Abuse
           copy: |
             A child or young person may suffer from physical or sexual abuse from a family member or family friend or even from someone who should be able to be trusted.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal4.svg
         -
           title: Discrimination
           copy: |
             They may have experienced discrimination because of their race, sexuality or religion.
-          img: placeholder_icon.svg
+          img: ypmh_u2_s1_p2_reveal5.svg
   -
   -
     title: Key point
@@ -56,9 +56,11 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Protective factors can help keep children and young people mentally well. For example, If they are in good physical health, eat a well balanced diet and get regular exercise and are part of a family that gets along well, most of the time, they are going to feel safe and benefit from a more stable life. If they have the time and freedom to play, regularly attend school and take part in local activities, they are more than likely going to have good men-tal health and well being. This will help them to be interested in life, enjoy themselves, and be hopeful, optimistic and have a sense of belonging in their family, school and community, with some control over their own life.
+      Protective factors can help keep children and young people mentally well. For example, If they are in good physical health, eat a well balanced diet and get regular exercise and are part of a family that gets along well, most of the time, they are going to feel safe and benefit from a more stable life. 
+      
+      If they have the time and freedom to play, regularly attend school and take part in local activities, they are more than likely going to have good mental health and well being. This will help them to be interested in life, enjoy themselves, and be hopeful, optimistic and have a sense of belonging in their family, school and community, with some control over their own life.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u2_s1_p2_image.svg
   -
   -
     title: Time to think
@@ -66,50 +68,19 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise_
-
-        1.1 and 1.2
+        What are the factors that can impact the mental health of children and young people? What protective factors can help to limit the impact of these risk factors? Make a note of these in the box to the right.
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The risk factor - family neglect or poverty, may influence the protective factor - a well balance diet.
+          answer: a well balance diet
         -
-          sentence: example two
-          answer: two
+          sentence: The risk factor - discrimination, may influence the protective factor - taking part in local activities.
+          answer: taking part in local activities
         -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
+          sentence: The risk factor - adult responsibilities, may influence the protective factor - time and freedom to play.
+          answer: time and freedom to play
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-        
-      

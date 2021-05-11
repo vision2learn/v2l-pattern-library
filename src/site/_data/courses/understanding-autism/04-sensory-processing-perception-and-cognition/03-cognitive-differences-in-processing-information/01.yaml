@@ -32,91 +32,36 @@ sections:
         -
           title: Processing information
           copy: |
-            text
+            Difficulties in areas such as personal organisation, behaviour, planning, perception, generalising, predicting and understanding concepts.
           img: placeholder_icon.svg
         -
           title: Consequences of an action
           copy: |
-            text
+            Difficulty in predicting the consequences of an action such as ‘if I do this, what happens next? 
           img: placeholder_icon.svg
         -
           title: Organising and prioritising
           copy: |
-            text
+            Difficulties with organising and prioritising makes it harder to plan daily activities and manage time effectively. 
           img: placeholder_icon.svg
         -
           title: Sequencing
           copy: |
-            text
+            Difficulties with activities that involve a process, such as coping with daily tasks like tidying up or cooking or doing laundry.
           img: placeholder_icon.svg
         -
           title: Concept of time
           copy: |
-            text
+            Difficulty planning what to do over the course of a day or a week.
           img: placeholder_icon.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter introducing topic with video clips/images to support content, followed by an interview discussing problems with processing information_
       
       Let’s look at some of the difficulties individuals with autism have in processing information.
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to describe strategies that could be used to support an individual with autism to complete activities/tasks.
-  -
-  -
-    title: Strategies to help
-    theme: t-bg-primary
-    copy: |
-      There are many different strategies people with autism can use to overcome their issues with processing information. Here are some ways in which people with autism spectrum disorder can organise and prioritise their daily activities and tasks. 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Visual supports
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: colour coding
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Voice recording
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Lists
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Alarms and alerts
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Times of day, days of the week
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Let’s have look at this in a bit more detail in this video.
     video: placeholder_pc.mp4
   -
   -
@@ -129,14 +74,45 @@ sections:
 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Managing money- Offered by MoneySuperMarket.com in association with the National Autistic Society, computer programmes, calendars and personal organiser apps._
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

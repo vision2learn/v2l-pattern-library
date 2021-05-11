@@ -1,0 +1,157 @@
+title: Accessing services and facilities
+intro: |
+  In this session you will learn about how to support individuals with autism to access services and facilities.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Support an individual may need to access
+      * Rights of individuals with autism in relation to accessing services and facilities 
+      * Reasonable adjustments that could be made for individuals with autism
+      * Support available for individuals and families from rights groups and community support organisations
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the support an individual may need to access:
+      * healthcare
+      * education and training
+      * leisure services.
+  -
+    title: Support an individual may need to access
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the support an individual with autism may need to access.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Healthcare
+          text: |
+            Health and care settings aren’t always flexible enough to adapt to the needs of individuals with autism. Issues such as noisy waiting areas, and not being able to see the same GP or social worker, can make a stressful experience even more difficult.
+          img: placeholder_icon.svg
+        -
+          title: Education and training
+          text: |
+            Education is a key part of every child’s life and a high proportion of children with autism attend mainstream schools. Opportunities for further education or training will vary across the country. Students at whatever level should always get the extra help and support they need.
+          img: placeholder_icon.svg
+        -
+          title: Leisure services
+          text: |
+            Playing sport, visiting the theatre or cinema, and going to museums, can have so many benefits for an individual with autism. However, the needs of people with autism should be supported, for them to be able to fully appreciate the experience. Some providers of leisure facilities have begun working to become more accessible, introducing autism-friendly measures.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Video – Standard format – 2 presenters with video clips to illustrate each point, may need to break up content if video is too long_
+      
+      Let’s look at this in more detail in this video.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline the rights of individuals with autism in relation to accessing services and facilities.
+  -
+  -
+    title: The rights of individuals with autism in relation to accessing services and facilities
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      We have already covered the rights of individuals with autism through various acts and guidance in previous units but what do those rights actually mean in relation to accessing services and facilities. 
+      
+      Each area in the country should have a multi-agency strategy group responsible for recognition, referral and diagnosis of children and young people. They should also provide access to the services that might be needed such as paediatricians, psychologists, speech and language therapists and social services. 
+      
+      Once an individual has received a diagnosis, information should be provided to prepare for the future and contact details should be given for local and national support organisations. It is the right of every individual with autism and their family to have access to these services and facilities when they need them in all aspects of their life.
+
+      _SME comment - could list the acts and guidance links as previously discussed_
+
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Above OR Slides
+    theme: t-bg-primary
+    copy: |
+      _Maybe break down the above content into a slider_
+    
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: a
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

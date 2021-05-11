@@ -1,11 +1,15 @@
 {# Unit 1 Session 1 Page 2 #}
 <section>      
   <h2>Your learning goals</h2>
-  
+  {%- if shortcode == 'it2' or shortcode == 'ypmh' %}
+    {% set seshOrUnit = "Unit" %}
+  {% else %}
+    {% set seshOrUnit = "Session" %}
+  {% endif -%}
   <p>
-    By working through this {{ "Session" if shortcode !== 'it2' else "Unit" }}, you will cover the following criteria of your Level 2 Certificate in {{ course | replace('-', ' ') | formattitle }} qualification:
+    By working through this {{ seshOrUnit }}, you will cover the following criteria of your Level 2 Certificate in {{ fulltitle if fulltitle else (course | replace('-', ' ') | formattitle) }} qualification:
   </p>
-  
+  {# course | replace('-', ' ') | formattitle  #}
   {% if goals.will %}
     <h3>The learner will:</h3>
     <ol>

@@ -20,28 +20,65 @@ sections:
         -
           title: Vision
           copy: |
-            text
+            Some may find things too dark or may lose some of their features, others find objects too bright and can appear to jump around.
           img: placeholder_icon.svg
         -
           title: Hearing
           copy: |
-            text
+            Some may not acknowledge particular sounds; others may be able to hear conversations in the distance.
+
           img: placeholder_icon.svg
         -
           title: Touch
           copy: |
-            text
+            Some hold onto people or things very tightly, others don’t like to be touched at all.
           img: placeholder_icon.svg
         -
           title: Taste
           copy: |
-            text
+            Some individuals like really spicy food, others find foods too strong or overpowering.
           img: placeholder_icon.svg
         -
           title: Smell
           copy: |
-            text
+            Some individuals have no sense of smell and fail to notice extreme odours, whereas others dislike strong smells such as cleaning products and perfumes. 
           img: placeholder_icon.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to define what is meant by hypersensitivity and hyposensitivity.
+  -
+    title: What is meant by Hypersensitivity and Hyposensitivity?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Hypersensitivity is when individuals are extremely reactive to sensory stimulation to the extent that they may find stimuli overwhelming. Lights can be too bright or sounds that would not bother others, can cause them to cover their ears. Hyposensitivity is the opposite and involves individuals being under-sensitive to stimulation with decreased sensitivity to sensory input. Individuals have a harder time stimulating their senses than normally.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of behaviours that may suggest an individual is hyposensitive or hypersensitive.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - standard style - Presenter with images and video clips showing how people react_
+      
+      Let’s look at this in more detail in this video.
+    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

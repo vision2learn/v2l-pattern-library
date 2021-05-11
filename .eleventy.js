@@ -106,6 +106,7 @@ module.exports = function(config) {
     let transcript = '';
     let multi = basename.indexOf('_pc') > 0 ? true : false;
     let filesToCheck = [basename];
+    let vidFilePath = `https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/${file}`;
 
     if(multi) {
       filesToCheck.push(basename.replace('_pc', '_mac'))
@@ -114,7 +115,7 @@ module.exports = function(config) {
     // Is there a VTT for this video?
     try {
       fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
-      track = `<track label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
+      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
     } catch (err) {
       // console.log(`No VTT file for ${file}`);
       missingCaptions.push(file);
@@ -143,17 +144,27 @@ module.exports = function(config) {
       }
     });
     
+    // Remote video?
+    try {
+      fs.accessSync(`src/site/videos/${file}`, fs.constants.F_OK);
+      console.log(`Using local version of ${file}`);
+      vidFilePath = `${tilde}/videos/${file}`;
+    } catch (err) {
+    }
+
 
     return `
-      <video id="video" controls preload="metadata" poster="${tilde}/images/svg/course-features/watch.svg" aria-labelledby="${id}" 
-        data-base="${basename}" 
-        data-ext="${ext}" 
-        data-multi="${multi}"
-        data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
-        <source src="${tilde}/videos/${file}" type="video/mp4">
-        ${track}
-        <p>Sorry, your browser doesn't support embedded videos</p>
-      </video>
+      <div class="l-video-container">
+        <video poster="${tilde}/images/svg/poster.svg" controls preload="metadata" aria-labelledby="${id}" width="1000"
+          data-base="${basename}" 
+          data-ext="${ext}" 
+          data-multi="${multi}"
+          data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
+          <source src="${vidFilePath}" type="video/mp4">
+          ${track}
+          <p>Sorry, your browser doesn't support embedded videos</p>
+        </video>
+      </div>
       ${transcript}
       `;
   });

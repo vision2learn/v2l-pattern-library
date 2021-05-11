@@ -30,10 +30,8 @@ sections:
       type: time-to-think
       copy: |
         Using the link below carry out some research on current trends and statistics relating to mental health problems in children and young people. Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
 
+        [Mental health statistics](https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people)
   -
     title: Quick quiz
     theme: i-quiz

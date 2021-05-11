@@ -1,0 +1,177 @@
+title: Proactive and reactive strategies 
+intro: |
+  Let’s look at the advantages and disadvantages of using proactive strategies and reactive strategies to support positive behaviour in individuals with autism.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the advantages and disadvantages of using proactive strategies and reactive strategies to support positive behaviour in individuals with autism.
+  -
+    title: Advantages and disadvantages
+    theme: t-bg-primary
+    copy: |
+      What are proactive and reactive strategies?
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Proactive strategies - advantages
+          text: |
+            Proactive strategies are intended to make sure the individual with autism has got what they need and want on a day-to-day basis. It also includes the ways to teach the individual appropriate communication, behaviour and life skills. Proactive Strategies include visual supports, transitional warnings, clear and simple instructions, choices, descriptive praise or positive attention and rewards. Proactive strategies clarify expectations and promote learning and positive behaviours and help to provide a more stable environment.
+          img: placeholder_icon.svg
+        -
+          title: Proactive strategies - disadvantages
+          text: |
+            The disadvantage of using proactive strategies could be a potential risk to creating problems and disruption where there previously was none before. Parents, carers or support workers may become anxious and the individual with autism may detect the measures being put in place to support the reduction of their behaviour that challenges and in turn may act to challenge that, making matters worse.
+          img: placeholder_icon.svg
+        -
+          title: Reactive strategies - advantages
+          text: |
+            Reactive strategies are designed to keep the individual with autism and those around them safe from harm.They provide a way to react quickly in a situation where the person is distressed or anxious and more likely to display challenging behaviour. Reactive strategies may include some form of restraining if necessary but should focus on ‘planned ignoring’, redirection and praising, and rewarding desired behaviour.
+          img: placeholder_icon.svg
+        -
+          title: Reactive strategies - disadvantages
+          text: |
+            The disadvantages of using reactive strategies can mean that by trying to keep individuals safe from harm and trying to prevent damage to others, some form of restraining may in turn risk traumatising or injuring them or draw extra attention to the individual which they might repeat to seek the attention again. Frustration can be compounded if the correct communication method is not used.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of positive reinforcement.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - a presentation with a narrator showing the 'behaviour support plan' document as the focus and then adding elements as discussed - for example icon for parents and carers, words for 'functional assessment' etc.  If resource does not allow - Narrator with images_
+      
+      ### What is a Behaviour Support Plan?
+      
+      Proactive and reactive strategies are contained in a ‘Behaviour Support Plan’ let’s look at what this involves in this video.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline approaches that could be used to support positive behaviour.
+  -
+  -
+    title: Approaches that could be used to support positive behaviour
+    theme: t-bg-primary
+    copy: |
+      The overall aim of Positive Behaviour Support is to provide right support for a person, their family and friends to help people lead a meaningful life and learn new skills without unnecessary restrictions. It is not simply about getting rid of problematic behaviour, it is based on manipulating or changing what is going on before or after the behaviour occurs, to prevent it from occurring, or to stop that behaviour working for the individual.
+
+      Let’s look at approaches that can be used with individuals with autism to support positive behaviour
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Celebrate strengths
+          copy: |
+            Celebrate and build on their strengths and successes and letting them know what they do well.
+          img: placeholder_icon.svg
+        -
+          title: Respect
+          copy: |
+            They should be respected and listen to verbally or via communication through their choices or actions.
+          img: placeholder_icon.svg
+        -
+          title: Validate concerns
+          copy: |
+            Validate their concerns and emotions and don’t brush aside any fears they may have.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Case study AND/OR Interview??? _
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - interview with a professional or a parent about positive behaviour support._
+      
+      let’s hear more about positive behaviour support.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

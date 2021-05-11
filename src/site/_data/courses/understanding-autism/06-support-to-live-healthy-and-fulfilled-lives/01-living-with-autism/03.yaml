@@ -1,0 +1,152 @@
+title: The impact on family members
+intro: |
+  The impact on family members of supporting an individual with autism.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the impact on family members of supporting:
+      * a child or young person with autism
+      * an adult with autism.
+  -
+    title: Supporting an individual with Autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      text
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Interview with a family member about the impact of supporting an individual with autism (a child or young person with autism & an adult with autism)_
+      
+      Let’s hear about the impact on family life when supporting an individual with autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify positive aspects of living with autism.
+  -
+  -
+    title: The positive aspects of living with autism 
+    theme: t-bg-primary
+    copy: |
+      What are some of the positive aspects of living with autism? let’s look at these below.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Concentration
+          copy: |
+            Individuals often have good concentration levels.
+          img: placeholder_icon.svg
+        -
+          title: Technical ability
+          copy: |
+            They may have advanced technical ability especially in IT.
+          img: placeholder_icon.svg
+        -
+          title: Subject knowledge
+          copy: |
+            Subject knowledge may be extensive and highly detailed.
+          img: placeholder_icon.svg
+        -
+          title: Persistence and reliability
+          copy: |
+            They may show persistence and determination to complete tasks at all costs.
+          img: placeholder_icon.svg
+        -
+          title: Accuracy
+          copy: |
+            Attention to detail can help to produce accuracy
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style – Standard format with 2 presenters etc (but would have asked for animation if we had the time)._
+      
+      Watch this video to learn more about the positive aspects of living with someone with autism.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

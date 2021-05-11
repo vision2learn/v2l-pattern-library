@@ -1,0 +1,134 @@
+title: Reasonable adjustment and community support
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of reasonable adjustments that could be made for individuals with autism.
+  -
+    title: Reasonable adjustments that could be made for individuals with autism 
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some reasonable adjustments that can help individuals with autism.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Healthcare
+          text: |
+            In general healthcare provision, action plans informing the individual of what is happening, and when, can help the process of hospital visits. By knowing what to expect, this can help reduce anxiety levels and speed up the recovery process. For hospital stays, flexible visiting hours, supported mealtimes and overnight facilities for parents or carers, can help make the process easier and cause less challenging behaviour.
+          img: placeholder_icon.svg
+        -
+          title: Education
+          text: |
+            Educational establishments should be prepared for the general needs of students or visitors with autism. Clearly signposted facilities, visual aids, sensory adjustments, space and a structured timetable, can help accommodate their needs. Also, flexibility for an individual should they need it.
+          img: placeholder_icon.svg
+        -
+          title: Public places
+          text: |
+            Shops, banks, libraries, council offices and leisure facilities, can provide staff who are trained to help with the needs of autism. They can look at their facilities and address any sensory issues like flickering lights. They can have a procedure in place for when an issue occurs and provide visual aids to help an individual with their visit.
+          img: placeholder_icon.svg
+        -
+          title: Employment
+          text: |
+            Employers and businesses can look at the needs of their individual employees and make the space they work in more suitable for their needs, with regards to facilities and sensory elements. Flexible working routines can accommodate any ‘timeouts’ that might be needed
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
+      
+      Let’s find out more about reasonable adjustments.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline the support available for individuals and families from rights groups and community support organisations.
+  -
+  -
+    title: Support available for individuals and families from rights groups and community support organisations
+    theme: t-bg-primary
+    copy: |
+      Having a family member with autism can put a lot of strain on the rest of the family it but there is a wealth of support available, from many different sources, covering many different things a family might need help with.
+
+      Let’s look at some of those sources that can offer help advice and support.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: National Autistic Society
+          copy: |
+            For parents of autistic children, young autistic people and autistic adults.  Call: 0808 800 4104 
+
+          img: placeholder_icon.svg
+        -
+          title: Ambitious about Autism
+          copy: |
+            For autistic children and young people, their parents and carers.  Call: 020 8815 5444  E-mail: info@ambitiousaboutautism.org.uk
+
+          img: placeholder_icon.svg
+        -
+          title: School, college or workplace
+          copy: |
+            Find out what help is available by speaking to teachers or SENCO, student support services or HR in the workplace.
+          img: placeholder_icon.svg
+        -
+          title: Social media and forums
+          copy: |
+            Forums and social media can offer support with many people with experience sharing their stories. Groups run by autism charities and sites such as ‘healthtalk.org'.
+          img: placeholder_icon.svg
+        -
+          title: Facebook
+          copy: |
+            ‘National Autistic Society Facebook group’  ‘Ambitious about Autism Facebook group’  ‘Actually Autistic’, for autistic adults  and ‘Autism Research Trust’.
+
+          img: placeholder_icon.svg
+        -
+          title: Local support groups
+          copy: |
+            The assessment team that carried out a diagnosis should provide information on local support groups. Also search for local groups using the: ‘National Autistic Society services directory’ and ‘Autism support groups on the NHS website’.
+
+          img: placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more.
+
+      links:
+        National Autistic Society: http://www.autism.org.uk
+        Ambitious about Autism: http://www.ambitiousaboutautism.org.uk
+        Good Schools Guide - senco: https://www.goodschoolsguide.co.uk/special-educational-needs/schools-and-sen/senco
+        Healthtalk: https://www.healthtalk.org/
+        National Autistic Society services directory: https://www.autism.org.uk/directory
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point and text titles for each item eg. ‘Autism charities’_
+      
+      Let’s listen to more about this in this video.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
