@@ -8,9 +8,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Mental illness in children can be hard to identify. As a result, many children who could benefit from treatment don't immediately get the help they need but by recognising the warning signs early intervention can be arranged. 
+      Mental illness in children can be hard to identify. As a result, many children who could benefit from treatment don't immediately get the help they need but, by recognising the warning signs early intervention can be arranged. 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u3_s1_p2_image.svg
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -48,7 +48,7 @@ sections:
         -
           title: Medical complaints
           copy: |
-            Complaining of frequent headaches or persistent stomachaches.
+            Complaining of frequent headaches or persistent stomach aches.
           img: ypmh_u3_s1_p2_reveal5.svg
         -
           title: Education problems

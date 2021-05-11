@@ -44,8 +44,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenter and images_
-      
       Lets now look at how to support children and young people to recognise risk factors and signs of distress in themselves.
     video: ypmh_u2_s1_p3_support.mp4
   -
@@ -62,7 +60,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about resilience and mental health:
 
       links:
-        website description: http://www.google.co.uk
+        Resilience and mental health - Be You: https://beyou.edu.au/fact-sheets/social-and-emotional-learning/resilience-and-mental-health#:~:text=Children%20and%20young%20people%20with%20greater%20levels%20of,conflict%20with%20friends%20or%20falling%20off%20a%20bike.
