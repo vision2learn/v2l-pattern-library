@@ -10,7 +10,7 @@ permalink: dotnet/{{ pagination.items[0] | slug }}/App_Data/CourseStructure.xml
     <Unit number="{{ loop.index }}" title="Unit {{ loop.index }} of {{ loop.length }}: {{ unit | replace('-', ' ') | replace('0'+loop.index, '') | trim | capitalize }}">
       <Sessions>
       {%- for session, pages in sessions %}
-        <Session number="{{ loop.index }}" title="Session {{ loop.index }} of {{ loop.length }}: {{ session | replace('-', ' ') | replace('0'+loop.index, '') | trim | capitalize }}" pages="{{ pages | length }}" />
+        <Session number="{{ loop.index }}" title="Session {{ loop.index }} of {{ loop.length }}: {{ session | replace('-', ' ') | replace("societys","society's") | replace('0'+loop.index, '') | trim | capitalize | safe }}" pages="{{ pages | length }}" />
       {%- endfor %}
       </Sessions>
     </Unit>
