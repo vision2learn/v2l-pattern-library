@@ -62,6 +62,14 @@ sections:
       You will also need to identify foods that are a good source of each nutrient. 
   -
   -
+    title: Read - The five food groups
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document ......
+
+      [example doc]().
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 

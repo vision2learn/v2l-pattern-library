@@ -1,17 +1,15 @@
 title: Eating a variety of foods
 intro: |
   On this page you will learn about: 
-  * point 1
-  *  
+  * 5 a day 
+  * Eating a variety of foods
 banner: placeholder.jpg
 sections:
   -
     title: What is a portion?
     theme: t-bg-primary
     copy: |
-      text
-
-      Select the images below to read 
+      Select the images below:
 
     subInc: 
       type: reveal
@@ -19,32 +17,32 @@ sections:
         -
           title: Broccoli
           copy: |
-            text
+            Two broccoli florets counts as one portion of fruit and vegetables.
           img: placeholder_icon.svg
         -
           title: Juice
           copy: |
-            text
+            One medium glass of orange juice counts as one portion of fruit and vegetables.
           img: placeholder_icon.svg
         -
           title: Smoothie
           copy: |
-            text
+            One smoothie can counts as two portions of fruit and vegetables.
           img: placeholder_icon.svg
         -
           title: Apple
           copy: |
-            text
+            One medium apple counts as one portion of fruit and vegetables.
           img: placeholder_icon.svg
         -
           title: Banana
           copy: |
-            Something about a minion's love of bananas can go here
+            One medium banana counts as one portion of fruit and vegetables. Did you know that this is the staple diet of a minion?!
           img: placeholder_icon.svg
         -
           title: Baked beans
           copy: |
-            text
+            One heaped tablespoon of baked beans counts as one portion of fruit and vegetables.
           img: placeholder_icon.svg
   -
   -
@@ -95,7 +93,7 @@ sections:
     title: Case study
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Case study - Karla and Trisha
 
       text
     subInc: 
@@ -137,4 +135,4 @@ sections:
     theme: t-bg-grey i-keypoint
     copy: |
        You need to be able to describe the importance of eating a variety of foods in your Assessment!
-       Make sure you feel confident about this before you move on.
+       Make sure you feel confident about this before you move on.  LO2.3 ?
