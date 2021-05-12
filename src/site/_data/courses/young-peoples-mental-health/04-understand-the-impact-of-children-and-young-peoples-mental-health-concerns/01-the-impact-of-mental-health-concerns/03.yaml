@@ -52,10 +52,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter to introduce with statistic icons e.g.'three times more likely' then follow with images_
-      
       Let’s look at the potential impact of mental health concerns for children and young people and how can we address them in the short term and long term. 
-    video: placeholder_pc.mp4
+    video: ypmh_u4_s1_p2_potential_effects.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -63,7 +61,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
   -
   -
     title: Quick quiz
@@ -71,20 +68,19 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Emotional wellbeing is a key indicator of academic achievement, and subsequently improved outcomes in later life.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        How many times is it more likely for Children and young people from the poorest households to have a mental health problem?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Two: false
+            Three: true
+            Four: false
+          feedback: Children and young people from the poorest households can be up to three times more likely to have a mental health problem than those growing up in better-off homes. This may be related to the financial strains and stresses put on the family.
+        Select one option to complete the following sentence:"________________ is a great way to improve mental wellbeing as it can help the release of the feel-good chemicals - endorphins - in the brain.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            Education: false
+            Financial help: false
+            Physical well-being: true
+          feedback: Physical well-being is a great way to improve mental wellbeing and If children and young people are encouraged to get involved with physical exercise this can help as it influences the release and uptake of the feel-good chemicals ‘endorphins’ in the brain. By preventing or handling mental health problems and building resilience in children and young people their future mental health and well-being can be improved.

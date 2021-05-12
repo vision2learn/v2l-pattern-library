@@ -9,7 +9,7 @@ sections:
     copy: |
       In your assessment you will be required to identify therapies that could be used to treat a child or young person experiencing mental health problems.
   -
-    title: Reveals
+    title: Well known therapies
     theme: t-bg-primary
     copy: |
       Let’s look at some of the more well known therapies.
@@ -44,10 +44,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - One Presenter with text to the side for 'therapies' names and terms e.g. IAPT; images/video clips to support_
-      
       Let’s look at some of the therapies that can be used for treating mental health problems in children and young people. Please watch this video to find out more detail.
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s3_p2_cbt.mp4
   -
   -
     title: Available therapies via the NHS
@@ -91,10 +89,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - two presenters with video clips/images_
-      
       Watch this video for more information.
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s3_p2_therapies_1.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -110,39 +106,16 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Cognitive Behavioural therapy is where goals are set by the therapist for the individual to carry out tasks between sessions.
+          answer: Cognitive Behavioural
         -
-          sentence: example two
-          answer: two
+          sentence: Mindfulness based cognitive therapy helps individuals focus on thoughts and feelings as they happen moment by moment.
+          answer: Mindfulness
         -
-          sentence: example three 
-          answer: three
+          sentence: Interpersonal therapy is a talking treatment that helps people with depression identify and address problems in their relationships with family, partners and friends. 
+
+          answer: Interpersonal
         -
-          sentence: example four
-          answer: four
+          sentence: Counselling is a talking therapy where an individual can talk in confidence to a counsellor. 
+          answer: Counselling
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

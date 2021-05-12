@@ -47,10 +47,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with video clips/images_
-      
       Please see the following video to learn more.
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s2_p2_lifestyle_choices.mp4
   -
   -
     title: Quick quiz
@@ -86,10 +84,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - two presenters with video clips/images_
-      
       Let’s look at how adults and parents can help children and young people make good lifestyle choices to help with self-esteem.
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s2_p2_responding_to_behaviour.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -100,14 +96,21 @@ sections:
 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: How a person feels about themselves and many different pressures growing up can affect a child’s or young person’s self-esteem.
+          answer: self-esteem
+        -
+          sentence: Children and young people with high self-esteem often have a positive image of themselves and are confident, make friends easily, and will try new things and adapt to change. 
+          answer: positive image
+        -
+          sentence: Having a healthy self-esteem is essential in making safe and healthy choices.   
+          answer: healthy choices
+        -
+          sentence: Children and young people may need to be guided to make good lifestyle changes for the benefits of their mental well-being.
+          answer: mental well-being
+    theme: i-quiz

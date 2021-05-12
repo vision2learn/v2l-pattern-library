@@ -22,10 +22,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with short introduction, then the same presenter but as a narrator with video clips illustrating the different cultures and countries_
-      
       Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
-    video: placeholder_pc.mp4
+    video: ypmh_u4_s2_p3_cultural_and_social.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -59,20 +57,16 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Older people in all cultures are more likely to seek help.":
           answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
+            True: false
+            False: true
+        Which gender do most cultures discourage from showing physical or mental weakness?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Female: false
+            Male: true
+        Select one option to complete the following sentence:"Not every culture trusts western medical practices, instead they prefer to use _____________ and often don’t see mental health as medical.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            herbal medicine: false
+            talk therapy: false
+            traditional methods: true

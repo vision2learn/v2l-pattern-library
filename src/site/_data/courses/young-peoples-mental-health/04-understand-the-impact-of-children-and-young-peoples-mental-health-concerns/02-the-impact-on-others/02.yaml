@@ -49,10 +49,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with images and the actual websites with narration_
-      
       Please watch this video to find out more information about the range of services that are available.
-    video: placeholder_pc.mp4
+    video: ypmh_u4_s2_p2_range_of_services.mp4
   -
   -
     title: Time to think
@@ -68,12 +66,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the NHS's Child and Adolescent Mental Health Services (CAMHS):
 
       links:
-        website description: http://www.google.co.uk
+        Guide to CAMHS (youngminds.org.uk): https://youngminds.org.uk/find-help/your-guide-to-support/guide-to-camhs/
   -
   -
     title: Quick quiz
@@ -82,15 +78,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one - CYPMHS 
+          sentence: CYPMHS cover all services that work with children and young people who have difficulties with their mental health or wellbeing. They include psychiatrists and psychologists and primary health care workers and specialists. 
           answer: CYPMHS 
         -
-          sentence: example two - Youngminds
-          answer: Youngminds
+          sentence: Youngminds.org.uk campaign, research and aim to influence policy and practice based on the experiences of children and young people they work with, as well as their families and the professionals who support them, to help them to develop better well-being.
+          answer: Youngminds.org.uk
         -
-          sentence: example three - MIND
-          answer: MIND
+          sentence: Mind.org.uk is quite a well-known mental health charity. Mind’s aim is to provide advice and support to empower anyone experiencing a mental health problem. 
+          answer: Mind.org.uk
         -
-          sentence: example four - Stem4
-          answer: Stem4
+          sentence: Stem4.org.uk is a charity that promotes positive mental health in teenagers and those who support them including their families and carers, education professionals, as well as school nurses and GPs. 
+          answer: Stem4.org.uk
     theme: i-quiz

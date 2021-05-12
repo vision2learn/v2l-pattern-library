@@ -14,8 +14,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with images to support content_
-      
       ### What is a mental health crisis?
 
       Let’s look at a short video about what constitutes an emergency or mental health crisis.
@@ -46,9 +44,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Narrator with video clips/images - e.g. new clips etc. (Needs to be in the 'past tense' to future proof video for once the pandemic is over we hope!)_
-      
-      Coronavirus specific.
+      Let’s look at a short video about the global Coronavirus pandemic situation which may have affected the mental health and well-being of children and young people.
     video: ypmh_u3_s4_p2_coronavirus_specific.mp4
   -
     title: Time to think
