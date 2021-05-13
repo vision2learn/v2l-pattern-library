@@ -77,6 +77,7 @@ sections:
        Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
        
        The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more. 
+       _On old course was originally in Session 3 page 3_
 
     subInc: 
       type: reveal
@@ -101,6 +102,21 @@ sections:
           copy: |
             If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
           img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Calories from protein
+
+      Belinda is doing some research into the amount of calories that she and her friends should be getting from protein.
+
+      Belinda determines, as a result of her lifestyle, that 15% of her calorie intake should come from protein. Her friend Dan is an aspiring footballer. She works out that 25% of his calories should come from protein.
+
+      Dan’s brother is a professional boxer. His trainer has told him that 30% of his calories should come from protein. This is because the physical demands on his body are much larger than Belinda or Dan. 
+
+    img: /images/svg/placeholder_icon.svg
   -
     title: Summary
     theme: t-bg-primary i-summary

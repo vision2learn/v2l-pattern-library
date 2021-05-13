@@ -1,5 +1,5 @@
 title: What did you learn? 
-intro: Well done, you’ve now completed the ____ session of this unit! In this session you have learnt about 
+intro: Well done, you’ve now completed the third session of this unit!
 banner: summary.jpg
 sections:
   -
@@ -7,27 +7,49 @@ sections:
     theme: t-bg-primary
     copy: |
       In this Session you have learnt about    . You have learnt about:
+      * What is meant by the term ‘nutrients’
+      * The six classes of nutrient, including carbohydrate, fat, protein, vitamins, minerals and water
+      * The links between nutrients and health
+      * The factors that influence how much of each nutrient a person requires
+      * The importance of staying hydrated, including the effects of dehydration
+      * How exercise affects your fluid requirements
 
-      * one
-      * two
-      * three
 
       Take a look at the following learning points to see a summary of what you have covered in this session:
-      * one
-      * two
-      * three
+      
     subInc: 
       type: accordion
       content:
         - 
-          title: title 1
+          title: Six classes of nutrients
           copy: |
-            * 
+            * Carbohydrates
+            * Fats
+            * Proteins
+            * Water
+            * Vitamins
+            * Minerals
         -
-          title: title 2
+          title: Need for nutrients
           copy: |
-            * 
+            Factors that affect nutrient need:
+            * Amount of activity
+            * Health / condition
+            * Age
+            * Physical changes
         -
-          title: title 3
+          title: Effects of poor hydration
           copy: |
-            * 
+            * Joint aches and pains
+            * Central nervous system function
+            * Digestive system function
+            * Body temperature
+
+        -
+          title: Water and exercise
+          copy: |
+            What's important?
+            * Hydration before exercise
+            * Hydration during exercise
+            * Hydration after exercise
+            * Carbohydrates and electrolytes

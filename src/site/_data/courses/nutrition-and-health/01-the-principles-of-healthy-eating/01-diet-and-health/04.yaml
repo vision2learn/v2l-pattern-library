@@ -176,7 +176,7 @@ sections:
           answers:
             True: true
             False: false
-        True or false: Obesity is linked to a BMI over 25.:
+        True or false? Obesity is linked to a BMI over 25.:
           answers:
             False: true
             True: false

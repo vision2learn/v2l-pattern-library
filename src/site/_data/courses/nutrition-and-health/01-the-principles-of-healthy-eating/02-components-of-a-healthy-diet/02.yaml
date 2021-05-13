@@ -70,22 +70,30 @@ sections:
         -
           title: Nutritional needs
           text: |
-            text
+            If people want to stay healthy, they need to meet a variety of nutritional needs. These needs can’t be met by just one food! People should eat a variety of different foods to make sure they get everything they need.
+
+            For example, a person who only ate brown rice and apples would be missing out on many essential nutrients. This lack of variety would lead to an unhealthy diet! 
           img: placeholder_icon.svg
         -
           title: Pleasure
           text: |
-            text
+            By eating a variety of different foods, people are able to enjoy a wide variety of texture, flavours and combinations. This means that people’s meals are more enjoyable and appealing.
+             
+            Eating a variety of different foods means enjoying food more! Leading a healthy lifestyle is something that many people enjoy. 
           img: placeholder_icon.svg
         -
           title: Variety
           text: |
-            text
+            When there is little variation in meals, a person may be more likely to eat unhealthily. Eating a wide variety of healthy foods will help a person eat healthily.
+             
+            By liking a range of different foods, people are in an easier position to choose healthy options rather than unhealthy ones.
           img: placeholder_icon.svg
         -
           title: Availability
           text: |
-            text
+            People who eat a limited range of foods may struggle with their diet if the food they eat becomes unavailable or is in short supply. They may have difficulty getting all the nutrients they need.
+            
+            If a person likes a variety of foods, they have more choice over what to eat. Someone who eats a wide variety of foods has a better chance of finding the nutrition they need in the food available. 
           img: placeholder_icon.svg
 
   -
@@ -95,15 +103,25 @@ sections:
     copy: |
       ### Case study - Karla and Trisha
 
-      text
+      Take a look at the eating diaries for two women. Each tries to eat healthily and to get a variety of foods. What do you think about their diets? How healthy are they? 
     subInc: 
       type: accordion
       content:
         - 
-          title: accordion title
+          title: Diet 1 - Karla
           copy: |
-            text
-            text
+            Karla works part-time from home as a designer. She meets clients at her home and is trying to increase her fruit and vegetable intake.
+            
+            _needs to be changed_
+          img: /images/svg/placeholder_icon.svg
+        -
+          title: Diet 2 - Trisha
+          copy: |
+             Trisha has a high pressure job as a marketing consultant. She strives to maintain a healthy diet.
+             
+             _Click the images below to see what a typical day in Trisha’s diet might look like._
+
+             _change - reference - https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session02/pg4-a.asp_ 
           img: /images/svg/placeholder_icon.svg
   -
   -
