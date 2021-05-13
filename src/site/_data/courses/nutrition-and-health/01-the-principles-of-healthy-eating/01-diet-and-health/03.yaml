@@ -20,9 +20,7 @@ sections:
     title: A healthy diet
     theme: t-bg-primary
     copy: |
-      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.
-
-      Select the images below to learn more about the influencing factors for a healthy diet.
+      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.  
     subInc: 
       type: slider
       title: 
@@ -30,33 +28,53 @@ sections:
         -
           title: Macro and Micronutrients
           text: |
-            Macro nutrients are needed in larger quantities and provide the body with energy. These are: carbohydrates, fat and protein. Each of these groups contain vitamins and minerals that make up micronutrients. e.g. proteins such as fish and eggs contain the micronutrients iron, calcium and vitamin D; Oily fish also a good source of fat and provides Omega-3; carbohydrates such as wholegrain bread and rice contain magnesium, vitamin B and fibre. 
+            *Macronutrients* are needed in larger quantities and provide the body with energy. These are: carbohydrates, fat and protein. 
+            
+            Each of these *macronutrients* contain vitamins and minerals that make up *micronutrients*. e.g. proteins such as fish and eggs contain the micronutrients iron, calcium and vitamin D; Oily fish is also a good source of fat and provides Omega-3; carbohydrates such as wholegrain bread and rice contain magnesium, vitamin B and fibre. 
             
             By eating a varied diet with foods from the different macronutrients you should get enough micronutrients to keep you healthy. 
+
+
           img: placeholder_icon.svg
         -
           title: Saturated and Unsaturated Fats
           text: |
             Fats are important for energy, growth, absorbing some vitamins, maintaining cell membranes and other important functions.
-            Unsaturated fats are found in natural foods e.g. nuts, seeds, avocados, oily fish and olive oil. Consuming unsaturated fats has been found to decrease the risk for heart disease. 
+            
+            Unsaturated fats are found in natural foods e.g. nuts, seeds, avocados, oily fish and olive oil. Consuming unsaturated fats has been found to decrease the risk for heart disease *and other illnesses*. 
+            
+            *Saturated* fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil.
 
-            Unsaturated fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil.
+
           img: placeholder_icon.svg
         -
           title: Herbs and Spices
           text: |
-            For added health, herbs and spices should be included in a varied diet. Used by our ancestors, these do far more than add flavour and are used in many medicines. By adding herbs and spices to your meals it could help lower cholesterol and inflammation, prevent Alzheimers and strengthen the immune system. 
+            For added health, herbs and spices should be included in a varied diet. Used by our ancestors, these do far more than add flavour and are used in many medicines. By adding herbs and spices to your meals it could help lower cholesterol and inflammation, prevent Alzheimers and strengthen the immune system.  
           img: placeholder_icon.svg
         -
           title: Fibre
           text: |
-            Fibre not only keeps the digestion functioning regularly, it can also help protect us from diseases such heart disease, diabetes and irritable bowl syndrome. It helps keep our microbiome healthy and reduces the amount saturated fat absorbed by the body. It also helps us to feel for longer and can aid in weight loss. 
+            Fibre not only keeps the digestion functioning regularly, it can also help protect us from diseases such heart disease, diabetes and irritable bowl syndrome. It helps keep our *microbiome* healthy and reduces the amount saturated fat absorbed by the body. It also helps us to feel *fuller* for longer and can aid in weight loss.
+
+            Microbiome is ..... 
           img: placeholder_icon.svg
         -
           title: Water
           text: |
-            Water will help you to digest food and absorb nutrients into the body. It is therefore important to drink plenty to gain as much goodness as you can from your diet. Along with preventing illness, improving skin and hair appearance and increasing cognitive thinking; it will also raise your energy levels and metabolism, leading to better weight loss. 
+            Water will help you to digest food and absorb nutrients into the body. It is therefore important to drink plenty to gain as much goodness as you can from your diet. Along with preventing illness, improving skin and hair appearance, and increasing cognitive thinking; it will also raise your energy levels and metabolism, leading to better weight loss. 
           img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you define what microbiome is? 
+
+        _You can refer to these notes in your journal which will support you when you come to your assessment_
+  -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
