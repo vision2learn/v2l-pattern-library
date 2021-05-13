@@ -91,6 +91,18 @@ sections:
             To find out how many calories a person needs to maintain their current energy levels they should calculate their BMR x Pal to gain their daily total energy requirement.
             
             Total Energy Required = BMR x PAL
+        -
+          title: PAL factor
+          copy: |
+            A person's PAL is determined by the things a person does in a 24 hour period. It can also be estimated from the physical activities that person performs each day. Each activity is connected to a particular level of activity.
+      
+            | Level | Description| PAL factor |
+            |------|------|------|
+            | 1 - Sedentary | This level of activity is described as little or no exercise. | 1.2 | 
+            | 2 - Light exercise | This level of activity includes frequent walking in a job / daily activity or 60mins of intense activity in one week. | 1.375 |
+            | 3 - Moderate exercise | This level of activity could be a job that is quite physical throughout the day e.g. shop work or intense physical activity 30 – 60 minutes three or four times a week. | 1.55 |
+            | 4 - Very active | This level of activity could include a highly physical job such as brick laying or farming or intense exercise for 60 minutes five to seven days per week. | 1.725 |
+            | 5 - Extreme| This level of activity could include full time training for a sporting event; this level of activity is usually only reached by elite athletes.| 1.9
         - 
           title: BMR formula
           copy: |
@@ -108,18 +120,6 @@ sections:
       _An interactive calculator to calculate the BMR - to replace most of the BMR items on old Page 10_
 
       _Also instructions on how to use the PAL information to calculate your own energy requirements_
-
-      _Do we still need this table?_
-
-      A person's PAL is determined by the things a person does in a 24 hour period. It can also be estimated from the physical activities that person performs each day. Each activity is connected to a particular level of activity.
-      
-      | Level | Description| PAL factor |
-      |------|------|------|
-      | 1 - Sedentary | This level of activity is described as little or no exercise. | 1.2 | 
-      | 2 - Light exercise | This level of activity includes frequent walking in a job / daily activity or 60mins of intense activity in one week. | 1.375 |
-      | 3 - Moderate exercise | This level of activity could be a job that is quite physical throughout the day e.g. shop work or intense physical activity 30 – 60 minutes three or four times a week. | 1.55 |
-      | 4 - Very active | This level of activity could include a highly physical job such as brick laying or farming or intense exercise for 60 minutes five to seven days per week. | 1.725 |
-      | 5 - Extreme| This level of activity could include full time training for a sporting event; this level of activity is usually only reached by elite athletes.| 1.9
 
     interactive: 
       file: 
