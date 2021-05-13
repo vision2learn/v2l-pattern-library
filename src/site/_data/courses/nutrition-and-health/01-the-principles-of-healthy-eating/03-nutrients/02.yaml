@@ -1,17 +1,19 @@
-title: Water and hydration
+title: Water, hydration and exercise
 intro: |
   On this page you will learn about: 
-  * point 1
-  *  
+  * Water and hydration
+  * Water and exercise
 banner: placeholder.jpg
 sections:
   -
     title: Poor hydration
     theme: t-bg-primary
     copy: |
-      text
+      People are, by weight, about two thirds water. So a person weighing 75kg will contain about 45l of water.
+      
+      There is strong evidence to suggest that dehydration can lead to asthma, high blood pressure, ulcers, joint problems and high cholesterol.
 
-      Select the images below to read 
+      See the images below to learn more about the effects of poor hydration.
 
     subInc: 
       type: reveal
@@ -19,22 +21,32 @@ sections:
         -
           title: Joint aches and pains
           copy: |
-            text
+            Poor hydration can lead to joint aches and pains, which can negatively affect physical activity.
           img: placeholder_icon.svg
         -
           title: CNS function
           copy: |
-            text
+            The function of the CNS and the brain (which is 85% water by weight) can be negatively affected by dehydration. 
           img: placeholder_icon.svg
         -
           title: Digestive system function
           copy: |
-            text
+            Dehydration can have a negative impact on a person’s digestive system. This in turn can have a negative impact on the energy and nutrients that are absorbed by the body. 
           img: placeholder_icon.svg
         -
           title: Body temperature
           copy: |
-            text
+            If you don’t drink enough water, there is a risk of overheating. Lack of water affects the body’s ability to keep cool and maintain a safe body temperature. 
+          img: placeholder_icon.svg
+        -
+          title: new
+          copy: |
+            text 
+          img: placeholder_icon.svg
+        -
+          title: new
+          copy: |
+            text 
           img: placeholder_icon.svg
   -
   -
@@ -52,6 +64,8 @@ sections:
 
       Take a look at the following to learn more about hydration during exercise. 
 
+      _replace slide info_
+
       [example doc]().
   -
   -
@@ -60,14 +74,28 @@ sections:
     copy: |
       ### Case study - Mido and Tom
 
-      text
+      Mido and Tom are flatmates at college.
+
+      Mido is a competitive athlete, but Tom is more of a couch potato.
+
+      As part of his Sports Sciences course, Mido is comparing his water intake to Tom’s.
+
+      He reads the NHS guidelines which recommend drinking at least 8 glasses of water a day.
     subInc: 
       type: accordion
       content:
         - 
           title: Click to see a comparison of their water intakes!
           copy: |
-            text
+            table here
+        - 
+          title: Conclusions
+          copy: |
+            Mido reached the following conclusion about himself and Tom’s fluid intake:
+
+            Tom was consuming around 1 litre a day so he was poorly hydrated and needed to consume more liquids.
+
+            On a non-training day Mido comfortably got the amount of water he needed. On a training day Mido had a water intake of between 4 and 5l depending on the intensity of the training or sports activity. This was good as he was replacing the water he lost during exercise! 
           img: /images/svg/placeholder_icon.svg
   -
     title: Quick quiz

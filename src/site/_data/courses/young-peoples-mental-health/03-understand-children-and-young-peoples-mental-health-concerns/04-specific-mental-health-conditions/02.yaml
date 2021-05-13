@@ -14,8 +14,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with images to support content_
-      
       ### What is a mental health crisis?
 
       Let’s look at a short video about what constitutes an emergency or mental health crisis.
@@ -31,28 +29,22 @@ sections:
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        True or false - "In any health crisis the first place to go is Accident & Emergency (999) by phone or directly at the local hospital."":
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            True: true
+            False: false
+        Select one option to complete the following sentence:"A mental health crisis in children and young people, is usually when they show signs of being ________________, having panic attacks, feeling suicidal or self-harming.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            negative: false
+            sad and moody: false
+            extremely anxious: true
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Narrator with video clips/images - e.g. new clips etc. (Needs to be in the 'past tense' to future proof video for once the pandemic is over we hope!)_
-      
-      Coronavirus specific.
+      Let’s look at a short video about the global Coronavirus pandemic situation which may have affected the mental health and well-being of children and young people.
     video: ypmh_u3_s4_p2_coronavirus_specific.mp4
   -
     title: Time to think
@@ -69,7 +61,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about navigating a mental health crisis:
 
       links:
-        website description: http://www.google.co.uk
+        Navigating-A-Mental-Health-Crisis (nami.org): https://www.nami.org/Support-Education/Publications-Reports/Guides/Navigating-a-Mental-Health-Crisis/Navigating-A-Mental-Health-Crisis

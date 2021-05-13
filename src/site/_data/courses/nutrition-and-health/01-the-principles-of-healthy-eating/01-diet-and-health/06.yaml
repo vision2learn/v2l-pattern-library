@@ -1,4 +1,4 @@
-title: Activity levels and energy
+title: Activity levels and Energy
 intro: |
   On this page you will learn about: 
   * Understanding activity levels
@@ -11,16 +11,16 @@ sections:
     theme: t-bg-primary
     copy: |
       In the last 50 years, advances in technology and changes to working life have led to many people doing less physical activity.
-
-      In the past, there were many jobs that were vigorous and physically demanding. These jobs, such as coal mining, construction or agricultural work would have required a large amount of physical effort.
-
-      Nowadays, many jobs are desk based and most people struggle to get enough exercise.
+      
+      In the past, there were many jobs that were vigorous and physically demanding. These jobs, such as coal mining, construction or agricultural work would have required a large amount of physical effort. Housework was also more demanding with the need to beat carpets, sweep floors and scrub many areas of the home. 
+      
+      Nowadays, modern appliance make household chores much easier, many jobs are desk based and most people struggle to get enough exercise.
   -
   -
     title: Aerobic activity levels
     theme: t-bg-supporting2
     copy: |
-      Select the images below to learn more about the different activity levels. 
+      Select the images below to learn more about the different activity levels.
 
     subInc: 
       type: reveal
@@ -58,7 +58,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      text
+      It’s important to understand the different factors that can affect a person’s energy requirements.
   - 
   -
     title: On the web
@@ -77,6 +77,7 @@ sections:
        Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
        
        The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more. 
+       _On old course was originally in Session 3 page 3_
 
     subInc: 
       type: reveal
@@ -101,6 +102,21 @@ sections:
           copy: |
             If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
           img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Calories from protein
+
+      Belinda is doing some research into the amount of calories that she and her friends should be getting from protein.
+
+      Belinda determines, as a result of her lifestyle, that 15% of her calorie intake should come from protein. Her friend Dan is an aspiring footballer. She works out that 25% of his calories should come from protein.
+
+      Dan’s brother is a professional boxer. His trainer has told him that 30% of his calories should come from protein. This is because the physical demands on his body are much larger than Belinda or Dan. 
+
+    img: /images/svg/placeholder_icon.svg
   -
     title: Summary
     theme: t-bg-primary i-summary

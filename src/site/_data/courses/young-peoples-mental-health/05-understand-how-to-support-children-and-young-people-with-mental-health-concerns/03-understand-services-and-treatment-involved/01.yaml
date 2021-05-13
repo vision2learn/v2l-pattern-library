@@ -25,11 +25,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with video clips/images - could include logos as well e.g. NHS. Use text to the side when referring to services e.g. CYPMHS; 'These services may be provided by a GP surgery, a large local health centre, a specialist mental health clinic or a hospital.' etc_
-      
       ### Range of Services and professionals involved
 
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s3_p1_range_of_services.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -85,13 +83,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - two presenters with video clips/images_
-      
       ### What is meant by ‘Care Programme Approach’
 
       The Care Programme Approach or CPA, is used in secondary specialist mental health services which are part of the NHS to assess needs and then plan, implement and evaluate the care that is needed let’s look at this in more detail.
 
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s3_p1_cpa.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

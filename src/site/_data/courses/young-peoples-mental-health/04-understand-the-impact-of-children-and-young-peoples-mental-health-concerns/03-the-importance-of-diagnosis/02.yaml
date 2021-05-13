@@ -9,7 +9,7 @@ sections:
     copy: |
       In your assessment you will be required to describe the barriers children and young people may face seeking a diagnosis.
   -
-    title: Reveals
+    title: Barriers to seeking a diagnosis
     theme: t-bg-primary
     copy: |
       Seeking help for a mental health problem can be difficult, and sometimes children and young people face barriers to seeking a diagnosis and getting the treatment they need. lets look at some of those barriers.
@@ -21,32 +21,32 @@ sections:
           title: Long waiting times
           copy: |
             In some areas there can often be very long waiting times to access treatment through the NHS.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s3_p2_reveal1.svg
         -
           title: Cost of services
           copy: |
             Private services are available but not all can access these because of cost or availability within the area.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s3_p2_reveal2.svg
         -
           title: Availability of services
           copy: |
             Unfortunately, not all treatments are available equally across the country and even when available, doctors may not be aware of them.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s3_p2_reveal3.svg
         -
           title: Negative experiences
           copy: |
             Unfortunately, some families can have very negative experiences with the healthcare system having been treated unfairly by healthcare professionals in the past.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s3_p2_reveal4.svg
         -
           title: Past history
           copy: |
             An individual may feel a doctor may be unlikely to help them due to an individual’s situation and past history of health issues. 
-          img: placeholder_icon.svg
+          img: ypmh_u4_s3_p2_reveal5.svg
         -
           title: Attitudes
           copy: |
             They may worry what others may think of them and not want to face the issue.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s3_p2_reveal6.svg
   -
   -
     title: Key point
@@ -59,12 +59,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Two presenters with video clips_
-      
       ### Reluctance to seek medical intervention and a formal diagnosis
       
       Let’s now look at a video about why children and young people may be reluctant to seek medical intervention and a diagnosis.
-    video: placeholder_pc.mp4
+    video: ypmh_u4_s3_p2_reluctance.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -72,48 +70,24 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
   -
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "There can be stigma associated with receiving a mental health diagnoses.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        What might impact on how others, including family and friends may interact with someone?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            option one: false
+            option two: false
+            Being labelled with a mental health diagnosis: true
+        Select one option to complete the following sentence:"As well as barriers to seeking a diagnosis some children and young people may be _________ to have a diagnosis.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            open: false
+            eager: false
+            reluctant: true

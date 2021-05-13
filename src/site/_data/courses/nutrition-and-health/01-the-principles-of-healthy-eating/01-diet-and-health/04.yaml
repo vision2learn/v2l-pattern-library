@@ -11,11 +11,11 @@ sections:
     title: Controlling salt intake
     theme: 
     copy: |
-      Salt is present in many foods, and lots of people aren’t really aware of this.
-       
-      When you add salt for taste, this can lead to too much salt being consumed. 
+      Salt (or sodium) is present in many pre-prepared and packaged foods and it’s important to be aware of how much you are consuming. 
       
-      Select the images below to read more.
+      Most people are aware that too much salt is bad for your health, but so is too little. Sodium plays a vital role in maintaining good circulation and a healthy heart. 
+      
+      Select the images below to read more on some of the negative impacts on the body of too much sodium.
 
     subInc: 
       type: reveal
@@ -37,6 +37,12 @@ sections:
              
              The introduction of food labelling has made it easier to check the salt content of what you want to eat.
           img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      You will need to be able to explain why maintaining control of your salt intake is important and understand how unhealthy diets can lead to lifestyle diseases.
   -
   -
     title: Activity - Foods high in salt
@@ -151,19 +157,35 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "Type 2 diabetes (where the body has problems with insulin) is strongly linked with obesity.":
+        A person over 11 years old should have how many grams of salt per day?:
+          answers:
+            3 grams: false
+            6 grams: true
+            7 grams: false
+        Select the foods below that have a high amount of salt:
+          answers:
+            Chicken: false
+            Ham: true
+            Pizza: true
+            Raw nuts: false
+            Crisps: true
+            Prawns: true
+            Jumbo oats: false
+            Sausages: true
+        Is the following statement true or false? "TAs well as raised blood pressure, heart disease and strokes;  too much salt can also lead to osteoporosis, kidney damage and stomach cancer.":
           answers:
             True: true
             False: false
-          feedback: If obesity is avoided by eating healthily and exercising then the risk of Type 2 diabetes is significantly reduced.
-        Select one option to complete the following sentence - "When people are at their recommended weight, they have a much less risk of developing ____________.":
+        True or false? Obesity is linked to a BMI over 25.:
           answers:
-            fitness: false
-            illness: true
-          feedback: When people are obese, they are often at greater risk of developing illnesses such as angina, heart disease, diabetes, some cancers and lower back / joint pains.
-        What makes it easier to check the salt content in pre-packaged foods?:
+            False: true
+            True: false
+          feedback: False. It’s over 30. A BMI between 25 – 30 is classed as overweight.
+        The most common causes of cancer are:
           answers:
-            The small print on the back of the package: false
-            Information on the food website: false
-            Food labelling: true
-          feedback: Food labelling has made it easier to check the salt content of what you want to eat.
+            Obesity and being overweight: false
+            Smoking: false
+            Excessive alcohol consumption: false
+            Over exposure to the sun’s UV rays: false 
+            Being inactive: false
+            All of these: true

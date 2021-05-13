@@ -86,7 +86,7 @@ sections:
   -
   -
     title: Quick quiz
-    copy: OPTIONAL item - Only one of the quizzes to be used if at all
+    copy: 
     subInc: 
       type: word-quiz
       content:
@@ -100,6 +100,6 @@ sections:
           sentence: Criminal exploitation is child abuse where children and young people are manipulated and coerced into committing crimes.  
           answer: Criminal exploitation
         -
-          sentence: Cyberbullying is bullying takes place online and unlike offline bullying and can follow the child wherever they go, via social networks, gaming and mobile phone.
+          sentence: Cyberbullying is bullying that takes place online and unlike offline bullying and can follow the child wherever they go, via social networks, gaming and mobile phone.
           answer: Cyberbullying
     theme: i-quiz

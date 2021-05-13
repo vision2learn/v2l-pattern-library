@@ -8,10 +8,13 @@ sections:
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this session you will learn about 
-      * lo 1
-      * etc
-  
+      In this session you will learn how to:
+      * Define the term nutrients
+      * Describe the nutrients needed by the body
+      * Identify foods that are a good source of each nutrient
+      * Describe the role of nutrients in maintaining health
+      * Describe the factors that influence how much of each nutrient a person needs
+      * Explain the importance of adequate fluid intake  
   -
   -
     title: Macro and micro nutrients  NEW
@@ -45,7 +48,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      _Type of element to be decided - Slider, Accordion, Activity, Case study etc_
+      _Type of element to be decided - Slider, Accordion, Activity, Case study etc - to replace 5 slides on old page 2 - https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session03/pg2.asp_
 
       A nutrient is a chemical substance that provides nourishment to the body.
       
@@ -62,6 +65,14 @@ sections:
       You will also need to identify foods that are a good source of each nutrient. 
   -
   -
+    title: Read - The five food groups
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document ......
+
+      [example doc]().
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
@@ -76,7 +87,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Who needs what nutrient?
+      ### Who needs what nutrient?  NEW
 
       Please see the following video to learn about why differnet nutrients are needed by different people.
     video: placeholder_pc.mp4
