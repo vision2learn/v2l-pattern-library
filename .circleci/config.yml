@@ -92,13 +92,15 @@ jobs:
       - run:
           name: Create Export Package
           command: |
-            cp -R --strip-trailing-slashes src/scss dist/dotnet/scss
-            cp -R --strip-trailing-slashes dist/js dist/dotnet/js
-            cp -R --strip-trailing-slashes dist/images dist/dotnet/images
-            mkdir -p dist/dotnet/videos/captions/vtt
-            cp -R --strip-trailing-slashes dist/videos/captions/vtt dist/dotnet/videos/captions
-            cp -R --strip-trailing-slashes dist/pdfs dist/dotnet/pdfs
+            cp -R --strip-trailing-slashes src/scss dist/assets/scss
+            cp -R --strip-trailing-slashes dist/js dist/assets/js
+            cp -R --strip-trailing-slashes dist/images dist/assets/images
+            mkdir -p dist/assets/videos/captions/vtt
+            cp -R --strip-trailing-slashes dist/videos/captions/vtt dist/assets/videos/captions
+            cp -R --strip-trailing-slashes dist/pdfs dist/assets/pdfs
+            cp -R --strip-trailing-slashes dist/documents dist/assets/documents
             tar -cvf dotnet.tar dist/dotnet
+            tar -cvf assets.tar dist/assets
             tar -cvf videos.tar dist/videos
       - store_artifacts:
           path: dotnet.tar
