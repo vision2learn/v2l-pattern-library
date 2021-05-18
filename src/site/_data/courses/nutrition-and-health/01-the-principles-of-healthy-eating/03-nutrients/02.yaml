@@ -98,6 +98,13 @@ sections:
             On a non-training day Mido comfortably got the amount of water he needed. On a training day Mido had a water intake of between 4 and 5l depending on the intensity of the training or sports activity. This was good as he was replacing the water he lost during exercise! 
           img: /images/svg/placeholder_icon.svg
   -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Dehydration can negatively affect a person’s body and mind. It’s very important that a person is properly hydrated. 
+
+      The amount of water that a person should consume depends on their lifestyle and how much water they are getting from their diet! 
+  -
     title: Quick quiz
     theme: i-quiz
     subInc:
@@ -120,10 +127,3 @@ sections:
             Unprofessional: false
             Positive: true
           feedback: text
-  -
-    title: Summary
-    theme: t-bg-primary i-summary
-    copy: |
-      Dehydration can negatively affect a person’s body and mind. It’s very important that a person is properly hydrated. 
-
-      The amount of water that a person should consume depends on their lifestyle and how much water they are getting from their diet! 

@@ -24,7 +24,7 @@ sections:
     title: Read - Eatwell Guide
     theme: t-bg-primary2 i-read
     copy: | 
-      Take a look at the following document from the Eatwell guide.
+      If you wish you can download the Eatwell guide.
 
       [Eatwell guide pdf](/pdfs/nh_u1_s2_p1_eatwell_guide.pdf).
   -
@@ -32,11 +32,12 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      text
+        * LOs 2.1 2.2 
+        * LO 2.3
   -
   -
     title: The five food groups
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       The food you eat can be divided into five groups. A person with a healthy diet eats a balance of food from all of these five groups. Select the images below to read about each group:
 
@@ -78,6 +79,14 @@ sections:
             * We should have 15% or 2 to 3 portions
             * Include - yogurt, cheese, cream
           img: placeholder_icon.svg
+  -
+  -
+    title: Read - The five food groups
+    theme: t-bg-primary2 i-read
+    copy: | 
+      If you wish you can download the following document:
+
+      [The five food groups]().
   -
   -
     title: Watch 
@@ -140,8 +149,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about EATWELL LINK .
+        Please see the following website where you can learn more about healthy living from the NHS choices website:
 
       links:
-        website description: http://www.google.co.uk     
+        NHS choices – A balanced diet: http://www.nhs.uk/livewell/goodfood/pages/healthyeating.aspx    
   -

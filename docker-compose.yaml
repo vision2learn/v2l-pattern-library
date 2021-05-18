@@ -2,7 +2,7 @@
 version: "3.9"
 services:
   v2l:
-    image: mrsleeth/v2l:node10
+    image: mrsleeth/v2l:latest
     container_name: v2l-design-system
     ports:
       - "8080:8080"

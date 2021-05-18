@@ -66,16 +66,6 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Can you define what microbiome is? 
-
-        _You can refer to these notes in your journal which will support you when you come to your assessment_
-  -
-  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |

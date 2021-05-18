@@ -112,7 +112,7 @@ sections:
           copy: |
             Karla works part-time from home as a designer. She meets clients at her home and is trying to increase her fruit and vegetable intake.
             
-            _needs to be changed_
+            _needs to be changed to an interactivity/activity so we can have hotspots for diet images_
           img: /images/svg/placeholder_icon.svg
         -
           title: Diet 2 - Trisha
@@ -153,4 +153,4 @@ sections:
     theme: t-bg-grey i-keypoint
     copy: |
        You need to be able to describe the importance of eating a variety of foods in your Assessment!
-       Make sure you feel confident about this before you move on.  LO2.3 ?
+       Make sure you feel confident about this before you move on.
