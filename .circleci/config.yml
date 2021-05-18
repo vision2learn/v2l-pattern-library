@@ -108,6 +108,9 @@ jobs:
       - store_artifacts:
           path: videos.tar
           destination: videos.tar
+      - store_artifacts:
+          path: assets.tar
+          destination: assets.tar
   staging:
     machine:
       enabled: true
