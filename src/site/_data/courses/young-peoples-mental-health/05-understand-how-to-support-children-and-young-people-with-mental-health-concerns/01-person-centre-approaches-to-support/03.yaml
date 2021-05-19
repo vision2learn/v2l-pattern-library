@@ -52,6 +52,15 @@ sections:
 
     video: ypmh_u5_s1_p3_childrens_rights.mp4
   -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the box to the right, give examples of how the rights of children and young people with mental health concerns can be upheld.
+  -
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -105,8 +114,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Can you give examples of different strategies that can be used to support a child or young person experiencing mental health problems? Make a note of your answer in the box to the right.  
   -
   -
     title: On the web

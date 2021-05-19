@@ -85,9 +85,9 @@ sections:
             True: true
             False: false
           feedback: text
-        Select one option to complete the following sentence:"___________ text.":
+        Which of the following is considered a milder form of autism?:
           answers:
-            one: false
-            two: false
-            three: true
-          feedback: text
+            Autistic disorder: false
+            Asperger syndrome: false
+            High functioning autism: true
+          feedback: 'High-functioning’ autism isn’t an official medical term but its seen as more informative. It describes a milder form of autism or level 1 on the autism spectrum.
