@@ -63,31 +63,22 @@ sections:
       Some feel that the spectrum is too broad, as a person who needs full time support cannot be compared with someone who just finds things ‘too bright’ or ‘too loud’. But what is needed by all is understanding of what it is to be Autistic.
     img: /images/svg/ua/ua_u1_s1_p3_image.svg
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: A set of instructions or question here for the learner to note down.
-  -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Select one option to complete the following sentence:"text _____________.":
+        Select one option to complete the following sentence:"Those with ________________ don't have the learning disabilities that many autistic people have":
           answers:
-            one: false
-            two: false
-            three: true
-          feedback: text
-        Is the following statement true or false? "text":
+            Kanner syndrome: false
+            an associated illness: false
+            Asperger syndrome: true
+        Is the following statement true or false? "Autism is a spectrum condition and this refers to the wide range of symptoms and the severity.":
           answers:
             True: true
             False: false
-          feedback: text
         Which of the following is considered a milder form of autism?:
           answers:
             Autistic disorder: false
             Asperger syndrome: false
             High functioning autism: true
-          feedback: High-functioning autism isn’t an official medical term but its seen as more informative. It describes a milder form of autism or level 1 on the autism spectrum.

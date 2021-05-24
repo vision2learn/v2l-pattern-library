@@ -32,23 +32,20 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Informal support networks are the people who offer help and assistance to each other in daily life.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        If someone has an autistic child or children, who can become key parts of their informal support network?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Hospital doctors: false
+            School teachers: false
+            Extended family and friends: true
+        Select one option to complete the following sentence:"_______________ usually happen because people aren’t sure how to respond, don’t understand or feel uncomfortable. ":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            Informal support: false
+            Positive responces: false
+            Unhelpful reactions: true
   -
   -
     title: Key point

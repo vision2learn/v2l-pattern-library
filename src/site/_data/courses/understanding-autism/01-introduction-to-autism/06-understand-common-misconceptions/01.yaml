@@ -127,20 +127,16 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "The way Autism is portrayed and reported in the media is incredibly powerful in educating and influencing the public both positively and negatively.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        What can employers try to do for employees who have autism?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            See individuals with Autism as unsuitable for the workforce as they are not good at taking direction or working with others on tasks: false
+            Employers should try to give an opportunity to see how their skills can be accommodated.: true
+        Select one option to complete the following sentence:"__________ involves negative attitudes or discrimination against someone based on their behaviour and manner.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            Behaviour: false
+            Understanding: false
+            Stigma: true
