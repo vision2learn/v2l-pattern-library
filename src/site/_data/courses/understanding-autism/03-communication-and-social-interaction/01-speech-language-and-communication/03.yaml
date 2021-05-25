@@ -24,27 +24,27 @@ sections:
           text: |
             Individuals with Autism who have developed little in the way of language skills, rely on on non-verbal communication techniques. These can include, gestures, pictures or drawings, crying or other emotive sounds or physically taking someone to something they want. Parents and caregivers often become quite adept at reading these non-linguistic communications through context clues and repetition.
 
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p3_slide1.svg
         -
           title: Echolalia
           text: |
             Echolalia can be immediate or delayed and refers to the repetition of phrases that the autistic person may have heard, perhaps in a favourite movie or television program. Often the phrases may or may not “fit” the immediate context in which it is used, however, they typically do mean something and can relate to an answer indirectly. Often using Echolalia can be self soothing for an individual or give them time to process a question and they may even repeat the question as their answer.
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p3_slide2.svg
         -
           title: Focusing on the literal meaning of words
           text: |
-            Individuals with some form of Autism typically have trouble understanding idiomatic language and metaphors and have difficulty understanding jokes and humour which rely on sarcasm. Individuals with autism focus on the “key words” of a sentence so it is best to speak in simple, plain sentences without idioms or figures of speech that hide the “true message”of what is being said.
-          img: placeholder_icon.svg
+            Individuals with some form of Autism typically have trouble understanding idiomatic language and metaphors and have difficulty understanding jokes and humour which rely on sarcasm. Individuals with autism focus on the “key words” of a sentence so it is best to speak in simple, plain sentences without idioms or figures of speech that hide the “true message” of what is being said.
+          img: ua_u3_s1_p3_slide3.svg
         -
           title: Moving from topic to topic
           text: |
             Individuals with autism often find difficulty with staying on topic as their minds are moving very quickly and processing many stimuli, their thoughts may often seem disorganised or unfocused. However, this usually isn’t the case unless the individual has expressed the desire to stop talking about a given topic, they’re usually open to revisiting previous conversation topics.
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p3_slide4.svg
         -
           title: No eye contact
           text: |
             Often an individual with Autism will not make eye contact when they speak with you. this is usually because they are highly attuned to sensory details, and looking into someone’s eyes can cause an overload of information. Some may prefer to speak with their eyes shut entirely, so as to focus only on the conversation.
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p3_slide5.svg
   -
   -
     title: Key point
@@ -57,8 +57,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Introduction from a presenter and then to a video conversation-on the difficulties an individual with autism may have in communicating verbally when processing verbal information and interpreting verbal information- parent or individual_
-      
       Please see the following video on difficulties in communicating verbally.
     video: ua_u3_s1_p3_difficulties_in_communicating.mp4
   -
@@ -75,38 +73,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Other stimuli such as different sounds can also be distracting making it hard to focus on the verbal information.
+          answer: stimuli
         -
-          sentence: example two
-          answer: two
+          sentence: When in conversation, some people with autism need time to respond.
+          answer: time
         -
-          sentence: example three 
-          answer: three
+          sentence: It often helps if the person verbally communicating is precise and sticks to the point.
+          answer: precise
         -
-          sentence: example four
-          answer: four
+          sentence: An autistic person finds it difficult to filter out the irrelevancies within a conversation which can create an overload of information.
+          answer: overload
     theme: i-quiz
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

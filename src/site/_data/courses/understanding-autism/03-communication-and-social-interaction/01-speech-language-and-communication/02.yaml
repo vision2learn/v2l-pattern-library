@@ -21,17 +21,17 @@ sections:
           title: Speech
           copy: |
             Speech consists of a sender or speaker, a message and a recipient. The speaker is the initiator of communication. Effective speakers will speak clearly, in a way that makes speech interesting and meaningful without too much hesitation or repetition of words or sounds.
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p2_reveal1.svg
         -
           title: Language
           copy: |
             Language refers to knowing and choosing the right words to explain what you mean. Joining words together into sentences, using those to create conversations and stories, and to put forward thoughts, ideas, information or instructions. It also involves using words to describe objects, actions and meanings and to question, clarify, describe and debate.
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p2_reveal2.svg
         -
           title: Communication
           copy: |
             Communication includes spoken language but also includes many other non-verbal signals or signs which are essential for interacting and communicating with others. It is common that a person who has proper speech and language, may still struggle with communication such as individuals with Autism.
-          img: placeholder_icon.svg
+          img: ua_u3_s1_p2_reveal3.svg
   -
   -
     title: Key point
@@ -44,8 +44,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Narrator with image or video clip of Individual with autism in centre, words, symbols etc appear around head to express points - e.g. question mark for sarcasm pops up above individual's head and they have a puzzled expression on their face, when narrator is talking about sarcasm. OR if this too much of a resource - Presenter with images conveying the same messages_
-      
       ### Communication and speech and language development
 
       Please watch the following video to find out more about the processes required to communicate and how these may be delayed or affected for individuals with Autism.
@@ -66,7 +64,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can get communication tips from the National Autistic Society.
 
       links:
-        website description: http://www.google.co.uk
+        Communication Tips: https://www.autism.org.uk/advice-and-guidance/topics/communication/tips
