@@ -1,18 +1,29 @@
-BETH: All individuals with autism have a unique set of strengths and abilities and to help them reach their full potential it is important to identify them. Once identified working with these strengths can be a way of helping improve their general motivation and development. 
+JOE: If someone has an autistic child or children, they can find that their extended family and friends, can become key parts of their informal support network. 
 
-Some individuals with autism will be very driven by their particular skills and interests and if these are utilised appropriately, they can increase motivation.
+This is made easier when family and friends become aware of a child’s autism diagnosis at an early stage, and makes it easier for them to understand any issues, what it means and how it affects the family. 
 
-let’s look at some examples of strengths commonly associated with autism and especially individuals that are high functioning.
+BETH: Parents of children with autism should first relay basic information to their potential informal support network about autism and how it affects their child.
 
-JOE: 
+Extended family and friends will probably respond in different ways to a child’s autism diagnosis and behaviour. 
 
-- Specialist knowledge and a high motivation in topics and activities that are of interest. 
-- Exceptional memory for facts and figures and the ability to carry out mathematical tasks mentally with a high degree of accuracy. 
-- An innovative approach to problem solving.
-- Innate skills in creative arts, such as Art and Music and use of memory to enhance this.
-- Enthusiasm for favourite interests with a drive to share this enjoyment with others.
-- Good almost obsessive attention to detail and ability to follow instructions especially when taught correctly.
-- A tendency to be honest and plain talking
-- Ability to see the world from a different perspective and can bring a different insight to things
+Some might be ready to offer support straight away, however others might take a bit longer to understand how they can help. Some family and friends might find it hard to give support or they might respond in ways that aren’t very helpful.
 
-BETH: By working with and supporting the individual to bolster their strengths and abilities, a person with Autism should be enabled to reach their potential and focus on what motivates them, and in turn this should improve their confidence and self-worth in all aspects of their life.  
+JOE: It is important that people acknowledge the feelings of family and friends as they might be having trouble understanding the diagnosis and what it means. 
+
+It’s important for anyone relying on family and friends to make them aware of how autism affects their child’s behaviour, for example, the child may sometimes get overwhelmed and needs quiet time on their own.  
+
+BETH: Someone offering informal support needs to be told how best to connect with the child, their likes and dislikes, and the best ways to communicate. 
+
+Extended family get-togethers and activities that suit the child’s needs and abilities, could be organised to facilitate this.
+
+JOE: Unhelpful reactions usually happen because people aren’t sure how to respond, don’t understand or feel uncomfortable. Telling close friends and family about a child's autism diagnosis can help them understand what this means and opening up about what help and support the whole family needs can be beneficial. 
+
+BETH: They may be able to help with everyday things, so parents have more time to focus on themselves or their child or offer emotional support in times of need.
+
+Other groups that can help are national charities, and it may help by listening to or reading other people's experiences of autism online and joining local support groups. 
+
+JOE: There are many people with experience of autism either directly or indirectly offering support and sharing their stories on forums and social media. People don’t have to have to talk to others in online groups, but it can be helpful to look at what they're saying. 
+
+BETH: Comments on social media and forums are often based on personal experience and should not be taken purely as advice, but could be more help as a source of experience based knowledge.
+
+National charities such as National Autistic Society have Facebook, Twitter and online communities can also be looked at as possible areas of support.
