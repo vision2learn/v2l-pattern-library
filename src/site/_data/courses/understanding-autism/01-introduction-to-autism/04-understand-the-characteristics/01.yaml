@@ -67,39 +67,18 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Fixation is one of the characteristics especially associated with high functioning Autism spectrum disorder. One example of this is continually discussing the same topics in conversation. 
+          answer: Fixation
         -
-          sentence: example two
-          answer: two
+          sentence: Social interaction is difficult for individuals with Autism. A child may prefer to play alone and won’t respond to other adults or children. 
+          answer: Social interaction
         -
-          sentence: example three 
-          answer: three
+          sentence: Sensory sensitivity is when an individual is sensitive to things such as light, sound, touch and heat, or certain tastes, textures or smells.   
+          answer: Sensory sensitivity
         -
-          sentence: example four
-          answer: four
+          sentence: Children with autism can display repetitive behaviour, including hand flapping, toe walking, spinning wheels, lining up cars. 
+          answer: repetitive behaviour
+        -
+          sentence: Restrictive behaviour may mean a child may only eat food of a certain colour, have to walk the same route or only watch one programme over and over.
+          answer: Restrictive behaviour
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

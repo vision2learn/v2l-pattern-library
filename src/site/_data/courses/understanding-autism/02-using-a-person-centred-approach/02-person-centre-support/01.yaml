@@ -92,9 +92,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn about the importance of person centred planning.
 
       links:
-        website description: http://www.google.co.uk
+        Autism speaks: https://www.autismspeaks.org/tool-kit-excerpt/importance-person-centered-planning
