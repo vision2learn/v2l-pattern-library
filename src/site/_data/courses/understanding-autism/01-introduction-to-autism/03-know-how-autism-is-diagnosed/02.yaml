@@ -12,9 +12,7 @@ sections:
     title: Reluctance
     theme: t-bg-primary
     copy: |
-      Lets look at some reasons why people may be reluctant to seek a diagnosis
-    
-      Scroll through the slides below to learn more about ...
+      Lets look at some reasons why people may be reluctant to seek a diagnosis.  Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
@@ -60,8 +58,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenter with a couple of images/video clips to support content_
-      
       In this video we are going to look at the importance of seeking a diagnosis.
     video: ua_u1_s3_p2_importance_of_seeking.mp4
   
