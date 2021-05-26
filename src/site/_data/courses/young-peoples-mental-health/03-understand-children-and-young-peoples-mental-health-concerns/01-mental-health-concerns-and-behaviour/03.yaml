@@ -44,28 +44,23 @@ sections:
           img: ypmh_u3_s1_p3_slide5.svg
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to explain the importance of early intervention when identifying behavioural concerns.
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Early Intervention
+      ### Interview with a professional
 
-      Let’s have a look at how early intervention can help when identifying behavioural concerns.
-
-    video: ypmh_u3_s1_p3_early_intervention.mp4
+      Please see the following video of a professional's responce to the following question:
+      How do you think children and young people can best be protected from risky behaviours that may affect their mental well-being?
+    video: ypmh_u3_s1_p3_interview_risky_behaviour.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        Why do you think early intervention is important when identifying bahavioural concerns? Make a note of your answer in the box to the right.
+        NEW QUESTION HERE? Make a note of your answer in the box to the right.
   -
   -
     title: On the web
@@ -73,7 +68,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn what can be done if being bullied.
+        Please see the following website where you can learn more about feelings and symptoms.
 
       links:
         Feelings and symptoms (youngminds.org.uk): https://youngminds.org.uk/find-help/feelings-and-symptoms/

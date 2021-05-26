@@ -1,14 +1,55 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the first session of this unit! 
-banner: ba-u1-s1-p6.jpg
+title: Early intervention
+intro: |
+  Introduction text. 
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * Behaviours that may indicate concerns about a child’s or young person’s mental health
-      * How a child or young person expresses how they are feeling through their behaviour
-      * Harmful behaviour that children and young people may demonstrate as a way of coping with their feelings
-      * The importance of early intervention when identifying behavioural concerns
-  
+      In your assessment you will be required to explain the importance of early intervention when identifying behavioural concerns.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Early Intervention
+
+      Let’s have a look at how early intervention can help when identifying behavioural concerns.
+
+    video: ypmh_u3_s1_p3_early_intervention.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's responce to the following question:
+
+      Is there any scenario you can talk us through, altering any names or specifics where you have seen early intervention having a clear positive effect?
+
+    video: ypmh_u3_s1_p4_interview_early_intervention.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's responce to the following question:
+
+      How does early intervention help to improve the chances of minimising any problems of children and young people?
+
+    video: ypmh_u3_s1_p4_interview_early_intervention2.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Why do you think early intervention is important when identifying bahavioural concerns? Make a note of your answer in the box to the right.

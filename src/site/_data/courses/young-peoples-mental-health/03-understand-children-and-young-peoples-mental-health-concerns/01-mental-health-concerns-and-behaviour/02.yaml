@@ -71,6 +71,21 @@ sections:
       Let’s now watch a video on how a child or young person expresses how they are feeling.
     video: ypmh_u3_s1_p2_behavioural_issues.mp4
   -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's responce to the following questions:
+      1. How do you differentiate possible mental health issues from the normal childhood development process?
+      2. Why would you say is it important to get a child or young person to talk about their problems?
+      3. How do you think age factors in to  identifying mental health problems in children and young people?
+
+    video: ypmh_u3_s1_p2_interview_concerns.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
