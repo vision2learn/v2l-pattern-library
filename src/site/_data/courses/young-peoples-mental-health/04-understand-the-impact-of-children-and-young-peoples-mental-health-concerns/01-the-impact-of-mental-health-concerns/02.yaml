@@ -54,6 +54,16 @@ sections:
     video: ypmh_u4_s1_p2_interview_family.mp4
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional giving an example of how a family dynamic can have an impact on a young person.
+    video: ypmh_u4_s1_p2_interview_family_case_study.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
