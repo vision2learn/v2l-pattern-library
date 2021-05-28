@@ -1,29 +1,21 @@
-JOE: If someone has an autistic child or children, they can find that their extended family and friends, can become key parts of their informal support network. 
+BETH: Speech, language and communication might all sound the same, but they actually have unique meanings.
 
-This is made easier when family and friends become aware of a child’s autism diagnosis at an early stage, and makes it easier for them to understand any issues, what it means and how it affects the family. 
+Speech generally refers to the act of speaking, and someone with a problem with speech may have trouble with hearing or saying specific sounds or understanding patterns of words.
 
-BETH: Parents of children with autism should first relay basic information to their potential informal support network about autism and how it affects their child.
+Language refers to the ability to communicate through speech by delivering and receiving meaningful messages through reading, or hearing. A child that has problems with language may not use proper sentence construction and grammar or may have trouble deciphering complex sentences or thoughts. 
 
-Extended family and friends will probably respond in different ways to a child’s autism diagnosis and behaviour. 
+Communication can be verbal or non-verbal using body language. It may involve the use of sarcasm, gestures, or facial expressions which give an indication of the meaning of what someone is trying to communicate to them. 
 
-Some might be ready to offer support straight away, however others might take a bit longer to understand how they can help. Some family and friends might find it hard to give support or they might respond in ways that aren’t very helpful.
+Most people learn to communicate from birth, however, if that development is slowed down or interrupted, a child may not learn about watching and listening to people when they are talking, the meaning of words, or how to hold a conversation.
 
-JOE: It is important that people acknowledge the feelings of family and friends as they might be having trouble understanding the diagnosis and what it means. 
+When communication does not develop as expected it makes it hard to understand what people are saying, say what you want or feel, and the world can seem a very scary place. An individual may then decide to withdraw into their own little world.
 
-It’s important for anyone relying on family and friends to make them aware of how autism affects their child’s behaviour, for example, the child may sometimes get overwhelmed and needs quiet time on their own.  
+Speech and language delays have many possible causes, but they are known to accompany Autism. In some instances, however, more than one factor may cause this, for instance, dyslexia and other learning disabilities can lead to language delays in some cases and often this co-exists with Autism.
 
-BETH: Someone offering informal support needs to be told how best to connect with the child, their likes and dislikes, and the best ways to communicate. 
+Children with Autism can find it hard to relate to and communicate with other people. They might be slower to develop language, have no language at all. They may have significant problems with understanding or using spoken language and are not always able to use gestures to make up for the problems they have with words.
 
-Extended family get-togethers and activities that suit the child’s needs and abilities, could be organised to facilitate this.
+In addition to late speech, there are a number of other communication-related issues that relate to autism. In general, children with autism are more likely to be slow to respond to their name or other verbal attempts to gain their attention
 
-JOE: Unhelpful reactions usually happen because people aren’t sure how to respond, don’t understand or feel uncomfortable. Telling close friends and family about a child's autism diagnosis can help them understand what this means and opening up about what help and support the whole family needs can be beneficial. 
+They may speak only in single words or repeat certain phrases over and over, seeming unable to combine words into meaningful sentences, or repeat words or phrases that they hear.
 
-BETH: They may be able to help with everyday things, so parents have more time to focus on themselves or their child or offer emotional support in times of need.
-
-Other groups that can help are national charities, and it may help by listening to or reading other people's experiences of autism online and joining local support groups. 
-
-JOE: There are many people with experience of autism either directly or indirectly offering support and sharing their stories on forums and social media. People don’t have to have to talk to others in online groups, but it can be helpful to look at what they're saying. 
-
-BETH: Comments on social media and forums are often based on personal experience and should not be taken purely as advice, but could be more help as a source of experience based knowledge.
-
-National charities such as National Autistic Society have Facebook, Twitter and online communities can also be looked at as possible areas of support.
+They may use words that seem odd, out of place, or have a special meaning known only to those familiar with the child's way of communicating. They may also learn to communicate in different ways like using pictures or their own sign language.

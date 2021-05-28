@@ -3,7 +3,7 @@ intro: |
   On this page you will learn about:
   * The rights of the child
   * Strategies that can be used to support a child or young person experiencing mental health concerns
-banner: placeholder.jpg
+banner: ypmh_u5_s1_p3_rights.jpg
 sections:
   -
     title: The rights of a child
@@ -19,22 +19,22 @@ sections:
           title: Article 2
           copy: |
             Non-discrimination 
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_reveal1.svg
         -
           title: Article 3
           copy: |
             the best interest of the child
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_reveal2.svg
         -
           title: Article 6
           copy: |
             Right to life survival and development 
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_reveal3.svg
         -
           title: Article 12
           copy: |
             Right to be heard
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_reveal4.svg
   -
   -
     title: Key point
@@ -51,6 +51,26 @@ sections:
       Lets have a look at children and young people’s rights in more detail and how their mental health concerns can be upheld.
 
     video: ypmh_u5_s1_p3_childrens_rights.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's responce to the following question:
+      What do you feel is the best approach to address mental health concerns in children and young people?
+    video: ypmh_u5_s1_p3_interview_best_approach.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the box to the right, give examples of how the rights of children and young people with mental health concerns can be upheld.
+  -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -70,27 +90,27 @@ sections:
           title: Psychological therapies
           copy: |
             Psychological therapies such as talking therapies or counselling. 
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_slide1.svg
         -
           title: Medication
           copy: |
             Psychiatric medication such as antidepressants, tranquillisers or mood stabilisers.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_slide2.svg
         -
           title: Coping strategies
           copy: |
             Coping strategies like distraction, engaging in physical activities or taking time to relax.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_slide3.svg
         -
           title: Emotional support
           copy: |
             Emotional support from family or friends during times of stress or when feeling lonely.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_slide4.svg
         -
           title: Positive life changes
           copy: |
             Making positive life changes to improve mood, reduce stress, and manage day-to-day mental health.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s1_p3_slide5.svg
   -
   -
     title: Watch 
@@ -105,8 +125,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Can you give examples of different strategies that can be used to support a child or young person experiencing mental health problems? Make a note of your answer in the box to the right.  
   -
   -
     title: On the web

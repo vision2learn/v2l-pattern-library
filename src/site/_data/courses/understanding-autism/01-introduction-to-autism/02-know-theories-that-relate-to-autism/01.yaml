@@ -58,8 +58,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenter to the side, Terms with a small amount of text to display when presenter is talking about that term_
-      
       Let's now look at how the terms ‘neurodiverse’ and ‘neurotypical’ are used in relation to autism. 
     video: ua_u1_s2_p1_terminology.mp4
   -
@@ -73,37 +71,13 @@ sections:
         Make a note in the “Time to think” box to the right. 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Neurotypical vs. Neurodivergent: What's the difference?
 
-        Please see the following website where you can learn more about . . .
+      Select the button to the right which will take to a website where you can learn more about this topic.
 
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    img: /images/svg/stretch_button.svg
+    link: https://daivergent.com/blog/neurotypical-vs-neurodivergent

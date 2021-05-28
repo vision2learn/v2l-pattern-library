@@ -1,7 +1,7 @@
 title: The impact mental health concerns can have on children and young people
 intro: |
   In this session you will learn about the impact mental health concerns can have on children and young people in their family life and education both short and long term.
-banner: placeholder.jpg
+banner: ypmh_u4_s1_p2_impact2.jpg
 sections:
   -
     title: Key point
@@ -41,13 +41,35 @@ sections:
       Let’s look at this is a little more detail in the following video.
     video: ypmh_u4_s1_p2_potential_effects.mp4
   -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's responce to the following questions:
+      1. How does a good family relationship affect the situation, for children and young people to open up about their problems?
+      2. How do you think family life events can impact on a child or young person’s mental health?
+    video: ypmh_u4_s1_p2_interview_family.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional giving an example of how a family dynamic can have an impact on a young person.
+    video: ypmh_u4_s1_p2_interview_family_case_study.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Can you think of how mental health concerns impact on children and young peoples family life, relationships and education? Make a note of your answer in the box to the right.
   -
   -
     title: Quick quiz

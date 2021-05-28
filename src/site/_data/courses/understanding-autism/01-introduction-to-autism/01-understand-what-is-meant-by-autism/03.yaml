@@ -5,14 +5,6 @@ intro: |
 banner: ua_u1_s1_p3_autism.jpg
 sections:
   -
-    title: What you will learn
-    theme: t-bg-primary1a
-    copy: |
-      In this session you will learn about:
-      * Social and communication disorders
-      * How autism can be considered as a spectrum disorder
-      * Why it is important to recognise that autism is a lifelong condition
-  -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
@@ -25,7 +17,7 @@ sections:
     title: Social and Communication Disorders
     theme: t-bg-primary
     copy: |
-      Let’s look at 3 social and communication orders, what they mean and how they relate to each other. Scroll through the slides below  below to learn more.
+      Let’s look at three social and communication orders, what they mean and how they relate to each other. Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
@@ -63,31 +55,22 @@ sections:
       Some feel that the spectrum is too broad, as a person who needs full time support cannot be compared with someone who just finds things ‘too bright’ or ‘too loud’. But what is needed by all is understanding of what it is to be Autistic.
     img: /images/svg/ua/ua_u1_s1_p3_image.svg
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: A set of instructions or question here for the learner to note down.
-  -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Select one option to complete the following sentence:"text _____________.":
+        Select one option to complete the following sentence:"Those with ________________ don't have the learning disabilities that many autistic people have":
           answers:
-            one: false
-            two: false
-            three: true
-          feedback: text
-        Is the following statement true or false? "text":
+            Kanner syndrome: false
+            an associated illness: false
+            Asperger syndrome: true
+        Is the following statement true or false? "Autism is a spectrum condition and this refers to the wide range of symptoms and the severity.":
           answers:
             True: true
             False: false
-          feedback: text
-        Select one option to complete the following sentence:"___________ text.":
+        Which of the following is considered a milder form of autism?:
           answers:
-            one: false
-            two: false
-            three: true
-          feedback: text
+            Autistic disorder: false
+            Asperger syndrome: false
+            High functioning autism: true

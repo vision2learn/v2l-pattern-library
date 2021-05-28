@@ -1,13 +1,20 @@
-JOE: The ‘Triad of impairments’ was a breakthrough in its time as it gave clarity to what had seemed to be unrelated clinical phenomena and made way for recognition of the different levels of impairment, especially ‘high functioning’ forms of Autism.  
+BETH: Alongside the more common conditions which co-occur with Autism, there are other classic medical conditions such as epilepsy, gastrointestinal and feeding issues or sleep disorders. 
 
-The observation about the lack of pretend play, a seemingly small thing, had big consequences and would have a lasting impact on diagnostic and assessment methods.
 
-BETH: However, for some, the ‘triad’ wasn’t perfect as it didn’t go far enough. It didn’t cover sensory impairment, and the problems individuals with Autism have with light, sound and touch. 
+JOE: Resolving sleep or gastrointestinal problems may also offer behavioural benefits, as the quantity and quality of sleep can affect the severity of repetitive behaviours. Half of children with Autism have trouble falling or staying asleep and this could make their Autism worse. 
 
-Previously, impairments needed to be evident in the ‘triad’ in order for a diagnosis of Autism to be made.
 
-JOE: But as we have said before there are always new ideas coming forward and recently the well-known ‘triad of impairments’ is becoming referred to as a ‘dyad of impairment’.
+BETH: Researchers recognise that sleep is needed for brain development and improved health, it improves mood, behaviour and our mental state and therefore the lack of it is likely to have impact. 
 
-The ‘Dyad of impairment’ looks to highlight all the specific difficulties people with Autism have, combining ‘social interaction’ and ‘communication and language’, into ‘social communication’ skills. 
+Epilepsy can also be a problem. Symptoms include shaking, having seizures, and staring blankly into space are closely linked to Autism characteristics.
 
-BETH: And a key thing is where the ‘triad’ didn’t refer to the ‘sensory needs’ of individuals with Autism, this is now to be included in the ‘restricted and repetitive behaviour’ sections.
+
+JOE: Also genetic conditions, such as fragile X syndrome and tuberous sclerosis complex are closely linked to Autism. One of the symptoms of Fragile X syndrome is mild to severe intellectual disability and individuals with the syndrome, display a wide variety of Autism features. Other neurological symptoms include developmental delay and seizures. 
+
+
+BETH: It has been found that many children with Tuberous sclerosis will be diagnosed with Autism spectrum disorder and there is a clear link with cognitive impairment.
+
+Whichever condition an individual has, alongside their Autism spectrum disorder, the conditions often seem inter-related. 
+
+
+JOE: Some seem to be have a negative impact such as sleep issues. Some can mask their main disorder such as ADHD, but they have to be looked at individually alongside each other to assess their impact on each other and subsequently the individuals health and well-being.

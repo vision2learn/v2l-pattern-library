@@ -79,8 +79,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Narrator, Infographics (e.g. questionnaire, Doctor icon, report, online test etc) - arrows showing path of getting a diagnosis?_
-      
       Please see the following video about guidelines for diagnosis and difficulties surrounding those diagnosis.
     video: ua_u1_s3_p1_diagnosis.mp4
   -
@@ -95,15 +93,13 @@ sections:
 
   -
   -
-    title: On the web OR Quiz?
+    title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the diagnosis of autism.
 
       links:
-        website description: http://www.google.co.uk
+        National Autistic Society: https://www.autism.org.uk/advice-and-guidance/topics/diagnosis
   

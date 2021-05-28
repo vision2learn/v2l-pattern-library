@@ -72,8 +72,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with titles for each topic and images to illustrate each point _
-      
       Let’s look further at how the acts and guidance are there to support individuals with Autism.
     video: ua_u2_s1_p2_legislation.mp4
   -
@@ -104,15 +102,3 @@ sections:
 
           answer: Equality Act
     theme: i-quiz
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
