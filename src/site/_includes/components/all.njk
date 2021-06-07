@@ -334,7 +334,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ shortcode | d('') }}{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
     {# {% image imgSrc, "c-reveal-block__icon js-showhide", data.heading, "100vw" %} #}
     <div class="c-reveal-block__desc">
-      <h3 aria-hidden="true">{{ data.heading | d('Panel heading') | capitalize }}</h3>
+      <h3 aria-hidden="true">{{ data.heading | d('Panel heading') }}</h3>
       {{ data.copy | markdownify | safe | d('Panel copy')}}
     </div>
   </li>
