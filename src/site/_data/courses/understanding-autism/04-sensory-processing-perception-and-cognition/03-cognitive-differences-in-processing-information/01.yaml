@@ -59,11 +59,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter introducing topic with video clips/images to support content, followed by an interview discussing problems with processing information_
-      
       Let’s look at some of the difficulties individuals with autism have in processing information.
-    video: placeholder_pc.mp4
-  -
+    video: ua_u4_s3_p1_cognitive_differences.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -75,44 +72,20 @@ sections:
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A person with autism may have problems with processing information.
+          answer: information
         -
-          sentence: example two
-          answer: two
+          sentence: A person with autism may have problems with understanding the consequences of their actions.
+          answer: consequences
         -
-          sentence: example three 
-          answer: three
+          sentence: A person with autism may have problems with understanding the concept of time.  
+          answer: time
         -
-          sentence: example four
-          answer: four
+          sentence: A person with autism may may be detailed focused and less able to see the whole picture.
+          answer: detailed
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

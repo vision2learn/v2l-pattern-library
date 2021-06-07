@@ -38,10 +38,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style Narrater with images and video clips_
-
-      Please watch this video for more information
-    video: placeholder_pc.mp4
+      Please watch this video for more information.
+    video: ua_u4_s2_p3_sensory_differences.mp4
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -52,12 +50,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - standard style - Presenter(s) with images and video clips_
-
       ### How to support the dietary preferences of individuals with autism
 
       Watch this video to learn more about how to support the dietary preferences of individuals with autism.
-    video: placeholder_pc.mp4
+    video: ua_u4_s2_p3_dietary_preferences.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -73,9 +69,9 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        _Not sure if this is a stretch?_
 
-        Please see the following website where you can learn more about . . .
+        Please see the National Autistic Society website where you can see a video interview with a Doctor that specialises in food and eating issues of individuals with autism.
 
       links:
-        website description: http://www.google.co.uk
+        Food and eating issues - interview: https://www.autism.org.uk/advice-and-guidance/professional-practice/shea-interview

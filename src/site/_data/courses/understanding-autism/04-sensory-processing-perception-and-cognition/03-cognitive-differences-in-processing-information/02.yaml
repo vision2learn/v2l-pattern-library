@@ -53,10 +53,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Similiar style and same presenter as previous page to connect topic - images/video clips to support content_
-      
       Let’s have look at this in a bit more detail in this video.
-    video: placeholder_pc.mp4
+    video: ua_u4_s3_p1_strategies.mp4
   -
   -
     title: Time to think
@@ -73,9 +71,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Managing money- Offered by MoneySuperMarket.com in association with the National Autistic Society, computer programmes, calendars and personal organiser apps._
-
-        Please see the following website where you can learn more about . . .
+        Please see the National Autistic Society website where you can learn more about managing money.
 
       links:
-        website description: http://www.google.co.uk
+        website description: https://www.autism.org.uk/advice-and-guidance/topics/benefits-and-money/personal-finances/managing-money
