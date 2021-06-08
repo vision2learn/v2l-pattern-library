@@ -16,10 +16,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - We think this content would be really nice as an interview or discussion with an expert/carer if resource allows? else a narrator with video clips/images_
-      
       Please see the following video on understanding behaviour within the context of autism.
-    video: placeholder_pc.mp4
+    video: ua_u5_s1_p2_understanding_behaviour.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

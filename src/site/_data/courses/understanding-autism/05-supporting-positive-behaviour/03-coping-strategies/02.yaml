@@ -33,10 +33,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presentor speaking with empathy - with images/video clips - emphasis is on the solution - keep soft - eg use image of pillow instead of head banging etc_
-      
       Let’s look at what to do when ‘self-stimulating behaviour’ can be extreme enough to cause injury.
-    video: placeholder_pc.mp4
+    video: ua_u5_s3_p2_stimming.mp4
   -
   -
     title: Key point
@@ -61,10 +59,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with written solutions to the side for each situation, with a small number of video clips/images_
-      
       In this video we will learn about what to do when an individual is have a meltdown.
-    video: placeholder_pc.mp4
+    video: ua_u5_s3_p2_meltdown.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

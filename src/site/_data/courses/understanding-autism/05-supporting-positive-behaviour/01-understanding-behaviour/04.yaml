@@ -21,10 +21,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with images/video clips, if resource allows would be nice to have some animation of a 'checklist' being 'ticked' as presentor talks about each task._
-      
       Let’s look at this video giving more details into prompt dependency.
-    video: placeholder_pc.mp4
+    video: ua_u5_s1_p4_prompt_dependency.mp4
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -59,10 +57,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Narrator with images/video clips_
-      
       Let’s look at some strategies that can be used to support an individual’s obsessions and special interests.
-    video: placeholder_pc.mp4
+    video: ua_u5_s1_p4_obsessions_and_special_interests.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -82,59 +78,3 @@ sections:
       _Would like a high profile example of someone with a special interest and how this has been used for positivity_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
