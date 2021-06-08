@@ -13,6 +13,7 @@
 
       // Add the required aria attributes to the show/hide components
       _ariaControls.forEach(function (item) {
+        item.parentNode.classList.add('js-ok');
         item.setAttribute('aria-hidden', true);
         var controlled = item.nextElementSibling;
         controlled.setAttribute('aria-hidden', true);
