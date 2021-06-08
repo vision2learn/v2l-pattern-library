@@ -82,58 +82,21 @@ sections:
             When an individual engages in behaviour that challenges, to have automatic access to sensory stimuli.
           img: placeholder_icon.svg
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "individuals with autism often find behaviour is their main form communication, whether it's good or bad and it’s an expression of feelings and needs.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        What word may children with autism struggle with?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Yes: false
+            No: true
+        Select one option to complete the following sentence:"In autism all behaviour has a functional element and behaviour that challenges are often described as communicating _____________. ":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            negatively: false
+            badly: false
+            unmet needs: true
