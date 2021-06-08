@@ -23,22 +23,22 @@ sections:
         -
           title: Development and puberty
           text: |
-            text
+            Children with autism spectrum disorder tend not to reach all developmental milestones at the appropriate times and they can vary depending on where they are on the spectrum. Children with autism start puberty the same time as their peers usually around 12 for girls and 14 for boys, as this is a physical development that happens regardless of the other developmental milestones. Children with autism can find the body changes associated with puberty deeply alarming.
           img: placeholder_icon.svg
         -
           title: Education
           text: |
-            text
+            One of the most important decisions to be made about bringing up a child with autism is how they are to be educated. Should they go to a mainstream school with support from special educational needs staff if needed, or a special school for children with special educational needs. There are also specialist schools for those specifically with Autism. This decision can be made more difficult if there is not much choice in the area they live.
           img: placeholder_icon.svg
         -
           title: Employment
           text: |
-            text
+            For all adults and families, employment is a key concern, and this is particularly felt by families with individuals on the spectrum, but many individuals with autism suffer from long term unemployment. Unemployment places financial demands not only on autistic adults and their parents, and also on the benefits system.
           img: placeholder_icon.svg
         -
           title: Access to services
           text: |
-            text
+            Individuals with autism and their families can often find they have to battle to get the access to services they need. Often their needs range across a variety of different services depending on the complexity of their disorder. Social awareness, information or understanding of the needs of individuals and their families can be inconsistent throughout some service sectors or not all services are available in all areas.
           img: placeholder_icon.svg
   -
   -
@@ -46,44 +46,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style Standard format - Two presenter with video clips/images – children of different ages_
-      
       Let’s look at developmental changes and their effects in more detail in this video.
-    video: placeholder_pc.mp4
+    video: ua_u6_s1_p2_developmental_changes.mp4
   -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style standard format – 2 presenters with video clips/images to support content_
-      
-      In this video we will look at the potential effects of education, employment and access to services in more detail.
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -94,33 +59,16 @@ sections:
 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      In this video we will look at the potential effects of education, employment and access to services in more detail.
+    video: ua_u6_s1_p2_potential_effects.mp4
   -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._

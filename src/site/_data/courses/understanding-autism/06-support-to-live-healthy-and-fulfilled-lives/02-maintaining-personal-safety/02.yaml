@@ -21,22 +21,22 @@ sections:
         -
           title: Sexual abuse
           copy: |
-            text
+            When they do not want to take part in a sexual activity or are not able to give consent because they may not understand what is happening.
           img: placeholder_icon.svg
         -
           title: Emotional abuse
           copy: |
-            text
+            When people say bad things to them, and they hurt their feelings and making them feel frightened.
           img: placeholder_icon.svg
         -
           title: Financial abuse
           copy: |
-            text
+            When someone takes money or things that belong to an individual or spends their money on things they do not want.
           img: placeholder_icon.svg
         -
           title: Domestic and institutional abuse and neglect
           copy: |
-            text
+            When those who are supposed to support, care and look after an individual don’t do it properly and neglect their needs.
           img: placeholder_icon.svg
   -
   -
@@ -44,30 +44,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style – Standard format – 2 presenters with video clips to illustrate each point_
-      
       Let’s look at how individuals can protect themselves from harm and abuse.
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+    video: ua_u6_s2_p2_protect_self.mp4
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -128,13 +106,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point – may need to break up content if video is too long (over 3 minutes) - could we can do this at the Amends stage?_
-      
       ### Ways to support individuals to use the internet and social media safely
 
       Let’s look at some ways to support individuals with autism to use the internet and social media safely.
 
-    video: placeholder_pc.mp4
+    video: ua_u6_s2_p2_media_safety.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -150,9 +126,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about online safety.
 
       links:
-        website description: http://www.google.co.uk
+        Online safety: https://theriseschool.com/sites/default/files/letters-and-downloads/files/staying-safe-online.pdf

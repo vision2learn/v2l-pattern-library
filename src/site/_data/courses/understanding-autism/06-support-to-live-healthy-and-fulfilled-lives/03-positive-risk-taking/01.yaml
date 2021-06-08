@@ -79,12 +79,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
-      
       ### Benefits individuals can gain from positive risk-taking
 
       Let’s look at some of the benefits individuals can gain from positive risk-taking
-    video: placeholder_pc.mp4
+    video: ua_u6_s3_p1_positive_risk_taking.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
