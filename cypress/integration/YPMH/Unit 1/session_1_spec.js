@@ -45,22 +45,22 @@ describe('YPMH: Unit 1 / Session 1 / Page 1', () => {
     })
   
     it('has a Unit overview section', () => {
-      cy.get('section:nth-of-type(2) > h2')
+      cy.get('#main > :nth-child(2) > h2')
         .contains('unit overview', { matchCase: false })
     })
   
     it('has a Course features section', () => {
-      cy.get('section:nth-of-type(3) > h2')
+      cy.get('#main > :nth-child(3) > h2')
         .contains('course features', { matchCase: false })
     })
   
     it('has a Submitting assessments section', () => {
-      cy.get('section:nth-of-type(4) > h2')
+      cy.get('#main > :nth-child(4) > h2')
         .contains('submitting assessments', { matchCase: false })
     })
   
     it(`has a Time to ${courseDetails.timeTo} section`, () => {
-      cy.get('section:nth-of-type(5) > h2')
+      cy.get('#main > :nth-child(5) > h2')
         .contains(`time to ${courseDetails.timeTo}`, { matchCase: false })
     })
   })
