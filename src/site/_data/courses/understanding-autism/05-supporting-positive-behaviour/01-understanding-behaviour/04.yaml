@@ -70,11 +70,27 @@ sections:
   -
   -
     title: Case study
-    layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - Special interest
+      ### Special interest
 
-      _Would like a high profile example of someone with a special interest and how this has been used for positivity_
+      Being autistic doesn’t mean that an individual can’t have an interesting life and highly successful career. There are many celebrities who are on the autistic spectrum and have special interests that have help to launch them into a high profile career.
+      
+      Let’s look at someone who has used their special interests to do just that.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Dan Aykroyd
+          copy: |
+            Dan was born in Canada and since childhood, struggled with symptoms of Tourette's syndrome and Asperger's syndrome. He found education challenging being expelled from schools and dropping out of university before completing his degree in criminology and sociology. 
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+            He then started working in night clubs as a comedian. He was on the cast of Saturday Night Live for its first four seasons, 1975-1979, receiving an Emmy for his writing on the show in 1977.
+
+            He was diagnosed with Aspergers in the 1980’s and he credits his Aspergers as the reason why he created Ghostbusters. Dan said that one of his symptoms of Autism Spectrum Disorder was his obsession with ghosts and law enforcement. He was obsessed by Hans Holzer ‘the greatest ghost hunter ever’ and this was where his idea for ‘Ghostbusters’ started.
+
+            He would also carry around a police badge and his obsession for law enforcement and his knowledge of criminology also helped with creating ‘Blues Brothers' with his friend John Belushi.
+
+            Dan has never permitted his medical challenges to stand in his way, and his dedication to following his special interests and dreams has led him to a career as actor, producer, comedian, musician, and filmmaker.
+
+          img: /images/svg/placeholder_icon.svg

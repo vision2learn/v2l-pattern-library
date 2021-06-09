@@ -98,17 +98,6 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Case study AND/OR Interview??? _
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
