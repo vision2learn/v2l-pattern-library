@@ -621,7 +621,7 @@ button svg {
   align-items: center;
   break-inside: avoid; // makes items flow nicely in CSS columns
 
-  .js & {
+  &.js-ok {
     display: block;
     position: relative;
     margin-bottom: 0;
@@ -663,7 +663,7 @@ button svg {
     width: 100px;
     height: 100px;
 
-    .js & {
+    .js-ok & {
       object-fit: cover;
     
       @supports(display: grid) {
