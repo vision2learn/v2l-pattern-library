@@ -119,3 +119,10 @@ sections:
     copy: |
       Let’s watch a video about preventing, de-escalating and coping with behaviour that is challenging.
     video: ua_u5_s3_p1_coping_strategies.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
