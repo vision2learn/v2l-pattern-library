@@ -1,6 +1,6 @@
 title: Strategies to protect and online safety
 intro: |
-  intro text
+  On this page we will look at strategies that individuals with autism can use to protect themselves from harm and abuse, and ways to use the internet and social media safely.
 banner: ua_u6_s2_p2_protect.jpg
 sections:
   -
@@ -19,11 +19,6 @@ sections:
       type: reveal
       content:
         -
-          title: Sexual abuse
-          copy: |
-            When they do not want to take part in a sexual activity or are not able to give consent because they may not understand what is happening.
-          img: placeholder_icon.svg
-        -
           title: Emotional abuse
           copy: |
             When people say bad things to them, and they hurt their feelings and making them feel frightened.
@@ -32,6 +27,11 @@ sections:
           title: Financial abuse
           copy: |
             When someone takes money or things that belong to an individual or spends their money on things they do not want.
+          img: placeholder_icon.svg
+        -
+          title: Sexual abuse
+          copy: |
+            When they do not want to take part in a sexual activity or are not able to give consent because they may not understand what is happening.
           img: placeholder_icon.svg
         -
           title: Domestic and institutional abuse and neglect
@@ -51,55 +51,13 @@ sections:
     theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe ways to support individuals to use the internet and social media safely.
-  
   -
-    title: extra item 
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _This or a slider - to break up content if video is very long_ 
-      
-      Text
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: a
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          text: |
-            text
-          img: placeholder_icon.svg
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
   -
   -
     title: Watch 
@@ -118,7 +76,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
   -
   -
     title: On the web

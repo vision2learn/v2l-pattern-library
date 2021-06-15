@@ -45,7 +45,7 @@ sections:
             Using safety equipment like seatbelts in cars and making sure doors are locked when a vehicle is in traffic. The danger of open water such as being near ponds and lakes or swimming pools.
           img: placeholder_icon.svg
         -
-          title: Sensory porcessing challenges
+          title: Sensory processing challenges
           text: |
             Many individuals with autism may have put themselves in unsafe situations due to sensory processing challenges. These may prevent them from feeling when something is too hot or too cold, or if an object is very sharp. They may not have the perception to understand what may pose a threat to the physical health when their sensory processing challenges put them at risk of danger.
           img: placeholder_icon.svg
@@ -75,14 +75,12 @@ sections:
     video: ua_u6_s2_p1_vulnerability.mp4
   -
   -
-    title: This or slides or case study item?
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _something extra may be needed here to break up content?_
-
-    img: /images/svg/placeholder_icon.svg
-  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
   -
     title: Key point
     theme: t-bg-grey i-keypoint

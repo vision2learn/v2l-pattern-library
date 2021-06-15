@@ -23,10 +23,16 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
-      
       Please see the following video about challenges and barriers in gaining employment for people with autism. 
     video: ua_u6_s6_p1_challenges_and_barriers.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
   -
   -
     title: Key point
@@ -68,8 +74,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
-      
       Let’s look at how individuals can be supported with gaining, starting and continuing in employment in a little more detail in this video.
     video: ua_u6_s6_p1_employability.mp4
   -
