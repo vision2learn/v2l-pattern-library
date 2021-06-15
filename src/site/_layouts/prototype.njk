@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "courses/{{ course | d('no string') | slug }}/unit-{{ unit}}/session-{{ session }}/{{ pagination.pageNumber + 1}}/index.html"
+permalink: "courses/{{ course | d('no string') | slug }}/{{ unit}}/{{ session }}/{{ pagination.pageNumber + 1}}/index.html"
 ---
 {%- set unitNameFilter = "0" + unit -%}
 {%- set sessionNameFilter = "0" + session -%}

@@ -13,7 +13,7 @@ body {
   
   <ul>
   {% for course, unit in courses %}
-    <li><a href="/courses/{{ course }}/unit-1/session-1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
+    <li><a href="/courses/{{ course }}/1/1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
   {% endfor %}
   </ul>
 </section>
