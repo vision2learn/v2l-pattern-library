@@ -281,6 +281,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/js");
   config.addPassthroughCopy("./src/site/_redirects");
   config.addPassthroughCopy("./src/site/admin");
+  config.addPassthroughCopy("./src/site/resources");
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
