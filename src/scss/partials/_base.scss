@@ -317,10 +317,9 @@ picture {
 }
 
 video {
-  max-width: 100%;
+  width: 100%;
   justify-self: center;
   object-fit: contain;
-  aspect-ratio: 16 / 9;
 
   &[poster] {
     background-color: black;//var(--primary1);

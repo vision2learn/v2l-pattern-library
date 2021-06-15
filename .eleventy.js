@@ -154,7 +154,7 @@ module.exports = function(config) {
 
 
     return `
-      <div class="l-video-container">
+      <!-- <div class="l-video-container"> -->
         <video poster="${tilde}/images/svg/poster.svg" controls preload="metadata" aria-labelledby="${id}" width="1000"
           data-base="${basename}" 
           data-ext="${ext}" 
@@ -164,7 +164,7 @@ module.exports = function(config) {
           ${track}
           <p>Sorry, your browser doesn't support embedded videos</p>
         </video>
-      </div>
+      <!-- </div> -->
       ${transcript}
       `;
   });
