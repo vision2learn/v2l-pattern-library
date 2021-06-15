@@ -27,8 +27,8 @@ const ContentToggle = (() => {
     // TODO: Is this unnecessary?
     videos.forEach(video => {
       let url = new URL(video.src);
-      let basename = url.pathname.substring(0, url.pathname.indexOf('_pc'));
-      if(url.pathname.indexOf('_pc') > -1) {
+      let basename = url.href.substring(0, url.href.indexOf('_pc'));
+      if(url.href.indexOf('_pc') > -1) {
         baseVidSrc.push({
           vidPath: basename,
           vttPath: basename.replace('/videos/', '/videos/captions/vtt/')

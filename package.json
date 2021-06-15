@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.6",
+    "cypress": "^7.5.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-babel": "^8.0.0",
     "js-yaml": "^3.14.1",
