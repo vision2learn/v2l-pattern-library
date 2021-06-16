@@ -99,6 +99,17 @@ sections:
           img: /images/svg/ua/ua_u1_s6_p1_casestudy.svg
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following interview with Matt answering the following question:
+      
+      How do you find the current public perception of Autism and how it is portrayed in the media both factual and fictional?
+
+    video: ua_u1_s6_p1_interview_media.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 

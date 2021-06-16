@@ -60,8 +60,20 @@ sections:
           img: ua_u1_s3_p1_slide5.svg
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following interview with Matt answering the following questions:
+      1. When did you first start to become aware of your Autism?
+      2. Can you tell us if and when you were ever formally diagnosed?
+      3. How did you find the experience at the time?
+
+    video: ua_u1_s3_p1_interview_diagnosis.mp4
+  -
+  -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe the difficulties surrounding the diagnosis of autism.
   -
@@ -88,7 +100,6 @@ sections:
       type: time-to-think
       copy: |
         Now that you have watched the video can you think of the difficulties that surround a diagnosis of autism? Think about formal diagnosis and the range of different diagnoses on the spectrum. 
-
   -
   -
     title: On the web
