@@ -87,6 +87,19 @@ sections:
         * mental capacity and best interests
         * advocacy
   -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / Key workers
+      
+      Please see the following interview video of professionals' responces to the following question:
+      
+      In what circumstances, do you think, confidential information should be disclosed to others?
+    video: ua_u2_s1_p2_interview_disclosing_info.mp4
+  - 
+  -
     title: Quick quiz
     copy: 
     subInc: 

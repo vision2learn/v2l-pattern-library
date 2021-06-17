@@ -38,8 +38,29 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      ### Interview with professionals / Key workers
+      
       Please see the following video on the role of specialists in supporting communication and social interaction.
-    video: placeholder_pc.mp4
+
+      Please see the following interview video of professionals' responces to the following question:
+
+      1. What tools and strategies are you aware of, to support autistic individuals in communication?
+      2. How do these help to improve their social interaction?
+
+    video: ua_u3_s3_p2_interview_tools.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional / Key worker
+      
+      Please see the following interview video of a professional's responce to the following question:
+      
+      Are there any scenarios you would be happy to impart, changing the names and details where necessary where you can share an insight into a relationship you have had with an individual with autism?
+    video: ua_u3_s3_p2_positive_zoe.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think

@@ -55,8 +55,27 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Supporting an Individual with autism is a collaborative process which involves effective partnerships between professionals, families and the individual where possible.These partnerships can involve a range of different people including friends & family, carers, healthcare professionals and social workers.
-    video: placeholder_pc.mp4
+      ### Interview with professionals / Key workers
+
+      Supporting an Individual with autism is a collaborative process which involves effective partnerships between professionals, families and the individual where possible. These partnerships can involve a range of different people including friends & family, carers, healthcare professionals and social workers.
+
+      Please see the following interview video of professionals' responces to the following question:
+
+      What would you say are the benefits of partnerships and close working relationships with others, professional or otherwise when supporting individuals with autism?
+    video: ua_u2_s2_p3_interview_partnerships.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / Key workers
+      
+      Please see the following interview video of professionals' responces to the following question:
+      
+      From your perspective, what other people professional or otherwise have you been involved with whilst supporting autistic individuals?
+    video: ua_u2_s2_p3_interview_supporting.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
