@@ -1,0 +1,132 @@
+title: Nutritional needs of young children
+intro: |
+    Intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: The nutritional needs of young children
+    theme: t-bg-primary
+    copy: |
+      Planning balanced meals and snacks isn’t just about making sure children get all the energy they require. Meal plans must also ensure that the child or young person is getting all the nutrients they need.
+
+      However, just like energy requirements, nutritional needs also change as a child gets older.
+
+      Scroll through the slides to find out more about the nutritional needs of young children. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Calories
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Salt
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Sugar
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Milk
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Solid food
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Nutrients
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Other factors
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more information about nutritional recommendations for under 5s, take a look at the following links:
+      links:
+        Healty Under 5s: http://www.healthyunder5s.nhs.uk/HealthyEating.aspx
+        Change4life: http://www.nhs.uk/start4life/Pages/healthy-baby-advice.aspx 
+  -
+  -
+    title: The nutritional needs of teenagers
+    theme: t-bg-supporting2
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Meal plan for a teenager
+
+      Text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Example meal plan
+          copy: |
+            Name: Peter    Age: 15
+
+            table here
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more information take a look at the following links:
+      links:
+        NHS Choices: http://www.nhs.uk/Livewell/Goodfood/Pages/healthy-eating-teens.aspx
