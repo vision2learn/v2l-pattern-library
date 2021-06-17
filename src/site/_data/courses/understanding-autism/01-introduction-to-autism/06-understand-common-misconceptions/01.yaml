@@ -117,27 +117,9 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _from SME_
-        Discussion on how discrimination can occur inadvertently in society
-        
-        Let’s look at some of the ways a person could be discriminated against because of their autism spectrum disorder.
-
-        possible choices or points for discussion:
-          
-        a)“further expanded discussion on Greta Thunberg”
-
-        b)“ autism should be seen not as a disability,”
-
-        c)“once someone is labelled as having a ‘disability’ such as ‘Autism spectrum disorder’ they are automatically in some people’s eyes seen as ‘disabled’ and not capable.”
-
-        d)“This is just pure discrimination as there are so many people, especially high function-ing ASD individuals today that maintain successful and high profile careers without oth-ers being aware of their diagnosis.”
-
-
-
-        _Lloyds_
-
         Can you describe how attitudes and lack of understanding can compound the difficulties experienced by individuals with Autism? 
 
+        _Misinterpretation in the media - do we need this here too?_
   -
   -
     title: Quick quiz
@@ -158,3 +140,29 @@ sections:
             Behaviour: false
             Understanding: false
             Stigma: true
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how discrimination against individuals with autism can occur inadvertently in society.
+  -
+  -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Inadvertent discrimination
+
+      Click on the owl to see a website about how discrimination against individuals with autism can occur inadvertently in society.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.google.com
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have done some research, give an example of how discrimination against individuals with autism can occur inadvertently in society.
