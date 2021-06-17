@@ -1,29 +1,8 @@
-title: What did you learn? 
+title: title
 intro: |
-  Well done, you’ve now completed the ﬁrst session of this unit! In this session you have learnt about 
+  text 
   
 banner: summary.jpg
 sections:
   -
-    title: Summary and learning points
-    theme: t-bg-primary
-    copy: |
-      In this Session you have learnt about . You have learnt about:
-      * one
-      
-      Take a look at the following learning points to see a summary of what you have covered in this session:
-      * one
-      * two
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: one
-          copy: |
-            * one
-            * two
-        -
-          title: two
-          copy: |
-            * one
-            * two
+    

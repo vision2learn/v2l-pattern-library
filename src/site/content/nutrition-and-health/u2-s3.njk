@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 3,
+  pagination: {
+    data: "courses['nutrition-and-health']['02-the-nutritional-needs-of-individuals']['03-special-dietary-requirements']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
