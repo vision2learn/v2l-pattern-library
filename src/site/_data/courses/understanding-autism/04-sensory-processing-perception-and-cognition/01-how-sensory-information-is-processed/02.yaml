@@ -78,6 +78,21 @@ sections:
       Let’s look at this in more detail in this video.
     video: ua_u4_s1_p2_hypersensitive_hyposensitivity.mp4
   -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      1. Have you ever encountered any Autistic Individuals with hyposensitive or hypersensitive sensory difficulties?
+      2. How has this affected them and your interactions with them?
+
+    video: ua_u4_s1_p2_interview_hypo_hyper.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
