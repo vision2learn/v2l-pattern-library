@@ -73,16 +73,14 @@ sections:
     title: Case study
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - Greta Thunberg
-
-      Let’s now look at a case study which highlights why Autism should not be seen as a disability. 
+      Let’s now look more in detail at a case study which highlights why Autism should not be seen as a disability. 
       
       Many high profile creative and pioneering individuals of the past show signs of being on the autism spectrum to some degree but this cannot be verified, however a current prominent figure and environmental activist in the world today, who can be verified, is Swedish teen activist Greta Thunberg, and she is now quite open about her autism spectrum disorder diagnosis.
     subInc: 
       type: accordion
       content:
         - 
-          title: Step outside of your comfort zone and make a difference
+          title: Greta Thunberg
           copy: |
             Greta started protesting at the age of 15, about climate crisis, and developed an unprecedented global movement in 2018. She is known worldwide as the public face of the ‘school climate strike movement’ and has spoken about her Asperger’s syndrome diagosis after she was criticised over the condition.
 
@@ -105,7 +103,7 @@ sections:
     copy: |
       ### Interview with an individual with autism
       
-      Please see the following interview video of Matt's responce to the following question:
+      Please see the following interview video of Matt's response to the following question:
       
       How do you find the current public perception of Autism and how it is portrayed in the media both factual and fictional?
 
@@ -117,10 +115,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Can you describe how attitudes and lack of understanding can compound the difficulties experienced by individuals with Autism? 
-
-        _Misinterpretation in the media - do we need this here too?_
-  -
+        Carry out some research and identify examples of how autism can be misinterpreted in the media.
   -
     title: Quick quiz
     theme: i-quiz
@@ -154,10 +149,10 @@ sections:
     copy: |
       ###  Inadvertent discrimination
 
-      Click on the owl to see a website about how discrimination against individuals with autism can occur inadvertently in society.
+      Click on the owl to take you to a blog article on how employers may discriminate against people with autism without realising, and a short video on misunderstandings between people with Asperger's syndrome and their family members.
 
     img: /images/svg/stretch_button.svg
-    link: https://www.google.com
+    link: https://blogs.lse.ac.uk/equityDiversityInclusion/2017/08/employers-may-discriminate-against-autism-without-realising/
   -
   -
     title: Time to think
