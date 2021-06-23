@@ -1,6 +1,6 @@
 title: Strategies that could be used
 intro: |
-  intro text
+  On this page we are going to look at some of the strategies that can be used to support an individual with autism in completing activities and tasks.
 banner: ua_u4_s3_p2_strategies.jpg
 sections:
   -
@@ -22,41 +22,39 @@ sections:
           title: Visual supports
           copy: |
             Visual supports such as pictures, and real objects can help autistic people have a daily plan showing what they are to do at what times of the day. 
-          img: placeholder_icon.svg
+          img: ua_u4_s3_p2_reveal1.svg
         -
           title: Colour coding
           copy: |
             Colour coding can be used to show the importance or sequencing of tasks. Red could mean urgent, and green could mean pending and blue could mean no timescale attached to it. 
-          img: placeholder_icon.svg
+          img: ua_u4_s3_p2_reveal2.svg
         -
           title: Voice recording
           copy: |
             Recorded messages, on a smartphone or tablet, can be a useful auditory reminder of tasks, work, events or deadlines.
-          img: placeholder_icon.svg
+          img: ua_u4_s3_p2_reveal3.svg
         -
           title: Lists
           copy: |
             Lists can help with prioritising tasks and showing they are completed these can be visual, written, or in the form of a task list app.
-          img: placeholder_icon.svg
+          img: ua_u4_s3_p2_reveal4.svg
         -
           title: Alarms and alerts
           copy: |
             Computer calendars can be used to store events and important dates or reminders such as when to pay bills. Instructions can be sent by text to the person’s mobile phone.
-          img: placeholder_icon.svg
+          img: ua_u4_s3_p2_reveal5.svg
         -
           title: Times of day, days of the week
           copy: |
             Having set days or times for doing things such as Saturday is shopping day and Wednesday is washday, midday is lunchtime.
-          img: placeholder_icon.svg
+          img: ua_u4_s3_p2_reveal6.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Similiar style and same presenter as previous page to connect topic - images/video clips to support content_
-      
       Let’s have look at this in a bit more detail in this video.
-    video: placeholder_pc.mp4
+    video: ua_u4_s3_p1_strategies.mp4
   -
   -
     title: Time to think
@@ -73,9 +71,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Managing money- Offered by MoneySuperMarket.com in association with the National Autistic Society, computer programmes, calendars and personal organiser apps._
-
-        Please see the following website where you can learn more about . . .
+        Please see the National Autistic Society website where you can learn more about managing money.
 
       links:
-        website description: http://www.google.co.uk
+        Managing money: https://www.autism.org.uk/advice-and-guidance/topics/benefits-and-money/personal-finances/managing-money

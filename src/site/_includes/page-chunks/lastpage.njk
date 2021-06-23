@@ -107,7 +107,7 @@
       You've reached the end of this course.
     </p>
   {%- else %}
-    {%- set link = "/courses/" + course + "/unit-" + nextUnit + "/session-" + nextSession + "/1" %}
+    {%- set link = "/courses/" + course + "/" + nextUnit + "/" + nextSession + "/1" %}
     {% if site.env === 'dotnet' %}
       {% set link = "~/" + nextUnit + "/" + nextSession + "/1" %}
     {% endif %}

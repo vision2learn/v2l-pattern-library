@@ -32,27 +32,27 @@ sections:
         -
           title: Bereavement
           text: |
-            text
+            People are affected by bereavement in different ways, and this is no different for individuals with autism. They might show significant changes in behaviour and they may behave differently to how someone would expect. Individuals may find it difficult to express their own feelings and struggle to understand the concept of death and loss and how to behave when someone dies. They will need time and space to express their feelings in a way that works for them.
           img: placeholder_icon.svg
         -
           title: Changes in care
           text: |
-            text
+            A child with autism may have spent most of their childhood in the care of their parents at home but may find that when they reach the age of 18, they will transition into adult care. It’s a good idea for parents to start thinking about their future care when the child is around 14 or 15 getting them more involved when they are 16. They may also be going off to university who will take over their support needs.
           img: placeholder_icon.svg
         -
           title: Birth of a sibling
           text: |
-            text
+            Preparing to welcome a new baby into a home can be an exciting and happy experience, but it can be a time of adjustment for older siblings especially when they have autism. They may need additional consideration, support and attention to assist them to cope with this dramatic change in their life, as they may feel scared that parents will have less time for them. They will also need to be prepared for the sensory changes that will inevitably happen.
           img: placeholder_icon.svg
         -
           title: Family breakup
           text: |
-            text
+            Divorce is a very difficult transition for a family. Telling a child with autism, that their parents are getting a divorce should be done as soon as possible. Plans should be clearly made before they are told, so they have a clear idea of what their future holds. They should also have clear guidelines on any changes to their care and lifestyle so as to make any upheaval less dramatic.
           img: placeholder_icon.svg
         -
           title: Moving house or changing school
           text: |
-            text
+            Moving house or changing schools may involve major and minor changes to an individual with autism. Their whole routine around which they day and life has been focused will change including their immediate surroundings. This can be very distressing and cause major sensory issues. It may also mean a life change in so much that the individual has to prepare to live independently.
           img: placeholder_icon.svg
   -
   -
@@ -60,10 +60,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style – Standard format – 2 presenters with video clips to illustrate each point - may need to break up content if video is too long (over 3 minutes) - could we can do this at the Amends stage?_
-      
       Please watch this video giving more details on life events and transitions that can affect an individual with autism.
-    video: placeholder_pc.mp4
+    video: ua_u6_s4_p1_life_events.mp4
   -
   -
     title: Key point
@@ -83,17 +81,17 @@ sections:
         -
           title: Understanding change
           text: |
-            text
+            Being able to cope with life events and transitions that cause change depends on understanding why something is happening, what the underlying social rules are and having the coping strategies to overcome anxiety when things change unexpectedly. 
           img: placeholder_icon.svg
         -
           title: Comprehending change
           text: |
-            text
+            Some individuals with autism may not have the communication skills and social understanding to comprehend why change is happening and the impact it will have on their lives.
           img: placeholder_icon.svg
         -
           title: Predicting consequences
           text: |
-            text
+            Some individuals with autism may experience stress and anxiety when even minor changes in routine occur and to try to regain control of the situation may display rigid thinking and behaviour that is challenging. They may not understand cause and effect which can make predicting consequences difficult. 
           img: placeholder_icon.svg
   -
   -
@@ -110,49 +108,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        Please see the National Autistic Society website where you can learn more about dealing with change.
 
-        Please see the following website where you can learn more about . . .
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+      links:
+        Dealing with change: https://www.autism.org.uk/advice-and-guidance/topics/behaviour/dealing-with-change/all-audiences

@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 2,
+  pagination: {
+    data: "courses['nutrition-and-health']['02-the-nutritional-needs-of-individuals']['02-nutritional-needs-of-older-people']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

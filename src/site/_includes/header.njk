@@ -29,7 +29,7 @@
       
       <ul class="c-main-head__sessions" aria-label="Sessions in unit {{ unit | d('X') }}" aria-role="navigation">
         {%- for i in range(0, sessionCount) %}
-          <li><a href="/courses/{{ course | d('no string') | slug }}/unit-{{ unit}}/session-{{ loop.index }}/1/" {% if loop.index == session %} aria-current="step" {% endif %}>Session {{ loop.index }}</a></li>
+          <li><a href="/courses/{{ course | d('no string') | slug }}/{{ unit}}/{{ loop.index }}/1/" {% if loop.index == session %} aria-current="step" {% endif %}>Session {{ loop.index }}</a></li>
         {%- endfor %}
       </ul>
     {% endif %}

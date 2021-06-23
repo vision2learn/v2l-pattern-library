@@ -1,6 +1,7 @@
 /src/site/Animate
 /src/site/captivate
 .DS_Store
+/src/site/content/it-user-skills-1
 
 # Uncomment to stop building all courses
 # /src/site/content/
@@ -8,9 +9,8 @@
 # Uncomment to stop building specific courses
 /src/site/content/employability-and-personal-development
 /src/site/content/business-administration
-/src/site/content/it-user-skills-1
 /src/site/content/it-user-skills-2
 /src/site/content/lean-organisation-techniques
 /src/site/content/nutrition-and-health
-# /src/site/content/young-peoples-mental-health
-/src/site/content/understanding-autism
+/src/site/content/young-peoples-mental-health
+# /src/site/content/understanding-autism

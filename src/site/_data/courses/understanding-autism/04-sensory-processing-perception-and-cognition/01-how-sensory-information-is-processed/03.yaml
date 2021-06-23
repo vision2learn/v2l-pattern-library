@@ -1,6 +1,6 @@
 title: Balance and body awareness
 intro: |
-  intro text
+  Problems with balance and body awareness may cause individuals with autism to look clumsy and uncoordinated let’s learn more about this.
 banner: ua_u4_s1_p3_balance.jpg
 sections:
   -
@@ -22,12 +22,12 @@ sections:
           title: Experiencing balance difficulties
           text: |
             Vestibular sense or balance can cause a range of problems depending on whether the individual is ‘hyposensitive’ or ‘hypersensitive. Those who are hyposensitive or under sensitive, often need to rock, swing or spin to gain some sensory input.  Using toys like rocking horses swing and roundabouts can help with children and an adult could use a rocking chair. Hypersensitive individuals struggle with activities like sport where they need to control their movements, they may also have problems changing direction quickly and suffer from motion sickness.
-          img: placeholder_icon.svg
+          img: ua_u4_s1_p3_slide1.svg
         -
           title: Experiencing Body Awareness difficulties
           text: |
             Proprioception or Body awareness can also cause a range of different problems depending on whether the individual is ‘hyposensitive’ or ‘hypersensitive. Hyposensitive individuals stand very close to others and cannot judge personal space they also find it hard to avoid obstructions and navigate their way around spaces often bumping into people or things. Hypersensitive individuals may have problems with fine motor skills like tying shoes laces or fastening buttons and they may have to move their whole body to look at something.
-          img: placeholder_icon.svg
+          img: ua_u4_s1_p3_slide2.svg
   -
   -
     title: Key point
@@ -56,52 +56,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following autism together website where you can learn more about Verstibular sense and Proprioception.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        Verstibular sense: https://www.autismtogether.co.uk/vestibular-sense-and-the-autistic-spectrum/
+        Proprioception and autism: https://www.autismtogether.co.uk/proprioception-and-autism-2/

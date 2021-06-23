@@ -55,8 +55,34 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        In your own words  outline the processes required to communicate using:
+        * speech
+        * language
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / Key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+      
+      What are the difficulties autistic individuals might have when processing and interpreting verbal information, and how can this be made easier for them?
+    video: ua_u3_s1_p2_interview_verbal_info.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. What are the difficulties you may have encountered when processing and interpreting verbal information in the past?
+      2. Can you recall any times when this was   made easier for you or you were given any support in this?
+    video: ua_u3_s1_p2_interview_verbal.mp4
   -
   -
     title: On the web

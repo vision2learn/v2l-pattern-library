@@ -5,8 +5,26 @@ intro: |
 banner: ua_u1_s1_p3_autism.jpg
 sections:
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    copy: |
+      ### Introduction to our interviewees
+
+      Throughout this course there are a number of interviews. Please see below for an introduction to each of the key workers and an individual with Autism.
+      
+    subInc:
+      type: vidgrid
+      videos:
+        Ellen: ua_u1_s1_p3_interview_ellen_intro.mp4
+        Kerry: ua_u1_s1_p3_interview_kerry_intro.mp4
+        Phil: ua_u1_s1_p3_interview_phil_intro.mp4
+        Matt: ua_u1_s1_p3_interview_matt_intro.mp4
+        Zoe: ua_u1_s1_p3_interview_zoe_intro.mp4
+        Zoe T: ua_u1_s1_p3_interview_zoe_t_intro.mp4
+  -
+  -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to define the following:
       * Autistic spectrum disorder 
@@ -17,7 +35,7 @@ sections:
     title: Social and Communication Disorders
     theme: t-bg-primary
     copy: |
-      Let’s look at three social and communication orders, what they mean and how they relate to each other. Scroll through the slides below to learn more.
+      Let’s look at three social and communication disorders, what they mean and how they relate to each other. Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
@@ -26,13 +44,13 @@ sections:
         -
           title: Autism spectrum disorder
           text: |
-            'Autism spectrum disorder’ is a lifelong developmental condition, relative to brain development and impacts how a person perceives others, causing problems with com-munication and social interaction. It can also include limited and repetitive patterns of behaviour.  
+            'Autism spectrum disorder’ is a lifelong developmental condition, relative to brain development and impacts how a person perceives others, causing problems with communication and social interaction. It can also include limited and repetitive patterns of behaviour.  
 
           img: ua_u1_s1_p3_slide1.svg
         -
           title: Asperger syndrome
           text: |
-            Those with ‘Asperger syndrome’ don't have the learning disabilities that many autistic people have, but may have specific learning difficulties with understanding and pro-cessing language. Some with Asperger syndrome say the world feels overwhelming and this can cause considerable anxiety especially relating to other people, and taking part in everyday family, school, work and social life.
+            Those with ‘Asperger syndrome’ don't have the learning disabilities that many autistic people have, but may have specific learning difficulties with understanding and processing language. Some with Asperger syndrome say the world feels overwhelming and this can cause considerable anxiety especially relating to other people, and taking part in everyday family, school, work and social life.
 
           img: ua_u1_s1_p3_slide2.svg
         -

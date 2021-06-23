@@ -49,15 +49,32 @@ sections:
     layout: media
     copy: |
       Let’s now listen to a discussion on the importance of confidentiality in relation to supporting individuals with Autism.
-    video: placeholder_pc.mp4
+
+      ### Interview with professionals / Key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      Why do you think it is important to maintain confidentiality when supporting individuals with autism?
+    video: ua_u2_s2_p4_interview_maintain_confidentiality.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Using your learning from this page can you give an outline of the principles of confidentiality in relation to supporting individuals with autism?
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / Key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+      
+      Tell us about the sort of information that should be kept confidential and why?
+    video: ua_u2_s2_p4_interview_confidential_types.mp4
   - 
   -
     title: Read - Confidentiality

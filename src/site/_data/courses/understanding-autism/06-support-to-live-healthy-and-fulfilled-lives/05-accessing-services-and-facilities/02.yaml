@@ -1,6 +1,6 @@
 title: Reasonable adjustment and community support
 intro: |
-  intro text
+  On this page we will take a look at reasonable adjustments, and the support available for individuals and families from rights groups and community support organisations.
 banner: ua_u6_s5_p2_adjustment.jpg
 sections:
   -
@@ -44,11 +44,15 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point_
-      
       Let’s find out more about reasonable adjustments.
-    video: placeholder_pc.mp4
+    video: ua_u6_s5_p2_reasonable_adjustments.mp4
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -120,10 +124,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point and text titles for each item eg. ‘Autism charities’_
-      
       Let’s listen to more about this in this video.
-    video: placeholder_pc.mp4
+    video: ua_u6_s5_p2_rights_and_community_support.mp4
   -
   -
     title: Time to think

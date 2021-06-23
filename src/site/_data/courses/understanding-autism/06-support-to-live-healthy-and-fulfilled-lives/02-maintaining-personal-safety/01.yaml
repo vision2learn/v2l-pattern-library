@@ -32,27 +32,27 @@ sections:
         -
           title: Wandering off
           text: |
-            text
+            Problems like wandering off can be common and can increase risks of being exposed to dangerous situations. Wandering off from a safe, supervised place is common, dangerous and puts tremendous stress on families. It may involve going to a favourite place like a park or train station, getting away from a noise, or avoiding something they are scared of like a dog.
           img: placeholder_icon.svg
         -
           title: Safety in the home
           text: |
-            text
+            Safety can be important around the home with general appliances such as cookers and electric fires, which may be hot and can cause scalding or burns. Using electrical appliances and plugs, can have problems with electrocution such as using a hair dryer with wet hands. Using knives or scissors may cause danger to hands and fingers through cuts.
           img: placeholder_icon.svg
         -
           title: Safety outside
           text: |
-            text
+            Using safety equipment like seatbelts in cars and making sure doors are locked when a vehicle is in traffic. The danger of open water such as being near ponds and lakes or swimming pools.
           img: placeholder_icon.svg
         -
-          title: Sensory porcessing challenges
+          title: Sensory processing challenges
           text: |
-            text
+            Many individuals with autism may have put themselves in unsafe situations due to sensory processing challenges. These may prevent them from feeling when something is too hot or too cold, or if an object is very sharp. They may not have the perception to understand what may pose a threat to the physical health when their sensory processing challenges put them at risk of danger.
           img: placeholder_icon.svg
         -
           title: Online security
           text: |
-            text
+            Knowing what behaviour is appropriate online and how to use cameras on computers and tablets and phones safely. Realising the consequences of their online activity and signing up to things, and the proprieties of arranging to meet people through online chats and social media.
           img: placeholder_icon.svg
   -
   -
@@ -68,23 +68,19 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style – Standard format – 2 presenters with video clips to illustrate each point_
-      
       ### Individuals with autism and their vulnerability to bullying and exploitation 
 
       Watch this video and learn about why individuals with autism are vulnerable to bullying and exploitation.
 
-    video: placeholder_pc.mp4
+    video: ua_u6_s2_p1_vulnerability.mp4
   -
   -
-    title: This or slides or case study item?
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _something extra may be needed here to break up content?_
-
-    img: /images/svg/placeholder_icon.svg
-  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -103,32 +99,32 @@ sections:
         -
           title: Physical signs
           copy: |
-            text
+            They come home with dirty, damaged or missing clothes, bags or books, with bruises or scratches, without money they should have or asking for more money the next day. 
           img: placeholder_icon.svg
         -
           title: Changing routines
           copy: |
-            text
+            They arrive at school or college late or get home late because they have changed their route to or from school or college.
           img: placeholder_icon.svg
         -
           title: Reluctance to do things
           copy: |
-            text
+            They may be reluctant to go to school or college and make excuses to miss attending. 
           img: placeholder_icon.svg
         -
           title: Mood changes
           copy: |
-            text
+            They may seem to be stressed, depressed, unhappy or unwell.  
           img: placeholder_icon.svg
         -
           title: Concentration issues
           copy: |
-            text
+            They may show a deterioration in concentration or the standard of work. 
           img: placeholder_icon.svg
         -
           title: Behavioural issues
           copy: |
-            text
+            They may show an increase or change in obsessional or repetitive behaviour. 
           img: placeholder_icon.svg
   -
   -
@@ -136,10 +132,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Standard format – 2 presenters with video clips to illustrate each point - may need to break up content if video is too long (over 3 minutes) - could we can do this at the Amends stage?_
-      
       Let’s look at how to safeguard against bullying and exploitation of individuals with autism.
-    video: placeholder_pc.mp4
+    video: ua_u6_s2_p1_safeguarding.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

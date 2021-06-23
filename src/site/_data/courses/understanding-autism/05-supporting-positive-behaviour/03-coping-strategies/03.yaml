@@ -59,12 +59,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter introduction morph into narrator with images and supporting text e.g. 'social care needs assessment', 'GP', 'Counsellor' etc_
-      
       ### Getting specialist help
 
       Let’s look at some sources of support in relation to behaviours that challenge for the individual with autism and their family.
-    video: placeholder_pc.mp4
+    video: ua_u5_s3_p3_specialist_help.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

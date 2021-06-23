@@ -1,7 +1,7 @@
 title: Strategies to support communication and social interaction
 intro: |
   In this session you will learn how strategies can be used to support communication and social interaction for individuals with autism.
-banner: ua_u3_s3_p1_support.jpg
+banner: ua_u3_s3_p1_support1.jpg
 sections:
   -
     title: What you will learn
@@ -95,6 +95,18 @@ sections:
     video: ua_u3_s3_p1_needs_and_preferences.mp4
   -
   -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      Do you recall any instances of others altering their communication style, for better or worse once aware of your Autism?
+    video: ua_u3_s3_p1_interview_communication.mp4
+  -
+  -
     title: Quick quiz
     copy: Now you have watched the above video, select from each of the strategies in the dropdown list to complete the following statements.
     subInc: 
@@ -133,9 +145,22 @@ sections:
       How can communication be adapted to meet the needs and preferences of each individual. Watch the following video to learn more.
     video: ua_u3_s3_p1_range_of_strategies.mp4
   -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / Key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+      
+      How have you adapted your communication style to meet the needs of autistic individuals in the past?
+    video: ua_u3_s3_p1_interview_adapting.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to both the videos - emphasise assessment question re strategies_
+        Can you describe the links between social development and also speech and language development?

@@ -256,7 +256,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
         {{ data.copy | markdownify | safe }}
 
-        {% if mediaType === "image" and data.title === "Stretch" and link %}
+        {% if mediaType === "image" and data.title.indexOf("Stretch") >= 0 and link %}
           <p>
             <small>vision&#x200B;2&#x200B;learn is not responsible for the content of external sites.</small>
           </p>
@@ -265,7 +265,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
       {%- if mediaType === "image" %}
         {%- if link %}
-          <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title === "Stretch" }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
+          <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title.indexOf("Stretch") >= 0 }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
             <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
           </a>
         {% else %}

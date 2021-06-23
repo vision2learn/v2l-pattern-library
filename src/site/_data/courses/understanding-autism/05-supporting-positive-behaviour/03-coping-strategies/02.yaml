@@ -33,10 +33,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presentor speaking with empathy - with images/video clips - emphasis is on the solution - keep soft - eg use image of pillow instead of head banging etc_
-      
       Let’s look at what to do when ‘self-stimulating behaviour’ can be extreme enough to cause injury.
-    video: placeholder_pc.mp4
+    video: ua_u5_s3_p2_stimming.mp4
   -
   -
     title: Key point
@@ -61,10 +59,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with written solutions to the side for each situation, with a small number of video clips/images_
-      
       In this video we will learn about what to do when an individual is have a meltdown.
-    video: placeholder_pc.mp4
+    video: ua_u5_s3_p2_meltdown.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -72,60 +68,24 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Which of the following terms is used to describe repetitive actions that help to stimulate an individual?:
+          answers:
+            Stimming: true
+            Meltdown: false
+          feedback: ‘Stimming’ stands for Self Stimulating Behaviour and it is repetitive actions that help to stimulate an individual. It can involve rocking, jumping, spinning, hand flapping, flicking rubber bands, repeating words or staring at lights or spinning objects.
+        Select one option to complete the following sentence:"A ______________ happens when an individual becomes completely overwhelmed by their current situation and temporarily loses control of their behaviour.":
+          answers:
+            Stimming episode: false
+            Meltdown: true
+          feedback: A meltdown is an intense response to an overwhelming situation. They are a complete loss of control caused by being overwhelmed by sensory overload or too much visual information.
+        Is the following statement true or false? "Stimming is often very enjoyable can be a good way for an individual with autism to reduce stress and anxiety.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+          feedback: Stimming is often very enjoyable can be a good way for an individual with autism to reduce stress and anxiety. However, stimming can sometimes cause self-injury, such as, head-banging or scratching.
