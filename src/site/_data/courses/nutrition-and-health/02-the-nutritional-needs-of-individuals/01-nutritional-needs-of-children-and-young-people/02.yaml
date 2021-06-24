@@ -1,4 +1,4 @@
-title: Nutritional needs of children and young people
+title: Nutritional and energy requirements
 intro: |
     Intro text
 banner: placeholder.jpg
@@ -10,44 +10,6 @@ sections:
       You will need to be able to outline the nutritional recommendations and energy requirements for children and young people.
   -
   -
-    title: Nutritional requirements vary
-    theme: t-bg-primary
-    copy: |
-      Nutritional needs and dietary requirements vary with age. There are three key groups of people who you will learn about in this Session. 
-
-      _Original content is difficult to read - this needs to be split into either three sliders - one for each group or an activity_ 
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Carbohydrates
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Vegetables
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Fruit
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Diary
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Protein
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: Activity - Nutritional requirements vary
     layout: media
     theme: t-bg-primary2
@@ -55,6 +17,13 @@ sections:
       PLACEHOLDER 
 
       Select the following icon to . . .
+
+      Nutritional needs and dietary requirements vary with age. There are *three* key groups of people who you will learn about in this Session. 
+
+      _Original content is difficult to read - this needs to be split into either three sliders - one for each group or an activity_ 
+
+      Drag and drop serving sizes for each group per category - 'Fats' category needed.
+
 
 
     img: /images/svg/Activity_button.svg
@@ -74,7 +43,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      A serving and a portion are different things.
+      A serving and a portion are different things.  _too wordy - to be rewritten_
 
       Servings are recommended amounts of food; portions are the amount of food you choose to eat. 
       
@@ -107,26 +76,64 @@ sections:
       As part of your Unit 2 Assessment you must be able to identify the energy requirements of various different age groups. Using the table on this page will help you find the average energy requirements for young children, children and teenagers.
   -
   -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
+    title: Planning balanced meals and snacks
+    theme: t-bg-primary1a
     copy: |
-      ### Planning balanced meals and snacks 
-
       It can be easy to lose track or forget about the calorie and nutritional content of food – particularly for children and young people who may not find calorie counting very interesting!
 
       Planning meals and snacks is the best way to ensure a child or young person is getting all the nutrients they need in their diet.
 
-      Click on the example meal plan to find out what you need to know to put together a really good meal plan. The numbers in brackets represent the number of servings. 
+      Click on the example meal plans to find out what you need to know to put together a really good meal plan. The numbers in brackets represent the number of servings.
     subInc: 
       type: accordion
       content:
         - 
-          title: Example meal plan
+          title: Joseph Age 6
           copy: |
-            Name: Joseph    Age: 6
+            
+            | Meal | Menu | Which food groups? |
+            |------|------|------|
+            | Breakfast | 200ml of low fat/skimmed milk, 1 large slice of toast (40g) | Dairy (1), Carbohydrates (1) |
+            | Snacks | 200ml of skimmed milk, 1 medium banana | Dairy (1), Fruit (1) |
+            | Lunch | 2-3 tablespoons (80g) mashed potatoe, 80g chicken, 4 tablespoons of green beans | Carbohydrates (1), Protein (1), Vegetables (1) |
+            | Snacks | 100ml of yoghurt, 1 orange | Dairy (1), Fruit (1) |
+            | Dinner | Spaghetti bolognese make with lean mince, sauce with grated carrog (60g) and peppers, 25g boiled pasta | Protein (2), Vegetables (2), Carbohydrates (1)|
 
-            table here
           img: /images/svg/placeholder_icon.svg
+        - 
+          title: Yasmin Age 15
+          copy: |
+            
+            | Meal | Menu | Which food groups? |
+            |------|------|------|
+            | Breakfast | Fresh fruit smoothie made with milk, Scrambled eggs and wholegrain toast | Fruit (1), Dairy (1), Carbohydrates (2), Protein (1) |
+            | Snacks | Cucumber and carrot sticks | Vegetables (1) |
+            | Lunch | Rice and bean enchiladas with spring onions, lettuce, salsa, yogurt and cheese | Carbohydrate (1), Protein (1), Vegetables (1), Dairy (1) |
+            | Snacks | Natural yoghurt with 7 sliced strawberries | Dairy (1), Fruit (1) |
+            | Dinner | 115g chicken with two boiled potatoes, asparagus and green beans | Protein (1), Carbohydrate (2), Vegetables (2) |
+
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Who, how and what...
+          copy: |
+
+            **Who is it for?**
+
+            Children and teenagers require different amounts of nutrients and calories depending on their age. Knowing exactly who your meal plan is for will help you know exactly what their energy requirements, and nutritional requirements, are.
+
+            **How is this achieved?**
+
+            Knowing who the meal plan is for and what nutrients they need will then help you plan exactly which foods they should eat. The most important factor here is knowing which foods contain which nutrients and making sure they cover the correct portions of the five food groups.
+
+            **What is needed?**
+
+            You’ll learn more about the specific nutritional and energy requirements of children and young people later in the Session but for all age groups a balanced diet of the five food groups (you learned about in Unit 1) should be the aim.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your Unit 2 Assessment you must be able to plan balanced meals and snacks for a chosen age group. By the end of this Session you’ll have learned all the information you need to put together your own meal plan for a few different age groups!
   -
   -
     title: Summary
@@ -137,9 +144,3 @@ sections:
       Meal plans are useful for parents of young children to make sure they’re getting all the correct nutrients.
 
       Meal plans are also useful for schools, particularly when children attend a breakfast or after school club as the school has a duty to provide balanced, healthy meals. 
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      For your Unit 2 Assessment you must be able to plan balanced meals and snacks for a chosen age group. By the end of this Session you’ll have learned all the information you need to put together your own meal plan for a few different age groups!
