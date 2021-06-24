@@ -62,6 +62,34 @@ sections:
       Let’s look at some of the difficulties individuals with autism have in processing information.
     video: ua_u4_s3_p1_cognitive_differences.mp4
   -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. Do you have any problems processing information such as time perception, routines and prioritizing things? or anything else you are aware of?
+      2. What strategies do you or have you used to help with these difficulties?
+
+    video: ua_u4_s3_p1_interview_processing.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+
+      Please see the following interview video of professionals' responses to the following question:
+
+      Are there any scenarios you would be happy to impart, changing the names and details where necessary where you can share an insight into a relationship you have had with an individual with autism?
+
+    video: ua_u4_s3_p1_positive_phil.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
