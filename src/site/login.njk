@@ -28,7 +28,7 @@ permalink: /login/index.html
   }
 
 </style>
-
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <section>
   <h2>Please log in to view the course preview</h2>
   <div data-netlify-identity-button></div>
@@ -46,7 +46,7 @@ permalink: /login/index.html
     <img src="/images/feedback2.png" alt="">
   </div>
 
-  <p>
+  {# <p>
     <a class="button" href="/courses/it-user-skills-level-2/unit-1/session-1/1" target="_blank">Proceed to IT Level 2 Unit 1</a>
   </p>
   <p>
@@ -54,7 +54,7 @@ permalink: /login/index.html
   </p>
   <p>
     <a class="button" href="/courses/it-user-skills-level-2/unit-3/session-1/1" target="_blank">Proceed to IT Level 2 Unit 3</a>
-  </p>
+  </p> #}
   <p>
     <small>Site updated: {{ site.date().build }}</small>
   </p>
