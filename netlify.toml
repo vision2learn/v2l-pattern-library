@@ -1,2 +1,12 @@
 [functions]
   directory = "src/netlify/functions"
+
+[[redirects]]
+  from = "/courses/*"
+  status = 200
+  conditions = {Role = ["Reviewer"]}
+
+[[redirects]]
+  from = "/courses/*"
+  to = "/"
+  status = 401
