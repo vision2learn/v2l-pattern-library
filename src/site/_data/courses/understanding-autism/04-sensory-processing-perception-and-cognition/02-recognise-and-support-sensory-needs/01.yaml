@@ -69,6 +69,38 @@ sections:
       Let’s look at how individuals with autism may respond when experiencing sensory overload.
     video: ua_u4_s2_p1_sensory_overload.mp4
   -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+
+      Let’s listen to someone with Autism’s experience of sensory difficulties.
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      1. Have you ever encountered an autistic individual who has suffered from sensory overload?
+      2. What was the scenario and how did it affect them?
+      3. What was the outcome of this?
+    video: ua_u4_s2_p1_interview_overload_group.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. Have you ever experienced sensory overload?
+      2. How has it affected you?
+      3. What was the outcome of this?
+
+    video: ua_u4_s2_p1_interview_overload.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 

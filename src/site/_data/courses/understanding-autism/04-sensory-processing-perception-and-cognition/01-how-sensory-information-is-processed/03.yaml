@@ -35,14 +35,23 @@ sections:
     copy: |
       In your assessment you will be required to explain how individuals with autism may experience difficulties with body awareness (proprioception).
   -
-    title: Watch 
+  -
+    title: Watch
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - interview or discussion about sensory difficulties with either a parent, carer or individual with Autism._
-      
       Let’s listen to someone with Autism’s experience of sensory difficulties.
-    video: placeholder_pc.mp4
+      
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. Do you have any hyposensitive or hypersensitive sensory difficulties?
+      2. How has this/these affected you?
+      3. Have they ever caused you any body awareness problems?
+
+    video: ua_u4_s1_p3_interview_sensory.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think

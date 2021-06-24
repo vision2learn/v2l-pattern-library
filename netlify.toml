@@ -1,3 +1,2 @@
-[build]
-
-  functions = "src/lambda/"
+[functions]
+  directory = "src/netlify/functions"
