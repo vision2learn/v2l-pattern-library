@@ -3,7 +3,7 @@
 
 [[redirects]]
   from = "/courses/*"
-  to = "/courses/*"
+  to = "/login"
   status = 200
   force = true
   conditions = {Role = "Reviewer"}
