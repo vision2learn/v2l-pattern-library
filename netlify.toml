@@ -2,11 +2,12 @@
   directory = "src/netlify/functions"
 
 [[redirects]]
-  from = "/courses/*"
+  from = "/courses/understanding-autism/*"
   status = 200
   conditions = {Role = ["Reviewer"]}
 
 [[redirects]]
   from = "/courses/*"
   to = "/"
+  force = true
   status = 401
