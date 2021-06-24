@@ -5,11 +5,10 @@
   from = "/courses/*"
   to = "/login"
   status = 200
-  force = true
   conditions = {Role = "Reviewer"}
 
 [[redirects]]
   from = "/courses/*"
-  to = "/"
+  to = "/login"
   status = 401
   force = true
