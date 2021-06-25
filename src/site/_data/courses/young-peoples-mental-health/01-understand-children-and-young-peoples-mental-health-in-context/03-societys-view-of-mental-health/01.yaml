@@ -1,0 +1,128 @@
+title: Society's view of mental health
+intro: |
+  In this session you will learn about how society views mental health, including social and cultural attitudes, and media and discrimination.
+banner: ypmh_u1_s3_p1_society.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * Definition of terms
+      * Social and cultural attitudes
+      * Media and Discrimination
+  -
+    title: Definition of terms
+    theme: t-bg-primary
+    copy: |
+      Let’s define some of the terms used when we talk about how society views people with mental health problems negatively.
+      Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Prejudice
+          text: |
+            Prejudice is a ‘pre-formed’ negative judgment or attitude leading to views that certain individuals or groups are inferior. This can lead to stereotyping and discrimination from others. People without a mental illness can often feel fear, anxiety and avoidance from those who do. People with mental illness can sometimes anticipate this and feel rejection and discrimination and therefore impose stigma upon themselves.
+
+          img: ypmh_u1_s3_p1_slide1.svg
+        -
+          title: Discrimination
+          text: |
+            Discrimination is often the outcome of prejudice, and can blight the life for many people with mental illness, making a ‘normal’ social, family and work life much more difficult. 
+            
+            Actions must be taken to redress the social exclusion of people with mental illness, and use the legal measures intended to support all disabled people such as the Disability Discrimination Act to address this.
+
+          img: ypmh_u1_s3_p1_slide2.svg
+        -
+          title: Stigma
+          text: |
+            Stigma projects the fear and anxiety felt by people onto the person with the diagnosis of mental ill health and ‘shows a mark of disgrace’ associated with a particular person, illness or disorder. Social stigma is the discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. The concept of stigma helps in understanding of experiences of social exclusion, but does not give the whole picture and show what is needed to promote social inclusion. 
+
+          img: ypmh_u1_s3_p1_slide3.svg
+        -
+          title: Stereotyping
+          text: |
+            Stereotyping is fuelled by ignorance and is an obstacle to competent communication, it is ignorance or the lack of correct information that means many people have little knowledge about mental illnesses. To combat this there is a pressing need to convey more useful information, for example about how to recognise the features of mental illness and where to get help.
+
+          img: ypmh_u1_s3_p1_slide4.svg
+        -
+          title: Strong social stigma
+          text: |
+            But even though so many people are affected, there is still a strong social stigma attached to mental ill health.  Many people's problems are made worse by the stigma and discrimination they experience from society, but also from families, friends and employers.
+            
+            People with mental health problems say that the stigma attached to mental ill health and the discrimination they experience can make their difficulties worse and make it harder to recover. So stigma and discrimination can trap people in a cycle of illness.
+
+          img: ypmh_u1_s3_p1_slide5.svg
+        -
+          title: Recover fully
+          text: |
+            Mental health problems are very common and can affect thousands of people at some time in their life directly or indirectly. Most people who experience mental health problems recover fully, or are able to live with and manage them, especially if they get help early on. 
+          img: ypmh_u1_s3_p1_slide6.svg
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Stereotyping comes from ignorance. 
+          answer: ignorance
+        -
+          sentence: Peoples problems are made worse by stigma.
+          answer: stigma
+        -
+          sentence: Mental health problems are very common.   
+          answer: common
+        -
+          sentence: Discrimination is often the outcome of prejudice.
+          answer: prejudice
+        -
+          sentence: People can recover from mental health.
+          answer: recover
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how social and cultural attitudes towards mental health have changed over time. 
+  -
+    title: Social and cultural attitudes
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Our perception of Mental health has been transformed over the last seventy years or more, with the closure of the old asylums, moving care into the community and the increasing the use of counselling and talking therapies. These have had a positive impact on mental health care for all ages.
+    img: /images/svg/ypmh/ypmh_u1_s3_p2_slide4.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please watch the following video showing how attitudes to mental health have changed over time. 
+    video: ypmh_u1_s3_p1_attitudes_over_time.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from the video above and your own research/experience, note down your own thoughts on how social and cultural attitudes have changed over time.
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how social and cultural attitudes can affect a child or young person’s perception of their own mental health.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at a video showing how changes in social and cultural attitudes towards mental health can affect a child or young persons perception of their own mental health.
+    video: ypmh_u1_s3_p1_perception_affected.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now that you have watched the video how to you think that changes to social and cultural attitudes can affect a childs or young persons perception of thier own mental health? Make some notes in the text box to the right.

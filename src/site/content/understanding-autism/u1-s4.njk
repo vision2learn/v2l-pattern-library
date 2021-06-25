@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 4,
+  pagination: {
+    data: "courses['understanding-autism']['01-introduction-to-autism']['04-understand-the-characteristics']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

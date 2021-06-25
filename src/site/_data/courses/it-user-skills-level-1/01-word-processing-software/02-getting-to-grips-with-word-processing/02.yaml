@@ -1,0 +1,152 @@
+title: Tables
+intro: |
+  As well as entering text, numbers and symbols in your Word document, you may also like to include a table to present your information.
+
+  Certain types of information – such as numeric information, lists, etc – are best presented in a table. Using tables will help you to organise this information and make it easier to read your document.
+banner: it1_u1_s2_p2_word3.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      In your assessment you will be required to create and modify tables to organise tabular or numeric information.
+  -
+  -
+    title: Creating a table
+    theme: t-bg-primary
+    copy: |
+      Tables are made up of rows, columns and cells. Columns run from top to bottom and rows run across, from left to right. Where the lines of a column and row meet, a cell is created – data can then be inputted into these cells.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Step 1
+          text: |
+           To create a table in your new Word document:     
+           
+           a. Click your cursor to the point that you would like to insert the table.
+           
+           b. Click on the *Insert* tab and click the *Table* icon in the *Tables* group.
+
+          img: it1_u1_s2_p2_slide1.svg
+        -
+          title: Step 2
+          text: |
+           a. Click on *Insert table* from the drop down that appears. The *Insert Table* dialog box will appear.
+
+           b. Select the number of rows and columns that you would like for your table. Click OK and your table will appear in your document.
+           
+           c. To add data to your table, simply click in a cell and begin typing.
+
+          img: it1_u1_s2_p2_slide2.svg
+    copy2: You can also create a table quickly by using the grid that appears when you click on the Table icon in the Tables group. Simply click and drag your mouse over the grid until you have the correct number of rows and columns.
+  -
+    title: Formatting
+    theme: 
+    copy: |
+      As with other parts of your document, you can apply formatting techniques to alter the appearance of your table, these include:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Using gridlines
+          copy: |
+           In your table, you have the option to either show or hide the gridlines.
+           Go to the *View* tab on the menu, then go to the *Show/Hide* box to tick/untick the relevant options.
+
+          img: it1_u1_s2_p2_reveal1.svg
+        -
+          title: Applying borders and shading
+          copy: |
+            Simply highlight the table (or part of the table) that you want to format, then click on the *Design* tab of the menu and choose the appropriate design option.
+          img: it1_u1_s2_p2_reveal2.svg
+        -
+          title: Inserting / deleting rows
+          copy: |
+           Move your mouse pointer to the left of an existing row and then click to select the entire row.
+           
+           Once selected, right click with your mouse over the row. On the menu that appears, you’ll see two options – *Insert Rows* and *Delete Rows*. Select one of these options depending on the change you want to make to your table.
+
+          img: it1_u1_s2_p2_reveal3.svg
+        -
+          title: Inserting / deleting columns
+          copy: |
+            Move your mouse pointer to the top of an existing column (the mouse pointer will change to a black, downward pointing arrow) and then click to select the entire column, right click with your mouse over the column. On the menu that appears, you’ll see two options – *Insert Columns* and *Delete Columns*. Select one of these options depending on the change you want to make to your table. 
+          img: it1_u1_s2_p2_reveal4.svg
+        -
+          title: Adjusting column width
+          copy: |
+            To change a column width in your table, first click a cell in the column you want to adjust. Now select *Table* – *Table Properties* from the top menu bar, then click the *Column* tab and select the size you want.
+
+            Select the column you want to adjust then click on the *Page Layout* tab of the menu. Select *Columns* in *Page Setup*.
+          img: it1_u1_s2_p2_reveal5.svg
+        -
+          title: Selecting rows and columns
+          copy: |
+            The key thing to remember when *selecting* a row or column is if you're:
+            Deleting a row or column, the selected row or column will be the one that you delete. 
+            Adding - the new row will be added *below* the selected one; the new column will be added *to the right* of the selected one.
+            
+          img: it1_u1_s2_p2_reveal6.svg
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Create and format a table
+
+      Please see the following video for a demonstration:
+      
+      *Note: This is a placeholder video*
+    video: placeholder_pc.mp4
+
+  -
+  -
+    title: Read - Creating and formatting a table
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document which shows an example of text that has been put into a table and then formatted.
+
+      [Creating and formatting a Table](/pdfs/it1_u1_s2_p2_tables.pdf).
+
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now that you have learnt how to create and format a table, it is time for you to practice creating your own table in Word.  You can do this in your practice document that you used from the previous page.
+      
+  -
+    title: Readability
+    theme: t-bg-supporting3
+    copy: |
+      It is important to take care when formatting your table, as you can easily make the contents of it difficult to read.
+
+      For example, be careful not to shade your table in a colour that gives too little contrast with your text, or hide the gridlines in a way that makes it difficult for your reader to follow the flow of data in the table.
+
+      You should take the time to check the tables in your document to make sure they are formatted correctly. For example, you should:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Text and data
+          copy: |
+           Check the text and data you have entered into the table.
+
+          img: it1_u1_s2_p2_reveal7.svg
+        -
+          title: Columns and rows
+          copy: |
+            Check the width of the table columns, and the height of the table rows.
+          img: it1_u1_s2_p2_reveal8.svg
+        -
+          title: Style
+          copy: |
+            Check the style of your table to make sure it is easy to read on the page.
+          img: it1_u1_s2_p2_reveal9.svg
+  -

@@ -1,0 +1,165 @@
+title: Nutritional needs of children
+intro: |
+    Intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      text
+  -
+  -
+    title: The nutritional needs of children
+    theme: t-bg-primary
+    copy: |
+      Text
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Calcium
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Iron
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Vitamin A
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Vitamin C
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Vitamin D
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Protein
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Carbohydrates
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Fats
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Nutrient deficiencies
+    theme: 
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Iron
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Vitamin D
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Calcium
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      As part of your Unit 2 Assessment you must be able to identify good food sources for the key nutrients that children and young people need. Looking over the information on this page will help you when you it comes to tackling your Assessment! 
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Balanced meals – a plan for children
+
+      Text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Example meal plan
+          copy: |
+            
+
+            table here
+          img: /images/svg/placeholder_icon.svg
+  -
+    title: Eating patterns
+    theme: 
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your Unit 2 Assessment you must be able to describe factors that can influence the eating patterns of children and teenagers. Familiarising yourself with the information on this page will help you when it comes to doing your Assessment. 
+  -
+  -
+    title: Case study or video?
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Isla and Annie
+
+      Text
+
+      _Could make this an activity with a drag and drop?_
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Example meal plan
+          copy: |
+            
+
+            table here
+          img: /images/svg/placeholder_icon.svg
+  

@@ -1,0 +1,145 @@
+title: Nutritional needs of children and young people
+intro: |
+    Intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      You will need to be able to outline the nutritional recommendations and energy requirements for children and young people.
+  -
+  -
+    title: Nutritional requirements vary
+    theme: t-bg-primary
+    copy: |
+      Nutritional needs and dietary requirements vary with age. There are three key groups of people who you will learn about in this Session. 
+
+      _Original content is difficult to read - this needs to be split into either three sliders - one for each group or an activity_ 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Carbohydrates
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Vegetables
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Fruit
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Diary
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Protein
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Activity - Nutritional requirements vary
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      PLACEHOLDER 
+
+      Select the following icon to . . .
+
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you see how energy requirements and nutritional needs change as children grow from youngsters to teenagers?
+         
+        Can you think of any reasons why this may be? Write some quick notes in the box to your right before continuing.
+  -
+  -
+    title: Servings and Portions
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      A serving and a portion are different things.
+
+      Servings are recommended amounts of food; portions are the amount of food you choose to eat. 
+      
+      Portion sizes are completely in your control – you can choose whether to have a big or small portion. Servings are a measure, representing the recommended amount of food that we should eat. Portions can be smaller or bigger than the recommended serving. For example, the label on a box of cake may advise that the cake serves 6 people, but the portion you choose to eat may be more or less than the recommended serving.
+    img: /images/svg/nh/placeholder_icon.svg
+  -
+  -
+  -
+    title: Interactivity - Energy requirements
+    theme: 
+    
+    copy: |
+      Before you can begin planning meals and snacks you must know about energy requirements and nutritional recommendations.
+
+      Energy requirements naturally change with age. How many calories someone needs steadily increases in childhood before tailing off by the time people reach 18 years old.
+
+      Click on the below graph to see more for each group:
+
+      _Below will be an interactive graph embedded within the page_
+
+    interactive: 
+      file: ba/ba_u2_s3_p2_tidy_equipment
+      width: 800
+      height: 800       
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      As part of your Unit 2 Assessment you must be able to identify the energy requirements of various different age groups. Using the table on this page will help you find the average energy requirements for young children, children and teenagers.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Planning balanced meals and snacks 
+
+      It can be easy to lose track or forget about the calorie and nutritional content of food – particularly for children and young people who may not find calorie counting very interesting!
+
+      Planning meals and snacks is the best way to ensure a child or young person is getting all the nutrients they need in their diet.
+
+      Click on the example meal plan to find out what you need to know to put together a really good meal plan. The numbers in brackets represent the number of servings. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Example meal plan
+          copy: |
+            Name: Joseph    Age: 6
+
+            table here
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Before putting together a meal plan you must plan exactly what is needed for a healthy, balanced diet and work out which food and drink provides these nutrients.
+
+      Meal plans are useful for parents of young children to make sure they’re getting all the correct nutrients.
+
+      Meal plans are also useful for schools, particularly when children attend a breakfast or after school club as the school has a duty to provide balanced, healthy meals. 
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your Unit 2 Assessment you must be able to plan balanced meals and snacks for a chosen age group. By the end of this Session you’ll have learned all the information you need to put together your own meal plan for a few different age groups!

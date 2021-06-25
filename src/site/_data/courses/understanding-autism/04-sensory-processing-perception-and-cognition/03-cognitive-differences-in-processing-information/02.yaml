@@ -1,0 +1,91 @@
+title: Strategies that could be used
+intro: |
+  On this page we are going to look at some of the strategies that can be used to support an individual with autism in completing activities and tasks.
+banner: ua_u4_s3_p2_strategies.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe strategies that could be used to support an individual with autism to complete activities/tasks.
+  -
+  -
+    title: Strategies to help
+    theme: t-bg-primary
+    copy: |
+      There are many different strategies people with autism can use to overcome their issues with processing information. Here are some ways in which people with autism spectrum disorder can organise and prioritise their daily activities and tasks. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Visual supports
+          copy: |
+            Visual supports such as pictures, and real objects can help autistic people have a daily plan showing what they are to do at what times of the day. 
+          img: ua_u4_s3_p2_reveal1.svg
+        -
+          title: Colour coding
+          copy: |
+            Colour coding can be used to show the importance or sequencing of tasks. Red could mean urgent, and green could mean pending and blue could mean no timescale attached to it. 
+          img: ua_u4_s3_p2_reveal2.svg
+        -
+          title: Voice recording
+          copy: |
+            Recorded messages, on a smartphone or tablet, can be a useful auditory reminder of tasks, work, events or deadlines.
+          img: ua_u4_s3_p2_reveal3.svg
+        -
+          title: Lists
+          copy: |
+            Lists can help with prioritising tasks and showing they are completed these can be visual, written, or in the form of a task list app.
+          img: ua_u4_s3_p2_reveal4.svg
+        -
+          title: Alarms and alerts
+          copy: |
+            Computer calendars can be used to store events and important dates or reminders such as when to pay bills. Instructions can be sent by text to the person’s mobile phone.
+          img: ua_u4_s3_p2_reveal5.svg
+        -
+          title: Times of day, days of the week
+          copy: |
+            Having set days or times for doing things such as Saturday is shopping day and Wednesday is washday, midday is lunchtime.
+          img: ua_u4_s3_p2_reveal6.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s have look at this in a bit more detail in this video.
+    video: ua_u4_s3_p1_strategies.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      1. Has anyone you have worked with or supported, had any problems processing information such as time perception, routines and prioritising things?
+      2. What strategies did you use to help them with these difficulties?
+
+    video: ua_u4_s3_p2_interview_processing_group.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the National Autistic Society website where you can learn more about managing money.
+
+      links:
+        Managing money: https://www.autism.org.uk/advice-and-guidance/topics/benefits-and-money/personal-finances/managing-money

@@ -1,0 +1,119 @@
+title: Styles and templates
+intro: |
+  Styles and templates can be used to make your documents look more professional. They are very useful when you find yourself making a number of similar documents, or using the same formatting options over and over again.
+banner: it2_u1_s3_p3_templates.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      You will need to understand about house styles and how to create your own template as part of your assessment.
+
+      You will also need to understand how they can be used along with guidelines and feedback to improve productivity and efficiency.
+  -
+  -
+    title: Styles and guidelines
+    theme: t-bg-primary
+    copy: |
+      Microsoft Word comes equipped with a number of Styles. These styles are pre-determined sets of formatting that can help you format your document quickly and consistently. Each specific style is a different set of paragraph and character formatting settings.
+
+      Styles can be accessed from the Quick Styles Gallery. This is located in the Styles group under the *Home* tab.  Styles allow you to choose a paragraph alignment, font names, sizes, colours and shading in one simple click.
+
+      When you are receiving advice on your own work or giving advice to others about their own work, you may have to consider certain guidelines. These guidelines can take a number of different forms and will help you to improve productivity and efficiency.
+      
+      Scroll through the slides below to learn more:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Using styles
+          text: |
+            Styles are mainly used to format headings and body text, but they can also be used in lists and tables. To apply a style to a paragraph or line of text:
+
+            1. Highlight the text that you want to apply the Style to.
+
+            2. In the *Styles* group, under the *Home* tab, click on the Style that you want to apply.
+
+            You can apply different styles to different parts of text; simply use the steps above for different sections within your document. For example, you may want to apply one Style to the heading of your document, and one to the body text.
+
+          img: it2_u1_s3_p3_slide1.svg
+        -
+          title: House styles
+          text: |
+            These guidelines are often provided by an organisation.  A ‘house style’ is a particular style and layout that an organisation wants to apply to all of its written documents. This makes sure that all documents are formatted in a consistent way. This is very useful for large organisations, where hundreds of employees may be creating documents in a variety of different fonts, styles and layouts.
+
+            Typically, a house style will specify criteria for the formatting that is to be applied to a document. You can use this to help you to check the consistency of your work, and during proofreading. You will learn more about proofreading in session 6.
+
+          img: it2_u1_s3_p3_slide2.svg
+        -
+          title: Feedback
+          text: |
+            Sometimes, you might receive guidelines on the use of IT in the form of feedback. For example, a manager may have left you some comments after the completion of the task in relation to the format or content of the outcome. 
+
+          img: it2_u1_s3_p3_ipu_slide_3.svg
+        -
+          title: Legal
+          text: |
+            These guidelines include things like following copyright laws, awareness of the Data Protection Act 2018, providing equal opportunities and acknowledging sources.
+
+          img: it2_u1_s3_p3_ipu_slide_4.svg
+  -
+    title: Read - House styles
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following example of a document of house style guidelines. You can see how these could be an excellent reference point to guide the style and structure of your work.  Why do you think these would be useful when creating new documents?
+
+      [House styles](/pdfs/it2_u1_s3_p3_read_house_styles.pdf).
+  -
+  -
+    title: Watch a demonstration
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Styles, Templates and guidelines
+
+      Templates are documents that are already formatted so that the ‘look’ of the document is already in place. This includes elements such as margins, line spacing, text styles and colour schemes.
+      
+      Templates can be used for a large number of things, such as a letter, memo, fax, agenda, calendar, CV, mailing label, report or even a web page! 
+      
+      Please see the following video for a demonstration:
+
+    video: it2_u1_s3_p3_templates_video_pc.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Using the House style guide above, apply the different style guides to the text in your practice document and then save it as a template file.
+  -
+  -
+    title: Choosing the right information
+    theme: t-bg-primary
+    copy: |
+      The types of information that your documents need to include will depend on the audience and purpose of the document.
+
+      See below to learn learn about the information that could be included in two different kinds of document.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Formal
+          copy: |
+            ### A financial report
+            
+            An accountant has been asked to produce a summary of a sales report for a company that sells hot air balloon rides. The document must include a small paragraph summarising the findings of the report, a table containing numbers and a chart to make the information in the table easier to understand.
+
+            Take a look at the following formal document - [Financial report example](/pdfs/it2_u1_s1_p5_read_formal.pdf). Do you think it is fit for purpose and its audience?
+        - 
+          title: Informal
+          copy: |
+            ### A local event
+
+            The local primary school has decided to host a Summer Fete to raise funds for the school's accessibility department.  They wish to create a flyer to advertise the fete to the residents of the village.  The document must include the date, time, location, activities and images.
+            
+            Take a look at the following formal document - [Event flyer example](/pdfs/it2_u1_s1_p5_read_informal.pdf). Do you think it is fit for purpose and its audience?
+
+    copy2: As you can see, the information used in Word documents is not always the same. Different types of document require different types of information. You will learn more about these different kinds of information later in this unit.    
+  -

@@ -1,0 +1,83 @@
+title: Formatting your spreadsheet
+intro: |
+    There are many ways you can present your data in Excel, this include numerical and text data. You can format the numerical data in your spreadsheet in a range of ways, depending on its purpose.
+
+banner: it1_u4_s3_p1_formatting.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about the following in Spreadsheet software:
+      
+      * Formatting numerical data
+      * Formatting text
+      * Aligning text and numerical data
+      * Using borders and shading
+      * Changing height and width
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to select and use appropriate tools and techniques to format spreadsheet cells, rows and columns.
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Can you think of any ways in which you can format the numerical data in your spreadsheet? Type your answer in the box to the right before reading on.
+  -
+  -
+    title: Formatting numerical data
+    theme: t-bg-supporting2
+    copy: |
+      When working with spreadsheet data, some of the most commonly used formatting options are:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Decimal places
+          copy: |
+            To format the decimal places displayed in your spreadsheet, you can either use the *increase/decrease decimal* buttons(s) on the *Home* tab, or open the *Format Cells* dialogue window and select *Number*.
+          img: it1_u4_s3_p1_reveal1.png
+        -
+          title: Currency
+          copy: |
+            You can format data in your spreadsheet so that is displays as currency. You can either use the *Accounting Number Format* button or from the *Format Cells* dialogue window and selecting *Currency*.
+          img: it1_u4_s3_p1_reveal2.png
+        -
+          title: Percentages
+          copy: |
+            You can format numbers in your spreadsheet so that they display as percentage values. Applying the percentage format to your data will multiply the cell value by 100 and display the result with a percentage symbol (%). Simple select the *percentage* button from the *Home* tab.
+          img: it1_u4_s3_p1_reveal3.png
+  -
+  -
+    title: Format empty cells
+    theme: t-bg-primary
+    copy: |
+      As well as formatting existing data in your spreadsheet, you can also format cells before you’ve entered any data.
+
+      Simply apply the same instructions as before to the empty cells. Once you’ve formatted the cells, anything you type into them will automatically be formatted as you enter the data. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Numerical formatting
+      
+      When it comes to formatting the numbers in your spreadsheet, there are a range of different options available.
+      
+      Please see the following video for a demonstration on numerical formatting.
+    video: it2_u3_s4_p1_numerical_formatting.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at numerical formatting in your practice document that you worked on in the previous session.
+  -
+  -

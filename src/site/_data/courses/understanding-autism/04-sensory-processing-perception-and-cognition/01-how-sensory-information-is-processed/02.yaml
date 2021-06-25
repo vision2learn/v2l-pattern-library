@@ -1,0 +1,123 @@
+title: How sensory information is processed
+intro: |
+  In this session you will learn how individuals process sensory information, how this affects their senses and how they may experience difficulties.
+banner: ua_u4_s1_p2_sensory.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline how differences in processing sensory information may affect each of the senses.
+  -
+    title: How processing sensory information may affect the senses.
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn how processing sensory information may affect the senses.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Vision
+          copy: |
+            Some may find things too dark or may lose some of their features, others find objects too bright and can appear to jump around.
+          img: ua_u4_s1_p2_reveal1.svg
+        -
+          title: Hearing
+          copy: |
+            Some may not acknowledge particular sounds; others may be able to hear conversations in the distance.
+
+          img: ua_u4_s1_p2_reveal2.svg
+        -
+          title: Touch
+          copy: |
+            Some hold onto people or things very tightly, others don’t like to be touched at all.
+          img: ua_u4_s1_p2_reveal3.svg
+        -
+          title: Taste
+          copy: |
+            Some individuals like really spicy food, others find foods too strong or overpowering.
+          img: ua_u4_s1_p2_reveal4.svg
+        -
+          title: Smell
+          copy: |
+            Some individuals have no sense of smell and fail to notice extreme odours, whereas others dislike strong smells such as cleaning products and perfumes. 
+          img: ua_u4_s1_p2_reveal5.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to define what is meant by hypersensitivity and hyposensitivity.
+  -
+    title: What is meant by Hypersensitivity and Hyposensitivity?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Hypersensitivity is when individuals are extremely reactive to sensory stimulation to the extent that they may find stimuli overwhelming. Lights can be too bright or sounds that would not bother others, can cause them to cover their ears. Hyposensitivity is the opposite and involves individuals being under-sensitive to stimulation with decreased sensitivity to sensory input. Individuals have a harder time stimulating their senses than normally.
+
+    img: /images/svg/ua/ua_u4_s1_p2_image.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of behaviours that may suggest an individual is hyposensitive or hypersensitive.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at this in more detail in this video.
+    video: ua_u4_s1_p2_hypersensitive_hyposensitivity.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      1. Have you ever encountered any Autistic Individuals with hyposensitive or hypersensitive sensory difficulties?
+      2. How has this affected them and your interactions with them?
+
+    video: ua_u4_s1_p2_interview_hypo_hyper.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Quick quiz
+    copy: Identify the following sense for each statement.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Individuals who have problems with their vision may if they are under sensitive, have poor depth perception causing clumsiness. If they are oversensitive, they may need to focus on a detail rather than the whole thing and they may have trouble being in rooms with bright lights. 
+          answer: vision
+        -
+          sentence: Individuals who have problems with sounds may if under sensitive enjoy crowded noisy rooms or bang doors and objects for stimulation. An oversensitivity can mean that sounds seem magnified, distorted or confused and the individuals can have difficulties concentrating because they are distracted.
+          answer: sounds
+        -
+          sentence: Individuals who have problems with smells may if under sensitive have difficulties identifying whether items are safe to drink or eat. Those who are oversensitive dislike strong smells like cleaning products, cat and dogs, and even perfumes.  
+          answer: smells
+        -
+          sentence: Individuals who have problems with taste may if under sensitive should avoid really spicy food. Those that are oversensitive may find most things too strong and overpowering.
+          answer: taste
+        -
+          sentence: Individuals who have problems with touch may if under sensitive maybe having a high pain threshold and unable to feel things, such as food in the mouth. Individuals with over sensitivity may find textures of certain foods or clothing intolerable. 
+          answer: touch
+    theme: i-quiz

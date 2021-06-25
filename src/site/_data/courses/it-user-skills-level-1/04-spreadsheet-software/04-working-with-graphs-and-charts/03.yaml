@@ -1,0 +1,50 @@
+title: Amending graphs and charts
+intro: |
+  As well as changing titles and labels displayed on your chart, there are also a number of options available for you to change the appearance and content of the chart itself.
+banner: it1_u4_s4_p3_charts3.jpg
+sections:
+  -
+    title: Change the appearance and content of a chart
+    theme: t-bg-primary
+    copy: |
+      Once you have created a chart, you can make changes which most are displayed on the *Chart Design* tab.  Scroll through the slides below to see some examples of how you can change the appearance and content of a chart.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Display data labels
+          text: |
+            You can choose to display data labels and axis labels on your chart when creating your chart, or you can choose to add them later on.
+          img: it1_u4_s4_p3_slide1.svg
+        -
+          title: Apply / remove legend
+          text: |
+            You can easily hide or show the legend on your chart. The legend is very important on a chart as it helps to identify what each area of the chart relates to.
+            
+            It is vital that the legend clearly and accurately identifies the data on the chart as this is used to read, understand and analyse the data being displayed.
+          img: it1_u4_s4_p3_slide2.svg
+        -
+          title: Change the chart type
+          text: |
+            You can quickly and easily change the type of chart used to display your data. For example, you might create a column chart and then decide that the data would be better displayed in a pie chart.  
+          img: it1_u4_s4_p3_slide3.png
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Amending your chart
+      
+      Please see the following video for a demonstration on how to amend your chart.
+    video: it2_u3_s5_p3_altering_chart.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Now you have watched the video, have a go at amending your chart in the same practice document from the previous page.
+  -
+  -

@@ -1,0 +1,154 @@
+title: Energy in food
+intro: |
+  On this page you will learn about: 
+  * Energy in food
+  * Converting grams to calories
+  * Basal Metabolic Rate (BMR)
+  * Physical activity levels (PAL)
+   
+banner: placeholder.jpg
+sections:
+  -
+    title: Energy in food
+    theme: t-bg-primary
+    copy: |
+       Your body uses food as a source of energy. This energy is measured in calories.
+       
+       Scientifically a calorie is a measurement of energy in the form of heat – 1 calorie produces 1c of heat. In nutritional terms a calorie measures the energy that is gained from food such as proteins, fats, carbohydrates and sugars.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Calories and energy
+          text: |
+            A calorie is one unit of energy. This energy is used to walk, talk, breathe, sleep or run. All activities burn calories! The human body receives energy in the form of calories from food. 
+          img: placeholder_icon.svg
+        -
+          title: Calories and food
+          text: |
+            Food contains calories. These can come from carbohydrates, fats, sugars and proteins. These terms are measured in grams. Each gram is defined as a number of calories.
+          img: placeholder_icon.svg
+        -
+          title: Calories and health
+          text: |
+            Your body needs a certain amount of calories in order to maintain itself properly. Everything you do (including breathing and sleeping!) burns calories. The rate that these calories are burned is called the Basal Metabolic Rate (BMR). 
+          img: placeholder_icon.svg
+        -
+          title: Calories and weight
+          text: |
+             If people consume 3,500 calories more than they use they will gain 1lb in body fat.
+             
+             If they use 3,500 calories more than they consume they will lose 1lb in body fat. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Interactivity - Grams to calories
+    theme: 
+    copy: |
+      _ID Note - this item needs to be an interactivity or activity_
+
+      _Existing content - Roll your mouse over the image below to discover how many calories are in a gram of carbohydrate, protein and fat._
+
+      _See: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg9.asp for reference_
+
+    interactive: 
+      file: 
+      width: 800
+      height: 800       
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+       Make sure you know about how many calories come from different sources of energy!
+       
+       Understanding the sources of energy that food provides is a key part of your Assessment. 
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      The calorie is a useful measure that helps us to know how much energy certain foods have, and how many calories are needed so that people can live and function. 
+  -
+  -
+    title: Basal Metabolic Rate (BMR) and Physical activity levels (PAL)
+    theme: t-bg-supporting2
+    copy: |
+      The Basal Metabolic Rate (BMR) is the rate at which a person uses energy to maintain the basic functions of the body. This includes breathing, keeping warm and keeping the heart beating! Not everybody will have the same BMR. It’s important to remember that Basal Metabolic Rate is affected by a person’s physical activity levels and age. 
+
+      Everything you do burns calories. While most calories are used for basic living, the rest of the calories are burned through exercise and activity.  Calories are burned even when an activity has stopped. By combining basal requirements with needs based on physical activity levels (PAL), you can calculate your total energy requirement.
+
+      Please see below for the formulaes:
+    subInc: 
+      type: accordion
+      content:
+        -
+          title: PAL formula
+          copy: |
+            A person’s PAL factor is important to work out their daily calorie requirement. The higher the PAL factor the more calories a person will need to maintain their weight and ensure that they have enough energy to carry out their activities. 
+            
+            To find out how many calories a person needs to maintain their current energy levels they should calculate their BMR x Pal to gain their daily total energy requirement.
+            
+            Total Energy Required = BMR x PAL
+        -
+          title: PAL factor
+          copy: |
+            A person's PAL is determined by the things a person does in a 24 hour period. It can also be estimated from the physical activities that person performs each day. Each activity is connected to a particular level of activity.
+      
+            | Level | Description| PAL factor |
+            |------|------|------|
+            | 1 - Sedentary | This level of activity is described as little or no exercise. | 1.2 | 
+            | 2 - Light exercise | This level of activity includes frequent walking in a job / daily activity or 60mins of intense activity in one week. | 1.375 |
+            | 3 - Moderate exercise | This level of activity could be a job that is quite physical throughout the day e.g. shop work or intense physical activity 30 – 60 minutes three or four times a week. | 1.55 |
+            | 4 - Very active | This level of activity could include a highly physical job such as brick laying or farming or intense exercise for 60 minutes five to seven days per week. | 1.725 |
+            | 5 - Extreme| This level of activity could include full time training for a sporting event; this level of activity is usually only reached by elite athletes.| 1.9
+        - 
+          title: BMR formula
+          copy: |
+            To work out your BMR, you will need to know your weight, height and age. There are many calculators online that will calculate this for you, or you can use the formula below:
+
+            Male = 66 + (6.23 x weight in pounds) + (12.7 x height in inches) – (6.8 x age in years)
+
+            Female = 655 + (4.35 x weight in pounds) + (4.7 x height in inches ) – (4.7 x age in years) 
+  -
+  -
+    title: Interactivity - BMR and PAL Calculator
+    theme: 
+    
+    copy: |
+      _An interactive calculator to calculate the BMR - to replace most of the BMR items on old Page 10_
+
+      _Also instructions on how to use the PAL information to calculate your own energy requirements_
+
+    interactive: 
+      file: 
+      width: 
+      height:        
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Use the journal entry box to record your answers from the above activity. 
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you feel confident about calculating your own BMR and PAL. It’s important that you can use these calculations to estimate your own energy requirements. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _ID note - may not need if we can replace this with an interactive item (time and resource allows)_
+
+        Use this online calculator to help you work out your BMR: 
+
+      links:
+        BMR Calculator: https://www.calculator.net/bmr-calculator.html

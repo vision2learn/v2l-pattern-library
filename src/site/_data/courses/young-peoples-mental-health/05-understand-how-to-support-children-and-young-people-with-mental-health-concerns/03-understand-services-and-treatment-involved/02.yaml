@@ -1,0 +1,121 @@
+title: Therapies that could be used as treatment
+intro: |
+  There are a range of different therapies that can be beneficial to children and young people who have mental health problems. 
+banner: ypmh_u5_s3_p2_therapies.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify therapies that could be used to treat a child or young person experiencing mental health problems.
+  -
+    title: Well known therapies
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some of the more well known therapies.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Psychotherapy
+          copy: |
+            Psychotherapy recognises the lasting impact of trauma, when stressful events that have been experienced or witnessed can make an individual feel unsafe, helpless or vulnerable.
+          img: ypmh_u5_s3_p2_reveal1.svg
+        -
+          title: Talking therapies
+          copy: |
+            Talking therapies are psychological treatments for mental and emotional problems like stress, anxiety and depression.
+          img: ypmh_u5_s3_p2_reveal2.svg
+        -
+          title: CBT
+          copy: |
+            ‘Cognitive behavioural therapy’ is a talking therapy that helps to explore and change how an individual thinks about their life, freeing them from unhelpful patterns of behaviour.
+          img: ypmh_u5_s3_p2_reveal3.svg
+        -
+          title: Counselling
+          copy: |
+            ‘Counselling’ is a talking therapy where an individual can talk in confidence to a counsellor. to find ways to deal with difficulties in life.
+          img: ypmh_u5_s3_p2_reveal4.svg
+
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at some of the therapies that can be used for treating mental health problems in children and young people. Please watch this video to find out more detail.
+    video: ypmh_u5_s3_p2_cbt.mp4
+  -
+  -
+    title: Available therapies via the NHS
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the range of the therapies that are available via the NHS.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Cognitive Behavioural Therapy
+          text: |
+            CBT has been shown to work for a variety of mental health problems, including depression, anxiety, panic attacks, phobias and ‘obsessive compulsive disorder’ (OCD), ‘post-traumatic stress disorder’ (PTSD), eating disorders especially Bulimia. Goals are set with the therapist and the individual may carry out tasks between sessions.
+          img: ypmh_u5_s3_p2_slide1.svg
+        -
+          title: Counselling
+          text: |
+            ‘Counselling’ is a talking therapy where an individual can talk in confidence to a counsellor. to find ways to deal with difficulties in life, such as a long-term condition, chronic pain, or an addiction. Counselling for depression has been specially developed to help people understand the underlying causes of their depression.
+          img: ypmh_u5_s3_p2_slide2.svg
+        -
+          title: Behavioural activation
+          text: |
+            ‘Behavioural activation’ is a talking therapy that aims to help people with depression take simple, practical steps towards enjoying life again. The aim is to give motivation to make small, positive changes. An individual will also learn problem-solving skills to help tackle problems that are affecting mood.
+          img: ypmh_u5_s3_p2_slide3.svg
+        -
+          title: Interpersonal therapy
+          text: |
+            ‘Interpersonal therapy’ (IPT) is a talking treatment that helps people with depression identify and address problems in their relationships with family, partners and friends. The idea is that poor relationships with people can make an individual depressed and this can in turn make relationships worse.
+
+          img: ypmh_u5_s3_p2_slide4.svg
+        -
+          title: Mindfulness-based cognitive therapy
+          text: |
+            ‘Mindfulness-based cognitive therapy’ or MBCT helps individuals focus on thoughts and feelings as they happen moment by moment. It can be used to help treat depression and addiction. Mindfulness-based cognitive therapy (MBCT) combines mindfulness techniques like meditation and breathing exercises with cognitive therapy.
+          img: ypmh_u5_s3_p2_slide5.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Watch this video for more information.
+    video: ypmh_u5_s3_p2_therapies_1.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you identify the different therapies that could be used to treat a child or young person who is experiencing mental health problems? Make a note of these in the box to the right. 
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Cognitive Behavioural therapy is where goals are set by the therapist for the individual to carry out tasks between sessions.
+          answer: Cognitive Behavioural
+        -
+          sentence: Mindfulness based cognitive therapy helps individuals focus on thoughts and feelings as they happen moment by moment.
+          answer: Mindfulness
+        -
+          sentence: Interpersonal therapy is a talking treatment that helps people with depression identify and address problems in their relationships with family, partners and friends. 
+
+          answer: Interpersonal
+        -
+          sentence: Counselling is a talking therapy where an individual can talk in confidence to a counsellor. 
+          answer: Counselling
+    theme: i-quiz

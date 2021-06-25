@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 1,
+  pagination: {
+    data: "courses['employability-and-personal-development']['01-preparing-for-an-interview-and-applying-for-a-job']['01-preparing-for-an-interview']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

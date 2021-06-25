@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 4,
+  pagination: {
+    data: "courses['nutrition-and-health']['01-the-principles-of-healthy-eating']['04-healthy-food-preparation']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

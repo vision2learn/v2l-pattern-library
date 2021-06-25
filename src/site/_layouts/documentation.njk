@@ -1,0 +1,73 @@
+---
+layout: longform
+theme:
+  name: prism-xonokai
+permalink: /documentation/{{ eleventyNavigation.parent }}/{{ title | slug }}/
+---
+
+<h1>{{ title | upper }}</h1>
+
+
+{% if eleventyNavigation.parent == "components" %}
+<h2>Description</h2>
+{% endif %}
+
+{{ content | safe }}
+
+{% if title | lower == 'colours' %}
+  <h2>Colour Palette</h2>
+  {% for colourgroup, palette in colours %}
+    <h3>{{ colourgroup | title }}</h3>
+    <div class="d-colours">
+      {% for colour, code in palette %}
+        <div class="d-colour-chip t-bg-{{ colour }}">
+          <div></div>
+        </div>
+        <dl>
+          <dt>HSL:</dt>
+          <dd><code>{{ code }}</code></dd>
+          <dt>HEX:</dt>
+          <dd><code>{{ code | hexify }}</code></dd>
+          <dt>Theme:</dt>
+          <dd><code>t-bg-{{ colour }}</code></dd>
+        </dl>
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% endif %}
+
+{% if examples[page.fileSlug] %}
+{% set url = "/documentation/components/rendered/" + page.fileSlug %}
+<h2>Rendered Example</h2>
+<p><a href="{{ url }}">View stand-alone "{{ title }}" component.</a>
+<div style="border: dashed 2px rgba(0,0,0,0.3); padding: 1em; overflow: scroll">
+  <iframe src="{{ url }}" style="width: 100%; height: 350px; border: 0"></iframe>
+</div>
+{% endif %}
+
+{% if tabledata %}
+<h2 id="keys">Available Keys/Values {% if review %}<i class="review">(Syntax under review)</i>{% endif %}</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Type</th>
+      <th>Required</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for data in tabledata %}
+    <tr>
+      <td><code>{{ data.key }}</code></td>
+      <td>{{ data.datatype}}</td>
+      <td>{{ "Yes" if data.required else "No"}}</td>
+      <td>{{ data.default if data.default else "N/A"}}</td>
+      <td>{{ data.desc | markdownify | safe }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}

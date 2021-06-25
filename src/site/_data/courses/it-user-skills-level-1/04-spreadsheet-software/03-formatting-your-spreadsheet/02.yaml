@@ -1,0 +1,67 @@
+title: Formatting text and Alignment
+intro: |
+  As well as formatting your numerical data you can use a range of formatting techniques to change the way text (known as labels) appear in your spreadsheet.
+banner: it1_u4_s3_p2_formatting2.jpg
+sections:
+  -
+    title: Formatting text
+    theme: t-bg-primary
+    copy: |
+        Before you apply any formatting, you need to make sure that you select the cells, row or column that you want to format. You can select a row by clicking on the row number. To select a column, click on the column letter.
+
+        All of the content you type in your spreadsheet (both text and numbers) will display on the page in a certain font type. This refers to the style of the text you are using, and Microsoft Excel has a wide range of different font types for you to choose from.
+
+        You can use the bold, italic and underline options to emphasise bits of your spreadsheet content, to make it stand out more.
+        Please select the following images to read more.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Font type and size
+          copy: |
+            To change the font type click the small arrow to the right of the font type menu to pull down the list of available typefaces. The text you have selected will now appear in this new font type.
+
+            To change the size of the selected text click the small arrow to the right of the font size menu to pull down the list of font sizes for you to select from.
+          img: it1_u4_s3_p2_reveal1.svg
+        -
+          title: Emphasising text
+          copy: |
+            To emphasise sections of text in your presentation, you can choose to apply bold, italic or underline formatting.
+
+            Select the text you want to emphasise and then click the relevant button in the *Font* group.
+          img: it1_u3_s2_p2_reveal2.svg
+  -
+    title: The Font group
+    theme: 
+    copy: |
+      The Font group sits in the *Home* tab in the Excel Ribbon. This is where you can do things like change the font size and make text bold. The Font group in Excel is slightly different to the one in Microsoft Word and PowerPoint. 
+      
+      Click on the different buttons in the *Font* group below to learn about their functions.
+    interactive: 
+      file: it2/u3_s4_p2_font_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Alignment
+    theme: t-bg-primary
+    copy: |
+        You can change the appearance of your spreadsheet by quickly and easily formatting the alignment that is applied to cells. You can align data in your spreadsheet both vertically and horizontally. So, you might decide to centre align the column headings in your spreadsheet both vertically and horizontally, and then horizontally left align all of the text and data in each column. 
+        Please see the below Alignment group to learn more.
+  -
+  -
+    title: The Alignment group
+    theme: t-bg-supporting2
+    copy: |
+      The Alignment group also sits on the *Home* tab in the Excel Ribbon. This is where you can do things like change text alignment and wrap text. 
+      
+      Click on the different buttons in the Alignment group below to learn more about their functions and how to apply these items.
+
+    interactive: 
+      file: it2/u3_s4_p2_alignment_group_pc
+      width: 1200
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -

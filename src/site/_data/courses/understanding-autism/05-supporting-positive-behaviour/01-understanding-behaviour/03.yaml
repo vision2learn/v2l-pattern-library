@@ -1,0 +1,89 @@
+title: Change and strategies
+intro: |
+  Let’s learn more about change and what strategies can be used to cope with the effects of change.
+banner: ua_u5_s1_p3_change.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain why individuals with autism may find changes to their routine distressing.
+  -
+    title: Changes to routines that may affect
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some of the changes that may affect individuals with autism.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physical environment
+          copy: |
+            Changes to the physical environment such as the layout of furniture in a room.
+          img: placeholder_icon.svg
+        -
+          title: New faces
+          copy: |
+            The presence of new people or absence of familiar ones can be difficult to manage.
+          img: placeholder_icon.svg
+        -
+          title: Change in surroundings
+          copy: |
+            Big upheavals like going on holiday, changing schools or moving to a new house can cause anxiety.
+          img: placeholder_icon.svg
+        -
+          title: Daily routine
+          copy: |
+            Changes to a daily routine such as meals times or routes to school or work.
+          img: placeholder_icon.svg
+        -
+          title: Cancelling activities
+          copy: |
+            Not being able to go somewhere because of bad weather.
+          img: placeholder_icon.svg
+        -
+          title: Unexpected changes
+          copy: |
+            Unexpected changes are often most difficult to deal with.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at how change affects individuals with autism in more detail.
+    video: ua_u5_s1_p3_how_change_can_affect.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline strategies that can be used to support individuals to cope with changes to routine and structure.
+  -
+  -
+    title: Strategies to cope with Change
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      As we know life doesn’t always stay the same for everyone and change can be exciting, but it can also be a stressful and anxious time. This can be especially challenging when there is an autistic member of the family. Changes in familiar activities, places or people can be upsetting for individuals with autism and planning and preparing for expected and unexpected changes to routines can always be helpful. 
+      
+      If a major change is inevitable then individuals with autism can be helped and guided through the process by using a range of strategies to prepare them for and support them through those changes.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      In this video we are going to learn about strategies to deal with change.
+    video: ua_u5_s1_p3_strategies_dealing_with_change.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._

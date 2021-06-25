@@ -1,0 +1,17 @@
+---
+eleventyNavigation:
+  key: components
+  title: Components
+  order: 7
+permalink: /documentation/components/
+layout: longform
+---
+
+<h1>Components</h1>
+
+<p>
+  The following components are available to increase interactivity and engagement on a page and throughout a course:
+</p>
+
+{{ collections.all | eleventyNavigation("components") | eleventyNavigationToHtml | safe }}
+{# {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }} #}

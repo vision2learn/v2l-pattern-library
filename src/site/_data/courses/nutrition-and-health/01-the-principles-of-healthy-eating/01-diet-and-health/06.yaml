@@ -1,0 +1,128 @@
+title: Activity levels and Energy
+intro: |
+  On this page you will learn about: 
+  * Understanding activity levels
+  * Energy requirements
+
+banner: placeholder.jpg
+sections:
+  -
+    title: Understanding activity levels
+    theme: t-bg-primary
+    copy: |
+      In the last 50 years, advances in technology and changes to working life have led to many people doing less physical activity.
+      
+      In the past, there were many jobs that were vigorous and physically demanding. These jobs, such as coal mining, construction or agricultural work would have required a large amount of physical effort. Housework was also more demanding with the need to beat carpets, sweep floors and scrub many areas of the home. 
+      
+      Nowadays, modern appliance make household chores much easier, many jobs are desk based and most people struggle to get enough exercise.
+  -
+  -
+    title: Aerobic activity levels
+    theme: t-bg-supporting2
+    copy: |
+      Select the images below to learn more about the different activity levels.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Moderate intensity aerobic activity 
+          copy: |
+            introduction text or example character here? 
+          img: placeholder_icon.svg
+        -
+          title: Vigorous intensity aerobic activity
+          copy: |
+            introduction text or example character here? 
+          img: placeholder_icon.svg
+        -
+          title: Muscle strengthening
+          copy: |
+            introduction text or example character here? 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Activity - Activity and Energy
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp  ALSO include Case Study (Belinda and Dan) from S3 old P3_
+
+      Select the following icon to . . .
+
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      It’s important to understand the different factors that can affect a person’s energy requirements.
+  - 
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        You can learn more about the recommended activity levels at the following website: 
+
+      links:
+        NHS Active Lifestyle: http://www.nhs.uk/Livewell/fitness/Pages/activelifestyle.aspx    
+  -
+    title: Knowing what you need
+    theme: t-bg-supporting3
+    copy: |
+       Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
+       
+       The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more. 
+       _On old course was originally in Session 3 page 3_
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Amount of activity
+          copy: |
+            Children, teenagers and adults should all follow a diet that is low in fat. Different levels of activity and the variations in this through the day will affect how much of each nutrient a person needs.  
+          img: placeholder_icon.svg
+        -
+          title: Health / condition
+          copy: |
+            If someone is ill, recovering from an injury or pregnant, then they may need different nutrients than someone who is not. 
+          img: placeholder_icon.svg
+        -
+          title: Age
+          copy: |
+            People of different ages will require different levels of each nutrient.
+          img: placeholder_icon.svg
+        -
+          title: Physical changes
+          copy: |
+            If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Calories from protein
+
+      Belinda is doing some research into the amount of calories that she and her friends should be getting from protein.
+
+      Belinda determines, as a result of her lifestyle, that 15% of her calorie intake should come from protein. Her friend Dan is an aspiring footballer. She works out that 25% of his calories should come from protein.
+
+      Dan’s brother is a professional boxer. His trainer has told him that 30% of his calories should come from protein. This is because the physical demands on his body are much larger than Belinda or Dan. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      * Daily energy requirements vary wildly from one person to the next. This is due to a number of different factors including sex, body size, body weight, climate and physical activity levels. 
+
+      * Understanding the different activity levels can help you to understand your own energy requirements. The challenge for many adults is to find moderate or intense activities that will enable them to remain fit and healthy. By knowing exactly what the NHS guidelines mean, people can make informed choices and aim to meet the recommended physical activity levels. 
+
+      * By thinking in terms of calories, total energy requirement, BMR and PAL, you will have a better understanding of how to manage your weight. 

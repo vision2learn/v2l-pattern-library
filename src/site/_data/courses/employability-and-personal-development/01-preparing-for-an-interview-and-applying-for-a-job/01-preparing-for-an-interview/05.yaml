@@ -1,0 +1,32 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! 
+banner: ba-u1-s1-p6.jpg
+
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session you have learnt about:
+      * learning outcome
+  -
+  -
+    title: Session Quiz
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        Which one of the following is NOT ....:
+          answers:
+            option1: false
+            option2: false
+            option3: true
+        True or false? "sentence here":
+          answers:
+            True: false
+            False: true
+        Complete the following sentence - "sentence ___________ .":
+          answers:
+            one: false
+            two: false
+            three: true

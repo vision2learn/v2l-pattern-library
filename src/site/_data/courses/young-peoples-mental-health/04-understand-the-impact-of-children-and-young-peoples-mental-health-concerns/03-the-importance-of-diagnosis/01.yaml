@@ -1,0 +1,97 @@
+title: Understand the importance of being diagnosed with a mental health problem
+intro: |
+  In this session you will learn about the importance of being diagnosed with a mental health problem and any barriers to diagnosis.
+banner: ypmh_u4_s3_p1_diagnosed.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Reasons why it is important to seek support and a formal diagnosis 
+      * Barriers that children and young people may face seeking a diagnosis
+      * Reasons why children and young people may be reluctant to seek medical intervention and a formal diagnosis
+  -
+    title: Why is it important to seek support and a formal diagnosis
+    layout: media
+    theme: 
+    copy: |
+      It is important to seek support and a formal diagnosis as it can give access to various support groups, treatment programmes, and medications that might not have been available previously. A mental health diagnosis works in the same way as a physical health diagnosis. It is a label for a particular group of symptoms that describes what an individual is going through.
+
+    img: /images/svg/ypmh/ypmh_u4_s3_p1_image.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to give reasons why it is important to seek support and a formal diagnosis.
+  -
+    title: What are the benefits of having a diagnosis? 
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about the benefits of having a diagnosis.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Makes sense
+          text: |
+            Some people find having a diagnosis, comforting as it allows them to make sense of some quite scary and confusing symptoms. It may shift a sense of self-blame that they or their family members had regarding the symptoms being experienced.
+          img: ypmh_u4_s3_p1_slide1.svg
+        -
+          title: Gives it a name
+          text: |
+            Having a diagnosis, gives a name to what is happening and can mean that communication between various healthcare professionals, and the individual concerned, is smoother, more efficient and that the correct help is received. 
+          img: ypmh_u4_s3_p1_slide2.svg
+        -
+          title: Gives access
+          text: |
+            Having a diagnosis can give access to various support groups, treatment programmes, and medications that might not have been available previously.
+          img: ypmh_u4_s3_p1_slide3.svg
+        -
+          title: Improve interactions
+          text: |
+            A mental health diagnosis might improve how others interact with a young person, rather than being the lazy teenager who doesn’t get out of bed, relatives might have more understanding if they are given a diagnosis of depression. 
+          img: ypmh_u4_s3_p1_slide4.svg
+        -
+          title: More patience
+          text: |
+            Rather than being the hyperactive child who can’t sit still in class, having a diagnosis of Attention Deficit Hyperactivity Disorder (ADHD) might encourage teachers to be more patient with a child or change their teaching methods slightly.
+          img: ypmh_u4_s3_p1_slide5.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Why is important to have a child assessed for a mental health diagnosis? let’s look at this in a bit more detail.
+    video: ypmh_u4_s3_p1_diagnosis.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        why it is important to seek a formal diagnosis and support? What benefits will this have? Make a not of your answer in the box to the right.
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Having a diagnosis can give access to various support groups, treatment programmes, and medications.
+          answer: give access
+        -
+          sentence: Having a diagnosis, gives a name to what is happening.
+          answer: gives a name
+        -
+          sentence: Some people find having a diagnosis, comforting as it allows them to make sense of some quite scary and confusing symptoms. 
+          answer: make sense
+        -
+          sentence: A mental health diagnosis might improve how others interact with a young person.
+          answer: others interact with
+    theme: i-quiz

@@ -1,0 +1,91 @@
+title: Responding to behaviour and lifestyle choices
+intro: |
+  There are different ways to respond to behaviour and lifestyle choices of children and young people whilst still respecting their self esteem.
+banner: ypmh_u5_s2_p2_self_esteem.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to promote interactions between children and young people and others to develop their well-being.
+  -
+    title: How to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s self-esteem
+    theme: t-bg-primary
+    copy: |
+      Lets look at how to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s Self-Esteem
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Show empathy
+          copy: |
+            When things distress a child a parent or carer should show empathy and understanding for their concerns
+          img: ypmh_u5_s2_p2_reveal1.svg
+        -
+          title: Give attention
+          copy: |
+            Children should not have to seek attention they should receive undivided attention whenever they need it
+          img: ypmh_u5_s2_p2_reveal2.svg
+        -
+          title: Love a child
+          copy: |
+            A child should be loved unconditionally and always accepted for who they are
+          img: ypmh_u5_s2_p2_reveal3.svg
+        -
+          title: Learning experience
+          copy: |
+            A child should be given a chance to contribute and if they make a mistake, they can learn from that experience
+          img: ypmh_u5_s2_p2_reveal4.svg
+        -
+          title: Solving problems
+          copy: |
+            A child should learn to solve problems for themselves and make decisions when needed but with help where necessary
+          img: ypmh_u5_s2_p2_reveal5.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following video to learn more.
+    video: ypmh_u5_s2_p2_lifestyle_choices.mp4
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to respond to behaviour and lifestyle choices in a way that respects a child’s or young person’s self-esteem.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at how adults and parents can help children and young people make good lifestyle choices to help with self-esteem.
+    video: ypmh_u5_s2_p2_responding_to_behaviour.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of ways that you can support children and young people to express their emotions and concerns within a safe enviroment? Make a note of your answer in the box to the right. 
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: How a person feels about themselves and many different pressures growing up can affect a child’s or young person’s self-esteem.
+          answer: self-esteem
+        -
+          sentence: Children and young people with high self-esteem often have a positive image of themselves and are confident, make friends easily, and will try new things and adapt to change. 
+          answer: positive image
+        -
+          sentence: Having a healthy self-esteem is essential in making safe and healthy choices.   
+          answer: healthy choices
+        -
+          sentence: Children and young people may need to be guided to make good lifestyle changes for the benefits of their mental well-being.
+          answer: mental well-being
+    theme: i-quiz

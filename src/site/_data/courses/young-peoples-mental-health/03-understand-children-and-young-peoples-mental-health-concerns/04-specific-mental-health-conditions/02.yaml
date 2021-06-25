@@ -1,0 +1,66 @@
+title: Crisis or emergency
+intro: |
+  On this page we look at what might constitute a mental health 'crisis' or emergency.
+banner: ypmh_u3_s4_p2_crisis.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe what might constitute a mental health ‘crisis’ or emergency.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### What is a mental health crisis?
+
+      Let’s look at a short video about what constitutes an emergency or mental health crisis.
+
+    video: ypmh_u3_s4_p2_what_is_a_mental_health_crisis.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "A mental health crisis is an emergency that poses a direct and immediate threat to physical or emotional wellbeing.":
+          answers:
+            True: true
+            False: false
+        True or false - "In any health crisis the first place to go is Accident & Emergency (999) by phone or directly at the local hospital."":
+          answers:
+            True: true
+            False: false
+        Select one option to complete the following sentence:"A mental health crisis in children and young people, is usually when they show signs of being ________________, having panic attacks, feeling suicidal or self-harming.":
+          answers:
+            negative: false
+            sad and moody: false
+            extremely anxious: true
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at a short video about the global Coronavirus pandemic situation which may have affected the mental health and well-being of children and young people.
+    video: ypmh_u3_s4_p2_coronavirus_specific.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of what might constitute a mental health crisis or emergency? Make a note of your answer in the box to the right.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about navigating a mental health crisis:
+
+      links:
+        Navigating-A-Mental-Health-Crisis (nami.org): https://www.nami.org/Support-Education/Publications-Reports/Guides/Navigating-a-Mental-Health-Crisis/Navigating-A-Mental-Health-Crisis

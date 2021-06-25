@@ -1,0 +1,92 @@
+title: Services to support positive mental health
+intro: |
+  Let’s look at the range of services that may be required to support positive mental health in children and young people.
+banner: ypmh_u4_s2_p2_services.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the range of services that may be required to support positive mental health in children and young people.
+  -
+    title: The range of services that may be required to support positive mental health
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some of the services that may be required to support positive mental health in children and young people.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Help and Advice
+          text: |
+            GP’s can be an initial source of help and advice and refer children and young people to specific professionals specific to their needs.
+          img: ypmh_u4_s2_p2_slide1.svg
+        -
+          title: CYPMHS
+          text: |
+            Parents, carers and young people can receive support through CYPMHS, the Children and Young People’s Mental Health Services. Most CYPMHS have their own websites, with information about access and referrals and advice.
+          img: ypmh_u4_s2_p2_slide2.svg
+        -
+          title: CAMHS
+          text: |
+            ‘Child and Adolescent Mental Health Services’, is the older name for the NHS services that assess and treat young people with emotional, behavioural or mental health difficulties, but some areas still use this term.
+          img: ypmh_u4_s2_p2_slide3.svg
+        -
+          title: Specialists
+          text: |
+            Specialists such as psychiatrists, psychologists, therapists, who can help can often be accessed via other services such as charities and CYPMHS or privately.
+          img: ypmh_u4_s2_p2_slide4.svg
+        -
+          title: Charities
+          text: |
+            Non-profit organisations or charities, support individuals with mental health issues on a practical level, provide them with advice, and raise awareness of mental health issues through campaigning.
+          img: ypmh_u4_s2_p2_slide5.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please watch this video to find out more information about the range of services that are available.
+    video: ypmh_u4_s2_p2_range_of_services.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from this page and your own research make a list of the range of services that are available to support positive mental health in children and young people in the box to the right. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the NHS's Child and Adolescent Mental Health Services (CAMHS):
+
+      links:
+        Guide to CAMHS (youngminds.org.uk): https://youngminds.org.uk/find-help/your-guide-to-support/guide-to-camhs/
+  -
+  -
+    title: Quick quiz
+    copy: Now you have watched the video, please complete the statements below by selecting the correct option from the drop-down list.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: CYPMHS cover all services that work with children and young people who have difficulties with their mental health or wellbeing. They include psychiatrists and psychologists and primary health care workers and specialists. 
+          answer: CYPMHS 
+        -
+          sentence: Youngminds.org.uk campaign, research and aim to influence policy and practice based on the experiences of children and young people they work with, as well as their families and the professionals who support them, to help them to develop better well-being.
+          answer: Youngminds.org.uk
+        -
+          sentence: Mind.org.uk is quite a well-known mental health charity. Mind’s aim is to provide advice and support to empower anyone experiencing a mental health problem. 
+          answer: Mind.org.uk
+        -
+          sentence: Stem4.org.uk is a charity that promotes positive mental health in teenagers and those who support them including their families and carers, education professionals, as well as school nurses and GPs. 
+          answer: Stem4.org.uk
+    theme: i-quiz

@@ -1,12 +1,17 @@
----
-unit: 3
-session: 4
-pagination:
-  data: courses['it user skills level 2']['03 spreadsheet software']['04 formatting and presenting data']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 3,
+  session: 4,
+  pagination: {
+    data: "courses['it-user-skills-level-2']['03-spreadsheet-software']['04-formatting-and-presenting-data']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.data.title }} -->

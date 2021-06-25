@@ -1,0 +1,93 @@
+title: Barriers children and young people face seeking a diagnosis
+intro: |
+  Let’s look at some of the barriers that may affect children and young people in seeking a diagnosis.
+banner: ypmh_u4_s3_p2_barriers3.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the barriers children and young people may face seeking a diagnosis.
+  -
+    title: Barriers to seeking a diagnosis
+    theme: t-bg-primary
+    copy: |
+      Seeking help for a mental health problem can be difficult, and sometimes children and young people face barriers to seeking a diagnosis and getting the treatment they need. lets look at some of those barriers.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Long waiting times
+          copy: |
+            In some areas there can often be very long waiting times to access treatment through the NHS.
+          img: ypmh_u4_s3_p2_reveal1.svg
+        -
+          title: Cost of services
+          copy: |
+            Private services are available but not all can access these because of cost or availability within the area.
+          img: ypmh_u4_s3_p2_reveal2.svg
+        -
+          title: Availability of services
+          copy: |
+            Unfortunately, not all treatments are available equally across the country and even when available, doctors may not be aware of them.
+          img: ypmh_u4_s3_p2_reveal3.svg
+        -
+          title: Negative experiences
+          copy: |
+            Unfortunately, some families can have very negative experiences with the healthcare system having been treated unfairly by healthcare professionals in the past.
+          img: ypmh_u4_s3_p2_reveal4.svg
+        -
+          title: Past history
+          copy: |
+            An individual may feel a doctor may be unlikely to help them due to an individual’s situation and past history of health issues. 
+          img: ypmh_u4_s3_p2_reveal5.svg
+        -
+          title: Attitudes
+          copy: |
+            They may worry what others may think of them and not want to face the issue.
+          img: ypmh_u4_s3_p2_reveal6.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give reasons why children and young people may be reluctant to seek medical intervention and a formal diagnosis.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Reluctance to seek medical intervention and a formal diagnosis
+      
+      Let’s now look at a video about why children and young people may be reluctant to seek medical intervention and a diagnosis.
+    video: ypmh_u4_s3_p2_reluctance.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        why it is important to seek a formal diagnosis and support? What benefits will this have? Make a not of your answer in the box to the right.
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "There can be stigma associated with receiving a mental health diagnoses.":
+          answers:
+            True: true
+            False: false
+        What might impact on how others, including family and friends may interact with someone?:
+          answers:
+            option one: false
+            option two: false
+            Being labelled with a mental health diagnosis: true
+        Select one option to complete the following sentence:"As well as barriers to seeking a diagnosis some children and young people may be _________ to have a diagnosis.":
+          answers:
+            open: false
+            eager: false
+            reluctant: true

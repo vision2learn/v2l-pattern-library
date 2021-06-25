@@ -1,0 +1,89 @@
+title: The impact mental health concerns can have on children and young people
+intro: |
+  In this session you will learn about the impact mental health concerns can have on children and young people in their family life and education both short and long term.
+banner: ypmh_u4_s1_p2_impact2.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe potential effects of mental health concerns on children and young people’s family life and relationships; and education.
+  -
+    title: The potential effects of mental health concerns on children and young people
+    theme: t-bg-primary
+    copy: |
+      Let’s look at the potential effects of mental health concerns, scroll through the sliders below.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Family life
+          text: |
+            If a member of the family has a mental illness whether it’s a parent or child, it can affect everyone. Some types of mental health concerns and illness can cause big changes in a family’s routines, activities and finances and different people in the family will react differently to these changes. 
+          img: ypmh_u4_s1_p2_slide1.svg
+        -
+          title: Relationships
+          text: |
+            Mental illness of a parent can put stress on the family and can affect the parenting abilities, which in turn can harm the child. Parent and child relationships can be rather complex, and if a child is experiencing mental illness, caring for them can be difficult and can impact negatively on that relationship.
+          img: ypmh_u4_s1_p2_slide2.svg
+        -
+          title: Education
+          text: |
+            School-related stress is a serious problem and approximately two-thirds of primary school children worry all the time about at least one thing to do with their home life or school life. Children with mental health problems are less likely than their peers to gain academic qualifications, and more likely to have significant time off school, be excluded or get into trouble with the police.
+          img: ypmh_u4_s1_p2_slide3.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at this is a little more detail in the following video.
+    video: ypmh_u4_s1_p2_potential_effects.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's response to the following questions:
+      1. How does a good family relationship affect the situation, for children and young people to open up about their problems?
+      2. How do you think family life events can impact on a child or young person’s mental health?
+    video: ypmh_u4_s1_p2_interview_family.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional giving an example of how a family dynamic can have an impact on a young person.
+    video: ypmh_u4_s1_p2_interview_family_case_study.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of how mental health concerns impact on children and young peoples family life, relationships and education? Make a note of your answer in the box to the right.
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The general effects of mental health concerns can have an impact on the whole family. 
+          answer: an impact
+        -
+          sentence: Students with a poor standard of education are more likely to experience mental health problems.
+          answer: poor standard of education
+        -
+          sentence: Some young people suffer a lot of distress going to school.
+          answer: going to school
+    theme: i-quiz

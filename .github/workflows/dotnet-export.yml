@@ -1,0 +1,19 @@
+on:
+  workflow_dispatch:
+  
+jobs:
+  dotnet:
+    runs-on: ubuntu-latest
+    container: 
+      image: mrsleeth/v2l:node-10
+      
+    
+    env:
+      ELEVENTY_ENV: dotnet
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+        with:
+          lfs: true
+

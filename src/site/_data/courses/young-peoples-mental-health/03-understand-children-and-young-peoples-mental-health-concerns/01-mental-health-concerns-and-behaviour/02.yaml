@@ -1,0 +1,115 @@
+title: Mental health concerns and behaviours
+intro: |
+  In this session you will learn about behaviour that is associated with mental health concerns in children and young people and how early intervention can help when identifying behavioural concerns. 
+banner: ypmh_u3_s1_p2_behaviour.jpg
+sections:
+  -
+    title: Range of behaviours that may indicate concerns about a child’s or young person’s mental health
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Mental illness in children can be hard to identify. As a result, many children who could benefit from treatment don't immediately get the help they need but, by recognising the warning signs early intervention can be arranged. 
+
+    img: /images/svg/ypmh/ypmh_u3_s1_p2_image1.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify a range of behaviours that may indicate concerns about a child’s or young person’s mental health. 
+  -
+    title: Behaviour changes
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some of the ways a child’s or young person’s behaviour may change, select from the images below to learn more.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Persistent sadness
+          copy: |
+            Persistent sadness for more than couple of weeks and withdrawing from social interactions.
+          img: ypmh_u3_s1_p2_reveal1.svg
+        -
+          title: Change in personality
+          copy: |
+            Outbursts or extreme irritability, harmful out-of-control behaviour, drastic changes in mood or personality.
+          img: ypmh_u3_s1_p2_reveal2.svg
+        -
+          title: Loss of concentration
+          copy: |
+            Difficulty concentrating on things and/or difficulty sleeping.
+          img: ypmh_u3_s1_p2_reveal3.svg
+        -
+          title: Eating problems
+          copy: |
+            Changes in eating habits, binging and/or loss of weight.
+          img: ypmh_u3_s1_p2_reveal4.svg
+        -
+          title: Medical complaints
+          copy: |
+            Complaining of frequent headaches or persistent stomach aches.
+          img: ypmh_u3_s1_p2_reveal5.svg
+        -
+          title: Education problems
+          copy: |
+            Changes in academic performance, or avoiding or missing school.
+          img: ypmh_u3_s1_p2_reveal6.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how a child or young person expresses how they are feeling through their behaviour. 
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Mental health issues in children are generally defined as delays or disruptions in development related to age-appropriate thinking, behaviours, social skills or regulation of their emotions. These problems are distressing to children and disrupt their ability to function well in the home, in school or in other social interactions.
+      
+      Let’s now watch a video on how a child or young person expresses how they are feeling.
+    video: ypmh_u3_s1_p2_behavioural_issues.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional
+
+      Please see the following video of a professional's response to the following questions:
+      1. How do you differentiate possible mental health issues from the normal childhood development process?
+      2. Why would you say is it important to get a child or young person to talk about their problems?
+      3. How do you think age factors in to  identifying mental health problems in children and young people?
+
+    video: ypmh_u3_s1_p2_interview_concerns.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What types of behaviour might make you concerned about a young persons mental health? Make a note of these in the box to the right.
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "It can be difficult to understand mental health issues in children because normal childhood development is a process that involves all kinds of changes.":
+          answers:
+            True: true
+            False: false
+        What can a parent do when a child or young person's behaviour is a cause for concern?:
+          answers:
+            Ignore the behaviour: false
+            Punish the behaviour: false
+            Try to talk to them: true
+        Select one option to complete the following sentence:"Once the problem has been ___________ it is easier to try to find a solution.":
+          answers:
+            ignored: false
+            resolved: false
+            identified: true

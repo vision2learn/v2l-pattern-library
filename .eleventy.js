@@ -1,6 +1,72 @@
 const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const yaml = require("js-yaml");
+const json2yaml = require('json-to-pretty-yaml');
+const hslToHex = require('@paulobontempo/hsl-to-hex');
+const Image = require('@11ty/eleventy-img');
+const path = require("path");
+const fs = require("fs");
+const MarkdownIt = require('markdown-it');
+
+let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
+let missingCaptions = [];
+let missingTranscripts = [];
+
+async function imageShortcode(src, cls, alt, sizes) {
+  src = src.startsWith('/') ? src.replace('/', '') : src;
+  let fullSrc = `src/site/${src.toLowerCase()}`;
+
+  try {
+    fs.accessSync(fullSrc, fs.constants.F_OK);
+  } catch (err) {
+      console.error(`${fullSrc} not found. Using placeholder`);
+      fullSrc = "src/site/images/banners/placeholder.jpg";
+  }
+
+  const extension = path.extname(src);
+  let formats = extension === '.png' ? ["webp", "png"] : ["webp", "jpeg"];
+  let metadata = await Image(fullSrc.toLowerCase(), {
+    widths: [400, 600, 800, 1000, 2000],
+    formats: formats,
+    svgShortCircuit: true,
+    urlPath: `${tilde}/${path.dirname(src)}`,
+    outputDir: `./dist/${path.dirname(src)}`,
+    filenameFormat: function(id, src, width, format, options) {
+      const name = path.basename(src, extension);
+      return `${name}-${width}.${format}`;
+    }
+  });
+
+  let imageAttributes = {
+    class: cls,
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
+function markdown(copy) {
+  let md = new MarkdownIt();
+      
+  try {
+    return md.render(copy);
+  } 
+  catch (error) {
+    console.log('val: ', copy, ' ', typeof copy);
+    return "markdown error";
+  }
+}
+
+function logMissing(files) {
+  files.forEach(file => {
+    console.log('No VTT for: ', file);
+  });
+}
 
 module.exports = function(config) {
 
@@ -9,21 +75,111 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  config.addPlugin(eleventyNavigationPlugin);
+  config.addNunjucksAsyncShortcode("image", imageShortcode);
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
 
-  config.addFilter("markdownify", function(value) {
-    var MarkdownIt = require('markdown-it'),
-      md = new MarkdownIt();
-      
+  config.addFilter('folders', paginationStr => {
+    let objStr = paginationStr;
+
+    // clean up the object
+    objStr = objStr.replace("courses", "").replace(/]/g, "").replace(/'/g, "");
+
+    objStr = objStr.split("[");
+
+    objStr.reverse().pop(); // remove the empty string created by split()
+    objStr = objStr.reverse();
+
+    return {
+      course: objStr[0],
+      unit: objStr[1],
+      session: objStr[2]
+    }
+  });
+
+  config.addShortcode('video', (file, id) => {
+    let ext = path.extname(file);
+    let basename = path.basename(file, ext);
+    let track = '';
+    let transcript = '';
+    let multi = basename.indexOf('_pc') > 0 ? true : false;
+    let filesToCheck = [basename];
+    let vidFilePath = `https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/${file}`;
+
+    if(multi) {
+      filesToCheck.push(basename.replace('_pc', '_mac'))
+    }
+
+    // Is there a VTT for this video?
+    try {
+      fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
+      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
+    } catch (err) {
+      // console.log(`No VTT file for ${file}`);
+      missingCaptions.push(file);
+    }
+
+    filesToCheck.forEach((file, index) => {
+      let type = !multi ? [''] : ['(PC users)', '(Mac users)'];
+
       try {
-        return md.render(value);
-      } 
-      catch (error) {
-        console.log('val: ', value, ' ', typeof value);
-        return "markdown error";
+
+        fs.accessSync(`src/site/videos/transcripts/${file}.md`, fs.constants.F_OK);
+        let transcriptContent = fs.readFileSync(`src/site/videos/transcripts/${file}.md`, 'utf-8', (err, data) => {
+          if (err) throw err;
+          return data;
+        });
+
+        transcript += `
+          <toggle-section open="false">
+            <h3>Video transcript ${type[index]}</h3>
+            ${markdown(transcriptContent)}
+          </toggle-section>
+        `;
+      } catch (err) {
+        // console.log(`No transcript for ${file}`);
+        missingTranscripts.push(file)      
       }
+    });
+    
+    // Remote video?
+    try {
+      fs.accessSync(`src/site/videos/${file}`, fs.constants.F_OK);
+      console.log(`Using local version of ${file}`);
+      vidFilePath = `${tilde}/videos/${file}`;
+    } catch (err) {
+    }
+
+
+    return `
+      <div class="l-video-container">
+        <video poster="${tilde}/images/svg/poster.svg" controls preload="metadata" aria-labelledby="${id}" width="1000"
+          data-base="${basename}" 
+          data-ext="${ext}" 
+          data-multi="${multi}"
+          data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
+          <source src="${vidFilePath}" type="video/mp4">
+          ${track}
+          <p>Sorry, your browser doesn't support embedded videos</p>
+        </video>
+      </div>
+      ${transcript}
+      `;
+  });
+
+  config.addFilter("markdownify", value => {
+    return markdown(value);
+  });
+
+  config.addFilter("yamlify", value => {
+    return json2yaml.stringify(value);
+  });
+
+  config.addFilter("hexify", value => {
+    let hsl = value.replace(/[^0-9^,]+/g, '').split(',');
+    return hslToHex(hsl[0], hsl[1], hsl[2]);
   });
 
   
@@ -47,6 +203,11 @@ module.exports = function(config) {
   });
 
   config.addFilter("formattitle", value => {
+    if(!value) {
+      console.log("...Error: ", value);
+      return false;
+    }
+    
     const str = value;
     let iterator; // = str[Symbol.iterator]();
     let formatted = '';
@@ -111,14 +272,16 @@ module.exports = function(config) {
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
+  config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
-  config.addPassthroughCopy("./src/site/captivate");     
+  // config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");
   config.addPassthroughCopy("./src/site/js");
   config.addPassthroughCopy("./src/site/_redirects");
   config.addPassthroughCopy("./src/site/admin");
+  config.addPassthroughCopy("./src/site/resources");
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;
@@ -131,6 +294,7 @@ module.exports = function(config) {
     },
     templateFormats : ["njk", "liquid", "html", "md", "11ty.js"],
     dataTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true
   };
 };

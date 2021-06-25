@@ -1,0 +1,19 @@
+---
+layout: longform
+---
+<style>
+body {
+  color: darkgrey;
+}
+</style>
+
+  <h1>{{ site.v2l | safe }}<br>Design System Documentation</h1>
+  
+  <h2>Prototype courses</h2>
+  
+  <ul>
+  {% for course, unit in courses %}
+    <li><a href="/courses/{{ course }}/1/1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
+  {% endfor %}
+  </ul>
+</section>

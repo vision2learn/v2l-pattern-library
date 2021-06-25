@@ -1,0 +1,58 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the fourth session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary and learning points
+    theme: t-bg-primary
+    copy: |
+      In this Session you have learnt about how to prepare healthy food. You have learnt about:
+
+      * The factors to consider when you are planning healthy meals
+      * Using substitution and reduction to make meals healthier
+      * The alternative ways that you can use and prepare a range of foods
+      * A variety of different cooking methods
+      * How these cooking methods affect the nutritional value of the food you eat
+
+
+      Take a look at the following learning points to see a summary of what you have covered in this session:
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Factors when planning healthy food
+          copy: |
+            * The nutrients in each food group
+            * The balance between the 5 groups
+            * Flavours, Textures and Colours preferences
+            * Varieties within food groups
+
+        -
+          title: Preparing food
+          copy: |
+            Appropriate cooking methods:
+
+            * Vegetables
+            * Fruit
+            * Starchy foods
+            * Meat, fish and pulses
+            * Dairy
+            * Fats and sugars
+            * Salt
+
+        -
+          title: Cooking methods
+          copy: |
+            * Baking
+            * Barbecue
+            * Boiling
+            * Braising
+            * Casserole
+            * Deep frying
+            * Grilling
+            * Microwaving
+            * Poaching
+            * Sautéing
+            * Steaming
+            * Stir-frying

@@ -1,0 +1,81 @@
+title: Characteristics that may be present in individuals with autism
+intro: |
+  In this session you will learn about the characteristics associated with autism and how theses vary from individual to individual.
+
+banner: ua_u1_s4_p1_characteristics.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The main characteristic found in individuals with autism
+      * How these characteristics can vary from individual to individual
+      * What is meant by the ‘triad of impairments’
+      * The positive and negative points of the triad of impairments
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the main characteristics found in individuals with autism.
+  -
+    title: Characteristics of Autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      There are several characterisics of Austism which could include the following:
+      * Communication
+      * Social interaction
+      * Repetitive and restrictive behaviour
+      * Sensory sensitivity
+      * Fixation
+      * Fluctuation of skills
+
+      Please see the video below for a more in-depth look at these characteristics.
+
+    img: /images/svg/ua/ua_u1_s4_p1_image.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how these characteristics can vary from individual to individual.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at the main characteristics in a little more detail and how they may vary from individual to individual.
+      
+    video: ua_u1_s4_p1_main_characteristics.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What are the main characteristics that are found in individual with autism?  How do they vary from individual to individual?
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Fixation is one of the characteristics especially associated with high functioning Autism spectrum disorder. One example of this is continually discussing the same topics in conversation. 
+          answer: Fixation
+        -
+          sentence: Social interaction is difficult for individuals with Autism. A child may prefer to play alone and won’t respond to other adults or children. 
+          answer: Social interaction
+        -
+          sentence: Sensory sensitivity is when an individual is sensitive to things such as light, sound, touch and heat, or certain tastes, textures or smells.   
+          answer: Sensory sensitivity
+        -
+          sentence: Children with autism can display repetitive behaviour, including hand flapping, toe walking, spinning wheels, lining up cars. 
+          answer: repetitive behaviour
+        -
+          sentence: Restrictive behaviour may mean a child may only eat food of a certain colour, have to walk the same route or only watch one programme over and over.
+          answer: Restrictive behaviour
+    theme: i-quiz

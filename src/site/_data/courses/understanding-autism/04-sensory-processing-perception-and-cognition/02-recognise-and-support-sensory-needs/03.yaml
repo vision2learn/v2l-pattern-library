@@ -1,0 +1,77 @@
+title: Sensory differences and dietary preferences
+intro: |
+  On this page you will learn about sensory differences and how these can influence an individuals dietary preferences.
+banner: ua_u4_s2_p3_dietary.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline how sensory differences may have an influence on an individual’s dietary preferences.
+  -
+    title: Sensory differences
+    theme: t-bg-primary
+    copy: |
+      Let’s look at how sensory differences may have an influence on an individual’s dietary preferences.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Sensory differences
+          copy: |
+            Many Individuals with autism experience sensory differences that can affect their experience of meals and their relationship with food. 
+          img: ua_u4_s2_p3_reveal1.svg
+        -
+          title: Environment
+          copy: |
+            They might find it too distracting to eat in a noisy canteen but would rather eat in a quiet room instead.
+          img: ua_u4_s2_p3_reveal2.svg
+        -
+          title: Smells and Taste
+          copy: |
+            People who are very sensitive to smells and taste may prefer to eat quite bland food and may find strong food smells overpowering.
+          img: ua_u4_s2_p3_reveal3.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please watch this video for more information.
+    video: ua_u4_s2_p3_sensory_differences.mp4
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to support the dietary preferences of individuals with autism.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How to support the dietary preferences of individuals with autism
+
+      Watch this video to learn more about how to support the dietary preferences of individuals with autism.
+    video: ua_u4_s2_p3_dietary_preferences.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Not sure if this is a stretch?_
+
+        Please see the National Autistic Society website where you can see a video interview with a Doctor that specialises in food and eating issues of individuals with autism.
+
+      links:
+        Food and eating issues - interview: https://www.autism.org.uk/advice-and-guidance/professional-practice/shea-interview

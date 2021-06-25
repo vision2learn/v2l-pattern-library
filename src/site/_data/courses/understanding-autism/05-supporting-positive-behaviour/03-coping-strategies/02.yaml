@@ -1,0 +1,91 @@
+title: Ways to support
+intro: |
+  On this page we will learn about ways to support an individual who is anxious and struggling to contain their own behaviour.
+banner: ua_u5_s3_p2_support.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe ways to support an individual who is anxious and struggling to contain their own behaviour.
+  -
+    title: Stressful behaviours
+    theme: t-bg-primary
+    copy: |
+      Some individuals with autism may behave in way that puts a lot of strain on a family. Some of these behaviours can be particularly distressing to themselves as well as to others. These can include ‘Stimming’ a kind of repetitive behaviour and ‘Meltdowns’ a complete loss of control.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Stimming
+          text: |
+            ‘Stimming’ stands for Self Stimulating Behaviour and it is repetitive actions that help to stimulate an individual. It can involve rocking, jumping, spinning, hand flapping, flicking rubber bands, repeating words or staring at lights or spinning objects.
+          img: placeholder_icon.svg
+        -
+          title: Meltdowns
+          text: |
+            A meltdown is an intense response to an overwhelming situation. They are a complete loss of control caused by being overwhelmed by sensory overload or too much visual information.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at what to do when ‘self-stimulating behaviour’ can be extreme enough to cause injury.
+    video: ua_u5_s3_p2_stimming.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to support individuals to understand their behaviour in terms of:
+      * events and feelings leading up to it
+      * their actions
+      * the consequences of their behaviour.
+  -
+  -
+    title: When an individual is anxious and struggling to contain their behaviour
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Anxiety in individuals with autism should always be calmed where possible by using different tools and strategies. Building time for relaxation into any routine and using calming music or stress balls can help a person feel calmer. Doing something they like that incorporates their interests like playing on a computer, reading, doing puzzles or walking can help to relieve stress and make an individual with autism able to cope with something that might cause a meltdown.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      In this video we will learn about what to do when an individual is have a meltdown.
+    video: ua_u5_s3_p2_meltdown.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Which of the following terms is used to describe repetitive actions that help to stimulate an individual?:
+          answers:
+            Stimming: true
+            Meltdown: false
+          feedback: ‘Stimming’ stands for Self Stimulating Behaviour and it is repetitive actions that help to stimulate an individual. It can involve rocking, jumping, spinning, hand flapping, flicking rubber bands, repeating words or staring at lights or spinning objects.
+        Select one option to complete the following sentence:"A ______________ happens when an individual becomes completely overwhelmed by their current situation and temporarily loses control of their behaviour.":
+          answers:
+            Stimming episode: false
+            Meltdown: true
+          feedback: A meltdown is an intense response to an overwhelming situation. They are a complete loss of control caused by being overwhelmed by sensory overload or too much visual information.
+        Is the following statement true or false? "Stimming is often very enjoyable can be a good way for an individual with autism to reduce stress and anxiety.":
+          answers:
+            True: true
+            False: false
+          feedback: Stimming is often very enjoyable can be a good way for an individual with autism to reduce stress and anxiety. However, stimming can sometimes cause self-injury, such as, head-banging or scratching.

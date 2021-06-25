@@ -1,0 +1,87 @@
+title: Forms of communication
+intro: |
+  On this page we will look at different forms of communication used by individuals with Autism.
+banner: ua_u3_s1_p3_communication.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe different forms of communication used by individuals with autism.
+  -
+    title: Different forms of communication
+    theme: t-bg-primary
+    copy: |
+      Individuals with Autism have unique methods of communication even when they are verbally fluent. We tend to think of communication as a language-based tool, however, a large portion of communication relies on body-language, gestures, and tone of voice. 
+
+      Let’s look at different forms of communication used by individuals with Autism in the following slides.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Non verbal
+          text: |
+            Individuals with Autism who have developed little in the way of language skills, rely on on non-verbal communication techniques. These can include, gestures, pictures or drawings, crying or other emotive sounds or physically taking someone to something they want. Parents and caregivers often become quite adept at reading these non-linguistic communications through context clues and repetition.
+
+          img: ua_u3_s1_p3_slide1.svg
+        -
+          title: Echolalia
+          text: |
+            Echolalia can be immediate or delayed and refers to the repetition of phrases that the autistic person may have heard, perhaps in a favourite movie or television program. Often the phrases may or may not “fit” the immediate context in which it is used, however, they typically do mean something and can relate to an answer indirectly. Often using Echolalia can be self soothing for an individual or give them time to process a question and they may even repeat the question as their answer.
+          img: ua_u3_s1_p3_slide2.svg
+        -
+          title: Focusing on the literal meaning of words
+          text: |
+            Individuals with some form of Autism typically have trouble understanding idiomatic language and metaphors and have difficulty understanding jokes and humour which rely on sarcasm. Individuals with autism focus on the “key words” of a sentence so it is best to speak in simple, plain sentences without idioms or figures of speech that hide the “true message” of what is being said.
+          img: ua_u3_s1_p3_slide3.svg
+        -
+          title: Moving from topic to topic
+          text: |
+            Individuals with autism often find difficulty with staying on topic as their minds are moving very quickly and processing many stimuli, their thoughts may often seem disorganised or unfocused. However, this usually isn’t the case unless the individual has expressed the desire to stop talking about a given topic, they’re usually open to revisiting previous conversation topics.
+          img: ua_u3_s1_p3_slide4.svg
+        -
+          title: No eye contact
+          text: |
+            Often an individual with Autism will not make eye contact when they speak with you. this is usually because they are highly attuned to sensory details, and looking into someone’s eyes can cause an overload of information. Some may prefer to speak with their eyes shut entirely, so as to focus only on the conversation.
+          img: ua_u3_s1_p3_slide5.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difficulties an individual with autism may have in communicating verbally when processing verbal information and interpreting verbal information.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following video on difficulties in communicating verbally.
+    video: ua_u3_s1_p3_difficulties_in_communicating.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Considering both interpreting and processing verbal information, can you describe the difficulties that individuals with autism may have in communicating verbally? 
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Other stimuli such as different sounds can also be distracting making it hard to focus on the verbal information.
+          answer: stimuli
+        -
+          sentence: When in conversation, some people with autism need time to respond.
+          answer: time
+        -
+          sentence: It often helps if the person verbally communicating is precise and sticks to the point.
+          answer: precise
+        -
+          sentence: An autistic person finds it difficult to filter out the irrelevancies within a conversation which can create an overload of information.
+          answer: overload
+    theme: i-quiz

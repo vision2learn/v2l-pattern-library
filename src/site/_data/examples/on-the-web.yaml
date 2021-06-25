@@ -1,0 +1,9 @@
+include: 
+  type: on-the-web
+  copy: |
+    Here are some interesting links to other websites:
+  links:
+    vision2learn.net: www.vision2learn.net
+    vision2learn.com: www.vision2learn.com
+    The BBC: www.bbc.co.uk
+    Google: www.google.com

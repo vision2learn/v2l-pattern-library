@@ -1,0 +1,67 @@
+title: Duty of care
+intro: |
+  ‘Duty of Care’ is a legal obligation to always act in the best interest of individuals and others, and not to act in a way that results in harm.
+
+banner: ypmh_u1_s2_p3_dutyofcare.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to state how duty of care applies for children and young people in different settings.
+
+  -
+    title: Duty of care in different settings
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn about the different settings duty of care is applied:
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Educational settings 
+          copy: |
+            In education a teacher directly has the ‘duty of care’ for the children in their class or under  their supervision, as well as promoting the safety and welfare of the children in their care.
+          img: ypmh_u1_s2_p3_reveal1.svg
+        -
+          title: Care provision
+          copy: |
+            Care workers owe a ‘duty of care’ to the children and young people they support and the public interest, this means providing high quality care to the best of their ability and pro-tecting individuals from abuse.
+          img: ypmh_u1_s2_p3_reveal2.svg
+        -
+          title: The criminal justice system
+          copy: |
+            In the criminal justice system and especially within youth justice the minimum expectation for ‘duty of care’ is for all agencies to provide statutory services to ensure good outcomes for children and young adults that commit crimes.
+          img: ypmh_u1_s2_p3_reveal3.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please watch this video which looks further into these examples of what is involved in duty of care in different settings.
+    video: ypmh_u1_s2_p3_duty_of_care.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from this page make a note of how duty of care applies to children and your people in different settings.
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Safeguarding is the action that is taken to protect the health, well-being and rights of children and young people. 
+          answer: Safeguarding
+        -
+          sentence: Child protection is part of the safeguarding process and focuses on protecting children likely to suffer significant harm. 
+          answer: Child protection
+        -
+          sentence: All children and young people should be listened to and not dismissed, but their rights also need to be respected. 
+          answer: their rights
+        -
+          sentence: If a person suspects that any of the safeguarding issues have arisen they should record any information that can and tell someone who can report it.
+          answer: record any information
+    theme: i-quiz

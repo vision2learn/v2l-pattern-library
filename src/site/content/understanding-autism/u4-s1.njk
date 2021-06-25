@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['understanding-autism']['04-sensory-processing-perception-and-cognition']['01-how-sensory-information-is-processed']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

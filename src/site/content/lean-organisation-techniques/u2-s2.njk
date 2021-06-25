@@ -1,12 +1,17 @@
----
-unit: 2
-session: 2
-pagination:
-  data: courses['lean management']['02 business improvement tools and techniques']['02 Principles and techniques of workplace organisation']
-  size: 1
-  alias: module
-  resolve: values
-  addAllPagesToCollections: true
+---js
+{
+  unit: 2,
+  session: 2,
+  pagination: {
+    data: "courses['lean-management']['02-business-improvement-tools-and-techniques']['02-principles-and-techniques-of-workplace-organisation']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
 ---
 
 <!-- {{ module.title }} -->

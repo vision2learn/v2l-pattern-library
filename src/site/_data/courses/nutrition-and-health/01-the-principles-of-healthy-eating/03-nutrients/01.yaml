@@ -1,0 +1,145 @@
+title: Nutrients
+intro: |
+  In this Session we’ll look at some of the key nutrients, and their role in maintaining health.
+   
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn how to:
+      * Define the term nutrients
+      * Describe the nutrients needed by the body
+      * Identify foods that are a good source of each nutrient
+      * Describe the role of nutrients in maintaining health
+      * Describe the factors that influence how much of each nutrient a person needs
+      * Explain the importance of adequate fluid intake  
+  -
+  -
+    title: Macro and micro nutrients  NEW
+    theme: t-bg-supporting2
+    copy: |
+      Introduction
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: The six classes of nutrients - PLACEHOLDER
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _Type of element to be decided - Slider, Accordion, Activity, Case study etc - to replace 5 slides on old page 2 - https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session03/pg2.asp_
+
+      A nutrient is a chemical substance that provides nourishment to the body.
+      
+      Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your Assessment, you will need to define the term nutrients, identify the six key classes of nutrients and good sources of food for each of these.
+  -
+  -
+    title: What foods provide which nutrients - NEW
+    theme: t-bg-primary
+    copy: |
+      _Slider at the moment but this can be changed depending on content_
+
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: a
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Do you eat any sources of minerals and vitamins? Identify at least two important vitamins / minerals and identify foodstuffs where they may be found.
+        
+        For your own lifestyle are there any changes that you would make in your consumption of nutrients? Explain why you would / would not make any changes. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Who needs what nutrient?  NEW
+
+      Please see the following video to learn about why differnet nutrients are needed by different people.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your Assessment, you will need to .... LOs 3.4 and 3.5
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more information on nutrients, take a look at the following website. 
+
+      links:
+        British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/basics/exploring-nutrients    
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Each individual will require a slighty different number of nutrients.
+
+      By understanding a person’s needs and knowing how to provide them with the correct nutrition, it is possible to help people have a better health and well-being. 

@@ -1,0 +1,84 @@
+title: The impact of mental health problems on others
+intro: |
+  In this session you will learn about the impact of children and young people’s mental health problems on others, the range of services available and social attitudes.
+banner: ypmh_u4_s2_p1_others.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Impact on others of living with a child or young person with mental health concerns
+      *	Range of services that may be required to support positive mental health
+      *	How cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the impact on others of living with a child or young person with mental health concerns.
+  -
+    title: The impact of mental health problems on others
+    theme: t-bg-primary
+    copy: |
+      Let’s first look at the impact on others, when living with a child or young person with mental health concerns.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physical health
+          copy: |
+            Having a family member with a mental health concern can cause physical health problems for others in the family.
+          img: ypmh_u4_s2_p1_reveal1.svg
+        -
+          title: Behavioural issues
+          copy: |
+            Sibling’s behaviour may be affected, as they may not understand why they get less attention or are missing out on things.
+          img: ypmh_u4_s2_p1_reveal2.svg
+        -
+          title: Parental disharmony
+          copy: |
+            Parents may blame each other and cause more disharmony or even breakup.
+          img: ypmh_u4_s2_p1_reveal3.svg
+        -
+          title: Family withdrawal
+          copy: |
+            The family may stop socialising due to worries about the views of others.
+          img: ypmh_u4_s2_p1_reveal4.svg
+        -
+          title: Guilt
+          copy: |
+            A parent or sibling may wrongly feel it is all their fault.
+          img: ypmh_u4_s2_p1_reveal5.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Watch the video to look at the impact it can have on others in the family in more detail.
+    video: ypmh_u4_s2_p1_impact_on_others.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from this page and your own research, can you describe the impact on those who live with a child or young person with mental health concerns? Make a note of your answer in the box to the right. 
+  -
+  -
+    title: Quick quiz
+    copy: Now you have watched the video, please complete the statements below by selecting the correct option from the drop-down list.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Mental health concerns can be painful and traumatic for all of the family and can have a huge impact on a family financially and emotionally.
+          answer: financially and emotionally
+        -
+          sentence: When a family member such as a child or a sibling has mental health concerns, it can be an extremely stressful time and may in turn create health problems.
+          answer: health problems
+        -
+          sentence: Family life can become unsettled and unpredictable causing a family member to maybe leave their job, give up socialising, or following recreational pursuits.
+          answer: unsettled and unpredictable
+    theme: i-quiz

@@ -1,0 +1,16 @@
+---js
+{
+  unit: 4,
+  session: 3,
+  pagination: {
+    data: "courses['young-peoples-mental-health']['04-understand-the-impact-of-children-and-young-peoples-mental-health-concerns']['03-the-importance-of-diagnosis']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->

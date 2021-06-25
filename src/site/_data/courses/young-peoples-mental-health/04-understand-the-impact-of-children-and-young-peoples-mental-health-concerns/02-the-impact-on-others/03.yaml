@@ -1,0 +1,52 @@
+title: Cultural beliefs and social attitudes
+intro: |
+  Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
+banner: ypmh_u4_s2_p3_attitudes.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for the child or young person; and for others.
+  -
+  -
+    title: Cultural beliefs and social attitudes
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Cultural beliefs and social attitudes play a big role in how people view mental health and the stigma that surrounds mental illness prevents many from seeking help. Shame, the fear of discrimination and rejection, and the lack of understanding can prevent them seeking diagnosis and effective treatment. The support of family and friends therefore can be really important in helping children and young people to cope with a diagnosis of mental health concerns.
+
+    img: /images/svg/ypmh/ypmh_u4_s2_p3_image.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
+    video: ypmh_u4_s2_p3_cultural_and_social.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        How do you think cultural and social attitudes affect the potential diagnosis of mental health concerns in children and young people? Make a note of your answer in the box to the right.
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Older people in all cultures are more likely to seek help.":
+          answers:
+            True: false
+            False: true
+        Which gender do most cultures discourage from showing physical or mental weakness?:
+          answers:
+            Female: false
+            Male: true
+        Select one option to complete the following sentence:"Not every culture trusts western medical practices, instead they prefer to use _____________ and often don’t see mental health as medical.":
+          answers:
+            herbal medicine: false
+            talk therapy: false
+            traditional methods: true

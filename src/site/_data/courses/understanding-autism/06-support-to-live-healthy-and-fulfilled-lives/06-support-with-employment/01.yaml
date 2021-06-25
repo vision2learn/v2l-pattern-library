@@ -1,0 +1,105 @@
+title: How to support individuals with employment
+intro: |
+  In this session you will learn about how to support individuals with employment, looking at barriers, starting and continuing in employment and organisations and agencies that can help.
+banner: ua_u6_s6_p1_employment.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Barriers that people with autism may face in gaining employment
+      * How individuals can be supported with gaining starting and continuing employment
+      * Organisations and agencies that support individuals with autism into employment
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify barriers that people with autism may face in gaining employment.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following video about challenges and barriers in gaining employment for people with autism. 
+    video: ua_u6_s6_p1_challenges_and_barriers.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how individuals can be supported with:
+      * gaining employment
+      * starting employment
+      * continuing employment.
+  -
+  -
+    title: How individuals can be supported with gaining, starting and continuing employment
+    theme: t-bg-primary
+    copy: |
+      Individuals can be supported in different ways in gaining, starting and continuing in employment by helping them to understand the process and using different strategies to help them overcome any barriers.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Gaining employment
+          text: |
+            When an individual is looking for a job, they should be given some guidelines as to what to look for, such as jobs that are clear, detailing what the role is how it relates to their skills. It is also wise to see whether the company welcomes applications from ‘disabled’ people or specifically neurodiverse individuals. No one should be discriminated against for their ‘disability’ but it is often used in the selection process. Help can also be given in understanding the application process and interview techniques.
+          img: placeholder_icon.svg
+        -
+          title: Starting employment
+          text: |
+            Success at the application and interview stage should be praised and should help to reassure them that they have the skills to do the job, however they may need further reassurance and support in preparing them for the formalities of starting employment. If the process is clearly laid out using timelines and visual supports to back it up, should make it easier for them to understand the process. Their job role and timetable should also be clearly defined so as not to create any ambiguity.
+          img: placeholder_icon.svg
+        -
+          title: Continuing employment
+          text: |
+            The ‘work based’ environment may need reasonable adjustments, to facilitate the optimum working environment for the individual, taking into consideration any sensory needs. By supporting their needs there should be less distractions to their working day, and therefore they should be able to be more productive. HR should also be able to support their needs, by regularly reviewing their job role and any professional development needs.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at how individuals can be supported with gaining, starting and continuing in employment in a little more detail in this video.
+    video: ua_u6_s6_p1_employability.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: High functioning individuals can be very successful in many different fields including science, research, finance, banking and the arts. 
+          answer: High functioning
+        -
+          sentence: Making the application process for individuals with autism, simpler and more inclusive will help in the beginning. 
+          answer: application process
+        -
+          sentence: It is important that employers realise that many individuals with autism do not see themselves as ‘disabled’ but ‘neurodiverse’ meaning they just look at life differently. 
+          answer: neurodiverse
+        -
+          sentence: Individuals with autism can offer loyalty, dedication and can be extremely skillful once trained.
+          answer: extremely skillful
+    theme: i-quiz

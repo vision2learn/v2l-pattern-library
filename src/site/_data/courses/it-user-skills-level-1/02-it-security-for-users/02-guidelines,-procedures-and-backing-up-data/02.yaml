@@ -1,0 +1,82 @@
+title: The importance of backing up data
+intro: |
+  On this page you will learn about the:
+  * Importance of information, and
+  * Importance of backing up data
+banner: it1_u2_s2_p2_backup.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Describe why it is important to backup data securely.
+  -
+  -
+    title: The importance of information
+    layout: media
+    theme: t-bg-supporting3
+    copy: |
+        ### The value of information
+
+        When making decisions and developing procedures on the management of information, it helps to consider two different aspects: importance and inactivity.
+
+        **Importance** indicates the value of information for the organisation. The higher the value, the higher the importance.
+
+        **Inactivity** indicates whether the organisation needs to access this information to actively use it. The more likely the organisation is to want quick access, the higher the level of activity.
+
+    img: /images/svg/it1/it1_u2_s2_p2_image1.svg
+  -
+  -
+    title: The importance of backing up data
+    theme: t-bg-primary
+    copy: |
+      It is important to carry out regular backups to prevent loss of data. As more and more important and sensitive information is stored, you can always reinstall software if you have a critical system failure, but data could be completely erased and lost forever. Scroll through the slides below to find out more.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Why backup?
+          text: |
+            There are various causes of data loss such as a  hardware breakdown, virus attack, power surges or even human error or equipment theft so it is important to have a backup and recovery plan in place. This will ensure that if any data is lost or corrupted you can quickly restore your data from the last backup point which will minimise any loss. 
+
+          img: it1_u2_s2_p2_slide1.svg
+        -
+          title: Schedule regular backups
+          text: |
+            Once you have made a full backup of the entire system you should then set automatedincremental backup points.Thiswill ensure that onlynew data,or changes toexistingbacked up data,are addedto the backup. Having incremental backups will save time and diskspace as only the latest changes are added. These backup points should be set for the end of each dayat least or more frequently if required. 
+          img: it1_u2_s2_p2_slide2.svg
+        -
+          title: Backup to an external location
+          text: |
+            It is a good idea to backup your data to a removable drive, network drive or the cloud as this will ensure that if the computer suffers physical damage you can restore to a new computeras your backups are completely isolated from any damage. You could also encrypt your backups which will add an extra layer of security.  
+          img: it1_u2_s2_p2_slide3.svg
+        -
+          title: Restoring backups
+          text: |
+            It’s important to ensure that your new system is safe before restoring from backups. Always make sure that you carry out a full virus scan and make sure that all updates for the operating system and devices have been installed.
+
+          img: it1_u2_s2_p2_slide4.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How to back up data
+      Please see the following video for a demonstration on how to back up data (1.6) (1.7)
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+        
+  -
+  

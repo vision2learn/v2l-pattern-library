@@ -1,0 +1,119 @@
+title: Cognitive differences in processing information
+intro: |
+  In this session you will learn about the difficulties individuals with autism have in processing information and strategies that can be used to help them.
+banner: ua_u4_s3_p1_cognitive.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Difficulties an individual with autism may have processing information 
+      * Strategies to support an individual with autism to complete activities and tasks
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to Outline the difficulties an individual with autism may have with:
+      * processing information
+      * predicting the consequences of an action
+      * organising, prioritising and sequencing
+      * understanding the concept of time
+  -
+    title: Processing information
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn about the difficulties an individual with autism may have processing information.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Processing information
+          copy: |
+            Difficulties in areas such as personal organisation, behaviour, planning, perception, generalising, predicting and understanding concepts.
+          img: ua_u4_s3_p1_reveal1.svg
+        -
+          title: Consequences of an action
+          copy: |
+            Difficulty in predicting the consequences of an action such as ‘if I do this, what happens next? 
+          img: ua_u4_s3_p1_reveal2.svg
+        -
+          title: Organising and prioritising
+          copy: |
+            Difficulties with organising and prioritising makes it harder to plan daily activities and manage time effectively. 
+          img: ua_u4_s3_p1_reveal3.svg
+        -
+          title: Sequencing
+          copy: |
+            Difficulties with activities that involve a process, such as coping with daily tasks like tidying up or cooking or doing laundry.
+          img: ua_u4_s3_p1_reveal4.svg
+        -
+          title: Concept of time
+          copy: |
+            Difficulty planning what to do over the course of a day or a week.
+          img: ua_u4_s3_p1_reveal5.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at some of the difficulties individuals with autism have in processing information.
+    video: ua_u4_s3_p1_cognitive_differences.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. Do you have any problems processing information such as time perception, routines and prioritizing things? or anything else you are aware of?
+      2. What strategies do you or have you used to help with these difficulties?
+
+    video: ua_u4_s3_p1_interview_processing.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+
+      Please see the following interview video of professionals' responses to the following question:
+
+      Are there any scenarios you would be happy to impart, changing the names and details where necessary where you can share an insight into a relationship you have had with an individual with autism?
+
+    video: ua_u4_s3_p1_positive_phil.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A person with autism may have problems with processing information.
+          answer: information
+        -
+          sentence: A person with autism may have problems with understanding the consequences of their actions.
+          answer: consequences
+        -
+          sentence: A person with autism may have problems with understanding the concept of time.  
+          answer: time
+        -
+          sentence: A person with autism may may be detailed focused and less able to see the whole picture.
+          answer: detailed
+    theme: i-quiz

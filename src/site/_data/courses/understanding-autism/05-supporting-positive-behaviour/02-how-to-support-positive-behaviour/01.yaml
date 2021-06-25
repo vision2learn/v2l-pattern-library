@@ -1,0 +1,98 @@
+title: How to support postive behaviour
+intro: |
+  In this session we are going to explore behaviour and look at how positive behaviour can be supported in individuals with autism.
+banner: ua_u5_s2_p1_positive.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * How behaviour can be interpreted as a form of expression
+      * Factors that may be associated with behaviour that challenges
+      * The advantages and disadvantages of using proactive strategies and reactive strategies to support positive behaviour
+      * The importance of positive reinforcement 
+      * Approaches that could be used to support positive behaviour
+
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline how behaviour can be interpreted as a form of expression.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Behaviour as a form of expression
+
+      Let’s look at how behaviour can be interpreted as a form of expression. 
+
+    video: ua_u5_s2_p1_behaviour_as_a_form_of_expression.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify a range of factors that may be associated with behaviour that challenges.
+  -
+    title: Factors that may be associated with challenging behaviour
+    theme: t-bg-primary
+    copy: |
+      Select the images below to read about factors that may be associated with challenging behaviour.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Function of a behaviour
+          copy: |
+            A behaviour is there to get attention, escape from something, gain access to something or is automatic or sensory.
+          img: placeholder_icon.svg
+        -
+          title: Attention
+          copy: |
+            When an individual engages in problem behaviour, they often seek attention directly or indirectly. Receiving attention after problem behaviour can increase the chances of it reoccurring.
+          img: placeholder_icon.svg
+        -
+          title: Escape
+          copy: |
+            Sometimes when an individual engages in behaviour that challenges, it can postpone or stop something they don’t like or want to do.
+          img: placeholder_icon.svg
+        -
+          title: Tangibles
+          copy: |
+            When an individual engages in problem behaviour they may get access to something they want like a drink or a toy or an activity.
+          img: placeholder_icon.svg
+        -
+          title: Automatic or sensory
+          copy: |
+            When an individual engages in behaviour that challenges, to have automatic access to sensory stimuli.
+          img: placeholder_icon.svg
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "individuals with autism often find behaviour is their main form communication, whether it's good or bad and it’s an expression of feelings and needs.":
+          answers:
+            True: true
+            False: false
+        What word may children with autism struggle with?:
+          answers:
+            Yes: false
+            No: true
+        Select one option to complete the following sentence:"In autism all behaviour has a functional element and behaviour that challenges are often described as communicating _____________. ":
+          answers:
+            negatively: false
+            badly: false
+            unmet needs: true

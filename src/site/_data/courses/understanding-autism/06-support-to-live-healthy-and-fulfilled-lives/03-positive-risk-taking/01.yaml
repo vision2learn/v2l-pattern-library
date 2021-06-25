@@ -1,0 +1,134 @@
+title: Positive risk taking
+intro: |
+  In this session you will learn about the purpose of positive risk taking, and how risk assessment can be used with individuals and others.
+banner: ua_u6_s3_p1_risk.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * Aspects of everyday life in which risk plays a part 
+      * The benefits individuals can gain from positive risk-taking
+      * How risk assessment can be used with individuals and others
+  -
+    title: Aspects of everyday life in which risk plays a part
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      People take risks every day and don’t even think about the implications, for example driving a car or travelling to work or school by bus. Risk can be defined as doing something that may cause injury, harm, loss or danger.  
+      
+      When individuals with autism take risks, these can have more implications, as things that can be seen as risks to them, others wouldn’t see as risks. Things such as budgeting and using money, planning, education and employment and daily living skills such as personal care, cooking, cleaning and shopping can all involve risks for individuals with autism. It is possible to minimise risk by preparing individuals in advance. 
+      
+      Supporting them to live independently or take part in daily activities means accepting those risks and preparing for them. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify aspects of everyday life in which risk plays a part.
+  -
+  -
+    title: Everyday things that may involve risk
+    theme: t-bg-primary
+    copy: |
+      Let’s have a look at some everyday things that may involve risk for individuals with autism.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Money
+          copy: |
+            Budgeting for themselves, being responsible for paying their own bills, carrying money around with them, spending wisely, and not being robbed or exploited.
+          img: placeholder_icon.svg
+        -
+          title: Cooking
+          copy: |
+            Cooking for and feeding themselves, risk of cutting or burning themselves, using food that is out of date, or dangerous to health, other health and safety issues.
+          img: placeholder_icon.svg
+        -
+          title: Dressing
+          copy: |
+            Putting on the right clothes correctly, wearing the appropriate combinations, not opening themselves to ridicule.
+          img: placeholder_icon.svg
+        -
+          title: Personal hygiene
+          copy: |
+            Making sure they keep clean and tidy, using the correct products, not flooding out their home or putting themselves in danger from health and safety issues
+          img: placeholder_icon.svg
+        -
+          title: Travelling
+          copy: |
+            Travelling on public transport, or walking around in public places, knowing where they are going or even driving themselves.
+          img: placeholder_icon.svg
+        -
+          title: Internet use
+          copy: |
+            Opening themselves up to opportunities for bullying and abuse and being taken advantage of or exploited.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to outline the benefits individuals can gain from positive risk-taking.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Benefits individuals can gain from positive risk-taking
+
+      Let’s look at some of the benefits individuals can gain from positive risk-taking
+    video: ua_u6_s3_p1_positive_risk_taking.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Supporting individuals with autism to take positive risks puts them more in control of their own lives. 
+          answer: positive risks
+        -
+          sentence: Risk is a necessary and important part of life for everyone, but we need to think about how risk affects those with autism and manage this risk. 
+          answer: manage
+        -
+          sentence: Carers can empower the individual to have a more fulfilling life through positive risk-taking.
+          answer: empower
+        -
+          sentence: There is still a need for safeguarding or duty of care with all risks that may be taken.
+          answer: safeguarding
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how risk assessment can be used with individuals and others.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at how risk assessment can be used with individuals with autism.
+    video: ua_u6_s3_p2_risk_assessment.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._

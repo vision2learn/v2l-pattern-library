@@ -614,12 +614,14 @@ button svg {
 
 .c-reveal-block {
 
+  //background-color: $secondary2;
+  //background-color: var(--secondary2);
   margin-bottom: 2em;
   display: flex;
   align-items: center;
   break-inside: avoid; // makes items flow nicely in CSS columns
 
-  .js & {
+  &.js-ok {
     display: block;
     position: relative;
     margin-bottom: 0;
@@ -661,7 +663,7 @@ button svg {
     width: 100px;
     height: 100px;
 
-    .js & {
+    .js-ok & {
       object-fit: cover;
     
       @supports(display: grid) {
@@ -1162,5 +1164,28 @@ h2.toggle-section::before {
     background-color:inherit; 
     max-width: 100%; //calc(100% - 2rem);
     flex: 1;
+  }
+}
+
+.c-vidgrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 1rem;
+  list-style: none;
+  margin-top: 1.5rem;
+  margin-top: calc(var(--flow) * 1rem);
+  padding: 0;
+  
+  > li {
+    flex: 1 1 270px;
+    padding: .5em; // fallback
+
+    @supports(gap: 1px) {
+      padding: 0;
+    }
+
+    > .l-video-container {
+      margin-top: .3rem !important;
+    }
   }
 }

@@ -1,0 +1,130 @@
+title: Recognise and support sensory needs
+intro: |
+  In this session you will learn how to support sensory needs looking at different environments and how to support individuals who may experience sensory overload. You will also learn about dietary preferences.
+banner: ua_u4_s2_p1_recognise.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The type of environments and situations that can cause an individual to experience sensory overload
+      * How individuals with autism may respond when experiencing sensory overload
+      * Strategies that can be used to support individuals experiencing sensory overload
+      * How to create a ‘low arousal’ sensory environment 
+      * Ways to increase sensory stimulation
+      * The benefits of sensory activities for individuals with autism 
+      * How sensory differences may have an influence on an individual’s dietary preferences
+      * How to support the dietary preferences of individuals with autism
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify examples of the type of environments and situations that might contribute to an individual experiencing sensory overload.
+  -
+    title: Environments and situations that may cause sensory overload
+    theme: t-bg-primary
+    copy: |
+      Let’s have a look at some environments and situations that we use every day that may cause an individual to experience sensory overload.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Home
+          text: |
+            In the home everyday sounds a family may create along with noise from white goods, TV’s or music systems can be problematic. Bright lights like fluorescents or TV screens, bright colours, patterned and textured textiles or wallpapers may pose problems. The smell of cooking, pets or cleaning products may also be an issue as well as clutter and overcrowded furniture.
+          img: ua_u4_s2_p1_slide1.svg
+        -
+          title: Education
+          text: |
+            In schools and colleges or even universities problems of bright or flashing lighting and mechanical sounds can cause issues along with digital equipment and other students. Canteens and public spaces can provide a great deal of problematic sensory stimuli especially smells.
+          img: ua_u4_s2_p1_slide2.svg
+        -
+          title: Public buildings
+          text: |
+            Public buildings can cause major issues with all stimuli but especially vision and sound. Textures, patterns, lights and smells are especially an issue in places such as hospitals. Also, by their nature public building are full of people who add to this.
+
+          img: ua_u4_s2_p1_slide3.svg
+        -
+          title: Workplace
+          text: |
+            Workplaces often involve machinery and lots of noise along with a variety of different smells related to the business or from a canteen. Lighting maybe an issue and overcrowded facilities may also cause problems.
+          img: ua_u4_s2_p1_slide4.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of how individuals with autism may respond when experiencing sensory overload.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How individuals with autism may respond when experiencing sensory overload
+
+      Let’s look at how individuals with autism may respond when experiencing sensory overload.
+    video: ua_u4_s2_p1_sensory_overload.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+
+      Let’s listen to someone with Autism’s experience of sensory difficulties.
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      1. Have you ever encountered an autistic individual who has suffered from sensory overload?
+      2. What was the scenario and how did it affect them?
+      3. What was the outcome of this?
+    video: ua_u4_s2_p1_interview_overload_group.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. Have you ever experienced sensory overload?
+      2. How has it affected you?
+      3. What was the outcome of this?
+
+    video: ua_u4_s2_p1_interview_overload.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Sensory overload happens when there is more input from the five senses than a brain can sort through and process":
+          answers:
+            True: true
+            False: false
+          feedback: Sensory overload happens when there is more input from the five senses than a brain can sort through and process, such as multiple conversations, flashing overhead lights, lots of music or loud noise.
+        Sensory overload in people with autism can mean them focusing on?:
+          answers:
+            What another person is talking about to them: false
+            The smallest most insignificant thing over other things: true
+        Select one option to complete the following sentence:"Individuals with autism may find focusing on one sense more of a problem, because they may suffer from _________________ and therefore things that might not normally cause sensory overload can seem much worse.":
+          answers:
+            proprioception: false
+            hyposensitivity: false
+            hypersensitivity: true
+          feedback: In most people the brain prioritises what sensory information to focus on, but with individuals in autism this is not straightforward.

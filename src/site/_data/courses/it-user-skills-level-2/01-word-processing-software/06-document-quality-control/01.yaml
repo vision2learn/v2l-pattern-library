@@ -1,0 +1,203 @@
+title: Quality control
+intro: |
+  In this session you will learn about the importance of quality control in documents. This covers a whole range of checks you can do before you print a document. These checks include spelling and grammar checks, proofreading, checking layout, language settings and image positioning.
+banner: it2_u1_s6_p1_review1.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Proofreading and correcting mistakes
+      * Dictionary and language settings
+      * Spell check
+      * Using Find and Replace
+      * Checking numbers and layout
+      * Print preview
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Why do you think that it is important to check your work for errors?
+  -
+  -
+    title: Some ideas. . .
+    theme: t-bg-primary3
+    copy: 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            It is important to check work for errors so that your work is:
+
+            * Professional
+            * Consistent
+            * Accurate
+            * High quality
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      When proofing your documents there are a number of key things that you should look for. These include:
+
+      * Spelling errors
+      * Grammatical errors
+      * Numerical errors
+      * Formatting of text and headings
+      * Line spacing
+      * Formatting of images / graphs / charts
+  -
+  -
+    title: Proofreading and correcting mistakes
+    theme: 
+    copy: |
+      When creating documents, it is important to make sure that your content is accurate. Your documents should always be professional, and any errors or inconsistencies will not give this impression.
+
+      While you may take great care when entering text and numbers in your document, you should always check the accuracy of your finished document. The best way to do this is to proofread your work. Remember! Proofreading is a specialist skill. See below to learn about some of the ways that you can improve your own proofreading skills.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        - 
+          title: Set enough time and use a checklist
+          text: |
+            Often, people don’t set enough time aside to check their work, and as a result it contains a number of mistakes. When you check a document, it’s important to set aside enough time to check every single element before it gets sent out or goes to print.
+
+            It can be useful to use a proofreading checklist to make sure you don’t forget anything.
+          img: it2_u1_s6_p1_slide2.svg
+        -
+          title: Numerical information
+          text: |
+            It’s really important to double-check numerical information such as the results of equations and calculations. It is also important to double-check numerical symbols, such as decimals points. By checking these things, you can ensure that a document is as error-free as possible.
+            
+            The best way to check calculations in your work is to use a calculator or Excel. Making sure the numbers are correct is really important for making sure your documents are accurate and professional.
+          img: it2_u1_s6_p1_slide4.svg
+        -
+          title: Layout and style
+          text: |
+            The final layout and style of your document may need to conform to particular guidelines set by the organisation that you are typing the document for. This is known as a *House style*. (You learned about house styles in session 3.)
+
+            House styles are really useful when checking the layout of documents, as they give you a point of reference to remind you of the style and structure you need to follow. When producing a document for an organisation, it’s really important to check it against the house style guidelines before you print it off.
+
+            By following the house style, you can help to ensure consistency in the formatting and layout of your documents.
+          img: it2_u1_s6_p1_slide5.svg
+        - 
+          title: Print preview
+          text: |
+            Check that your document is set at the right size and page orientation to be printed by clicking on the *Page Layout* tab and using the options in the *Page Setup* group.
+
+            To preview your document:
+            1. Click the *File* button.
+            2. Click the *Print* option.
+            3. Look to the right of your screen where you can preview each page of your document before you print it.
+
+          img: it2_u1_s6_p1_slide1.svg
+  -
+  -
+    title: Improving your work
+    theme: t-bg-primary
+    copy: |
+      Once you have identified strengths and weaknesses, it’s important to consider how you can improve your work. The first thing you should do is try and correct mistakes yourself, however you might not always be able to do this by yourself. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Correcting mistakes
+          text: |
+            Making changes to the format, style, structure or layout aspects of your work can help to make your work more clear. This could be by changing a font size / colour to make it more readable, or restructuring a page so that it is in a logical order.
+
+            You can improve the quality and accuracy of your work using tools like S*pell Check*, and the *Excel Error Checker*. Using *Print preview* and proofreading your finished work can also help. 
+          img: it2_u1_s6_p1_ipu_slide1.svg
+        -
+          title: Working with others
+          text: |
+            When you’re working with other people, it’s really important that you keep everyone informed of the changes that need to be made.
+
+            Feedback is really important and if people don’t know that changes are being made, they can’t help you with them! 
+          img: it2_u1_s6_p1_ipu_slide2.svg
+        -
+          title: Working with others - Limited time for improvements
+          text: |
+            If you don’t have much time to make the improvements, it can be useful to get other people to help you make them!
+
+            For example, say you needed to completely reorganise a financial report. This is a big task and if different people worked on different sections, then it could help you to complete the report in time! 
+          img: it2_u1_s6_p1_ipu_slide3.svg
+        -
+          title: Working with others - Its a team outcome
+          text: |
+            If the task has been completed by a number of people, then the outcome is a team effort. In this case, it may be useful to delegate any improvements depending on who has completed which part of the task.
+            
+            For example, the formatting needed to be improved in a sales presentation, the person who is responsible for this should be the one to improve it. Similarly, if the graphs used in the presentation need to be improved, the person with the technical ability to do this should be the one to make the changes. 
+          img: it2_u1_s6_p1_ipu_slide4.svg
+        -
+          title: Improving efficiency and effectiveness
+          text: |
+            A great way of improving your work is to find more effective and efficient ways of doing things. This will leave you with more time to concentrate on improving content, proofreading and seeing what other people think of your work.
+          img: it2_u1_s6_p1_ipu_slide5.svg
+        -
+          title: Training
+          text: |
+            There may be occasions when there is a task or a project that you would like to be involved in but don't currently have the required skills.  Completing training to improve your skill-set will enable you to undertake new projects and tasks and improve your productivity and efficiency.
+          img: it2_u1_s6_p1_ipu_slide6.svg
+  -
+  -
+    title: Reviewing outcomes
+    theme: t-bg-supporting2
+    copy: |
+      Once you have identified the strengths and weakness of your final outcome, and have made any changes that you need to, you can review the outcome of the task – has it been successful?
+
+      Once you think that you have finished a task, you should review your final outcome so that you can judge how successful it was, and how it has affected other people. 
+      Select the images below to learn more. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Quality of information
+          copy: |
+            The quality of your final outcome is really important. When assessing the quality of information used you could ask yourself:
+            * Has the quality of information improved now that you have made changes?
+            * Is the information given of a high enough standard?
+            * Is the task still fit for purpose?
+
+          img: it2_u1_s6_p1_ipu_reveal1.svg
+        -
+          title: Drafing
+          copy: |
+            A good way of reviewing your final outcome is to compare it to drafts that you have created before you finished the final task. Ask yourself three key questions:
+            * Did you complete drafts?
+            * Should you have?
+            * Has the drafting process helped you to minimise mistakes?
+
+          img: it2_u1_s6_p1_ipu_reveal2.svg
+        -
+          title: Original plan comparison
+          copy: |
+            Take a look at your final task alongside the original plans and ask yourself the following questions:
+            * Does the outcome of the task do everything that it is supposed to?
+            * Have you sacrificed some parts of the plan in order to meet deadlines?
+
+          img: it2_u1_s6_p1_ipu_reveal3.svg
+        -
+          title: Check with audience
+          copy: |
+            You can check with the audience to see whether the task has been completed effectively, for example could the outcome of a presentation be improved. Two key questions you could ask yourself: 
+            1. Are the audience happy with the outcome? 
+            2. Did you get it to them within the timescale?
+
+          img: it2_u1_s6_p1_ipu_reveal4.svg
+        -
+          title: Effect of mistakes
+          copy: |
+            You should review any mistakes that have been made and the effect they have on the task. Two key questions you could ask yourself:
+            * Did you make any mistakes during your completion of the task?
+            * How did these tasks impact on the final outcome of the task?
+
+          img: it2_u1_s6_p1_ipu_reveal5.svg

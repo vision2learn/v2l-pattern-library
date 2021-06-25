@@ -11,6 +11,10 @@
     the next unit or we're done
   #}
 
+{% set folders = pagination.data | folders %}
+
+{% set module = courses[folders.course][folders.unit][folders.session][moduleNum] %}
+
 {%- set tilde = "~" if site.env == "dotnet" -%}
 
 {%- set unitNameFilter = "0" + unit -%}
@@ -18,18 +22,18 @@
 
 {%- set unitData = courses[course] | courseinfo %}
 {%- set thisUnit = unitData.keysOrdered[unit - 1] %}
-{%- set unitName = thisUnit | replace(unitNameFilter, "") | trim | capitalize -%}
+{%- set unitName = thisUnit | replace(unitNameFilter, "") | replace("-", " ") | trim | capitalize -%}
 {%- set sessionData = courses[course][thisUnit] | courseinfo -%}
 {%- set thisSession = sessionData.keysOrdered[session - 1] %}
-{%- set sessionName = thisSession | replace(sessionNameFilter, "") | trim | capitalize -%}
-
+{%- set sessionName = thisSession | replace(sessionNameFilter, "") | replace("-", " ") | trim | capitalize -%}
+{%- set coursename = course -%}
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%}
 
-{% if shortcode !== 'it2' %}
-  {% set timeToWhat = 'Think'%}
-{% else %}
+{% if shortcode == 'it2' or shortcode == 'it1' %}
   {% set timeToWhat = 'Practice'%}
+{% else %}
+  {% set timeToWhat = 'Think'%}
 {% endif %}
 
 {%- if (session) < sessionCount %}
@@ -46,7 +50,7 @@
 
 <!-- course-rev -->
 {# BANNER #}
-{%- include 'banner.njk' %}
+{%- include 'components/banner.njk' %}
 {# /BANNER #}
 
 {%- if pagination.pageNumber == 0 and session == 1 %}
@@ -63,6 +67,7 @@
   {%- include 'page-chunks/unit1_session1_page2.njk' %}
 {%- else %}
   {# NORMAL PAGES #}
+  <!-- sections.njk -->
   {%- include 'page-chunks/sections.njk' %}
   <!-- sections -->
   {%- if lastPage %}

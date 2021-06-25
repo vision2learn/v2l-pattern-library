@@ -16,17 +16,18 @@
 {% endif %}
 
 <section>
-  <h2>Course features </h2>
+  <h2>Course features</h2>
   {%- if not courseFeatures -%}
     {%- include "components/reveal.njk" %}
   {% else %}
     {# TODO: DRY this  #}
     <ul class="l-icon-grid">
       {%- for feature in courseFeatures %}
+        {%- set featureCapitalized = feature | capitalize -%}
         {{ components.reveal({
-            heading: feature, 
-            copy: defaultdata.courseFeatures[feature].copy, 
-            image: "course-features/" + defaultdata.courseFeatures[feature].img
+            heading: featureCapitalized, 
+            copy: defaultdata.courseFeatures[featureCapitalized].copy, 
+            image: "course-features/" + defaultdata.courseFeatures[featureCapitalized].img
         }, site.env) }}
       {%- endfor %}
     </ul>
