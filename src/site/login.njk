@@ -1,23 +1,10 @@
 ---
-# layout: prototype.njk
+layout: longform.njk
 permalink: /login/index.html
 ---
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <style>
-  html,
-  body,
-  .l-wrapper {
-    height: 100%;
-  }
-
-  .l-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1;
-    align-content: start;
-  }
+  
 
   img {
     display: block;
@@ -31,7 +18,7 @@ permalink: /login/index.html
 
 <section>
   <h2>Please log in to view the course preview</h2>
-  <div data-netlify-identity-button></div>
+  <div class="button" data-netlify-identity-button></div>
 
   <h3>Submitting Feedback</h3>
 
@@ -47,15 +34,6 @@ permalink: /login/index.html
   </div>
 
   <p>
-    <a class="button" href="/courses/it-user-skills-level-2/unit-1/session-1/1" target="_blank">Proceed to IT Level 2 Unit 1</a>
-  </p>
-  <p>
-    <a class="button" href="/courses/it-user-skills-level-2/unit-2/session-1/1" target="_blank">Proceed to IT Level 2 Unit 2</a>
-  </p>
-  <p>
-    <a class="button" href="/courses/it-user-skills-level-2/unit-3/session-1/1" target="_blank">Proceed to IT Level 2 Unit 3</a>
-  </p>
-  <p>
-    <small>Site updated: {{ site.date().build }}</small>
+    <a class="button" href="/courses/understanding-autism/1/1/1" target="_blank">Proceed to Course</a>
   </p>
 </section>
