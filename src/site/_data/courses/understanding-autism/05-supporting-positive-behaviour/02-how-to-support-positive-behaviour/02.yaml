@@ -102,10 +102,12 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - interview with a professional or a parent about positive behaviour support._
-      
-      let’s hear more about positive behaviour support.
-    video: placeholder_pc.mp4
+      ### Interview with professionals / key workers
+
+      Please see the following interview video of professionals' responses to the following question:
+
+      How have you used positive behavioural support to help an individual with autism?
+    video: ua_u5_s2_p2_interview_behavioural.mp4
   -
   -
     title: Time to think
