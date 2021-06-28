@@ -42,11 +42,13 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Activity - Activity and Energy
+    title: Activity - Energy requirements and weight
     layout: media
     theme: t-bg-primary2
     copy: |
-      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp  ALSO include Case Study (Belinda and Dan) from S3 old P3_
+      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp
+
+      Include calories and weight.
 
       Select the following icon to . . .
 
@@ -58,6 +60,8 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
+      1.9 LO
+
       It’s important to understand the different factors that can affect a person’s energy requirements.
   - 
   -
@@ -71,7 +75,7 @@ sections:
       links:
         NHS Active Lifestyle: http://www.nhs.uk/Livewell/fitness/Pages/activelifestyle.aspx    
   -
-    title: Knowing what you need
+    title: What affects energy requirements?
     theme: t-bg-supporting3
     copy: |
        Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
@@ -108,13 +112,13 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Calories from protein
+      Gerry is 40 lbs overweight. His PAL is around 1.5. His BMR is 2200 calories per day and his total energy requirement is 3300 calories. However, he eats about 4000 calories every day. He is continuing to put on weight.
 
-      Belinda is doing some research into the amount of calories that she and her friends should be getting from protein.
+      Gerry wants to lose weight. He starts by increasing his exercise regime so that his PAL is 1.8. This means his energy requirement becomes:
 
-      Belinda determines, as a result of her lifestyle, that 15% of her calorie intake should come from protein. Her friend Dan is an aspiring footballer. She works out that 25% of his calories should come from protein.
+      2200 x 1.8 = 3960 calories
 
-      Dan’s brother is a professional boxer. His trainer has told him that 30% of his calories should come from protein. This is because the physical demands on his body are much larger than Belinda or Dan. 
+      If Gerry keeps on eating the same amount but increases his activity level, he will more or less stop putting on weight. However, if he decided to eat 10% (400 calories per day) less he would lose about 1 lb. every 9 days. In a year this will be close to his target weight!
 
     img: /images/svg/placeholder_icon.svg
   -
