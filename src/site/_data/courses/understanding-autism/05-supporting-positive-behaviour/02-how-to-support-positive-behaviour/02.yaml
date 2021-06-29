@@ -62,68 +62,15 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to outline approaches that could be used to support positive behaviour.
-  -
-  -
-    title: Approaches that could be used to support positive behaviour
-    theme: t-bg-primary
-    copy: |
-      The overall aim of Positive Behaviour Support is to provide right support for a person, their family and friends to help people lead a meaningful life and learn new skills without unnecessary restrictions. It is not simply about getting rid of problematic behaviour, it is based on manipulating or changing what is going on before or after the behaviour occurs, to prevent it from occurring, or to stop that behaviour working for the individual.
-
-      Let’s look at approaches that can be used with individuals with autism to support positive behaviour
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Celebrate strengths
-          copy: |
-            Celebrate and build on their strengths and successes and letting them know what they do well.
-          img: placeholder_icon.svg
-        -
-          title: Respect
-          copy: |
-            They should be respected and listen to verbally or via communication through their choices or actions.
-          img: placeholder_icon.svg
-        -
-          title: Validate concerns
-          copy: |
-            Validate their concerns and emotions and don’t brush aside any fears they may have.
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
+    title: Stretch - weblink
     layout: media
+    theme: t-bg-primary2 i-stretch
     copy: |
-      ### Interview with professionals / key workers
+      ###  Proactive and reactive strategies
 
-      Please see the following interview video of professionals' responses to the following question:
+      Select the button to the right which will take to a website where you can learn more about this topic.
 
-      How have you used positive behavioural support to help an individual with autism?
-    video: ua_u5_s2_p2_interview_behavioural.mp4
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about positive behaviour support planning.
-
-      links:
-        Positive behaviour support plan: https://www.challengingbehaviour.org.uk/understanding-challenging-behaviour/what-is-challenging-behaviour/resource-positive-behaviour-support-planning-part-3/
+    img: /images/svg/stretch_button.svg
+    link: https://adventuresinlearningtechnology.com/portfolio/supporting-positive-behaviour-in-individuals-with-autism/2/
