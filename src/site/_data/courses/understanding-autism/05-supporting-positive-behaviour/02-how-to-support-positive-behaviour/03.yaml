@@ -15,7 +15,7 @@ sections:
     copy: |
       The overall aim of Positive Behaviour Support is to provide right support for a person, their family and friends to help people lead a meaningful life and learn new skills without unnecessary restrictions. It is not simply about getting rid of problematic behaviour, it is based on manipulating or changing what is going on before or after the behaviour occurs, to prevent it from occurring, or to stop that behaviour working for the individual.
 
-      Let’s look at approaches that can be used with individuals with autism to support positive behaviour
+      Let’s look at approaches that can be used with individuals with autism to support positive behaviour.
 
     subInc: 
       type: reveal
@@ -62,11 +62,11 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Positive behaviours that are desirable are recognised.
+          sentence: Positive behaviours that are desirable are recognised and reinforced.
           answer: recognised
         -
-          sentence: Positive behaviours that are desirable are reinforced.
-          answer: reinforced
+          sentence: A care worker could maintain a positive demeanour which can encourage the individual with autism to mirror the behaviour and reduce anxiety.
+          answer: positive demeanour
         -
           sentence: Rewards could be given to reinforce and encourage further positive behaviour.
           answer: Rewards
