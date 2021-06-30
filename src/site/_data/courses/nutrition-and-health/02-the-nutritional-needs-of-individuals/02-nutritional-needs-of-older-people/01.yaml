@@ -1,6 +1,6 @@
-title: title
+title: Nutritional needs of older people
 intro: |
-  In this Session we’ll look at 
+  In this Session, we’ll look at the nutritional needs of older people.
    
 banner: placeholder.jpg
 sections:
@@ -8,7 +8,173 @@ sections:
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this session you will learn how to: 
-      * one
-      * two
+      In this Session, you will learn how the nutritional needs of individuals can vary, this will include:
+
+      * Planning balanced meals and snacks for older people
+      * Explaining why the chosen meals and snacks are appropriate
+      * Factors influencing energy requirements of older people
+      * Reasons why older people get malnutrition
+      * The nutritional recommendations for older people
+  -
+  
+    title: Circumstances affect meals, food and nutrition
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Circumstances play a big part in how older people satisfy their nutritional needs
+
+      Some older people:
+      * Live alone
+      * Rely on family and friends for support
+      * Rely on meal delivery services
+      * Are in care homes
+      * Are immobile
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Energy requirements over time
+    theme: 
+    copy: |
+      This shows the estimated average requirements for energy. These were set by the Committee on Medical Aspects of Food and Nutrition Policy in 1991.
+
+      As you can see, people over 65 need less energy than teenagers but more than children. As well as needing different amounts of energy, people also need different types of nutrients at different stages of life.
+
+      ![](/images/banners/nh/placeholder.jpg)
+      
+      _ID note:  This could be an interactive graph similiar to the one in Session 1_
+  -
+  -
+    title: Planning meals for older people
+    theme: t-bg-supporting3
+    copy: |
+      Planning meals and snacks is the best way to ensure an older person is getting all the nutrients they need in their diet.
+
+      Click on the example meal plans to find out what you need to know to put together a really good meal plan. The numbers in brackets represent the number of servings.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Suggested meal plan for an older person
+          copy: |
+            
+            | Meal | Menu | Which food groups? |
+            |------|------|------|
+            | Early morning | Tea or coffee (with semi-skimmed milk) | Dairy (1) |
+            | Breakfast | Toast, butter and jam | Carbohydrates (1) |
+            | Snacks | 1 medium banana | Dairy (1), Fruit (1) |
+            | Lunch | Poached Salmon, chips made with sweet potatoes, green beans, asparagus & Greek yoghurt with berries | Protein (1), Carbohydrates (2), Vegetables (2), Dairy (1), Fruit (1) |
+            | Snacks | Rice pudding | Carbohydrates (1)  |
+            | Dinner | Tuna salad and jacket potato | Vegetables (1), Carbohydrates (1), Protein (1)|
+            | Night time snack | Hot drink (tea, coffee, hot chocolate, malted milk drink or Ovaltine) and biscuits | Dairy (1) |
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of anything else that would be appropriate for an older person, i.e. could they have porridge for breakfast? Write your ideas in the box to the right.
+  -
+  -
+    title: Remember
+    theme: 
+    copy: |
+      Remember, their daily intake should follow the daily guidelines below:
+
+      ![](/images/banners/nh/placeholder.jpg)
+      
+      _ID note:  A Pie chart with daily guidelines - this could be interactive so it gives the information when they click on the pieces of the pie - reference s2, p5 of old course for content_
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Pay close attention to the suggested meal plan as you will be asked to write your own in the Assessment.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more tips on meal planning for older people go to:
+
+      links:
+        Meal Plans Site: http://www.mealplansite.com/age.aspx    
+        Age UK: http://www.ageuk.org.uk/health-wellbeing/healthy-eating-landing/healthy-eating-overview/ 
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Carter and Aisha
+
+      _ID note: PLACEHOLDER - quite a lot of information includes a Time to Think and Web - to discuss further - could have a separate page like the one in Lean?_
+  -
+  -
+    title: Planning meals for older people 
+    theme: t-bg-primary
+    copy: 
+      In Session 1 you learned about planning meals for children and young people. Even though their nutritional needs are different you can apply the same principles – balance and variety – to meal planning for older people.
+
+      You should try to understand an older person’s nutritional requirements when planning their meals.
+
+      As always, the emphasis should be on good eating habits. However, there are a few additional areas where older people should take extra care. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Salt
+          text: |
+            Older people should monitor salt intake and eat less than 6g per day. Some older people have a reduced sense of taste and try and compensate for this by adding salt. This can be dangerous because excessive consumption of salt can lead to health problems. 
+          img: placeholder_icon.svg
+        -
+          title: Calcium
+          text: |
+            People lose bone mass as they get older, so eating calcium-rich food is very important. Older people are more prone to osteoporosis (where bones lose an excessive amount of protein, mineral content and calcium). Eating calcium-rich food, such as milk, yoghurt, cheese, tuna and salmon, can help people who suffer from this condition to manage it, often without the need for medicine. 
+          img: placeholder_icon.svg
+        -
+          title: B vitamins
+          text: |
+            Vitamins B6, B12 and folic acid make a significant contribution to health and well-being. Sources of vitamin B6 include fortified cereals, beans, poultry, fish and some fruit and vegetables. Vitamin B12 can be found in animal products and fortified cereals. Folic acid can be found in fruit and vegetables, wholegrains, beans and fortified cereals. 
+          img: placeholder_icon.svg
+        -
+          title: Hydration
+          text: |
+            Older people may not take on enough fluid to satisfy their body’s need for hydration. Care should be taken to consume plenty of water and other non-alcoholic drinks. As a rule, a person should drink at least 8 glasses of fluid per day – more if it is hot or if they are doing any form of exercise. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A glass of milk is high in calcium.
+          answer: calcium
+        -
+          sentence: Salami is high in salt.
+          answer: salt
+        -
+          sentence: Red kidney beans are high in calcium.
+          answer: calcium
+        -
+          sentence: Watercress is high in calcium.
+          answer: calcium
+        -
+          sentence: Olives are high in salt.
+          answer: salt
+        -
+          sentence: Salmon is high in calcium.
+          answer: calcium
+        -
+          sentence: Bacon is high in salt.
+          answer: salt
+        -
+          sentence: Prawns are high in salt.
+          answer: salt
+    theme: i-quiz
   -
