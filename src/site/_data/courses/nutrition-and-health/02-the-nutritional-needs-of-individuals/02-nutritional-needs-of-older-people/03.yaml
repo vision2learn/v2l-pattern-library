@@ -1,16 +1,76 @@
-title: TEMPLATE PAGE
+title: Energy requirements and malnutrition risk
 intro: |
-  ### TEMPLATE PAGE
-  On this page you will learn about: 
-  * point 1
-  *  
+  On this page you will learn about the energy requirements of older people and the risk of malnutrition for older people.
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
-    layout: media
+    title: Energy requirements of older people
     theme: t-bg-primary
-    copy: |
-      ### Title
+    copy: |      
+      Calorie needs decline the older you get!
+      * At the age of 59 years, males need around 2550 calories and females need 1940 calories.
+      * By the age of 64, a man will need 2380 calories and a woman around 1900.
+      * When they are 75 or older males will need 2100 and females will need 1810 calories.
 
-    img: /images/svg/placeholder_icon.svg
+      Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Physical changes
+          text: |
+            As people grow older their physical powers diminish. For example the heart becomes slower, arteries stiffen, bones shrink in size and density, muscles lose strength and flexibility, coordination diminishes and eyesight may worsen. These and other age related changes may result in lower levels of activity and consequently lower energy requirements. 
+          img: placeholder_icon.svg
+        -
+          title: Employment changes
+          text: |
+            When people are employed, their daily work routine will naturally involve some physical activity. As people retire, it is likely that their activity levels will fall significantly. As activity levels fall, so too will the energy requirements. 
+          img: placeholder_icon.svg
+        -
+          title: Social and cultural changes
+          text: |
+            n society there is a general expectation that as people get older they become far less active. This is reflected in the early compulsory retirement age imposed by the government or the stereotype of old people requiring wheelchairs and walking sticks to get around. More recently, social attitudes have changed and older people are now encouraged to increase their activity levels although this is not always possible. 
+          img: placeholder_icon.svg
+        -
+          title: Summary
+          text: |
+            These changes come together, meaning that older people need to eat far fewer calories than younger people.
+
+            Older people need to make sure that they keep active and acknowledge that cutting food consumption does not lead to the loss of important nutrients. Often, when older people eat less they risk not getting enough fibre, vitamins or minerals.
+
+            Although older people do require fewer calories, it is important that older people continue to have a healthy, balanced and varied diet. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The risk of malnutrition for older people
+
+       There is a lot of evidence to show that older people can suffer from malnutrition as a result of having a poor diet. Watch the following video to learn about the potential causes of malnutrition for older people. 
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _Question about the video content relating to the LO?_  
+        
+        Write your ideas in the box to the right.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your Unit 2 Assessment, you will need to describe reasons why older people may be at risk of malnutrition. The materials on this page will help you to do this. 
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      With so many factors influencing diets and potentially leading to malnutrition, it is important that the diet and well-being of older people is carefully monitored. 

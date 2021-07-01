@@ -87,32 +87,6 @@ sections:
       _ID note:  A Pie chart with daily guidelines - this could be interactive so it gives the information when they click on the pieces of the pie - reference s2, p5 of old course for content_
   -
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      Pay close attention to the suggested meal plan as you will be asked to write your own in the Assessment.
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        For more tips on meal planning for older people go to:
-
-      links:
-        Meal Plans Site: http://www.mealplansite.com/age.aspx    
-        Age UK: http://www.ageuk.org.uk/health-wellbeing/healthy-eating-landing/healthy-eating-overview/ 
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - Carter and Aisha
-
-      _ID note: PLACEHOLDER - quite a lot of information includes a Time to Think and Web - to discuss further - could have a separate page like the one in Lean?_
-  -
-  -
     title: Planning meals for older people 
     theme: t-bg-primary
     copy: 
@@ -177,4 +151,22 @@ sections:
           sentence: Prawns are high in salt.
           answer: salt
     theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Pay close attention to the suggested meal plan as you will be asked to write your own in the Assessment.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more tips on meal planning for older people go to:
+
+      links:
+        Meal Plans Site: http://www.mealplansite.com/age.aspx    
+        Age UK: http://www.ageuk.org.uk/health-wellbeing/healthy-eating-landing/healthy-eating-overview/ 
   -
