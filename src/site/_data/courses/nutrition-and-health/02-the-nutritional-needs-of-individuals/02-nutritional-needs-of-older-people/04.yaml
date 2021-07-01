@@ -17,18 +17,41 @@ sections:
       * The nutritional recommendations for older people
       
       Take a look at the following learning points to see a summary of what you have covered in this session:
-      * one
-      * two
+      
     subInc: 
       type: accordion
       content:
         - 
-          title: one
+          title: Characteristics of a healthy diet
           copy: |
-            * one
-            * two
+            * Energy (calories)
+            * The five food groups
+            * Healthy balancey
+            * Appropriate meal plans
         -
-          title: two
+          title: Key nutrients
           copy: |
-            * one
-            * two
+            * 
+            Why they’re needed
+            Where they can be found
+
+        -
+          title: Risks for older people
+          copy: |
+            Why people don’t get the nutrition they need
+
+            * Others preparing meals
+            * Eating alone
+            * Neurological problems
+            * Physical infirmity
+            * Psychological problems
+            * Drug regimes
+            * Nutritional ignorance
+            * Economic changes
+            * Access to food
+
+            What a lack of nutrition leads to
+
+            * Illness and medical problems
+            * Weaker bones and muscles
+            * Less energy

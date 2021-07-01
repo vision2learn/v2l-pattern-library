@@ -1,29 +1,61 @@
-title: What did you learn? 
+title: Preparing food for others
 intro: |
-  Well done, you’ve now completed the third session of this unit! In this session you have learnt about 
-  
-banner: summary.jpg
+  When people have specific dietary requirements it’s important that we are aware of them when preparing food. If people are served food that they do not usually include in their diet, this can have many consequences, such as serious health problems or being disrespectful of religion, values and/or beliefs. 
+banner: placeholder.jpg
 sections:
   -
-    title: Summary and learning points
-    theme: t-bg-primary
+    title: What are the consequences?
+    theme: t-bg-supporting2
     copy: |
-      In this Session you have learnt about . You have learnt about:
-      * one
-      
-      Take a look at the following learning points to see a summary of what you have covered in this session:
-      * one
-      * two
+      If you are preparing food for someone that you do not know well, it is important to find out their dietary requirements. You can do this by asking them some questions about their diet. Click the thought bubbles to see some examples: 
+
     subInc: 
-      type: accordion
+      type: reveal
       content:
-        - 
-          title: one
-          copy: |
-            * one
-            * two
         -
-          title: two
+          title: Food not eaten
           copy: |
-            * one
-            * two
+            Are there any foods that you do not eat?
+
+          img: placeholder_icon.svg
+        -
+          title: Food preparation
+          copy: |            
+            Do you need food to be prepared in a certain way?
+
+          img: placeholder_icon.svg
+        -
+          title: Other considerations
+          copy: |            
+            Are there any other considerations that I should take into account?
+
+          img: placeholder_icon.svg
+    copy2: |
+      These questions can help you to determine whether the person has any dietary requirements due to their health, religious or personal beliefs. When you are buying the food check the ingredients label carefully. 
+      
+      When you are preparing the food it is important that you avoid any cross-contamination, either by your hands or the utensils you are using.   
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Preparing food for others
+
+      The following case study shows the importance of keeping peoples’ needs in mind at all times when preparing food.
+
+      Jenny was cooking chips for herself, a vegetarian friend and a Jewish friend. Normally, Jenny would fry her chips in lard (pig fat). However, her normal cooking habits will not be acceptable on this occasion, as chips fried in lard are not suitable for a vegetarian or a Jew. Jenny decides to use vegetable oil instead. 
+  
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your Unit 2 Assessment you will be expected to understand what precautions you need to take when preparing food for a person with specific dietary requirements. 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Prepare a checklist that you could use when preparing food for people with different requirements and preferences. It could include short notes on allergens, beliefs and preferences.   Make a quick list of your thoughts in the box to the right.
+  -
