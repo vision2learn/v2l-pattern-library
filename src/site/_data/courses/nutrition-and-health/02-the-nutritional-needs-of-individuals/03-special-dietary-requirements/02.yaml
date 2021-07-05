@@ -1,16 +1,96 @@
-title: TEMPLATE PAGE
+title: Religious groups and food
 intro: |
-  ### TEMPLATE PAGE
-  On this page you will learn about: 
-  * point 1
-  *  
+   People choose to cut out certain foods for many reasons. The religious group that a person belongs to can have a significant influence on what they do and do not eat. 
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
-    layout: media
+    title: Religious groups
     theme: t-bg-primary
     copy: |
-      ### Title
+      Many groups have very strict rules on which foods may be eaten and when. Scroll through the slides below to learn more.
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Jew
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Sikh
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Hindu
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Muslim
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Buddhist
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Religions and food
+
+      Students at a school in London have decided to investigate the things that different religions believe about food. They investigated Buddhism, Christianity, Hinduism, Islam and Judaism. 
+      
+      Once the research was complete, the students discovered that there were a number of dietary differences between and within the different religions. It’s important to understand and respect the dietary choices of other people, as it can help to support and promote diversity and differences in dietary preferences. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Case study - Religions and food
+
+      Take a look at the following video to see their findings.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: Try this quiz to see how much you have learnt so far about the special dietary requirements of religious groups.
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "There are no special dietary rules in Christianity and Buddhism.":
+          answers:
+            True: true
+            False: false
+        Halal food is consumed by members of which religion?:
+          answers:
+            Judaism: false
+            Hinduism: false
+            Islam: true
+        What is Ramadam?:
+          answers:
+            A day when Jews fast and pray: false
+            A period of fasting in the Islamic calendar: true
+            A period when Christians fast before Easter: false
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      When it comes to completing your Assessment, you will need to know about the special dietary requirements of religious and ethnic groups. The information on this page will help you to do this.
+  -

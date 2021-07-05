@@ -1,16 +1,69 @@
-title: TEMPLATE PAGE
+title: Nutritional needs of older people
 intro: |
-  ### TEMPLATE PAGE
-  On this page you will learn about: 
-  * point 1
-  *  
+  On this page we will look at a case study to explore this topic in more detail.
+   
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
-    layout: media
-    theme: t-bg-primary
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
     copy: |
-      ### Title
+      ### Case study - Carter and Aisha
 
-    img: /images/svg/placeholder_icon.svg
+      Carter and Aisha have become concerned about Carter’s elderly aunt, Mrs Williams. She was unwell and was told by the doctor that she risked being malnourished. Carter has offered to look into the problems faced by elderly people in their diets to help his aunt. 
+  -
+  -
+    title: Common problems for elderly people
+    theme: t-bg-primary1a
+    copy: |
+      Carter discovered that some of the most common problems for elderly people were: 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Constipation and digestive problems
+          copy: |
+            These are common problems for older people. Eating a fibre rich diet can help to alleviate these problems.
+          img: placeholder_icon.svg
+        -
+          title: Osteoporosis
+          copy: |
+            This is a health issue that many older people experience, especially women. It happens when bone density decreases and can lead to fractures. Eating enough calcium and vitamin D can help with this; however eating too much vitamin A can make things much worse. 
+          img: placeholder_icon.svg
+        -
+          title: Significantly less energy
+          copy: |
+            People often feel that they have less energy as they get older. This is sometimes caused by a lack of iron. 
+          img: placeholder_icon.svg
+    copy2: |
+      Carter looks at Mrs Williams’ diet and discovers that she does consume plenty of milk, cheese and dairy. She also gets enough vitamin D by eating oily fish and fortified spreads. Despite this, Mrs Williams did appear to lack energy and said that she suffered from mild constipation.
+
+      Carter gave Mrs Williams a series of key pointers on keeping her diet healthy:
+
+      * Eat fibre rich foods such as breakfast cereals and wholemeal bread
+      * Eat iron rich foods such as beans, lentils, sardines and spinach.
+      
+      By eating these foods more often, Mrs Williams can help to reduce some of the problems she is having and ensure that she is eating healthily. 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In box to the right try to think of some other fibre - or iron-rich foods Mrs Williams could eat to increase her intake.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more tips on meal planning for older people go to:
+
+      links:
+        High fibre diets: http://www.bbcgoodfood.com/howto/guide/spotlight-high-fibre-diets
+  -
+  -

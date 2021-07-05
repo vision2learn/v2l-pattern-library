@@ -1,0 +1,73 @@
+title: What did you learn? 
+intro: |
+  Well done, you’ve now completed the third session of this unit! In this session you have learnt about 
+  
+banner: summary.jpg
+sections:
+  -
+    title: Summary and learning points
+    theme: t-bg-primary
+    copy: |
+      In this Session, you have learnt about different values and beliefs and how they can affect what people eat or don't eat. You have learnt about:
+
+      * Special dietary requirements for various religious / ethnic groups
+      * Different types of vegetarian diet
+      * Preparing food for people who have specific dietary requirements
+      
+      Take a look at the following learning points to see a summary of what you have covered in this session:
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Religious influences
+          copy: |
+            Religions in this unit
+
+            * Jew
+            * Sikh
+            * Hindu
+            * Muslim
+            * Buddhist
+            * Christian
+
+            Religion and food
+
+            * Forbidden foods
+            * Food beliefs
+            * Feasting and fasting
+
+        -
+          title: Cultural influences
+          copy: |
+            Cultural variation
+
+            * Climate
+            * Geography
+            * Culture
+
+            Cultural diversity
+
+            * Familiarity and travel
+
+        -
+          title: Vegetarian
+          copy: |
+            The different types of vegetarian
+
+            * Demi-vegetarian
+            * Pescatarian
+            * Lacto-ovo-vegetarian
+            * Lacto-vegitarian
+            * Ovo-vegitarian
+            * Fruitarians
+            * Vegan
+            * Raw vegetarian/vegan
+
+            Nutrients vegetarians need to monitor
+
+            * Calcium
+            * Vitamin D
+            * Iron
+            * Vitamin B12
+            * Omega-3 fatty acids
