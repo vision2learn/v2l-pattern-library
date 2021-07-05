@@ -53,14 +53,14 @@ jobs:
           # Artifact name
           name: cshtml_files # optional, default is artifact
           # A file, directory or wildcard pattern that describes what to upload
-          path: dist/dotnet.tar
+          path: dotnet.tar
       - name: Upload Build Assets
         uses: actions/upload-artifact@v2.2.4
         with:
           # Artifact name
           name: assets # optional, default is artifact
           # A file, directory or wildcard pattern that describes what to upload
-          path: dist/assets.tar
+          path: assets.tar
       
 
 
