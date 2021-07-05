@@ -22,5 +22,14 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ~/.npm
-          key: v1-npm-deps-${{ hashFiles('**/package-lock.json') }}
+          key: v1-npm-deps-${{ hashFiles('**/yarn-lock.json') }}
           restore-keys: v1-npm-deps-
+      - name: Build site
+        run: yarn dotnet 
+      - name: Post-build amends
+        run: |
+          find dist/dotnet -name '*.cshtml'
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="http://_href="//_g' "{}" \;
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_src="/images_src="~/images_g' "{}" \;
