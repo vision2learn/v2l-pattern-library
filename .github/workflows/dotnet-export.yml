@@ -1,3 +1,4 @@
+name: .NET Export
 on:
   workflow_dispatch:
   
@@ -44,7 +45,8 @@ jobs:
           cp -R --strip-trailing-slashes dist/pdfs dist/assets/pdfs
           cp -R --strip-trailing-slashes dist/documents dist/assets/documents
           tar -cvf dotnet.tar dist/dotnet
-          tar -cvf assets.tar dist/assets        
+          tar -cvf assets.tar dist/assets
+          ls -la     
       - name: Upload .NET Pages
         uses: actions/upload-artifact@v2.2.4
         with:
