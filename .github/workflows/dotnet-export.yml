@@ -1,11 +1,10 @@
+name: .NET Export
 on:
   workflow_dispatch:
   
 jobs:
   dotnet:
     runs-on: ubuntu-latest
-    container: 
-      image: mrsleeth/v2l:node-10
       
     
     env:
@@ -16,4 +15,120 @@ jobs:
         uses: actions/checkout@v2.3.4
         with:
           lfs: true
+      - name: Install modules
+        run: |
+          sudo apt update && sudo apt install graphicsmagick
+          yarn install
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: v1-npm-deps-${{ hashFiles('**/yarn-lock.json') }}
+          restore-keys: v1-npm-deps-
+      - name: Build site
+        run: yarn dotnet 
+      - name: Post-build amends
+        run: |
+          find dist/dotnet -name '*.cshtml'
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="http://_href="//_g' "{}" \;
+          find dist/dotnet -name '*.cshtml' -exec sed -i 's_src="/images_src="~/images_g' "{}" \;
+      - name: Create Export Package
+        run: |
+          mkdir -p dist/assets
+          mkdir -p dist/assets/videos/captions/vtt
+          cp -R --strip-trailing-slashes src/scss dist/assets/scss
+          cp -R --strip-trailing-slashes dist/js dist/assets/js
+          cp -R --strip-trailing-slashes dist/images dist/assets/images
+          cp -R --strip-trailing-slashes dist/videos/captions/vtt dist/assets/videos/captions
+          cp -R --strip-trailing-slashes dist/pdfs dist/assets/pdfs
+          cp -R --strip-trailing-slashes dist/documents dist/assets/documents
+          tar -cvf dotnet.tar dist/dotnet
+          tar -cvf assets.tar dist/assets
+          ls -la     
+      - name: Upload .NET Pages
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          # Artifact name
+          name: cshtml_files # optional, default is artifact
+          # A file, directory or wildcard pattern that describes what to upload
+          path: dotnet.tar
+      - name: Upload Build Assets
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          # Artifact name
+          name: assets # optional, default is artifact
+          # A file, directory or wildcard pattern that describes what to upload
+          path: assets.tar
+      
 
+
+# dotnet:
+#     docker:
+#       - image: circleci/node:12
+
+#     working_directory: ~/repo
+
+#     steps:
+#       - checkout
+#       - attach_workspace:
+#           at: ~/repo
+
+#       # Download and cache dependencies
+#       - restore_cache:
+#           keys:
+#             - v1-dependencies-{{ checksum "package.json" }}
+#             # fallback to using the latest cache if no exact match is found
+#             - v1-dependencies-
+
+#       - run: sudo apt update && sudo apt install graphicsmagick
+#       - run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+#       - run: sudo apt install git-lfs
+#       - run: yarn install
+
+#       - save_cache:
+#           paths:
+#             - node_modules
+#           key: v1-dependencies-{{ checksum "package.json" }}
+
+#       # run
+#       - run: git lfs fetch --all && git lfs pull
+#       - run: yarn gulp build && ELEVENTY_ENV=dotnet yarn eleventy
+#       - run: find dist/dotnet -name '*.cshtml'
+#       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
+#       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
+#       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="http://_href="//_g' "{}" \;
+#       - run: find dist/dotnet -name '*.cshtml' -exec sed -i 's_src="/images_src="~/images_g' "{}" \;
+#       #- run: grep -i -R 'href="/pdf' dist/dotnet
+#       #- run: grep -i -R 'href="/documents' dotnet
+#       #- run: find dist/dotnet -type f -exec sed -i 's/href=“\/documents/href=“~\/documents/g' {} \;
+#       #- run: find dist/dotnet -type f -exec sed -i 's/href=“\/pdfs/href=“~\/pdfs/g' {} \;
+
+#       - persist_to_workspace:
+#           root: .
+#           paths: dist/*
+
+#       - run:
+#           name: Create Export Package
+#           command: |
+#             mkdir -p dist/assets
+#             mkdir -p dist/assets/videos/captions/vtt
+#             cp -R --strip-trailing-slashes src/scss dist/assets/scss
+#             cp -R --strip-trailing-slashes dist/js dist/assets/js
+#             cp -R --strip-trailing-slashes dist/images dist/assets/images
+#             cp -R --strip-trailing-slashes dist/videos/captions/vtt dist/assets/videos/captions
+#             cp -R --strip-trailing-slashes dist/pdfs dist/assets/pdfs
+#             cp -R --strip-trailing-slashes dist/documents dist/assets/documents
+#             tar -cvf dotnet.tar dist/dotnet
+#             tar -cvf assets.tar dist/assets
+#             tar -cvf videos.tar dist/videos
+#       - store_artifacts:
+#           path: dotnet.tar
+#           destination: dotnet.tar
+#       - store_artifacts:
+#           path: videos.tar
+#           destination: videos.tar
+#       - store_artifacts:
+#           path: assets.tar
+#           destination: assets.tar
