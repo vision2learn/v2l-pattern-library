@@ -21,12 +21,12 @@ sections:
           title: Stimming
           text: |
             ‘Stimming’ stands for Self Stimulating Behaviour and it is repetitive actions that help to stimulate an individual. It can involve rocking, jumping, spinning, hand flapping, flicking rubber bands, repeating words or staring at lights or spinning objects.
-          img: placeholder_icon.svg
+          img: ua_u5_s3_p2_slide1.svg
         -
           title: Meltdowns
           text: |
             A meltdown is an intense response to an overwhelming situation. They are a complete loss of control caused by being overwhelmed by sensory overload or too much visual information.
-          img: placeholder_icon.svg
+          img: ua_u5_s3_p2_slide2.svg
   -
   -
     title: Watch 
@@ -52,7 +52,7 @@ sections:
     copy: |
       Anxiety in individuals with autism should always be calmed where possible by using different tools and strategies. Building time for relaxation into any routine and using calming music or stress balls can help a person feel calmer. Doing something they like that incorporates their interests like playing on a computer, reading, doing puzzles or walking can help to relieve stress and make an individual with autism able to cope with something that might cause a meltdown.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u5_s3_p2_image.svg
   -
   -
     title: Watch 
@@ -67,7 +67,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Using your learning from this page can you think of different ways that you can support individuals?
   -
     title: Quick quiz
     theme: i-quiz

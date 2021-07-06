@@ -92,19 +92,7 @@ sections:
     layout: media
     copy: |
       Let’s look at a range of strategies that can be used to support communication and social interaction in the following video.
-    video: ua_u3_s3_p1_needs_and_preferences.mp4
-  -
-  -
-    title: Watch
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Interview with an individual with autism
-      
-      Please see the following interview video of Matt's response to the following questions:
-      
-      Do you recall any instances of others altering their communication style, for better or worse once aware of your Autism?
-    video: ua_u3_s3_p1_interview_communication.mp4
+    video: ua_u3_s3_p1_range_of_strategies.mp4
   -
   -
     title: Quick quiz
@@ -143,7 +131,19 @@ sections:
     layout: media
     copy: |
       How can communication be adapted to meet the needs and preferences of each individual. Watch the following video to learn more.
-    video: ua_u3_s3_p1_range_of_strategies.mp4
+    video: ua_u3_s3_p1_needs_and_preferences.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      Do you recall any instances of others altering their communication style, for better or worse once aware of your Autism?
+    video: ua_u3_s3_p1_interview_communication.mp4
   -
   -
     title: Watch
