@@ -53,7 +53,7 @@ sections:
     copy: |
       Some people have specific dietary requirements. This usually means they do not eat certain things because of health reasons, or personal choice. In this Session we will look at some of the different reasons in more detail. Scroll through the slides below to read the reasons why some people might have special dietary requirements. 
 
-      _ID note: this slider could be an introduction to the video?_
+      _ID note: text is from p2 accordion - this slider could be an introduction to the video?_
 
     subInc: 
       type: slider
@@ -62,27 +62,27 @@ sections:
         -
           title: Allergies
           text: |
-            text
+            If someone has an allergy it means that their body’s immune system is particularly sensitive to some foods. When this food is eaten it will cause an allergic reaction. They therefore need to eliminate this food from their diet.
           img: placeholder_icon.svg
         -
           title: Intolerance
           text: |
-            text
+            Intolerance means that the body is unable to properly digest certain foods. When a food is eaten it tends to be longer before a reaction occurs than for an allergy, but the symptoms may last for several hours, if not longer. They need to eliminate this food from their diet.
           img: placeholder_icon.svg
         -
           title: Coeliac disease and diabetes
           text: |
-            text
+            Coeliac disease and diabetes are conditions which demand specific diets. People who are coeliacs are unable to eat gluten products and those with diabetes have to limit their intake of sugary foods.
           img: placeholder_icon.svg
         -
           title: Religious / ethnic groups
           text: |
-            text
+            Certain religious and ethnic groups have strict beliefs about what can and cannot be eaten. People belonging to these groups will have diets that follow these rules.
           img: placeholder_icon.svg
         -
           title: Personal values and lifestyle choices 
           text: |
-            text
+            Some people deliberately choose a specific diet for personal or moral reasons. For example, someone may choose to eliminate meat from their diet because they believe killing animals for food is immoral.
           img: placeholder_icon.svg
   -
   -
@@ -92,7 +92,7 @@ sections:
     copy: |
       ### Allergies, intolerances and health conditions or Why do people have specific dietary requirements?
 
-      Please see the following video to explore this topic further...
+      Please see the following video you will learn about some of the common allergies, intolerances and health conditions which have specific dietary requirements.
 
       _ID note: Video to replace accordion/reveals on old p2 and p3 as a lot of info_
     video: placeholder_pc.mp4
@@ -155,6 +155,12 @@ sections:
     theme: t-bg-supporting2
     copy: |
       _ID note: Do we wish to use the Food for thought stats on old p3?_
+
+      * 10% of people with diabetes have Type 1
+      * 1 in every 100 people are affected by Coeliac disease
+      * Food intoerances are more common than allergies
+      * Many children grow out of their allergies
+      
     img: /images/svg/ln/LM_Stats.svg
   -
   -

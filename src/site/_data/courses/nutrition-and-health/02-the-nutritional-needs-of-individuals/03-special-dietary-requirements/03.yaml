@@ -6,7 +6,7 @@ sections:
   -
   -
     title: Different types of vegetarian
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       Vegetarian is a broad term, there are different types of vegetarian. Select the following images to learn about the different types.
 
@@ -16,62 +16,62 @@ sections:
         -
           title: Vegetarian
           copy: |
-            text
+            Vegetarians usually avoid meat, poultry, fish, shellfish or products from animals. Vegetarians are largely motivated by ethical concerns about harming animals.
 
           img: placeholder_icon.svg
         -
           title: Demi-vegetarians
-          copy: |            
-            text
+          copy: |
+            Demi-vegetarians will eat meat occasionally but most have adopted a primarily vegetarian diet often due to a belief about the environmental impact of meat consumption.
 
           img: placeholder_icon.svg
         -
           title: Pescetarians
-          copy: |            
-            text
+          copy: |
+            Pescetarians are usually motivated by similar ethical concerns as vegetarians but will eat fish in moderation for its Omega-3 content and health benefits.
 
           img: placeholder_icon.svg
         -
           title: Lacto-ovo-vegetarians
           copy: |
-            text
+            The most common vegetarian in the Western world, they eat the same as vegetarians but also dairy products and eggs.
 
           img: placeholder_icon.svg
         -
           title: Lacto-vegetarians
-          copy: |            
-            text
+          copy: |
+            Eat the same as vegetarians and they also eat dairy products but they do not eat eggs. This type of vegetarian is popular in Eastern religions such as Hinduism, Sikhism and Buddhism.
 
           img: placeholder_icon.svg
         -
           title: Ovo-vegetarians
-          copy: |            
-            text
+          copy: |
+            Ovo-vegetarians have the same diet as vegetarians except they don’t drink milk due to objections to the way dairy is produced. The eggs they eat will normally be free-range eggs from uncaged hens.
 
           img: placeholder_icon.svg
         -
           title: Fruitarians
           copy: |
-            text
+            Only eat plant foods that are harvested without killing the host plant, such as fruit falling from a tree.
 
           img: placeholder_icon.svg
         -
           title: Vegan
-          copy: |            
-            text
+          copy: |
+            All animal-related products are avoided. This usually extends beyond food products and includes any product from an animal – such as leather. 
 
           img: placeholder_icon.svg
         -
           title: Raw vegetarian / vegan
-          copy: |            
-            text
+          copy: |
+             Have the same diet as vegetarians / vegans but only eat it in an uncooked form.
 
           img: placeholder_icon.svg
   -
   -
     title: Why do people become vegetarians?
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
       People can become vegetarians for various reasons. Some do so because of health problems or because they don’t like the taste of meat products, while others believe that a vegetarian diet is healthier.
       
@@ -111,14 +111,65 @@ sections:
       * Milk, cheese and yoghurt
       * Red meat
       * Oily fish
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Milk, cheese and yoghurt
+          copy: |
+            **Nutrient missed: calcium**
 
+            * Calcium is needed for strong and healthy bones and teeth.
+
+            Other sources of this nutrient:
+            * Dried fruit
+            * Pulses
+            * Sesame seeds
+
+            **Nutrient missed: vitamin D**
+
+            * Vitamin D is needed to help calcium absorption.
+
+            Other sources of this nutrient:
+            * Sunshine
+            * Fortified fat spreads
+            * Fortified cereals
+        - 
+          title: Red meat
+          copy: |
+            **Nutrient missed: iron**
+            * Iron is essential for the production of red blood cells. It is harder for the body to absorb iron from plant-based food than from meat.
+
+            Other sources of this nutrient:
+            * Dark green vegetables
+            * Nuts
+            * Wholemeal bread
+
+            **Nutrient missed: vitamin B12**
+            * Vitamin B12 is essential for a healthy blood and nervous system. It is only found naturally in animal food sources.
+
+            Other sources of this nutrient:
+            * Fortified cereals 
+            * Fortified soya milk
+            * Yeast extract spreads
+        -
+          title: Oily fish
+          copy: |
+            **Nutrient missed: omega-3 fatty acids**
+
+            Can help maintain a healthy heart and reduce the risk of heart disease when eaten as part of a healthy diet
+
+            Other sources of this nutrient:
+            * Walnuts
+            * Linseed / flaxseed oil
+            * Tofu
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _ID note: PLACEHOLDER - to be decided if we need a video instead of the above accordion_
+      _ID note: PLACEHOLDER - to be decided if we need a video instead (or another type of activity) of the above accordion_
       
       ### Case study - Eating a vegan diet
 
@@ -134,7 +185,8 @@ sections:
         See if you can find more information about vegan diets from these links. 
 
       links:
-        website description: http://www.google.co.uk     
+        How to go vegan: http://www.vegansociety.com/try-vegan/how-go-vegan
+        The vegan diet: http://www.nhs.uk/Livewell/Vegetarianhealth/Pages/Vegandiets.aspx
   -
   -
     title: Quick quiz
