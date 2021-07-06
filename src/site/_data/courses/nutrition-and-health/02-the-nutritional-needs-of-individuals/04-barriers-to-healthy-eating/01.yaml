@@ -1,6 +1,8 @@
-title: title
+title: Barriers to healthy eating
 intro: |
-  In this Session we’ll look at 
+   ### Understanding barriers to healthy eating
+   
+   In this Session we’ll look at some of the different barriers that prevent people from eating a healthy, balanced diet. 
    
 banner: placeholder.jpg
 sections:
@@ -8,6 +10,162 @@ sections:
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this session you will learn how to: 
-      * one
-      * two
+      In this session you will learn about the barriers that can prevent people from choosing a balanced diet. You will learn how: 
+      
+      * public confusion over healthy eating may prevent people from choosing a balanced diet
+      * costs may prevent people from choosing a balanced diet
+      * accessibility may prevent people from choosing a balanced diet
+      * pre-prepared and convenience foods may prevent people from choosing a balanced diet
+      * individual lifestyle choices may prevent people from choosing a balanced diet
+
+  -
+  -
+    title: Unhealthy diets
+    theme: t-bg-supporting3
+    copy: |
+      An unhealthy diet can lead to people having a poorer quality of life and developing health problems, which can cost a lot of money in healthcare and social care.
+
+      Despite this, many people still continue to eat unhealthily. This can happen for lots of different reasons.
+
+      Select the images below to see the common barriers to a healthy diet.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Confusion
+          copy: |
+            The amount of conflicting information about healthy eating and dieting can cause confusion and people to be ill-informed. 
+          img: placeholder_icon.svg
+        -
+          title: Costs
+          copy: |
+            Some people often consider healthy foods too expensive or are prone to letting fresh produce go to waste. 
+          img: placeholder_icon.svg
+        -
+          title: Accessibility
+          copy: |
+            It can be a struggle for some people to get to large supermarkets which have a greater selection of healthy options.
+          img: placeholder_icon.svg
+        -
+          title: Convenience
+          copy: |
+            Fast food and ready meals are often a more convenient and quicker option as they require little preparation.
+          img: placeholder_icon.svg
+        -
+          title: Lifestyle
+          copy: |
+            Longer working hours and busy social lives can make it tricky to properly plan and prepare healthy meals.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your Assessment you need to know about the 5 key barriers to healthy eating. The work you do in this Session will help you to complete this. 
+  -
+  -
+    title: Public confusion over healthy eating
+    theme: t-bg-primary
+    copy: |
+      Many people are ill-informed or confused over what healthy eating is. This can be encouraged by the advertising and product information that we see all around us. Scroll through the slides to see why public confusion is a barrier to choosing and maintaining a healthy diet. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Mixed messages
+          text: |
+            Magazines, television and websites are packed with ideas about ‘image’ and the desire to eat healthily. However, the information is confusing and sometimes conflicting, often without much explanation of what is actually good for you. 
+          img: placeholder_icon.svg
+        -
+          title: Mixed messages
+          text: |
+            Some diets recommend eating very limited protein and others recommend eating mostly protein. There are always new products claiming to be healthy and new diets and weight-loss regimes which promise amazing results. 
+          img: placeholder_icon.svg
+        -
+          title: Mixed messages
+          text: |
+            With so much information it is possible for a person to be overloaded by the sheer volume of information and the contradictory nature of the information they are receiving. 
+          img: placeholder_icon.svg
+        -
+          title: Mixed messages
+          text: |
+            When faced with mixed and confused messages, it may be difficult for people to make informed decisions about what they should eat. For example, something labelled as ‘reduced-fat’, isn’t necessarily low in fat. 
+          img: placeholder_icon.svg
+        -
+          title: Mixed messages
+          text: |
+            Also, people are never taught about healthy diets. Instead, they learn from people around them. If those people are ill-informed then the eating habits that are developed in young people will be unhelpful. 
+          img: placeholder_icon.svg
+        -
+          title: Mixed messages
+          text: |
+            For example, if a child believes that a bag of crisps and a fizzy soft drink for breakfast is acceptable then they will continue to eat in this way. If people are ill-informed they are more likely to make poor nutritional choices.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case Study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Marcus
+
+      Marcus is a student in his first year at university and it is the first time he has lived away from home. He lives in a shared flat with other students and has to cook for himself. Marcus rarely saw his parents cook for him; they both worked full-time and often ate separately. Marcus has very few cooking skills and doesn’t particularly like vegetables. As a result, Marcus’ diet at university is high in protein, fat and carbohydrates including lots of pizza, takeaways and ready meals, not to mention a high alcohol intake. After a couple of months Marcus noticed that he was putting on some weight but he didn’t know why or how he should change his habits since he had never learnt what a balanced diet looked like. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Do you think Marcus’ diet is unhealthy? How could he improve it? Jot down your ideas in the following text box.
+  -
+  -
+    title: Case Study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      Read below to see how Marcus got himself informed and overcame his nutritional confusion!
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: How Marcus got himself informed
+          copy: |
+            Marcus used the NHS online BMI calculator to calculate his energy requirements. He also used guidance from a British Nutrition Foundation pamphlet at his local health centre to find out exactly what sort of foods he should be eating for a healthy balanced diet. 
+            
+            When shopping he also began double checking the nutritional content of the food he was buying and remained suspicious of products that made claims about reduced fat and sugar content. 
+            
+            On top of this, he also purchased a healthy student cook book, full of easy to prepare, nutritional meals.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Overcoming confusing and making informed food choices
+
+      Getting reliable nutritional information can be a difficult task with the amount of contradictory information going around. Watch the video for some tips on how to avoid confusion and separate truths from food myths.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      As part of your Unit 2 Assessment you must be able to outline how public confusion over healthy eating may prevent people from choosing a balanced diet as well as actions that could be taken to overcome them. Looking over the information on this and the previous page will help you when it comes to tackling your Assessment! 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        British Nutrition foundation: http://www.nutrition.org.uk/
+        BUPA - Diet and nutrition: http://www.bupa.co.uk/individuals/health-information/diet-nutrition
+        Food Fact Sheets: http://www.bda.uk.com/foodfacts/
