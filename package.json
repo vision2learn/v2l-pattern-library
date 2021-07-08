@@ -11,6 +11,7 @@
     "dev": "netlify-cms-proxy-server & ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev eleventy --serve",
     "debug": "ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
     "build": "ELEVENTY_ENV=dev gulp build && ELEVENTY_ENV=dev yarn eleventy",
+    "staging": "ELEVENTY_ENV=staging gulp build && ELEVENTY_ENV=staging yarn eleventy",
     "dotnet": "ELEVENTY_ENV=dotnet gulp build & ELEVENTY_ENV=dotnet eleventy",
     "cshtml": "ELEVENTY_ENV=dotnet eleventy",
     "netlify": "ELEVENTY_ENV=netlify gulp dev & ELEVENTY_ENV=netlify eleventy --serve"
