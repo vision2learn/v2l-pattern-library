@@ -1,16 +1,84 @@
-title: TEMPLATE PAGE
-intro: |
-  ### TEMPLATE PAGE
-  On this page you will learn about: 
-  * point 1
-  *  
+title: Costs as a barrier to healthy eating
+copy: |
+  A common reason many people give for eating unhealthily is the cost of healthy food.
+
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
-    layout: media
+    title: Is healthy eating expensive?
     theme: t-bg-primary
     copy: |
-      ### Title
+      Scroll through the slides to see why this may be an issue for some people and ways it might be overcome.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Promotions and discounts
+          text: |
+            People who live alone, or those on low incomes, may struggle to spend less on their food shops because multibuy and buy-one-get-one-free promotions aren’t as beneficial to single person homes where the extra food would go to waste.
+          img: placeholder_icon.svg
+        -
+          title: Healthy eating
+          text: |
+            People often think that healthy eating is expensive and unhealthy eating is cheap. Items such as organic fruits and vegetables are often more expensive and frozen ready meals are sometimes cheaper than buying all the individual ingredients required to make the meal. 
+          img: placeholder_icon.svg
+        -
+          title: Long term cost
+          text: |
+            Thinking long term, the human cost of eating salty, sugary and fatty foods is very high. Being obese, having low energy, poor skin and being more likely to suffer from many illnesses is a high price to pay for eating cheaper convenience foods and takeaways. 
+          img: placeholder_icon.svg
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Janine
+
+      Janine is a busy mum on a low income. She has a 4-year-old child, and twins who are 2 years old. Janine carefully budgets for the family by working out how much money goes on the mortgage, bills, children and food each month. She has a strict budget for how much money she can spend on the weekly shop. Janine would like to cook more from scratch, but with small children she struggles to find the time and thinks that it would be too expensive to buy all the ingredients that she would need. 
 
     img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        Eating well on a budget: http://www.nhs.uk/Livewell/Onabudget/Pages/Savemoneyfood.aspx
+        5 a day on a budget: http://www.nhs.uk/Livewell/5ADAY/Pages/Tencheapways.aspx
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using the on the web sources above, can you suggest ways that Janine and her family could eat healthily on a budget?
+  -
+    title: What did you find?
+    theme: t-bg-primary3
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            Fresh and healthy ingredients are not necessarily more expensive. When you are feeding a large family you need more food and buying in bulk is usually cheaper.
+
+            Janine could do the following to keep her costs low:
+
+            * Research some meals which are quick and easy
+            * Look out for multibuy offers to stock up on certain ingredients when they are cheaper
+            * Make up large quantities when she is cooking so that she can freeze some portions and not need to cook every day
+            * Purchase fruit and vegetables that are in season.
+
+
+
+  

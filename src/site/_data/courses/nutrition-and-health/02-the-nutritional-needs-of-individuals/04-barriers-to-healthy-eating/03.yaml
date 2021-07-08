@@ -1,16 +1,126 @@
-title: TEMPLATE PAGE
+title: Accessibility affecting healthy choices
 intro: |
-  ### TEMPLATE PAGE
-  On this page you will learn about: 
-  * point 1
-  *  
+  Not everyone has the choice of where and how they shop for their food. Where someone lives and what their circumstances are strongly affects their ability to make healthy food choices. 
 banner: placeholder.jpg
 sections:
   -
-    title: T E M P L A T E
+    title: Accessibility affecting healthy choices
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      ### Title
+      Please see the following video to see how healthy choices can be affected by accessibility.
+
+      _ID Note: Video to replace slides on old p5_
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Agnes
+
+      Agnes is in her late 80s and lives alone. She is mobile but struggles to walk long distances. Agnes is unable to drive and she does not like using buses when she has stuff to carry such as shopping bags. She prefers to use her local village shop as it is a convenient distance from her home and if she goes twice a week she has little to carry. 
+      
+      Agnes enjoys the convenience of her local shop but finds it expensive with limited options for healthy meals, so she makes the trip to the large supermarket in the nearby town every couple of weeks. 
+      
+      Agnes likes the larger choice of food and the choice of healthier options, but she does struggle with the 30 minute bus trip to the supermarket. Agnes also finds the large store hard to navigate with its narrow aisles, high shelves and deep freezers.
 
     img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you identify any factors that are preventing Agnes’ access to healthy and nutritious food?
+  -
+    title: What did you find?
+    theme: t-bg-primary3
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            Some of the things you might have mentioned include:
+
+            * Her age
+            * That she lives alone
+            * That she is unable to drive
+            * She is frail and struggles to carry lots of shopping
+            * She is restricted by the food that is in the local shop
+            * That she finds some areas of the supermarket difficult to access.
+  -
+    title: Quick quiz
+    copy: Are the following statements true or false?
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Conflicting nutritional information in the media makes it easier for people to make informed choices.:
+          answers:
+            True: false
+            False: true
+        The NHS is a reliable source of dietary and nutritional information.:
+          answers:
+            True: true
+            False: False
+        Planning meals for the week ahead can help you save money.:
+          answers:
+            True: true
+            False: False
+  -
+  -
+    title: Improving access to healthy food
+    theme: t-bg-primary
+    copy: |
+      Often, a lack of access to healthy and nutritious food and drink options is completely out of the hands of an individual.
+
+      While some people may be able to shop around for the healthiest range of food, others have to rely on others to provide them with a nutritious diet.  Scroll through the slides below to see some ways access to healthy food can be improved.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Online shopping
+          text: |
+            The explosion of online grocery shopping has meant that even people who don’t live near large out-of-town supermarkets can still enjoy the range and selection of products they offer. It also means that people don’t have to worry about fitting time-consuming trips to the supermarket around their hectic lives. 
+          img: placeholder_icon.svg
+        -
+          title: Shop smart
+          text: |
+            Some shops and supermarkets are better for certain items than others. If your local shop is lacking in fresh produce, why not try another? Spreading your shopping over a few different shops will guarantee you the choice of as wide a range of items as possible and may even be cheaper! Of course, this isn’t always possible for some people. 
+          img: placeholder_icon.svg
+        -
+          title: Food co-operatives
+          text: |
+            Food co-operatives are community run initiatives where people band together to buy food in bulk from suppliers to make good food more affordable. Food co-ops can be setup by anyone and can provide a valuable service to communities that don’t have a lot of choice when it comes to buying food. 
+          img: placeholder_icon.svg
+        -
+          title: Meals on wheels
+          text: |
+            For the old, infirm and housebound, access to healthy food can be a major issue as they rely on others for their food. In such circumstances, meals at home services (often referred to as ‘Meals on wheels’) where pre-prepared meals are delivered directly to people’s homes provide an important service in ensuring those at risk are getting a nutritious and well-rounded diet. 
+          img: placeholder_icon.svg
+        -
+          title: Additional content to bring up to date?
+          text: |
+            e.g. local farmers markets, 
+            weekly delivery of local organic farm veg/fruit boxes etc
+          img: placeholder_icon.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      For your Unit 2 Assessment you must be able to describe how accessibility may prevent people from choosing a balanced diet and suggest two ways that this may be overcome. Looking over the information on this page will help you when it comes to answering this question in your Assessment. 
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+       Nowadays there are more options than ever when it comes to healthy and nutritious options for food. Online grocery shopping and an increased pressure on shops and restaurants to provide healthy alternatives mean access is widening all the time.
+       
+       However, there are still people who don’t have the luxury of such choice and in these situations food co-operatives and meals on wheels can be invaluable.
