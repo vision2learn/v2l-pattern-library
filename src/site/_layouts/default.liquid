@@ -22,6 +22,21 @@
 <body class="{{ body-class }}" data-v2l-env="{{ site.env }}" data-v2l-theme="{{ tags[0] }}">
   <div class="l-wrapper" >
     <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+    {%- if site.env == 'staging' -%}
+      <style>
+        .staging {
+          text-align: center;
+          margin: 0 !important;
+          background: #443e55;
+          color: white;
+          padding: 1em .5em;
+          border: dashed currentColor 1px;
+        }
+      </style>
+      <div class="staging">
+        <strong>This development site is being constantly updated and not suitable for review purposes. Please visit the <a href="//v2lrefresh.netlify.app">{{ site.v2l }} review site</a>.</strong>
+      </div>
+    {%- endif -%}
     {{ content }}
   </div>
   {% if site.env == 'netlify' %}
