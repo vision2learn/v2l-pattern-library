@@ -32,7 +32,7 @@ jobs:
       - run: git lfs fetch --all && git lfs pull
       - run: 
           name: Build it
-          command: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
+          command: yarn run staging
           no_output_timeout: 30m
       
       # compress the output for more efficient deployment...
