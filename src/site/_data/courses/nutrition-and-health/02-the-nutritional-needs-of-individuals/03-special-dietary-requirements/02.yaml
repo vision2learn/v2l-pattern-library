@@ -1,6 +1,6 @@
-title: Religious groups and food
+title: Religious and Ethnic groups
 intro: |
-   People choose to cut out certain foods for many reasons. The religious group that a person belongs to can have a significant influence on what they do and do not eat. 
+   People choose to cut out certain foods for many reasons. The religious or ethnic group that a person belongs to can have a significant influence on what they do and do not eat. 
 banner: placeholder.jpg
 sections:
   -
@@ -50,14 +50,16 @@ sections:
       Once the research was complete, the students discovered that there were a number of dietary differences between and within the different religions. It’s important to understand and respect the dietary choices of other people, as it can help to support and promote diversity and differences in dietary preferences. 
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
+    title: Activity
     layout: media
+    theme: t-bg-primary2
     copy: |
       ### Case study - Religions and food
 
-      Take a look at the following video to see their findings.
-    video: placeholder_pc.mp4
+      Select the following icon to see their findings.
+
+    img: /images/svg/Activity_button.svg
+    activity: U1-S2-P2_DSE
   -
   -
     title: Quick quiz
@@ -92,5 +94,48 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      When it comes to completing your Assessment, you will need to know about the special dietary requirements of religious and ethnic groups. The information on this page will help you to do this.
+      When it comes to completing your assessment, you will need to know about the special dietary requirements of religious and ethnic groups. The information on this page will help you to do this.
+  -
+  -
+    title: Ethnic groups and food
+    theme: t-bg-primary
+    copy: |
+       The ethnic group that a person belongs to can also have a significant influence on what someone does and does not eat. Certain ethnic groups have developed a specific taste for certain foods.
+       
+       Scroll through the slides to discover some of the ways ethnicity and geography influences peoples’ diets. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Culture and climate
+          text: |
+            Food, such as fruits, vegetables and livestock are affected by the climate and soils around them. For years people tended to remain in one geographical location. In many cases there was little or no trade bringing in new foodstuffs so people would have little or no exposure to other foods.
+          img: placeholder_icon.svg
+        -
+          title: Familiarity and travel
+          text: |
+            This familiarity with specific foods has led to long established styles of cuisine and people wishing to eat according to their ethnic or cultural background. In recent years members of ethnic groups have moved and travelled the world. People still eat depending on their ethnic and cultural background but these days people are exposed to a wider range of different foods from a range of cultures.
+          img: placeholder_icon.svg
+        -
+          title: Globalisation
+          text: |
+            Nowadays people are able to travel far distances easily and the same applies to transporting food and ingredients. Being able to quickly and easily transport food means people can enjoy food that wouldn’t normally be available in their part of the world. For example, at one time no one in the UK would have seen a citrus fruit, let alone eaten one, yet now they are available everywhere.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Forum
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+       Have a think about some of your favourite meals. Can you identify whereabouts in the world they may have originated from? You could share your favourites on the group forum and see how they compare to everyone else’s!
+
+    img: /images/svg/ln/LM_Forum.svg
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In the past people only ate food which was cultivated around them. Now we eat food that originated from all over the world. The culturally diverse food we now eat is a relatively new concept. 
   -
