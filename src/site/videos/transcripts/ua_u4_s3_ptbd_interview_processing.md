@@ -1,0 +1,7 @@
+Matt: I'm very easily distracted from things. Particularly if I'm reading, I can find myself reading words and absolutely nothing is going in. Probably because I've started thinking about something else or started interpreting a particular phrase from earlier on. That I, that can also happen occasionally with speech.
+
+I can have people say, ask me perfectly intelligible questions or say something absolutely coherent and nothing comes out without getting no semantic sense from it whatsoever. And I have to ask them to repeat it, sort of try and locate it from bits and pieces of clues within that. 
+
+I do also have issues in terms of managing, managing my own time. Particularly if there are changes. If I, if I'm moving from a at work period or holiday period, or from holiday period back into work, or you know, when we came into lockdowns and working from home, or if I've moved house or if there's any big change that can throw my schedule for quite a long time, things will fall out. And I then gradually have to build those things back in. But I'm very inefficient. I do try to keep a diary, but again, that goes through periods when it completely lapses.
+
+There's also the issue with the diary that you can be writing things that are either... writing things that are much too vague to really makes sense of to interpret, or you're trying to do too much at one time. And so sometimes it's a case of adjusting and getting clear and realistic diary entries out of it. .
