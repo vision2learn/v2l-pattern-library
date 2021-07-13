@@ -1,0 +1,15 @@
+BETH: Throughout life we are all exposed to different life events and react to them in different ways. When autism is added into the equation the problems are much greater for all concerned.
+
+Individuals with autism find change and transition difficult and need that extra support. When those changes are life events that affect the family dynamic, they can cause a great deal of upheaval, impacting on the individual with autism by potentially destroying their routines and pulling their safety net out from under them.
+
+JOE: The death of a family member can have a devastating effect on everyone in the family, however, individuals with autism react to death and experience the grieving process differently. They have difficulty connecting with their emotions and may not cry, or they may show a delayed or extreme emotional response. They may potentially experience an increase in their sensory sensitivities, meltdowns or shutdowns and find it harder to organise, plan and concentrate on tasks. They may have difficulty understanding how to behave in social situations such as funerals and seeing other family members cry.
+
+BETH: The birth of a sibling may cause a range of problems with individuals with autism such as finding it difficult to ask questions about the pregnancy and birth process or express their emotions about the birth. Having a new baby in the house can bring its own problems, what will it be like? changes in rules and routines, or changes in caregivers whilst their mother is in hospital or looking after the baby.  They may struggle with sensory input from the new sounds and smells a baby will bring and the behaviour of the baby may confuse them.
+
+JOE: Major life changes will happen with education, from starting nursery, through primary and secondary school and maybe college and University, and on leaving school they need to be prepared for work and for adulthood which can also bring some dramatic changes.
+
+BETH: Moving house can take them from what they see as a secure place to somewhere that may have no meaning to them, even though it may contain the same things and people. If the place they are moving to is totally different, such as somewhere away from the family, where they may live independently or with others with similar disorders they may struggle to settle. They may, however, find going off on their own and making new relationships exciting, but this will possibly challenging for others who have to support them through through the process.
+
+JOE: Minor or smaller transitions can affect them such as changing class at the end of each year or moving up a grade in a swimming class. Even daily transitions, moving from one activity to another, from place to place, or person to person can have a great impact on them. These ongoing transitions may not seem like a major difficulty to others, but they can have a dramatic effect on individuals with autism. 
+
+BETH: The way such changes and transitions are managed can make a big difference to an individual with autism’s well-being, ability to learn skills, make progress and build relationships in the future and possibly help with the more major changes in life.
