@@ -32,7 +32,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        What barriers can you think of that people with autism may face when trying to gain employment?
   -
   -
     title: Key point
@@ -83,7 +83,10 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Can you describe the support that can be provided to assist individuals for all three of the following?
+        * gaining employment
+        * starting employment
+        * continuing employment
   -
     title: Quick quiz
     copy: 

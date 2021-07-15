@@ -56,6 +56,16 @@ sections:
     video: ua_u6_s5_p1_support_services.mp4
   -
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a list of the different types of support that an individual might need to access the following                        
+        * healthcare
+        * education and training
+        * leisure services.
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -102,4 +112,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Can you outline the rights of individuals with autism in relation to accessing services and facilities?
