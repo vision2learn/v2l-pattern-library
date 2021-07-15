@@ -26,12 +26,15 @@ const ContentToggle = (() => {
     // get the base file name before modding 
     // TODO: Is this unnecessary?
     videos.forEach(video => {
+      let vidContainer = video.parentNode.parentNode;
       let url = new URL(video.src);
-      let basename = url.href.substring(0, url.href.indexOf('_pc'));
-      if(url.href.indexOf('_pc') > -1) {
+      let basename = url.pathname.substring(url.pathname.lastIndexOf('/') + 1, url.pathname.indexOf('_pc'));
+      
+      if(url.pathname.indexOf('_pc') > -1) {
+        vidContainer.dataset.v2lFormat = "pc";
         baseVidSrc.push({
-          vidPath: basename,
-          vttPath: basename.replace('/videos/', '/videos/captions/vtt/')
+          vidPath: url.origin + url.pathname.substring(0, url.pathname.indexOf('_pc')),
+          vttPath: `/videos/captions/vtt/${basename}`
         });
       }
     });
@@ -87,6 +90,7 @@ const ContentToggle = (() => {
           newTrack.label = `English`;
           newTrack.kind = 'captions';
           newTrack.srclang = 'en';
+          newTrack.default = 'true';
           video.parentElement.parentElement.setAttribute('data-v2l-format', urlMod);
           video.parentElement.appendChild(newTrack);
         }
