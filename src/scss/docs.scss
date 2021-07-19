@@ -114,7 +114,8 @@ button,
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 4em; // silly fallback
+  font-size: clamp(1.5rem, calc(3.5vw + 1rem) , 3.5rem);
   line-height: 1.1;
   margin-top: 0;
 }
@@ -231,7 +232,7 @@ thead th {
     padding: 1rem;
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
     gap: .5rem;
 
@@ -239,8 +240,6 @@ thead th {
       fill: currentColor;
       width: 100%;
       max-width: 250px;
-
-      grid-row: 1 / -1;
     }
 
     span {
@@ -248,7 +247,8 @@ thead th {
     }
 
     [data-netlify-identity-menu] {
-      grid-area: 2 / 2;
+      grid-row: 2;
+      grid-column: span 2;
     }
   }
 
@@ -324,15 +324,20 @@ thead th {
 }
 
 [data-netlify-identity-menu] {
+  &:empty {
+    display: none;
+  }
+
   > ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     font-size: .6em;
     gap: 1em;
     padding: 0;
     margin: 0;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 
     a {
       border: solid 1px;
@@ -340,6 +345,7 @@ thead th {
       padding: .3em .5em;
       text-decoration: none;
       color: white;
+      width: max-content;
 
       &:hover,
       &:focus {
