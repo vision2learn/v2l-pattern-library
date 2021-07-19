@@ -236,6 +236,10 @@ thead th {
     grid-template-rows: 1fr 1fr;
     gap: .5rem;
 
+    a {
+      color: currentColor;
+    }
+
     svg {
       fill: currentColor;
       width: 100%;
