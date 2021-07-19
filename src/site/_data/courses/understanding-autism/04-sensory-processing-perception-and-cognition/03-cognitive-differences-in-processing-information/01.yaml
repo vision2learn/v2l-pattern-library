@@ -15,16 +15,16 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to Outline the difficulties an individual with autism may have with:
+      In your assessment you will be required to outline the difficulties an individual with autism may have with:
       * processing information
       * predicting the consequences of an action
       * organising, prioritising and sequencing
       * understanding the concept of time
   -
-    title: Processing information
+    title: Cognitive differences
     theme: t-bg-primary
     copy: |
-      Select the images below to learn about the difficulties an individual with autism may have processing information.
+      Select the images below to learn about the difficulties an individual with autism may have with a range of cognitive differences.
 
     subInc: 
       type: reveal
@@ -95,8 +95,11 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Processing information? 
-
+        Using your learning from this page and you own research can you give examples of the difficulties that individuals with autism may have with the following:
+        * processing information
+        * predicting the consequences of an action
+        * organising, prioritising and sequencing
+        * understanding the concept of time
   -
   -
     title: Quick quiz

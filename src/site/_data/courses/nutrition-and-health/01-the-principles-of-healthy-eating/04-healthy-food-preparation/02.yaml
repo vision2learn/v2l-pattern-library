@@ -4,15 +4,72 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
+    title: Cooking methods and nutritional needs
+    theme: t-bg-primary
+    copy: |
+      _ID note - combine information from slides on old pages 5 and 6_
+      
+      There are many different ways of cooking and preparing food.  Different cooking methods have different advantages and disadvantages. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Baking
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Barbecue
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Boiling
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Frying
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Grilling
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Microwaving
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Poaching
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Steaming
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Juicing? Smoothies? Raw?
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Cooking methods and nutritional needs
+      ### Preparing food
       Please see the following video for .....
 
-      _Include all the info from all slides - Cooking methods and nutritional needs, Advantages and disadvantges - old pages 4 and 5_
+      _Include all the info from old page 4 slides_
     video: placeholder_pc.mp4
   -
   -

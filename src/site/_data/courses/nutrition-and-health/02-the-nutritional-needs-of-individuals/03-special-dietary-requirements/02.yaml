@@ -1,4 +1,4 @@
-title: Religious and Ethnic groups
+title: Religious and ethnic groups
 intro: |
    People choose to cut out certain foods for many reasons. The religious or ethnic group that a person belongs to can have a significant influence on what they do and do not eat. 
 banner: placeholder.jpg
@@ -40,7 +40,48 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Case study
+    title: Religions and food
+    theme: t-bg-supporting3
+    copy: |
+      There are a number of dietary differences between and within the different religions. It’s important to understand and respect the dietary choices of other people, as it can help to support and promote diversity and differences in dietary preferences. 
+
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Buddhism
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Christianity
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Hinduism
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Islam
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Judaism
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg   
+  -
+  -
+    title: Case study REPLACE WITH ACCORDION
     theme: t-bg-primary1a i-case-study
     copy: |
       ### Case study - Religions and food
@@ -48,18 +89,6 @@ sections:
       Students at a school in London have decided to investigate the things that different religions believe about food. They investigated Buddhism, Christianity, Hinduism, Islam and Judaism. 
       
       Once the research was complete, the students discovered that there were a number of dietary differences between and within the different religions. It’s important to understand and respect the dietary choices of other people, as it can help to support and promote diversity and differences in dietary preferences. 
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Case study - Religions and food
-
-      Select the following icon to see their findings.
-
-    img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
   -
   -
     title: Quick quiz
@@ -82,13 +111,6 @@ sections:
             A day when Jews fast and pray: false
             A period of fasting in the Islamic calendar: true
             A period when Christians fast before Easter: false
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: text
   -
   -
     title: Key point
