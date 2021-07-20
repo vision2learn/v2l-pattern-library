@@ -50,13 +50,17 @@ sections:
     video: ua_u6_s1_p2_developmental_changes.mp4
   -
   -
-    title: Time to think - REPLACE
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
       copy: |
-        _LO or exercise - must relate to the video._
+        Please see the following websites where there is advice and guidance on puberty for children with autism.
 
+      links:
+        Autism.org.uk: https://www.autism.org.uk/advice-and-guidance/topics/family-life-and-relationships/sex-education/parents-and-carers
+        Autism education trust: https://www.autismeducationtrust.org.uk/health-and-wellbeing-get-the-facts/puberty-explained/
+        Autism Spectrum news: https://autismspectrumnews.org/guiding-your-child-with-autism-through-puberty/
   -
   -
     title: Watch 
