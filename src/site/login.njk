@@ -1,6 +1,8 @@
 ---
 layout: longform.njk
 permalink: /login/index.html
+inReview: understanding-autism
+startingUnit: 4
 ---
 <style>
   html,
@@ -37,8 +39,8 @@ permalink: /login/index.html
   <h3>Courses for preview</h3>
   <ul>
   {% for course, unit in courses %}
-    {% if course === 'understanding-autism' %}
-    <li><a href="/courses/{{ course }}/1/1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
+    {% if course === inReview %}
+    <li><a href="/courses/{{ course }}/{{ startingUnit }}/1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
     {% endif %}
   {% endfor %}
   </ul>

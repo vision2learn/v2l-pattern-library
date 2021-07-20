@@ -11,9 +11,15 @@ body {
   
   <h2>Prototype courses</h2>
   
+  {% if site.env !== 'netlify' %}
   <ul>
   {% for course, unit in courses %}
     <li><a href="/courses/{{ course }}/1/1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
   {% endfor %}
   </ul>
+  {% else %}  
+  <p>
+    Please contact the Product Team to access course prototypes.
+  </p>
+  {% endif %}
 </section>
