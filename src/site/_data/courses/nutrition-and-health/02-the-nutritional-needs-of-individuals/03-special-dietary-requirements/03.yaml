@@ -69,6 +69,18 @@ sections:
           img: placeholder_icon.svg
   -
   -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Less well know kinds of vegetarianism.
+
+      _ID note:  Remove lesser known vegi items from above reveals - this could be a weblink or a pdf?_
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.excel-easy.com/functions/cell-references.html
+  -
+  -
     title: Why do people become vegetarians?
     layout: media
     theme: t-bg-supporting3
@@ -80,98 +92,22 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: PLACEHOLDER - NEW item
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _ID note:  This could be 'Is it easier to be a vegetarian in modern times?' - fake meat, much wider variety of vegetarian food etc_
+      _ID note: NEW. This to be 'Is it easier to be a vegetarian in modern times?' - fake meat, much wider variety of vegetarian food etc_
+      
+      ### Is it easier to be a vegetarian in modern times?
 
-    img: /images/svg/placeholder_icon.svg
+      Please see the following video to ....
+    video: placeholder_pc.mp4
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       It is important to understand the different types of vegetarian diet. You will be asked to describe these diets in your Unit 2 assessment. 
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - Eating a vegan diet
-
-      Both vegetarians and vegans have to be careful that by cutting out certain foods they are not cutting out important nutrients! Have a look at the case study on the right to see how this can be avoided. 
-
-      Mr Brown’s daughter, Erika, has become a vegan whilst studying at university. Before Erika comes home for the summer, Mr Brown wants to make sure that she is eating a healthy diet. Mr Brown made a list of the foods that Erika would no longer be eating. He then did a bit of research into the nutrients that Erika might be missing out on, and how they could be replaced. 
-
-      To help Erika, Mr Brown collected the following information about the food she no longer eats.
-
-      _ID Note: Accordion or video?_
-      
-      * Milk, cheese and yoghurt
-      * Red meat
-      * Oily fish
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Milk, cheese and yoghurt
-          copy: |
-            **Nutrient missed: calcium**
-            Calcium is needed for strong and healthy bones and teeth.
-
-            Other sources of this nutrient:
-            * Dried fruit
-            * Pulses
-            * Sesame seeds
-
-            **Nutrient missed: vitamin D**
-            Vitamin D is needed to help calcium absorption.
-
-            Other sources of this nutrient:
-            * Sunshine
-            * Fortified fat spreads
-            * Fortified cereals
-        - 
-          title: Red meat
-          copy: |
-            **Nutrient missed: iron**
-            Iron is essential for the production of red blood cells. It is harder for the body to absorb iron from plant-based food than from meat.
-
-            Other sources of this nutrient:
-            * Dark green vegetables
-            * Nuts
-            * Wholemeal bread
-
-            **Nutrient missed: vitamin B12**
-            Vitamin B12 is essential for a healthy blood and nervous system. It is only found naturally in animal food sources.
-
-            Other sources of this nutrient:
-            * Fortified cereals 
-            * Fortified soya milk
-            * Yeast extract spreads
-        -
-          title: Oily fish
-          copy: |
-            **Nutrient missed: omega-3 fatty acids**
-            Can help maintain a healthy heart and reduce the risk of heart disease when eaten as part of a healthy diet
-
-            Other sources of this nutrient:
-            * Walnuts
-            * Linseed / flaxseed oil
-            * Tofu
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _ID note: PLACEHOLDER - to be decided if we need a video instead (or another type of activity) of the above accordion_
-      
-      ### Case study - Eating a vegan diet
-
-      Please see the following video to ....
-    video: placeholder_pc.mp4
   -
   -
     title: On the web
@@ -184,28 +120,3 @@ sections:
       links:
         How to go vegan: http://www.vegansociety.com/try-vegan/how-go-vegan
         The vegan diet: http://www.nhs.uk/Livewell/Vegetarianhealth/Pages/Vegandiets.aspx
-  -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
