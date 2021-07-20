@@ -1,0 +1,9 @@
+MATT: I think one of the interesting things is that autism is certainly much more recognised now and it's certainly recognised much more in an educational setting. When I was at primary school and even at middle and high school, it really wasn't spoken about at all. The only thing that was ever really spoken about in terms of yeah, educational  difficulties was dyslexia. And even that required parents to be quite proactive. 
+
+I had a friend who was dyslexic at primary school and I also had a friend who was really dyslexic when I went to university, but then the children who were sort of only 10, 15 or so years younger than me were starting to get diagnosed with autism.
+
+So I do think there has been a great improvement, it's being more recognised. It is being treated more and as I mentioned before, we are starting to recognise that it affects women and girls as well.  But that it presents in slightly different ways because of the way they're socialised and tend to have much more effective masking strategies. 
+
+There is still, in terms of mental health services, across the board a kind of lack of funding and a lack of provision and that seems to be particularly the case for adults. I have a friend who a little later than me, last couple of years, got a referral for an assessment. And the waiting list, this was with the same service in Trafford, the waiting list for that was initially four years. When he, he got his referral. Though, I believe that's come down.
+
+But like I say, in Greater Manchester, as far as I know there are two to sort of commissioning groups or whatever they're called, that actually do this assessment for adults. So that's certainly an area where things could be, could be very much improved. I think  that's sort of the most important thing that's on my mind at the moment.
