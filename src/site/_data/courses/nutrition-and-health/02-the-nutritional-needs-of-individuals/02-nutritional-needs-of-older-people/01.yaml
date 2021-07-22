@@ -1,6 +1,6 @@
 title: Nutritional needs of older people
 intro: |
-  In this Session, we’ll look at the nutritional needs of older people.
+  In this session, we’ll look at the nutritional needs of older people.
    
 banner: placeholder.jpg
 sections:
@@ -8,30 +8,13 @@ sections:
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this Session, you will learn how the nutritional needs of individuals can vary, this will include:
+      In this session, you will learn how the nutritional needs of individuals can vary, this will include:
 
       * Planning balanced meals and snacks for older people
       * Explaining why the chosen meals and snacks are appropriate
       * Factors influencing energy requirements of older people
       * Reasons why older people get malnutrition
       * The nutritional recommendations for older people
-  -
-  
-    title: Circumstances affect meals, food and nutrition
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Circumstances play a big part in how older people satisfy their nutritional needs
-
-      Some older people:
-      * Live alone
-      * Rely on family and friends for support
-      * Rely on meal delivery services
-      * Are in care homes
-      * Are immobile
-
-    img: /images/svg/placeholder_icon.svg
-  -
   -
     title: Energy requirements over time
     theme: 
@@ -41,8 +24,21 @@ sections:
       As you can see, people over 65 need less energy than teenagers but more than children. As well as needing different amounts of energy, people also need different types of nutrients at different stages of life.
 
       ![](/images/banners/nh/placeholder.jpg)
+  -
+  -
+    title: Daily intake
+    theme: 
+    copy: |
+      Remember, their daily intake should follow the daily guidelines below:
+
+      Calorie needs decline the older you get!
+      * At the age of 59 years, males need around 2550 calories and females need 1940 calories.
+      * By the age of 64, a man will need 2380 calories and a woman around 1900.
+      * When they are 75 or older males will need 2100 and females will need 1810 calories.
+
+      ![](/images/banners/nh/placeholder.jpg)
       
-      _ID note:  This could be an interactive graph similiar to the one in Session 1_
+      _ID note:  Images with daily guidelines - this could be interactive so it gives the information when they click on the different images - reference s2, p5 of old course for content.  To include daily calorie requirement information_
   -
   -
     title: Planning meals for older people
@@ -75,16 +71,6 @@ sections:
       type: time-to-think
       copy: |
         Can you think of anything else that would be appropriate for an older person, i.e. could they have porridge for breakfast? Write your ideas in the box to the right.
-  -
-  -
-    title: Remember
-    theme: 
-    copy: |
-      Remember, their daily intake should follow the daily guidelines below:
-
-      ![](/images/banners/nh/placeholder.jpg)
-      
-      _ID note:  A Pie chart with daily guidelines - this could be interactive so it gives the information when they click on the pieces of the pie - reference s2, p5 of old course for content_
   -
   -
     title: Planning meals for older people 
@@ -156,7 +142,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      Pay close attention to the suggested meal plan as you will be asked to write your own in the Assessment.
+      Pay close attention to the suggested meal plan as you will be asked to write your own in the assessment.
   -
   -
     title: On the web

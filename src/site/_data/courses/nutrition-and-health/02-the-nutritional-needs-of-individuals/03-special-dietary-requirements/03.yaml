@@ -6,7 +6,7 @@ sections:
   -
   -
     title: Different types of vegetarian
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       Vegetarian is a broad term, there are different types of vegetarian. Select the following images to learn about the different types.
 
@@ -16,62 +16,74 @@ sections:
         -
           title: Vegetarian
           copy: |
-            text
+            Vegetarians usually avoid meat, poultry, fish, shellfish or products from animals. Vegetarians are largely motivated by ethical concerns about harming animals.
 
           img: placeholder_icon.svg
         -
           title: Demi-vegetarians
-          copy: |            
-            text
+          copy: |
+            Demi-vegetarians will eat meat occasionally but most have adopted a primarily vegetarian diet often due to a belief about the environmental impact of meat consumption.
 
           img: placeholder_icon.svg
         -
           title: Pescetarians
-          copy: |            
-            text
+          copy: |
+            Pescetarians are usually motivated by similar ethical concerns as vegetarians but will eat fish in moderation for its Omega-3 content and health benefits.
 
           img: placeholder_icon.svg
         -
           title: Lacto-ovo-vegetarians
           copy: |
-            text
+            The most common vegetarian in the Western world, they eat the same as vegetarians but also dairy products and eggs.
 
           img: placeholder_icon.svg
         -
           title: Lacto-vegetarians
-          copy: |            
-            text
+          copy: |
+            Eat the same as vegetarians and they also eat dairy products but they do not eat eggs. This type of vegetarian is popular in Eastern religions such as Hinduism, Sikhism and Buddhism.
 
           img: placeholder_icon.svg
         -
           title: Ovo-vegetarians
-          copy: |            
-            text
+          copy: |
+            Ovo-vegetarians have the same diet as vegetarians except they don’t drink milk due to objections to the way dairy is produced. The eggs they eat will normally be free-range eggs from uncaged hens.
 
           img: placeholder_icon.svg
         -
           title: Fruitarians
           copy: |
-            text
+            Only eat plant foods that are harvested without killing the host plant, such as fruit falling from a tree.
 
           img: placeholder_icon.svg
         -
           title: Vegan
-          copy: |            
-            text
+          copy: |
+            All animal-related products are avoided. This usually extends beyond food products and includes any product from an animal – such as leather. 
 
           img: placeholder_icon.svg
         -
           title: Raw vegetarian / vegan
-          copy: |            
-            text
+          copy: |
+             Have the same diet as vegetarians / vegans but only eat it in an uncooked form.
 
           img: placeholder_icon.svg
   -
   -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Less well know kinds of vegetarianism.
+
+      _ID note:  Remove lesser known vegi items from above reveals - this could be a weblink or a pdf?_
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.excel-easy.com/functions/cell-references.html
+  -
+  -
     title: Why do people become vegetarians?
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
       People can become vegetarians for various reasons. Some do so because of health problems or because they don’t like the taste of meat products, while others believe that a vegetarian diet is healthier.
       
@@ -80,50 +92,22 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: PLACEHOLDER - NEW item
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _ID note:  This could be 'Is it easier to be a vegetarian in modern times?' - fake meat, much wider variety of vegetarian food etc_
+      _ID note: NEW. This to be 'Is it easier to be a vegetarian in modern times?' - fake meat, much wider variety of vegetarian food etc_
+      
+      ### Is it easier to be a vegetarian in modern times?
 
-    img: /images/svg/placeholder_icon.svg
+      Please see the following video to ....
+    video: placeholder_pc.mp4
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      It is important to understand the different types of vegetarian diet. You will be asked to describe these diets in your Unit 2 Assessment. 
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - Eating a vegan diet
-
-      Both vegetarians and vegans have to be careful that by cutting out certain foods they are not cutting out important nutrients! Have a look at the case study on the right to see how this can be avoided. 
-
-      Mr Brown’s daughter, Erika, has become a vegan whilst studying at university. Before Erika comes home for the summer, Mr Brown wants to make sure that she is eating a healthy diet. Mr Brown made a list of the foods that Erika would no longer be eating. He then did a bit of research into the nutrients that Erika might be missing out on, and how they could be replaced. 
-
-      To help Erika, Mr Brown collected the following information about the food she no longer eats.
-
-      _ID Note: Accordion or video?_
-      
-      * Milk, cheese and yoghurt
-      * Red meat
-      * Oily fish
-
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _ID note: PLACEHOLDER - to be decided if we need a video instead of the above accordion_
-      
-      ### Case study - Eating a vegan diet
-
-      Please see the following video to ....
-    video: placeholder_pc.mp4
+      It is important to understand the different types of vegetarian diet. You will be asked to describe these diets in your Unit 2 assessment. 
   -
   -
     title: On the web
@@ -134,29 +118,5 @@ sections:
         See if you can find more information about vegan diets from these links. 
 
       links:
-        website description: http://www.google.co.uk     
-  -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
+        How to go vegan: http://www.vegansociety.com/try-vegan/how-go-vegan
+        The vegan diet: http://www.nhs.uk/Livewell/Vegetarianhealth/Pages/Vegandiets.aspx

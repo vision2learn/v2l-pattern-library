@@ -1,6 +1,6 @@
-title: Religious groups and food
+title: Religious and ethnic groups
 intro: |
-   People choose to cut out certain foods for many reasons. The religious group that a person belongs to can have a significant influence on what they do and do not eat. 
+   People choose to cut out certain foods for many reasons. The religious or ethnic group that a person belongs to can have a significant influence on what they do and do not eat. 
 banner: placeholder.jpg
 sections:
   -
@@ -14,50 +14,71 @@ sections:
       title: 
       slides:
         -
-          title: Jew
+          title: Buddhist
           text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Sikh
-          text: |
-            text
+            There are no food restrictions placed on Buddhists. However, depending on which school of Buddhism a person belongs to they may choose to be vegetarian.
           img: placeholder_icon.svg
         -
           title: Hindu
           text: |
-            text
+            Hindus are not allowed to eat meat, fish, poultry or eggs. While some may occasionally eat meat, almost all avoid beef or any leftover food and especially food that has gone stale.
+          img: placeholder_icon.svg
+        -
+          title: Jew
+          text: |
+            Porcine products are forbidden and other meat must be killed in a specific way (kosher). Jews do not eat meat and milk together and utensils must be kept separate. Some Jews will fast at certain times of the year, most prominently at Yom Kippur.
           img: placeholder_icon.svg
         -
           title: Muslim
           text: |
-            text
+            Pork, carrion and blood are forbidden and other meat must be killed in a specific way (halal). Any products that contain pork fat or other non-halal animal fat must be avoided. Muslims do not drink alcohol and fast during Ramadan.
           img: placeholder_icon.svg
         -
-          title: Buddhist
+          title: Sikh
           text: |
-            text
+            Sikhs do not eat beef or drink alcohol. Some Sikhs will not eat any meat, but especially meats killed in ritual such as halal or kosher. Sikhs may fast during a full moon or on certain holidays.
           img: placeholder_icon.svg
   -
   -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
+    title: Religions and food
+    theme: t-bg-supporting3
     copy: |
-      ### Case study - Religions and food
+      There are a number of dietary differences between and within the different religions. It’s important to understand and respect the dietary choices of other people, as it can help to support and promote diversity and differences in dietary preferences. 
 
-      Students at a school in London have decided to investigate the things that different religions believe about food. They investigated Buddhism, Christianity, Hinduism, Islam and Judaism. 
-      
-      Once the research was complete, the students discovered that there were a number of dietary differences between and within the different religions. It’s important to understand and respect the dietary choices of other people, as it can help to support and promote diversity and differences in dietary preferences. 
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Case study - Religions and food
-
-      Take a look at the following video to see their findings.
-    video: placeholder_pc.mp4
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Buddhism
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Christianity
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Hinduism
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Islam
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Judaism
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg   
   -
   -
     title: Quick quiz
@@ -82,15 +103,51 @@ sections:
             A period when Christians fast before Easter: false
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: text
-  -
-  -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      When it comes to completing your Assessment, you will need to know about the special dietary requirements of religious and ethnic groups. The information on this page will help you to do this.
+      When it comes to completing your assessment, you will need to know about the special dietary requirements of religious and ethnic groups. The information on this page will help you to do this.
+  -
+  -
+    title: Ethnic groups and food
+    theme: t-bg-primary
+    copy: |
+       The ethnic group that a person belongs to can also have a significant influence on what someone does and does not eat. Certain ethnic groups have developed a specific taste for certain foods.
+       
+       Scroll through the slides to discover some of the ways ethnicity and geography influences peoples’ diets. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Culture and climate
+          text: |
+            Food, such as fruits, vegetables and livestock are affected by the climate and soils around them. For years people tended to remain in one geographical location. In many cases there was little or no trade bringing in new foodstuffs so people would have little or no exposure to other foods.
+          img: placeholder_icon.svg
+        -
+          title: Familiarity and travel
+          text: |
+            This familiarity with specific foods has led to long established styles of cuisine and people wishing to eat according to their ethnic or cultural background. In recent years members of ethnic groups have moved and travelled the world. People still eat depending on their ethnic and cultural background but these days people are exposed to a wider range of different foods from a range of cultures.
+          img: placeholder_icon.svg
+        -
+          title: Globalisation
+          text: |
+            Nowadays people are able to travel far distances easily and the same applies to transporting food and ingredients. Being able to quickly and easily transport food means people can enjoy food that wouldn’t normally be available in their part of the world. For example, at one time no one in the UK would have seen a citrus fruit, let alone eaten one, yet now they are available everywhere.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Forum
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+       Have a think about some of your favourite meals. Can you identify whereabouts in the world they may have originated from? You could share your favourites on the group forum and see how they compare to everyone else’s!
+
+    img: /images/svg/ln/LM_Forum.svg
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In the past people only ate food which was cultivated around them. Now we eat food that originated from all over the world. The culturally diverse food we now eat is a relatively new concept. 
   -

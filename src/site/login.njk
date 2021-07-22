@@ -1,6 +1,8 @@
 ---
-# layout: prototype.njk
+layout: longform.njk
 permalink: /login/index.html
+inReview: understanding-autism
+startingUnit: 4
 ---
 <style>
   html,
@@ -28,14 +30,23 @@ permalink: /login/index.html
   }
 
 </style>
-<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <section>
   <h2>Please log in to view the course preview</h2>
+
   <div data-netlify-identity-button></div>
 
+  <h3>Courses for preview</h3>
+  <ul>
+  {% for course, unit in courses %}
+    {% if course === inReview %}
+    <li><a href="/courses/{{ course }}/{{ startingUnit }}/1/1">{{ course | replace('-', ' ') | formattitle }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
   <h3>Submitting Feedback</h3>
 
-  <p>Please use the Feedback button, shown on all pages, to log issues:</p>
+  <p>Please use the Feedback button (displayed at the top of all pages) to log issues:</p>
 
   <div class="feedback-container">
     <img src="/images/feedback1.png" alt="The feedback button is in the top right of each page">

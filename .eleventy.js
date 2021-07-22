@@ -117,7 +117,7 @@ module.exports = function(config) {
       fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
       track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
     } catch (err) {
-      // console.log(`No VTT file for ${file}`);
+      console.log(`No VTT file for ${file}`);
       missingCaptions.push(file);
     }
 
@@ -139,7 +139,7 @@ module.exports = function(config) {
           </toggle-section>
         `;
       } catch (err) {
-        // console.log(`No transcript for ${file}`);
+        console.log(`No transcript for ${file}`);
         missingTranscripts.push(file)      
       }
     });

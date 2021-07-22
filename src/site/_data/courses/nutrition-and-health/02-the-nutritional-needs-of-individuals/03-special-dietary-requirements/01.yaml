@@ -2,7 +2,7 @@ title: Special dietary requirements
 intro: |
   ### Nutritional needs
   
-  In this Session, we’ll look at the impact that different health conditions, personal values and religious beliefs can have on our diet. 
+  In this session, we’ll look at the impact that different health conditions, personal values and religious beliefs can have on our diet. 
    
 banner: placeholder.jpg
 sections:
@@ -17,9 +17,9 @@ sections:
   -
   -
     title: Factors affecting diet 
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
-      There are many different factors which affect why someone might have special dietary requirements. In this Session, we will focus on three of the most common factors.
+      There are many different factors which affect why someone might have special dietary requirements. In this session, we will focus on three of the most common factors.
 
     subInc: 
       type: reveal
@@ -48,51 +48,14 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Why do people have specific dietary requirements?
-    theme: t-bg-primary
-    copy: |
-      Some people have specific dietary requirements. This usually means they do not eat certain things because of health reasons, or personal choice. In this Session we will look at some of the different reasons in more detail. Scroll through the slides below to read the reasons why some people might have special dietary requirements. 
-
-      _ID note: this slider could be an introduction to the video?_
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Allergies
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Intolerance
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Coeliac disease and diabetes
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Religious / ethnic groups
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Personal values and lifestyle choices 
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Allergies, intolerances and health conditions or Why do people have specific dietary requirements?
+      ### Allergies, intolerances and health conditions OR
+      ### Why do people have specific dietary requirements?
 
-      Please see the following video to explore this topic further...
+      Please see the following video you will learn about some of the common allergies, intolerances and health conditions which have specific dietary requirements.
 
       _ID note: Video to replace accordion/reveals on old p2 and p3 as a lot of info_
     video: placeholder_pc.mp4
@@ -133,7 +96,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      Think about how you would summarise the different reasons why someone might have specific dietary requirements. This will come in handy when you complete your Unit 2 Assessment.
+      Think about how you would summarise the different reasons why someone might have specific dietary requirements. This will come in handy when you complete your Unit 2 assessment.
   -
   -
     title: On the web
@@ -154,7 +117,9 @@ sections:
     layout: media
     theme: t-bg-supporting2
     copy: |
-      _ID note: Do we wish to use the Food for thought stats on old p3?_
+      * 10% of people with diabetes have Type 1
+      * 1 in every 100 people are affected by Coeliac disease
+      * Food intoerances are more common than allergies
+      * Many children grow out of their allergies
+      
     img: /images/svg/ln/LM_Stats.svg
-  -
-  -

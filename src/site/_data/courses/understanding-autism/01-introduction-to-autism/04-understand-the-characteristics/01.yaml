@@ -20,7 +20,7 @@ sections:
     copy: |
       In your assessment you will be required to describe the main characteristics found in individuals with autism.
   -
-    title: Characteristics of Autism
+    title: Characteristics of autism
     layout: media
     theme: t-bg-primary
     copy: |
@@ -64,10 +64,10 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Fixation is one of the characteristics especially associated with high functioning Autism spectrum disorder. One example of this is continually discussing the same topics in conversation. 
+          sentence: Fixation is one of the characteristics especially associated with high functioning autism spectrum disorder. One example of this is continually discussing the same topics in conversation. 
           answer: Fixation
         -
-          sentence: Social interaction is difficult for individuals with Autism. A child may prefer to play alone and won’t respond to other adults or children. 
+          sentence: Social interaction is difficult for individuals with autism. A child may prefer to play alone and won’t respond to other adults or children. 
           answer: Social interaction
         -
           sentence: Sensory sensitivity is when an individual is sensitive to things such as light, sound, touch and heat, or certain tastes, textures or smells.   

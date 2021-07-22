@@ -22,7 +22,7 @@ sections:
       
       Supporting them to live independently or take part in daily activities means accepting those risks and preparing for them. 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u6_s3_p1_image.svg
   -
   -
     title: Key point
@@ -43,32 +43,32 @@ sections:
           title: Money
           copy: |
             Budgeting for themselves, being responsible for paying their own bills, carrying money around with them, spending wisely, and not being robbed or exploited.
-          img: placeholder_icon.svg
+          img: ua_u6_s3_p1_reveal1.svg
         -
           title: Cooking
           copy: |
             Cooking for and feeding themselves, risk of cutting or burning themselves, using food that is out of date, or dangerous to health, other health and safety issues.
-          img: placeholder_icon.svg
+          img: ua_u6_s3_p1_reveal2.svg
         -
           title: Dressing
           copy: |
             Putting on the right clothes correctly, wearing the appropriate combinations, not opening themselves to ridicule.
-          img: placeholder_icon.svg
+          img: ua_u6_s3_p1_reveal3.svg
         -
           title: Personal hygiene
           copy: |
             Making sure they keep clean and tidy, using the correct products, not flooding out their home or putting themselves in danger from health and safety issues
-          img: placeholder_icon.svg
+          img: ua_u6_s3_p1_reveal4.svg
         -
           title: Travelling
           copy: |
             Travelling on public transport, or walking around in public places, knowing where they are going or even driving themselves.
-          img: placeholder_icon.svg
+          img: ua_u6_s3_p1_reveal5.svg
         -
           title: Internet use
           copy: |
             Opening themselves up to opportunities for bullying and abuse and being taken advantage of or exploited.
-          img: placeholder_icon.svg
+          img: ua_u6_s3_p1_reveal6.svg
   -
   -
     title: Key point
@@ -91,7 +91,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+         Can you give an outline of the benefits that individuals can gain from positive risk taking?
   -
   -
     title: Quick quiz
@@ -124,11 +124,11 @@ sections:
     layout: media
     copy: |
       Let’s look at how risk assessment can be used with individuals with autism.
-    video: ua_u6_s3_p2_risk_assessment.mp4
+    video: ua_u6_s3_p1_risk_assessment.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Can you explain how risk assessments can be used with individuals with autism?

@@ -17,7 +17,7 @@ sections:
 
       Using strategies and different types of supports can help prepare children and adults to initiate and carry out a transitions and to demonstrate the appropriate behaviour relying less on prompting. 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u6_s4_p2_image.svg
   -
   -
     title: Watch 
@@ -33,7 +33,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Make a list of the different ways that individuals can be supported through transitions.
   -
   -
     title: Key point
@@ -57,28 +57,30 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Make a list of the different ways that individuals can be supported through transitions.
   -
   -
     title: Case study
-    layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
       ### Case study - Transition plans to help autistic children return to school following lockdown
 
       The National Autistic Society Scotland is calling on schools to provide all autistic children with a personalised transition plan to help with their return to school in August.
-      
-      Suzanne who lives in Dunfermline said:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Suzanne who lives in Dunfermline said . . . 
+          copy: |
+            “The lock down has been hugely challenging for us as a family. I’ve had to stop my Open University course together with my volunteering in order to care for and educate by two autistic children. 
 
-      “The lock down has been hugely challenging for us as a family. I’ve had to stop my Open University course together with my volunteering in order to care for and educate by two autistic children. 
+            Callum has quite significant needs and doesn’t understand the restrictions so it has been difficult to follow social distancing and I’m worried it will be very hard when he goes back to school as he has a compulsion to run up and touch or hug people.
 
-      Callum has quite significant needs and doesn’t understand the restrictions so it has been difficult to follow social distancing and I’m worried it will be very hard when he goes back to school as he has a compulsion to run up and touch or hug people.
+            Emma is very different and is quite quiet. She has enjoyed lockdown to some extent, particularly with us being together as a family. She is however, very anxious about returning to school and has really struggled with sleep because she is so worried.
 
-      Emma is very different and is quite quiet. She has enjoyed lockdown to some extent, particularly with us being together as a family. She is however, very anxious about returning to school and has really struggled with sleep because she is so worried.
-
-      Both my children have very different needs and so their transition back into school will need to be done with lots of understanding and support. The school have been quite helpful in my case and have offered to talk things through but I worry not everyone out there will get the same level of help.”
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+            Both my children have very different needs and so their transition back into school will need to be done with lots of understanding and support. The school have been quite helpful in my case and have offered to talk things through but I worry not everyone out there will get the same level of help.”
+            
+          img: /images/svg/ua/ua_u6_s4_p2_casestudy.svg
   -
   -
     title: On the web

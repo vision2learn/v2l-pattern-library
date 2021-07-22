@@ -35,17 +35,17 @@ sections:
           title: Healthcare
           text: |
             Health and care settings aren’t always flexible enough to adapt to the needs of individuals with autism. Issues such as noisy waiting areas, and not being able to see the same GP or social worker, can make a stressful experience even more difficult.
-          img: placeholder_icon.svg
+          img: ua_u6_s5_p1_slide1.svg
         -
           title: Education and training
           text: |
             Education is a key part of every child’s life and a high proportion of children with autism attend mainstream schools. Opportunities for further education or training will vary across the country. Students at whatever level should always get the extra help and support they need.
-          img: placeholder_icon.svg
+          img: ua_u6_s5_p1_slide2.svg
         -
           title: Leisure services
           text: |
-            Playing sport, visiting the theatre or cinema, and going to museums, can have so many benefits for an individual with autism. However, the needs of people with autism should be supported, for them to be able to fully appreciate the experience. Some providers of leisure facilities have begun working to become more accessible, introducing autism-friendly measures.
-          img: placeholder_icon.svg
+            Playing sport, visiting the theatre or cinema, and going to museums, can have so many benefits for an individual with autism. However, the needs of people with autism should be supported, for them to be able to fully appreciate the experience. Some providers of leisure facilities have begun working to become more accessible, introducing autism friendly measures.
+          img: ua_u6_s5_p1_slide3.svg
   -
   -
     title: Watch 
@@ -55,6 +55,16 @@ sections:
       Let’s look at this in more detail in this video.
     video: ua_u6_s5_p1_support_services.mp4
   -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a list of the different types of support that an individual might need to access the following                        
+        * healthcare
+        * education and training
+        * leisure services.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -75,12 +85,12 @@ sections:
           title: Multi-agency strategy group
           text: |
             Each area in the country should have a multi-agency strategy group responsible for recognition, referral and diagnosis of children and young people. They should also provide access to the services that might be needed such as paediatricians, psychologists, speech and language therapists and social services. 
-          img: placeholder_icon.svg
+          img: ua_u6_s5_p1_slide1b.svg
         -
           title: Local and national support organisations
           text: |
             Once an individual has received a diagnosis, information should be provided to prepare for the future and contact details should be given for local and national support organisations. It is the right of every individual with autism and their family to have access to these services and facilities when they need them in all aspects of their life.
-          img: placeholder_icon.svg
+          img: ua_u6_s5_p1_slide2b.svg
     copy2: If you wish, you can take another look at the Acts and guidance in [Unit 2, Session 1, Page 2](/courses/understanding-autism/2/1/2).
   -
   -
@@ -102,4 +112,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Can you outline the rights of individuals with autism in relation to accessing services and facilities?

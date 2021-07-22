@@ -15,16 +15,16 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to Outline the difficulties an individual with autism may have with:
+      In your assessment you will be required to outline the difficulties an individual with autism may have with:
       * processing information
       * predicting the consequences of an action
       * organising, prioritising and sequencing
       * understanding the concept of time
   -
-    title: Processing information
+    title: Cognitive differences
     theme: t-bg-primary
     copy: |
-      Select the images below to learn about the difficulties an individual with autism may have processing information.
+      Select the images below to learn about the difficulties an individual with autism may have with a range of cognitive differences.
 
     subInc: 
       type: reveal
@@ -37,7 +37,7 @@ sections:
         -
           title: Consequences of an action
           copy: |
-            Difficulty in predicting the consequences of an action such as ‘if I do this, what happens next? 
+            Difficulty in predicting the consequences of an action such as ‘if I do this, what happens next?' 
           img: ua_u4_s3_p1_reveal2.svg
         -
           title: Organising and prioritising
@@ -95,8 +95,11 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Can you think of different strategies that could be used to support individuals when completing tasks and actiivities? 
-
+        Using your learning from this page and you own research can you give examples of the difficulties that individuals with autism may have with the following:
+        * processing information
+        * predicting the consequences of an action
+        * organising, prioritising and sequencing
+        * understanding the concept of time
   -
   -
     title: Quick quiz
@@ -114,6 +117,6 @@ sections:
           sentence: A person with autism may have problems with understanding the concept of time.  
           answer: time
         -
-          sentence: A person with autism may may be detailed focused and less able to see the whole picture.
+          sentence: A person with autism may be detailed and focused, and less able to see the whole picture.
           answer: detailed
     theme: i-quiz

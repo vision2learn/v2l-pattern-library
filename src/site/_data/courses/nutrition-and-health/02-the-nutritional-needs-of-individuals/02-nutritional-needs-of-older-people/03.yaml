@@ -1,57 +1,51 @@
-title: Energy requirements and malnutrition risk
+title: Nutritional needs of older people
 intro: |
-  On this page you will learn about the energy requirements of older people and the risk of malnutrition for older people.
+  On this page we will look at a case study to explore this topic in more detail.
+   
 banner: placeholder.jpg
 sections:
   -
-    title: Energy requirements of older people
-    theme: t-bg-primary
-    copy: |      
-      Calorie needs decline the older you get!
-      * At the age of 59 years, males need around 2550 calories and females need 1940 calories.
-      * By the age of 64, a man will need 2380 calories and a woman around 1900.
-      * When they are 75 or older males will need 2100 and females will need 1810 calories.
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Carter and Aisha
 
-      Scroll through the slides below to learn more.
+      Carter and Aisha have become concerned about Carter’s elderly aunt, Mrs Williams. She was unwell and was told by the doctor that she risked being malnourished. Carter has offered to look into the problems faced by elderly people in their diets to help his aunt. 
+  -
+  -
+    title: Common problems for elderly people
+    theme: t-bg-primary1a
+    copy: |
+      Carter discovered that some of the most common problems for elderly people were: 
 
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: reveal
+      content:
         -
-          title: Physical changes
-          text: |
-            As people grow older their physical powers diminish. For example the heart becomes slower, arteries stiffen, bones shrink in size and density, muscles lose strength and flexibility, coordination diminishes and eyesight may worsen. These and other age related changes may result in lower levels of activity and consequently lower energy requirements. 
+          title: Constipation and digestive problems
+          copy: |
+            These are common problems for older people. Eating a fibre rich diet can help to alleviate these problems.
           img: placeholder_icon.svg
         -
-          title: Employment changes
-          text: |
-            When people are employed, their daily work routine will naturally involve some physical activity. As people retire, it is likely that their activity levels will fall significantly. As activity levels fall, so too will the energy requirements. 
+          title: Osteoporosis
+          copy: |
+            This is a health issue that many older people experience, especially women. It happens when bone density decreases and can lead to fractures. Eating enough calcium and vitamin D can help with this; however eating too much vitamin A can make things much worse. 
           img: placeholder_icon.svg
         -
-          title: Social and cultural changes
-          text: |
-            n society there is a general expectation that as people get older they become far less active. This is reflected in the early compulsory retirement age imposed by the government or the stereotype of old people requiring wheelchairs and walking sticks to get around. More recently, social attitudes have changed and older people are now encouraged to increase their activity levels although this is not always possible. 
+          title: Significantly less energy
+          copy: |
+            People often feel that they have less energy as they get older. This is sometimes caused by a lack of iron. 
           img: placeholder_icon.svg
-        -
-          title: Summary
-          text: |
-            These changes come together, meaning that older people need to eat far fewer calories than younger people.
+    copy2: |
+      Carter looks at Mrs Williams’ diet and discovers that she does consume plenty of milk, cheese and dairy. She also gets enough vitamin D by eating oily fish and fortified spreads. Despite this, Mrs Williams did appear to lack energy and said that she suffered from mild constipation.
 
-            Older people need to make sure that they keep active and acknowledge that cutting food consumption does not lead to the loss of important nutrients. Often, when older people eat less they risk not getting enough fibre, vitamins or minerals.
+      Carter gave Mrs Williams a series of key pointers on keeping her diet healthy:
 
-            Although older people do require fewer calories, it is important that older people continue to have a healthy, balanced and varied diet. 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### The risk of malnutrition for older people
-
-       There is a lot of evidence to show that older people can suffer from malnutrition as a result of having a poor diet. Watch the following video to learn about the potential causes of malnutrition for older people. 
-    video: placeholder_pc.mp4
+      * Eat fibre rich foods such as breakfast cereals and wholemeal bread
+      * Eat iron rich foods such as beans, lentils, sardines and spinach.
+      
+      By eating these foods more often, Mrs Williams can help to reduce some of the problems she is having and ensure that she is eating healthily. 
   -
   -
     title: Time to think
@@ -59,18 +53,17 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Question about the video content relating to the LO?_  
-        
-        Write your ideas in the box to the right.
+        In box to the right try to think of some other fibre - or iron-rich foods Mrs Williams could eat to increase her intake.
   -
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your Unit 2 Assessment, you will need to describe reasons why older people may be at risk of malnutrition. The materials on this page will help you to do this. 
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        For more tips on meal planning for older people go to:
+
+      links:
+        High fibre diets: http://www.bbcgoodfood.com/howto/guide/spotlight-high-fibre-diets
   -
   -
-    title: Summary
-    theme: t-bg-primary i-summary
-    copy: |
-      With so many factors influencing diets and potentially leading to malnutrition, it is important that the diet and well-being of older people is carefully monitored. 
