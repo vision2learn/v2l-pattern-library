@@ -153,6 +153,7 @@ workflows:
             branches:
               only:
                 - rayner-mod
+                - master
       - dotnet:
           filters:
             branches:
