@@ -1,8 +1,8 @@
 JOE: There are a range of different initiatives, organisations and agencies and companies that can help individuals with autism into employment and some also offer employment directly focusing on the skills individuals with autism can offer.
 
-BETH: ‘The National Autistic’ society provides resources and a variety of work programmes, training and resources for jobseekers with autism and can help employers looking to benefit from hiring a more diverse workforce.
+BETH: 'The National Autistic Society' provides resources and a variety of work programmes, training and resources for jobseekers with autism and can help employers looking to benefit from hiring a more diverse workforce.
 
-JOE: ‘Ambitious about autism’ is a national charity that has a website covering a range of things including getting into employment. They run employability programmes acting as a bridge to employment for autistic people by removing barriers. 
+JOE: 'Ambitious about Autism' is a national charity that has a website covering a range of things including getting into employment. They run employability programmes acting as a bridge to employment for autistic people by removing barriers. 
 
 They work with employers giving them access to talented and innovative autistic employees and promote paid work experience for individuals. They also provide training resources and mentorship. 
 

@@ -1,4 +1,4 @@
-JOE: Dietary habits can be difficult to understand and sometimes, to manage. They may involve different issues such as eating only a few foods, only eating at home, going long periods without food or eating ‘nonfoods’ a condition known as ‘Pica’.
+JOE: Dietary habits can be difficult to understand and sometimes, to manage. They may involve different issues such as eating only a few foods, only eating at home, going long periods without food or eating ‘nonfoods’ a condition known as ‘pica’.
 
 Many autistic people suffer with obsessions, and if certain foods or calorie counting, is their obsession, this could lead to over-eating, under-eating or a rigid diet. 
 
@@ -8,7 +8,7 @@ If an individual has under eating problems, increasing food portions or using a 
 
 JOE: Visual aids can also be used for both problems showing foods that are good and foods that are not so good, and also showing visual representations of hunger and fullness scales. 
 
-BETH: Some individuals with autism experience Pica, which is eating or mouthing non-edible items, such as stones and dirt. The reason a person on the autism spectrum might experience pica, could be medical, dietary, sensory or behavioural . They may do this for a range of reasons such as not understanding which items are edible, liking the texture of the item, to relieve pain or anxiety or as a method of gaining attention.
+BETH: Some individuals with autism experience pica, which is eating or mouthing non-edible items, such as stones and dirt. The reason a person on the autism spectrum might experience pica, could be medical, dietary, sensory or behavioural . They may do this for a range of reasons such as not understanding which items are edible, liking the texture of the item, to relieve pain or anxiety or as a method of gaining attention.
 
 JOE: An obsession with eating, could be channelled into something positive such as cooking and writing recipes. Special interests could be used to encourage them to eat more volume or variety, by cutting the food into shapes or by looking at foods from different countries.
 
