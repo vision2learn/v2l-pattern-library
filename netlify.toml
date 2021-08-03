@@ -1,17 +1,17 @@
 [functions]
   directory = "src/netlify/functions"
 
-[[redirects]]
-from = "/courses/*"
-force = true
-status = 200
-conditions = {Role = ["reviewer", "admin"]}
+# [[redirects]]
+# from = "/courses/*"
+# force = true
+# status = 200
+# conditions = {Role = ["reviewer", "admin"]}
 
-[[redirects]]
-from = "/courses/*"
-to = "/login"
-force = true
-status = 302
+# [[redirects]]
+# from = "/courses/*"
+# to = "/login"
+# force = true
+# status = 302
 
 [[redirects]]
 from = "/autism"

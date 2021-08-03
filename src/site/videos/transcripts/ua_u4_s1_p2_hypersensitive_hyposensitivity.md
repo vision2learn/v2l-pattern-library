@@ -1,4 +1,4 @@
-JOE: Processing everyday sensory information can be a problem for individuals with Autism as they may be oversensitive, known as ‘hypersensitive’, or under sensitive, known as ‘hyposensitive’ or even both, at different times. These differences in their senses can affect how they feel, or act and can have a profound effect on their lives.
+JOE: Processing everyday sensory information can be a problem for individuals with autism as they may be oversensitive, known as ‘hypersensitive’, or under sensitive, known as ‘hyposensitive’ or even both, at different times. These differences in their senses can affect how they feel, or act and can have a profound effect on their lives.
 
 BETH: Individuals who have problems with their vision may, if they are under sensitive, have poor depth perception, causing clumsiness or have peripheral vision problems. If they are oversensitive, they may need to focus on a detail rather than the whole thing and they may have trouble being in rooms with bright light such as fluorescents, or even sleeping without complete darkness.
 
