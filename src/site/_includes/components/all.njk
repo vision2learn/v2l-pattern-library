@@ -89,9 +89,9 @@
 
 {# --- 4. Quick Quiz --- #}
 
-{%- macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
-  <input autocomplete="off" type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}" value="{{ answer | lower | replace(' ', '_')}}">
-  <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}" >
+{%- macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse, id) %}
+  <input autocomplete="off" type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}{{ id }}" value="{{ answer | lower | replace(' ', '_')}}">
+  <label for="q{{ qNumber }}-a{{ aNumber }}{{ id }}" data-v2l-correct="{{ trueOrFalse }}" >
     {%- if answer == "true" or answer == "false" %}
       {{ answer | capitalize }}
     {%- else %}

@@ -22,12 +22,13 @@
 <form class="c-quiz l-quiz" autocomplete="off" {{ 'data-v2l-mcquiz=true' if mode }}>
   {%- for question, answers in quiz %}
     {%- set topIndex = loop.index %}
+    {%- set id = "" | uniqueID -%}
       <fieldset class="l-quiz">
         <legend data-v2l-qnum="Question {{ loop.index }}">{{ question }}</legend>
         
         {%- for response, result in answers.answers %}
           <div class="c-quiz__answer">
-            {{ components.quizQuestion(type=qType, qNumber=topIndex, aNumber=loop.index, answer=response, trueOrFalse=result) }}
+            {{ components.quizQuestion(type=qType, qNumber=topIndex, aNumber=loop.index, answer=response, trueOrFalse=result, id=id) }}
           </div>
         {%- endfor %}
       

@@ -252,7 +252,7 @@ module.exports = function(config) {
     }
   });
 
-  config.addFilter("uniqueID", val => {return `${val}_${+new Date()}` });
+  config.addFilter("uniqueID", val => {return `${val}_${Math.floor(Math.random(+new Date)*9999999999999)}` });
 
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
