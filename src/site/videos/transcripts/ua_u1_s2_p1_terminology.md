@@ -3,15 +3,15 @@ The study of the human brain shows a significant overlap between fields of neuro
 
 New terminologies often become part of common usage to define the differences in how the world is perceived by different people and two commonly used terms are ‘neurodivergent’ and ‘neurotypical’.
 
-BETH: The term ‘neurodiverse’ applies to individuals who are ‘neurodivergent’. The conditions of ADHD, Autism, Dyspraxia, and Dyslexia make up neurodiversity, and neuro-differences are recognised as a social category. 
+BETH: The term ‘neurodiverse’ applies to individuals who are ‘neurodivergent’. The conditions of ADHD, autism, Dyspraxia, and Dyslexia make up neurodiversity, and neuro-differences are recognised as a social category. 
 
-As a concept, neurodiversity has been around for a while and those with conditions like ADHD and Autism aren't seen as ‘abnormal’ they're just different.
+As a concept, neurodiversity has been around for a while and those with conditions like ADHD and autism aren't seen as ‘abnormal’ they're just different.
 
-The term neurodiverse is used to describe a variety of conditions related to cognitive abilities especially relevant for those Autism. Neurodiverse individuals often struggle with soft skills, especially ones that apply to ‘social interactions’ and find physical behaviours like standing too close to someone or speaking too loudly distressing. 
+The term neurodiverse is used to describe a variety of conditions related to cognitive abilities especially relevant for those autism. Neurodiverse individuals often struggle with soft skills, especially ones that apply to ‘social interactions’ and find physical behaviours like standing too close to someone or speaking too loudly distressing. 
 
 Neurodiversity is an idea that takes into account variations in the human brain regarding learning, mood, attention, sociability, and other mental functions and doesn’t regarded these as abnormal or unhealthy but as differences to be understood and worked with. 
 
-Neurodiversity reflects the idea that Autism is not a mental health problem and rejects the medical model of disability and whilst not all individuals with Autism apply this term to themselves it can help more people on the spectrum to live fuller lives.
+Neurodiversity reflects the idea that autism is not a mental health problem and rejects the medical model of disability and whilst not all individuals with autism apply this term to themselves it can help more people on the spectrum to live fuller lives.
 
 JOE: The term ‘neurotypical’ started to be used around the same time as neurodiversity as a means of describing those who don’t display autistic or other ‘atypical ‘patterns of thoughts or behaviour, a way of describing people without any particular condition.
 

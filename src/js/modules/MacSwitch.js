@@ -10,11 +10,12 @@ const ContentToggle = (() => {
   let storage = document.querySelector('[data-v2l-env=netlify]') ? window.sessionStorage : window.localStorage; // use session storage if we're on netlify platform    
   let baseVidSrc = [];
   let baseIntSrc = [];
+ 
   // check we're in IT?
 
   toggle.init = () => {
     // don't go any further if we're not in IT or localStorage isn't available
-    if(!Toolkit.storageAvailable('localStorage' || !course.startsWith('it') )) {
+    if(!course || (!Toolkit.storageAvailable('localStorage') || !course.startsWith('it'))) {
       return false;
     }
     
@@ -29,12 +30,12 @@ const ContentToggle = (() => {
       let vidContainer = video.parentNode.parentNode;
       let url = new URL(video.src);
       let basename = url.pathname.substring(url.pathname.lastIndexOf('/') + 1, url.pathname.indexOf('_pc'));
-      
+    
       if(url.pathname.indexOf('_pc') > -1) {
         vidContainer.dataset.v2lFormat = "pc";
         baseVidSrc.push({
           vidPath: url.origin + url.pathname.substring(0, url.pathname.indexOf('_pc')),
-          vttPath: `/videos/captions/vtt/${basename}`
+          vttPath: `${V2lPage.appPath}/videos/captions/vtt/${basename}`
         });
       }
     });

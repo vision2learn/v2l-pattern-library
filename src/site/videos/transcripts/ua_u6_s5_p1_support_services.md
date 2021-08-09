@@ -6,7 +6,7 @@ BETH: GPs should have a good understanding and knowledge about autism, and the a
 
 JOE: Long waiting times for diagnosis can put extra pressure on parents and carers unnecessary stress to people with autism, as this may mean longer waits for treatment and support.
 
-In some areas, there may be a lack of support services for people living with autism, including getting an Education, Health and Care plan ‘EHC’, or a lack of information available to accessing the support they need.
+In some areas, there may be a lack of support services for people living with autism, including getting an education, health and care plan ‘EHC’, or a lack of information available to accessing the support they need.
 
 BETH: A high proportion of children with autism attend mainstream schools, which should all endeavour to do their utmost in providing the necessary support for any student who has special educational needs. However, the needs of individuals with autism as we have discussed in other units often go further than extra learning support.
  

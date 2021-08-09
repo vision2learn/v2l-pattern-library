@@ -16,4 +16,4 @@ JOE: Others find the need for routine and sameness can go so far, that it become
 
 People's dependence on routines can increase during times of change, stress or illness and may even become more dominant or elaborate at these times. 
 
-BETH: Individuals with Autism can find changes to their routines difficult, but they can be prepared for change and supported through it.
+BETH: Individuals with autism can find changes to their routines difficult, but they can be prepared for change and supported through it.

@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 2,
+  pagination: {
+    data: "courses['demo']['02-unit-two']['02-session-two']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
