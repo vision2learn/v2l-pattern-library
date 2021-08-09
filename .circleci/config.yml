@@ -128,7 +128,7 @@ jobs:
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:/mnt/website/backgroundyellow.net
             ssh $SSH_USER@$SSH_HOST tar -xzvf /mnt/website/backgroundyellow.net/site.tar.gz -C /mnt/website/backgroundyellow.net/v2l/test
             echo "Running Backstop JS tests"
-            ssh $SSH_USER@$SSH_HOST "/mnt/website/backstopjs; backstop test"
+            ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop test"
 
   deploy:
     machine:
