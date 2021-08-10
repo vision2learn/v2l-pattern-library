@@ -57,14 +57,13 @@ sections:
             Bacon: true
             Cheese: true
             Chicken: false
-            Ham: true
             Gravy granules: true
             Pickles: true
             Salami: true
             Raw nuts: false
             Prawns: true
             Jumbo oats: false
-          feedback: Bacon, cheese, ham, gravy granules, pickles, salami, and prawns almost always have a high amount of salt.
+          feedback: Bacon, cheese, gravy granules, pickles, salami, and prawns almost always have a high amount of salt.
         Select the foods below that MAY be high in salt content:
           answers:
             Breakfast cereals: true
@@ -75,7 +74,7 @@ sections:
             Tomato ketchup / mayonnaise: true
             Rice: false
             Oat cakes: false
-          feedback: Breakfast cereals, crumpets, bagels, pasta sauces and ready meals may have a high amount of salt.
+          feedback: Breakfast cereals, crumpets, bagels, pasta sauces, ready meals, Tomato ketchup and mayonnaise may have a high amount of salt.
   -
   -
     title: Stats and Facts
@@ -169,44 +168,6 @@ sections:
             3 grams: false
             6 grams: true
             7 grams: false
-        Is the following statement true or false? "As well as raised blood pressure, heart disease and strokes;  too much salt can also lead to osteoporosis, kidney damage and stomach cancer.":
-          answers:
-            True: true
-            False: false
-        True or false? Obesity is linked to a BMI over 25.:
-          answers:
-            False: true
-            True: false
-          feedback: False. It’s over 30. A BMI between 25 – 30 is classed as overweight.
-        The most common causes of cancer are:
-          answers:
-            Obesity and being overweight: false
-            Smoking: false
-            Excessive alcohol consumption: false
-            Over exposure to the sun’s UV rays: false 
-            Being inactive: false
-            All of these: true
-  -
-    title: Another Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        A person over 11 years old should have how many grams of salt per day?:
-          answers:
-            3 grams: false
-            6 grams: true
-            7 grams: false
-        Select the foods below that have a high amount of salt:
-          answers:
-            Chicken: false
-            Ham: true
-            Pizza: true
-            Raw nuts: false
-            Crisps: true
-            Prawns: true
-            Jumbo oats: false
-            Sausages: true
         Is the following statement true or false? "As well as raised blood pressure, heart disease and strokes;  too much salt can also lead to osteoporosis, kidney damage and stomach cancer.":
           answers:
             True: true
