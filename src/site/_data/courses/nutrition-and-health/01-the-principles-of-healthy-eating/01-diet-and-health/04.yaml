@@ -45,35 +45,43 @@ sections:
       You will need to be able to explain why maintaining control of your salt intake is important and understand how unhealthy diets can lead to lifestyle diseases.
   -
   -
-    title: Activity - Foods high in salt
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      _ID Note - REPLACE TABLE WITH ACTIVITY - Drag and Drop OR Hotspots_ 
-      
-      Select the following icon to do an activity which will show examples of food that may contain a high amount of salt. 
-
-      REMOVE - Reference only
-      | Almost always high in salt content | Can be high in salt content |
-      |------|------|
-      | Bacon | Breakfast cereals |
-      | Cheese | Crisps |
-      | Gravy granules | Crumpets / bagels |
-      | Ham | Pasta sauces |
-      | Pickles | Pizza |
-      | Prawns | Ready meals |
-      | Salami | Sausages |
-      | Salted nuts | Tomato ketchup / mayonnaise |
-
-    img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+    title: Quick quiz
+    theme: i-quiz
+    copy: Have a go at the following questions about foods that may contain a high amount of salt.
+    subInc:
+      type: quick-quiz
+      mode: multi-choice
+      content:
+        Select the foods below that are almost ALWAYS high in salt content:
+          answers:
+            Bacon: true
+            Cheese: true
+            Chicken: false
+            Ham: true
+            Gravy granules: true
+            Pickles: true
+            Salami: true
+            Raw nuts: false
+            Prawns: true
+            Jumbo oats: false
+          feedback: Bacon, cheese, ham, gravy granules, pickles, salami, and prawns almost always have a high amount of salt.
+        Select the foods below that MAY be high in salt content:
+          answers:
+            Breakfast cereals: true
+            Crumpets / Bagels: true
+            Lentils: false
+            Pasta sauces: true
+            Ready meals: true
+            Tomato ketchup / mayonnaise: true
+            Rice: false
+            Oat cakes: false
+          feedback: Breakfast cereals, crumpets, bagels, pasta sauces and ready meals may have a high amount of salt.
+  -
   -
     title: Stats and Facts
     layout: media
     theme: t-bg-supporting2
     copy: |
-      _ID Note - we could include these figures in the above activity_
-
       Take a look at the table below to see the recommended maximum quantity of salt per day:
 
       | Age group | Salt quantity |
@@ -162,16 +170,6 @@ sections:
             3 grams: false
             6 grams: true
             7 grams: false
-        Select the foods below that have a high amount of salt:
-          answers:
-            Chicken: false
-            Ham: true
-            Pizza: true
-            Raw nuts: false
-            Crisps: true
-            Prawns: true
-            Jumbo oats: false
-            Sausages: true
         Is the following statement true or false? "As well as raised blood pressure, heart disease and strokes;  too much salt can also lead to osteoporosis, kidney damage and stomach cancer.":
           answers:
             True: true
