@@ -159,7 +159,6 @@ sections:
         British Nutrition Foundation: http://www.nutrition.org.uk/healthyliving/healthissues
         NHS UK: http://www.nhs.uk/Conditions/Obesity/Pages/Obesitysymptoms.aspx
   -
-  -
     title: Quick quiz
     theme: i-quiz
     subInc:
@@ -170,6 +169,44 @@ sections:
             3 grams: false
             6 grams: true
             7 grams: false
+        Is the following statement true or false? "As well as raised blood pressure, heart disease and strokes;  too much salt can also lead to osteoporosis, kidney damage and stomach cancer.":
+          answers:
+            True: true
+            False: false
+        True or false? Obesity is linked to a BMI over 25.:
+          answers:
+            False: true
+            True: false
+          feedback: False. It’s over 30. A BMI between 25 – 30 is classed as overweight.
+        The most common causes of cancer are:
+          answers:
+            Obesity and being overweight: false
+            Smoking: false
+            Excessive alcohol consumption: false
+            Over exposure to the sun’s UV rays: false 
+            Being inactive: false
+            All of these: true
+  -
+    title: Another Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        A person over 11 years old should have how many grams of salt per day?:
+          answers:
+            3 grams: false
+            6 grams: true
+            7 grams: false
+        Select the foods below that have a high amount of salt:
+          answers:
+            Chicken: false
+            Ham: true
+            Pizza: true
+            Raw nuts: false
+            Crisps: true
+            Prawns: true
+            Jumbo oats: false
+            Sausages: true
         Is the following statement true or false? "As well as raised blood pressure, heart disease and strokes;  too much salt can also lead to osteoporosis, kidney damage and stomach cancer.":
           answers:
             True: true
