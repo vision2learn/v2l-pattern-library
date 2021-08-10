@@ -21,4 +21,4 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run Backstop
-        run: ssh ${{ secrets.BGY_USER }}@${{ secrets.BGY_IP }}" cd /mnt/website/backstopjs; backstop test"
+        run: ssh ${{ secrets.BGY_USER }}@${{ secrets.BGY_IP }} "cd /mnt/website/backstopjs; backstop test"
