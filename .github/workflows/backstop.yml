@@ -17,8 +17,16 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+  # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Runs a single command using the runners shell
-      - name: Run Backstop
-        run: ssh ${{ secrets.BGY_USER }}@${{ secrets.BGY_IP }}
+      - name: andrewtwydell/ssh
+        # You may pin to the exact commit or the version.
+        # uses: AndrewTwydell/ssh-workflow@f705bd28f2f7dec5d4b2f98ab34367d17678fcf4
+        uses: AndrewTwydell/ssh-workflow@1.0.0
+        with:
+          # SSH Host
+          host: ${{ secrets.BGY_IP }}
+          # User name
+          user: ${{ secrets.BGY_USER }}
+          # Script to Run
+          script: ls -la
