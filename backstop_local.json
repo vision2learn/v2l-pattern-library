@@ -1,5 +1,5 @@
 {
-  "id": "v2l_visual_regression",
+  "id": "V2L Visual Regression — Local",
   "viewports": [
     {
       "label": "dinky",
@@ -27,7 +27,7 @@
   "scenarios": [
     {
       "label": "Components: Accordion",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/accordion/",
+      "url": "http://localhost:8080/documentation/components/rendered/accordion/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/accordion/",
       "readyEvent": "",
       "readySelector": "",
@@ -45,7 +45,7 @@
     },
     {
       "label": "Components: Accordion (open)",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/accordion/",
+      "url": "http://localhost:8080/documentation/components/rendered/accordion/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/accordion/",
       "readyEvent": "",
       "readySelector": "",
@@ -63,7 +63,7 @@
     },
     {
       "label": "Components: Banner",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/banner/",
+      "url": "http://localhost:8080/documentation/components/rendered/banner/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/banner/",
       "readyEvent": "",
       "readySelector": "",
@@ -81,7 +81,7 @@
     },
     {
       "label": "Components: On the Web",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/on-the-web/",
+      "url": "http://localhost:8080/documentation/components/rendered/on-the-web/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/on-the-web/",
       "readyEvent": "",
       "readySelector": "",
@@ -99,7 +99,7 @@
     },
     {
       "label": "Components: Quick Quick (multi)",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/quick-quiz-multi-choice/",
+      "url": "http://localhost:8080/documentation/components/rendered/quick-quiz-multi-choice/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/quick-quiz-multi-choice/",
       "readyEvent": "",
       "readySelector": "",
@@ -117,7 +117,7 @@
     },
     {
       "label": "Components: Quick Quick (multi, selected)",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/quick-quiz-multi-choice/",
+      "url": "http://localhost:8080/documentation/components/rendered/quick-quiz-multi-choice/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/quick-quiz-multi-choice/",
       "readyEvent": "",
       "readySelector": "",
@@ -137,7 +137,7 @@
     },
     {
       "label": "Components: Quick Quiz",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/quick-quiz/",
+      "url": "http://localhost:8080/documentation/components/rendered/quick-quiz/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/quick-quiz/",
       "readyEvent": "",
       "readySelector": "",
@@ -155,7 +155,7 @@
     },
     {
       "label": "Components: Quick Quiz (correct)",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/quick-quiz/",
+      "url": "http://localhost:8080/documentation/components/rendered/quick-quiz/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/quick-quiz/",
       "readyEvent": "",
       "readySelector": "",
@@ -173,7 +173,7 @@
     },
     {
       "label": "Components: Quick Quiz (incorrect)",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/quick-quiz/",
+      "url": "http://localhost:8080/documentation/components/rendered/quick-quiz/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/quick-quiz/",
       "readyEvent": "",
       "readySelector": "",
@@ -191,7 +191,7 @@
     },
     {
       "label": "Components: Reveal",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/reveal/",
+      "url": "http://localhost:8080/documentation/components/rendered/reveal/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/reveal/",
       "readyEvent": "",
       "readySelector": "",
@@ -209,7 +209,7 @@
     },
     {
       "label": "Components: Reveal (open)",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/reveal/",
+      "url": "http://localhost:8080/documentation/components/rendered/reveal/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/reveal/",
       "readyEvent": "",
       "readySelector": "",
@@ -227,7 +227,7 @@
     },
     {
       "label": "Components: Slider",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/slider/",
+      "url": "http://localhost:8080/documentation/components/rendered/slider/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/slider/",
       "readyEvent": "",
       "readySelector": "",
@@ -245,7 +245,7 @@
     },
     {
       "label": "Components: Time to Think",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/time-to-think/",
+      "url": "http://localhost:8080/documentation/components/rendered/time-to-think/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/time-to-think/",
       "readyEvent": "",
       "readySelector": "",
@@ -263,7 +263,7 @@
     },
     {
       "label": "Components: Word Quiz",
-      "url": "https://staging.backgroundyellow.net/documentation/components/rendered/word-quiz/",
+      "url": "http://localhost:8080/documentation/components/rendered/word-quiz/",
       "referenceUrl": "https://v2lrefresh.netlify.app/documentation/components/rendered/word-quiz/",
       "readyEvent": "",
       "readySelector": "",
@@ -281,7 +281,7 @@
     },
     {
       "label": "Page: Unit 1, Session 1, Page 1",
-      "url": "https://staging.backgroundyellow.net/courses/demo/1/1/1/",
+      "url": "http://localhost:8080/courses/demo/1/1/1/",
       "referenceUrl": "https://v2lrefresh.netlify.app/courses/demo/1/1/1/",
       "readyEvent": "",
       "readySelector": "",
@@ -299,7 +299,7 @@
     },
     {
       "label": "Page: Unit 1, Session 1, Page 2",
-      "url": "https://staging.backgroundyellow.net/courses/demo/1/1/2/",
+      "url": "http://localhost:8080/courses/demo/1/1/2/",
       "referenceUrl": "https://v2lrefresh.netlify.app/courses/demo/1/1/2/",
       "readyEvent": "",
       "readySelector": "",
@@ -317,7 +317,7 @@
     },
     {
       "label": "Page: Unit 1, Session 1, Last Page",
-      "url": "https://staging.backgroundyellow.net/courses/demo/1/1/5/",
+      "url": "http://localhost:8080/courses/demo/1/1/5/",
       "referenceUrl": "https://v2lrefresh.netlify.app/courses/demo/1/1/5/",
       "readyEvent": "",
       "readySelector": "",
@@ -335,7 +335,7 @@
     },
     {
       "label": "Page: Last Page of Course",
-      "url": "https://staging.backgroundyellow.net/courses/demo/2/2/5/",
+      "url": "http://localhost:8080/courses/demo/2/2/5/",
       "referenceUrl": "https://v2lrefresh.netlify.app/courses/demo/2/2/5/",
       "readyEvent": "",
       "readySelector": "",
@@ -359,7 +359,7 @@
     "html_report": "backstop_data/html_report",
     "ci_report": "backstop_data/ci_report"
   },
-  "report": ["CI"],
+  "report": ["browser", "CI"],
   "engine": "puppeteer",
   "engineOptions": {
     "args": ["--no-sandbox"]
