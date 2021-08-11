@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BackstopJS" tests="72" failures="0" errors="0" skipped="0">
+    <testcase classname="document" name=" ›› Components: Accordion"/>
+    <testcase classname="document" name=" ›› Components: Accordion"/>
+    <testcase classname="document" name=" ›› Components: Accordion"/>
+    <testcase classname="document" name=" ›› Components: Accordion"/>
+    <testcase classname="document" name=" ›› Components: Accordion (open)"/>
+    <testcase classname="document" name=" ›› Components: Accordion (open)"/>
+    <testcase classname="document" name=" ›› Components: Accordion (open)"/>
+    <testcase classname="document" name=" ›› Components: Accordion (open)"/>
+    <testcase classname="document" name=" ›› Components: Banner"/>
+    <testcase classname="document" name=" ›› Components: Banner"/>
+    <testcase classname="document" name=" ›› Components: Banner"/>
+    <testcase classname="document" name=" ›› Components: Banner"/>
+    <testcase classname="document" name=" ›› Components: On the Web"/>
+    <testcase classname="document" name=" ›› Components: On the Web"/>
+    <testcase classname="document" name=" ›› Components: On the Web"/>
+    <testcase classname="document" name=" ›› Components: On the Web"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
+    <testcase classname="document" name=" ›› Components: Reveal"/>
+    <testcase classname="document" name=" ›› Components: Reveal"/>
+    <testcase classname="document" name=" ›› Components: Reveal"/>
+    <testcase classname="document" name=" ›› Components: Reveal"/>
+    <testcase classname="document" name=" ›› Components: Reveal (open)"/>
+    <testcase classname="document" name=" ›› Components: Reveal (open)"/>
+    <testcase classname="document" name=" ›› Components: Reveal (open)"/>
+    <testcase classname="document" name=" ›› Components: Reveal (open)"/>
+    <testcase classname="document" name=" ›› Components: Slider"/>
+    <testcase classname="document" name=" ›› Components: Slider"/>
+    <testcase classname="document" name=" ›› Components: Slider"/>
+    <testcase classname="document" name=" ›› Components: Slider"/>
+    <testcase classname="document" name=" ›› Components: Time to Think"/>
+    <testcase classname="document" name=" ›› Components: Time to Think"/>
+    <testcase classname="document" name=" ›› Components: Time to Think"/>
+    <testcase classname="document" name=" ›› Components: Time to Think"/>
+    <testcase classname="document" name=" ›› Components: Word Quiz"/>
+    <testcase classname="document" name=" ›› Components: Word Quiz"/>
+    <testcase classname="document" name=" ›› Components: Word Quiz"/>
+    <testcase classname="document" name=" ›› Components: Word Quiz"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 1"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 1"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 1"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 1"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 2"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 2"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 2"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Page 2"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Last Page"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Last Page"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Last Page"/>
+    <testcase classname="document" name=" ›› Page: Unit 1, Session 1, Last Page"/>
+    <testcase classname="document" name=" ›› Page: Last Page of Course"/>
+    <testcase classname="document" name=" ›› Page: Last Page of Course"/>
+    <testcase classname="document" name=" ›› Page: Last Page of Course"/>
+    <testcase classname="document" name=" ›› Page: Last Page of Course"/>
+  </testsuite>
+</testsuites>
