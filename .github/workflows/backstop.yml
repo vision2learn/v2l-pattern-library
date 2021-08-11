@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   
 jobs:
-  dotnet:
+  backstopit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
