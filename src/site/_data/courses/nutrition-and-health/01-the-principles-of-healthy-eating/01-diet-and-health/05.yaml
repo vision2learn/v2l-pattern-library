@@ -46,16 +46,13 @@ sections:
     title: Interactivity - Grams to calories
     theme: 
     copy: |
-      _ID Note - this item needs to be an interactivity or activity_
-
-      _Existing content - Roll your mouse over the image below to discover how many calories are in a gram of carbohydrate, protein and fat._
-
-      _See: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg9.asp for reference_
+      Existing content - Select the images below to discover how many calories are in a gram of carbohydrate, protein and fat.
 
     interactive: 
-      file: 
-      width: 800
-      height: 800       
+      file: nh/u1_s1_p5_calories
+      width: 1000
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3     
   -
   -
     title: Key point
