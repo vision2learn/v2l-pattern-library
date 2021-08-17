@@ -1,0 +1,16 @@
+title: TEMPLATE PAGE
+intro: |
+  ### TEMPLATE PAGE
+  On this page you will learn about: 
+  * point 1
+  *  
+banner: placeholder.jpg
+sections:
+  -
+    title: T E M P L A T E
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+    img: /images/svg/placeholder_icon.svg

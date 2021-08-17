@@ -89,9 +89,9 @@
 
 {# --- 4. Quick Quiz --- #}
 
-{%- macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse) %}
-  <input autocomplete="off" type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}" value="{{ answer | lower | replace(' ', '_')}}">
-  <label for="q{{ qNumber }}-a{{ aNumber }}" data-v2l-correct="{{ trueOrFalse }}" >
+{%- macro quizQuestion(type, qNumber, aNumber, answer, trueOrFalse, id) %}
+  <input autocomplete="off" type="{{ type | d('radio') }}" name="qq-{{ qNumber }}" id="q{{ qNumber }}-a{{ aNumber }}{{ id }}" value="{{ answer | lower | replace(' ', '_')}}">
+  <label for="q{{ qNumber }}-a{{ aNumber }}{{ id }}" data-v2l-correct="{{ trueOrFalse }}" >
     {%- if answer == "true" or answer == "false" %}
       {{ answer | capitalize }}
     {%- else %}
@@ -301,12 +301,18 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- set title = "" -%}
     {%- endif -%}
 
+    {% if shortcode %}
+      {% set shortcode = shortcode + "/" %}
+    {% else %}
+      {% set shortcode = "" %}
+    {% endif %}
+
     {%- if slidedata.img or slidedata.media %}
       {{ media2({
             title: title,
             copy: slidedata.text,
             media: {
-              ref: '/' + shortcode + '/' + slidedata.img
+              ref: '/' + shortcode + slidedata.img
             }
           },
           buildenv

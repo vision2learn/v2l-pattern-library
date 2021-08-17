@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   v2l:
-    image: mrsleeth/v2l:latest
+    image: mrsleeth/v2l:multi
     container_name: v2l-design-system
     ports:
       - "8080:8080"

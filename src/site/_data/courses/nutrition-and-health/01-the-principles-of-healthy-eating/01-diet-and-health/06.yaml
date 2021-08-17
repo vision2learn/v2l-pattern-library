@@ -4,7 +4,7 @@ intro: |
   * Understanding activity levels
   * Energy requirements
 
-banner: placeholder.jpg
+banner: nh_u1_s1_p6_activity2.jpg
 sections:
   -
     title: Understanding activity levels
@@ -29,17 +29,17 @@ sections:
           title: Moderate intensity aerobic activity 
           copy: |
             introduction text or example character here? 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal1.svg
         -
           title: Vigorous intensity aerobic activity
           copy: |
             introduction text or example character here? 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal2.svg
         -
           title: Muscle strengthening
           copy: |
             introduction text or example character here? 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal3.svg
   -
   -
     title: Activity - Energy requirements and weight
@@ -90,22 +90,22 @@ sections:
           title: Amount of activity
           copy: |
             Children, teenagers and adults should all follow a diet that is low in fat. Different levels of activity and the variations in this through the day will affect how much of each nutrient a person needs.  
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal1b.svg
         -
           title: Health / condition
           copy: |
             If someone is ill, recovering from an injury or pregnant, then they may need different nutrients than someone who is not. 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal2b.svg
         -
           title: Age
           copy: |
             People of different ages will require different levels of each nutrient.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal3b.svg
         -
           title: Physical changes
           copy: |
             If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal4b.svg
   -
   -
     title: Case study
@@ -120,7 +120,7 @@ sections:
 
       If Gerry keeps on eating the same amount but increases his activity level, he will more or less stop putting on weight. However, if he decided to eat 10% (400 calories per day) less he would lose about 1 lb. every 9 days. In a year this will be close to his target weight!
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/nh/nh_u1_s1_p6_image.svg
   -
     title: Summary
     theme: t-bg-primary i-summary
