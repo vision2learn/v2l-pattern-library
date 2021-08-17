@@ -7,57 +7,23 @@ intro: |
 banner: cs_u1_s1_p4_threats.jpg
 sections:
   -
-    title: Why have laws?
-    theme: t-bg-primary
-    copy: |
-      Laws are created in business to protect employers, employees, customers and third parties.
-
-      If laws didn’t exist, people would be unprotected and things may get out of control. There would be no clear way to resolve differences or difficulties.
-
-      Laws help businesses to have rules of conduct that apply to all relevant parties. Other methods can also be used to resolve differences of opinion or behaviour that break these rules – such as courts / tribunals.
-
-      Courts use an objective, evidence-based approach to solve problems to do with breaking the law, rather than using force or power to resolve an issue.
-  -
-    title: Be informed
+    title: Threat types
     theme: t-bg-grey
     copy: |
-      You can find useful information about employment rights and responsibilities in many different places!
+      There are two main types of threat. see below for information on these.
 
-      Some sources of information may be found within an organisation (known as internal sources) while other sources are found outside the organisation (known as external sources).
-
-      See below to see some examples.
     subInc: 
       type: accordion
       content:
         - 
           title: Internal
           copy: |
-            Internal sources of information may include
-
-            - Line managers
-            - Personnel specialists
-            - Human Resources department
-            - Informed colleagues
-            - Staff association representatives
-            - Trade union representatives
-            - Books and documents held within the organisation.
+            An insider threat to cyber security is when someone who works inside a company
           img: /images/svg/ba/ba_u1_s1_p4_accordion_1.svg
         - 
           title: External
           copy: |
-            External sources of information may include
-
-            - Libraries
-            - Citizens Advice Bureau
-            - Legal professionals
-            - Educational establishments / courses
-            - Trade unions – regional and / or head office
-            - Chambers of Commerce
-            - Employer / industry organisations
-            - ACAS
-            - Business Link
-            - Government
-            - Equality and Human Rights Commission
+            An external threat to cyber security is when
           img: /images/svg/ba/ba_u1_s1_p4_accordion_2.svg
   -
     title: Summary

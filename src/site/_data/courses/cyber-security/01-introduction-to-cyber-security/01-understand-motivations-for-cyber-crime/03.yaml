@@ -35,6 +35,8 @@ sections:
   -
     title: Motives for cyber crime.
     theme: t-bg-primary
+    copy: |
+      A person who commits a cyber crime is known as a cyber criminal. They can work alone or in a team of people. Their motives are often malicious with the intention of stealing sensitive company information, personal data, generating profit and/or for their own political reasons. Scroll through the slides below for different types of m 
     subInc: 
       type: slider
       title: 
@@ -42,67 +44,67 @@ sections:
         -
           title: For financial gain 
           text: |
-            text
+            cyber criminals steal financial information or identities to make money out of individuals and businesses.
           img: cs_u1_s1_p3_image_2.svg
         -
           title: To increase business and competition
           text: |
-            text
+            Cyber attacks against businesses are on the increase. Some attacks are designed to prevent competitors from taking part in major events, while others target the complete shutdown of online businesses for months.
           img: cs_u1_s1_p3_image_1.svg
         -
           title: To make a social or political point
           text: |
-            text
+            Hackers can attack government and organisational websites to make their point known. This is often by making a website crash so that no one can use it.
           img: cs_u1_s1_p3_image_3.svg
         -
           title: Radical ‘hackerism’
           text: |
-            text
+            These are usually bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention.
           img: cs_u1_s1_p3_image_2.svg
         -
           title: Cyber warfare
           text: |
-            text
+            This is a war on the internet and flow of information. Cyber attacks like these backed by nation-states, which means they are well-funded and well-planned actions carried out by tech-savvy professionals.
           img: cs_u1_s1_p3_image_1.svg
   -
   -
     title: Threat actors
     theme: t-bg-supporting3
     copy: |
-      text
+      In cybersecurity, the threat actor is the enemy. This can be a person, group, or entity that creates all or part of an ‘incident’ with the aim to impact an organization’s security.
 
-      Select the images below to read 
+      Select the images below to read more about the different types of threat actors
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Cyber criminals
           copy: |
             text
           img: cs_u1_s1_p3_image_1.svg
         -
-          title: b
+          title: Cyber terrorists
           copy: |
             text
           img: cs_u1_s1_p3_image_2.svg
         -
-          title: c
+          title: Inside agents and bad actors
           copy: |
             text
           img: cs_u1_s1_p3_image_3.svg
         -
-          title: d
+          title: State sponsored threat agents
           copy: |
             text
           img: cs_u1_s1_p3_image_1.svg
         - 
-          title: e
+          title: Script kiddies
           copy: |
             text
           img: cs_u1_s1_p3_image_2.svg
         - 
-          title: f 
+          title: Hacktivists 
           copy: |
             text
           img: cs_u1_s1_p3_image_3.svg      
