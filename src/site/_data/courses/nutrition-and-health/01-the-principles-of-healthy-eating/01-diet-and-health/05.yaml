@@ -6,7 +6,7 @@ intro: |
   * Basal Metabolic Rate (BMR)
   * Physical activity levels (PAL)
    
-banner: placeholder.jpg
+banner: nh_u1_s1_p5_energy.jpg
 sections:
   -
     title: Energy in food
@@ -23,39 +23,36 @@ sections:
           title: Calories and energy
           text: |
             A calorie is one unit of energy. This energy is used to walk, talk, breathe, sleep or run. All activities burn calories! The human body receives energy in the form of calories from food. 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p5_slide1.svg
         -
           title: Calories and food
           text: |
             Food contains calories. These can come from carbohydrates, fats, sugars and proteins. These terms are measured in grams. Each gram is defined as a number of calories.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p5_slide2.svg
         -
           title: Calories and health
           text: |
             Your body needs a certain amount of calories in order to maintain itself properly. Everything you do (including breathing and sleeping!) burns calories. The rate that these calories are burned is called the Basal Metabolic Rate (BMR). 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p5_slide3.svg
         -
           title: Calories and weight
           text: |
              If people consume 3,500 calories more than they use they will gain 1lb in body fat.
              
              If they use 3,500 calories more than they consume they will lose 1lb in body fat. 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p5_slide4.svg
   -
   -
     title: Interactivity - Grams to calories
     theme: 
     copy: |
-      _ID Note - this item needs to be an interactivity or activity_
-
-      _Existing content - Roll your mouse over the image below to discover how many calories are in a gram of carbohydrate, protein and fat._
-
-      _See: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg9.asp for reference_
+      Select the images below to discover how many calories are in a gram of carbohydrate, protein and fat.
 
     interactive: 
-      file: 
-      width: 800
-      height: 800       
+      file: nh/u1_s1_p5_calories
+      width: 1000
+      height: 400
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
     title: Key point
