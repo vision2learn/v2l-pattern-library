@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 3,
+  pagination: {
+    data: "courses['understanding-coding']['01-understand-the-principles-of-coding']['03-the-sofware-development-lifecycle']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
