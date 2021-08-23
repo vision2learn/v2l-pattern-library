@@ -93,7 +93,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        _LO or exercise - can relate to the video._
   -
   -
     title: On the web
@@ -103,8 +103,7 @@ sections:
       copy: |
         _Optional item depending on content_
 
-        Please see the following website where you can learn more about . . .
-
+        Please see the following website where you can learn more about terminology and languages.
       links:
         website description: http://www.google.co.uk
   -
