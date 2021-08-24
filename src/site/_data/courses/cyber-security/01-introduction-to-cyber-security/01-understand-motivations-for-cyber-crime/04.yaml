@@ -1,0 +1,71 @@
+title: "Types of threat and attacks"
+intro: |
+  On this page you will learn about:
+  * what is meant by internal and external threats
+  * the possible motivations that could lead to external and insider threats
+  * what is meant by ‘targeted’ and ‘untargeted’ attacks
+banner: cs_u1_s1_p4_threats.jpg
+sections:
+  -
+    title: Threat types
+    theme: t-bg-grey
+    copy: |
+      There are two main types of threat. see below for information on these.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Internal
+          copy: |
+            An insider threat to cyber security is when someone who works inside an organisation uses thier access privileges to steal information or damage IT systems. There are two main types of insider threat: malicious, and unintentional. Surprisingly, unintentional insider threats are the more common of the two.
+        - 
+          title: External
+          copy: |
+            An external threat to cyber security is when a someone from outside an organisation attempt to gain access by exploiting system vulnaribilities.
+  -
+    title: Motivation for threats
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about the possible motivation for both internal and external threats. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Internal threats
+          text: |
+            There are three main motivaters for this type of threat, emotion based, financially based and politically based. Emotional factors can be the result of employees becoming angry, bored or frustrated as the result of an incident involving thier organisation such as lack of promotion or possible disciplinary action against them. Financially based threats can be the result of an employee experiencing financial hardship or see that there is an opportunity to exploit their position for financial gain. Politically based threats are less likely than the other two but can occur due to state and corporate espoinage or idealogy. 
+          img: cs_u1_s1_p4_image_1.svg
+        -
+          title: External threats
+          text: |
+            Cybercriminals’ motivations are wide-ranging, and it depends on the crime being looked at. For instance, all cybercrimes linked to ransomware, phishing, online financial crimes, online fraud, password cracking, malware, hacking, sextortion are mainly motivated by financial gain but for some of them motivation can be due to pranks, activism, cyber theft, espionage (e.g. malware). 
+          img: cs_u1_s1_p4_image_2.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        to find out more about the specific types of attacks take a little time to look through the links below. 
+      links:
+        Cyber security for business: https://www.nibusinessinfo.co.uk/content/reasons-behind-cyber-attacks
+        What drives cyber attacks: https://www.itproportal.com/features/what-drives-cyberattackers-how-to-best-understand-motives-and-apply-controls/
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Please see the following video for 
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+
