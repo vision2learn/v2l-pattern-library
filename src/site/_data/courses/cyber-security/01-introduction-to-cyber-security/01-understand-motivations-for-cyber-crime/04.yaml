@@ -55,6 +55,27 @@ sections:
         What drives cyber attacks: https://www.itproportal.com/features/what-drives-cyberattackers-how-to-best-understand-motives-and-apply-controls/
   -
   -
+    title: Targeted and untargeted attacks
+    theme: t-bg-supporting3
+    copy: |
+      There are two distinct types of attacks carried out by cyber criminals see below to learn more about these.
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Un-targeted cyber attacks
+          copy: |
+            This type of attack is indiscriminate and targets as many different services, devices or users as possible. They will use a range of different tools and techniques such as,
+            - **phishing** - sending emails to people which are designed to encourage people to divulge sensitive information (such as bank details) or containing links which, when clicked will take them to a fake website or install malware or ransomware onto their computer
+            - **water holing** – this involves setting up a fake website or compromising a genuine site in order to exploit visitors
+            - **scanning** – this involves the use of specialist software and scanning large volumes of websites and networks at random to identify vulnerabilities
+        - 
+          title: External
+          copy: |
+            An external threat to cyber security is when a someone from outside an organisation attempt to gain access by exploiting system vulnerabilities.
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
