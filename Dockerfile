@@ -1,5 +1,5 @@
 FROM node:12-buster
-RUN apt update && apt install -y imagemagick libtiff5-dev libgsf-1-dev libgsf-1-dev fftw3 orc-0.4 libimagequant-dev
+RUN apt update && apt install -y imagemagick libtiff5-dev libgsf-1-dev libgsf-1-dev fftw3 orc-0.4 libimagequant-dev chromium
 WORKDIR /vips
 RUN wget -c https://github.com/libvips/libvips/releases/download/v8.10.5/vips-8.10.5.tar.gz -O - | tar -xz
 WORKDIR /vips/vips-8.10.5
