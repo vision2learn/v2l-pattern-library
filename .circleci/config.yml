@@ -39,7 +39,7 @@ jobs:
           command: |
             printf "CSS Integrity\n" >> shas.txt
             cat dist/css/main.css | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
-            printf "\n\nJS Integrity" >> shas.txt
+            printf "\n\nJS Integrity\n" >> shas.txt
             cat dist/js/script.js | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
       
       # compress the output for more efficient deployment...
