@@ -37,9 +37,9 @@ jobs:
       - run:
           name: Generate Integrity SHAs
           command: |
-            echo "CSS Integrity" >> shas.txt
+            printf "CSS Integrity\n" >> shas.txt
             cat dist/css/main.css | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
-            echo "JS Integrity" >> shas.txt
+            printf "\n\nJS Integrity\n" >> shas.txt
             cat dist/js/script.js | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
       
       # compress the output for more efficient deployment...
@@ -154,6 +154,19 @@ jobs:
           command: |
             echo "Running Backstop JS tests"
             ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop test"
+  backstop-references:
+    machine:
+      enabled: true
+    working_directory: ~/repo
+    steps:
+      -  add_ssh_keys:
+          fingerprints:
+            - "a2:aa:ee:91:eb:fe:c7:cb:a9:cc:98:40:fd:d2:6f:27"
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Generate Backstop References
+          command: ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop reference"
   deploy:
     machine:
       enabled: true
@@ -204,3 +217,9 @@ workflows:
           filters:
             branches:
               only: rayner-mod
+      - backstop-references:
+          requires:
+            - deploy
+          filters:
+            branches:
+              only: master
