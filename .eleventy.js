@@ -8,6 +8,8 @@ const Image = require('@11ty/eleventy-img');
 const path = require("path");
 const fs = require("fs");
 const MarkdownIt = require('markdown-it');
+const ssri = require('ssri');
+const { log } = require("console");
 
 let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
 let missingCaptions = [];
@@ -50,6 +52,38 @@ async function imageShortcode(src, cls, alt, sizes) {
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+async function generateSSRI() {
+
+    const filePath = 'dist/css/main.css'; //`dist/css/${file}`;
+    let integrityString;
+
+    try {
+      fs.accessSync(filePath, fs.constants.F_OK);
+      console.log("CSS FOUND");
+      
+      ssri.fromStream(fs.createReadStream(filePath), {
+        algorithms: ['sha256']
+      }).then(integrity => {
+        console.log('Then 1', integrity.toString());
+        return integrity;
+      });
+
+      return myString.then(val => {console.log('WTF',val.toString())});
+      // return something = myString.then(res => {
+      //   if(filePath.endsWith('.css')) {
+      //     return `<link rel="stylesheet" href="/css/${filePath}" integrity="${res}">`;
+      //   }
+      // });
+      
+      
+    } catch (err) {
+      console.log(`ERROR WITH CSS`);
+    }
+
+    console.log('**************NOPE 2**************');
+  
+}
+
 function markdown(copy) {
   let md = new MarkdownIt();
       
@@ -77,6 +111,38 @@ module.exports = function(config) {
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
   config.addNunjucksAsyncShortcode("image", imageShortcode);
+  config.addAsyncShortcode("ssri", async function(file) {
+    let filePath;  
+    
+    if(file.endsWith('.css')) {
+      filePath = `dist/css/${file}`;
+    }
+    else if(file.endsWith('.js')) {
+      filePath = `dist/js/${file}`;
+    }
+
+    try {
+      fs.accessSync(filePath, fs.constants.F_OK);
+
+      return await ssri.fromStream(fs.createReadStream(filePath), {
+        algorithms: ['sha256']
+      }).then(integrity => {
+        return integrity.toString();
+      });
+      
+    } catch (err) {
+      console.log(`ERROR WITH CSS`);
+      return false;
+    }
+  
+    //   console.log('**************NOPE 2**************');
+    
+    // return await ssri.fromStream(fs.createReadStream(filePath), {
+    //   algorithms: ['sha256']
+    // }).then(integrity => {
+    //   return integrity.toString();
+    // });
+  });
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
@@ -260,6 +326,36 @@ module.exports = function(config) {
     return DateTime.fromJSDate(dateObj, {
       zone: "utc"
     }).toFormat(format);
+  });
+
+  config.addFilter('ssri', file => {
+    const filePath = `dist/css/${file}`;
+    let integrityString;
+
+    try {
+      fs.accessSync(filePath, fs.constants.F_OK);
+      console.log("CSS FOUND");
+      
+      let myString = ssri.fromStream(fs.createReadStream(filePath), {
+        algorithms: ['sha256']
+      }).then(integrity => {
+        console.log('Then 1', integrity.toString());
+        return integrity;
+      });
+
+      return myString.then(val => {console.log('WTF',val.toString())});
+      // return something = myString.then(res => {
+      //   if(filePath.endsWith('.css')) {
+      //     return `<link rel="stylesheet" href="/css/${filePath}" integrity="${res}">`;
+      //   }
+      // });
+      
+      
+    } catch (err) {
+      console.log(`ERROR WITH CSS`);
+    }
+
+    console.log('**************NOPE 2**************');
   });
 
   // liquid options
