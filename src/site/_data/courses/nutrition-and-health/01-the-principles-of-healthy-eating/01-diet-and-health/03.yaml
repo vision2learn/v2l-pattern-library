@@ -19,7 +19,7 @@ sections:
     title: A healthy diet
     theme: t-bg-primary
     copy: |
-      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.
+      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.  Scroll through the slides to learn some of the considerations of a healthy diet that will be explored further throughout this course.
     subInc: 
       type: slider
       title: 
@@ -40,7 +40,7 @@ sections:
             
             Unsaturated fats are found in natural foods e.g. nuts, seeds, avocados, oily fish and olive oil. Consuming unsaturated fats has been found to decrease the risk for heart disease *and other illnesses*. 
             
-            *Saturated* fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil.
+            *Saturated* fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil, bacon, sausages and red meat.
           img: nh_u1_s1_p3_slide2.svg
         -
           title: Herbs and Spices
@@ -58,15 +58,16 @@ sections:
             Water will help you to digest food and absorb nutrients into the body. It is therefore important to drink plenty to gain as much goodness as you can from your diet. Along with preventing illness, improving skin and hair appearance, and increasing cognitive thinking; it will also raise your energy levels and metabolism, leading to better weight loss. 
           img: nh_u1_s1_p3_slide5.svg
   -
-  -
     title: Microbiome
     theme: 
     copy: |
-      A microbiome is the community of micro-organisms living together in a particular habitat (ref: What is a microbiome? | Microbiology Society). Each of us has a unique microbiome living in our gut that influence our appetite, immune response and even our mood. Research into microbiomes is still in its early stages but it is thought that in the future this will help us to understand different diseases such as cancer. 
+      A microbiome is the community of micro-organisms living together in a particular habitat. Each of us has a unique microbiome living in our gut that influence our appetite, immune response and even our mood. Research into microbiomes is still in its early stages but it is thought that in the future this will help us to understand different diseases such as cancer. 
       
       Read and view more on this fascinating topic on the following links:
+
       [Microbiology society](https://microbiologysociety.org/blog/what-is-a-microbiome.html)
-      [What is Microbiota and the Microbiome?] (https://www.mothersbabies.org/what-is-microbiota-and-the-microbiome/?gclid=CjwKCAjw8cCGBhB6EiwAgORey11ilw7rtgpjD0d72Jsjlmd4Trgf7puZf_Wk-ucdm1rd9XqajXvXixoCsSsQAvD_BwE)
+      
+      [What is Microbiota and the Microbiome?](https://www.mothersbabies.org/what-is-microbiota-and-the-microbiome/?gclid=CjwKCAjw8cCGBhB6EiwAgORey11ilw7rtgpjD0d72Jsjlmd4Trgf7puZf_Wk-ucdm1rd9XqajXvXixoCsSsQAvD_BwE)
   -
     title: Watch 
     theme: t-bg-grey i-watch

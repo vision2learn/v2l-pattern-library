@@ -12,36 +12,37 @@ sections:
     title: Energy in food
     theme: t-bg-primary
     copy: |
-       Your body uses food as a source of energy. This energy is measured in calories.
+      Your body uses food as a source of energy. This energy is measured in calories.  Scientifically a calorie is a measurement of energy in the form of heat:
        
-       Scientifically a calorie is a measurement of energy in the form of heat – 1 calorie produces 1c of heat. In nutritional terms a calorie measures the energy that is gained from food such as proteins, fats, carbohydrates and sugars.
+      1 calorie produces 1c of heat. 
+       
+      In nutritional terms a calorie measures the energy that is gained from food such as proteins, fats, carbohydrates and sugars.  Select the images below to learn more.
+
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: reveal
+      content:
         -
           title: Calories and energy
-          text: |
+          copy: |
             A calorie is one unit of energy. This energy is used to walk, talk, breathe, sleep or run. All activities burn calories! The human body receives energy in the form of calories from food. 
           img: nh_u1_s1_p5_slide1.svg
         -
           title: Calories and food
-          text: |
+          copy: |
             Food contains calories. These can come from carbohydrates, fats, sugars and proteins. These terms are measured in grams. Each gram is defined as a number of calories.
           img: nh_u1_s1_p5_slide2.svg
         -
           title: Calories and health
-          text: |
+          copy: |
             Your body needs a certain amount of calories in order to maintain itself properly. Everything you do (including breathing and sleeping!) burns calories. The rate that these calories are burned is called the Basal Metabolic Rate (BMR). 
           img: nh_u1_s1_p5_slide3.svg
         -
           title: Calories and weight
-          text: |
+          copy: |
              If people consume 3,500 calories more than they use they will gain 1lb in body fat.
              
              If they use 3,500 calories more than they consume they will lose 1lb in body fat. 
           img: nh_u1_s1_p5_slide4.svg
-  -
   -
     title: Interactivity - Grams to calories
     theme: 

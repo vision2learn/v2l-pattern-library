@@ -28,40 +28,39 @@ sections:
         -
           title: Moderate intensity aerobic activity 
           copy: |
-            introduction text or example character here? 
+            text
           img: nh_u1_s1_p6_reveal1.svg
         -
           title: Vigorous intensity aerobic activity
           copy: |
-            introduction text or example character here? 
+            text 
           img: nh_u1_s1_p6_reveal2.svg
         -
           title: Muscle strengthening
           copy: |
-            introduction text or example character here? 
+            text
           img: nh_u1_s1_p6_reveal3.svg
   -
   -
-    title: Activity - Energy requirements and weight
-    layout: media
+    title: Interactivity - Energy requirements and weight
     theme: t-bg-primary2
+    
     copy: |
-      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp
+      _Include same 3 images and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp_
 
       Include calories and weight.
 
-      Select the following icon to . . .
+      Select the following to learn more about the relationship between energy requirements and weight.
 
-
-    img: /images/svg/Activity_button.svg
-    activity: 
+    interactive: 
+      file: 
+      width: 
+      height:        
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      1.9 LO
-
       It’s important to understand the different factors that can affect a person’s energy requirements.
   - 
   -
