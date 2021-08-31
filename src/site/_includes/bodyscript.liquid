@@ -91,6 +91,7 @@ var V2lPage = (function() {
       var script = document.createElement('script');
       script.src = src;
       script.async = false;
+      script.integrity = "{% ssri 'script.js' %}";
       document.head.appendChild(script);
     });
     
