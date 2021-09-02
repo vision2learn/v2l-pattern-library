@@ -17,88 +17,147 @@ sections:
       * Explain the importance of adequate fluid intake  
   -
   -
-    title: Macro and micro nutrients  NEW
+    title: Introduction
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      So far we have learnt that a healthy diet is made up of 5 main food groups and that these provide all of the energy, vitamins and minerals that the body needs to fully function and stay healthy. 
+      
+      Nutrients are found in all natural foods and in some processed foods. _Naturally occurring they can provide the body with everything that it needs._ Processed foods may have nutrients added, either artificially or by including some natural foods e.g. a pasty will have meat and veg or cheese within it which will provide some nutrients, although they will be reduced compared to fresh meat, veg and cheese. 
+      
+      The 6 classes of nutrients that we gain from our diet are carbohydrates, protein, fats, vitamins, minerals and water. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Macro and micro nutrients
     theme: t-bg-supporting2
     copy: |
-      Introduction
-
-      Select the images below to read 
+      Select the images below to learn about macro and micronutrients.
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Macronutrients
           copy: |
-            text
+            Carbohydrates, proteins and fats provide energy, are required in larger quantities and contain many micronutrients. Fats provide more energy than carbohydrates and proteins and are therefore required in a smaller quantity. 
+
           img: placeholder_icon.svg
         -
-          title: b
+          title: Micronutrients
           copy: |
-            text
+            Vitamins and minerals 
+            
+            Essential for the body’s functions and are found within all natural foods. They can also be added to processed foods.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Water
           copy: |
-            text
+            Needed in large quantities to replace water lost through daily activities. 
+            Provides transportation for vitamins and minerals around the body, protects organs, regulates body temperature amongst other essential functions. 
+            Can be consumed through food and liquid.
+
           img: placeholder_icon.svg
   -
   -
     title: The six classes of nutrients - PLACEHOLDER
-    layout: media
     theme: t-bg-primary
     copy: |
-      _Type of element to be decided - Slider, Accordion, Activity, Case study etc - to replace 5 slides on old page 2 - https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session03/pg2.asp_
+      _Type of element to be decided - Slider, Accordion, Table or Interactivity_
 
-      A nutrient is a chemical substance that provides nourishment to the body.
+      A nutrient is a chemical substance that provides nourishment to the body. Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
+
+      _To include information from Jenny's table in word doc:_
       
-      Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
-
-    img: /images/svg/placeholder_icon.svg
+      |Food group|	Nutritional Info|	Foods|
+      |------|------|-----|
+      |Carbohydrates |||
+      |Protein |||
+      |Fats |||
+      |Vitamins |||
+      |Minerals |||
+      |Water |||
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment, you will need to define the term nutrients, identify the six key classes of nutrients and good sources of food for each of these.
+      In your Assessment, you will need to define the term nutrients, describe the six key classes of nutrients, how they maintain health and good sources of food for each of these. You will also need to know the factors that influence how much of each nutrient a person needs.
   -
   -
-    title: What foods provide which nutrients - NEW
+    title: Foods that are high in nutrients - NEW - TO BE DECIDED
     theme: t-bg-primary
     copy: |
-      _Slider at the moment but this can be changed depending on content_
-
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to see some examples of foods high in nutrients.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: a
+          title: Salmon
           text: |
-            text
+            Salmon is an oily fish and contains high levels of omega-3s fatty acids, along with many other vitamins and minerals such as magnesium, potassium and B-vitamins. Good for wellbeing and reducing risk of dementia and heart disease. 
+
           img: placeholder_icon.svg
         -
-          title: b
+          title: Kale
           text: |
-            text
+            Kale is said to be even healthier than spinach. It contains a range of minerals and is loaded with vitamin A, C and K1.
+
+            This nutrient rich green can help reduce the risk of cancer. 
+
           img: placeholder_icon.svg
         -
-          title: c
+          title: Garlic
           text: |
-            text
+            Garlic is great for flavour and contains vitamins C, B1 and B6 plus many minerals. It can help lower blood pressure, reduce the risk of heart disease and some cancers. 
           img: placeholder_icon.svg
         -
-          title: d
+          title: Potatoes
           text: |
-            text
+            Potatoes also have lots of minerals and vitamin C plus most of the B vitamins. So they’re filling and nutritious. Studies have found that boiled potatoes keep you fuller for longer and if you allow them to cool they form ‘resistant starch’ which increases the health benefits. 
           img: placeholder_icon.svg
         -
-          title: e
+          title: Liver
           text: |
-            text
+            Liver, as with all organ meats, is more nutritious than the more common muscle meat regularly eaten today. It’s function is to store important nutrients for your body to use and contains many vitamins itself. 
           img: placeholder_icon.svg
+        -
+          title: Shellfish
+          text: |
+            Shellfish, particularly clams and oysters are very nutritious and provide vitamin B12, vitamin C and D and many minerals. 
+          img: placeholder_icon.svg
+        -
+          title: Blueberries
+          text: |
+            Blueberries are possibly the most nutrient rich fruit and contain a high quantity of antioxidants. Studies have found that by adding some to their diet, overweight people have lowered their blood pressure and cholesterol levels. 
+          img: placeholder_icon.svg
+        -
+          title: Egg yolks
+          text: |
+            Egg yolks are considered to be the most nutritious of all foods. They’re full of vitamins, minerals and other nutrients. They are a high quality protein and healthy fat with studies showing that they can help with weight loss. 
+          img: placeholder_icon.svg
+        -
+          title: Dark chocolate / Cacao ?
+          text: |
+            Dark Chocolate contains many antioxidants and is highly nutritious. It is full of copper, magnesium, iron, fibre and other nutrients. It’s important to buy at least 70% cocoa and ideally 85% or higher. Reports show that eating one square a day can offer multiple health benefits.  
+          img: placeholder_icon.svg
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  What foods provide which nutrients
+
+      There are many nutrient dense foods to choose from. By having a whole food diet, you can increase the range of natural foods that you eat and choose macronutrients that provide you with a host of micronutrients to ensure you get the most of what you eat. Remember that having a good variety will ensure that you’re obtaining the most amount of nutrients and supplying your body with everything that it needs to be as healthy as possible. 
+      
+      There are too many good foods to list here, click on the owl to go to a website to find foods that you might like to start including in your diet.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.webmd.com/vitamins-and-supplements/features/healthy-foods
   -
   -
     title: Time to think
@@ -121,20 +180,18 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment, you will need to .... LOs 3.4 and 3.5
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        For more information on nutrients, take a look at the following website. 
+        For more information on nutrients, take a look at the following websites. 
 
       links:
-        British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/basics/exploring-nutrients    
+        British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/basics/exploring-nutrients
+        Webmd healthy food: https://www.webmd.com/vitamins-and-supplements/features/healthy-foods
+        The world’s most nutritious foods - BBC Future: https://www.bbc.com/future/article/20180126-the-100-most-nutritious-foods
+
   -
   -
     title: Summary
