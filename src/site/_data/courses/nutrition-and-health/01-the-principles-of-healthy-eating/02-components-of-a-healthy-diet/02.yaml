@@ -1,15 +1,87 @@
 title: Eating a variety of foods
 intro: |
   On this page you will learn about: 
-  * 5 a day 
+  * Portion size
   * Eating a variety of foods
 banner: nh_u1_s2_p2_variety.jpg
 sections:
   -
     title: What is a portion?
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      Checking your portion size will ensure that you are eating the correct quantity of each food group. Each person will need different amounts of food depending on their gender, age, activity level and health. Therefore the below is a guide only. 
+      
+      You may find this calculator useful to help you find the correct amount for you:
+      
+      [Portion Planner | Love Food Hate Waste](https://lovefoodhatewaste.com/portion-planner?gclid=Cj0KCQjw24qHBhCnARIsAPbdtlJVC9vVqBVNhPzeKMQC1rs-1lrXWJ8KyChEvzgT4LLiIkJu6_YWvCUaAtPFEALw_wcB)
+
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Portion size for different food groups
+    theme: t-bg-supporting2
+    copy: |
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Starchy carbohydrates
+          text: |
+            * 2 slices of bread or 1 roll/bagel
+            * 5/6 new potatoes
+            * 1 medium baked potato 
+            * 75g uncooked rice or pasta
+            * 40g cereal
+          img: placeholder_icon.svg
+        -
+          title: Proteins
+          text: |
+            * 2 medium eggs
+            * 200g tin of beans
+            * 4 tablespoons of lentils
+            * 90g cooked meat
+            * 140g fish
+            * 100g tofu or soya
+            * Handful of nuts
+          img: placeholder_icon.svg
+        -
+          title: Dairy and alternatives
+          text: |
+            * 200ml milk
+            * 125ml yoghurt
+            * 30g hard cheese
+          img: placeholder_icon.svg
+        -
+          title: Oils and spreads
+          text: |
+            * 5g Butter or spread
+            * 1 tablespoon olive or sunflower oil
+            * 1 small or ½ large avocado
+          img: placeholder_icon.svg
+        -
+          title: Fruit and vegetables
+          text: |
+            * 1 medium fruit – apple, banana, orange
+            * 2 small fruits – plum, kiwi, satsuma
+            * 1 large slice large fruit – melon, mango pineapple
+            * Handful of grapes
+            * 3 heaped tablespoons of peach, sweetcorn, carrots
+            * 2 broccoli spears 
+            * 4 heaped tablespoons kale and other greens
+            * 5cm piece of cucumber
+            * 1 medium tomatoes or 7 cherry tomatoes
+          img: placeholder_icon.svg
+  -
+  -
+    title: Five a day
     theme: t-bg-primary
     copy: |
-      Select the images below:
+      Select the images below to see how many portions are needed to get your five a day of fruit and vegetables:
 
     subInc: 
       type: reveal
@@ -27,7 +99,7 @@ sections:
         -
           title: Smoothie
           copy: |
-            One smoothie can counts as two portions of fruit and vegetables.
+            One smoothie counts as *two* portions of fruit and vegetables.
           img: nh_u1_s2_p2_reveal3.svg
         -
           title: Apple
@@ -54,8 +126,9 @@ sections:
         Please see the following website where you can learn more about the 5 a day initiative.
 
       links:
-        NHS Choices: http://www.nhs.uk/LiveWell/5ADAY/Pages/5ADAYhome.aspx
-        BBC Goodfoods: http://www.bbcgoodfood.com/howto/guide/12-ways-get-your-five-day
+        Portion Size Guide | Bupa UK: https://www.bupa.co.uk/health-information/nutrition-diet/portion-size
+        Find your balance - get portion wise! - British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/find-your-balance/portionwise.html
+        5 A Day portion sizes - NHS (www.nhs.uk): https://www.nhs.uk/live-well/eat-well/5-a-day-portion-sizes/
   -
   -
     title: Eating a variety of foods
