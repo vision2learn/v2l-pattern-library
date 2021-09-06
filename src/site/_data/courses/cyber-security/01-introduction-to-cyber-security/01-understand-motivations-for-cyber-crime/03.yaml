@@ -44,7 +44,7 @@ sections:
         -
           title: For financial gain 
           text: |
-            cyber criminals steal financial information or identities to make money out of individuals and businesses.
+            Cybercrime in finance is the act of obtaining financial gain through profit-driven criminal activity. This includes identity fraud, ransomware attacks, email and internet fraud, and attempts to steal bank account, credit card, or other payment card information.
           img: cs_u1_s1_p3_image_2.svg
         -
           title: To increase business and competition
@@ -54,12 +54,12 @@ sections:
         -
           title: To make a social or political point
           text: |
-            Hackers can attack government and organisational websites to make their point known. This is often by making a website crash so that no one can use it.
+            Hackers can attack government and organisational websites to make their point known. This is often by causing a website crash so that no one can use it.
           img: cs_u1_s1_p3_image_3.svg
         -
           title: Radical ‘hackerism’
           text: |
-            These are usually bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention.
+            These acts are usually carried out by bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention or to look cool.
           img: cs_u1_s1_p3_image_2.svg
         -
           title: Cyber warfare
@@ -81,12 +81,12 @@ sections:
         -
           title: Cyber criminals
           copy: |
-            text
+            Cyber criminals are individuals who want to exploit human or security vulnerabilities in I.T. in order to steal passwords, data or money directly. 
           img: cs_u1_s1_p3_image_1.svg
         -
           title: Cyber terrorists
           copy: |
-            text
+            They can target the government, military, business and individuals using cyber espionage. They use computer networks to steal large volumes of sensitive data. This might include intellectual property, research and development projects, strategic data on a company's merger and acquisition plans, or any other information that the owner might want to protect.
           img: cs_u1_s1_p3_image_2.svg
         -
           title: Inside agents and bad actors
@@ -96,17 +96,17 @@ sections:
         -
           title: State sponsored threat agents
           copy: |
-            text
+            States can directly employ hackers through their military forces and government authorities or fund them indirectly. This makes it easier to deny the involvement of the state if the attack is detected, which decreases the diplomatic repercussions these attacks can have. It also blurs the line between criminal organizations and government groups. 
           img: cs_u1_s1_p3_image_1.svg
         - 
           title: Script kiddies
           copy: |
-            text
+            An amateur who tries to illegally gain access to a computer system using programs (scripts) that others have written. Script kiddies also tend to be indiscriminate and may try to compromise any computer on the Internet they can reach.
           img: cs_u1_s1_p3_image_2.svg
         - 
           title: Hacktivists 
           copy: |
-            text
+            Hacktivists are groups of criminals who unite to carry out cyber attacks in support of political causes. Hacktivists typically target entire industries but sometimes attack specific organizations who they feel don’t align with their political views or practices. In some cases hacktivists have targeted organizations not based on the victim organization’s beliefs but the clients and partners they do business with.
           img: cs_u1_s1_p3_image_3.svg      
   -
   -
