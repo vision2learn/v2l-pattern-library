@@ -18,47 +18,64 @@ sections:
         -
           title: Baking
           text: |
-            text
+            The food is cooked inside an oven. This method is used to make bread and cakes, as well as cook poultry, meat and vegetables.
+
+            This is the preferred method for meat as it allows it be cooked to it’s best texture and retain most of the nutrients. Adding oil should be kept to a minimum and when necessary one with a high smoke point should be used such as avocado oil. 
+            
+            Over cooking any food in the oven can reduce the nutritional value and charred or burnt food contains carcinogenics, which can cause cancer. 
+
           img: placeholder_icon.svg
         -
           title: Barbecue
           text: |
-            text
+            The food is cooked on a rack above hot coals. Little or no fat is used and the food has a smoked flavour.
+            
+            This is a good method for outdoor cooking and entertaining. It can add fun and variety to meals. It’s important to ensure that food is properly cooked through as it can have a tendency to burn on the outside whilst remaining raw in the middle, which can lead to food poisining. As with roasting, burnt food can be carcinogenic, therefore it’s important to wait until coals have stopped flaming or on a gas BBQ to turn it down. 
+
           img: placeholder_icon.svg
         -
           title: Boiling
           text: |
-            text
+            This involves placing the food – often immersing it – in boiling water for a set period of time. Commonly used for vegetables although nutrients can be lost in the water. It’s therefore beneficial to use as little water as possible and to reuse the water for soups and stews. Keeping cooking times short produces al dente vegetables (meaning they are still firm) and retains more of the nutrients. 
+
           img: placeholder_icon.svg
         -
-          title: Frying
+          title: Casserole
           text: |
-            text
+            The food is placed in a large amount of liquid (such as water, stock or wine) and it is heated gently over an extended period of time in a covered pot, usually in the oven but can be done on the hob. 
+            
+            This helps to keep all of the nutrients as the stock is also consumed. If cooked slowly on a low heat it can tenderise the meat, but vegetables can be overcooked. It’s a good way to cook beans and pulses with flavour can added through herbs and spices. 
+
           img: placeholder_icon.svg
         -
           title: Grilling
           text: |
-            text
+            Food is placed underneath a heat source and fat can drain away to make a good way for cooking high fat thin meats such as beef burgers and sausages. No fat needs to be added. It make food dryer and burn easily leading to carcinogenics.
+          img: placeholder_icon.svg
+        -
+          title: Deep frying
+          text: |
+            Food is placed in high temperature fats and oils and produces a crispy finish to foods such as chips and battered meat and fish. The high oil content makes this an unhealthy cooking method and the high cooking temperature releases cancer related chemicals. 
           img: placeholder_icon.svg
         -
           title: Microwaving
           text: |
-            text
+            Placing food in a microwave oven is a very quick and convenient method of cooking. There is no need to add oil and nutrients are not lost. Food is cooked unevenly so it’s important to stir at intervals and check that it is piping hot before serving. Convenience ready meals are quick and easy in a microwave and instructions state to cook in the plastic container it comes in. However, heating plastic releases toxic chemicals (BPA and phthalates) into the food and shouldn’t be used.  
           img: placeholder_icon.svg
         -
           title: Poaching
           text: |
-            text
+            Food and water are added to a pan and simmered at low heat. It’s a good way to cook delicate proteins such as eggs, fish and chicken. It usually produces soft, easy to digest food unless overcooked and the moisture is lost. 
+          img: placeholder_icon.svg
+        -
+          title: Stir frying or Sautéing
+          text: |
+            Food is cooked quickly on a high heat pan with a small amount of fat. This prevents the food from sticking to the hot pan and adds flavour. The speed of cooking helps to retain nutrients and it’s important to use a high temperature oil such as avocado or olive oil. 
           img: placeholder_icon.svg
         -
           title: Steaming
           text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Juicing? Smoothies? Raw?
-          text: |
-            text
+            Food is placed into a steamer and cooked by the steam from a small amount of boiling water. This is best way to cook vegetables and helps to lock in flavour and nutrients. Fish and chicken can also be steamed, but it’s unsuitable to red meats. 
           img: placeholder_icon.svg
   -
   -
@@ -66,10 +83,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Preparing food
-      Please see the following video for .....
+      ### Cooking Methods and Nutritional Needs
 
-      _Include all the info from old page 4 slides_
+      There are a number of different ways that you can cook and prepare your foods. Some of these methods will be healthier than others and we’ll explore these in this video.
+
     video: placeholder_pc.mp4
   -
   -
@@ -118,19 +135,33 @@ sections:
   -
   -
     title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
     theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Which method of cooking vegetables retains the most nutrients:
+          answers:
+            Boiling: false
+            Frying: false
+            Steaming: true
+            Roasting: false
+        The healthiest oil for cooking and using with salads is:
+          answers:
+            Coconut: false
+            Olive: true
+            Avocado: false
+            Sunflower: false
+        Is the following statement true or false? "Margarine is healthier than butter.":
+          answers:
+            True: false
+            False: true
+        The healthiest way to cook meat is:
+          answers:
+            Roasting: true
+            Frying: false
+            Poaching: false
+            Grilling: false
+        Is the following statement true or false? "Cooking food quickly retains more nutrients than slowly cooking food.":
+          answers:
+            True: true
+            False: false

@@ -13,37 +13,31 @@ sections:
       * How a variety of cooking methods affect the nutritional values of foods
       * Healthy food preparation methods for a range of types of food
   -
+    title: Factors to be considered
+    theme: t-bg-supporting3
+    copy: |
+      In order to prepare healthy meals you need to use all the information you’ve learnt so far. 
+      
+      Remember how age fitness levels, health conditions and even gender can affect nutritional needs. 
+      
+      We’ve looked at:
+      * Each of the five food groups and why they are important
+      * Which nutrients we need and what they do/why we need them
+
+      In this session we’ll look at these ideas and the different ways we can cook food.
+  -
   -
     title: Making choices
+    layout: media
     theme: t-bg-primary
-    copy: |
-      In order to prepare healthy meals you need to use all the information you’ve learnt so far.
+    copy: |    
+      When asked to decide between a balanced meal that does not taste very nice, and a tasty meal with limited nutritional value, most people would choose the second option! 
+      
+      This is because people get instant pleasure from nice tasting food, but it takes a while to see any benefits from nutrients.
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Factors to be considered
-          text: |
-            Remember how age, fitness levels, health conditions and even gender can affect nutritional needs. 
-
-            We’ve looked at each of the five food groups and why they are important.
-
-            We looked at which nutrients we need and what they do/why we need them.
-
-            In this session we’ll look at these ideas and the different ways we can cook food.
-          img: placeholder_icon.svg
-        -
-          title: Making choices
-          text: |
-            When asked to decide between a balanced meal that does not taste very nice, and a tasty meal with limited nutritional value, most people would choose the second option!
-
-            This is because people get instant pleasure from nice tasting food, but it takes a while to see any benefits from nutrients.
-
-            However, it is possible to eat a balanced nutritional meal that is also enjoyable. You need to consider prefferred falouvrs, textures, colours and varieties within food groups when planning enjoyable meals.
+      However, it is possible to eat a balanced nutritional meal that is also enjoyable. You need to consider preferred flavours, textures, colours and varieties within food groups when planning enjoyable meals.
           
-          img: placeholder_icon.svg
+    img: /images/svg/placeholder_icon.svg
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -77,7 +71,7 @@ sections:
   -
   -
     title: Healthy alternatives
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
        A simple way of making meals healthier is to use healthy alternatives. This involves substituting some ingredients for others that are lower in fat, salt or sugar.
        
@@ -86,11 +80,32 @@ sections:
       type: reveal
       content:
         -
-          title: Substitution
+          title: Substitution - meat
           copy: |
             * Use lean steak mince instead of mince beef
+            * Use legumes (beans, lentils, pulses) instead of meat for some meals
+            * Use oily fish instead of meat for some meals
+
+          img: placeholder_icon.svg
+        -
+          title: Substitution - fats
+          copy: |
             * Use low fat crème fraiche instead of cream
-            * Use brown and whole-wheat varieties of rice, bread and pasta instead of white ones.
+            * Use avocado as a spread, or a dip instead of cream cheese
+
+          img: placeholder_icon.svg
+        -
+          title: Substitution - carbohydrates
+          copy: |
+            * Use brown and whole-wheat varieties of rice, bread and pasta instead of white ones
+
+          img: placeholder_icon.svg
+        -
+          title: Substitution - snacks
+          copy: |
+            * Use nuts as a snack instead of crisps
+            * ?? Use dried fruits and fruits instead of sweets ??
+            * Use dark chocolate instead of milk chocolate/candy 
 
           img: placeholder_icon.svg
         -
@@ -98,22 +113,66 @@ sections:
           copy: |
             * Use less cheese when making a pizza
             * Use less meat and more vegetables in casseroles and pies
-            * Use less sugar in cakes and biscuits.
+            * Use less sugar in cakes and biscuits
 
           img: placeholder_icon.svg
   -
   -
-    title: Activity - Case study
-    layout: media
-    theme: t-bg-primary2
+    title: Case study
+    theme: t-bg-primary1a i-case-study
     copy: |
-      _Drag and drop with a quiz to replace case study on old page 3_
+      ### Case study - Douglas
 
-      Select the following icon to . . .
+      Douglas is 42 and wants to lose some weight. He knows that he needs to become healthier and thinks that if he makes some changes then he will reach his target weight faster!
 
+      A part of the preparation process is to *substitute* unhealthy foods with more healthy options. Douglas also looks to see whether he should cut out certain food and drink altogether.
 
-    img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+      Take a look below to see Douglas’s meals before and after he made changes to his diet.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Before and after changes
+          copy: |
+            | Meal | Before | After |
+            |------|------|------|
+            | Breakfast | Wholegrain toast with butter, baked beans, tomato, and a glass of milk.  | Wholegrain toast with polyunsaturated margarine, baked beans, tomato, and a glass of reduced fat milk. |
+            | Morning Break | Two biscuits, a bag of crisps, and a coffee with milk. | Apple and a coffee with milk. |
+            | Lunch | Roast beef sandwich with wholegrain bread, cheese and butter, and a can of cola. | Roast beef sandwich with wholegrain bread, reduced fat cheese, mixed salad and polyunsaturated margarine, and a glass of water. |
+            | Afternoon Break | Bag of crisps, chocolate bar, and a coffee with milk. | Unsalted nuts and a coffee with milk. |
+            | Evening meal | Fish in batter, french fries, baked beans, and 2 cans of larger. | Baked fish, baked potato, peas, carrots, and broccoli.|
+            | Evening snack | Slice of cake. | Fruit salad and reduced fat yoghurt. |
+        - 
+          title: Changes made to improve menu choices
+          copy: |
+            Douglas makes a number of changes to improve his menu choices:
+
+            * Substitution – using polyunsaturated margarine rather than butter and low fat milk rather than milk.
+            * Removal – crisps, chocolate bars, lager, cola and biscuits have all been removed.
+            * Different cooking methods – the introduction of baked fish and potato rather than fried fish and chips cuts Douglas's calories from 487 to 305, and cuts his fat intake from 23g to 4g. You’ll learn more about different cooking methods on the next page.
+
+            This new diet removes 1400-1500 calories and 25g of fat from Douglas’s diet. He also gets more vitamins and minerals because he has increased his fruit and vegetable intake.
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Use legumes instead of meat for some meals
+          answer: legumes
+        -
+          sentence: Use avocado as a spread, or a dip instead of butter
+          answer: avocado
+        -
+          sentence: Use whole-meal bread, rice and pasta instead of white ones
+          answer: whole-meal
+        -
+          sentence: Use less meat and more vegetables in casseroles
+          answer: vegetables
+    theme: i-quiz
   -
   -
     title: Summary
