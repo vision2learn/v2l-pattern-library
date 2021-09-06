@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 2,
+  pagination: {
+    data: "courses['cyber-security']['01-introduction-to-cyber-security']['02-understand-the-need-for-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

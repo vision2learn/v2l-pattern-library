@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 3,
+  pagination: {
+    data: "courses['cyber-security']['01-introduction-to-cyber-security']['03-know-about-job-roles-within-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
