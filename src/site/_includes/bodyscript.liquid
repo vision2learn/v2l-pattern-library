@@ -45,7 +45,7 @@ var V2lPage = (function() {
   function loadAnimateJS() {
     if(!animateVars.loaded) {
       var scripts = [
-        '//code.createjs.com/createjs-2015.11.26.min.js',
+        '//code.createjs.com/1.0.0/createjs.min.js',
         appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
         appPath+'/js/interactive/init.js'
       ].forEach(function(src) {
@@ -91,6 +91,7 @@ var V2lPage = (function() {
       var script = document.createElement('script');
       script.src = src;
       script.async = false;
+      script.integrity = "{% ssri 'script.js' %}";
       document.head.appendChild(script);
     });
     

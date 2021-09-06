@@ -1,15 +1,87 @@
 title: Eating a variety of foods
 intro: |
   On this page you will learn about: 
-  * 5 a day 
+  * Portion size
   * Eating a variety of foods
-banner: placeholder.jpg
+banner: nh_u1_s2_p2_variety.jpg
 sections:
   -
     title: What is a portion?
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      Checking your portion size will ensure that you are eating the correct quantity of each food group. Each person will need different amounts of food depending on their gender, age, activity level and health. Therefore the below is a guide only. 
+      
+      You may find this calculator useful to help you find the correct amount for you:
+      
+      [Portion Planner | Love Food Hate Waste](https://lovefoodhatewaste.com/portion-planner?gclid=Cj0KCQjw24qHBhCnARIsAPbdtlJVC9vVqBVNhPzeKMQC1rs-1lrXWJ8KyChEvzgT4LLiIkJu6_YWvCUaAtPFEALw_wcB)
+
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Portion size for different food groups
+    theme: t-bg-supporting2
+    copy: |
+      Scroll through the slides below to learn more about portion size for each food group.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Starchy carbohydrates
+          text: |
+            * 2 slices of bread or 1 roll/bagel
+            * 5/6 new potatoes
+            * 1 medium baked potato 
+            * 75g uncooked rice or pasta
+            * 40g cereal
+          img: placeholder_icon.svg
+        -
+          title: Proteins
+          text: |
+            * 2 medium eggs
+            * 200g tin of beans
+            * 4 tablespoons of lentils
+            * 90g cooked meat
+            * 140g fish
+            * 100g tofu or soya
+            * Handful of nuts
+          img: placeholder_icon.svg
+        -
+          title: Dairy and alternatives
+          text: |
+            * 200ml milk
+            * 125ml yoghurt
+            * 30g hard cheese
+          img: placeholder_icon.svg
+        -
+          title: Oils and spreads
+          text: |
+            * 5g Butter or spread
+            * 1 tablespoon olive or sunflower oil
+            * 1 small or ½ large avocado
+          img: placeholder_icon.svg
+        -
+          title: Fruit and vegetables
+          text: |
+            * 1 medium fruit – apple, banana, orange
+            * 2 small fruits – plum, kiwi, satsuma
+            * 1 large slice large fruit – melon, mango pineapple
+            * Handful of grapes
+            * 3 heaped tablespoons of peach, sweetcorn, carrots
+            * 2 broccoli spears 
+            * 4 heaped tablespoons kale and other greens
+            * 5cm piece of cucumber
+            * 1 medium tomatoes or 7 cherry tomatoes
+          img: placeholder_icon.svg
+  -
+  -
+    title: Five a day
     theme: t-bg-primary
     copy: |
-      Select the images below:
+      Select the images below to see how many portions are needed to get your five a day of fruit and vegetables:
 
     subInc: 
       type: reveal
@@ -18,32 +90,32 @@ sections:
           title: Broccoli
           copy: |
             Two broccoli florets counts as one portion of fruit and vegetables.
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_reveal1.svg
         -
           title: Juice
           copy: |
             One medium glass of orange juice counts as one portion of fruit and vegetables.
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_reveal2.svg
         -
           title: Smoothie
           copy: |
-            One smoothie can counts as two portions of fruit and vegetables.
-          img: placeholder_icon.svg
+            One smoothie counts as *two* portions of fruit and vegetables.
+          img: nh_u1_s2_p2_reveal3.svg
         -
           title: Apple
           copy: |
             One medium apple counts as one portion of fruit and vegetables.
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_reveal4.svg
         -
           title: Banana
           copy: |
             One medium banana counts as one portion of fruit and vegetables. Did you know that this is the staple diet of a minion?!
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_reveal5.svg
         -
           title: Baked beans
           copy: |
             One heaped tablespoon of baked beans counts as one portion of fruit and vegetables.
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_reveal6.svg
   -
   -
     title: On the web
@@ -54,8 +126,9 @@ sections:
         Please see the following website where you can learn more about the 5 a day initiative.
 
       links:
-        NHS Choices: http://www.nhs.uk/LiveWell/5ADAY/Pages/5ADAYhome.aspx
-        BBC Goodfoods: http://www.bbcgoodfood.com/howto/guide/12-ways-get-your-five-day
+        Portion Size Guide | Bupa UK: https://www.bupa.co.uk/health-information/nutrition-diet/portion-size
+        Find your balance - get portion wise! - British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/find-your-balance/portionwise.html
+        5 A Day portion sizes - NHS (www.nhs.uk): https://www.nhs.uk/live-well/eat-well/5-a-day-portion-sizes/
   -
   -
     title: Eating a variety of foods
@@ -73,34 +146,35 @@ sections:
             If people want to stay healthy, they need to meet a variety of nutritional needs. These needs can’t be met by just one food! People should eat a variety of different foods to make sure they get everything they need.
 
             For example, a person who only ate brown rice and apples would be missing out on many essential nutrients. This lack of variety would lead to an unhealthy diet! 
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_slide1.svg
         -
           title: Pleasure
           text: |
             By eating a variety of different foods, people are able to enjoy a wide variety of texture, flavours and combinations. This means that people’s meals are more enjoyable and appealing.
              
             Eating a variety of different foods means enjoying food more! Leading a healthy lifestyle is something that many people enjoy. 
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_slide2.svg
         -
           title: Variety
           text: |
             When there is little variation in meals, a person may be more likely to eat unhealthily. Eating a wide variety of healthy foods will help a person eat healthily.
              
             By liking a range of different foods, people are in an easier position to choose healthy options rather than unhealthy ones.
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_slide3.svg
         -
           title: Availability
           text: |
             People who eat a limited range of foods may struggle with their diet if the food they eat becomes unavailable or is in short supply. They may have difficulty getting all the nutrients they need.
             
             If a person likes a variety of foods, they have more choice over what to eat. Someone who eats a wide variety of foods has a better chance of finding the nutrition they need in the food available. 
-          img: placeholder_icon.svg
+          img: nh_u1_s2_p2_slide4.svg
 
   -
 
-    title: Case study
+    title: Case study - PLACEHOLDER
     theme: t-bg-primary1a i-case-study
     copy: |
+      _PLACEHOLDER - there is a lot of content so may need to be changed?_
       ### Case study - Karla and Trisha
 
       Take a look at the eating diaries for two women. Each tries to eat healthily and to get a variety of foods. What do you think about their diets? How healthy are they? 

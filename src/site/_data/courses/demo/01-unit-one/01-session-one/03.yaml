@@ -59,10 +59,45 @@ sections:
             'High-functioning’ autism isn’t an official medical term but its seen as more informative. It describes a milder form of autism or level 1 on the autism spectrum. Those with Asperger syndrome are often described as having high functioning autism showing symptoms but with little need for support and mostly living independent lives.
           img: ua_u1_s1_p3_slide3.svg
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain why autism is considered a spectrum disorder.
+    title: QQ1
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        Which of the following is an example of an internal source of information about your rights and responsibilities?:
+          answers:
+            Citizens Advice Bureau: false
+            Libraries: false
+            Line managers: true
+        True or false? "You have the legal right to receive the terms of your employment in writing, after working for your employer for two months.":
+          answers:
+            True: true
+            False: false
+        Complete the following sentence - "People often assume that all employees within an organisation are 'the same' however a huge amount of ____________ exists within the workplace.":
+          answers:
+            Formaility: false
+            Diversity: true
+            Similarity: false
+  -
+    title: QQ2
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        A question?:
+          answers:
+            Answer 1: false
+            Answer 2: false
+            Answer 3: true
+        Another question?:
+          answers:
+            True: false
+            False: true
+        Yet another question:
+          answers:
+            This: false
+            That: true
+            The other: false
   -
     title: Why is autism considered a spectrum disorder?
     layout: media
@@ -72,23 +107,3 @@ sections:
       
       Some feel that the spectrum is too broad, as a person who needs full time support cannot be compared with someone who just finds things ‘too bright’ or ‘too loud’. But what is needed by all is understanding of what it is to be Autistic.
     img: /images/svg/ua/ua_u1_s1_p3_image.svg
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Select one option to complete the following sentence:"Those with ________________ don't have the learning disabilities that many autistic people have":
-          answers:
-            Kanner syndrome: false
-            an associated illness: false
-            Asperger syndrome: true
-        Is the following statement true or false? "Autism is a spectrum condition and this refers to the wide range of symptoms and the severity.":
-          answers:
-            True: true
-            False: false
-        Which of the following is considered a milder form of autism?:
-          answers:
-            Autistic disorder: false
-            Asperger syndrome: false
-            High functioning autism: true

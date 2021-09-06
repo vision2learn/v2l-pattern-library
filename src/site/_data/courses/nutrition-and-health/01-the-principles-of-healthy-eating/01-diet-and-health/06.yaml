@@ -4,7 +4,7 @@ intro: |
   * Understanding activity levels
   * Energy requirements
 
-banner: placeholder.jpg
+banner: nh_u1_s1_p6_activity2.jpg
 sections:
   -
     title: Understanding activity levels
@@ -28,40 +28,39 @@ sections:
         -
           title: Moderate intensity aerobic activity 
           copy: |
-            introduction text or example character here? 
-          img: placeholder_icon.svg
+            text
+          img: nh_u1_s1_p6_reveal1.svg
         -
           title: Vigorous intensity aerobic activity
           copy: |
-            introduction text or example character here? 
-          img: placeholder_icon.svg
+            text 
+          img: nh_u1_s1_p6_reveal2.svg
         -
           title: Muscle strengthening
           copy: |
-            introduction text or example character here? 
-          img: placeholder_icon.svg
+            text
+          img: nh_u1_s1_p6_reveal3.svg
   -
   -
-    title: Activity - Energy requirements and weight
-    layout: media
+    title: Interactivity - Energy requirements and weight
     theme: t-bg-primary2
+    
     copy: |
-      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp
+      _Include same 3 images and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp_
 
       Include calories and weight.
 
-      Select the following icon to . . .
+      Select the following to learn more about the relationship between energy requirements and weight.
 
-
-    img: /images/svg/Activity_button.svg
-    activity: 
+    interactive: 
+      file: 
+      width: 
+      height:        
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      1.9 LO
-
       It’s important to understand the different factors that can affect a person’s energy requirements.
   - 
   -
@@ -80,8 +79,7 @@ sections:
     copy: |
        Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
        
-       The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more. 
-       _On old course was originally in Session 3 page 3_
+       The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more.
 
     subInc: 
       type: reveal
@@ -90,22 +88,22 @@ sections:
           title: Amount of activity
           copy: |
             Children, teenagers and adults should all follow a diet that is low in fat. Different levels of activity and the variations in this through the day will affect how much of each nutrient a person needs.  
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal1b.svg
         -
           title: Health / condition
           copy: |
             If someone is ill, recovering from an injury or pregnant, then they may need different nutrients than someone who is not. 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal2b.svg
         -
           title: Age
           copy: |
             People of different ages will require different levels of each nutrient.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal3b.svg
         -
           title: Physical changes
           copy: |
             If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal4b.svg
   -
   -
     title: Case study
@@ -120,7 +118,7 @@ sections:
 
       If Gerry keeps on eating the same amount but increases his activity level, he will more or less stop putting on weight. However, if he decided to eat 10% (400 calories per day) less he would lose about 1 lb. every 9 days. In a year this will be close to his target weight!
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/nh/nh_u1_s1_p6_image.svg
   -
     title: Summary
     theme: t-bg-primary i-summary

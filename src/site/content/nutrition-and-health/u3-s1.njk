@@ -1,0 +1,17 @@
+---js
+{
+  unit: 3,
+  session: 1,
+  pagination: {
+    data: "courses['nutrition-and-health']['03-planning-a-healthy-diet']['01-understanding-food-labelling']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

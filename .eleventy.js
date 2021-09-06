@@ -8,6 +8,7 @@ const Image = require('@11ty/eleventy-img');
 const path = require("path");
 const fs = require("fs");
 const MarkdownIt = require('markdown-it');
+const ssri = require('ssri');
 
 let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
 let missingCaptions = [];
@@ -77,6 +78,30 @@ module.exports = function(config) {
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
   config.addNunjucksAsyncShortcode("image", imageShortcode);
+  config.addAsyncShortcode("ssri", async function(file) {
+    let filePath;  
+    
+    if(file.endsWith('.css')) {
+      filePath = `dist/css/${file}`;
+    }
+    else if(file.endsWith('.js')) {
+      filePath = `dist/js/${file}`;
+    }
+
+    try {
+      fs.accessSync(filePath, fs.constants.F_OK);
+
+      return await ssri.fromStream(fs.createReadStream(filePath), {
+        algorithms: ['sha256']
+      }).then(integrity => {
+        return integrity.toString();
+      });
+      
+    } catch (err) {
+      console.log(`ERROR WITH CSS`);
+      return false;
+    }
+  });
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
@@ -252,7 +277,7 @@ module.exports = function(config) {
     }
   });
 
-  config.addFilter("uniqueID", val => {return `${val}_${+new Date()}` });
+  config.addFilter("uniqueID", val => {return `${val}_${Math.floor(Math.random(+new Date)*9999999999999)}` });
 
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );

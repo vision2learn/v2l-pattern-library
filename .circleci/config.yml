@@ -34,15 +34,27 @@ jobs:
           name: Build it
           command: yarn run staging
           no_output_timeout: 30m
+      - run:
+          name: Generate Integrity SHAs
+          command: |
+            printf "CSS Integrity\n" >> shas.txt
+            cat dist/css/main.css | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
+            printf "\n\nJS Integrity\n" >> shas.txt
+            cat dist/js/script.js | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
       
       # compress the output for more efficient deployment...
       - run: tar -czvf site.tar.gz dist
+
+      - store_artifacts:
+          path: shas.txt
+          destination: shas.txt
 
       - persist_to_workspace:
           root: .
           paths: 
             - dist/*
             - site.tar.gz
+            - shas.txt
             
   dotnet:
     docker:
@@ -127,9 +139,34 @@ jobs:
           command: |
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:/mnt/website/backgroundyellow.net
             ssh $SSH_USER@$SSH_HOST tar -xzvf /mnt/website/backgroundyellow.net/site.tar.gz -C /mnt/website/backgroundyellow.net/v2l/test
+  tests:
+    machine:
+      enabled: true
+    working_directory: ~/repo
+    steps:
+      -  add_ssh_keys:
+          fingerprints:
+            - "a2:aa:ee:91:eb:fe:c7:cb:a9:cc:98:40:fd:d2:6f:27"
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Backstop Tests
+          command: |
             echo "Running Backstop JS tests"
             ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop test"
-
+  backstop-references:
+    machine:
+      enabled: true
+    working_directory: ~/repo
+    steps:
+      -  add_ssh_keys:
+          fingerprints:
+            - "a2:aa:ee:91:eb:fe:c7:cb:a9:cc:98:40:fd:d2:6f:27"
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Generate Backstop References
+          command: ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop reference"
   deploy:
     machine:
       enabled: true
@@ -145,7 +182,6 @@ jobs:
           command: |
             scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:/mnt/website/backgroundyellow.net
             ssh $SSH_USER@$SSH_HOST tar -xzvf /mnt/website/backgroundyellow.net/site.tar.gz -C /mnt/website/backgroundyellow.net/v2l
-
 workflows:
   version: 2
   build-and-deploy:
@@ -171,6 +207,19 @@ workflows:
       - deploy:
           requires:
             - build
+          filters:
+            branches:
+              only: master
+      - tests:
+          requires:
+            - build
+            - staging
+          filters:
+            branches:
+              only: rayner-mod
+      - backstop-references:
+          requires:
+            - deploy
           filters:
             branches:
               only: master

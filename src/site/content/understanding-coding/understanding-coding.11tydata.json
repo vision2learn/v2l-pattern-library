@@ -1,0 +1,36 @@
+{
+  "course": "understanding-coding",
+  "tags": "coding",
+  "level": 2,
+  "dotnetID": 999,
+  "year": 2021,
+  "shortcode": "uc",
+  "learningoutcomes": true,
+  "why": "This course is designed for learners who want to gain knowledge of coding. It may also support progression into further study in coding or other topics within the digital sector.",
+  "goals": {
+    "will": [
+      "This",
+      "Is",
+      "the",
+      "Coding",
+      "Course"
+    ]
+  },
+  "courseFeatures": [
+    "on the web",
+    "quick quiz",
+    "summary",
+    "stretch",
+    "key point",
+    "case study",
+    "watch",
+    "time to think",
+    "read more about it"
+  ],
+  "whatyoulearn": [
+    "Terminology and languages",
+    "Types of language", 
+    "Syntax", 
+    "Technologies"
+  ]
+}

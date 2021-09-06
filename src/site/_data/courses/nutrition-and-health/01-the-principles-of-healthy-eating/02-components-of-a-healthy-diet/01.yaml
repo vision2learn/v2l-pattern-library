@@ -2,7 +2,7 @@ title: Components of a healthy diet
 intro: |
   In this session we’ll look at some of the components of a healthy diet and how these can affect health.
    
-banner: placeholder.jpg
+banner: nh_u1_s2_p1_components.jpg
 sections:
   -
     title: What you will learn
@@ -24,7 +24,7 @@ sections:
     title: Read - Eatwell Guide
     theme: t-bg-primary2 i-read
     copy: | 
-      If you wish you can download the Eatwell guide.
+      If you wish you can download your own copy of the Eatwell guide.
 
       [Eatwell guide pdf](/pdfs/nh_u1_s2_p1_eatwell_guide.pdf).
   -
@@ -32,63 +32,57 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-        * LOs 2.1 2.2 
-        * LO 2.3
+        You will need to know what the 5 food groups are and foods that belong to each one, along with providing current healthy eating advice. 
   -
   -
     title: The five food groups
     theme: t-bg-primary
     copy: |
-      The food you eat can be divided into five groups. A person with a healthy diet eats a balance of food from all of these five groups. Select the images below to read about each group:
+      The food you eat can be divided into five groups. A person with a healthy diet eats a balance of food from all of these five groups. Scroll through the slides below to read about each group and the _main_ nutritional benefits for each:
 
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
           title: Carbohydrates
-          copy: |
-            * Nutritional benefits are energy, fibre, vitamins and minerals
-            * We should have 33% or a third of our diet a day
-            * Include - bread, cereals, potatoes, pasta, beans and lentils
-          img: placeholder_icon.svg
+          text: |
+            * Main nutritional benefits are energy, fibre, vitamins and minerals
+            * The NHS recommends we have 33% or a third of our energy requirements from carbohydrates
+            * Include - wholemeal bread, cereals, pasta, potatoes, beans and lentils
+            * Some fruit and veg also provides carbohydrates e.g. bananas, apples, sweet potatoes, beetroot and corn
+          img: nh_u1_s2_p1_slide1.svg
         -
           title: Fruit and veg
-          copy: |
-            * Nutritional benefits are vitamins, minerals and fibre
-            * We should have 33% or 5 portions a day
-            * Include - fresh, frozen, tinned
-          img: placeholder_icon.svg
+          text: |
+            * Main nutritional benefits are vitamins, minerals and fibre
+            * Like carbohydrates this should make up 33% (a third) of our daily intake with 5-10 portions
+            * Include - fresh, frozen, tinned and fresh juice (not from concentrate)
+          img: nh_u1_s2_p1_slide2.svg
         -
-          title: Meat and protein
-          copy: |
-            * Nutritional benefits are protein, vitamins and minerals
-            * We should have 15% or 2 to 3 portions a day
-            * Include - chicken, Tofu, fish
-          img: placeholder_icon.svg
+          title: Protein
+          text: |
+            * Main nutritional benefits are energy, cell maintenance, protection against disease, promoting growth and weight management
+            * The NHS recommends we should have 50g/15% or 2 to 3 portions a day
+            * Include - chicken, fish, beans, tofu, eggs, pulses, diary, nuts and seeds
+          img: nh_u1_s2_p1_slide3.svg
         -
-          title: Fatty or sugary foods
-          copy: |
-            * Nutritional benefits are energy
-            * We should have 4% or 1 portion or less a day
-            * Include - sweets, cakes, biscuits
-          img: placeholder_icon.svg
+          title: Oils, spreads and other fats
+          text: |
+            * Healthy fats help build cells, absorb vital vitamins and minerals, provide energy and muscle movement
+            * Good fats include monosaturated and polyunsaturated. Bad fats are man-made e.g. trans fats. Saturated fats are in the middle of these and should be kept to a minimum. 
+            * Different fats have different recommended daily intake amounts. Saturated is under 11% and trans fat under 2%
+            * Good fats come from olive oil, sunflower oil, avocados, nuts, nut spread, fatty fish (salmon, mackeral, sardines) flaxseed
+
+          img: nh_u1_s2_p1_slide4.svg
         -
           title: Milk and dairy
-          copy: |
-            * Nutritional benefits are protein and calcium.
-            * We should have 15% or 2 to 3 portions
-            * Include - yogurt, cheese, cream
-          img: placeholder_icon.svg
-  -
-  -
-    title: Read - The five food groups
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Is this meant to be here or in Session 3?_
-      
-      If you wish you can download the following document:
+          text: |
+            * Main nutritional benefits are protein and calcium. healthy bones, teeth, skin and eyes. Supports brain development, maintains healthy blood pressure and immune function. 
+            * The NHS recommends we should have 15% or 2 to 3 portions
+            * Include - yogurt, cheese, cream. Diary alternatives are often fortified with calcium and vitamin B12 to provide the same health benefits as real diary. 
 
-      [The five food groups]().
+          img: nh_u1_s2_p1_slide5.svg
   -
   -
     title: Watch 
@@ -111,8 +105,7 @@ sections:
       type: time-to-think
       copy: |
         Do you think you follow all of the healthy eating advice on this page? Make some notes in the box to the right and save to your journal.
-  -
-  
+  - 
   -
     title: Quick quiz
     copy: Guess the food group
