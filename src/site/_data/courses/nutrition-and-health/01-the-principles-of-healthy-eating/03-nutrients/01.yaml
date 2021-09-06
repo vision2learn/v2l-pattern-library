@@ -18,8 +18,7 @@ sections:
   -
   -
     title: Introduction
-    layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
       So far we have learnt that a healthy diet is made up of 5 main food groups and that these provide all of the energy, vitamins and minerals that the body needs to fully function and stay healthy. 
       
@@ -27,11 +26,11 @@ sections:
       
       The 6 classes of nutrients that we gain from our diet are carbohydrates, protein, fats, vitamins, minerals and water. 
 
-    img: /images/svg/placeholder_icon.svg
+      ![](/images/banners/nh/placeholder.jpg)
   -
   -
     title: Macro and micro nutrients
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       Select the images below to learn about macro and micronutrients.
 
@@ -61,89 +60,47 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: The six classes of nutrients - PLACEHOLDER
-    theme: t-bg-primary
+    title: The six classes of nutrients
+    theme: t-bg-supporting2
     copy: |
-      _Type of element to be decided - Slider, Accordion, Table or Interactivity_
+      _PLACEHOLDER - Type of element to be decided - Slider, Accordion, Table, or PDF_
 
       A nutrient is a chemical substance that provides nourishment to the body. Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
-
-      _To include information from Jenny's table in word doc:_
       
-      |Food group|	Nutritional Info|	Foods|
-      |------|------|-----|
-      |Carbohydrates |||
-      |Protein |||
-      |Fats |||
-      |Vitamins |||
-      |Minerals |||
-      |Water |||
+
+      See the below table for details:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Nutritional information of each food group
+          copy: |
+            
+            | Food group |	Nutritional information |	Foods |
+            |------|------|-----|
+            | Carbohydrates | These are a combination of starch, sugar and fibre and are the body’s main energy source. Split into 2 main groups: complex carbohydrates and simple carbohydrates. Both are converted into glucose (sugar) with complex carbohydrates providing fibre and energy released over a longer period of time than simple carbohydrates. You should obtain your carbohydrates from the complex group and avoid simple carbohydrates where possible. | Complex carbohydrates: Wholegrain bread, pasta, brown rice, oats nuts, beans, potatoes. Simple carbohydrates: Sweets, pastries, sugary drinks, concentrated fruit juice, sugar, some cereals, white bread and pasta |
+            | Protein | Helps to keep the muscles, bones and tissues healthy. It is used by every cell in the body and helps maintain good skin, hair and nails.  It can also aid in energy and help the oxygen levels in your blood. Not eating enough protein can lead to illnesses and it can protect against viruses and bacteria. |Lean meat and poultry, fish, cottage cheese, Greek yoghurt, nuts, seeds, lentils |
+            | Fats | Unsaturated (healthy) fats can be found in natural foods. Eating unsaturated fat can improve cholesterol, decrease heart risks and inflammation. By eating a range of unsaturated fats you will also gain polyunsaturated fats which contain omega-3 Saturated (unhealthy) fats can be found in some natural foods, but are mostly consumed through processed foods. Fat is important for the bodily health, but it’s important to obtain this through natural foods and not processed foods, which are also high in trans fats |Unsaturated fats: Avocados, olive oil, nuts and seeds, oily fish. Saturated fats: processed foods, milk, butter, cheese, meat products (sausage, bacon, beefburger) |
+            | Vitamins | Vitamins play an important role in keeping people healthy as they help our immune system as well as regulate the release of things such as calcium. However, as our bodies cannot make vitamins we must obtain what we need from food. Luckily foods such as fruit, vegetables, nuts, fish and cereals are all rich in the vitamins we need to stay healthy. Those who don’t get enough vitamins are said to have a vitamin deficiency. Not getting enough vitamins can have a direct impact on things such as bone development and tissue growth, the immune system and organ function.| Green vegetables are a great source of vitamin B which helps to turn nutrients in food into energy. Oranges are a great source of vitamin C which helps to release energy from fats and to fight infection.|
+            | Minerals | Minerals are commonly found in foods like meat, cereals, fish, dairy, vegetables, fruit and nuts. Minerals help the body work as it should by building strong bones and teeth, controlling body fluids and turning the food you eat into energy. Perhaps the two most important minerals are iron and calcium. Iron is important as it helps the flow of oxygen through the body whilst calcium helps to build strong bones and teeth. | Vegetables like broccoli are a great source of iron. Calcium is commonly found in milk and cheese. Potassium helps to keep blood pressure down and can be found in bananas, baked potatoes and tomatoes. As fruit and vegetables are the most common source of minerals in a person’s diet, those who don’t eat enough natural food products often don’t get all the minerals they need. |
+            | Water | The body is about 60% water and it’s important to ensure that you maintain a high level of fluid by drinking plenty of water. It assists with functions such as circulation, temperature, digestion, transportation of nutrients, concentration and creating saliva. Dehydration puts unnecessary strain on the body, slows it down, reduces concentration and increases tiredness. It can often cause headaches. Exercise can use a lot of water and it’s important that you hydrate before, during and after any physical activity. | Green vegetables such as cucumber, iceberg lettuce, celery and spinach are a great source of water. They all contain a water content above 90% |
+
+  -
+  -
+    title: Read - The six classes of nutrients
+    theme: t-bg-primary2 i-read
+    copy: | 
+      A nutrient is a chemical substance that provides nourishment to the body. Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
+
+      Please see the following downloadable document which illustrates the six classes of nutrients.
+
+      [The six classes of nutrients pdf]().
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your Assessment, you will need to define the term nutrients, describe the six key classes of nutrients, how they maintain health and good sources of food for each of these. You will also need to know the factors that influence how much of each nutrient a person needs.
-  -
-  -
-    title: Foods that are high in nutrients - NEW - TO BE DECIDED
-    theme: t-bg-primary
-    copy: |
-      Scroll through the slides below to see some examples of foods high in nutrients.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Salmon
-          text: |
-            Salmon is an oily fish and contains high levels of omega-3s fatty acids, along with many other vitamins and minerals such as magnesium, potassium and B-vitamins. Good for wellbeing and reducing risk of dementia and heart disease. 
-
-          img: placeholder_icon.svg
-        -
-          title: Kale
-          text: |
-            Kale is said to be even healthier than spinach. It contains a range of minerals and is loaded with vitamin A, C and K1.
-
-            This nutrient rich green can help reduce the risk of cancer. 
-
-          img: placeholder_icon.svg
-        -
-          title: Garlic
-          text: |
-            Garlic is great for flavour and contains vitamins C, B1 and B6 plus many minerals. It can help lower blood pressure, reduce the risk of heart disease and some cancers. 
-          img: placeholder_icon.svg
-        -
-          title: Potatoes
-          text: |
-            Potatoes also have lots of minerals and vitamin C plus most of the B vitamins. So they’re filling and nutritious. Studies have found that boiled potatoes keep you fuller for longer and if you allow them to cool they form ‘resistant starch’ which increases the health benefits. 
-          img: placeholder_icon.svg
-        -
-          title: Liver
-          text: |
-            Liver, as with all organ meats, is more nutritious than the more common muscle meat regularly eaten today. It’s function is to store important nutrients for your body to use and contains many vitamins itself. 
-          img: placeholder_icon.svg
-        -
-          title: Shellfish
-          text: |
-            Shellfish, particularly clams and oysters are very nutritious and provide vitamin B12, vitamin C and D and many minerals. 
-          img: placeholder_icon.svg
-        -
-          title: Blueberries
-          text: |
-            Blueberries are possibly the most nutrient rich fruit and contain a high quantity of antioxidants. Studies have found that by adding some to their diet, overweight people have lowered their blood pressure and cholesterol levels. 
-          img: placeholder_icon.svg
-        -
-          title: Egg yolks
-          text: |
-            Egg yolks are considered to be the most nutritious of all foods. They’re full of vitamins, minerals and other nutrients. They are a high quality protein and healthy fat with studies showing that they can help with weight loss. 
-          img: placeholder_icon.svg
-        -
-          title: Dark chocolate / Cacao ?
-          text: |
-            Dark Chocolate contains many antioxidants and is highly nutritious. It is full of copper, magnesium, iron, fibre and other nutrients. It’s important to buy at least 70% cocoa and ideally 85% or higher. Reports show that eating one square a day can offer multiple health benefits.  
-          img: placeholder_icon.svg
   -
   -
     title: Stretch

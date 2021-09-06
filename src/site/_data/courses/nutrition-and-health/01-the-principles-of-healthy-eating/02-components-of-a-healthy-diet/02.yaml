@@ -23,7 +23,7 @@ sections:
     title: Portion size for different food groups
     theme: t-bg-supporting2
     copy: |
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about portion size for each food group.
 
     subInc: 
       type: slider
@@ -171,9 +171,10 @@ sections:
 
   -
 
-    title: Case study
+    title: Case study - PLACEHOLDER
     theme: t-bg-primary1a i-case-study
     copy: |
+      _PLACEHOLDER - there is a lot of content so may need to be changed?_
       ### Case study - Karla and Trisha
 
       Take a look at the eating diaries for two women. Each tries to eat healthily and to get a variety of foods. What do you think about their diets? How healthy are they? 
