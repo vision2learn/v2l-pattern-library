@@ -17,88 +17,104 @@ sections:
       * Explain the importance of adequate fluid intake  
   -
   -
-    title: Macro and micro nutrients  NEW
-    theme: t-bg-supporting2
+    title: Introduction
+    theme: t-bg-supporting3
     copy: |
-      Introduction
+      So far we have learnt that a healthy diet is made up of 5 main food groups and that these provide all of the energy, vitamins and minerals that the body needs to fully function and stay healthy. 
+      
+      Nutrients are found in all natural foods and in some processed foods. _Naturally occurring they can provide the body with everything that it needs._ Processed foods may have nutrients added, either artificially or by including some natural foods e.g. a pasty will have meat and veg or cheese within it which will provide some nutrients, although they will be reduced compared to fresh meat, veg and cheese. 
+      
+      The 6 classes of nutrients that we gain from our diet are carbohydrates, protein, fats, vitamins, minerals and water. 
 
-      Select the images below to read 
+      ![](/images/banners/nh/placeholder.jpg)
+  -
+  -
+    title: Macro and micro nutrients
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn about macro and micronutrients.
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Macronutrients
           copy: |
-            text
+            Carbohydrates, proteins and fats provide energy, are required in larger quantities and contain many micronutrients. Fats provide more energy than carbohydrates and proteins and are therefore required in a smaller quantity. 
+
           img: placeholder_icon.svg
         -
-          title: b
+          title: Micronutrients
           copy: |
-            text
+            Vitamins and minerals 
+            
+            Essential for the body’s functions and are found within all natural foods. They can also be added to processed foods.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Water
           copy: |
-            text
+            Needed in large quantities to replace water lost through daily activities. 
+            Provides transportation for vitamins and minerals around the body, protects organs, regulates body temperature amongst other essential functions. 
+            Can be consumed through food and liquid.
+
           img: placeholder_icon.svg
   -
   -
-    title: The six classes of nutrients - PLACEHOLDER
-    layout: media
-    theme: t-bg-primary
+    title: The six classes of nutrients
+    theme: t-bg-supporting2
     copy: |
-      _Type of element to be decided - Slider, Accordion, Activity, Case study etc - to replace 5 slides on old page 2 - https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session03/pg2.asp_
+      _PLACEHOLDER - Type of element to be decided - Slider, Accordion, Table, or PDF_
 
-      A nutrient is a chemical substance that provides nourishment to the body.
+      A nutrient is a chemical substance that provides nourishment to the body. Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
       
-      Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
 
-    img: /images/svg/placeholder_icon.svg
+      See the below table for details:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Nutritional information of each food group
+          copy: |
+            
+            | Food group |	Nutritional information |	Foods |
+            |------|------|-----|
+            | Carbohydrates | These are a combination of starch, sugar and fibre and are the body’s main energy source. Split into 2 main groups: complex carbohydrates and simple carbohydrates. Both are converted into glucose (sugar) with complex carbohydrates providing fibre and energy released over a longer period of time than simple carbohydrates. You should obtain your carbohydrates from the complex group and avoid simple carbohydrates where possible. | Complex carbohydrates: Wholegrain bread, pasta, brown rice, oats nuts, beans, potatoes. Simple carbohydrates: Sweets, pastries, sugary drinks, concentrated fruit juice, sugar, some cereals, white bread and pasta |
+            | Protein | Helps to keep the muscles, bones and tissues healthy. It is used by every cell in the body and helps maintain good skin, hair and nails.  It can also aid in energy and help the oxygen levels in your blood. Not eating enough protein can lead to illnesses and it can protect against viruses and bacteria. |Lean meat and poultry, fish, cottage cheese, Greek yoghurt, nuts, seeds, lentils |
+            | Fats | Unsaturated (healthy) fats can be found in natural foods. Eating unsaturated fat can improve cholesterol, decrease heart risks and inflammation. By eating a range of unsaturated fats you will also gain polyunsaturated fats which contain omega-3 Saturated (unhealthy) fats can be found in some natural foods, but are mostly consumed through processed foods. Fat is important for the bodily health, but it’s important to obtain this through natural foods and not processed foods, which are also high in trans fats |Unsaturated fats: Avocados, olive oil, nuts and seeds, oily fish. Saturated fats: processed foods, milk, butter, cheese, meat products (sausage, bacon, beefburger) |
+            | Vitamins | Vitamins play an important role in keeping people healthy as they help our immune system as well as regulate the release of things such as calcium. However, as our bodies cannot make vitamins we must obtain what we need from food. Luckily foods such as fruit, vegetables, nuts, fish and cereals are all rich in the vitamins we need to stay healthy. Those who don’t get enough vitamins are said to have a vitamin deficiency. Not getting enough vitamins can have a direct impact on things such as bone development and tissue growth, the immune system and organ function.| Green vegetables are a great source of vitamin B which helps to turn nutrients in food into energy. Oranges are a great source of vitamin C which helps to release energy from fats and to fight infection.|
+            | Minerals | Minerals are commonly found in foods like meat, cereals, fish, dairy, vegetables, fruit and nuts. Minerals help the body work as it should by building strong bones and teeth, controlling body fluids and turning the food you eat into energy. Perhaps the two most important minerals are iron and calcium. Iron is important as it helps the flow of oxygen through the body whilst calcium helps to build strong bones and teeth. | Vegetables like broccoli are a great source of iron. Calcium is commonly found in milk and cheese. Potassium helps to keep blood pressure down and can be found in bananas, baked potatoes and tomatoes. As fruit and vegetables are the most common source of minerals in a person’s diet, those who don’t eat enough natural food products often don’t get all the minerals they need. |
+            | Water | The body is about 60% water and it’s important to ensure that you maintain a high level of fluid by drinking plenty of water. It assists with functions such as circulation, temperature, digestion, transportation of nutrients, concentration and creating saliva. Dehydration puts unnecessary strain on the body, slows it down, reduces concentration and increases tiredness. It can often cause headaches. Exercise can use a lot of water and it’s important that you hydrate before, during and after any physical activity. | Green vegetables such as cucumber, iceberg lettuce, celery and spinach are a great source of water. They all contain a water content above 90% |
+
+  -
+  -
+    title: Read - The six classes of nutrients
+    theme: t-bg-primary2 i-read
+    copy: | 
+      A nutrient is a chemical substance that provides nourishment to the body. Nutrients are essential for growth, development and maintenance of health. There are six classes of nutrients.
+
+      Please see the following downloadable document which illustrates the six classes of nutrients.
+
+      [The six classes of nutrients pdf]().
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment, you will need to define the term nutrients, identify the six key classes of nutrients and good sources of food for each of these.
+      In your Assessment, you will need to define the term nutrients, describe the six key classes of nutrients, how they maintain health and good sources of food for each of these. You will also need to know the factors that influence how much of each nutrient a person needs.
   -
   -
-    title: What foods provide which nutrients - NEW
-    theme: t-bg-primary
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
     copy: |
-      _Slider at the moment but this can be changed depending on content_
+      ###  What foods provide which nutrients
 
-      Scroll through the slides below to learn more about ...
+      There are many nutrient dense foods to choose from. By having a whole food diet, you can increase the range of natural foods that you eat and choose macronutrients that provide you with a host of micronutrients to ensure you get the most of what you eat. Remember that having a good variety will ensure that you’re obtaining the most amount of nutrients and supplying your body with everything that it needs to be as healthy as possible. 
+      
+      There are too many good foods to list here, click on the owl to go to a website to find foods that you might like to start including in your diet.
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: a
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          text: |
-            text
-          img: placeholder_icon.svg
+    img: /images/svg/stretch_button.svg
+    link: https://www.webmd.com/vitamins-and-supplements/features/healthy-foods
   -
   -
     title: Time to think
@@ -121,20 +137,18 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment, you will need to .... LOs 3.4 and 3.5
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        For more information on nutrients, take a look at the following website. 
+        For more information on nutrients, take a look at the following websites. 
 
       links:
-        British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/basics/exploring-nutrients    
+        British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/basics/exploring-nutrients
+        Webmd healthy food: https://www.webmd.com/vitamins-and-supplements/features/healthy-foods
+        The world’s most nutritious foods - BBC Future: https://www.bbc.com/future/article/20180126-the-100-most-nutritious-foods
+
   -
   -
     title: Summary
