@@ -168,6 +168,7 @@ sections:
 
     subInc: 
       type: quick-quiz
+      mode: multi-choice
       content: 
         Which of the following do you need in order to have effective working relationships and the ability to deal with difficult situations?:
           answers:
