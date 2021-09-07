@@ -192,7 +192,12 @@ sections:
           copy: |
             Karla works part-time from home as a designer. She meets clients at her home and is trying to increase her fruit and vegetable intake.
 
-            _Meal items here_
+            | Meal | Food |
+            |------|------|
+            |Breakfast | 1 slice of wholemeal toast, 1 scrambled egg (with soft margarine), 1⁄3 tsp salt, 1 glass of orange juice, and 1 latte coffee with full fat milk. |
+            |Lunch | Roast beef sandwich - 85g roast beef, Shredded lettuce, 40g mozzarella cheese, 1 tsp mustard, 1 tbsp ketchup.  1 wholemeal teacake, Three baked potato wedges, 1⁄3 tsp salt, and 1 latte coffee with full fat milk. |
+            |Dinner | 140g salmon fillet broiled - 28g bread stuffing mix, 1 tbsp chopped onions, 1 tbsp diced celery, 42g mozzarella cheese, 2 tsp oil, 20g slivered almonds. ½ cup of white rice, ½ cup steamed broccoli, ½ tsp salt, and 1 glass of milk. |
+            |Snacks | 1 cup of salted peanuts and 3 or 4 further lattes through the day. |
             
             Karla has quite a healthy diet; she eats a variety of different foods and does eat some fruit and vegetables. 
           img: /images/svg/placeholder_icon.svg
@@ -201,7 +206,12 @@ sections:
           copy: |
             Trisha has a high pressure job as a marketing consultant. She strives to maintain a healthy diet.
             
-            _Meal items here_
+            | Meal | Food |
+            |------|------|
+            |Breakfast | 1 bowl shredded wheat cereal, 1 tbsp raisins, 1 cup fat free milk, 1 small banana, 1 slice wholemeal toast, 1 tsp soft margarine. |
+            |Lunch | Turkey pitas -  85g fried turkey strips, 60g wholemeal pita bread, 4 lettuce leafs, 2 slices tomato, 1 tbsp low fat mayonnaise dressing, 1 tsp mustard.  5 baked potato wedges, ½ cup apple slices, 1 or 2 glasses of chardonnay. |
+            |Dinner | 150g of fried steak, 3 potatoes, ½ cup steamed carrots, 1 tbsp honey. 1 wholemeal bread roll, 1 tsp soft margarine, 1 large glass of red wine. |
+            |Snacks | 1 cup low fat fruited yoghurt and at least half a bottle of red wine in the evening. |
 
             Trisha has a very healthy diet. She eats a large amount of fruit and veg and chooses wholemeal carbohydrates over white ones. 
           img: /images/svg/placeholder_icon.svg
