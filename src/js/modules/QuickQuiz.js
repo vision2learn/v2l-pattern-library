@@ -38,7 +38,7 @@ const myQuizzes = (function() {
       nextBtn.appendChild(document.createTextNode(nextBtnText));
       nextBtn.addEventListener('click', (e) => this.nextClick(e))
   
-      if(this.quizData.totalQuestions > 1) {
+      if(this.quizData.totalQuestions >= 1) {
         question.appendChild(nextBtn);
       }
       return true;
