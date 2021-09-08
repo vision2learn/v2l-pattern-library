@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 1,
+  pagination: {
+    data: "courses['cyber-security']['02-understand-terminology-used-in-cyber-security']['01-understand cyber security terminology']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

@@ -1,6 +1,6 @@
 title: "Understand the need for cyber security"
 intro: |
-  In this session, you will learn about the need for cyber security and the impact of cyber crime:
+  In this session you will learn about the need for cyber security and the impact of cyber crime on individuals, businesses or nations and why issues should be reported promptly so as to minimise that impact:
 banner: ba_u1_s2_p1_hss.jpg
 sections:
   -
@@ -9,8 +9,51 @@ sections:
     copy: |
       By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
     
-      1. Understand the most common vulnerabilities of cyber crime
-      2. understand the impact of cyber crime
-      3. The importance of cyber security
-      4. Understand why cyber security issues should be reported promptly
+      1. Common cyber crime vulnerabilities of an individual, business or nation
+      2. Impact of cyber crime on an individual, business or nation.
+      3. The importance of cyber security for an individual, business or nation.
+      4. Why cyber security issues should be reported promptly
+
+  -
+    title: Common Cyber Crime Vulnerabilities.
+    theme: t-bg-supporting2
+    copy: |
+      'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
+       Cyber criminals seek to exploit human and security vulnerabilities in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks. There has been a significant growth in cyber criminality over the last few years especially with ransomware. Breaches of personal data leaves victims vulnerable to fraud and put lives at risk. Business is the main target although phishing attacks on individuals are increasing, however more people are becoming aware of the threat. On a global scale governments and nations are also at high risk of falling victim to cyber crime in one way or another and this affects everyone.
+
+
+  -
+    title: Vulnerabilities.
+    theme: t-bg-primary
+    copy: |
+      Let's look at the cyber crime vulnerabilities of individuals, businesses and nations in a little more detail ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Individual
+          text: |
+            Cybercrime is a violation of an individual's privacy and their data security. They can be at risk of hacking, malware, identity theft, financial fraud, medical fraud, as well as interpersonal cybercrime such as cyber bullying. Data is considered a commodity and is a primary target of cybercriminals. It can be accessed illicitly if not adequately protected by internet security systems or given away to scammers unwittingly by individuals clicking onto bogus links and it can be used to commit further cybercrimes.
+          img: placeholder_icon.svg
+        -
+          title: Business
+          text: |
+            Businesses are at risk from Viruses, DDoS, Malware, ransomware, remote administration malware or spyware. The attack type will often depends on the type of business and the technology they use. It will also be dependent on what information the hacker wants to extract or attack. Cyber attacks can be as we have already discussed by external or insider threats. Remote administration malware enables hackers to access business data and login credentials allowing them to create a social engineering attack which in turn can be used to exploit human vulnerabilities. Social engineering covers a broad range of malicious cyber crimes manipulating users into making security mistakes or giving away sensitive information or granting access to resources. Hackers can inject malicious code into a website to gain access to information and login details through keyloggers and  hacking a database of passwords.
+            There has been a significant growth in high-profile ransomware campaigns. Ransomware involves paying a hefty fee for releasing their data, however this does not always happen even when the fee has been paid.     
+          img: placeholder_icon.svg
+        -
+          title: Nation
+          text: |
+            It's common now to hear on the news about cyber attacks from foreign governments like North Korea, Russia and China, but threats don't only come from recognised countries.
+            Cyber attacks at international and national state level can involve major organisations, national infrastructure, political parties, military and governments. The vulnerabilities for nations are often the same and under the same threats as businesses, but these can take on much greater significance as they can create consequences for everyone. The threats from nation states and criminal groups are starting to become blurred as some nation states use the 'facilities' provided by criminal groups for their own 'state run' attacks. Many Russian-speaking cyber groups are threatening UK interests, but home-grown cyber criminals are also becoming more sophisticated and offering their services to others. The increasing ability for purchasing 'cyber tools' has enabled emerging threats to become established quickly. Cyber security attacks have become the new weapon of choice for many nation states in the effort to de-stabilise their opponents. Attacks and threats may be of a political nature trying to skew the outcomes of elections, financial gain, digital surveillance to taking over of military capabilities and rendering nations helpless in the face of the threat.
+
+          img: placeholder_icon.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
   -
