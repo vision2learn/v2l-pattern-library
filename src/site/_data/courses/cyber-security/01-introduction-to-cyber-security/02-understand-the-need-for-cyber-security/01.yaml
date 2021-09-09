@@ -19,14 +19,13 @@ sections:
     theme: t-bg-supporting2
     copy: |
       'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
-       Cyber criminals seek to exploit human and security vulnerabilities in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks. There has been a significant growth in cyber criminality over the last few years especially with ransomware. Breaches of personal data leaves victims vulnerable to fraud and put lives at risk. Business is the main target although phishing attacks on individuals are increasing, however more people are becoming aware of the threat. On a global scale governments and nations are also at high risk of falling victim to cyber crime in one way or another and this affects everyone.
-
+       Cyber criminals seek to exploit human and security vulnerabilities in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks. There has been a significant growth in cyber criminality over the last few years especially with ransomware. Breaches of personal data leaves victims vulnerable to fraud and put lives at risk. 
 
   -
     title: Vulnerabilities.
     theme: t-bg-primary
     copy: |
-      Let's look at the cyber crime vulnerabilities of individuals, businesses and nations in a little more detail ...
+      Business is the main target although phishing attacks on individuals are increasing, however more people are becoming aware of the threat. On a global scale governments and nations are also at high risk of falling victim to cyber crime in one way or another and this affects everyone. Let's look at the cyber crime vulnerabilities of individuals, businesses and nations in a little more detail ...
 
     subInc: 
       type: slider
@@ -50,6 +49,19 @@ sections:
             Cyber attacks at international and national state level can involve major organisations, national infrastructure, political parties, military and governments. The vulnerabilities for nations are often the same and under the same threats as businesses, but these can take on much greater significance as they can create consequences for everyone. The threats from nation states and criminal groups are starting to become blurred as some nation states use the 'facilities' provided by criminal groups for their own 'state run' attacks. Many Russian-speaking cyber groups are threatening UK interests, but home-grown cyber criminals are also becoming more sophisticated and offering their services to others. The increasing ability for purchasing 'cyber tools' has enabled emerging threats to become established quickly. Cyber security attacks have become the new weapon of choice for many nation states in the effort to de-stabilise their opponents. Attacks and threats may be of a political nature trying to skew the outcomes of elections, financial gain, digital surveillance to taking over of military capabilities and rendering nations helpless in the face of the threat.
 
           img: placeholder_icon.svg
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### 'WannaCry' ransomware campaign
+
+      “Breaches leak personal data on a massive scale and can leave victims vulnerable to fraud, while lives were put at risk and services damaged by the 'WannaCry' ransomware campaign that affected the NHS and many other organisations worldwide.”
+ 
+      “Prominent among the victims was the National Health Service (NHS); over a third of England’s NHS trusts were disrupted, with over 6,900 NHS appointments cancelled and some patients needing to travel farther for accident and emergency care.    Most of the NHS victims used systems for which patches were available but had not been applied, highlighting the importance of basic security practices.”
+
+
+    img: /images/svg/placeholder_icon.svg
   -
     title: Time to think
     theme: t-bg-primary3 i-think
