@@ -6,8 +6,6 @@ on:
   push:
       branches:
         - rayner-mod
-  workflow_dispatch:
-  
 jobs:
   backstopit:
     runs-on: ubuntu-latest
