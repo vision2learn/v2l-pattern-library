@@ -1,72 +1,98 @@
 title: "Understand the need for cyber security"
 intro: |
-  In this session, you will learn about the need for cybersecurity and the impact of cyber crime:
-  - Common cyber crime vulnerabilities
-  - The potential impact of cyber crime
-  - The importance of cyber security
+  In this session you will learn about the need for cyber security and the impact of cyber crime on individuals, businesses or nations and why issues should be reported promptly so as to minimise that impact:
 banner: ba_u1_s2_p1_hss.jpg
 sections:
   -
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Business and Administration qualification.
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
     
-      1. Identify employer and employee responsibilities for health, safety and security in a business environment
-      2. Explain the purpose of following health, safety and security procedures in a business environment
-      3. Identify ways of maintaining a safe and secure environment in a business environment.
+      1. Common cyber crime vulnerabilities of an individual, business or nation
+      2. Impact of cyber crime on an individual, business or nation.
+      3. The importance of cyber security for an individual, business or nation.
+      4. Why cyber security issues should be reported promptly
+
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-     
-    include: 
-      type: on-the-web
-      copy: |
-        As you work through this session, you can find lots of additional information about health, safety and security at the following websites -
-      links:
-        HSE - Health and Safety Executive: http://www.hse.gov.uk/index.htm
-        Gov.uk - Health and Safety at Work: https://www.gov.uk/browse/employing-people/health-safety
-        ACAS - Working Time Directive and Regulations (1998): http://www.acas.org.uk/index.aspx?articleid=1373 
-        ICO - General Data Protection Regulation (GDPR): https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
-  -
-    title: Health and Safety - Staying safe at work
+    title: Reveal
+    theme: t-bg-supporting2
     copy: |
-      All employers and employees have a legal duty to ensure that working environments are safe and secure.
+      text
 
-      One of the most important pieces of legislation is the **Health and Safety at Work Act 1974**. Most other health and safety regulations are based on this Act or are linked to it in some way.
+      Select the images below to read 
 
-      The Health and Safety at Work Act states that everyone has a responsibility for health and safety in the workplace. Under this Act, employers must ensure the health, safety and welfare of their employees (and any other people who may be affected by the work they do).
-
-      See below to learn more.
     subInc: 
-      type: accordion
+      type: reveal
       content:
         -
-          title: All about Health and Safety
+          title: individual
           copy: |
-            The Health and Safety at Work etc Act 1974 is the main piece of legislation concerning health and safety for employers, employees and contractors in the UK.
+            text
+          img: placeholder_icon.svg
+        -
+          title: business
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: nations
+          copy: |
+            text
+          img: placeholder_icon.svg
+            
+  -
+    title: Common Cyber Crime Vulnerabilities.
+    theme: t-bg-supporting2
+    copy: |
+      'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
+       Cyber criminals seek to exploit human and security vulnerabilities in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks. There has been a significant growth in cyber criminality over the last few years especially with ransomware. Breaches of personal data leaves victims vulnerable to fraud and put lives at risk. 
 
-            Employers have a legal duty under this Act to ensure, so far as is reasonably practicable, the health, safety and welfare at work of the people for whom they are responsible and the people who may be affected by the work they do.
+  -
+    title: Vulnerabilities.
+    theme: t-bg-primary
+    copy: |
+      Business is the main target although phishing attacks on individuals are increasing, however more people are becoming aware of the threat. On a global scale governments and nations are also at high risk of falling victim to cyber crime in one way or another and this affects everyone. Let's look at the cyber crime vulnerabilities of individuals, businesses and nations in a little more detail ...
 
-            The legislation states that risks should be reduced "so far as is reasonably practicable". This term means that the person responsible for ensuring the health and safety of others must weigh up the risk of a health and safety incident occurring with the cost of trying to prevent it.
-          img: /images/svg/ba/ba_u1_s2_p1_slider_1.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
         -
-          title: Employers
-          copy: |
-            Employers must safeguard, so far as is reasonably practicable, the health, safety and welfare at work of all the people who work for them and “other persons”. This applies in particular to the provision and maintenance of safe plant machinery, equipment and systems of work, and covers all machinery and equipment used at work. Other persons can refer to contractors and even customers. 
-          img: /images/svg/ba/ba_u1_s2_p1_slider_2.svg
+          title: Individual
+          text: |
+            Cybercrime is a violation of an individual's privacy and their data security. They can be at risk of hacking, malware, identity theft, financial fraud, medical fraud, as well as interpersonal cybercrime such as cyber bullying. Data is considered a commodity and is a primary target of cybercriminals. It can be accessed illicitly if not adequately protected by internet security systems or given away to scammers unwittingly by individuals clicking onto bogus links and it can be used to commit further cybercrimes.
+          img: placeholder_icon.svg
         -
-          title: Employees
-          copy: |            	
-            People at work also have a duty under the Act to take reasonable care to avoid harm to themselves or to others by their working practices, and to co-operate with employers and others in meeting statutory requirements. The Act also requires employees not to interfere with or misuse anything provided to protect their health, safety or welfare in compliance with the Act.
-                    
-            At the heart of this legislation is the recognition that everyone has a responsibility for health and safety in the workplace.
-          img: /images/svg/ba/ba_u1_s2_p1_slider_3.svg
+          title: Business
+          text: |
+            Businesses are at risk from Viruses, DDoS, Malware, ransomware, remote administration malware or spyware. The attack type will often depends on the type of business and the technology they use. It will also be dependent on what information the hacker wants to extract or attack. Cyber attacks can be as we have already discussed by external or insider threats. Remote administration malware enables hackers to access business data and login credentials allowing them to create a social engineering attack which in turn can be used to exploit human vulnerabilities. Social engineering covers a broad range of malicious cyber crimes manipulating users into making security mistakes or giving away sensitive information or granting access to resources. Hackers can inject malicious code into a website to gain access to information and login details through keyloggers and  hacking a database of passwords.
+            There has been a significant growth in high-profile ransomware campaigns. Ransomware involves paying a hefty fee for releasing their data, however this does not always happen even when the fee has been paid.     
+          img: placeholder_icon.svg
         -
-          title: Did you know?
-          copy: |
-            According to the Health and Safety Executive (HSE) 
-            28.5 million days overall were taken as sick leave. That's 1.2 days per worker. 
-            Back injuries and conditions affecting the muscles are common in the workforce. 
-            Over 10,000 workers a year suffer injuries because of slips, trips or falls.
-          img: /images/svg/ba/ba_u1_s2_p1_slider_4.svg
+          title: Nation
+          text: |
+            It's common now to hear on the news about cyber attacks from foreign governments like North Korea, Russia and China, but threats don't only come from recognised countries.
+            Cyber attacks at international and national state level can involve major organisations, national infrastructure, political parties, military and governments. The vulnerabilities for nations are often the same and under the same threats as businesses, but these can take on much greater significance as they can create consequences for everyone. The threats from nation states and criminal groups are starting to become blurred as some nation states use the 'facilities' provided by criminal groups for their own 'state run' attacks. Many Russian-speaking cyber groups are threatening UK interests, but home-grown cyber criminals are also becoming more sophisticated and offering their services to others. The increasing ability for purchasing 'cyber tools' has enabled emerging threats to become established quickly. Cyber security attacks have become the new weapon of choice for many nation states in the effort to de-stabilise their opponents. Attacks and threats may be of a political nature trying to skew the outcomes of elections, financial gain, digital surveillance to taking over of military capabilities and rendering nations helpless in the face of the threat.
+
+          img: placeholder_icon.svg
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### 'WannaCry' ransomware campaign
+
+      “Breaches leak personal data on a massive scale and can leave victims vulnerable to fraud, while lives were put at risk and services damaged by the 'WannaCry' ransomware campaign that affected the NHS and many other organisations worldwide.”
+ 
+      “Prominent among the victims was the National Health Service (NHS); over a third of England’s NHS trusts were disrupted, with over 6,900 NHS appointments cancelled and some patients needing to travel farther for accident and emergency care.    Most of the NHS victims used systems for which patches were available but had not been applied, highlighting the importance of basic security practices.”
+
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -

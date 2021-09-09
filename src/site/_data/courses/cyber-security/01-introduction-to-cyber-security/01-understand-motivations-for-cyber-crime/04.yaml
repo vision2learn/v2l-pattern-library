@@ -10,7 +10,7 @@ sections:
     title: Threat types
     theme: t-bg-grey
     copy: |
-      There are two main types of threat. see below for information on these.
+      Within companies and organisations, the risk of threats not only come from external sources they can also be from internal sources. This means that companies and organisations need to be aware of security issues both externally and internally. So let's have a look at the differences between an external and an insider threat and what the potential consequences are.
 
     subInc: 
       type: accordion
@@ -18,31 +18,78 @@ sections:
         - 
           title: Internal
           copy: |
-            An insider threat to cyber security is when someone who works inside an organisation uses thier access privileges to steal information or damage IT systems. There are two main types of insider threat: malicious, and unintentional. Surprisingly, unintentional insider threats are the more common of the two.
+            Insider threats are usually caused by individuals who may be current or former employees, contractors or affiliates who have or have had, legitimate access to the organisation's network and systems. The threat may involve deliberate leakage of data for personal gain or to maliciously damage an organisation's cybersecurity infrastructure. However, this may also be unintentional damage or accidental leakage due to incompetent behaviour. An internal threat can therefore be equally costly to a company or organisation as the data is often more readily accessible. It is important that companies have stringent security protocols in place and that all employees understand the significance of sticking to this.
         - 
           title: External
           copy: |
-            An external threat to cyber security is when a someone from outside an organisation attempt to gain access by exploiting system vulnerabilities.
+            External threats involve someone from outside the company who attempts to exploit vulnerabilities in the computer systems by the use of ransomware, malware or hacking. Organisations need to invest in suitable, up-to-date, fit for purpose security software to prevent external cybersecurity risks no matter what form they are in. Companies should regularly review this and work with cybersecurity firms to make sure they are fully covered for the field that they are in and for any current threats.
   -
-    title: Motivation for threats
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Motivation for threats
+      Malicious 'threat actors' are continuously looking for ways to infiltrate an organisations network externally or by using internal threats. This may sometimes be by attacking home workers or users via a phishing message, text or by using cleverly worded emails. This can then make others become the 'threat actor' unintentionally. This means that everyone should be aware of the importance of safeguarding their data and protecting their devices.
+      In order to manage cyber risk, regardless of its source, we need to fully understand the range of motivations behind possible attacks
+
+      Let's have a look at some possible motives that could lead to external and insider threats.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -
+    title: What is meant by targeted and untargeted attacks?
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about the possible motivation for both internal and external threats. 
+      Scroll through the slides below to learn more about the meaning of targeted and untargeted attacks. 
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Internal threats
+          title: targeted attacks
           text: |
-            There are three main motivaters for this type of threat, emotion based, financially based and politically based. Emotional factors can be the result of employees becoming angry, bored or frustrated as the result of an incident involving thier organisation such as lack of promotion or possible disciplinary action against them. Financially based threats can be the result of an employee experiencing financial hardship or see that there is an opportunity to exploit their position for financial gain. Politically based threats are less likely than the other two but can occur due to state and corporate espoinage or idealogy. 
+            A term we hear most commonly used these days within the media, when focussing on cyber crime is 'a targeted attack' A targeted attack is a type of threat that involves 'threat actors' actively pursuing and compromising a company or an organisation's infrastructure whilst maintaining anonymity.This type of threat is well organised and involves a high level of expertise often taking place over a long time and not obvious initially. It may target individuals as well as the company they work for and involve launching effective ransomware which can eventually cripple a company. 
           img: cs_u1_s1_p4_image_1.svg
         -
-          title: External threats
+          title: untargeted attacks
           text: |
-            Cybercriminals’ motivations are wide-ranging, and it depends on the crime being looked at. For instance, all cybercrimes linked to ransomware, phishing, online financial crimes, online fraud, password cracking, malware, hacking, sextortion are mainly motivated by financial gain but for some of them motivation can be due to pranks, activism, cyber theft, espionage (e.g. malware). 
+            Another term commonly used is an 'un-targeted attack' which is not tailored to it's victim. It is by it's nature indiscriminate and targets many different individual devices and systems that have vulnerabilities.This may involve 'phishing' and sending emails and texts to large numbers of people asking for sensitive information such as bank details or asking them to click on a link to log on to a fake website.  We have all become unfortunately used to getting scam emails and texts. The scammer may have obtained the emails from different sources and may not have anymore information so often it may not be relevant to the recipient. However, they hope that some people will fall for it. Setting up fake websites or compromising legitimate website can also be done to exploit random visitors to the site. 
           img: cs_u1_s1_p4_image_2.svg
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -54,43 +101,6 @@ sections:
         Cyber security for business: https://www.nibusinessinfo.co.uk/content/reasons-behind-cyber-attacks
         What drives cyber attacks: https://www.itproportal.com/features/what-drives-cyberattackers-how-to-best-understand-motives-and-apply-controls/
   -
-  -
-    title: Targeted and untargeted attacks
-    theme: t-bg-supporting3
-    copy: |
-      There are two distinct types of attacks carried out by cyber criminals see below to learn more about these.
-
-      See below to learn more about 
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Un-targeted cyber attacks
-          copy: |
-            This type of attack is indiscriminate and targets as many different services, devices or users as possible. They will use a range of different tools and techniques such as;
-
-            **Phishing** - sending emails to people which are designed to encourage people to divulge sensitive information (such as bank details) or containing links which, when clicked will take them to a fake website or install malware or ransomware onto their computer
-
-            **Water holing** - this involves setting up a fake website or compromising a genuine site in order to exploit visitors
-
-            **Scanning** - this involves the use of specialist software and scanning large volumes of websites and networks at random to identify vulnerabilities
-        - 
-          title: Targeted cyber attacks
-          copy: |
-            In targeted cyber-attacks, organisations or individuals are singled out by attackers as they have a specific interest in the organisation or individual, they are attacking. Targeted cyber-attacks are generally more damaging as time has been taken to plan the type of attack, or attacks, that will be made. Some examples of targeted attacks are,
-
-            **Spear-phishing** - sending emails to targeted individuals that could contain an attachment with malicious software, or a link that downloads malicious software
-
-            **Deploying a botnet** - to deliver a DDOS (Distributed Denial of Service) attack
-
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Title
-      Please see the following video for 
-    video: placeholder_pc.mp4
   -
     title: Time to think
     include: 
