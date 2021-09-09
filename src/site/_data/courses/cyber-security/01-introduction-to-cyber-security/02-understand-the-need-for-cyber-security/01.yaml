@@ -15,6 +15,33 @@ sections:
       4. Why cyber security issues should be reported promptly
 
   -
+    title: Reveal
+    theme: t-bg-supporting2
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: individual
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: business
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: nations
+          copy: |
+            text
+          img: placeholder_icon.svg
+            
+  -
     title: Common Cyber Crime Vulnerabilities.
     theme: t-bg-supporting2
     copy: |
