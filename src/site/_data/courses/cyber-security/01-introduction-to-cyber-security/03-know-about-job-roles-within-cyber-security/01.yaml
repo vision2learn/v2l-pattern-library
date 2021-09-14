@@ -42,4 +42,24 @@ sections:
         Government Communications Headquarters (GCHQ): https://www.gchq.gov.uk
         Information Commissioners Office (ICO): https://ico.org.uk    
         UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk   
-  -  
+  -
+    title: Quick quiz
+    mode: multi-choice
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Select multiple options :"sentence":
+          answers:
+            one: false
+            twp: true
+            three: true
+            fourth option: false
+        feedback: text
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  - 
