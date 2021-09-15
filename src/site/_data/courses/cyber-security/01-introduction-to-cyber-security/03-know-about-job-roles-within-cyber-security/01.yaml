@@ -42,4 +42,72 @@ sections:
         Government Communications Headquarters (GCHQ): https://www.gchq.gov.uk
         Information Commissioners Office (ICO): https://ico.org.uk    
         UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk   
-  -  
+  -
+    title: General Job Functions carried out by cyber security professionals.
+    theme: t-bg-primary
+    copy: |
+      Cyber security is one of the most important roles in the fast growing technology industries. As cyber criminals and hackers become more sophisticated and ruthless, the need for equally talented cyber security specialists is increasing and specialists in cyber security are very sought after. The cyber security profession can be entered at school leaver level as well as at graduate level. Graduates will probably have a degree related to computer science or a STEM subject ( Science, Technology, Engineering or Mathematics). Some employers also run apprenticeships in cyber security so school leavers can work and train at the same time.
+      Cybersecurity professionals are responsible for protecting IT infrastructure, networks, and data and are often responsible for preventing data breaches and monitoring and reacting to attacks.
+  -
+    title: Job functions
+    theme: t-bg-supporting2
+    copy: |
+      Let's look at some of the job functions a cyber security professional will carry out:
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            Working to build in security at the development stages of software and hardware systems networks and data banks.
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            Setting up and implementing user access controls, and identity and access management systems.
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            Looking for vulnerabilities and assessing risks in hardware and software systems.
+          img: placeholder_icon.svg
+        -
+          title: d
+          copy: |
+            Building firewalls into network infrastructures and monitoring for attacks and intrusions.
+          img: placeholder_icon.svg
+        -
+          title: e
+          copy: |
+            Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
+          img: placeholder_icon.svg
+        -
+          title: f
+          copy: |
+            Monitoring network and application performance to identify irregular activities or attempted breaches.
+          img: placeholder_icon.svg
+        -
+          title: h
+          copy: |
+            Performing regular audits of systems to ensure that security practices are compliant.
+          img: placeholder_icon.svg
+        -
+          title: i
+          copy: |
+            Identifying any threat actors and liaising with the police and cyber crime units where necessary.
+          img: placeholder_icon.svg  
+        -
+          title: j
+          copy: |
+            Work with IT departments to set up disaster recovery plans and HR teams to educate employees on how to identify suspicious activity.
+          img: placeholder_icon.svg  
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  - 
