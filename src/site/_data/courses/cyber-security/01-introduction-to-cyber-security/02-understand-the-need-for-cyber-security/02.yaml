@@ -20,7 +20,17 @@ sections:
       ### Title
       Please see the following video for 
     video: placeholder_pc.mp4
-  -      
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        To find out more about some examples of high profile attacks click on the links below. 
+      links:
+        Sony pictures interview hack: https://en.wikipedia.org/wiki/Sony_Pictures_hack
+        Microsoft Exchange breach: https://en.wikipedia.org/wiki/2021_Microsoft_Exchange_Server_data_breach 
+  -           
     title: Quick quiz
     subInc: 
       type: word-quiz
