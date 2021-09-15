@@ -1,13 +1,13 @@
-title: TEMPLATE PAGE
+title: The Planning Stage
 intro: |
-  intro text
+  intro text - need further information for LO 3.3
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe the importance of the planning stage.
   -
     title: introduction text
     layout: media
@@ -92,17 +92,6 @@ sections:
         _LO or exercise - must relate to the video._
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -114,15 +103,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
     title: Quick quiz
     subInc: 
