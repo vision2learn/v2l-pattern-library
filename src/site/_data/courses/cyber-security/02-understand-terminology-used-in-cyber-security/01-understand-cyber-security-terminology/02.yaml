@@ -1,16 +1,29 @@
-title: "Your learning goals"
+title: "Areas affected by cyber attacks"
 intro: | 
-  Work hard throughout your course and be honest about the effort you put into each session. 
+  On this page you will learn about the following areas in relation to cyber security. 
+  * hardware 
+  * software 
+  * data management 
+  * networking 
 
-  Focus on your learning goals and you may be surprised by how much you can achieve.
-banner: cs_goals_header.svg
+banner: cs_u1_s1_p3_cyber.jpg
 sections: 
   -
-    title: goal setting
-    theme: t-bg-supporting2
-    copy: | 
-      It is important to set yourself achievable targets and specific deadlines. These will keep you focused and increase your chance of overall success. Writing down your goals often gives you greater motivation to achieve them.
-
-      ### Your motivation map
-
-      A Motivation Map has three parts. [Download your own motivation map](/documents/motivation-map-blank.doc) and work your way through the steps below.
+    title: Targets
+    theme: t-bg-supporting3
+    copy: |
+      Cyber security is the practice of protecting computer system hardware, networks, software programmes and data from cyber attacks. Cyber attacks are offensive manoeuvres targeting  computer networks or information systems. Cyber security software is a must for all individuals and businesses to protect their network, system or applications from cyber attacks and this needs to be regularly maintained to stop threats like ransomware, malware, social engineering and phishing.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Hardware and software
+      Let's look at the different areas that may be affected by a cyber attack. 
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
