@@ -21,18 +21,19 @@ sections:
         -
           title: Skills
           text: |
-            Project management skills include being organised, having the ability to stay cool under pressure,  being adaptable, able to solve problems and being able to communicate well to others or those in their team. These are all skills that should also be inherent in a coding professional as they directly link to their work role as we have already discussed.
+            Project management skills include being organised, having the ability to stay cool under pressure, being adaptable, able to solve problems and being able to communicate well to others or those in their team. These are all skills that should also be inherent in a coding professional as they directly link to their work role as we have already discussed.
       
             Many of the skills in coding transfer across to project management and visa versa.
             
-            Most coding and programming professionals will have knowledge of project management as they  are accustomed to working with digital tools, clients, teams and competing deadlines.
+            Most coding and programming professionals will have knowledge of project management as they are accustomed to working with digital tools, clients, teams and competing deadlines.
           img: placeholder_icon.svg
         -
           title: Processess
           text: |
             Many organisational and workflow methodologies of project management also follow the process of software development.
       
-            Whether working on the development of a new app or creating a new operating system the same steps will be followed. 
+            Whether working on the development of a new app or creating a new operating system the same steps will be followed.
+
             PRODUCE. TEST. OPTIMISE. REPEAT.  
             
             Programmers will be fully aware and used to this process and this includes to imagining and designing a website where the same kinds of production cycles will be used.
@@ -94,9 +95,6 @@ sections:
         -
           sentence: Developer roles include Full Stack, Back End, and Front End.  They specialise in different areas of programming and create the environments that make programs and websites possible.
           answer: Developer
-        -
-          sentence: Quality roles are....
-          answer: Quality
         -
           sentence: Testers are responsible for conducting manual tests doing system verification. 
           answer: Testers

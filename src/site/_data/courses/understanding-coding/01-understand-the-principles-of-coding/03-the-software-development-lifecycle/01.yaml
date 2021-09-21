@@ -20,51 +20,25 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to identify the key stages of the software development lifecycle.
+      In your assessment you will be required to identify the key stages of the software development lifecycle (SDLC).
   -
   -
     title: Interactivity - The software development lifecycle
     theme: 
     
     copy: |
-      The software development cycle also known as the software development lifecycle process, is the different stages of software development practiced in software development companies. It can be used to improve workflow and remove typical pitfalls and guide the team developing the software whilst taking into consideration timing and costs. Some companies may use different terminology but essentially it is the same process and every project will go through it.
+      The software development cycle (SDLC) also known as the software development lifecycle process, is the different stages of software development practiced in software development companies. It can be used to improve workflow and remove typical pitfalls and guide the team developing the software whilst taking into consideration timing and costs. Some companies may use different terminology but essentially it is the same process and every project will go through it.
 
       Let's look at the different stages involved in the following activity.
 
 
       _Interactivity will show in a space below_
-      .___________________________________________________________________________________.
-      .
-      .
-      .
-      .
-      .
-      .
-      .
-      .___________________________________________________________________________________.
 
 
     interactive: 
-      file: ba/ba_u2_s3_p2_tidy_equipment
-      width: 800
-      height: 800       
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style - Narrator with infographics (same/similar to above interactivity) for each stage._
-      
-      So let's review these stages and look at their importance in more detail in the following video.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+      file: 
+      width: 1000
+      height: 640       
   -
   -
     title: On the web
@@ -72,32 +46,9 @@ sections:
     include:
       type: on-the-web
       copy: |        
-        Please see the following website where you can learn more information on UAT:
+        Please see the following website where you can learn more information on the SDLC:
 
       links: 
-        What is user acceptance testing: https://www.softwaretestinghelp.com/what-is-user-acceptance-testing-uat/
+        SDLC tutorial: https://www.tutorialspoint.com/sdlc/index.htm
   -
-    title: Quick quiz
-    copy: Identify the different software development lifecycle stages in the following quiz.
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: The initial stages of requirement gather and analysis are the key planning stages where the requirements need to be fully understood so as to know what the clients requirements are. 
-          answer: planning stages
-        -
-          sentence: The next design stage involves designing the system architecture that will be used for implementing the system development. 
-          answer: design stage
-        -
-          sentence: The implementation stage is when the developers will start coding carefully following any software requirements and specifications.
-          answer: implementation stage
-        -
-          sentence: The testing phase always starts when the coding is completed and the product modules are released.
-          answer: testing stage
-        -
-          sentence: The deployment stage happens once the testing is over and the software demonstrated to be 'working'. 
-          answer: deployment stage
-        -
-          sentence: The maintenance stage is an ongoing process once the project is 'live'.
-          answer: maintenance stage
-    theme: i-quiz
+  

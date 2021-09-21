@@ -44,7 +44,13 @@ sections:
         - 
           title: Syntax examples
           copy: |
-            _text and examples here_
+            Some syntax examples:
+            
+            *	Whether an indent is required to define blocks (Python)
+            *	What characters can, cannot, or must appear in variable names (e.g. variable names cannot start with numbers in C)
+            *	Opening and closing tags e.g. PHP: ```<?php and ?>
+            *	End of statement characters e.g. C#: ```;
+
           img: /images/svg/placeholder_icon.svg     
   -
   -

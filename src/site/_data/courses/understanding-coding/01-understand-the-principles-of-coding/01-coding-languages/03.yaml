@@ -57,13 +57,19 @@ sections:
             
             Coding language is constantly changing, developing, and updating. 
             
-            Coding language can be simple and low level as well as more complex and high level and varies accordingly to how it is being used.
+            Coding languages can be high- or low-level. High-level languages are easier for humans to understand and can run on most machines. In contrast, low-level languages are more difficult for humans understand and are more machine-specific as they control the hardware directly. 
 
           img: placeholder_icon.svg
         -
           title: Different types of coding languages
           text: |
-            _PLACEHOLDER - differentiate between mark-up language like html and programming language like JavaScript._
+            Mark-up languages: In the example of a webpage, these would specify the content, and the visual settings. Most commonly used are HTML and CSS.
+
+            * HTML – contains blocks of text and identifies what they are (e.g. headers/body text)
+            * CSS – specifies the visual parameters for the HTML content (e.g. size, shape, position)
+
+            Programming languages: For example JavaScript – mediates user interactions (e.g. what happens when you click on something/access to backend software)
+
           img: placeholder_icon.svg
   -
   -
