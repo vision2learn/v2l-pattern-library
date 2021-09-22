@@ -1,6 +1,6 @@
-title: "Understand the need for cyber security"
+title: "Understand current and emerging challenges in cyber security"
 intro: |
-  In this session, you will learn about the need for cyber security and the impact of cyber crime:
+  In this session you will learn about the current and emerging challenges that are faced in cyber security:
 banner: ba_u1_s2_p1_hss.jpg
 sections:
   -
@@ -9,8 +9,56 @@ sections:
     copy: |
       By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
     
-      1. Understand the most common vulnerabilities of cyber crine
-      2. understand the impact of cyber crime
-      3. The importance of cyber security
-      4. Understand why cyber security issues should be reported promptly
+      1. Give examples of current and emerging challenges in cyber security.
+    
   -
+    title: Challenges
+    theme: t-bg-supporting3
+    copy: |
+      When we thing of cyber security we think of 'Dark Web' based hackers and criminals infiltrating systems of businesses and organisations, holding them to ransom for financial gain. We may also consider having our own personal data compromised and our identities stolen and the ways it affects us individually. But there are so many more emerging challenges in cyber security that we face today and many of those affect us directly.
+      
+      Let's have a look at some of the different areas that we need to be aware of. ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Internet of Things
+          text: |
+            The Internet of Things (IOT) refers to a system of interrelated and connected objects that can collect data and transfer it wirelessly without human intervention. Things can be medical devices, solar panels, vehicle sensors, or anything that has the ability to gather and transfer data like that fancy smart fridge that organises your shopping.
+          img: placeholder_icon.svg
+        -
+          title: Dark Web
+          text: |
+            The Dark Web is the hidden part of the worldwide web which the general internet users will not gain access to. It is not indexed by popular browsers and is seen as the dangerous part of the internet where shady and illegal things happen. It is also a place that journalists and whistleblowers go to share their stories.
+          img: placeholder_icon.svg
+        -
+          title: Cloud Services
+          text: |
+            Cloud services are infrastructure and software that is hosted by a third party provider and are available through the internet. Cloud services facilitate the flow of data from a user's device via the internet or VPN to their systems and back. This may be used for storage or security purposes as well as other cloud applications such as creative, educational, financial and business services. Users can keep all their data secure and accessible using cloud services and don't need to invest in as much technical infrastructure and software that has to be updated. Cloud services are also available 24/7.
+          img: placeholder_icon.svg
+        -
+          title: Deepfakes
+          text: |
+            Deep fakes are fake videos created using deep learning technology a type of machine learning to create a digital version of someone. It can map a persons face and mouth movements and can then make the same anything. The technology was devised for the creative sectors but the worry is it being used for nefarious ends.
+          img: placeholder_icon.svg
+        -
+          title: Fake news
+          text: |
+            Fake news and false information is readily available on the internet. Traditionally news came from trusted media sources that followed strict codes of practise. Nowadays people get their news from social media sites and networks, where the lack of regulation makes it difficult to decipher what is real and what is fake. This can include clickbait, propaganda, satire and parody, biased news, misleading headings and sloppy journalism.
+          img: placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Challenges
+      Let's look at these in more detail and consider how it affects us all. 
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: relate to content on pa
+    theme: t-bg-primary3 i-think

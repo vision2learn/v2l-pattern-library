@@ -1,95 +1,26 @@
-title: "Types of threat and attacks"
+title: "Cyber security terminology and strategies"
 intro: |
   On this page you will learn about:
-  * what is meant by internal and external threats
-  * the possible motivations that could lead to external and insider threats
-  * what is meant by ‘targeted’ and ‘untargeted’ attacks
+  * the main terminology used in cyber security
+  * organisational cyber security strategies
 banner: cs_u1_s1_p4_threats.jpg
 sections:
   -
-    title: Threat types
-    theme: t-bg-grey
-    copy: |
-      There are two main types of threat. see below for information on these.
-
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Internal
-          copy: |
-            An insider threat to cyber security is when someone who works inside an organisation uses thier access privileges to steal information or damage IT systems. There are two main types of insider threat: malicious, and unintentional. Surprisingly, unintentional insider threats are the more common of the two.
-        - 
-          title: External
-          copy: |
-            An external threat to cyber security is when a someone from outside an organisation attempt to gain access by exploiting system vulnerabilities.
-  -
-    title: Motivation for threats
+    title: Terminology
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about the possible motivation for both internal and external threats. 
+      
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Internal threats
-          text: |
-            There are three main motivaters for this type of threat, emotion based, financially based and politically based. Emotional factors can be the result of employees becoming angry, bored or frustrated as the result of an incident involving thier organisation such as lack of promotion or possible disciplinary action against them. Financially based threats can be the result of an employee experiencing financial hardship or see that there is an opportunity to exploit their position for financial gain. Politically based threats are less likely than the other two but can occur due to state and corporate espoinage or idealogy. 
-          img: cs_u1_s1_p4_image_1.svg
-        -
-          title: External threats
-          text: |
-            Cybercriminals’ motivations are wide-ranging, and it depends on the crime being looked at. For instance, all cybercrimes linked to ransomware, phishing, online financial crimes, online fraud, password cracking, malware, hacking, sextortion are mainly motivated by financial gain but for some of them motivation can be due to pranks, activism, cyber theft, espionage (e.g. malware). 
-          img: cs_u1_s1_p4_image_2.svg
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        to find out more about the specific types of attacks take a little time to look through the links below. 
-      links:
-        Cyber security for business: https://www.nibusinessinfo.co.uk/content/reasons-behind-cyber-attacks
-        What drives cyber attacks: https://www.itproportal.com/features/what-drives-cyberattackers-how-to-best-understand-motives-and-apply-controls/
-  -
-  -
-    title: Targeted and untargeted attacks
-    theme: t-bg-supporting3
-    copy: |
-      There are two distinct types of attacks carried out by cyber criminals see below to learn more about these.
+      When talking about cyber security you will hear quite a lot of terms used. lets have a look at these in more detail.
 
-      See below to learn more about 
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Un-targeted cyber attacks
-          copy: |
-            This type of attack is indiscriminate and targets as many different services, devices or users as possible. They will use a range of different tools and techniques such as;
-
-            **Phishing** - sending emails to people which are designed to encourage people to divulge sensitive information (such as bank details) or containing links which, when clicked will take them to a fake website or install malware or ransomware onto their computer
-
-            **Water holing** - this involves setting up a fake website or compromising a genuine site in order to exploit visitors
-
-            **Scanning** - this involves the use of specialist software and scanning large volumes of websites and networks at random to identify vulnerabilities
-        - 
-          title: Targeted cyber attacks
-          copy: |
-            In targeted cyber-attacks, organisations or individuals are singled out by attackers as they have a specific interest in the organisation or individual, they are attacking. Targeted cyber-attacks are generally more damaging as time has been taken to plan the type of attack, or attacks, that will be made. Some examples of targeted attacks are,
-
-            **Spear-phishing** - sending emails to targeted individuals that could contain an attachment with malicious software, or a link that downloads malicious software
-
-            **Deploying a botnet** - to deliver a DDOS (Distributed Denial of Service) attack
 
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Terminology
+       
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -98,3 +29,36 @@ sections:
       copy: content to relate to video
     theme: t-bg-primary3 i-think
 
+  -
+    title: Organisational strategies.
+    theme: t-bg-primary
+    copy: |
+      Most large companies and organisations have a cyber security strategy which involves planning on how they will secure their assets going forward. One way of doing this is setting up a security operations centre and organising their network operations into a centralised set up so that all organisational facilities are maintained centrally and are monitored 24/7 throughout the year.
+
+      scroll through the slides below to learn more about these strategies. 
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Security Operations Centre (SOC)
+          text: |
+            The function of a SOC is to monitor, assess and defend against cyberattacks 24/7.  The size of a SOC team may be different depending on the size and nature of an organisation but the roles and responsibilities are the same. SOC's are centralised within an organisation or company and continuously monitor and improve their cyber security by preventing, detecting, analysing and responding to incidents. The SOC team can detect malicious activities and prevent them before they can cause any damage.
+          img: cs_u1_s1_p3_image_2.svg
+        -
+          title:  SOC analysts role
+          text: |
+            The stages they work through are prevention and detection, investigation and response.
+            A SOC analyst may see something suspicious and gather the information for a deeper investigation. Through investigation analysis the nature of the threat and the extent to which it has penetrated the system. They will approach their network from the perspective of the attacker and look for key indicators and areas of exposure. By looking at this and the latest global threat intelligence they will triage the attacks and coordinate a response before they get out of hand. The SOC is the first responder and will perform actions such as isolating endpoints and terminating harmful processes that may delete files etc. They then work to restore the systems by reconfiguring or deploying back ups to circumvent any ransomware.
+            SOC teams must always be one step ahead of the hackers, however this is becoming more difficult as the attacks become more sophisticated.
+
+          img: cs_u1_s1_p3_image_1.svg
+        -
+          title: Network Operations Centres (NOC)
+          text: |
+             A NOC is usually based at a centralised location where network operation staff provide 24/7 supervision, monitoring and management of the network, servers, databases, firewall, devices and related external services. This may be physically on the premises and or with a cloud based provider. Staff involved in this area are called network operations analysts or engineers.
+             One of the main activities is Network monitoring which involves incident response, communications management, performance and quality reporting, software and firmware installation and trouble shooting, patch management and firewall management, back up and storage.
+             They will also work in collaboration with Security operations with regards to Intrusion Prevention Systems (IPS) threat analysis and blast radius analysis.
+          img: cs_u1_s1_p3_image_2.svg
+  -
+    
