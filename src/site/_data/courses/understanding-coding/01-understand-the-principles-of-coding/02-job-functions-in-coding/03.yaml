@@ -1,6 +1,6 @@
 title: Career progression
 intro: |
-  intro text
+  On this page we will take a look at careers and career progression in coding and programming.
 banner: placeholder.jpg
 sections:
   -
@@ -39,14 +39,14 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Now you have seen the video, note down the different careers that are available in coding and programming and have a think about which ones would appeal to you.
   -
   -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      _Be good to have a real example of a coding role - we could have this instead of interview video?_
+      _Example of a particular coding role - how they got to that role, why they chose that role, likes/dislikes, and a typical day_
       
       ### Case study - 
 
@@ -54,26 +54,23 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
     title: Quick quiz
-    copy: Different coding roles
+    copy: See if you can identify the different coding roles in the following questions.
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: Systems engineers
-          answer: Systems engineers
+          sentence: Front end developers combine technology and design to create inviting, easy-to-use websites.
+          answer: Front end developers
         -
-          sentence: Game developers
+          sentence: Game developers turns ideas into code and is involved in coding, programming, audio, design, production and visual arts.
           answer: Game developers
         -
-          sentence: AI programmers
+          sentence: AI programmers helps develop operating software that can be used for robots and artificial intelligence applications.
           answer: AI programmers
         -
-          sentence: front end developers
-          answer: front end developers
+          sentence: Back end developers are the programmers focused mainly on developing logic and data layers, they deal with databases and/or storage solutions that connect to the functionality of the front end.
+          answer: Back end developers
         -
-          sentence: back end developers 
-          answer: back end developers
-        -
-          sentence: mobile app developers
-          answer: mobile app developers
+          sentence: Mobile app developers uses programming languages and development skills to create, test, and develop applications on hand-held devices.
+          answer: Mobile app developers
     theme: i-quiz

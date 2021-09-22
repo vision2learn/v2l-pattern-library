@@ -1,6 +1,6 @@
 title: The coding team
 intro: |
-  intro text
+  On this page you will learn about project management skills, the different roles within a coding team, and why team working is important.
 banner: placeholder.jpg
 sections:
   -
@@ -78,17 +78,20 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Now you have watched the video, have a think about the roles and why team working is important in coding and make some notes - this will help you for when you come to do your assessment.
   -
   -
     title: Quick quiz
-    copy: See if you can dentify some of the Software development team / coding team roles in the following questions.
+    copy: See if you can identify some of the Software development team / coding team roles in the following questions.
     subInc: 
       type: word-quiz
       content:
         -
           sentence: The Project Manager is responsible for budgets, risk, scheduling and contract management. 
           answer: Project Manager
+        -
+          sentence: UI and UX Designers are responsible for preparing designing the user interface, and for the users experience analysing user behaviour.
+          answer: UI and UX Designers
         -
           sentence: The Product Owner is more or less analysts and concentrate on a product and it's features.
           answer: Product Owner
@@ -98,7 +101,5 @@ sections:
         -
           sentence: Testers are responsible for conducting manual tests doing system verification. 
           answer: Testers
-        -
-          sentence: UI and UX Designers are responsible for preparing designing the user interface, and for the users experience analysing user behaviour.
-          answer: UI and UX Designers
+        
     theme: i-quiz

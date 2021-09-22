@@ -1,0 +1,118 @@
+title: Understand basic computer terminology
+intro: |
+  In this session you will learn about basic computer terminology, data, the use of data types in coding and how data can be stored.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to define what is meant by Central Processing Unit (CPU).
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      ### What is meant by Central Processing Unit (CPU)
+
+      Please see the following video which explains the Central Processing Unit (CPU).
+    video: placeholder_pc.mp4
+  -
+  -
+    title: CPU diagram
+    theme: 
+    copy: |
+      Take a look at the following simple diagram of a CPU.
+            
+      ![](/images/svg/banners/placeholder.jpg) 
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the function of Random-Access Memory (RAM).
+  -
+  -
+    title: The function of Random-Access Memory (RAM) PLACEHOLDER
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      RAM stands for random access memory which is short term memory where data is stored for use as the processor needs it. It is working memory that is used as it is needed to perform a task and is lost when a computer is turned off. This is not the same as long term memory which can be stored permanently on a hard drive and then deleted by a user or software when no longer required. 
+      
+      RAM is one of the most important components in determining a systems performance and gives applications a place to store and access data on a short term basis. The more programs a system runs the more RAM a system will need or it will become slow and sluggish.
+      
+      So what exactly does RAM do? It allows a computer to perform many of its everyday tasks such as loading applications, browsing the internet, editing a spreadsheet or playing a game. It also allows the user to swap between tasks remembering where they are at the time when they switch to another. Memory is always being used by a computer.
+
+      RAM essentially provides a place where data can be stored/exchanged whilst it is being used by a program or process, then emptied when this has finished. This allows operations to be completed without trying to accomplish this on the hard disk, where it might cause data loss and therefore loss of function
+      
+      Coders need systems with enough RAM that allows them to operate whilst programming. It is not always the coding that uses up the RAM it is the other programs working in the background. Some coding languages will also use more RAM than others.
+
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
