@@ -4,3 +4,20 @@ intro:  |
 banner: ba_u1_s2_p3_procedures.jpg
 sections:
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Protecting stored data
+      Stored Data needs to be protected from not only the hackers but also should be kept safe in case the computer system is lost or suffers damage. Fireproof and waterproof cabinets can help to protect computer equipment and physical storage devices.
+      
+      Let's look at some different ways in which data can be stored and protected.
+
+    video: placeholder_pc.mp4
+
+    
