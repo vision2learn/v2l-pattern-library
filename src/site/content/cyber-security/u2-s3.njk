@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 3,
+  pagination: {
+    data: "courses['cyber-security']['02-understand-terminology-used-in-cyber-security']['03-understand-what-is-meant-by-social-engineering']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

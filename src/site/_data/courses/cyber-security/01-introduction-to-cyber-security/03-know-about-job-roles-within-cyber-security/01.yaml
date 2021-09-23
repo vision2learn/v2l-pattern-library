@@ -50,60 +50,44 @@ sections:
       Cybersecurity professionals are responsible for protecting IT infrastructure, networks, and data and are often responsible for preventing data breaches and monitoring and reacting to attacks.
   -
     title: Job functions
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
-      Let's look at some of the job functions a cyber security professional will carry out:
-
-      Select the images below to read 
+      scroll trhough the slides to find out about the different job functions a cyber security will carry out ...
 
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
           title: a
-          copy: |
-            Working to build in security at the development stages of software and hardware systems networks and data banks.
+          text: |
+            •	Working to build in security at the development stages of software and hardware systems networks and data banks. 
+            •	Setting up and implementing user access controls, and identity and access management systems.
+            •	Looking for vulnerabilities and assessing risks in hardware and software systems.
+            •	Building firewalls into network infrastructures and monitoring for attacks and intrusions.
+            •	Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
+
           img: placeholder_icon.svg
         -
           title: b
-          copy: |
-            Setting up and implementing user access controls, and identity and access management systems.
+          text: |
+            text
           img: placeholder_icon.svg
         -
           title: c
-          copy: |
-            Looking for vulnerabilities and assessing risks in hardware and software systems.
+          text: |
+            text
           img: placeholder_icon.svg
         -
           title: d
-          copy: |
-            Building firewalls into network infrastructures and monitoring for attacks and intrusions.
+          text: |
+            text
           img: placeholder_icon.svg
         -
           title: e
-          copy: |
-            Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
+          text: |
+            text
           img: placeholder_icon.svg
-        -
-          title: f
-          copy: |
-            Monitoring network and application performance to identify irregular activities or attempted breaches.
-          img: placeholder_icon.svg
-        -
-          title: h
-          copy: |
-            Performing regular audits of systems to ensure that security practices are compliant.
-          img: placeholder_icon.svg
-        -
-          title: i
-          copy: |
-            Identifying any threat actors and liaising with the police and cyber crime units where necessary.
-          img: placeholder_icon.svg  
-        -
-          title: j
-          copy: |
-            Work with IT departments to set up disaster recovery plans and HR teams to educate employees on how to identify suspicious activity.
-          img: placeholder_icon.svg  
   -
     title: Time to think
     theme: t-bg-primary3 i-think

@@ -1,6 +1,6 @@
-title: "Understand the need for cyber security"
+title: "Understand procedures to maintain data confidentiality and security"
 intro: |
-  In this session, you will learn about the need for cyber security and the impact of cyber crime:
+  In this session you will learn about different procedures to maintain data confidentiality and security. You will also look at data storage, encryption and security checks.:
 banner: ba_u1_s2_p1_hss.jpg
 sections:
   -
@@ -9,8 +9,28 @@ sections:
     copy: |
       By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
     
-      1. Understand the most common vulnerabilities of cyber crime
-      2. understand the impact of cyber crime
-      3. The importance of cyber security
-      4. Understand why cyber security issues should be reported promptly
+      1. Describe ways to protect stored data
+      2. Explain basic techniques for encrypting information
+      3. Describe the advantages and disadvantages of each encryption technique
+      4. Define what is meant by the following:
+        - data in transit
+        - data at rest
+      5. Explain the security checks an organisation might undertake before releasing information  
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Protecting stored data
+      Stored Data needs to be protected from not only the hackers but also should be kept safe in case the computer system is lost or suffers damage. Fireproof and waterproof cabinets can help to protect computer equipment and physical storage devices.
+      
+      Let's look at some different ways in which data can be stored and protected.
+
+    video: placeholder_pc.mp4
+
+     

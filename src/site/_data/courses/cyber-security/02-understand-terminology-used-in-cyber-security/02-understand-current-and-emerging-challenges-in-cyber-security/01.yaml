@@ -12,8 +12,13 @@ sections:
       1. Give examples of current and emerging challenges in cyber security.
     
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
     title: Challenges
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       When we thing of cyber security we think of 'Dark Web' based hackers and criminals infiltrating systems of businesses and organisations, holding them to ransom for financial gain. We may also consider having our own personal data compromised and our identities stolen and the ways it affects us individually. But there are so many more emerging challenges in cyber security that we face today and many of those affect us directly.
       
