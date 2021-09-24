@@ -77,21 +77,7 @@ sections:
             * Work with IT departments to set up disaster recovery plans and HR teams to educate employees on how to identify suspicious activity.
 
           img: placeholder_icon.svg
-        -
-          title: c
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          text: |
-            text
-          img: placeholder_icon.svg
+       
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
