@@ -61,17 +61,21 @@ sections:
         -
           title: a
           text: |
-            •	Working to build in security at the development stages of software and hardware systems networks and data banks. 
-            •	Setting up and implementing user access controls, and identity and access management systems.
-            •	Looking for vulnerabilities and assessing risks in hardware and software systems.
-            •	Building firewalls into network infrastructures and monitoring for attacks and intrusions.
-            •	Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
+            * Working to build in security at the development stages of software and hardware systems networks and data banks. 
+            * Setting up and implementing user access controls, and identity and access management systems.
+            * Looking for vulnerabilities and assessing risks in hardware and software systems.
+            * Building firewalls into network infrastructures and monitoring for attacks and intrusions.
+            * Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
 
           img: placeholder_icon.svg
         -
           title: b
           text: |
-            text
+            * Monitoring network and application performance to identify irregular activities or attempted breaches.
+            * Performing regular audits of systems to ensure that security practices are compliant.
+            * Identifying any threat actors and liaising with the police and cyber crime units where necessary.
+            * Work with IT departments to set up disaster recovery plans and HR teams to educate employees on how to identify suspicious activity.
+
           img: placeholder_icon.svg
         -
           title: c
@@ -88,6 +92,16 @@ sections:
           text: |
             text
           img: placeholder_icon.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Cyber security professionals are employed by many different organisations such as network providers, the government, banks and financial services, educational establishments, airlines, any large organisations with a database and security consultancy firms. There is also opportunity for experienced professionals to become consultants working for many different organisations. click on the link below to find out more about cyber security roles
+
+      links:
+        website description: http://www.google.co.uk     
   -
     title: Time to think
     theme: t-bg-primary3 i-think
