@@ -18,7 +18,7 @@ sections:
       5. Explain the security checks an organisation might undertake before releasing information  
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
     
   -
@@ -32,5 +32,68 @@ sections:
       Let's look at some different ways in which data can be stored and protected.
 
     video: placeholder_pc.mp4
+   
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      text
+  -
+    title: Encryption
+    theme: t-bg-primary
+    copy: |
+      let's look at the two basic techniques for encrypting information and the advantages and disadvantages of each.
 
-     
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: a
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          text: |
+            text
+          img: placeholder_icon.svg
+
+  -
+    title: Data states
+    theme: t-bg-supporting3
+    copy: |
+      states of data is a way of categorizing structured and unstructured data. The three states of data are data at rest, data in motion and data in use. Data can change states quickly and frequently, or it may remain in a single state for the entire life cycle of a computer. Understanding the characteristics and differences between data states can help organizations handle sensitive information more securely.
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Data in transit
+          copy: |
+            Data in Transit or data in motion is data that is actively moving from one location to another which could be around a private network or across the internet. Protection of data in transit is important as it moves from network to network or storage device to the cloud as it is often considered less secure whilst in transit
+          img: /images/svg/cs/placeholder_icon.svg 
+        - 
+          title: Data at rest
+          copy: |
+            Data at Rest is data that is not actively moving from network to network or device to device. It may be being stored on a hard drive, digital device or flash drive or archived in some other way. Data at rest is often though of as less vulnerable than data in transit.
+
+            Unprotected Data whether in transit or at rest is vulnerable to attack without good encryption.
+
+          img: /images/svg/cs/placeholder_icon.svg 
+
+  - 
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+
+        
