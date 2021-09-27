@@ -106,12 +106,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
+        
+        Please see the following website where you can learn more about the differences between data type and data structure.
       links:
-        website description: http://www.google.co.uk
+        Data type and data structure differences: https://www.geeksforgeeks.org/difference-between-data-type-and-data-structure/ 
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below

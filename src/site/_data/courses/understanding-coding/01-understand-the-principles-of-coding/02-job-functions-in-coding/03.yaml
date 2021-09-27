@@ -22,18 +22,6 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style - interview_
-      
-      ### Coding professional ?
-
-      
-    video: placeholder_pc.mp4
-  -
-  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
@@ -46,12 +34,43 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      _Example of a particular coding role - how they got to that role, why they chose that role, likes/dislikes, and a typical day_
-      
-      ### Case study - 
+      ### Case study - How people become backend developers
 
-      text
+      To be a backend developer, it is often a requirement to have a bachelor’s degree in computer science or another closely related field, and have often worked in a more junior role before they start. Backend developers must have a good technological skills, and are often well-versed in several different programming languages. 
+
+      As the job involves a lot of problem solving, this job role fits someone who is methodological and enjoys logical challenges. 
+
+      Another good reason for choosing the role is that it pays well.
+
+      The work can be very fulfilling, and developers are constantly updating their knowledge/learning new skills. However, work often overruns outside of normal hours, or have to get taken home because of problems which arise as you are working/do not get resolved before the end of the work day.
+
+      Please see the below interview to learn more about this role.
     img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - interview - use the case study text as there was too much text_
+      
+      ### Coding professional - Backend developer
+
+      
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites where you can learn more about the backend developer role:
+
+      links:
+        Backend job description: https://www.betterteam.com/back-end-developer-job-description
+        Day in the life of a backend developer: https://www.linkedin.com/pulse/day-life-backend-developer-ali-bayat/
+        Backend job profile: https://www.cleverism.com/job-profiles/backend-developer/
+  -
   -
     title: Quick quiz
     copy: See if you can identify the different coding roles in the following questions.

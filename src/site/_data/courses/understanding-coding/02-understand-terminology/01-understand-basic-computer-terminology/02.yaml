@@ -10,32 +10,24 @@ sections:
       In your assessment you will be required to define what is meant by Central Processing Unit (CPU).
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      ### What is meant by Central Processing Unit (CPU)
-
-      Please see the following video which explains the Central Processing Unit (CPU).
-    video: placeholder_pc.mp4
-  -
-  -
     title: CPU diagram
     theme: 
     copy: |
       Take a look at the following simple diagram of a CPU.
             
-      ![](/images/svg/banners/placeholder.jpg) 
+      ![](/images/banners/uc/placeholder.jpg)
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Need to discuss further - Narrator with CPU diagram(use same one?) - a much more simple version of this example - https://www.youtube.com/watch?v=GQM7Hv9q480 maybe?_
+      
+      ### What is meant by Central Processing Unit (CPU)
 
+      Please see the following video which explains the Central Processing Unit (CPU).
+    video: placeholder_pc.mp4
   -
   -
     title: Key point
@@ -44,75 +36,61 @@ sections:
       In your assessment you will be required to explain the function of Random-Access Memory (RAM).
   -
   -
-    title: The function of Random-Access Memory (RAM) PLACEHOLDER
-    layout: media
+    title: The function of Random-Access Memory (RAM)
     theme: t-bg-primary
     copy: |
-      RAM stands for random access memory which is short term memory where data is stored for use as the processor needs it. It is working memory that is used as it is needed to perform a task and is lost when a computer is turned off. This is not the same as long term memory which can be stored permanently on a hard drive and then deleted by a user or software when no longer required. 
-      
-      RAM is one of the most important components in determining a systems performance and gives applications a place to store and access data on a short term basis. The more programs a system runs the more RAM a system will need or it will become slow and sluggish.
-      
-      So what exactly does RAM do? It allows a computer to perform many of its everyday tasks such as loading applications, browsing the internet, editing a spreadsheet or playing a game. It also allows the user to swap between tasks remembering where they are at the time when they switch to another. Memory is always being used by a computer.
+      Scroll through the slides below to learn about Random-Access Memory (RAM)
 
-      RAM essentially provides a place where data can be stored/exchanged whilst it is being used by a program or process, then emptied when this has finished. This allows operations to be completed without trying to accomplish this on the hard disk, where it might cause data loss and therefore loss of function
-      
-      Coders need systems with enough RAM that allows them to operate whilst programming. It is not always the coding that uses up the RAM it is the other programs working in the background. Some coding languages will also use more RAM than others.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: It is short term memory
+          text: |
+            RAM stands for random access memory which is short term memory where data is stored for use as the processor needs it. It is working memory that is used as it is needed to perform a task and is lost when a computer is turned off. This is not the same as long term memory which can be stored permanently on a hard drive and then deleted by a user or software when no longer required. 
+          img: placeholder_icon.svg
+        -
+          title: System performance
+          text: |
+            RAM is one of the most important components in determining a systems performance and gives applications a place to store and access data on a short term basis. The more programs a system runs the more RAM a system will need or it will become slow and sluggish.
+          img: placeholder_icon.svg
+        -
+          title: What it does
+          text: |
+            So what exactly does RAM do? It allows a computer to perform many of its everyday tasks such as loading applications, browsing the internet, editing a spreadsheet or playing a game. It also allows the user to swap between tasks remembering where they are at the time when they switch to another. Memory is always being used by a computer.
 
+            RAM essentially provides a place where data can be stored/exchanged whilst it is being used by a program or process, then emptied when this has finished. This allows operations to be completed without trying to accomplish this on the hard disk, where it might cause data loss and therefore loss of function.
+          img: placeholder_icon.svg
+        -
+          title: Having enough RAM for coding
+          text: |
+            Coders need systems with enough RAM that allows them to operate whilst programming. It is not always the coding that uses up the RAM it is the other programs working in the background. Some coding languages will also use more RAM than others.
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+          img: placeholder_icon.svg
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: See if you can identify which of the following statements are the CPU or RAM.
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The CPU also called the main processor is the part of the device that is responsible for processing and executing instructions. 
+          answer: CPU
         -
-          sentence: example two
-          answer: two
+          sentence: The CPU take instructions from a program or application and perform a calculation. 
+          answer: CPU
         -
-          sentence: example three 
-          answer: three
+          sentence: RAM is working memory that is used as it is needed to perform a task and is lost when a computer is turned off. 
+          answer: RAM
         -
-          sentence: example four
-          answer: four
+          sentence: Originally the CPU had a single processing core, but modern ones have multiple cores allowing multiple instructions to be given at once. 
+          answer: CPU
+        -
+          sentence: RAM essentially provides a place where data can be stored/exchanged whilst it is being used by a program or process,and then emptied when this has finished.  
+          answer: RAM
+        -
+          sentence: The more programs a system runs, the more RAM a system will need, or it will become slow and sluggish. 
+          answer: RAM
+        
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
