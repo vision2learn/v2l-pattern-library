@@ -20,8 +20,8 @@ jobs:
 
       - run: sudo apt update && sudo apt install graphicsmagick
       - run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-      - run: sudo apt install git-lfs
       - run: yarn install
+      # - run: sudo apt install git-lfs
 
       - save_cache:
           paths:
@@ -29,7 +29,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: git lfs fetch --all && git lfs pull
+      # - run: git lfs fetch --all && git lfs pull
       - run: 
           name: Build it
           command: yarn run staging
