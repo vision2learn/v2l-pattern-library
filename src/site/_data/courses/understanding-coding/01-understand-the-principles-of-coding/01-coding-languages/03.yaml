@@ -1,7 +1,7 @@
 title: Understanding the principles of coding
 intro: |
   On this course you will be learning about coding.  In this unit you will gain knowledge of coding languages and the software development lifecycle. You will also learn about the job roles, functions and key skills requirements of a coding professional.
-banner: placeholder.jpg
+banner: uc_u1_s1_p3_coding.jpg
 sections:
   -
     title: Introduction
@@ -24,7 +24,7 @@ sections:
       Programming is the process of assembling sequences of 'codes' or instructions arranged in different orders or groupings to complete a process or carry out a task. 
       
       The smallest mistake in coding can significantly affect an entire computer programme. This is also something that 'hackers' can then take advantage of.
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u1_s1_p3_image.svg
   -
   -
     title: Key point
@@ -49,7 +49,7 @@ sections:
             
             It uses a set of strings of these different 'characters' and/or 'words' organised in different ways and, again like our own spoken languages this will vary according to the coding language that is being used.  
 
-          img: placeholder_icon.svg
+          img: uc_u1_s1_p3_slide1.svg
         -
           title: Constantly changing
           text: |
@@ -59,7 +59,7 @@ sections:
             
             Coding languages can be high- or low-level. High-level languages are easier for humans to understand and can run on most machines. In contrast, low-level languages are more difficult for humans understand and are more machine-specific as they control the hardware directly. 
 
-          img: placeholder_icon.svg
+          img: uc_u1_s1_p3_slide2.svg
         -
           title: Different types of coding languages
           text: |
@@ -70,7 +70,7 @@ sections:
 
             Programming languages: For example JavaScript – mediates user interactions (e.g. what happens when you click on something/access to backend software)
 
-          img: placeholder_icon.svg
+          img: uc_u1_s1_p3_slide3.svg
   -
   -
     title: Time to think

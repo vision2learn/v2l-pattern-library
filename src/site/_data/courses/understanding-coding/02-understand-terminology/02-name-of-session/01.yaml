@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Coding acronyms and terminology 
 intro: |
-  intro text
+  In this session you will learn about what is meant by a unit of code, the characteristics and differences of WET and DRY code. You will also learn about the differences between open and closed source code.
 banner: placeholder.jpg
 sections:
   -
@@ -26,6 +26,23 @@ sections:
       Topic introduction text here 
 
     img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: accordion
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg     
   -
   -
     title: Reveals
