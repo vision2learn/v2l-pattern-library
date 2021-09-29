@@ -14,8 +14,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - presenter with text to the side for each term, for the differences. I think we need to include examples/imagery/infographics/diagrams (will need to be v2l branded) as its a dry topic to just 'talk' about it?_
-      
       ### What are different languages used for
 
       Please see the following video on coding language and programming terms.
@@ -28,7 +26,7 @@ sections:
       In your assessment you will be required to define what is meant by syntax.
   -
   -
-    title: What is meant by Syntax?
+    title: What is meant by syntax?
     theme: t-bg-primary
     copy: |
       A languages surface form is known as it's syntax. In English and other spoken languages, we use the word *syntax* to describe the arrangement of words and phrases to create a well-formed sentence. 
@@ -44,7 +42,6 @@ sections:
         - 
           title: Syntax examples
           copy: |
-            Some syntax examples:
             
             *	Whether an indent is required to define blocks (Python)
             *	What characters can, cannot, or must appear in variable names (e.g. variable names cannot start with numbers in C)

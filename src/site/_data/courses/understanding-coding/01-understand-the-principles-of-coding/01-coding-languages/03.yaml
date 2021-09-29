@@ -15,7 +15,7 @@ sections:
     copy: |
       In your assessment you will be required to define the term ‘coding’.
   -
-    title: What is Coding?
+    title: What is coding?
     layout: media
     theme: t-bg-primary
     copy: |
@@ -33,7 +33,7 @@ sections:
       In your assessment you will be required to define what is meant by a coding language, and identify different coding languages available.
   -
   -
-    title: What is Coding Language?
+    title: What is coding language?
     theme: t-bg-primary
     copy: |
       Scroll through the slides below to learn more about what coding language is and what is it made up of. 
@@ -89,8 +89,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter introducing the history - reference below website for learner to look at after watching video. Then presenter with text to the side for each language_
-      
       ### Let's have a look at what different languages are available. 
 
       Please see the following video on the different coding languages that are used.
