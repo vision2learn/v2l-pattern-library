@@ -1,0 +1,151 @@
+title: Understand key principles when writing code
+intro: |
+  In this session you will learn about what is meant by a range of terms used in writing code.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Define what are operands/operations
+      * The use of variables 
+      * The principles of functions
+      * The use of queues, stacks and lists
+      * What is meant by the term ‘collection’ 
+      * What is meant by control flow 
+      * What is meant by iterations 
+      * What is meant by recursions
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define operands/operations.
+  -
+    title: Operand and operator
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Operand
+          copy: |
+            text
+
+            text
+        - 
+          title: Operator
+          copy: |
+            text
+ 
+        - 
+          title: Both
+          copy: |
+            text
+            text
+            text
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the use of variables.
+  -
+  -
+    title: Variables
+    theme: t-bg-supporting3
+    copy: |
+      A variable is a container of a specific type of data which has the potential to alter during the running of a program. Unlike a constant which is fixed, a variable needs to have the flexibility to change under certain conditions.
+
+      See below to see an example of how variables can be used.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Computer game example
+          copy: |
+            Thinking about this in the context of a computer game, you may have a constant in that you have 1 life or health bar for your character, however a variable would be the amount of health in that health bar. As you played the game you may lose or gain health and as you did, that variable would need to change based on what it was being told by the code, whereas the constant would need to stay the same for the game to function correctly.
+            
+            When a variable is introduced, this is called a “declaration”. This occurs differently in different languages. In C++, the variable type must be specified upon the declaration:
+
+            ![](/images/banners/uc/placeholder.jpg)
+
+            _this example will be displayed as 'actual code' text which the user can copy_
+
+            In contrast, Python infers the data type automatically: 
+
+            ![](/images/banners/uc/placeholder.jpg)
+
+            _this example will be displayed as 'actual code' text which the user can copy_
+  -
+  -
+    title: Code example
+    theme: 
+    copy: |
+      Take a look at the following 
+            
+      ![](/images/banners/uc/placeholder.jpg)
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Exercise here that relates to the above example.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        
+        Please see the following website where you can learn more about 
+      links:
+        website: 
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

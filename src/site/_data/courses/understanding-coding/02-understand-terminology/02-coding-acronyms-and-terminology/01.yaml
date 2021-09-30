@@ -1,0 +1,188 @@
+title: Coding acronyms and terminology 
+intro: |
+  In this session you will learn about what is meant by a unit of code, the characteristics and differences of WET and DRY code. You will also learn about the differences between open and closed source code.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * What is meant by a unit of code 
+      * Key characteristics of DRY code 
+      * Key characteristics of WET code 
+      * Key differences between DRY and WET code
+      * What is meant by open source code 
+      * What is meant by closed source code 
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe what is meant by a unit of code.
+  -
+  -
+    title: What is a unit of code?
+    theme: t-bg-supporting3
+    copy: |
+      _See Tom's notes about 'variable' and 'function' text needed_
+
+      Units are the smallest groups of code that can be maintained, executed, reused and tested independently. A unit can be almost anything such as a line of code. 
+      
+      In most programming languages it is a:
+      * function,
+      * subroutine, 
+      * method, or 
+      * a property. 
+      
+      A *unit test* is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small test can be run fast.
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Unit testing
+          copy: |
+            Identifying units makes it possible to check code through a process called unit testing. Specific test are written to test whether a unit is functioning as it should. This allows developers to write a test script, which is essentially a piece of code separate to the main program that runs a specific test for each unit in the main program. 
+            
+            Each unit is tested to see if it runs as expected based on criteria, and summarises this in a report. Each time the program is updated, the test script will be run to ensure that all units are functioning correctly. This helps to debug the whole program as new units are added.
+            
+            The Python code below shows a simple function (lines 4-7), and an example of where unit testing is useful.
+ 
+            ![](/images/banners/uc/placeholder.jpg)
+
+            _this example will be displayed as 'actual code' text which the user can copy_
+
+            The output is seen at the bottom, below line 23.
+            * The first test resulted in the output 8.
+            * The second test gave us the output ‘goatgoat’. 
+
+            If we wanted to make sure to make sure that the answer was always an integer, a unit test could report this when the multiply_values function gave us an output we did not expect.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about unit testing.
+
+      links:
+        Unit testing - python: https://www.datacamp.com/community/tutorials/unit-testing-python
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Identify the key characteristics of DRY code 
+      * Identify the key characteristics of WET code
+      * Explain the key differences between DRY and WET code.
+  -
+    title: What is WET and Dry code?
+    theme:
+    copy: |
+      text
+    subInc:
+      type: code
+      lang: js
+      highlight: "1-4"
+      code: |
+        let x = () => console.log('hello');
+
+        myFunction() {
+          return true;
+        }
+  -
+    title: What is WET and DRY code?
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: WET code
+          copy: |
+            text
+ 
+            ![](/images/banners/uc/placeholder.jpg)
+
+            _this example will be displayed as 'actual code' text which the user can copy_
+
+            text
+        - 
+          title: DRY code
+          copy: |
+            text
+ 
+            ![](/images/banners/uc/placeholder.jpg)
+
+            _this example will be displayed as 'actual code' text which the user can copy_
+
+            text
+        - 
+          title: Key charcteristics
+          copy: |
+            text
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _This or quiz_
+
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
+
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
