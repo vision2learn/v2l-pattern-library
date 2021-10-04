@@ -1,6 +1,6 @@
-title: Welcome to Unit four
+title: Welcome to Unit five
 intro: |
-    In this unit you will develop an understanding of malicious software and the ways in which a system can be infected. You will learn about common and emerging threats, as well as physical threats to cyber security. 
+    In this unit you will learn about preventative methods used to maintain cyber security, including the principles of user access control and use of firewalls. 
     
     By working through this unit you will gain the knowledge and understanding required to be able to meet the learning outcomes in your learning goals.
 
@@ -15,9 +15,9 @@ sections:
 
       You will:
 
-      1. Know about common and emerging threats to cyber security
-      2. Understand what is meant by malicious software
-      3. Understand physical threats to cyber security
+      1. Understand preventative methods used to maintain cyber security
+      2. Understand the principles of user access control
+      3. Understand the use of firewalls
       
       [View the complete set of learning outcomes for this unit.](/pdfs/v2l_it2_learning_outcomes_u2.pdf)
   -
@@ -25,7 +25,13 @@ sections:
     theme: t-bg-primary1a
     copy: |
       In this session you will learn about the following:
-      * Common and emerging threats to cyber security
+
+      * routine methods to maintain cyber security
+      * what is meant by vulnerability testing
+      * what is meant by penetration testing 
+      * what is meant by security updates 
+      * ‘patching’ in relation to cyber security 
+      * why information and maintenance records should be accurate and up-to-date
      
 
   -

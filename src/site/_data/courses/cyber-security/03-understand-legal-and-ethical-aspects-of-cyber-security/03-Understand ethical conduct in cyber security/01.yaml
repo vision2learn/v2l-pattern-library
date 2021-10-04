@@ -13,3 +13,67 @@ sections:
         2. Describe unethical conduct within cyber security
 
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### what is ethical and unethical conduct?
+      A company's values are only as strong as those of it's employees. That's why employees need to take on their company's values making them part of every action and decision. This is particularly important with regards to cyber security. Having cyber security policies are one way of protecting those values and reducing risks laying out clear ethical guidelines for employees to follow. 
+      The best thing would be if everyone in the company believed in those policies and automatically shared those values without having to refer to guidelines.
+
+      Let's have a look at ethical and unethical conduct with regards to cyber security.
+    video: placeholder_pc.mp4
+   
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Example link in content
+          copy: |
+            
+            Use [Google](https://www.google.co.uk) to try this search out and find the above pdf document. 
+            
+            (_Select the back button to return to this course_)
+          img: /images/svg/placeholder_icon.svg
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -

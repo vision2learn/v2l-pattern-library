@@ -17,8 +17,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Potential impact
+      Let's look at the impact of cyber crime on individuals, business and nations and the importance of having cyber security. 
     video: placeholder_pc.mp4
   -
     title: On the web
@@ -30,6 +30,21 @@ sections:
       links:
         Sony pictures interview hack: https://en.wikipedia.org/wiki/Sony_Pictures_hack
         Microsoft Exchange breach: https://en.wikipedia.org/wiki/2021_Microsoft_Exchange_Server_data_breach 
+  -
+    title: The importance of reporting cyber security issues promptly.
+    theme: t-bg-supporting2
+    copy: |
+      General reporting of cybersecurity incidents informs the public as well as businesses. It can help individuals to look out for suspicious activity, such as money disappearing from their bank accounts, and enables them to take steps to protect themselves. Being aware of scams that are going around such as bogus texts and emails make people more aware and more likely to double check authenticity. Notification can also help other companies and organisations to be prepared for similar attacks.
+
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Potential impact
+      Let's take a more in depth look at why it is important to report on cyber security issues promptly.
+    video: placeholder_pc.mp4
   -           
     title: Quick quiz
     subInc: 
