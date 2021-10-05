@@ -2,16 +2,19 @@
   "course": "understanding-autism",
   "tags": "understanding-autism",
   "level": 2,
-  "dotnetID": false,
+  "dotnetID": 136,
   "year": 2021,
   "shortcode": "ua",
   "learningoutcomes": true,
-  "why": "This qualification is designed for learners who wish to develop an understanding of autism and how to support individuals with autism.",
+  "why": "This qualification is designed for learners who wish to develop an understanding of autism, and how to support individuals with autism.",
   "goals": {
     "will": [
-      "LO1",
-      "LO2",
-      "LO3"
+      "Understand what is meant by ‘autism’",
+      "Know theories that relate to autism",
+      "Know how autism is diagnosed",
+      "Understand the characteristics that may be present in individuals with autism",
+      "Know about conditions that commonly co-occur with autism",
+      "Understand common misconceptions surrounding autism"
     ]
   },
   "courseFeatures": [
@@ -26,9 +29,8 @@
     "read more about it"
   ],
   "whatyoulearn": [
-    "session 1 one",
-    "two",
-    "three",
-    "four"
+    "Social and communication disorders",
+    "How autism can be considered as a spectrum disorder",
+    "Why it is important to recognise that autism is a lifelong condition"
   ]
 }

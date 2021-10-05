@@ -1,0 +1,62 @@
+title: Pre-prepared and convenience foods
+intro: |
+  On this page we will look at why pre-prepared foods have become a barrier to healthy eating. 
+banner: placeholder.jpg
+sections:
+  -
+    title: Stats and Facts
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      The ready meal industry is worth £2.6 billion in the UK. These meals have risen in popularity and still sell well despite many negative reports on their nutritional value. 
+    img: /images/svg/ln/LM_Stats.svg
+  -
+  -
+    title: Convenience foods
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about to learn more about convenience foods. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Work-life balance
+          text: |
+            People are spending longer in the office and less time in the supermarkets and kitchen. They do not want to spend time preparing food and waiting for it to cook. This perceived lack of time has helped the rise in pre-prepared food or ‘ready meals’ which can be grabbed on the way home from work and heated up quickly in the microwave. They can be cooked and eaten out of the same container; no washing up! 
+          img: placeholder_icon.svg
+        -
+          title: Can't cook. Won't cook
+          text: |
+            More people today are said to be ‘money-rich and time-poor’. These are people on good incomes but who have little spare time due to their working hours. However, it’s not just those that are time-poor that rely on ready meals. People that either do not know how to cook or do not enjoy it choose ready meals because they look like meals they are familiar with and there is a wide variety available. These meals are not a healthy option compared to cooking the same meals at home. 
+          img: placeholder_icon.svg
+        -
+          title: Higher stock of convenience foods
+          text: |
+            Many local shops will carry a higher stock of convenience food with a long shelf life rather than perishable fruit, vegetables and meat. People also find that they seem to taste better than other food, but this is usually because of the high levels of salt, sugar and additives. These meals are mostly eaten by small households without children and the elderly who live alone. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Ralph
+
+      Ralph is a single man who lives alone and commutes an hour to work every day. He does not have many cooking skills and does not enjoy being in the kitchen. He earns a decent wage and can afford to eat the food he wants. Ralph buys in his weeks meals and stores them in the freezer so that he has the choice of what he wants to eat, and does not have to wait long for his food to be cooked. Ralph enjoys the meals and finds them convenient. He does not see anything wrong with his diet. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Can you think of any ways Ralph could improve his diet? 
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      L.O. 4.4

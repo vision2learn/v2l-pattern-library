@@ -1,7 +1,7 @@
 title: Social interaction
 intro: |
-  In this session you will learn how social interaction may differ in Individuals with Autism, lets start by looking at how social development may be delayed of affected.
-banner: placeholder.jpg
+  In this session you will learn how social interaction may differ in Individuals with autism, lets start by looking at how social development may be delayed of affected.
+banner: ua_u3_s2_p1_social.jpg
 sections:
   -
     title: What you will learn
@@ -22,9 +22,9 @@ sections:
     theme: t-bg-supporting2
     copy: |
       Many children and to some extent adults on the autism spectrum need help with their social development. They often have the desire to interact with others, but may not know how to engage friends or may be overwhelmed by the idea of new experiences. By improving their social skills with practice it can help to enhance participation in social environments. 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u3_s2_p1_image.svg
   -
-    title: Reveals
+    title: Delayed or affected social development
     theme: t-bg-primary
     copy: |
       Let’s look at how social development may be delayed or affected in individuals with autism, select the images below to find out more. 
@@ -35,32 +35,32 @@ sections:
           title: Feelings
           copy: |
             Many children with autism have a limited understanding of other people's feelings and ideas or that their words and actions will affect other people.
-          img: placeholder_icon.svg
+          img: ua_u3_s2_p1_reveal1.svg
         -
           title: Not wait their turn
           copy: |
             They may not wait their turn and instead interrupt the person talking.
-          img: placeholder_icon.svg
+          img: ua_u3_s2_p1_reveal2.svg
         -
           title: Eye contact
           copy: |
             They have trouble with eye contact and may not show any facial expressions.
-          img: placeholder_icon.svg
+          img: ua_u3_s2_p1_reveal3.svg
         -
           title: Friends
           copy: |
             Children with autism can lack the ability to make or keep friends.
-          img: placeholder_icon.svg
+          img: ua_u3_s2_p1_reveal4.svg
         -
           title: Play
           copy: |
             They do not engage in normal imaginative play activities with others.
-          img: placeholder_icon.svg
+          img: ua_u3_s2_p1_reveal5.svg
         -
           title: Non verbal communication
           copy: |
             Individuals with autism typically have trouble with nonverbal communication for example, understanding the purpose of waving to say hello or goodbye. 
-          img: placeholder_icon.svg
+          img: ua_u3_s2_p1_reveal6.svg
   -
   -
     title: Key point
@@ -73,35 +73,30 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - 1 Presenter with video clips to support content_
-      
       ### Difficulties with social interactions
 
-      Individuals with Autism spectrum disorder can have difficulties with social interaction, social communication, and social imagination. Difficulties often include the desire for social interaction but also the frustration of finding social interaction confusing. Watch the video to learn more. 
-    video: placeholder_pc.mp4
+      Individuals with autism spectrum disorder can have difficulties with social interaction, social communication, and social imagination. Difficulties often include the desire for social interaction but also the frustration of finding social interaction confusing. Watch the video to learn more. 
+    video: ua_u3_s2_p1_difficulties_with_social.mp4
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Many people with autism see social interaction as stressful so may try to avoid them":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        What can be a tendency of a person with autism when having a conversation with another?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Wait their turn when the other person is talking: false
+            Respond with empathy to the other person talking: false
+            Interupt the other person talking: true
+        Select one option to complete the following sentence:"People with autism may be more interested in things rather than __________________.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            television: false
+            books: false
+            other people: true
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -113,17 +108,15 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - 1 Presenter with video clips to support content_
-      
       ### Links between social development and speech and language
       
       Let’s look at some links between social development and speech and language development in the following video.
 
-    video: placeholder_pc.mp4
+    video: ua_u3_s2_p1_links_between.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to both the videos._
+        Can you describe the links between social development and also speech and language development?

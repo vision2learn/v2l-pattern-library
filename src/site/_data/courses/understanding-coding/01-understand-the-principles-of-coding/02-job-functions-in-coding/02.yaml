@@ -1,0 +1,105 @@
+title: The coding team
+intro: |
+  On this page you will learn about project management skills, the different roles within a coding team, and why team working is important.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain why project management skills are important in coding.
+  -
+    title: Project management
+    theme: t-bg-primary
+    copy: |
+      One of the really important skills for a coding professional is project management. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Skills
+          text: |
+            Project management skills include being organised, having the ability to stay cool under pressure, being adaptable, able to solve problems and being able to communicate well to others or those in their team. These are all skills that should also be inherent in a coding professional as they directly link to their work role as we have already discussed.
+      
+            Many of the skills in coding transfer across to project management and visa versa.
+            
+            Most coding and programming professionals will have knowledge of project management as they are accustomed to working with digital tools, clients, teams and competing deadlines.
+          img: uc_u1_s2_p2_slide1.svg
+        -
+          title: Processess
+          text: |
+            Many organisational and workflow methodologies of project management also follow the process of software development.
+      
+            Whether working on the development of a new app or creating a new operating system the same steps will be followed.
+
+            PRODUCE. TEST. OPTIMISE. REPEAT.  
+            
+            Programmers will be fully aware and used to this process and this includes to imagining and designing a website where the same kinds of production cycles will be used.
+          img: uc_u1_s2_p2_slide2.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify:
+      * different roles within a coding team,
+      * explain why team working is important in coding.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Presenter with text to the side for each role, imagery to support._
+      
+      ### Coding Teams, Project Development, and team working
+
+      Some large organisations may have their own coding teams or use freelancers many may outsource a project to a development team working remotely. In software development there are a range of different methodologies which are used to make sure a project is resilient and on time and budget. They allow for feedback and ideas which can subsequently improve quality.
+
+      Let's look at some software development team/coding team roles and why team working is important in coding in the following video.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - interview_
+      
+      ### Key roles
+
+      
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have watched the video, have a think about the roles and why team working is important in coding and make some notes - this will help you for when you come to do your assessment.
+  -
+  -
+    title: Quick quiz
+    copy: See if you can identify some of the Software development team / coding team roles in the following questions.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The Project Manager is responsible for budgets, risk, scheduling and contract management. 
+          answer: Project Manager
+        -
+          sentence: UI and UX Designers are responsible for preparing designing the user interface, and for the users experience analysing user behaviour.
+          answer: UI and UX Designers
+        -
+          sentence: The Product Owner is more or less analysts and concentrate on a product and it's features.
+          answer: Product Owner
+        -
+          sentence: Developer roles include Full Stack, Back End, and Front End.  They specialise in different areas of programming and create the environments that make programs and websites possible.
+          answer: Developer
+        -
+          sentence: Testers are responsible for conducting manual tests doing system verification. 
+          answer: Testers
+        
+    theme: i-quiz

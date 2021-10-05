@@ -1,114 +1,164 @@
-title: Teens and Adults
+title: Nutritional needs of children and young people
 intro: |
-  PLACEHOLDER ITEMS - NOT USED IN UNIT 1
+    Intro text
 banner: placeholder.jpg
 sections:
   -
-    title: Diets for teenagers
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      As part of your Unit 2 assessment you must be able to identify good food sources for the key nutrients that children and young people need. Looking over the information on this page will help you when you it comes to tackling your assessment. 
+  -
+  -
+    title: The nutritional needs of children and young people
     theme: t-bg-primary
     copy: |
-      Children gain about 20% of adult height and 50% of adult weight during adolescence. Because growth and change is so rapid during this period, the nutritional and dietary requirements for the child also change. Scroll through the slides to see nutritional requirements of teens.
+      Not only will a balanced diet ensure a child is getting all the required nutrients but it will also encourage good eating habits that carry on into adulthood.  Scroll through the slides below to find out which foods are good sources of key nutrients.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Salt
+          title: Calcium
           text: |
-            The maximum recommended daily amount of salt for all people aged over 11 years (and for adults) is no more than 6g per day (or 2.4g sodium).
+            Found in milks, cheese and dairy. Some other calcium-rich foods include:
+            * Plain yoghurt
+            * Ricotta cheese
+            * Whole grain bread
+            * Cheddar cheese
+
+            Research indicates that 25% of teens have a calcium intake below the recommended level, which can have serious implications for their future bone health. For older people, brittle and weak bones caused by low calcium intake are a significant root of health problems. 
+
           img: placeholder_icon.svg
         -
           title: Iron
           text: |
-            Adolescents need to make sure they get enough iron as this nutrient helps growth. Teenage girls in particular need to make sure they get enough iron.
+            Found in red meats such as beef, pork and lamb as well as beans and leafy green vegetables. Sources for children might include:
+            * Lean meat
+            * Fortified cereal
+            * Broccoli
 
-            11-18 year old males need 8 to 11 mg per day.
+            Iron deficiency is very common in the UK. The National Diet and Nutrition Survey of 2008/09 showed that up to 13% of teenage boys and 27% of teenage girls were found to have low iron levels. Rapid growth, combined with an active lifestyle and poor diet, can result in iron-deficiency anaemia. 
 
-            11-18 year old females need 10 to 15 mg per day.
           img: placeholder_icon.svg
         -
-          title: Calories
+          title: Vitamin A
           text: |
-            Due to all their growth and activity, adolescent boys need 2,500-2,800 per day, while girls need around 2,200 per day. It’s best to get these extra calories from lean protein, low-fat dairy, whole grains, and fruits and veggies. 
+            Good sources of vitamin A include:
+            * Cheese
+            * Eggs
+            * Carrots
+            * Low-fat spreads
+            * Yoghurt
+
+          img: placeholder_icon.svg
+        -
+          title: Vitamin C
+          text: |
+            Fruit and vegetables are rich in vitamin C, including:
+            * Oranges
+            * Peppers
+            * Strawberries
+            * Blackcurrants
+            * Broccoli
+            * Potatoes
+
+          img: placeholder_icon.svg
+        -
+          title: Vitamin D
+          text: |
+            Humans get a lot of their vitamin D from sunlight but it can also be found in foods such as:
+            * Oily fish
+            * Eggs
+            * Fortified cereals
+
+            Vitamin D is important for good health, growth and strong bones. A lack of vitamin D is very common and can cause general aches and pains. A severe lack of Vitamin D can cause serious problems such as rickets in children and osteomalacia in adults. 
+
           img: placeholder_icon.svg
         -
           title: Protein
           text: |
-            In order for the body to grow and maintain muscle, teens need 45-55g per day. Most teenagers easily meet this need from eating meat, fish, and dairy, but vegetarians may need to increase their protein intake from non-animal sources like soy foods, beans, and nuts. 
+            Beans, meats, cheese and nuts are a useful source of protein. Good sources for children include:
+            * Turkey breast
+            * Cheese
+            * Milk
+            * Peanut butter
+
           img: placeholder_icon.svg
         -
-          title: Calcium
+          title: Carbohydrates
           text: |
-            Many teens do not get sufficient amounts of calcium, leading to weak bones and osteoporosis later in life. Encourage teens to cut back on fizzy drinks and other overly-sugary foods, which suck calcium from bones. The 800-1000mg of calcium needed per day should come from dairy, calcium-fortified juice and cereal, and other calcium-rich foods such as sesame seeds and leafy greens like spinach. 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Stats and Facts
-    layout: media
-    theme: t-bg-supporting2
-    copy: |
-      Teens are more at risk of developing eating disorders than any other age group. We’ll look at eating disorders in a later unit.
-    img: /images/svg/ln/LM_Stats.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Can you remember what kind of food you ate as a teenager? Were there any good or bad points to your diet? 
-        
-        *You can refer to these notes in your journal which will support you when you come to your assessment*
-  -
-  -
-    title: Diets for adults
-    theme: t-bg-supporting2
-    copy: |
-      A healthy diet for adults is balanced. It provides everything that the body needs to stay fit and healthy.
+            As with adults, carbohydrates should make up 50 – 60% of a child’s nutritional intake. Good sources include:
+            * Fresh fruit and veg
+            * Wholegrain cereals
+            * Wholegrain breads
+            * Brown rice
 
-      However, many adults in the UK are overweight as most of us overeat or consume more calories than we should. Adults need to eat a healthy diet for their weight and lifestyle.
-
-      Adults should eat diets rich in fresh fruit and vegetables, protein, starchy foods and a little fat. Click the tiles to the right to discover more about adult diets.
-
-      You’ll learn more about the importance of each of these later on in the Unit.
-
-      Select the images below to read more.
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Low in fat
-          copy: |
-            Adults should all follow a diet that is low in fat. Many of us consume too much fat and eat too much of the wrong fat – the saturated kind! This is found in many processed foods such as cakes, biscuits and ready meals. 
           img: placeholder_icon.svg
         -
-          title: High in fibre
-          copy: |
-            Fibre is vital for proper digestive function. It can also help to prevent some lifestyle-associated diseases, such as heart disease. Lots of us do not eat enough fibre and should look to eat more of it. Adults should eat 18 grams a day. 
+          title: Fats
+          text: |
+            While unhealthy fats such as those found in junk food should be avoided, good sources of dietary fat include:
+            * Full-fat milk
+            * Nuts
+            * Peanut butter
+            * Trout, salmon
+
           img: placeholder_icon.svg
         -
-          title: Low in sugar and salt
-          copy: |
-            Too much sugar and salt in the diet can cause obesity and cardiovascular problems. Many people eat too much sugar and salt. Sugar is a source of energy but it is added to food and drink by manufacturers. Often we consume it without even thinking about it. 
+          title: Fibre
+          text: |
+            text
           img: placeholder_icon.svg
-        -
-          title: 5 portions of fruit and veg
-          copy: |
-            Eating 5 portions of fruit and veg a day has many health benefits. They contain vitamins and minerals as well as help to reduce the risk of heart disease and some cancers. They also contain lots of fibre, which helps to aid healthy digestion. 
-          img: placeholder_icon.svg
-    copy2: It’s important to remember that the dietary needs of adults will vary depending on their life stage and their lifestyle.
+  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Take a look at the following websites for more information.
-
+        For more information about nutritional recommendations for under 5s, take a look at the following links:
       links:
-        nidirect: http://www.nidirect.gov.uk/healthy-eating-for-teenagers
-        wikiHow: http://www.wikihow.com/Improve-Your-Diet-for-Teens
-        bbc good food: https://www.bbcgoodfood.com/howto/guide/eat-your-age
-        British Nutrition Foundation: http://www.nutrition.org.uk/healthyliving/lifestages
+        Healthy eating for under 5s: http://www.healthyunder5s.nhs.uk/HealthyEating.aspx
+        Change4life: http://www.nhs.uk/start4life/Pages/healthy-baby-advice.aspx 
+        Healthy eating for teenagers: http://www.nhs.uk/Livewell/Goodfood/Pages/healthy-eating-teens.aspx
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      For your Unit 2 assessment you must be able to describe factors that can influence the eating patterns of children and teenagers. Familiarising yourself with the information on this page will help you when it comes to doing your assessment. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Eating patterns
+
+      Everyone has an eating pattern. This refers to what you eat, when you eat and where you eat! Some people might have strict eating patterns which include three meals a day and no snacks in between, whereas others may snack on food throughout the day and never plan when they will have their meals.
+
+      Please see the following video for some of the different factors which might affect eating patterns and then compare them in the case studie below.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Activity - Case study
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### Isla and Annie
+
+      Select the following icon to do an activity about the different eating patterns of Isla and Annie.
+
+      PLACEHOLDER
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have watched the video and see the case study, note down in the box to the right what factors you think influence the eating patterns of children and young people.

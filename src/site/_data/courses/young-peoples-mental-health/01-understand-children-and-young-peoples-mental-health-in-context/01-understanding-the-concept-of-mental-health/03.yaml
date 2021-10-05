@@ -4,14 +4,6 @@ intro: |
 banner: ypmh_u1_s1_p3_concept.jpg
 sections:
   -
-    title: What you will learn
-    theme: t-bg-primary1a
-    copy: |
-      In this session you will learn about:
-      * mental health terms
-      * the relationship between mental health and well-being
-      * the prevalence of mental health problems in children and young people
-  -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
@@ -66,7 +58,14 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.
+      copy: |
+        Using your learning from this page provide a definition in your own words for each of the following four terms and make a note of your findings in the “Time to think” box to the right.
+
+        * Mental health
+        * Mental ill health
+        * Resilience
+        * Self-esteem  
+
   -
     title: Quick quiz
     theme: i-quiz

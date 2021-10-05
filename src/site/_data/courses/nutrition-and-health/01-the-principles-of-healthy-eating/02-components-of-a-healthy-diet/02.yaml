@@ -1,17 +1,86 @@
 title: Eating a variety of foods
 intro: |
   On this page you will learn about: 
-  * point 1
-  *  
-banner: placeholder.jpg
+  * Portion size
+  * Eating a variety of foods
+banner: nh_u1_s2_p2_variety.jpg
 sections:
   -
     title: What is a portion?
+    theme: 
+    copy: |
+      Checking your portion size will ensure that you are eating the correct quantity of each food group. Each person will need different amounts of food depending on their gender, age, activity level and health. Therefore the below is a guide only. 
+
+      ![](/images/banners/nh/placeholder.jpg)
+
+      You may find this calculator useful to help you find the correct amount for you:
+      
+      [Portion Planner | Love Food Hate Waste](https://lovefoodhatewaste.com/portion-planner?gclid=Cj0KCQjw24qHBhCnARIsAPbdtlJVC9vVqBVNhPzeKMQC1rs-1lrXWJ8KyChEvzgT4LLiIkJu6_YWvCUaAtPFEALw_wcB)
+
+  -
+  -
+    title: Portion size for different food groups
+    theme: t-bg-supporting2
+    copy: |
+      Scroll through the slides below to learn more about portion size for each food group.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Starchy carbohydrates
+          text: |
+            * 2 slices of bread or 1 roll/bagel
+            * 5/6 new potatoes
+            * 1 medium baked potato 
+            * 75g uncooked rice or pasta
+            * 40g cereal
+          img: placeholder_icon.svg
+        -
+          title: Proteins
+          text: |
+            * 2 medium eggs
+            * 200g tin of beans
+            * 4 tablespoons of lentils
+            * 90g cooked meat
+            * 140g fish
+            * 100g tofu or soya
+            * Handful of nuts
+          img: placeholder_icon.svg
+        -
+          title: Dairy and alternatives
+          text: |
+            * 200ml milk
+            * 125ml yoghurt
+            * 30g hard cheese
+          img: placeholder_icon.svg
+        -
+          title: Oils and spreads
+          text: |
+            * 5g Butter or spread
+            * 1 tablespoon olive or sunflower oil
+            * 1 small or ½ large avocado
+          img: placeholder_icon.svg
+        -
+          title: Fruit and vegetables
+          text: |
+            * 1 medium fruit – apple, banana, orange
+            * 2 small fruits – plum, kiwi, satsuma
+            * 1 large slice large fruit – melon, mango pineapple
+            * Handful of grapes
+            * 3 heaped tablespoons of peach, sweetcorn, carrots
+            * 2 broccoli spears 
+            * 4 heaped tablespoons kale and other greens
+            * 5cm piece of cucumber
+            * 1 medium tomatoes or 7 cherry tomatoes
+          img: placeholder_icon.svg
+  -
+  -
+    title: Five a day
     theme: t-bg-primary
     copy: |
-      text
-
-      Select the images below to read 
+      Select the images below to see how many portions are needed to get your five a day of fruit and vegetables:
 
     subInc: 
       type: reveal
@@ -19,33 +88,33 @@ sections:
         -
           title: Broccoli
           copy: |
-            text
-          img: placeholder_icon.svg
+            Two broccoli florets counts as one portion of fruit and vegetables.
+          img: nh_u1_s2_p2_reveal1.svg
         -
           title: Juice
           copy: |
-            text
-          img: placeholder_icon.svg
+            One medium glass of orange juice counts as one portion of fruit and vegetables.
+          img: nh_u1_s2_p2_reveal2.svg
         -
           title: Smoothie
           copy: |
-            text
-          img: placeholder_icon.svg
+            One smoothie counts as *two* portions of fruit and vegetables.
+          img: nh_u1_s2_p2_reveal3.svg
         -
           title: Apple
           copy: |
-            text
-          img: placeholder_icon.svg
+            One medium apple counts as one portion of fruit and vegetables.
+          img: nh_u1_s2_p2_reveal4.svg
         -
           title: Banana
           copy: |
-            Something about a minion's love of bananas can go here
-          img: placeholder_icon.svg
+            One medium banana counts as one portion of fruit and vegetables. Did you know that this is the staple diet of a minion?!
+          img: nh_u1_s2_p2_reveal5.svg
         -
           title: Baked beans
           copy: |
-            text
-          img: placeholder_icon.svg
+            One heaped tablespoon of baked beans counts as one portion of fruit and vegetables.
+          img: nh_u1_s2_p2_reveal6.svg
   -
   -
     title: On the web
@@ -56,12 +125,13 @@ sections:
         Please see the following website where you can learn more about the 5 a day initiative.
 
       links:
-        NHS Choices: http://www.nhs.uk/LiveWell/5ADAY/Pages/5ADAYhome.aspx
-        BBC Goodfoods: http://www.bbcgoodfood.com/howto/guide/12-ways-get-your-five-day
+        Portion Size Guide | Bupa UK: https://www.bupa.co.uk/health-information/nutrition-diet/portion-size
+        Find your balance - get portion wise! - British Nutrition Foundation: https://www.nutrition.org.uk/healthyliving/find-your-balance/portionwise.html
+        5 A Day portion sizes - NHS (www.nhs.uk): https://www.nhs.uk/live-well/eat-well/5-a-day-portion-sizes/
   -
   -
     title: Eating a variety of foods
-    theme: t-bg-supporting2
+    theme: t-bg-supporting3
     copy: |
       There are many advantages to eating a wide variety of foods. A narrower range can be unhealthy, less enjoyable and more expensive. Scroll through the slides below to learn more.
 
@@ -72,69 +142,99 @@ sections:
         -
           title: Nutritional needs
           text: |
-            text
-          img: placeholder_icon.svg
+            If people want to stay healthy, they need to meet a variety of nutritional needs. These needs can’t be met by just one food! People should eat a variety of different foods to make sure they get everything they need.
+
+            For example, a person who only ate brown rice and apples would be missing out on many essential nutrients. This lack of variety would lead to an unhealthy diet! 
+          img: nh_u1_s2_p2_slide1.svg
         -
           title: Pleasure
           text: |
-            text
-          img: placeholder_icon.svg
+            By eating a variety of different foods, people are able to enjoy a wide variety of texture, flavours and combinations. This means that people’s meals are more enjoyable and appealing.
+             
+            Eating a variety of different foods means enjoying food more! Leading a healthy lifestyle is something that many people enjoy. 
+          img: nh_u1_s2_p2_slide2.svg
         -
           title: Variety
           text: |
-            text
-          img: placeholder_icon.svg
+            When there is little variation in meals, a person may be more likely to eat unhealthily. Eating a wide variety of healthy foods will help a person eat healthily.
+             
+            By liking a range of different foods, people are in an easier position to choose healthy options rather than unhealthy ones.
+          img: nh_u1_s2_p2_slide3.svg
         -
           title: Availability
           text: |
-            text
-          img: placeholder_icon.svg
-
-  -
-
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      text
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: accordion title
-          copy: |
-            text
-            text
-          img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            People who eat a limited range of foods may struggle with their diet if the food they eat becomes unavailable or is in short supply. They may have difficulty getting all the nutrients they need.
+            
+            If a person likes a variety of foods, they have more choice over what to eat. Someone who eats a wide variety of foods has a better chance of finding the nutrition they need in the food available. 
+          img: nh_u1_s2_p2_slide4.svg
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-       You need to be able to describe the importance of eating a variety of foods in your Assessment!
-       Make sure you feel confident about this before you move on.
+        You need to be able to describe the importance of eating a variety of foods in your assessment!
+        Make sure you feel confident about this before you move on.
+
+  -
+    title: Case study - PLACEHOLDER
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      _PLACEHOLDER - to be changed to a interactivity - click on character, shows diet icons_
+
+      ### Case study - Karla and Trisha
+
+      Take a look at the eating diaries for two women. Each tries to eat healthily and to get a variety of foods. What do you think about their diets? How healthy are they? Take a look at the below information and then have a go at the quiz.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Diet 1 - Karla
+          copy: |
+            Karla works part-time from home as a designer. She meets clients at her home and is trying to increase her fruit and vegetable intake.
+
+            | Meal | Food |
+            |------|------|
+            |Breakfast | 1 slice of wholemeal toast, 1 scrambled egg (with soft margarine), 1⁄3 tsp salt, 1 glass of orange juice, and 1 latte coffee with full fat milk. |
+            |Lunch | Roast beef sandwich - 85g roast beef, Shredded lettuce, 40g mozzarella cheese, 1 tsp mustard, 1 tbsp ketchup.  1 wholemeal teacake, Three baked potato wedges, 1⁄3 tsp salt, and 1 latte coffee with full fat milk. |
+            |Dinner | 140g salmon fillet broiled - 28g bread stuffing mix, 1 tbsp chopped onions, 1 tbsp diced celery, 42g mozzarella cheese, 2 tsp oil, 20g slivered almonds. ½ cup of white rice, ½ cup steamed broccoli, ½ tsp salt, and 1 glass of milk. |
+            |Snacks | 1 cup of salted peanuts and 3 or 4 further lattes through the day. |
+            
+            Karla has quite a healthy diet; she eats a variety of different foods and does eat some fruit and vegetables. 
+          img: /images/svg/nh/nh_u1_s2_p2_case_study1.svg
+        -
+          title: Diet 2 - Trisha
+          copy: |
+            Trisha has a high pressure job as a marketing consultant. She strives to maintain a healthy diet.
+            
+            | Meal | Food |
+            |------|------|
+            |Breakfast | 1 bowl shredded wheat cereal, 1 tbsp raisins, 1 cup fat free milk, 1 small banana, 1 slice wholemeal toast, 1 tsp soft margarine. |
+            |Lunch | Turkey pitas -  85g fried turkey strips, 60g wholemeal pita bread, 4 lettuce leafs, 2 slices tomato, 1 tbsp low fat mayonnaise dressing, 1 tsp mustard.  5 baked potato wedges, ½ cup apple slices, 1 or 2 glasses of chardonnay. |
+            |Dinner | 150g of fried steak, 3 potatoes, ½ cup steamed carrots, 1 tbsp honey. 1 wholemeal bread roll, 1 tsp soft margarine, 1 large glass of red wine. |
+            |Snacks | 1 cup low fat fruited yoghurt and at least half a bottle of red wine in the evening. |
+
+            Trisha has a very healthy diet. She eats a large amount of fruit and veg and chooses wholemeal carbohydrates over white ones. 
+          img: /images/svg/nh/nh_u1_s2_p2_case_study2.svg
+  -
+  -
+    title: Quick quiz
+    copy: Where could Karla and Trisha make small changes to improve their diets?
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Karla could reduce the amount of salt she eats by never adding it to her meals. 
+          answer: salt
+        -
+          sentence: Trisha could prepare meat in a healthier way than frying – she could grill or roast it instead.
+          answer: frying
+        -
+          sentence: Karla could replace her snack of peanuts with fruit such as bananas or apples.
+          answer: peanuts
+        -
+          sentence: Trisha could reduce the amount of alcohol by drinking less in the evening.
+          answer: alcohol
+        -
+          sentence: Karla could reduce the amount of fat in her diet by using skimmed milk in her coffee.
+          answer: fat
+    theme: i-quiz

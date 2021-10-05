@@ -1,0 +1,89 @@
+title: Strategies to protect and online safety
+intro: |
+  On this page we will look at strategies that individuals with autism can use to protect themselves from harm and abuse, and ways to use the internet and social media safely.
+banner: ua_u6_s2_p2_protect.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline strategies that individuals can use to protect themselves from harm and abuse.
+  
+  -
+    title: Kinds of harm and abuse
+    theme: t-bg-primary
+    copy: |
+      Let’s look at some of the abuse that individuals may need to protect themselves from.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Emotional abuse
+          copy: |
+            When people say bad things to them, and they hurt their feelings and making them feel frightened.
+          img: ua_u6_s2_p2_reveal1.svg
+        -
+          title: Financial abuse
+          copy: |
+            When someone takes money or things that belong to an individual or spends their money on things they do not want.
+          img: ua_u6_s2_p2_reveal2.svg
+        -
+          title: Sexual abuse
+          copy: |
+            When they do not want to take part in a sexual activity or are not able to give consent because they may not understand what is happening.
+          img: ua_u6_s2_p2_reveal3.svg
+        -
+          title: Domestic and institutional abuse and neglect
+          copy: |
+            When those who are supposed to support, care and look after an individual don’t do it properly and neglect their needs.
+          img: ua_u6_s2_p2_reveal4.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at how individuals can protect themselves from harm and abuse.
+    video: ua_u6_s2_p2_protect_self.mp4
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe ways to support individuals to use the internet and social media safely.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of different ways that individual with autism can protect themselves from harm and abuse? 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Ways to support individuals to use the internet and social media safely
+
+      Let’s look at some ways to support individuals with autism to use the internet and social media safely.
+
+    video: ua_u6_s2_p2_media_safety.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the different ways that you can support individuals to use the internet and social media safely.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about online safety.
+
+      links:
+        Online safety: https://theriseschool.com/sites/default/files/letters-and-downloads/files/staying-safe-online.pdf

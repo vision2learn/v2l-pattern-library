@@ -1,0 +1,124 @@
+title: The SDL stages
+intro: |
+  On this page we will go into more detail of all stages - Planning, Implementation, Testing, Deployment, and Maintenance.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the importance of the planning stage.
+  
+  -
+  -
+    title: Planning stage
+    theme: t-bg-primary
+    copy: |
+      The planning stage incorporates two stages - Gathering and analysis; and Design.
+
+      See below to learn more about these two stages.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Gathering and analysis
+          copy: |
+            1. Meeting between the client, senior members of the IT team, and business analyst.
+            2. The project manager guides discussions to outline the specific needs of the client/end user. 
+            3. The aim is to produce a software requirement specification (SRS) document which outlines the economic, operational, and technical details.
+
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Design
+          copy: |
+            1. With reference to the SRS, the project manager and IT team will develop a design document specification (DDS) which outlines roadmaps to project completion, including the programming languages and modules which are required.
+            2. This may include the use of flow diagrams or pseudocode to draft out the software architecture.
+            3. The DDS is then reviewed by the main stakeholders, and when an approach is decided the details of technical approaches and data flow are outlined.
+
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Importance of the planning stage
+          copy: |
+            Planning is the most important and fundamental stage as it requires senior members of the programming team to liaise with the customer to determine feasibility, and outline commercial, technical, and operational aspects of the project. 
+            
+            Once the design stage is completed, this forms the foundation from which the subsequent stages of the SDLC will run, and so must be executed carefully in order to minimize risks and ensure successful project implementation.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify actions that may take place during the implementation stage.
+  -
+  -
+    title: Implementation stage
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      This is the stage during which the product is actually built. The actions which take place during the implementation stage are:
+      
+      1.	The steps for product development outlined in the DDS are allocated to members of the IT team.
+      2.	The programmers then write, test, and debug the allocated parts of the project code using the specified programming language.
+      3.	Depending on the SDLC model which is used, they work together to bring the separate aspects together to form a beta (test) version of the product.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of the testing stage, and describe actions that may take place during the deployment stage.
+  -
+  -
+    title: Testing and deployment stages
+    theme: t-bg-primary
+    copy: |
+      See below to learn more about these two stages.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Testing stage
+          copy: |
+            This is where the product is near completion, and is road-tested and debugged before it can be implemented. The testing stage is important because this is where bugs, errors, and defects are identified and revised until it reaches the quality standards specified in the SRS.
+
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Deployment stage
+          copy: |
+            When the product testing is complete and the client has signed off, the deployment stage begins. This is where the product is introduced into a commercial environment. Depending on the SRS, the main actions during the deployment stage usually involve:
+
+            1. Release of the product to customers. This could happen in stages, first involving release to a *limited customer base* in the form of the previously mentioned UAT (user acceptance testing).
+            2. Support regarding *installation/use* of the software.
+            3. Enhancements made based on user feedback.
+            4. Full release into a commercial environment.
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |        
+        Please see the following website where you can learn more information on UAT:
+
+      links: 
+        What is user acceptance testing: https://www.softwaretestinghelp.com/what-is-user-acceptance-testing-uat/
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of the maintenance stage.
+  -
+  -
+    title: Maintenance stage
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      When the product is released, it must then be maintained. Support is often included as part of the agreement between the client and the company who actually developed the software. It is vital to ensure that the product is maintained to ensure:
+
+      1.	To provide support when bugs or errors arise in the software.
+      2.	The product keeps up with changing software compatibility and dependencies
+      3.	To add extra functionality.
+      4.	Possibly to adapt the software or write modules or plugins based on the users needs.
+
+    img: /images/svg/placeholder_icon.svg

@@ -1,7 +1,7 @@
 title: Cultural beliefs and social attitudes
 intro: |
-  Intro
-banner: placeholder.jpg
+  Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
+banner: ypmh_u4_s2_p3_attitudes.jpg
 sections:
   -
     title: Key point
@@ -16,63 +16,37 @@ sections:
     copy: |
       Cultural beliefs and social attitudes play a big role in how people view mental health and the stigma that surrounds mental illness prevents many from seeking help. Shame, the fear of discrimination and rejection, and the lack of understanding can prevent them seeking diagnosis and effective treatment. The support of family and friends therefore can be really important in helping children and young people to cope with a diagnosis of mental health concerns.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u4_s2_p3_image.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with short introduction, then the same presenter but as a narrator with video clips illustrating the different cultures and countries_
-      
       Let’s look at how cultural beliefs and social attitudes can affect expectations of diagnosis of mental health concerns for a child or young person.
-    video: placeholder_pc.mp4
+    video: ypmh_u4_s2_p3_cultural_and_social.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+        How do you think cultural and social attitudes affect the potential diagnosis of mental health concerns in children and young people? Make a note of your answer in the box to the right.
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Older people in all cultures are more likely to seek help.":
           answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
+            True: false
+            False: true
+        Which gender do most cultures discourage from showing physical or mental weakness?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Female: false
+            Male: true
+        Select one option to complete the following sentence:"Not every culture trusts western medical practices, instead they prefer to use _____________ and often don’t see mental health as medical.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            herbal medicine: false
+            talk therapy: false
+            traditional methods: true

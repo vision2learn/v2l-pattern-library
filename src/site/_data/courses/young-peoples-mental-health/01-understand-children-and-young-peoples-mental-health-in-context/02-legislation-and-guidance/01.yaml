@@ -2,7 +2,7 @@ title: Legislation and guidance
 intro: |
   In this session you will learn about legislation and guidance and how this can be used to support children and young people with mental health issues. Let’s start by looking at the key points of legislation.
 
-banner: placeholder.jpg
+banner: ypmh_u1_s2_p1_legislation.jpg
 sections:
   -
     title: What you will learn
@@ -51,14 +51,14 @@ sections:
         -
           title: Human Rights Act
           text: |
-            All services that provide mental health support to children and young people have a legal duty under the Human Rights Act to respect, protect and fulfil their human rights.
+            All services that provide mental health support to children and young people have a legal duty under the Human Rights Act 1998 to respect, protect and fulfil their human rights.
             
             This means that those working with a child or young person in a mental health setting have  to take reasonable steps to protect them where they are known to be at immediate risk, for example taking their own life.
           img: ypmh_u1_s2_p1_slide4.svg
         -
           title: Parental Responsibility
           text: |
-            Parental Responsibility is defined in the Children Act 1989 and attempts to focus on the parent’s duties towards their child rather than the parent’s rights over their child.
+            Parental Responsibility is defined in the Children Act 2004 and attempts to focus on the parent’s duties towards their child rather than the parent’s rights over their child.
             
             When certain decisions have to be taken about a child, all those with ‘parental responsibility’, are allowed to have a say. This should be about the upbringing of the child but day to day decisions should be taken by the parent or carer who looks after and lives with the child.
 
@@ -73,28 +73,34 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _2 Presenters talking about each point with images referencing content_
-
       Let's now look at a video which gives a little more information on how legislation and guidance affects children and young people with mental health problems.
 
-    video: placeholder_pc.mp4
+    video: ypmh_u1_s2_p1_legislation.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        A set of instructions or question here for the learner to note down - this would relate to the video content and be a useful item for their assessment.  One idea is to link this item to a pause point in the video.
+        Using your learning from this page make a note of the different types of legislation and then identify key points within the legislation that relate to the following;
+        * Mental ill health
+        * Mental capacity
+        * Age of consent to treatment
+        * Parental responsibility
+        * Data protection and confidentiality
+
   -
-    title: Case study
+    title: Case study - The Priory Group
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      Amy El-Keria was a child with complex needs, associated with multiple mental health diagnoses. She died whilst an NHS funded patient in a specialist children’s unit at Ticehurst House in East Sussex, a private psychiatric hospital run by the Priory Group. She was found unresponsive with a ligature in her locked hospital room on 12 November 2012 and was pronounced dead the following day.
 
-      From SME - high profile case study.
+      In 2019 The Priory Group were found guilty of breaching Section 3 (1) of the Health and Safety Act, following the death of 14-year-old Amy El-Keria in one of its hospitals in 2012. 
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      This was the first prosecution of its kind and was a historic moment in terms of accountability following deaths of children in private mental health settings. The Priory pleaded guilty to the charges in January 2019 and the case was sent from the Magistrates to the Crown Court. Though they pleaded guilty, the Priory did not accept that these health and safety failures caused Amy’s death.
+
+    img: /images/svg/ypmh/ypmh_u1_s2_p1_image.svg
   -
     title: Quick quiz
     theme: i-quiz

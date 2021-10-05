@@ -1,0 +1,13 @@
+Kerry: If I think about the young people I support at the moment, so the three that are in my class, I have a wide variety. There may only be three, but they are each individual people. So one young person, if it's verbal instruction needs the visual support to go along with it. And if there's any verbal, it should be a maximum of three words at a time.
+
+And then at least 30 seconds worth of silent processing time to go along with that. For another young person I support there's... they can take on a lot more verbal information. In fact, they quite like the intricacies of why they need to be doing XYZ in this lesson, and like to know the reason behind everything because that helps them feel calm and centered, so they can take on a lot of verbal information, but it has to be relevant to that moment in time.
+
+And then the other young person I support, again, is okay with verbal instruction to a two-step level. But does like it backed up with visual supports and again, given time to process it and do it in their own time. So not to be rushed through. 
+
+Zoe: Certain turns of phrase and things like sarcasm, the child or young person may not be able to interpret that as sarcasm they may take it very literally. The other thing is if you're trying to explain something in general is to use visual prompts. So it makes more sense to the child or young person. 
+
+Ellen: If I had a student that would come into IT, if I gave them a lot of paper tasks on their desks, they might not know when the tasks end. And they might look at it and think like "that's a lot, I'm not doing that". So the way I can make it easier is by presenting like one page at a time. 
+
+Phil: I work with a lot of young people who either need more time to process verbal information and or can be overloaded with too much verbal input. Always remember that, you know, chances are, they're not going to be ignoring you if, you know, they know the process. And that can be difficult because some people think that, you know, the autistic individual is being rude. But you know, if you have that patience and awareness, so ask a question, count to 10, give them time to process, ask again, reduce your language. 
+
+Zoe T: Verbal communication has to be seen in the context of human communication, which is all about emotions and intentions. And in order to help people with autism better understand verbal communication, that is where the focus needs to be in my view. So, it would be about using the relationship between the person with autism and the person, the neuro-typical person, using the relationship between those people to help that person with autism, without putting any pressure on them.

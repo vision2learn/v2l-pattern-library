@@ -8,22 +8,56 @@ sections:
     title: Summary and learning points
     theme: t-bg-primary
     copy: |
-      In this Session you have learnt about . You have learnt about:
-      * one
+      In this session you have learnt about how the nutritional needs of individuals can vary. You have learnt about:
       
+      * Planning balanced meals and snacks for different age groups
+      * The factors influencing the nutritional needs and eating patterns of different age groups
+      * The energy requirements for different age groups
+      * Recommended daily intake of the five food groups
+      * Good food sources of key nutrients for children, and young people
+
       Take a look at the following learning points to see a summary of what you have covered in this session:
-      * one
-      * two
+
     subInc: 
       type: accordion
       content:
         - 
-          title: one
+          title: Nutritional requirements
           copy: |
-            * one
-            * two
+            Age and nutritional requirements
+            
+            * Young children (1 - 4 years old)
+            * Children (5 – 12 years old)
+            * Teenagers (13 – 18 years old)
+
         -
-          title: two
+          title: Nutritional needs of young children
           copy: |
-            * one
-            * two
+            * Calories
+            * Salt
+            * Sugar
+            * Milk
+            * Solid food
+            * Nutrients
+
+        -
+          title: Nutritional needs of teenagers
+          copy: |
+            * Calories
+            * Calcium
+            * Iron
+            * Hydration
+            * Protein
+            * Salt intake
+        -
+          title: Eating patterns
+          copy: |
+            Children
+            * Energy and activity levels
+            * Parental/home influence
+            * Nutritional needs
+
+            Teenagers
+            * Energy and activity levels
+            * Meals
+            * Other questions

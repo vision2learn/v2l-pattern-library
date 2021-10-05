@@ -2,7 +2,7 @@ title: Know how autism is diagnosed
 intro: |
   In this session you will learn about the process for diagnosing Autism and why some may be reluctant to seek diagnosis. Let’s start by first looking at the guidelines for diagnosis.
 
-banner: placeholder.jpg
+banner: ua_u1_s3_p1_diagnosis.jpg
 sections:
   -
     title: What you will learn
@@ -32,78 +32,86 @@ sections:
         -
           title: Autism referral
           text: |
-            If parents or carers feel a child or young adult has symptoms of Autism they need to speak to someone about it.  They can approach a GP, health visitor, another health pro-fessional they see or a SENCO at school. If an adult has symptoms they should still ap-proach a GP or get in touch with the National Autistic society. They will be referred to the correct autism specialists for full assessment.
-          img: placeholder_icon.svg
+            If parents or carers feel a child or young adult has symptoms of autism they need to speak to someone about it.  They can approach a GP, health visitor, another health professional they see or a SENCO at school. If an adult has symptoms they should still approach a GP or get in touch with the National Autistic Society. They will be referred to the correct autism specialists for full assessment.
+          img: ua_u1_s3_p1_slide1.svg
         -
           title: Diagnostic Interview
           text: |
-            The ‘Diagnostic Interview for Social and Communication Disorders’ (DISCO)  is a detailed, semi-structured interview designed to look at a person's development, behav-iour and skills since birth, It is for use with children, young people and adults of any age. It allows allows the clinician to advise on a working diagnosis to help develop a care plan or management programme. It should be used in conjunction with psychological assessments, observation and any other sources of reliable information.
+            The ‘Diagnostic Interview for Social and Communication Disorders’ (DISCO)  is a detailed, semi-structured interview designed to look at a person's development, behaviour and skills since birth, It is for use with children, young people and adults of any age. It allows allows the clinician to advise on a working diagnosis to help develop a care plan or management programme. It should be used in conjunction with psychological assessments, observation and any other sources of reliable information.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p1_slide2.svg
         -
           title: Autism Diagnostic Observation Schedule
           text: |
-            The ‘Autism Diagnostic Observation Schedule’ (ADOS) is a semi-structured, standard-ised assessment of communication, social interaction, and play or imaginative use of ma-terials for individuals who have been referred because of possible autism. It is not based on developmental data and only looks at current behaviour and skills, from toddlers to adults, from individuals with no speech to those who are verbally fluent
+            The ‘Autism Diagnostic Observation Schedule’ (ADOS) is a semi-structured, standard-ised assessment of communication, social interaction, and play or imaginative use of materials for individuals who have been referred because of possible autism. It is not based on developmental data and only looks at current behaviour and skills, from toddlers to adults, from individuals with no speech to those who are verbally fluent
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p1_slide3.svg
         -
           title: Autism Diagnostic Interview - Revised
           text: |
-            The ‘Autism Diagnostic Interview - Revised’ (ADI-R) is a clinical diagnostic instrument for assessing autism in children and adults. It focuses on behaviour in three main areas: social interaction; communication and language; and restricted and repetitive, stereo-typed interests and behaviours. It is appropriate for children and adults with mental ages from about 18 months and above.
+            The ‘Autism Diagnostic Interview - Revised’ (ADI-R) is a clinical diagnostic instrument for assessing autism in children and adults. It focuses on behaviour in three main areas: social interaction; communication and language; and restricted and repetitive, stereotyped interests and behaviours. It is appropriate for children and adults with mental ages from about 18 months and above.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p1_slide4.svg
         -
           title: Conclusion
           text: |
             These assessment tools, forms the basis for diagnosis, but also the judgement of the individual clinician is crucial.  They can recommend support of different levels such as regular substantial and very substantial. This allows them to give an indication of how much someone’s condition affects them and how much support an individual needs.
 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to describe the difficulties surrounding the diagnosis of autism.
-  -
-  -
-    title: The difficulties surrounding the diagnosis of Autism
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      It's not always easy to get an autism assessment. Waiting times can also be very long. If a person finds it hard to get an assessment they can approach the National Autistic Society who can give advice about options, including private assessments. There is no actual ‘medical’ test but diagnosis is made with a comprehensive behaviour evaluation and developmental screening.
-
-    img: /images/svg/placeholder_icon.svg
+          img: ua_u1_s3_p1_slide5.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Narrator, Infographics (e.g. questionnaire, Doctor icon, report, online test etc) - arrows showing path of getting a diagnosis?_
+      ### Interview with an individual with autism
       
+      Please see the following interview video of Matt's responses to the following questions:
+      
+      1. When did you first start to become aware of your autism?
+      2. Can you tell us if and when you were ever formally diagnosed?
+      3. How did you find the experience at the time?
+
+    video: ua_u1_s3_p1_interview_diagnosis.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difficulties surrounding the diagnosis of autism.
+  -
+  -
+    title: The difficulties surrounding the diagnosis of autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      It's not always easy to get an autism assessment. Waiting times can also be very long. If a person finds it hard to get an assessment they can approach the National Autistic Society who can give advice about options, including private assessments. There is no actual ‘medical’ test but diagnosis is made with a comprehensive behaviour evaluation and developmental screening.
+
+    img: /images/svg/ua/ua_u1_s3_p1_image.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
       Please see the following video about guidelines for diagnosis and difficulties surrounding those diagnosis.
-    video: placeholder_pc.mp4
+    video: ua_u1_s3_p1_diagnosis.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        Now you have watched the video, 'Question here'.  Make some notes in the box which you can refer to in your journal to help you with your assessment.
-
+        Now that you have watched the video can you think of the difficulties that surround a diagnosis of autism? Think about formal diagnosis and the range of different diagnoses on the spectrum. 
   -
   -
-    title: On the web OR Quiz?
+    title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the diagnosis of autism.
 
       links:
-        website description: http://www.google.co.uk
+        National Autistic Society: https://www.autism.org.uk/advice-and-guidance/topics/diagnosis
   

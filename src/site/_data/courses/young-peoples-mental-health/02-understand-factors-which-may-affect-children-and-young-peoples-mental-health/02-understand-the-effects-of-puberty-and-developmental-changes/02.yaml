@@ -10,26 +10,3 @@ sections:
       * The effects of puberty on children and young people
       * How identity, self esteem and body image can affect mental well-being
       * Opportunities and challenges faced during transition to adulthood
-  -
-    title: Session quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

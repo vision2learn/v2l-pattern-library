@@ -1,0 +1,128 @@
+title: Coping strategies
+intro: |
+  In this session you will learn about coping strategies that can be used to help support those who are impacted by autism behaviours.
+banner: ua_u5_s3_p1_coping.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * How an individual with autism behaviours can have an impact on them and others
+      * Strategies that can be used in relation to behaviour that challenges 
+      * Ways to support an individual who is anxious and struggling to contain their own behaviour 
+      * How to support individuals to understand their behaviours in terms of events, feelings actions and consequences
+      * How family members can be supported to cope with behaviour that challenges
+      * Sources of support in relation to behaviours that challenge for the individual with autism and their family 
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how an individual with autism’s behaviour can have an impact on them and others.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How behaviours impact individuals with autism and others
+
+      Let’s find out more about how an individual with autism behaviours can have an impact on them and others.
+    video: ua_u5_s3_p1_impact_of_behaviour.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from this page make a note of the how an individual with autism's behaviour can impact both on them and others. 
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to give examples of the following strategies that can be used in relation to behaviour that challenges:
+      * prevention
+      * de-escalation techniques
+      * coping strategies.
+  -
+  -
+    title: Behaviour that Challenges
+    theme: t-bg-primary
+    copy: |
+      ‘Behaviour that challenges’ is made up of a range of behaviours which some people with autism may display to get needs met and may put themselves or others at risk.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physically challenging behaviours
+          copy: |
+            Physically challenging behaviours that may hurt others such as hitting, biting, spitting, head butting or pulling hair.
+          img: ua_u5_s3_p1_reveal1.svg
+        -
+          title: Self-injury
+          copy: |
+            Behaviour that harms the individual themselves, such as head-banging, eye poking or biting hands or arms. 
+          img: ua_u5_s3_p1_reveal2.svg
+        -
+          title: Emotionally challenging behaviours
+          copy: |
+            Behaviour that involves aggressive shouting or using derogatory language.
+          img: ua_u5_s3_p1_reveal3.svg
+        -
+          title: Destructive behaviours
+          copy: |
+            Being destructive by throwing things, breaking furniture, tearing things up.
+          img: ua_u5_s3_p1_reveal4.svg
+        -
+          title: PICA - Eating inedible objects
+          copy: |
+            Eating things other than food such as cigarette butts, pen lids, bedding. This can become self-injurious when what they eat is potentially toxic or sharp objects.
+          img: ua_u5_s3_p1_reveal5.svg
+        -
+          title: Other behaviours
+          copy: |
+            These may involve spitting, removing clothes in public, running off and smearing, they may smear their faeces on walls or objects. 
+
+          img: ua_u5_s3_p1_reveal6.svg
+  -
+  -
+    title: Strategies for behaviour that challenges
+    theme: 
+    copy: |
+      Let’s look at some of the strategies that can be used in relation to behaviour that challenges.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Prevention strategies
+          text: |
+            Prevention strategies such as avoiding situations or people that may cause behaviour to be challenging. Controlling the environment and responding to early signs of problems and doing things in small doses and being prepared with visual and auditory cues.
+          img: ua_u5_s3_p1_slide1.svg
+        -
+          title: De-escalation techniques
+          text: |
+            If a person knows the warning signs or sees potential triggers, they can try to reduce the stressors. Remaining calm, providing a calming activity or going to a less stressful place can de-escalate a situation.
+          img: ua_u5_s3_p1_slide2.svg
+        -
+          title: Coping strategies
+          text: |
+            Reducing speech or verbal communication and anything that may over stimulate and using visual supports can help an individual with autism cope with any stressors causing behaviour that challenges, by focussing on what to do, or what happens next.
+          img: ua_u5_s3_p1_slide3.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s watch a video about preventing, de-escalating and coping with behaviour that is challenging.
+    video: ua_u5_s3_p1_coping_strategies.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have learnt about different strategies can you give examples of strategies that can be used to in prevention, de-escalation and coping? 

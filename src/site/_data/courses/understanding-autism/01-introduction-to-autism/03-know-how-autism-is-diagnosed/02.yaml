@@ -1,7 +1,7 @@
 title: Importance of diagnosis, reluctance and prevalence
 intro: |
-  intro text
-banner: placeholder.jpg
+  Some people are not aware of the importance of diagnosis and are reluctant to seek one.  Lets learn more about this.
+banner: ua_u1_s3_p2_importance.jpg
 sections:
   -
     title: Key point
@@ -12,9 +12,7 @@ sections:
     title: Reluctance
     theme: t-bg-primary
     copy: |
-      Lets look at some reasons why people may be reluctant to seek a diagnosis
-    
-      Scroll through the slides below to learn more about ...
+      Lets look at some reasons why people may be reluctant to seek a diagnosis.  Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
@@ -25,30 +23,30 @@ sections:
           text: |
             It may seem strange but some parents prefer not to get a formal diagnosis for their child or young person, as they feel that they will make more progress if they don't have a label. A person may also feel their hope for a ‘normal’ life has been crushed if they are labelled with a diagnosis. 
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_slide1.svg
         -
           title: Labelling
           text: |
             By labelling a person there is a certain perception of ability and a label can hide the vast differences amongst individuals on the spectrum.  Diagnostic labels may alter how other people treat the individual, for example, teachers may expect less from a student who has a diagnosis and therefore may be reluctant to challenge them.
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_slide2.svg
         -
           title: Generalisations
           text: |
-            Those that have little knowledge of ‘Autism spectrum disorder’ can make generalisations believing that all people behave the same way when in fact this is far from the case. Some see only the diagnosis, not the person, and this can negatively define the individual by focusing on the specific problem, and downplaying many positive personal characteris-tics
+            Those that have little knowledge of ‘Autism spectrum disorder’ can make generalisations believing that all people behave the same way when in fact this is far from the case. Some see only the diagnosis, not the person, and this can negatively define the individual by focusing on the specific problem, and downplaying many positive personal characteristics.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_slide3.svg
         -
           title: Possible limitations
           text: |
             Parents who don’t want to limit opportunities for their child may be concerned that adiagnosis can prevent a young person from pursuing certain careers, for example thepolice or armed forces due to the nature of the disorder.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_slide4.svg
         -
           title: Workplace discrimination
           text: |
             Once the young person reaches working age, there can be negative discrimination in theworkplace, and a diagnosis can lead to stigma and stereotyping and unkind people mightuse a diagnostic term for name calling or bullying.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_slide5.svg
   -
   -
     title: Key point
@@ -60,10 +58,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenter with a couple of images/video clips to support content_
-      
       In this video we are going to look at the importance of seeking a diagnosis.
-    video: placeholder_pc.mp4
+    video: ua_u1_s3_p2_importance_of_seeking.mp4
   
   -
     title: Time to think
@@ -71,15 +67,13 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        Link to video and to case study
+        Using your learning from this page make a note of the reasons why people might be reluctant seek a diagnoses and why it is important that they do.
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 3.5
+      In your assessment you will be required to state the prevalence of autism in the UK.
   -
   -
     title: Prevalence
@@ -94,28 +88,28 @@ sections:
           title: 700,000 people
           copy: |
             It’s estimated that around 700,000 people in the UK have a diagnosis of autism. 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_reveal1.svg
         -
-          title: one in 100
+          title: One in 100
           copy: |
             One in 100 children in the UK have a diagnosis of autism spectrum disorder.
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_reveal2.svg
         -
           title: Increase in diagnosis
           copy: |
             Over the last 30 years, there has been a 25-fold increase in the diagnosis of autism and it is estimated that over 1% of the UK’s population are autistic.
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_reveal3.svg
         -
           title: Boys more than girls
           copy: |
             Autism is between 3 and 4 times more prevalent in boys than girls.
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_reveal4.svg
         -
           title: Undetected
           copy: |
             Although diagnosis rates have increased over the years, many children with autism still remain undetected.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s3_p2_reveal5.svg
   -
   -
     title: Quick quiz
@@ -123,15 +117,18 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: It's not always easy to get an autism assessment. Waiting times can also be very long. 
+          answer: assessment
         -
-          sentence: example two
-          answer: two
+          sentence: An online autism test cannot guarantee accuracy.
+          answer: accuracy
         -
-          sentence: example three 
+          sentence: There are three levels of autism.
           answer: three
         -
-          sentence: example four
-          answer: four
+          sentence: Seeking a diagnosis of autism spectrum disorder can be helpful as it can give a better understanding why a person behaves the way they do.
+          answer: understanding
+        -
+          sentence: A diagnosis can also help gain the correct support in all areas, especially financially if needed, and in educational settings at all levels. 
+          answer: support
     theme: i-quiz

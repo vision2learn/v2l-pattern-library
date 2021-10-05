@@ -1,7 +1,7 @@
 title: Triad of impairments
 intro: |
-  intro text
-banner: placeholder.jpg
+  The 'triad of impairments' is a term used to describe the main features all people with autism have difficulty with to some degree.  Lets learn more about this.
+banner: ua_u1_s4_p2_triad.jpg
 sections:
   -
     title: Key point
@@ -13,9 +13,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      The ‘triad of Impairments’ was established in the 70’s by Lorna Wing her colleague Ju-dith Gould, and this was used to define Autism. Her work showed the clustering of social and communication impairments, and lack of pretend play, which was in turn replaced by repetitive behaviour and this signified the basis for Autism as a syndrome.
+      What is meant by the triad of impairments? The ‘triad’ was established in the 1970’s by Lorna Wing and her colleague Judith Gould, and this was used to define autism. Her work showed the clustering of social and communication impairments, and lack of pretend play, which was in turn replaced by repetitive behaviour and this signified the basis for autism as a syndrome.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u1_s2_p1_slide4.svg
   -
   -
     title: Key point
@@ -27,7 +27,7 @@ sections:
     title: How do we define the ‘triad of impairments’?
     theme: t-bg-primary
     copy: |
-      Everyone with ‘Autism spectrum disorder’ has difficulties in 3 main areas;
+      Everyone with ‘autism spectrum disorder’ has difficulties in 3 main areas;
 
     subInc: 
       type: reveal
@@ -37,32 +37,30 @@ sections:
           copy: |
             The difficulty in understanding social 'rules', behaviour and relationships, for example, appearing indifferent to other people or not understanding how to take turns or share with others. 
 
-          img: placeholder_icon.svg
+          img: ua_u1_s4_p2_reveal1.svg
         -
           title: Communication and language
           copy: |
-            Not being able to fully process and understand dialogue. difficulties in being involved involved in the natural flow of conversation or understanding instructions.
+            Not being able to fully process and understand dialogue, difficulties in being involved in the natural flow of conversation, or understanding instructions.
 
-          img: placeholder_icon.svg
+          img: ua_u1_s4_p2_reveal2.svg
         -
           title: Imagination or rigidity of thinking
           copy: |
             They have a strong preference for a set routine or way of doing things and can feel great discomfort if this does not happen or is done incorrectly.
-          img: placeholder_icon.svg
+          img: ua_u1_s4_p2_reveal3.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presenter with images/video clips to support content_
-      
-      Please see the following video on more in depth look at the triad of impairments and the challenges.
-    video: placeholder_pc.mp4
+      Let’s look at a short video about the positive and negatives of the triad of impairments.
+    video: ua_u1_s4_p2_triad_of_impairments.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+         In your own words outline what is meant by the triad of impairments. 

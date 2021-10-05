@@ -1,95 +1,72 @@
-title: Hypersensitivity and Hyposensitivity
+title: Balance and body awareness
 intro: |
-  intro text
-banner: placeholder.jpg
+  Problems with balance and body awareness may cause individuals with autism to look clumsy and uncoordinated let’s learn more about this.
+banner: ua_u4_s1_p3_balance.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to define what is meant by hypersensitivity and hyposensitivity.
+      In your assessment you will be required to outline why individuals with autism may experience balance difficulties (vestibular sense).
   -
-    title: What is meant by Hypersensitivity and Hyposensitivity?
-    layout: media
+    title: Balance and body awareness difficulties
     theme: t-bg-primary
     copy: |
-      Hypersensitivity is when individuals are extremely reactive to sensory stimulation to the extent that they may find stimuli overwhelming. Lights can be too bright or sounds that would not bother others, can cause them to cover their ears. Hyposensitivity is the opposite and involves individuals being under-sensitive to stimulation with decreased sensitivity to sensory input. Individuals have a harder time stimulating their senses than normally.
+      Let’s look at 2 other senses that are affected by hyposensitivity and hypersensitivity.
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Experiencing balance difficulties
+          text: |
+            Vestibular sense or balance can cause a range of problems depending on whether the individual is ‘hyposensitive’ or ‘hypersensitive'. Those who are hyposensitive or under sensitive, often need to rock, swing or spin to gain some sensory input.  Using toys like rocking horses swing and roundabouts can help with children and an adult could use a rocking chair. Hypersensitive individuals struggle with activities like sport where they need to control their movements, they may also have problems changing direction quickly and suffer from motion sickness.
+          img: ua_u4_s1_p3_slide1.svg
+        -
+          title: Experiencing body awareness difficulties
+          text: |
+            Proprioception or body awareness can also cause a range of different problems depending on whether the individual is ‘hyposensitive’ or ‘hypersensitive'. Hyposensitive individuals stand very close to others and cannot judge personal space they also find it hard to avoid obstructions and navigate their way around spaces often bumping into people or things. Hypersensitive individuals may have problems with fine motor skills like tying shoes laces or fastening buttons and they may have to move their whole body to look at something.
+          img: ua_u4_s1_p3_slide2.svg
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to give examples of behaviours that may suggest an individual is hyposensitive or hypersensitive.
+      In your assessment you will be required to explain how individuals with autism may experience difficulties with body awareness (proprioception).
   -
-    title: Watch 
+  -
+    title: Watch
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - standard style - Presenter with images and video clips showing how people react_
+      Let’s listen to someone with autism’s experience of sensory difficulties.
       
-      Let’s look at this in more detail in this video.
-    video: placeholder_pc.mp4
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      1. Do you have any hyposensitive or hypersensitive sensory difficulties?
+      2. How has this/these affected you?
+      3. Have they ever caused you any body awareness problems?
+
+    video: ua_u4_s1_p3_interview_sensory.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Can you think of problems that body awareness can cause for individuals with autism?
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following autism together website where you can learn more about verstibular sense and proprioception.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        Verstibular sense: https://www.autismtogether.co.uk/vestibular-sense-and-the-autistic-spectrum/
+        Proprioception and autism: https://www.autismtogether.co.uk/proprioception-and-autism-2/

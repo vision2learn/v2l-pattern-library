@@ -1,0 +1,69 @@
+title: What did you learn? 
+intro: |
+  Well done, you’ve now completed the fourth session of this unit! In this session you have learnt about 
+  
+banner: summary.jpg
+sections:
+  -
+    title: Summary and learning points
+    theme: t-bg-primary
+    copy: |
+      In this session you have learnt about the barriers that can prevent people from choosing a balanced diet. You have learnt how: 
+      
+      * public confusion over healthy eating may prevent people from choosing a balanced diet
+      * costs may prevent people from choosing a balanced diet
+      * accessibility may prevent people from choosing a balanced diet
+      * pre-prepared and convenience foods may prevent people from choosing a balanced diet
+      * individual lifestyle choices may prevent people from choosing a balanced diet
+      
+      Take a look at the following learning points to see a summary of what you have covered in this session:
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Public confusion
+          copy: |
+            What causes confusion?
+            * Volume of information
+            * Contradictory information
+            * Bad habits
+            * Being ill-informed
+        -
+          title: Costs
+          copy: |
+            Multibuy offers and promotions
+            * More expensive when buying for one person
+
+            Myth that healthy food is expensive
+            * Failing to plan ahead
+
+            Human costs
+            * More likely to suffer from bad health
+
+        - 
+          title: Accessibility
+          copy: |
+            What affects accessibility
+            * Local shops more expensive
+            * ‘Out-of-town’ shopping hard to reach
+
+            Increasing accessibility
+            * Internet shopping
+            * Meals on wheels
+            * Food co-operatives
+
+        -
+          title: Pre-prepared and convenience foods
+          copy: |
+            Why people like convenience foods
+            * Work-life balance
+            * Money-rich and time-poor
+
+        - 
+          title: Lifestyle
+          copy: |
+            Causes of bad eating habits
+            * Eating on the move
+            * Larger fast food and snack market
+            * Busy social lives

@@ -1,0 +1,125 @@
+title: Special dietary requirements 
+intro: |
+  ### Nutritional needs
+  
+  In this session, we’ll look at the impact that different health conditions, personal values and religious beliefs can have on our diet. 
+   
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about different values and beliefs and how they can affect what people eat or don't eat:
+      * Special dietary requirements for various religious / ethnic groups
+      * Different types of vegetarian diet
+      * Preparing food for people who have specific dietary requirements
+  -
+  -
+    title: Factors affecting diet 
+    theme: t-bg-primary
+    copy: |
+      There are many different factors which affect why someone might have special dietary requirements. In this session, we will focus on three of the most common factors.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Health
+          copy: |
+            * Allergy
+            * Intolerance
+            * Health conditions
+
+          img: placeholder_icon.svg
+        -
+          title: Religious
+          copy: |            
+            * Religious beliefs
+            * Ethnic groups
+
+          img: placeholder_icon.svg
+        -
+          title: Personal
+          copy: |            
+            * Lifestyle
+            * Moral values
+
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Allergies, intolerances and health conditions OR
+      ### Why do people have specific dietary requirements?
+
+      Please see the following video you will learn about some of the common allergies, intolerances and health conditions which have specific dietary requirements.
+
+      _ID note: Video to replace accordion/reveals on old p2 and p3 as a lot of info_
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: How much do you know about different health conditions which have special dietary requirements?
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: An allergy could cause an anaphylactic shock.
+          answer: allergy
+        -
+          sentence: A person that suffers with intolerance may not be able to eat lactose products. 
+          answer: intolerance
+        -
+          sentence: Diabetes causes problems with insulin production or function.
+          answer: Diabetes
+        -
+          sentence: Someone who cannot not eat shellfish would have an allergy. 
+          answer: allergy
+        -
+          sentence: Coeliac is when a person cannot eat wheat, barley or rye.
+          answer: Coeliac
+        -
+          sentence: An intolerance is when the body is unable to digest a certain food.
+          answer: intolerance
+        -
+          sentence: Coeliac is when the body attacks itself when certain foods are eaten.
+          answer: Coeliac
+        -
+          sentence: Diabetes is when there is a need to control blood sugar levels.
+          answer: Diabetes
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Think about how you would summarise the different reasons why someone might have specific dietary requirements. This will come in handy when you complete your Unit 2 assessment.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Check out these links to find out more about the different conditions covered on this page: 
+
+      links:
+        Nestle - special dietary needs: http://www.nestle.co.uk/nutritionhealthwellness/specialdietaryneeds
+        Allergy UK: http://www.allergyuk.org/about-allergy-menu/about-allergy
+        Coeliac UK: https://www.coeliac.org.uk/coeliac-disease/
+        Diabetes UK: http://www.diabetes.org.uk/Guide-to-diabetes/
+  -
+  -
+    title: Stats and Facts
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      * 10% of people with diabetes have Type 1
+      * 1 in every 100 people are affected by Coeliac disease
+      * Food intoerances are more common than allergies
+      * Many children grow out of their allergies
+      
+    img: /images/svg/ln/LM_Stats.svg

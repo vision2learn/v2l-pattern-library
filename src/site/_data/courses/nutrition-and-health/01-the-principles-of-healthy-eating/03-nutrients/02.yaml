@@ -1,17 +1,15 @@
 title: Water and hydration
 intro: |
-  On this page you will learn about: 
-  * point 1
-  *  
-banner: placeholder.jpg
+  People are, by weight, about two thirds water. So a person weighing 75kg will contain about 45l of water. Water is essential to good body function, maintenance and reducing the risk of many ailments and diseases. 
+banner: nh_u1_s3_p2_water.jpg
 sections:
   -
     title: Poor hydration
     theme: t-bg-primary
     copy: |
-      text
+      There is strong evidence to suggest that dehydration can lead to asthma, high blood pressure, ulcers, joint problems and high cholesterol.
 
-      Select the images below to read 
+      See the images below to learn more about the effects of poor hydration.
 
     subInc: 
       type: reveal
@@ -19,22 +17,22 @@ sections:
         -
           title: Joint aches and pains
           copy: |
-            text
+            Poor hydration can lead to joint aches and pains, which can negatively affect physical activity.
           img: placeholder_icon.svg
         -
           title: CNS function
           copy: |
-            text
+            The function of the CNS and the brain (which is 85% water by weight) can be negatively affected by dehydration. 
           img: placeholder_icon.svg
         -
           title: Digestive system function
           copy: |
-            text
+            Dehydration can have a negative impact on a person’s digestive system. This in turn can have a negative impact on the energy and nutrients that are absorbed by the body. 
           img: placeholder_icon.svg
         -
           title: Body temperature
           copy: |
-            text
+            If you don’t drink enough water, there is a risk of overheating. Lack of water affects the body’s ability to keep cool and maintain a safe body temperature. 
           img: placeholder_icon.svg
   -
   -
@@ -45,14 +43,34 @@ sections:
       copy: Think about how much water you consume in a day. Can you think of any ways that you could increase your fluid intake?
   -
   -
-    title: Read - Water and exercise
-    theme: t-bg-primary2 i-read
-    copy: | 
-      When you exercise, you sweat. It’s important that you replace these lost fluids.
+    title: Good hydration
+    theme: t-bg-supporting3
+    copy: |
+      See the images below to learn more about good hydration.
 
-      Take a look at the following to learn more about hydration during exercise. 
-
-      [example doc]().
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Oxygen
+          copy: |
+            Water helps the blood carry oxygen all around the body. Did you know that blood is more than 90% water!
+          img: placeholder_icon.svg
+        -
+          title: Weight loss
+          copy: |
+            By swapping sweetened drinks with water you can lower your calorie intake. Also by drinking water before a meal, it can help you to eat less. Never replace whole meals with water though as you still need the nutrients and energy from food.
+          img: placeholder_icon.svg
+        -
+          title: Digestion
+          copy: |
+            Keeping hydrated helps the bowels work effectively, flushing out toxins and preventing too much acid in the stomach. 
+          img: placeholder_icon.svg
+        -
+          title: Saliva
+          copy: |
+            Another digestion aid, saliva is also important to keep eyes, nose and mouth moist and functioning. Drinking water maintains this important fluid, keeps the mouth clean and can reduce tooth decay. 
+          img: placeholder_icon.svg
   -
   -
     title: Case study
@@ -60,15 +78,43 @@ sections:
     copy: |
       ### Case study - Mido and Tom
 
-      text
+      Mido and Tom are flatmates at college.
+
+      Mido is a competitive athlete, but Tom is more of a couch potato.
+
+      As part of his Sports Sciences course, Mido is comparing his water intake to Tom’s.
+
+      He reads the NHS guidelines which recommend drinking at least 8 glasses of water a day.
     subInc: 
       type: accordion
       content:
         - 
           title: Click to see a comparison of their water intakes!
           copy: |
-            text
+            | Tom's water intake | Mido's water intake |
+            |------|------|
+            |As it is winter he tends to stay in the flat with the heating on high. | He plays competitive football twice a week and trains three nights a week. He will often do a 3-5 mile run at least once a week. |
+            |On occasions he will drink a small glass of water in a day. | Drinks about 250-500ml, 2-3 hours before exercise. |
+            |If he goes out he will drink shots. | Drinks 250ml every 10-15 min during exercise. |
+            | |Weighs self before and after exercise and replace fluid losses.|
+            |His food consumption did not include many water rich foods. |He eats a water rich food diet. |
+            |He drinks 2 or 3 milky coffees a day. | He drinks 6 x 200ml glasses of water on a non-training day. |
+        - 
+          title: Conclusions
+          copy: |
+            Mido reached the following conclusion about himself and Tom’s fluid intake:
+
+            Tom was consuming around 1 litre a day so he was poorly hydrated and needed to consume more liquids.
+
+            On a non-training day Mido comfortably got the amount of water he needed. On a training day Mido had a water intake of between 4 and 5 litres depending on the intensity of the training or sports activity. This was good as he was replacing the water he lost during exercise! 
           img: /images/svg/placeholder_icon.svg
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      Dehydration can negatively affect a person’s body and mind. It’s very important that a person is properly hydrated. 
+
+      The amount of water that a person should consume depends on their lifestyle and how much water they are getting from their diet! 
   -
     title: Quick quiz
     theme: i-quiz
@@ -92,10 +138,3 @@ sections:
             Unprofessional: false
             Positive: true
           feedback: text
-  -
-    title: Summary
-    theme: t-bg-primary i-summary
-    copy: |
-      Dehydration can negatively affect a person’s body and mind. It’s very important that a person is properly hydrated. 
-
-      The amount of water that a person should consume depends on their lifestyle and how much water they are getting from their diet! 

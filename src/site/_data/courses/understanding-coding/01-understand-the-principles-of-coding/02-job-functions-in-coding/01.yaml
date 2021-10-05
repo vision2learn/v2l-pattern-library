@@ -1,0 +1,72 @@
+title: Job functions in coding
+intro: |
+  In this session you will learn about the job functions involved in coding and the key skills  requirements needed to be a coding professional. You will also look at different roles in a coding team and career progression.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The key job functions of a coding professional 
+      * The key skills requirements for a coding professional 
+      * Why project management skills are important in coding 
+      * Different roles within a coding team
+      * Why team working is important in coding
+      * Different careers and career progression available
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify:
+      * the key job functions of a coding professional,
+      * key skills requirements for a coding professional.
+  -
+    title: Interactivity - Job functions
+    theme: 
+    
+    copy: |
+      ### What are the key job functions of a coding professional?
+
+      Coding professionals are always in demand and programming is one of the most important roles in the fast growing technical industries. There are many different types of coding professionals and each will specialise in a different areas using different languages.
+      
+      Let's look at what it takes to be a coding professional and what key skills are needed.
+
+
+
+
+      _Interactivity will show in a space below_
+
+    interactive: 
+      file: 
+      width: 1000
+      height: 800       
+  -
+  -
+    title: Quick quiz
+    copy: See if you can identify the key skills a coding professional would have in the following questions.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: When writing code, a positive and proactive attitude is sometimes needed as you must sometimes go the extra mile to create a successful product. 
+          answer: positive
+        -
+          sentence: Communication is important as Coders are often required to write code so that others including other coders will be able to understand and maintain it. 
+          answer: Communication
+        -
+          sentence: Most developers are part of a team and should be able to share their ideas and support the ideas of others. 
+          answer: team
+        -
+          sentence: Time management is essential for a coding professional not getting distracted from the task at hand knowing what is needed and being able to stick to deadlines and produce high quality work consistently. 
+          answer: Time management
+        -
+          sentence: Problem solving is important as being able to brake down a problem into its component parts the finding a solution is a vital skill.
+          answer: Problem solving
+        -
+          sentence: A programmer has to be able to motivate themselves to stick to it even when things go wrong. 
+          answer: motivate
+        -
+          sentence: Coders need to draw analytical conclusions from things that may on the surface seem straightforward. 
+          answer: analytical
+    theme: i-quiz

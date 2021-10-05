@@ -1,0 +1,55 @@
+title: Understand what is meant by social engineering
+intro: |
+    In this session you will learn about what is meant by social engineering:
+banner: cs_u1_s1_p3_cyber.jpg
+sections:
+  -
+    title: Your learning goals
+    theme: t-bg-primary
+    copy: |
+        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security -  
+
+        1. What is social engineering
+        2. How social engineering benefits a cyber criminal
+        3. What is open source information
+        4. What information a cyber criminal can gain through open sources
+        5. What techniques can be used for social engineering
+        6. What information a cyber criminal can gain from social engineering.
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Challenges
+      Let's look at these in more detail and consider how it affects us all. 
+    video: placeholder_pc.mp4
+  -
+          title: Case study
+          theme: t-bg-primary1a i-case-study
+          copy: |
+             ### Case study - 
+
+                text
+          subInc: 
+            type: accordion
+            content:
+              - 
+                title: Example link in content
+                copy: |
+                  
+                  Use [Google](https://www.google.co.uk) to try this search out and find the above pdf document. 
+                  
+                  (_Select the back button to return to this course_)
+                img: /images/svg/placeholder_icon.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -

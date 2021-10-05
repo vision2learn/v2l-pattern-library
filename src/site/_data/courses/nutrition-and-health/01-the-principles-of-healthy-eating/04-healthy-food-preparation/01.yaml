@@ -1,13 +1,185 @@
 title: Healthy food preparation
 intro: |
-  introduction text. 
+  In this session we’ll look at some of the principles behind healthy food preparation.
    
-banner: placeholder.jpg
+banner: nh_u1_s4_p1_preparation.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this session you will learn about 
-      * lo 1
-      * etc
+      In this session you will learn about:      
+      * Factors to be considered when planning healthy meals
+      * How a variety of cooking methods affect the nutritional values of foods
+      * Healthy food preparation methods for a range of types of food
+  -
+    title: Factors to be considered
+    theme: t-bg-supporting3
+    copy: |
+      In order to prepare healthy meals you need to use all the information you’ve learnt so far. 
+      
+      Remember how age fitness levels, health conditions and even gender can affect nutritional needs. 
+      
+      We’ve looked at:
+      * Each of the five food groups and why they are important
+      * Which nutrients we need and what they do/why we need them
+
+      In this session we’ll look at these ideas and the different ways we can cook food.
+  -
+  -
+    title: Making choices
+    layout: media
+    theme: t-bg-primary
+    copy: |    
+      When asked to decide between a balanced meal that does not taste very nice, and a tasty meal with limited nutritional value, most people would choose the second option! 
+      
+      This is because people get instant pleasure from nice tasting food, but it takes a while to see any benefits from nutrients.
+
+      However, it is possible to eat a balanced nutritional meal that is also enjoyable. You need to consider preferred flavours, textures, colours and varieties within food groups when planning enjoyable meals.
+          
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will need to identify factors to be considered when planning healthy meals.
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Mim
+
+      Mim often chooses tasty, unhealthy foods over nutritionally balanced meals. She thinks that healthy food tastes awful and doesn’t make any effort to try and enjoy it.
+
+      Although there are very few immediate problems for Mim, over time she begins to feel tired and notices that her skin does not look as clear. After years of eating like this, she could face some of the problems that you learnt about session 1.
+
+      Mim’s friends are encouraging her to eat more healthily. Although she does not like eating boiled vegetables, she finds she likes them as part of a meal, such as stir-fry or a curry. Similarly, even though Mim doesn’t like fruit, she really enjoys smoothies.
+
+      By understanding her own tastes, she has been able to improve her diet and feel healthier.
+    
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make some notes about the things that you like and dislike. Could any of your preferences make it harder to eat for pleasure AND nutrition? 
+  -
+  -
+    title: Healthy alternatives
+    theme: t-bg-supporting3
+    copy: |
+       A simple way of making meals healthier is to use healthy alternatives. This involves substituting some ingredients for others that are lower in fat, salt or sugar.
+       
+       Another option is to reduce the amounts of a particular ingredient. Click on the images to see some examples of each method. 
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Substitution - meat
+          copy: |
+            * Use lean steak mince instead of mince beef
+            * Use legumes (beans, lentils, pulses) instead of meat for some meals
+            * Use oily fish instead of meat for some meals
+
+          img: placeholder_icon.svg
+        -
+          title: Substitution - fats
+          copy: |
+            * Use low fat crème fraiche instead of cream
+            * Use avocado as a spread, or a dip instead of cream cheese
+
+          img: placeholder_icon.svg
+        -
+          title: Substitution - carbohydrates
+          copy: |
+            * Use brown and whole-wheat varieties of rice, bread and pasta instead of white ones
+
+          img: placeholder_icon.svg
+        -
+          title: Substitution - snacks
+          copy: |
+            * Use nuts as a snack instead of crisps
+            * ?? Use dried fruits and fruits instead of sweets ??
+            * Use dark chocolate instead of milk chocolate/candy 
+
+          img: placeholder_icon.svg
+        -
+          title: Reduction
+          copy: |
+            * Use less cheese when making a pizza
+            * Use less meat and more vegetables in casseroles and pies
+            * Use less sugar in cakes and biscuits
+
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Douglas
+
+      Douglas is 42 and wants to lose some weight. He knows that he needs to become healthier and thinks that if he makes some changes then he will reach his target weight faster!
+
+      A part of the preparation process is to *substitute* unhealthy foods with more healthy options. Douglas also looks to see whether he should cut out certain food and drink altogether.
+
+      Take a look below to see Douglas’s meals before and after he made changes to his diet.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Before and after changes
+          copy: |
+            | Meal | Before | After |
+            |------|------|------|
+            | Breakfast | Wholegrain toast with butter, baked beans, tomato, and a glass of milk.  | Wholegrain toast with polyunsaturated margarine, baked beans, tomato, and a glass of reduced fat milk. |
+            | Morning Break | Two biscuits, a bag of crisps, and a coffee with milk. | Apple and a coffee with milk. |
+            | Lunch | Roast beef sandwich with wholegrain bread, cheese and butter, and a can of cola. | Roast beef sandwich with wholegrain bread, reduced fat cheese, mixed salad and polyunsaturated margarine, and a glass of water. |
+            | Afternoon Break | Bag of crisps, chocolate bar, and a coffee with milk. | Unsalted nuts and a coffee with milk. |
+            | Evening meal | Fish in batter, french fries, baked beans, and 2 cans of larger. | Baked fish, baked potato, peas, carrots, and broccoli.|
+            | Evening snack | Slice of cake. | Fruit salad and reduced fat yoghurt. |
+        - 
+          title: Changes made to improve menu choices
+          copy: |
+            Douglas makes a number of changes to improve his menu choices:
+
+            * Substitution – using polyunsaturated margarine rather than butter and low fat milk rather than milk.
+            * Removal – crisps, chocolate bars, lager, cola and biscuits have all been removed.
+            * Different cooking methods – the introduction of baked fish and potato rather than fried fish and chips cuts Douglas's calories from 487 to 305, and cuts his fat intake from 23g to 4g. You’ll learn more about different cooking methods on the next page.
+
+            This new diet removes 1400-1500 calories and 25g of fat from Douglas’s diet. He also gets more vitamins and minerals because he has increased his fruit and vegetable intake.
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Use legumes instead of meat for some meals
+          answer: legumes
+        -
+          sentence: Use avocado as a spread, or a dip instead of butter
+          answer: avocado
+        -
+          sentence: Use whole-meal bread, rice and pasta instead of white ones
+          answer: whole-meal
+        -
+          sentence: Use less meat and more vegetables in casseroles
+          answer: vegetables
+    theme: i-quiz
+  -
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+       It’s important to remember that meals can be nutritionally valuable and enjoyable to eat.
+       
+       Although everyone will have a different set of preferences, by understanding your own preferences you can find meal options that are enjoyable and nutritious.
+
+       Substitution and reduction can have a substantial impact on long-term health while allowing people to eat the things that they enjoy.

@@ -1,7 +1,7 @@
 title: Person centred support
 intro: |
-  In this session you will learn about how to use a ‘person centred approach’ to support individuals with Autism.
-banner: placeholder.jpg
+  In this session you will learn about how to use a ‘person centred approach’ to support individuals with autism.
+banner: ua_u2_s2_p1_support.jpg
 sections:
   -
     title: What you will learn
@@ -25,7 +25,7 @@ sections:
       In your assessment you will be required to describe what is meant by ‘person-centred support’.
   
   -
-    title: Reveals
+    title: Person centred support
     theme: t-bg-primary
     copy: |
       Let’s start by looking at what is ‘person centred support’. Select from the images below to learn more about it.
@@ -37,54 +37,52 @@ sections:
           title: Planning and Decision Making
           copy: |
             A Person-centred approach within a family context can ensure that children, young people and their parents are involved in all aspects of planning and decision-making.
-          img: placeholder_icon.svg
+          img: ua_u2_s2_p1_reveal1.svg
         -
           title: Live the Life they Want
           copy: |
             Person-centred support means that the individual whether child or adult, is at the centre of the service and the support works around them to help them live the life they want.
-          img: placeholder_icon.svg
+          img: ua_u2_s2_p1_reveal2.svg
         -
           title: Culturally Appropriate
           copy: |
             Person centred support and care, and the information people are given about it, should always be culturally appropriate.
-          img: placeholder_icon.svg
+          img: ua_u2_s2_p1_reveal3.svg
         -
           title: Services
           copy: |
             Person centred support is about services being flexible and not following a ‘one size fits all’ approach.
-          img: placeholder_icon.svg
+          img: ua_u2_s2_p1_reveal4.svg
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain why it is important to treat the person with autism as an individua; and give examples of how support can be provided in a way that is compassionate and non-judgemental.
+      In your assessment you will be required to explain why it is important to treat the person with autism as an individual; and give examples of how support can be provided in a way that is compassionate and non-judgemental.
   -
   -
     title: Treating the person with autism as an individual
     layout: media
     theme: t-bg-primary
     copy: |
-      Person-centred care is a way of thinking and doing things that sees the person with Autism as the focus. They are unique and as an individual need to be treated that way and not put into a pre planned mould. Support and care should always take into account their individual needs and preferences and they should have the opportunity to make informed decisions about their own care, in partnership with their healthcare professionals.
+      Person-centred care is a way of thinking and doing things that sees the person with autism as the focus. They are unique and as an individual need to be treated that way and not put into a pre planned mould. Support and care should always take into account their individual needs and preferences and they should have the opportunity to make informed decisions about their own care, in partnership with their healthcare professionals.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u2_s2_p1_image.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style  - Two presenters - alternate topic points - images, video clips to illustrate content - possible short discussion as suggested from SME - will leave that decision to videographer_
-      
       Let’s look at why it is important that a person with autism is treated as an individual.
-    video: placeholder_pc.mp4
+    video: ua_u2_s2_p1_person_centre_support.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Why do you think it is important to treat a person with autism as an individual?  Think about what this will achieve. You should also consider what the potential consequences are of not treating a person with autism as an individual. 
 
   -
     title: On the web
@@ -92,9 +90,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn about the importance of person centred planning.
 
       links:
-        website description: http://www.google.co.uk
+        Person centred planning (Foundation for People with Learning Disabilities) : https://www.learningdisabilities.org.uk/learning-disabilities/a-to-z/p/person-centred-planning-pcp

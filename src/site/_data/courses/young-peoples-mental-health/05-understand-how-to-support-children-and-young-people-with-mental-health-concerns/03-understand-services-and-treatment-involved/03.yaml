@@ -1,7 +1,7 @@
 title: Medication used to treat mental health issues
 intro: |
   What types of medication can be used to treat children and young people experiencing mental health issues.
-banner: placeholder.jpg
+banner: ypmh_u5_s3_p3_medicine.jpg
 sections:
   -
     title: Types of medication used
@@ -10,7 +10,7 @@ sections:
     copy: |
       GP’s are often the first professional to go to with a mental health issue for a child or young person and they can offer help and guidance through referral to a professional for therapy or prescribe medication if that may be more suitable at this stage. Psychiatrists are specialists in mental illness and work with the individual to decide what care and support will best help them. They can also prescribe medication that may help, such as medication to reduce anxiety once the individual’s condition has been diagnosed. There are so many different types of medications, and so many options so it’s really important that a young person, or parent or carer discusses with a GP or Psychiatrist what options are available to them.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ypmh/ypmh_u5_s3_p3_image.svg
   -
   -
     title: Key point
@@ -31,50 +31,47 @@ sections:
           title: Anti-anxiety
           copy: |
             Anti-anxiety medication is used to treat the symptoms of anxiety. It includes drugs such as
-          img: placeholder_icon.svg
+          img: ypmh_u5_s3_p3_reveal1.svg
         -
           title: Antidepressant
           copy: |
             A medicine to help lift mood by rebalancing chemicals in the brain. There are different groups of antidepressants, like SSRIs and tricyclics
-          img: placeholder_icon.svg
+          img: ypmh_u5_s3_p3_reveal2.svg
         -
           title: Antipsychotic and Atypical antipsychotics
           copy: |
             Medicines used to treat psychosis and newer medicines used to treat psychosis, sometimes called second-generation antipsychotics.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s3_p3_reveal3.svg
         -
           title: Benzodiazepines
           copy: |
             A group of medicines used to treat anxiety and sleep problems
-          img: placeholder_icon.svg
+          img: ypmh_u5_s3_p3_reveal4.svg
         -
           title: Mood stabiliser
           copy: |
             A group of medicines used to treat bipolar affective disorder. They help to balance moods to avoid periods of mania or depression, usually taken long-term.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s3_p3_reveal5.svg
         -
           title: SSRIs & SNRIs
           copy: |
             ‘Selective Serotonin Reuptake Inhibitors’ and ‘Serotonin-Noradrenaline Reuptake Inhibitors’, antidepressants which works on serotonin in the brain, and serotonin and noradrenaline in the brain respectively.
-          img: placeholder_icon.svg
+          img: ypmh_u5_s3_p3_reveal6.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style If possible could we have an infographic/icons showing the process with narration?  If not do standard - one or two presenters with images/clips_
-      
       Watch this video about the process of being prescribed medication.
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s3_p3_medicines.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        In the box to the right, make a list of the different types of medication that can be used to treat mental health problems in children and young people.
   -
   -
     title: On the web
@@ -86,3 +83,4 @@ sections:
 
       links:
         Young Minds HeadMeds: https://youngminds.org.uk/youngminds-professionals/our-projects/headmeds/
+        Treatment for mental health problems | Mind, the mental health charity - help for mental health problems: https://www.mind.org.uk/information-support/types-of-mental-health-problems/mental-health-problems-introduction/treatment-options/?gclid=EAIaIQobChMIyL6Y9b3B8AIVj8LtCh1a5Qk2EAAYAiAAEgL1afD_BwE

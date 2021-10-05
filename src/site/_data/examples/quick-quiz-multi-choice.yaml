@@ -6,6 +6,7 @@ content:
       The rebels: true
       The square pegs in the round holes: true
       Fond of rules: false
+      Also wrong: false
     feedback: All of the above are true
   Take away the suit and what are you?:
     answers:
@@ -13,4 +14,10 @@ content:
       Playboy: true
       Philanthropist: false
       Iron Man: true
+    feedback: All of the above are true
+  A third question?:
+    answers:
+      Yes: true
+      No: true
+      Maybe: false
     feedback: All of the above are true

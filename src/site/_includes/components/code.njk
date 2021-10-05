@@ -1,0 +1,9 @@
+<div class="c-code">
+{%- set lang = "js" -%}
+{%- if section %}
+{%- set lang = section.subInc.lang + " " + section.subInc.highlight -%}
+{% endif -%}
+{% highlight lang %}
+{{ section.subInc.code | safe }}
+{% endhighlight %}
+</div>

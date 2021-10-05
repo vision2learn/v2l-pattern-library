@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 4,
+  pagination: {
+    data: "courses['nutrition-and-health']['02-the-nutritional-needs-of-individuals']['04-barriers-to-healthy-eating']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:12
 
     working_directory: ~/repo
 
@@ -20,8 +20,8 @@ jobs:
 
       - run: sudo apt update && sudo apt install graphicsmagick
       - run: curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-      - run: sudo apt install git-lfs
       - run: yarn install
+      # - run: sudo apt install git-lfs
 
       - save_cache:
           paths:
@@ -29,24 +29,36 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run
-      - run: git lfs fetch --all && git lfs pull
+      # - run: git lfs fetch --all && git lfs pull
       - run: 
           name: Build it
-          command: yarn gulp build && ELEVENTY_ENV=dev yarn eleventy
+          command: yarn run staging
           no_output_timeout: 30m
+      - run:
+          name: Generate Integrity SHAs
+          command: |
+            printf "CSS Integrity\n" >> shas.txt
+            cat dist/css/main.css | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
+            printf "\n\nJS Integrity\n" >> shas.txt
+            cat dist/js/script.js | openssl dgst -sha256 -binary | openssl base64 -A >> shas.txt
       
       # compress the output for more efficient deployment...
       - run: tar -czvf site.tar.gz dist
+
+      - store_artifacts:
+          path: shas.txt
+          destination: shas.txt
 
       - persist_to_workspace:
           root: .
           paths: 
             - dist/*
             - site.tar.gz
+            - shas.txt
             
   dotnet:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:12
 
     working_directory: ~/repo
 
@@ -92,10 +104,16 @@ jobs:
       - run:
           name: Create Export Package
           command: |
-            cp -R --strip-trailing-slashes src/scss dist/dotnet/scss
-            cp -R --strip-trailing-slashes dist/js dist/dotnet/js
-            cp -R --strip-trailing-slashes dist/images dist/dotnet/images
+            mkdir -p dist/assets
+            mkdir -p dist/assets/videos/captions/vtt
+            cp -R --strip-trailing-slashes src/scss dist/assets/scss
+            cp -R --strip-trailing-slashes dist/js dist/assets/js
+            cp -R --strip-trailing-slashes dist/images dist/assets/images
+            cp -R --strip-trailing-slashes dist/videos/captions/vtt dist/assets/videos/captions
+            cp -R --strip-trailing-slashes dist/pdfs dist/assets/pdfs
+            cp -R --strip-trailing-slashes dist/documents dist/assets/documents
             tar -cvf dotnet.tar dist/dotnet
+            tar -cvf assets.tar dist/assets
             tar -cvf videos.tar dist/videos
       - store_artifacts:
           path: dotnet.tar
@@ -103,6 +121,9 @@ jobs:
       - store_artifacts:
           path: videos.tar
           destination: videos.tar
+      - store_artifacts:
+          path: assets.tar
+          destination: assets.tar
   staging:
     machine:
       enabled: true
@@ -116,9 +137,36 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-            ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l/test
-
+            scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:/mnt/website/backgroundyellow.net
+            ssh $SSH_USER@$SSH_HOST tar -xzvf /mnt/website/backgroundyellow.net/site.tar.gz -C /mnt/website/backgroundyellow.net/v2l/test
+  tests:
+    machine:
+      enabled: true
+    working_directory: ~/repo
+    steps:
+      -  add_ssh_keys:
+          fingerprints:
+            - "a2:aa:ee:91:eb:fe:c7:cb:a9:cc:98:40:fd:d2:6f:27"
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Backstop Tests
+          command: |
+            echo "Running Backstop JS tests"
+            ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop test"
+  backstop-references:
+    machine:
+      enabled: true
+    working_directory: ~/repo
+    steps:
+      -  add_ssh_keys:
+          fingerprints:
+            - "a2:aa:ee:91:eb:fe:c7:cb:a9:cc:98:40:fd:d2:6f:27"
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Generate Backstop References
+          command: ssh $SSH_USER@$SSH_HOST "cd /mnt/website/backstopjs; backstop reference"
   deploy:
     machine:
       enabled: true
@@ -132,9 +180,8 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:~/backgroundyellow.net
-            ssh $SSH_USER@$SSH_HOST tar -xzvf backgroundyellow.net/site.tar.gz -C backgroundyellow.net/v2l
-
+            scp -r ~/repo/site.tar.gz $SSH_USER@$SSH_HOST:/mnt/website/backgroundyellow.net
+            ssh $SSH_USER@$SSH_HOST tar -xzvf /mnt/website/backgroundyellow.net/site.tar.gz -C /mnt/website/backgroundyellow.net/v2l
 workflows:
   version: 2
   build-and-deploy:
@@ -144,6 +191,7 @@ workflows:
             branches:
               only:
                 - rayner-mod
+                - master
       - dotnet:
           filters:
             branches:
@@ -159,6 +207,19 @@ workflows:
       - deploy:
           requires:
             - build
+          filters:
+            branches:
+              only: master
+      - tests:
+          requires:
+            - build
+            - staging
+          filters:
+            branches:
+              only: rayner-mod
+      - backstop-references:
+          requires:
+            - deploy
           filters:
             branches:
               only: master

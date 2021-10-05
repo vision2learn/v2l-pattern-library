@@ -1,7 +1,7 @@
 title: Strategies to support communication and social interaction
 intro: |
   In this session you will learn how strategies can be used to support communication and social interaction for individuals with autism.
-banner: placeholder.jpg
+banner: ua_u3_s3_p1_support1.jpg
 sections:
   -
     title: What you will learn
@@ -35,42 +35,42 @@ sections:
           title: Follow their lead
           copy: |
             By following the person's lead, rather than directing them, they will be more likely to pay attention to the activity, and focus on it, which will in turn help them to make choices for themselves. 
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal1.svg
         -
           title: Repeating words
           copy: |
             Try labelling their favourite toy and repeat that word when they reach for it. Try adding another word, they say ‘box'  you say yes ‘red box’ giving them one more piece of information to process.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal2.svg
         -
           title: Face to face
           copy: |
             Be face-to-face allowing them to see the variety of facial expressions that are used in communication.They may eventually get used to you playing or interacting with them.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal3.svg
         -
           title: Imitate
           copy: |
             Imitate their actions and words or sensory behaviours once they notice this they may begin to imitate back, creating the opportunity to add something new for them to copy.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal4.svg
         -
           title: Gestures and visual supports
           copy: |
             Make a gesture to show something, Nod/shake your head for "yes" and "no". Wave a hand for "hello" and "goodbye"  show photographs of things or people being discussed.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal5.svg
         -
           title: Songs and role play
           copy: |
             Sing songs with them, pausing to see if they can sing the next part. Or use role play to suggest social interaction and explore how things can go wrong.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal6.svg
         -
           title: Give praise
           copy: |
             By using praise and commenting on what has been achieved, the person can make a connection between their own actions and your specific words.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal7.svg
         -
           title: Encourage requests
           copy: |
             Put something they want out of reach so they have to ask for it. play with something then stop so they ask for more.
-          img: placeholder_icon.svg
+          img: ua_u3_s3_p1_reveal8.svg
   -
   -
     title: Key point
@@ -82,19 +82,17 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Individuals with Autism spectrum disorder who have little or no spoken language can become very distressed if their needs are not met and they are unable to express their feelings. It is important then that appropriate professionals should assess the individual and evaluate what different options could be available to support their communication and social interaction. Things that need to be considered include cognitive and motor abilities, learning style, communication needs and literacy ability. If appropriate an alternative augmentative communication device can be used to help with this.
+      Individuals with autism spectrum disorder who have little or no spoken language can become very distressed if their needs are not met and they are unable to express their feelings. It is important then that appropriate professionals should assess the individual and evaluate what different options could be available to support their communication and social interaction. Things that need to be considered include cognitive and motor abilities, learning style, communication needs and literacy ability. If appropriate an alternative augmentative communication device can be used to help with this.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/ua/ua_u3_s3_p1_image.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Please can we have a video instead of the slides for this item as there is too much text and too many items on this page.  Presenter with image and title for each slide topic to the side_
-      
       Let’s look at a range of strategies that can be used to support communication and social interaction in the following video.
-    video: placeholder_pc.mp4
+    video: ua_u3_s3_p1_range_of_strategies.mp4
   -
   -
     title: Quick quiz
@@ -132,14 +130,37 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style Presenter with the introduction followed by a short discussion or chat with a parent or individual with autism_
-      
       How can communication be adapted to meet the needs and preferences of each individual. Watch the following video to learn more.
-    video: placeholder_pc.mp4
+    video: ua_u3_s3_p1_needs_and_preferences.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with an individual with autism
+      
+      Please see the following interview video of Matt's response to the following questions:
+      
+      Do you recall any instances of others altering their communication style, for better or worse once aware of your autism?
+    video: ua_u3_s3_p1_interview_communication.mp4
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+      
+      How have you adapted your communication style to meet the needs of autistic individuals in the past?
+    video: ua_u3_s3_p1_interview_adapting.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to both the videos - emphasise assessment question re strategies_
+        Can you describe the links between social development and also speech and language development?

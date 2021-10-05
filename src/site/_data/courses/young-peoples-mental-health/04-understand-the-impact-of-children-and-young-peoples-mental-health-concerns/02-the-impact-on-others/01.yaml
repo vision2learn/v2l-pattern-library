@@ -1,7 +1,7 @@
 title: The impact of mental health problems on others
 intro: |
   In this session you will learn about the impact of children and young people’s mental health problems on others, the range of services available and social attitudes.
-banner: placeholder.jpg
+banner: ypmh_u4_s2_p1_others.jpg
 sections:
   -
     title: What you will learn
@@ -30,64 +30,55 @@ sections:
           title: Physical health
           copy: |
             Having a family member with a mental health concern can cause physical health problems for others in the family.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s2_p1_reveal1.svg
         -
           title: Behavioural issues
           copy: |
             Sibling’s behaviour may be affected, as they may not understand why they get less attention or are missing out on things.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s2_p1_reveal2.svg
         -
           title: Parental disharmony
           copy: |
             Parents may blame each other and cause more disharmony or even breakup.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s2_p1_reveal3.svg
         -
           title: Family withdrawal
           copy: |
             The family may stop socialising due to worries about the views of others.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s2_p1_reveal4.svg
         -
           title: Guilt
           copy: |
             A parent or sibling may wrongly feel it is all their fault.
-          img: placeholder_icon.svg
+          img: ypmh_u4_s2_p1_reveal5.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with text points to the side - appearing as spoken about - for example the second paragraph reads "When a family member such as a child or a sibling has mental health concerns can be an extremely stressful time and may in turn create health problems such as headaches, loss of appetite, fatigue, and insomnia for others in the family." - list the words headaches, loss of appetite, fatigue, insomia - then the third paragraph - anxiety, depression, guilt anger, etc. Images too support._
-      
       Watch the video to look at the impact it can have on others in the family in more detail.
-    video: placeholder_pc.mp4
+    video: ypmh_u4_s2_p1_impact_on_others.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Using your learning from this page and your own research, can you describe the impact on those who live with a child or young person with mental health concerns? Make a note of your answer in the box to the right. 
   -
   -
     title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    copy: Now you have watched the video, please complete the statements below by selecting the correct option from the drop-down list.
+    subInc: 
+      type: word-quiz
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        -
+          sentence: Mental health concerns can be painful and traumatic for all of the family and can have a huge impact on a family financially and emotionally.
+          answer: financially and emotionally
+        -
+          sentence: When a family member such as a child or a sibling has mental health concerns, it can be an extremely stressful time and may in turn create health problems.
+          answer: health problems
+        -
+          sentence: Family life can become unsettled and unpredictable causing a family member to maybe leave their job, give up socialising, or following recreational pursuits.
+          answer: unsettled and unpredictable
+    theme: i-quiz

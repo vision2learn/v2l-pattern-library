@@ -1,0 +1,122 @@
+title: Vegetarian and Vegan diets
+intro: |
+  Many people choose not to eat certain foods because of their values and beliefs. Vegetarians, for example, choose to cut meat out of their diets for a number of different reasons. There are many different types of vegetarian diet.  
+banner: placeholder.jpg
+sections:
+  -
+  -
+    title: Different types of vegetarian
+    theme: t-bg-primary
+    copy: |
+      Vegetarian is a broad term, there are different types of vegetarian. Select the following images to learn about the different types.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Vegetarian
+          copy: |
+            Vegetarians usually avoid meat, poultry, fish, shellfish or products from animals. Vegetarians are largely motivated by ethical concerns about harming animals.
+
+          img: placeholder_icon.svg
+        -
+          title: Demi-vegetarians
+          copy: |
+            Demi-vegetarians will eat meat occasionally but most have adopted a primarily vegetarian diet often due to a belief about the environmental impact of meat consumption.
+
+          img: placeholder_icon.svg
+        -
+          title: Pescetarians
+          copy: |
+            Pescetarians are usually motivated by similar ethical concerns as vegetarians but will eat fish in moderation for its Omega-3 content and health benefits.
+
+          img: placeholder_icon.svg
+        -
+          title: Lacto-ovo-vegetarians
+          copy: |
+            The most common vegetarian in the Western world, they eat the same as vegetarians but also dairy products and eggs.
+
+          img: placeholder_icon.svg
+        -
+          title: Lacto-vegetarians
+          copy: |
+            Eat the same as vegetarians and they also eat dairy products but they do not eat eggs. This type of vegetarian is popular in Eastern religions such as Hinduism, Sikhism and Buddhism.
+
+          img: placeholder_icon.svg
+        -
+          title: Ovo-vegetarians
+          copy: |
+            Ovo-vegetarians have the same diet as vegetarians except they don’t drink milk due to objections to the way dairy is produced. The eggs they eat will normally be free-range eggs from uncaged hens.
+
+          img: placeholder_icon.svg
+        -
+          title: Fruitarians
+          copy: |
+            Only eat plant foods that are harvested without killing the host plant, such as fruit falling from a tree.
+
+          img: placeholder_icon.svg
+        -
+          title: Vegan
+          copy: |
+            All animal-related products are avoided. This usually extends beyond food products and includes any product from an animal – such as leather. 
+
+          img: placeholder_icon.svg
+        -
+          title: Raw vegetarian / vegan
+          copy: |
+             Have the same diet as vegetarians / vegans but only eat it in an uncooked form.
+
+          img: placeholder_icon.svg
+  -
+  -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Less well know kinds of vegetarianism.
+
+      _ID note:  Remove lesser known vegi items from above reveals - this could be a weblink or a pdf?_
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.excel-easy.com/functions/cell-references.html
+  -
+  -
+    title: Why do people become vegetarians?
+    layout: media
+    theme: t-bg-supporting3
+    copy: |
+      People can become vegetarians for various reasons. Some do so because of health problems or because they don’t like the taste of meat products, while others believe that a vegetarian diet is healthier.
+      
+      Ethical concerns are perhaps the most common reason why people become vegetarians. This is where they believe it is wrong to kill and eat animals. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _ID note: NEW. This to be 'Is it easier to be a vegetarian in modern times?' - fake meat, much wider variety of vegetarian food etc_
+      
+      ### Is it easier to be a vegetarian in modern times?
+
+      Please see the following video to ....
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      It is important to understand the different types of vegetarian diet. You will be asked to describe these diets in your Unit 2 assessment. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        See if you can find more information about vegan diets from these links. 
+
+      links:
+        How to go vegan: http://www.vegansociety.com/try-vegan/how-go-vegan
+        The vegan diet: http://www.nhs.uk/Livewell/Vegetarianhealth/Pages/Vegandiets.aspx

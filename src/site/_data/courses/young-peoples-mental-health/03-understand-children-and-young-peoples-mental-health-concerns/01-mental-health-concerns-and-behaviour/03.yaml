@@ -1,7 +1,7 @@
 title: Harmful behaviour and coping with feelings
 intro: |
   Let’s look at harmful behaviour and how children and young people may demonstrate this as a way of coping with their feelings. 
-banner: placeholder.jpg
+banner: ypmh_u3_s1_p3_coping.jpg
 sections:
   -
     title: Key point
@@ -21,54 +21,46 @@ sections:
           title: Anxiety disorders
           text: |
             Anxiety disorders in children and young people are persistent fears, worries or anxiety that disrupt their ability to participate in play, school or social situations and can cause harmful behaviours. These can include social anxiety, generalised anxiety and obsessive-compulsive disorders.
-          img: placeholder_icon.svg
+          img: ypmh_u3_s1_p3_slide1.svg
         -
           title: Self-harm
           text: |
             Self-harm is a very common problem among young people. Some find it helps them manage intense emotional pain if they harm themselves, for example through cutting or burning. However they may not wish to take their own life.
-          img: placeholder_icon.svg
+          img: ypmh_u3_s1_p3_slide2.svg
         -
           title: PTSD
           text: |
             Post-traumatic stress disorder (PTSD) can follow any physical or sexual abuse, being the victim of violence or severe bullying. Also witnessing something extremely traumatising, or surviving a disaster can seriously affect children and young people. PTSD can in turn cause harmful behaviours.
-          img: placeholder_icon.svg
+          img: ypmh_u3_s1_p3_slide3.svg
         -
           title: Eating disorders
           text: |
             Eating disorders usually start in the teenage years and are more common in girls than boys. The number of young people who develop an eating disorder is relatively small, but eating disorders such as Anorexia and Bulimia can have serious consequences for their physical health and development and can in extremes threaten life.
-          img: placeholder_icon.svg
+          img: ypmh_u3_s1_p3_slide4.svg
         -
           title: Depression and mood disorders
           text: |
             Depression is the persist feeling of sadness and loss of interest that disrupts a child or young person’s ability to function to interact with others. Bipolar disorder results in extreme mood swings between depression and extreme emotional or behavioural highs that may cause the individual to be unguarded, and indulge in risky or unsafe behaviours.
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to explain the importance of early intervention when identifying behavioural concerns.
+          img: ypmh_u3_s1_p3_slide5.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with introduction, images to support content, second part an interview with professional_
-      
-      ### Early Intervention
+      ### Interview with a professional
 
-      Let’s have a look at how early intervention can help when identifying behavioural concerns.
-
-    video: placeholder_pc.mp4
+      Please see the following video of a professional's response to the following question:
+      How do you think children and young people can best be protected from risky behaviours that may affect their mental well-being?
+    video: ypmh_u3_s1_p3_interview_risky_behaviour.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        What can help to manage risky behaviour of children and young people? Make a note of your answer in the box to the right.
   -
   -
     title: On the web
@@ -76,7 +68,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about feelings and symptoms.
 
       links:
-        website description: http://www.google.co.uk
+        Feelings and symptoms (youngminds.org.uk): https://youngminds.org.uk/find-help/feelings-and-symptoms/

@@ -1,0 +1,36 @@
+{
+  "course": "understanding-coding",
+  "tags": "coding",
+  "level": 2,
+  "dotnetID": 999,
+  "year": 2021,
+  "shortcode": "uc",
+  "learningoutcomes": true,
+  "why": "This course is designed for learners who want to gain knowledge of coding. It may also support progression into further study in coding or other topics within the digital sector.",
+  "goals": {
+    "will": [
+      "Know about coding languages",
+      "Understand job functions in coding",
+      "Understand the software development lifecycle"
+    ]
+  },
+  "courseFeatures": [
+    "on the web",
+    "quick quiz",
+    "summary",
+    "stretch",
+    "key point",
+    "case study",
+    "watch",
+    "time to think",
+    "read more about it"
+  ],
+  "whatyoulearn": [
+    "What coding is",
+    "What is meant by a coding language", 
+    "Different coding languages that are available", 
+    "The difference between procedural and object oriented language",
+    "What is meant by syntax in coding",
+    "Different technologies that use coding language to run"
+  ]
+}

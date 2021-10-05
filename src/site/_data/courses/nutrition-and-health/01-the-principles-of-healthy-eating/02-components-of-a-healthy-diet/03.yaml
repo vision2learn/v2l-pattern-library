@@ -1,34 +1,43 @@
 title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! In this session you have learnt about 
+intro: Well done, you’ve now completed the second session of this unit!
 banner: summary.jpg
 sections:
   -
     title: Summary and learning points
     theme: t-bg-primary
     copy: |
-      In this Session you have learnt about the components of a healthy diet. You have learnt about:
+      In this session you have learnt about the components of a healthy diet. You have learnt about:
 
-      The five food groups, and the different foods that make up each group.
-      Examples of current healthy eating advice including the 5 a day initiative.
-      The importance of eating a wide variety of foods.
+      * The five food groups, and the different foods that make up each group.
+      * Examples of current healthy eating advice including the 5 a day initiative.
+      * The importance of eating a wide variety of foods.
 
       Take a look at the following learning points to see a summary of what you have covered in this session:
-      * The five food groups
-      * Healthy diet advice
-      * Reasons to eat a wide variety of food
     subInc: 
       type: accordion
       content:
         - 
           title: The five food groups
           copy: |
-            * 
+            * Fruit and vegetables e.g. Apples, oranges, broccoli
+            * Starchy food (carbohydrates) e.g. Potato, pasta, bread
+            * Meat, fish, eggs and pulses e.g. Beef, chicken, cod
+            * Milk and dairy e.g. Yogurt, cheese, cream
+            * Fat and sugar e.g. Sweets, chocolate, crisps
         -
           title: Healthy diet advice
           copy: |
-            * 
+            * Eat more of Fruit, vegetables and fish
+            * Eat less of Salt, sugar, and saturated fat
+            
+            Lifestyle choices:
+            * Drinking more water
+            * Being more active
+            * Not skipping breakfast
         -
           title: Reasons to eat a wide variety of food
           copy: |
-            * 
-            * 
+            * Nutritional needs
+            * Pleasure
+            * Variety
+            * Availability

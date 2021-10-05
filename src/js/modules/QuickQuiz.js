@@ -1,90 +1,151 @@
 // quick quiz navigation
-(function() {
-  
+const myQuizzes = (function() {
+
   const quizzes = document.querySelectorAll('.c-quiz:not(#formQuiz)');
-
-  if(quizzes.length > 0) {
-
-    let totalScore = 0;
-
-    function calcScore(question) {
-      if(question === "true") {
-        totalScore++;
+  let ogQuizzes = []
+  class Quiz {
+    constructor(quiz) {
+      this.quiz = quiz;
+      this.quizData = {
+        totalScore: 0,
+        fieldsetID: 0,
+        maxScore: quiz.querySelectorAll('[data-v2l-correct="true"]').length,
+        totalQuestions: quiz.querySelectorAll('fieldset').length,
+        questions: quiz.querySelectorAll('fieldset'),
+        multichoice: quiz.dataset.v2lMcquiz ? true : false
+      };
+    }
+  
+    answerCount = () => {
+      let answers = [];
+      this.quizData.questions.forEach((question, i) => {
+        answers[i] = {
+          total: question.querySelectorAll('.c-quiz__answer').length, 
+          correct: question.querySelectorAll('[data-v2l-correct="true"]').length
+        };
+      });
+      return answers;
+    }
+  
+    updateScore = () => {
+      ++this.quizData.totalScore;
+    }
+  
+    nextBtn = (question, isFinal) => {
+      const nextBtn = document.createElement('button');
+      const nextBtnText = isFinal ? 'Show My Score' : 'Next Question';
+      nextBtn.disabled = (!this.quizData.multichoice) // true;
+      nextBtn.appendChild(document.createTextNode(nextBtnText));
+      nextBtn.addEventListener('click', (e) => this.nextClick(e))
+  
+      if(this.quizData.totalQuestions >= 1) {
+        question.appendChild(nextBtn);
+      }
+      return true;
+    }
+  
+    nextClick = (e) => {
+      e.preventDefault();
+      
+      if(this.quizData.multichoice) {
+        this.multichoiceAnswers();
+      }
+      
+      if(this.quizData.fieldsetID < this.quizData.totalQuestions - 1) {
+        this.quizData.questions[this.quizData.fieldsetID].removeAttribute('data-v2l-active');
+        ++this.quizData.fieldsetID;
+        this.quizData.questions[this.quizData.fieldsetID].setAttribute('data-v2l-active', true);
+      }
+      else {
+        const resultPanel = document.createElement('div');
+        resultPanel.classList.add('c-quiz__result');
+        resultPanel.setAttribute('style', 'display: none');
+        this.quizData.questions[this.quizData.totalQuestions - 1  ].appendChild(resultPanel);
+        var panelText = this.quizData.totalScore === this.quizData.totalQuestions ? `<p><strong>Congratulations!</strong> You scored ${this.quizData.totalScore} out of ${this.quizData.totalQuestions}` :  `<p>You have scored ${this.quizData.totalScore} out of ${this.quizData.totalQuestions}</p><p><button>Try again?</button></p>`;
+        resultPanel.innerHTML = panelText;
+        resultPanel.removeAttribute('style');
+  
+        let retryBtn = resultPanel.querySelector('button');
+        if(retryBtn) {
+          retryBtn.addEventListener('click', e => {
+            e.preventDefault();
+            this.reset();
+          });
+        }
       }
     }
-
-    Array.prototype.forEach.call(quizzes, quiz => {
-      const questions = quiz.querySelectorAll('fieldset');
-      
-      quiz.classList.add('js-quiz');
-      quiz.querySelector('fieldset').setAttribute('data-v2l-active', true);
-      Array.prototype.forEach.call(questions, (q, i) => {
-        // create and add next button
-        const nextBtn = document.createElement('button');
-        nextBtn.disabled = (!quiz.dataset.v2lMcquiz) // true;
-        var nextBtnText = i !== questions.length - 1 ? 'Next Question' : 'Show My Score';
-        nextBtn.appendChild(document.createTextNode(nextBtnText));
-
-        if(questions.length > 1) {
-          q.appendChild(nextBtn);
+  
+    multichoiceAnswers = () => {
+      const qGroup = this.quizData.questions[this.quizData.fieldsetID];
+  
+      let subScore = 0;
+      const totalSelected = qGroup.querySelectorAll('input:checked').length;
+      const correctAnswers = this.answerCount()[this.quizData.fieldsetID].correct;
+    
+      qGroup.querySelectorAll('input:checked').forEach(answer => {
+        if(answer.nextElementSibling.dataset.v2lCorrect === 'true') {
+          ++subScore;
         }
-
-        var answer;
-        let questionGroup = q.querySelectorAll('input');
-
-        questionGroup.forEach(q => {
-          q.addEventListener('click', () => {
-            // e.preventDefault();
-            answer = q;           
-            nextBtn.disabled = false;
-
-            if(!quiz.dataset.v2lMcquiz) {
-              questionGroup.forEach(qtn => {
-                qtn.disabled = true;
-              });
-            }
-
-            q.disabled = false;
-          });
-        });
-        
-        // attach click handler to control moving through quiz
-        nextBtn.addEventListener('click', e => {
-          e.preventDefault();
-          calcScore(answer.nextElementSibling.dataset.v2lCorrect);
-          e.target.disabled = true;
-
-          if(i !== questions.length - 1) {
-            q.removeAttribute('data-v2l-active');
-            q.nextElementSibling.setAttribute('data-v2l-active', true);
-            
-          }
-          else {
-            const resultPanel = document.createElement('div');
-            resultPanel.classList.add('c-quiz__result');
-            resultPanel.setAttribute('style', 'display: none');
-            q.appendChild(resultPanel);
-            var panelText = totalScore === questions.length ? `<p><strong>Congratulations!</strong> You scored ${totalScore} out of ${questions.length}` :  `<p>You have scored ${totalScore} out of ${questions.length}</p><p><button>Try again?</button></p>`;
-            resultPanel.innerHTML = panelText;
-            resultPanel.removeAttribute('style');
-
-            let retryBtn = resultPanel.querySelector('button');
-            if(retryBtn) {
-              retryBtn.addEventListener('click', e => {
-                e.preventDefault();
-                q.removeAttribute('data-v2l-active');
-                questions[0].setAttribute('data-v2l-active', true);
-                totalScore = 0;
-                document.querySelector('.c-quiz__result').remove();
-                quiz.querySelectorAll('input').forEach(input => {
-                  input.disabled = false;
-                  input.checked = false;
-                });
-              });
-            }
-          }
-        });
       });
+      
+      if(subScore === correctAnswers && totalSelected === correctAnswers) {
+        this.updateScore();
+      }
+    }
+  
+    answerClick = (e) => {
+      // const qGroupID = e.originalTarget.dataset.v2lQuestiongroup - 1;
+      const qGroup = this.quizData.questions[this.quizData.fieldsetID];
+      const nextBtn = qGroup.querySelector('button');
+      let input = e.target;
+      let correct = input.nextElementSibling.dataset.v2lCorrect;
+  
+      qGroup.querySelectorAll('input').forEach(answer => {
+        if(answer !== input) {
+          answer.disabled = true;
+        }
+      });
+  
+      if(correct === 'true' && nextBtn.disabled) {
+        this.updateScore();
+      }
+  
+      nextBtn.disabled = false;
+    }
+  
+    reset = () => {
+      document.querySelectorAll('.c-quiz:not(#formQuiz)').forEach((quiz, index) => {
+        quiz.replaceWith(ogQuizzes[index].cloneNode(true));        
+      });
+  
+      document.querySelectorAll('.c-quiz:not(#formQuiz)').forEach((quiz) => {
+        let q = new Quiz(quiz);
+        q.init();
+      });
+      
+    }
+  
+    init = () => {
+      this.quiz.classList.add('js-quiz');
+      this.quizData.questions[0].setAttribute('data-v2l-active', true);
+      
+      this.quizData.questions.forEach((q, i) => {
+        this.nextBtn(q, i === this.quizData.totalQuestions - 1);
+      });
+  
+      if(!this.quizData.multichoice) {
+        this.quizData.questions.forEach(q => {
+          q.querySelectorAll('input').forEach( input => input.addEventListener('click', (e) => this.answerClick(e)));
+        });
+      }
+    }
+  }
+
+  if(quizzes.length > 0) {
+    quizzes.forEach(quiz => {
+      ogQuizzes.push(quiz.cloneNode(true));
+      let q = new Quiz(quiz);
+      q.init();
     });
   }
 
@@ -94,4 +155,6 @@
         $(this).addClass('js-form-error');
     });
   }
+
+  return true; //ogQuizzes;
 })();

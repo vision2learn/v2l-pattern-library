@@ -1,100 +1,88 @@
 title: Components of a healthy diet
 intro: |
-  introduction text. 
+  In this session we’ll look at some of the components of a healthy diet and how these can affect health.
    
-banner: placeholder.jpg
+banner: nh_u1_s2_p1_components.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
-      In this session you will learn about 
-      * lo 1
-      * etc
+      In this session you will learn how to: 
+      * Identify the five food groups
+      * Identify foods belonging to each of the five food groups
+      * Give examples of current healthy eating advice
+      * Describe the importance of eating a wide variety of foods to provide a healthy diet
   -
   -
     title: The Eatwell guide
     theme: 
     copy: |
-      title
-    
-      
-      
       ![](/images/svg/nh/nh_u1_s2_p1_eatwell_guide.jpg)         
   -
   -
     title: Read - Eatwell Guide
     theme: t-bg-primary2 i-read
     copy: | 
-      Take a look at the following document from the Eatwell guide....
+      If you wish you can download your own copy of the Eatwell guide.
 
       [Eatwell guide pdf](/pdfs/nh_u1_s2_p1_eatwell_guide.pdf).
   -
   -
-    title: The five food groups
-    theme: t-bg-supporting3
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      text
-
-      Select the images below to read 
+        You will need to know what the 5 food groups are and foods that belong to each one, along with providing current healthy eating advice. 
+  -
+  -
+    title: The five food groups
+    theme: t-bg-primary
+    copy: |
+      The food you eat can be divided into five groups. A person with a healthy diet eats a balance of food from all of these five groups. Scroll through the slides below to read about each group and the _main_ nutritional benefits for each:
 
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
         -
           title: Carbohydrates
-          copy: |
-            text
-          img: placeholder_icon.svg
+          text: |
+            * Main nutritional benefits are energy, fibre, vitamins and minerals
+            * The NHS recommends we have 33% or a third of our energy requirements from carbohydrates
+            * Include - wholemeal bread, cereals, pasta, potatoes, beans and lentils
+            * Some fruit and veg also provides carbohydrates e.g. bananas, apples, sweet potatoes, beetroot and corn
+          img: nh_u1_s2_p1_slide1.svg
         -
           title: Fruit and veg
-          copy: |
-            text
-          img: placeholder_icon.svg
+          text: |
+            * Main nutritional benefits are vitamins, minerals and fibre
+            * Like carbohydrates this should make up 33% (a third) of our daily intake with 5-10 portions
+            * Include - fresh, frozen, tinned and fresh juice (not from concentrate)
+          img: nh_u1_s2_p1_slide2.svg
         -
-          title: Meat and protein
-          copy: |
-            text
-          img: placeholder_icon.svg
+          title: Protein
+          text: |
+            * Main nutritional benefits are energy, cell maintenance, protection against disease, promoting growth and weight management
+            * The NHS recommends we should have 50g/15% or 2 to 3 portions a day
+            * Include - chicken, fish, beans, tofu, eggs, pulses, diary, nuts and seeds
+          img: nh_u1_s2_p1_slide3.svg
         -
-          title: Fatty or sugary foods
-          copy: |
-            text
-          img: placeholder_icon.svg
+          title: Oils, spreads and other fats
+          text: |
+            * Healthy fats help build cells, absorb vital vitamins and minerals, provide energy and muscle movement
+            * Good fats include monosaturated and polyunsaturated. Bad fats are man-made e.g. trans fats. Saturated fats are in the middle of these and should be kept to a minimum. 
+            * Different fats have different recommended daily intake amounts. Saturated is under 11% and trans fat under 2%
+            * Good fats come from olive oil, sunflower oil, avocados, nuts, nut spread, fatty fish (salmon, mackeral, sardines) flaxseed
+
+          img: nh_u1_s2_p1_slide4.svg
         -
           title: Milk and dairy
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Read - The five food groups
-    theme: t-bg-primary2 i-read
-    copy: | 
-      Take a look at the following document ......
+          text: |
+            * Main nutritional benefits are protein and calcium. healthy bones, teeth, skin and eyes. Supports brain development, maintains healthy blood pressure and immune function. 
+            * The NHS recommends we should have 15% or 2 to 3 portions
+            * Include - yogurt, cheese, cream. Diary alternatives are often fortified with calcium and vitamin B12 to provide the same health benefits as real diary. 
 
-      [example doc]().
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      text
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: What changes does Keith make?
-          copy: |
-            Keith agreed to take the following steps to change his life:
-
-            * Eat just one takeaway a week instead of five or six
-            * item 2
-            * etc
-
-          img: /images/svg/placeholder_icon.svg
+          img: nh_u1_s2_p1_slide5.svg
   -
   -
     title: Watch 
@@ -107,7 +95,7 @@ sections:
 
       The Food Standards Agency is a Government body for food and nutrition. Please see the following video for some of its tips for eating well. 
 
-      _Original content are 10 slides - this would would work better as a video with a presenter and images, ALSO include old P3 5 a day slider_
+      _Original content are old P210 slides - this would would work better as a video with a presenter and images, ALSO include old P3 5 a day slider_
     video: placeholder_pc.mp4
   -
   -
@@ -115,9 +103,9 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
-  -
-  
+      copy: |
+        Do you think you follow all of the healthy eating advice on this page? Make some notes in the box to the right and save to your journal.
+  - 
   -
     title: Quick quiz
     copy: Guess the food group
@@ -156,8 +144,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about EATWELL LINK . . .
+        Please see the following website where you can learn more about healthy living from the NHS choices website:
 
       links:
-        website description: http://www.google.co.uk     
+        NHS choices – A balanced diet: http://www.nhs.uk/livewell/goodfood/pages/healthyeating.aspx    
   -

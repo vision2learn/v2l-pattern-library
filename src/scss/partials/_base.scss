@@ -266,7 +266,7 @@ button,
 [type="reset"],   
 [type="submit"],
 .button,
-.netlify-identity-button {
+[data-netlify-identity-button] {
   -webkit-appearance: none;
   background-color: $primary1;
   border: none;
@@ -297,7 +297,8 @@ button,
   &[disabled] {
     filter: opacity(.2);
     cursor: not-allowed;
-  }}
+  }
+}
 
 main * + blockquote,
 main * + figure {

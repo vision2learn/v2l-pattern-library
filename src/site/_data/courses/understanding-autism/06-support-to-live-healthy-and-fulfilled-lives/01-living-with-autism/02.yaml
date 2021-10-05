@@ -1,0 +1,76 @@
+title: Living with autism
+intro: |
+  In this session you will learn about what is it to live with autism and how it affects the individual and their family.
+banner: ua_u6_s1_p2_living.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the potential effects of living with autism on an individual’s:
+      * development and puberty
+      * education, employment and life chances
+      * access to services and facilities.
+  -
+    title: The potential effects of living with autism
+    theme: t-bg-primary
+    copy: |
+      Let's look at some of the potential effects living with autism can have on an individual.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Development and puberty
+          text: |
+            Children with autism spectrum disorder tend not to reach all developmental milestones at the appropriate times and they can vary depending on where they are on the spectrum. Children with autism start puberty the same time as their peers usually around 12 for girls and 14 for boys, as this is a physical development that happens regardless of the other developmental milestones. Children with autism can find the body changes associated with puberty deeply alarming.
+          img: ua_u6_s1_p2_slide1.svg
+        -
+          title: Education
+          text: |
+            One of the most important decisions to be made about bringing up a child with autism is how they are to be educated. Should they go to a mainstream school with support from special educational needs staff if needed, or a special school for children with special educational needs. There are also specialist schools for those specifically with autism. This decision can be made more difficult if there is not much choice in the area they live.
+          img: ua_u6_s1_p2_slide2.svg
+        -
+          title: Employment
+          text: |
+            For all adults and families, employment is a key concern, and this is particularly felt by families with individuals on the spectrum, but many individuals with autism suffer from long term unemployment. Unemployment places financial demands not only on autistic adults and their parents, and also on the benefits system.
+          img: ua_u6_s1_p2_slide3.svg
+        -
+          title: Access to services
+          text: |
+            Individuals with autism and their families can often find they have to battle to get the access to services they need. Often their needs range across a variety of different services depending on the complexity of their disorder. Social awareness, information or understanding of the needs of individuals and their families can be inconsistent throughout some service sectors or not all services are available in all areas.
+          img: ua_u6_s1_p2_slide4.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s look at developmental changes and their effects in more detail in this video.
+    video: ua_u6_s1_p2_developmental_changes.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where there is advice and guidance on puberty for children with autism.
+
+      links:
+        Autism Spectrum news: https://autismspectrumnews.org/guiding-your-child-with-autism-through-puberty/
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      In this video we will look at the potential effects of education, employment and access to services in more detail.
+    video: ua_u6_s1_p2_potential_effects.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the box to the right make a note of the potential effects that living with autism can have for the individual. 

@@ -1,5 +1,7 @@
 # README
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea7d842a-aa5e-4f6b-97a3-971ab084ae5c/deploy-status)](https://app.netlify.com/sites/v2lrefresh/deploys)
+
 ## First run
 
 `docker run -it --rm -v ${pwd}:/code  -p 8080:8080 -p 3001:3001 mrsleeth/v2l-dev yarn install`

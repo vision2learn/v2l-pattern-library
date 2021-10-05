@@ -1,0 +1,67 @@
+title: "Skills"
+intro: |
+  On this page you will learn about:
+  * the key skills requirements of a cyber security professional. 
+banner: cs_u1_s1_p4_threats.jpg
+sections:
+  -
+    title: Skill requirements 
+    theme: t-bg-grey
+    copy: |
+      So, we can now see that to be a successful cyber security professional it is important to have the skills to be able to fight the cyber criminals at their own game. By knowing what they might do and how they will create their attack it makes it easier to pre-empt this and fix any vulnerabilities that may be present in a system.
+      So, what are some of the most important skills for a cyber security professional?   
+  -
+  
+    title: Key requirements
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      ### IT & Digital Technical Skills & Industry knowledge
+
+      A cyber security professional needs to have strong IT skills and good knowledge of systems including hardware, software and networks. They should also have a good understanding the systems in place that support the business and organisation that they work in. They should be up to date with any new advances in cyber security and have a deep understanding of how hackers work and ability to keep up with the fast pace of change in the criminal cyber-underworld. Self motivation to push their knowledge beyond the boundaries of the known and current cyber security landscape to anticipate future potential attacks by threat actors would also be a bonus.
+    img: /images/svg/placeholder_icon.svg
+
+  -
+    title: What other skills do cyber security individuals require?
+    theme: t-bg-primary
+    copy: |
+      Being a cyber security professional is not just knowing all about computers and systems and stopping or dealing with attacks there are other soft skill requirements for the role. scroll through the slides below to find out more about the soft skills required. 
+
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Communication
+          text: |
+            Good written and oral skills needed to clearly communicate complex topics to colleagues so they are  able to communicate their ideas and concerns with others within the department or in general within and organisation or company.
+          img: placeholder_icon.svg
+        -
+          title: Analytical Skills
+          text: |
+            A forensic approach to challenges and being able to analyse what might go wrong. Looking for potential problems before they happen. Ability to use logic and reasoning to identify the strengths and weaknesses of IT systems and having the ability to seek out vulnerabilities in IT systems, networks or where security needs to be improved overall.          
+          img: placeholder_icon.svg
+        -
+          title: Team Working
+          text: |
+            Ability to work independently or as part of a team, within a department and other departments such as HR, sharing skills to make sure that everyone is aware of security issues and potential vulnerabilities.
+          img: placeholder_icon.svg
+        -
+          title: Project Management
+          text: |
+            Organising new security projects to address any potential threats, putting together proposals, costing out new facilities and keeping everyone informed at all levels on their roles and the outcomes.          
+          img: placeholder_icon.svg
+        -
+          title: Problem Solving
+          text: |
+            Having a meticulous attention to detail in assessing what the problem is, no matter how big or small and being able to find solutions . Knowing how to address the problems by different means and approaches such as finding appropriate software or external services that can help to resolve any issues.          
+          img: placeholder_icon.svg
+   
+  -
+      title: Time to think
+      include: 
+      type: time-to-think
+      copy: content to relate to video
+      theme: t-bg-primary3 i-think
+

@@ -1,0 +1,17 @@
+---js
+{
+  unit: 5,
+  session: 1,
+  pagination: {
+    data: "courses['cyber-security']['05-understand-methods-of-maintaining-cyber-security']['01-Understand-preventative-methods-used-to-maintain-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

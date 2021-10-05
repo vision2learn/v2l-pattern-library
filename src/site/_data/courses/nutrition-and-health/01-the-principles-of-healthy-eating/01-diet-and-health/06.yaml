@@ -1,26 +1,26 @@
-title: Activity levels and energy
+title: Activity levels and Energy
 intro: |
   On this page you will learn about: 
   * Understanding activity levels
   * Energy requirements
 
-banner: placeholder.jpg
+banner: nh_u1_s1_p6_activity2.jpg
 sections:
   -
     title: Understanding activity levels
     theme: t-bg-primary
     copy: |
       In the last 50 years, advances in technology and changes to working life have led to many people doing less physical activity.
-
-      In the past, there were many jobs that were vigorous and physically demanding. These jobs, such as coal mining, construction or agricultural work would have required a large amount of physical effort.
-
-      Nowadays, many jobs are desk based and most people struggle to get enough exercise.
+      
+      In the past, there were many jobs that were vigorous and physically demanding. These jobs, such as coal mining, construction or agricultural work would have required a large amount of physical effort. Housework was also more demanding with the need to beat carpets, sweep floors and scrub many areas of the home. 
+      
+      Nowadays, modern appliance make household chores much easier, many jobs are desk based and most people struggle to get enough exercise.
   -
   -
     title: Aerobic activity levels
     theme: t-bg-supporting2
     copy: |
-      Select the images below to learn more about the different activity levels. 
+      Select the images below to learn more about the different activity levels.
 
     subInc: 
       type: reveal
@@ -28,37 +28,40 @@ sections:
         -
           title: Moderate intensity aerobic activity 
           copy: |
-            introduction text or example character here? 
-          img: placeholder_icon.svg
+            text
+          img: nh_u1_s1_p6_reveal1.svg
         -
           title: Vigorous intensity aerobic activity
           copy: |
-            introduction text or example character here? 
-          img: placeholder_icon.svg
+            text 
+          img: nh_u1_s1_p6_reveal2.svg
         -
           title: Muscle strengthening
           copy: |
-            introduction text or example character here? 
-          img: placeholder_icon.svg
+            text
+          img: nh_u1_s1_p6_reveal3.svg
   -
   -
-    title: Activity - Activity and Energy
-    layout: media
-    theme: t-bg-primary2
+    title: Interactivity - Energy requirements and weight
+    theme: 
     copy: |
-      _Include same 3 characters and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp  ALSO include Case Study (Belinda and Dan) from S3 old P3_
+      Once a person can calculate their total energy requirements they are in a position to maintain their weight.
 
-      Select the following icon to . . .
+      If they are taking on more energy than they are using, the excess calories will be converted into fat. You learnt about this earlier in the Session. In order to lose weight, you have to use more energy than you consume. 
 
+      Select the following to learn more about the relationship between energy requirements and weight.
 
-    img: /images/svg/Activity_button.svg
-    activity: 
+    interactive: 
+      file: nh/u1_s1_p6_weight
+      width: 1000
+      height: 653
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      text
+      It’s important to understand the different factors that can affect a person’s energy requirements.
   - 
   -
     title: On the web
@@ -71,12 +74,12 @@ sections:
       links:
         NHS Active Lifestyle: http://www.nhs.uk/Livewell/fitness/Pages/activelifestyle.aspx    
   -
-    title: Knowing what you need
+    title: What affects energy requirements?
     theme: t-bg-supporting3
     copy: |
        Different activity levels require different proportions of carbohydrates, fats and proteins. The dietary needs of a marathon runner are very different from those of a weightlifter!
        
-       The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more. 
+       The types and quantities of food that you need to eat will be influenced by several factors. Select the images below to learn more.
 
     subInc: 
       type: reveal
@@ -85,22 +88,37 @@ sections:
           title: Amount of activity
           copy: |
             Children, teenagers and adults should all follow a diet that is low in fat. Different levels of activity and the variations in this through the day will affect how much of each nutrient a person needs.  
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal1b.svg
         -
           title: Health / condition
           copy: |
             If someone is ill, recovering from an injury or pregnant, then they may need different nutrients than someone who is not. 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal2b.svg
         -
           title: Age
           copy: |
             People of different ages will require different levels of each nutrient.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal3b.svg
         -
           title: Physical changes
           copy: |
             If a person is trying to lose or gain weight, they may require different nutrients to someone who is trying to build muscle.
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p6_reveal4b.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      Gerry is 40 lbs overweight. His PAL is around 1.5. His BMR is 2200 calories per day and his total energy requirement is 3300 calories. However, he eats about 4000 calories every day. He is continuing to put on weight.
+
+      Gerry wants to lose weight. He starts by increasing his exercise regime so that his PAL is 1.8. This means his energy requirement becomes:
+
+      2200 x 1.8 = 3960 calories
+
+      If Gerry keeps on eating the same amount but increases his activity level, he will more or less stop putting on weight. However, if he decided to eat 10% (400 calories per day) less he would lose about 1 lb. every 9 days. In a year this will be close to his target weight!
+
+    img: /images/svg/nh/nh_u1_s1_p6_image.svg
   -
     title: Summary
     theme: t-bg-primary i-summary

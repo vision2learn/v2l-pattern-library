@@ -1,0 +1,108 @@
+title: The impact on family members
+intro: |
+  On this page we will look at the impact on family members of supporting an individual with autism.
+banner: ua_u6_s1_p3_impact.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the impact on family members of supporting:
+      * a child or young person with autism
+      * an adult with autism.
+  -
+    title: Supporting an individual with autism
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Having an autistic child can put a lot of strain on a family and can impact on various aspects of family life. These can include general housekeeping, finances, emotional and mental health of parents, marital relationships, physical and mental health of other family members. It may also limit the response to the needs of other children within the family and cause poor sibling relationships. 
+      
+      A lot of time may be spent helping a child get the support they need, and this can be very stressful and exhausting. But what then happens when the child becomes an adult, and their needs are changing also their support needs will change.
+
+    img: /images/svg/ua/ua_u6_s1_p3_image.svg
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a professional / key worker
+      
+      Please see the following interview video of a professional's response to the following question:
+      
+      Are there any scenarios you would be happy to impart, changing the names and details where necessary where you can share an insight into a relationship you have had with an individual with autism?
+    video: ua_u6_s1_p3_positive_zoe_t.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note in the box to the right of the impact that supporting a child/young person or an adult with autism can have on family members.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify positive aspects of living with autism.
+  -
+  -
+    title: The positive aspects of living with autism 
+    theme: t-bg-primary
+    copy: |
+      What are some of the positive aspects of living with autism? let’s look at these below.
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Concentration
+          copy: |
+            Individuals often have good concentration levels.
+          img: ua_u6_s1_p3_reveal1.svg
+        -
+          title: Technical ability
+          copy: |
+            They may have advanced technical ability especially in IT.
+          img: ua_u6_s1_p3_reveal2.svg
+        -
+          title: Subject knowledge
+          copy: |
+            Subject knowledge may be extensive and highly detailed.
+          img: ua_u6_s1_p3_reveal3.svg
+        -
+          title: Persistence and reliability
+          copy: |
+            They may show persistence and determination to complete tasks at all costs.
+          img: ua_u6_s1_p3_reveal4.svg
+        -
+          title: Accuracy
+          copy: |
+            Attention to detail can help to produce accuracy
+          img: ua_u6_s1_p3_reveal5.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Watch this video to learn more about the positive aspects of living with someone with autism.
+    video: ua_u6_s1_p3_positive_aspects.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the box to the right, make a list of the positive aspects that living with autism has.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the National Autistic Society website where you can learn more about family relationships.
+
+      links:
+        Family life and relationships: https://www.autism.org.uk/advice-and-guidance/topics/family-life-and-relationships/family-life

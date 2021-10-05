@@ -1,28 +1,25 @@
 title: Diet and health
 intro: |
-    When you have a balanced and healthy diet you feel good, have plenty of energy and avoid a number of health risks.
+  When you have a balanced and healthy diet you feel good, have plenty of energy and avoid a number of health risks.
 
-    There is no one food plan that suits everybody. Each person will have slightly different nutrient requirements, depending on a number of different factors.
-banner: placeholder.jpg
+  There is no one food plan that suits everybody. Each person will have slightly different nutrient requirements, depending on a number of different factors.
+banner: nh_u1_s1_p3_diethealth.jpg
 sections:
   -
     title: Introduction
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       Nutritional advise is usually general and you will find this throughout this course. It’s designed to provide you with the basics e.g. how and why you should include more nutritious food, reduce certain types of food, increase exercise and some of the common medical conditions associated with diet. 
 
       Research is showing that a one size that fits all approach to general diets does not suit everyone and in the future personalised/individual nutrition is likely to become more common practice . This is because more is being discovered about how each person’s metabolism responds uniquely to food and processes the macro nutrients and micro nutrients we eat differently.  Therefore, what works for one person might not work for another. However, eating natural unprocessed foods that incorporates all of the key nutrients will ensure that you are maintaining good health and will reduce overall health risks.
 
-    img: /images/svg/placeholder_icon.svg
-  -
+    img: /images/svg/nh/nh_u1_s1_p3_image.svg
   -
     title: A healthy diet
     theme: t-bg-primary
     copy: |
-      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.
-
-      Select the images below to learn more about the influencing factors for a healthy diet.
+      A healthy diet may be different for each individual person and will depend on certain factors. All diets should be balanced, nutritional and restrict processed and sweetened foods.  Scroll through the slides to learn some of the considerations of a healthy diet that will be explored further throughout this course.
     subInc: 
       type: slider
       title: 
@@ -30,38 +27,47 @@ sections:
         -
           title: Macro and Micronutrients
           text: |
-            Macro nutrients are needed in larger quantities and provide the body with energy. These are: carbohydrates, fat and protein. Each of these groups contain vitamins and minerals that make up micronutrients. e.g. proteins such as fish and eggs contain the micronutrients iron, calcium and vitamin D; Oily fish also a good source of fat and provides Omega-3; carbohydrates such as wholegrain bread and rice contain magnesium, vitamin B and fibre. 
+            *Macronutrients* are needed in larger quantities and provide the body with energy. These are: carbohydrates, fat and protein. 
+            
+            Each of these *macronutrients* contain vitamins and minerals that make up *micronutrients*. e.g. proteins such as fish and eggs contain the micronutrients iron, calcium and vitamin D; Oily fish *is* also a good source of fat and provides Omega-3; carbohydrates such as wholegrain bread and rice contain magnesium, vitamin B and fibre. 
             
             By eating a varied diet with foods from the different macronutrients you should get enough micronutrients to keep you healthy. 
-          img: placeholder_icon.svg
+          img: nh_u1_s1_p3_slide1.svg
         -
           title: Saturated and Unsaturated Fats
           text: |
             Fats are important for energy, growth, absorbing some vitamins, maintaining cell membranes and other important functions.
-            Unsaturated fats are found in natural foods e.g. nuts, seeds, avocados, oily fish and olive oil. Consuming unsaturated fats has been found to decrease the risk for heart disease. 
-
-            Unsaturated fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil.
-          img: placeholder_icon.svg
+            
+            Unsaturated fats are found in natural foods e.g. nuts, seeds, avocados, oily fish and olive oil. Consuming unsaturated fats has been found to decrease the risk for heart disease *and other illnesses*. 
+            
+            *Saturated* fats and trans fats are found in processed foods and fatty meat. These should only be eaten in very small quantities, or not at all. Foods include pastries, biscuits, cheese, palm oil, bacon, sausages and red meat.
+          img: nh_u1_s1_p3_slide2.svg
         -
           title: Herbs and Spices
           text: |
-            For added health, herbs and spices should be included in a varied diet. Used by our ancestors, these do far more than add flavour and are used in many medicines. By adding herbs and spices to your meals it could help lower cholesterol and inflammation, prevent Alzheimers and strengthen the immune system. 
-          img: placeholder_icon.svg
+            For added health, herbs and spices should be included in a varied diet. Used by our ancestors, these do far more than add flavour and are used in many medicines. By adding herbs and spices to your meals it could help lower cholesterol and inflammation, prevent Alzheimers and strengthen the immune system.  
+          img: nh_u1_s1_p3_slide3.svg
         -
           title: Fibre
           text: |
-            Fibre not only keeps the digestion functioning regularly, it can also help protect us from diseases such heart disease, diabetes and irritable bowl syndrome. It helps keep our microbiome healthy and reduces the amount saturated fat absorbed by the body. It also helps us to feel for longer and can aid in weight loss. 
-          img: placeholder_icon.svg
+            Fibre not only keeps the digestion functioning regularly, it can also help protect us from diseases such heart disease, diabetes and irritable bowl syndrome. It helps keep our *microbiome* healthy and reduces the amount of saturated fat absorbed by the body. It also helps us to feel *fuller* for longer and can aid in weight loss.
+          img: nh_u1_s1_p3_slide4.svg
         -
           title: Water
           text: |
-            Water will help you to digest food and absorb nutrients into the body. It is therefore important to drink plenty to gain as much goodness as you can from your diet. Along with preventing illness, improving skin and hair appearance and increasing cognitive thinking; it will also raise your energy levels and metabolism, leading to better weight loss. 
-          img: placeholder_icon.svg
+            Water will help you to digest food and absorb nutrients into the body. It is therefore important to drink plenty to gain as much goodness as you can from your diet. Along with preventing illness, improving skin and hair appearance, and increasing cognitive thinking; it will also raise your energy levels and metabolism, leading to better weight loss. 
+          img: nh_u1_s1_p3_slide5.svg
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    title: Microbiome
+    theme: 
     copy: |
-      Make sure that you understand the key differences between diets for adults and diets for children. You will need to write about this in your Assessment.
+      A microbiome is the community of micro-organisms living together in a particular habitat. Each of us has a unique microbiome living in our gut that influence our appetite, immune response and even our mood. Research into microbiomes is still in its early stages but it is thought that in the future this will help us to understand different diseases such as cancer. 
+      
+      Read and view more on this fascinating topic on the following links:
+
+      [Microbiology society](https://microbiologysociety.org/blog/what-is-a-microbiome.html)
+      
+      [What is Microbiota and the Microbiome?](https://www.mothersbabies.org/what-is-microbiota-and-the-microbiome/?gclid=CjwKCAjw8cCGBhB6EiwAgORey11ilw7rtgpjD0d72Jsjlmd4Trgf7puZf_Wk-ucdm1rd9XqajXvXixoCsSsQAvD_BwE)
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -69,11 +75,10 @@ sections:
     copy: |
       ### Key differences between adults and children.
 
-      Please see the following video to see .......
+      Please see the following video to see 
 
       _ID Note - This is to be a scenario based video to replace content on old p7 and the case study - reference https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7-a.asp and https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg7.asp_
     video: placeholder_pc.mp4
-  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -83,6 +88,11 @@ sections:
         Now you have watched the video, are you surprised by the differences between the diets of adults and children? Make some notes here before you move on.
 
         *You can refer to these notes in your journal which will support you when you come to your assessment*
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      You will need to define the term ‘healthy diet’ and ensure that you understand the key differences between healthy diets for adults and children. You will need to write about this in your Assessment.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web

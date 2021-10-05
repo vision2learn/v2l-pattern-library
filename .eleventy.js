@@ -8,6 +8,7 @@ const Image = require('@11ty/eleventy-img');
 const path = require("path");
 const fs = require("fs");
 const MarkdownIt = require('markdown-it');
+const ssri = require('ssri');
 
 let tilde = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : '';
 let missingCaptions = [];
@@ -77,6 +78,30 @@ module.exports = function(config) {
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
   config.addNunjucksAsyncShortcode("image", imageShortcode);
+  config.addAsyncShortcode("ssri", async function(file) {
+    let filePath;  
+    
+    if(file.endsWith('.css')) {
+      filePath = `dist/css/${file}`;
+    }
+    else if(file.endsWith('.js')) {
+      filePath = `dist/js/${file}`;
+    }
+
+    try {
+      fs.accessSync(filePath, fs.constants.F_OK);
+
+      return await ssri.fromStream(fs.createReadStream(filePath), {
+        algorithms: ['sha256']
+      }).then(integrity => {
+        return integrity.toString();
+      });
+      
+    } catch (err) {
+      console.log(`ERROR WITH CSS`);
+      return false;
+    }
+  });
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'default.liquid');
@@ -106,6 +131,7 @@ module.exports = function(config) {
     let transcript = '';
     let multi = basename.indexOf('_pc') > 0 ? true : false;
     let filesToCheck = [basename];
+    let vidFilePath = `https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/${file}`;
 
     if(multi) {
       filesToCheck.push(basename.replace('_pc', '_mac'))
@@ -114,9 +140,9 @@ module.exports = function(config) {
     // Is there a VTT for this video?
     try {
       fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
-      track = `<track label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
+      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
     } catch (err) {
-      // console.log(`No VTT file for ${file}`);
+      console.log(`No VTT file for ${file}`);
       missingCaptions.push(file);
     }
 
@@ -138,11 +164,19 @@ module.exports = function(config) {
           </toggle-section>
         `;
       } catch (err) {
-        // console.log(`No transcript for ${file}`);
+        console.log(`No transcript for ${file}`);
         missingTranscripts.push(file)      
       }
     });
     
+    // Remote video?
+    try {
+      fs.accessSync(`src/site/videos/${file}`, fs.constants.F_OK);
+      console.log(`Using local version of ${file}`);
+      vidFilePath = `${tilde}/videos/${file}`;
+    } catch (err) {
+    }
+
 
     return `
       <div class="l-video-container">
@@ -151,7 +185,7 @@ module.exports = function(config) {
           data-ext="${ext}" 
           data-multi="${multi}"
           data-trans="${filesToCheck[0]} ${filesToCheck[1]}">
-          <source src="${tilde}/videos/${file}" type="video/mp4">
+          <source src="${vidFilePath}" type="video/mp4">
           ${track}
           <p>Sorry, your browser doesn't support embedded videos</p>
         </video>
@@ -243,7 +277,7 @@ module.exports = function(config) {
     }
   });
 
-  config.addFilter("uniqueID", val => {return `${val}_${+new Date()}` });
+  config.addFilter("uniqueID", val => {return `${val}_${Math.floor(Math.random(+new Date)*9999999999999)}` });
 
   // Add some utiliuty filters
   config.addFilter("squash", require("./src/filters/squash.js") );
@@ -265,13 +299,14 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
-  config.addPassthroughCopy("./src/site/captivate");     
+  // config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");
   config.addPassthroughCopy("./src/site/js");
   config.addPassthroughCopy("./src/site/_redirects");
   config.addPassthroughCopy("./src/site/admin");
+  config.addPassthroughCopy("./src/site/resources");
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;

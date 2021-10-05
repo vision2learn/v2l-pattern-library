@@ -10,11 +10,12 @@ const ContentToggle = (() => {
   let storage = document.querySelector('[data-v2l-env=netlify]') ? window.sessionStorage : window.localStorage; // use session storage if we're on netlify platform    
   let baseVidSrc = [];
   let baseIntSrc = [];
+ 
   // check we're in IT?
 
   toggle.init = () => {
     // don't go any further if we're not in IT or localStorage isn't available
-    if(!course.startsWith('it') || !Toolkit.storageAvailable('localStorage')) {
+    if(!course || (!Toolkit.storageAvailable('localStorage') || !course.startsWith('it'))) {
       return false;
     }
     
@@ -26,12 +27,15 @@ const ContentToggle = (() => {
     // get the base file name before modding 
     // TODO: Is this unnecessary?
     videos.forEach(video => {
+      let vidContainer = video.parentNode.parentNode;
       let url = new URL(video.src);
-      let basename = url.pathname.substring(0, url.pathname.indexOf('_pc'));
+      let basename = url.pathname.substring(url.pathname.lastIndexOf('/') + 1, url.pathname.indexOf('_pc'));
+    
       if(url.pathname.indexOf('_pc') > -1) {
+        vidContainer.dataset.v2lFormat = "pc";
         baseVidSrc.push({
-          vidPath: basename,
-          vttPath: basename.replace('/videos/', '/videos/captions/vtt/')
+          vidPath: url.origin + url.pathname.substring(0, url.pathname.indexOf('_pc')),
+          vttPath: `${V2lPage.appPath}/videos/captions/vtt/${basename}`
         });
       }
     });
@@ -87,6 +91,7 @@ const ContentToggle = (() => {
           newTrack.label = `English`;
           newTrack.kind = 'captions';
           newTrack.srclang = 'en';
+          newTrack.default = 'true';
           video.parentElement.parentElement.setAttribute('data-v2l-format', urlMod);
           video.parentElement.appendChild(newTrack);
         }

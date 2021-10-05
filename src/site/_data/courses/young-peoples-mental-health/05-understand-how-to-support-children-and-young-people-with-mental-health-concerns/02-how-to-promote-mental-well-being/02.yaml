@@ -1,7 +1,7 @@
-title: Responding to behaviour and lifestyle choices that respects self-esteem
+title: Responding to behaviour and lifestyle choices
 intro: |
-  intro text
-banner: placeholder.jpg
+  There are different ways to respond to behaviour and lifestyle choices of children and young people whilst still respecting their self esteem.
+banner: ypmh_u5_s2_p2_self_esteem.jpg
 sections:
   -
     title: Key point
@@ -21,60 +21,34 @@ sections:
           title: Show empathy
           copy: |
             When things distress a child a parent or carer should show empathy and understanding for their concerns
-          img: placeholder_icon.svg
+          img: ypmh_u5_s2_p2_reveal1.svg
         -
           title: Give attention
           copy: |
             Children should not have to seek attention they should receive undivided attention whenever they need it
-          img: placeholder_icon.svg
+          img: ypmh_u5_s2_p2_reveal2.svg
         -
           title: Love a child
           copy: |
             A child should be loved unconditionally and always accepted for who they are
-          img: placeholder_icon.svg
+          img: ypmh_u5_s2_p2_reveal3.svg
         -
           title: Learning experience
           copy: |
             A child should be given a chance to contribute and if they make a mistake, they can learn from that experience
-          img: placeholder_icon.svg
+          img: ypmh_u5_s2_p2_reveal4.svg
         -
           title: Solving problems
           copy: |
             A child should learn to solve problems for themselves and make decisions when needed but with help where necessary
-          img: placeholder_icon.svg
+          img: ypmh_u5_s2_p2_reveal5.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - one presenter with video clips/images_
-      
       Please see the following video to learn more.
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    video: ypmh_u5_s2_p2_lifestyle_choices.mp4
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -86,28 +60,32 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - two presenters with video clips/images_
-      
       Let’s look at how adults and parents can help children and young people make good lifestyle choices to help with self-esteem.
-    video: placeholder_pc.mp4
+    video: ypmh_u5_s2_p2_responding_to_behaviour.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Can you think of ways that you can support children and young people to express their emotions and concerns within a safe enviroment? Make a note of your answer in the box to the right. 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: How a person feels about themselves and many different pressures growing up can affect a child’s or young person’s self-esteem.
+          answer: self-esteem
+        -
+          sentence: Children and young people with high self-esteem often have a positive image of themselves and are confident, make friends easily, and will try new things and adapt to change. 
+          answer: positive image
+        -
+          sentence: Having a healthy self-esteem is essential in making safe and healthy choices.   
+          answer: healthy choices
+        -
+          sentence: Children and young people may need to be guided to make good lifestyle changes for the benefits of their mental well-being.
+          answer: mental well-being
+    theme: i-quiz
