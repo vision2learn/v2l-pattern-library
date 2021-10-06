@@ -1,16 +1,68 @@
-title: "Your learning goals"
+title: "Areas affected by cyber attacks"
 intro: | 
-  Work hard throughout your course and be honest about the effort you put into each session. 
+  On this page you will learn about the following areas in relation to cyber security. 
+  * hardware 
+  * software 
+  * data management 
 
-  Focus on your learning goals and you may be surprised by how much you can achieve.
-banner: cs_goals_header.svg
+banner: cs_u1_s1_p3_cyber.jpg
 sections: 
   -
-    title: goal setting
-    theme: t-bg-supporting2
-    copy: | 
-      It is important to set yourself achievable targets and specific deadlines. These will keep you focused and increase your chance of overall success. Writing down your goals often gives you greater motivation to achieve them.
+    title: Targets
+    theme: t-bg-primary
+    copy: |
+      Cyber security is the practice of protecting computer system hardware, networks, software programmes and data from cyber attacks. Cyber attacks are offensive manoeuvres targeting  computer networks or information systems. Cyber security software is a must for all individuals and businesses to protect their network, system or applications from cyber attacks and this needs to be regularly maintained to stop threats like ransomware, malware, social engineering and phishing.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Hardware and software
+      Let's look at the different areas that may be affected by a cyber attack. 
+    video: placeholder_pc.mp4
+  -
+    title: Data management
+    theme: t-bg-primary
+    copy: |
+      Data management is the process of ingesting, storing, organising and maintaining data created and collected by a business or an organisation. It includes different functions that collectively aim to make sure it is accurate, available and accessible. Data can help an organisation or business to make strategic planning decisions and therefore is at risk of threat attack from cyber criminals. All businesses deal in data to some degree from a bank with massive volumes of personal and financial data to a small business that contacts its customers by mobile phone.
+      
+      Scroll through the slides below to learn more about data management...
 
-      ### Your motivation map
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Data security
+          text: |
+            Data security technology also comes in many different shapes and forms to protect data from the growing number of cyber threats that are out there. Most threats are external but some are insider threats. Data can be secured by the means of encryption, masking, erasure and resilience. 
+            Data security needs to protect any data that is collected, stored, created, received or transmitted. Data breaches can result in damaging a company or organisation's reputation as well as litigation
+          img: placeholder_icon.svg
+        -
+          title: Cyber Secure
+          text: |
+            To be cyber secure, data must be handled in a way that ensures confidentiality and protection against unlawful or unauthorised processing or access. Integrity checking can maintain internal consistency and lack of corruption of data. Data should also only be accessible to the appropriate parties and only when necessary. Data should also be destroyed safely when it is no longer needed.
+          img: placeholder_icon.svg
+        -
+          title: Data breach
+          text: |
+            If there is a personal data breach then it is an organisation or businesses responsibility to report it promptly as we discussed in unit 1 session 2.
+            The 'Data Protection Act of 2018' is the UK's implementation of the General Data Protection Regulation (GDPR) and controls how personal information is used by organisations, businesses and governmental departments and stipulates that everyone responsible for using personal data has to follow strict guidelines, also known as 'data protection principles'. 
+          img: placeholder_icon.svg
 
-      A Motivation Map has three parts. [Download your own motivation map](/documents/motivation-map-blank.doc) and work your way through the steps below.
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        Data protection laws: https://www.gov.uk/data-protection     
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think

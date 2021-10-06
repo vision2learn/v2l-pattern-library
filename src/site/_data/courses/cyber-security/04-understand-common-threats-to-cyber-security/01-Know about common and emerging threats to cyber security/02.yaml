@@ -1,16 +1,33 @@
-title: "Your learning goals"
+title: Know about common and emerging threats to cyber security
 intro: | 
-  Work hard throughout your course and be honest about the effort you put into each session. 
-
-  Focus on your learning goals and you may be surprised by how much you can achieve.
-banner: cs_goals_header.svg
+  On this page you will learn about the following areas in relation to cyber security. 
+  common and emerging threats to cyber security 
+  
+banner: cs_u1_s1_p3_cyber.jpg
 sections: 
   -
-    title: goal setting
-    theme: t-bg-supporting2
-    copy: | 
-      It is important to set yourself achievable targets and specific deadlines. These will keep you focused and increase your chance of overall success. Writing down your goals often gives you greater motivation to achieve them.
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: Common and emerging threats to cyber security.
+    theme: t-bg-primary
+    copy: |
+      As we all know the technology landscape is constantly changing and this is even more relevant to cybersecurity especially over the last year with the disruption caused by the pandemic. None of us could envisage what would happen to this extent and what the impact would be on our lives and for business, technology and cybersecurity. This has created so many opportunities for cyber criminals to develop new attacks and threaten our cyber security.
 
-      ### Your motivation map
-
-      A Motivation Map has three parts. [Download your own motivation map](/documents/motivation-map-blank.doc) and work your way through the steps below.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Threats
+      So as the threat landscape changes and new threats emerge, let's look at what we have to deal with today and what may come tomorrow in the field of cyber security.
+    video: placeholder_pc.mp4
+  -    
+  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think

@@ -15,31 +15,33 @@ sections:
       4. Why cyber security issues should be reported promptly
 
   -
-    title: Reveal
+    title: Common Cyber Crime Vulnerabilities.
     theme: t-bg-supporting2
     copy: |
-      text
+      'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
+       Cyber criminals seek to exploit vulnerabilities in technology, people, or processes in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks.
 
-      Select the images below to read 
+
+      Select the images below to read about those at risk.
 
     subInc: 
       type: reveal
       content:
         -
-          title: individual
+          title: Individuals
           copy: |
-            text
-          img: placeholder_icon.svg
+            Phishing attacks on individuals are increasing which can lead identify theft and fraud. Instances of cyber bullying are also on the increase which is also considered a type of cybercrime.
+          img: cs_u1_s2_p1_reveal1.svg
         -
-          title: business
+          title: Business
           copy: |
-            text
-          img: placeholder_icon.svg
+            There has been a significant growth in cyber criminality over the last few years especially with ransomware. Breaches of personal data leaves victims vulnerable to fraud and put lives at risk.
+          img: cs_u1_s2_p1_reveal2.svg
         -
-          title: nations
+          title: Nations
           copy: |
-            text
-          img: placeholder_icon.svg
+            On a global scale governments and nations are also at high risk of falling victim to cyber crime in one way or another and this affects everyone.
+          img: cs_u1_s2_p1_reveal3.svg
             
   -
     title: Watch 
@@ -47,7 +49,7 @@ sections:
     layout: media
     copy: |
       ### Title
-      Please see the following video for 
+      Lets have a look at these vunerabilities in more detail...
     video: placeholder_pc.mp4
   -
   

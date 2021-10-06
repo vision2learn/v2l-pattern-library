@@ -7,20 +7,6 @@ banner: nh_u1_s2_p2_variety.jpg
 sections:
   -
     title: What is a portion?
-    layout: media
-    theme: t-bg-primary1a
-    copy: |
-      Checking your portion size will ensure that you are eating the correct quantity of each food group. Each person will need different amounts of food depending on their gender, age, activity level and health. Therefore the below is a guide only. 
-      
-      You may find this calculator useful to help you find the correct amount for you:
-      
-      [Portion Planner | Love Food Hate Waste](https://lovefoodhatewaste.com/portion-planner?gclid=Cj0KCQjw24qHBhCnARIsAPbdtlJVC9vVqBVNhPzeKMQC1rs-1lrXWJ8KyChEvzgT4LLiIkJu6_YWvCUaAtPFEALw_wcB)
-
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: What is a portion?
     theme: 
     copy: |
       Checking your portion size will ensure that you are eating the correct quantity of each food group. Each person will need different amounts of food depending on their gender, age, activity level and health. Therefore the below is a guide only. 
@@ -145,7 +131,7 @@ sections:
   -
   -
     title: Eating a variety of foods
-    theme: t-bg-supporting2
+    theme: t-bg-supporting3
     copy: |
       There are many advantages to eating a wide variety of foods. A narrower range can be unhealthy, less enjoyable and more expensive. Scroll through the slides below to learn more.
 
@@ -181,16 +167,23 @@ sections:
             
             If a person likes a variety of foods, they have more choice over what to eat. Someone who eats a wide variety of foods has a better chance of finding the nutrition they need in the food available. 
           img: nh_u1_s2_p2_slide4.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+        You need to be able to describe the importance of eating a variety of foods in your assessment!
+        Make sure you feel confident about this before you move on.
 
   -
-
     title: Case study - PLACEHOLDER
     theme: t-bg-primary1a i-case-study
     copy: |
-      _PLACEHOLDER - there is a lot of content so may need to be changed?_
+      _PLACEHOLDER - to be changed to a interactivity - click on character, shows diet icons_
+
       ### Case study - Karla and Trisha
 
-      Take a look at the eating diaries for two women. Each tries to eat healthily and to get a variety of foods. What do you think about their diets? How healthy are they? 
+      Take a look at the eating diaries for two women. Each tries to eat healthily and to get a variety of foods. What do you think about their diets? How healthy are they? Take a look at the below information and then have a go at the quiz.
     subInc: 
       type: accordion
       content:
@@ -198,46 +191,50 @@ sections:
           title: Diet 1 - Karla
           copy: |
             Karla works part-time from home as a designer. She meets clients at her home and is trying to increase her fruit and vegetable intake.
+
+            | Meal | Food |
+            |------|------|
+            |Breakfast | 1 slice of wholemeal toast, 1 scrambled egg (with soft margarine), 1⁄3 tsp salt, 1 glass of orange juice, and 1 latte coffee with full fat milk. |
+            |Lunch | Roast beef sandwich - 85g roast beef, Shredded lettuce, 40g mozzarella cheese, 1 tsp mustard, 1 tbsp ketchup.  1 wholemeal teacake, Three baked potato wedges, 1⁄3 tsp salt, and 1 latte coffee with full fat milk. |
+            |Dinner | 140g salmon fillet broiled - 28g bread stuffing mix, 1 tbsp chopped onions, 1 tbsp diced celery, 42g mozzarella cheese, 2 tsp oil, 20g slivered almonds. ½ cup of white rice, ½ cup steamed broccoli, ½ tsp salt, and 1 glass of milk. |
+            |Snacks | 1 cup of salted peanuts and 3 or 4 further lattes through the day. |
             
-            _needs to be changed to an interactivity/activity so we can have hotspots for diet images_
-          img: /images/svg/placeholder_icon.svg
+            Karla has quite a healthy diet; she eats a variety of different foods and does eat some fruit and vegetables. 
+          img: /images/svg/nh/nh_u1_s2_p2_case_study1.svg
         -
           title: Diet 2 - Trisha
           copy: |
-             Trisha has a high pressure job as a marketing consultant. She strives to maintain a healthy diet.
-             
-             _Click the images below to see what a typical day in Trisha’s diet might look like._
+            Trisha has a high pressure job as a marketing consultant. She strives to maintain a healthy diet.
+            
+            | Meal | Food |
+            |------|------|
+            |Breakfast | 1 bowl shredded wheat cereal, 1 tbsp raisins, 1 cup fat free milk, 1 small banana, 1 slice wholemeal toast, 1 tsp soft margarine. |
+            |Lunch | Turkey pitas -  85g fried turkey strips, 60g wholemeal pita bread, 4 lettuce leafs, 2 slices tomato, 1 tbsp low fat mayonnaise dressing, 1 tsp mustard.  5 baked potato wedges, ½ cup apple slices, 1 or 2 glasses of chardonnay. |
+            |Dinner | 150g of fried steak, 3 potatoes, ½ cup steamed carrots, 1 tbsp honey. 1 wholemeal bread roll, 1 tsp soft margarine, 1 large glass of red wine. |
+            |Snacks | 1 cup low fat fruited yoghurt and at least half a bottle of red wine in the evening. |
 
-             _change - reference - https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session02/pg4-a.asp_ 
-          img: /images/svg/placeholder_icon.svg
+            Trisha has a very healthy diet. She eats a large amount of fruit and veg and chooses wholemeal carbohydrates over white ones. 
+          img: /images/svg/nh/nh_u1_s2_p2_case_study2.svg
   -
   -
     title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    copy: Where could Karla and Trisha make small changes to improve their diets?
+    subInc: 
+      type: word-quiz
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-       You need to be able to describe the importance of eating a variety of foods in your assessment!
-       Make sure you feel confident about this before you move on.
+        -
+          sentence: Karla could reduce the amount of salt she eats by never adding it to her meals. 
+          answer: salt
+        -
+          sentence: Trisha could prepare meat in a healthier way than frying – she could grill or roast it instead.
+          answer: frying
+        -
+          sentence: Karla could replace her snack of peanuts with fruit such as bananas or apples.
+          answer: peanuts
+        -
+          sentence: Trisha could reduce the amount of alcohol by drinking less in the evening.
+          answer: alcohol
+        -
+          sentence: Karla could reduce the amount of fat in her diet by using skimmed milk in her coffee.
+          answer: fat
+    theme: i-quiz
