@@ -190,7 +190,7 @@ workflows:
           filters:
             branches:
               only:
-                - rayner-mod
+                - staging
                 - master
       - dotnet:
           filters:
@@ -203,7 +203,7 @@ workflows:
           filters:
             branches:
               only:
-                - rayner-mod
+                - staging
       - deploy:
           requires:
             - build
@@ -216,7 +216,7 @@ workflows:
             - staging
           filters:
             branches:
-              only: rayner-mod
+              only: staging
       - backstop-references:
           requires:
             - deploy
