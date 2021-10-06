@@ -1,5 +1,6 @@
 [data-v2l-tags="it"],
-[data-v2l-theme="it"] {
+[data-v2l-theme="it"],
+[data-v2l-theme="lean-management"] {
   --highlight: hsl(44,100%,50%);
 }
 
@@ -18,6 +19,10 @@
 .t-bg-primary {
   background-color: $primary1;
   background-color: var(--primary1);
+
+  @media (prefers-color-scheme: dark) {
+    color: hsl(var(--primary-hue), 100%, 3%);
+  }
 }
 
 .t-bg-primary2 {
@@ -85,4 +90,24 @@
 .t-bg-supporting1,
 .t-bg-supporting2 {
   color: $secondary1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .t-bg-supporting1,
+  .t-bg-supporting2,
+  .t-bg-grey,
+  .t-bg-supporting3 {
+    color: hsl(0, 0%, 80%);
+  }
+
+  main > section:not([class]) {
+    outline: dashed 1px yellow;
+    outline-offset: -3px;
+    background: var(--supporting3);
+    color: hsl(0, 0%, 80%);
+  }
+}
+
+.svg-highlight {
+  fill: var(--highlight);
 }

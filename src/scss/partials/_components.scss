@@ -1,18 +1,10 @@
 .c-main-head {
-  background-color: rgb(37, 40, 43);
-  border-width: 0;
-  border-style: solid;
-  border-color: $primary1;
+  background-color: $secondary1; // fallback;
+  border-color: $primary1; // fallback
+  background-color: var(--secondary1);
+  border: solid var(--primary1) 0;
   border-bottom-width: 5px;
   color: #fff;
-
-  nav {
-    grid-area: pagination;
-
-    // &::before {
-    //   content: "Pages: "
-    // }
-  }
 
   &__details {
     font-size: 1.125em; // 18px @ 16px base
@@ -24,7 +16,7 @@
     }
   }
 
-  &__sessions {
+  &__sessions > ul {
 
     order: -1; // fallback
 
@@ -52,7 +44,8 @@
     }
 
     [aria-current="step"] {
-      color: $primary1;
+      color: $primary1; // fallback
+      color: var(--primary1);
     }
   }
 
@@ -100,11 +93,13 @@
       
       &:hover,
       &:focus {
-        color: $primary1;
+        color: $primary1; // fallback
+        color: var(--primary1);
       }
 
       &[aria-current="page"] {
-        border-bottom: solid 4px $primary1;
+        border-color: $primary1; // fallback
+        border-bottom: solid var(--primary1) 4px;
         filter: unset;
       }
     }
@@ -567,6 +562,7 @@ button svg {
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(37, 40, 43, .9);
+  // background-color: var(--secondary1-o);
   color: #fff;
   // align-items: center;
 
@@ -728,7 +724,7 @@ button svg {
 .c-reveal {
   color: $primary1;
   border: solid 1px;
-  margin-top: calc($flow * 1em);
+  margin-top: calc(var(--flow) * 1em);
 
   summary {
     display: block;

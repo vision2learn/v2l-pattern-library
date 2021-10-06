@@ -36,13 +36,13 @@
   {% set timeToWhat = 'Think'%}
 {% endif %}
 
-{%- if (session) < sessionCount %}
+{# {%- if (session) < sessionCount %}
   {%- set nextSession = session + 1 %}
   {%- set nextUnit = unit %}
 {%- else %}
   {%- set nextSession = 1 %}
   {%- set nextUnit = unit + 1 %}
-{%- endif %}
+{%- endif %} #}
 
 {%- set lastPage = (pagination.pageNumber == pagination.hrefs.length - 1) %}
 
