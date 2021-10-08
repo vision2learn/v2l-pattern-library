@@ -38,12 +38,12 @@ sections:
             * Familiarity – a criminal may build a rapport with you before asking you to send them money. This is seen a lot in phishing emails, pretending to be lonely young women looking for a partner.
             * Fear – a criminal may pretend to be your boss in a phishing email and demand you do something or else be fired.
             * Urgency – a criminal may instil a false sense of urgency in a phishing email “click here to get your 100% discount before the offer expires”
-          img: /images/svg/cs/cs_u1_s1_p4_accordion1.svg
+          img: /images/svg/cs/placeholder_icon.svg
         - 
           title:  Why do cyber criminals use it?
           copy: |
             As technology and subsequently cyber security gets more advanced, cyber criminals are turning more to social engineering to make their initial attack on a system and exploit the weakest link in the chain "the user". Unlike cyber attacks that rely on system vulnerabilities to gain access to unauthorised devices, social engineering targets human vulnerabilities. They can use a variety of methods both online and offline to con unsuspecting users into compromising their own systems or work-based systems by installing malware and giving away information. They may also be tricked into transferring money.
-          img: /images/svg/cs/cs_u1_s1_p4_accordion2.svg  
+          img: /images/svg/cs/placeholder_icon.svg  
   -
     title: Time to think
     theme: t-bg-primary3 i-think
