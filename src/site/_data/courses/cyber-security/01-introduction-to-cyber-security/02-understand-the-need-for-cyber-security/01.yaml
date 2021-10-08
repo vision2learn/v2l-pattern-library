@@ -1,72 +1,74 @@
-title: "Health, Safety and Security"
+title: "Understand the need for cyber security"
 intro: |
-  In this session, you will learn about three key areas of health safety and security:
-  - Employee and employee responsibilities
-  - The purpose of following procedures
-  - How to maintain a safe and secure environment
+  In this session you will learn about the need for cyber security and the impact of cyber crime on individuals, businesses or nations and why issues should be reported promptly so as to minimise that impact:
 banner: ba_u1_s2_p1_hss.jpg
 sections:
   -
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Business and Administration qualification.
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
     
-      1. Identify employer and employee responsibilities for health, safety and security in a business environment
-      2. Explain the purpose of following health, safety and security procedures in a business environment
-      3. Identify ways of maintaining a safe and secure environment in a business environment.
+      1. Common cyber crime vulnerabilities of an individual, business or nation
+      2. Impact of cyber crime on an individual, business or nation.
+      3. The importance of cyber security for an individual, business or nation.
+      4. Why cyber security issues should be reported promptly
+
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-     
-    include: 
-      type: on-the-web
-      copy: |
-        As you work through this session, you can find lots of additional information about health, safety and security at the following websites -
-      links:
-        HSE - Health and Safety Executive: http://www.hse.gov.uk/index.htm
-        Gov.uk - Health and Safety at Work: https://www.gov.uk/browse/employing-people/health-safety
-        ACAS - Working Time Directive and Regulations (1998): http://www.acas.org.uk/index.aspx?articleid=1373 
-        ICO - General Data Protection Regulation (GDPR): https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
-  -
-    title: Health and Safety - Staying safe at work
+    title: Common Cyber Crime Vulnerabilities.
+    theme: t-bg-supporting2
     copy: |
-      All employers and employees have a legal duty to ensure that working environments are safe and secure.
+      'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
+       Cyber criminals seek to exploit vulnerabilities in technology, people, or processes in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks.
 
-      One of the most important pieces of legislation is the **Health and Safety at Work Act 1974**. Most other health and safety regulations are based on this Act or are linked to it in some way.
 
-      The Health and Safety at Work Act states that everyone has a responsibility for health and safety in the workplace. Under this Act, employers must ensure the health, safety and welfare of their employees (and any other people who may be affected by the work they do).
+      Select the images below to read about those at risk.
 
-      See below to learn more.
     subInc: 
-      type: accordion
+      type: reveal
       content:
         -
-          title: All about Health and Safety
+          title: Individuals
           copy: |
-            The Health and Safety at Work etc Act 1974 is the main piece of legislation concerning health and safety for employers, employees and contractors in the UK.
+            Phishing attacks on individuals are increasing which can lead identify theft and fraud. Instances of cyber bullying are also on the increase which is also considered a type of cybercrime.
+          img: cs_u1_s2_p1_reveal1.svg
+        -
+          title: Business
+          copy: |
+            There has been a significant growth in cyber criminality over the last few years especially with ransomware. Breaches of personal data leaves victims vulnerable to fraud and put lives at risk.
+          img: cs_u1_s2_p1_reveal2.svg
+        -
+          title: Nations
+          copy: |
+            On a global scale governments and nations are also at high risk of falling victim to cyber crime in one way or another and this affects everyone.
+          img: cs_u1_s2_p1_reveal3.svg
+            
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Lets have a look at these vunerabilities in more detail...
+    video: placeholder_pc.mp4
+  -
+  
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### 'WannaCry' ransomware campaign
 
-            Employers have a legal duty under this Act to ensure, so far as is reasonably practicable, the health, safety and welfare at work of the people for whom they are responsible and the people who may be affected by the work they do.
+      “Breaches leak personal data on a massive scale and can leave victims vulnerable to fraud, while lives were put at risk and services damaged by the 'WannaCry' ransomware campaign that affected the NHS and many other organisations worldwide.”
+ 
+      “Prominent among the victims was the National Health Service (NHS); over a third of England’s NHS trusts were disrupted, with over 6,900 NHS appointments cancelled and some patients needing to travel farther for accident and emergency care.    Most of the NHS victims used systems for which patches were available but had not been applied, highlighting the importance of basic security practices.”
 
-            The legislation states that risks should be reduced "so far as is reasonably practicable". This term means that the person responsible for ensuring the health and safety of others must weigh up the risk of a health and safety incident occurring with the cost of trying to prevent it.
-          img: /images/svg/ba/ba_u1_s2_p1_slider_1.svg
-        -
-          title: Employers
-          copy: |
-            Employers must safeguard, so far as is reasonably practicable, the health, safety and welfare at work of all the people who work for them and “other persons”. This applies in particular to the provision and maintenance of safe plant machinery, equipment and systems of work, and covers all machinery and equipment used at work. Other persons can refer to contractors and even customers. 
-          img: /images/svg/ba/ba_u1_s2_p1_slider_2.svg
-        -
-          title: Employees
-          copy: |            	
-            People at work also have a duty under the Act to take reasonable care to avoid harm to themselves or to others by their working practices, and to co-operate with employers and others in meeting statutory requirements. The Act also requires employees not to interfere with or misuse anything provided to protect their health, safety or welfare in compliance with the Act.
-                    
-            At the heart of this legislation is the recognition that everyone has a responsibility for health and safety in the workplace.
-          img: /images/svg/ba/ba_u1_s2_p1_slider_3.svg
-        -
-          title: Did you know?
-          copy: |
-            According to the Health and Safety Executive (HSE) 
-            28.5 million days overall were taken as sick leave. That's 1.2 days per worker. 
-            Back injuries and conditions affecting the muscles are common in the workforce. 
-            Over 10,000 workers a year suffer injuries because of slips, trips or falls.
-          img: /images/svg/ba/ba_u1_s2_p1_slider_4.svg
+
+    img: /images/svg/placeholder_icon.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
+  -

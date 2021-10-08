@@ -1,0 +1,138 @@
+title: Data
+intro: |
+  On this page you will learn about data, data types used in coding, and ways that data can be stored.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define the term ‘data’.
+  -
+    title: What is Data?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      In computing Data is information that has been translated into a form that can be read, moved and processed by the computer. Data is any collection of numbers, characters or other symbols that have been coded into a format that can be inputted into a computer and processed. On it's own data means nothing but after processing in becomes information.  The main types of data that can be inputted into a computer are numeric, text, dates, graphics and sound. Raw data is a term used to describe data in its most basic digital form. 
+      
+      Data is digitally written, stored, and read on physical units such as CPUs, hard drives, and RAM. Data is stored by electrical circuits on the disk which are defined by binary inputs. To create these circuits, transistors within the processing units determine which binary state (on, ‘1’s or off, ‘0’s) parts of the memory are in. We will discuss exactly how this occurs later. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the key purpose of data types used in coding.
+  -
+  -
+    title: What is the purpose of data types in coding?
+    theme: t-bg-primary
+    copy: |
+      Data types in computing vary and can come in all shapes and sizes. Some are used to store numbers, some are used for text and some for more complicated types of data. A data type tells a computer system how to interpret its value.
+      
+      Let's have a look at some of the common data types.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Integer (int)
+          text: |
+            This is the most common numeric data type used to store whole numbers without fractions. Some examples of int’s are: 1, 0, -5, 263
+
+          img: placeholder_icon.svg
+        -
+          title: Float (or Real)
+          text: |
+            This is also a numeric data type used to store numbers that contain decimal points (like money) or for fractions. Float means ‘floating point’ number. Some examples of floats are: 0.3, 5.28568, -743.34854, 0.0
+
+
+          img: placeholder_icon.svg
+        -
+          title: Character (char)
+          text: |
+            Is used to store a single letter, digit, punctuation mark, symbol or blank space. There are different types of blank spaces including a single space ‘ ‘, a new line character (known as a carriage), as well as tabs. Different characters specify upper/lower case characters. Some examples of chars are: y, T, @, !, 1
+
+          img: placeholder_icon.svg
+        -
+          title: String (str or text)
+          text: |
+            Is the most common data type used to store text. It is a sequence of characters that can appear on a keyboard such as letters, numbers and symbols. Strings can contain any combination of characters: upper case, lower case, numerals, and symbols. The limit of how long a string depends on the language. Some example of strings are: Dog, sALamI, jump!, 21*&*("1
+
+          img: placeholder_icon.svg
+        -
+          title: Boolean (bool)
+          text: |
+            It used where data is restricted to true/false or yes/no options, also using binary true (1) or false (0).  Examples of Boolean are: TRUE, FALSE or 1, 0
+          img: placeholder_icon.svg
+  -
+  -
+    title: Data type rules
+    theme: t-bg-supporting3
+    copy: |
+      Different coding languages have different rules and ways of dealing with different data types. For example, when creating a string in Java from data that already exist in the memory (variables), you must use formatting specifiers to tell the program what sort of data type you are including in the string.
+
+      | Format Specifier | Data Type| Output |
+      |------|------|------|
+      | %a  | floating point (except BigDecimal) | Returns Hex output of floating point number. |
+      | %b  | Any type | "true" if non-null, "false" if null |
+      | %c  | character | Unicode character |
+
+  -
+  -
+    title: Quick quiz
+    copy: See if you can identify the different data types in the following word quiz.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A String is the most common data type used to store text.
+          answer: String
+        -
+          sentence: To store a whole number without fractions you would use an Integer data type.
+          answer: Integer
+        -
+          sentence: A Boolean data type would be used when data needs to be restricted to a true or false option.
+          answer: Boolean
+        -
+          sentence: A Character data type is used to store a single letter, digit, punctuation mark, symbol or blank space.
+          answer: Character
+    theme: i-quiz
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify ways that data can be stored.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Presenter or Narrator with images/diagrams or infographics _
+      
+      ### How is data stored?
+
+      Please see the following video on ....
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        How do you think your own computer stores data? Have a look at the storage capacity on your own machine - do you think there is enough?  What additional items would you use to backup your data or transfer data?
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about binary.
+
+      links:
+        What is binary?: https://allfromtech.wordpress.com/2017/10/20/what-is-binary-the-difference-between-base-10-and-base-2/

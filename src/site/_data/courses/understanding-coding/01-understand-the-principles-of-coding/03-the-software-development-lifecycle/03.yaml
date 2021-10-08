@@ -1,12 +1,64 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the third session of this unit! 
-banner: ba-u1-s1-p6.jpg
+title: Recap of all the stages
+intro: |
+  On this page we will go into further details and give a recap of all the stages of the software development lifecycle.
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
+      In your assessment you will be required to explain the different stages of the software development lifecycle.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Narrator with infographics (same/similar to interactivity and icons) for each stage._
+      
+      So let's review these stages and look at their importance in more detail in the following video.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have seen the video, explain in your own words all of the different stages of the software development lifecycle - this will help you for when you come to do your assessment.
+  -
+    title: Quick quiz
+    copy: Identify the different software development lifecycle stages in the following quiz.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The initial stages of requirement gather and analysis are the key planning stages where the requirements need to be fully understood so as to know what the clients requirements are. 
+          answer: planning stages
+        -
+          sentence: The next design stage involves designing the system architecture that will be used for implementing the system development. 
+          answer: design stage
+        -
+          sentence: The implementation stage is when the developers will start coding carefully following any software requirements and specifications.
+          answer: implementation stage
+        -
+          sentence: The testing stage always starts when the coding is completed and the product modules are released.
+          answer: testing stage
+        -
+          sentence: The deployment stage happens once the testing is over and the software demonstrated to be 'working'. 
+          answer: deployment stage
+        -
+          sentence: The maintenance stage is an ongoing process once the project is 'live'.
+          answer: maintenance stage
+    theme: i-quiz
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  SDLC and the different methods
+
+      If you would like to explore more about the Software Development Life Cycle (SDLC) and the different methods used (e.g. Waterfall or Agile), please click on the owl which will take you to a website with more details.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.upwork.com/resources/what-is-software-development-life-cycle

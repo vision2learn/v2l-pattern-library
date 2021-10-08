@@ -10,10 +10,10 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
   <link rel="stylesheet" href="/css/main.css" integrity="{% ssri 'main.css' %}">
   
-  {%- if theme %}
-    <link rel="stylesheet" href="/css/themes/{{ theme.name }}.css">
+  {%- if tags[0] == 'coding' %}
+    <link rel="stylesheet" href="/css/themes/prism-xonokai.css">
   {%- endif %}
-  {% comment %} <link rel="icon" type="image/svg xml" href="data:image/svg xml,<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#bd10e0"></rect><path d="M46.44 78.40L25.24 78.40L25.24 21.60L46.44 21.60Q55.80 21.60 62.08 25.40Q68.36 29.20 71.56 35.64Q74.76 42.08 74.76 49.92L74.76 49.92Q74.76 58.56 71.24 64.96Q67.72 71.36 61.36 74.88Q55 78.40 46.44 78.40L46.44 78.40ZM61.40 49.92L61.40 49.92Q61.40 44.96 59.64 41.16Q57.88 37.36 54.52 35.24Q51.16 33.12 46.44 33.12L46.44 33.12L38.36 33.12L38.36 66.88L46.44 66.88Q51.24 66.88 54.56 64.68Q57.88 62.48 59.64 58.60Q61.40 54.72 61.40 49.92Z" fill="#fff"></path></svg>"> {% endcomment %}
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23bd10e0'></rect><path d='M46.44 78.40L25.24 78.40L25.24 21.60L46.44 21.60Q55.80 21.60 62.08 25.40Q68.36 29.20 71.56 35.64Q74.76 42.08 74.76 49.92L74.76 49.92Q74.76 58.56 71.24 64.96Q67.72 71.36 61.36 74.88Q55 78.40 46.44 78.40L46.44 78.40ZM61.40 49.92L61.40 49.92Q61.40 44.96 59.64 41.16Q57.88 37.36 54.52 35.24Q51.16 33.12 46.44 33.12L46.44 33.12L38.36 33.12L38.36 66.88L46.44 66.88Q51.24 66.88 54.56 64.68Q57.88 62.48 59.64 58.60Q61.40 54.72 61.40 49.92Z' fill='%23fff'></path></svg>" />
 </head>
 
 {%- if tags[0] == "components" %}

@@ -1,0 +1,32 @@
+title: Understand preventative methods used to maintain cyber security
+intro: | 
+  In this session you will learn about how to maintain cyber security including a variety of preventative methods such as vulnerability and penetration testing. 
+  
+banner: cs_u1_s1_p3_cyber.jpg
+sections: 
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: Common and emerging threats to cyber security.
+    theme: t-bg-primary
+    copy: |
+      As we all know the technology landscape is constantly changing and this is even more relevant to cybersecurity especially over the last year with the disruption caused by the pandemic. None of us could envisage what would happen to this extent and what the impact would be on our lives and for business, technology and cybersecurity. This has created so many opportunities for cyber criminals to develop new attacks and threaten our cyber security.
+
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Threats
+      So as the threat landscape changes and new threats emerge, let's look at what we have to deal with today and what may come tomorrow in the field of cyber security.
+    video: placeholder_pc.mp4
+  -    
+  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think

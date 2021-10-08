@@ -1,11 +1,11 @@
 {%- from "components/all.njk" import reveal as reveal %}
 {%- if compData -%}
   <!-- IF 1 -->
-  {% set revealdata = compData.subInc %}
-{% elseif section %}
+  {%- set revealdata = compData.subInc -%}
+{%- elseif section -%}
   <!-- IF 2 -->
-  {% set revealdata = section.subInc %}
-{% endif %}
+  {%- set revealdata = section.subInc -%}
+{%- endif -%}
 <ul class="l-icon-grid {% if revealdata.layout %}l-icon-grid--{{ revealdata.layout }}{% endif %}">
   
   {% if revealdata %}

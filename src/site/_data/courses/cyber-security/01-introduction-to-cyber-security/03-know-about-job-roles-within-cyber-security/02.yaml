@@ -1,237 +1,70 @@
-title: Methods and types of communication
+title: Hacking
 intro: |
   On this page you will learn about:
-  - Choosing the right method of communication 
-  - Getting the message across 
-  - The different types of written communication 
-  - Active listening
+  - What hacking is
+  - The different types of hacker
 banner: BA_U1_S3_p2_Communication2.svg
 sections:
   -
-    title: Choosing the right method
-    theme: t-bg-primary
-    copy: |  
-      Which method will you use?
-      
-      With so many communication methods to choose from, the main challenge is to select the most effective option.
-      When you are choosing the right communication method, there are some important factors to consider. It's clear that there is not a single communication method that can meet all needs. Instead, you need to think carefully about which one is appropriate. Spoken communication, for example, works better in face-to-face contexts than written communication. If you're not sure, ask a manager or experienced colleague.
-    
-      To communicate successfully with others, you should
-      - Try and understand what the recipient wants / needs to know.
-      - Try and understand how they like / need the information to be presented.
-  -
-    title: Quick quiz - Getting the message across
-    theme: i-quiz
+    title: What is Hacking?
+    theme: t-bg-supporting2
     copy: |
-      Take a look at the scenarios below and select the most appropriate response 
+      One of the most common terms we hear used a lot in respect of Cyber Crime is 'Hacking', so what exactly does this mean?
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Hacking 
+      Let's have a look at what hacking is and what motivates hackers in a little more detail  
+    video: placeholder_pc.mp4
+  -
+    title: Hackers
+    theme: t-bg-primary
+    copy: |
+      The term 'Hacker' is often portrayed negatively in the media and purely looked upon as a cybercriminal, however, this is not applicable to all. Hackers are typically divided into 3 types white, black and grey hats. scroll through the slides below to learn about the differences between hackers in more detail.
+
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: White Hat Hackers.
+          text: |
+            'White Hat' hackers are also known as ethical hackers and they use their technical skills to protect the world from bad hackers. Government agencies and organisations hire white hat hackers as information security analysts, cybersecurity researchers, security specialists and penetration testers and they often work as independent consultants or freelancers.
+            a White hat hackers use the same hacking techniques as black hat hackers but they do it with the system owners permission and are motivated to find and fix vulnerabilities before they are exploited and to develop tools that can detect cyberattacks. They work to build security software like antivirus, anti-malware, anti-spyware, honeypots and firewalls and strengthen the overall security of the software and hardware systems.
+
+          img: placeholder_icon.svg
+        -
+          title: Black Hat Hackers
+          text: |
+            'Black Hat' hackers are the true cybercriminals who use their technical skills to defraud and blackmail others. The exploit security vulnerabilities to break into computer systems and networks without permission for financial gain. When we talk about Hackers it is the Black Hat type we usually think about, sending phishing emails and SMS messages, deploying DDoS attacks, writing, selling and distributing malware, blackmailing victims using ransomware and indulging in a range of corporate espionage, financial fraud and identity theft related crimes. They also ply their trade on the Dark Web where their services can be accessed by other criminals.
+          img: placeholder_icon.svg
+        -
+          title: Grey Hat Hackers
+          text: |
+            'Grey Hat' hackers as the name suggests hackers fall somewhere in between white and black. On the whole their intentions are good but they don't always take the ethical route. They often access systems without permission but not to cause mischief or harm, but to draw owners attention to the existing vulnerabilities of their systems. They will launch the same cyber attacks as white hat hackers to expose loopholes in major organisations, companies and government servers and websites and the reach out to them to inform them of the issues.
+            They may sometimes charge a fee to fix the problems or strengthen the security system and offer their services to resolve any issues. They don't blackmail the organisations but they will disclose the information publicly if nothing is done to rectify the problems. Grey hats do this to showcase their abilities and gain recognition in the cyber security community, subsequently aiming to advance their careers as security professionals.
+          img: placeholder_icon.svg
+  -
+    title: Quick quiz
+    mode: multi-choice
+    theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        You have been asked to inform a colleague that the location of the meeting they are attending has changed and they are already on their way. Do you...:
+        Select multiple options :"sentence":
           answers:
-            Send an email: false
-            Call them: true
-            Leave a memo on their desk: false
-        You see a large box is about to fall and if it does so it will land on the head of a friend and colleague. Do you...:
-          answers:
-            Send a text: false
-            Immediately shout a warning: true
-            Send an email: false
-        You have been asked to brief a senior management team on the options for a computerised customer service system. Do you...:
-          answers:
-            Mention your thoughts as and when you find some interesting information and see each manager: false
-            Prepare a written report to send to all managers and arrange a meeting with the management team to answer any questions: true
-            Telephone each manager when you have reached your conclusions: false
-        You need to invite several potential candidates for an interview. Do you...?:
-          answers:
-            Call them and tell them the time, place and what they need to bring: true
-            Email them all of the details and ask for confirmation: false
-            Send a text: false
-  -
-    title: Types of written communication
-    theme: t-bg-primary1c
-    copy: |
-      Written communication is important to get right because not getting it right can result in the wrong message being interpreted by the reader. There are lots of types of written communication – select the images below to see the different types of documents.
-
-    subInc:
-      type: reveal
-      content:
-        - 
-          title: Business letter
-          copy: |
-            #### Type of contact
-            - External
-            
-            #### Key points
-            - Formal
-            - Slower than electronic methods
-            - Provides a permanent record
-          img: BA_U1_S3_p2_Reveal_Letter.svg
-        - 
-          title: E-mail
-          copy: |
-            #### Type of contact
-            - Internal and External
-      
-            #### Key points
-            - Informal
-            - Quick
-            - Other documents can be attached
-            - Can be worldwide and instant
-          img: BA_U1_S3_p2_Reveal_Email.svg
-        - 
-          title: Fax
-          copy: |
-            #### Type of contact
-            - External contacts, other offices some distance away
-      
-            #### Key points
-            - Fast
-            - Useful for order confirmations on official paper
-          img: BA_U1_S3_p2_Reveal_Fax.svg
-        - 
-          title: Form (for completion)
-          copy: |
-            #### Type of contact
-            - Internal and External
-      
-            #### Key points
-            - Used to collect information systematically
-          img: BA_U1_S3_p2_Reveal_Form.svg
-        - 
-          title: Instant messaging
-          copy: |
-            #### Type of contact
-            - Internal and External
-      
-            #### Key points
-            - Immediate exchange of information online
-            - Can attach other documents
-          img: BA_U1_S3_p2_Reveal_Message.svg
-        - 
-          title: Memo
-          copy: |
-            #### Type of contact
-            - Internal
-      
-            #### Key points
-            - More formal than email
-            - Can provide a permanent record
-          img: BA_U1_S3_p2_Reveal_Memo.svg
-        - 
-          title: Message or note
-          copy: |
-            #### Type of contact
-            - Internal
-      
-            #### Key points
-            - Short and informal
-            - Usually left on recipient’s desk
-          img: BA_U1_S3_p2_Reveal_Note.svg
-        - 
-          title: Report (informal)
-          copy: |
-            #### Type of contact
-            - Internal
-      
-            #### Key points
-            - Gives a clear account in detail
-          img: BA_U1_S3_p2_Reveal_Report.svg
-        - 
-          title: Report (formal)
-          copy: |
-            #### Type of contact
-            - External
-      
-            #### Key points
-            - Gives a clear account in detail
-          img: BA_U1_S3_p2_Reveal_Report.svg
-  -
-    title: Active listening
-    theme: t-bg-grey
-    copy: |
-      ### Show you're focused
-
-      Sometimes, people will 'turn off' when they are being spoken to. For example, they might -
-      - Switch focus to what is being said in other people's conversations
-      - Get distracted by noises they hear around them
-      - Start focusing on their internal thoughts rather than the external information.
-      
-      When this happens, vital information can be missed. If there is written documentation to support the verbal information, you could check the notes to see what has been missed. However, this is not always possible so it's important to listen carefully to what is being said!
-  -
-    title: Summary
-    theme: t-bg-primary i-summary
-    copy: |
-      When you have prepared some written information, check it. Be sure it is accurate, logical and things such as spelling are correct. Do you think it will get the appropriate information to the recipient?
-
-      It's important to take responsibility for listening more attentively... more actively.  This will ensure you don't miss out on vital information!
-  -
-    title: What was being said?
-    theme: t-bg-supporting3
-    copy: |
-      ### Are you taking it in?
-
-      Generally, you are a good (active) listener if you can accurately repeat back what you have heard...but some people do find this difficult!
-      Can you think of a situation when you tried to communicate something important, but the listener was distracted, disinterested or kept interrupting?
-
-      In circumstances like this, the outcomes may include -
-      - The message is not communicated
-      - You become frustrated / angry with the other person
-      - You are less motivated to communicate with that person in the future.
-      - All of these things can undermine organisational effectiveness.
-
-      See below to learn more
-
-    subInc: 
-      type: accordion
-      
-      content:
-        - 
-          title: Focusing on others when communicating
-          copy: |
-            Focusing on others when communicating
-            Here are some handy tips to help you listen actively to others when they are communicating - 
-            - As far as possible, be in an environment that minimises distractions. If you are discussing something particularly detailed, a quiet interruption-free office may be needed
-            - Make sure you have enough time to receive the information
-            - Look at the speaker and focus on what they are saying.
-            - Don’t interrupt. Note any questions and ask them at the appropriate time
-            - If your mind wanders, switch back quickly. Ask for a summary if you think you have missed anything
-            - Focus on details
-            - Recap to check that you have understood correctly.
-          img: /images/svg/ba/ba_u1_s3_p2_accordion_1.svg
-        -
-          title: Ask questions
-          copy: |
-            - How does this help?
-            - Questioning is part of the listening process.
-            - When receiving information, there is always the potential for confusion and misunderstanding. This can happen for a number of reasons 
-        - 
-          title: Questioning tips
-          copy: |
-            
-            - If you hear anything you don’t understand (a word / statement), ask for further explanation.
-            - Double check names / addresses / correct spellings and numbers / dates.
-            - If a person assumes you know something – when you do not – explain their error to them.
-            - If they speak too quickly / quietly, etc tell them so they can change the way they are speaking.
-            - Try and put your questions in a logical order.
-            Make written notes to help you remember what you want to ask.
-            - Take time to repeat back to the person what you have understood from the discussion. Check with them that you have understood things correctly.
-            - Thank the person for answering your questions and making things clear.
-            - If the person you are speaking to recognises that you are doing all you can to understand them, they will welcome your questions.
-          img: /images/svg/ba/ba_u1_s3_p2_accordion_2.svg
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      For your Unit 1 assessment, you must be able to describe ways of actively listening. Looking back over the information on this page and previous pages will help you when it comes to tackling this question in your assessment.
+            one: false
+            twp: true
+            three: true
+            fourth option: false
+        feedback: text
   -
     title: Time to think
+    theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: |
-        "For two or three days, try and notice the following things:"
-
-        1. Watch people who are listening to you or other people. Can you identify things they do that suggest that they are not paying attention?
-        2. Are there particular situations when you find it easy or difficult to pay attention when listening to others?
-        Record your observations in the following text box and then save your work to your Journal.
-    theme: t-bg-primary3 i-think
+      copy: text
+  -

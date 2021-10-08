@@ -9,11 +9,10 @@ permalink: _Layout.cshtml
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>@ViewBag.CourseName</title>
-  <script src="https://unpkg.com/&#64;webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
-  <script src="https://unpkg.com/&#64;webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
+  @Html.Raw("<script src='https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js'></script>")
+  @Html.Raw("<script src='https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js'></script>")
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   @Styles.Render("~/bundles/css")
-  @*<link rel="stylesheet" href="/css/themes/???.css">*@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5865731-7"></script>
@@ -25,7 +24,7 @@ permalink: _Layout.cshtml
   </script>
 </head>
 
-<body class="@ViewBag.BodyClass">
+<body class="@ViewBag.BodyClass" data-v2l-env="dotnet">
   <div class="l-wrapper" >
     <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
 
@@ -51,5 +50,3 @@ permalink: _Layout.cshtml
   </script>
 </body>
 </html>
-
-
