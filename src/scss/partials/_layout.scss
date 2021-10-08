@@ -194,10 +194,10 @@ main > section:not(.c-banner) {
       max-height: unset;
       position: static;
     
-      > img,
-      > svg {
-        max-width: 300px;
-      }
+      // > img,
+      // > svg {
+      //   max-width: 300px;
+      // }
     }
   }
 }
@@ -217,6 +217,14 @@ main > section:not(.c-banner) {
     "pagination";
     padding: .5rem 1rem;
 
+  &__pages {
+    grid-area: pagination
+  }
+
+  &__sessions {
+    grid-area: session-nav;
+  }
+
   @supports (display: grid) {
     padding-left: 0;
     padding-right: 0;
@@ -230,7 +238,7 @@ main > section:not(.c-banner) {
       "session-nav . logo"
       "details pagination pagination";
 
-    nav {
+    &__pages {
       align-self: end;
     }
   }
@@ -327,7 +335,16 @@ main > section:not(.c-banner) {
 
   > textarea,
   > button {
+    border: solid 2px var(--primary1c);
     width: 100%;
+  }
+
+  > textarea {
+    border-bottom: none;
+  }
+
+  > button {
+    border-top: none;
   }
 
   @supports(display: grid) {

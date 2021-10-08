@@ -268,7 +268,8 @@ button,
 .button,
 [data-netlify-identity-button] {
   -webkit-appearance: none;
-  background-color: $primary1;
+  background-color: $primary2;
+  background-color: var(--primary2);
   border: none;
   color: #fff;
   font-size: 1.5rem;

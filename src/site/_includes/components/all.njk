@@ -18,7 +18,7 @@
 {% set sitename = site.v2l %}
 
 {%- macro pagination(class, pagination, page) %}
-  <nav class="{{ class if class }}" aria-label="Pages in this session">
+  <nav {{ 'class=' + class if class | safe }} aria-label="Pages in this session">
     <ol role="list" class="c-pagination">
       {%- if pagination.previousPageHref %}
         <li class="c-pagination__prev" role="listitem">
@@ -232,6 +232,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
   {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg') or mediaObj.startsWith('https://via.placeholder')) %}
     {%- set mediaType = "image" %}
     {% set filepath = '/images/svg/' %}
+    {% set dims = 'width="300" height="300" ' %}
 
     {% if mediaObj.startsWith('https://via.placeholder') %}
       {% set filepath = '' %}
@@ -266,14 +267,14 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- if mediaType === "image" %}
         {%- if link %}
           <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title.indexOf("Stretch") >= 0 }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
-            <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
+            <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}" {{ dims | safe }}>
           </a>
         {% else %}
-          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}">
+          <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}" {{ dims | safe }}>
         {%- endif %}
       {%- elseif mediaType === "activity" %}
         <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
-          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}">
+          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}" {{ dims | safe }}>
         </a>
       {%- else %}
         <p>{{ mediaError + ": " + mediaObj }}</p>
@@ -337,7 +338,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {% set shortcode = data.shortcode + "/" %}
   {% endif %}
   <li class="c-reveal-block">
-    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ shortcode | d('') }}{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}">
+    <img class="c-reveal-block__icon js-showhide" src="{{ '~' if env === 'dotnet' }}/images/svg/{{ shortcode | d('') }}{{ data.image | lower }}" alt="{{ data.heading | d('Panel heading') }}" width="266" height="266">
     {# {% image imgSrc, "c-reveal-block__icon js-showhide", data.heading, "100vw" %} #}
     <div class="c-reveal-block__desc">
       <h3 aria-hidden="true">{{ data.heading | d('Panel heading') }}</h3>
