@@ -21,11 +21,28 @@ sections:
   -
   -
     title: Code example
-    theme: 
+    theme:
     copy: |
       Let’s say for example you knew you would require a lot of numerical sorting throughout your code, perhaps always requiring the program to find the lowest value from a selection. Well instead of every time that requirement was needed, writing several lines of code to tell the program how to do that, you could create or use a pre-existing function, in this case, a formula to find the lowest value, that function would be written as one simple thing and any time you needed its use, you would just need to reference the function rather than the whole code.
-            
-      ![](/images/banners/uc/placeholder.jpg)
+
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        # Here is our function:
+        def print_lowest_and_sort(input_list):
+            print(min(a_list_of_numbers))
+            output_list = sorted(input_list)
+            return(output_list)
+        
+        # Here is ......
+        
+        # more code from text file from Tom
+
+    copy2: |
+      _screenshot of python output_
+
   -
   -
     title: Time to practice

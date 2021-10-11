@@ -41,30 +41,39 @@ sections:
   -
   -
     title: Control flow
-    theme: t-bg-supporting3
+    theme:
     copy: |
       Control flow is the order in which a computer executes statements in a script. Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow. For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. Control flow means that when a script is read it must be read from start to finish but also the program structure should be read so as to know how it affects the order of execution. Control Flow is often represented in a graph (CFG) during the execution of programs or applications.
 
-      See below to see for an example.
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Control structures in Javascript
-          copy: |
-            
+      Here are some examples of control structures in Javascript.
 
-            ![](/images/banners/uc/placeholder.jpg)
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        // Conditional
 
-            _this example will be displayed as 'actual code' text which the user can copy_
-  -
-  -
-    title: Code example
-    theme: 
-    copy: |
-      Take a look at the following 
-            
-      ![](/images/banners/uc/placeholder.jpg)
+        if (variable_1 == variable_2){
+          console.log('the variables are equal');
+        } else {
+          console.log('the variables are not equal');
+        }
+        
+        // Loop
+
+
+        // Function
+
+
+        // To call the Function
+
+
+
+
+    copy2: |
+      _screenshot of js output?_
+
   -
   -
     title: Time to practice
