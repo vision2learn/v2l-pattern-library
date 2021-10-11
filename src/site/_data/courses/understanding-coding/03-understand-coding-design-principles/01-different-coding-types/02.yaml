@@ -1,76 +1,43 @@
-title: TEMPLATE PAGE
+title: Know about different coding types
 intro: |
-  intro text
+  In this session you will learn about the different coding types, on this page we will take a look at imperative and declarative coding.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to define what is meant by imperative coding and declarative coding.
   -
-    title: introduction text
+    title: Programming paradigms
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      To choose what language to code in, programmers must assess how a language works in relation to what they want to achieve. Different programming languages have different rules, strategies, and principles which govern how they work. We refer to this as its “programming paradigm”. Whilst there are many paradigms, which can overlap, most fall in to one of two main fundamental paradigms: Imperative or Declarative. 
       
-      Topic introduction text here 
+      There are many different categories and mixtures of imperative/declarative programming. When programming language has capabilities of more than one paradigm, we refer to this as multi-paradigm.
+
 
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
+    title: Imperative and declarative coding
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+      
+      Select the images below.
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Imperative coding
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Declarative coding
           copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
             text
           img: placeholder_icon.svg
   -
@@ -81,7 +48,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Let's look at these in more detail and compare the different paradigms in the following video.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -91,27 +58,6 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
