@@ -31,14 +31,11 @@ sections:
 
       Let's look at the different stages involved in the following activity.
 
-
-      _Interactivity will show in a space below_
-
-
     interactive: 
-      file: 
+      file: uc/u1_s3_p1_lifecycle
       width: 1000
-      height: 640       
+      height: 600
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
     title: On the web

@@ -73,16 +73,14 @@ sections:
           img: uc_u1_s1_p3_slide3.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        We need simply look to our web browsers to see an example of coding language in practice.
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      We need simply look to our web browsers to see an example of coding language in practice.
         
-        _Try opening a web browser like 'chrome' then right clicking on the page and selecting 'view page source' from the menu that pops up, this will then show the code that makes up that page._ 
+      _Try opening a web browser like 'chrome' then right clicking on the page and selecting 'view page source' from the menu that pops up, this will then show the code that makes up that page._ 
         
-        This code’s job is to tell the page what it should look like and how it should act when we interact with it.
+      This code’s job is to tell the page what it should look like and how it should act when we interact with it.
   -
   -
     title: Watch 
