@@ -1189,3 +1189,16 @@ h2.toggle-section::before {
     }
   }
 }
+
+// Code blocks
+code:not(.language-text) {
+  .highlight-line {
+    counter-increment: count;
+  }
+  
+  .highlight-line::before {
+    content: counter(count) ".";
+    margin-right: 1em;
+    color: hsl(195, 10%, 80%)
+  }
+}
