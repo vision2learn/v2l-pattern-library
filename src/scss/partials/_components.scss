@@ -1191,6 +1191,10 @@ h2.toggle-section::before {
 }
 
 // Code blocks
+.c-code {
+  overflow: auto;
+}
+
 code:not(.language-text) {
   .highlight-line {
     counter-increment: count;
