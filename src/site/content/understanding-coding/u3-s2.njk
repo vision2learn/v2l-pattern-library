@@ -1,0 +1,16 @@
+---js
+{
+  unit: 3,
+  session: 2,
+  pagination: {
+    data: "courses['understanding-coding']['03-understand-coding-design-principles']['02-compiled-and-interpreted-code']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->

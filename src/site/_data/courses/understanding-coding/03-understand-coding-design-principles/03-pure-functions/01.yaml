@@ -1,25 +1,30 @@
-title: Compiled and interpreted code
+title: TEMPLATE PAGE
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
-  -
-    title: What you will learn
-    theme: t-bg-primary
-    copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to 
   -
+    title: introduction text
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
     title: Reveals
     theme: t-bg-primary
     copy: |
+      _Optional item depending on content_
+
       Select the images below to read 
 
     subInc: 
@@ -35,12 +40,39 @@ sections:
           copy: |
             text
           img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
   -
   -
-    title: Key point
-    theme: supporting3 i-keypoint
+    title: slider
+    theme: t-bg-primary
     copy: |
-      In your assessment you will be required to 
+      _Optional item depending on content_
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
   -
   -
     title: Watch 
@@ -59,6 +91,28 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Optional item depending on content_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _Optional item depending on content - useful for additional reading_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
