@@ -17,7 +17,7 @@ permalink: "courses/{{ course | d('no string') | slug }}/{{ unit}}/{{ session }}
 </main>
 
 {% if page.url != '/login/' %}
-  {{ pag(class='t-bg-secondary1 boxout-small', pagination=pagination, page=page) }}
+  {{ pag(class="t-bg-secondary1 boxout-small", pagination=pagination, page=page) }}
 {% endif %}
 <footer>
   <small>

@@ -18,7 +18,7 @@
 {% set sitename = site.v2l %}
 
 {%- macro pagination(class, pagination, page) %}
-  <nav {{ 'class=' + class if class | safe }} aria-label="Pages in this session">
+  <nav class="{{ class }}" aria-label="Pages in this session">
     <ol role="list" class="c-pagination">
       {%- if pagination.previousPageHref %}
         <li class="c-pagination__prev" role="listitem">
