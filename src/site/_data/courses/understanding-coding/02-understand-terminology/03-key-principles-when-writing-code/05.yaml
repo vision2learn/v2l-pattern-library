@@ -30,10 +30,19 @@ sections:
           if
 
         # more code here
-    copy2: |
-      Terminal screenshot here:
+    
+  -
+  -
+    title: Result
+    theme:
+    copy: |
       
-      ![](/images/jpegs/uc/placeholder.jpg)
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Result text here
   -
   -
     title: Time to practice
@@ -66,12 +75,18 @@ sections:
             list_sum - sum(input_list)
         
         # more code here
-    copy2: |
-      Terminal screenshot here:
-      
-      ![](/images/jpegs/uc/placeholder.jpg)
-
+    
+  -
+    title: Result
+    theme:
+    copy: |
       In this example, we can see that the threshold is reached then it is down to the final 3 values in the list (7, 3, and 2).
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Result text here
   -
   -
     title: Time to practice

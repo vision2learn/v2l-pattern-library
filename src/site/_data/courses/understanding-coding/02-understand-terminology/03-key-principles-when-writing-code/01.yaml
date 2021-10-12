@@ -25,9 +25,7 @@ sections:
     title: Operand and operator
     theme: t-bg-supporting3
     copy: |
-      text
-
-      See below to learn more about 
+      
     subInc: 
       type: accordion
       content:
@@ -42,9 +40,11 @@ sections:
 
             This is either done as a prefix (before the operand) an Infix (between operands) or a postfix (after the operands).
         - 
-          title: Both
+          title: Together
           copy: |
-            So, when looked at together the Operands are the elements which the operators operate upon. In its simplest form, think, 1 + 1, in this case the ones are both Operands and the plus symbol the Operator as that is the thing that affects the two numbers to complete the sum.
+            So, when looked at together the Operands are the elements which the operators operate upon. 
+            
+            In its simplest form, think, 1 + 1, in this case the ones are both Operands and the plus symbol the Operator as that is the thing that affects the two numbers to complete the sum.
   -
   -
     title: Key point
@@ -71,15 +71,38 @@ sections:
         float myFloat = 5.65;
         char myChar = 'A string';
         bool myBool = TRUE;
-
-    copy2: |
-      In contrast, Python infers the data type automatically: 
-      
-      ![](/images/jpegs/uc/uc_u2_s3_p1_python1.jpg)
-
-      _screenshot of python output_
-        
   -
+  -
+    title: Python example
+    theme:
+    copy: |
+      In contrast, Python infers the data type automatically:
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        myInt = 5;
+        myFloat = 5.6;
+        myString = 'String text';
+        
+        print(type(myInt))
+        print(type(myFloat))
+        print(type(myString))
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        <class 'int'>
+        <class 'float'>
+        <class 'str'>
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice

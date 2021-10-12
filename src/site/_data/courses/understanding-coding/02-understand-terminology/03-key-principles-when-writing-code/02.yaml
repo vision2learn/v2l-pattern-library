@@ -40,9 +40,18 @@ sections:
         
         # more code from text file from Tom
 
-    copy2: |
-      _screenshot of python output_
-
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        result text here
   -
   -
     title: Time to practice
