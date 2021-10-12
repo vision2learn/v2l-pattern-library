@@ -75,25 +75,28 @@ sections:
         print('test_2: ', isinstance(test_2, int))
 
   -
-  -
     title: Result
-    theme: t-bg-supporting3
-    copy: |
-      
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Result
-          copy: |
-            The output is seen at the bottom, below line 21.
+    theme:
+    copy:
 
-            ![](/images/jpegs/uc/uc_u2_s2_p1_python1.jpg)
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        ('test_1 is: ', 8)
+        ('test_2 is: ', 'goatgoat')
+        Are the outputs integers?
+        ('test_1: ', True)
+        ('test_2: ', False)
+    copy2: |
+      The output is seen at the bottom, below line 21.
 
-            * The first test resulted in the output 8.
-            * The second test gave us the output ‘goatgoat’. 
+      * The first test resulted in the output 8.
+      * The second test gave us the output ‘goatgoat’. 
 
-            If we wanted to make sure to make sure that the answer was always an integer, a unit test could report this when the multiply_values function gave us an output we did not expect.
+      If we wanted to make sure to make sure that the answer was always an integer, a unit test could report this when the multiply_values function gave us an output we did not expect.
+
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -124,8 +127,7 @@ sections:
       
       DRY = 'Don't Repeat Yourself'
       
-      When writing a program, we want our code to be as easy to debug and understand as possible. We therefore use certain conventions when we write code to ensure this. Let’s use the example of the website for a taxi firm. Using Python and HTML, on 3 separate pages, we want a banner at the top (masthead) with links that are the same on each page, and a title which is different on each page. 
-
+      When writing a program, we want our code to be as easy to debug and understand as possible. We therefore use certain conventions when we write code to ensure this. Let’s use the example of the website for a taxi firm. Using Python and HTML, on 3 separate pages, we want a banner at the top (masthead) with links that are the same on each page, and a title which is different on each page.
   -
     title: WET code
     theme:
@@ -143,8 +145,7 @@ sections:
 
 
     copy2: |
-      But let’s say that the company want to change their name or the slogan. With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.
-        
+      But let’s say that the company want to change their name or the slogan. With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.     
   -
   -
     title: DRY code
@@ -167,7 +168,7 @@ sections:
         
   -
     title: Key characteristics
-    theme: 
+    theme: supporting3
     copy: |
       So the key characteristics of WET code are:
       *	repeated code sections
