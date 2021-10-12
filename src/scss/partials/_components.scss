@@ -6,18 +6,13 @@
   border-bottom-width: 5px;
   color: #fff;
 
-  nav {
-    grid-area: pagination;
-
-    // &::before {
-    //   content: "Pages: "
-    // }
-  }
-
   &__details {
     font-size: 1.125em; // 18px @ 16px base
     grid-area: details;
-    margin-top: 0;
+
+    @supports(display: grid) {
+      margin-top: 0;
+    }
 
     span {
       display: block;
@@ -38,11 +33,8 @@
     li {
       display: inline-block;
       margin: 0 .5em 10px 0;
-
-      // @supports (row-gap: 1px) {
-      //   margin: 0;
-      // }
-
+      
+      
       a {
         color: currentColor;
         border-top: solid 4px;
@@ -50,9 +42,17 @@
         text-decoration: none;
       }
     }
-
+    
     [aria-current="step"] {
       color: $primary1;
+    }
+
+    @supports (gap: 1px) {
+      gap: .5em;
+  
+      li {
+        margin: 0;
+      }
     }
   }
 
@@ -72,6 +72,8 @@
   justify-content: space-around;
   list-style-type: none;
   width: 100%;
+  max-width: calc((1000 / 16) * 1em);
+  margin: auto;
 
   &::before {
     content: "Page: ";
@@ -1187,5 +1189,18 @@ h2.toggle-section::before {
     > .l-video-container {
       margin-top: .3rem !important;
     }
+  }
+}
+
+// Code blocks
+code:not(.language-text) {
+  .highlight-line {
+    counter-increment: count;
+  }
+  
+  .highlight-line::before {
+    content: counter(count) ".";
+    margin-right: 1em;
+    color: hsl(195, 10%, 80%)
   }
 }
