@@ -7,7 +7,10 @@ sections:
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * one
-      * two
-      * three
+      * What is ‘pure function’ 
+      * What is ‘impure function’ 
+      * Potential dependencies/needs in pure function
+      * The benefits of pure function 
+      * What is parallelisation 
+      * How parallelisation is managed 
   
