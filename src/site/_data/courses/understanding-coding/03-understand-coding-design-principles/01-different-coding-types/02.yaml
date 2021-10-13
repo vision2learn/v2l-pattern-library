@@ -22,7 +22,7 @@ sections:
   -
   -
     title: Imperative and declarative coding
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
       
       Select the images below.
@@ -33,12 +33,12 @@ sections:
         -
           title: Imperative coding
           copy: |
-            text
+            Imperative coding is the oldest programming paradigm and focuses on exactly HOW a computer should achieve the desired result. The source code of imperative languages consists of a series of commands or step by step instructions detailing the control flow for how to deliver the desired result. 
           img: placeholder_icon.svg
         -
           title: Declarative coding
           copy: |
-            text
+            In Declarative programming, the focus is on WHAT the desired result is that is needed from the computer. The source code is more abstracted from the underlying operations than with imperative coding. To get a solution, the program will automatically identify and apply appropriate methods which are written into the language in order to achieve the result expressed by the declarative code.
           img: placeholder_icon.svg
   -
   -
@@ -46,7 +46,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style .... Need to do some more work here to decide style_
       
       Let's look at these in more detail and compare the different paradigms in the following video.
     video: placeholder_pc.mp4
