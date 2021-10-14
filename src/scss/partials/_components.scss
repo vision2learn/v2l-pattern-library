@@ -19,7 +19,7 @@
     }
   }
 
-  &__sessions > ul {
+  &__sessions {
 
     order: -1; // fallback
 
@@ -44,8 +44,7 @@
     }
     
     [aria-current="step"] {
-      color: $primary1; // fallback
-      color: var(--primary1);
+      color: $primary1;
     }
 
     @supports (gap: 1px) {
@@ -103,13 +102,12 @@
       
       &:hover,
       &:focus {
-        color: $primary1; // fallback
-        color: var(--primary1);
+        color: $primary1;
       }
 
       &[aria-current="page"] {
-        border-color: $primary1; // fallback
         border-bottom: solid var(--primary1) 4px;
+        border-bottom: solid 4px $primary1;
         filter: unset;
       }
     }
@@ -572,7 +570,6 @@ button svg {
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(37, 40, 43, .9);
-  // background-color: var(--secondary1-o);
   color: #fff;
   // align-items: center;
 
