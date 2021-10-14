@@ -4,6 +4,17 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
+    title: Terms - PLACEHOLDER
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _NEW item to explain terms before code example and that we are using more than one language for the examples_
+
+      ### Terms
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -22,7 +33,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Need to discuss further - Narrator with CPU diagram(use same one?) - a much more simple version of this example - https://www.youtube.com/watch?v=GQM7Hv9q480 maybe?_
+      _Presentation style - Narrator with CPU diagram (use same one)_
       
       ### What is meant by Central Processing Unit (CPU)
 

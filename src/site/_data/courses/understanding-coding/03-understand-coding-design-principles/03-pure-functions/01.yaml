@@ -34,7 +34,6 @@ sections:
         -
           title: Pure functions
           copy: |
-            have three defining criteria:
             1.	They always give the same return value for a given input
             2.	They do not change anything unrelated to the function (no side effects)
             3.	They do not modify any arguments which are passed to them 
@@ -118,7 +117,7 @@ sections:
       _Have a go at..... link to python website_
   -
   -
-    title: The benefits of pure function
+    title: The benefits of pure functions
     theme: t-bg-primary
     copy: |
       There are a number of benefits of functional and practical benefits to using pure functions.

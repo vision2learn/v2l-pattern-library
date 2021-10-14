@@ -49,11 +49,10 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Have a think about the software you use on a regular basis - do you think they are written with open or closed source code? Explain why.
   -
   -
-    title: Case study or Stretch?
+    title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |

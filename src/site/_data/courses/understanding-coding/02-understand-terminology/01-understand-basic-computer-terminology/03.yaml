@@ -69,9 +69,20 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Data type rules
+    title: Variables and Functions - PLACEHOLDER
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
+      _Content to go here to introduce learner to variables and functions_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Data type rules - TO BE UPDATED
     theme: t-bg-supporting3
     copy: |
+      _These examples need to be replaced with something simple so they are pitched at level 2_
+
       Different coding languages have different rules and ways of dealing with different data types. For example, when creating a string in Java from data that already exist in the memory (variables), you must use formatting specifiers to tell the program what sort of data type you are including in the string.
 
       | Format Specifier | Data Type| Output |
@@ -111,7 +122,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter or Narrator with images/diagrams or infographics _
+      _Presentation style - Presenter or Narrator with images/diagrams or infographics_
       
       ### How is data stored?
 
