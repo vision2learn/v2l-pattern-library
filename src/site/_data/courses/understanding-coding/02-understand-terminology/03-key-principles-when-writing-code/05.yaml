@@ -1,0 +1,147 @@
+title: Interation and recursions
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define what is meant by iterations.
+  -
+    title: Iterations
+    theme:
+    copy: |
+      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. Iterations however can be large in terms of code, though are faster in terms of execution to their counterpart Recursion.
+
+      Here is a very simple iteration in Python whereby we start with a variable of value 1, then using a While loop, check whether our input_variable multiplied by 2 is greater than 15. If it is not, we add 1, to it then carry on until our input variable reaches 10, otherwise we use an ‘if’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
+
+
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        input_variable_1 = 1
+
+        while input_variable_1 != 10:
+          print('Input value = ', input_variable_1)
+
+          if
+
+        # more code here
+    
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Result text here
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Exercise here that relates to the above example.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define what is meant by recursions.
+  -
+  -
+    title: Recursions
+    theme:
+    copy: |
+      Recursion in programming is the process of solving complex problems by breaking them down into simpler ones or smaller instances of the same problem, until we reach a base. Recursions occur when a function, module or an entity calls back to itself and is often controlled by external parameters within a stack or queue. Recursive constructs are used in several algorithms and most programming languages implement recursion by allowing a function to call itself. A recursion ends when the Base State becomes true as per the definition put in place, but if incorrectly defined can lead to an infinite loop that may cause the stack or queue to overflow and can crash the system as it balloons out of control. Recursion due to its nature however is smaller in terms of amounts of code, though due to the process is slower in execution.
+
+      Here is a recursive function in Python. The function will take a list of integers and a threshold. If the sum of the list of integers is larger than the threshold, the list is shortened by one value (the first value – an example of First In First Out, discussed later). It then calls itself (this is the recursion) until the base state is reached. We have 2 criteria here for the base state: either (1) there are only 2 values in the remaining list, or (2) the sum of the remaining values in the list is less than the threshold.
+
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        # Define a recursive function
+        def sum_of_list_below(input_list, threshold_value):
+
+            list_sum - sum(input_list)
+        
+        # more code here
+    
+  -
+    title: Result
+    theme:
+    copy: |
+      In this example, we can see that the threshold is reached then it is down to the final 3 values in the list (7, 3, and 2).
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Result text here
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Exercise here that relates to the above example.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

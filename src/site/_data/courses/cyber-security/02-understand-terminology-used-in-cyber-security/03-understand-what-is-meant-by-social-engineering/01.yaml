@@ -1,6 +1,6 @@
 title: Understand what is meant by social engineering
 intro: |
-    In this session you will learn about what is meant by social engineering:
+    In this session we are going to look at what is meant by social engineering. 
 banner: cs_u1_s1_p3_cyber.jpg
 sections:
   -
@@ -17,39 +17,47 @@ sections:
         6. What information a cyber criminal can gain from social engineering.
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
     
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Social Engineering
+    theme: t-bg-grey
     copy: |
-      ### Challenges
-      Let's look at these in more detail and consider how it affects us all. 
-    video: placeholder_pc.mp4
-  -
-          title: Case study
-          theme: t-bg-primary1a i-case-study
-          copy: |
-             ### Case study - 
+      
+      Social engineering is a term that has become more common in recent years, so Lets take a closer look at what it means and why it is useful to cyber criminals.  
 
-                text
-          subInc: 
-            type: accordion
-            content:
-              - 
-                title: Example link in content
-                copy: |
-                  
-                  Use [Google](https://www.google.co.uk) to try this search out and find the above pdf document. 
-                  
-                  (_Select the back button to return to this course_)
-                img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: What is Social Engineering?
+          copy: |
+            Social engineering is the name given to techniques used by cyber criminals to manipulate and trick people into giving out confidential information, transferring money or downloading malware. Social engineers use psychology to manipulate a victims feelings of curiosity, familiarity, fear, or urgency to draw them into a trap.
+            * Curiosity – a criminal may send a phishing email titled “click here to view the prize you won!”
+            * Familiarity – a criminal may build a rapport with you before asking you to send them money. This is seen a lot in phishing emails, pretending to be lonely young women looking for a partner.
+            * Fear – a criminal may pretend to be your boss in a phishing email and demand you do something or else be fired.
+            * Urgency – a criminal may instil a false sense of urgency in a phishing email “click here to get your 100% discount before the offer expires”
+          img: /images/svg/cs/placeholder_icon.svg
+        - 
+          title:  Why do cyber criminals use it?
+          copy: |
+            As technology and subsequently cyber security gets more advanced, cyber criminals are turning more to social engineering to make their initial attack on a system and exploit the weakest link in the chain "the user". Unlike cyber attacks that rely on system vulnerabilities to gain access to unauthorised devices, social engineering targets human vulnerabilities. They can use a variety of methods both online and offline to con unsuspecting users into compromising their own systems or work-based systems by installing malware and giving away information. They may also be tricked into transferring money.
+          img: /images/svg/cs/placeholder_icon.svg  
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: text
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Open Source information.
+
+
+      So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
+    video: placeholder_pc.mp4
   -

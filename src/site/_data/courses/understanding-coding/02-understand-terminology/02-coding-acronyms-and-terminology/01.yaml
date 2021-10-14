@@ -1,0 +1,205 @@
+title: Coding acronyms and terminology 
+intro: |
+  In this session you will learn about what is meant by a unit of code, the characteristics and differences of WET and DRY code. You will also learn about the differences between open and closed source code.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * What is meant by a unit of code 
+      * Key characteristics of DRY code 
+      * Key characteristics of WET code 
+      * Key differences between DRY and WET code
+      * What is meant by open source code 
+      * What is meant by closed source code 
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe what is meant by a unit of code.
+  -
+  -
+    title: What is a unit of code?
+    theme: t-bg-supporting3
+    copy: |
+      _See Tom's notes about 'variable' and 'function' text needed_
+
+      Units are the smallest groups of code that can be maintained, executed, reused and tested independently. A unit can be almost anything such as a line of code. 
+      
+      In most programming languages it is a:
+      * function,
+      * subroutine, 
+      * method, or 
+      * a property. 
+      
+      A *unit test* is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small test can be run fast.
+
+      See below for an example.         
+  -
+  -
+    title: Unit testing
+    theme:
+    copy: |
+      Identifying units makes it possible to check code through a process called unit testing. Specific test are written to test whether a unit is functioning as it should. This allows developers to write a test script, which is essentially a piece of code separate to the main program that runs a specific test for each unit in the main program. 
+            
+      Each unit is tested to see if it runs as expected based on criteria, and summarises this in a report. Each time the program is updated, the test script will be run to ensure that all units are functioning correctly. This helps to debug the whole program as new units are added.
+            
+      The Python code below shows a simple function (lines 4-7), and an example of where unit testing is useful.
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        # Here we define a function to multiply two input values then return the answer.
+        
+        def multiply_values(a, b):
+            c = a * b
+            return(c)
+        
+        # Now we test the function.  First with integers:
+        test_1 = multiply_values(2, 4)
+
+        # ... The with an integer and a string:
+        test_2 = multiply_values(2, 'goat')
+
+        # Now, we check each variable by printing it:
+        print('test_1 is: ', test_1)
+        print('test_2 is: ', test_2)
+
+        #Finally, we test check whether the output is an integer
+        print('Are the outputs inegers?')
+        print('test_1: ', isinstance(test_1, int))
+        print('test_2: ', isinstance(test_2, int))
+
+  -
+    title: Result
+    theme:
+    copy:
+
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        ('test_1 is: ', 8)
+        ('test_2 is: ', 'goatgoat')
+        Are the outputs integers?
+        ('test_1: ', True)
+        ('test_2: ', False)
+    copy2: |
+      The output is seen at the bottom, below line 21.
+
+      * The first test resulted in the output 8.
+      * The second test gave us the output ‘goatgoat’. 
+
+      If we wanted to make sure to make sure that the answer was always an integer, a unit test could report this when the multiply_values function gave us an output we did not expect.
+
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about unit testing.
+
+      links:
+        Unit testing - python: https://www.datacamp.com/community/tutorials/unit-testing-python
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Identify the key characteristics of DRY code 
+      * Identify the key characteristics of WET code
+      * Explain the key differences between DRY and WET code.
+  -
+  -
+    title: What is WET and Dry code?
+    theme:
+    copy: |
+      WET and DRY are acronyms used in software development to explain coding principles.
+
+      WET = 'Write Everything Twice'
+      
+      DRY = 'Don't Repeat Yourself'
+      
+      When writing a program, we want our code to be as easy to debug and understand as possible. We therefore use certain conventions when we write code to ensure this. Let’s use the example of the website for a taxi firm. Using Python and HTML, on 3 separate pages, we want a banner at the top (masthead) with links that are the same on each page, and a title which is different on each page.
+  -
+    title: WET code
+    theme:
+    copy: |
+      When code is ‘WET’, code segments are repeated. In our taxi firm example, the masthead is defined over 5 lines 3 separate times on lines from lines 2, 12, and 22.
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        def goHome():
+          print('<div class="masthead">')
+          # more code here - get text from Tom
+
+
+
+    copy2: |
+      But let’s say that the company want to change their name or the slogan. With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.     
+  -
+  -
+    title: DRY code
+    theme:
+    copy: |
+      The ‘DRY’ code principle aims to reduce repetition of any kind. In the code below, we add an extra function, masthead(), to print just the masthead. Each other function contains this bit that was repeated before, then content which is specific to each page. This way, we only have to make changes at ONE place in the script to change the masthead on every page, not one on each page.
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        def mastHead():
+          print('<div class="masthead">')
+          # more code here - get text from Tom
+
+
+
+    copy2: |
+      This has the advantages of being easier to read as well as only needing to be changed in one place.
+        
+  -
+    title: Key characteristics
+    theme: supporting3
+    copy: |
+      So the key characteristics of WET code are:
+      *	repeated code sections
+
+      And the key characteristics of DRY code:
+      *	code is *generalised* (by making it into a separate function, or another way) to avoid repetition
+
+      However, it is not always possible to write DRY code, as it can be difficult in some languages, such as low-level machine languages and procedural languages (such as C and FORTRAN). But the key difference is that WET code may have repeated code sections whereas DRY code is generalised.
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      _Either recommend a website where one can practice 'coding' such as w3schools? or should we recommend a free code editor for them to use?  the examples will need to be complete so they get the same output? and we would need to have an answer section too._
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz

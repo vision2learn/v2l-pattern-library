@@ -10,6 +10,7 @@
   --primary1c: hsl(var(--primary-hue), 78%, calc(78% - var(--lightness-mod)));
   --primary2: hsl(var(--primary-hue), 100%, calc(33% - var(--lightness-mod)));
   --primary3: hsl(var(--primary-hue), 100%, calc(22% - var(--lightness-mod)));
+  --primaryTTT: hsl(var(--primary-hue), 100%, 69%);
 
   --secondary1: hsl(var(--primary-hue), 8%, 16%);
   --secondary1blue: hsl(var(--primary-hue), 20%, 16%);

@@ -1,0 +1,127 @@
+title: Coding types
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define:
+      * Define what is meant by functional coding
+      * Define what is meant by object-orientated coding
+      * Identify other coding types
+  -
+  -
+    title: Coding types
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Functional coding
+          text: |
+            A type of declarative paradigm composed of pure functions (we come to this later).
+
+            As a declarative language, it focuses on “what to solve” rather than the imperative “how to solve”, through the use of expressions, rather than statements.
+            
+            A key point is that functions take in EXISTING inputs (values, data structures, or functions) and return NEW values or data structures.
+
+          img: placeholder_icon.svg
+        -
+          title: Object-orientataed coding
+          text: |
+            Object-orientated programming (OOP) is a type of imperative programming. 
+
+            What distinguishes OOP is that it focuses on “objects” (a collection of data and functions) which change state, rather than actions which operate on separate pools of data.
+
+            Commonly, the objects are “classes”. These are data structures definitions which contain inbuilt data and class-specific functions (known as methods).
+
+          img: placeholder_icon.svg
+        -
+          title: Procedural code
+          text: |
+            As previously described, type of imperative language. Composed of a set of procedures that run in a pre-determined order.
+          img: placeholder_icon.svg
+        -
+          title: Logic programming
+          text: |
+            A type of declarative paradigm based on formal logic. Rules and details are based on mathematical system of reasoning.
+          img: placeholder_icon.svg
+        -
+          title: Parallel process
+          text: |
+            A type of imperative paradigm. It allows processes to run concurrently rather than in sequence (sequential programming) like more fundamental paradigms.
+          img: placeholder_icon.svg
+        -
+          title: Database processing approach
+          text: |
+            Database processing approach is declarative. Users can create and edit database systems using declarative control statements. They can also make queries to retrieve results matching specific criteria.
+          img: placeholder_icon.
+        -
+          title: Event-driven programming
+          text: |
+            Technically both imperative and declarative languages support this approach. This is where the control flow of a program is determined by events (such as change in value of a variable) which determine the subsequent processes.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to state the advantages and disadvantages of functional, object-orientated and other coding types.
+  -
+  -
+    title: Advantages and disadvantages
+    theme: t-bg-primary
+    copy: |
+      ### PLACEHOLDER - This may need to be replaced with a different type of item?
+
+      table example
+      | Code type | Advantages | Disadvantages |
+      |------|------|------|
+      |Imperative  | text | text |
+      |Declarative  | text | text |
+      |OOP | text | text |
+      |Functional | text | text |
+      |Procedural | text | text |
+      |Logic programming | text | text |
+      |Parallel processing | text | text |
+      |Database | text | text |
+  
+  -
+  -
+    title: Activity - PLACEHOLDER - may be needed to replace table
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### Advantages and disadvantages
+
+      Select the following icon to . . .
+
+
+    img: /images/svg/Activity_button.svg
+    activity: U1-S2-P2_DSE
+  -
+  -
+    title: Quick quiz
+    copy: Use this in combination with above item?
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz

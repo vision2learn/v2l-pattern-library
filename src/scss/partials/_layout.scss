@@ -12,7 +12,7 @@
   }
 }
 
-.l-wrapper {
+main {
 
   // transition: filter .2s ease-in-out;
   /* Flow */
@@ -37,17 +37,17 @@
     margin-top: calc(var(--flow) * 1em);
   }
 
-  > header,
-  > main > section:not(.c-banner),
-  > aside,
-  > footer,
-  > nav {
-    display: grid;
-    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 62.5rem) minmax(1rem, 1fr);
-    
-    > * {
-      grid-column: 2 / span 1;
-    }
+}
+
+header,
+main > section:not(.c-banner),
+aside,
+footer {
+  display: grid;
+  grid-template-columns: minmax(1rem, 1fr) minmax(auto, 62.5rem) minmax(1rem, 1fr);
+  
+  > * {
+    grid-column: 2 / span 1;
   }
 }
 
@@ -194,10 +194,10 @@ main > section:not(.c-banner) {
       max-height: unset;
       position: static;
     
-      > img,
-      > svg {
-        max-width: 300px;
-      }
+      // > img,
+      // > svg {
+      //   max-width: 300px;
+      // }
     }
   }
 }
@@ -217,6 +217,14 @@ main > section:not(.c-banner) {
     "pagination";
     padding: .5rem 1rem;
 
+  &__pages {
+    grid-area: pagination
+  }
+
+  &__sessions {
+    grid-area: session-nav;
+  }
+
   @supports (display: grid) {
     padding-left: 0;
     padding-right: 0;
@@ -232,7 +240,7 @@ main > section:not(.c-banner) {
 
     nav:not(.c-main-head__sessions) {
       grid-area: pagination;
-      align-self: end;
+      // align-self: end;
     }
   }
 }
@@ -328,7 +336,16 @@ main > section:not(.c-banner) {
 
   > textarea,
   > button {
+    border: solid 2px var(--primary1c);
     width: 100%;
+  }
+
+  > textarea {
+    border-bottom: none;
+  }
+
+  > button {
+    border-top: none;
   }
 
   @supports(display: grid) {
