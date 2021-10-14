@@ -5,7 +5,7 @@ banner: placeholder.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
       * What is meant by a unit of code 
@@ -15,6 +15,17 @@ sections:
       * What is meant by open source code 
       * What is meant by closed source code 
 
+  -
+  -
+    title: Introduction to coding languages - PLACEHOLDER
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _Content/text needed to introduce learners to languages that will be used in this course for the examples_
+      ### Title
+
+    img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -182,7 +193,9 @@ sections:
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      _Either recommend a website where one can practice 'coding' such as w3schools? or should we recommend a free code editor for them to use?  the examples will need to be complete so they get the same output? and we would need to have an answer section too._
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      
+      [Online Python](https://online-python.com)
   -
   -
     title: Quick quiz

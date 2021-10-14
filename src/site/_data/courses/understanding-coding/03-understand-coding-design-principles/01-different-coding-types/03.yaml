@@ -33,7 +33,7 @@ sections:
 
           img: placeholder_icon.svg
         -
-          title: Object-orientataed coding
+          title: Object-orientated coding
           text: |
             Object-orientated programming (OOP) is a type of imperative programming. 
 
@@ -61,7 +61,7 @@ sections:
           title: Database processing approach
           text: |
             Database processing approach is declarative. Users can create and edit database systems using declarative control statements. They can also make queries to retrieve results matching specific criteria.
-          img: placeholder_icon.
+          img: placeholder_icon.svg
         -
           title: Event-driven programming
           text: |
