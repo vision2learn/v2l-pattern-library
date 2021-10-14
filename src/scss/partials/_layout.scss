@@ -238,9 +238,8 @@ main > section:not(.c-banner) {
       "session-nav . logo"
       "details pagination pagination";
 
-    nav:not(.c-main-head__sessions) {
-      grid-area: pagination;
-      // align-self: end;
+    &__pages {
+      align-self: end;
     }
   }
 }
