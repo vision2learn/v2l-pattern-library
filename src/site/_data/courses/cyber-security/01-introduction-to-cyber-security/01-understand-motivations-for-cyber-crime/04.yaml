@@ -7,7 +7,7 @@ intro: |
 banner: cs_u1_s1_p4_threats.jpg
 sections:
   -
-    title: Threat types
+    title: Let's have a look at some other types of threat.
     theme: t-bg-grey
     copy: |
       Within companies and organisations, the risk of threats not only come from external sources they can also be from internal sources. This means that companies and organisations need to be aware of security issues both externally and internally. So let's have a look at the differences between an external and an insider threat and what the potential consequences are.
@@ -66,7 +66,7 @@ sections:
         -
           title: untargeted attacks
           text: |
-            Another term commonly used is an 'un-targeted attack' which is not tailored to it's victim. It is by it's nature indiscriminate and targets many different individual devices and systems that have vulnerabilities.This may involve 'phishing' and sending emails and texts to large numbers of people asking for sensitive information such as bank details or asking them to click on a link to log on to a fake website.  We have all become unfortunately used to getting scam emails and texts. The scammer may have obtained the emails from different sources and may not have anymore information so often it may not be relevant to the recipient. However, they hope that some people will fall for it. Setting up fake websites or compromising legitimate website can also be done to exploit random visitors to the site. 
+            Another term commonly used is an 'un-targeted attack' which is not tailored to it's victim. These are sometimes referred to as ‘drive-by attacks’. It is by it's nature indiscriminate and targets many different individual devices and systems that have vulnerabilities.This may involve 'phishing' and sending emails and texts to large numbers of people asking for sensitive information such as bank details or asking them to click on a link to log on to a fake website.  We have all become unfortunately used to getting scam emails and texts. The scammer may have obtained the emails from different sources and may not have anymore information so often it may not be relevant to the recipient. However, they hope that some people will fall for it. Setting up fake websites or compromising legitimate website can also be done to exploit random visitors to the site. 
           img: cs_u1_s1_p4_slide2.svg
   -
     title: Quick quiz

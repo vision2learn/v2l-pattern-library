@@ -7,14 +7,57 @@ sections:
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security -  
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security: 
 
-        * 3.1 Explain why perimeter access control is important
-        * 3.2 Give examples of when check and challenge on the premises may be needed
-        * 3.3 Identify the possible threats to a business presented by the use of:
-          * personal devices
-          * removable devices & hardware
+      1. Explain why perimeter access control is important.
+      2. Give examples of when check and challenge on the premises may be needed.
+      3. Identify the possible threats to a business presented by the use of,
+        * personal devices
+        * removable devices
+        * hardware
         * networking infrastructure
-        * 3.4 Give examples of possible threats presented by remote working
-        * 3.5 Describe best practice which can help to minimise physical threats to cyber security
+      4. Give examples of possible threats presented by remote working.
+      5. Describe best practice which can help to minimise physical threats to cyber security.
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: Perimeter access control.
+    theme: t-bg-primary
+    copy: |
+      Perimeter security and access control systems protect and monitor the external boundary of a business or facility. These systems control access to restricted areas and include the control of people, vehicles and materials through entrances and exits of a controlled area. Scroll through the slides below to learn more about perimeter access control...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Why is perimeter access control important?
+          text: |
+            Perimeter access control systems control the access of people, vehicles and materials into controlled areas through external perimeters of a facility. Other systems linked to this may involve physical barriers and sensors. Intrusion alarms identify unauthorised access or attempted entry into an area. Access controls permit or deny access to the facility. 
+            If Cyber criminals can access a facility they have access to all the systems within that facility and can infiltrate the systems for the criminal activities.
+
+          img: placeholder_icon.svg
+        -
+          title: What is check and challenge?
+          text: |
+            All staff and visitors within a facility or organisation especially those that handle sensitive data should be checked for their identity and challenged to prove who they are to make sure that they have a right to enter. This is important especially in facilities where personal data and personal security is concerned. This is useful for educational establishments such as schools, colleges and universities as well as national security buildings and companies that would be at threat from espionage.
+          img: placeholder_icon.svg
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### What are the potential threats to businesses? 
+      Businesses face a range of threats ranging from personal devices, removable devices, hardware and networking infrastructure. lets have a look at these threats in more detail. 
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+    

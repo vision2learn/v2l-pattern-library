@@ -27,6 +27,12 @@ sections:
       ### Title
       Lets look at what cyber crime is and the possible motivation to carry out cyber crime.
     video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
   -      
     title: Quick quiz
     subInc: 
@@ -68,7 +74,7 @@ sections:
         -
           title: Cybercriminals.
           text: |
-            Cyber criminals aim to exploit human security vulnerabilities to steal passwords, data or money.These are the most common types of threat actors and their attacks may involve hacking into devices to gain password details and stealing or making data inaccessible to an organisation by holding it to ransom. Financial gain is usually the motive and the weapons of choice are phishing attacks, ransomware and malware.
+            Cyber criminals aim to exploit human security vulnerabilities to steal passwords, data or money.These are the most common types of threat actors and their attacks may involve hacking into devices to gain password details and stealing or making data inaccessible to an organisation by holding it to ransom. Financial gain is usually the motive and the weapons of choice are phishing attacks, ransomware and malware. It’s important to understand that these operate very much like any legitimate business, with teams of people and management, who turn up every day with the objective to bring in as much money as possible. Some companies even offer rewards for their employees that bring in the most money under an “employee of the month scheme”!
           img: cs_u1_s1_p3_image_2.svg
         -
           title: Cyber Terrorists & Industrial Spies
@@ -78,13 +84,24 @@ sections:
         -
           title: Hacktivists
           text: |
-            Hacktivists are groups of criminals who carry out 'attacks' in support of political causes and may target who industries or specific organisations who don't share their political views or causes. Their motives are not always financial but may be political or ideological.
+            Hacktivists are groups of criminals who carry out 'attacks' in support of political causes and may target who industries or specific organisations who don't share their political views or causes. Their motives are not always financial but may be political or ideological. Perhaps the most famous example of a Hacktivist group would be "Anonymous".
           img: cs_u1_s1_p3_slide3.svg
         -
           title: State Sponsored Threats
           text: |
             Some countries may target others to steal data or disrupt their security. Their intent may be to bring down or change governments or damage a countries economy. They may also be involved in disrupting communications, espionage and seeking access to military secrets.
           img: cs_u1_s1_p3_image_2.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following links where you can read more about some high profile examples of cybercrime . . .
+
+      links:
+        Cyber crime offer of the month: https://www.infosecurity-magazine.com/news/cybercrime-boss-offers-ferrari-prize-for-most/
+        Top five "Anonymous" Hacks: https://theweek.com/articles/486636/anonymous-secret-groups-5-biggest-hacks    
   -
     title: Time to think
     include: 
