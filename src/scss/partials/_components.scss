@@ -731,7 +731,7 @@ button svg {
 .c-reveal {
   color: $primary1;
   border: solid 1px;
-  margin-top: calc(var(--flow) * 1em);
+  margin-top: calc($flow * 1em);
 
   summary {
     display: block;
