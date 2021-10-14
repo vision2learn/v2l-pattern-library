@@ -11,6 +11,8 @@
   8. Media Object
   9. Slider
   10. Reveal
+  11. Button Section
+  12. Icon
 #}
 
 {# --- 1. Pagination--- #}
@@ -163,13 +165,17 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     section (object) - found in individual page front matter or from predefined in _data/sections.json...
 #}
 
+
 {%- macro section(section) %}
+  {%- if section.theme.indexOf("i-") > -1 -%}
+    {% set themeIcon = true %}
+  {%- endif -%}
 
   <section id="{{ section.title | replace(' ', '-') | lower }}" {%- if section.theme %}class="{{ section.theme }}"{%- endif %}>
     {%- if section.layout %}
       {{ media(title=section.title, copy=section.copy, img=section.img, video=section.video, activity=section.activty, think=section.think, layout=section.layout) }}
     {%- else %}
-      <h2>{{ section.title }}</h2>
+      <h2>{%- if themeIcon %}{{ icon(section.theme) }}{% endif -%}{{ section.title }}</h2>
 
       {%- if section.copy %}
           {{ section.copy | markdownify | safe }}
@@ -267,14 +273,18 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- if mediaType === "image" %}
         {%- if link %}
           <a href="{{ link }}" class="l-media__img" {{ "target=_blank rel=noopener" if data.title.indexOf("Stretch") >= 0 }} aria-label="{{ data.media.alt if data.media.alt else data.title }}">
-            <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}" {{ dims | safe }}>
+            {% if mediaObj.indexOf('assessment_button') > -1 or mediaObj.indexOf('next_button') > -1 or mediaObj.indexOf('forum_button') > -1 %}
+              {% include 'svg/buttons/' + mediaObj %}
+            {% else %}
+              <img src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}" {{ dims | safe }}>
+            {% endif %}
           </a>
         {% else %}
           <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}" {{ dims | safe }}>
         {%- endif %}
       {%- elseif mediaType === "activity" %}
-        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true>
-          <img src="{{ '~' if buildenv === 'dotnet' }}/images/svg/activity_button.svg" alt="Begin {{ data.title }}" {{ dims | safe }}>
+        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true aria-label="Begin activity">
+          {% include 'svg/buttons/activity_button.svg' %}
         </a>
       {%- else %}
         <p>{{ mediaError + ": " + mediaObj }}</p>
@@ -346,3 +356,95 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     </div>
   </li>
 {%- endmacro %}
+
+{# 
+
+  11. Button Section
+
+  Sections with pre-defined image buttons
+  eg Activity, Unit Quiz, Assessment, Next
+
+#}
+
+{%- macro buttonSection(data) %}
+
+{%- if data.type == 'next' -%}
+  {%- set title = 'Ready to move on?' -%}
+  {%- set icon = 'next_button.svg' -%}
+  {%- set link = data.link -%}
+{%- elseif data.type == 'unitquiz' -%}
+  {%- set title = 'Unit quiz' -%}
+  {%- set icon = 'unit_quiz_button.svg' -%}
+  {%- set link = data.tilde + "/" + data.unit + "/quiz" -%}
+{%- elseif data.type == 'unitassessment' -%}
+  {%- set title = 'Unit assessment' -%}
+  {%- set icon = 'assessment_button.svg' -%}
+  {%- set link = data.tilde + "/" + data.unit + "/assessment" -%}
+{%- elseif data.type == 'forum' -%}
+  {%- set title = 'Forum' -%}
+  {%- set icon = 'forum.svg' -%}
+  {%- set link = '/student-dotnet/group-forum.aspx' -%}
+{%- elseif data.type == 'activity' -%}
+  {%- set title = data.title -%}
+  {%- set icon = 'activity_button.svg' -%}
+  {%- set link = data.tilde + data.link -%}
+{%- endif -%}
+
+<section id="{{ title | slug | uniqueID }}" {{ "class=" + data.theme if data.theme }}>
+  <div class="l-media ">  
+    <h2 class="l-media__title">
+      {{ title }}
+    </h2>
+    
+     <div class="l-media__body ">
+      {{ data.copy | markdownify | safe }}
+    </div>
+    <a href="{{ link }}" class="l-media__img" aria-label="{{ title }}">
+      {% include 'svg/buttons/' + icon %}
+    </a>
+  </div>
+</section>
+{%- endmacro %}
+
+{# 
+
+  12. Icon
+
+  Determines which icon to show next to section's <h2>
+
+ #}
+{%- macro icon(theme) %}
+
+  {%- if theme.indexOf("i-") > -1 -%}
+    <!-- THEME ICON MACRO -->
+    {% set themeIcon = true %}
+    {%- if theme.indexOf("i-on-web") > -1 -%}
+      {%- set icon = "web.svg" -%}
+    {%- elseif theme.indexOf("i-summary") > -1 -%}
+      {%- set icon = "summary.svg" -%}
+    {%- elseif theme.indexOf("i-stretch") > -1 -%}
+      {%- set icon = "stretch.svg" -%}
+    {%- elseif theme.indexOf("i-keypoint") > -1 -%}
+      {%- set icon = "keypoint.svg" -%}
+    {%- elseif theme.indexOf("i-think") > -1 -%}
+      {%- set icon = "think.svg" -%}
+    {%- elseif theme.indexOf("i-read") > -1 -%}
+      {%- set icon = "read.svg" -%}
+    {%- elseif theme.indexOf("i-watch") > -1 -%}
+      {%- set icon = "watch.svg" -%}
+    {%- elseif theme.indexOf("i-case-study") > -1 -%}
+      {%- set icon = "casestudy.svg" -%}
+    {%- elseif theme.indexOf("i-practice") > -1 -%}
+      {%- set icon = "practice.svg" -%}
+    {%- elseif theme.indexOf("i-forum") > -1 -%}
+      {%- set icon = "forum.svg" -%}
+    {%- elseif theme.indexOf("i-quiz") > -1 -%}
+      {%- set icon = "quiz.svg" -%}
+    {%- elseif theme.indexOf("i-stats") > -1 -%}
+      {%- set icon = "stats.svg" -%}
+    {%- endif -%}
+    <!-- {{ icon }} -->
+    {% include "svg/course-features/" + icon %}
+  {%- endif -%}
+
+{%- endmacro -%}
