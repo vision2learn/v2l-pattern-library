@@ -21,7 +21,7 @@
   --supporting2: hsl(0, 0%, 90%);
   --supporting3: hsl(0, 0%, 95%);
 
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: XdarkX) {
     --lightness-mod: 10%;
     --supporting1: hsl(140, 8%, 31%);
     --supporting2: hsl(0, 0%, 10%);

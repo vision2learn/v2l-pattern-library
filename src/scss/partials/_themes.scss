@@ -20,7 +20,7 @@
   background-color: $primary1;
   background-color: var(--primary1);
 
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: XdarkX) {
     color: hsl(var(--primary-hue), 100%, 3%);
   }
 }
@@ -96,7 +96,7 @@
   color: $secondary1;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: XdarkX) {
   .t-bg-supporting1,
   .t-bg-supporting2,
   .t-bg-grey,
