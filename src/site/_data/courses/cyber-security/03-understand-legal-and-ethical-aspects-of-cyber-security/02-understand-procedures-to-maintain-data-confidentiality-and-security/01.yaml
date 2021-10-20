@@ -55,12 +55,12 @@ sections:
       title: 
       slides:
         -
-          title: a
+          title: Symmetric key encryption
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Asymmetric key encryption
           text: |
             text
           img: placeholder_icon.svg
