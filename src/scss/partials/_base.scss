@@ -318,6 +318,8 @@ table {
   // border: solid 1px currentColor;
   border-collapse: collapse;
   width: 100%;
+
+  table-layout: fixed;
 }
 
 tbody tr:nth-child(even) {
@@ -328,7 +330,7 @@ tbody tr:nth-child(even) {
 th,
 td {
   border: solid 1px currentColor;
-  padding: .2em .5em;
+  padding: .8em 1.5em;
 }
 
 thead th {

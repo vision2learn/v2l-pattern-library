@@ -46,7 +46,7 @@
             tilde: site.tilde
           }) }}
       {%- else %}
-        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
+        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{'t-bg-supporting3 i-quiz' if section.theme == 'i-quiz' else section.theme }}"{% endif %}>
           {% if section.layout and section.layout.indexOf('media') > -1 and not section.video%}
 
             {%- set mediaItem -%}

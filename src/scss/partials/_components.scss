@@ -465,18 +465,20 @@ button svg {
 
 .c-wordbank {
   // color: #fff;
+  // border: solid 1px hsla(var(--primary-hue), 10%, 75%, .3);
   margin-top: #{$flow}rem;
 
   &__questions {
-    background-color: $supporting3;
+    // background-color: $supporting3;
+    // background-color: var(--supporting3);
+    background-color: hsla(var(--primary-hue), 10%, 85%, .2);
 
     li {
       padding: 1em;
       position: relative;
-      background-color: $supporting3;
 
       &:nth-child(even) {
-        background-color: $supporting2
+        background-color: hsla(var(--primary-hue), 10%, 75%, .3);
       }
     }
   }
@@ -498,11 +500,11 @@ button svg {
   }
 
   .correct::after {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path d="M26.109 8.844c0 .391-.156.781-.438 1.062L12.233 23.344c-.281.281-.672.438-1.062.438s-.781-.156-1.062-.438l-7.781-7.781c-.281-.281-.438-.672-.438-1.062s.156-.781.438-1.062l2.125-2.125c.281-.281.672-.438 1.062-.438s.781.156 1.062.438l4.594 4.609 10.25-10.266c.281-.281.672-.438 1.062-.438s.781.156 1.062.438l2.125 2.125c.281.281.438.672.438 1.062z"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path style="fill: green; stroke: currentColor;" d="M26.109 8.844c0 .391-.156.781-.438 1.062L12.233 23.344c-.281.281-.672.438-1.062.438s-.781-.156-1.062-.438l-7.781-7.781c-.281-.281-.438-.672-.438-1.062s.156-.781.438-1.062l2.125-2.125c.281-.281.672-.438 1.062-.438s.781.156 1.062.438l4.594 4.609 10.25-10.266c.281-.281.672-.438 1.062-.438s.781.156 1.062.438l2.125 2.125c.281.281.438.672.438 1.062z"/></svg>');
   }
 
   .incorrect::after {
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="28"><path d="M20.281 20.656c0 .391-.156.781-.438 1.062l-2.125 2.125c-.281.281-.672.438-1.062.438s-.781-.156-1.062-.438L11 19.249l-4.594 4.594c-.281.281-.672.438-1.062.438s-.781-.156-1.062-.438l-2.125-2.125c-.281-.281-.438-.672-.438-1.062s.156-.781.438-1.062L6.751 15l-4.594-4.594c-.281-.281-.438-.672-.438-1.062s.156-.781.438-1.062l2.125-2.125c.281-.281.672-.438 1.062-.438s.781.156 1.062.438L11 10.751l4.594-4.594c.281-.281.672-.438 1.062-.438s.781.156 1.062.438l2.125 2.125c.281.281.438.672.438 1.062s-.156.781-.438 1.062L15.249 15l4.594 4.594c.281.281.438.672.438 1.062z"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="28"><path style="fill: red; stroke: currentColor;" d="M20.281 20.656c0 .391-.156.781-.438 1.062l-2.125 2.125c-.281.281-.672.438-1.062.438s-.781-.156-1.062-.438L11 19.249l-4.594 4.594c-.281.281-.672.438-1.062.438s-.781-.156-1.062-.438l-2.125-2.125c-.281-.281-.438-.672-.438-1.062s.156-.781.438-1.062L6.751 15l-4.594-4.594c-.281-.281-.438-.672-.438-1.062s.156-.781.438-1.062l2.125-2.125c.281-.281.672-.438 1.062-.438s.781.156 1.062.438L11 10.751l4.594-4.594c.281-.281.672-.438 1.062-.438s.781.156 1.062.438l2.125 2.125c.281.281.438.672.438 1.062s-.156.781-.438 1.062L15.249 15l4.594 4.594c.281.281.438.672.438 1.062z"/></svg>');
   }
 
   
@@ -521,6 +523,7 @@ button svg {
   border-radius: 100%;
   border: solid 3px currentColor;
   color: #fff;
+  color: var(--textLight);
   font-size: calc(2em + 1vw);
   font-family: sans-serif; // Windows is being weird with Segoe UI's vertical centering :'('
   text-shadow: 1px 1px 2px rgba(0,0,0,.6);
@@ -688,13 +691,17 @@ button svg {
       align-items: center;
       justify-content: center;
       background-color: rgba(255,255,255,.9);
-      color: $secondary1;
+      // color: $secondary1;
       padding: 1em;
       transition: top .3s ease-in-out;
       width: 100%;
       height: 100%;
       margin: 0;
       top: 100%;
+
+      @media(prefers-color-scheme: dark) {
+        background-color: rgba(0,0,0,.9);
+      }
     }
 
     [aria-expanded="false"] + & {
@@ -718,7 +725,7 @@ button svg {
     }
 
     + .js-close-btn {
-      color: #000;
+      // color: #000;
       position: absolute;
       top: .5em;
       right: .5em;
