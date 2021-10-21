@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Understand the methods of testing code 
 intro: |
-  intro text
+  In this session the learner will learn about the different methods used to test code.
 banner: placeholder.jpg
 sections:
   -
@@ -8,14 +8,19 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-
+      * What is meant by testing code
+      * Why it is important to test code
+      * Methods of testing code
+      * Characteristics of a test driven development
+      * Benefits of a test driven development
+      * What is a bug in relation to code
+      * What is debugging
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain what is meant by testing code.
   -
     title: introduction text
     layout: media

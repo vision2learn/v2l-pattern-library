@@ -7,7 +7,11 @@ sections:
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * one
-      * two
-      * three
+      * What is meant by testing code
+      * Why it is important to test code
+      * Methods of testing code
+      * Characteristics of a test driven development
+      * Benefits of a test driven development
+      * What is a bug in relation to code
+      * What is debugging
   

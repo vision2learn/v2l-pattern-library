@@ -1,13 +1,16 @@
-title: TEMPLATE PAGE
+title: Principles relating to best practice in coding
 intro: |
-  intro text
+  Let’s look at some more principles related to best practice in coding.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * define what is meant by the single responsibility principle,
+      * describe what is meant by separation of concerns,
+      * define what is meant by abstraction.
   -
     title: introduction text
     layout: media
@@ -15,6 +18,8 @@ sections:
     copy: |
       _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
       
+      _Awaiting on SME content before deciding element for 1.3-1.5_
+
       Topic introduction text here 
 
     img: /images/svg/placeholder_icon.svg
@@ -78,7 +83,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe what is meant by solid principles.
   -
   -
     title: Watch 
@@ -87,7 +92,9 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      ### SOLID principles
+
+      Please see the following video on Solid principles.
     video: placeholder_pc.mp4
   -
     title: Time to think
