@@ -24,7 +24,7 @@ sections:
     title: What is meant by compiled code and interpreted code?
     theme: t-bg-primary
     copy: |
-      For a program to execute successfully, the human readable code which has been written by the programmer (the source code) must be translated into commands that are directly executable by the hardware (machine code). This can occur in different ways depending on the language, broadly through compilers or interpreters. 
+      For a program to execute successfully, the human readable code (the source code), which has been written by the programmer, must be translated into commands that are directly executable by the hardware (machine code). This can occur in different ways depending on the language, broadly through compilers or interpreters. 
 
     subInc: 
       type: reveal
@@ -32,12 +32,15 @@ sections:
         -
           title: Compiled code
           copy: |
-            Compiled code is source code that has been processed by a compiler to turn it into a self-contained executable program which defines the machine code. 
+            Compiled code is source code that has been processed by a compiler.  This process turns it into a self-contained executable program which defines the machine code.
+
           img: placeholder_icon.svg
         -
           title: Interpreted code
           copy: |
-            Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter. 
+            Interpreted code is source code that effectively gets translated into machine code line-by-line.  
+            
+            The program executes the code (line-by-line) through a intermediate program called an interpreter. 
           img: placeholder_icon.svg
   -
   -

@@ -1,6 +1,6 @@
 title: Coding types
 intro: |
-  intro text
+  On this page you will learn about functional coding, object-orientated coding, and other coding types.
 banner: placeholder.jpg
 sections:
   -
@@ -16,7 +16,7 @@ sections:
     title: Coding types
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about the different types of coding.
 
     subInc: 
       type: slider
@@ -33,7 +33,7 @@ sections:
 
           img: placeholder_icon.svg
         -
-          title: Object-orientataed coding
+          title: Object-orientated coding
           text: |
             Object-orientated programming (OOP) is a type of imperative programming. 
 
@@ -61,7 +61,7 @@ sections:
           title: Database processing approach
           text: |
             Database processing approach is declarative. Users can create and edit database systems using declarative control statements. They can also make queries to retrieve results matching specific criteria.
-          img: placeholder_icon.
+          img: placeholder_icon.svg
         -
           title: Event-driven programming
           text: |
@@ -70,41 +70,21 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to state the advantages and disadvantages of functional, object-orientated and other coding types.
   -
   -
-    title: Advantages and disadvantages
-    theme: t-bg-primary
-    copy: |
-      ### PLACEHOLDER - This may need to be replaced with a different type of item?
-
-      table example
-      | Code type | Advantages | Disadvantages |
-      |------|------|------|
-      |Imperative  | text | text |
-      |Declarative  | text | text |
-      |OOP | text | text |
-      |Functional | text | text |
-      |Procedural | text | text |
-      |Logic programming | text | text |
-      |Parallel processing | text | text |
-      |Database | text | text |
-  
-  -
-  -
-    title: Activity - PLACEHOLDER - may be needed to replace table
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary2
     copy: |
-      ### Advantages and disadvantages
+      _Presentation style - Presenter(s) with text for each code type_
+      
+      ### Code type - advantages and disadvantages
 
-      Select the following icon to . . .
-
-
-    img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+      Let's take a look at the advantages and disadvantages of each code type in the following video.
+    video: placeholder_pc.mp4
   -
   -
     title: Quick quiz
@@ -113,15 +93,22 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
+          sentence: example one - OOP
           answer: one
         -
-          sentence: example two
+          sentence: example two - Functional
           answer: two
         -
-          sentence: example three 
+          sentence: example three - Procedural
           answer: three
         -
-          sentence: example four
+          sentence: example four = Database
           answer: four
     theme: i-quiz
+  -
+  -
+    title: Read - Code types
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following [example doc]() document where you can download the full list of advantages and disadvantages of code types.
+  -

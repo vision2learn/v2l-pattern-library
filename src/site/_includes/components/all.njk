@@ -218,7 +218,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
 #}
 
-{%- macro media2(data, buildenv, course="", formID=1) %}
+{%- macro media2(data, buildenv, course="", formID=1) -%}
   {# Remove leading slash from object path if there is one #}
   
   {%- if data.title === "Forum" -%}
@@ -229,29 +229,29 @@ Taken from: https://inclusive-components.design/collapsible-sections/
     {%- set link = data.link -%}
   {%- endif -%}
 
-  {%- set  mediaObj = "" + data.media.ref | safe | striptags() %}
-  {%- if mediaObj | first === "/"  %}
-    {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) %}
-  {%- endif %}
+  {%- set  mediaObj = "" + data.media.ref | safe | striptags() -%}
+  {%- if mediaObj | first === "/"  -%}
+    {%- set  mediaObj = mediaObj | replace("/","",1) | replace("images/svg/", "", 1) -%}
+  {%- endif -%}
   
   {# Detect media type, img/video etc #}
   {%- if (mediaObj.toString().endsWith('svg')) or (mediaObj.toString().endsWith('png')) or (mediaObj.toString().endsWith('jpg')) or (mediaObj.toString().endsWith('jpeg') or mediaObj.startsWith('https://via.placeholder')) %}
     {%- set mediaType = "image" %}
-    {% set filepath = '/images/svg/' %}
-    {% set dims = 'width="300" height="300" ' %}
+    {%- set filepath = '/images/svg/' -%}
+    {%- set dims = 'width="300" height="300" ' -%}
 
-    {% if mediaObj.startsWith('https://via.placeholder') %}
-      {% set filepath = '' %}
-    {% endif %}
+    {%- if mediaObj.startsWith('https://via.placeholder') %}
+      {%- set filepath = '' -%}
+    {% endif -%}
   {%- elseif mediaObj.toString().endsWith('mp4') %}
     {%- set mediaType = "video" %}
   {%- elseif mediaObj === "activity" %}
     {%- set mediaType = "activity" %}
   {%- else %}
-    {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" %}
-  {%- endif %}
+    {%- set mediaError = "Unrecongnised media type passed to media() in all.njk" -%}
+  {%- endif -%}
 
-  {% if mediaType !== 'video' %}
+  {%- if mediaType !== 'video' %}
     <div class="l-media {%- if data.layout == 'media-rev' %} l-media--rev {%- elseif data.layout == 'media-half' %} l-media--half {%- endif %} {{ 'l-media--video' if mediaType === 'video' }}">
       {%- if data.title %}
         {# TODO: dynamic heading level #}
@@ -263,11 +263,11 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       <div class="l-media__body {{ 'l-media__body--full' if not data.title }}">
         {{ data.copy | markdownify | safe }}
 
-        {% if mediaType === "image" and data.title.indexOf("Stretch") >= 0 and link %}
+        {%- if mediaType === "image" and data.title.indexOf("Stretch") >= 0 and link %}
           <p>
             <small>vision&#x200B;2&#x200B;learn is not responsible for the content of external sites.</small>
           </p>
-        {% endif %}
+        {%- endif %}
       </div>
 
       {%- if mediaType === "image" %}
@@ -281,7 +281,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
           </a>
         {% else %}
           <img class="l-media__img" src="{{ '~' if buildenv === 'dotnet' }}{{ filepath }}{{ mediaObj | lower }}" alt="{{ mediaError }}" {{ dims | safe }}>
-        {%- endif %}
+        {%- endif -%}
       {%- elseif mediaType === "activity" %}
         <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true aria-label="Begin activity">
           {% include 'svg/buttons/activity_button.svg' %}
@@ -290,19 +290,19 @@ Taken from: https://inclusive-components.design/collapsible-sections/
         <p>{{ mediaError + ": " + mediaObj }}</p>
       {%- endif %}  
     </div>
-  {% else %}
+  {%- else %}
     {%- set id = data.title | d('no string') | slug | uniqueID %}
     <h2 id="{{ id }}">{{ data.title }}</h2>
     {{ data.copy | markdownify | safe }}
     <!-- all.njk VIDEO 2 -->
     {% set mediaObj = mediaObj | lower %}
     {% video mediaObj, id %}
-  {% endif %}
+  {% endif -%}
   
 {%- endmacro %}
 
 {# --- 9. Slider --- #}
-{%- macro slideItem(slidedata, buildenv, shortcode) %}
+{%- macro slideItem(slidedata, buildenv, shortcode) -%}
   {# TODO: Support other media types for slider #}
     {%- if slidedata.heading -%}
       {%- set title = slidedata.heading | safe | striptags() -%}
@@ -312,13 +312,13 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- set title = "" -%}
     {%- endif -%}
 
-    {% if shortcode %}
-      {% set shortcode = shortcode + "/" %}
-    {% else %}
-      {% set shortcode = "" %}
-    {% endif %}
+    {%- if shortcode -%}
+      {%- set shortcode = shortcode + "/" -%}
+    {%- else -%}
+      {%- set shortcode = "" -%}
+    {%- endif -%}
 
-    {%- if slidedata.img or slidedata.media %}
+    {%- if slidedata.img or slidedata.media -%}
       {{ media2({
             title: title,
             copy: slidedata.text,
@@ -328,17 +328,17 @@ Taken from: https://inclusive-components.design/collapsible-sections/
           },
           buildenv
         ) }}
-    {%- else %}
+    {%- else -%}
      <div>
-        {%- if slidedata.heading %}
-          <h3>{{ slidedata.heading | safe }}</h3>
-        {%- endif %}
+        {%- if title -%}
+          <h3>{{ title }}</h3>
+        {%- endif -%}
         {{ slidedata.text | markdownify | safe }}
       </div> 
-    {%- endif %}
+    {%- endif -%}
     
     {# <span aria-hidden="true" class="c-slider__count" data-v2l-count="{{ slideData.length }}"></span> #}
-{%- endmacro %}
+{%- endmacro -%}
 
 {# 10. Reveal (show/hide) #}
 

@@ -5,7 +5,7 @@ banner: placeholder.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
       * Define what are operands/operations
@@ -16,6 +16,18 @@ sections:
       * What is meant by control flow 
       * What is meant by iterations 
       * What is meant by recursions
+  -
+  -
+    title: Recap - PLACEHOLDER
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _Recap here to touch on previous related elements_
+      
+      ### Title
+
+    img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -38,7 +50,7 @@ sections:
           copy: |
             An Operator is the term used to define those objects within the code that affect that change or manipulation to the Operands.
 
-            This is either done as a prefix (before the operand) an Infix (between operands) or a postfix (after the operands).
+            This is either done as a prefix (before the operand) an infix (between operands) or a postfix (after the operands).
         - 
           title: Together
           copy: |
@@ -100,41 +112,33 @@ sections:
       lang: text
       highlight: 
       code: |
-        <class 'int'>
-        <class 'float'>
-        <class 'str'>
+        class 'int'
+        class 'float'
+        class 'str'
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Exercise here that relates to the above example.
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      
+      [Online Python](https://online-python.com)
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        
-        Please see the following website where you can learn more about 
-      links:
-        website: 
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one - operand
-          answer: one
+          sentence: A + symbol is an operand.
+          answer: operand
         -
-          sentence: example two - operator
-          answer: two
+          sentence: A number is an operator.
+          answer: operator
         -
-          sentence: example three 
-          answer: three
+          sentence: A variable is flexible - its value can change.
+          answer: variable
         -
-          sentence: example four
-          answer: four
+          sentence: A constant is fixed - its value does not change.
+          answer: constant
     theme: i-quiz
