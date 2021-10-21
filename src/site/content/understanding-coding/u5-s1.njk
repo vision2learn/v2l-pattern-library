@@ -1,0 +1,16 @@
+---js
+{
+  unit: 5,
+  session: 1,
+  pagination: {
+    data: "courses['understanding-coding']['05-project-management-and-communication']['01-the-importance-of-communication']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->
