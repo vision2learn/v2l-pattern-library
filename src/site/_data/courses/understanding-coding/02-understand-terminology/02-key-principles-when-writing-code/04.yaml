@@ -1,0 +1,87 @@
+title: Collection and control flow
+intro: |
+  On this page you will learn about the term collection and what is meant by control flow.
+banner: uc_u2_s3_p4_collection.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain what is meant by the term ‘collection’.
+  -
+    title: What is meant by the term collection
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      In programming, a collection represents a set of similar data type items in a single unit and these are used for grouping and managing related objects. This grouping of data items will have some shared significance to the problem being solved that need to be worked upon together. The data items will be of the same type or in the same languages. 
+      
+      A collection has an underlying structure that is used for efficient data manipulation and storage. When collections are used in logical constructs this can help with code readability and maintenance. Examples of collections are linked lists, stacks, queues or dictionaries. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about linked lists.
+
+      links:
+        linked lists: https://www.tutorialspoint.com/data_structures_algorithms/linked_lists_algorithm.htm
+        
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      If you would like to learn more about linked list click on the Owl to take you to an example of a linked list in the programming language C
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain what is meant by control flow.
+  -
+  -
+    title: Control flow
+    theme:
+    copy: |
+      Control flow is the order in which a computer executes statements in a script. Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow. For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. Control flow means that when a script is read it must be read from start to finish but also the program structure should be read so as to know how it affects the order of execution. Control Flow is often represented in a graph (CFG) during the execution of programs or applications.
+
+      Here are some examples of control structures in Javascript.
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        // Conditional
+
+        if (variable_1 == variable_2){
+          console.log('the variables are equal');
+        } else {
+          console.log('the variables are not equal');
+        }
+        
+        // Loop
+
+
+        // Function
+
+
+        // To call the Function
+
+
+
+
+    copy2: |
+      _screenshot of js output?_
+
+      _Please note:  The above are just examples of control structures in Javascript so these will only run when within a program - hence no result page_
+
+  -
