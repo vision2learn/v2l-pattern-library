@@ -21,11 +21,21 @@
   --supporting2: hsl(0, 0%, 90%);
   --supporting3: hsl(0, 0%, 95%);
 
-  @media (prefers-color-scheme: XdarkX) {
+  --textToggle: var(--secondary1); // dark
+  --textLight: hsl(0, 0%, 95%); // light
+
+  @media (prefers-color-scheme: dark) {
     --lightness-mod: 10%;
     --supporting1: hsl(140, 8%, 31%);
     --supporting2: hsl(0, 0%, 10%);
-    --supporting3: hsl(0, 0%, 5%);
+    --supporting3: var(--secondary1); //hsl(0, 0%, 5%);
+
+    --primary1: var(--primary2);
+    --primary1a: var(--primary2);
+    --primary1b: var(--primary2);
+    --primary1c: var(--primary2);
+
+    --textToggle: hsl(0, 0%, 95%); // light
 
     .c-banner__img {
       filter: opacity(.5);

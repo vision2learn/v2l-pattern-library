@@ -6,23 +6,29 @@
 
 [data-v2l-toggleText] {
   font-size: .8em;
-  color: var(--secondary2);
+  color: currentColor;
 }
 
-[class^="t-bg-secondary"],
-[class*="t-bg-secondary"],
+[class^="t-bg-primary"],
+[class*="t-bg-primary"],
+.t-bg-supporting1,
+.t-bg-supporting2,
+.t-bg-supporting3,
+.t-bg-grey {
+  color: var(--textToggle);
+}
+
+
 .t-bg-primary2,
-.t-bg-primary3 {
-  color: #fff;
+.t-bg-primary3,
+.t-bg-secondary1,
+.t-bg-secondary2 {
+  color: var(--textLight);
 }
 
 .t-bg-primary {
   background-color: $primary1;
   background-color: var(--primary1);
-
-  @media (prefers-color-scheme: XdarkX) {
-    color: hsl(var(--primary-hue), 100%, 3%);
-  }
 }
 
 .t-bg-primary2 {
@@ -84,31 +90,17 @@
   background-color: var(--supporting2);
 }
 
-.t-bg-supporting3 {
+.t-bg-supporting3,
+.i-quiz {
   background-color: #f3f3f3;
   background-color: var(--supporting3);
 }
 
-.t-bg-white,
-.t-bg-primary1c,
-.t-bg-supporting1,
-.t-bg-supporting2 {
-  color: $secondary1;
-}
-
-@media (prefers-color-scheme: XdarkX) {
-  .t-bg-supporting1,
-  .t-bg-supporting2,
-  .t-bg-grey,
-  .t-bg-supporting3 {
-    color: hsl(0, 0%, 80%);
-  }
-
+@media (prefers-color-scheme: dark) {
   main > section:not([class]) {
-    outline: dashed 1px yellow;
     outline-offset: -3px;
     background: var(--supporting3);
-    color: hsl(0, 0%, 80%);
+    color: var(--textToggle);
   }
 }
 
