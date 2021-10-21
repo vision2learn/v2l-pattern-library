@@ -6,17 +6,8 @@
 
 [data-v2l-toggleText] {
   font-size: .8em;
-  // color: var(--secondary2);
   color: currentColor;
 }
-
-// [class^="t-bg-secondary"],
-// [class*="t-bg-secondary"],
-// .t-bg-primary2,
-// .t-bg-primary3 {
-//   color: #fff;
-//   color: var(--textB);
-// }
 
 [class^="t-bg-primary"],
 [class*="t-bg-primary"],
@@ -105,24 +96,8 @@
   background-color: var(--supporting3);
 }
 
-// .t-bg-white,
-// .t-bg-primary1c,
-// .t-bg-supporting1,
-// .t-bg-supporting2 {
-//   color: $secondary1;
-// }
-
 @media (prefers-color-scheme: dark) {
-  // .t-bg-supporting1,
-  // .t-bg-supporting2,
-  // .t-bg-grey,
-  // .t-bg-supporting3,
-  // .i-quiz {
-  //   color: hsl(0, 0%, 80%);
-  // }
-
   main > section:not([class]) {
-    // outline: dashed 1px yellow;
     outline-offset: -3px;
     background: var(--supporting3);
     color: var(--textToggle);
