@@ -20,15 +20,16 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain what is meant by testing code.
+      In your assessment you will be required to:
+      * Explain what is meant by testing code
+      * Explain why it is important to test code
+      * Identify methods of testing code.
   -
-    title: introduction text
+    title: Testing code
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      We have talked about different code and how it should be written but to make sure it works it must be tested so let’s look at what is meant by testing code. 
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -91,7 +92,9 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Describe the characteristics of a test driven development
+      * Explain the benefits of a test driven development.
   -
   -
     title: Watch 
@@ -100,7 +103,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      The Test Driven Development approach creates test cases to specify and validate what the code will do. Please see the following video to learn more about Test Driven Development.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -110,59 +113,7 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
-  -
-  -
-    title: Code
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-  -
+ -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
