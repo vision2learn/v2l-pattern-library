@@ -22,25 +22,20 @@ sections:
       * the key job functions of a coding professional,
       * key skills requirements for a coding professional.
   -
-    title: Interactivity - Job functions
-    theme: 
-    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
     copy: |
+      _Presentation style - Presenter with text to the side for each item, imagery to support._
+      
       ### What are the key job functions of a coding professional?
 
       Coding professionals are always in demand and programming is one of the most important roles in the fast growing technical industries. There are many different types of coding professionals and each will specialise in a different areas using different languages.
       
-      Let's look at what it takes to be a coding professional and what key skills are needed.
+      Let's look at what it takes to be a coding professional and what key skills are needed in the following video.
 
-
-
-
-      _Interactivity will show in a space below_
-
-    interactive: 
-      file: 
-      width: 1000
-      height: 800       
+    video: placeholder_pc.mp4
   -
   -
     title: Quick quiz
