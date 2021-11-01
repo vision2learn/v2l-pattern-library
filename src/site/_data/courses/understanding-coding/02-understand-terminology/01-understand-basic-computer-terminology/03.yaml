@@ -17,7 +17,7 @@ sections:
       
       Data is digitally written, stored, and read on physical units such as CPUs, hard drives, and RAM. Data is stored by electrical circuits on the disk which are defined by binary inputs. To create these circuits, transistors within the processing units determine which binary state (on, ‘1’s or off, ‘0’s) parts of the memory are in. We will discuss exactly how this occurs later. 
 
-    img: /images/svg/uc/uc_u2_s1_p3_image.svg
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: Key point
@@ -76,22 +76,6 @@ sections:
       _Content to go here to introduce learner to variables and functions_
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Data type rules - TO BE UPDATED
-    theme: t-bg-supporting3
-    copy: |
-      _These examples need to be replaced with something simple so they are pitched at level 2_
-
-      Different coding languages have different rules and ways of dealing with different data types. For example, when creating a string in Java from data that already exist in the memory (variables), you must use formatting specifiers to tell the program what sort of data type you are including in the string.
-
-      | Format Specifier | Data Type| Output |
-      |------|------|------|
-      | %a  | floating point (except BigDecimal) | Returns Hex output of floating point number. |
-      | %b  | Any type | "true" if non-null, "false" if null |
-      | %c  | character | Unicode character |
-
-  -
   -
     title: Quick quiz
     copy: See if you can identify the different data types in the following word quiz.
