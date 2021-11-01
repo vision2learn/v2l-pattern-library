@@ -18,7 +18,7 @@ sections:
       There are many different categories and mixtures of imperative/declarative programming. When programming language has capabilities of more than one paradigm, we refer to this as multi-paradigm.
 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u3_s1_p2_image.svg
   -
   -
     title: Imperative and declarative coding
@@ -36,7 +36,7 @@ sections:
             Imperative coding is the oldest programming paradigm and focuses on exactly HOW a computer should achieve the desired result. 
             
             The source code of imperative languages consists of a series of commands, or step by step instructions, detailing the control flow for how to deliver the desired result.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p2_slide1.svg
         -
           title: Declarative coding
           text: |
@@ -45,7 +45,7 @@ sections:
             The source code is more abstracted from the underlying operations than with imperative coding. 
             
             To get a solution, the program will automatically identify and apply suitable methods which are written into the language, in order to achieve the result expressed by the declarative code.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p2_slide2.svg
   -
   -
     title: Watch 

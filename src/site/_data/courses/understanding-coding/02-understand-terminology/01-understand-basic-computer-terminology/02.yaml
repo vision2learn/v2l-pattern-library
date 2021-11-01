@@ -26,7 +26,7 @@ sections:
     copy: |
       Take a look at the following simple diagram of a CPU.
             
-      ![](/images/banners/uc/placeholder.jpg)
+      ![](/images/svg/uc/uc_u2_s1_p2_wide_image.svg)
   -
   -
     title: Watch 
@@ -60,25 +60,25 @@ sections:
           title: It is short term memory
           text: |
             RAM stands for random access memory which is short term memory where data is stored for use as the processor needs it. It is working memory that is used as it is needed to perform a task and is lost when a computer is turned off. This is not the same as long term memory which can be stored permanently on a hard drive and then deleted by a user or software when no longer required. 
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p2_slide1.svg
         -
           title: System performance
           text: |
             RAM is one of the most important components in determining a systems performance and gives applications a place to store and access data on a short term basis. The more programs a system runs the more RAM a system will need or it will become slow and sluggish.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p2_slide2.svg
         -
           title: What it does
           text: |
             So what exactly does RAM do? It allows a computer to perform many of its everyday tasks such as loading applications, browsing the internet, editing a spreadsheet or playing a game. It also allows the user to swap between tasks remembering where they are at the time when they switch to another. Memory is always being used by a computer.
 
             RAM essentially provides a place where data can be stored/exchanged whilst it is being used by a program or process, then emptied when this has finished. This allows operations to be completed without trying to accomplish this on the hard disk, where it might cause data loss and therefore loss of function.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p2_slide3.svg
         -
           title: Having enough RAM for coding
           text: |
             Coders need systems with enough RAM that allows them to operate whilst programming. It is not always the coding that uses up the RAM it is the other programs working in the background. Some coding languages will also use more RAM than others.
 
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p2_slide4.svg
   -
     title: Quick quiz
     copy: See if you can identify which of the following statements are the CPU or RAM.
