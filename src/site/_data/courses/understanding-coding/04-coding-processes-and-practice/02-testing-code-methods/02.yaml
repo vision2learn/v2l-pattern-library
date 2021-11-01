@@ -1,4 +1,4 @@
-title: Bugs
+title: Bugs in code
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,7 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Identify what is meant by a bug in relation to code
+      * Describe what is meant by debugging
   -
     title: introduction text
     layout: media
@@ -75,12 +77,6 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
@@ -127,27 +123,6 @@ sections:
       Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
       
       [Online Python](https://online-python.com)
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web

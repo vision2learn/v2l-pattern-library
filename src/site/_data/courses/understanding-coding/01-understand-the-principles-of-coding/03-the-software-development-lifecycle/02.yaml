@@ -27,7 +27,7 @@ sections:
             2. The project manager guides discussions to outline the specific needs of the client/end user. 
             3. The aim is to produce a software requirement specification (SRS) document which outlines the economic, operational, and technical details.
 
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/uc/uc_u1_s3_p2_accordion1.svg
         - 
           title: Design
           copy: |
@@ -35,7 +35,7 @@ sections:
             2. This may include the use of flow diagrams or pseudocode to draft out the software architecture.
             3. The DDS is then reviewed by the main stakeholders, and when an approach is decided the details of technical approaches and data flow are outlined.
 
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/uc/uc_u1_s3_p2_accordion2.svg
         - 
           title: Importance of the planning stage
           copy: |
@@ -60,7 +60,7 @@ sections:
       2.	The programmers then write, test, and debug the allocated parts of the project code using the specified programming language.
       3.	Depending on the SDLC model which is used, they work together to bring the separate aspects together to form a beta (test) version of the product.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u1_s3_p2_image1.svg
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -80,7 +80,7 @@ sections:
           copy: |
             This is where the product is near completion, and is road-tested and debugged before it can be implemented. The testing stage is important because this is where bugs, errors, and defects are identified and revised until it reaches the quality standards specified in the SRS.
 
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/uc/uc_u1_s3_p2_accordion3.svg
         - 
           title: Deployment stage
           copy: |
@@ -90,7 +90,7 @@ sections:
             2. Support regarding *installation/use* of the software.
             3. Enhancements made based on user feedback.
             4. Full release into a commercial environment.
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/uc/uc_u1_s3_p2_accordion4.svg
   -
   -
     title: On the web
@@ -121,4 +121,4 @@ sections:
       3.	To add extra functionality.
       4.	Possibly to adapt the software or write modules or plugins based on the users needs.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u1_s3_p2_image2.svg
