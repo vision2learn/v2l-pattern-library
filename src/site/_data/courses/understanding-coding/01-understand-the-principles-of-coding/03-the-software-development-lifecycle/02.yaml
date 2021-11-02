@@ -86,7 +86,7 @@ sections:
           copy: |
             When the product testing is complete and the client has signed off, the deployment stage begins. This is where the product is introduced into a commercial environment. Depending on the SRS, the main actions during the deployment stage usually involve:
 
-            1. Release of the product to customers. This could happen in stages, first involving release to a *limited customer base* in the form of the previously mentioned UAT (user acceptance testing).
+            1. Release of the product to customers. This could happen in stages, first involving release to a *limited customer base* in the form of a UAT (user acceptance testing).
             2. Support regarding *installation/use* of the software.
             3. Enhancements made based on user feedback.
             4. Full release into a commercial environment.

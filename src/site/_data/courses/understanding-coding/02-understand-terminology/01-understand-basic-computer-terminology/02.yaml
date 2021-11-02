@@ -4,17 +4,6 @@ intro: |
 banner: uc_u2_s1_p2_terminology.jpg
 sections:
   -
-    title: Terms - PLACEHOLDER
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _NEW item to explain terms before code example and that we are using more than one language for the examples_
-
-      ### Terms
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
