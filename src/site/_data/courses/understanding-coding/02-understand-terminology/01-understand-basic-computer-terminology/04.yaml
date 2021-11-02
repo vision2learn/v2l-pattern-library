@@ -31,7 +31,7 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Interactivity - 
+    title: Coding features
     theme: 
     
     copy: |
@@ -43,30 +43,33 @@ sections:
 
       Please see in the below activity how these features differ according to each language:
 
-      PLACEHOLDER EXAMPLE ONLY
+      PLACEHOLDER - to be replaced with a new interactivity showing the three languages and the option to click on the different areas to show the different features
 
     interactive: 
-      file: uc/u1_s3_p1_lifecycle
+      file: 
       width: 1000
-      height: 600
+      height: 800
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain the use of variables. (3.6 - is it worth covering the key points that come later in the course here?)
+      In your assessment you will be required to explain the use of variables. (3.6 - Do I need to reference that this comes later in the course?)
   -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Have a go at writing out the above three examples for each language on the following practice websites.  Check to see if you get the same result as in the above example.  
-      
-      [Python](https://online-python.com) 
+      Have a go at writing out the above three examples for each language on the following practice websites. On these online compilers you would:
+       1. Choose the language 
+       2.	Enter the code 
+       3.	Run the script
+ 
+      [The Python Online Compiler](https://online-python.com) 
 
-      [JavaScript](https://onecompiler.com/javascript) 
+      A [JavaScript] Online Compiler (https://onecompiler.com/javascript) 
       
-      [C++](https://onecompiler.com/cpp) 
+      A [C++] Online Compiler (https://onecompiler.com/cpp) 
   -
   -
     title: On the web
