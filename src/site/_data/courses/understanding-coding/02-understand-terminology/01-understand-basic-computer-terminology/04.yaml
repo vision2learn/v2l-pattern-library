@@ -1,15 +1,85 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the first session of this unit! 
-banner: summary.jpg
+title: Coding languages used in this course
+intro: |
+  On this page you will learn about the three different coding languages we will be using as examples throughout this course.
+banner: uc_u2_s1_p3_data.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Examples of coding languages
+    theme: t-bg-primary
     copy: |
-      In this session, you have learnt about:
-      * What is meant by Central Processing Unit (CPU)
-      * The function of Random-Access Memory (RAM) 
-      * What is meant by Data
-      * The key purpose of data types used in coding 
-      * Ways that data can be stored
-  
+      In the remaining sections of the course, we will be using examples of code to demonstrate the concepts we are discussing.
+      
+      We will use three different coding languages:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Python3
+          copy: |
+            A high-level, general purpose language, mainly used for object-orientated programming, though with procedural capabilities. Due to its accessibility and versatility, one of the most popular languages, used for everything from scientific analysis, web-scraping, to program development.
+          img: placeholder_icon.svg
+        -
+          title: JavaScript
+          copy: |
+            A high-level language with objected-orientated and functional programming capabilities, one of the most-used languages for website building development and browsers.
+          img: placeholder_icon.svg
+        -
+          title: C++
+          copy: |
+            A general purpose middle-level language with objected-orientated and functional programming capabilities often implemented in desktop applications and video games.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Coding features
+    theme: 
+    
+    copy: |
+      To show how the code looks, we are going to show three general features which are common to all code in each language:
+      
+      1.	Comments: sections of code to inform the programmer which are ignored by the program
+      2.	A variable declaration: variables are containers for data. A declaration is where one is introduced for the first time in a program.
+      3.	Printing an output to the console: a console is text interface from which inputs/outputs can be managed when a program is run. A “print” statement is a simple operation where an output is printed to the console.
+
+      Please see in the below activity how these features differ according to each language:
+
+      PLACEHOLDER - to be replaced with a new interactivity showing the three languages and the option to click on the different areas to show the different features
+
+    interactive: 
+      file: 
+      width: 1000
+      height: 800
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the use of variables. (3.6 - Do I need to reference that this comes later in the course?)
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above three examples for each language on the following practice websites. On these online compilers you would:
+       1. Choose the language 
+       2.	Enter the code 
+       3.	Run the script
+ 
+      [The Python Online Compiler](https://online-python.com) 
+
+      A [JavaScript] Online Compiler (https://onecompiler.com/javascript) 
+      
+      A [C++] Online Compiler (https://onecompiler.com/cpp) 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the below websites for a choice of three different online compilers where you can run code. You can choose from a number of languages from the drop down box on each online compiler website:
+
+      links:
+        onecompiler: https://onecompiler.com/
+        ideone: https://www.ideone.com/ 
+        codechef: https://www.codechef.com/ide 

@@ -119,11 +119,11 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: A + symbol is an operand.
-          answer: operand
-        -
-          sentence: A number is an operator.
+          sentence: A + symbol is an operator.
           answer: operator
+        -
+          sentence: A number is an operand.
+          answer: operand
         -
           sentence: A variable is flexible - its value can change.
           answer: variable
