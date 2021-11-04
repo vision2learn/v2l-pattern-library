@@ -20,6 +20,19 @@ sections:
     video: placeholder_pc.mp4
   -
   -
+    title: List
+    theme: t-bg-supporting3
+    copy: |
+      Our example shows how a list is declared in JavaScript.
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        var list_1 = [5, 2, 6, 3, 7, 2]
+  -
+  -
     title: Quick quiz
     copy: 
     subInc: 

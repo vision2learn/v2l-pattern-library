@@ -1,57 +1,8 @@
-title: Interation and recursions
+title: Recursions
 intro: |
-  On this page you will learn about what is meant by interations and recursions.
+  On this page you will learn about what is meant by recursions.
 banner: uc_u2_s2_p5_iteration.jpg
 sections:
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to define what is meant by iterations.
-  -
-    title: Iterations
-    theme:
-    copy: |
-      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. Iterations however can be large in terms of code, though are faster in terms of execution to their counterpart Recursion.
-
-      Here is a very simple iteration in Python whereby we start with a variable of value 1, then using a While loop, check whether our input_variable multiplied by 2 is greater than 15. If it is not, we add 1, to it then carry on until our input variable reaches 10, otherwise we use an ‘if’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
-
-
-    subInc:
-      type: code
-      lang: python
-      highlight: 
-      code: |
-        input_variable_1 = 1
-
-        while input_variable_1 != 10:
-          print('Input value = ', input_variable_1)
-
-          if
-
-        # more code here
-    
-  -
-  -
-    title: Result
-    theme:
-    copy: |
-      
-    subInc:
-      type: code
-      lang: text
-      highlight: 
-      code: |
-        Result text here
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -59,12 +10,35 @@ sections:
       In your assessment you will be required to define what is meant by recursions.
   -
   -
-    title: Recursions
-    theme:
+    title: Placeholder for Recursion text
+    layout: media
+    theme: t-bg-primary
     copy: |
-      Recursion in programming is the process of solving complex problems by breaking them down into simpler ones or smaller instances of the same problem, until we reach a base. Recursions occur when a function, module or an entity calls back to itself and is often controlled by external parameters within a stack or queue. Recursive constructs are used in several algorithms and most programming languages implement recursion by allowing a function to call itself. A recursion ends when the Base State becomes true as per the definition put in place, but if incorrectly defined can lead to an infinite loop that may cause the stack or queue to overflow and can crash the system as it balloons out of control. Recursion due to its nature however is smaller in terms of amounts of code, though due to the process is slower in execution.
+      Whilst iterations can be fast, they can also require a lot of code. Alternatively, we can use recursion, which can simplify code. 
+      
+      Recursion in programming is the process of solving complex problems by breaking them down into simpler ones or smaller instances of the same problem, until we reach a base. 
+      
+      Recursions occur when a function, module or an entity calls back to itself and is often controlled by external parameters within a stack or queue. 
+      
+      Recursive constructs are used in several algorithms and most programming languages implement recursion by allowing a function to call itself. A recursion ends when the _Base State_ becomes true as per the definition put in place, but if incorrectly defined can lead to an infinite loop that may cause the stack or queue to overflow and can crash the system as it balloons out of control. 
+      
+      Recursion due to its nature however is smaller in terms of amounts of code, though due to the process is slower in execution.
 
-      Here is a recursive function in Python. The function will take a list of integers and a threshold. If the sum of the list of integers is larger than the threshold, the list is shortened by one value (the first value – an example of First In First Out, discussed later). It then calls itself (this is the recursion) until the base state is reached. We have 2 criteria here for the base state: either (1) there are only 2 values in the remaining list, or (2) the sum of the remaining values in the list is less than the threshold.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Recursion example
+    theme:
+    copy: |      
+      Here is a recursive function in Python. The function will take a list of integers and a threshold. 
+      
+      If the sum of the list of integers is larger than the threshold, the list is shortened by one value (the first value – an example of First In First Out). 
+      
+      It then calls itself (this is the recursion) until the base state is reached. We have 2 criteria here for the base state: either (1) there are only 2 values in the remaining list, or (2) the sum of the remaining values in the list is less than the threshold. 
+      
+      You can try changing the threshold or the list indexes to get different answers.
+
 
     subInc:
       type: code
@@ -75,8 +49,31 @@ sections:
         def sum_of_list_below(input_list, threshold_value):
 
             list_sum - sum(input_list)
+
+            # Base state 1: more than 2 values in list
+            if len(input_list) < 3:
+                print('Threshold not reached')
+                return
+            
+            # Base state 2: list sum is below threshold
+            if list_sum > threshold_value:
+              input_list = input_list[2:len(input_list)]
+
+              # Here is the recursive function call
+              sum_of_list_below(input_list, threshold_value)
+            else:
+              print('Reached threshold at list length', len(input_list))
+              print('List: ', input_list)
+              print('List sum: ', input_sum)
         
-        # more code here
+        # Define a list of numbers
+        list_1 = [1, 5, 6, 5, 7, 3, 7, 3, 2]
+
+        # Define a threshold
+        threshold = 20
+
+        # Call the recursive function
+        sum_of_list_below(list_1, threshold)
     
   -
     title: Result
@@ -88,13 +85,16 @@ sections:
       lang: text
       highlight: 
       code: |
-        Result text here
+        Reached threshold at list length 3
+        List: [7, 3, 2]
+        List sum: 12
+        [Finished in 216ms]
   -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example. Try changing the threshold or the list indexes to get different answers.
       
       [Online Python](https://online-python.com)
   -

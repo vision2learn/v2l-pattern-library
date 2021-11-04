@@ -1,6 +1,6 @@
 title: Coding languages used in this course
 intro: |
-  On this page you will learn about the three different coding languages we will be using as examples throughout this course.
+  On this page you will learn about the three different coding languages we will be using as examples throughout this course.  Some of the features discussed on this page will also be covered later in this session.
 banner: uc_u2_s1_p3_data.jpg
 sections:
   -
@@ -51,11 +51,6 @@ sections:
       height: 800
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain the use of variables. (3.6 - Do I need to reference that this comes later in the course?)
-  -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
@@ -67,9 +62,9 @@ sections:
  
       [The Python Online Compiler](https://online-python.com) 
 
-      A [JavaScript] Online Compiler (https://onecompiler.com/javascript) 
+      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
       
-      A [C++] Online Compiler (https://onecompiler.com/cpp) 
+      [C++ Online Compiler](https://onecompiler.com/cpp) 
   -
   -
     title: On the web
@@ -77,9 +72,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the below websites for a choice of three different online compilers where you can run code. You can choose from a number of languages from the drop down box on each online compiler website:
+        Please see the below websites for other online compilers where you can run code. You can choose from a number of languages from the drop down box on each online compiler website:
 
       links:
-        onecompiler: https://onecompiler.com/
         ideone: https://www.ideone.com/ 
         codechef: https://www.codechef.com/ide 
