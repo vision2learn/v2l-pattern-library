@@ -10,7 +10,7 @@ sections:
       In your assessment you will be required to define what is meant by recursions.
   -
   -
-    title: Placeholder for Recursion text
+    title: Recursions
     layout: media
     theme: t-bg-primary
     copy: |
@@ -48,7 +48,7 @@ sections:
         # Define a recursive function
         def sum_of_list_below(input_list, threshold_value):
 
-            list_sum - sum(input_list)
+            list_sum = sum(input_list)
 
             # Base state 1: more than 2 values in list
             if len(input_list) < 3:

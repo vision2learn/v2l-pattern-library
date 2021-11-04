@@ -145,19 +145,17 @@ sections:
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Now you have learnt about all the different aspects within our JavaScript example, have a go at writing out the above JavaScript example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      ### Practice 1:
       
-      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
-  -
-  -
-    title: Time to practice 2
-    theme: t-bg-primary3 i-practice
-    copy: |
+      Now you have learnt about all the different aspects within our JavaScript example, have a go at writing out the above JavaScript example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+
+      ### Practice 2:
+
       What will be the output of the function in the code above if:
       * variable_1 is set to 7 and 
       * variable_2 is set to 18? 
       
       Change the variable values to 7 and 18 and run it yourself to see what different results you get.
-  -
-  -
+      
+      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
   

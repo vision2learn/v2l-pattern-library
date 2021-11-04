@@ -136,11 +136,10 @@ sections:
     title: Operand and operator
     theme: t-bg-primary
     copy: |
-      ###Operand
+      ### Operand
       An Operand is the term used to describe an object within the code that is capable of being changed or manipulated in some way.
 
-      ###Operator
-      
+      ### Operator
       An Operator is the term used to define those objects within the code that affect that change or manipulation to the Operands. This is either done as a prefix (before the operand) an infix (between operands) or a postfix (after the operands).
 
       So, when looked at together the Operands are the elements which the operators operate upon. In its simplest form, think, 1 + 1, in this case the ones are both Operands and the plus symbol the Operator as that is the thing that affects the two numbers to complete the sum.
