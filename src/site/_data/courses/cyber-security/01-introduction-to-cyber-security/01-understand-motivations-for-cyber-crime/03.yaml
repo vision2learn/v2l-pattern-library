@@ -59,6 +59,11 @@ sections:
     theme: i-quiz
     
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can identify the different threat actors involved in cybercrime.
+  -
 
     title: Threat actors.
     theme: t-bg-primary
