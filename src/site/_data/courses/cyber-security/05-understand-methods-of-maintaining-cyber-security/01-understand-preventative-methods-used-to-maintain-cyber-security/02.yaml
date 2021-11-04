@@ -2,7 +2,7 @@ title: Understand preventative methods used to maintain cyber security
 intro: | 
   In this session you will learn about how to maintain cyber security including a variety of preventative methods such as vulnerability and penetration testing. 
   
-banner: cs_u1_s1_p3_cyber.jpg
+banner: placeholder.jpg
 sections: 
   -
     title: Key point
@@ -30,3 +30,42 @@ sections:
       type: time-to-think
       copy: content to relate to video
     theme: t-bg-primary3 i-think
+  - 
+
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      One of the ways of keeping a system cyber secure is by means of vulnerability testing this involves a process of evaluating security risks in software systems to reduce the possibility of threats. 
+      Let's look at vulnerability testing in more detail.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: a
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+

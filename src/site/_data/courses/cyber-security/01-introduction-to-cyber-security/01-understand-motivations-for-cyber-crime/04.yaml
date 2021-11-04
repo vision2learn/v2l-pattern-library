@@ -7,6 +7,11 @@ intro: |
 banner: cs_u1_s1_p4_threats.jpg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you fully understand the the terms "external threats" and "internal threats" and the possible motivations that can lead to these threats.
+  -
     title: Let's have a look at some other types of threat.
     theme: t-bg-grey
     copy: |
