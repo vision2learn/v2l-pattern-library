@@ -17,7 +17,7 @@ sections:
       
       Data is digitally written, stored, and read on physical units such as CPUs, hard drives, and RAM. Data is stored by electrical circuits on the disk which are defined by binary inputs. To create these circuits, transistors within the processing units determine which binary state (on, ‘1’s or off, ‘0’s) parts of the memory are in.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u2_s1_p3_image.svg
   -
   -
     title: Key point
@@ -42,31 +42,31 @@ sections:
           text: |
             This is the most common numeric data type used to store whole numbers without fractions. Some examples of int’s are: 1, 0, -5, 263
 
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p3_slide1.svg
         -
           title: Float (or Real)
           text: |
             This is also a numeric data type used to store numbers that contain decimal points (like money) or for fractions. Float means ‘floating point’ number. Some examples of floats are: 0.3, 5.28568, -743.34854, 0.0
 
 
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p3_slide2.svg
         -
           title: Character (char)
           text: |
             Is used to store a single letter, digit, punctuation mark, symbol or blank space. There are different types of blank spaces including a single space ‘ ‘, a new line character (known as a carriage), as well as tabs. Different characters specify upper/lower case characters. Some examples of chars are: y, T, @, !, 1
 
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p3_slide3.svg
         -
           title: String (str or text)
           text: |
             Is the most common data type used to store text. It is a sequence of characters that can appear on a keyboard such as letters, numbers and symbols. Strings can contain any combination of characters: upper case, lower case, numerals, and symbols. The limit of how long a string depends on the language. Some example of strings are: Dog, sALamI, jump!, 21*&*("1
 
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p3_slide4.svg
         -
           title: Boolean (bool)
           text: |
             It used where data is restricted to true/false or yes/no options, also using binary true (1) or false (0).  Examples of Boolean are: TRUE, FALSE or 1, 0
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p3_slide5.svg
   -
   -
     title: Quick quiz

@@ -1,6 +1,6 @@
-title: Collection and control flow
+title: Collection, interation and control flow
 intro: |
-  On this page you will learn about the term collection and what is meant by control flow.
+  On this page you will learn about the term collection, what is meant by interation and control flow.
 banner: uc_u2_s2_p4_collection.jpg
 sections:
   -
@@ -13,9 +13,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      In programming, a collection represents a set of similar data type items in a single unit and these are used for grouping and managing related objects. This grouping of data items will have some shared significance to the problem being solved that need to be worked upon together. The data items will be of the same type or in the same languages. 
+      In programming, a collection represents a set of similar data type items in a single unit and these are used for grouping and managing related objects. This grouping of data items will have some shared significance to the problem being solved that need to be worked upon together. The data items will be of the same type or in the same languages.
       
-      A collection has an underlying structure that is used for efficient data manipulation and storage. When collections are used in logical constructs this can help with code readability and maintenance. Examples of collections are linked lists, stacks, queues or dictionaries. 
+      A collection has an underlying structure that is used for efficient data manipulation and storage. When collections are used in logical constructs this can help with code readability and maintenance. Examples of collections are linked lists, stacks, queues or dictionaries.
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -25,21 +25,37 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about linked lists.
+        Please see the following websites where you can learn more about linked lists.
 
       links:
         linked lists: https://www.tutorialspoint.com/data_structures_algorithms/linked_lists_algorithm.htm
+        example of a linked list in C: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
         
   -
   -
-    title: Stretch
-    layout: media
-    theme: t-bg-primary2 i-stretch
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      If you would like to learn more about linked list click on the Owl to take you to an example of a linked list in the programming language C
+      In your assessment you will be required to define what is meant by iterations.
+  -
+    title: Iterations
+    theme: t-bg-primary
+    copy: |
+      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
+      
+      In our *JavaScript example* code contains an example of iteration using a for loop. This means that we repeat an operation (in this case printing a list index to the console) for a defined number of times (in this case once for each index, starting with the first item in the list and ending with the last).
 
-    img: /images/svg/stretch_button.svg
-    link: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        // Control flow: Loop (interation)
+
+          for (let i = 0; i < list_1.length; i++) {
+            console.log('List item ', i, ' = ', list_1[i])
+          }
   -
   -
     title: Key point
@@ -51,37 +67,95 @@ sections:
     title: Control flow
     theme:
     copy: |
-      Control flow is the order in which a computer executes statements in a script. Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow. For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. Control flow means that when a script is read it must be read from start to finish but also the program structure should be read so as to know how it affects the order of execution. Control Flow is often represented in a graph (CFG) during the execution of programs or applications.
+      Control flow is the order in which a computer executes statements in a script. 
+      
+      Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow. 
+      
+      For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. 
+      
+      Control flow means that when a script is read, it must be read from start to finish, but also the program structure should be read so as to know how it affects the order of execution. 
+      
+      Control Flow is often represented in a graph (CFG) during the execution of programs or applications.
+      
+      Take a look at our *Javascript example* again and see if you can follow the control flow:
 
-      Here are some examples of control structures in Javascript.
 
     subInc:
       type: code
       lang: js
       highlight: 
       code: |
-        // Conditional
+        // Declare some variables
 
-        if (variable_1 == variable_2){
-          console.log('the variables are equal');
-        } else {
-          console.log('the variables are not equal');
-        }
+          var variable_1 = 25
+          var variable_2 = 28
+          var list_1 = [5, 2, 6, 3, 7, 2]
+
+
+        // Control flow: Conditional
+
+          if (variable_1 === variable_2){
+            console.log('the variables are equal.');
+          } else {
+            console.log('the variables are not equal.');
+          }
         
-        // Loop
+        // Control flow: Loop (interation)
+
+          for (let i = 0; i < list_1.length; i++) {
+            console.log('List item ', i, ' = ', list_1[i])
+          }
 
 
         // Function
 
+          function myFunction (input_1, input_2) {
+            sum_of_inputs = input_1 + input_2
+            console.log('The sum of inputs = ', sum_of_inputs);
+          }
 
-        // To call the Function
 
+        // Control flow: Function call
 
-
-
-    copy2: |
-      _screenshot of js output?_
-
-      _Please note:  The above are just examples of control structures in Javascript so these will only run when within a program - hence no result page_
-
+          myFunction(variable_1, variable_2);
   -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        The variables are not equal
+        List item 0 = 5
+        List item 1 = 2
+        List item 2 = 6
+        List item 3 = 3
+        List item 4 = 7
+        List item 5 = 2
+        The sum of inputs = 53
+        [Finished in 192ms]
+    copy2: |
+      Note that in JavaScript coding language, the first index value starts at 0 not 1.
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Practice 1:
+      
+      Now you have learnt about all the different aspects within our JavaScript example, have a go at writing out the above JavaScript example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+
+      ### Practice 2:
+
+      What will be the output of the function in the code above if:
+      * variable_1 is set to 7 and 
+      * variable_2 is set to 18? 
+      
+      Change the variable values to 7 and 18 and run it yourself to see what different results you get.
+      
+      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
+  

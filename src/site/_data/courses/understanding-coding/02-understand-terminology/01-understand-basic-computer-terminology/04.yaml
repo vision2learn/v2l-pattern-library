@@ -1,7 +1,7 @@
 title: Coding languages used in this course
 intro: |
-  On this page you will learn about the three different coding languages we will be using as examples throughout this course.
-banner: uc_u2_s1_p3_data.jpg
+  On this page you will learn about the three different coding languages we will be using as examples throughout this course.  Some of the features discussed on this page will also be covered later in this session.
+banner: uc_u2_s1_p4_code_used.jpg
 sections:
   -
     title: Examples of coding languages
@@ -18,17 +18,17 @@ sections:
           title: Python3
           copy: |
             A high-level, general purpose language, mainly used for object-orientated programming, though with procedural capabilities. Due to its accessibility and versatility, one of the most popular languages, used for everything from scientific analysis, web-scraping, to program development.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p4_reveal1.svg
         -
           title: JavaScript
           copy: |
             A high-level language with objected-orientated and functional programming capabilities, one of the most-used languages for website building development and browsers.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p4_reveal2.svg
         -
           title: C++
           copy: |
             A general purpose middle-level language with objected-orientated and functional programming capabilities often implemented in desktop applications and video games.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p4_reveal3.svg
   -
   -
     title: Coding features
@@ -51,11 +51,6 @@ sections:
       height: 800
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain the use of variables. (3.6 - Do I need to reference that this comes later in the course?)
-  -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
@@ -67,9 +62,9 @@ sections:
  
       [The Python Online Compiler](https://online-python.com) 
 
-      A [JavaScript] Online Compiler (https://onecompiler.com/javascript) 
+      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
       
-      A [C++] Online Compiler (https://onecompiler.com/cpp) 
+      [C++ Online Compiler](https://onecompiler.com/cpp) 
   -
   -
     title: On the web
@@ -77,9 +72,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the below websites for a choice of three different online compilers where you can run code. You can choose from a number of languages from the drop down box on each online compiler website:
+        Please see the below websites for other online compilers where you can run code. You can choose from a number of languages from the drop down box on each online compiler website:
 
       links:
-        onecompiler: https://onecompiler.com/
         ideone: https://www.ideone.com/ 
         codechef: https://www.codechef.com/ide 

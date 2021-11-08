@@ -68,7 +68,7 @@ sections:
 
       WordPress however is an open source website builder which gives a lot of freedom to modify a website and decides how website tools should work. But saying that you need to be knowledgeable about codes as any modifications will need good coding skills and although there is a large community offering free plugins not all of these are well built. 
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+    img: /images/svg/uc/uc_u2_s3_p2_casestudy.svg
   -
   -
     title: Stretch - Case Study 2
@@ -87,22 +87,3 @@ sections:
 
     img: /images/svg/stretch_button.svg
     link: https://www.npr.org/2021/09/27/1040889789/google-eu-android-appeal-antitrust?t=1634645020669
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one - open source
-          answer: one
-        -
-          sentence: example two - closed source
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
