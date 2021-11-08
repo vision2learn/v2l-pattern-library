@@ -39,7 +39,7 @@ sections:
 
         // Control flow: Conditional
 
-          if (variable_1 === variable_2){
+          if (variable_1 === variable_2) {
             console.log('the variables are equal.');
           } else {
             console.log('the variables are not equal.');

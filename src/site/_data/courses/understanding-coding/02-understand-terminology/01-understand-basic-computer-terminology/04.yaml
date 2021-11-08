@@ -1,7 +1,7 @@
 title: Coding languages used in this course
 intro: |
   On this page you will learn about the three different coding languages we will be using as examples throughout this course.  Some of the features discussed on this page will also be covered later in this session.
-banner: placeholder.jpg
+banner: uc_u2_s1_p4_code_used.jpg
 sections:
   -
     title: Examples of coding languages
@@ -18,17 +18,17 @@ sections:
           title: Python3
           copy: |
             A high-level, general purpose language, mainly used for object-orientated programming, though with procedural capabilities. Due to its accessibility and versatility, one of the most popular languages, used for everything from scientific analysis, web-scraping, to program development.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p4_reveal1.svg
         -
           title: JavaScript
           copy: |
             A high-level language with objected-orientated and functional programming capabilities, one of the most-used languages for website building development and browsers.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p4_reveal2.svg
         -
           title: C++
           copy: |
             A general purpose middle-level language with objected-orientated and functional programming capabilities often implemented in desktop applications and video games.
-          img: placeholder_icon.svg
+          img: uc_u2_s1_p4_reveal3.svg
   -
   -
     title: Coding features
