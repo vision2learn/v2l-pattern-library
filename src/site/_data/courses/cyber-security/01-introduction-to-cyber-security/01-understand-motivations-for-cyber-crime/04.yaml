@@ -31,12 +31,6 @@ sections:
             External threats involve someone from outside the company who attempts to exploit vulnerabilities in the computer systems by the use of ransomware, malware or hacking. Organisations need to invest in suitable, up-to-date, fit for purpose security software to prevent external cybersecurity risks no matter what form they are in. Companies should regularly review this and work with cybersecurity firms to make sure they are fully covered for the field that they are in and for any current threats.
           img: /images/svg/cs/cs_u1_s1_p4_accordion2.svg  
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: text
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
@@ -46,7 +40,7 @@ sections:
 
       Let's have a look at some possible motives that could lead to external and insider threats.
 
-    video: placeholder_pc.mp4
+    video: cs_u1_s1_p4_motivation_for_threats
   -
     title: Time to think
     theme: t-bg-primary3 i-think
