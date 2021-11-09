@@ -5,24 +5,58 @@ banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe what is meant by the KISS principle - KISS – Keep It Simple Stupid.
   -
-    title: The KISS principle
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      KISS is an acronym for a design principle noted by the US Navy in 1960 and it stands for ‘Keep it Simple and Straightforward’ and covers many different areas of design including engineering and programming. There are other variations of this including ‘keep it short and simple’ and ‘keep it simple, stupid’. Whatever way it is used it means the same thing.
+      _Presentation style - Presenter with images and text to illustrate each point_
       
-      ‘Keep it simple stupid’ or even ‘keep it stupid simple’ are used in programming. By keeping the programming simple, service and maintenance are much easier and there are no hard and fast rules regarding the implementation of code, only that it should be simple and therefore easily modified.
-    img: /images/svg/placeholder_icon.svg
+      ### The KISS principle
+
+      KISS is an acronym for a design principle noted by the US Navy in 1960 and it stands for ‘Keep it Simple and Straightforward’ and covers many different areas of design including engineering and programming. Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website which you may find interesting as Steve jobs discuss's the importance of keeping the customer in mind during product development and design.
+      links:
+        Steve Jobs video: https://youtu.be/oeqPrUmVz-o?t=113
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to give examples of the disadvantages of writing complicated code.
+  -
+  -
+    title: Code example - good vs bad code
+    theme:
+    copy: |
+      introduction text here
+
+      lang is either js, python, or cpp
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        let x = () => console.log('hello');
+
+        myFunction() {
+          return true;
+        }
+    copy2: |
+      text
+
+      ![](/images/jpegs/uc/placeholder.jpg)
   -
   -
     title: Watch 
@@ -45,50 +79,8 @@ sections:
 
   -
   -
-    title: Code - PLACEHOLDER - awaiting on sme for decision
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Time to practice - PLACEHOLDER
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
-    title: On the web PLACEHOLDER
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
     title: Quick quiz PLACEHOLDER
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: Optional item
     subInc: 
       type: word-quiz
       content:

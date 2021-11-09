@@ -1,6 +1,7 @@
 title: Understand the importance of robust coding
 intro: |
-  In this session you will learn about the importance of robust coding.
+  In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
+
 banner: placeholder.jpg
 sections:
   -
@@ -18,24 +19,35 @@ sections:
       In your assessment you will be required to explain what is meant by exception handling.
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: So, what exactly is Exception Handling?
+    theme:
     copy: |
-      _Presentation style .... _
+      Exception Handling refers to the way a program handles exceptional circumstances and when an exception occurs the program doesn’t just crash.
       
-      ### Exception handling
+      text
 
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      code example in python
+
+    subInc:
+      type: code
+      lang: py
+      highlight: 
+      code: |
+        code
+    copy2: |
+      text
+
+      result here if needed
+
+      
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      
+      [Online Python](https://online-python.com)
   -
   -
     title: Key point
@@ -52,19 +64,10 @@ sections:
       
       ### Defensive programming
 
-      Please see the following video on .
+      Defensive programming is a form of program design that ensures the continuing function of a piece of software under unforeseen circumstances so that it still behaves in a predictable manner despite unexpected actions.  Please see the following video to learn more.
     video: placeholder_pc.mp4
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Code
+    title: Offensive example - Code
     theme:
     copy: |
       text
@@ -83,15 +86,36 @@ sections:
     copy2: |
       text
 
-      ![](/images/jpegs/uc/placeholder.jpg)
   -
   -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
+    title: Secure example - Code
+    theme:
     copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
+      text
+
+      lang is either js, python, or cpp
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        let x = () => console.log('hello');
+
+        myFunction() {
+          return true;
+        }
+    copy2: |
+      text
+
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have watched the video and seen the code examples .....
+
   -
   -
     title: On the web
@@ -99,52 +123,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about Python exceptions handling.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        python exceptions: https://www.tutorialspoint.com/python/python_exceptions.htm 
