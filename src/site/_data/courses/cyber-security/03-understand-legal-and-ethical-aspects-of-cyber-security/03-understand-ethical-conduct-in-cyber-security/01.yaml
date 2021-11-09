@@ -1,7 +1,7 @@
 title: Understand ethical conduct in cyber security
 intro: |
     In this session you will learn about ethical and unethical conduct within cyber security.:
-banner: placeholder.jpg
+banner: cs_u3_s3_p1_ethical_conduct.jpeg
 sections:
   -
     title: Your learning goals
@@ -30,23 +30,16 @@ sections:
     video: placeholder_pc.mp4
    
   -
-    title: Case study
-    theme: t-bg-primary1a i-case-study
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
     copy: |
-      ### Case study - 
+      ###  Unethical conduct
 
-      text
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Example link in content
-          copy: |
-            
-            Use [Google](https://www.google.co.uk) to try this search out and find the above pdf document. 
-            
-            (_Select the back button to return to this course_)
-          img: /images/svg/placeholder_icon.svg
+      There’s plenty of news stories about fines under HIPAA for healthcare workers using their access to look into celebrity medical records, for example:
+
+    img: /images/svg/stretch_button.svg
+    link: https://etactics.com/blog/celebrity-hipaa-violations
   -
     title: Quick quiz
     theme: i-quiz
