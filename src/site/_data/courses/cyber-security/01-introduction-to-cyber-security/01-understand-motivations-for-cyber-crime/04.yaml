@@ -13,7 +13,7 @@ sections:
       Make sure that you fully understand the the terms "external threats" and "internal threats" and the possible motivations that can lead to these threats.
   -
     title: Let's have a look at some other types of threat.
-    theme: t-bg-grey
+    theme: t-bg-primary
     copy: |
       Within companies and organisations, the risk of threats not only come from external sources they can also be from internal sources. This means that companies and organisations need to be aware of security issues both externally and internally. So let's have a look at the differences between an external and an insider threat and what the potential consequences are.
 
@@ -46,7 +46,7 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: In the box to the right give a definition of the terms "insider threat" and "external threat". can you also suggest what the possible motivation is for these types of threats?
   -
     title: What is meant by targeted and untargeted attacks?
     theme: t-bg-primary
@@ -105,6 +105,6 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: Using your learning from this page and any additional research, can you give examples of targeted and untargeted attacks? make a note of these in the box to the right.
     theme: t-bg-primary3 i-think
 
