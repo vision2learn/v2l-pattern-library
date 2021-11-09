@@ -3,7 +3,7 @@ intro: |
   On this page you will learn about:
   * the main terminology used in cyber security
   * organisational cyber security strategies
-banner: placeholder.jpg
+banner: cs_u2_s1_p4_terminology_and_strategies.jpeg
 sections:
   -
     title: Terminology
@@ -27,7 +27,7 @@ sections:
     include: 
       type: time-to-think
       copy: content to relate to video
-    theme: t-bg-primary3 i-think
+    theme: t!
 
   -
     title: Organisational strategies.
@@ -44,7 +44,7 @@ sections:
           title: Security Operations Centre (SOC)
           text: |
             The function of a SOC is to monitor, assess and defend against cyberattacks 24/7.  The size of a SOC team may be different depending on the size and nature of an organisation but the roles and responsibilities are the same. SOC's are centralised within an organisation or company and continuously monitor and improve their cyber security by preventing, detecting, analysing and responding to incidents. The SOC team can detect malicious activities and prevent them before they can cause any damage.
-          img: cs_u1_s1_p3_image_2.svg
+          img: cs_u2_s1_p4_slide1.svg
         -
           title:  SOC analysts role
           text: |
@@ -52,13 +52,13 @@ sections:
             A SOC analyst may see something suspicious and gather the information for a deeper investigation. Through investigation analysis the nature of the threat and the extent to which it has penetrated the system. They will approach their network from the perspective of the attacker and look for key indicators and areas of exposure. By looking at this and the latest global threat intelligence they will triage the attacks and coordinate a response before they get out of hand. The SOC is the first responder and will perform actions such as isolating endpoints and terminating harmful processes that may delete files etc. They then work to restore the systems by reconfiguring or deploying back ups to circumvent any ransomware.
             SOC teams must always be one step ahead of the hackers, however this is becoming more difficult as the attacks become more sophisticated.
 
-          img: cs_u1_s1_p3_image_1.svg
+          img: cs_u2_s1_p4_slide2.svg
         -
           title: Network Operations Centres (NOC)
           text: |
              A NOC is usually based at a centralised location where network operation staff provide 24/7 supervision, monitoring and management of the network, servers, databases, firewall, devices and related external services. This may be physically on the premises and or with a cloud based provider. Staff involved in this area are called network operations analysts or engineers.
              One of the main activities is Network monitoring which involves incident response, communications management, performance and quality reporting, software and firmware installation and trouble shooting, patch management and firewall management, back up and storage.
              They will also work in collaboration with Security operations with regards to Intrusion Prevention Systems (IPS) threat analysis and blast radius analysis.
-          img: cs_u1_s1_p3_image_2.svg
+          img: cs_u2_s1_p4_slide3.svg
   -
     

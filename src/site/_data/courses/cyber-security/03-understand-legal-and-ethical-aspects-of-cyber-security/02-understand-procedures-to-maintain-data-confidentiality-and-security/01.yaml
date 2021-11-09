@@ -1,7 +1,7 @@
 title: "Understand procedures to maintain data confidentiality and security"
 intro: |
   In this session you will learn about different procedures to maintain data confidentiality and security. You will also look at data storage, encryption and security checks.:
-banner: placeholder.jpg
+banner: cs_u3_s2_p1_data_confidentiality.jpeg
 sections:
   -
     title: Your learning goals
@@ -57,13 +57,13 @@ sections:
         -
           title: Symmetric key encryption
           text: |
-            text
-          img: placeholder_icon.svg
+            Symmetric encryption works by using a single key that is shared with the person you want to be able to decrypt and re-encrypt data you share between you. This is useful when communicating over a potentially unsecure channel. It is a lot quicker in the way it encrypts and decrypts and quicker to implement however it relies on the fact that you must trust the other person and if they share this key then effectively anyone can now access your encrypted data.
+          img: cs_u3_s2_p1_slide1.svg
         -
           title: Asymmetric key encryption
           text: |
-            text
-          img: placeholder_icon.svg
+            Asymmetric Encryption works by having a public key and a private key. Only the private key can encrypt the data and only the public key can decrypt the data. The public key is distributed widely and can be given to semi-trusted entities. The private key however, as the name suggests, must be kept private. An example of this is HTTPS the protocol that the internet works on. The ‘S” refers to TLS which is an asymmetric encryption where only the server of the website has the private her and public keys are embedded in your browser to decrypt the data. The downfall of asymmetric encryption is that it’s more operationally intensive for computers to process and takes longer, and is more complex to set up.
+          img: cs_u3_s2_p1_slide2.svg
 
   -
     title: Data states
@@ -79,7 +79,7 @@ sections:
           title: Data in transit
           copy: |
             Data in Transit or data in motion is data that is actively moving from one location to another which could be around a private network or across the internet. Protection of data in transit is important as it moves from network to network or storage device to the cloud as it is often considered less secure whilst in transit
-          img: /images/svg/cs/placeholder_icon.svg 
+          img: cs/cs_u3_s2_p1_accordian1.svg
         - 
           title: Data at rest
           copy: |
@@ -87,7 +87,7 @@ sections:
 
             Unprotected Data whether in transit or at rest is vulnerable to attack without good encryption.
 
-          img: /images/svg/cs/placeholder_icon.svg 
+          img: cs/cs_u3_s2_p1_accordian2.svg 
 
   - 
     title: Time to think

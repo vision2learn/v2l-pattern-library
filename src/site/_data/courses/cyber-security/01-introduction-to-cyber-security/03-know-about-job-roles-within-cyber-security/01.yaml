@@ -1,7 +1,7 @@
 title: Know about job roles within cyber security
 intro: |
     In this session you will learn about the role of key organisations in the cyber security industry and the job functions and key skill requirements needed to be a cyber security professional. You will also learn about different types of ‘hackers’:
-banner: placeholder.jpg
+banner: cs_u1_s3_p1_job_roles.jpeg
 sections:
   -
     title: Your learning goals
@@ -52,24 +52,24 @@ sections:
     title: Job functions
     theme: t-bg-primary
     copy: |
-      scroll trhough the slides to find out about the different job functions a cyber security will carry out ...
+      scroll trhough the slides to find out about the different job functions a cyber security specialist will carry out ...
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: a
+          title: 
           text: |
-            * Working to build in security at the development stages of software and hardware systems networks and data banks. 
-            * Setting up and implementing user access controls, and identity and access management systems.
+            * Working to build in security at the development stages of software and hardware systems, networks and data banks. 
+            * Setting up and implementing user access controls and identity and access management systems.
             * Looking for vulnerabilities and assessing risks in hardware and software systems.
             * Building firewalls into network infrastructures and monitoring for attacks and intrusions.
             * Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
 
           img: cs_u1_s3_p1_slide1.svg
         -
-          title: b
+          title: 
           text: |
             * Monitoring network and application performance to identify irregular activities or attempted breaches.
             * Performing regular audits of systems to ensure that security practices are compliant.

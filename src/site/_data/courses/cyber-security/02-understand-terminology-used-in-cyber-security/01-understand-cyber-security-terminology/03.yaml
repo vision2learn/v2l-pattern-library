@@ -3,7 +3,7 @@ intro: |
   On this page you will learn about:
   * what networks are
   * The different types of networks 
-banner: placeholder.jpg
+banner: cs_u2_s1_p3_networking.jpeg
 sections:
   -
     title: Networks
@@ -37,13 +37,13 @@ sections:
           title: Identity verification
           text: |
             Network security is usually based on strict identity verification processes with only authenticated and authorized users and devices being able to access applications and data. At the same time, it protects those applications and users from advanced threats on the Internet. Users and devices should be able to safely connect to the Internet, as long as they follow the network guidelines
-          img: cs_u1_s1_p3_image_2.svg
+          img: cs_u2_s1_p3_slide1.svg
         -
           title: Virtual Private Networks
           text: |
             VPN's or virtual private networks are encrypted connections over the internet from a device to a network. They help ensure that sensitive data is safely transmitted and traffic remains private allowing the user to work remotely. Smartphones and tablets can also connect through VPN.
             Secure remote access also provides a safe and secure way to connect users and devices remotely to a corporate network. This includes VPN technology to authenticate the user or device.
-          img: cs_u1_s1_p3_image_1.svg
+          img: cs_u2_s1_p3_slide2.svg
   -
     title: Stretch
     layout: media
