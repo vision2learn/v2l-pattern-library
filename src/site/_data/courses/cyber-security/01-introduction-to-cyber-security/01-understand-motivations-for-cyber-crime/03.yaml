@@ -18,7 +18,7 @@ sections:
     copy: |
       ### What is cyber crime?
       Cyber crime is a very real threat in todays digitally connected world so lets have a look at what cyber crime is.
-    video: placeholder_pc.mp4
+    video: cs_u1_s1_unknown_cyber_crime
   -      
     title: Quick quiz
     subInc: 
@@ -52,7 +52,7 @@ sections:
       ### Motives for cybercrime.
       Now that you have learnt about what cyber crime lets take a look at the potential motives for carrying out cyber crime.
       
-    video: placeholder_pc.mp4
+    video: cs_u1_s1_p3_motives
   -
     title: Time to think
     include: 
