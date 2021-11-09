@@ -97,7 +97,7 @@ const myQuizzes = (function() {
       // const qGroupID = e.originalTarget.dataset.v2lQuestiongroup - 1;
       const qGroup = this.quizData.questions[this.quizData.fieldsetID];
       const nextBtn = qGroup.querySelector('button');
-      let input = e.originalTarget;
+      let input = e.target;
       let correct = input.nextElementSibling.dataset.v2lCorrect;
   
       qGroup.querySelectorAll('input').forEach(answer => {

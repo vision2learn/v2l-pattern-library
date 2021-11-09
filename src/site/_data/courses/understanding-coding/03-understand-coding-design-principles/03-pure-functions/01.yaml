@@ -1,0 +1,152 @@
+title: Understand what is meant by a pure function 
+intro: |
+  In this session you will learn about what is meant by pure function.
+banner: uc_u3_s3_p1_pure_functions.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * What is ‘pure function’ 
+      * What is ‘impure function’ 
+      * Potential dependencies/needs in pure function
+      * The benefits of pure function 
+      * What is parallelisation 
+      * How parallelisation is managed 
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define the term:
+      * pure function,
+      * impure function.
+  -
+    title: Pure and impure functions
+    theme: t-bg-primary
+    copy: |
+      The capabilities, restrictions, and efficiency of programs depends on how they are written. Using different paradigms and coding styles, we can incorporate specific characteristics that we want from our program. For example, by using pure functions, it is easier to achieve parallelisation. Here we discuss ‘pure’ and ‘impure’ functions, and their benefits.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Pure functions
+          copy: |
+            1.	They always give the same return value for a given input
+            2.	They do not change anything unrelated to the function (no side effects)
+            3.	They do not modify any arguments which are passed to them 
+
+          img: placeholder_icon.svg
+        -
+          title: Impure functions
+          copy: |
+            An impure function is essentially a function that violates the criteria for a pure function. For example, this could be a function which changes a variable which is being held in the memory OUTSIDE of a function call which is not one of the output variables.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * identify potential dependencies/needs in pure function,
+      * explain the benefits of pure function.
+  -
+  -
+    title: Terminology
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      To understand pure functions, it is helpful to understand global and local variables:
+      *	A global variable is a variable which is held in memory OUTSIDE of any function. 
+      *	A local variable is only held in memory INSIDE a function.
+      
+      We must also understand side effects. Side effects are when a function modifies or changes the value of a variable beyond the scope of the function call itself.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Potential dependencies/needs in pure function
+    theme:
+    copy: |
+      Pure functions are not dependent on global variables. The output only depends on the input values, and the computation that occurs INSIDE the function. They hold no internal state between calls. This guarantees that a given function ALWAYS returns the same results for a given set of inputs.
+
+      Pure functions have no side effects. They also do not change the input variable(s). They therefore only have local affects (e.g. whatever action the function is called to perform), or only change the output variables.
+
+      If the function is dependent on a global variable that changes between function calls, the exact same inputs could return a different value. This violates our rule 1 above (same input for same output), as is illustrated in the following Python code:
+
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        # Define a pure function
+        
+        def pure_function(input_a, input_b):
+        
+        # more code here
+
+  -
+    title: Result
+    theme:
+    copy:
+
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Pure output = 7.0
+        Impure output = 7.0
+        Impure output = 10.0
+        [Finished in 139ms]
+    copy2: |
+      With exactly the same inputs, the impure function gives a different result the second time.
+
+      This is because the calculation in our impure function is dependent on the global variable 'glob_x', which can be changed EXTERNALLY to the function.
+
+      However, in our pure function, the factor ‘loc_x’ is determined INTERNALLY in the function. It therefore cannot be changed from outside.
+
+
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      
+      [Online Python](https://online-python.com)
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The benefits of pure functions
+
+      _Presentation style - Presenters with imagery and title for each point_
+      
+      There are a number of benefits of functional and practical benefits to using pure functions, llease see the following video to learn more.
+
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: Now you have watched the video, have a go at the following quiz.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Pure functions are easier to read as they are self-contained.
+          answer: read
+        -
+          sentence: The same function can be reused in different contexts as it only depends on what occurs inside the function.
+          answer: reused
+        -
+          sentence: Pure functions have no side effects, making them much easier to test. 
+          answer: test
+        -
+          sentence: As the outputs are always constant, caching is possible with pure functions. 
+          answer: caching
+    theme: i-quiz

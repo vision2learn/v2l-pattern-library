@@ -1,0 +1,183 @@
+title: Coding acronyms and terminology 
+intro: |
+  In this session you will learn about what is meant by a unit of code, the characteristics and differences of WET and DRY code. You will also learn about the differences between open and closed source code.
+banner: uc_u2_s3_p1_acronyms.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * What is meant by a unit of code 
+      * Key characteristics of DRY code 
+      * Key characteristics of WET code 
+      * Key differences between DRY and WET code
+      * What is meant by open source code 
+      * What is meant by closed source code 
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe what is meant by a unit of code.
+  -
+  -
+    title: What is a unit of code?
+    theme: t-bg-primary
+    copy: |
+      Units are the smallest groups of code that can be maintained, executed, reused and tested independently. A unit can be almost anything such as a line of code. 
+      
+      In most programming languages it is a:
+      * function,
+      * subroutine, 
+      * method, 
+      * property. 
+      
+      A *unit test* is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small test can be run fast.
+
+      See if you can identify what might constitute a unit in the code examples from Session 2, and in the sections of code in the following pages.        
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Identify the key characteristics of DRY code 
+      * Identify the key characteristics of WET code
+      * Explain the key differences between DRY and WET code.
+  -
+  -
+    title: What is WET and Dry code?
+    theme:
+    copy: |
+      WET and DRY are acronyms used in software development to explain coding principles.
+
+      WET = 'Write Everything Twice'
+      
+      DRY = 'Don't Repeat Yourself'
+      
+      When writing a program, we want our code to be as easy to debug and understand as possible. We therefore use certain conventions when we write code to ensure this. We can illustrate this using a simple example. Let’s say that we want a program to print the ingredients for different pizzas to the console using C++. We could just write out all the ingredients for each pizza individually.
+  -
+    title: WET code
+    theme:
+    copy: |
+      When code is ‘WET’, code segments are repeated. All of our pizzas have some common ingredients, meaning that the 4 lines in our code from lines 7, 14, and 21 are repeated.
+    subInc:
+      type: code
+      lang: cpp
+      highlight: 
+      code: |
+        #include <iostream>
+        using namespace std;
+
+        int main () {
+          cout << "Ham pizza ingredients: " << endl;
+          cout << "  Ham" << endl;
+          cout << "  Pizza base" << endl;
+          cout << "  Tomato sauce" << endl;
+          cout << "  Cheese" << endl;
+          cout << "  \n" << endl;
+
+          cout << "Sausage pizza ingredients: " << endl;
+          cout << "  Sausage" << endl;
+          cout << "  Pizza base" << endl;
+          cout << "  Tomato sauce" << endl;
+          cout << "  Cheese" << endl;
+          cout << "  \n" << endl;
+
+          cout << "Mushroom pizza ingredients: " << endl;
+          cout << "  Mushroom" << endl;
+          cout << "  Pizza base" << endl;
+          cout << "  Tomato sauce" << endl;
+          cout << "  Cheese" << endl;
+          cout << "  \n" << endl;
+
+        return 0;
+        }
+
+
+
+    copy2: |
+      But let’s say we want to change one of the common ingredients for all of the pizzas (for example bbq sauce instead of tomato sauce. With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.   
+  -
+  -
+    title: DRY code
+    theme:
+    copy: |
+      The ‘DRY’ code principle aims to reduce repetition of any kind. In the code below, we add an extra function, basic_pizza(), which we can use to print to console all of the ingredients that are common. Now, we can replace the 4 lines of repeated code with just one function call. This way, if we want to change the base to bbq sauce, we only have to make changes at ONE place in the script, not 3 places as we would have to have done with our WET code.
+    subInc:
+      type: code
+      lang: cpp
+      highlight: 
+      code: |
+        #include <iostream>
+        using namespace std;
+
+        int basic_pizza() {
+          cout << "  Pizza base" << endl;
+          cout << "  Tomato sauce" << endl;
+          cout << "  Cheese" << endl;
+          cout << "  \n" << endl;
+
+          return 0;
+        }
+
+        int main () {
+          cout << "Ham pizza ingredients: " << endl;
+          cout << "  Ham" << endl;
+          basic_pizza();
+
+          cout << "Sausage pizza ingredients: " << endl;
+          cout << "  Sausage" << endl;
+          basic_pizza();
+
+          cout << "Mushroom pizza ingredients: " << endl;
+          cout << "  Mushroom" << endl;
+          basic_pizza();
+
+        return 0;
+        }
+
+    copy2: |
+      This has the advantages of being easier to read as well as only needing to be changed in one place.
+        
+  -
+    title: Key characteristics
+    theme: t-bg-primary
+    copy: |
+      So the key characteristics of WET code are:
+      *	repeated code sections
+
+      And the key characteristics of DRY code:
+      *	code is *generalised* (by making it into a separate function, or another way) to avoid repetition
+
+      However, it is not always possible to write DRY code, as it can be difficult in some languages, such as low-level machine languages and procedural languages (such as C and FORTRAN). But the key difference is that WET code may have repeated code sections whereas DRY code is generalised.
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above C++ example on the following C++ online compiler practice website.  Check to see if you get the same result as in the above example.  
+      
+      [C++ Online Compiler](https://onecompiler.com/cpp)
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Wet is the acronym for 'Write everything twice'
+          answer: Wet
+        -
+          sentence: Dry is the acronym for 'Don't repeat yourself'
+          answer: Dry
+        -
+          sentence: Dry code is 'generalised'
+          answer: Dry
+        -
+          sentence: Wet code may have repeated code sections
+          answer: Wet
+    theme: i-quiz

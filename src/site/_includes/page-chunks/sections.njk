@@ -6,21 +6,51 @@
   {#
     Only write out sections with data 
   #}
+  {% set themeIcon = false %}
+  {%- if section.theme and section.theme.indexOf("i-") > -1 -%}
+    {% set themeIcon = true %}
+  {%- endif -%}
+
   {% if section.title %}
     {%- if section.theme == "i-quiz" and lastPage and (sessionCount == session) %}
-      {{ section.title }}
+      {# {{ section.title }} #}
     {% else %}
       {%- if section.include %}
       <!-- A -->
         {%- set inc = section.include.type | lower %}
         {%- include 'components/' + inc + '.njk' ignore missing %}
+      {%- elseif section.activity -%}
+        {%- set link = "/captivate/" + course + "/" + section.activity.ref + "/" -%}
+        {{ components.buttonSection({
+            type: 'activity',
+            title: section.title,
+            copy: section.copy,
+            theme: section.theme,
+            unit: unit,
+            tilde: site.tilde,
+            link: link
+          }) }}
+
+        {# 
+        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true aria-label="Begin activity">
+          {% include 'svg/buttons/activity_button.svg' %}
+        </a>
+         #}
+
+      {%- elseif section.title.toLowerCase() == 'forum' -%}
+        {{ components.buttonSection({
+            type: 'forum',
+            copy: section.copy,
+            theme: section.theme,
+            unit: unit,
+            tilde: site.tilde
+          }) }}
       {%- else %}
-        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{ section.theme }}"{% endif %}>
-          {% if section.layout == "media" or section.layout == "media-rev" or section.layout == "media-half" %}
+        <section id="{{ section.title | replace(' ', '-') | lower }}" {% if section.theme %} class="{{'t-bg-supporting3 i-quiz' if section.theme == 'i-quiz' else section.theme }}"{% endif %}>
+          {% if section.layout and section.layout.indexOf('media') > -1 and not section.video%}
 
             {%- set mediaItem -%}
               {{- section.img if section.img -}}
-              {{- section.video if section.video -}}
             {%- endset -%}
             
             {%- if section.activity -%}
@@ -49,21 +79,21 @@
                 }, site.env) }}
             {%- endif -%}
           {% else %}
-            <h2>{{ section.title }}</h2> 
+            <!-- HELLO THERE -->
+            <h2>{{ components.icon(section.theme) if (section.theme and section.theme.indexOf("i-") > -1) }}{{ section.title }}</h2> 
             
             {%- if section.copy %}
               {{ section.copy | markdownify | safe }}
             {%- endif %}
 
-            {# 
-              {%- if section.video %}
+            
+            {%- if section.video %}
               <!-- sections.njk VIDEO! -->
               {% set mediaObj = section.video | lower %}
               {% set id = section.title | d('') | slug %}
               {% video mediaObj, id %}
-            
-              {%- endif %} 
-            #}
+            {%- endif %} 
+           
             
             {%- if section.subInc %}
               {# Is this a basic or more complex include type? #}

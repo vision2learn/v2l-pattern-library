@@ -1,0 +1,109 @@
+title: Recursions
+intro: |
+  On this page you will learn about what is meant by recursions.
+banner: uc_u2_s2_p5_iteration.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define what is meant by recursions.
+  -
+  -
+    title: Recursions
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Whilst iterations can be fast, they can also require a lot of code. Alternatively, we can use recursion, which can simplify code. 
+      
+      Recursion in programming is the process of solving complex problems by breaking them down into simpler ones or smaller instances of the same problem, until we reach a base. 
+      
+      Recursions occur when a function, module or an entity calls back to itself and is often controlled by external parameters within a stack or queue. 
+      
+      Recursive constructs are used in several algorithms and most programming languages implement recursion by allowing a function to call itself. A recursion ends when the _Base State_ becomes true as per the definition put in place, but if incorrectly defined can lead to an infinite loop that may cause the stack or queue to overflow and can crash the system as it balloons out of control. 
+      
+      Recursion due to its nature however is smaller in terms of amounts of code, though due to the process is slower in execution.
+
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Recursion example
+    theme:
+    copy: |      
+      Here is a recursive function in Python. The function will take a list of integers and a threshold. 
+      
+      If the sum of the list of integers is larger than the threshold, the list is shortened by one value (the first value – an example of First In First Out). 
+      
+      It then calls itself (this is the recursion) until the base state is reached. We have 2 criteria here for the base state: either (1) there are only 2 values in the remaining list, or (2) the sum of the remaining values in the list is less than the threshold. 
+      
+      You can try changing the threshold or the list indexes to get different answers.
+
+
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        # Define a recursive function
+        def sum_of_list_below(input_list, threshold_value):
+
+            list_sum = sum(input_list)
+
+            # Base state 1: more than 2 values in list
+            if len(input_list) < 3:
+                print('Threshold not reached')
+                return
+            
+            # Base state 2: list sum is below threshold
+            if list_sum > threshold_value:
+              input_list = input_list[2:len(input_list)]
+
+              # Here is the recursive function call
+              sum_of_list_below(input_list, threshold_value)
+            else:
+              print('Reached threshold at list length', len(input_list))
+              print('List: ', input_list)
+              print('List sum: ', input_sum)
+        
+        # Define a list of numbers
+        list_1 = [1, 5, 6, 5, 7, 3, 7, 3, 2]
+
+        # Define a threshold
+        threshold = 20
+
+        # Call the recursive function
+        sum_of_list_below(list_1, threshold)
+    
+  -
+    title: Result
+    theme:
+    copy: |
+      In this example, we can see that the threshold is reached then it is down to the final 3 values in the list (7, 3, and 2).
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Reached threshold at list length 3
+        List: [7, 3, 2]
+        List sum: 12
+        [Finished in 216ms]
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example. Try changing the threshold or the list indexes to get different answers.
+      
+      [Online Python](https://online-python.com)
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about recursions.
+
+      links:
+        Recursion basics: https://www.tutorialspoint.com/data_structures_algorithms/recursion_basics.htm

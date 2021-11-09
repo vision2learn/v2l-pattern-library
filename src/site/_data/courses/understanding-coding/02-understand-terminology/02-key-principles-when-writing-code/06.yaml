@@ -1,0 +1,18 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the third session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * The use of variables
+      * Define what are operands/operations
+      * The principles of functions
+      * The use of queues, stacks and lists
+      * What is meant by the term ‘collection’ 
+      * What is meant by iterations 
+      * What is meant by control flow
+      * What is meant by recursions
+  

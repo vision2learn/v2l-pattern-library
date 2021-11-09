@@ -1,7 +1,7 @@
 title: Understanding the principles of coding
 intro: |
   On this course you will be learning about coding.  In this unit you will gain knowledge of coding languages and the software development lifecycle. You will also learn about the job roles, functions and key skills requirements of a coding professional.
-banner: placeholder.jpg
+banner: uc_u1_s1_p3_coding.jpg
 sections:
   -
     title: Introduction
@@ -15,16 +15,18 @@ sections:
     copy: |
       In your assessment you will be required to define the term ‘coding’.
   -
-    title: What is Coding?
+    title: What is coding?
     layout: media
     theme: t-bg-primary
     copy: |
+      Coding is a term used to refer to writing software.
+      
       Coding is the process used to make an electronic device do what it needs to do. From a binary level, simply turning on and off, all the way to more advanced coding languages used to create programmes. It is the 'language' we use to communicate with computers to enable them to understand what we want them to do and to then process that information. It allows humans to essentially 'talk’ to machines and create computer software like programmes, games, operating systems, and mobile apps.
       
       Programming is the process of assembling sequences of 'codes' or instructions arranged in different orders or groupings to complete a process or carry out a task. 
       
       The smallest mistake in coding can significantly affect an entire computer programme. This is also something that 'hackers' can then take advantage of.
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u1_s1_p3_image.svg
   -
   -
     title: Key point
@@ -33,7 +35,7 @@ sections:
       In your assessment you will be required to define what is meant by a coding language, and identify different coding languages available.
   -
   -
-    title: What is Coding Language?
+    title: What is coding language?
     theme: t-bg-primary
     copy: |
       Scroll through the slides below to learn more about what coding language is and what is it made up of. 
@@ -49,7 +51,7 @@ sections:
             
             It uses a set of strings of these different 'characters' and/or 'words' organised in different ways and, again like our own spoken languages this will vary according to the coding language that is being used.  
 
-          img: placeholder_icon.svg
+          img: uc_u1_s1_p3_slide1.svg
         -
           title: Constantly changing
           text: |
@@ -57,34 +59,36 @@ sections:
             
             Coding language is constantly changing, developing, and updating. 
             
-            Coding language can be simple and low level as well as more complex and high level and varies accordingly to how it is being used.
+            Coding languages can be high-level or low-level. High-level languages are easier for humans to understand and can run on most machines. In contrast, low-level languages are more difficult for humans understand and are more machine-specific as they control the hardware directly. 
 
-          img: placeholder_icon.svg
+          img: uc_u1_s1_p3_slide2.svg
         -
           title: Different types of coding languages
           text: |
-            _PLACEHOLDER - differentiate between mark-up language like html and programming language like JavaScript._
-          img: placeholder_icon.svg
+            Mark-up languages: In the example of a webpage, these would specify the content, and the visual settings. Most commonly used are HTML and CSS.
+
+            * HTML – contains blocks of text and identifies what they are (e.g. headers/body text)
+            * CSS – specifies the visual parameters for the HTML content (e.g. size, shape, position)
+
+            Programming languages: For example JavaScript – mediates user interactions (e.g. what happens when you click on something/access to backend software)
+
+          img: uc_u1_s1_p3_slide3.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        We need simply look to our web browsers to see an example of coding language in practice.
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      We need simply look to our web browsers to see an example of coding language in practice.
         
-        _Try opening a web browser like 'chrome' then right clicking on the page and selecting 'view page source' from the menu that pops up, this will then show the code that makes up that page._ 
+      _Try opening a web browser like 'chrome' then right clicking on the page and selecting 'view page source' from the menu that pops up, this will then show the code that makes up that page._ 
         
-        This code’s job is to tell the page what it should look like and how it should act when we interact with it.
+      This code’s job is to tell the page what it should look like and how it should act when we interact with it.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter introducing the history - reference below website for learner to look at after watching video. Then presenter with text to the side for each language_
-      
       ### Let's have a look at what different languages are available. 
 
       Please see the following video on the different coding languages that are used.
@@ -120,7 +124,7 @@ sections:
           sentence: Java is a general purpose, class based, object-oriented programming language designed for application development and has less implementation dependencies.
           answer: Java
         -
-          sentence: Swift is relatively new and the language behind most modern IOS applications.
+          sentence: Swift is relatively new and the language behind most modern iOS applications.
           answer: Swift
         -
           sentence: PHP is a programming language mostly used for web development. 

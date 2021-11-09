@@ -1,0 +1,16 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['understanding-coding']['04-coding-processes-and-practice']['01-coding-best-practices']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->

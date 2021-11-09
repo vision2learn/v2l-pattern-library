@@ -1,7 +1,7 @@
 title: Types of language, syntax and technologies
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page you will learn about the difference between procedural and object oriented languages, programming syntax, and the different technologies that use code to run.
+banner: uc_u1_s1_p4_code_languages.jpg
 sections:
   -
     title: Key point
@@ -14,8 +14,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - presenter with text to the side for each term, for the differences. I think we need to include examples/imagery/infographics/diagrams (will need to be v2l branded) as its a dry topic to just 'talk' about it?_
-      
       ### What are different languages used for
 
       Please see the following video on coding language and programming terms.
@@ -28,12 +26,12 @@ sections:
       In your assessment you will be required to define what is meant by syntax.
   -
   -
-    title: What is meant by Syntax?
+    title: What is meant by syntax?
     theme: t-bg-primary
     copy: |
       A languages surface form is known as it's syntax. In English and other spoken languages, we use the word *syntax* to describe the arrangement of words and phrases to create a well-formed sentence. 
       
-      In computer language it is similarly used to describe the structure of 'statements' made up of words and characters. It is the rules that control the structure of the symbols, punctuation, and words, that tells the computer system what to do. Each language will have its own rules that define how it should be written. If it is not written correctly in this manner, then it will not function as intended.
+      In **computer language** it is similarly used to describe the structure of ```'statements'``` made up of words and characters. It is the rules that control the structure of the symbols, punctuation, and words, that tells the computer system what to do. Each language will have its own rules that define how it should be written. If it is not written correctly in this manner, then it will not function as intended.
       
       Most programming languages are purely textual, but some languages are more graphical in nature.
 
@@ -44,8 +42,11 @@ sections:
         - 
           title: Syntax examples
           copy: |
-            _text and examples here_
-          img: /images/svg/placeholder_icon.svg     
+            
+            *	Whether an indent is required to define blocks (Python)
+            *	What characters can, cannot, or must appear in variable names (e.g. variable names cannot start with numbers in C)
+            *	Opening and closing tags e.g. PHP  ```<?php and ?>```
+            *	End of statement characters e.g. C#  ```;```
   -
   -
     title: Key point
@@ -58,7 +59,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with imagery_
+      ### Different technologies that use code to run 
       
       Let's look at different technologies that use code to run in the following video.
     video: placeholder_pc.mp4

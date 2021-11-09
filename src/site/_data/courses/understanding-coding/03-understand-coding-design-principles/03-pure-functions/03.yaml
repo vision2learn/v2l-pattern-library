@@ -1,0 +1,16 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the third session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is ‘pure function’ 
+      * What is ‘impure function’ 
+      * Potential dependencies/needs in pure function
+      * The benefits of pure function 
+      * What is parallelisation 
+      * How parallelisation is managed 
+  
