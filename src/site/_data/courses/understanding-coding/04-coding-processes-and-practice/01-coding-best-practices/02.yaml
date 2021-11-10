@@ -42,7 +42,7 @@ sections:
     copy: |
       introduction text here
 
-      lang is either js, python, or cpp
+      Placeholder at the moment
     subInc:
       type: code
       lang: js

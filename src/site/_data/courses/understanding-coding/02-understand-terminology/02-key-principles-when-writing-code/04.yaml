@@ -1,6 +1,6 @@
-title: Collection, interation and control flow
+title: Collection, iteration and control flow
 intro: |
-  On this page you will learn about the term collection, what is meant by interation and control flow.
+  On this page you will learn about the term collection, what is meant by iteration and control flow.
 banner: uc_u2_s2_p4_collection.jpg
 sections:
   -
@@ -51,7 +51,7 @@ sections:
       lang: js
       highlight: 
       code: |
-        // Control flow: Loop (interation)
+        // Control flow: Loop (iteration)
 
           for (let i = 0; i < list_1.length; i++) {
             console.log('List item ', i, ' = ', list_1[i])
@@ -100,7 +100,7 @@ sections:
             console.log('the variables are not equal.');
           }
         
-        // Control flow: Loop (interation)
+        // Control flow: Loop (iteration)
 
           for (let i = 0; i < list_1.length; i++) {
             console.log('List item ', i, ' = ', list_1[i])
