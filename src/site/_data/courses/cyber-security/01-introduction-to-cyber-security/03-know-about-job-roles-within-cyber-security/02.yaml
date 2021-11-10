@@ -6,8 +6,13 @@ intro: |
 banner: cs_u1_s3_p2_hacking.jpeg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can explain what hacking is and provide examples of how hacking is carried out. 
+  -
     title: What is Hacking?
-    theme: t-bg-supporting3
+    theme: t-bg-primary1a
     copy: |
       One of the most common terms we hear used a lot in respect of Cyber Crime is 'Hacking', so what exactly does this mean?
   -
