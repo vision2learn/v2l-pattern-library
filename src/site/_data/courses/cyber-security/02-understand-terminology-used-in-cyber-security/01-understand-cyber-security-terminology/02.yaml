@@ -51,6 +51,13 @@ sections:
           img: cs_u2_s1_p2_slide3.svg
 
   -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document to learn more about encryption, masking, erasure and resilience.
+
+      [Data security.](/pdfs/cs_u2_s1_p2_read_data_security.pdf)
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:

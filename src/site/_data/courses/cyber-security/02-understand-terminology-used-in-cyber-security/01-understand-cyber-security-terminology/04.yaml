@@ -6,12 +6,17 @@ intro: |
 banner: cs_u2_s1_p4_terminology_and_strategies.jpeg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can define the term 'cyber crime' and understand the potential motivation to carry out cyber crime as you will be asked about this in your assessment.
+  -
     title: Terminology
     theme: t-bg-primary
     copy: |
       
 
-      When talking about cyber security you will hear quite a lot of terms used. lets have a look at these in more detail.
+      Vulnerability, Threat, Risk, Attack are major terms that you will often hear used in cyber security. Let’s have a look at these in more detail.
 
 
   -
@@ -19,7 +24,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Terminology
+      ### Vulnerabilities and threats
        
     video: placeholder_pc.mp4
   -
@@ -29,6 +34,46 @@ sections:
       copy: content to relate to video
     theme: t!
 
+  -
+    title: types of threat.
+    theme: t-bg-primary
+    copy: |
+      
+       Let's have a look in more detail at specific types of threat and how they can be protected against.
+
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Threat types
+       
+    video: placeholder_pc.mp4
+  -      
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Cyber crime is the use of a computer or other digital device, and the internet to commit illegal acts.
+          answer: internet
+        -
+          sentence: Cyber crime can affect individuals, businesses, organisations and governments.
+          answer: governments
+        -
+          sentence: Cyber crime is increasing all the time and becoming more complex.
+          answer: increasing
+        -
+          sentence: Cybercrime is not limited to a specific location making it difficult for security services to trace.
+          answer: location
+        -
+          sentence: The same skills used by the cyber criminals can also be used by the police to find them. 
+          answer: police
+        -
+          sentence: Even if a cyber criminal is traced, geopolitical issues can mean it may still be impossible to bring them to justice.
+          answer: geopolitical
+    theme: i-quiz
+    
   -
     title: Organisational strategies.
     theme: t-bg-primary
@@ -60,5 +105,12 @@ sections:
              One of the main activities is Network monitoring which involves incident response, communications management, performance and quality reporting, software and firmware installation and trouble shooting, patch management and firewall management, back up and storage.
              They will also work in collaboration with Security operations with regards to Intrusion Prevention Systems (IPS) threat analysis and blast radius analysis.
           img: cs_u2_s1_p4_slide3.svg
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t!
+
   -
     
