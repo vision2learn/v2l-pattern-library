@@ -59,9 +59,9 @@ sections:
           img: cs_u1_s3_p3_slide5.svg
    
   -
-      title: Time to think
-      include: 
+    title: Time to think
+    include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: What do you think the key skill requirements of a cyber security professional? make a list of these in the box to the right.
       theme: t-bg-primary3 i-think
   - 

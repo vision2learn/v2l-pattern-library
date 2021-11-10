@@ -7,7 +7,7 @@ banner: cs_u1_s3_p2_hacking.jpeg
 sections:
   -
     title: What is Hacking?
-    theme: t-bg-supporting2
+    theme: t-bg-supporting3
     copy: |
       One of the most common terms we hear used a lot in respect of Cyber Crime is 'Hacking', so what exactly does this mean?
   -
@@ -49,22 +49,26 @@ sections:
           img: cs_u1_s3_p2_slide3.svg
   -
     title: Quick quiz
-    mode: multi-choice
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Select multiple options :"sentence":
+        Is the following statement true or false? "Ethical hacking is carried out by white hat hackers":
           answers:
-            one: false
-            twp: true
-            three: true
-            fourth option: false
-        feedback: text
+            True: true
+            False: false
+        Is the following statement true or false? "The dark web is a place that is often frequented by black hat hackers":
+          answers:
+             True: true
+             False: false
+        Is the following statement true or false? "Grey hat hackers use their skills to blackmail organisations":
+          answers:
+              True: false
+              False: true
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Can you describe the difference between the different types of Hacker? what defines each type? Make a note of your answer in the box to the right. 
   -

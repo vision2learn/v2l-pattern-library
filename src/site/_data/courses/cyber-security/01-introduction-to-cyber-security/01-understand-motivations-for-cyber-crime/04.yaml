@@ -73,23 +73,22 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Sending emails to specific people within an organisation containing a malicious link would be classed as a targeted attack ":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+          feedback: This type of attack would be termed "Spear Phishing" and would indicate that the attacker has a specific interest in your business, or has been paid to target you.
+        Is the following statement true or false? Internal threats have the potential to cause greater damage than external threats:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            True: true
+            False: false
+          feedback: internal users have direct access to the building and its infrastructure devices 
+        Select one option to complete the following sentence:"Sending emails and text messages to large numbers of people asking for sensitive information is called__________.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            Angling: false
+            Smashing: false
+            Phishing: true
+          feedback: A phishing attack attempts to convice the recipient that the message is from a trusted source and may be tricked into clicking a malicious link.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
