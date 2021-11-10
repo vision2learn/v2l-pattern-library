@@ -15,8 +15,13 @@ sections:
       4. Why cyber security issues should be reported promptly
 
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can define the cyber crime vulnerabilities of inviduals, busnesses and nations. 
+  -
     title: Common Cyber Crime Vulnerabilities.
-    theme: t-bg-supporting3
+    theme: t-bg-primary1a
     copy: |
       'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
        Cyber criminals seek to exploit vulnerabilities in technology, people, or processes in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks.

@@ -15,8 +15,13 @@ sections:
         4. Explain the differences between 'white-hat', 'black-hat', 'grey-hat' hackers
         5. Identify the key skills requirements of a cyber security professional
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the different organisations and the role they play in cyber security. 
+  -
     title: The role of key organisations in the Cyber Security Industry.
-    theme: t-bg-supporting2
+    theme: t-bg-primary1a
     copy: |
       Cyber security affects us all in some way and it is important that government and the cyber security industry works together to protect individuals, business and all citizens and their well being from the threat of cyber attack. The UK government has taken on a leading role in protecting both the public and private sectors.
       Many businesses do not understand the extent of the risk to which they are exposed and don't realise how cyber crime affects them directly not just as part of the overall national economy.
@@ -42,6 +47,11 @@ sections:
         Government Communications Headquarters (GCHQ): https://www.gchq.gov.uk
         Information Commissioners Office (ICO): https://ico.org.uk    
         UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk   
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can define the different job functions that cyber security professionals may have.
   -
     title: General Job Functions carried out by cyber security professionals.
     theme: t-bg-primary
