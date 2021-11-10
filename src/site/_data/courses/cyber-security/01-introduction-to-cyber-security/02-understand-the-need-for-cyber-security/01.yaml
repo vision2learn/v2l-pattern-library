@@ -16,7 +16,7 @@ sections:
 
   -
     title: Common Cyber Crime Vulnerabilities.
-    theme: t-bg-supporting2
+    theme: t-bg-supporting3
     copy: |
       'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
        Cyber criminals seek to exploit vulnerabilities in technology, people, or processes in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks.
@@ -69,5 +69,5 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Using your learning from this page, make a note of the common vulnerabilities of cyber crime and the potential impact it can have on individuals, businesses and nations.
   -

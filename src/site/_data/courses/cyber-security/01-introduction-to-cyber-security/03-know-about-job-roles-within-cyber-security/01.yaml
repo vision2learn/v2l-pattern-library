@@ -27,7 +27,7 @@ sections:
     copy: |
       ### Key organisations
       Let's have a look at some of the key organisations in cyber security and their roles. 
-    video: cs_u1_s3_p1_key organisations.mp4
+    video: cs_u1_s3_p1_key_organisations.mp4
   -
     
     title: On the web
@@ -46,7 +46,9 @@ sections:
     title: General Job Functions carried out by cyber security professionals.
     theme: t-bg-primary
     copy: |
-      Cyber security is one of the most important roles in the fast growing technology industries. As cyber criminals and hackers become more sophisticated and ruthless, the need for equally talented cyber security specialists is increasing and specialists in cyber security are very sought after. The cyber security profession can be entered at school leaver level as well as at graduate level. Graduates will probably have a degree related to computer science or a STEM subject ( Science, Technology, Engineering or Mathematics). Some employers also run apprenticeships in cyber security so school leavers can work and train at the same time.
+      Cyber security is one of the most important roles in the fast growing technology industries. As cyber criminals and hackers become more sophisticated and ruthless, the need for equally talented cyber security specialists is increasing and specialists in cyber security are very sought after. 
+      
+      The cyber security profession can be entered at school leaver level as well as at graduate level. Graduates will probably have a degree related to computer science or a STEM subject ( Science, Technology, Engineering or Mathematics). Some employers also run apprenticeships in cyber security so school leavers can work and train at the same time.
       Cybersecurity professionals are responsible for protecting IT infrastructure, networks, and data and are often responsible for preventing data breaches and monitoring and reacting to attacks.
   -
     title: Job functions
@@ -87,11 +89,11 @@ sections:
         Cyber security professionals are employed by many different organisations such as network providers, the government, banks and financial services, educational establishments, airlines, any large organisations with a database and security consultancy firms. There is also opportunity for experienced professionals to become consultants working for many different organisations. click on the link below to find out more about cyber security roles
 
       links:
-        website description: http://www.google.co.uk     
+        Cyber security Careers: https://cybersecuritychallenge.org.uk/what-we-do    
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Using your learning from this page can you describe the role of cyber security organisations? make a note of your answer in the box to the right. 
   - 
