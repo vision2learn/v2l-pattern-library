@@ -58,6 +58,12 @@ sections:
 
       [Data security.](/pdfs/cs_u2_s1_p2_read_data_security.pdf)
   -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+  -   
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -68,8 +74,3 @@ sections:
       links:
         Data protection laws: https://www.gov.uk/data-protection     
   -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: content to relate to video
-    theme: t-bg-primary3 i-think
