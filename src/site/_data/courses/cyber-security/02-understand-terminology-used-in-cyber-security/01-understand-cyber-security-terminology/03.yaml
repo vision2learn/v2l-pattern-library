@@ -22,31 +22,6 @@ sections:
       ### Networks
       Let's have a look at different types of network
     video: placeholder_pc.mp4
-  -      
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: Statutory employment rights address the legal rights of every employee in the country
-          answer: Statutory
-        -
-          sentence: Many small businesses provide their employees with access to a stakeholder pension scheme
-          answer: stakeholder
-        -
-          sentence: The Equality Act 2010 protects women from being paid less than men for doing the same job
-          answer: Equality Act 2010
-        -
-          sentence: The Working Time Regulations provide employees with the right to paid annual leave
-          answer: annual leave
-        -
-          sentence: The Data Protection Act 2018 restricts the use of personal data an organisation can hold about someone
-          answer: personal data
-        -
-          sentence: The GDPR is a ruling intended to protect the data of citizens within the European Union.
-          answer: GDPR
-    theme: i-quiz
-    
   -
     title: Network security.
     theme: t-bg-primary
