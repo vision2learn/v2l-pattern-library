@@ -1,0 +1,8 @@
+/*
+In C++, the type must be specifed upon variable declaration
+*/
+  int myInt = 5;
+  float myFloat = 5.65;
+  bool myBool = true;
+  char myChar = 'X';
+  char myStr = 'A string';
