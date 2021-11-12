@@ -98,6 +98,12 @@ sections:
             Some countries may target others to steal data or disrupt their security. Their intent may be to bring down or change governments or damage a countries economy. They may also be involved in disrupting communications, espionage and seeking access to military secrets.
           img: cs_u1_s1_p3_image_2.svg
   -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Make a note of the different threat actors who may be involved in cyber crime. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
+    theme: t-bg-primary3 i-think
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -108,9 +114,3 @@ sections:
       links:
         Cyber crime offer of the month: https://www.infosecurity-magazine.com/news/cybercrime-boss-offers-ferrari-prize-for-most/
         Top five "Anonymous" Hacks: https://theweek.com/articles/486636/anonymous-secret-groups-5-biggest-hacks    
-  -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: Make a note of the different threat actors who may be involved in cyber crime. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
-    theme: t-bg-primary3 i-think

@@ -88,9 +88,14 @@ sections:
             * Identifying any threat actors and liaising with the police and cyber crime units where necessary.
             * Work with IT departments to set up disaster recovery plans and HR teams to educate employees on how to identify suspicious activity.
 
-          img: cs_u1_s3_p1_slide2.svg
-       
+          img: cs_u1_s3_p1_slide2.svg   
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Using your learning from this page can you describe the role of cyber security organisations? make a note of your answer in the box to the right. 
+  - 
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -101,9 +106,3 @@ sections:
       links:
         Cyber security Careers: https://cybersecuritychallenge.org.uk/what-we-do    
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: Using your learning from this page can you describe the role of cyber security organisations? make a note of your answer in the box to the right. 
-  - 

@@ -45,20 +45,6 @@ sections:
             Secure remote access also provides a safe and secure way to connect users and devices remotely to a corporate network. This includes VPN technology to authenticate the user or device.
           img: cs_u2_s1_p3_slide2.svg
   -
-    title: Stretch
-    layout: media
-    theme: t-bg-primary2 i-stretch
-    copy: |
-      ###  Creating networks
-
-      The best way to learn about networks and their differences is to build one and Cisco have created a tool to do this. Cisco Packet Tracer is a tool built by Cisco to simulate a network. It is used to help students learn the principles of networking whilst gaining hands-on experience and develop Cisco technology skills. It doesn't involve the use of routers or switches but is purely a software only method. It uses packet trace to demonstrate technical concepts and networking systems. As a software it is also used by engineers to test any protocols before implementing them and try out any changes only deploying if everything works as expected. 
-      
-      Click on the image to learn more.
-
-
-    img: /images/svg/stretch_button.svg
-    link: https://www.netacad.com/courses/packet-tracer
-  -
     title: Time to think
     include: 
       type: time-to-think
