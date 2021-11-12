@@ -38,13 +38,13 @@ sections:
           title: White Hat Hackers.
           text: |
             'White Hat' hackers are also known as ethical hackers and they use their technical skills to protect the world from bad hackers. Government agencies and organisations hire white hat hackers as information security analysts, cybersecurity researchers, security specialists and penetration testers and they often work as independent consultants or freelancers.
-            a White hat hackers use the same hacking techniques as black hat hackers but they do it with the system owners permission and are motivated to find and fix vulnerabilities before they are exploited and to develop tools that can detect cyberattacks. They work to build security software like antivirus, anti-malware, anti-spyware, honeypots and firewalls and strengthen the overall security of the software and hardware systems.
+            A white hat hackers use the same hacking techniques as black hat hackers but they do it with the system owners permission and are motivated to find and fix vulnerabilities before they are exploited and to develop tools that can detect cyberattacks. They work to build security software like antivirus, anti-malware, anti-spyware, honeypots and firewalls and strengthen the overall security of the software and hardware systems.
 
           img: cs_u1_s3_p2_slide1.svg
         -
           title: Black Hat Hackers
           text: |
-            'Black Hat' hackers are the true cybercriminals who use their technical skills to defraud and blackmail others. The exploit security vulnerabilities to break into computer systems and networks without permission for financial gain. When we talk about Hackers it is the Black Hat type we usually think about, sending phishing emails and SMS messages, deploying DDoS attacks, writing, selling and distributing malware, blackmailing victims using ransomware and indulging in a range of corporate espionage, financial fraud and identity theft related crimes. They also ply their trade on the Dark Web where their services can be accessed by other criminals.
+            'Black Hat' hackers are the true cybercriminals who use their technical skills to defraud and blackmail others. The exploit security vulnerabilities to break into computer systems and networks without permission for financial gain. When we talk about hackers it is the black Hat type we usually think about, sending phishing emails and SMS messages, deploying DDoS attacks, writing, selling and distributing malware, blackmailing victims using ransomware and indulging in a range of corporate espionage, financial fraud and identity theft related crimes. They also ply their trade on the dark web where their services can be accessed by other criminals.
           img: cs_u1_s3_p2_slide2.svg
         -
           title: Grey Hat Hackers
@@ -75,5 +75,5 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: Can you describe the difference between the different types of Hacker? what defines each type? Make a note of your answer in the box to the right. 
+      copy: Can you describe the difference between the different types of hacker? what defines each type? Make a note of your answer in the box to the right. 
   -

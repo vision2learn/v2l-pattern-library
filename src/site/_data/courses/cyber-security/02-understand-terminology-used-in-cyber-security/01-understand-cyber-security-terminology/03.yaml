@@ -6,12 +6,15 @@ intro: |
 banner: cs_u2_s1_p3_networking.jpeg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can describe the difference between "LAN" and "WAN" and understand about networks in relation to cyber security 
+  -
     title: Networks
     theme: t-bg-primary
     copy: |
-      
-
-      A network allows computers to connect and communicate with each other and others in the network. LAN, MAN and WAN are three major types of network. The major differences between these networks is the geographical areas that they cover. All networks should have security already in place but also having each computer with extra security helps to make this more resilient.
+       A network allows computers to connect and communicate with each other and others in the network. LAN, MAN and WAN are three major types of network. The major differences between these networks is the geographical areas that they cover. All networks should have security already in place but also having each computer with extra security helps to make this more resilient.
       
 
   -
@@ -48,7 +51,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: Can you explain the difference between a LAN and a WAN? Why are networks important in relation to cyber security? Make a note of your answers in the box to the right. 
     theme: t-bg-primary3 i-think
   -
     title: Stretch

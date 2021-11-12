@@ -58,7 +58,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Challenges 1
+      ### Currrent Challenges 
       Let's look at these in more detail and consider how it affects us all. 
     video: cs_u2_s2_p1_challenges_part1.mp4
   -
@@ -71,7 +71,7 @@ sections:
     title: Emerging challenges
     theme: t-bg-primary
     copy: |
-      Lets take a look at the darkweb, fake news and deepfakes in more detail
+      Lets take a look at the darkweb, fake news and deepfakes in more detail.
   -        
     title: Watch 
     theme: t-bg-grey i-watch
@@ -117,7 +117,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please clcik on the link below where you can find out about how a major car manufacturers cars were hacked.
+        Please click on the link below where you can find out about how a major car manufacturers cars were hacked.
 
       links:
         Car software hack: https://www.theverge.com/2015/7/24/9036153/chrysler-hack-vulnerability-automobile-car-software-security    
