@@ -45,12 +45,6 @@ sections:
             As technology and subsequently cyber security gets more advanced, cyber criminals are turning more to social engineering to make their initial attack on a system and exploit the weakest link in the chain "the user". Unlike cyber attacks that rely on system vulnerabilities to gain access to unauthorised devices, social engineering targets human vulnerabilities. They can use a variety of methods both online and offline to con unsuspecting users into compromising their own systems or work-based systems by installing malware and giving away information. They may also be tricked into transferring money.
           img: cs/cs_u2_s3_p1_accordian2.svg  
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: text
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
@@ -60,4 +54,43 @@ sections:
 
       So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
     video: cs_u2_s3_p1_open_source.mp4
+  -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides to see how cyber criminals use social engineering and all that open-source information to target their victims and commit their crimes. 
+     
+
+    subInc: 
+      type: How information
+      title: Social engineering tools and techniques
+      slides:
+        -
+          title: Phishing
+          text: |
+            Phishing is a broad term for an attack that involves tricking victims into sharing sensitive information such as passwords, usernames and credit card details for malicious reasons. A phishing attack can be random.
+          img: placeholder_icon.svg
+        -
+          title: Spear-phishing
+          text: |
+            Spear phishing is a more sophisticated form of phishing and involves malicious emails being sent to a specific victim often for malicious reasons. The attacker will acquire personal information on the victim often via social media sites.
+
+          img: placeholder_icon.svg
+        -
+          title: Vishing
+          text: |
+            Vishing or voice phishing is a form of phishing that involves phone calls. The victim will be approached via a call pertaining to be from a reputable source and told there is something wrong with an account and they need their details to sort it out.
+          img: placeholder_icon.svg
+        -
+          title: Smishing
+          text: |
+            Smishing or SMSishing is a form of phishing that involves SMS text messaging. It may seem as though it has come from a trusted source and ask the victim to click on a link to update something.
+          img: placeholder_icon.svg
+
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: text
   -

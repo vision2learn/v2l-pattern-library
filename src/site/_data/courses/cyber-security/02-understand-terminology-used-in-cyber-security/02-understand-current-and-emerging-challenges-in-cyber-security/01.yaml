@@ -22,7 +22,7 @@ sections:
     copy: |
       When we thing of cyber security we think of 'Dark Web' based hackers and criminals infiltrating systems of businesses and organisations, holding them to ransom for financial gain. We may also consider having our own personal data compromised and our identities stolen and the ways it affects us individually. But there are so many more emerging challenges in cyber security that we face today and many of those affect us directly.
       
-      Let's have a look at some of the different areas that we need to be aware of. ...
+      Let's have a look at some of the different areas that we need to be aware of.
 
     subInc: 
       type: slider
@@ -58,19 +58,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Challenges
+      ### Challenges 1
       Let's look at these in more detail and consider how it affects us all. 
     video: cs_u2_s2_p1_challenges_part1.mp4
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please clcik on the link below where you can find out about how a major car manufacturers cars were hacked.
-
-      links:
-        Car software hack: https://www.theverge.com/2015/7/24/9036153/chrysler-hack-vulnerability-automobile-car-software-security    
   -
     title: Time to think
     include: 
@@ -78,19 +68,16 @@ sections:
       copy: relate to content on pa
     theme: t-bg-primary3 i-think
   -
-    title: Challenges
+    title: Emerging challenges
     theme: t-bg-primary
     copy: |
-      When we thing of cyber security we think of 'Dark Web' based hackers and criminals infiltrating systems of businesses and organisations, holding them to ransom for financial gain. We may also consider having our own personal data compromised and our identities stolen and the ways it affects us individually. But there are so many more emerging challenges in cyber security that we face today and many of those affect us directly.
-      
-      Let's have a look at some of the different areas that we need to be aware of.
+      Lets take a look at the darkweb, fake news and deepfakes in more detail
   -        
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-
-      ### Future challenges
+      ### Challenges 2
        
     video: cs_u2_s2_p1_challenges_part2.mp4
   -       
@@ -124,3 +111,14 @@ sections:
       type: time-to-think
       copy: relate to content on pa
     theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please clcik on the link below where you can find out about how a major car manufacturers cars were hacked.
+
+      links:
+        Car software hack: https://www.theverge.com/2015/7/24/9036153/chrysler-hack-vulnerability-automobile-car-software-security    
+  -

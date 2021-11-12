@@ -2,7 +2,6 @@ title: "Cyber security terminology and strategies"
 intro: |
   On this page you will learn about:
   * the main terminology used in cyber security
-  * organisational cyber security strategies
 banner: cs_u2_s1_p4_terminology_and_strategies.jpeg
 sections:
   -
@@ -27,28 +26,6 @@ sections:
       ### Vulnerabilities and threats
        
     video: cs_u2_s1_p4_terminology.mp4
-  -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: content to relate to video
-    theme: t!
-
-  -
-    title: types of threat.
-    theme: t-bg-primary
-    copy: |
-      
-       Let's have a look in more detail at specific types of threat and how they can be protected against.
-
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Threat types
-       
-    video: placeholder_pc.mp4
   -      
     title: Quick quiz
     subInc: 
@@ -74,37 +51,6 @@ sections:
           answer: geopolitical
     theme: i-quiz
     
-  -
-    title: Organisational strategies.
-    theme: t-bg-primary
-    copy: |
-      Most large companies and organisations have a cyber security strategy which involves planning on how they will secure their assets going forward. One way of doing this is setting up a security operations centre and organising their network operations into a centralised set up so that all organisational facilities are maintained centrally and are monitored 24/7 throughout the year.
-
-      scroll through the slides below to learn more about these strategies. 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Security Operations Centre (SOC)
-          text: |
-            The function of a SOC is to monitor, assess and defend against cyberattacks 24/7.  The size of a SOC team may be different depending on the size and nature of an organisation but the roles and responsibilities are the same. SOC's are centralised within an organisation or company and continuously monitor and improve their cyber security by preventing, detecting, analysing and responding to incidents. The SOC team can detect malicious activities and prevent them before they can cause any damage.
-          img: cs_u2_s1_p4_slide1.svg
-        -
-          title:  SOC analysts role
-          text: |
-            The stages they work through are prevention and detection, investigation and response.
-            A SOC analyst may see something suspicious and gather the information for a deeper investigation. Through investigation analysis the nature of the threat and the extent to which it has penetrated the system. They will approach their network from the perspective of the attacker and look for key indicators and areas of exposure. By looking at this and the latest global threat intelligence they will triage the attacks and coordinate a response before they get out of hand. The SOC is the first responder and will perform actions such as isolating endpoints and terminating harmful processes that may delete files etc. They then work to restore the systems by reconfiguring or deploying back ups to circumvent any ransomware.
-            SOC teams must always be one step ahead of the hackers, however this is becoming more difficult as the attacks become more sophisticated.
-
-          img: cs_u2_s1_p4_slide2.svg
-        -
-          title: Network Operations Centres (NOC)
-          text: |
-             A NOC is usually based at a centralised location where network operation staff provide 24/7 supervision, monitoring and management of the network, servers, databases, firewall, devices and related external services. This may be physically on the premises and or with a cloud based provider. Staff involved in this area are called network operations analysts or engineers.
-             One of the main activities is Network monitoring which involves incident response, communications management, performance and quality reporting, software and firmware installation and trouble shooting, patch management and firewall management, back up and storage.
-             They will also work in collaboration with Security operations with regards to Intrusion Prevention Systems (IPS) threat analysis and blast radius analysis.
-          img: cs_u2_s1_p4_slide3.svg
   -
     title: Time to think
     include: 

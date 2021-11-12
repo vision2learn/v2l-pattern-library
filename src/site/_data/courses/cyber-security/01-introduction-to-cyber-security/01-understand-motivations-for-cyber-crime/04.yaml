@@ -90,6 +90,12 @@ sections:
             Phishing: true
           feedback: A phishing attack attempts to convice the recipient that the message is from a trusted source and may be tricked into clicking a malicious link.
   -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Using your learning from this page and any additional research, can you give examples of targeted and untargeted attacks? make a note of these in the box to the right.
+    theme: t-bg-primary3 i-think
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -99,11 +105,4 @@ sections:
       links:
         Cyber security for business: https://www.nibusinessinfo.co.uk/content/reasons-behind-cyber-attacks
         What drives cyber attacks: https://www.itproportal.com/features/what-drives-cyberattackers-how-to-best-understand-motives-and-apply-controls/
-  -
-  -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: Using your learning from this page and any additional research, can you give examples of targeted and untargeted attacks? make a note of these in the box to the right.
-    theme: t-bg-primary3 i-think
-
+  
