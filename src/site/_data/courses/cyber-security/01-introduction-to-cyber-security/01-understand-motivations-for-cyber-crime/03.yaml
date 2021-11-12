@@ -81,7 +81,7 @@ sections:
           title: Cybercriminals.
           text: |
             Cyber criminals aim to exploit human security vulnerabilities to steal passwords, data or money.These are the most common types of threat actors and their attacks may involve hacking into devices to gain password details and stealing or making data inaccessible to an organisation by holding it to ransom. Financial gain is usually the motive and the weapons of choice are phishing attacks, ransomware and malware. It’s important to understand that these operate very much like any legitimate business, with teams of people and management, who turn up every day with the objective to bring in as much money as possible. Some companies even offer rewards for their employees that bring in the most money under an “employee of the month scheme”!
-          img: cs_u1_s1_p3_image_2.svg
+          img: cs_u1_s1_p3_slide1.svg
         -
           title: Cyber Terrorists & Industrial Spies
           text: |
@@ -96,7 +96,7 @@ sections:
           title: State Sponsored Threats
           text: |
             Some countries may target others to steal data or disrupt their security. Their intent may be to bring down or change governments or damage a countries economy. They may also be involved in disrupting communications, espionage and seeking access to military secrets.
-          img: cs_u1_s1_p3_image_2.svg
+          img: cs_u1_s1_p3_slide4.svg
   -
     title: Time to think
     include: 

@@ -87,10 +87,11 @@ sections:
             Smishing or SMSishing is a form of phishing that involves SMS text messaging. It may seem as though it has come from a trusted source and ask the victim to click on a link to update something.
           img: placeholder_icon.svg
 
-  -
+  - 
+  
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: hello
   -
