@@ -8,6 +8,11 @@ intro: |
 banner: cs_u2_s1_p2_areas_affected.jpeg
 sections: 
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the relationshiop between hardware, software and data management in relation to cyber security.
+  -
     title: Targets
     theme: t-bg-primary
     copy: |
@@ -20,6 +25,25 @@ sections:
       ### Hardware and software
       Let's look at the different areas that may be affected by a cyber attack. 
     video: cs_u2_s1_p2_hardware_and_software.mp4
+  -           
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Hardware is the physical components of a computer system and covers everything a system needs to function
+          answer: Hardware
+        -
+          sentence: The Operating system or OS is the software that enables computer hardware to communicate and operate all the other software that is subsequently loaded onto the computer.
+          answer: Operating
+        -
+          sentence: Malicious hardware in the form of chips can remain dormant for months or years before being used to launch an attack 
+          answer: chips
+        -
+          sentence: Having 'up to date’ antimalware software and making sure all programs are up to date can help to keep systems secure.
+          answer: antimalware
+    theme: i-quiz
+
   -
     title: Data management
     theme: t-bg-primary
@@ -61,7 +85,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: can you define the relationship between hardware, software and data management in relation to cyber security? Make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
   -   
     title: On the web

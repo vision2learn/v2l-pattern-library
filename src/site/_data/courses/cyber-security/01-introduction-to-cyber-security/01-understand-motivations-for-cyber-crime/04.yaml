@@ -46,7 +46,12 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: In the box to the right give a definition of the terms "insider threat" and "external threat". can you also suggest what the possible motivation is for these types of threats?
+      copy: In the box to the right give a definition of the terms "insider threat" and "external threat". Can you also suggest what the possible motivation is for these types of threats?
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you fully understand the the terms "targeted" and "untargeted attacks".
   -
     title: What is meant by targeted and untargeted attacks?
     theme: t-bg-primary
@@ -65,7 +70,7 @@ sections:
         -
           title: untargeted attacks
           text: |
-            Another term commonly used is an 'un-targeted attack' which is not tailored to it's victim. These are sometimes referred to as ‘drive-by attacks’. It is by it's nature indiscriminate and targets many different individual devices and systems that have vulnerabilities.This may involve 'phishing' and sending emails and texts to large numbers of people asking for sensitive information such as bank details or asking them to click on a link to log on to a fake website.  We have all become unfortunately used to getting scam emails and texts. The scammer may have obtained the emails from different sources and may not have anymore information so often it may not be relevant to the recipient. However, they hope that some people will fall for it. Setting up fake websites or compromising legitimate website can also be done to exploit random visitors to the site. 
+            Another term commonly used is an 'untargeted attack' which is not tailored to it's victim. These are sometimes referred to as ‘drive-by attacks’. It is by it's nature indiscriminate and targets many different individual devices and systems that have vulnerabilities.This may involve 'phishing' and sending emails and texts to large numbers of people asking for sensitive information such as bank details or asking them to click on a link to log on to a fake website.  We have all become unfortunately used to getting scam emails and texts. The scammer may have obtained the emails from different sources and may not have anymore information so often it may not be relevant to the recipient. However, they hope that some people will fall for it. Setting up fake websites or compromising legitimate website can also be done to exploit random visitors to the site. 
           img: cs_u1_s1_p4_slide2.svg
   -
     title: Quick quiz
@@ -93,7 +98,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: Using your learning from this page and any additional research, can you give examples of targeted and untargeted attacks? make a note of these in the box to the right.
+      copy: Using your learning from this page and any additional research, can you give examples of targeted and untargeted attacks? Make a note of these in the box to the right.
     theme: t-bg-primary3 i-think
   -
     title: On the web
@@ -101,7 +106,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        to find out more about the specific types of attacks take a little time to look through the links below. 
+        To find out more about the specific types of attacks take a little time to look through the links below. 
       links:
         Cyber security for business: https://www.nibusinessinfo.co.uk/content/reasons-behind-cyber-attacks
         What drives cyber attacks: https://www.itproportal.com/features/what-drives-cyberattackers-how-to-best-understand-motives-and-apply-controls/
