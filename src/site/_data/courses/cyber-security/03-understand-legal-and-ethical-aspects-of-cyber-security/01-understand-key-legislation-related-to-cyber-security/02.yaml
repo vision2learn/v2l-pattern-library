@@ -82,6 +82,12 @@ sections:
       As technology and cyber security advances then legislation must be adapted or improved to take any new threats under consideration. 
     video: placeholder_pc.mp4
   -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Make a note of the current legislation relating to cyber security which is designed to protect individuals, businesses and nations
+    theme: t-bg-primary3 i-think
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -91,11 +97,5 @@ sections:
 
       links:
         cyber security laws: https://www.gov.uk/government/news/new-cyber-security-laws-to-protect-smart-devices-amid-pandemic-sales-surge     
-  -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: content to relate to video
-    theme: t-bg-primary3 i-think
   - 
   

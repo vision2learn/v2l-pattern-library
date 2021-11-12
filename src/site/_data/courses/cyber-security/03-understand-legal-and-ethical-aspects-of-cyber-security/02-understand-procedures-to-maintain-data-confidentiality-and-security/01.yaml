@@ -20,6 +20,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
+      Make sure that you understand how you can protect stored data.
     
   -
     title: Watch 
@@ -38,12 +39,12 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Can you think of different ways that you can protect stored data? Make a note of your answer in the box to the right.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      text
+      Make sure that you understand the different types of encryption and the what is meant by data in transit and data at rest.
   -
     title: Encryption
     theme: t-bg-primary
@@ -93,7 +94,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: What are the advantages of the different encryption techniques? What is meant by data in transit and data at rest? Make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
 
         

@@ -19,7 +19,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      lorem ipsum
+      Make sure that you understand what the term social engineering means, how it can be used and why open source information is valuable to cyber criminals.
   -
     title: Social Engineering
     theme: t-bg-primary1a
@@ -67,27 +67,27 @@ sections:
           title: Phishing
           text: |
             Phishing is a broad term for an attack that involves tricking victims into sharing sensitive information such as passwords, usernames and credit card details for malicious reasons. A phishing attack can be random.
-          img: placeholder_icon.svg
+          img: cs_u2_s3_p1_slide1.svg
         -
           title: Spear-phishing
           text: |
             Spear phishing is a more sophisticated form of phishing and involves malicious emails being sent to a specific victim often for malicious reasons. The attacker will acquire personal information on the victim often via social media sites.
 
-          img: placeholder_icon.svg
+          img: cs_u2_s3_p1_slide2.svg
         -
           title: Vishing
           text: |
             Vishing or voice phishing is a form of phishing that involves phone calls. The victim will be approached via a call pertaining to be from a reputable source and told there is something wrong with an account and they need their details to sort it out.
-          img: placeholder_icon.svg
+          img: cs_u2_s3_p1_slide3.svg
         -
           title: Smishing
           text: |
             Smishing or SMSishing is a form of phishing that involves SMS text messaging. It may seem as though it has come from a trusted source and ask the victim to click on a link to update something.
-          img: placeholder_icon.svg
+          img: cs_u2_s3_p1_slide4.svg
 
   - 
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: hello
+      copy: using your learning from this page, can you explain what social engineering is, the different techniques that can be used and the information that can be obtained? make a note of your answer in the box to the right.

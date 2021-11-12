@@ -16,7 +16,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-    
+      Make sure that you understand the difference between ethical and unethical conduct.
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -41,32 +41,9 @@ sections:
     img: /images/svg/stretch_button.svg
     link: https://etactics.com/blog/celebrity-hipaa-violations
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Can you describe ethical and unethical conduct within cyber security? Make a note of your answer in the box to the right. 
   -
