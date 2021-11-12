@@ -19,12 +19,11 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-    
+      lorem ipsum
   -
     title: Social Engineering
     theme: t-bg-grey
     copy: |
-      
       Social engineering is a term that has become more common in recent years, so Lets take a closer look at what it means and why it is useful to cyber criminals.  
 
     subInc: 
@@ -51,7 +50,6 @@ sections:
     copy: |
       ### Open Source information.
 
-
       So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
     video: cs_u2_s3_p1_open_source.mp4
   -
@@ -62,7 +60,7 @@ sections:
      
 
     subInc: 
-      type: How information
+      type: slider
       title: Social engineering tools and techniques
       slides:
         -
@@ -88,10 +86,8 @@ sections:
           img: placeholder_icon.svg
 
   - 
-  
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: hello
-  -
