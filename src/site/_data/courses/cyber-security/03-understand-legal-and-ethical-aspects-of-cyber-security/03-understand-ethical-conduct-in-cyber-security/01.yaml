@@ -16,7 +16,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-    
+      Make sure that you understand the difference between ethical and unethical conduct.
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -68,5 +68,5 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Can you describe ethical and unethical conduct within cyber security? Make a note of your answer in the box to the right. 
   -
