@@ -1,181 +1,88 @@
-title: "Legislation"
-intro: |
+title:  "Importance of cyber security"
+intro:  |
   On this page you will learn about:
-  * Legislation in the workplace
-  * IT and Working Time Regulations
-  * UK Display Screen Equipment (DSE) Regulations
-  * Data protection and copyright
-
-banner: ba_u1_s2_p2_dataprotection.jpg
+  
+  * the potential impact that cyber crime can have
+  * why cyber security is important
+banner: cs_u1_s2_p2_importance.jpg
 sections:
   -
-    title: Legislation
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand what impact cyber crime can have and why it is important to have cyber security for individuals, businesses and nations. 
+  -
+    title: Impact of cyber crime and why cyber security is important?
     theme: t-bg-primary
-    copy: |  
-      In addition to generic legislation such as the Health and Safety at Work Act 1974, there may also be specific legislation that covers your job role.
-
-      We can't cover every industry and job role in this course. However, to illustrate an example, (and because you're doing an online course, let's look at some of the legislation that applies when you are working with Information Technology (IT).Then you can find out about Working Time Regulations.  There are several Acts of Parliament relating to security and confidentiality, as well as many legal cases on the subject.
-
-      Select the following images to learn more:
-
-    subInc: 
-        type: reveal
-        content:
-            -
-                title: UK Display Screen Equipment (DSE) Regulations
-                copy: |
-                    In IT, these regulations apply to the use of computer monitors (visual display units).
-                img: ba_u1_s2_p2_reveal_1v2.svg
-            -
-                title: Working Time Directive and Working Time Regulations
-
-                copy: |
-                  This legislation covers the maximum weekly working hours permitted, as well as rest breaks that you must have.
-
-                img: ba_u1_s2_p2_reveal_2v2.svg
-            -
-                title: The Data Protection Act 2018
-                copy: |
-                    This Act requires all organisations that process data on individuals to be listed in the register of data controllers. In the Act, data refers to information recorded or processed by computer and information that is part of a relevant filing system or forms part of an accessible record (like health records).
-                img: ba_u1_s2_p2_reveal_3v2.svg
-            -
-                title: Copyright, Designs and Patents Act 1988 (as amended)
-
-                copy: |
-                    This legislation limits what can be done with information originated elsewhere. This is to protect the rights of people who create original work. The law applies to books, computer programs, artistic work and songs.
-                img: ba_u1_s2_p2_reveal_4v2.svg
-
-  -
-    title: IT and Working Time Regulations
-    theme: t-bg-supporting3
     copy: |
-      In IT there are regulations applying to the use of computer monitors (the visual display units.)
+      Cyber attacks are financially devastating, disrupting and upsetting to individuals and businesses and can impact us all directly or indirectly. Directly it may affect us by having a lapse of concentration and clicking on a bogus link, or by our employers being hacked and affecting our jobs. It may also affect us as part of a community or nationally as it can impact our way of life.
 
-      Select the following to learn more
-
-    subInc: 
-      type: accordion
-      # Accordian
-      content:
-        - 
-          title: Working Time Directive and Working Time Regulations (1998)
-          copy: |
-            The directive states that -
-
-            - Your maximum weekly working time should be no more than 48 hours in seven days, unless you and your employer make an agreement in writing to the contrary.
-            - A night shift should last no longer than 8 hours in any 24 hours
-            - Work patterns should be monitored to protect worker’s health and safety. For example, if the work is monotonous an employer should ensure adequate rest breaks
-            Employees should have a rest break of no less than 11 hours in every 24 hours
-            - A weekly rest of no less than 24 hours uninterrupted should be ensured
-            - A rest break of no less than 20 minutes should be provided if an adult’s working day is more than 6 hours.
-
-            You need to know the legislation that applies to your job.
-          img: /images/svg/ba/ba_u1_s2_p2_accordion_1.svg
-        - 
-          title: UK Display Screen Equipment (DSE) Regulations
-          copy: |
-            The level of cover provided by these regulations depends on two factors - 
-
-            1. The amount of time an employee spends using DSE. In order to qualify, employees must use DSE as a significant part of normal work.
-            2. The employment status of workers. The regulations define employees as DSE "Users", while self-employed people are regarded as DSE "Operators". These distinctions are made on degree of control over work, level of financial risk, regularity of work and ownership of equipment. Operators are not covered by all aspects of the regulations, while users are.
-          img: /images/svg/ba/ba_u1_s2_p2_accordion_2.svg
-        -
-          title: European Directive
-          copy: |
-            ### What else do the DSE regulations say?
-
-            In addition to the UK legislation, a European Directive on the subject states that - 
-
-            1. Workers should have eye tests before starting display screen work; at regular intervals after that; if they experience visual difficulties.
-            2. Employers should contribute towards the cost of these eye tests.
-            3. Employers should regularly evaluate how healthy computer workstations are, on-site or otherwise.
-            4. Employers should comply with minimum specified standards relating to screens, keyboards, work desks or space, work chairs, space, lighting, glare, noise, heat, radiation, humidity, ventilation and software.
-            5. Workers should have adequate health and safety information about their workstation.
-            6. Workers should receive training before starting any display unit work, and should take frequent, short breaks.
-            7. There is also legislation that covers working time. Here employees need to control the number of consecutive days and hours people should work and they should ensure that there are adequate rest breaks.
-          img: /images/svg/ba/ba_u1_s2_p2_accordion_3.svg
-  -
-    title: Activity - UK Display Screen Equipment (DSE) Regulations
-    theme: t-bg-primary2
-    layout: media
-    copy: |
-      The level of cover provided by these regulations depends on two factors  
-      * The amount of time an employee spends using DSE. In order to qualify, employees must use DSE as a significant part of normal work.
-      * The employment status of workers. The regulations define employees as DSE "Users", while self-employed people are regarded as DSE "Operators". These distinctions are made on degree of control over work, level of financial risk, regularity of work and ownership of equipment. Operators are not covered by all aspects of the regulations, while users are.
-
-      Select the following icon to check your knowledge for these regulations which includes employee and employer responsibilities - 
-    activity: 
-      ref: U1-S2-P2_DSE
-  -
-    title: More about... data protection and copyright
-    theme: t-bg-supporting3
-    copy: |
-      There are regulations applying to data protection and copyright. 
-
-      See below to learn more.
-      
-    subInc: 
-      type: accordion
-      content:
-        -
-          title: The Data Protection Act 2018
-          copy: |
-            This Act repeals the previous 1998 Act and requires all organisations that process data on individuals to be listed in the register of data controllers. Data is defined as information recorded or processed by computer and information that is part of a relevant filing system or forms part of an accessible record. An example of these is health records. Key points include:
-            1. Data must be obtained and processed fairly and lawfully. Normally this means that individuals have given their consent. The more sensitive the data (such as that concerning religion or mental health), the more explicit the consent must be
-            2 Data should be adequate, relevant and not excessive
-            3. Personal data must be accurate, kept up to date and not kept for longer than is necessary
-            4. Data must be securely stored to prevent unauthorised access, loss or destruction
-            5. Data should not be transferred outside the EU unless the recipient country also protects data
-            6. Data must be processed in accordance with the rights of individuals.
-          img: /images/svg/ba/ba_u1_s2_p2_slider_1.svg
-        -
-          title: More about the rights of individuals
-          copy: |
-            Under the Data Protection Act, individuals have the right to: 
-            - Access data held about them
-            - Prevent processing which would cause distress or damage
-            - Prevent direct marketing usage
-            - Automated decision making, such as credit checks
-            - Address inaccurate information
-            - Compensation if the Act is contravened.
-            
-            There are exemptions under the Act. This is for data related to things such as National security, Crime detection and Domestic use only.
-          img: /images/svg/ba/ba_u1_s2_p2_slider_2.svg
-        - 
-          title: Copyright, Designs and Patents Act 1988 (as amended)
-          copy: |
-            This legislation limits what can be done with information originated elsewhere. This is to protect the rights of people who create original work. The law applies to manuals, commercial documents, computer programs, articles, leaflets and books, as well as a host of other items including dramatic works, songs and artistic works.
-
-            To use someone else’s work, you must get permission to do so. At times a fee may be involved. It's important to acknowledge when you have used someone else's work.
-          img: /images/svg/ba/ba_u1_s2_p2_slider_3.svg
-        -
-          title: General Data Protection Regulations
-          copy: |
-            ### Who will be affected by the GDPR?
-
-            The General Data Protection Regulations (GDPR) has far-reaching implications for all citizens of the European Union and businesses operating within the EU, regardless of physical location. If businesses hope to offer goods or services to citizens of the EU, they will be subject to the penalties imposed by the GDPR. In addition, any business that holds personal data of EU citizens can be held accountable under the GDPR.  
-            What sort of data falls under the General Data Protections Regulation?
-            * Name
-            * Photo
-            * Email address
-            *	Social media posts
-            *	Personal medical information
-            *	IP addresses
-            *	Bank details
-
-          img: /images/svg/ba/ba_U1_S1_p3_GDPR.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### General Data Protection Regulation (GDPR)
-      Please see the following video for more information.
-    video: BA_U1_S2_p2_GDPR.mp4
+      ### Potential impact
+      Let's look at the impact of cyber crime on individuals, business and nations and the importance of having cyber security. 
+    video: cs_u1_s2_p2_potential_impact_1.mp4
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        To find out more about some examples of high profile attacks click on the links below. 
+      links:
+        Sony pictures interview hack: https://en.wikipedia.org/wiki/Sony_Pictures_hack
+        Microsoft Exchange breach: https://en.wikipedia.org/wiki/2021_Microsoft_Exchange_Server_data_breach 
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: |
-        Both employers and employees have responsibilities for health, safety and security in the workplace.  Give examples for each of these in the following text box.
+      copy: what is the potential impact of cyber crime on individuals, businesses and nations? why is cyber security so important? Make a note of your responses in the box to the right. 
+    theme: t-bg-primary3 i-think
+  -   
+    title: The importance of reporting cyber security issues promptly.
+    theme: t-bg-primary
+    copy: |
+      General reporting of cybersecurity incidents informs the public as well as businesses. It can help individuals to look out for suspicious activity, such as money disappearing from their bank accounts, and enables them to take steps to protect themselves. Being aware of scams that are going around such as bogus texts and emails make people more aware and more likely to double check authenticity. Notification can also help other companies and organisations to be prepared for similar attacks.
+
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Reporting incidents
+      Let's take a more in depth look at why it is important to report on cyber security issues promptly.
+    video: cs_u1_s2_p2_potential_impact_2.mp4
+  -           
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: As individuals cyber crime can have serious financial implications
+          answer: financial
+        -
+          sentence: Companies can also enforce two-factor authentication for all their user accounts.
+          answer: two-factor
+        -
+          sentence: A DDoS cyber attack involves a network being flooded with excessive traffic causing it to shut down and becoming unavailable to legitimate users. 
+          answer: DDoS
+        -
+          sentence: Having 'up to date’ antimalware software and making sure all programs are up to date can help to keep systems secure.
+          answer: antimalware
+        -
+          sentence: Passwords should be long, complex, and original for each individual account
+          answer: complex
+        -
+          sentence: To minimise insider attacks all data storage should be encrypted and software should be updated regularly to maintain security.
+          answer: encrypted
+    theme: i-quiz         
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: If you suspect a cyber attack has taken place why is it important to report it as soon as possible? what will prompt reporting achieve? Make a note of your responses in the box to the right. 
     theme: t-bg-primary3 i-think

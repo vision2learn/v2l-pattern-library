@@ -1,0 +1,101 @@
+title: "Understand key legislation related to cyber security"
+intro: | 
+  On this page you will learn about the following areas in relation to cyber security. 
+  key points of current legislation related to cyber security to protect an individual, a business and a nation 
+  
+banner: cs_u3_s1_p2_key_legislation.jpeg
+sections: 
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+     Take note of how current legislation relating to cyber security can protect individuals, businesses and nations as you will need to talk about this in your assessment.
+  -
+    title: Legislation associated with cyber security.
+    theme: t-bg-primary
+    copy: |
+      England and Wales do not have a dedicated fully comprehensive cybersecurity law at present, but use a range of legal frameworks for cyber security dispersed across a number of different laws.
+      There are also different authorities, organisations and regulatory bodies some of which we have already discussed in session 3 of unit 1 that handle different aspects of legislation related to cybersecurity.
+      
+      Scroll through the slides to look at some of the key acts that legislate for cyber security.
+
+      
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Computer Misuse Act (1990)
+          text: |
+            The Computer Misuse Act protects data held by organisations from unauthorised access and modification).The act makes any unauthorised access or modification of data on a computer system illegal such as hacking, planting a virus and introducing malware and spyware. This act also covers DoS and DDoS attacks as these impair the operation and prevent or hinder access to programmes and data. The making and supplying or obtaining anything that can be used in computer misuse is also illegal. This includes selling tools and software for committing cyber attacks. This can affect individuals and businesses alike.
+          img: cs_u3_s1_p2_slide1.svg
+        -
+          title: Data Protection Act (2018)
+          text: |
+            The Data Protection act aims to safeguard all information held about an individual classed as personal or sensitive. It ensures that data is stored and processed lawfully and fairly. This means that are strict rules who can access and alter health records and organisations need to protect data at all times keeping it safe and secure. Data must only be used for the purposes it was collected for and not be shared with others without permission. It should also be destroyed when it is no longer needed. Data should be current and accurate and appropriate and not beyond what is necessary. This may impact individuals but also affects businesses that hold data on those people.
+          img: cs_u3_s1_p2_slide2.svg
+        -
+          title: Official Secrets Act (1989)
+          text: |
+            The Official Secrets Act was first created in 1911 and last updated in 1989 and stipulates that any unauthorised disclosure of any information or document relating to security or intelligence is an offence. It is a rather outdated piece of legislation that is in the process of being reviewed with regards to modern espionage threats. New technologies bring new forms of cyber crime which need effective tools and powers to detect, deter and disrupt hostile activity. Nation state threats can impact the countries safety and economy, as well as militarily and through espionage. 
+          img: cs_u3_s1_p2_slide3.svg
+        -   
+          title: Private and Electronic Communications Act (2003)
+          text: |
+            The Private and Electronic Communications Act cover cybersecurity obligations in telecommunications and electronic communication. It relates specifically to marketing by electronic means and covers marketing calls, texts and emails. Rules apply to the use of phones for unsolicited direct marketing purposes or playing an automated message. This may impact individuals but affects businesses directly or indirectly. 
+          img: cs_u3_s1_p2_slide4.svg
+        -   
+          title: The Copyright Designs and Patents Act (1988)
+          text: |
+            The Copyright Designs and Patents act gives creators of digital media the rights on how their work is used and distributed. This also includes software piracy which is the illegal copying and sale of software products. When software is bought it is not actually owned it is the license to use it that is being purchased. This can affect companies who produce legitimate software and individuals who purchase counterfeit goods wittingly or unwittingly. 
+          img: cs_u3_s1_p2_slide5.svg
+        -   
+          title: Fraud act (2006)
+          text: |
+            The Fraud act covers a wide range of cyber frauds by focusing on dishonesty and deception. Phishing constitutes as fraud by false representation. It is also an offence to make or supply articles for use in connection with fraudulent activity such as identity theft or identity fraud. Collecting personal information, company details, client data bases and steeling intellectual property all com under the Fraud act. This can affect individuals and businesses alike.          
+          img: cs_u3_s1_p2_slide6.svg 
+        -   
+          title: GDPR
+          text: |
+            The General Data Protection is a regulation created by the EU in 2018 to members of the European Economic Data that addresses the transfer of personal data between its member states. It mandates that each member country has its own regulator (in the UK this is the Information Commissioners Office ICO) and that organisations that give the power back to the individual by ensuring that all personal data is processed with a legitimate interest and allows individuals the right to understand and control who uses their data. 
+          img: placeholder_icon.svg
+               
+  -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Other legislation
+
+      There are many other acts of legislation that cover various aspects of cybercrime and offer legal protection such as,  The Forgery and Counterfeiting Act (1981) covers fake items are for sale online and the Identity Documents act (2010) for fake identity documents. Action Fraud is the UK's national reporting centre for fraud and cybercrime and more details are available from them.
+      
+      For more information on which different acts and legislation that may relate to cyber crime cick on the icon to the right.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.cps.gov.uk/legal-guidance/cybercrime-prosecution-guidance
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Keeping upto date
+      As technology and cyber security advances then legislation must be adapted or improved to take any new threats under consideration. 
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Make a note of the current legislation relating to cyber security which is designed to protect individuals, businesses and nations
+    theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about planned changes. . .
+
+      links:
+        cyber security laws: https://www.gov.uk/government/news/new-cyber-security-laws-to-protect-smart-devices-amid-pandemic-sales-surge     
+  - 
+  

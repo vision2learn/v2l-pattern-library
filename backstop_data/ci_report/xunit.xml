@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="BackstopJS" tests="72" failures="0" errors="0" skipped="0">
+  <testsuite name="BackstopJS" tests="72" failures="7" errors="7" skipped="0">
     <testcase classname="document" name=" ›› Components: Accordion"/>
     <testcase classname="document" name=" ›› Components: Accordion"/>
     <testcase classname="document" name=" ›› Components: Accordion"/>
@@ -21,19 +21,34 @@
     <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
     <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
     <testcase classname="document" name=" ›› Components: Quick Quick (multi)"/>
-    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
-    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)">
+      <failure message="Design deviation ›› Components: Quick Quick (multi, selected) (document) component"/>
+      <error message="Design deviation ›› Components: Quick Quick (multi, selected) (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)">
+      <failure message="Design deviation ›› Components: Quick Quick (multi, selected) (document) component"/>
+      <error message="Design deviation ›› Components: Quick Quick (multi, selected) (document) component"/>
+    </testcase>
     <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
     <testcase classname="document" name=" ›› Components: Quick Quick (multi, selected)"/>
     <testcase classname="document" name=" ›› Components: Quick Quiz"/>
     <testcase classname="document" name=" ›› Components: Quick Quiz"/>
     <testcase classname="document" name=" ›› Components: Quick Quiz"/>
     <testcase classname="document" name=" ›› Components: Quick Quiz"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)">
+      <failure message="Design deviation ›› Components: Quick Quiz (correct) (document) component"/>
+      <error message="Design deviation ›› Components: Quick Quiz (correct) (document) component"/>
+    </testcase>
     <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)">
+      <failure message="Design deviation ›› Components: Quick Quiz (correct) (document) component"/>
+      <error message="Design deviation ›› Components: Quick Quiz (correct) (document) component"/>
+    </testcase>
     <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
-    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
-    <testcase classname="document" name=" ›› Components: Quick Quiz (correct)"/>
-    <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
+    <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)">
+      <failure message="Design deviation ›› Components: Quick Quiz (incorrect) (document) component"/>
+      <error message="Design deviation ›› Components: Quick Quiz (incorrect) (document) component"/>
+    </testcase>
     <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
     <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
     <testcase classname="document" name=" ›› Components: Quick Quiz (incorrect)"/>
@@ -41,8 +56,14 @@
     <testcase classname="document" name=" ›› Components: Reveal"/>
     <testcase classname="document" name=" ›› Components: Reveal"/>
     <testcase classname="document" name=" ›› Components: Reveal"/>
-    <testcase classname="document" name=" ›› Components: Reveal (open)"/>
-    <testcase classname="document" name=" ›› Components: Reveal (open)"/>
+    <testcase classname="document" name=" ›› Components: Reveal (open)">
+      <failure message="Design deviation ›› Components: Reveal (open) (document) component"/>
+      <error message="Design deviation ›› Components: Reveal (open) (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› Components: Reveal (open)">
+      <failure message="Design deviation ›› Components: Reveal (open) (document) component"/>
+      <error message="Design deviation ›› Components: Reveal (open) (document) component"/>
+    </testcase>
     <testcase classname="document" name=" ›› Components: Reveal (open)"/>
     <testcase classname="document" name=" ›› Components: Reveal (open)"/>
     <testcase classname="document" name=" ›› Components: Slider"/>

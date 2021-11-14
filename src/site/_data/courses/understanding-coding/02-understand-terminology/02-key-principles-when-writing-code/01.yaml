@@ -1,0 +1,172 @@
+title: Understand key principles when writing code
+intro: |
+  In this session you will learn about what is meant by a range of terms used in writing code. To explain this section, we will use 2 short examples of code. 
+banner: uc_u2_s2_p1_key_principles.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * The use of variables
+      * Define what are operands/operations
+      * The principles of functions
+      * The use of queues, stacks and lists
+      * What is meant by the term ‘collection’ 
+      * What is meant by iterations 
+      * What is meant by control flow
+      * What is meant by recursions
+  -
+  -
+    title: A JavaScript example
+    theme:
+    copy: |
+      On pages 1 to ? we are going to use a simple JavaScript program to demonstrate some of the concepts we are discussing.
+      
+      Take a look at our *Javascript example* below:
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        // Declare some variables
+
+          var variable_1 = 25
+          var variable_2 = 28
+          var list_1 = [5, 2, 6, 3, 7, 2]
+
+
+        // Control flow: Conditional
+
+          if (variable_1 === variable_2) {
+            console.log('the variables are equal.');
+          } else {
+            console.log('the variables are not equal.');
+          }
+        
+        // Control flow: Loop (interation)
+
+          for (let i = 0; i < list_1.length; i++) {
+            console.log('List item ', i, ' = ', list_1[i])
+          }
+
+
+        // Function
+
+          function myFunction (input_1, input_2) {
+            sum_of_inputs = input_1 + input_2
+            console.log('The sum of inputs = ', sum_of_inputs);
+          }
+
+
+        // Control flow: Function call
+
+          myFunction(variable_1, variable_2);
+
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        The variables are not equal
+        List item 0 = 5
+        List item 1 = 2
+        List item 2 = 6
+        List item 3 = 3
+        List item 4 = 7
+        List item 5 = 2
+        The sum of inputs = 53
+        [Finished in 192ms]
+  -
+  -
+    title: The different terms explained in our example
+    theme: 
+    
+    copy: |
+      Please see in the below activity which gives a short introduction on each of the terms and principles in our _JavaScript example_.  We will then go into more detail further on in the session.
+
+      PLACEHOLDER - to be replaced with a new interactivity showing the JavaScript example of code and the option to click on the different areas to show the different features.
+
+    interactive: 
+      file: 
+      width: 1000
+      height: 800
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the use of variables.
+  -
+  -
+    title: Variables
+    theme:
+    copy: |
+      A variable is a container of a specific _type of data_ which has the potential to alter during the running of a program. Unlike a constant which is fixed, a variable needs to have the flexibility to change under certain conditions.
+
+      Thinking about this in the context of a computer game, you may have a constant in that you have 1 life or health bar for your character, however a variable would be the amount of health in that health bar. As you played the game you may lose or gain health and as you did, that variable would need to change based on what it was being told by the code, whereas the constant would need to stay the same for the game to function correctly.
+            
+      Our example code starts with some variable declarations. Can you identify what _data types_ the variables called variable_1 and variable_2?
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        // Declare some variables
+
+          var variable_1 = 25
+          var variable_2 = 28
+          var list_1 = [5, 2, 6, 3, 7, 2]
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to define operands/operations.
+  -
+    title: Operand and operator
+    theme: t-bg-primary
+    copy: |
+      ### Operand
+      An Operand is the term used to describe an object within the code that is capable of being changed or manipulated in some way.
+
+      ### Operator
+      An Operator is the term used to define those objects within the code that affect that change or manipulation to the Operands. This is either done as a prefix (before the operand) an infix (between operands) or a postfix (after the operands).
+
+      So, when looked at together the Operands are the elements which the operators operate upon. In its simplest form, think, 1 + 1, in this case the ones are both Operands and the plus symbol the Operator as that is the thing that affects the two numbers to complete the sum.
+      
+      Take a look at a snippet of code below from our *Javascript example*, can you identify which elements are operators and which are operands?
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        sum_of_inputs = input_1 + input_2
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A + symbol is an operator.
+          answer: operator
+        -
+          sentence: A number is an operand.
+          answer: operand
+        -
+          sentence: A variable is flexible - its value can change.
+          answer: variable
+        -
+          sentence: A constant is fixed - its value does not change.
+          answer: constant
+    theme: i-quiz

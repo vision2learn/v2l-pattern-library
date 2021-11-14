@@ -1,155 +1,108 @@
-title: Communicating effectively with others
+title: Know about job roles within cyber security
 intro: |
-    In this session, you will learn about three key areas of workplace communication:
-    - Methods of communication
-    - Choosing the best way to communicate with others
-    - Active listening
-banner: BA_U1_S3_p1_Communication.svg
+    In this session you will learn about the role of key organisations in the cyber security industry and the job functions and key skill requirements needed to be a cyber security professional. You will also learn about different types of ‘hackers’:
+banner: cs_u1_s3_p1_job_roles.jpeg
 sections:
   -
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Business and Administration qualification -  
+        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security -  
 
-        1. Understand how to communicate effectively with others
-        2. Explain how to choose the most appropriate method of communicating with others
-        3. Describe ways of actively listening
+        1. Describe the role of key organisations in the cyber security industry
+        2. Identify general job functions carried out by cyber security professionals
+        3. Define the term ‘hacking’
+        4. Explain the differences between 'white-hat', 'black-hat', 'grey-hat' hackers
+        5. Identify the key skills requirements of a cyber security professional
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the different organisations and the role they play in cyber security. 
+  -
+    title: The role of key organisations in the cyber security industry.
+    theme: t-bg-primary1a
+    copy: |
+      Cyber security affects us all in some way and it is important that government and the cyber security industry works together to protect individuals, business and all citizens and their well being from the threat of cyber attack. The UK government has taken on a leading role in protecting both the public and private sectors.
+      Many businesses do not understand the extent of the risk to which they are exposed and don't realise how cyber crime affects them directly not just as part of the overall national economy.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Key organisations
+      Let's have a look at some of the key organisations in cyber security and their roles. 
+    video: cs_u1_s3_p1_key_organisations.mp4
+  -
+    
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        As you work through this session, you can find out more about communication at the following websites\:
+        Please see the following websites where you can learn more about these organisations. . .
+
       links:
-        Communication skills: http://www.mindtools.com/pages/main/communication_skills.htm
-        Active listening: http://www.mindtools.com/listening
+        National Cyber Security Centre (NCSC): http://www.google.co.uk
+        Government Communications Headquarters (GCHQ): https://www.gchq.gov.uk
+        Information Commissioners Office (ICO): https://ico.org.uk    
+        UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk   
   -
-    title: How we communicate
-    theme: 
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-
-      ### Communicating effectively
-
-      The ability to communicate effectively is essential in any business environment.
-      Indeed, it is impossible for an organisation to function without communication.
-      You can communicate with work colleagues in many different ways, ranging from "off the cuff" brief verbal communications through to formal written documents distributed to employees. The communication can range from one-to-one conversations through to large meetings and presentations.
+      Make sure that you can define the different job functions that cyber security professionals may have.
+  -
+    title: General Job Functions carried out by cyber security professionals.
+    theme: t-bg-primary
+    copy: |
+      Cyber security is one of the most important roles in the fast growing technology industries. As cyber criminals and hackers become more sophisticated and ruthless, the need for equally talented cyber security specialists is increasing and specialists in cyber security are very sought after. 
       
-      See below to see examples of the way we communicate with others.
+      The cyber security profession can be entered at school leaver level as well as at graduate level. Graduates will probably have a degree related to computer science or a STEM subject ( Science, Technology, Engineering or Mathematics). Some employers also run apprenticeships in cyber security so school leavers can work and train at the same time.
+      Cybersecurity professionals are responsible for protecting IT infrastructure, networks, and data and are often responsible for preventing data breaches and monitoring and reacting to attacks.
+  -
+    title: Job functions
+    theme: t-bg-primary
+    copy: |
+      scroll trhough the slides to find out about the different job functions a cyber security specialist will carry out ...
 
     subInc: 
-      type: accordion
-      content:
-        - 
-          title: Face to face meetings
-          copy: |
-            Communicating in this way can include
-            - One-to-one discussions
-            - Meetings
-            - Discussions in a small group
-            - Presentations to large groups.
-        -
-          title: Other person to person communication
-          copy: |
-            Communicating in this way can include
-            - Telephone conversations
-            - Video conferencing.
-        -
-          title: Written communication
-          copy: |
-            Communicating in this way can include
-            - Texting
-            - Email
-            - Letters
-            - Reports.
-  -
-    title: Summary
-    theme: t-bg-primary i-summary
-    copy: Every day there is a constant flow of information through organisations. If this flow of information fails at any point, it can result in inefficiencies or harmful outcomes.
-  -
-    title: Let's get practical
-    theme: t-bg-supporting3
-    copy: |
-      Ensure you're understood when you are communicating with others, there are some practical tips that you can follow.
-      
-      Scroll through the slides below to find out more.
-    subInc:
       type: slider
       title: 
       slides:
         -
-          title: 1. Focus on a person when communicating
+          title: 
           text: |
-            * As far as possible, be in an environment that minimises distractions. If you are discussing something particularly detailed, a quiet office may be needed.
-            * Make sure you have enough time to give and receive the relevant information.
-            * Look at the speaker and be determined to focus on what they are saying.
-            * Do not interrupt. Note any questions and ask them at the appropriate time.
-            * If your mind wanders, switch back to the discussion. Maybe ask for a summary if you think you have missed anything.
-            * Focus on details.
-            Recap to check that you have understood correctly.
-          img: ba_u1_s3_p1_slider_1.svg
+            * Working to build in security at the development stages of software and hardware systems, networks and data banks. 
+            * Setting up and implementing user access controls and identity and access management systems.
+            * Looking for vulnerabilities and assessing risks in hardware and software systems.
+            * Building firewalls into network infrastructures and monitoring for attacks and intrusions.
+            * Finding the best way to secure an organisations IT infrastructure and addressing any potential threats.
+
+          img: cs_u1_s3_p1_slide1.svg
         -
-          title: 2. Prepare information for a presentation
+          title: 
           text: |
-            * Make sure you know exactly what information is required.
-            * Obtain the information and check it.
-            * Find out how the recipient would like the information to be presented.
-            * For written information, find out which type / format, etc is preferred. 
-            * When preparing a presentation have a clear introduction, develop key themes and conclude with a summary / action plan.
+            * Monitoring network and application performance to identify irregular activities or attempted breaches.
+            * Performing regular audits of systems to ensure that security practices are compliant.
+            * Identifying any threat actors and liaising with the police and cyber crime units where necessary.
+            * Work with IT departments to set up disaster recovery plans and HR teams to educate employees on how to identify suspicious activity.
 
-          img: ba_u1_s3_p1_slider_2.svg
-        -
-          title: 3. Structure and present written information clearly
-          text: |
-            * Follow the house style for the type of document you are writing (this will help you to see how emails / reports / letters are set out). You could also check filed copies for guidance if they are available.
-            * Where appropriate, use headings to indicate what is coming next. The use of sub-headings can break a lengthy document into more manageable chunks. 
-            Use paragraphs to separate large sections of text. 
-            * The first paragraph should introduce a topic. Subsequent paragraphs develop key points. The final paragraphs should describe actions and summarise the whole topic.
-          img: ba_u1_s3_p1_slider_3.svg
-        -
-          title: 4. Structure and present written information clearly
-          text: |
-            * Use bullet points for key items that need to stand out. If a lengthy document is to be discussed / referred to, then it may help to number the paragraphs. 
-            * If any graphics / charts / diagrams are used, give them a heading / reference number so they link to the text. 
-            * In most cases, documents will be dated and the authors named. 
-            * Be sure to check your spelling, punctuation and grammar.
-
-          img: ba_u1_s3_p1_slider_4.svg
-  -
-    title: Non-verbal communication
-    theme: t-bg-primary
-    copy: |
-      ### Other ways to communicate
-      
-      A lot of the information we communicate is done non-verbally. When a person is speaking, the words they say are only a part of the message.
-
-      Examples of non-verbal communication include 
-      - Posture (sometimes called body language)
-      - Gestures
-      - Facial expressions
-      - Eye contact / movement
-      - Voice tone.
-
-      See below to learn more.
-
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Non-verbal communication examples
-          copy: |
-            - When asked if he took a bar of chocolate, a child says “No” but looks away and mumbles his answer
-            - A husband says he likes his wife’s new dress, but his voice tone is unenthusiastic
-            - A person says she is happy, yet her face looks sad and her voice is flat.
-            
-            In these examples, you are more likely to notice the non-verbal communication rather than the content of communication. When communicating with people, it helps to think about two simple questions with regard to non-verbal communication - 
-            1. Am I doing anything non-verbally that distracts people from my message?
-            2. Am I noticing mixed messages between verbal and non-verbal communication? (If anything is noticed you should probe further to clarify the mixed message.)
-          img: /images/svg/ba/ba_u1_s3_p1_image_1.svg
+          img: cs_u1_s3_p1_slide2.svg   
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: Think about your own organisation or one that you are familiar with. What are the most popular methods of communication within the workplace?  Make a note of these in the following text box. 
+      copy: Using your learning from this page can you describe the role of cyber security organisations? make a note of your answer in the box to the right. 
+  - 
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Cyber security professionals are employed by many different organisations such as network providers, the government, banks and financial services, educational establishments, airlines, any large organisations with a database and security consultancy firms. There is also opportunity for experienced professionals to become consultants working for many different organisations. click on the link below to find out more about cyber security roles
+
+      links:
+        Cyber security Careers: https://cybersecuritychallenge.org.uk/what-we-do    
+  -

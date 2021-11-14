@@ -1,0 +1,62 @@
+title: Parallelisation
+intro: |
+  On this page you will learn about parallelisation and how it is managed.
+banner: uc_u3_s3_p2_parallelisation.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * explain the term parallelisation,
+      * describe how parallelisation is managed.
+  -
+  -
+    title: Parallelisation
+    theme: t-bg-primary
+    copy: |
+      Pure functions allow multiple threads working on the same function simultaneously as they do not rely on external variables. This can massively increase the speed at which a program can be executed.
+  -
+  -
+    title: Parallelisation and how is it managed
+    theme: 
+    copy: |
+      Pure functions are particularly useful when you want to implement parallel processing. Parallel processing is a way of allocating processes that are happening in a program so that they can make the most use of the computational resources available. It differs from sequential (typical) programs in that it allows multiple processes to occur at once. 
+
+      Multi-threaded programming diagram here
+            
+      ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Parallelisation and how is it managed
+
+      _Presentation style - Narrator or presenter explaining the example with diagrams / text_
+      
+      Please see the following video to learn more about parallelisation.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _Not sure we need this_
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

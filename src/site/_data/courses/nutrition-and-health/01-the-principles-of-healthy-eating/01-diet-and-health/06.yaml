@@ -43,19 +43,19 @@ sections:
   -
   -
     title: Interactivity - Energy requirements and weight
-    theme: t-bg-primary2
-    
+    theme: 
     copy: |
-      _Include same 3 images and create an interactive activity to include - NHS recommendations, Activity levels, Energy requirements and weight - Reference original content: https://www.vision2learn.com/uploaded_programme_files/nutrition-health-2015/unit01/session01/pg13.asp_
+      Once a person can calculate their total energy requirements they are in a position to maintain their weight.
 
-      Include calories and weight.
+      If they are taking on more energy than they are using, the excess calories will be converted into fat. You learnt about this earlier in the Session. In order to lose weight, you have to use more energy than you consume. 
 
       Select the following to learn more about the relationship between energy requirements and weight.
 
     interactive: 
-      file: 
-      width: 
-      height:        
+      file: nh/u1_s1_p6_weight
+      width: 1000
+      height: 653
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
     title: Key point

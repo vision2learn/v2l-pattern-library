@@ -1,0 +1,34 @@
+title: Welcome to Unit 4
+intro: |
+    ### Understand the processes and practice of coding
+    
+    Welcome to the fourth unit of your Level 2 Certificate in Understanding coding.  In this unit you will learn about best practice in coding, methods of testing used and DevOps processes. 
+
+banner: placeholder.jpg
+sections:
+  -
+    title: Learning goals
+    theme: t-bg-supporting2
+    copy: |
+      By working through this unit, you will cover the following criteria of your Level 2 Certificate in Understanding coding qualification.
+
+      You will:
+
+      1. Understand the principles of best practice in coding
+      2. Understand the methods of testing code
+      3. Understand DevOps processes
+      4. Understand the importance of robust coding
+
+      [View the complete set of learning outcomes for this unit.](/pdfs/)
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      
+      * The KISS principle
+      * Disadvantages of writing complicated code
+      * What is the single responsibility principle
+      * What is meant by separation of concerns
+      * What is abstraction
+      * What are solid principles

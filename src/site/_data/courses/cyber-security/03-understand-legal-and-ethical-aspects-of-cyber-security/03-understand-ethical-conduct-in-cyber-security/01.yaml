@@ -1,0 +1,49 @@
+title: Understand ethical conduct in cyber security
+intro: |
+    In this session you will learn about ethical and unethical conduct within cyber security.:
+banner: cs_u3_s3_p1_ethical_conduct.jpeg
+sections:
+  -
+    title: Your learning goals
+    theme: t-bg-primary
+    copy: |
+        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security -  
+
+        1. Describe ethical conduct within cyber security
+        2. Describe unethical conduct within cyber security
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the difference between ethical and unethical conduct.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### what is ethical and unethical conduct?
+      A company's values are only as strong as those of it's employees. That's why employees need to take on their company's values making them part of every action and decision. This is particularly important with regards to cyber security. Having cyber security policies are one way of protecting those values and reducing risks laying out clear ethical guidelines for employees to follow. 
+      The best thing would be if everyone in the company believed in those policies and automatically shared those values without having to refer to guidelines.
+
+      Let's have a look at ethical and unethical conduct with regards to cyber security.
+    video: placeholder_pc.mp4
+   
+  -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Unethical conduct
+
+      There’s plenty of news stories about fines under HIPAA for healthcare workers using their access to look into celebrity medical records, for example:
+
+    img: /images/svg/stretch_button.svg
+    link: https://etactics.com/blog/celebrity-hipaa-violations
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Can you describe ethical and unethical conduct within cyber security? Make a note of your answer in the box to the right. 
+  -

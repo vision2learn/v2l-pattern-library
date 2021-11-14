@@ -2,7 +2,7 @@
   "tags": "cyber-security",
   "course": "cyber-security",
   "dotnetID": 133,
-  "year": 2019,
+  "year": 2021,
   "level": 2,
   "shortcode": "cs",
   "why": "This course is designed to provide you with a greater understanding of the issues surrounding Cyber Security issues and the various roles available in the field of cyber security. This course can also act as a stepping stone for learners who wish to study cyber security at a higher level.",
@@ -14,10 +14,11 @@
       "describe the term 'cyber crime'",
       "explain the possible motives for cyber crime",
       "identify potential threat actors",
-      "describe how representative bodies can support the employees",
       "define the terms 'external threat' and 'insider threat'",
       "explain the possible motivations that could lead to external and insider threats",
       "explain what is meant by 'targeted' and 'untargeted' attacks"
     ]
-  }
+  },
+  "partial": 3,
+  "learningoutcomes": true
 }

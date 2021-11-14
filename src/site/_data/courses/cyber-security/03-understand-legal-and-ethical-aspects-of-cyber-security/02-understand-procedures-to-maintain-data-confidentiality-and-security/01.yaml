@@ -1,0 +1,100 @@
+title: "Understand procedures to maintain data confidentiality and security"
+intro: |
+  In this session you will learn about different procedures to maintain data confidentiality and security. You will also look at data storage, encryption and security checks.:
+banner: cs_u3_s2_p1_data_confidentiality.jpeg
+sections:
+  -
+    title: Your learning goals
+    theme: t-bg-primary
+    copy: |
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
+    
+      1. Describe ways to protect stored data
+      2. Explain basic techniques for encrypting information
+      3. Describe the advantages and disadvantages of each encryption technique
+      4. Define what is meant by the following:
+        - data in transit
+        - data at rest
+      5. Explain the security checks an organisation might undertake before releasing information  
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand how you can protect stored data.
+    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Protecting stored data
+      Stored Data needs to be protected from not only the hackers but also should be kept safe in case the computer system is lost or suffers damage. Fireproof and waterproof cabinets can help to protect computer equipment and physical storage devices.
+      
+      Let's look at some different ways in which data can be stored and protected.
+
+    video: placeholder_pc.mp4
+   
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: Can you think of different ways that you can protect stored data? Make a note of your answer in the box to the right.
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the different types of encryption and the what is meant by data in transit and data at rest.
+  -
+    title: Encryption
+    theme: t-bg-primary
+    copy: |
+      let's look at the two basic techniques for encrypting information and the advantages and disadvantages of each.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Symmetric key encryption
+          text: |
+            Symmetric encryption works by using a single key that is shared with the person you want to be able to decrypt and re-encrypt data you share between you. This is useful when communicating over a potentially unsecure channel. It is a lot quicker in the way it encrypts and decrypts and quicker to implement however it relies on the fact that you must trust the other person and if they share this key then effectively anyone can now access your encrypted data.
+          img: cs_u3_s2_p1_slide1.svg
+        -
+          title: Asymmetric key encryption
+          text: |
+            Asymmetric Encryption works by having a public key and a private key. Only the private key can encrypt the data and only the public key can decrypt the data. The public key is distributed widely and can be given to semi-trusted entities. The private key however, as the name suggests, must be kept private. An example of this is HTTPS the protocol that the internet works on. The ‘S” refers to TLS which is an asymmetric encryption where only the server of the website has the private her and public keys are embedded in your browser to decrypt the data. The downfall of asymmetric encryption is that it’s more operationally intensive for computers to process and takes longer, and is more complex to set up.
+          img: cs_u3_s2_p1_slide2.svg
+
+  -
+    title: Data states
+    theme: t-bg-supporting3
+    copy: |
+      states of data is a way of categorizing structured and unstructured data. The three states of data are data at rest, data in motion and data in use. Data can change states quickly and frequently, or it may remain in a single state for the entire life cycle of a computer. Understanding the characteristics and differences between data states can help organizations handle sensitive information more securely.
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Data in transit
+          copy: |
+            Data in Transit or data in motion is data that is actively moving from one location to another which could be around a private network or across the internet. Protection of data in transit is important as it moves from network to network or storage device to the cloud as it is often considered less secure whilst in transit
+          img: cs/cs_u3_s2_p1_accordian1.svg
+        - 
+          title: Data at rest
+          copy: |
+            Data at Rest is data that is not actively moving from network to network or device to device. It may be being stored on a hard drive, digital device or flash drive or archived in some other way. Data at rest is often though of as less vulnerable than data in transit.
+
+            Unprotected Data whether in transit or at rest is vulnerable to attack without good encryption.
+
+          img: cs/cs_u3_s2_p1_accordian2.svg 
+
+  - 
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: What are the advantages of the different encryption techniques? What is meant by data in transit and data at rest? Make a note of your answer in the box to the right.
+    theme: t-bg-primary3 i-think
+
+        

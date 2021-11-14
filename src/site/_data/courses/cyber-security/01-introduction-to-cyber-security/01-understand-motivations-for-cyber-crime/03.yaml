@@ -4,147 +4,113 @@ intro: |
   * what cyber crime is
   * the possible motives for carrying out cyber crime
   * the different threat actors  
-banner: cs_u1_s1_p3_cyber.jpg
+banner: cs_u1_s1_p3_cyber_crime.jpeg
 sections:
   -
-    title: So what is "Cyber Crime"?
-    theme: t-bg-primary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      
-
-      Cyber crime is a very real threat to a range of services, businesses and private individuals around the world. In the UK, cyber crime costs billions of pounds causing untold damage to and threatening our overall security.
-      
-
-  -
-    title: Cyber crime involves a computer or other digital technology. There are two main types of cyber crime.
-    theme: t-bg-supporting3
-    
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Cyber-dependent crime 
-          copy: |
-            Otherwise known as ‘illegal hacking’. This is when someone gains access to another person’s computer network or device without permission. 
-          img: /images/svg/cs/cs_u1_s1_p3_image_1.svg
-        - 
-          title: Cyber-enabled crime 
-          copy: |
-            This is when technology is used to carry out or enhance another crime, for example fraud.
-          img: /images/svg/cs/cs_u1_s1_p3_image_2.svg
-  -
-    title: Motives for cyber crime.
-    theme: t-bg-primary
-    copy: |
-      A person who commits a cyber crime is known as a cyber criminal. They can work alone or in a team of people. Their motives are often malicious with the intention of stealing sensitive company information, personal data, generating profit and/or for their own political reasons. Scroll through the slides below for different types of m 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: For financial gain 
-          text: |
-            cyber criminals steal financial information or identities to make money out of individuals and businesses.
-          img: cs_u1_s1_p3_image_2.svg
-        -
-          title: To increase business and competition
-          text: |
-            Cyber attacks against businesses are on the increase. Some attacks are designed to prevent competitors from taking part in major events, while others target the complete shutdown of online businesses for months.
-          img: cs_u1_s1_p3_image_1.svg
-        -
-          title: To make a social or political point
-          text: |
-            Hackers can attack government and organisational websites to make their point known. This is often by making a website crash so that no one can use it.
-          img: cs_u1_s1_p3_image_3.svg
-        -
-          title: Radical ‘hackerism’
-          text: |
-            These are usually bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention.
-          img: cs_u1_s1_p3_image_2.svg
-        -
-          title: Cyber warfare
-          text: |
-            This is a war on the internet and flow of information. Cyber attacks like these backed by nation-states, which means they are well-funded and well-planned actions carried out by tech-savvy professionals.
-          img: cs_u1_s1_p3_image_1.svg
-  -
-  -
-    title: Threat actors
-    theme: t-bg-supporting3
-    copy: |
-      In cybersecurity, the threat actor is the enemy. This can be a person, group, or entity that creates all or part of an ‘incident’ with the aim to impact an organization’s security.
-
-      Select the images below to read more about the different types of threat actors
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Cyber criminals
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_1.svg
-        -
-          title: Cyber terrorists
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_2.svg
-        -
-          title: Inside agents and bad actors
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_3.svg
-        -
-          title: State sponsored threat agents
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_1.svg
-        - 
-          title: Script kiddies
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_2.svg
-        - 
-          title: Hacktivists 
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_3.svg      
-  -
+      Make sure that you can define the term 'cyber crime' and understand the potential motivation to carry out cyber crime as you will be asked about this in your assessment.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Lets look at these in more detail
-    video: placeholder_pc.mp4
+      ### What is cyber crime?
+      Cyber crime is a very real threat in todays digitally connected world so lets have a look at what cyber crime is.
+    video: cs_u1_s1_p3_cyber_crime.mp4
   -      
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: Statutory employment rights address the legal rights of every employee in the country
-          answer: Statutory
+          sentence: Cyber crime is the use of a computer or other digital device, and the internet to commit illegal acts.
+          answer: internet
         -
-          sentence: Many small businesses provide their employees with access to a stakeholder pension scheme
-          answer: stakeholder
+          sentence: Cyber crime can affect individuals, businesses, organisations and governments.
+          answer: governments
         -
-          sentence: The Equality Act 2010 protects women from being paid less than men for doing the same job
-          answer: Equality Act 2010
+          sentence: Cyber crime is increasing all the time and becoming more complex.
+          answer: increasing
         -
-          sentence: The Working Time Regulations provide employees with the right to paid annual leave
-          answer: annual leave
+          sentence: Cybercrime is not limited to a specific location making it difficult for security services to trace.
+          answer: location
         -
-          sentence: The Data Protection Act 2018 restricts the use of personal data an organisation can hold about someone
-          answer: personal data
+          sentence: The same skills used by the cyber criminals can also be used by the police to find them. 
+          answer: police
         -
-          sentence: The GDPR is a ruling intended to protect the data of citizens within the European Union.
-          answer: GDPR
+          sentence: Even if a cyber criminal is traced, geopolitical issues can mean it may still be impossible to bring them to justice.
+          answer: geopolitical
     theme: i-quiz
     
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Motives for cybercrime.
+      Now that you have learnt about what cyber crime is lets take a look at the potential motives for carrying out cyber crime.
+      
+    video: cs_u1_s1_p3_motives.mp4
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: Using your learning from this page, can you describe what cyber crime is and the possible motives for carrying out cyber crime? Make a note of these in the box to the right. 
     theme: t-bg-primary3 i-think
+  -   
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can identify the different threat actors involved in cybercrime.
+  -
+
+    title: Threat actors.
+    theme: t-bg-primary
+    copy: |
+      With cyber security threats on the increase we have to be aware that not only large organisations, businesses and governments are under threat, so are individuals and their home computers and personal devices. A phrase that is commonly used in cyber security is a 'threat actor' and this is anyone who has the potential to impact another's security. A threat actor can be a single person as well as a group working together working as hackers, based anywhere to launch a cyber attack. It can also be an organisation or on the largest scale a country carrying out a cyber attack.
+
+      Let's have a look at some 'threat actors' in a little more detail.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Cybercriminals.
+          text: |
+            Cyber criminals aim to exploit human security vulnerabilities to steal passwords, data or money.These are the most common types of threat actors and their attacks may involve hacking into devices to gain password details and stealing or making data inaccessible to an organisation by holding it to ransom. Financial gain is usually the motive and the weapons of choice are phishing attacks, ransomware and malware. It’s important to understand that these operate very much like any legitimate business, with teams of people and management, who turn up every day with the objective to bring in as much money as possible. Some companies even offer rewards for their employees that bring in the most money under an “employee of the month scheme”!
+          img: cs_u1_s1_p3_slide1.svg
+        -
+          title: Cyber Terrorists & Industrial Spies
+          text: |
+            These threat actors use computer networks to steal large volumes of sensitive data that may include a company's intellectual property, research and development plans or other information they might want to protect. They may also attack government and military targets.
+          img: cs_u1_s1_p3_slide2.svg
+        -
+          title: Hacktivists
+          text: |
+            Hacktivists are groups of criminals who carry out 'attacks' in support of political causes and may target who industries or specific organisations who don't share their political views or causes. Their motives are not always financial but may be political or ideological. Perhaps the most famous example of a Hacktivist group would be "Anonymous".
+          img: cs_u1_s1_p3_slide3.svg
+        -
+          title: State Sponsored Threats
+          text: |
+            Some countries may target others to steal data or disrupt their security. Their intent may be to bring down or change governments or damage a countries economy. They may also be involved in disrupting communications, espionage and seeking access to military secrets.
+          img: cs_u1_s1_p3_slide4.svg
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Make a note of the different threat actors who may be involved in cyber crime. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
+    theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following links where you can read more about some high profile examples of cybercrime . . .
+
+      links:
+        Cyber crime offer of the month: https://www.infosecurity-magazine.com/news/cybercrime-boss-offers-ferrari-prize-for-most/
+        Top five "Anonymous" Hacks: https://theweek.com/articles/486636/anonymous-secret-groups-5-biggest-hacks    

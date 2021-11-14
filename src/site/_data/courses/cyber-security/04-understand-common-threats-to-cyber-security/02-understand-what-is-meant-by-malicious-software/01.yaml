@@ -1,0 +1,82 @@
+title: Understand what is meant by malicious software
+intro: |
+  In this session you will learn about:
+  In this session you will learn about malicious software what it is how it can infect your system and how you can remove it
+
+banner: placeholder.jpg
+sections:
+  -
+    title: Your learning goals
+    theme: t-bg-primary
+    copy: |
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
+    
+      1. Explain what is meant by malicious software
+      2. Identify ways in which malicious software can infect a system
+      3. Identify methods for removing malicious software from an infected system
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+    
+  -
+    title: So what is Malicious software?
+    theme: t-bg-primary
+    copy: |
+      We hear the term malicious software all the time but what exactly is it what does it do, how do we protect ourselves from it and how can we get rid of it when we have it in our systems?
+      
+      Malicious software or malware is any software that is designed for the purposes of intentionally causing damage or exploiting any programmable device, computer, service, network, or system.  
+
+      Malicious software can include Viruses, Ransomware, Spyware,Trojans, Worms, Scareware, Adware. Some of these have already been mentioned in previous units but let's refresh our memories on what they involve.
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Ransomware
+          copy: |
+           This is the most profitable and therefore the most popular. It installs itself onto a machine, encrypts the files and demands a ransom for the release, usually in bitcoin.
+
+          img: placeholder_icon.svg
+        -
+          title: Spyware
+          copy: |
+            Once installed spyware captures and transmits personal information and browsing habits. Users of spyware include criminals, as well as security organisations and other consumers as it can also be used to spy on employees, family members and to test and monitor communications in investigations.
+          img: placeholder_icon.svg
+        -
+          title: Trojans
+          copy: |
+            These pretend to be harmless applications tricking users into downloading them, where they then launch their attack, stealing data, spying or crashing systems.
+          img: placeholder_icon.svg
+        -
+          title: Worms
+          copy: |
+           Worms copy themselves from machine to machine exploiting weaknesses in software or operating systems. 
+          img: placeholder_icon.svg
+        -
+          title: Scareware
+          copy: |
+            Tricks individuals into thinking they have a virus or their system is infected to purchase and download a fake application.
+          img: placeholder_icon.svg
+        -
+          title: Adware
+          copy: |
+            Adware programs push unwanted adverts and pop ups at users. These usually accompany the use of software for free.
+          img: placeholder_icon.svg  
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Infection and removal
+      So how does malicious software infect a system and what can be done to remove infections? lets have a look at this in more detail.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think

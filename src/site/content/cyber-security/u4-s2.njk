@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 2,
+  pagination: {
+    data: "courses['cyber-security']['04-understand-common-threats-to-cyber-security']['02-understand-what-is-meant-by-malicious-software']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

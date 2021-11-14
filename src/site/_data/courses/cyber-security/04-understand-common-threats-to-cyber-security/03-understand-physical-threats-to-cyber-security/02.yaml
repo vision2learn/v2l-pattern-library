@@ -1,0 +1,68 @@
+title: Threats and solutions
+intro: |
+  On this page you will learn about:
+  - The potential threats that remote working brings
+  - Best practice which can help to minimise physical threats to security.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-primary
+    copy: |
+    
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Possible threats presented by remote working.
+      Remote working has been around for some time but has become essential for many businesses due to the pandemic and looks likely that this will be a continuing trend for many companies for the foreseeable future.
+
+      Lets take a look at the potential threats that remote working presents.  
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+
+  -
+    title: Best practice
+    theme: t-bg-primary
+    copy: |
+      Physical threats to cyber security may come from the opportunist who steals a computer and possibly a log in, gets into the system, sets up malware by logging onto a system or goes for an all-out attack on the network through malicious means of physical attack such as arson or theft on a grand scale.
+      Let's look at best practice that can help to minimise physical threats to cyber security.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: physical security
+          text: |
+            Having physical security in a building with perimeter access controls and physical perimeter barriers can help to keep the physical threat out. Having CCTV inside and outside of a building can also help by offering 24/7 monitoring of who enter and exits or tries to gain access illegally.
+
+          img: placeholder_icon.svg
+        -
+          title: Access controls
+          text: |
+            Access controls like fobs which may be specific to certain areas and keypads which may be dynamic and changed regularly help improve access problems to all areas. 
+            Staff having photographic ID badges which may also allow access to certain areas are effective and a sure way of being able to check on the system that a person is who they say they are.
+
+          img: placeholder_icon.svg
+        -
+          title: Staff training.
+          text: |
+            Good staff training for all staff explaining that security goes beyond not opening a door for others and looking after personal belongings but involves their digital identity being always kept safe, by not leaving passwords on 'post its' and computers logged on when they leave a room. Vigilant staff can help inform security control to any issues that may pose a threat to cyber security.
+
+          img: placeholder_icon.svg
+        -
+          title: physical entry penetration tests
+          text: |
+            Much like how we conduct penetration tests of websites to ensure criminals can’t breach them technically, it’s becoming more common that companies will commission physical entry penetration tests where a person will be tasked with assessing the physical security of a facility. They will use social engineering to try and get past front desks, tailgate through doors, and use disguises such as janitor outfits to ensure that nobody questions them for example.
+
+          img: placeholder_icon.svg  
+
+
+  -
