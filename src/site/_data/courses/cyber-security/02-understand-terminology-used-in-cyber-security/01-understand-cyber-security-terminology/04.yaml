@@ -23,7 +23,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Terninology
+      ### Terminology
        
     video: cs_u2_s1_p4_terminology.mp4
   -      
@@ -56,7 +56,4 @@ sections:
     include: 
       type: time-to-think
       copy: content to relate to video
-    theme: t!
-
-  -
     
