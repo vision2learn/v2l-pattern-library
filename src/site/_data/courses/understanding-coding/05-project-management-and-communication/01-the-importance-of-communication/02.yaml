@@ -1,93 +1,56 @@
-title: TEMPLATE PAGE
+title: Understand the importance of communication
 intro: |
-  intro text
+  In this session you will learn about the importance of communication and methods used to communicate to different audiences.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain the importance of communication.
   -
-    title: introduction text
-    layout: media
+  -
+    title: The importance of communication
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
+      Communication involves passing information from one person to another and in turn understanding that information. Communication skills are a necessary part of life and are required both in the workplace and in personal interactions. 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Communicating in business
           text: |
-            text
+            In all businesses we spend our days communicating verbally, non-verbally and in written form by various methods such as by emails, meetings, conference calls, creating and sending reports, giving presentations, and by general face to face discussion. To do this effectively we need to make sure that our communication is clear, concise and accurate.
+
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Why communication is important in a coding environment
           text: |
-            text
+            The skill of communication is important in coding and programming as often the information that needs to be communicated is highly technical and not everyone involved in the process has the same technical knowledge or may be conversant with the terminology and coding languages used. 
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Importance of effective communication when working in a team
           text: |
-            text
+            Clear, concise communication is fundamental to the success of project management and those working in a coding environment as it is essential that teams collaborate effectively when striving to achieve successful results. Poor communication can lead to unnecessary costs to put things right.
           img: placeholder_icon.svg
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * describe different methods of communication,
+      * identify when to use different methods of communication.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenters with headings for each point and imagery to support_
       
-      Please see the following video on .
+      Please see the following video on different methods of communication and when to use different methods of communication.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -99,55 +62,39 @@ sections:
 
   -
   -
-    title: Code
-    theme:
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
+      In your assessment you will be required to explain the importance of adapting communication for different audiences.
   -
   -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
     copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      _Presentation style - Presenter with imagery to support_
       
-      [Online Python](https://online-python.com)
+      Please see the following video on the importance of adapting communication for different audiences.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
   -
   -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Case study - Possible for 1.4
 
       _Optional item depending on content_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
