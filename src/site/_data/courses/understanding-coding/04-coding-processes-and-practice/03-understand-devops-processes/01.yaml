@@ -1,5 +1,7 @@
 title: Understand DevOps processes
 intro: |
+  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
+  
   In this session you will learn about DevOps processes and what is meant by continuous integration, delivery and deployment and the differences between these processes.
 banner: placeholder.jpg
 sections:
@@ -21,83 +23,47 @@ sections:
       * continuous delivery
       * continuous deployment.
   -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
+    title: Continuous integration
+    theme: 
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      3.1 content and diagram
       
-      _awaiting on sme content_
+      Continuous Integration (CI) is a DevOps software development practice of the merging changes back to the main branch as often as possible. It put the emphasis on testing automation to check that the program is not broken. 
 
-    img: /images/svg/placeholder_icon.svg
+      Let’s look at this in more detail.
+            
+      ![](/images/banners/uc/placeholder.jpg)
   -
   -
-    title: Reveals
-    theme: t-bg-primary
+    title: Continuous delivery
+    theme: t-bg-supporting3
     copy: |
-      _Optional item depending on content_
+      3.2 content and diagram
+      
+      Continuous Delivery (CD) is an extension of continuous integration as it automatically deploys all code changes to the testing or programming environment after the build stage.
 
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
+      Let’s look at this in more detail.
+            
+      ![](/images/banners/uc/placeholder.jpg)
   -
   -
-    title: slider
-    theme: t-bg-primary
+    title: Continuous deployment
+    theme: 
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      3.3 content and diagram
+      
+      Continuous Deployment goes another step further and passes all stages of the production pipeline to customers. 
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
+      Let’s look at this in more detail.
+            
+      ![](/images/banners/uc/placeholder.jpg)
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _PLACEHOLDER ITEM - may not need.  Presentation style .... _
       
       Please see the following video on .
     video: placeholder_pc.mp4
