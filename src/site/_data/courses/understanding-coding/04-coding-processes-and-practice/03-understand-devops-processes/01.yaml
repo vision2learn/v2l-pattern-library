@@ -1,5 +1,7 @@
 title: Understand DevOps processes
 intro: |
+  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
+  
   In this session you will learn about DevOps processes and what is meant by continuous integration, delivery and deployment and the differences between these processes.
 banner: placeholder.jpg
 sections:
@@ -48,7 +50,7 @@ sections:
     title: Continuous deployment
     theme: 
     copy: |
-      3.1 content and diagram
+      3.3 content and diagram
       
       Continuous Deployment goes another step further and passes all stages of the production pipeline to customers. 
 
@@ -57,17 +59,11 @@ sections:
       ![](/images/banners/uc/placeholder.jpg)
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _PLACEHOLDER ITEM - may not need.  Presentation style .... _
       
       Please see the following video on .
     video: placeholder_pc.mp4

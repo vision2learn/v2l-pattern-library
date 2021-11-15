@@ -12,13 +12,57 @@ sections:
       * describe what is meant by separation of concerns,
       * define what is meant by abstraction.
   -
+  -
+    title: Introduction to Classes and Modulation
+    theme: t-bg-supporting3
+    copy: |
+      Let’s look at some more principles related to best practice in coding. For this, we need to further understand some programming concepts. 
+
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Classes
+          copy: |
+            Classes are the main feature of object oriented programming languages, and generally they constitute the main ‘object’. 
+            
+            A class is a piece of code which acts like a template for something that might be created many different times in slightly different terms throughout the program.
+            
+            For example, we could have a piece of code which describes different types of cars.
+            
+            We could make a class called ‘car’, then add the defining features (such as make, model) through class-related variables called attributes. These attributes would then be specific to the ‘instance’ of the class we are creating. Functions which are built into a class are called methods.
+            
+            For example, our class definition (template) could look like this:
+  
+            | Class: car(make, model, colour) | 
+            |------|
+            |self.make = make | 
+            |self.model = model |
+            |self.colour = colour |
+
+            We could then make different 'instances’ like this:
+
+            bmw = car(‘BMW’, ‘X5’, ‘red’) 
+            
+            ferrari = car(‘Ferrari’, ‘GT4’, ‘black’)
+
+
+            _DIAGRAM ?_
+
+            Classes can have ‘public’ and ‘private’ attributes. Public attributes can be accessible from outside the of class. Private attributes can only be accessed from the environment within the class.            
+        -
+          title: Modulation
+          copy: |
+            To keep code maintainable, we aim to make it modular. Modularity is when small units of code, such as functions, modules, and even libraries, do not overlap and therefore can be edited separately from the rest of the code. If programs are designed and written well, this can make it much easier to debug as you do not have to go through the whole program to make the changes you need, just the section of code you are interested in. This principle is key for the concepts we will explain in the following sections.   
+  -
+  -
     title: Principles relating to best practice
     theme: t-bg-primary
     copy: |
-      _This could be slides OR/AND a video - the slides to introduce each topic and then a video to go into more detail_
+      _This could be slides AND a video - the slides to introduce each topic and then a video to go into more detail_
     
-      Scroll through the slides below to learn more about ...
-
+      Scroll through the slides below.
     subInc: 
       type: slider
       title: 
@@ -44,7 +88,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter(s) with titles and tables/diagrams_
       
       ### Principles relating to best practice
 
@@ -57,7 +101,11 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        To help you with your assessment, take a look at the following website where you can see an example of the principles being used:
+        
+        [PLACEHOLDER WEBSITE](https://www.google.co.uk) 
+        
+        _Need a website to illustrate this_
 
   -
   -
@@ -71,20 +119,12 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter(s) with titles and examples?_
       
       ### SOLID principles
 
       Please see the following video on Solid principles.
     video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
   -
     title: Quick quiz
     copy: 
@@ -104,3 +144,14 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about solid principles:
+
+      links:
+        Solid design open closed principles: https://stackify.com/solid-design-open-closed-principle/ 
+  -

@@ -44,6 +44,16 @@ sections:
           text: |
             Testing is a fundamental process that helps to create reliable and usable software. It helps to check adaptability, identify errors, avoid future extra costs and risks and ultimately give confidence in the program.
           img: placeholder_icon.svg
+        -
+          title: title
+          text: |
+            paragraph 3
+          img: placeholder_icon.svg
+        -
+          title: title
+          text: |
+            paragraph 4
+          img: placeholder_icon.svg
   -
   -
     title: Key point
@@ -103,7 +113,7 @@ sections:
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: placeholder
     subInc: 
       type: word-quiz
       content:

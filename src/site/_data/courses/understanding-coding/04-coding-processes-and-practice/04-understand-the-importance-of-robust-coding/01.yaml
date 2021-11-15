@@ -1,5 +1,7 @@
 title: Understand the importance of robust coding
 intro: |
+  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
+  
   In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
 
 banner: placeholder.jpg
@@ -116,6 +118,17 @@ sections:
       copy: |
         Now you have watched the video and seen the code examples .....
 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _PLACEHOLDER - Presentation style - Interview_
+      
+      ### Interview? 
+
+    video: placeholder_pc.mp4
   -
   -
     title: On the web

@@ -1,5 +1,7 @@
 title: Steps and differences
 intro: |
+  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
+
   3.4 and 3.5
 banner: placeholder.jpg
 sections:
@@ -17,26 +19,26 @@ sections:
     title: Steps required
     theme: t-bg-primary
     copy: |
-      _Optional item depending on how much content there is_
+      _PLACEHOLDER ITEM on how much content there is_
     
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about the steps required.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Continuous integration
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Continuous delivery
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Continuous deployment
           text: |
             text
           img: placeholder_icon.svg
