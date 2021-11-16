@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Scrum
 intro: |
-  intro text
+  PLACEHOLDER PAGE tbd
 banner: placeholder.jpg
 sections:
   -
@@ -8,6 +8,17 @@ sections:
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to 
+  -
+  -
+    title: Scrum
+    theme: 
+    copy: |
+      _Could be an interactivity instead of a wide image_ 
+
+      Let’s look at this in more detail.
+            
+      ![](/images/banners/uc/placeholder.jpg)
+  -
   -
     title: introduction text
     layout: media
@@ -99,36 +110,6 @@ sections:
 
   -
   -
-    title: Code
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
@@ -138,16 +119,6 @@ sections:
       _Optional item depending on content_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web

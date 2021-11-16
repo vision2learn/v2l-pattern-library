@@ -1,0 +1,16 @@
+---js
+{
+  unit: 5,
+  session: 4,
+  pagination: {
+    data: "courses['understanding-coding']['05-project-management-and-communication']['04-Agile-developments']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->
