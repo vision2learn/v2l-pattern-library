@@ -62,7 +62,7 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: As individuals cyber crime can have serious financial implications
+          sentence: As individuals cyber crime can have serious financial implications.
           answer: financial
         -
           sentence: Companies can also enforce two-factor authentication for all their user accounts.
@@ -74,7 +74,7 @@ sections:
           sentence: Having 'up to date’ antimalware software and making sure all programs are up to date can help to keep systems secure.
           answer: antimalware
         -
-          sentence: Passwords should be long, complex, and original for each individual account
+          sentence: Passwords should be long, complex, and original for each individual account.
           answer: complex
         -
           sentence: To minimise insider attacks all data storage should be encrypted and software should be updated regularly to maintain security.
@@ -84,5 +84,5 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: If you suspect a cyber attack has taken place why is it important to report it as soon as possible? what will prompt reporting achieve? Make a note of your responses in the box to the right. 
+      copy: If you suspect a cyber attack has taken place why is it important to report it as soon as possible? What will prompt reporting achieve? Make a note of your responses in the box to the right. 
     theme: t-bg-primary3 i-think

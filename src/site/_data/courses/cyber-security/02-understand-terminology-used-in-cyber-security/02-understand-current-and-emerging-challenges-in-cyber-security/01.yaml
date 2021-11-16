@@ -15,7 +15,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+     Make sure that you understand and can describe current and emerging challenges in cyber security. 
   -
     title: Challenges
     theme: t-bg-primary
@@ -65,7 +65,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: what are the current challenges that are faced in cyber securirty? Make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
   -
     title: Emerging challenges
@@ -109,7 +109,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: what do you think are the current and emerging challenges in cyber security? make a note of your answer in the box to the right.
+      copy: what do you think are the emerging challenges in cyber security? make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
   -
     title: On the web
