@@ -14,7 +14,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter(s) with imagery_
       
       Please see the following video to learn more about active listening.
     video: placeholder_pc.mp4
@@ -36,7 +36,7 @@ sections:
     title: Methods of active listening
     theme: t-bg-primary
     copy: |
-      Select the images below.
+      So how can someone become an active listener?
 
     subInc: 
       type: reveal
