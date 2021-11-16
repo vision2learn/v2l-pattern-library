@@ -106,7 +106,7 @@
     <p>
       You've reached the end of this course.
     </p>
-  {%- elif partial === unit and site.env === 'dontnet' -%}
+  {%- elif partial === unit and session == sessionCount and site.env === 'dontnet' -%}
     <h2>Coming soon</h2>
     <p>
       The remaining units of this course are will be released soon.
