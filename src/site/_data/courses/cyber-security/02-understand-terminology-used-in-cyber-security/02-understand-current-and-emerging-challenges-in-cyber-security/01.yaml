@@ -15,7 +15,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+     Make sure that you understand and can describe current and emerging challenges in cyber security. 
   -
     title: Challenges
     theme: t-bg-primary
@@ -65,7 +65,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: what are the current challenges that are faced in cyber securirty? Make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
   -
     title: Emerging challenges
@@ -86,30 +86,30 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Cyber crime is the use of a computer or other digital device, and the internet to commit illegal acts.
-          answer: internet
+          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
+          answer: malware
         -
-          sentence: Cyber crime can affect individuals, businesses, organisations and governments.
-          answer: governments
+          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
+          answer: vulnerabilities
         -
-          sentence: Cyber crime is increasing all the time and becoming more complex.
-          answer: increasing
+          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
+          answer: Dark Web
         -
-          sentence: Cybercrime is not limited to a specific location making it difficult for security services to trace.
-          answer: location
+          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
+          answer: fake news
         -
-          sentence: The same skills used by the cyber criminals can also be used by the police to find them. 
-          answer: police
+          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
+          answer: Deepfakes
         -
-          sentence: Even if a cyber criminal is traced, geopolitical issues can mean it may still be impossible to bring them to justice.
-          answer: geopolitical
+          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
+          answer: drones
     theme: i-quiz
     
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: what do you think are the emerging challenges in cyber security? make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
   -
     title: On the web
