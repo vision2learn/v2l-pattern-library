@@ -1,21 +1,21 @@
-title: "Cyber security terminology and strategies"
+title: "Cyber security terminology"
 intro: |
   On this page you will learn about:
   * the main terminology used in cyber security
-banner: cs_u2_s1_p4_terminology_and_strategies.jpeg
+banner: cs_u2_s1_p4_terminology.jpg
 sections:
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      Make sure that you can define the term 'cyber crime' and understand the potential motivation to carry out cyber crime as you will be asked about this in your assessment.
+      Make sure that you understand the different terminology used in cyber security. 
   -
     title: Terminology
     theme: t-bg-primary
     copy: |
       
 
-      Vulnerability, Threat, Risk, Attack are major terms that you will often hear used in cyber security. Let’s have a look at these in more detail.
+      Vulnerability, threat, risk, attack are major terms that you will often hear used in cyber security. Let’s have a look at these in more detail.
 
 
   -
@@ -23,37 +23,40 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Terminology
+      ### Vulnerabilities and threats 
        
-    video: cs_u2_s1_p4_terminology.mp4
+    video: cs_u2_s1_p4_vulnerability_and_threats.mp4
   -      
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: Cyber crime is the use of a computer or other digital device, and the internet to commit illegal acts.
-          answer: internet
+          sentence: In terms of cybersecurity an example of a negative event is your computer being hacked.
+          answer: negative
         -
-          sentence: Cyber crime can affect individuals, businesses, organisations and governments.
-          answer: governments
+          sentence: A vulnerability is a weakness that can be exploited by cybercriminals to gain unauthorised access to a computer system.
+          answer: weakness
         -
-          sentence: Cyber crime is increasing all the time and becoming more complex.
-          answer: increasing
+          sentence: Having up-to-date antimalware software can help to cut down the threat and reduce vulnerability.
+          answer: antimalware
         -
-          sentence: Cybercrime is not limited to a specific location making it difficult for security services to trace.
-          answer: location
+          sentence: To work out any cybersecurity risk an organisation or company should assess their system vulnerabilities.
+          answer: vulnerabilities
         -
-          sentence: The same skills used by the cyber criminals can also be used by the police to find them. 
-          answer: police
+          sentence: By having a cyber security strategy in place an organisation can be prepared to act if an attack should happen but more importantly, be ready and protected from that attack.
+          answer: strategy
         -
-          sentence: Even if a cyber criminal is traced, geopolitical issues can mean it may still be impossible to bring them to justice.
-          answer: geopolitical
+          sentence: DRP's can provide instructions to follow in the event of an attack which in turn may minimise the severity.
+          answer: DRP's
     theme: i-quiz
     
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: Can you describe what the terms vulnerability, threat, risk and attack mean? make a note of your answer in the box to the right.
+    theme: t!
+
+  -
     
