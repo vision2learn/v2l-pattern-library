@@ -1,6 +1,8 @@
-title: TEMPLATE PAGE
+title: Agile developments
 intro: |
-  intro text
+  PLACEHOLDER PAGE
+
+  In this session you will learn about Agile developments, their advantages and disadvantages and what is meant by Scrum.
 banner: placeholder.jpg
 sections:
   -
@@ -8,14 +10,21 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-
+      * What is meant by an Agile development
+      * Key characteristics of an Agile development
+      * Advantages and disadvantages of an Agile development
+      * What is meant by Scrum
+      * The roles of: Product Owner, Scrum Master, Scrum team
+      * Different Scrum events
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * define what is meant by an Agile development
+      * identify the key characteristics of an Agile development
+      * identify the advantages and disadvantages of an Agile development
   -
     title: introduction text
     layout: media
@@ -107,36 +116,6 @@ sections:
 
   -
   -
-    title: Code
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
@@ -146,16 +125,6 @@ sections:
       _Optional item depending on content_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
   -
     title: On the web
