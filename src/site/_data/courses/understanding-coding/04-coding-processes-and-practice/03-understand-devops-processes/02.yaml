@@ -1,117 +1,13 @@
-title: Steps and differences
-intro: |
-  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
-
-  3.4 and 3.5
-banner: placeholder.jpg
+title: What did you learn? 
+intro: Well done, you’ve now completed the third session of this unit! 
+banner: ba-u1-s1-p6.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
+    title: Summary
+    theme: t-bg-primary i-summary
     copy: |
-      In your assessment you will be required to identify the steps required for:
-      * continuous integration
-      * continuous delivery
-      * continuous deployment.
-
-  -
-  -
-    title: Steps required
-    theme: t-bg-primary
-    copy: |
-      _PLACEHOLDER ITEM on how much content there is_
-    
-      Scroll through the slides below to learn more about the steps required.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Continuous integration
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Continuous delivery
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Continuous deployment
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to identify the differences between:
-      * continuous integration
-      * continuous delivery
-      * continuous deployment.
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-
-      ### Identify the differences
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+      In this session, you have learnt about:
+      * What is meant by continuous integration, continuous delivery and continuous deployment
+      * The steps required for continuous integration, continuous delivery and continuous deployment
+      * The differences between continuous integration, continuous delivery and continuous deployment
   
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

@@ -7,7 +7,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe what is meant by Scrum.
   -
   -
     title: Scrum
@@ -89,7 +89,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain the role of a Product Owner, Scrum Master, Scrum team.
   -
   -
     title: Watch 
@@ -98,8 +98,19 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on roles ???  and events or separate item???.
     video: placeholder_pc.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Interview_
+      
+      Please see the following interview with a member of a scrum team - Scrum master or team member?
+    video: placeholder_pc.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -108,6 +119,12 @@ sections:
       copy: |
         _LO or exercise - must relate to the video._
 
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe different Scrum events.
   -
   -
     title: Case study
