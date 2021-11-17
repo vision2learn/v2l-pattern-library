@@ -77,14 +77,20 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Bugs and debugging
+    theme: 
+    
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      Please see the below activity .... Bugs in code and Debugging.
+
+      _PLACEHOLDER - activity with an examples of bugs and debugging_
+
+    interactive: 
+      file: 
+      width: 800
+      height: 600
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think

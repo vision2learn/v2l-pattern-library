@@ -65,6 +65,16 @@ sections:
       * Explain the benefits of a test driven development
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on the importance of testing - 2.1 - 2.3.
+    video: placeholder_pc.mp4
+  -
+  -
     title: Methods of testing code   Code example - 2.3
     theme:
     copy: |

@@ -11,62 +11,61 @@ sections:
     copy: |
       In this session you will learn about:
       * What is meant by continuous integration, continuous delivery and continuous deployment
-      * The steps required for continuous integration, continuous delivery and continuous deployment
-      * The differences between continuous integration, continuous delivery and continuous deployment
+      * The **steps** required for continuous integration, continuous delivery and continuous deployment
+      * The **differences** between continuous integration, continuous delivery and continuous deployment
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to define what is meant by:
+      In your assessment you will be required to **define** what is meant by; identify the **differences** between; and identify the **steps** required for:
       * continuous integration
       * continuous delivery
-      * continuous deployment.
+      * continuous deployment
   -
-    title: Continuous integration
+  -
+    title: Continuous integration, delivery and deployment
+    theme: t-bg-primary
+    copy: |
+      _Introduction piece_
+    
+      Scroll through the slides below to learn more about the steps required.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Continuous integration
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Continuous delivery
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Continuous deployment
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: DevOps
     theme: 
+    
     copy: |
-      3.1 content and diagram
-      
-      Continuous Integration (CI) is a DevOps software development practice of the merging changes back to the main branch as often as possible. It put the emphasis on testing automation to check that the program is not broken. 
+      Please see the below activity ....
 
-      Let’s look at this in more detail.
-            
-      ![](/images/banners/uc/placeholder.jpg)
-  -
-  -
-    title: Continuous delivery
-    theme: t-bg-supporting3
-    copy: |
-      3.2 content and diagram
-      
-      Continuous Delivery (CD) is an extension of continuous integration as it automatically deploys all code changes to the testing or programming environment after the build stage.
+      _PLACEHOLDER - to be determined - to cover ALL Learning outcomes_
 
-      Let’s look at this in more detail.
-            
-      ![](/images/banners/uc/placeholder.jpg)
+    interactive: 
+      file: 
+      width: 1200
+      height: 900
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
-  -
-    title: Continuous deployment
-    theme: 
-    copy: |
-      3.3 content and diagram
-      
-      Continuous Deployment goes another step further and passes all stages of the production pipeline to customers. 
-
-      Let’s look at this in more detail.
-            
-      ![](/images/banners/uc/placeholder.jpg)
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _PLACEHOLDER ITEM - may not need.  Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -107,27 +106,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

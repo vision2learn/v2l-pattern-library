@@ -110,21 +110,25 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to describe what is meant by solid principles.
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: S O L I D  principles
+    theme: 
+    
     copy: |
-      _Presentation style - Presenter(s) with titles and examples?_
-      
-      ### SOLID principles
+      Please see the below activity which outlines the S O L I D principles.
 
-      Please see the following video on Solid principles.
-    video: placeholder_pc.mp4
+      _PLACEHOLDER - work in progress_
+
+    interactive: 
+      file: 
+      width: 800
+      height: 600
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
   -
     title: Quick quiz
     copy: 
