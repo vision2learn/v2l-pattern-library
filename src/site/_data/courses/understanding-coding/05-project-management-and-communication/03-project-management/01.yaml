@@ -24,34 +24,37 @@ sections:
     title: What is project management?
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
-
+      Project management involves the application of processes, skills, knowledge, and experience used together to achieve specific project objectives according to agreed guidelines and parameters which fit in with a specific timescale and budget. The skills that are often involved in project management are technical skills, people management skills and good business awareness. 
+      
+      Project management involves a project manager and a team around them to initiate and carry out the project according to the needs of the client or stakeholders.
+      
+      Project management can also be split into five key stages: 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Initiating
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Planning
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Executing
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 4 title
+          title: Monitoring and control
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 5 title
+          title: Closing
           text: |
             text
           img: placeholder_icon.svg
