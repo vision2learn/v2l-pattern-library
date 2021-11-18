@@ -7,31 +7,39 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify the principles of Lean project management.
   -
-    title: LEAN
+    title: What is Lean project management?
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Defining value
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Mapping the value stream
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Creating flow
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Using the pull system
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Pursuing perfection
           text: |
             text
           img: placeholder_icon.svg
@@ -50,7 +58,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify the principles of Waterfall project management.
   -
   -
     title: Waterfall
@@ -84,17 +92,17 @@ sections:
       type: reveal
       content:
         -
-          title: a
+          title: Scope
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Schedule
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: c
+          title: Cost
           copy: |
             text
           img: placeholder_icon.svg
