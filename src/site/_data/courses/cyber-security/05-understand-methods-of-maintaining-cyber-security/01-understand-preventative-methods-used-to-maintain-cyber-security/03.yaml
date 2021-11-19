@@ -46,16 +46,28 @@ sections:
     theme: t-bg-primary3 i-think
 
   -
-    title: Stretch - weblink
-    layout: media
-    theme: t-bg-primary2 i-stretch
+    title: Keeping up to date. 
+    theme: t-bg-primary1a
     copy: |
-      ###  Vulnerability database
+      So why why is it important to keep cyber security information and maintenance records accurate and up to date? 
 
-      A central database of known vulnerabilities is maintained by the American non-profit Mitre. When a vulnerability is discovered a CVE (Common Vulnerabilities and Exposures) number is assigned to it and published on their website
+      Lets have a look at what benefits this has.  
 
-    img: /images/svg/stretch_button.svg
-    link: https://www.cve.org/
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: accuracy
+          copy: |
+            Keeping accurate and up to date information and maintenance records on cyber security is essential in helping to understand how systems are being used and collecting logs and good logging practices are fundamental in protective monitoring. They can also be used if a breach happens to look at the impact of it.
+          img: placeholder_icon.svg
+        - 
+          title:  Breaches
+          copy: |
+            Being able to retroactively go back through audit logs of what a system and its users were doing is incredibly important especially during a breach. This helps to gain understanding on how far an attacker has managed to penetrate a system and subsequently contain and eradicate the attack. 
+            If the breach is substantial and a regulator such as the ICO becomes involved, it’s important to be able to demonstrate a clear understanding of what has happened and it’s impact so as to reduce any penalties that may be issued following a breach.
+
+          img: placeholder_icon.svg  
   -
 
   
