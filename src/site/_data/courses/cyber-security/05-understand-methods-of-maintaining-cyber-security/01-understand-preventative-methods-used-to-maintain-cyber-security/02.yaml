@@ -10,19 +10,58 @@ sections:
     copy: |
     
   -
-    title: Common and emerging threats to cyber security.
+    title: Maintaining cyber security.
     theme: t-bg-primary
     copy: |
-      As we all know the technology landscape is constantly changing and this is even more relevant to cybersecurity especially over the last year with the disruption caused by the pandemic. None of us could envisage what would happen to this extent and what the impact would be on our lives and for business, technology and cybersecurity. This has created so many opportunities for cyber criminals to develop new attacks and threaten our cyber security.
+      We all know by now how important it is to maintain our cyber security and, in this unit, you will look at some aspects of cyber security we have already touched upon in more depth.
 
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Threats
-      So as the threat landscape changes and new threats emerge, let's look at what we have to deal with today and what may come tomorrow in the field of cyber security.
+      ### Routine methods for maintaining cyber security    
     video: placeholder_pc.mp4
+  - 
+
+    title: Testing tools
+    theme: t-bg-primary
+    copy: |
+      One of the ways of keeping a system cyber secure is by means of vulnerability testing this involves a process of evaluating security risks in software systems to reduce the possibility of threats. A vulnerability can be with the hardware, operating system, the firmware or with a piece of software installed on a machine. 
+      
+      Vulnerability testing tools exist in a number of different models. Let’s look at some of the most common.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Scanning appliance
+          text: |
+            This is a device that sits within a network and scans all the other devices on that network reporting back any vulnerabilities that it finds. 
+            The downside of this model is that it requires the devices it’s scanning to be online when it runs its scheduled scan, which may not always be the case if a machine is turned off. 
+            Also, in a world where remote working is now more common, laptops may not always be connected to the same network.
+
+          img: placeholder_icon.svg
+        -
+          title: Agent Based
+          text: |
+            This requires the installation of an agent on the devices being scanned which collects information about the vulnerabilities it finds and sends these back to a central portal. 
+            The benefit of this deployment model is that because it is installed, it can collect a lot more useful information. 
+            The downside, however, is that the agent can increase the operational overhead on the CPU and the amount of data being sent back can increase the network traffic.
+
+          img: placeholder_icon.svg
+        -
+          title: Security researcher
+          text: |
+            Occasionally a vulnerability is discovered by a security researcher before the vendor of the software is aware of it. If that researcher chooses to publish the vulnerability to the public instead of the vendor before they’re aware and therefore able to patch it, this is referred to as a ‘zero-day’ because until the vendor is able to publish a patch for it, there is no known mitigation which is potentially very dangerous.
+          img: placeholder_icon.svg
+        -
+          title: Penetration testing
+          text: |
+            Penetration testing lives on a spectrum alongside vulnerability testing. Whilst vulnerability testing is an automated way of collecting details of the vulnerabilities, penetration testing takes it one step further with manual verification that those vulnerabilities can be exploited with a person acting as a criminal would and subsequently proving what damage could be done. Penetration testing should be done on systems at least annually or upon a significant change to the system. Because it requires human manual testing, it is more expensive than a technical vulnerability management solution. Therefore, it’s important to capture in the scope exactly which parts of a systems are the most likely to be targetted and would have the highest impact to the business should they be hacked.
+          img: placeholder_icon.svg
+        
   -    
   
     title: Time to think
@@ -30,42 +69,19 @@ sections:
       type: time-to-think
       copy: content to relate to video
     theme: t-bg-primary3 i-think
-  - 
 
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      One of the ways of keeping a system cyber secure is by means of vulnerability testing this involves a process of evaluating security risks in software systems to reduce the possibility of threats. 
-      Let's look at vulnerability testing in more detail.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: a
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: d
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          text: |
-            text
-          img: placeholder_icon.svg
   -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Vulnerability database
+
+      A central database of known vulnerabilities is maintained by the American non-profit Mitre. When a vulnerability is discovered a CVE (Common Vulnerabilities and Exposures) number is assigned to it and published on their website
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.cve.org/
+  -
+
+  
 
