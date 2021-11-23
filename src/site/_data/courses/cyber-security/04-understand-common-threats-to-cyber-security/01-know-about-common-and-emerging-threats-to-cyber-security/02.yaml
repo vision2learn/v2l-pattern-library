@@ -3,7 +3,7 @@ intro: |
   On this page you will learn about the following areas in relation to cyber security. 
   common and emerging threats to cyber security 
   
-banner: placeholder.jpg
+banner: cs_u4_s1_p2_emerging_threats.jpeg
 sections: 
   -
     title: Key point
@@ -21,7 +21,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Threats
+      ### Common Threats
       So as the threat landscape changes and new threats emerge, let's look at what we have to deal with today and what may come tomorrow in the field of cyber security.
     video: cs_u4_s1_p2_common_and_emerging.mp4
   -       
@@ -49,6 +49,14 @@ sections:
           answer: drones
     theme: i-quiz
     
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Effects on us all
+      The covid 19 pandemic has meant massive changes to the way we work. Lets have a look at some of the challenges that this has brought to cyber security.
+    video: cs_u4_s1_p2_effects_of_covid.mp4
   -    
   
     title: Time to think
