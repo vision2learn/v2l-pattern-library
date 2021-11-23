@@ -9,7 +9,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+      Make sure that you understand the common and emerging threats to cyber security.
   -
     title: Common and emerging threats to cyber security.
     theme: t-bg-primary
@@ -23,7 +23,32 @@ sections:
     copy: |
       ### Threats
       So as the threat landscape changes and new threats emerge, let's look at what we have to deal with today and what may come tomorrow in the field of cyber security.
-    video: placeholder_pc.mp4
+    video: cs_u4_s1_p2_common_and_emerging.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
+          answer: malware
+        -
+          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
+          answer: vulnerabilities
+        -
+          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
+          answer: Dark Web
+        -
+          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
+          answer: fake news
+        -
+          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
+          answer: Deepfakes
+        -
+          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
+          answer: drones
+    theme: i-quiz
+    
   -    
   
     title: Time to think

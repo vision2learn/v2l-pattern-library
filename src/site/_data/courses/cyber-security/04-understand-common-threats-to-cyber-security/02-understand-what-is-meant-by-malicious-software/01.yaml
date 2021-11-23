@@ -18,7 +18,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+      Make sure that you understand the different types of malicious software, how it can infect systems and removal methods.
   -
     title: So what is Malicious software?
     theme: t-bg-primary
@@ -39,44 +39,111 @@ sections:
           copy: |
            This is the most profitable and therefore the most popular. It installs itself onto a machine, encrypts the files and demands a ransom for the release, usually in bitcoin.
 
-          img: placeholder_icon.svg
+          img: cs_u4_s2_p1_reveal1.svg
         -
           title: Spyware
           copy: |
             Once installed spyware captures and transmits personal information and browsing habits. Users of spyware include criminals, as well as security organisations and other consumers as it can also be used to spy on employees, family members and to test and monitor communications in investigations.
-          img: placeholder_icon.svg
+          img: cs_u4_s2_p1_reveal2.svg
         -
           title: Trojans
           copy: |
             These pretend to be harmless applications tricking users into downloading them, where they then launch their attack, stealing data, spying or crashing systems.
-          img: placeholder_icon.svg
+          img: cs_u4_s2_p1_reveal3.svg
         -
           title: Worms
           copy: |
            Worms copy themselves from machine to machine exploiting weaknesses in software or operating systems. 
-          img: placeholder_icon.svg
+          img: cs_u4_s2_p1_reveal4.svg
         -
           title: Scareware
           copy: |
             Tricks individuals into thinking they have a virus or their system is infected to purchase and download a fake application.
-          img: placeholder_icon.svg
+          img: cs_u4_s2_p1_reveal5.svg
         -
           title: Adware
           copy: |
             Adware programs push unwanted adverts and pop ups at users. These usually accompany the use of software for free.
-          img: placeholder_icon.svg  
+          img: cs_u4_s2_p1_reveal6.svg  
   -
 
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Infection and removal
+      ### System infection
       So how does malicious software infect a system and what can be done to remove infections? lets have a look at this in more detail.
     video: placeholder_pc.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
+          answer: malware
+        -
+          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
+          answer: vulnerabilities
+        -
+          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
+          answer: Dark Web
+        -
+          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
+          answer: fake news
+        -
+          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
+          answer: Deepfakes
+        -
+          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
+          answer: drones
+    theme: i-quiz
+    
   -
     title: Time to think
     include: 
       type: time-to-think
       copy: content to relate to video
     theme: t-bg-primary3 i-think
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### System infection
+      So how does malicious software infect a system and what can be done to remove infections? lets have a look at this in more detail.
+    video: placeholder_pc.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
+          answer: malware
+        -
+          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
+          answer: vulnerabilities
+        -
+          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
+          answer: Dark Web
+        -
+          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
+          answer: fake news
+        -
+          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
+          answer: Deepfakes
+        -
+          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
+          answer: drones
+    theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+  -
+    
