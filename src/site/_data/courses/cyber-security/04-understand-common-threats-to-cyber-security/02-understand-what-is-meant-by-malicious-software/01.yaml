@@ -3,7 +3,7 @@ intro: |
   In this session you will learn about:
   In this session you will learn about malicious software what it is how it can infect your system and how you can remove it
 
-banner: placeholder.jpg
+banner: cs_u4_s2_p1_what_is_meant.jpeg
 sections:
   -
     title: Your learning goals
@@ -71,9 +71,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### System infection
-      So how does malicious software infect a system and what can be done to remove infections? lets have a look at this in more detail.
-    video: placeholder_pc.mp4
+      ### Malicious Sofware
+      So how does malicious software infect a system? lets take a look at the different ways that infections can occur.
+    video: cs_u4_s2_p1_malicious_software.mp4
   -       
     title: Quick quiz
     subInc: 
@@ -112,8 +112,8 @@ sections:
     layout: media
     copy: |
       ### System infection
-      So how does malicious software infect a system and what can be done to remove infections? lets have a look at this in more detail.
-    video: placeholder_pc.mp4
+      What can be done to remove infections? lets have a look at this in more detail.
+    video: cs_u4_s2_p1_system_infection.mp4
   -       
     title: Quick quiz
     subInc: 
