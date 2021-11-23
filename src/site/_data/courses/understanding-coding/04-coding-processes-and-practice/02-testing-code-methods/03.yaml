@@ -1,17 +1,84 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! 
-banner: ba-u1-s1-p6.jpg
+title: Test Driven Development
+intro: |
+  On this page you will learn about the characteristics and the benefits of a test driven development.
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * What is meant by testing code
-      * Why it is important to test code
-      * Methods of testing code
-      * Characteristics of a test driven development
-      * Benefits of a test driven development
-      * What is a bug in relation to code
-      * What is debugging
-  
+      In your assessment you will be required to:
+      * Describe the characteristics of a test driven development
+      * Explain the benefits of a test driven development
+  -
+  -
+    title: Test Driven Development PLACEHOLDER
+    theme: t-bg-supporting3
+    copy: |
+      So, what are the characteristics of a Test Driven Development or TDD. 
+
+      The Test Driven Development approach creates test cases to specify and validate what the code will do. Test cases for each function are created and tested first before the actual development of the application or program and if the test fails new code is written.
+
+      TDD is written around 3 main principles:
+      1.	Do not write any production code unless it is to make a failing unit test pass.
+      2.	Do not write any more of a unit test than is sufficient to fail.
+      3.	Do not write any more production code than is sufficient to pass the one failing unit test.
+
+      Since points 1 and 3 are both involve “refactoring” of code, this can be simplified to 2 points:
+      1.	Write only enough of a unit test to fail.
+      2.	Write only enough production code to make the failing unit test pass.
+
+      In TDD, the tests are written before the code, then refactored afterwards. 
+
+            
+      ![](/images/banners/uc/placeholder.jpg)
+  -
+  -
+    title: Benefits of a test driven development PLACEHOLDER
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      TDD constrains the complexity and effort which is put into the initial coding. This comes with several benefits:
+      * Reduces rework time
+      * Allows quick exploration of bugs and errors
+      * Makes it quick to get feedback
+      * Encourages cleaner program design
+      * Enhances productivity 
+      * Encourages knowledge sharing and collaboration as anyone should be able to make a start on any section of code.
+      * Allows programmers to easily change overarching program architecture 
+      * Results in the creation of extensive code that is flexible and easy to maintain
+      * Means that requirements in the design spec are addressed directly during implementation.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz

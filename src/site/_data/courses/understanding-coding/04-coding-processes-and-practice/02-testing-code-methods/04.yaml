@@ -1,0 +1,17 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the second session of this unit! 
+banner: ba-u1-s1-p6.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is meant by testing code
+      * Why it is important to test code
+      * Benefits of a test driven development
+      * What is a bug in relation to code
+      * What is debugging
+      * Methods of testing code
+      * Characteristics of a test driven development
+  

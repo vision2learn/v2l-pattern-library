@@ -1,8 +1,6 @@
 title: Understand the importance of robust coding
 intro: |
-  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
-  
-  In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
+    In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
 
 banner: placeholder.jpg
 sections:
@@ -19,7 +17,18 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _PLACEHOLDER - Presentation style - Interview_
+      _Presentation style - Presenter(s) with imagery and text titles_
+      
+      ### Intro
+
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Interview? Do we still need this here if we are having the introduction video above?_
       
       ### Interview - the importance of robust coding
 
@@ -37,9 +46,7 @@ sections:
     copy: |
       Exception Handling refers to the way a program handles exceptional circumstances and when an exception occurs the program doesn’t just crash.
       
-      text
-
-      code example in python
+      Please see the following code example in python
 
     subInc:
       type: code
