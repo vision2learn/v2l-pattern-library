@@ -86,23 +86,12 @@ sections:
         _LO or exercise - must relate to the video._
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study 
-
-      _Optional item - Possible for 1.4 Adapting Communication for Different Audiences - specific to a coding environment_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        _example here instead of case study_
 
         Please see the following website where you can learn more about . . .
 
