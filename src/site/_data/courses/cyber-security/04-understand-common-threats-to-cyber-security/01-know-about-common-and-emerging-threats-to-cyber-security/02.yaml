@@ -30,23 +30,23 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
-          answer: malware
+          sentence: The increased use of mobile devices to order food, book appointments, organise parcel deliveries, do our banking, purchasing goods and book medical tests and appointments has increased the risk of Phishing attacks.
+          answer: Phishing
         -
-          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
-          answer: vulnerabilities
+          sentence: A common example of vishing is when an employee would be called by someone posing as ‘IT Helpdesk’ asking them to install something on their computer which turns out to be malware
+          answer: vishing
         -
-          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
-          answer: Dark Web
+          sentence: Phishing covers a range of different social engineering attacks which trick victims into sharing sensitive information such as passwords, usernames, and credit card details for malicious reasons.
+          answer: social engineering
         -
-          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
-          answer: fake news
+          sentence: Attacks can be random or more sophisticated and targeted known as spear phishing.
+          answer: spear phishing
         -
-          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
-          answer: Deepfakes
+          sentence: A common example of smishing is a text pretending to be ‘Royal Mail’ saying there is an import charge for a fake parcel that requires payment. 
+          answer: smishing
         -
-          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
-          answer: drones
+          sentence: Other common threats come from 'water holing' a computer attack strategy where an attacker guesses or observes which websites an individual or organisation often uses, and they then affect them with malware.
+          answer: water holing
     theme: i-quiz
     
   -
@@ -62,5 +62,5 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: can you describe the current and emerging threats to cybersecurity? Do you have personal experience of any of the threats mentioned in the videos? make a note of your response in the box to the right. 
     theme: t-bg-primary3 i-think
