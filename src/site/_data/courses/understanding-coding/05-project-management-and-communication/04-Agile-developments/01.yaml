@@ -73,65 +73,23 @@ sections:
       * identify the advantages and disadvantages of an Agile development
   -
   -
-    title: Key characteristics
-    theme: t-bg-primary
+    title: Key characteristics, advantages, and disadvantages of Agile
+    theme: 
+    
     copy: |
-      _TBD - may swap with Reveals or include in video_
+      Please see the below activity which ....
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Iterative
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Frequency
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Motivated
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Collaboration
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Customer focus
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Flexible
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Supportive
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Reflective
-          text: |
-            One of the biggest benefits of working in Agile is ‘continuous improvement’, and in Scrum - the driver of improvement is the ‘Retrospective’.
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _TBD - may swap this with another item - Presentation style - Presenter(s) with imagery to support_
-      
-      Please see the following video on the advantage and disadvantages of an Agile development.
-    video: placeholder_pc.mp4
+      _include key characteristics, advantages and disadvantages - make items on the diagram clickable_
+
+      _Interative, frequency, motivated, collaborative, customer focused, flexible, supportive, refective_
+
+      _PLACEHOLDER - work in progress_
+
+    interactive: 
+      file: 
+      width: 800
+      height: 600
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
     title: Time to think
@@ -143,15 +101,14 @@ sections:
 
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+    title: Read - Agile Subway Map
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document which will give you an idea of the different practices that are 'Agile'.
 
-      _Optional item depending on content_
+      _Include website reference - https://www.agilealliance.org/agile101/subway-map-to-agile-practices/_
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      [Agile Subway Map]()
   -
   -
     title: Quick quiz

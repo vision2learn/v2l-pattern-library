@@ -27,28 +27,42 @@ sections:
     title: Continuous integration, delivery and deployment
     theme: t-bg-primary
     copy: |
-      _Introduction piece_
+      The DevOps process combines software development and IT operations. It consists of a set of principles and practices which aim to shorten the software development lifecyle whilst ensuring quality in the outcome.  In general, it consists of various working methodologies referred to as “toolchains” which encompass: 
+      * Coding 
+      * Building
+      * Testing
+      * Packaging
+      * Release
+      * Configuring 
+      * Monitoring 
+      
+      DevOps aims to be flexible and is complimentary to a style of working called Agile. (We will be looking at Agile later on in Unit 5). 
     
-      Scroll through the slides below to learn more about the steps required.
+      Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
+          title: Building and testing
+          text: |
+            For building and testing toolchains, DevOps uses continuous integration, and continuous testing, respectively, which have their basis in Agile workflow. Let’s have a look at DevOps processes and how they allow development teams to specify their pipeline flows, infrastructure and deployment settings.
+          img: placeholder_icon.svg
+        -
           title: Continuous integration
           text: |
-            text
+            Continuous Integration (CI) is a DevOps software development practice of the merging changes back to the main branch as often as possible. It put the emphasis on testing automation to check that the program is not broken.
           img: placeholder_icon.svg
         -
           title: Continuous delivery
           text: |
-            text
+            Continuous Delivery (CD) is an extension of continuous integration as it automatically deploys all code changes to the testing or programming environment after the build stage. 
           img: placeholder_icon.svg
         -
           title: Continuous deployment
           text: |
-            text
+            Continuous Deployment goes another step further and passes all stages of the production pipeline to customers. 
           img: placeholder_icon.svg
   -
   -
