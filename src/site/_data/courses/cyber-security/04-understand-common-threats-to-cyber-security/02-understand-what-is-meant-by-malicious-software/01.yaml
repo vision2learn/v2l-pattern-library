@@ -74,36 +74,11 @@ sections:
       ### Malicious Sofware
       So how does malicious software infect a system? lets take a look at the different ways that infections can occur.
     video: cs_u4_s2_p1_malicious_software.mp4
-  -       
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
-          answer: malware
-        -
-          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
-          answer: vulnerabilities
-        -
-          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
-          answer: Dark Web
-        -
-          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
-          answer: fake news
-        -
-          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
-          answer: Deepfakes
-        -
-          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
-          answer: drones
-    theme: i-quiz
-    
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: Can you explain the different types of malicious software? Have you had personal experience of malicious software infecting your own system either at home or at work? make a note of your answer in the box to the right. 
     theme: t-bg-primary3 i-think
   -
 
@@ -120,30 +95,30 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
-          answer: malware
+          sentence: With the large amount of malware out there it will inevitably penetrate and infect a system especially a vulnerable system
+          answer: vulnerable
         -
-          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
-          answer: vulnerabilities
+          sentence: Keep all devices secure and don't download anything from any dodgy sites or click on any unknown links on unreliable emails
+          answer: secure
         -
-          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
-          answer: Dark Web
+          sentence: It is possible to remove malware, by running a scan using the security software installed on the device or system.
+          answer: security software
         -
-          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
-          answer: fake news
+          sentence: The first step in incident response if you are concerned that a device or system may be infected is containment. 
+          answer: containment
         -
-          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
-          answer: Deepfakes
+          sentence: Opening a system in safe mode allows only the minimum software and programs to load 
+          answer: safe mode
         -
-          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
-          answer: drones
+          sentence: Check activity monitors for malicious applications especially if a suspicious update or application has been installed
+          answer: suspicious
     theme: i-quiz
     
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: In the box to the right, Identify the different ways that malicious software can infect a system.
     theme: t-bg-primary3 i-think
   -
     
