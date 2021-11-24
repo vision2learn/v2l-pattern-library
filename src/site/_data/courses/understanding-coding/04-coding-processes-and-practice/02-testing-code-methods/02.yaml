@@ -1,126 +1,87 @@
 title: Bugs in code and debugging
 intro: |
-  _PLACEHOLDER PAGE - to be decided from Draft 1_
+  On this page you will learn about bugs in code and debugging.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to:
-      * Identify what is meant by a bug in relation to code
-      * Describe what is meant by debugging
+      In your assessment you will be required to identify what is meant by a bug in relation to code.
   -
     title: Bugs in Code
-    layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      Developers will write unit tests for their code to make sure it works correctly, and this can help to prevent against bugs. Software bugs are errors or flaws in computer programs or systems. 
       
-      _Awaiting on further sme content_
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
+      So what exactly is meant by bugs in relation to code?
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Syntax error
           copy: |
-            text
+            This is when the syntax is incorrect, such as missing end of line characters/indents, unrecognised characters or variable names, or incorrect case sensitivity.
           img: placeholder_icon.svg
         -
-          title: b
+          title: Runtime errors
           copy: |
-            text
+            Runtime errors occur when a program is run or executed. They can be caused by problems such as infinite loops, memory leaks, or corrupt files.
           img: placeholder_icon.svg
         -
-          title: c
+          title: Semantic (also known as logic errors)
           copy: |
-            text
+            These occur when no error message is created, but the functionality is not what the programmer intended. For example, when datatypes are not converted correctly (such as float to int), or inadvertently using a function name as a variable name.
           img: placeholder_icon.svg
+        -
+          title: Compilation
+          copy: |
+            This is when there is an error for the building the machine code for the program, most commonly caused by basic syntax errors.
+          img: placeholder_icon.svg
+    copy2: When there is a bug in the code, this can cause the program to crash, function incorrectly, or become non-functional.
   -
   -
-    title: slider
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe what is meant by debugging.
+  -
+  -
+    title: What exactly is meant by Debugging? PLACEHOLDER
+    layout: media
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Debugging and testing are process which occur hand in hand. Testing aims to identify what happens when there are errors in the code. Debugging aims to locate and rectify mistakes.
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Bugs and debugging
-    theme: 
-    
-    copy: |
-      Please see the below activity .... Bugs in code and Debugging.
+      Often tests are written to identify bugs as the program is written. One way to do this is by writing **unit tests**. A unit test is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small, the test can be run fast. Specific test are written to test whether a unit is functioning as it should. 
 
-      _PLACEHOLDER - activity with an examples of bugs and debugging_
+      This allows developers to write a test script, which is essentially a piece of code separate to the main program that runs a specific test for each unit in the main program. Each unit is tested to see if it runs as expected based on criteria, and summarises this in a report. 
 
-    interactive: 
-      file: 
-      width: 800
-      height: 600
-      composition: 1A9338FEE8584755AB48BB991EF417A3
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+      Each time the program is updated, the test script will be run to ensure that all units are functioning correctly. This helps to debug the whole program as new units are added.
 
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: Code
     theme:
     copy: |
-      text
-
-      lang is either js, python, or cpp
+      The Python code below shows a simple function (lines 4-7), and an example of where unit testing is used to debug a program.
     subInc:
       type: code
-      lang: js
+      lang: py
       highlight: 
       code: |
-        let x = () => console.log('hello');
+        """Python code to show examples of a unit"""
 
-        myFunction() {
-          return true;
-        }
+        # Here we define a function to multiply two input values then return the answer.
+
+        # CODE HERE
+
     copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
+      The output is seen at the bottom, below line 23. 
+      The first test resulted in the output 8.
+      The second test gave us the output ‘goatgoat’. 
+      This second test gives us the example of a semantic error, as the program continues to run, but not in the way that we intended. If we wanted to make sure to make sure that the answer was always an integer, a unit test could report this when the multiply_values function gave us an output we did not expect.
   -
   -
     title: Time to practice

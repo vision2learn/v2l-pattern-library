@@ -4,6 +4,17 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
+  -
+    title: Introduction
+    theme: t-bg-primary
+    copy: |
+      Best practices in programming are achieved by using a variety of principles, which may initially seem tedious and time consuming but may be advantageous long term. 
+      
+      Collectively, we refer to these practices as Devops which combines software development (Dev) and IT operations (Ops). Cluttered code can cause problems when it is further extended so this is why there are rules for writing good code. 
+      
+      Let’s have a look at this in more detail.
+  -
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -35,28 +46,6 @@ sections:
     theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to give examples of the disadvantages of writing complicated code.
-  -
-  -
-    title: Code example - good vs bad code
-    theme:
-    copy: |
-      introduction text here
-
-      Placeholder at the moment
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
   -
   -
     title: Watch 

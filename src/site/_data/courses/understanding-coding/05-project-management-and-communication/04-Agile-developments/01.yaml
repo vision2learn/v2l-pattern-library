@@ -1,8 +1,6 @@
 title: Agile developments
 intro: |
-  PLACEHOLDER PAGE
-
-  In this session you will learn about Agile developments, their advantages and disadvantages and what is meant by Scrum.
+  In this session you will learn about Agile developments, their advantages and disadvantages and the Scrum framework.  On this page we will take a closer look at Agile development.
 banner: placeholder.jpg
 sections:
   -
@@ -26,86 +24,115 @@ sections:
       * identify the key characteristics of an Agile development
       * identify the advantages and disadvantages of an Agile development
   -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
+  -
+    title: Agile development
+    theme: 
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      Agile is an iterative, people-oriented and result-focused way of working when delivering software products. The software is built incrementally in time-boxed 'sprints'.
+            
+      ![](/images/banners/uc/placeholder.jpg)
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
+      _This will be the Agile diagram_
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter(s) with the above diagram, words and below webpages about the Manifesto and the 12 principles_
       
-      Please see the following video on .
+      Please see the following video on Agile development.
     video: placeholder_pc.mp4
+  -
+  -
+    title: Read - Agile Manifesto and the 12 principles
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document which gives the full details of the Agile Manifesto and the 12 principles:
+
+      [Agile Manifesto and the 12 principles]()
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites which references the Agile Manifesto and the 12 principles based on the Agile Manifesto.
+
+      links:
+        The Agile Manifesto: https://agilemanifesto.org/
+        The Agile 12 Principles: https://www.agilemanifesto.org/principles.html
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * identify the key characteristics of an Agile development
+      * identify the advantages and disadvantages of an Agile development
+  -
+  -
+    title: Key characteristics
+    theme: t-bg-primary
+    copy: |
+      _TBD - may swap with Reveals or include in video_
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Iterative
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Frequency
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Motivated
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Collaboration
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Customer focus
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Flexible
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Supportive
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Reflective
+          text: |
+            One of the biggest benefits of working in Agile is ‘continuous improvement’, and in Scrum - the driver of improvement is the ‘Retrospective’.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _TBD - may swap this with another item - Presentation style - Presenter(s) with imagery to support_
+      
+      Please see the following video on the advantage and disadvantages of an Agile development.
+    video: placeholder_pc.mp4
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -127,18 +154,6 @@ sections:
     img: /images/svg/ypmh/placeholder_icon.svg
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
     subInc: 
@@ -157,27 +172,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
