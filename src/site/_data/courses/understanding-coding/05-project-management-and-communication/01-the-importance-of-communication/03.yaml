@@ -14,7 +14,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with imagery_
+      _Presentation style - Presenter(s) with imagery and certain words as text - marked bold in script_
+      
+      ### Active listening
       
       Please see the following video to learn more about active listening.
     video: placeholder_pc.mp4

@@ -15,8 +15,12 @@ sections:
     layout: media
     copy: |
       _Presentation style - Presenters with images to illustrate examples (e.g. back button), diagrams, and text_
+
+      ### Stacks, Queues and Lists
+
+      Storage can be organised in computers by means of Data structures so that data can be accessed quickly and changed. Stacks and queues are some of the earliest data structures defined in computer science and these are often associated with lists.
       
-      Please see the following video on stacks, queues, and lists.
+      Please see the following video to learn more about stacks, queues, and lists.
     video: placeholder_pc.mp4
   -
   -

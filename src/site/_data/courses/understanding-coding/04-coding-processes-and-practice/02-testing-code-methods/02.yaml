@@ -47,19 +47,16 @@ sections:
       In your assessment you will be required to describe what is meant by debugging.
   -
   -
-    title: What exactly is meant by Debugging? PLACEHOLDER
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      Debugging and testing are process which occur hand in hand. Testing aims to identify what happens when there are errors in the code. Debugging aims to locate and rectify mistakes.
+      _Presentation style - Presenter with text to emphasise certain points - marked in bold in script_
 
-      Often tests are written to identify bugs as the program is written. One way to do this is by writing **unit tests**. A unit test is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small, the test can be run fast. Specific test are written to test whether a unit is functioning as it should. 
-
-      This allows developers to write a test script, which is essentially a piece of code separate to the main program that runs a specific test for each unit in the main program. Each unit is tested to see if it runs as expected based on criteria, and summarises this in a report. 
-
-      Each time the program is updated, the test script will be run to ensure that all units are functioning correctly. This helps to debug the whole program as new units are added.
-
-    img: /images/svg/placeholder_icon.svg
+      ### Debugging
+      
+      Please see the following video about debugging.
+    video: placeholder_pc.mp4
   -
   -
     title: Code
