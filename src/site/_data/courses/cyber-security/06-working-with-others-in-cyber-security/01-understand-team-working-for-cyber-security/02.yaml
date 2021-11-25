@@ -10,6 +10,11 @@ intro: |
 banner: cs_s6_s1_p2_team working.jpeg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand what is meant by network traffic and the advantages and disadvantages of using a firewall to protect from threats.
+  -
   
     title: Team Dynamics
     theme: t-bg-primary1a
