@@ -71,6 +71,8 @@ sections:
     layout: media
     copy: |
       _Presentation style - Presenter with imagery to support_
+
+      ### The role of the project manager
       
       Please see the following video on the role of the project manager.
     video: placeholder_pc.mp4
@@ -80,7 +82,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Interview with a Project Manager_
+      ### Interview with a project manager
       
       Please see the following interview with a project manager.
     video: placeholder_pc.mp4
