@@ -23,11 +23,11 @@ sections:
     title: So what is Malicious software?
     theme: t-bg-primary
     copy: |
-      We hear the term malicious software all the time but what exactly is it what does it do, how do we protect ourselves from it and how can we get rid of it when we have it in our systems?
+      We hear the term malicious software all the time but what exactly is it, what does it do, how do we protect ourselves from it and how can we get rid of it when we have it in our systems?
       
       Malicious software or malware is any software that is designed for the purposes of intentionally causing damage or exploiting any programmable device, computer, service, network, or system.  
 
-      Malicious software can include Viruses, Ransomware, Spyware,Trojans, Worms, Scareware, Adware. Some of these have already been mentioned in previous units but let's refresh our memories on what they involve.
+      Malicious software can include Viruses, Ransomware, Spyware,Trojans, Worms, Scareware and Adware. Some of these have already been mentioned in previous units but let's refresh our memories on what they involve.
 
       Select the images below to read 
 
@@ -72,7 +72,7 @@ sections:
     layout: media
     copy: |
       ### Malicious Sofware
-      So how does malicious software infect a system? lets take a look at the different ways that infections can occur.
+      So how does malicious software infect a system? Lets take a look at the different ways that infections can occur.
     video: cs_u4_s2_p1_malicious_software.mp4
   -
     title: Time to think
