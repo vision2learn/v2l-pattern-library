@@ -21,7 +21,7 @@ sections:
 
     subInc:
       type: code
-      lang: py
+      lang: python
       highlight: 
       code: |
         # A dictionary is an example of a type of a collection in Python
