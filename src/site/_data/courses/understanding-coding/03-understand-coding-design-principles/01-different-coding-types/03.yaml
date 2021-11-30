@@ -1,6 +1,6 @@
 title: Coding types
 intro: |
-  On this page you will learn about functional coding, object-orientated coding, and other coding types.
+  On this page you will learn about functional coding, object-orientated coding, and other coding types.  This page gives examples of some new programming paradigms with their key features and whether or not they follow a mainly imperative or declarative paradigm.
 banner: uc_u3_s1_p3_coding_types.jpg
 sections:
   -
@@ -25,7 +25,7 @@ sections:
         -
           title: Functional coding
           text: |
-            A type of declarative paradigm composed of pure functions (we come to this later).
+            A type of declarative paradigm composed of functions which have no effect on variables which are not part of the function. 
 
             As a declarative language, it focuses on “what to solve” rather than the imperative “how to solve”, through the use of expressions, rather than statements.
             

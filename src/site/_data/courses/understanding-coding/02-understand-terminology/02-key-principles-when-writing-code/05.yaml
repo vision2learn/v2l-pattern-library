@@ -14,17 +14,11 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Whilst iterations can be fast, they can also require a lot of code. Alternatively, we can use recursion, which can simplify code. 
-      
-      Recursion in programming is the process of solving complex problems by breaking them down into simpler ones or smaller instances of the same problem, until we reach a base. 
-      
-      Recursions occur when a function, module or an entity calls back to itself and is often controlled by external parameters within a stack or queue. 
-      
-      Recursive constructs are used in several algorithms and most programming languages implement recursion by allowing a function to call itself. A recursion ends when the _Base State_ becomes true as per the definition put in place, but if incorrectly defined can lead to an infinite loop that may cause the stack or queue to overflow and can crash the system as it balloons out of control. 
-      
-      Recursion due to its nature however is smaller in terms of amounts of code, though due to the process is slower in execution.
+      Recursion is when an entity such as a function calls back to itself. It is often controlled externally through means such as iterations in a list.
 
+      Recursion used to solve complex problems by breaking them down into simpler ones or smaller instances of the same problem, until we reach a defined base state. 
 
+      It is often used as an alternative to iteration which can be written through simpler, though not always as computationally efficient, code.
     img: /images/svg/placeholder_icon.svg
   -
   -
@@ -33,9 +27,11 @@ sections:
     copy: |      
       Here is a recursive function in Python. The function will take a list of integers and a threshold. 
       
-      If the sum of the list of integers is larger than the threshold, the list is shortened by one value (the first value – an example of First In First Out). 
+      If the sum of the list of integers is larger than the threshold, the list is shortened by one value (the first value – an example of First In First Out). It then calls itself (this is the recursion) until the base state is reached. 
       
-      It then calls itself (this is the recursion) until the base state is reached. We have 2 criteria here for the base state: either (1) there are only 2 values in the remaining list, or (2) the sum of the remaining values in the list is less than the threshold. 
+      We have 2 criteria here for the base state: either 
+      1. there are only 2 values in the remaining list, or 
+      2. the sum of the remaining values in the list is less than the threshold. 
       
       You can try changing the threshold or the list indexes to get different answers.
 
@@ -89,6 +85,8 @@ sections:
         List: [7, 3, 2]
         List sum: 12
         [Finished in 216ms]
+    copy2: |
+      Recursive constructs are often used in algorithms and most programming languages implement recursion by allowing a function to call itself. However, if the base state is incorrectly defined, infinite loops can occur that may cause can crash the system as it balloons out of control.
   -
   -
     title: Time to practice
