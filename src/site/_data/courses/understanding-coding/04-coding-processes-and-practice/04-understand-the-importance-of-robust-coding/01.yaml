@@ -50,7 +50,7 @@ sections:
 
     subInc:
       type: code
-      lang: py
+      lang: python
       highlight: 
       code: |
         code

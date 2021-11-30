@@ -5,14 +5,34 @@ banner: uc_u3_s2_p1_compiled_interpreted.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
       * Compiled code 
       * Interpreted code 
       * Principles of compiled code and interpreted code 
-      * Advantages and disadvantages of compiled code and interpreted code 
+      * Advantages and disadvantages of compiled code and interpreted code
+  -
+    title: Source code and Machine code
+    theme: t-bg-primary
+    copy: |
+      To understand this session, we first need to understand what machine code and source code are.
 
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Source code
+          text: |
+            Source code is human-readable text written in a specific programming language. This is the part the human interacts with and uses to generate a program. It is composed of a set of functions and syntax rules that the user can enter in the main language to get it to do something. The code sections in Unit 2 are examples of source code.
+          img: placeholder_icon.svg
+        -
+          title: Machine code
+          text: |
+            Machine code is binary (1's and 0's) code that can be executed directly by the CPU. This is not edited directly by the programmer and the source code of a program must be translated to machine code to control the hardware. To a human, it might look a bit like the green text in the film “the Matrix”.
+          img: placeholder_icon.svg
+  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -21,27 +41,25 @@ sections:
       * compiled code, and
       * interpreted code.
   -
+  -
     title: What is meant by compiled code and interpreted code?
     theme: t-bg-primary
     copy: |
-      For a program to execute successfully, the human readable code (the source code), which has been written by the programmer, must be translated into commands that are directly executable by the hardware (machine code). This can occur in different ways depending on the language, broadly through compilers or interpreters. 
+      For a program to run (execute) successfully, the human readable code which has been written by the programmer (the source code) must be translated into commands that are directly executable by the hardware (machine code). This can occur in different ways depending on the language. The main way this happens is through programs called compilers or interpreters, which do this in different ways. 
 
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Compiled code
-          copy: |
-            Compiled code is source code that has been processed by a compiler.  This process turns it into a self-contained executable program which defines the machine code.
+      ### Compiled code
 
-          img: placeholder_icon.svg
-        -
-          title: Interpreted code
-          copy: |
-            Interpreted code is source code that effectively gets translated into machine code line-by-line.  
+      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code. 
+         
+      ![](/images/banners/uc/placeholder.jpg)
+
+      ### Interpreted code
+
+      Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter. 
             
-            The program executes the code (line-by-line) through a intermediate program called an interpreter. 
-          img: placeholder_icon.svg
+      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation.
+
+      _This will be a diagram illustrating the above - example on https://cs.stackexchange.com/questions/56478/jit-aot-interpretation-what-are-differences-between-them_
   -
   -
     title: Key point

@@ -65,7 +65,7 @@ sections:
       The Python code below shows a simple function (lines 4-7), and an example of where unit testing is used to debug a program.
     subInc:
       type: code
-      lang: py
+      lang: python
       highlight: 
       code: |
         """Python code to show examples of a unit"""
