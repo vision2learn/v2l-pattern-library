@@ -1,7 +1,7 @@
 title: Know about different coding types
 intro: |
   In this session you will learn about the different coding types, on this page we will take a look at imperative and declarative coding.
-banner: uc_u3_s1_p2_different_coding_types.jpg
+banner: uc_u3_s1_p2_different_coding_c.jpg
 sections:
   -
     title: Key point
@@ -42,7 +42,7 @@ sections:
           text: |
             In Declarative programming, the focus is on WHAT the desired result is that is needed from the computer. 
             
-            The source code is more abstracted from the underlying operations than with imperative coding. 
+            Rather than describing the underlying operations, the source code of declarative languages read more like human language where top-level instructions are given. 
             
             To get a solution, the program will automatically identify and apply suitable methods which are written into the language, in order to achieve the result expressed by the declarative code.
           img: uc_u3_s1_p2_slide2.svg
