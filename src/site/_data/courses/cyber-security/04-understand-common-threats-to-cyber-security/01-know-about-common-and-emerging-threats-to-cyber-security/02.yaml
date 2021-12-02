@@ -33,7 +33,7 @@ sections:
           sentence: The increased use of mobile devices to order food, book appointments, organise parcel deliveries, do our banking, purchasing goods and book medical tests and appointments has increased the risk of Phishing attacks.
           answer: Phishing
         -
-          sentence: A common example of vishing is when an employee would be called by someone posing as ‘IT Helpdesk’ asking them to install something on their computer which turns out to be malware
+          sentence: A common example of vishing is when an employee would be called by someone posing as ‘IT Helpdesk’ asking them to install something on their computer which turns out to be malware.
           answer: vishing
         -
           sentence: Phishing covers a range of different social engineering attacks which trick victims into sharing sensitive information such as passwords, usernames, and credit card details for malicious reasons.
@@ -62,5 +62,16 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: can you describe the current and emerging threats to cybersecurity? Do you have personal experience of any of the threats mentioned in the videos? Make a note of your response in the box to the right. 
+      copy: Can you describe the current and emerging threats to cybersecurity? Do you have personal experience of any of the threats mentioned in the videos? Make a note of your response in the box to the right. 
     theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the latest trends in cybersecurity . . .
+
+      links:
+        Top cyber threats: https://www.checkpoint.com/cyber-hub/cyber-security/what-is-cybersecurity/biggest-cyber-security-challenges-in-2021/     
+    

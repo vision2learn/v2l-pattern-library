@@ -1,6 +1,6 @@
-title: "Understand the need for cyber security"
+title: "Understand the use of interpersonal skills for working in cyber security "
 intro: |
-  In this session, you will learn about the need for cyber security and the impact of cyber crime:
+  In this session you will learn about interpersonal skills and how they are used when working in cyber security
 banner: cs_u6_s2_p1_understand_the_needs.jpeg
 sections:
   -
@@ -9,8 +9,92 @@ sections:
     copy: |
       By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
     
-      1. Understand the most common vulnerabilities of cyber crime
-      2. understand the impact of cyber crime
-      3. The importance of cyber security
-      4. Understand why cyber security issues should be reported promptly
+      1. The range of interpersonal skills used when working in cyber security
+      2. When different interpersonal skills might be used
+      3. How working with others within an organisation can support cyber security
+     
   -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand the key interpersonal skills required when working in cyber security.
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### What interpersonal skills are used when working in cyber security?
+      There is a skills shortage in cyber security, and this is not only focused on specialised technical skills it also related to what are called soft skills such as interpersonal skills. 
+
+      Lets take a look the skills required.
+    video: cs_u6_s1_p2_teamwork.mp4
+  - 
+    title: Key skills
+    theme: t-bg-primary
+    copy: |
+      As you have just seen in the video, there are a range of different interpersonal skills required when wokring in cyber security. 
+      
+      Scroll through the slides below to see why these skills are important.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Good verbal and non-verbal communication abilities 
+          text: |
+            Being able to communicate the risk associated with technical security issues to non-technical people for example during an incident you may have to explain what’s happened to stakeholders who don’t have the baseline technical knowledge
+          img: placeholder_icon.svg
+        -
+          title: Ability to question others and give information in response to questioning.
+          text: |
+            When investigating an incident other staff members may need to be questioned about things that have happened and informed of the consequences related to actions. Being able to use open questions effectively to get answers to the things is really important to conduct a thorough investigation.
+          img: placeholder_icon.svg
+        -
+          title: Putting their own views across clearly and appropriately.
+          text: |
+            In cyber security, professionals will often have to argue the case as to why a specific remediation is necessary to those who don’t see the need. This may involve a costly outlay for tooling or bringing in more staff. The cyber security professional therefore has to explain why it’s a good investment clearly and appropriately.
+          img: placeholder_icon.svg
+        -
+          title: Being self-aware 
+          text: |
+            When addressing incidents and issues, cyber security professionals must be able to examine their own actions and subconscious biases. Whilst investigating an incident certain theories of what might have happened should always be backed up by evidence that it did.  This will help in making sure all key elements are checked and nothing is missed or ignored by being objective with the facts.
+          img: placeholder_icon.svg
+        -
+          title: Having empathy
+          text: |
+            Cyber security incident’s can be very stressful for everyone involved, therefore being empathetic for your co-workers is extremely important and making them aware of any consequences from actions and how to address these.
+          img: placeholder_icon.svg
+        
+  -      
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Working with others in a team can increase creativity.
+          answer: creativity
+        -
+          sentence: Productivity can therefore improve as more ideas can be developed and collaboration can increase.
+          answer: Productivity
+        -
+          sentence: Working alone an increase a person’s independence and help an individual to make their own decisions.
+          answer: independence
+        -
+          sentence: A strong team should have a good team ethic which in turn makes it successful. Successful teams have members with a range of individual strengths and qualities.
+          answer: ethic
+        -
+          sentence: Strong and responsible leadership is one of the key aspects of maintaining a successful team.
+          answer: leadership
+        -
+          sentence: A diverse range of team members can also bring an extra dimension to a team.
+          answer: diverse
+    theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: relate to content on pa
+    theme: t-bg-primary3 i-think

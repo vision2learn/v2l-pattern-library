@@ -13,7 +13,7 @@ sections:
     layout: media
     copy: |
       ### conflict resolution
-      Lets take a look at how conflicts withn a team can be resolved
+      So, what happens when a team isn’t functioning effectively, and conflict becomes evident. Let’s look at ways to resolve conflict within a team.
     video: cs_u6_s1_p3_resolving_conflicts.mp4
   -
     title: Time to think
@@ -27,46 +27,38 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Statutory employment rights address the legal rights of every employee in the country
-          answer: Statutory
+          sentence: Even in the most efficient well-run companies, teams can be affected by conflict.
+          answer: conflict
         -
-          sentence: Many small businesses provide their employees with access to a stakeholder pension scheme
-          answer: stakeholder
+          sentence: Using an intermediary or trusted third party that both sides can have faith in, can help with resolving conflict by being fair and impartial and identifying the issues.
+          answer: intermediary
         -
-          sentence: The Equality Act 2010 protects women from being paid less than men for doing the same job
-          answer: Equality Act 2010
+          sentence: Dominant individuals should not be allowed to bully more reserved members of the team, and everyone should be able to have their say.
+          answer: Dominant
         -
-          sentence: The Working Time Regulations provide employees with the right to paid annual leave
-          answer: annual leave
+          sentence: Conflict should be addressed before it gets out of hand, and this can be done using proactive strategies
+          answer: proactive
         -
-          sentence: The Data Protection Act 2018 restricts the use of personal data an organisation can hold about someone
-          answer: personal data
-        -
-          sentence: The GDPR is a ruling intended to protect the data of citizens within the European Union.
-          answer: GDPR
-    theme: i-quiz
-    
+          sentence: By airing the grievances that may have started the conflict, things can be resolved quite amicably to suit all parties.
+          answer: grievances
+    theme: i-quiz 
   -
-    title: The importance of reviewing work activities 
+  
+    title: Key requirements
+    layout: media
     theme: t-bg-primary1a
     copy: |
-      Working as part of a team whatever the industry can be both rewarding and challenging as every team member needs to feel valued and part of the group. So how can reviewing work activities support effective teamwork especially in a cyber security setting. 
+      ### So how can reviewing work activities can support effective teamwork?
 
-      Lets have a look at what benefits this has.  
+      Working as part of a team whatever the industry can be both rewarding and challenging as every team member needs to feel valued and part of the group. So how can reviewing work activities support effective teamwork especially in a cyber security setting.
 
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: accuracy
-          copy: |
-            Keeping accurate and up to date information and maintenance records on cyber security is essential in helping to understand how systems are being used and collecting logs and good logging practices are fundamental in protective monitoring. They can also be used if a breach happens to look at the impact of it.
-          img: placeholder_icon.svg
-        - 
-          title:  Breaches
-          copy: |
-            Being able to retroactively go back through audit logs of what a system and its users were doing is incredibly important especially during a breach. This helps to gain understanding on how far an attacker has managed to penetrate a system and subsequently contain and eradicate the attack. 
-            If the breach is substantial and a regulator such as the ICO becomes involved, it’s important to be able to demonstrate a clear understanding of what has happened and it’s impact so as to reduce any penalties that may be issued following a breach.
+      Reviewing should be a valued and memorable experience. It should involve finding a way of learning from the experience and using those findings to become more dynamic and productive. Whatever an individual’s role is within the team reviewing work activities should be able to support effective teamwork by helping others to learn from the experience.
 
-          img: placeholder_icon.svg  
+    img: /images/svg/placeholder_icon.svg 
+  -  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
   -
