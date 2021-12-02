@@ -4,19 +4,42 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
+  -
+    title: Introduction
+    theme: t-bg-primary
+    copy: |
+      Best practices in programming are achieved by using a variety of principles, which may initially seem tedious and time consuming but may be advantageous long term. 
+      
+      Collectively, we refer to these practices as Devops which combines software development (Dev) and IT operations (Ops). Cluttered code can cause problems when it is further extended so this is why there are rules for writing good code. 
+      
+      Let’s have a look at this in more detail.
+  -
+  -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe what is meant by the KISS principle - KISS – Keep It Simple Stupid.
   -
-    title: The KISS principle
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      KISS is an acronym for a design principle noted by the US Navy in 1960 and it stands for ‘Keep it Simple and Straightforward’ and covers many different areas of design including engineering and programming. There are other variations of this including ‘keep it short and simple’ and ‘keep it simple, stupid’. Whatever way it is used it means the same thing.
+      _Presentation style - Presenter with images and text to illustrate each point_
       
-      ‘Keep it simple stupid’ or even ‘keep it stupid simple’ are used in programming. By keeping the programming simple, service and maintenance are much easier and there are no hard and fast rules regarding the implementation of code, only that it should be simple and therefore easily modified.
-    img: /images/svg/placeholder_icon.svg
+      ### The KISS principle
+
+      KISS is an acronym for a design principle noted by the US Navy in 1960 and it stands for ‘Keep it Simple and Straightforward’ and covers many different areas of design including engineering and programming. Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website which you may find interesting as Steve jobs discuss's the importance of keeping the customer in mind during product development and design.
+      links:
+        Steve Jobs video: https://youtu.be/oeqPrUmVz-o?t=113
   -
   -
     title: Key point
@@ -29,7 +52,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Two presenters with titles for each point and example screenshots_
       
       ### The disadvantages of writing complicated code
 
@@ -45,63 +68,13 @@ sections:
 
   -
   -
-    title: Code - PLACEHOLDER - awaiting on sme for decision
-    theme:
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
     copy: |
-      text
+      ###  Python style guide for python code
 
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
+      As referenced in the above video, to try to mitigate some of the problems caused by complicated code, there are many coding practices and conventions which have been developed to try to standardise code. Select the Owl to see the Python pep8 example:
 
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Time to practice - PLACEHOLDER
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
-    title: On the web PLACEHOLDER
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz PLACEHOLDER
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+    img: /images/svg/stretch_button.svg
+    link: https://pep8.org/

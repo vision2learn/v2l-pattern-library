@@ -1,5 +1,7 @@
 title: Understand DevOps processes
 intro: |
+  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
+  
   In this session you will learn about DevOps processes and what is meant by continuous integration, delivery and deployment and the differences between these processes.
 banner: placeholder.jpg
 sections:
@@ -9,98 +11,75 @@ sections:
     copy: |
       In this session you will learn about:
       * What is meant by continuous integration, continuous delivery and continuous deployment
-      * The steps required for continuous integration, continuous delivery and continuous deployment
-      * The differences between continuous integration, continuous delivery and continuous deployment
+      * The **steps** required for continuous integration, continuous delivery and continuous deployment
+      * The **differences** between continuous integration, continuous delivery and continuous deployment
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to define what is meant by:
+      In your assessment you will be required to **define** what is meant by; identify the **differences** between; and identify the **steps** required for:
       * continuous integration
       * continuous delivery
-      * continuous deployment.
+      * continuous deployment
   -
-    title: introduction text
-    layout: media
+  -
+    title: Continuous integration, delivery and deployment
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      The DevOps process combines software development and IT operations. It consists of a set of principles and practices which aim to shorten the software development lifecyle whilst ensuring quality in the outcome.  In general, it consists of various working methodologies referred to as “toolchains” which encompass: 
+      * Coding 
+      * Building
+      * Testing
+      * Packaging
+      * Release
+      * Configuring 
+      * Monitoring 
       
-      _awaiting on sme content_
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
+      DevOps aims to be flexible and is complimentary to a style of working called Agile. (We will be looking at Agile later on in Unit 5). 
     
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Building and testing
           text: |
-            text
+            For building and testing toolchains, DevOps uses continuous integration, and continuous testing, respectively, which have their basis in Agile workflow. Let’s have a look at DevOps processes and how they allow development teams to specify their pipeline flows, infrastructure and deployment settings.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Continuous integration
           text: |
-            text
+            Continuous Integration (CI) is a DevOps software development practice of the merging changes back to the main branch as often as possible. It put the emphasis on testing automation to check that the program is not broken.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Continuous delivery
           text: |
-            text
+            Continuous Delivery (CD) is an extension of continuous integration as it automatically deploys all code changes to the testing or programming environment after the build stage. 
+          img: placeholder_icon.svg
+        -
+          title: Continuous deployment
+          text: |
+            Continuous Deployment goes another step further and passes all stages of the production pipeline to customers. 
           img: placeholder_icon.svg
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    title: DevOps
+    theme: 
+    
     copy: |
-      In your assessment you will be required to 
+      Please see the below activity ....
+
+      _PLACEHOLDER - to be determined - to cover ALL Learning outcomes_
+
+    interactive: 
+      file: 
+      width: 1200
+      height: 900
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -141,27 +120,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

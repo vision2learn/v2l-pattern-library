@@ -1,93 +1,24 @@
-title: TEMPLATE PAGE
+title: Active listening
 intro: |
-  intro text
+  On this page you will learn about active listening and the methods of active listening.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to define what is meant by active listening.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter(s) with imagery and certain words as text - marked bold in script_
       
-      Please see the following video on .
+      ### Active listening
+      
+      Please see the following video to learn more about active listening.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -95,59 +26,53 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        _LO or exercise - must relate to the video.
   -
   -
-    title: Code
-    theme:
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
+      In your assessment you will be required to describe methods of active listening.
   -
   -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
+    title: Methods of active listening
+    theme: t-bg-primary
     copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+      So how can someone become an active listener?
 
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Undivided attention
+          copy: |
+            To become a more active listener a person must give the speaker their undivided attention and acknowledge the fact that they are listening by non-verbal communication. 
+          img: placeholder_icon.svg
+        -
+          title: Look directly at the speaker
+          copy: |
+            It helps to look directly at the speaker and put aside any distracting thoughts. 
+          img: placeholder_icon.svg
+        -
+          title: Body language
+          copy: |
+            Using body language and responding using expressions can show can help to show engagement. 
+          img: placeholder_icon.svg
+        -
+          title: Questions and paraphrasing
+          copy: |
+            Asking questions and paraphrasing can also help to show that the listener understands.
+          img: placeholder_icon.svg
+        -
+          title: Allow speaker to finish
+          copy: |
+            Allowing the speaker to finish before making judgements also makes sure that the message and information is fully absorbed.
+          img: placeholder_icon.svg
+        -
+          title: Responding respectfully
+          copy: |
+            Being respectful in any responses is also an important part of being an active listener.
+          img: placeholder_icon.svg
   -
   -
     title: On the web

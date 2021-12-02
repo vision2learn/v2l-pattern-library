@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Agile developments
 intro: |
-  intro text
+  In this session you will learn about Agile developments, their advantages and disadvantages and the Scrum framework.  On this page we will take a closer look at Agile development.
 banner: placeholder.jpg
 sections:
   -
@@ -8,95 +8,91 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-
+      * What is meant by an Agile development
+      * Key characteristics of an Agile development
+      * Advantages and disadvantages of an Agile development
+      * What is meant by Scrum
+      * The roles of: Product Owner, Scrum Master, Scrum team
+      * Different Scrum events
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * define what is meant by an Agile development
+      * identify the key characteristics of an Agile development
+      * identify the advantages and disadvantages of an Agile development
   -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
+  -
+    title: Agile development
+    theme: 
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      Agile is an iterative, people-oriented and result-focused way of working when delivering software products. The software is built incrementally in time-boxed 'sprints'.
+            
+      ![](/images/banners/uc/placeholder.jpg)
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
+      _This will be the Agile diagram_
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      _Presentation style - Presenter(s) with the above diagram, words and below webpages about the Manifesto and the 12 principles_
+
+      ### Agile development
       
-      Please see the following video on .
+      Please see the following video on Agile development.
     video: placeholder_pc.mp4
+  -
+  -
+    title: Read - Agile Manifesto and the 12 principles
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document which gives the full details of the Agile Manifesto and the 12 principles:
+
+      [Agile Manifesto and the 12 principles]()
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites which references the Agile Manifesto and the 12 principles based on the Agile Manifesto.
+
+      links:
+        The Agile Manifesto: https://agilemanifesto.org/
+        The Agile 12 Principles: https://www.agilemanifesto.org/principles.html
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * identify the key characteristics of an Agile development
+      * identify the advantages and disadvantages of an Agile development
+  -
+  -
+    title: Key characteristics, advantages, and disadvantages of Agile
+    theme: 
+    
+    copy: |
+      Please see the below activity which ....
+
+      _include key characteristics, advantages and disadvantages - make items on the diagram clickable_
+
+      _Interative, frequency, motivated, collaborative, customer focused, flexible, supportive, refective_
+
+      _PLACEHOLDER - work in progress_
+
+    interactive: 
+      file: 
+      width: 800
+      height: 600
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -107,68 +103,15 @@ sections:
 
   -
   -
-    title: Code
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
+    title: Read - Agile Subway Map
     theme: t-bg-primary2 i-read
     copy: | 
-      _Optional item depending on content - useful for additional reading_
+      Take a look at the following document which will give you an idea of the different practices that are 'Agile'.
 
-      Take a look at the following document about 
+      _Include website reference - https://www.agilealliance.org/agile101/subway-map-to-agile-practices/_
 
-      [example doc]().
+      [Agile Subway Map]()
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
@@ -188,27 +131,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

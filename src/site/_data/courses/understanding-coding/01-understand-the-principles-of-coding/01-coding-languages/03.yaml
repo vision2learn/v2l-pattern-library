@@ -1,7 +1,7 @@
 title: Understanding the principles of coding
 intro: |
   On this course you will be learning about coding.  In this unit you will gain knowledge of coding languages and the software development lifecycle. You will also learn about the job roles, functions and key skills requirements of a coding professional.
-banner: uc_u1_s1_p3_coding.jpg
+banner: uc_u1_s1_p3_coding2.jpg
 sections:
   -
     title: Introduction
@@ -21,11 +21,11 @@ sections:
     copy: |
       Coding is a term used to refer to writing software.
       
-      Coding is the process used to make an electronic device do what it needs to do. From a binary level, simply turning on and off, all the way to more advanced coding languages used to create programmes. It is the 'language' we use to communicate with computers to enable them to understand what we want them to do and to then process that information. It allows humans to essentially 'talk’ to machines and create computer software like programmes, games, operating systems, and mobile apps.
+      Coding is the process used to make an electronic device do what it needs to do. From a binary level, simply turning on and off, all the way to more advanced coding languages used to create programs. It is the 'language' we use to communicate with computers to enable them to understand what we want them to do and to then process that information. It allows humans to essentially 'talk’ to machines and create computer software like programs, games, operating systems, and mobile apps.
       
       Programming is the process of assembling sequences of 'codes' or instructions arranged in different orders or groupings to complete a process or carry out a task. 
       
-      The smallest mistake in coding can significantly affect an entire computer programme. This is also something that 'hackers' can then take advantage of.
+      The smallest mistake in coding can significantly affect an entire computer program. This is also something that 'hackers' can then take advantage of.
     img: /images/svg/uc/uc_u1_s1_p3_image.svg
   -
   -
@@ -89,7 +89,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Let's have a look at what different languages are available. 
+      ### Different coding languages
 
       Please see the following video on the different coding languages that are used.
     video: placeholder_pc.mp4
