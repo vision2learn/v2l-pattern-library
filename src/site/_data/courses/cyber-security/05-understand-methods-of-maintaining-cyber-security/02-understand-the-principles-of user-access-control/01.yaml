@@ -40,23 +40,21 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
-          answer: malware
+          sentence: User access control generally manages user accounts particularly those with special access privileges to protect against misuse and unauthorised access.
+          answer: accounts
         -
-          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
-          answer: vulnerabilities
+          sentence: Failure to implement an effective user access control management policy, may expose an organisations system to cyber attack.
+          answer: cyber attack
         -
-          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
-          answer: Dark Web
+          sentence: To help keep a system secure, accounts should only be assigned to authorised individuals and should limit access to the minimum level needed by the individual.
+          answer: authorised
         -
-          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
-          answer: fake news
+          sentence: Failure to implement an effective user access control management policy makes it easier for hackers to take advantage of uncontrolled administrative privileges.
+          answer: hackers
         -
-          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
-          answer: Deepfakes
-        -
-          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
-          answer: drones
+          sentence: One of the techniques used to attack a system involves the elevation of privileges by guessing and cracking administrator passwords to gain access to target machines. 
+          answer: elevation
+        
     theme: i-quiz
     
   -    
@@ -64,7 +62,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: what are the benefits of user access controls? do you have experience of these in your workplace?
     theme: t-bg-primary3 i-think
 
   -

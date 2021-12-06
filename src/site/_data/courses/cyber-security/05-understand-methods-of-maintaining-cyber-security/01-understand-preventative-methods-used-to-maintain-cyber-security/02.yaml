@@ -21,8 +21,8 @@ sections:
     layout: media
     copy: |
       ### Routine methods for maintaining cyber security    
-    video: placeholder_pc.mp4
-  - 
+    video: cs_u5_s1_p2_routine_methods.mp4
+  -  
 
     title: Testing tools
     theme: t-bg-primary
@@ -67,7 +67,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: what are the routine ways to maintain cyber security? 
+      copy: Do you use any of the routine methods to maintain cyber security at work or on your home PC? What methods do you have experience of using?
     theme: t-bg-primary3 i-think
 
   -
