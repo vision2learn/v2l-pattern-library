@@ -3,3 +3,14 @@ intro: Well done, you’ve now completed the first session of this unit!
 banner: summary.jpg
 sections:
   - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Routine methods to maintain cyber security
+      * What is meant by vulnerability testing
+      * What is meant by penetration testing
+      * What is meant by security updates
+      * What ‘patching’ means in relation to cyber security
+      * Why information and maintenance records should be accurate and up-to-date
+  -

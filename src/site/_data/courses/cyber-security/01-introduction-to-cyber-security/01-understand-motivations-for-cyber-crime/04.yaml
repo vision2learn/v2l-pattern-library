@@ -12,7 +12,7 @@ sections:
     copy: |
       Make sure that you fully understand the the terms "external threats" and "internal threats" and the possible motivations that can lead to these threats.
   -
-    title: Let's have a look at some other types of threat.
+    title: Let's have a look at some other types of threat
     theme: t-bg-primary
     copy: |
       Within companies and organisations, the risk of threats not only come from external sources they can also be from internal sources. This means that companies and organisations need to be aware of security issues both externally and internally. So let's have a look at the differences between an external and an insider threat and what the potential consequences are.
@@ -63,12 +63,12 @@ sections:
       title: 
       slides:
         -
-          title: targeted attacks
+          title: Targeted attacks
           text: |
             A term we hear most commonly used these days within the media, when focussing on cyber crime is 'a targeted attack' A targeted attack is a type of threat that involves 'threat actors' actively pursuing and compromising a company or an organisation's infrastructure whilst maintaining anonymity.This type of threat is well organised and involves a high level of expertise often taking place over a long time and not obvious initially. It may target individuals as well as the company they work for and involve launching effective ransomware which can eventually cripple a company. 
           img: cs_u1_s1_p4_slide1.svg
         -
-          title: untargeted attacks
+          title: Untargeted attacks
           text: |
             Another term commonly used is an 'untargeted attack' which is not tailored to it's victim. These are sometimes referred to as ‘drive-by attacks’. It is by it's nature indiscriminate and targets many different individual devices and systems that have vulnerabilities.This may involve 'phishing' and sending emails and texts to large numbers of people asking for sensitive information such as bank details or asking them to click on a link to log on to a fake website.  We have all become unfortunately used to getting scam emails and texts. The scammer may have obtained the emails from different sources and may not have anymore information so often it may not be relevant to the recipient. However, they hope that some people will fall for it. Setting up fake websites or compromising legitimate website can also be done to exploit random visitors to the site. 
           img: cs_u1_s1_p4_slide2.svg

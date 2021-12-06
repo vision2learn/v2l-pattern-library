@@ -3,3 +3,12 @@ intro: Well done, you’ve now completed the second session of this unit! By wor
 banner: summary.jpg
 sections:
   -
+
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is meant by malicious software
+      * Ways in which malicious software can infect a system
+      * Methods for removing malicious software from an infected system
+  -

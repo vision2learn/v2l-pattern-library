@@ -20,7 +20,7 @@ sections:
     copy: |
       Make sure that you understand the different organisations and the role they play in cyber security. 
   -
-    title: The role of key organisations in the cyber security industry.
+    title: The role of key organisations in the cyber security industry
     theme: t-bg-primary1a
     copy: |
       Cyber security affects us all in some way and it is important that government and the cyber security industry works together to protect individuals, business and all citizens and their well being from the threat of cyber attack. The UK government has taken on a leading role in protecting both the public and private sectors.
@@ -43,7 +43,7 @@ sections:
         Please see the following websites where you can learn more about these organisations. . .
 
       links:
-        National Cyber Security Centre (NCSC): http://www.google.co.uk
+        National Cyber Security Centre (NCSC): https://www.ncsc.gov.uk
         Government Communications Headquarters (GCHQ): https://www.gchq.gov.uk
         Information Commissioners Office (ICO): https://ico.org.uk    
         UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk   
@@ -53,7 +53,7 @@ sections:
     copy: |
       Make sure that you can define the different job functions that cyber security professionals may have.
   -
-    title: General Job Functions carried out by cyber security professionals.
+    title: General Job Functions carried out by cyber security professionals
     theme: t-bg-primary
     copy: |
       Cyber security is one of the most important roles in the fast growing technology industries. As cyber criminals and hackers become more sophisticated and ruthless, the need for equally talented cyber security specialists is increasing and specialists in cyber security are very sought after. 
@@ -94,14 +94,14 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: Using your learning from this page can you describe the role of cyber security organisations? make a note of your answer in the box to the right. 
+      copy: Using your learning from this page can you describe the role of cyber security organisations? Make a note of your answer in the box to the right. 
   - 
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Cyber security professionals are employed by many different organisations such as network providers, the government, banks and financial services, educational establishments, airlines, any large organisations with a database and security consultancy firms. There is also opportunity for experienced professionals to become consultants working for many different organisations. click on the link below to find out more about cyber security roles
+        Cyber security professionals are employed by many different organisations such as network providers, the government, banks and financial services, educational establishments, airlines, any large organisations with a database and security consultancy firms. There is also opportunity for experienced professionals to become consultants working for many different organisations. click on the link below to find out more about cyber security roles.
 
       links:
         Cyber security Careers: https://cybersecuritychallenge.org.uk/what-we-do    

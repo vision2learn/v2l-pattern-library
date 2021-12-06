@@ -16,7 +16,7 @@ sections:
     copy: |
       Network Traffic is the term used for data travelling across a computer network at any given time. It is broken down into 'data packets' which are then reassembled by the receiving device. Data traffic can flow in two directions either north south or east west. High amounts of network traffic can lead to slower download speeds or poor connections. They can also be a sign of a security attack.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /cs/cs_u5_s3_p2_image1.svg
   -
     title: What is a data packet?
     theme: t-bg-supporting2
@@ -29,7 +29,7 @@ sections:
           title: Header
           copy: |
             This gives information about where it came from and where it’s going and metadata about the packet itself.
-          img: /images/svg/placeholder_icon.svg 
+          img: /cs/cs_u5_s3_p2_image1.svg 
         - 
           title: Payload
           copy: |
@@ -61,7 +61,7 @@ sections:
             * They monitor traffic passing through and prevent hackers from gaining access to data and systems. 
             * They protect against viruses and shield the computer system from unwanted and malicious programs.
 
-          img: placeholder_icon.svg
+          img: cs_u5_s3_p2_slide1.svg
         -
           title: Disadvantages of a firewall
           text: |
@@ -73,7 +73,7 @@ sections:
             * They can give a false sense of security.
             * They do not protect against all types of malware. 
 
-          img: placeholder_icon.svg
+          img: cs_u5_s3_p2_slide2.svg
         
         
   -    
