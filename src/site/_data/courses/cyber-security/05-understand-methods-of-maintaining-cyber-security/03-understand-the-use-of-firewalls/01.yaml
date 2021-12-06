@@ -28,7 +28,7 @@ sections:
     copy: |
       Firewalls provide protection from cyber security attackers by shielding a computer system or network from malicious or unnecessary attention. They are the first line of defence against attack and have been so for over 25 years. A firewall can be made up of hardware software or both. A firewall acts as a barrier between a trusted system or network and outside connections such as the internet. It does that by monitoring the incoming and outgoing network traffic deciding when it needs to be allowed through or blocked according to a defined set of security rules.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs/cs_u5_s3_p1_image1.svg
   - 
 
     title: Key functions of a firewall
@@ -48,25 +48,30 @@ sections:
           text: |
             These are the simplest type of firewall and just look at the source and destination IP and ports. This allows admins to create access control lists that state which devices are allowed to communicate and on which ports. They are simple and cost efficient to implement but because they don’t look at the content of the packets being sent, they should only be used on semi-trusted networks such as internal networks.
 
-          img: placeholder_icon.svg
+          img: cs_u5_s3_p1_slide1.svg
         -
           title: Stateful Inspection Firewalls
           text: |
             Stateful Inspection Firewalls
             Stateful inspection firewalls go further than the above by monitoring the entire session of a connection which gives greater context around what is connecting to what. This however, this is heavier on resources and can have a negative impact on networking times.
-
-
-          img: placeholder_icon.svg
+          
+          img: cs_u5_s3_p1_slide2.svg
         -
           title: Next-Generation Firewall (NGFW)
           text: |
             Next-generation firewalls combine stateful inspection and looking at the content of the packets being sent to give a much greater visibility to the traffic. This allows greater insights and awareness of what’s going on between networks. But they are much costlier and have a bigger impact on the network speed due to the time and resources needed to inspect each message before it’s allowed through.
 
-          img: placeholder_icon.svg
+          img: cs_u5_s3_p1_slide3.svg
         -
           title: Web Application Firewall (WAF)
           text: |
             Web application firewalls are firewalls that are used to filter traffic to a web application such as an ecommerce website. These firewalls are used specifically to address the threats that are common to websites. Websites are commonly exploited by application layer attacks such as SQL injections which look for poorly written code. They look for certain behaviours and terminate that traffic before it reaches the website. They can also be used to prevent distributed denials of service (DDoS) which work by sending a huge amount of fake traffic at a website to overload it and make it unavailable for legitimate user traffic.
-          img: placeholder_icon.svg
-        
+          img: cs_u5_s3_p1_slide4.svg
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Can you define what a firewall is and describe the key functions of a firewall?  
+    theme: t-bg-primary3 i-think
+
   -

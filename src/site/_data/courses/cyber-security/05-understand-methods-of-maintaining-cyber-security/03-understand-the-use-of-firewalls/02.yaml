@@ -6,7 +6,7 @@ banner: cs_u5_s3_p2_skills_requirements.jpeg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3
+    theme: t-bg-supporting3 i-keypoint
     copy: 
       Make sure that you understand what is meant by network traffic and the advantages and disadvantages of using a firewall to protect from threats.
   -
@@ -16,7 +16,7 @@ sections:
     copy: |
       Network Traffic is the term used for data travelling across a computer network at any given time. It is broken down into 'data packets' which are then reassembled by the receiving device. Data traffic can flow in two directions either north south or east west. High amounts of network traffic can lead to slower download speeds or poor connections. They can also be a sign of a security attack.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs/cs_u5_s3_p2_image1.svg
   -
     title: What is a data packet?
     theme: t-bg-supporting2
@@ -27,8 +27,7 @@ sections:
         * Trailer-This part of the packet is the data that shows the end of the packet and often contains error collection data.
         ![](/images/svg/cs/cs_u5_s3_p2_image2.svg)
 
-  - 
-
+  -
     title: Firewalls
     theme: t-bg-primary
     copy: |
@@ -47,7 +46,7 @@ sections:
             * They monitor traffic passing through and prevent hackers from gaining access to data and systems. 
             * They protect against viruses and shield the computer system from unwanted and malicious programs.
 
-          img: placeholder_icon.svg
+          img: cs_u5_s3_p2_slide1.svg
         -
           title: Disadvantages of a firewall
           text: |
@@ -59,7 +58,7 @@ sections:
             * They can give a false sense of security.
             * They do not protect against all types of malware. 
 
-          img: placeholder_icon.svg
+          img: cs_u5_s3_p2_slide2.svg
         
         
   -    
@@ -67,7 +66,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: Do you have a firewall installed or enabled on your computer? Has it been beneficial? Looking at the disadvantages have you had any experience of these? 
     theme: t-bg-primary3 i-think
 
   -
