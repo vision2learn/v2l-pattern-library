@@ -1,74 +1,8 @@
-title: Collection, iteration and control flow
+title: Iteration and control flow
 intro: |
-  On this page you will learn about the term collection, what is meant by iteration and control flow.
+  On this page you will learn about what is meant by iteration and control flow.
 banner: uc_u2_s2_p4_collection.jpg
 sections:
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain what is meant by the term ‘collection’.
-  -
-  -
-    title: What is meant by the term collection
-    theme:
-    copy: |
-      In programming, a collection represents a set of similar data type items in a single unit and these are used for grouping and managing related objects. This grouping of data items will have some shared significance to the problem being solved that need to be worked upon together. The data items will be of the same type or in the same languages. 
-      
-      A collection has an underlying structure that is used for efficient data manipulation and storage. When collections are used in logical constructs this can help with code readability and maintenance. Examples of collections are linked lists, stacks, queues or dictionaries.
-      
-      In Python, dictionaries are an example of a type of collection:
-
-    subInc:
-      type: code
-      lang: python
-      highlight: 
-      code: |
-        # A dictionary is an example of a type of a collection in Python
-
-        MyDictionary = {
-          "Product": ["iPhone", "Flactscreen LCD", "Galaxy S6", "PS5"],
-          "Manufacturer": ["Apple", "Sony", "Samsung", "PlayStation"],
-          "Price": [800.00, 450.00, 600.00, 250.00]
-        }
-
-
-        print(MyDictionary)
-  -
-  -
-    title: Result
-    theme:
-    copy: |
-      
-    subInc:
-      type: code
-      lang: text
-      highlight: 
-      code: |
-        {'Product': ['iPhone',  'Flactscreen LCD', 'Galaxy S6', 'PS5'], 
-        'Manufacturer': ['Apple', 'Sony', 'Samsung', 'PlayStation'], 
-        'Price': [800.0, 450.0, 600.0, 250.0]}
-        [Finished in 129ms]
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
-      
-      [Online Python](https://online-python.com)
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following websites where you can learn more about linked lists.
-
-      links:
-        linked lists: https://www.tutorialspoint.com/data_structures_algorithms/linked_lists_algorithm.htm
-        example of a linked list in C: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
-  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
