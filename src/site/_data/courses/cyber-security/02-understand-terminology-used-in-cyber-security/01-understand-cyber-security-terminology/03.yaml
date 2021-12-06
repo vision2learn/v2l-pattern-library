@@ -26,7 +26,7 @@ sections:
       Let's have a look at different types of network
     video: cs_u2_s1_p3_networks.mp4
   -
-    title: Network security.
+    title: Network security
     theme: t-bg-primary
     copy: |
       All networks should have security already in place but also having each computer with extra security helps to make this more resilient. Anti virus software should identify, block, and mitigate any targeted threats such as malware, ransomware and phishing but there are also additional ways to ensure networks are secure.

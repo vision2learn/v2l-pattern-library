@@ -18,7 +18,7 @@ sections:
     copy: |
       In your assessment you will be required to describe ways of seeking feedback on communications.
   -
-    title: introduction text
+    title: Seeking feedback
     layout: media
     theme: t-bg-primary
     copy: |
@@ -32,6 +32,8 @@ sections:
     layout: media
     copy: |
       _Presentation style - Presenter(s) with questions as text and imagery to support._
+
+      ### Seeking feedback
       
       Please see the following video on ways of seeking feedback on communications.
     video: placeholder_pc.mp4
@@ -48,6 +50,8 @@ sections:
     layout: media
     copy: |
       _Presentation style - Presenter(s) with imagery_
+
+      ### Purpose of feedback
       
       Please see the following video on the purpose of using feedback to develop communication skills.
     video: placeholder_pc.mp4

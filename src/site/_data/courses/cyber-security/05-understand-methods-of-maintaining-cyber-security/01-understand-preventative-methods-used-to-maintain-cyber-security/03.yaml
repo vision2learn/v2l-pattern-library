@@ -1,26 +1,74 @@
-title: "What did you learn, kiddo?"
-intro: Well done, you’ve now completed the ﬁrst session of this unit! By working through this session, you have learned all about - Employment contracts Legislation Sources of information The role of representative bodies supporting employees Equality and diversity.
-banner: summary.jpg
-sections:
+title: Understand preventative methods used to maintain cyber security
+intro: | 
+  On this page you will learn about:
+  * what is meant by patching
+  * security updates
+  * keeping cyber security information updated. 
+  
+banner: cs_u5_s1_p3_preventative_methods.jpeg
+sections: 
   -
-    title: Session Quiz - Rights and responsibilities at work
-    theme: i-quiz
-    subInc: 
-      type: quick-quiz
-      content:
-        Which of the following is an example of an internal source of information about your rights and responsibilities?:
-          answers:
-            Citizens Advice Bureau: false
-            Libraries: false
-            Line managers: true
-        True or false? "You have the legal right to receive the terms of your employment in writing, after working for your employer for two months.":
-          answers:
-            True: true
-            False: false
-        Complete the following sentence - "People often assume that all employees within an organisation are 'the same' however a huge amount of ____________ exists within the workplace.":
-          answers:
-            Formaility: false
-            Diversity: true
-            Similarity: false
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you can explain what patching and security updates mean in relation to cyber security and why cyber security information should be kept up to date. 
+  - 
 
+    title: What are security updates? What is patching?  
+    theme: t-bg-primary
+    copy: |
+      Lets have a look at security updates and patching in more detail.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Security updates
+          text: |
+           As cyber criminals develop new ways of getting into systems then the security of those systems needs to be updated. This is usually done by regular security updates to a system. While this may seem annoying to have to do, they are very important to keep on top of the latest threats that are out there.Security updates are patches released by the vendors of that hardware, firmware, OS, or software which address the known CVE vulnerabilities. Security updates should be set to automatically update where possible.
+
+          img: cs_u5_s1_p3_slide1.svg
+        -
+          title: What is 'patching'?
+          text: |
+            Patching is a process used to make changes to a computer program or its supporting data designed to update, fix, or improve it. This includes fixing security vulnerabilities and other bugs. Vulnerabilities that are most exploited are usually old ones that have the highest impact because they allow remote code execution (RCE) which allows a criminal full access to the device. Patches exist for these and have for many years, but it is often very difficult for a business to patch certain systems.  When a system is being Patched it may cause downtime or unknown compatibility issues. So imagine having a business employing 10,000 people, patching a system that everyone needs to do work on and there is a downtime of 1 hour, would have a huge impact and therefore a business may not see the value in doing it.
+
+          img: cs_u5_s1_p3_slide2.svg
+       
+   
+  -    
+  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+
+  -
+    title: Keeping up to date. 
+    theme: t-bg-primary1a
+    copy: |
+      So why why is it important to keep cyber security information and maintenance records accurate and up to date? 
+
+      Lets have a look at what benefits this has.  
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: accuracy
+          copy: |
+            Keeping accurate and up to date information and maintenance records on cyber security is essential in helping to understand how systems are being used and collecting logs and good logging practices are fundamental in protective monitoring. They can also be used if a breach happens to look at the impact of it.
+          img: /cs/cs_u5_s1_p3_accordian1.svg
+        - 
+          title:  Breaches
+          copy: |
+            Being able to retroactively go back through audit logs of what a system and its users were doing is incredibly important especially during a breach. This helps to gain understanding on how far an attacker has managed to penetrate a system and subsequently contain and eradicate the attack. 
+            If the breach is substantial and a regulator such as the ICO becomes involved, it’s important to be able to demonstrate a clear understanding of what has happened and it’s impact so as to reduce any penalties that may be issued following a breach.
+
+          img: /cs/cs_u5_s1_p3_accordian2.svg  
+  -
+
+  
 

@@ -49,7 +49,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Motives for cybercrime.
+      ### Motives for cybercrime
       Now that you have learnt about what cyber crime is lets take a look at the potential motives for carrying out cyber crime.
       
     video: cs_u1_s1_p3_motives.mp4
@@ -63,10 +63,10 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      Make sure that you can identify the different threat actors involved in cybercrime.
+      Make sure that you can identify the different threat actors involved in cyber crime.
   -
 
-    title: Threat actors.
+    title: Threat actors
     theme: t-bg-primary
     copy: |
       With cyber security threats on the increase we have to be aware that not only large organisations, businesses and governments are under threat, so are individuals and their home computers and personal devices. A phrase that is commonly used in cyber security is a 'threat actor' and this is anyone who has the potential to impact another's security. A threat actor can be a single person as well as a group working together working as hackers, based anywhere to launch a cyber attack. It can also be an organisation or on the largest scale a country carrying out a cyber attack.
@@ -78,7 +78,7 @@ sections:
       title: 
       slides:
         -
-          title: Cybercriminals.
+          title: Cybercriminals
           text: |
             Cyber criminals aim to exploit human security vulnerabilities to steal passwords, data or money.These are the most common types of threat actors and their attacks may involve hacking into devices to gain password details and stealing or making data inaccessible to an organisation by holding it to ransom. Financial gain is usually the motive and the weapons of choice are phishing attacks, ransomware and malware. It’s important to understand that these operate very much like any legitimate business, with teams of people and management, who turn up every day with the objective to bring in as much money as possible. Some companies even offer rewards for their employees that bring in the most money under an “employee of the month scheme”!
           img: cs_u1_s1_p3_slide1.svg

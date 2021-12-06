@@ -1,6 +1,35 @@
 title:  "Understand the need for cyber security"
 intro:  |
   On this page you will learn about:
-banner: placeholder.jpg
+banner: cs_u5_s2_p2_need_for_cyber_security.jpeg
 sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: |
+      Make sure that you understand how to set up user access control system
+    
+  -
+    title: Setting up user access controls
+    theme: t-bg-primary
+    copy: |
+      So now we know what user access control is, let's look at how to create a user access control system in a little more detail.
+
+
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Access controls
+      Lets take a look at how user access controls are used in more detail.
+    video: placeholder_pc.mp4
+  -    
+  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+
   -

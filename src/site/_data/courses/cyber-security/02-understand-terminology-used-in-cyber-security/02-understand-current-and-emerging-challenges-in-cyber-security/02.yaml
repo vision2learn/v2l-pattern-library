@@ -3,3 +3,9 @@ intro: Well done, you’ve now completed the second session of this unit! By wor
 banner: summary.jpg
 sections:
   - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Current and emerging challenges in cyber security
+  -

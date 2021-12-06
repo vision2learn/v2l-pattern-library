@@ -48,7 +48,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Open Source information.
+      ### Open Source information
 
       So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
     video: cs_u2_s3_p1_open_source.mp4
@@ -90,4 +90,4 @@ sections:
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: using your learning from this page, can you explain what social engineering is, the different techniques that can be used and the information that can be obtained? Make a note of your answer in the box to the right.
+      copy: Using your learning from this page, can you explain what social engineering is, the different techniques that can be used and the information that can be obtained? Make a note of your answer in the box to the right.

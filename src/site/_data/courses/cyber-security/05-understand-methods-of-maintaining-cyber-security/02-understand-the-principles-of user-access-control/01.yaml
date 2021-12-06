@@ -1,7 +1,7 @@
 title: Understand the principles of user access control
 intro: |
   In this session you will learn about what is meant by user access control and methods of restricting access:
-banner: placeholder.jpg
+banner: cs_u5_s2_p1_user_access.jpeg
 sections:
   -
     title: What you will learn
@@ -13,4 +13,58 @@ sections:
       * how to create a user access control system
     
   -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: |
+      Make sure that you understand what user access controls are and how restrictions can be implemented.
+    
+  -
+    title: What is user access control?
+    theme: t-bg-primary
+    copy: |
+      UAC works by requiring a standard user to enter the credentials of an administrator with elevated privileges in order to do such high-risk actions like installing a piece of software. This means that standard users cannot install things and therefore reduces the likelihood of them accidentally clicking a link and installing malware.
+      It’s important therefore that users are not given administration access by default, and that administrators are not logged in with their administrator account when doing day-to-day things such as browsing the internet and checking emails.
+
+
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Access controls
+      Lets take a look at how user access controls are used in more detail.
+    video: cs_u5_s2_p2_access_controls.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
+          answer: malware
+        -
+          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
+          answer: vulnerabilities
+        -
+          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
+          answer: Dark Web
+        -
+          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
+          answer: fake news
+        -
+          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
+          answer: Deepfakes
+        -
+          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
+          answer: drones
+    theme: i-quiz
+    
+  -    
+  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+
   -

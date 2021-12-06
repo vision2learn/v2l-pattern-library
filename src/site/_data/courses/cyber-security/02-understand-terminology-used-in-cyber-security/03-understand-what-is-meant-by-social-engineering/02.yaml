@@ -3,3 +3,14 @@ intro: Well done, you've now completed session 3 of this unit!
 banner: summary.jpg
 sections:
   -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What social engineering is
+      * How social engineering benefits a cyber criminal
+      * Open source information
+      * What information a cyber criminal can gain through open sources
+      * What techniques can be used for social engineering
+      * What information a cyber criminal can gain from social engineering.
+  -

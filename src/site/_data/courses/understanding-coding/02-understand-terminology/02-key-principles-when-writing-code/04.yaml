@@ -9,16 +9,54 @@ sections:
     copy: |
       In your assessment you will be required to explain what is meant by the term ‘collection’.
   -
+  -
     title: What is meant by the term collection
-    layout: media
-    theme: t-bg-primary
+    theme:
     copy: |
-      In programming, a collection represents a set of similar data type items in a single unit and these are used for grouping and managing related objects. This grouping of data items will have some shared significance to the problem being solved that need to be worked upon together. The data items will be of the same type or in the same languages.
+      In programming, a collection represents a set of similar data type items in a single unit and these are used for grouping and managing related objects. This grouping of data items will have some shared significance to the problem being solved that need to be worked upon together. The data items will be of the same type or in the same languages. 
       
       A collection has an underlying structure that is used for efficient data manipulation and storage. When collections are used in logical constructs this can help with code readability and maintenance. Examples of collections are linked lists, stacks, queues or dictionaries.
+      
+      In Python, dictionaries are an example of a type of collection:
 
-    img: /images/svg/placeholder_icon.svg
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        # A dictionary is an example of a type of a collection in Python
+
+        MyDictionary = {
+          "Product": ["iPhone", "Flactscreen LCD", "Galaxy S6", "PS5"],
+          "Manufacturer": ["Apple", "Sony", "Samsung", "PlayStation"],
+          "Price": [800.00, 450.00, 600.00, 250.00]
+        }
+
+
+        print(MyDictionary)
   -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        {'Product': ['iPhone',  'Flactscreen LCD', 'Galaxy S6', 'PS5'], 
+        'Manufacturer': ['Apple', 'Sony', 'Samsung', 'PlayStation'], 
+        'Price': [800.0, 450.0, 600.0, 250.0]}
+        [Finished in 129ms]
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      
+      [Online Python](https://online-python.com)
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -30,7 +68,6 @@ sections:
       links:
         linked lists: https://www.tutorialspoint.com/data_structures_algorithms/linked_lists_algorithm.htm
         example of a linked list in C: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_program_in_c.htm
-        
   -
   -
     title: Key point
@@ -41,7 +78,11 @@ sections:
     title: Iterations
     theme: t-bg-primary
     copy: |
-      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
+      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. 
+      
+      Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. 
+      
+      Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
       
       In our *JavaScript example* code contains an example of iteration using a for loop. This means that we repeat an operation (in this case printing a list index to the console) for a defined number of times (in this case once for each index, starting with the first item in the list and ending with the last).
 

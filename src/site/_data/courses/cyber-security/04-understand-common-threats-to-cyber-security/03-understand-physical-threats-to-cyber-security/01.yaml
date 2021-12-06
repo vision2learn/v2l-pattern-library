@@ -1,7 +1,7 @@
 title: Understand physical threats to cyber security
 intro: |
     In this session you will learn about physical threats to cyber security and how technology can help with the threat:
-banner: placeholder.jpg
+banner: cs_u4_s3_p1_physical_threats.jpeg
 sections:
   -
     title: Your learning goals
@@ -11,23 +11,19 @@ sections:
 
       1. Explain why perimeter access control is important.
       2. Give examples of when check and challenge on the premises may be needed.
-      3. Identify the possible threats to a business presented by the use of,
-        * personal devices
-        * removable devices
-        * hardware
-        * networking infrastructure
+      3. Identify the possible threats to a business presented by the use of; personal devices, removable devices, hardware, and networking infrastructure
       4. Give examples of possible threats presented by remote working.
       5. Describe best practice which can help to minimise physical threats to cyber security.
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+      Make sure that you understand the importance of perimeter access controls and the different controls that can be utilised. 
   -
-    title: Perimeter access control.
+    title: Perimeter access control
     theme: t-bg-primary
     copy: |
-      Perimeter security and access control systems protect and monitor the external boundary of a business or facility. These systems control access to restricted areas and include the control of people, vehicles and materials through entrances and exits of a controlled area. Scroll through the slides below to learn more about perimeter access control...
+      Perimeter security and access control systems protect and monitor the external boundary of a business or facility. These systems control access to restricted areas and include the control of people, vehicles and materials through entrances and exits of a controlled area. Scroll through the slides below to learn more about perimeter access control.
 
     subInc: 
       type: slider
@@ -36,15 +32,19 @@ sections:
         -
           title: Why is perimeter access control important?
           text: |
-            Perimeter access control systems control the access of people, vehicles and materials into controlled areas through external perimeters of a facility. Other systems linked to this may involve physical barriers and sensors. Intrusion alarms identify unauthorised access or attempted entry into an area. Access controls permit or deny access to the facility. 
+            Perimeter access control systems control the access of people, vehicles and materials into controlled areas through external perimeters of a facility. Other systems linked to this may involve physical barriers and sensors. 
+            
+            Intrusion alarms identify unauthorised access or attempted entry into an area. Access controls permit or deny access to the facility. 
             If Cyber criminals can access a facility they have access to all the systems within that facility and can infiltrate the systems for the criminal activities.
 
-          img: placeholder_icon.svg
+          img: cs_u4_s3_p1_slide1.svg
         -
           title: What is check and challenge?
           text: |
-            All staff and visitors within a facility or organisation especially those that handle sensitive data should be checked for their identity and challenged to prove who they are to make sure that they have a right to enter. This is important especially in facilities where personal data and personal security is concerned. This is useful for educational establishments such as schools, colleges and universities as well as national security buildings and companies that would be at threat from espionage.
-          img: placeholder_icon.svg
+            All staff and visitors within a facility or organisation especially those that handle sensitive data should be checked for their identity and challenged to prove who they are to make sure that they have a right to enter. 
+            
+            This is important especially in facilities where personal data and personal security is concerned. This is useful for educational establishments such as schools, colleges and universities as well as national security buildings and companies that would be at threat from espionage.
+          img: cs_u4_s3_p1_slide2.svg
   -
 
     title: Watch 
@@ -52,12 +52,37 @@ sections:
     layout: media
     copy: |
       ### What are the potential threats to businesses? 
-      Businesses face a range of threats ranging from personal devices, removable devices, hardware and networking infrastructure. lets have a look at these threats in more detail. 
-    video: placeholder_pc.mp4
+      Businesses face a range of threats ranging from personal devices, removable devices, hardware and networking infrastructure. Lets have a look at these threats in more detail. 
+    video: cs_u4_s3_p1_threats_from_devices.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: With the large amount of malware out there it will inevitably penetrate and infect a system especially a vulnerable system.
+          answer: vulnerable
+        -
+          sentence: Keep all devices secure and don't download anything from any dodgy sites or click on any unknown links on unreliable emails.
+          answer: secure
+        -
+          sentence: It is possible to remove malware, by running a scan using the security software installed on the device or system.
+          answer: security software
+        -
+          sentence: The first step in incident response if you are concerned that a device or system may be infected is containment. 
+          answer: containment
+        -
+          sentence: Opening a system in safe mode allows only the minimum software and programs to load. 
+          answer: safe mode
+        -
+          sentence: Check activity monitors for malicious applications especially if a suspicious update or application has been installed.
+          answer: suspicious
+    theme: i-quiz
+    
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video 11
+      copy: Can you identify the potential threats to businesses from the use of the different devices mentioned in the video? 
 Do    theme: t-bg-primary3 i-think
     

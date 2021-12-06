@@ -10,106 +10,88 @@ sections:
       In this session you will learn about:
       * What is meant by testing code
       * Why it is important to test code
-      * Methods of testing code
-      * Characteristics of a test driven development
       * Benefits of a test driven development
       * What is a bug in relation to code
       * What is debugging
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to:
-      * Explain what is meant by testing code
-      * Explain why it is important to test code
-  -
-  -
-    title: Testing code
-    theme: t-bg-primary
-    copy: |
-      We have talked about different code and how it should be written but to make sure it works it must be tested so let’s look at what is meant by testing code. 
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: What is testing in coding?
-          text: |
-            Testing is the process by which the code of a program is checked to see that it works by executing the program with the aim of finding any errors. If testing is done successfully then it should remove all the errors from the software.
-          img: placeholder_icon.svg
-        -
-          title: Why is it important to test code?
-          text: |
-            Testing is a fundamental process that helps to create reliable and usable software. It helps to check adaptability, identify errors, avoid future extra costs and risks and ultimately give confidence in the program.
-          img: placeholder_icon.svg
-        -
-          title: title
-          text: |
-            paragraph 3
-          img: placeholder_icon.svg
-        -
-          title: title
-          text: |
-            paragraph 4
-          img: placeholder_icon.svg
+      * Methods of testing code
+      * Characteristics of a test driven development
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to:
-      * Identify methods of testing code
-      * Describe the characteristics of a test driven development
-      * Explain the benefits of a test driven development
+      * Explain what is meant by testing code
+      * Explain why it is important to test code
   -
-  -
-    title: Methods of testing code   Code example - 2.3
-    theme:
-    copy: |
-      Let’s look at some of the methods used to test code.
-      
-      2.3 text here
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-
-      ![](/images/jpegs/uc/placeholder.jpg)
-  -
-  -
-    title: Test Driven Development 
-    theme: t-bg-supporting3
-    copy: |
-      2.4 content and diagram
-      
-      So, what are the characteristics of a Test Driven Development or TDD. 
-
-      The Test Driven Development approach creates test cases to specify and validate what the code will do. Test cases for each function are created and tested first before the actual development of the application or program and if the test fails new code is written.
-
-      Let’s look at this in more detail.
-            
-      ![](/images/banners/uc/placeholder.jpg)
-  -
-  -
-    title: Benefits of a test driven development
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
+    copy: |
+      _Presentation style - Presenter(s) with images and titles_
+
+      ### Testing code and the importance of testing
+      
+      We have talked about different code and how it should be written but to make sure it works it must be tested so let’s look at what is meant by testing code.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the importance of software testing.
+
+      links:
+        Ignoring the importance of Software testing: https://www.linkedin.com/pulse/damaging-impacts-ignoring-importance-software-testing-youssef-touati
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify methods of testing code.
+  -
+  -
+    title: Methods of testing code
     theme: t-bg-primary
     copy: |
-      2.5 text
+      Let’s look at some of the details and methods of software testing.
 
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Who tests the code?
+          text: |
+            White box testing: product testing where the source code is provided to the person doing the testing. This person may have knowledge about the software itself, or at least domain-specific knowledge.
+            
+            Black box testing: product testing where source code is not provided to the tester, who is a likely end-user of the product. No more technical expertise would be expected than from the average user.
+
+          img: placeholder_icon.svg
+        -
+          title: How do they test the code?
+          text: |
+            Unit testing: testing of individual units of code to check for errors. Often run as a whole program. This is functional testing.
+            
+            Integration testing: testing of system as a whole when new units are added (e.g. interactions of units). This is functional testing.
+            
+            Regression testing: testing that new changes made to previously tested software do not affect the existing functionality. This is maintenance testing.
+
+          img: placeholder_icon.svg
+        -
+          title: When do they test the code?
+          text: |
+            Smoke test: also known as “sanity testing”, this is a dry run of the software in its environment, often carried out by the test manager.
+            
+            Alpha testing: pre-release testing involving both white box and black box testing.
+            
+            Beta testing: testing by a small sample of potential end-users who have agreed to report bugs, and involves black box and functionality testing.
+            
+            These can encompass functional, non-functional, and maintenance testing.
+
+          img: placeholder_icon.svg
   -
   -
     title: Quick quiz

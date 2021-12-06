@@ -49,6 +49,8 @@ sections:
     layout: media
     copy: |
       _Presentation style - Presenters with headings for each point and imagery to support_
+
+      ### Different methods of communication
       
       Please see the following video on different methods of communication and when to use different methods of communication.
     video: placeholder_pc.mp4
@@ -73,6 +75,8 @@ sections:
     layout: media
     copy: |
       _Presentation style - Presenter with imagery to support_
+
+      ### Adapting communication for different audiences
       
       Please see the following video on the importance of adapting communication for different audiences.
 
@@ -86,23 +90,12 @@ sections:
         _LO or exercise - must relate to the video._
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - Possible for 1.4
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        _example here instead of case study_
 
         Please see the following website where you can learn more about . . .
 

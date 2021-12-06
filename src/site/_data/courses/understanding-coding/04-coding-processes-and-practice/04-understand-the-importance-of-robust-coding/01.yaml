@@ -1,8 +1,6 @@
 title: Understand the importance of robust coding
 intro: |
-  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
-  
-  In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
+    In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
 
 banner: placeholder.jpg
 sections:
@@ -13,6 +11,28 @@ sections:
       In this session you will learn about:
       * What is meant by exception handling
       * What is meant by defensive programming
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Presenter(s) with imagery and text titles_
+      
+      ### Robust coding
+
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style - Interview? Do we still need this here if we are having the introduction video above?_
+      
+      ### Interview - the importance of robust coding
+
+    video: placeholder_pc.mp4
   -
   -
     title: Key point
@@ -26,13 +46,11 @@ sections:
     copy: |
       Exception Handling refers to the way a program handles exceptional circumstances and when an exception occurs the program doesn’t just crash.
       
-      text
-
-      code example in python
+      Please see the following code example in python
 
     subInc:
       type: code
-      lang: py
+      lang: python
       highlight: 
       code: |
         code
@@ -40,8 +58,6 @@ sections:
       text
 
       result here if needed
-
-      
   -
   -
     title: Time to practice
@@ -57,17 +73,6 @@ sections:
     copy: |
       In your assessment you will be required to explain what is meant by defensive programming.
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      ### Defensive programming
-
-      Defensive programming is a form of program design that ensures the continuing function of a piece of software under unforeseen circumstances so that it still behaves in a predictable manner despite unexpected actions.  Please see the following video to learn more.
-    video: placeholder_pc.mp4
   -
     title: Offensive example - Code
     theme:
@@ -87,7 +92,6 @@ sections:
         }
     copy2: |
       text
-
   -
   -
     title: Secure example - Code
@@ -108,7 +112,6 @@ sections:
         }
     copy2: |
       text
-
   -
   -
     title: Time to think
@@ -116,19 +119,8 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Now you have watched the video and seen the code examples .....
+        Now you have seen the code examples .....
 
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _PLACEHOLDER - Presentation style - Interview_
-      
-      ### Interview? 
-
-    video: placeholder_pc.mp4
   -
   -
     title: On the web

@@ -24,34 +24,37 @@ sections:
     title: What is project management?
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
-
+      Project management involves the application of processes, skills, knowledge, and experience used together to achieve specific project objectives according to agreed guidelines and parameters which fit in with a specific timescale and budget. The skills that are often involved in project management are technical skills, people management skills and good business awareness. 
+      
+      Project management involves a project manager and a team around them to initiate and carry out the project according to the needs of the client or stakeholders.
+      
+      Project management can also be split into five key stages: 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Initiating
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Planning
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Executing
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 4 title
+          title: Monitoring and control
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 5 title
+          title: Closing
           text: |
             text
           img: placeholder_icon.svg
@@ -67,9 +70,21 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with imagery to support  OR we could have an introduction piece with an interview?_
+      _Presentation style - Presenter with imagery to support_
+
+      ### The role of the project manager
       
       Please see the following video on the role of the project manager.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a project manager
+      
+      Please see the following interview with a project manager.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -110,27 +125,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
