@@ -44,7 +44,7 @@ sections:
 
           img: placeholder_icon.svg
         -
-          title: Agent Based
+          title: Agent based
           text: |
             This requires the installation of an agent on the devices being scanned which collects information about the vulnerabilities it finds and sends these back to a central portal. 
             The benefit of this deployment model is that because it is installed, it can collect a lot more useful information. 
