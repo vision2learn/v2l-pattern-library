@@ -24,17 +24,6 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style - Interview? Do we still need this here if we are having the introduction video above?_
-      
-      ### Interview - the importance of robust coding
-
-    video: placeholder_pc.mp4
-  -
-  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
