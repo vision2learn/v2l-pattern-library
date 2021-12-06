@@ -10,7 +10,7 @@ sections:
     copy: |
     
   -
-    title: Maintaining cyber security.
+    title: Maintaining cyber security
     theme: t-bg-primary
     copy: |
       We all know by now how important it is to maintain our cyber security and, in this unit, you will look at some aspects of cyber security we have already touched upon in more depth.
@@ -44,7 +44,7 @@ sections:
 
           img: cs_u5_s1_p2_slide1.svg
         -
-          title: Agent Based
+          title: Agent based
           text: |
             This requires the installation of an agent on the devices being scanned which collects information about the vulnerabilities it finds and sends these back to a central portal. 
             The benefit of this deployment model is that because it is installed, it can collect a lot more useful information. 
@@ -67,7 +67,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: what are the routine ways to maintain cyber security? 
     theme: t-bg-primary3 i-think
 
   -
