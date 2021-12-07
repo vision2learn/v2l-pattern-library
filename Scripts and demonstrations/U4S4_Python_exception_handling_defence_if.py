@@ -9,7 +9,7 @@ def add_values_and_print(a, b):
 		a = int(a)
 
 	if isinstance(b, float) == True:
-		print("Input 'a' was Float type not Int. Converted to Int.")
+		print("Input 'b' was Float type not Int. Converted to Int.")
 		b = int(b)
 
 	try:				# This is where we try the operation

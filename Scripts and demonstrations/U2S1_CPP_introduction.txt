@@ -11,10 +11,10 @@ using namespace std;
 
 int main () {
 
-// Here we decalare a variable called 'myVariable' and give it a value
+  // Here we decalare a variable called 'myVariable' and give it a value
   int myVariable = 5;
 
-// Here is a print statement which prints to the console
+  // Here is a print statement which prints to the console
   cout << "The variable 'myVariable' holds the value: " << myVariable << endl;
 
   return 0;

@@ -21,14 +21,14 @@ def impure_function(input_a, input_b):
 	print('Impure output =', output)
 	return 
 
-# Define a global variable then set it value
+# Define a global variable then set its value
 global glob_x
 glob_x = 3
 
 # Call the impure function
 impure_function(8, 2)
 
-# Change the value of the global variable again
+# Change the value of the global variable
 glob_x = 6
 
 # Then call the impure function again with exactly the same inputs

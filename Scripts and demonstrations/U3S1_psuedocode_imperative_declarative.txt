@@ -12,4 +12,4 @@ Loop Year_11_results from first student to last student:
 Declarative
 
 Import database variable: Year_11_results
-New variable: Class_C_results = EXTRACT students_results if Class == Class_C
+New variable: Class_C_results = FROM Year_11_results EXTRACT students_results if Class == Class_C

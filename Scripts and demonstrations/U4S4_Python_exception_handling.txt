@@ -9,10 +9,6 @@ def add_values_and_print(a, b):
 		print('TypeError. Please ensure that both input variables are Ints.')
 		return
 	else:
-		if isinstance(c, float) == True:
-			print('At least one input was a Float not and Int. Rounded up and converted to Int.')
-			c = int(c)
-
 		print('The output is equal to: ', c)
 
 		return(c)
