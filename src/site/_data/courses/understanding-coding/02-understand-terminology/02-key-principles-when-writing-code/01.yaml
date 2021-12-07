@@ -24,9 +24,7 @@ sections:
     copy: |
       On pages 1 to 4 we are going to use a simple JavaScript program to demonstrate some of the concepts we are discussing.
       
-      Take a look at our *Javascript example* in the below activity which gives a short introduction on each of the terms and principles.  We will then go into more detail further on in the session.
-
-      _still a work in progress - needs text descriptions_
+      Take a look at our *Javascript example* in the below activity which gives a brief overview on each of the terms and principles.  We will then go into more detail further on in the session.
 
     interactive: 
       file: uc/u2_s2_p1_js_overview
