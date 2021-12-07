@@ -38,7 +38,7 @@ sections:
        
    
   -
-    title: Keeping up to date. 
+    title: Keeping up to date 
     theme: t-bg-primary1a
     copy: |
       So why why is it important to keep cyber security information and maintenance records accurate and up to date? 
@@ -49,7 +49,7 @@ sections:
       type: accordion
       content:
         - 
-          title: accuracy
+          title: Accuracy
           copy: |
             Keeping accurate and up to date information and maintenance records on cyber security is essential in helping to understand how systems are being used and collecting logs and good logging practices are fundamental in protective monitoring. They can also be used if a breach happens to look at the impact of it.
           img: /images/svg/cs/cs_u5_s1_p3_accordian1.svg
@@ -65,7 +65,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: Have you installed security updates or applied patches to software either at work or on your home computer? what was the reason for this? 
+      copy: Have you installed security updates or applied patches to software either at work or on your home computer? What was the reason for this? 
     theme: t-bg-primary3 i-think
 
   -
