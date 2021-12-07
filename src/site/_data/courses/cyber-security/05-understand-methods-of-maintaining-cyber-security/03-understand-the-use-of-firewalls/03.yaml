@@ -3,3 +3,12 @@ intro: Well done, you've now completed session 3 of this unit!
 banner: summary.jpg
 sections:
   -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is a firewall
+      * The key functions of a firewall
+      * What is meant by network traffic
+      * The advantages and disadvantages of using a firewall to protect from threats
+  -

@@ -3,3 +3,11 @@ intro: Well done, you’ve now completed the second session of this unit! By wor
 banner: summary.jpg
 sections:
   -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is meant by user access control
+      * Methods of restricting user access
+      * How to create a user access control system
+  -

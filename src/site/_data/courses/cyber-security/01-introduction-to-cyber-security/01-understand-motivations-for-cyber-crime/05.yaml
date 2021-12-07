@@ -3,5 +3,16 @@ intro: Well done, you’ve now completed the ﬁrst session of this unit! By wor
 banner: summary.jpg
 sections:
   - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What cyber crime is
+      * The possible motives for cyber crime
+      * Potential threat actors
+      * What is meant by the terms 'external threat' and 'insider threat'
+      * The possible motivations that could lead to external and insider threats
+      * What is meant by 'targeted' and 'untargeted' attacks
+  -
 
 

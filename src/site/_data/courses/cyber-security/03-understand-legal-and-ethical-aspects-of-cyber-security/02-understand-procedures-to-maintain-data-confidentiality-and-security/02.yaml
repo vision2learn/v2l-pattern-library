@@ -3,3 +3,13 @@ intro: Well done, you’ve now completed the second session of this unit! By wor
 banner: summary.jpg
 sections:
   - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Ways to protect stored data
+      * Basic techniques for encrypting information
+      * The advantages and disadvantages of each encryption technique
+      * What is meant by data in transit, and data at rest
+      * The security checks an organisation might undertake before releasing information
+  -

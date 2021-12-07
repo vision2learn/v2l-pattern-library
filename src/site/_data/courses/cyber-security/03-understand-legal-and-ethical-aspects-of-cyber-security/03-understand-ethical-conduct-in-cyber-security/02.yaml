@@ -3,3 +3,10 @@ intro: Well done, you've now completed session 3 of this unit!
 banner: summary.jpg
 sections:
   - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Ethical conduct within cyber security
+      * Unethical conduct within cyber security
+  -

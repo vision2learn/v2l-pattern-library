@@ -17,7 +17,7 @@ sections:
       Network Traffic is the term used for data travelling across a computer network at any given time. It is broken down into 'data packets' which are then reassembled by the receiving device. Data traffic can flow in two directions either north south or east west. High amounts of network traffic can lead to slower download speeds or poor connections. They can also be a sign of a security attack.
 
     img: /images/svg/cs/cs_u5_s3_p2_image1.svg
-  -
+  - 
     title: What is a data packet?
     theme: t-bg-supporting2
     copy: |
