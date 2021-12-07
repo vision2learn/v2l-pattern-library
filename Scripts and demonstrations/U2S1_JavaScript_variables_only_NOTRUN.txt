@@ -1,0 +1,11 @@
+/*
+In JavaScript, variables must be declared, which 
+can happen by starting the line with 'var'
+*/
+
+
+var myInt = 5;
+var myFloat = 5.65;
+var myBool = true;
+var myChar = 'X';
+var myStr = 'A string';

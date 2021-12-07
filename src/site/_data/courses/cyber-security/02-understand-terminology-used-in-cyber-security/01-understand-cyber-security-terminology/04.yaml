@@ -1,17 +1,21 @@
-title: "Cyber security terminology and strategies"
+title: "Cyber security terminology"
 intro: |
   On this page you will learn about:
   * the main terminology used in cyber security
-  * organisational cyber security strategies
-banner: cs_u1_s1_p4_threats.jpg
+banner: cs_u2_s1_p4_terminology.jpg
 sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the different terminology used in cyber security. 
   -
     title: Terminology
     theme: t-bg-primary
     copy: |
       
 
-      When talking about cyber security you will hear quite a lot of terms used. lets have a look at these in more detail.
+      Vulnerability, threat, risk, attack are major terms that you will often hear used in cyber security. Let’s have a look at these in more detail.
 
 
   -
@@ -19,46 +23,40 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Terminology
+      ### Vulnerabilities and threats 
        
-    video: placeholder_pc.mp4
+    video: cs_u2_s1_p4_vulnerability_and_threats.mp4
+  -      
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: In terms of cybersecurity an example of a negative event is your computer being hacked.
+          answer: negative
+        -
+          sentence: A vulnerability is a weakness that can be exploited by cybercriminals to gain unauthorised access to a computer system.
+          answer: weakness
+        -
+          sentence: Having up-to-date antimalware software can help to cut down the threat and reduce vulnerability.
+          answer: antimalware
+        -
+          sentence: To work out any cybersecurity risk an organisation or company should assess their system vulnerabilities.
+          answer: vulnerabilities
+        -
+          sentence: By having a cyber security strategy in place an organisation can be prepared to act if an attack should happen but more importantly, be ready and protected from that attack.
+          answer: strategy
+        -
+          sentence: DRP's can provide instructions to follow in the event of an attack which in turn may minimise the severity.
+          answer: DRP's
+    theme: i-quiz
+    
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
-    theme: t-bg-primary3 i-think
+      copy: Can you describe what the terms vulnerability, threat, risk and attack mean? Make a note of your answer in the box to the right.
+    theme: t!
 
-  -
-    title: Organisational strategies.
-    theme: t-bg-primary
-    copy: |
-      Most large companies and organisations have a cyber security strategy which involves planning on how they will secure their assets going forward. One way of doing this is setting up a security operations centre and organising their network operations into a centralised set up so that all organisational facilities are maintained centrally and are monitored 24/7 throughout the year.
-
-      scroll through the slides below to learn more about these strategies. 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Security Operations Centre (SOC)
-          text: |
-            The function of a SOC is to monitor, assess and defend against cyberattacks 24/7.  The size of a SOC team may be different depending on the size and nature of an organisation but the roles and responsibilities are the same. SOC's are centralised within an organisation or company and continuously monitor and improve their cyber security by preventing, detecting, analysing and responding to incidents. The SOC team can detect malicious activities and prevent them before they can cause any damage.
-          img: cs_u1_s1_p3_image_2.svg
-        -
-          title:  SOC analysts role
-          text: |
-            The stages they work through are prevention and detection, investigation and response.
-            A SOC analyst may see something suspicious and gather the information for a deeper investigation. Through investigation analysis the nature of the threat and the extent to which it has penetrated the system. They will approach their network from the perspective of the attacker and look for key indicators and areas of exposure. By looking at this and the latest global threat intelligence they will triage the attacks and coordinate a response before they get out of hand. The SOC is the first responder and will perform actions such as isolating endpoints and terminating harmful processes that may delete files etc. They then work to restore the systems by reconfiguring or deploying back ups to circumvent any ransomware.
-            SOC teams must always be one step ahead of the hackers, however this is becoming more difficult as the attacks become more sophisticated.
-
-          img: cs_u1_s1_p3_image_1.svg
-        -
-          title: Network Operations Centres (NOC)
-          text: |
-             A NOC is usually based at a centralised location where network operation staff provide 24/7 supervision, monitoring and management of the network, servers, databases, firewall, devices and related external services. This may be physically on the premises and or with a cloud based provider. Staff involved in this area are called network operations analysts or engineers.
-             One of the main activities is Network monitoring which involves incident response, communications management, performance and quality reporting, software and firmware installation and trouble shooting, patch management and firewall management, back up and storage.
-             They will also work in collaboration with Security operations with regards to Intrusion Prevention Systems (IPS) threat analysis and blast radius analysis.
-          img: cs_u1_s1_p3_image_2.svg
   -
     

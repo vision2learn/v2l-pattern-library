@@ -1,25 +1,15 @@
 title: "What did you learn?"
 intro: Well done, you’ve now completed the second session of this unit! By working through this session, you have learned about the need for cyber security.
-banner: ba-u1-s1-p6.jpg
+banner: summary.jpg
 sections:
+  - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Ways to protect stored data
+      * Basic techniques for encrypting information
+      * The advantages and disadvantages of each encryption technique
+      * What is meant by data in transit, and data at rest
+      * The security checks an organisation might undertake before releasing information
   -
-    title: Session Quiz
-    subInc:  
-      type: word-quiz
-      content:
-        -
-          sentence: Most health and safety legislation is based on The Health and Safety at Work Act 1974.
-          answer: health and safety
-        -
-          sentence: By having health and safety procedures the organisation ensures that it has a framework for making sure the business environment is healthy, safe and secure for everyone.
-          answer: framework
-        -
-          sentence: If organisations do not follow health and safety procedures they may have to pay compensation to customers or employees who were harmed or at risk.
-          answer: compensation
-        -
-          sentence: . You can help ensure the health and safety of your colleagues by noticing potential hazards.
-          answer: potential hazards
-        -
-          sentence: In order to maintain security and confidentiality in the workplace, you should never share client information.
-          answer: client
-    theme: i-quiz

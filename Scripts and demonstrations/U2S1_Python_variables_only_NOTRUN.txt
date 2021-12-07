@@ -1,0 +1,10 @@
+"""
+In Python, variables can declared directly and 
+the data type is detected automatically
+"""
+
+myInt = 5
+myFloat = 5.65
+myBool = True
+myChar = 'X'
+myStr = 'A string'

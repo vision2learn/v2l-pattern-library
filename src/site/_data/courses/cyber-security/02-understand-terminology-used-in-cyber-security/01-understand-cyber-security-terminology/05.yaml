@@ -1,26 +1,105 @@
-title: "What did you learn, kiddo?"
-intro: Well done, you’ve now completed the ﬁrst session of this unit! By working through this session, you have learned all about - Employment contracts Legislation Sources of information The role of representative bodies supporting employees Equality and diversity.
-banner: summary.jpg
+title: "Types of threat and organisational strategies"
+intro: |
+  On this page you will learn about:
+   * the different types of threat tools that are used by cyber criminals.
+   * organisational cyber security strategies
+banner: cs_u2_s1_p5_terminology_and_strategies.jpg
 sections:
   -
-    title: Session Quiz - Rights and responsibilities at work
-    theme: i-quiz
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the different types of threat tools that cybercriminals may use.
+  
+  -
+    title: types of threat.
+    theme: t-bg-primary
+    copy: |
+      
+       Let's have a look in more detail at specific types of threat and how they can be protected against.
+
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Threat types
+       
+    video: cs_u2_s1_p4_terminology.mp4
+  -      
+    title: Quick quiz
     subInc: 
-      type: quick-quiz
+      type: word-quiz
       content:
-        Which of the following is an example of an internal source of information about your rights and responsibilities?:
-          answers:
-            Citizens Advice Bureau: false
-            Libraries: false
-            Line managers: true
-        True or false? "You have the legal right to receive the terms of your employment in writing, after working for your employer for two months.":
-          answers:
-            True: true
-            False: false
-        Complete the following sentence - "People often assume that all employees within an organisation are 'the same' however a huge amount of ____________ exists within the workplace.":
-          answers:
-            Formaility: false
-            Diversity: true
-            Similarity: false
+        -
+          sentence: A DDoS or distributed denial of service attack involves multiple systems orchestrating a synchronised attack to a single target, overloading a server.
+          answer: synchronised
+        -
+          sentence: A bot is a piece of malware that infects a computer to carry out the commands of the attacker remotely.
+          answer: bot
+        -
+          sentence: A trojan is a type of malware often disguised as legitimate software. 
+          answer: trojan
+        -
+          sentence: If a system is infected with ransomware an appropriate decryption tool will be needed to regain access. 
+          answer: ransomware
+        -
+          sentence: Spyware is a form of malware that secretly infects a computer to gather information such as the sites visited, usernames, passwords, payment information and email activity.
+          answer: Spyware
+        -
+          sentence: Worms are designed to spread from computer to computer and have the ability to reproduce themselves to do this.
+          answer: Worms
+    theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Make a note of the different types of threat tools that a cyber criminal may use. 
+    theme: t!
 
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the different roles and functions of a security operations centre and a network operations centre.
+  -
+    title: Organisational strategies.
+    theme: t-bg-primary
+    copy: |
+      Most large companies and organisations have a cyber security strategy which involves planning on how they will secure their assets going forward. One way of doing this is setting up a security operations centre and organising their network operations into a centralised set up so that all organisational facilities are maintained centrally and are monitored 24/7 throughout the year.
 
+      scroll through the slides below to learn more about these strategies. 
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Security Operations Centre (SOC)
+          text: |
+            The function of a SOC is to monitor, assess and defend against cyberattacks 24/7.  The size of a SOC team may be different depending on the size and nature of an organisation but the roles and responsibilities are the same. SOC's are centralised within an organisation or company and continuously monitor and improve their cyber security by preventing, detecting, analysing and responding to incidents. The SOC team can detect malicious activities and prevent them before they can cause any damage.
+          img: cs_u2_s1_p4_slide1.svg
+        -
+          title:  SOC analysts role
+          text: |
+            The stages they work through are prevention and detection, investigation and response.
+            A SOC analyst may see something suspicious and gather the information for a deeper investigation. Through investigation analysis the nature of the threat and the extent to which it has penetrated the system. They will approach their network from the perspective of the attacker and look for key indicators and areas of exposure. By looking at this and the latest global threat intelligence they will triage the attacks and coordinate a response before they get out of hand. The SOC is the first responder and will perform actions such as isolating endpoints and terminating harmful processes that may delete files etc. They then work to restore the systems by reconfiguring or deploying back ups to circumvent any ransomware.
+            SOC teams must always be one step ahead of the hackers, however this is becoming more difficult as the attacks become more sophisticated.
+
+          img: cs_u2_s1_p4_slide2.svg
+        -
+          title: Network Operations Centres (NOC)
+          text: |
+             A NOC is usually based at a centralised location where network operation staff provide 24/7 supervision, monitoring and management of the network, servers, databases, firewall, devices and related external services. This may be physically on the premises and or with a cloud based provider. Staff involved in this area are called network operations analysts or engineers.
+             One of the main activities is Network monitoring which involves incident response, communications management, performance and quality reporting, software and firmware installation and trouble shooting, patch management and firewall management, back up and storage.
+             They will also work in collaboration with Security operations with regards to Intrusion Prevention Systems (IPS) threat analysis and blast radius analysis.
+          img: cs_u2_s1_p4_slide3.svg
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: In the box to the right, describe the functions and role of security operations centre and a network operations centre.
+    theme: t!
+
+  -
+    

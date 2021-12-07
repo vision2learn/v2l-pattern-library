@@ -5,8 +5,13 @@ intro: |
   * software 
   * data management 
 
-banner: cs_u1_s1_p3_cyber.jpg
+banner: cs_u2_s1_p2_areas_affected.jpeg
 sections: 
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the relationshiop between hardware, software and data management in relation to cyber security.
   -
     title: Targets
     theme: t-bg-primary
@@ -19,14 +24,33 @@ sections:
     copy: |
       ### Hardware and software
       Let's look at the different areas that may be affected by a cyber attack. 
-    video: placeholder_pc.mp4
+    video: cs_u2_s1_p2_hardware_and_software.mp4
+  -           
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Hardware is the physical components of a computer system and covers everything a system needs to function.
+          answer: Hardware
+        -
+          sentence: The Operating system or OS is the software that enables computer hardware to communicate and operate all the other software that is subsequently loaded onto the computer.
+          answer: Operating
+        -
+          sentence: Malicious hardware in the form of chips can remain dormant for months or years before being used to launch an attack. 
+          answer: chips
+        -
+          sentence: Having 'up to date’ antimalware software and making sure all programs are up to date can help to keep systems secure.
+          answer: antimalware
+    theme: i-quiz
+
   -
     title: Data management
     theme: t-bg-primary
     copy: |
       Data management is the process of ingesting, storing, organising and maintaining data created and collected by a business or an organisation. It includes different functions that collectively aim to make sure it is accurate, available and accessible. Data can help an organisation or business to make strategic planning decisions and therefore is at risk of threat attack from cyber criminals. All businesses deal in data to some degree from a bank with massive volumes of personal and financial data to a small business that contacts its customers by mobile phone.
       
-      Scroll through the slides below to learn more about data management...
+      Scroll through the slides below to learn more about data management.
 
     subInc: 
       type: slider
@@ -37,20 +61,33 @@ sections:
           text: |
             Data security technology also comes in many different shapes and forms to protect data from the growing number of cyber threats that are out there. Most threats are external but some are insider threats. Data can be secured by the means of encryption, masking, erasure and resilience. 
             Data security needs to protect any data that is collected, stored, created, received or transmitted. Data breaches can result in damaging a company or organisation's reputation as well as litigation
-          img: placeholder_icon.svg
+          img: cs_u2_s1_p2_slide1.svg
         -
           title: Cyber Secure
           text: |
             To be cyber secure, data must be handled in a way that ensures confidentiality and protection against unlawful or unauthorised processing or access. Integrity checking can maintain internal consistency and lack of corruption of data. Data should also only be accessible to the appropriate parties and only when necessary. Data should also be destroyed safely when it is no longer needed.
-          img: placeholder_icon.svg
+          img: cs_u2_s1_p2_slide2.svg
         -
           title: Data breach
           text: |
             If there is a personal data breach then it is an organisation or businesses responsibility to report it promptly as we discussed in unit 1 session 2.
             The 'Data Protection Act of 2018' is the UK's implementation of the General Data Protection Regulation (GDPR) and controls how personal information is used by organisations, businesses and governmental departments and stipulates that everyone responsible for using personal data has to follow strict guidelines, also known as 'data protection principles'. 
-          img: placeholder_icon.svg
+          img: cs_u2_s1_p2_slide3.svg
 
   -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document to learn more about encryption, masking, erasure and resilience.
+
+      [Data security.](/pdfs/cs_u2_s1_p2_read_data_security.pdf)
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Can you define the relationship between hardware, software and data management in relation to cyber security? Make a note of your answer in the box to the right.
+    theme: t-bg-primary3 i-think
+  -   
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -61,8 +98,3 @@ sections:
       links:
         Data protection laws: https://www.gov.uk/data-protection     
   -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: content to relate to video
-    theme: t-bg-primary3 i-think

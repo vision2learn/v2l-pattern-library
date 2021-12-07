@@ -1,0 +1,64 @@
+title: Understand team working for cyber security
+intro: |
+  On this page you will learn about:
+  * ways to resolve conflict within a team
+  * how reviewing work activities can support effective teamwork
+
+banner: cs_u6_s1_p3_types_of_threat.jpeg
+sections:
+  -
+    
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### conflict resolution
+      So, what happens when a team isn’t functioning effectively, and conflict becomes evident. Let’s look at ways to resolve conflict within a team.
+    video: cs_u6_s1_p3_resolving_conflicts.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+  -    
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Even in the most efficient well-run companies, teams can be affected by conflict.
+          answer: conflict
+        -
+          sentence: Using an intermediary or trusted third party that both sides can have faith in, can help with resolving conflict by being fair and impartial and identifying the issues.
+          answer: intermediary
+        -
+          sentence: Dominant individuals should not be allowed to bully more reserved members of the team, and everyone should be able to have their say.
+          answer: Dominant
+        -
+          sentence: Conflict should be addressed before it gets out of hand, and this can be done using proactive strategies
+          answer: proactive
+        -
+          sentence: By airing the grievances that may have started the conflict, things can be resolved quite amicably to suit all parties.
+          answer: grievances
+    theme: i-quiz 
+  -
+  
+    title: Key requirements
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      ### So how can reviewing work activities can support effective teamwork?
+
+      Working as part of a team whatever the industry can be both rewarding and challenging as every team member needs to feel valued and part of the group. So how can reviewing work activities support effective teamwork especially in a cyber security setting.
+
+      Reviewing should be a valued and memorable experience. It should involve finding a way of learning from the experience and using those findings to become more dynamic and productive. Whatever an individual’s role is within the team reviewing work activities should be able to support effective teamwork by helping others to learn from the experience.
+
+    img: /images/svg/placeholder_icon.svg 
+  -  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: content to relate to video
+    theme: t-bg-primary3 i-think
+  -
