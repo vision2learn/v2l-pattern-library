@@ -3,3 +3,13 @@ intro: Well done, you've now completed session 3 of this unit!
 banner: summary.jpg
 sections:
   - 
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * The role of key organisations in the cyber security industry
+      * General job functions carried out by cyber security professionals
+      * What 'hacking’ is
+      * The differences between 'white-hat', 'black-hat', 'grey-hat' hackers
+      * The key skills requirements of a cyber security professional
+  -

@@ -1,7 +1,7 @@
 title: "Understand key legislation related to cyber security"
 intro: | 
-  On this page you will learn about the following areas in relation to cyber security. 
-  key points of current legislation related to cyber security to protect an individual, a business and a nation 
+  On this page you will learn about the following in relation to cyber security. 
+  * key points of current legislation related to cyber security to protect an individual, a business and a nation 
   
 banner: cs_u3_s1_p2_key_legislation.jpeg
 sections: 
@@ -11,7 +11,7 @@ sections:
     copy: |
      Take note of how current legislation relating to cyber security can protect individuals, businesses and nations as you will need to talk about this in your assessment.
   -
-    title: Legislation associated with cyber security.
+    title: Legislation associated with cyber security
     theme: t-bg-primary
     copy: |
       England and Wales do not have a dedicated fully comprehensive cybersecurity law at present, but use a range of legal frameworks for cyber security dispersed across a number of different laws.
@@ -28,7 +28,7 @@ sections:
           title: Computer Misuse Act (1990)
           text: |
             The Computer Misuse Act protects personal data held by organisations from unauthorised access and modification).The act makes any unauthorised access or modification of data on a computer system illegal such as hacking, planting a virus and introducing malware and spyware. This act also covers DoS and DDoS attacks as these impair the operation and prevent or hinder access to programs and data. The making and supplying or obtaining anything that can be used in computer misuse is also illegal. This includes selling tools and software for committing cyber attacks. This can affect individuals and businesses alike.
-          img: placeholder_icon.svg
+          img: cs_u3_s1_p2_slide1.svg
         -
           title: Data Protection Act (2018)
           text: |
@@ -58,7 +58,7 @@ sections:
           title: GDPR
           text: |
             The General Data Protection is a regulation created by the EU in 2018 to members of the European Economic Data that addresses the transfer of personal data between its member states. It mandates that each member country has its own regulator (in the UK this is the Information Commissioners Office ICO) and that organisations that give the power back to the individual by ensuring that all personal data is processed with a legitimate interest and allows individuals the right to understand and control who uses their data. 
-          img: placeholder_icon.svg
+          img: cs_u3_s1_p2_slide7.svg
                
   -
     title: Stretch - weblink

@@ -2,4 +2,14 @@ title: "What did you learn?"
 intro: Well done, you’ve now completed the second session of this unit! By working through this session, you have learned about the need for cyber security.
 banner: summary.jpg
 sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Common cyber crime vulnerabilities of an individual, business or nation
+      * Impact of cyber crime on an individual, business or nations
+      * The importance of cyber security for an individual, business or nations
+      * Why cyber security issues should be reported promptly
+
   - 

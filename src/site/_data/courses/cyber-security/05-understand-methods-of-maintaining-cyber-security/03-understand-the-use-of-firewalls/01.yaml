@@ -47,7 +47,6 @@ sections:
           title: Packet Filtering Firewalls
           text: |
             These are the simplest type of firewall and just look at the source and destination IP and ports. This allows admins to create access control lists that state which devices are allowed to communicate and on which ports. They are simple and cost efficient to implement but because they don’t look at the content of the packets being sent, they should only be used on semi-trusted networks such as internal networks.
-
           img: cs_u5_s3_p1_slide1.svg
         -
           title: Stateful Inspection Firewalls

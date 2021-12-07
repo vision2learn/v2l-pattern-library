@@ -3,3 +3,12 @@ intro: Well done, you've now completed session 3 of this unit!
 banner: summary.jpg
 sections:
   -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      * Why perimeter access control is important
+      * When check and challenge on the premises may be needed.
+      * Possible threats to a business presented by the use of; personal devices, removable devices, hardware, and networking infrastructure
+      * Possible threats presented by remote working.
+      * Best practice which can help to minimise physical threats to cyber security.
+  -

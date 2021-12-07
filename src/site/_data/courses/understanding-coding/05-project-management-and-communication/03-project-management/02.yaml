@@ -12,36 +12,37 @@ sections:
     title: What is Lean project management?
     theme: t-bg-primary
     copy: |
+      ‘Lean’ originated as part of manufacturing practices but has now transformed the areas of knowledge and management. 
       
+      The five principles of Lean are: 
 
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: reveal
+      content:
         -
           title: Defining value
-          text: |
-            text
+          copy: |
+            This is what the customer is willing to pay for. What they need and what they can afford to pay.
           img: placeholder_icon.svg
         -
           title: Mapping the value stream
-          text: |
-            text
+          copy: |
+            Activities that do not add the value to the end customer are considered as waste.
           img: placeholder_icon.svg
         -
           title: Creating flow
-          text: |
-            text
+          copy: |
+            After removing waste, the remaining steps should flow and run smoothly without interruptions.
           img: placeholder_icon.svg
         -
           title: Using the pull system
-          text: |
-            text
+          copy: |
+            The pull-based system limits inventory and allows for just in time delivery.
           img: placeholder_icon.svg
         -
           title: Pursuing perfection
-          text: |
-            text
+          copy: |
+            Continuous process improvement helps striving for perfection whilst meeting the clients needs.
           img: placeholder_icon.svg
   -
   -
@@ -63,13 +64,13 @@ sections:
       In your assessment you will be required to identify the principles of Waterfall project management.
   -
   -
-    title: Waterfall
+    title: The Principles of Waterfall Project Management
     theme: 
     copy: |
-      _wide image of the Waterfall model_ 
-
-      Let’s look at this in more detail.
-            
+      The waterfall project management approach emphasises a linear approach from the beginning to the end of a project. It flows like a waterfall through all phases of a project with each phase wrapping up before the next phase begins. It is often used by engineers and is front loaded relying on careful planning, detailed documentation, and consecutive execution.
+      
+      It follows a chronological process and works on fixed dates, requirements, and outcomes.
+      
       ![](/images/banners/uc/placeholder.jpg)
   -
   -
@@ -78,36 +79,24 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the waterfall project management methodology.
 
       links:
-        website description: http://www.google.co.uk
+        Waterfall methodology: https://www.workfront.com/project-management/methodologies/waterfall
+  -
   -
     title: Triple constraint
+    layout: media
     theme: t-bg-primary
     copy: |
-      Select the images below to read 
+      Triple constraint is a model that describes the three most significant restrictions on any project and is often called the project management triangle. The sides of the triangle are Scope, Schedule and Cost and quality sits in the middle. 
+      
+      These three constraints are interdependent, and none can be altered without affecting one or both others:
+      * __Scope__ - It’s important to define project goals and requirements before work begins.
+      * __Schedule__ - A detailed scope document defines the schedule and project deadline.
+      * __Cost__ - Time spent affects budget along with other resource costs.
 
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Scope
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Schedule
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Cost
-          copy: |
-            text
-          img: placeholder_icon.svg
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: Time to think

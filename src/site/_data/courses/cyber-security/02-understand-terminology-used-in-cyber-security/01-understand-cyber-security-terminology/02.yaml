@@ -31,13 +31,13 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Hardware is the physical components of a computer system and covers everything a system needs to function
+          sentence: Hardware is the physical components of a computer system and covers everything a system needs to function.
           answer: Hardware
         -
           sentence: The Operating system or OS is the software that enables computer hardware to communicate and operate all the other software that is subsequently loaded onto the computer.
           answer: Operating
         -
-          sentence: Malicious hardware in the form of chips can remain dormant for months or years before being used to launch an attack 
+          sentence: Malicious hardware in the form of chips can remain dormant for months or years before being used to launch an attack. 
           answer: chips
         -
           sentence: Having 'up to date’ antimalware software and making sure all programs are up to date can help to keep systems secure.
@@ -50,7 +50,7 @@ sections:
     copy: |
       Data management is the process of ingesting, storing, organising and maintaining data created and collected by a business or an organisation. It includes different functions that collectively aim to make sure it is accurate, available and accessible. Data can help an organisation or business to make strategic planning decisions and therefore is at risk of threat attack from cyber criminals. All businesses deal in data to some degree from a bank with massive volumes of personal and financial data to a small business that contacts its customers by mobile phone.
       
-      Scroll through the slides below to learn more about data management...
+      Scroll through the slides below to learn more about data management.
 
     subInc: 
       type: slider
@@ -85,7 +85,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: can you define the relationship between hardware, software and data management in relation to cyber security? Make a note of your answer in the box to the right.
+      copy: Can you define the relationship between hardware, software and data management in relation to cyber security? Make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
   -   
     title: On the web
