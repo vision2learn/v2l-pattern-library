@@ -133,6 +133,11 @@ module.exports = function(config) {
     let filesToCheck = [basename];
     let vidFilePath = `https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/${file}`;
 
+    if(basename.indexOf('placeholder') !== -1) {
+      vidFilePath = 'https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/placeholder.mp4';
+      multi = false;
+    }
+
     if(multi) {
       filesToCheck.push(basename.replace('_pc', '_mac'))
     }
