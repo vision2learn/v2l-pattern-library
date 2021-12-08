@@ -1,0 +1,18 @@
+{%- if data.type == 'unitquiz' -%}
+  {%- set icon = 'unit_quiz_button.svg' -%}
+{%- endif -%}
+
+<section id="{{ data.id }}" class="{{ data.theme }}">
+  <div class="l-media ">  
+    <h2 class="l-media__title">
+      {{ data.title }}
+    </h2>
+    
+     <div class="l-media__body ">
+      {{ data.copy | markdownify | safe }}
+    </div>
+    <a href="{{ site.tilde + "/" }}{{ unit + "/quiz" }}" class="l-media__img" aria-label="{{ label }}">
+      {% include 'svg/buttons/' + icon %}
+    </a>
+  </div>
+</section>

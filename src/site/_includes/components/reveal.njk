@@ -21,7 +21,6 @@
     {%- endfor %}
   {% else %}
     {% set revealdata = defaultdata.courseFeatures %}
-    
     {%- for key, val in revealdata %}
       {# Not ideal, but the first 9 in default data are the standard course features #}
       {% if loop.index < 10 %}

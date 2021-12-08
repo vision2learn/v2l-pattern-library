@@ -1,7 +1,7 @@
 title: "Understand current and emerging challenges in cyber security"
 intro: |
   In this session you will learn about the current and emerging challenges that are faced in cyber security:
-banner: ba_u1_s2_p1_hss.jpg
+banner: cs_u2_s2_p1_emerging_challenges.jpeg
 sections:
   -
     title: Your learning goals
@@ -15,14 +15,14 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+     Make sure that you understand and can describe current and emerging challenges in cyber security. 
   -
     title: Challenges
     theme: t-bg-primary
     copy: |
       When we thing of cyber security we think of 'Dark Web' based hackers and criminals infiltrating systems of businesses and organisations, holding them to ransom for financial gain. We may also consider having our own personal data compromised and our identities stolen and the ways it affects us individually. But there are so many more emerging challenges in cyber security that we face today and many of those affect us directly.
       
-      Let's have a look at some of the different areas that we need to be aware of. ...
+      Let's have a look at some of the different areas that we need to be aware of.
 
     subInc: 
       type: slider
@@ -32,38 +32,93 @@ sections:
           title: Internet of Things
           text: |
             The Internet of Things (IOT) refers to a system of interrelated and connected objects that can collect data and transfer it wirelessly without human intervention. Things can be medical devices, solar panels, vehicle sensors, or anything that has the ability to gather and transfer data like that fancy smart fridge that organises your shopping.
-          img: placeholder_icon.svg
+          img: cs_u2_s2_p1_slide1.svg
         -
           title: Dark Web
           text: |
             The Dark Web is the hidden part of the worldwide web which the general internet users will not gain access to. It is not indexed by popular browsers and is seen as the dangerous part of the internet where shady and illegal things happen. It is also a place that journalists and whistleblowers go to share their stories.
-          img: placeholder_icon.svg
+          img: cs_u2_s2_p1_slide2.svg
         -
           title: Cloud Services
           text: |
             Cloud services are infrastructure and software that is hosted by a third party provider and are available through the internet. Cloud services facilitate the flow of data from a user's device via the internet or VPN to their systems and back. This may be used for storage or security purposes as well as other cloud applications such as creative, educational, financial and business services. Users can keep all their data secure and accessible using cloud services and don't need to invest in as much technical infrastructure and software that has to be updated. Cloud services are also available 24/7.
-          img: placeholder_icon.svg
+          img: cs_u2_s2_p1_slide3.svg
         -
           title: Deepfakes
           text: |
             Deep fakes are fake videos created using deep learning technology a type of machine learning to create a digital version of someone. It can map a persons face and mouth movements and can then make the same anything. The technology was devised for the creative sectors but the worry is it being used for nefarious ends.
-          img: placeholder_icon.svg
+          img: cs_u2_s2_p1_slide4.svg
         -
           title: Fake news
           text: |
             Fake news and false information is readily available on the internet. Traditionally news came from trusted media sources that followed strict codes of practise. Nowadays people get their news from social media sites and networks, where the lack of regulation makes it difficult to decipher what is real and what is fake. This can include clickbait, propaganda, satire and parody, biased news, misleading headings and sloppy journalism.
-          img: placeholder_icon.svg
+          img: cs_u2_s2_p1_slide5.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Challenges
+      ### Currrent Challenges 
       Let's look at these in more detail and consider how it affects us all. 
-    video: placeholder_pc.mp4
+    video: cs_u2_s2_p1_challenges_part1.mp4
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: what are the current challenges that are faced in cyber securirty? Make a note of your answer in the box to the right.
     theme: t-bg-primary3 i-think
+  -
+    title: Emerging challenges
+    theme: t-bg-primary
+    copy: |
+      Lets take a look at the darkweb, fake news and deepfakes in more detail.
+  -        
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Challenges 2
+       
+    video: cs_u2_s2_p1_challenges_part2.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Mobile malware can target systems due to unsecure usage of URL's over WiFi or other networks.
+          answer: malware
+        -
+          sentence: Allowing devices to connect to the internet opens them up to a number of serious vulnerabilities if they are not protected properly.
+          answer: vulnerabilities
+        -
+          sentence: The Dark Web isn't indexed by search engines but can be accessed by those who wish to use a special browser and almost anything that has a link to criminal enterprise can be found there.
+          answer: Dark Web
+        -
+          sentence: Something we don't always think of as cyber crime is 'fake news' and video.
+          answer: fake news
+        -
+          sentence: Deepfakes can be more worrying, as we say 'seeing is believing' however technology has advanced so much that often what we see, should not be believed. 
+          answer: Deepfakes
+        -
+          sentence: There are many things that have the potential to be affected by cyber crime but one new advancement is the use of the technology of drones.
+          answer: drones
+    theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: What do you think are the emerging challenges in cyber security? Make a note of your answer in the box to the right.
+    theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the link below where you can find out about how a major car manufacturers cars were hacked.
+
+      links:
+        Car software hack: https://www.theverge.com/2015/7/24/9036153/chrysler-hack-vulnerability-automobile-car-software-security    
+  -

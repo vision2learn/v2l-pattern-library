@@ -1,6 +1,48 @@
 title:  "Understand the need for cyber security"
 intro:  |
   On this page you will learn about:
-banner: ba_u1_s2_p3_procedures.jpg
+banner: cs_u5_s2_p2_need_for_cyber_security.jpeg
 sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand how to set up user access control system
+    
+  -
+    title: Setting up user access controls
+    theme: t-bg-primary
+    copy: |
+      So now we know what user access control is, let's look at how to create a user access control system in a little more detail.
+
+
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Access controls
+      Lets take a look at how user access controls are used in more detail.
+    video: cs_u5_s2_p2_access_controls.mp4
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Using the links below have a go at setting up users and user access controls on your own computer. 
+
+      links:
+        How to Set Up, Configure and Manage User Accounts on Windows 10: https://www.youtube.com/watch?v=rxbWOhiFoZY
+        How user access controls work in windows 10: https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/how-user-account-control-works
+        
+        Set up users, guests and groups on a Mac: https://support.apple.com/en-gb/guide/mac-help/mtusr001/mac
+        How to setup multiple users on a Mac: https://www.imore.com/how-set-multiple-users-your-mac
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Now that you have setup your own user access controls, explain the steps that you took and what you had to consider when setting up permissions. 
+    theme: t-bg-primary3 i-think
+
   -

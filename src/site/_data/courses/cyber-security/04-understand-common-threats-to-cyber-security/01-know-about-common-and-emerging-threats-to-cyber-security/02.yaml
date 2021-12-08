@@ -1,33 +1,77 @@
 title: Know about common and emerging threats to cyber security
 intro: | 
-  On this page you will learn about the following areas in relation to cyber security. 
-  common and emerging threats to cyber security 
+  On this page you will learn about the following areas in relation to cyber security 
+  Common and emerging threats to cyber security 
   
-banner: cs_u1_s1_p3_cyber.jpg
+banner: cs_u4_s1_p2_emerging_threats.jpeg
 sections: 
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-    
+      Make sure that you fully understand the common and emerging threats to cyber security.
   -
-    title: Common and emerging threats to cyber security.
+    title: Threats to cyber security.
     theme: t-bg-primary
     copy: |
-      As we all know the technology landscape is constantly changing and this is even more relevant to cybersecurity especially over the last year with the disruption caused by the pandemic. None of us could envisage what would happen to this extent and what the impact would be on our lives and for business, technology and cybersecurity. This has created so many opportunities for cyber criminals to develop new attacks and threaten our cyber security.
+      As we all know the technology landscape is constantly changing and this is even more relevant to cyber security especially over the last year with the disruption caused by the pandemic. None of us could envisage what would happen to this extent and what the impact would be on our lives and for business, technology and cyber security. This has created so many opportunities for cyber criminals to develop new attacks and threaten our cyber security.
 
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Threats
+      ### Common Threats
       So as the threat landscape changes and new threats emerge, let's look at what we have to deal with today and what may come tomorrow in the field of cyber security.
-    video: placeholder_pc.mp4
+    video: cs_u4_s1_p2_common_and_emerging.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The increased use of mobile devices to order food, book appointments, organise parcel deliveries, do our banking, purchasing goods and book medical tests and appointments has increased the risk of Phishing attacks.
+          answer: Phishing
+        -
+          sentence: A common example of vishing is when an employee would be called by someone posing as ‘IT Helpdesk’ asking them to install something on their computer which turns out to be malware.
+          answer: vishing
+        -
+          sentence: Phishing covers a range of different social engineering attacks which trick victims into sharing sensitive information such as passwords, usernames, and credit card details for malicious reasons.
+          answer: social engineering
+        -
+          sentence: Attacks can be random or more sophisticated and targeted known as spear phishing.
+          answer: spear phishing
+        -
+          sentence: A common example of smishing is a text pretending to be ‘Royal Mail’ saying there is an import charge for a fake parcel that requires payment. 
+          answer: smishing
+        -
+          sentence: Other common threats come from 'water holing' a computer attack strategy where an attacker guesses or observes which websites an individual or organisation often uses, and they then affect them with malware.
+          answer: water holing
+    theme: i-quiz
+    
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Effects on us all
+      The covid 19 pandemic has meant massive changes to the way we work. Lets have a look at some of the challenges that this has brought to cyber security.
+    video: cs_u4_s1_p2_effects_of_covid.mp4
   -    
   
     title: Time to think
     include: 
       type: time-to-think
-      copy: content to relate to video
+      copy: What do you think are the common and emerging threats that we face in current times? Do you have personal experience of any of the threats mentioned in the videos? Make a note of your response in the box to the right. 
     theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the latest trends in cybersecurity . . .
+
+      links:
+        Top cyber threats: https://www.checkpoint.com/cyber-hub/cyber-security/what-is-cybersecurity/biggest-cyber-security-challenges-in-2021/     
+    

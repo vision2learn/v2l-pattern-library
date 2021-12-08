@@ -7,142 +7,93 @@ intro: |
   *	resolving conflict within a team 
   *	work activities that can support effective teamwork
    
-banner: cs_u1_s1_p3_cyber.jpg
+banner: cs_u6_s1_p2_team working.jpeg
 sections:
   -
-    title: So what is "Cyber Crime"?
-    theme: t-bg-primary
-    copy: |
-      
-
-      Cyber crime is a very real threat to a range of services, businesses and private individuals around the world. In the UK, cyber crime costs billions of pounds causing untold damage to and threatening our overall security.
-      
-
-  -
-    title: Cyber crime involves a computer or other digital technology. There are two main types of cyber crime.
+    title: Key point
     theme: t-bg-supporting3
-    
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Cyber-dependent crime 
-          copy: |
-            Otherwise known as ‘illegal hacking’. This is when someone gains access to another person’s computer network or device without permission. 
-          img: /images/svg/cs/cs_u1_s1_p3_image_1.svg
-        - 
-          title: Cyber-enabled crime 
-          copy: |
-            This is when technology is used to carry out or enhance another crime, for example fraud.
-          img: /images/svg/cs/cs_u1_s1_p3_image_2.svg
+    copy: 
+      Make sure that you understand what is meant by team dynamics and the benefits of teamwork
   -
-    title: Motives for cyber crime.
+  
+    title: Team Dynamics
+    theme: t-bg-primary1a
+    copy: |
+      ### What is meant by Team Dynamics?
+      'Team Dynamics' are unconscious, psychological factors that influence how a team works together in relation to behaviour and performance. They are critical for an organisations success and allow them to access the skills and experience of all employees. 
+      A Team can be defined as a group of 2 or more people working together to meet a specific goal. Team members distinct roles and behaviours will impact on other group members as well as the group as a whole and can impact the success and effectiveness of the team overall. No two teams will be the same so identifying and addressing any issues that may arise is important to make sure the team dynamic is and remains positive.
+  - 
+    title: Let's look at some of the aspects of team dynamics.
     theme: t-bg-primary
     copy: |
-      A person who commits a cyber crime is known as a cyber criminal. They can work alone or in a team of people. Their motives are often malicious with the intention of stealing sensitive company information, personal data, generating profit and/or for their own political reasons. Scroll through the slides below for different types of m 
+
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: For financial gain 
+          title: Working relationships 
           text: |
-            Cybercrime in finance is the act of obtaining financial gain through profit-driven criminal activity. This includes identity fraud, ransomware attacks, email and internet fraud, and attempts to steal bank account, credit card, or other payment card information.
-          img: cs_u1_s1_p3_image_2.svg
+            Group work is integral to all working relationships as it enables creativity and productivity to flourish as ideas are swapped. A leader should always pay attention to others in their team and encourage successful collaboration and sharing of ideas. This can in turn help with increasing trust and respect and an inclusive work culture.
+          img: placeholder_icon.svg
         -
-          title: To increase business and competition
+          title: Individual personalities
           text: |
-            Cyber attacks against businesses are on the increase. Some attacks are designed to prevent competitors from taking part in major events, while others target the complete shutdown of online businesses for months.
-          img: cs_u1_s1_p3_image_1.svg
+            Teams are made up of individual personalities. Some team members may be strong and opinionated pushing their ideas forward. Others may be more intent on agreeing with the leaders or holding back on opinions for fear of looking foolish, which can lead to a lack of ideas and stagnation. There needs to be a balance within a team of personalities so that the team members complement each other in their skills and experience.
+          img: placeholder_icon.svg
         -
-          title: To make a social or political point
+          title: Team leadership
           text: |
-            Hackers can attack government and organisational websites to make their point known. This is often by causing a website crash so that no one can use it.
-          img: cs_u1_s1_p3_image_3.svg
+            Team leaders need to be aware of the other members strengths and weaknesses and make sure that everyone has a role to play of equal standing. If a team suffers from weak leadership this can pave the way for a dominant team member to take over resulting in lack of direction and conflict. Quieter team members may fail to get their voices heard.
+          img: placeholder_icon.svg
         -
-          title: Radical ‘hackerism’
+          title: Building on Communication
           text: |
-            These acts are usually carried out by bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention or to look cool.
-          img: cs_u1_s1_p3_image_2.svg
+            These acts are usually carried out by bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention or to look cool. In cyber security this is especially important because you will often be needed to explain very technical problems to non-technical audiences and being able to explain the risk to the business generally especially in terms of financial impact.
+          img: placeholder_icon.svg
         -
-          title: Cyber warfare
+          title: Teams in formal and informal settings.
           text: |
-            This is a war on the internet and flow of information. Cyber attacks like these backed by nation-states, which means they are well-funded and well-planned actions carried out by tech-savvy professionals.
-          img: cs_u1_s1_p3_image_1.svg
-  -
-  -
-    title: Threat actors
-    theme: t-bg-supporting3
-    copy: |
-      In cybersecurity, the threat actor is the enemy. This can be a person, group, or entity that creates all or part of an ‘incident’ with the aim to impact an organization’s security.
+            Teams exist wherever people work together towards a common goal. Some are highly formal and subjected to rules and disciplinary actions with a hierarchical structure and they have clearly defined structural goals. Others are more informal constantly changing and are based on interpersonal relationships, existing for a particular purpose with less planned or predetermined goals.
+          img: placeholder_icon.svg
+        -  
+          title: Team Dynamics and Cyber security
+          text: |
+            Team Dynamics and taking on a leadership role in cyber security comes with a different set of responsibilities. A common challenge faced working in cyber security is around conflicting priorities. Good security can be costly, both in terms of money and time and implementing the tools and people necessary to deliver good security is often hard to justify as there is no immediate upfront benefit. It is however, an investment in preventing potential future security issues, but even with the best security in the world a breach can happen. Leaders often need to implement new processes adding more steps to complete in people’s day to day job, which they may be resistant to if they have tight deadlines. Being able to explain why something is important and justify the reasonings to others who have their own priorities, such as deadlines, or budgetary constraints is a very important factor in being successful in cyber security.
+          img: placeholder_icon.svg
 
-      Select the images below to read more about the different types of threat actors
+  -
 
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: Cyber criminals
-          copy: |
-            Cyber criminals are individuals who want to exploit human or security vulnerabilities in I.T. in order to steal passwords, data or money directly. 
-          img: cs_u1_s1_p3_image_1.svg
-        -
-          title: Cyber terrorists
-          copy: |
-            They can target the government, military, business and individuals using cyber espionage. They use computer networks to steal large volumes of sensitive data. This might include intellectual property, research and development projects, strategic data on a company's merger and acquisition plans, or any other information that the owner might want to protect.
-          img: cs_u1_s1_p3_image_2.svg
-        -
-          title: Inside agents and bad actors
-          copy: |
-            text
-          img: cs_u1_s1_p3_image_3.svg
-        -
-          title: State sponsored threat agents
-          copy: |
-            States can directly employ hackers through their military forces and government authorities or fund them indirectly. This makes it easier to deny the involvement of the state if the attack is detected, which decreases the diplomatic repercussions these attacks can have. It also blurs the line between criminal organizations and government groups. 
-          img: cs_u1_s1_p3_image_1.svg
-        - 
-          title: Script kiddies
-          copy: |
-            An amateur who tries to illegally gain access to a computer system using programs (scripts) that others have written. Script kiddies also tend to be indiscriminate and may try to compromise any computer on the Internet they can reach.
-          img: cs_u1_s1_p3_image_2.svg
-        - 
-          title: Hacktivists 
-          copy: |
-            Hacktivists are groups of criminals who unite to carry out cyber attacks in support of political causes. Hacktivists typically target entire industries but sometimes attack specific organizations who they feel don’t align with their political views or practices. In some cases hacktivists have targeted organizations not based on the victim organization’s beliefs but the clients and partners they do business with.
-          img: cs_u1_s1_p3_image_3.svg      
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Lets look at these in more detail
-    video: placeholder_pc.mp4
+      ### Teamwork
+      Lets take a look at the advantages to working in a team to working alone and how team members can work together to make use of individual strengths.
+    video: cs_u6_s1_p2_teamwork.mp4
   -      
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: Statutory employment rights address the legal rights of every employee in the country
-          answer: Statutory
+          sentence: Working with others in a team can increase creativity.
+          answer: creativity
         -
-          sentence: Many small businesses provide their employees with access to a stakeholder pension scheme
-          answer: stakeholder
+          sentence: Productivity can therefore improve as more ideas can be developed and collaboration can increase.
+          answer: Productivity
         -
-          sentence: The Equality Act 2010 protects women from being paid less than men for doing the same job
-          answer: Equality Act 2010
+          sentence: Working alone an increase a person’s independence and help an individual to make their own decisions.
+          answer: independence
         -
-          sentence: The Working Time Regulations provide employees with the right to paid annual leave
-          answer: annual leave
+          sentence: A strong team should have a good team ethic which in turn makes it successful. Successful teams have members with a range of individual strengths and qualities.
+          answer: ethic
         -
-          sentence: The Data Protection Act 2018 restricts the use of personal data an organisation can hold about someone
-          answer: personal data
+          sentence: Strong and responsible leadership is one of the key aspects of maintaining a successful team.
+          answer: leadership
         -
-          sentence: The GDPR is a ruling intended to protect the data of citizens within the European Union.
-          answer: GDPR
+          sentence: A diverse range of team members can also bring an extra dimension to a team.
+          answer: diverse
     theme: i-quiz
     
   -

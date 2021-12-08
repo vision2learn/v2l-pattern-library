@@ -2,8 +2,8 @@
 {% if compData %}
   {% set data = compData.include %}
 {% endif %}
-<section id="on-the-web" class="i-on-web t-bg-secondary2">
-  <h2>On the web</h2>
+<section id="{{ "on-the-web" | uniqueID }}" class="i-on-web t-bg-secondary2">
+  <h2>{% include "svg/course-features/web.svg" %} On the web</h2>
 
   {{ data.copy | d("The following website(s) are all useful sources of information:") | markdownify | safe }}
 

@@ -1,26 +1,16 @@
 title: "What did you learn?"
 intro: Well done, you've now completed session 3 of this unit!
-banner: ba-u1-s1-p6.jpg
+banner: summary.jpg
 sections:
   -
-    title: Session Quiz
-    theme: i-quiz
-    subInc: 
-      type: quick-quiz
-      content:
-        Communicating effectively with others. Telephone conferences are an example of person-to-person communication:
-          answers:
-            True: true
-            False: false
-          feedback: 
-        Which of the following is not an example of non-verbal communication?:
-          answers:
-            Phone conversations: true
-            Posture/body language: false
-          feedback: 
-        Select one option to complete the following sentence "Active listening is important because it allows messages to be communicated ___________ and efficiently:
-          answers:
-            Accurately: true
-            Quickly: false
-            Slowly: false
-          feedback:
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What social engineering is
+      * How social engineering benefits a cyber criminal
+      * Open source information
+      * What information a cyber criminal can gain through open sources
+      * What techniques can be used for social engineering
+      * What information a cyber criminal can gain from social engineering.
+  -

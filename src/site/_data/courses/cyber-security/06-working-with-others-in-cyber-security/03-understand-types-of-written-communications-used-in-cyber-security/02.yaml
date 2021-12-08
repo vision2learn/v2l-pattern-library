@@ -1,7 +1,58 @@
-title: Hacking and skills requirements
+title: Effective written communication
 intro: |
   On this page you will learn about:
-  - The different types of hacker and the key skills required to be a cyber security specialist.
-banner: BA_U1_S3_p2_Communication2.svg
+  - Identify the potential audience for the written communications used
+  - The elements that support effective written communication
+banner: cs_u6_s3_p2_hacking_and_skills.jpeg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand the different audiences and the elements that contribute to effective written communication.
+  - 
+    title: So who will be looking at these written communications and reports?
+    theme: t-bg-primary
+    copy: |
+      In an evolving threat landscape it is important that everyone within an organisation is kept informed by written communication as to various aspects of cyber security and any threats within their company or organisation. However saying that certain employees will need access to more detailed written communications and reports than others.
+      Let's look at the different level of employees and what kind of written communication will be aimed at them.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Line manager  
+          text: |
+            Line managers hold meetings to communicate information to their teams but they also communicate regularly via email. They will regularly read any reports and use the information from these to action via written communication to all team members such as with an impending threat or potential vulnerability.
+          img: placeholder_icon.svg
+        -
+          title: Senior management
+          text: |
+           Use a variety of different types of communication including more formal written communication in the form of messages, orders, instructions, reports, memos etc. Written communication can make sure there is paper trail to follow especially when something is important such as a potential threat or needs investigating after an incident.
+          img: placeholder_icon.svg
+        -
+          title: Team members
+          text: |
+            Team members may communicate with each other in different ways especially informally but the best way to make sure that everyone gets the same information is via written communication. Distributing reports to the team enables them to keep up to date with all issues and written communication offers opportunity for better clarity and transparency especially when it comes to actioning against a possible threat.
+          img: placeholder_icon.svg
+        -
+          title: All staff 
+          text: |
+            All staff can benefit from written communicational from bulletins giving organisational and strategic updates or memos on the current cyber security alert. Different types of reports can be used to inform different departments concerning specific information or more general information that affects the whole organisation. Written communication can be targeted specifically to certain areas or to all areas but can give the same information to everyone depending on how much they need to know.
+          img: placeholder_icon.svg
+
+        
+  -
+
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Written communication
+
+      Written communication has many similarities to verbal communication. However, where verbal or face to face communication use body and tone of voice to convey meaning written communication relies on the correct word choice, grammar, spelling grammar and punctuation. Developing effective      
+      Lets have a look at the elements that effective written communication should contain.   
+
+    video: cs_u6_s3_p2_written_communication.mp4
+  - 

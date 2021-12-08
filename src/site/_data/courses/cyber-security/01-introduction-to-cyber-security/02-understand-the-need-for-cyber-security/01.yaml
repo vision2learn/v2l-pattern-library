@@ -1,7 +1,7 @@
 title: "Understand the need for cyber security"
 intro: |
   In this session you will learn about the need for cyber security and the impact of cyber crime on individuals, businesses or nations and why issues should be reported promptly so as to minimise that impact:
-banner: ba_u1_s2_p1_hss.jpg
+banner: cs_u1_s2_p1_understand_the_need.jpeg
 sections:
   -
     title: Your learning goals
@@ -15,8 +15,13 @@ sections:
       4. Why cyber security issues should be reported promptly
 
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can define the cyber crime vulnerabilities of inviduals, businesses and nations. 
+  -
     title: Common Cyber Crime Vulnerabilities.
-    theme: t-bg-supporting2
+    theme: t-bg-primary1a
     copy: |
       'Cybercrime is now a trillion-dollar cost to the global economy' as reported by cybersecurity firm McAfee.
        Cyber criminals seek to exploit vulnerabilities in technology, people, or processes in order to commit their crimes. These may be used to steal data, passwords or money directly. The most common cyber threats include Hacking, Phishing, Malware and Ransomware and DD0S attacks.
@@ -30,7 +35,7 @@ sections:
         -
           title: Individuals
           copy: |
-            Phishing attacks on individuals are increasing which can lead identify theft and fraud. Instances of cyber bullying are also on the increase which is also considered a type of cybercrime.
+            Phishing attacks on individuals are increasing which can lead to identify theft and fraud. Instances of cyber bullying are also on the increase which is also considered a type of cybercrime.
           img: cs_u1_s2_p1_reveal1.svg
         -
           title: Business
@@ -48,9 +53,34 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
+      ### Vulnerabilities.
       Lets have a look at these vunerabilities in more detail...
-    video: placeholder_pc.mp4
+    video: cs_u1_s2_p1_vulnerabilities.mp4
+  -      
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: There has been a significant growth in cyber criminality over the last few years especially with ransomware.
+          answer: ransomware
+        -
+          sentence: Data is considered a commodity and is a primary target of cybercriminals.
+          answer: Data
+        -
+          sentence: Trojan malware enables hackers to create a backdoor into the businesses systems and access business data and login credentials.
+          answer: Trojan
+        -
+          sentence: The increasing ability for purchasing 'cyber tools' has enabled emerging threats to become established quickly.
+          answer: cyber tools
+        -
+          sentence: Malware can include different subtypes such as ransomware, trojans, worms, crypto miners or spyware as a few examples. 
+          answer: worms
+        -
+          sentence: home-grown cyber criminals are also becoming more sophisticated and offering their services to others
+          answer: sophisticated
+    theme: i-quiz
+    
   -
   
     title: Case study
@@ -62,13 +92,12 @@ sections:
       “Breaches leak personal data on a massive scale and can leave victims vulnerable to fraud, while lives were put at risk and services damaged by the 'WannaCry' ransomware campaign that affected the NHS and many other organisations worldwide.”
  
       “Prominent among the victims was the National Health Service (NHS); over a third of England’s NHS trusts were disrupted, with over 6,900 NHS appointments cancelled and some patients needing to travel farther for accident and emergency care.    Most of the NHS victims used systems for which patches were available but had not been applied, highlighting the importance of basic security practices.”
-
-
-    img: /images/svg/placeholder_icon.svg
+      
+    img: cs/cs_u1_s2_p1_casestudy.svg
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: text
+      copy: Using your learning from this page, make a note of the common vulnerabilities of cyber crime and the potential impact it can have on individuals, businesses and nations.
   -
