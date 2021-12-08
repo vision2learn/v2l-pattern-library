@@ -31,7 +31,59 @@ sections:
       width: 1200
       height: 960
       composition: 1A9338FEE8584755AB48BB991EF417A3
-  -
+      alt: |
+        ### Variables
+
+        A variable is used when it's content needs to change.  You would use a constant if an item needed to remain 'fixed'.
+
+        A variable is a container which can store a value.  A specific data type (e.g. a number) would be assigned to it which has the potential to alter during the running of a program. 
+
+        So in our example, one of the variables is called ```variable_1``` and the number ```25``` has been assigned to it, and it has been declared using ```var```.
+
+        ### Comments
+
+        Comments are very useful in coding as they can be used for several reasons:
+
+          1. They can indicate what the piece of code does
+          2. They can provide information about bug fixes
+          3. They are useful when working in a team and other team members
+              need to know what a particular section of code does
+
+        ### Control flow: Conditional
+
+        Control flow is the order in which a computer executes statements in a script. Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow.  An ```if``` statement would be used to specify a block of code to be executed if a certain condition is true, and ```else``` would be used if the same condition is false.
+
+        In our example the conditionals are ```if``` and ```else``` statements.  It is asking if the value of ```variable_1``` is equal to the value of ```variable_2``` - the outcome is dependent on if it is true or not.
+
+        ### Control flow: Loop (Iteration)
+
+        Iteration is the process of repeating sequential steps over and over (looping) in order to generate an intended outcome.
+
+        Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one.
+
+        Control flow - this statement would 'loop' until it reached the final value before moving to the next statement.
+
+        In our example a ```for``` statement has been used to 'loop' through the items of the variable ```list_1``` starting from first value. 
+
+        The items ```i```, ```length``` and ```i++``` determine how many times to 'loop' through the statement.
+
+        Each iteration will print the values of the variable until it reaches the final value.
+
+        ### Function
+
+        A 'function' is a block of code designed to perform a particular task.  It  can be used as many times as it is needed within a program.  This is useful as it means there is no need to repeat the same code.
+
+        In our example ```myFunction``` is returning the result of adding the values of the variables ```input_1``` to ```input_2```.
+
+        ### Control flow: Function call
+
+        Once a function has been written it can be used as many times as it is needed within a program.  The code from within the function will execute when it is invoked 'called'.  
+
+        Functions can be invoked from an event (e.g. a button is clicked), or it can be called from within the code - as it has been in our example.
+
+        'Control flow' - in our example, the code within our  function is executed (called) last. 
+
+        You can see the result of this on page 4.
   -
     title: Key point
     theme: t-bg-grey i-keypoint
