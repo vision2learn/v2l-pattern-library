@@ -1,11 +1,11 @@
 title: Understand team working for cyber security
 intro: |
   In this session you will learn about:
-  * what is meant by team dynamics
-  *	the benefits of working with others over working alone
-  *	make use of individual strengths 
-  *	resolving conflict within a team 
-  *	work activities that can support effective teamwork
+  * What is meant by team dynamics
+  *	The benefits of working with others over working alone
+  *	Make use of individual strengths 
+  *	Resolving conflict within a team 
+  *	Work activities that can support effective teamwork.
    
 banner: cs_u6_s1_p2_team working.jpeg
 sections:
@@ -16,11 +16,12 @@ sections:
       Make sure that you understand what is meant by team dynamics and the benefits of teamwork
   -
   
-    title: Team Dynamics
+    title: Team dynamics
     theme: t-bg-primary1a
     copy: |
-      ### What is meant by Team Dynamics?
-      'Team Dynamics' are unconscious, psychological factors that influence how a team works together in relation to behaviour and performance. They are critical for an organisations success and allow them to access the skills and experience of all employees. 
+      ### What is meant by team dynamics?
+      'Team dynamics' are unconscious, psychological factors that influence how a team works together in relation to behaviour and performance. They are critical for an organisations success and allow them to access the skills and experience of all employees. 
+      
       A Team can be defined as a group of 2 or more people working together to meet a specific goal. Team members distinct roles and behaviours will impact on other group members as well as the group as a whole and can impact the success and effectiveness of the team overall. No two teams will be the same so identifying and addressing any issues that may arise is important to make sure the team dynamic is and remains positive.
   - 
     title: Let's look at some of the key aspects of team dynamics
@@ -39,7 +40,8 @@ sections:
         -
           title: Individual personalities
           text: |
-            Teams are made up of individual personalities. Some team members may be strong and opinionated pushing their ideas forward. Others may be more intent on agreeing with the leaders or holding back on opinions for fear of looking foolish, which can lead to a lack of ideas and stagnation. There needs to be a balance within a team of personalities so that the team members complement each other in their skills and experience.
+            Teams are made up of individual personalities. Some team members may be strong and opinionated pushing their ideas forward. Others may be more intent on agreeing with the leaders or holding back on opinions for fear of looking foolish, which can lead to a lack of ideas and stagnation. 
+            There needs to be a balance within a team of personalities so that the team members complement each other in their skills and experience.
           img: placeholder_icon.svg
         -
           title: Team leadership
@@ -47,9 +49,9 @@ sections:
             Team leaders need to be aware of the other members strengths and weaknesses and make sure that everyone has a role to play of equal standing. If a team suffers from weak leadership this can pave the way for a dominant team member to take over resulting in lack of direction and conflict. Quieter team members may fail to get their voices heard.
           img: placeholder_icon.svg
         -
-          title: Building on Communication
+          title: Building on communication
           text: |
-            These acts are usually carried out by bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention or to look cool. In cyber security this is especially important because you will often be needed to explain very technical problems to non-technical audiences and being able to explain the risk to the business generally especially in terms of financial impact.
+            In cyber security this is especially important because you will often be needed to explain very technical problems to non-technical audiences and being able to explain the risk to the business generally especially in terms of financial impact.
           img: placeholder_icon.svg
         -
           title: Teams in formal and informal settings
@@ -57,9 +59,9 @@ sections:
             Teams exist wherever people work together towards a common goal. Some are highly formal and subjected to rules and disciplinary actions with a hierarchical structure and they have clearly defined structural goals. Others are more informal constantly changing and are based on interpersonal relationships, existing for a particular purpose with less planned or predetermined goals.
           img: placeholder_icon.svg
         -  
-          title: Team Dynamics and Cyber security
+          title: Team dynamics and cyber security
           text: |
-            Team Dynamics and taking on a leadership role in cyber security comes with a different set of responsibilities. A common challenge faced working in cyber security is around conflicting priorities. Good security can be costly, both in terms of money and time and implementing the tools and people necessary to deliver good security is often hard to justify as there is no immediate upfront benefit. It is however, an investment in preventing potential future security issues, but even with the best security in the world a breach can happen. Leaders often need to implement new processes adding more steps to complete in people’s day to day job, which they may be resistant to if they have tight deadlines. Being able to explain why something is important and justify the reasonings to others who have their own priorities, such as deadlines, or budgetary constraints is a very important factor in being successful in cyber security.
+            Leaders often need to implement new processes adding more steps to complete in people’s day to day job, which they may be resistant to if they have tight deadlines. Being able to explain why something is important and justify the reasonings to others who have their own priorities, such as deadlines, or budgetary constraints is a very important factor in being successful in cyber security, for example good security can be costly, both in terms of money and time.
           img: placeholder_icon.svg
 
   -
@@ -80,10 +82,10 @@ sections:
           sentence: Working with others in a team can increase creativity.
           answer: creativity
         -
-          sentence: Productivity can therefore improve as more ideas can be developed and collaboration can increase.
+          sentence: Productivity can improve as more ideas can be developed and collaboration can increase.
           answer: Productivity
         -
-          sentence: Working alone an increase a person’s independence and help an individual to make their own decisions.
+          sentence: Working alone can increase a person’s independence and help an individual to make their own decisions.
           answer: independence
         -
           sentence: A strong team should have a good team ethic which in turn makes it successful. Successful teams have members with a range of individual strengths and qualities.

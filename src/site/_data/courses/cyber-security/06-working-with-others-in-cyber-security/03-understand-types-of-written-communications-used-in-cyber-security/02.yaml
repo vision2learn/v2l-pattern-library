@@ -29,12 +29,12 @@ sections:
         -
           title: Senior management
           text: |
-           Use a variety of different types of communication including more formal written communication in the form of messages, orders, instructions, reports, memos etc. Written communication can make sure there is paper trail to follow especially when something is important such as a potential threat or investigation after an incident.
+           SENIOR MANAGEMENT Use a variety of different types of communication including more formal written communication in the form of messages, orders, instructions, reports, memos etc. Written communication can make sure there is paper trail to follow especially when something is important such as a potential threat or investigation after an incident.
           img: placeholder_icon.svg
         -
           title: Team members
           text: |
-            Team members may communicate with each other in different ways especially informally but the best way to make sure that everyone gets the same information is via written communication. Distributing reports to the team enables them to keep up to date with all issues and written communication offers opportunity for better clarity and transparency especially when it comes to actioning against a possible threat.
+            Team members may communicate with each other in different ways especially informally, but the best way to make sure that everyone gets the same information is via written communication. Distributing reports to the team enables them to keep up to date with all issues, and written communication offers opportunity for better clarity and transparency especially when it comes to actioning against a possible threat.
           img: placeholder_icon.svg
         -
           title: All staff 
@@ -47,7 +47,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Written communication
+      ### Effective written communication
 
       Written communication has many similarities to verbal communication. However, where verbal or face to face communication use body and tone of voice to convey meaning, written communication relies on several other elements.   
 
@@ -78,7 +78,8 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: You have been asked to write a report for senior managers, team members and all staff. How would the types of information and language used differ for each audience?
+      copy: If you had been asked to write 3 reports, one for senior managers, one for team members and one for all staff. 
+        in the box to the right make a note of how the types of information and language used for each report differ for the different audience types?
     theme: t-bg-primary3 i-think
   -
     title: On the web
