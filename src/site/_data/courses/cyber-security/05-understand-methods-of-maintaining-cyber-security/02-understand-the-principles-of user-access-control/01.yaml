@@ -1,6 +1,6 @@
 title: Understand the principles of user access control
 intro: |
-  In this session you will learn about what is meant by user access control and methods of restricting access:
+  In this session you will learn about what is meant by user access control and methods of restricting access.
 banner: cs_u5_s2_p1_user_access.jpeg
 sections:
   -
@@ -8,9 +8,9 @@ sections:
     theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
-      * what is meant by user access control
-      * methods of restricting user access
-      * how to create a user access control system
+      * What is meant by user access control
+      * Methods of restricting user access
+      * How to create a user access control system
     
   -
     title: Key point
@@ -22,7 +22,7 @@ sections:
     title: What is user access control?
     theme: t-bg-primary
     copy: |
-      UAC works by requiring a standard user to enter the credentials of an administrator with elevated privileges in order to do such high-risk actions like installing a piece of software. This means that standard users cannot install things and therefore reduces the likelihood of them accidentally clicking a link and installing malware.
+      UAC works by requiring a standard user to enter the credentials of an administrator with elevated privileges in order to do high-risk actions like installing a piece of software. This means that standard users cannot install things and therefore reduces the likelihood of them accidentally clicking a link and installing malware.
       It’s important therefore that users are not given administration access by default, and that administrators are not logged in with their administrator account when doing day-to-day things such as browsing the internet and checking emails.
 
 
@@ -62,7 +62,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: what are the benefits of user access controls? Do you have experience of these in your workplace?
+      copy: What are the benefits of user access controls? Do you or someone you know have experience of these in your workplace? 
     theme: t-bg-primary3 i-think
 
   -

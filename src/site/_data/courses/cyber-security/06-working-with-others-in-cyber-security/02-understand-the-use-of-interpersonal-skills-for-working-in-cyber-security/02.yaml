@@ -1,63 +1,14 @@
-title:  Working with others within an organisation to support cyber security
-intro:  |
-  On this page you will learn about:
-  How working with others within an organisation can support cyber security.
-banner: cs_u6_s2_p2_working_with_others.jpg
+title: "What did you learn?"
+intro: Well done, you’ve now completed the second session of this unit! By working through this session, you have learned about the need for cyber security.
+banner: summary.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-supporting3
-    copy: 
-      Make sure that you understand and can explain how working with others within an organisation can support cyber security.
-  -
-    title: How does working with others within an organisation support cyber security?
-    theme: t-bg-primary
+    title: Summary
+    theme: t-bg-primary i-summary
     copy: |
-      When it comes to cyber security it is important that all employees are aware of the risks and are onboard with any strategies in place. It is therefore imperative that cyber security teams work with others in organisations to make this happen.
-      Let's have a look at this in more detail.
- 
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Finance
-          copy: |
-            The finance team are often one of the most important departments to support cyber security within a business as they are the ones that have access to the money. Senior management may make the decisions but organising the finances involves the finance team. They also need to work with the cyber security department to make sure that all security protocols are in place within their own department understanding the financial consequences if not.
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Operations
-          copy: |
-            Security is about operational processes as well as people and technology. Cyber security professionals need to work with the operation team to understanding how the business operates and identify any insecurity in processes both physical and technological.
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Human Resources
-          copy: |
-            The Human Resources team are a key ally to the cyber security team.  HR will help ensure that the rest of the business know and understand their responsibilities to cyber security as well as to help roll out training and awareness events.
-          img: /images/svg/placeholder_icon.svg 
-        - 
-          title: Legal
-          copy: |
-            The legal team are important in helping inform what legal responsibilities to data use, security and protection are. Regulations such as GDPR for example should be built into the policies and training for all departments.
-          img: /images/svg/placeholder_icon.svg   
-        -   
-          title: Sales and Marketing
-          copy: |
-            Good security practice is an excellent selling point in today’s world whatever the industry. The cyber security team should work with the sales and marketing team to make sure that the benefits of this are fully communicated to all customers and linked businesses. 
-          img: /images/svg/placeholder_icon.svg 
-  -
+      In this session, you have learnt about:
+      * The range of interpersonal skills used when working in cyber security
+      * When different interpersonal skills might be used
+      * How working with others within an organisation can support cyber security
 
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Communication in practice.
-           
-      Lets have a talk with a cyber security professional and see how they use thier commumication skills while at work.  
-
-    video: cs_u6_s1_p2_teamwork.mp4
   -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: relate to content on pa
-    theme: t-bg-primary3 i-think

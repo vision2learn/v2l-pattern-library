@@ -23,7 +23,7 @@ sections:
       'Team Dynamics' are unconscious, psychological factors that influence how a team works together in relation to behaviour and performance. They are critical for an organisations success and allow them to access the skills and experience of all employees. 
       A Team can be defined as a group of 2 or more people working together to meet a specific goal. Team members distinct roles and behaviours will impact on other group members as well as the group as a whole and can impact the success and effectiveness of the team overall. No two teams will be the same so identifying and addressing any issues that may arise is important to make sure the team dynamic is and remains positive.
   - 
-    title: Let's look at some of the aspects of team dynamics.
+    title: Let's look at some of the key aspects of team dynamics
     theme: t-bg-primary
     copy: |
 
@@ -52,7 +52,7 @@ sections:
             These acts are usually carried out by bored teenagers who want to cause trouble and make a statement. They don’t usually have a financial objective and often do it for attention or to look cool. In cyber security this is especially important because you will often be needed to explain very technical problems to non-technical audiences and being able to explain the risk to the business generally especially in terms of financial impact.
           img: placeholder_icon.svg
         -
-          title: Teams in formal and informal settings.
+          title: Teams in formal and informal settings
           text: |
             Teams exist wherever people work together towards a common goal. Some are highly formal and subjected to rules and disciplinary actions with a hierarchical structure and they have clearly defined structural goals. Others are more informal constantly changing and are based on interpersonal relationships, existing for a particular purpose with less planned or predetermined goals.
           img: placeholder_icon.svg
@@ -100,5 +100,5 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: Have you ever worked as part of a team? What made the team effective? What were the benefits of working in the team?
+      copy: Have you ever worked as part of a team? What made the team effective? What were the benefits of working in the team? If not, what do you think makes teams effective?
     theme: t-bg-primary3 i-think

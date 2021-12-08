@@ -14,7 +14,7 @@ sections:
     title: So who will be looking at these written communications and reports?
     theme: t-bg-primary
     copy: |
-      In an evolving threat landscape it is important that everyone within an organisation is kept informed by written communication as to various aspects of cyber security and any threats within their company or organisation. However saying that certain employees will need access to more detailed written communications and reports than others.
+      In an evolving threat landscape it is important that everyone within an organisation is kept informed by written communication as to various aspects of cyber security and any threats within their company or organisation. However, certain employees will need access to more detailed written communications and reports than others.
       Let's look at the different level of employees and what kind of written communication will be aimed at them.
 
     subInc: 
@@ -29,7 +29,7 @@ sections:
         -
           title: Senior management
           text: |
-           Use a variety of different types of communication including more formal written communication in the form of messages, orders, instructions, reports, memos etc. Written communication can make sure there is paper trail to follow especially when something is important such as a potential threat or needs investigating after an incident.
+           Use a variety of different types of communication including more formal written communication in the form of messages, orders, instructions, reports, memos etc. Written communication can make sure there is paper trail to follow especially when something is important such as a potential threat or investigation after an incident.
           img: placeholder_icon.svg
         -
           title: Team members
@@ -39,20 +39,57 @@ sections:
         -
           title: All staff 
           text: |
-            All staff can benefit from written communicational from bulletins giving organisational and strategic updates or memos on the current cyber security alert. Different types of reports can be used to inform different departments concerning specific information or more general information that affects the whole organisation. Written communication can be targeted specifically to certain areas or to all areas but can give the same information to everyone depending on how much they need to know.
+            All staff can benefit from written communication from bulletins giving organisational and strategic updates or memos on the current cyber security alert. Different types of reports can be used to inform different departments concerning specific information or more general information that affects the whole organisation. Written communication can be targeted specifically to certain areas or to all areas but can give the same information to everyone depending on how much they need to know.
           img: placeholder_icon.svg
-
-        
+                
   -
-
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       ### Written communication
 
-      Written communication has many similarities to verbal communication. However, where verbal or face to face communication use body and tone of voice to convey meaning written communication relies on the correct word choice, grammar, spelling grammar and punctuation. Developing effective      
+      Written communication has many similarities to verbal communication. However, where verbal or face to face communication use body and tone of voice to convey meaning, written communication relies on several other elements.   
+
       Lets have a look at the elements that effective written communication should contain.   
 
     video: cs_u6_s3_p2_written_communication.mp4
-  - 
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Written communication should have a clear purpose and should not be vague.
+          answer: vague
+        -
+          sentence: It is important that written communication is accurate so that people reading it can have confidence on any data displayed.
+          answer: accurate
+        -
+          sentence: Attention to detail means that all the information required is contained in the written communication and the reader doesn't have to look elsewhere for further clarification.
+          answer: clarification
+        -
+          sentence: The 'tone of voice' of the written communication should be right for the audience concerned, so that it communicates how it should be responded to. 
+          answer: tone of voice
+        
+    theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: You have been asked to write a report for senior managers, team members and all staff. How would the types of information and language used differ for each audience?
+    theme: t-bg-primary3 i-think
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Take a look at the following website to learn more about what to consider when communicating to different audiences. 
+
+      links:
+        How to make technical writing work for a non-technical audience: https://www.writing-skills.com/technical-writing-for-non-technical-audience 
+
+  -
+
