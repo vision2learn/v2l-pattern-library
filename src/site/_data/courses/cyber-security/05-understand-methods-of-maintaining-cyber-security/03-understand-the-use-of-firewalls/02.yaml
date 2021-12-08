@@ -1,7 +1,7 @@
 title: Nework traffic
 intro: |
   On this page you will learn about:
-  - what network traffic means and the advantages and disadvantes of using firewalls to protect from threats
+  - What network traffic means and the advantages and disadvantes of using firewalls to protect from threats.
 banner: cs_u5_s3_p2_skills_requirements.jpeg
 sections:
   -
@@ -22,9 +22,9 @@ sections:
     theme: t-bg-supporting2
     copy: |
        A packet is a segment of data after it has been broken up into a small enough piece to be sent over a network before being reassembled on the other system. The main parts of a packet are:
-        * Header-This gives information about where it came from and where it’s going and metadata about the packet itself.
-        * Payload-This is the main data itself, for example, the details of the web page that is being requested. This part will be encrypted in transit for HTTPS websites as it could contain sensitive data that we would not want intercepted.
-        * Trailer-This part of the packet is the data that shows the end of the packet and often contains error collection data.
+        * Header - This gives information about where it came from and where it’s going and metadata about the packet itself.
+        * Payload - This is the main data itself, for example, the details of the web page that is being requested. This part will be encrypted in transit for HTTPS websites as it could contain sensitive data that we would not want intercepted.
+        * Trailer - This part of the packet is the data that shows the end of the packet and often contains error collection data.
         ![](/images/svg/cs/cs_u5_s3_p2_image2.svg)
 
   -
