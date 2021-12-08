@@ -14,7 +14,9 @@ var V2lPage = (function() {
 
   v2l.attachHandlers = function() {
     document.querySelectorAll('[data-v2l-loadbtn]').forEach(function(btn) {
+      btn.removeAttribute('hidden');
       btn.addEventListener('click', loadCanvas);
+      btn.nextElementSibling.setAttribute('hidden', true);
     });
   }
 
@@ -23,8 +25,14 @@ var V2lPage = (function() {
     // Is there a canvas element on the page already?
     var canvasLoaded = document.querySelector('.c-interactive > canvas');
     var canvas = document.createElement('canvas');
+    var canvasAlt = this.nextElementSibling;
+    var canvasAltDupe = canvasAlt.cloneNode(true);
+    canvasAltDupe.removeAttribute('hidden');
+    canvas.appendChild(canvasAltDupe);
     canvas.id = +new Date();
+    canvas.setAttribute('tabindex', -1);
     var btnParent = this.parentElement;
+    btnParent.removeChild(canvasAlt);
 
     if(canvasLoaded) {
       canvasLoaded.parentElement.parentElement.insertBefore(animateVars.activeCanvas, canvasLoaded.parentElement);
@@ -38,6 +46,7 @@ var V2lPage = (function() {
     
     btnParent.insertBefore(canvas, this);
     btnParent.removeChild(this);
+    canvas.focus();
     
     v2l.attachHandlers();
     loadAnimateJS();
@@ -67,7 +76,7 @@ var V2lPage = (function() {
       });
       
       
-        var scripts = [
+        [
           appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
           appPath+'/js/animateload.js'
         ].forEach(function(src) {
