@@ -1,17 +1,17 @@
 title: "Understand the use of interpersonal skills for working in cyber security "
 intro: |
-  In this session you will learn about interpersonal skills and how they are used when working in cyber security
+  In this session you will learn about interpersonal skills and how they are used when working in cyber security.
 banner: cs_u6_s2_p1_interpersonal_skills.jpg
 sections:
   -
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security:
     
       1. The range of interpersonal skills used when working in cyber security
       2. When different interpersonal skills might be used
-      3. How working with others within an organisation can support cyber security
+      3. How working with others within an organisation can support cyber security.
      
   -
     title: Key point
@@ -30,18 +30,18 @@ sections:
       Lets take a look the skills required.
     video: cs_u6_s2_p1_interpersonal_skills.mp4
   -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: Have you ever had to use the range of communication skills mentioned above when working in a team? Can you describe the situation and why these skills were important? If not can you give an example of when these skills would be used when working in cyber security? 
-    theme: t-bg-primary3 i-think
-  -
-    title: Read - 
+    title: Read
     theme: t-bg-primary1a i-read
     copy: | 
       Take a look at the following document to learn more about some of these key skills in more detail and how they relate to cyber security.
 
       [Data security.](/pdfs/cs_u2_s1_p2_read_data_security.pdf)
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Have you ever had to use the range of communication skills mentioned above when working in a team? Can you describe the situation and why these skills were important? If not can you give an example of when these skills would be used when working in cyber security? 
+    theme: t-bg-primary3 i-think
   -
     title: Key point
     theme: t-bg-supporting3
@@ -67,12 +67,12 @@ sections:
         -
           title: Operations
           text: |
-           Security is about operational processes as well as people and technology. Cyber security professionals need to work with the operation team to understanding how the business operates and identify any insecurity in processes both physical and technological.
+           Security is about operational processes as well as people and technology. Cyber security professionals need to work with the operations team to understanding how the business operates and identify any in security in processes both physical and technological.
           img: placeholder_icon.svg
         -
-          title: Human resources
+          title: Human Resources
           text: |
-            The Human Resources team are a key ally to the cyber security team.  HR will help ensure that the rest of the business know and understand their responsibilities to cyber security as well as to help roll out training and awareness events.
+            The Human Resources team (HR) are a key ally to the cyber security team.  HR will help ensure that the rest of the business know and understand their responsibilities to cyber security as well as to help roll out training and awareness events.
           img: placeholder_icon.svg
         -
           title: Legal
@@ -80,7 +80,7 @@ sections:
             The legal team are important in helping inform what legal responsibilities to data use, security and protection are. Regulations such as GDPR for example should be built into the policies and training for all departments.
           img: placeholder_icon.svg
         -
-          title: Sales and marketing
+          title: Sales and Marketing
           text: |
              Good security practice is an excellent selling point in today’s world whatever the industry. The cyber security team should work with the sales and marketing team to make sure that the benefits of this are fully communicated to all customers and linked businesses.
           img: placeholder_icon.svg

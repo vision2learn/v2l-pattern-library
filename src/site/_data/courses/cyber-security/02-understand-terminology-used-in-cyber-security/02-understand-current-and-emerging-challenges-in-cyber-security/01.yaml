@@ -34,12 +34,12 @@ sections:
             The Internet of Things (IOT) refers to a system of interrelated and connected objects that can collect data and transfer it wirelessly without human intervention. Things can be medical devices, solar panels, vehicle sensors, or anything that has the ability to gather and transfer data like that fancy smart fridge that organises your shopping.
           img: cs_u2_s2_p1_slide1.svg
         -
-          title: Dark Web
+          title: Dark web
           text: |
             The Dark Web is the hidden part of the worldwide web which the general internet users will not gain access to. It is not indexed by popular browsers and is seen as the dangerous part of the internet where shady and illegal things happen. It is also a place that journalists and whistleblowers go to share their stories.
           img: cs_u2_s2_p1_slide2.svg
         -
-          title: Cloud Services
+          title: Cloud services
           text: |
             Cloud services are infrastructure and software that is hosted by a third party provider and are available through the internet. Cloud services facilitate the flow of data from a user's device via the internet or VPN to their systems and back. This may be used for storage or security purposes as well as other cloud applications such as creative, educational, financial and business services. Users can keep all their data secure and accessible using cloud services and don't need to invest in as much technical infrastructure and software that has to be updated. Cloud services are also available 24/7.
           img: cs_u2_s2_p1_slide3.svg
@@ -58,7 +58,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Currrent Challenges 
+      ### Currrent challenges 
       Let's look at these in more detail and consider how it affects us all. 
     video: cs_u2_s2_p1_challenges_part1.mp4
   -
