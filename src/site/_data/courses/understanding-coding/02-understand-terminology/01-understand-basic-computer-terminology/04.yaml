@@ -37,18 +37,16 @@ sections:
     copy: |
       To show how the code looks, we are going to show three general features which are common to all code in each language:
       
-      1.	Comments: sections of code to inform the programmer which are ignored by the program
-      2.	A variable declaration: variables are containers for data. A declaration is where one is introduced for the first time in a program.
-      3.	Printing an output to the console: a console is text interface from which inputs/outputs can be managed when a program is run. A “print” statement is a simple operation where an output is printed to the console.
+      1.	__Comments:__ sections of code to inform the programmer which are ignored by the program
+      2.	__A variable declaration:__ variables are containers for data. A declaration is where one is introduced for the first time in a program.
+      3.	__Printing an output to the console:__ a console is text interface from which inputs/outputs can be managed when a program is run. A “print” statement is a simple operation where an output is printed to the console.
 
       Please see in the below activity how these features differ according to each language:
 
-      _PLACEHOLDER - to be replaced with an interactivity showing the three languages and the option to click on the different areas to show the different features_
-
     interactive: 
-      file: 
-      width: 1000
-      height: 800
+      file: uc/u2_s1_p4_code_examples
+      width: 1200
+      height: 960
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
