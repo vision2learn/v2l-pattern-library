@@ -1,6 +1,9 @@
 title: Understand the principles of user access control
 intro: |
-  In this session you will learn about what is meant by user access control and methods of restricting access.
+  In this session you will learn about:
+  * What is meant by user access control 
+  * Methods of restricting access
+  * How to setup user access controls.
 banner: cs_u5_s2_p1_user_access.jpeg
 sections:
   -
@@ -63,6 +66,33 @@ sections:
     include: 
       type: time-to-think
       copy: What are the benefits of user access controls? Do you or someone you know have experience of these in your workplace? 
+    theme: t-bg-primary3 i-think
+
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      Make sure that you understand how to set up user access control system as you will need to explain how to do this in your assessment.
+    
+  -
+    title: Setting up user access controls
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Using the links below have a go at setting up user access controls and file sharing on your own PC or Mac.  
+
+      links:
+        How to Set Up, Configure and Manage User Accounts on Windows 10: https://www.microsoftpressstore.com/articles/article.aspx?p=2453566&seqNum=2
+        How to Set File and Folder Permissions in Windows: https://www.online-tech-tips.com/computer-tips/set-file-folder-permissions-windows/
+
+        Set up users, guests and groups on a Mac: https://support.apple.com/en-gb/guide/mac-help/mtusr001/mac
+        Change permissions for files, folders or disks on Mac: https://support.apple.com/en-gb/guide/mac-help/mchlp1203/mac
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Now that you have setup your own user access controls, explain the steps that you took and what you had to consider when setting up permissions. 
     theme: t-bg-primary3 i-think
 
   -
