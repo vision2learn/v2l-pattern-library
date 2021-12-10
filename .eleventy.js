@@ -127,6 +127,7 @@ module.exports = function(config) {
   config.addShortcode('video', (file, id) => {
     let ext = path.extname(file);
     let basename = path.basename(file, ext);
+    let dirname = `${path.dirname(file)}/`;
     let track = '';
     let transcript = '';
     let multi = basename.indexOf('_pc') > 0 ? true : false;
@@ -144,10 +145,10 @@ module.exports = function(config) {
 
     // Is there a VTT for this video?
     try {
-      fs.accessSync(`src/site/videos/captions/vtt/${basename}.vtt`, fs.constants.F_OK);
-      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${basename}.vtt">`;
+      fs.accessSync(`src/site/videos/captions/vtt/${dirname}${basename}.vtt`, fs.constants.F_OK);
+      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${dirname}${basename}.vtt">`;
     } catch (err) {
-      console.log(`No VTT file for ${file}`);
+      console.log(`No VTT file for ${dirname}${file}`);
       missingCaptions.push(file);
     }
 
@@ -156,8 +157,8 @@ module.exports = function(config) {
 
       try {
 
-        fs.accessSync(`src/site/videos/transcripts/${file}.md`, fs.constants.F_OK);
-        let transcriptContent = fs.readFileSync(`src/site/videos/transcripts/${file}.md`, 'utf-8', (err, data) => {
+        fs.accessSync(`src/site/videos/transcripts/${dirname}${file}.md`, fs.constants.F_OK);
+        let transcriptContent = fs.readFileSync(`src/site/videos/transcripts/${dirname}${file}.md`, 'utf-8', (err, data) => {
           if (err) throw err;
           return data;
         });
@@ -169,16 +170,16 @@ module.exports = function(config) {
           </toggle-section>
         `;
       } catch (err) {
-        console.log(`No transcript for ${file}`);
+        console.log(`No transcript for ${dirname}${file}`);
         missingTranscripts.push(file)      
       }
     });
     
     // Remote video?
     try {
-      fs.accessSync(`src/site/videos/${file}`, fs.constants.F_OK);
-      console.log(`Using local version of ${file}`);
-      vidFilePath = `${tilde}/videos/${file}`;
+      fs.accessSync(`src/site/videos/${dirname}${file}`, fs.constants.F_OK);
+      console.log(`Using local version of ${dirname}${file}`);
+      vidFilePath = `${tilde}/videos/${dirname}${file}`;
     } catch (err) {
     }
 
