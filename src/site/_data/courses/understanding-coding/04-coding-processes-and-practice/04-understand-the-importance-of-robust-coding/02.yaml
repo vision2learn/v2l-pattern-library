@@ -1,12 +1,104 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the fourth session of this unit! 
-banner: ba-u1-s1-p6.jpg
+title: Defensive Programming
+intro: |
+    On this page you will learn about defensive programming.
+
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: What is Defensive Programming?
+    theme: t-bg-primary
     copy: |
-      In this session, you have learnt about:
-      * What is meant by exception handling
-      * What is meant by defensive programming
-  
+      Defensive programming is broad term which encompasses program design that ensures the continuing function of a piece of software under unforeseen circumstances so that it still behaves in a predictable manner despite unexpected actions. 
+      
+      Exception handling is one form of defensive programming. In our previous example, this dealt specifically with an error which caused a terminal error in the program. But what if we could anticipate a semantic error, where the program doesn’t but the functionality is not what was intended?
+      
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain what is meant by defensive programming.
+  -
+  -
+    title: Defensive Programming example
+    theme:
+    copy: |
+      Let’s say in the program on the previous page, we wanted to ensure that the two inputs to our function were always both integers, and never floating point numbers. In this scenario, we could use defensive programming to write in checks to see if this occurs, and act accordingly when it does.
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        """ Python code with exception handling """
+
+        # Here we define a function to add two input values then print the answer.
+        def add_values_and_print(a, b):
+
+          # Here, we defensively program to ensure numbers are Ints with 'if' statements
+          if isinstance(a, float) == True:
+            print("Input 'a' was Float type not Int. Converted to Int.")
+            a = int(a)
+
+          if isinstance(b, float) == True:
+            print("Input 'b' was Float type not Int. Converted to Int.")
+            b = int(b)
+
+          try:				# This is where we try the operation
+            c = a + b
+          except TypeError:	# This is where we state what to do (the exception) in case of a TypeError
+            print('TypeError. Please ensure that both input variables are Ints.')
+            return
+          else:
+            c = int(c)
+
+            print('The output is equal to: ', c)
+
+          return(c)
+
+        # Now we test the function. First with integers:
+        test_1 = add_values_and_print(2, 4)
+
+        # Now with an integer and a string:
+        test_2 = add_values_and_print(2, 'goat')
+
+        # Now with an integer and a float:
+        test_3 = add_values_and_print(2, 3.7)
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        The output is equal to:  6
+        TypeError. Please ensure that both input variables are Ints.
+        Input 'b' was Float type not Int. Converted to Int.
+        The output is equal to:  5
+
+        [Finished in 134ms]
+    copy2: |
+      Now, test_1 and test_2 still act as expected. However, using the ‘if’ statements starting on lines 7 and 11, we whether inputs ‘a’ and ‘b’ are floating point numbers, and if they are, print a message to the console to inform the user that they are converted to Ints. 
+      
+      Using defensive programming, we can minimize the occurrence of bugs and errors, and make sure that we deal with them appropriately when they do occur.
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      
+      [Online Python](https://online-python.com)
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about Python exceptions handling.
+
+      links:
+        python exceptions: https://www.tutorialspoint.com/python/python_exceptions.htm 
