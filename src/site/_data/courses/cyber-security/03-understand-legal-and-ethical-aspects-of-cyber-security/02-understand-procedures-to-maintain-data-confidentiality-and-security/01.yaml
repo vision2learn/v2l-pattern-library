@@ -106,7 +106,7 @@ sections:
       Other checks that can be implemented are 'Authentication and authorisation' This is an important part of granting access to an application or system. Authentication is “is this person who they say they are” an example of this is is the password they have provided the password we have on record for them therefore providing they are who they say they are. The next step is authorisation. Now we have proved they are this person, does this person have the right permissions to access what it is they’re trying to access.
 
       
-    img: cs/cs_u1_s3_p3_image.svg
+    img: cs/cs_u3_s2_p1_image.svg
 
   - 
     title: Time to think
