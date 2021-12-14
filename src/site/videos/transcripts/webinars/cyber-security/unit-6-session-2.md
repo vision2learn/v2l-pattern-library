@@ -1,0 +1,10 @@
+**Lloyd:** So now that you've completed session two of unit six, it's time to compete the relevant section in the assessment booklet. So if you open your assessment booklet and scroll down to section two, this is Understand the Use of Interpersonal Skills for Working in Cyber Security. So there are three learning objectives in this section and three questions to allow you to fulfill those learning objectives.
+
+So for question one, it's asking you to identify a range of interpersonal skills that you use when working in cyber security. The question asks specifically for cyber security, but I think interpersonal skills are applicable in all working roles and in all aspects of life. So what are the sort of interpersonal skills that you could utilise effectively when working in cyber security? So if you've worked in a team, what are the interpersonal skills that you use and think about the ones that may be more applicable in a cyber security environment.
+
+For question two, it's asked you to give three examples of when different interpersonal skills might be used when working in cyber security. So again, you can think about what you've suggested for your answer to question one and then give three examples. So think about them in relation to cyber security. So what would be the benefit of those in cyber security?
+
+So once you've given the three examples for there, for question three, it's asking you to describe how working with others within an organisation can support cyber security. So what is it that you can do when you're working with others within an organisation? This doesn't necessarily mean people who are working in cyber security, it can just be a case of people who are working within an organisation. What can you all do? And working with others to ensure cyber security needs are met and cyber security is with it being a critical component of any organisation, what can you do to ensure that you are supporting cyber security within the workplace?
+
+So once you've done that, if you read through your answers, carry out a spelling and grammar check, and then you can save your unit six assessment and move on to session three.
+

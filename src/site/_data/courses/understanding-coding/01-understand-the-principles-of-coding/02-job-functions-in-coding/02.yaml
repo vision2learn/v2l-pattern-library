@@ -52,8 +52,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with text to the side for each role, imagery to support._
-      
       ### Coding Teams, Project Development, and team working
 
       Some large organisations may have their own coding teams or use freelancers many may outsource a project to a development team working remotely. In software development there are a range of different methodologies which are used to make sure a project is resilient and on time and budget. They allow for feedback and ideas which can subsequently improve quality.
@@ -66,9 +64,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - interview_
-      
-      ### Key roles
+      ### Key roles - Interview
 
       
     video: placeholder_pc.mp4

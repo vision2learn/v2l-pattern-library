@@ -1,0 +1,16 @@
+**Lloyd:** So now that you've completed session one of unit six, it's time to complete the relevant section of the assessment booklet. If you haven't already done so you can download the assessment booklet by clicking on the assessment link on the final page of session one, and saving that in a suitable location on your computer.
+
+Once you've done that, you can then open the unit six assessment booklet, as you can see, it's Working With Others in Cyber Security. And you can then scroll down to page two, pop your name at the top, and then move on to the questions for section one. This section is Understand Teamworking for Cyber Security. And there are five learning objectives in section one on five questions to allow you to fulfill those learning objectives.
+
+So question one, it's asked you to describe what is meant by team dynamics or what is team dynamics? This is a describe question, so try to provide good detail in your answer.
+
+So for question two, it's asked you to compare the benefits of working with others to working alone. So what benefits does working with others have, how can it be of benefit to you in your working life and learning and compared to working alone? So what benefits are there of working alone? I know quite a lot of people that have had to work alone during the pandemic as they've been working from home, has there been any benefits to that? Have you noticed any benefits to that? 
+
+Then for question three, it's asked you to describe ways in which team members can work together to make use of individual strengths. So what you have to think about here is when you have a team of four or five people, everybody's an individual, everybody has different skills and different levels of ability in certain things. So how can that be utilised to ensure that you're making good use of the individual strengths of each person in the team to make the team more effective?
+
+For question four, it's asked you to identify ways to resolve conflict within a team. So conflict is a natural occurrence, there will always be... very rarely you have a fully harmonious team, there's always instances, it might not be very regular but there are probably always instances where there will be some sort of conflict within a team -- it might just be a minor thing, you know, people not getting on or, or people having different ideas and opinions. So how can you resolve those conflicts within a team? What are the best ways to do that to ensure that the team is effective and everybody can work together as an effective team? 
+
+And for question five, it's asking you to explain how reviewing work activities can support effective teamwork. So when you think about it, so if you'd be involved in a project or you've been involved in any task within the workplace, when that task is done or the project finished, what is the purpose of reviewing it? What benefits would it have if carrying out a review of the work that you've done and how can it support the effectiveness of the team moving forward? So think about that when you're formulating your answer for question five.
+
+So once you've done that, if you carry out a spell check and proofread your work to make sure everything's clear, you can then save your unit six assessment on move on to session two.
+

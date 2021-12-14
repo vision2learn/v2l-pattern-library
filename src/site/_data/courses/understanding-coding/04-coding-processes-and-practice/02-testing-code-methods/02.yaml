@@ -42,7 +42,7 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting2 i-keypoint
     copy: |
       In your assessment you will be required to describe what is meant by debugging.
   -
@@ -68,23 +68,58 @@ sections:
       lang: python
       highlight: 
       code: |
-        """Python code to show examples of a unit"""
+        """ Python code to show examples of a unit """
 
         # Here we define a function to multiply two input values then return the answer.
+        def multiply_values(a, b):
+          c = a * b
+          return(c)
 
-        # CODE HERE
+        # Now we test the function. First with integers:
+        test_1 = multiply_values(2, 4)
 
+        # Now with an integer and a string:
+        test_2 = multiply_values(2, 'goat')
+
+        # Now we check each variable by printing it:
+        print('test_1 is: ', test_1)
+        print('test_2 is: ', test_2)
+
+        # Finally, we test check whether the output is an integer
+        print('Are the outputs integers?') 
+        print('test_1: ', isinstance(test_1, int))
+
+        print('test_2: ', isinstance(test_2, int))      
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        test_1 is: 8
+        test_2 is: goatgoat
+        Are the outputs integers?
+        Test 1: True
+        Test 2: False
     copy2: |
       The output is seen at the bottom, below line 23. 
+
       The first test resulted in the output 8.
+      
       The second test gave us the output ‘goatgoat’. 
-      This second test gives us the example of a semantic error, as the program continues to run, but not in the way that we intended. If we wanted to make sure to make sure that the answer was always an integer, a unit test could report this when the multiply_values function gave us an output we did not expect.
+      
+      This second test gives us the example of a **semantic error**, as the program continues to run, but not in the way that we intended. If we wanted to make sure to make sure that the answer was always an **integer**, a **unit test** could report this when the multiply_values function gave us an output we did not expect.
   -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example.  
+      Have a go at writing out the above Python example on the following Python practice website.  Check to see if you get the same result as in the above example. Once you have done this, try changing the values of a and b (2, 'goat') to see how the result changes.
       
       [Online Python](https://online-python.com)
   -
