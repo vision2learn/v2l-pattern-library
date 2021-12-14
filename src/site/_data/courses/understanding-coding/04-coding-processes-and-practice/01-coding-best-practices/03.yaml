@@ -60,9 +60,7 @@ sections:
     title: Principles relating to best practice
     theme: t-bg-primary
     copy: |
-      _This could be slides AND a video - the slides to introduce each topic and then a video to go into more detail_
-    
-      Scroll through the slides below.
+      
     subInc: 
       type: slider
       title: 
