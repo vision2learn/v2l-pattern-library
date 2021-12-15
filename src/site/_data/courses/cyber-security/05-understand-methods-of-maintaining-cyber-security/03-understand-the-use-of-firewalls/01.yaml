@@ -11,7 +11,7 @@ sections:
 
       * What is a firewall
       * The key functions of a firewall
-      * What is meant by network traffic 
+      * What is meant by Network Traffic 
       * The advantages and disadvantages of using a firewall to protect from threats 
      
   -
@@ -51,7 +51,7 @@ sections:
         -
           title: Stateful Inspection Firewalls
           text: |
-            Stateful inspection firewalls go further than the above by monitoring the entire session of a connection which gives greater context around what is connecting to what. This however, is heavier on resources and can have a negative impact on networking times.
+            Stateful inspection firewalls go further than Packet Filtering Firewalls by monitoring the entire session of a connection which gives greater context around what is connecting to what. This however, is heavier on resources and can have a negative impact on networking times.
           
           img: cs_u5_s3_p1_slide2.svg
         -
