@@ -49,7 +49,7 @@ sections:
 
       ### Compiled code
 
-      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code. 
+      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code.
          
       ![](/images/banners/uc/placeholder.jpg)
 
@@ -57,7 +57,7 @@ sections:
 
       Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter. 
             
-      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation.
+      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation. 
 
       _This will be a diagram illustrating the above - example on https://cs.stackexchange.com/questions/56478/jit-aot-interpretation-what-are-differences-between-them_
   -

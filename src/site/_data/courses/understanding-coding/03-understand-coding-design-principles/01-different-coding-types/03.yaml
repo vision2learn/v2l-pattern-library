@@ -39,7 +39,7 @@ sections:
 
             What distinguishes OOP is that it focuses on “objects” (a collection of data and functions) which change state, rather than actions which operate on separate pools of data.
 
-            Commonly, the objects are “classes”. These are data structures definitions which contain inbuilt data and class-specific functions (known as methods).
+            Commonly, the objects are “classes”. These are data structures definitions which contain inbuilt data and class-specific functions (known as methods).  _We will be looking at Classes later on in Unit 4._
 
           img: placeholder_icon.svg
         -

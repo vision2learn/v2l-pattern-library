@@ -34,7 +34,7 @@ sections:
       * method, 
       * property. 
       
-      A *unit test* is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small test can be run fast. _We will be looking at testing later on in the course in Unit 4_
+      A *unit test* is a way of testing the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code is performing and by being small test can be run fast. _We will be looking at testing later on in the course in Unit 4._
 
       See if you can identify what might constitute a unit in the code examples from Session 2, and in the sections of code in the following pages.        
   -
@@ -48,7 +48,7 @@ sections:
       * Explain the key differences between DRY and WET code.
   -
   -
-    title: What is WET and Dry code?
+    title: What is WET and DRY code?
     theme:
     copy: |
       WET and DRY are acronyms used in software development to explain coding principles.
@@ -72,11 +72,11 @@ sections:
         using namespace std;
 
         int main () {
-          cout << "Ham pizza ingredients: " << endl;
-          cout << "  Ham" << endl;
-          cout << "  Pizza base" << endl;
-          cout << "  Tomato sauce" << endl;
-          cout << "  Cheese" << endl;
+           cout << "Ham pizza ingredients: " << endl;
+           cout << "  Ham" << endl;
+           cout << "  Pizza base" << endl;
+           cout << "  Tomato sauce" << endl;
+           cout << "  Cheese" << endl;
           cout << "  \n" << endl;
 
           cout << "Sausage pizza ingredients: " << endl;
@@ -95,11 +95,8 @@ sections:
 
         return 0;
         }
-
-
-
     copy2: |
-      But let’s say we want to change one of the common ingredients for all of the pizzas (for example bbq sauce instead of tomato sauce. With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.   
+      But let’s say we want to change one of the common ingredients for all of the pizzas (for example bbq sauce instead of tomato sauce.) With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.   
   -
   -
     title: DRY code
@@ -169,15 +166,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Wet is the acronym for 'Write everything twice'
-          answer: Wet
+          sentence: WET is the acronym for 'Write everything twice'
+          answer: WET
         -
-          sentence: Dry is the acronym for 'Don't repeat yourself'
-          answer: Dry
+          sentence: DRY is the acronym for 'Don't repeat yourself'
+          answer: DRY
         -
-          sentence: Dry code is 'generalised'
-          answer: Dry
+          sentence: DRY code is 'generalised'
+          answer: DRY
         -
-          sentence: Wet code may have repeated code sections
-          answer: Wet
+          sentence: WET code may have repeated code sections
+          answer: WET
     theme: i-quiz

@@ -46,11 +46,11 @@ sections:
       
       Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow. 
       
-      For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. 
+      For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in.   The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. 
       
       Control flow means that when a script is read, it must be read from start to finish, but also the program structure should be read so as to know how it affects the order of execution. 
       
-      Control Flow is often represented in a graph (CFG) during the execution of programs or applications.
+      Control Flow is often represented in a control flow graph (CFG) during the execution of programs or applications.
       
       Take a look at our *Javascript example* again and see if you can follow the control flow:
 
@@ -60,14 +60,14 @@ sections:
       lang: js
       highlight: 
       code: |
-        // Declare some variables
+          // Declare some variables
 
           var variable_1 = 25
           var variable_2 = 28
           var list_1 = [5, 2, 6, 3, 7, 2]
 
 
-        // Control flow: Conditional
+          // A conditional statement
 
           if (variable_1 === variable_2){
             console.log('the variables are equal.');
@@ -75,14 +75,14 @@ sections:
             console.log('the variables are not equal.');
           }
         
-        // Control flow: Loop (iteration)
+          // A type of iteration (a loop)
 
           for (let i = 0; i < list_1.length; i++) {
             console.log('List item ', i, ' = ', list_1[i])
           }
 
 
-        // Function
+          // A function
 
           function myFunction (input_1, input_2) {
             sum_of_inputs = input_1 + input_2
@@ -90,7 +90,7 @@ sections:
           }
 
 
-        // Control flow: Function call
+          // A function call
 
           myFunction(variable_1, variable_2);
   -

@@ -42,7 +42,7 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-supporting2 i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe what is meant by debugging.
   -
@@ -62,18 +62,18 @@ sections:
     title: Code
     theme:
     copy: |
-      The Python code below shows a simple function (lines 4-7), and an example of where unit testing is used to debug a program.
+      The Python code below shows a simple function (lines 4-7), and an example of where __unit testing__ is used to __debug__ a program.
     subInc:
       type: code
       lang: python
       highlight: 
       code: |
-        """ Python code to show examples of a unit """
+        """ Python code to show examples of a unit test """
 
         # Here we define a function to multiply two input values then return the answer.
         def multiply_values(a, b):
-          c = a * b
-          return(c)
+            c = a * b
+            return(c)
 
         # Now we test the function. First with integers:
         test_1 = multiply_values(2, 4)
@@ -85,7 +85,7 @@ sections:
         print('test_1 is: ', test_1)
         print('test_2 is: ', test_2)
 
-        # Finally, we test check whether the output is an integer
+        # Here we print the results of the tests to the console
         print('Are the outputs integers?') 
         print('test_1: ', isinstance(test_1, int))
 

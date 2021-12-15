@@ -15,9 +15,7 @@ sections:
     copy: |
       To choose what language to code in, programmers must assess how a language works in relation to what they want to achieve. Different programming languages have different rules, strategies, and principles which govern how they work. We refer to this as its “programming paradigm”. Whilst there are many paradigms, which can overlap, most fall in to one of two main fundamental paradigms: Imperative or Declarative. 
       
-      There are many different categories and mixtures of imperative/declarative programming. When programming language has capabilities of more than one paradigm, we refer to this as multi-paradigm.
-
-
+      There are many different categories and mixtures of imperative/declarative programming. When a programming language has capabilities of more than one paradigm, we refer to this as multi-paradigm.
     img: /images/svg/uc/uc_u3_s1_p2_image.svg
   -
   -
@@ -52,7 +50,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with examples of code_
+      _Presentation style - Presenter(s) with examples of code - Brand the following file for use in video - 'U3S1_psuedocode_imperative_declarative.txt'_
       
       ### Imperative and declarative coding
 
