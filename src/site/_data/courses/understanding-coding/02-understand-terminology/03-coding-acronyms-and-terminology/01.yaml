@@ -77,7 +77,7 @@ sections:
            cout << "  Pizza base" << endl;
            cout << "  Tomato sauce" << endl;
            cout << "  Cheese" << endl;
-           cout << "  \n" << endl;
+          cout << "  \n" << endl;
 
           cout << "Sausage pizza ingredients: " << endl;
           cout << "  Sausage" << endl;
@@ -95,9 +95,6 @@ sections:
 
         return 0;
         }
-
-
-
     copy2: |
       But let’s say we want to change one of the common ingredients for all of the pizzas (for example bbq sauce instead of tomato sauce.) With the WET code above, they would have to make changes in 3 different places. In a large program, there is a high risk of missing somewhere that changes should have been made.   
   -
