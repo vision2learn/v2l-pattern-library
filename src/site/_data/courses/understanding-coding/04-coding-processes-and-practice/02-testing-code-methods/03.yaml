@@ -12,7 +12,7 @@ sections:
       * Explain the benefits of a test driven development
   -
   -
-    title: Test Driven Development PLACEHOLDER
+    title: Test Driven Development
     theme: t-bg-supporting3
     copy: |
       So, what are the characteristics of a Test Driven Development or TDD. 
@@ -31,20 +31,19 @@ sections:
       2.	Write only enough production code to make the failing unit test pass.
 
       In TDD, the tests are written before the code, then refactored afterwards. 
+
+      _https://www.scaledagileframework.com/test-driven-development/_
   -
   -
-    title: Benefits of a test driven development PLACEHOLDER
+    title: Benefits of a test driven development
     layout: media
     theme: t-bg-primary
     copy: |
       TDD constrains the complexity and effort which is put into the initial coding. This comes with several benefits:
-      * Reduces rework time
+      * Reduces rework time, and enhances productivity
       * Allows quick exploration of bugs and errors
-      * Makes it quick to get feedback
-      * Encourages cleaner program design
-      * Enhances productivity 
-      * Encourages knowledge sharing and collaboration as anyone should be able to make a start on any section of code.
-      * Allows programmers to easily change overarching program architecture 
+      * Makes it quick to get feedback, and encourages knowledge sharing and collaboration as anyone should be able to make a start on any section of code
+      * Allows programmers to easily change overarching program architecture, and encourages cleaner program design 
       * Results in the creation of extensive code that is flexible and easy to maintain
       * Means that requirements in the design spec are addressed directly during implementation.
 

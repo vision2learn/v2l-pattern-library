@@ -29,6 +29,16 @@ sections:
     img: /images/svg/uc/uc_u1_s1_p3_image.svg
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The history of coding languages
+
+      Please see the following video on the history of different coding languages.
+    video: uc_u1_s1_p3_history.mp4
+  -
+  -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
@@ -92,7 +102,7 @@ sections:
       ### Different coding languages
 
       Please see the following video on the different coding languages that are used.
-    video: placeholder_pc.mp4
+    video: uc_u1_s1_p3_different_languages.mp4
   -
   -
     title: Quick quiz

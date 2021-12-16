@@ -37,7 +37,7 @@ sections:
         -
           title: Penetration Testing reports
           text: |
-           Penetration tests (Pen Tests) should be similar to vulnerability reports but because they are created by humans in a limited time period there will often be fewer to report and higher in criticality. They should go into more detail and be able to be utilised by a non-cyber security audience than vulneraibility. The most important part of a pen test report are;
+           Penetration tests (Pen Tests) should be similar to vulnerability reports but because they are created by humans in a limited time period there will often be fewer to report and higher in criticality. They should go into more detail and be able to be utilised by a non-cyber security audience than vulnerability. The most important part of a pen test report are;
            * the steps to fix the problem 
            * executive summary as a high level overview of the general security of the system for the executive team 
            * how the results were found 
@@ -70,7 +70,7 @@ sections:
             True: true
             False: false
           feedback: The volume of vulnerabilities will be high as the sofware will identify every potential vulnerability. The cyber security agents role is then to prioritise how critical these are in the report.
-        Is the following statement true or false? "Penetration testing reports are automatically produced by specialist software."":
+        Is the following statement true or false? "Penetration testing reports are automatically produced by specialist software.":
           answers:
             True: false
             False: true
