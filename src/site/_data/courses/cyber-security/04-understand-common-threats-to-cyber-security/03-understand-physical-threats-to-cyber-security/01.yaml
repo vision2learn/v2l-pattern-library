@@ -1,6 +1,6 @@
 title: Understand physical threats to cyber security
 intro: |
-    In this session you will learn about physical threats to cyber security and how technology can help with the threat:
+    In this session you will learn about physical threats to cyber security and how technology can help with these threats.
 banner: cs_u4_s3_p1_physical_threats.jpeg
 sections:
   -
@@ -52,7 +52,7 @@ sections:
     layout: media
     copy: |
       ### What are the potential threats to businesses? 
-      Businesses face a range of threats ranging from personal devices, removable devices, hardware and networking infrastructure. Lets have a look at these threats in more detail. 
+      Businesses face a range of threats ranging from personal devices, removable devices, hardware and networking infrastructure. Let's have a look at these threats in more detail. 
     video: cs_u4_s3_p1_threats_from_devices.mp4
   -       
     title: Quick quiz
@@ -60,23 +60,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: With the large amount of malware out there it will inevitably penetrate and infect a system especially a vulnerable system.
-          answer: vulnerable
+          sentence: Perimeter security and access control systems protect and monitor the external boundary of a business or facility
+          answer: external
         -
-          sentence: Keep all devices secure and don't download anything from any dodgy sites or click on any unknown links on unreliable emails.
-          answer: secure
+          sentence: Many companies allow employees to use their own personal devices which is commonly know as a 'BYOD' policy.
+          answer: BYOD
         -
-          sentence: It is possible to remove malware, by running a scan using the security software installed on the device or system.
-          answer: security software
+          sentence: Individual are more inclined to update their apps and information on their own devices in their own time which saves the business time and money.
+          answer: update
         -
-          sentence: The first step in incident response if you are concerned that a device or system may be infected is containment. 
-          answer: containment
+          sentence: Mobile security should be just as strong as network security to ensure that the company is not put at risk. 
+          answer: Mobile
         -
-          sentence: Opening a system in safe mode allows only the minimum software and programs to load. 
-          answer: safe mode
-        -
-          sentence: Check activity monitors for malicious applications especially if a suspicious update or application has been installed.
-          answer: suspicious
+          sentence: The use of personal devices can cause conflicts when they are used for personal as well as business reasons. 
+          answer: conflicts
     theme: i-quiz
     
   -

@@ -1,17 +1,17 @@
 title: "Understand the use of interpersonal skills for working in cyber security "
 intro: |
-  In this session you will learn about interpersonal skills and how they are used when working in cyber security
+  In this session you will learn about interpersonal skills and how they are used when working in cyber security.
 banner: cs_u6_s2_p1_interpersonal_skills.jpg
 sections:
   -
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.
+      By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security:
     
       1. The range of interpersonal skills used when working in cyber security
       2. When different interpersonal skills might be used
-      3. How working with others within an organisation can support cyber security
+      3. How working with others within an organisation can support cyber security.
      
   -
     title: Key point
@@ -27,13 +27,31 @@ sections:
       ### What interpersonal skills are used when working in cyber security?
       There is a skills shortage in cyber security, and this is not only focused on specialised technical skills it also related to what are called soft skills such as interpersonal skills. 
 
-      Lets take a look the skills required.
-    video: cs_u6_s1_p2_teamwork.mp4
-  - 
-    title: Key skills
+      Let's take a look the skills required.
+    video: cs_u6_s2_p1_interpersonal_skills.mp4
+  -
+    title: Read
+    theme: t-bg-primary1a i-read
+    copy: | 
+      Take a look at the following document to learn more about some of these key skills in more detail and how they relate to cyber security.
+
+      [Data security.](/pdfs/cs_u2_s1_p2_read_data_security.pdf)
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Have you ever had to use the range of communication skills mentioned above when working in a team? Can you describe the situation and why these skills were important? If not can you give an example of when these skills would be used when working in cyber security? 
+    theme: t-bg-primary3 i-think
+  -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand and can explain how working with others within an organisation can support cyber security.
+  -   
+    title: How does working with others within an organisation support cyber security?
     theme: t-bg-primary
     copy: |
-      As you have just seen in the video, there are a range of different interpersonal skills required when wokring in cyber security. 
+      When it comes to cyber security it is important that all employees are aware of the risks and are onboard with any strategies in place. It is therefore imperative that cyber security teams work with others in organisations to make this happen.
       
       Scroll through the slides below to see why these skills are important.
 
@@ -42,59 +60,35 @@ sections:
       title: 
       slides:
         -
-          title: Good verbal and non-verbal communication abilities 
+          title: Finance 
           text: |
-            Being able to communicate the risk associated with technical security issues to non-technical people for example during an incident you may have to explain what’s happened to stakeholders who don’t have the baseline technical knowledge
-          img: placeholder_icon.svg
+            The finance team are often one of the most important departments to support cyber security within a business as they are the ones that have access to the money. Senior management may make the decisions but organising the finances involves the finance team. They also need to work with the cyber security department to make sure that all security protocols are in place within their own department understanding the financial consequences if not.
+          img: cs_u6_s2_p1_slide1.svg
         -
-          title: Ability to question others and give information in response to questioning.
+          title: Operations
           text: |
-            When investigating an incident other staff members may need to be questioned about things that have happened and informed of the consequences related to actions. Being able to use open questions effectively to get answers to the things is really important to conduct a thorough investigation.
-          img: placeholder_icon.svg
+           Security is about operational processes as well as people and technology. Cyber security professionals need to work with the operations team to understanding how the business operates and identify any in security in processes both physical and technological.
+          img: cs_u6_s2_p1_slide2.svg
         -
-          title: Putting their own views across clearly and appropriately.
+          title: Human Resources
           text: |
-            In cyber security, professionals will often have to argue the case as to why a specific remediation is necessary to those who don’t see the need. This may involve a costly outlay for tooling or bringing in more staff. The cyber security professional therefore has to explain why it’s a good investment clearly and appropriately.
-          img: placeholder_icon.svg
+            The Human Resources team (HR) are a key ally to the cyber security team.  HR will help ensure that the rest of the business know and understand their responsibilities to cyber security as well as to help roll out training and awareness events.
+          img: cs_u6_s2_p1_slide3.svg
         -
-          title: Being self-aware 
+          title: Legal
           text: |
-            When addressing incidents and issues, cyber security professionals must be able to examine their own actions and subconscious biases. Whilst investigating an incident certain theories of what might have happened should always be backed up by evidence that it did.  This will help in making sure all key elements are checked and nothing is missed or ignored by being objective with the facts.
-          img: placeholder_icon.svg
+            The legal team are important in helping inform what legal responsibilities to data use, security and protection are. Regulations such as GDPR for example should be built into the policies and training for all departments.
+          img: cs_u6_s2_p1_slide4.svg
         -
-          title: Having empathy
+          title: Sales and Marketing
           text: |
-            Cyber security incident’s can be very stressful for everyone involved, therefore being empathetic for your co-workers is extremely important and making them aware of any consequences from actions and how to address these.
-          img: placeholder_icon.svg
+             Good security practice is an excellent selling point in today’s world whatever the industry. The cyber security team should work with the sales and marketing team to make sure that the benefits of this are fully communicated to all customers and linked businesses.
+          img: cs_u6_s2_p1_slide5.svg
         
-  -      
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: Working with others in a team can increase creativity.
-          answer: creativity
-        -
-          sentence: Productivity can therefore improve as more ideas can be developed and collaboration can increase.
-          answer: Productivity
-        -
-          sentence: Working alone an increase a person’s independence and help an individual to make their own decisions.
-          answer: independence
-        -
-          sentence: A strong team should have a good team ethic which in turn makes it successful. Successful teams have members with a range of individual strengths and qualities.
-          answer: ethic
-        -
-          sentence: Strong and responsible leadership is one of the key aspects of maintaining a successful team.
-          answer: leadership
-        -
-          sentence: A diverse range of team members can also bring an extra dimension to a team.
-          answer: diverse
-    theme: i-quiz
-    
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: relate to content on pa
+      copy: Have you ever had to communicate and work with other departments or teams within an organisation? What did this achieve? If not can you think of the benefits that working with other departments or teams will have?   
     theme: t-bg-primary3 i-think
+  -

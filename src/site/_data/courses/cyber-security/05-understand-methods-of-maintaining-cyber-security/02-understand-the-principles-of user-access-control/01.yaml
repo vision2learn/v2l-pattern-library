@@ -1,6 +1,9 @@
 title: Understand the principles of user access control
 intro: |
-  In this session you will learn about what is meant by user access control and methods of restricting access:
+  In this session you will learn about:
+  * What is meant by user access control 
+  * Methods of restricting access
+  * How to setup user access controls.
 banner: cs_u5_s2_p1_user_access.jpeg
 sections:
   -
@@ -8,9 +11,9 @@ sections:
     theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
-      * what is meant by user access control
-      * methods of restricting user access
-      * how to create a user access control system
+      * What is meant by user access control
+      * Methods of restricting user access
+      * How to create a user access control system
     
   -
     title: Key point
@@ -22,7 +25,7 @@ sections:
     title: What is user access control?
     theme: t-bg-primary
     copy: |
-      UAC works by requiring a standard user to enter the credentials of an administrator with elevated privileges in order to do such high-risk actions like installing a piece of software. This means that standard users cannot install things and therefore reduces the likelihood of them accidentally clicking a link and installing malware.
+      UAC works by requiring a standard user to enter the credentials of an administrator with elevated privileges in order to do high-risk actions like installing a piece of software. This means that standard users cannot install things and therefore reduces the likelihood of them accidentally clicking a link and installing malware.
       It’s important therefore that users are not given administration access by default, and that administrators are not logged in with their administrator account when doing day-to-day things such as browsing the internet and checking emails.
 
 
@@ -32,7 +35,7 @@ sections:
     layout: media
     copy: |
       ### Access controls
-      Lets take a look at how user access controls are used in more detail.
+      Let's take a look at how user access controls are used in more detail.
     video: cs_u5_s2_p2_access_controls.mp4
   -       
     title: Quick quiz
@@ -62,7 +65,34 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: what are the benefits of user access controls? do you have experience of these in your workplace?
+      copy: What are the benefits of user access controls? Do you or someone you know have experience of these in your workplace? 
+    theme: t-bg-primary3 i-think
+
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      Make sure that you understand how to set up user access control system as you will need to explain how to do this in your assessment.
+    
+  -
+    title: Setting up user access controls
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Using the links below have a go at setting up user access controls and file sharing on your own PC or Mac.  
+
+      links:
+        How to Set Up, Configure and Manage User Accounts on Windows 10: https://www.microsoftpressstore.com/articles/article.aspx?p=2453566&seqNum=2
+        How to Set File and Folder Permissions in Windows: https://www.online-tech-tips.com/computer-tips/set-file-folder-permissions-windows/
+
+        Set up users, guests and groups on a Mac: https://support.apple.com/en-gb/guide/mac-help/mtusr001/mac
+        Change permissions for files, folders or disks on Mac: https://support.apple.com/en-gb/guide/mac-help/mchlp1203/mac
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Now that you have setup your own user access controls, explain the steps that you took and what you had to consider when setting up permissions. 
     theme: t-bg-primary3 i-think
 
   -
