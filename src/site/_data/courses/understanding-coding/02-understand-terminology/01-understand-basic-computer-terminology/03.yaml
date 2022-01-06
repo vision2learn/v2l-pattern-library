@@ -87,7 +87,6 @@ sections:
         -
           sentence: A Character data type is used to store a single letter, digit, punctuation mark, symbol or blank space.
           answer: Character
-    theme: i-quiz
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint

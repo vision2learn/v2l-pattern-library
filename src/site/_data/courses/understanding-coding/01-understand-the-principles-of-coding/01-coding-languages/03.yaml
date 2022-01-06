@@ -142,6 +142,14 @@ sections:
     theme: i-quiz
   -
   -
+    title: Read - Different coding languages
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following document which lists the above coding languages:
+
+      [Coding languages]().
+  -
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
