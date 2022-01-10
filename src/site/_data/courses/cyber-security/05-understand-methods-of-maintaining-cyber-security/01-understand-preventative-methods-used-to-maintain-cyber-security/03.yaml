@@ -1,9 +1,9 @@
-title: Understand preventative methods used to maintain cyber security
+title: How to keep system security up to date
 intro: | 
   On this page you will learn about:
-  * what is meant by patching
-  * security updates
-  * keeping cyber security information updated. 
+  * What is meant by patching
+  * Security updates
+  * Keeping cyber security information updated. 
   
 banner: cs_u5_s1_p3_preventative_methods.jpeg
 sections: 
@@ -17,7 +17,7 @@ sections:
     title: What are security updates? What is patching?  
     theme: t-bg-primary
     copy: |
-      Lets have a look at security updates and patching in more detail.
+      Let's have a look at security updates and patching in more detail.
 
     subInc: 
       type: slider
@@ -26,32 +26,34 @@ sections:
         -
           title: Security updates
           text: |
-           As cyber criminals develop new ways of getting into systems then the security of those systems needs to be updated. This is usually done by regular security updates to a system. While this may seem annoying to have to do, they are very important to keep on top of the latest threats that are out there.Security updates are patches released by the vendors of that hardware, firmware, OS, or software which address the known CVE vulnerabilities. Security updates should be set to automatically update where possible.
+           As cyber criminals develop new ways of getting into systems then the security of those systems needs to be updated. This is usually done by regular security updates to a system. While this may seem annoying to have to do, they are very important to keep on top of the latest threats that are out there.
+           
+           Security updates are patches released by the vendors of that hardware, firmware, OS, or software which address the known CVE vulnerabilities. Security updates should be set to automatically update where possible.
 
           img: cs_u5_s1_p3_slide1.svg
         -
           title: What is 'patching'?
           text: |
-            Patching is a process used to make changes to a computer program or its supporting data designed to update, fix, or improve it. This includes fixing security vulnerabilities and other bugs. Vulnerabilities that are most exploited are usually old ones that have the highest impact because they allow remote code execution (RCE) which allows a criminal full access to the device. Patches exist for these and have for many years, but it is often very difficult for a business to patch certain systems.  When a system is being Patched it may cause downtime or unknown compatibility issues. So imagine having a business employing 10,000 people, patching a system that everyone needs to do work on and there is a downtime of 1 hour, would have a huge impact and therefore a business may not see the value in doing it.
+            Patching is a process used to make changes to a computer program or its supporting data designed to update, fix, or improve it. This includes fixing security vulnerabilities and other bugs. Vulnerabilities that are most exploited are usually old ones that have the highest impact because they allow remote code execution (RCE) which allows a criminal full access to the device. Patches exist for these and have for many years, but it is often very difficult for a business to patch certain systems. When a system is being patched it may cause downtime or unknown compatibility issues.
 
           img: cs_u5_s1_p3_slide2.svg
        
    
   -
-    title: Keeping up to date. 
+    title: Keeping up to date 
     theme: t-bg-primary1a
     copy: |
-      So why why is it important to keep cyber security information and maintenance records accurate and up to date? 
+      So why is it important to keep cyber security information and maintenance records accurate and up to date? 
 
-      Lets have a look at what benefits this has.  
+      Let's have a look at what benefits this has.  
 
     subInc: 
       type: accordion
       content:
         - 
-          title: accuracy
+          title: Accuracy
           copy: |
-            Keeping accurate and up to date information and maintenance records on cyber security is essential in helping to understand how systems are being used and collecting logs and good logging practices are fundamental in protective monitoring. They can also be used if a breach happens to look at the impact of it.
+            Keeping accurate and up to date information and maintenance records on cyber security is essential in helping to understand how systems are being used and collecting logs and good logging practices are fundamental in protective monitoring. They can also be used if a breach happens to evaluate its impact.
           img: /images/svg/cs/cs_u5_s1_p3_accordian1.svg
         - 
           title:  Breaches
@@ -65,7 +67,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: Have you installed security updates or applied patches to software either at work or on your home computer? what was the reason for this? 
+      copy: Can you think of a time when you have been prompted to make an update to software e.g. Microsoft office, or anti-virus software? What do you think the reason for this was?
     theme: t-bg-primary3 i-think
 
   -

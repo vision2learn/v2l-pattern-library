@@ -7,7 +7,7 @@ sections:
     title: Your learning goals
     theme: t-bg-primary
     copy: |
-        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security -  
+        By working through this session, you will cover the following criteria of your Level 2 Certificate in the Principles of Cyber Security.  
 
         1. What is social engineering
         2. How social engineering benefits a cyber criminal
@@ -21,7 +21,7 @@ sections:
     copy: |
       Make sure that you understand what the term social engineering means, how it can be used and why open source information is valuable to cyber criminals.
   -
-    title: Social Engineering
+    title: Social engineering
     theme: t-bg-primary1a
     copy: |
       Social engineering is a term that has become more common in recent years, so Lets take a closer look at what it means and why it is useful to cyber criminals.  
@@ -30,7 +30,7 @@ sections:
       type: accordion
       content:
         - 
-          title: What is Social Engineering?
+          title: What is Social engineering?
           copy: |
             Social engineering is the name given to techniques used by cyber criminals to manipulate and trick people into giving out confidential information, transferring money or downloading malware. Social engineers use psychology to manipulate a victims feelings of curiosity, familiarity, fear, or urgency to draw them into a trap.
             * Curiosity – a criminal may send a phishing email titled “click here to view the prize you won!”
@@ -48,7 +48,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Open Source information
+      ### Open source information
 
       So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
     video: cs_u2_s3_p1_open_source.mp4
