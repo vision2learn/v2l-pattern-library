@@ -70,6 +70,7 @@ sections:
   -
   -
     title: Quick quiz
+    theme: i-quiz
     copy: See if you can identify the different data types in the following word quiz.
     subInc: 
       type: word-quiz
@@ -86,13 +87,6 @@ sections:
         -
           sentence: A Character data type is used to store a single letter, digit, punctuation mark, symbol or blank space.
           answer: Character
-    theme: i-quiz
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to identify ways that data can be stored.
-  -
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -103,13 +97,18 @@ sections:
       Please see the following video to learn how data is stored.
     video: placeholder_pc.mp4
   -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify ways that data can be stored.
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
         How do you think your own computer stores data? Have a look at the storage capacity on your own machine - do you think there is enough?  What additional items would you use to backup your data or transfer data?
-
   -
   -
     title: On the web

@@ -115,7 +115,7 @@ sections:
       Now that we have looked in detail in different processes involved in DevOps, it is important that we understand the differences between them. We can look at the process of continuous integration, delivery, and deployment as analogous to a parcel being prepared and delivered:
       * Continuous integration – this is where the constituent parts of the parcel are assembled and checked that they are acceptable to be sent as they are.
       * Continuous delivery – a delivery service delivers the package. You then check that the components are ready and meet expectations. If not, they are sent back.
-      * Continuous deployment – this is where the contents of the parcel are deployed for whatever purpose they were sent. For example 
+      * Continuous deployment – this is where the contents of the parcel are deployed for whatever purpose they were sent.
 
       Continuous delivery and continuous deployment can seem quite similar. It may be useful to think about continuous delivery as a process whereby every change is PROVEN TO BE DEPLOYABLE TO PRODUCTION, though not necessarily deployed. This means that when it is finally ready, continuous deployment ensures that it can be deployed quickly.
 
