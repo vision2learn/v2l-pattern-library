@@ -18,3 +18,9 @@ from = "/autism"
 to = "/courses/understanding-autism/4/1/1"
 force = true
 status = 301
+
+[[redirects]]
+from = "/coding"
+to = "/courses/understanding-coding/1/1/1"
+force = true
+status = 301
