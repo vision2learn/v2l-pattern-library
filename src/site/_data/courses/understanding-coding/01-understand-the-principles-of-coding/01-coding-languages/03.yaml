@@ -38,6 +38,14 @@ sections:
       Please see the following video on the history of different coding languages.
     video: uc_u1_s1_p3_coding_history.mp4
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the history of code.
+      links:
+        The evolution of computer languages: https://www.extremetech.com/computing/91572-the-evolution-of-computer-languages-infographic
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -141,20 +149,9 @@ sections:
           answer: PHP
     theme: i-quiz
   -
-  -
     title: Read - Different coding languages
     theme: t-bg-primary2 i-read
     copy: | 
       Take a look at the following document which lists the above coding languages:
 
-      [Coding languages]().
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about the history of code.
-      links:
-        The evolution of computer languages: https://www.extremetech.com/computing/91572-the-evolution-of-computer-languages-infographic
+      [Coding languages](/pdfs/uc_u1_s1_p3_coding_languages.pdf).
