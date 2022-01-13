@@ -16,7 +16,7 @@ In the 1960's BASIC had been invented and then C was released.
 
 Unix was developed in the 1970’s and it’s code rewritten in ‘C’ in 1972, the first major OS or operating system not in assembly language. 
 
-Linux first released in 1991 is written almost entirely in C and both Windows and Mac OS X both contain C.
+Linux first released in 1991 is written almost entirely in C and both Windows and macOS both contain C.
 
 The 1990’s also welcomed some of today’s most recognisable languages such as Python, Java, Java Script and PHP. Which opened the world to social media, Android/OS apps and streaming services.
 
