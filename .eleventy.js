@@ -146,6 +146,9 @@ module.exports = function(config) {
     // Is there a VTT for this video?
     try {
       fs.accessSync(`src/site/videos/captions/vtt/${dirname}${basename}.vtt`, fs.constants.F_OK);
+
+      dirname = dirname === './' ? '' : dirname;
+
       track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${dirname + basename}.vtt">`;
     } catch (err) {
       console.log(`No VTT file for ${dirname + file}`);
