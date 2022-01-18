@@ -54,17 +54,6 @@ sections:
       
     video: uc_u1_s2_p3_interview_backend_dev.mp4
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Coding professional - Backend developer - interview
-
-      
-    video: uc_u1_s2_p3_backend_dev.mp4
-  -
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
