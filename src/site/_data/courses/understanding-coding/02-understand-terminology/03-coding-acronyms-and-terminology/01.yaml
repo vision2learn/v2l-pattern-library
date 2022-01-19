@@ -62,7 +62,7 @@ sections:
     title: WET code
     theme:
     copy: |
-      When code is ‘WET’, code segments are repeated. All of our pizzas have some common ingredients, meaning that the 4 lines in our code from lines 7, 14, and 21 are repeated.
+      When code is ‘WET’, code segments are repeated. All of our pizzas have some common ingredients, meaning that the 4 lines in our code from lines 6, 13, and 20 are repeated.
     subInc:
       type: code
       lang: cpp
