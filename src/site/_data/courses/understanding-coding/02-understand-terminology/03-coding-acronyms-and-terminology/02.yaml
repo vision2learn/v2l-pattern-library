@@ -40,9 +40,7 @@ sections:
       ### Open and closed source code
       
       Please see the following video where you will learn more about open and closed source code.
-
-      _Do we need to add that paid does not necessary mean closed?_
-    video: placeholder_pc.mp4
+    video: uc_u2_s3_p2_open_closed_source.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -64,9 +62,9 @@ sections:
 
       Let’s look at 2 website builders that are free to use and their code can be amended but one is open source and the other is not.
 
-      Weebly is a closed-source website builder, but it gives freedom to customise designs by editing the HTML and CSS codes. However, all the website tools are controlled by Weebly and closely monitored within its own environment. It is easy to use with all its drag and drop features and offers help guides and extra support in its paid for plans.  As Weebly is a closed system they manage all the technical issues
+      Weebly is a closed-source website builder, but it gives freedom to customise designs by editing the HTML and CSS codes. However, all the website tools are controlled by Weebly and closely monitored within its own environment. It is easy to use with all its drag and drop features and offers help guides and extra support in its paid for plans.  As Weebly is a closed system they manage all the technical issues.
 
-      WordPress however is an open source website builder which gives a lot of freedom to modify a website and decides how website tools should work. But saying that you need to be knowledgeable about codes as any modifications will need good coding skills and although there is a large community offering free plugins not all of these are well built. 
+      WordPress however is an open source website builder which gives a lot of freedom to modify a website and decide how website tools should work. But saying that you need to be knowledgeable about codes as any modifications will need good coding skills and although there is a large community offering free plugins not all of these are well built. 
 
     img: /images/svg/uc/uc_u2_s3_p2_casestudy.svg
   -
@@ -79,11 +77,11 @@ sections:
 
       In 2005 Google purchased Android and in 2007 Google announced and launched (2008) their Android open source project in response to the new iPhone by Apple which started the new smart phone era. Google had formerly been an app partner for the original iPhone but was worried about being limited to one company.
 
-      Android consists of both open source and closed source elements. The open source part of android is the AOSP and the closed source part is all the google branded apps. 
+      Android consists of both open source and closed source elements. The open source part of Android is the AOSP and the closed source part is all the google branded apps. 
 
       To keep control of Android and to stop their competitors using their public source code Google has had to take more control creating its own proprietary versions. 
 
       This has culminated in *The EU antitrust* ruling which imposed a penalty on Google for stifling competition through their dominance of the Android operating system. Select the owl to see greater detail about this case study.
 
     img: /images/svg/stretch_button.svg
-    link: https://www.npr.org/2021/09/27/1040889789/google-eu-android-appeal-antitrust?t=1634645020669
+    link: https://www.npr.org/2021/09/27/1040889789/google-eu-Android-appeal-antitrust?t=1634645020669

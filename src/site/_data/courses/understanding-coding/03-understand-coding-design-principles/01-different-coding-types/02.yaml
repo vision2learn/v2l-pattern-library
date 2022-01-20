@@ -15,9 +15,7 @@ sections:
     copy: |
       To choose what language to code in, programmers must assess how a language works in relation to what they want to achieve. Different programming languages have different rules, strategies, and principles which govern how they work. We refer to this as its “programming paradigm”. Whilst there are many paradigms, which can overlap, most fall in to one of two main fundamental paradigms: Imperative or Declarative. 
       
-      There are many different categories and mixtures of imperative/declarative programming. When programming language has capabilities of more than one paradigm, we refer to this as multi-paradigm.
-
-
+      There are many different categories and mixtures of imperative/declarative programming. When a programming language has capabilities of more than one paradigm, we refer to this as multi-paradigm.
     img: /images/svg/uc/uc_u3_s1_p2_image.svg
   -
   -
@@ -52,7 +50,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with examples of code_
+      _Presentation style - Presenter(s) with examples of code - use below pseudo code READ item_
       
       ### Imperative and declarative coding
 
@@ -65,26 +63,24 @@ sections:
     copy: | 
       Take a look at the following document which gives an example of imperative and declarative coding:
 
-      _Recap document here - pseudo code example from Tom_
-
-      [Imperative and declarative example]().
+      [Imperative and declarative pseudo code examples](/pdfs/uc_u3_s1_p2_read_pseudo_code.pdf).
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one - imperative
-          answer: one
+          sentence: Imperative statements are grouped into sections which are called procedures. 
+          answer: Imperative
         -
-          sentence: example two - declarative
-          answer: two
+          sentence: Most forms of Declarative programming do not support change to the ‘State’ of a program.
+          answer: Declarative
         -
-          sentence: example three 
-          answer: three
+          sentence: Imperative coding or programming can directly change the ‘State’ of the program through statements which provide instructions.
+          answer: Imperative
         -
-          sentence: example four
-          answer: four
+          sentence: The programs in Declarative programming are run based on a series of ‘expressions’ which specify exactly WHAT the program should accomplish, rather than HOW it does it.
+          answer: Declarative
     theme: i-quiz

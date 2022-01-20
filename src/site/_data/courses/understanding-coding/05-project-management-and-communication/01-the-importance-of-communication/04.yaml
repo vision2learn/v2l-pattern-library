@@ -35,7 +35,7 @@ sections:
       In your assessment you will be required to explain how release notes are used to communicate information to others.
   -
   -
-    title: Release note
+    title: Release notes
     layout: media
     theme: t-bg-primary
     copy: |
@@ -59,3 +59,10 @@ sections:
 
       links:
         website description: http://www.google.co.uk
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Use the above website example to explain how these release notes help to communicate information to others about the software release.  (This exercise will help you with your assessment later on.)
