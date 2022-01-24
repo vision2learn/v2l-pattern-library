@@ -21,11 +21,9 @@ sections:
     title: Parallelisation and how is it managed
     theme: 
     copy: |
-      Pure functions are particularly useful when you want to implement parallel processing. Parallel processing is a way of allocating processes that are happening in a program so that they can make the most use of the computational resources available. It differs from sequential (typical) programs in that it allows multiple processes to occur at once. 
-
-      _Multi-threaded programming diagram here_
+      Pure functions are particularly useful when you want to implement parallel processing. Parallel processing is a way of allocating processes that are happening in a program so that they can make the most use of the computational resources available. It differs from sequential (typical) programs in that it allows multiple processes to occur at once.
             
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/uc/uc_u3_s3_p2_image.svg)
 
       Sequential programming only allows one process to occur at time. If you think of these processes as people queuing to get through security at the airport, a sequential program would only have one security gate open, meaning that only one person could be processed at a time. In contrast, parallel processing allows as many processes to occur at once within the boundaries of the memory that is available. So a parallel airport might have a long queue, but can open all of the security gates in the terminal at once and therefore get through the queue much quicker.
   -
@@ -35,8 +33,6 @@ sections:
     layout: media
     copy: |
       ### Parallelisation and how is it managed
-
-      _Presentation style - Narrator or presenter explaining the example with diagrams / text_
       
       Please see the following video to learn more about parallelisation.
 

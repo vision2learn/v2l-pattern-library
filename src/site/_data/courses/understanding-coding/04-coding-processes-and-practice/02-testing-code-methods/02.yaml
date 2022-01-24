@@ -51,15 +51,13 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with text to emphasise certain points - marked in bold in script_
-
       ### Debugging
       
       Please see the following video about debugging.
     video: placeholder_pc.mp4
   -
   -
-    title: Code
+    title: Example of code
     theme:
     copy: |
       The Python code below shows a simple function (lines 4-7), and an example of where __unit testing__ is used to __debug__ a program.
@@ -107,9 +105,9 @@ sections:
         Test 1: True
         Test 2: False
     copy2: |
-      The output is seen at the bottom, below line 23. 
+      The output is seen at the bottom, in the Result window.
 
-      The first test resulted in the output 8.
+      The first test resulted in the output is 8.
       
       The second test gave us the output ‘goatgoat’. 
       

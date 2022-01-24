@@ -28,8 +28,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with images and titles_
-
       ### Testing code and the importance of testing
       
       We have talked about different code and how it should be written but to make sure it works it must be tested so let’s look at what is meant by testing code.

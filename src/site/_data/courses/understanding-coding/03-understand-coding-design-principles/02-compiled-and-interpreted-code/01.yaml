@@ -26,12 +26,12 @@ sections:
           title: Source code
           text: |
             Source code is human-readable text written in a specific programming language. This is the part the human interacts with and uses to generate a program. It is composed of a set of functions and syntax rules that the user can enter in the main language to get it to do something. The code sections in Unit 2 are examples of source code.
-          img: placeholder_icon.svg
+          img: uc_u3_s2_p1_slide1.svg
         -
           title: Machine code
           text: |
             Machine code is binary (1's and 0's) code that can be executed directly by the CPU. This is not edited directly by the programmer and the source code of a program must be translated to machine code to control the hardware. To a human, it might look a bit like the green text in the film “the Matrix”.
-          img: placeholder_icon.svg
+          img: uc_u3_s2_p1_slide2.svg
   -
   -
     title: Key point
@@ -51,7 +51,7 @@ sections:
 
       Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code.
          
-      ![](/images/banners/uc/placeholder.jpg)
+      ![](/images/svg/uc/uc_u3_s2_p1_image1.svg)
 
       ### Interpreted code
 
@@ -76,8 +76,6 @@ sections:
     copy: |
       ### The principles of compiled and interpreted code
 
-      _Presentation style - Two presenters - bullet points and diagrams_
-      
       Please see the following video on the principles of compiled and interpreted code.
     video: placeholder_pc.mp4
   -
