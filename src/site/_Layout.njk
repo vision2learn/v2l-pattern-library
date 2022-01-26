@@ -1,5 +1,6 @@
 ---
-permalink: _Layout.cshtml
+layout: blank
+permalink: /dotnet/_Layout.cshtml
 ---
 
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ permalink: _Layout.cshtml
   @Html.Raw("<script src='https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js'></script>")
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   @Styles.Render("~/bundles/css")
+  @Styles.Render("~/css/themes/prism-xonokai.css")
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5865731-7"></script>
@@ -30,7 +32,7 @@ permalink: _Layout.cshtml
 
     @Html.Partial("_Header")
 
-    <main id="main" data-v2l-tags="" data-v2l-course="@ViewBag.CourseName" data-v2l-level="2" data-v2l-unit="@ViewBag.CurrentUnit" data-v2l-session="@ViewBag.CurrentSession" data-v2l-page="@(ViewBag.CurrentPage-1)">
+    <main id="main" data-v2l-tags="understanding-coding" data-v2l-course="@ViewBag.CourseName" data-v2l-level="2" data-v2l-unit="@ViewBag.CurrentUnit" data-v2l-session="@ViewBag.CurrentSession" data-v2l-page="@(ViewBag.CurrentPage-1)">
       @RenderBody()
     </main>
 
@@ -45,8 +47,6 @@ permalink: _Layout.cshtml
   @Scripts.Render("~/bundles/jqueryval")
   @Scripts.Render("~/bundles/course")
 
-  <script>
-    {% include 'bodyscript' %}
-  </script>
+  @Html.Partial("_BodyScript")
 </body>
 </html>
