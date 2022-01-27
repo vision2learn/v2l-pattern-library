@@ -24,8 +24,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with images and text to illustrate each point_
-      
       ### The KISS principle
 
       KISS is an acronym for a design principle noted by the US Navy in 1960 and it stands for ‘Keep it Simple and Straightforward’ and covers many different areas of design including engineering and programming. Please see the following video to learn more.
@@ -52,8 +50,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Two presenters with titles for each point and example screenshots_
-      
       ### The disadvantages of writing complicated code
 
       So, what are the disadvantages of writing complicated code? Please see the following video.
@@ -68,7 +64,7 @@ sections:
 
   -
   -
-    title: Stretch - weblink
+    title: Stretch
     layout: media
     theme: t-bg-primary2 i-stretch
     copy: |
