@@ -12,7 +12,5 @@ Within a programming environment the other parties that we may seek feedback fro
 
 The person who is communicating should set out the guidelines for feedback and make sure that they ask for it. They should also make everyone aware that feedback is an important and helpful way of them confirming their understanding and in turn for gaining a response.
 
-For a more 
-
-**Leah:** efficient process they should enable feedback to be given by means of creating a mechanism for it. Feedback can be given by a variety of means such as by informal and formal meetings, email questioning, polls, surveys, focus groups and questionnaires. The approach will depend on the feedback that is wanted and how quickly it is needed.
+**Leah:** For a more efficient process they should enable feedback to be given by means of creating a mechanism for it. Feedback can be given by a variety of means such as by informal and formal meetings, email questioning, polls, surveys, focus groups and questionnaires. The approach will depend on the feedback that is wanted and how quickly it is needed.
 
