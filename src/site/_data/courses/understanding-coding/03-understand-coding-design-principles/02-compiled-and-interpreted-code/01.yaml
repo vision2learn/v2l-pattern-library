@@ -84,7 +84,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Now you have seen the video, list the main points of compiled code and interpreted code.
   -
   -
     title: Activity
@@ -101,20 +101,20 @@ sections:
   -
   -
     title: Quick quiz
-    copy: _May not need if we can include a quiz in the activity_
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one - compiled
-          answer: one
+          sentence: Compiled code can be run straight away.
+          answer: Compiled
         -
-          sentence: example two - interpreted
-          answer: two
+          sentence: Compiled code can be optimized to CPU so can be faster.
+          answer: Compiled
         -
-          sentence: example three 
-          answer: three
+          sentence: Interpreted code can be used across platforms.
+          answer: Interpreted
         -
-          sentence: example four
-          answer: four
+          sentence: Interpreted code can be easier to debug.
+          answer: Interpreted
     theme: i-quiz
