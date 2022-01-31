@@ -31,7 +31,7 @@ sections:
             
             A key point is that functions take in EXISTING inputs (values, data structures, or functions) and return NEW values or data structures.
 
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide1.svg
         -
           title: Object-orientated coding
           text: |
@@ -41,32 +41,32 @@ sections:
 
             Commonly, the objects are “classes”. These are data structures definitions which contain inbuilt data and class-specific functions (known as methods).  _We will be looking at Classes later on in Unit 4._
 
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide2.svg
         -
           title: Procedural code
           text: |
             As previously described, type of imperative language. Composed of a set of procedures that run in a pre-determined order.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide3.svg
         -
           title: Logic programming
           text: |
             A type of declarative paradigm based on formal logic. Rules and details are based on mathematical system of reasoning.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide4.svg
         -
           title: Parallel process
           text: |
             A type of imperative paradigm. It allows processes to run concurrently rather than in sequence (sequential programming) like more fundamental paradigms.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide5.svg
         -
           title: Database processing approach
           text: |
             Database processing approach is declarative. Users can create and edit database systems using declarative control statements. They can also make queries to retrieve results matching specific criteria.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide6.svg
         -
           title: Event-driven programming
           text: |
             Technically both imperative and declarative languages support this approach. This is where the control flow of a program is determined by events (such as change in value of a variable) which determine the subsequent processes.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide7.svg
   -
   -
     title: Key point

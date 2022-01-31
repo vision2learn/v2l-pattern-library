@@ -57,10 +57,7 @@ sections:
 
       Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter. 
             
-      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation. 
-
-      _This will be a diagram illustrating the above - example on https://cs.stackexchange.com/questions/56478/jit-aot-interpretation-what-are-differences-between-them_
-  -
+      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
