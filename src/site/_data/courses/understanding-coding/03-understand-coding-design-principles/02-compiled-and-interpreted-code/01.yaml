@@ -92,9 +92,9 @@ sections:
 
       Select the following icon to learn more about the advantages and disadvanges of compile and interpreted code.
 
-
     img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+    activity: 
+      ref: uc_u3_s2_p1_activity_v2
   -
   -
     title: Quick quiz
