@@ -57,10 +57,7 @@ sections:
 
       Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter. 
             
-      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation. 
-
-      _This will be a diagram illustrating the above - example on https://cs.stackexchange.com/questions/56478/jit-aot-interpretation-what-are-differences-between-them_
-  -
+      The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -93,11 +90,11 @@ sections:
     copy: |
       ### The advantages of compiled and interpreted code
 
-      Select the following icon to learn more about the advantages and disadvanges of compile and interpreted code.
-
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
 
     img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+    activity: 
+      ref: uc_u3_s2_p1_activity_v2
   -
   -
     title: Quick quiz
@@ -105,6 +102,9 @@ sections:
     subInc: 
       type: word-quiz
       content:
+        -
+          sentence: Interpreted code can be easier to debug.
+          answer: Interpreted
         -
           sentence: Compiled code can be run straight away.
           answer: Compiled
@@ -115,6 +115,15 @@ sections:
           sentence: Interpreted code can be used across platforms.
           answer: Interpreted
         -
-          sentence: Interpreted code can be easier to debug.
+          sentence: Compilation is an extra step during testing with Compiled code.
+          answer: Compiled
+        -
+          sentence: Executable files are not crossed platform with Compiled code.
+          answer: Compiled
+        -
+          sentence: Everyone that wants to run Interpreted code needs an interpreter.
+          answer: Interpreted
+        -
+          sentence: Interpreted source code is public as everyone who runs the program has it.
           answer: Interpreted
     theme: i-quiz
