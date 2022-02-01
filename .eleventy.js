@@ -305,7 +305,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
-  // config.addPassthroughCopy("./src/site/captivate");     
+  config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");
