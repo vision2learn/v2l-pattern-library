@@ -19,7 +19,7 @@ sections:
 
       The Test Driven Development approach creates test cases to specify and validate what the code will do. Test cases for each function are created and tested first before the actual development of the application or program and if the test fails new code is written.
 
-      ![](/images/banners/uc/placeholder.jpg)
+      ![](/images/svg/uc/uc_u4_s2_p3_wide_image.svg)
 
       TDD is written around 3 main principles:
       1.	Do not write any production code unless it is to make a failing unit test pass.
@@ -31,8 +31,6 @@ sections:
       2.	Write only enough production code to make the failing unit test pass.
 
       In TDD, the tests are written before the code, then refactored afterwards. 
-
-      _https://www.scaledagileframework.com/test-driven-development/_
   -
   -
     title: Benefits of a test driven development
@@ -47,7 +45,7 @@ sections:
       * Results in the creation of extensive code that is flexible and easy to maintain
       * Means that requirements in the design spec are addressed directly during implementation.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u4_s2_p3_image2.svg
   -
   -
     title: On the web
