@@ -96,7 +96,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Exercise which relates to the activity._
+        Now you have done the activity, list the steps in the continuous integration lifecycle.  Identify where continuous delivery and continuous deployment would take place in relation to this lifecycle.
   -
   -
     title: Key point
@@ -127,10 +127,11 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about continuous integration and the differences between the three stages.
 
       links:
-        website description: http://www.google.co.uk
+        cloudbees - continuous integration: https://www.cloudbees.com/continuous-delivery/continuous-integration
+        cloudbees - differences between the three stages: https://www.cloudbees.com/blog/continuous-integration-continuous-delivery-continuous-deployment
   -
     title: Quick quiz
     copy: 
@@ -138,13 +139,13 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: statement -  continuous integration.
+          sentence: Continuous integration is part of the build stage of the DevOps process. 
           answer: integration
         -
-          sentence: Continuous delivery is the stage that delivers - statement here
+          sentence: Continuous delivery is after the build stage and is where the completed (and tested) code is placed in the programing environment after it has been approved.
           answer: delivery
         -
-          sentence: Continuous deployment is the stage where the - statement here
+          sentence: Continuous deployment allows code to be pushed straight to production after the developers commit it so it is ready for the customer. 
           answer: deployment
 
     theme: i-quiz
