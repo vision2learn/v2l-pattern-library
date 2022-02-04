@@ -414,37 +414,10 @@ Taken from: https://inclusive-components.design/collapsible-sections/
 
  #}
 {%- macro icon(theme) %}
-
   {%- if theme.indexOf("i-") > -1 -%}
-    <!-- THEME ICON MACRO -->
     {% set themeIcon = true %}
-    {%- if theme.indexOf("i-on-web") > -1 -%}
-      {%- set icon = "web.svg" -%}
-    {%- elseif theme.indexOf("i-summary") > -1 -%}
-      {%- set icon = "summary.svg" -%}
-    {%- elseif theme.indexOf("i-stretch") > -1 -%}
-      {%- set icon = "stretch.svg" -%}
-    {%- elseif theme.indexOf("i-keypoint") > -1 -%}
-      {%- set icon = "keypoint.svg" -%}
-    {%- elseif theme.indexOf("i-think") > -1 -%}
-      {%- set icon = "think.svg" -%}
-    {%- elseif theme.indexOf("i-read") > -1 -%}
-      {%- set icon = "read.svg" -%}
-    {%- elseif theme.indexOf("i-watch") > -1 -%}
-      {%- set icon = "watch.svg" -%}
-    {%- elseif theme.indexOf("i-case-study") > -1 -%}
-      {%- set icon = "casestudy.svg" -%}
-    {%- elseif theme.indexOf("i-practice") > -1 -%}
-      {%- set icon = "practice.svg" -%}
-    {%- elseif theme.indexOf("i-forum") > -1 -%}
-      {%- set icon = "forum.svg" -%}
-    {%- elseif theme.indexOf("i-quiz") > -1 -%}
-      {%- set icon = "quiz.svg" -%}
-    {%- elseif theme.indexOf("i-stats") > -1 -%}
-      {%- set icon = "stats.svg" -%}
-    {%- endif -%}
-    <!-- {{ icon }} -->
-    {% include "svg/course-features/" + icon %}
+    {% set name = theme.substr(theme.lastIndexOf('-') + 1) %}
+    <!-- THEME ICON MACRO {{ name }} -->
+    {% include "svg/course-features/" + name + ".svg" ignore missing %}
   {%- endif -%}
-
 {%- endmacro -%}

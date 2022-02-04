@@ -31,7 +31,7 @@ sections:
           img: /images/svg/ba/ba_u2_s8_p2_accordion_1.svg
   -
     title: Case study - Poor customer service costs operator millions
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
       This fictional news article demonstrates the effects of poor customer service.
 
@@ -106,7 +106,7 @@ sections:
 
   -
     title: Consequences
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
       AB Business Manager Ellie Black gave some further statements:
 
