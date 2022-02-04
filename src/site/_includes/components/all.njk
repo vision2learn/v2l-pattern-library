@@ -442,6 +442,8 @@ Taken from: https://inclusive-components.design/collapsible-sections/
       {%- set icon = "quiz.svg" -%}
     {%- elseif theme.indexOf("i-stats") > -1 -%}
       {%- set icon = "stats.svg" -%}
+    {%- elseif theme.indexOf("i-glossary") > -1 -%}
+      {%- set icon = "glossary.svg" -%}
     {%- endif -%}
     <!-- {{ icon }} -->
     {% include "svg/course-features/" + icon %}
