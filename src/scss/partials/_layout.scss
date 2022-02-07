@@ -80,8 +80,6 @@ main > section:not(.c-banner) {
   }
 
   li,
-  dt,
-  dd,
   br,
   th,
   td,
@@ -217,6 +215,12 @@ main > section:not(.c-banner) {
     "pagination";
     padding: .5rem 1rem;
 
+  &--lite {
+    grid-template-areas: 
+      "logo"
+      "details";
+  }
+
   &__pages {
     grid-area: pagination
   }
@@ -237,6 +241,12 @@ main > section:not(.c-banner) {
     grid-template-areas: 
       "session-nav . logo"
       "details pagination pagination";
+
+    &--lite {
+      grid-template-areas: 
+        "details details logo" !important;
+      grid-template-rows: auto;
+    }
 
     &__pages {
       align-self: end;
@@ -454,4 +464,21 @@ main > section:not(.c-banner) {
 .l-video-container + toggle-section {
   margin-top: 1.5em;
   margin-top: calc(var(--flow) * 1em);
+}
+
+.l-glossary {
+  dt{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  dd {
+    margin: 0;
+  
+    & + dt {
+      // content: "\A";
+      // white-space: pre;
+      margin-top: 3em !important;
+    }
+  }
 }

@@ -1,0 +1,835 @@
+-
+  term: Abstraction
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: The process of hiding non-essential data from users for clarity and security. The term is used to refer to classes and methods.
+-
+  term: Agile
+  first: Unit 4 Session 3 Page 1 
+  also: Unit 5 Session 2 Page 2, Unit 5 Session 4 Page 1 
+  best: Unit 5 Session 4 Page 1 
+  definition: An approach to project management which is outlined in the Agile Manifesto. Team members work primarily independently and progress in increments towards the end goal, reporting their progress in regular meetings called Scrums.
+-
+  term: Algorithm
+  first: Unit 2 Session 2 Page 4 
+  also: Unit 2 Session 2 Page 5 
+  best: Unit 2 Session 2 Page 4 
+  definition: A sequential set of logical or mathematical problems which, if followed, result in the solution to a problem.
+-
+  term: Attributes
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: The data which characterise a class or a class instance in object-oriented programming.
+-
+  term: Backend
+  first: Unit 1 Session 2 Page 2 
+  also: 
+  best: 
+  definition: The part of a program or website that the user does not see. In contrast to frontend, which is what the users do see, and consists of the User Interface (UI).
+-
+  term: Binary
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A number system which only has two units, ‘0’ and ‘1’. Forms the basis of most aspects of modern computing.
+-
+  term: Black box testing
+  first: Unit 4 Session 2 Page 1 
+  also: 
+  best: 
+  definition: A type of testing whereby software is tested by somebody who has no prior knowledge of the internal workings.
+-
+  term: Boolean
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A data type with two possible values (true or false).
+-
+  term: Byte code
+  first: Unit 3 Session 2 Page 1 
+  also: 
+  best: 
+  definition: Program code that has been converted from source code to low-level code designed for a software interpreter.
+-
+  term: Caching
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A data storage layer which is used to improve accessibility and speed of a program, typically stored in the Random-Access Memory (RAM).
+-
+  term: Central Processing Unit (CPU)
+  first: Unit 2 Session 1 Page 2 
+  also: 
+  best: 
+  definition: The primary component of a computer which takes care of all of the basic central and system-related processes, generally made up of a number of processing cores.
+-
+  term: Character
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A data type which holds a single character (such as a number, letter, symbol, or punctuation mark, etc).
+-
+  term: Class
+  first: Unit 3 Session 1 Page 3 
+  also: Unit 4 Session 1 Page 3 
+  best: Unit 4 Session 1 Page 3 
+  definition: A definitive data structure of object-oriented programming (OOP) which holds a template for data or behaviours that may be used more than once in a program.
+-
+  term: Closed source
+  first: Unit 2 Session 3 Page 2 
+  also: 
+  best: 
+  definition: Software where source code is encrypted by the author so that third parties cannot copy, edit, or delete sections. Also known as proprietary software.
+-
+  term: Collection
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A data structure used for storing sets of data which may be of a different type, but are related in content.
+-
+  term: Comment
+  first: Unit 2 Session 1 Page 4 
+  also: Unit 2 Session 2 Page 1 
+  best: Unit 2 Session 1 Page 4 
+  definition: A section in the code which is ignored by the compiler or interpreter. Mostly used for annotations to explain the code which human users can understand.
+-
+  term: Compilation error
+  first: Unit 4 Session 2 Page 2 
+  also: 
+  best: 
+  definition: The occurrence of an error when building the machine code for a program.
+-
+  term: Compiler
+  first: Unit 2 Session 1 Page 4 
+  also: Unit 2 Session 2 Page 4, Unit 3 Session 2 Page 1 
+  best: Unit 3 Session 2 Page 1 
+  definition: A program which reads source code, then generates a separate program called an executable program from it.
+-
+  term: Conditional statement
+  first: Unit 2 Session 2 Page 1 
+  also: Unit 2 Session 2 Page 4 
+  best: Unit 2 Session 2 Page 4 
+  definition: A statement such as an ‘if/else’ statement which assesses a specific condition (e.g., the value held by a variable), and then acts according to this.
+-
+  term: Console
+  first: Unit 2 Session 1 Page 4 
+  also: Unit 2 Session 2 Page 4 
+  best: Unit 2 Session 1 Page 4 
+  definition: A text-based terminal through which a human can interact with a system or program through key presses.
+-
+  term: Constant
+  first: Unit 2 Session 2 Page 1 
+  also: 
+  best: 
+  definition: A value in a program which cannot be changed.
+-
+  term: Continuous delivery (CD)
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A DevOps process whereby all changes to code are automatically deployed to the testing or programming environment following the build stage.
+-
+  term: Continuous deployment (CD)
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A DevOps process whereby all completed stages of the production pipeline can be passed directly to the customer.
+-
+  term: Continuous development (CD)
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A stage of DevOps where the planning and coding of the software is done.
+-
+  term: Continuous integration (CI)
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A DevOps process whereby changes are merged to the main branch as often as possible with an emphasis on testing automation.
+-
+  term: Continuous monitoring
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A stage which occurs at the end of the DevOps lifecycle whereby development and quality assurance teams are given feedback by end users so that they can quickly fix issues after a product is released.
+-
+  term: Continuous testing
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A DevOps process which focuses on on-going automated testing of software during development.
+-
+  term: Control flow
+  first: Unit 2 Session 2 Page 4 
+  also: Unit 3 Session 1 Page 2 
+  best: Unit 2 Session 2 Page 4 
+  definition: The order in which a computer executes statements in a script, including statements like conditionals and loops.
+-
+  term: Control flow graph (CFG)
+  first: Unit 2 Session 2 Page 4 
+  also: 
+  best: 
+  definition: A flow-chart type graph used to represent the control flow in executions of programs or applications.
+-
+  term: Data
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: Information that is processed or stored by a computer, represented in its lowest-level form in binary.
+-
+  term: Declaration
+  first: Unit 2 Session 1 Page 4 
+  also: 
+  best: 
+  definition: The section of code which specifies where an entity (such as a variable, function, constant, or class) is assigned.
+-
+  term: Declarative programming
+  first: Unit 3 Session 1 Page 2 
+  also: Unit 3 Session 1 Page 3 
+  best: Unit 3 Session 1 Page 2 
+  definition: A programming paradigm which focuses on statements which specify what action must be performed, rather than the control flow or logic by which it should be achieved as in imperative programming.
+-
+  term: Defensive programming
+  first: Unit 4 Session 4 Page 2 
+  also: 
+  best: 
+  definition: An approach to programming where the programmer anticipates potential problems that could be encountered and includes routines to deal with them which would ensure ongoing function of the program.
+-
+  term: Dependency
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A prerequisite for a program or piece of code to function properly. Commonly a dependency would refer to a library, a script, or a function.
+-
+  term: Deployment
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A phase of the Software Development Life Cycle (SDLC) where the finished product is introduced into the target production environment, including all tests, creation of guides, and administration required for this.
+-
+  term: Design document specification (DDS)
+  first: Unit 1 Session 3 Page 2 
+  also: 
+  best: 
+  definition: A document drawn up by the project manager along with the IT team during the Software Development Life Cycle (SDLC) which outlines roadmaps to project completion.
+-
+  term: DevOps
+  first: Unit 4 Session 1 Page 2 
+  also: Unit 4 Session 3 Page 1 
+  best: Unit 4 Session 3 Page 1 
+  definition: A set of practices, tools, and philosophy that combines software development (Dev) and IT operations (Ops). Incorporates agile practices and continuous development.
+-
+  term: Dictionary
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A data structure in used many languages (including Python) which stores data values in key/value pairs.
+-
+  term: DRY
+  first: Unit 2 Session 3 Page 1 
+  also: 
+  best: 
+  definition: Acronym for ‘Don’t Repeat Yourself’. Refers to an approach to formatting code where sections of code which are repeated are generalised and inserted into functions to reduce unnecessary repetition of code. The opposite of WET.
+-
+  term: Element
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: One single entry of a data structure composed of a collection of data entries. For example, the first element in a list is the first entry in the list.
+-
+  term: Event-driven programming
+  first: Unit 3 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A programming paradigm where the control flow depends on the occurrence of events.
+-
+  term: Exception handling
+  first: Unit 4 Session 4 Page 1 
+  also: 
+  best: 
+  definition: A form of defensive programming whereby sections of code are written into programs to deal with all possible errors which could occur and either allow the program to continue running or deliver meaningful information to the user.
+-
+  term: Executable file
+  first: Unit 2 Session 3 Page 2 
+  also: Unit 3 Session 2 Page 1 
+  best: Unit 3 Session 2 Page 1 
+  definition: A program compiled into a file which can be run when opened on a computer.
+-
+  term: Execute
+  first: Unit 3 Session 2 Page 1 
+  also: 
+  best: 
+  definition: The act of a computer reading and acting on instructions written into a program.
+-
+  term: Expression
+  first: Unit 3 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A section of code which can be resolved to return a value.
+-
+  term: First in First Out (FIFO)
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A way of dealing with a data entity so that the FIRST element is the first to be processed.
+-
+  term: Floating point number
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A variable type consisting of a number which has a decimal point, usually to a fixed number of digits. Also known as a real number.
+-
+  term: Formal logic
+  first: Unit 3 Session 1 Page 3 
+  also: 
+  best: 
+  definition: The practice of deriving logical conclusions from premises that are known or assumed to be true.
+-
+  term: Frontend
+  first: Unit 1 Session 2 Page 2 
+  also: 
+  best: 
+  definition: The part of a program or website that the user does see, and interacts with, for example, the User Interface (UI). In contrast to backend, which is what the background working that the users do not see.
+-
+  term: Full Stack Developer
+  first: Unit 1 Session 2 Page 2 
+  also: 
+  best: 
+  definition: Somebody who works on the development of a program from backend to frontend, and the code that connects the two.
+-
+  term: Function
+  first: Unit 2 Session 2 Page 1 
+  also: Unit 2 Session 2 Page 2, Unit 2 Session 2 Page 4, Unit 2 Session 2 Page 5, Unit 2 Session 3 Page 1, Unit 3 Session 1 Page 3 
+  best: Unit 2 Session 2 Page 2 
+  definition: A section of code that can have input and output values which is packaged together and can be called by an alias as needed without having to reproduce all of the required code each time. Also known as ‘Procedures’ or ‘Methods’ depending on the language or context in which they are used.
+-
+  term: Functional Programming
+  first: Unit 1 Session 1 Page 4 
+  also: Unit 2 Session 1 Page 4, Unit 3 Session 1 Page 3 
+  best: Unit 3 Session 1 Page 3 
+  definition: A declarative programming paradigm which uses expressions rather than statements whereby functions are used to evaluate expressions, rather than focussing on the execution of commands.
+-
+  term: Functional testing
+  first: Unit 4 Session 2 Page 1 
+  also: 
+  best: 
+  definition: Software testing that validates the software system against the functional requirements/specifications. For example, unit testing.
+-
+  term: Generalisability
+  first: Unit 2 Session 3 Page 1 
+  also: 
+  best: 
+  definition: An approach to writing classes or functions which make them more generally applicable (in contrast to more specialised) in order to avoid a situation where, for example, several similar specialised functions exist which could be replaced by one more general function.
+-
+  term: Global variable
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A variable which is held in memory OUTSIDE of a function.
+-
+  term: High-level
+  first: Unit 1 Session 1 Page 3 
+  also: Unit 2 Session 1 Page 4 
+  best: Unit 1 Session 1 Page 3 
+  definition: A programming language which is closer to human spoken language, in contrast to low-level machine code which is what high-level languages are converted to in order to be read by the Central Processing Unit (CPU).
+-
+  term: Imperative programming
+  first: Unit 3 Session 1 Page 2 
+  also: 
+  best: 
+  definition: A programming paradigm that focuses on the control flow and logic that the computer must undertake in order to run a program, rather than on statements which specify what it must accomplish as in declarative programming.
+-
+  term: Impure function
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A function that violates the criteria for a pure function. For example, changing a variable which is being held in the memory OUTSIDE of a function call which is not one of the output variables.
+-
+  term: Index
+  first: Unit 2 Session 2 Page 4 
+  also: 
+  best: 
+  definition: The address of elements of a data entity. For example, in a 0-based list, the index of the first element would be ‘0’.
+-
+  term: Instance
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: One occurrence of a class or object. For example, a program may have one class named Car, but several instances could be created to characterize different types of cars, such as Ford, BMW, VW.
+-
+  term: Integer
+  first: Unit 2 Session 1 Page 3 
+  also: Unit 2 Session 2 Page 5 
+  best: Unit 2 Session 1 Page 3 
+  definition: A data type which consists of a whole number, which can be positive, negative, or 0.
+-
+  term: Integration testing
+  first: Unit 4 Session 2 Page 1 
+  also: 
+  best: 
+  definition: A form of functional testing which refers to the testing of a system as a whole when new units are added (e.g., interactions of units).
+-
+  term: Interpreter
+  first: Unit 3 Session 2 Page 1 
+  also: 
+  best: 
+  definition: An intermediate program which converts source code into machine code as a program is run in order to execute the program.
+-
+  term: Iteration
+  first: Unit 2 Session 2 Page 1 
+  also: Unit 2 Session 2 Page 4, Unit 2 Session 2 Page 5 
+  best: Unit 2 Session 2 Page 4 
+  definition: The process of repeating sequential steps or instructions. Each repetition of the process is a single iteration.
+-
+  term: Keep It Simple, Stupid (KISS)
+  first: Unit 4 Session 1 Page 2 
+  also: 
+  best: 
+  definition: A coding design principle which states that programs and systems should be kept as simple as possible.
+-
+  term: Lean project management
+  first: Unit 5 Session 3 Page 2 
+  also: 
+  best: 
+  definition: An approach to project management based on the Agile framework which aims to achieve continuous improvement whilst being flexible and willing to change as needed. Can be broken down into three main stepSession 1 . Deliver quickly, 2. Test, 3. Reiterate.
+-
+  term: Last in First Out (LIFO)
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A way of dealing with a data entity so that the LAST element is the first to be processed.
+-
+  term: Linear list
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: Usually referred to simply as a ‘list’, a data structure which is composed of a sequence of data objects of a certain type which are stored in a linear sequence.
+-
+  term: Linked list
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A sequence of data objects which are linked contiguously.
+-
+  term: List
+  first: Unit 2 Session 2 Page 3 
+  also: Unit 2 Session 2 Page 5 
+  best: Unit 2 Session 2 Page 3 
+  definition: A data structure which is composed of a sequence of data objects of a certain type which are stored in a linear sequence.
+-
+  term: Local variable
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A variable that is only held in memory INSIDE of a function.
+-
+  term: Logic error
+  first: Unit 4 Session 2 Page 2 
+  also: 
+  best: 
+  definition: An error which occurs when no error message is created, but the functionality is not what the programmer intended. Also known as semantic error.
+-
+  term: Loop
+  first: Unit 2 Session 2 Page 1 
+  also: Unit 2 Session 2 Page 4 
+  best: Unit 2 Session 2 Page 4 
+  definition: A type of iteration whereby the same sequence of steps are repeated until a specified end point.
+-
+  term: Low-level
+  first: Unit 1 Session 1 Page 3 
+  also: Unit 2 Session 3 Page 1 
+  best: Unit 1 Session 1 Page 3 
+  definition: A programming language which is closer to machine code, which is what is read by the Central Processing Unit (CPU), n contrast to high-level programming language which is closer to human spoken language.
+-
+  term: Machine code
+  first: Unit 3 Session 2 Page 1 
+  also: 
+  best: 
+  definition: 'Binary code (1''s and 0''s) that can be executed directly by the CPU. Not edited directly by the programmer. The source code of a program must be translated to machine code to control the hardware.'
+-
+  term: Maintenance testing
+  first: Unit 4 Session 2 Page 1 
+  also: 
+  best: 
+  definition: Testing which is performed on software once it has been deployed in order to enhanced, change, or migrate the software to other hardware.
+-
+  term: Markup language
+  first: Unit 1 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A computer language that uses tags to define elements within a document to specify content and visual settings. Most commonly used are HTML and CSS.
+-
+  term: Method
+  first: Unit 2 Session 2 Page 2 
+  also: Unit 2 Session 3 Page 1, Unit 3 Session 1 Page 3, Unit 4 Session 1 Page 3 
+  best: Unit 4 Session 1 Page 3 
+  definition: In object-oriented programming (OOP), a method refers to a section of code which specifies the behaviour of a class (for example, a function defined within a class).
+-
+  term: Modularity
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A fundamental concept in programming, which features prominently in object-oriented programming, whereby a program or system is composed of relatively independent components which are combined to create the whole. Aims to reduce the complexity of the system.
+-
+  term: Multi-paradigm
+  first: Unit 3 Session 1 Page 2 
+  also: 
+  best: 
+  definition: A programming language that supports more than one programming paradigm.
+-
+  term: Object
+  first: Unit 1 Session 1 Page 4 
+  also: Unit 3 Session 1 Page 3, Unit 4 Session 1 Page 3 
+  best: Unit 4 Session 1 Page 3 
+  definition: A data type which is a feature of object-oriented programming (OOP) that can contain data (in this context often known as attributes or properties) and code in the form of procedures (often known as methods).
+-
+  term: Object-oriented programming (OOP)
+  first: Unit 1 Session 1 Page 4 
+  also: Unit 2 Session 1 Page 4, Unit 3 Session 1 Page 3, Unit 4 Session 1 Page 3 
+  best: Unit 3 Session 1 Page 3 
+  definition: A programming paradigm which revolves heavily around the use of ‘objects’. In OOP, these objects are what change state, rather than in other programming paradigms, where operations might be performed which act on separate pools of data.
+-
+  term: Open source
+  first: Unit 2 Session 3 Page 2 
+  also: 
+  best: 
+  definition: Open source software (OSS) is software to which the source code software is publicly available, does not have licenses which restrict its use, and can often be edited by any contributor. Open source code is usually stored in a public repository and shared with the public.
+-
+  term: Operand
+  first: Unit 2 Session 2 Page 1 
+  also: 
+  best: 
+  definition: An object within code that is capable of being changed or manipulated in some way.
+-
+  term: Operator
+  first: Unit 2 Session 2 Page 1 
+  also: 
+  best: 
+  definition: An object within code that affects that is capable of changing or manipulating operands.
+-
+  term: Parallel processing
+  first: Unit 3 Session 1 Page 3 
+  also: Unit 3 Session 3 Page 2 
+  best: Unit 3 Session 3 Page 2 
+  definition: A way of managing processing power whereby several cores of the Central Processing Unit (CPUs) handle separate parts of an overall task, rather than all being handled as one as in sequential programming. Breaking the task between multiple processors reduces the amount of time required to run a program.
+-
+  term: Parallelisation
+  first: Unit 3 Session 3 Page 2 
+  also: 
+  best: 
+  definition: A way to write code which enables parallel processing, rather than sequential processing.
+-
+  term: PEP8
+  first: Unit 4 Session 1 Page 2 
+  also: 
+  best: 
+  definition: A widely adopted style guide for Python which advises on conventions regarding syntax, variable naming, etc., in order to keep code accessible.
+-
+  term: Print statement
+  first: Unit 2 Session 1 Page 4 
+  also: 
+  best: 
+  definition: A simple operation whereby an output is printed to the console.
+-
+  term: Private
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: In Object-Oriented Programming (OOP), private members (such as methods/variables) of a class are only accessible from within the current class.
+-
+  term: Procedural programming
+  first: Unit 1 Session 1 Page 4 
+  also: Unit 2 Session 1 Page 4, Unit 2 Session 3 Page 1, Unit 3 Session 1 Page 3 
+  best: Unit 3 Session 1 Page 3 
+  definition: A programming paradigm that is defined whereby the code directly instructs a computer on how to complete a task in logical steps. Uses a linear top-down approach and treats data and procedures as two separate entities, in contrast to Object-Oriented Programming (OOP), whereby both are incorporated into objects.
+-
+  term: Procedure
+  first: Unit 2 Session 2 Page 2 
+  also: Unit 3 Session 1 Page 2 
+  best: Unit 2 Session 2 Page 2 
+  definition: An independent unit of code which accomplishes some specific task which is referenced within the broader context of a program. Also known as a function or a sub-routine.
+-
+  term: Product Owner
+  first: Unit 5 Session 4 Page 2 
+  also: 
+  best: 
+  definition: The primary point of contact on a scrum team who acts on behalf of the customer to identify the product requirements for the development team.
+-
+  term: Programming language
+  first: Unit 1 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A set of commands, instructions, and other syntax use to create a software program.
+-
+  term: Programming paradigm
+  first: Unit 1 Session 1 Page 4 
+  also: Unit 3 Session 1 Page 2 
+  best: Unit 3 Session 1 Page 2 
+  definition: A description of a way of writing code. Not all programming languages subscribe to a single paradigm.
+-
+  term: Property
+  first: Unit 2 Session 3 Page 1 
+  also: 
+  best: 
+  definition: In Object-Oriented Programming (OOP), a class member that provides a flexible mechanism to read, write, or compute the value of a private field.
+-
+  term: Proprietary Software
+  first: Unit 2 Session 3 Page 2 
+  also: 
+  best: 
+  definition: Software that legally remains the property of its creator, who owns all rights from intellectual property rights to the source code. Also referred to as ‘Closed source software’.
+-
+  term: Public
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: In Object-Oriented Programming (OOP), public members (such as methods/variables) of a class are accessible from outside of the current class.
+-
+  term: Pure function
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: |
+    A function which fulfils the following criteria: 1. Always gives the same return value for a given input, 2. Does not change anything unrelated to the function (no side effects), 3. Does not modify any arguments which is passed to it.
+-
+  term: Queue
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A data structure from which data is retrieved using the First in First Out (FIFO) principle.
+-
+  term: Random-Access Memory (RAM)
+  first: Unit 2 Session 1 Page 2 
+  also: 
+  best: 
+  definition: Short term memory where data is stored for use as the processor needs it.
+-
+  term: Real number
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A variable type consisting of a number which has a decimal point, usually to a fixed number of digits. Also known as a floating point number.
+-
+  term: Recursion
+  first: Unit 2 Session 2 Page 5 
+  also: 
+  best: 
+  definition: In programming, refers to when an entity such as function calls itself.
+-
+  term: Regression testing
+  first: Unit 4 Session 2 Page 1 
+  also: 
+  best: 
+  definition: A type of maintenance testing to ensure that new changes made to previously tested software do not affect the existing functionality.
+-
+  term: Repository
+  first: Unit 2 Session 3 Page 2 
+  also: 
+  best: 
+  definition: In software development, a central file storage location which contains all elements such as code required for a program. Used by version control systems to store multiple versions of files, and can be public or private, and be accessed by a single or multiple users.
+-
+  term: Runtime error
+  first: Unit 4 Session 2 Page 2 
+  also: 
+  best: 
+  definition: An error which occurs when a program is run or executed caused by problems such as infinite loops, memory leaks, or corrupt files.
+-
+  term: Scope
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: 'Used in reference to the name of an entity in the code, such as a variable, and where in the code that name can be used. For example, a variable would be considered ''out of scope'' if it was called but was no longer held in the memory.'
+-
+  term: Script
+  first: Unit 2 Session 2 Page 4 
+  also: 
+  best: 
+  definition: A list of commands in code that are executed by a certain program or compiler.
+-
+  term: Scrum
+  first: Unit 5 Session 2 Page 2 
+  also: Unit 5 Session 4 Page 2 
+  best: Unit 5 Session 4 Page 2 
+  definition: A framework within Agile workflow within which people work independently, but cooperatively in order to develop software.
+-
+  term: Scrum Master
+  first: Unit 5 Session 4 Page 2 
+  also: 
+  best: 
+  definition: The member of an Agile team who is responsible for the coordination side of the process, such as organising and running sprint meetings.
+-
+  term: Semantic error
+  first: Unit 4 Session 2 Page 2 
+  also: Unit 4 Session 4 Page 1 
+  best: Unit 4 Session 2 Page 2 
+  definition: An error which occurs when no error message is created, but the functionality is not what the programmer intended. Also known as a logic error.
+-
+  term: Separation of Concerns (SoC)
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A principle for separating a computer program into distinct sections which each address a separate concern or set of information that affects the code of a program.
+-
+  term: Sequential programming
+  first: Unit 3 Session 1 Page 3 
+  also: Unit 3 Session 3 Page 2 
+  best: Unit 3 Session 3 Page 2 
+  definition: A way of managing processing power whereby tasks are handled sequentially in contrast to parallel process, where tasks are broken down and different sections run on separate cores. The default approach to programming.
+-
+  term: Side effects
+  first: Unit 3 Session 3 Page 1 
+  also: 
+  best: 
+  definition: When a function changes a variable which is not one of the output variables of the function. For example, changing a global variable from within a function.
+-
+  term: Single Responsibility Principle (SRP)
+  first: Unit 4 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A principle that states that every class or method is responsible for one single, separate part of a program’s functionality.
+-
+  term: Software development lifecycle (SDLC)
+  first: Unit 1 Session 3 Page 1 
+  also: Unit 4 Session 3 Page 1 
+  best: Unit 1 Session 3 Page 1 
+  definition: The different stages of software development practiced in software development companies. Also known as the software development lifecycle process.
+-
+  term: Software requirement specification (SRS) document
+  first: Unit 1 Session 3 Page 2 
+  also: 
+  best: 
+  definition: A document which outlines the economic, operational, and technical details of a software product.
+-
+  term: Source code
+  first: Unit 2 Session 3 Page 2 
+  also: Unit 3 Session 1 Page 2, Unit 3 Session 2 Page 1 
+  best: Unit 3 Session 2 Page 1 
+  definition: The human-readable text of a program that is written in a specific programming language.
+-
+  term: Sprint
+  first: Unit 5 Session 2 Page 2 
+  also: Unit 5 Session 4 Page 1 
+  best: Unit 5 Session 2 Page 2 
+  definition: In Agile workflow, a defined period of time in between two ‘sprint meetings’ within which the work discussed at the previous sprint meeting is carried out.
+-
+  term: Stack
+  first: Unit 2 Session 2 Page 3 
+  also: 
+  best: 
+  definition: A data structure from which data is retrieved using the Last in First Out (LIFO) principle.
+-
+  term: State
+  first: Unit 3 Session 1 Page 2 
+  also: Unit 3 Session 1 Page 3, Unit 3 Session 3 Page 1 
+  best: Unit 3 Session 1 Page 2 
+  definition: The condition of a programming regarding stored inputs (e.g., the values held by variables).
+-
+  term: Statement
+  first: Unit 2 Session 2 Page 4 
+  also: Unit 3 Session 1 Page 3 
+  best: Unit 3 Session 1 Page 3 
+  definition: A section of code which performs some action.
+-
+  term: String
+  first: Unit 2 Session 1 Page 3 
+  also: 
+  best: 
+  definition: A data type which is the most common for storing multiple characters (including letters, symbols, punctuation marks, numbers, etc).
+-
+  term: Subroutine
+  first: Unit 2 Session 3 Page 1 
+  also: 
+  best: 
+  definition: A sequence of program instructions that perform a specific task, packaged as a unit.
+-
+  term: Syntax
+  first: Unit 1 Session 1 Page 4 
+  also: 
+  best: 
+  definition: The ‘grammatical’ rules which define a programming language. Without the correct syntax, a language may not function as intended.
+-
+  term: Syntax error
+  first: Unit 4 Session 2 Page 2 
+  also: 
+  best: 
+  definition: An error created by incorrect syntax, such as missing end of line characters/indents, unrecognised characters or variable names, or incorrect case sensitivity.
+-
+  term: Terminal error
+  first: Unit 4 Session 4 Page 1 
+  also: 
+  best: 
+  definition: An error in a program which causes the terminal to crash.
+-
+  term: Test Driven Development (TDD)
+  first: Unit 4 Session 2 Page 3 
+  also: 
+  best: 
+  definition: An approach to development whereby test cases are created to specify and validate what the code will do. Tests are created for each function before the actual development of the application or program. If the test fails new code is written.
+-
+  term: Thread
+  first: Unit 3 Session 3 Page 2 
+  also: 
+  best: 
+  definition: A single sequential flow of control within a program. Whilst operations are performed on a single thread in Sequential Programming, parallel processing allows multiple threads to be utilised at one time.
+-
+  term: Toolchain
+  first: Unit 4 Session 3 Page 1 
+  also: 
+  best: 
+  definition: Working methodologies used in DevOps.
+-
+  term: Triple constraint
+  first: Unit 5 Session 3 Page 2 
+  also: 
+  best: 
+  definition: A project management model which describes the three most significant restrictions on any project, often referred to as the project management triangle. The sides of the triangle are Scope, Schedule and Cost and quality sits in the middle.
+-
+  term: Unit
+  first: Unit 2 Session 3 Page 1 
+  also: Unit 4 Session 1 Page 3 
+  best: Unit 2 Session 3 Page 1 
+  definition: Units are the smallest groups of code that can be maintained, executed, reused, and tested independently. A unit can be almost anything such as a line of code.
+-
+  term: Unit test
+  first: Unit 4 Session 2 Page 1 
+  also: Unit 4 Session 2 Page 2, Unit 4 Session 2 Page 3 
+  best: Unit 4 Session 2 Page 2 
+  definition: A test which is designed to test units, the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code and can be run quickly.
+-
+  term: User Acceptance Testing (UAT)
+  first: Unit 1 Session 3 Page 2 
+  also: 
+  best: 
+  definition: Testing carried out as part of the Software Development Lifecycle (SDLC) whereby potential users test-run the software within the intended domain.
+-
+  term: User Interface (UI)
+  first: Unit 1 Session 2 Page 2 
+  also: 
+  best: 
+  definition: The part of a program or website that the user interacts with. Part of the frontend.
+-
+  term: Variable
+  first: Unit 2 Session 1 Page 4 
+  also: Unit 2 Session 2 Page 1, Unit 3 Session 1 Page 3 
+  best: Unit 2 Session 2 Page 1 
+  definition: A container of a specific type of data which has the potential to alter during the running of a program, unlike a constant which is fixed.
+-
+  term: Waterfall
+  first: Unit 5 Session 3 Page 2 
+  also: 
+  best: 
+  definition: An approach to project management which emphasises a linear approach from the beginning to the end of a project. It flows like a waterfall through sequential phases, with each phase wrapping up before the next phase begins.
+-
+  term: WET
+  first: Unit 2 Session 3 Page 1 
+  also: 
+  best: 
+  definition: Acronym for ‘Write Everything Twice’. Refers to an approach to formatting code where sections of code are repeated instead of being generalised and inserted into functions. The opposite of DRY.
+-
+  term: White box testing
+  first: Unit 4 Session 2 Page 1 
+  also: 
+  best: 
+  definition: Product testing where the source code is provided to the person doing the testing. This person may have knowledge about the software itself, or at least domain-specific knowledge.
