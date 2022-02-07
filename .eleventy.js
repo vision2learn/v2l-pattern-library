@@ -76,6 +76,7 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  config.addDataExtension("yml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
   config.addNunjucksAsyncShortcode("image", imageShortcode);
   config.addAsyncShortcode("ssri", async function(file) {
@@ -122,6 +123,25 @@ module.exports = function(config) {
       unit: objStr[1],
       session: objStr[2]
     }
+  });
+
+  // Converts glossary page references into links
+  config.addShortcode('getURL', (string, coursename) => {
+    const course = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : `/courses/${coursename}`;
+
+    // Split string into array first as there may be more than one reference
+    let urls = string.split(",");
+    let links = "";
+
+    // Loop through strings and generate links to pages for each
+    urls.forEach((str, i) => {
+      const loc = str.trim().split(" "); // split the string into an array to separate the strings and numbers
+      var loc2Num = loc.map(entry => Number(entry)); // convert the strings to numbers
+      loc2Num = loc2Num.filter(entry => !isNaN(entry)); // "unit", "session", "page" will be NaN, so filter them out
+      links += `<a href="${course}/${loc2Num.join('/')}">${urls[i]}</a> `;
+    });
+
+    return links;
   });
 
   config.addShortcode('video', (file, id) => {

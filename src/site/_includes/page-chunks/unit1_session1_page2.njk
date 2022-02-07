@@ -119,6 +119,21 @@
   theme: "t-bg-primary2 i-read"
 }) }}
 
+{% if glossary %}
+  {% set coursename = course | replace('-', ' ') | formattitle %}
+
+  {% if site.env == 'dotnet' %}
+    {% set glosLink = "~" %}
+  {% else %}
+    {% set glosLink = "/courses/" + course %}
+  {% endif %}
+  {{ components.section({
+    title: "Glossary",
+    copy: "You can view a glossary of terms used in this course:\n\n[" + coursename + " Glossary](" + glosLink + "/glossary/)",
+    theme: "t-bg-supporting3 i-glossary"
+  }) }}
+{% endif %}
+
 <section class="t-bg-primary">      
   <h2>You're Now Ready To Start Your Course. Good Luck!</h2>
 </section>

@@ -361,22 +361,23 @@ svg {
 
 // Lists
 
-
-dt,
-dd {
-  display: inline;
-}
-
-dt {
-  font-weight: bold;
-}
-
-dd {
-  margin: 0;
-
-  & + dt::before {
-    content: "\A";
-    white-space: pre;
+dl:not([class]) {
+  dt,
+  dd {
+    display: inline;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin: 0;
+  
+    & + dt::before {
+      content: "\A";
+      white-space: pre;
+    }
   }
 }
 
