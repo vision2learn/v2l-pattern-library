@@ -1,7 +1,7 @@
 title: Developing communication skills with feedback
 intro: |
   In this session you will learn about the purpose of feedback in developing communication skills.
-banner: placeholder.jpg
+banner: uc_u5_s2_p1_developing_communication.jpg
 sections:
   -
     title: What you will learn
@@ -24,19 +24,17 @@ sections:
     copy: |
       Feedback is a part of how we work and is an important part of communication. It can be a simple comment or a detailed and structured discussion on how and what we communicate to each other. Feedback may seem a little intimidating at first as it may involve criticism, but it can also help to develop skills and offer opportunities to learn from others. Especially when it is presented in a positive and supporting manner.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u5_s2_p1_image.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with questions as text and imagery to support._
-
       ### Seeking feedback
       
       Please see the following video on ways of seeking feedback on communications.
-    video: placeholder_pc.mp4
+    video: uc_u5_s2_p1_seeking_feedback.mp4
   -
   -
     title: Key point
@@ -49,20 +47,20 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with imagery_
-
       ### Purpose of feedback
       
       Please see the following video on the purpose of using feedback to develop communication skills.
-    video: placeholder_pc.mp4
+    video: uc_u5_s2_p1_feedback_purpose.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the videos._
-
+        Think of a situation that would require feedback and ask yourself the following questions:
+        * What do we want from the feedback?
+        * Who do we seek it from?
+        * What are our requirements from the feedback?
   -
   -
     title: On the web
@@ -70,52 +68,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about why feedback is important.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        website description: https://www.coveros.com/5-reasons-why-feedback-is-important-to-agile/

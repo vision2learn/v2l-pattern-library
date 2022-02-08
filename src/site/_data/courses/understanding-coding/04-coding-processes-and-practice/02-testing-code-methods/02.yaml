@@ -22,22 +22,22 @@ sections:
           title: Syntax error
           copy: |
             This is when the syntax is incorrect, such as missing end of line characters/indents, unrecognised characters or variable names, or incorrect case sensitivity.
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p2_reveal1.svg
         -
           title: Runtime errors
           copy: |
             Runtime errors occur when a program is run or executed. They can be caused by problems such as infinite loops, memory leaks, or corrupt files.
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p2_reveal2.svg
         -
           title: Semantic (also known as logic errors)
           copy: |
             These occur when no error message is created, but the functionality is not what the programmer intended. For example, when datatypes are not converted correctly (such as float to int), or inadvertently using a function name as a variable name.
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p2_reveal3.svg
         -
           title: Compilation
           copy: |
             This is when there is an error for the building the machine code for the program, most commonly caused by basic syntax errors.
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p2_reveal4.svg
     copy2: When there is a bug in the code, this can cause the program to crash, function incorrectly, or become non-functional.
   -
   -

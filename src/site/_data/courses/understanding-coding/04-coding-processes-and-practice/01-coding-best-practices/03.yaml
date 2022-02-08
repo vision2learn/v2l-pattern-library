@@ -99,18 +99,16 @@ sections:
       In your assessment you will be required to describe what is meant by solid principles.
   -
   -
-    title: S O L I D  principles
+    title: S O L I D principles
     theme: 
     
     copy: |
       Please see the below activity which outlines the S O L I D principles.
 
-      _PLACEHOLDER - work in progress_
-
-    interactive: 
-      file: 
-      width: 800
-      height: 600
+    interactive:
+      file: uc/u4_s1_p3_solid
+      width: 1000
+      height: 800
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -

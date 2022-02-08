@@ -1,7 +1,7 @@
 title: Verbal presentation and release notes
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page we will take a look at verbal presentation and software release notes.
+banner: uc_u5_s1_p4_verbal_presentation.jpg
 sections:
   -
     title: Key point
@@ -14,20 +14,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style – Presenter with imagery_
-      
       ### Verbally presenting information
       
       Please see the following video to learn more about verbally presenting information and ideas clearly.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video.
-  -
+    video: uc_u5_s1_p4_verbal_present.mp4
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -45,7 +35,7 @@ sections:
       
       Release notes can be distributed through a range of channels such as email, app stores, blog posts, social media or in app messaging.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u5_s1_p4_image.svg
   -
   -
     title: On the web
@@ -53,12 +43,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _An example page of a product release notes would work here_
-
         Please see the following website where you can see an example of product release notes.
 
       links:
-        website description: http://www.google.co.uk
+        Microsoft Office updates: https://docs.microsoft.com/en-us/officeupdates/
   -
     title: Time to think
     theme: t-bg-primary3 i-think

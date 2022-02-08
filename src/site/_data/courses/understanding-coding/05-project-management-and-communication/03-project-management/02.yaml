@@ -1,7 +1,7 @@
 title: Project management models
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page we will look at Lean project management, the Waterfall project management, and Triple constraint.
+banner: uc_u5_s3_p2_project_management_models.jpg
 sections:
   -
     title: Key point
@@ -23,39 +23,37 @@ sections:
           title: Defining value
           copy: |
             This is what the customer is willing to pay for. What they need and what they can afford to pay.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p2_reveal1.svg
         -
           title: Mapping the value stream
           copy: |
             Activities that do not add the value to the end customer are considered as waste.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p2_reveal2.svg
         -
           title: Creating flow
           copy: |
             After removing waste, the remaining steps should flow and run smoothly without interruptions.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p2_reveal3.svg
         -
           title: Using the pull system
           copy: |
             The pull-based system limits inventory and allows for just in time delivery.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p2_reveal4.svg
         -
           title: Pursuing perfection
           copy: |
             Continuous process improvement helps striving for perfection whilst meeting the clients needs.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p2_reveal5.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with imagery_
-
       ### LEAN
       
       Please see the following video on LEAN.
-    video: placeholder_pc.mp4
+    video: uc_u5_s3_p2_lean.mp4
   -
   -
     title: Key point
@@ -71,7 +69,7 @@ sections:
       
       It follows a chronological process and works on fixed dates, requirements, and outcomes.
       
-      ![](/images/banners/uc/placeholder.jpg)
+      ![](/images/svg/uc/uc_u5_s3_p2_wide_image.svg)
   -
   -
     title: On the web
@@ -96,31 +94,21 @@ sections:
       * __Schedule__ - A detailed scope document defines the schedule and project deadline.
       * __Cost__ - Time spent affects budget along with other resource costs.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/uc/uc_u5_s3_p2_image1.svg
   -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise_
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Lean project management focusses on ‘value’ delivery in project management terms from the customers perspective by cutting down on ‘waste’ whilst optimising efficiency. 
+          answer: Lean
         -
-          sentence: example two
-          answer: two
+          sentence: The waterfall project management approach emphasises a linear approach from the beginning to the end of a project
+          answer: waterfall
         -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
+          sentence: Triple constraint is a model that describes the three most significant restrictions on any project. 
+          answer: Triple constraint
     theme: i-quiz
