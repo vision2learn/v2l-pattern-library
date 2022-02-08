@@ -1,7 +1,7 @@
 title: Test Driven Development
 intro: |
   On this page you will learn about the characteristics and the benefits of a test driven development.
-banner: placeholder.jpg
+banner: uc_u4_s2_p3_tdd.jpg
 sections:
   -
     title: Key point
@@ -21,16 +21,22 @@ sections:
 
       ![](/images/svg/uc/uc_u4_s2_p3_wide_image.svg)
 
-      TDD is written around 3 main principles:
-      1.	Do not write any production code unless it is to make a failing unit test pass.
-      2.	Do not write any more of a unit test than is sufficient to fail.
-      3.	Do not write any more production code than is sufficient to pass the one failing unit test.
+      See below to learn more:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 3 main principles of TDD
+          copy: |
+            TDD is written around 3 main principles:
+            1.	Do not write any production code unless it is to make a failing unit test pass.
+            2.	Do not write any more of a unit test than is sufficient to fail.
+            3.	Do not write any more production code than is sufficient to pass the one failing unit test.
 
-      Since points 1 and 3 are both involve “refactoring” of code, this can be simplified to 2 points:
-      1.	Write only enough of a unit test to fail.
-      2.	Write only enough production code to make the failing unit test pass.
-
-      In TDD, the tests are written before the code, then refactored afterwards. 
+            Since points 1 and 3 are both involve “refactoring” of code, this can be simplified to 2 points:
+            1.	Write only enough of a unit test to fail.
+            2.	Write only enough production code to make the failing unit test pass.
+    copy2: In TDD, the tests are written before the code, then refactored afterwards.  
   -
   -
     title: Benefits of a test driven development

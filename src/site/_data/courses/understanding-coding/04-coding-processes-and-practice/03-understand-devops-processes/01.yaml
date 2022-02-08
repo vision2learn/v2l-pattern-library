@@ -76,6 +76,20 @@ sections:
           img: uc_u4_s3_p1_slide6.svg
   -
   -
+    title: DevOps processes
+    theme: t-bg-supporting3
+    copy: |
+      DevOps processes are used to 1) minimize the development time between releases, and 2) so that up-to-date product-ready versions can be released at any moment. 
+
+      Historically, programmers may have worked on their separate sections of code, only merging them together after extended time periods when individual pieces of work were complete. However, this meant that bugs and errors accumulated over time, which made them more time-consuming to fix, and only came to light when the work is brought together. This was also a longer process, which meant that there was extra time before the product was ready for use for the customers.
+
+      Using continuous integration, continuous delivery, and continuous deployment, small code sections can be merged into the main program, tested, and released as they are completed as an on-going process. They refer to different stages and practices of the development cycle.
+
+      _WIDE IMAGE HERE_
+
+      ![](/images/svg/uc/uc_u4_s3_p1_wide_image.svg)
+  -
+  -
     title: The DevOps lifecycle
     theme: 
     
@@ -96,7 +110,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Now you have done the activity, list the steps in the continuous integration lifecycle.  Identify where continuous delivery and continuous deployment would take place in relation to this lifecycle.
+        Now you have done the activity, list the steps in the continuous integration lifecycle.  Also, try to identify where continuous delivery and continuous deployment would take place within the lifecycle.
   -
   -
     title: Key point
