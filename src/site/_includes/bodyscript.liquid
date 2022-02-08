@@ -10,6 +10,8 @@ var V2lPage = (function() {
     if(document.querySelectorAll('.c-interactive').length > 0) {
       v2l.attachHandlers();
     }
+
+    externalLinks();
   }
 
   v2l.attachHandlers = function() {
@@ -116,6 +118,20 @@ var V2lPage = (function() {
   catch (err) {
     console.info("Old browser, JS performance will be limited");
     // return false;
+  }
+
+  function externalLinks() {
+    var ttp = document.querySelectorAll('.i-practice');
+
+    if(ttp.length > 0) {
+      ttp.forEach(function(section) {
+        section.querySelectorAll('a').forEach(function(link) {
+          console.log(link);
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+        });
+      });
+    }
   }
   
   v2l.appPath = appPath;
