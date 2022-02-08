@@ -92,7 +92,7 @@ sections:
         # A dictionary is an example of a type of a collection in Python
 
         MyDictionary = {
-          "Product": ["iPhone", "Flactscreen LCD", "Galaxy S6", "PS5"],
+          "Product": ["iPhone", "Flatscreen LCD", "Galaxy S6", "PS5"],
           "Manufacturer": ["Apple", "Sony", "Samsung", "PlayStation"],
           "Price": [800.00, 450.00, 600.00, 250.00]
         }
@@ -110,7 +110,7 @@ sections:
       lang: text
       highlight: 
       code: |
-        {'Product': ['iPhone',  'Flactscreen LCD', 'Galaxy S6', 'PS5'], 
+        {'Product': ['iPhone',  'Flatscreen LCD', 'Galaxy S6', 'PS5'], 
         'Manufacturer': ['Apple', 'Sony', 'Samsung', 'PlayStation'], 
         'Price': [800.0, 450.0, 600.0, 250.0]}
         [Finished in 129ms]
