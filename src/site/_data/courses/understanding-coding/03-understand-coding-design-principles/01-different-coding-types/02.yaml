@@ -50,12 +50,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with examples of code - use below pseudo code READ item_
-      
       ### Imperative and declarative coding
 
       Let's look at these in more detail and compare the different paradigms in the following video.
-    video: placeholder_pc.mp4
+    video: uc_u3_s1_p2_imperative_declarative.mp4
   -
   -
     title: Read
