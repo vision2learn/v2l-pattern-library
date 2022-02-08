@@ -39,12 +39,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with the above diagram, words and below webpages about the Manifesto and the 12 principles_
-
       ### Agile development
       
       Please see the following video on Agile development.
-    video: placeholder_pc.mp4
+    video: uc_u5_s4_p1_agile.mp4
   -
   -
     title: Read - Agile Manifesto and the 12 principles
