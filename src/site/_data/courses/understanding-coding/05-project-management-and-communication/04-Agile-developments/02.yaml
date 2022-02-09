@@ -14,24 +14,12 @@ sections:
     theme: 
     
     copy: |
-      Benefits of using Scrum:
-      * Quick & easy to adapt
-      * Continuous learning cycle
-      * Enables fast feedback loop
-      * Focused on delivering value
-      * Clear visibility & low risk
-      * Protects the team from un-prioritised work requests
-
-      Please see the below activity which ....
-
-      _include scrum values and introduce the team and the four ceremonies - make items on the diagram clickable_
-
-      _PLACEHOLDER - work in progress - example of diagram https://www.scrum.org/resources/scrum-framework-poster_
+      Please see the below activity which will give you an overview of what is meant by Scrum.
 
     interactive: 
-      file: 
-      width: 800
-      height: 600
+      file: uc/u5_s4_p2_scrum
+      width: 1000
+      height: 1000
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
