@@ -1,0 +1,85 @@
+title: Confidentiality
+intro: |
+  Let's look at the principles of confidentiality in relation to supporting individuals with autism.
+banner: ua_u2_s2_p4_confidentiality.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to outline the principles of confidentiality in relation to supporting individuals with autism.
+  -
+    title: Principles of confidentiality
+    theme: t-bg-primary
+    copy: |
+      Select the images below to learn more about the principles.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Kept confidential
+          copy: |
+            All confidential information must be kept confidential.
+          img: ua_u2_s2_p4_reveal1.svg
+        -
+          title: Permission
+          copy: |
+            Confidential Information will not be disclosed about an individual to anyone else without their permission.
+          img: ua_u2_s2_p4_reveal2.svg
+        -
+          title: Legal duty
+          copy: |
+            Confidential information is only shared when required by law and there is a legal duty to make a disclosure.
+          img: ua_u2_s2_p4_reveal3.svg
+        -
+          title: Prevent serious harm
+          copy: |
+            Confidential information is only shared when it is necessary in order to prevent serious harm to the individual or someone else.
+          img: ua_u2_s2_p4_reveal4.svg
+        -
+          title: Valid reason
+          copy: |
+            There must be a valid reason for confidential information to be disclosed without permission
+          img: ua_u2_s2_p4_reveal5.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Let’s now listen to a discussion on the importance of confidentiality in relation to supporting individuals with autism.
+
+      ### Interview with professionals / key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+
+      Why do you think it is important to maintain confidentiality when supporting individuals with autism?
+    video: ua_u2_s2_p4_interview_maintain_confidentiality.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using your learning from this page can you give an outline of the principles of confidentiality in relation to supporting individuals with autism?
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with professionals / key workers
+      
+      Please see the following interview video of professionals' responses to the following question:
+      
+      Tell us about the sort of information that should be kept confidential and why?
+    video: ua_u2_s2_p4_interview_confidential_types.mp4
+  - 
+  -
+    title: Read - Confidentiality
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following example of a confidentiality agreement from the National Institude for Health and Clinical Excellence:
+
+      [Example of a Confidentiality Agreement](/pdfs/ua_u2_s2_p4_confidentiality.pdf).
