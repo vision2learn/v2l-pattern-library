@@ -105,6 +105,24 @@ module.exports = function(config) {
     }
   });
 
+  /*
+    Used by banner.njk to convert unit number to ordinal string
+  */
+  config.addFilter('sessionOrdinal', sessionNo => {
+    switch(sessionNo) {
+      case 1: return 'first';
+      case 2: return 'second';
+      case 3: return 'third';
+      case 4: return 'fourth';
+      case 5: return 'fifth';
+      case 6: return 'sixth';
+      case 7: return 'seventh';
+      case 8: return 'eighth';
+      case 9: return 'ninth';
+      case 10: return 'tenth';
+      default: return '--- undefined ---';
+    }
+  });
   
   /*
     Used by course-rev.njk
@@ -222,11 +240,6 @@ module.exports = function(config) {
     return markdown(value);
   });
 
-  // REMOVE?
-  config.addFilter("yamlify", value => {
-    return json2yaml.stringify(value);
-  });
-
   /*
     Used on the colours documentation page
     Takes HSL values and returns HEX 
@@ -252,12 +265,6 @@ module.exports = function(config) {
       console.log("ERROR: Unit passed to 'courseinfo' is undefined")
       return false;
     }
-  });
-
-  // Pass in an object, return the keys?
-  // REMOVE?
-  config.addFilter("keys", obj => {
-    return Object.keys(obj);
   });
 
   /*
@@ -302,29 +309,8 @@ module.exports = function(config) {
     return formatted;
   });
 
-  // REMOVE?
-  config.addFilter("trimit", function(value, start, end) {
-    start = start ? start : 0;
-
-    if(!end) {
-      return value.slice(start);
-    }
-    else {
-      return value.slice(start, end);
-    }
-  });
-
   // Creates a unique value at build time for page elements so there are no conflicts
   config.addFilter("uniqueID", val => {return `${val}_${Math.floor(Math.random(+new Date)*9999999999999)}` });
-
-  // Add some utiliuty filters
-  // REMOVE?
-  config.addFilter("squash", require("./src/filters/squash.js") );
-  config.addFilter("dateDisplay", (dateObj, format = "LLL d, y") => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "utc"
-    }).toFormat(format);
-  });
 
   // liquid options
   config.setLiquidOptions({
