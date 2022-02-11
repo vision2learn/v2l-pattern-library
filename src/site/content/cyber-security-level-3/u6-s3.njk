@@ -1,0 +1,17 @@
+---js
+{
+  unit: 6,
+  session: 3,
+  pagination: {
+    data: "courses['cyber-security']['06-working-with-others-in-cyber-security']['03-understand-types-of-written-communications-used-in-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
