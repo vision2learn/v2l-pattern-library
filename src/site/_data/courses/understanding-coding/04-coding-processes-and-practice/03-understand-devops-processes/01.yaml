@@ -93,13 +93,11 @@ sections:
     
     copy: |
       Please see the below activity which will take you through the lifecycle and stages of DevOps.  It also defines and clarifies the steps involved in continuous integration, continuous delivery, and continuous deployment.
-
-      _PLACEHOLDER - will start with a master lifecycle diagram which when clicked on will go into the individual stages with the emphasis on integration, delivery and deployment_
-
+      
     interactive: 
-      file: 
-      width: 1200
-      height: 900
+      file: uc/u4_s3_p1_dev_ops
+      width: 1000
+      height: 1000
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -

@@ -75,18 +75,12 @@ sections:
     theme: 
     
     copy: |
-      Please see the below activity which ....
-
-      _include key characteristics, advantages and disadvantages - make items on the diagram clickable_
-
-      _Interative, frequency, motivated, collaborative, customer focused, flexible, supportive, refective_
-
-      _PLACEHOLDER - work in progress_
+      Please see the below activity where you can learn about the key characteristics, advantages and disadvantages of Agile.
 
     interactive: 
-      file: 
+      file: uc/u5_s4_p1_agile
       width: 1000
-      height: 800
+      height: 1000
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
