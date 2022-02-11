@@ -1,7 +1,7 @@
 title: Productive feedback
 intro: |
   On this page we will look at productive feedback, and feedback in Agile and the Scrum framework.
-banner: placeholder.jpg
+banner: uc_u5_s2_p2_productive_feedback.jpg
 sections:
   -
     title: Productive feedback
@@ -16,22 +16,22 @@ sections:
           title: Safety
           copy: |
             Add civility and safety into feedback approach – most people need to feel comfortable when receiving feedback for it to be productive.
-          img: placeholder_icon.svg
+          img: uc_u5_s2_p2_reveal1.svg
         -
           title: Positive
           copy: |
             Try to keep your feedback positive even when giving ‘negative or corrective’ feedback - follow ‘corrective’ feedback with a solution suggestion.
-          img: placeholder_icon.svg
+          img: uc_u5_s2_p2_reveal2.svg
         -
           title: Specific
           copy: |
             Try to be specific and positive rather than be too general as that could be interpreted in different ways depending on the persons point of view.
-          img: placeholder_icon.svg
+          img: uc_u5_s2_p2_reveal3.svg
         -
           title: Immediate
           copy: |
             Give feedback frequently and at the same time as for the action it is needed.
-          img: placeholder_icon.svg
+          img: uc_u5_s2_p2_reveal4.svg
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -53,7 +53,7 @@ sections:
             The sprint ‘Review’ is where a demonstration of the product is given to the wider team and stakeholders in a meeting at the end of a sprint. This is one of the main areas of the Scrum framework where feedback is given and is important.  
             
             The review Feedback is encouraged and helps the team to determine: if the product is meeting set criteria, fit for purpose, and for identification of areas of change or improvement.
-          img: placeholder_icon.svg
+          img: uc_u5_s2_p2_slide1.svg
         -
           title: Feedback in the 'Sprint Retrospective'
           text: |
@@ -61,19 +61,17 @@ sections:
 
             We will be taking a much more detailed look at Agile development and the Scrum framework in Session 4.
 
-          img: placeholder_icon.svg
+          img: uc_u5_s2_p2_slide2.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Interview - snippets from Scrum master interview from Session 4 - explaining the importance of productive feedback in Agile/Scrum_
-      
       ### Interview - the importance of productive feedback
 
       Please see the following video interview from a Scrum Master who discusses the importance of productive feedback in Agile/Scrum.
-    video: placeholder_pc.mp4
+    video: uc_u5_s2_p2_feedback_scrum_interview.mp4
   -
   -
     title: Time to think

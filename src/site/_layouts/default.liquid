@@ -7,9 +7,9 @@
   <title>{%- if title %}{{ title }}{%- else %}{{ site.title }}{%- endif %}</title>
   <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
   <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-  <link rel="stylesheet" href="/css/main.css" integrity="{% ssri 'main.css' %}">
-  {% comment %} <link rel="stylesheet" href="/css/main.css"> {% endcomment %}
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  {% comment %} <link rel="stylesheet" href="/css/main.css" integrity="{% ssri 'main.css' %}"> {% endcomment %}
   
   {%- if tags[0] == 'coding' %}
     <link rel="stylesheet" href="/css/themes/prism-xonokai.css">
