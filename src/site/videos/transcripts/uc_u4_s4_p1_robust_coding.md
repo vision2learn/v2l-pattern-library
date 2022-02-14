@@ -29,6 +29,3 @@ And finally, don’t think it can't happen. Never assume that it is impossible t
 If you anticipate 
 
 **Leah:** the problems which may occur, you can use robust programming to secure your code against the occurrence of errors, and respond appropriately to either keep the program running, or to provide the user with the exact nature of the error. This is done through employing appropriate defensive programming and exception handling which you will learn more about in this session.
-
-**Jack:** Let’s have a look at this in more detail.
-
