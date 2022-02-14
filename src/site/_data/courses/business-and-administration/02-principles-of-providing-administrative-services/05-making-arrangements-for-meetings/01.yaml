@@ -69,7 +69,7 @@ sections:
           title: Information exchange
           copy: |
             | Focus | Type of meeting |
-            |||
+            |-|-|
             |Large audience | Conference |
             |External people/media | Public |
             |Directors and shareholders | Annual general meeting |
@@ -80,7 +80,7 @@ sections:
           title: Problem solving
           copy: |
             | Focus | Type of meeting |
-            |||
+            |-|-|
             |Only two people involved | Face-to-face |
             |Concerns non-urgent problem | Informal |
             |Concerns urgent problem | Spur of the moment |
@@ -90,7 +90,7 @@ sections:
           title: Decision making
           copy: |
             | Focus | Type of meeting |
-            |||
+            |-|-|
             |Shareholder authorisation | Annual general meeting |
             |Director/senior authorisation | Board |
             |Recurring | Regular meeting |
@@ -100,7 +100,7 @@ sections:
           title: Idea generating
           copy: |
             | Focus | Type of meeting |
-            |||
+            |-|-|
             |Fresh ideas needed | Brainstorming meeting |
             |Ideas to be discussed | Informal/one-off |
             |Result of brainstorming and ideas decided upon | Formal meeting |
