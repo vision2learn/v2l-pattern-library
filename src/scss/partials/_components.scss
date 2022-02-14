@@ -1028,7 +1028,7 @@ h2.toggle-section::before {
 .c-toggle-btn {
   --toggle-height: 40px;
   --button-height: calc(var(--toggle-height) - 10px);
-  background: hsl(200, 80, 50);
+  background: hsl(200, 80%, 50%);
   border-radius: 50px;
   color: #fff;
   font-size: 1.8rem;
@@ -1093,7 +1093,7 @@ h2.toggle-section::before {
   [type='radio']:hover,
   [type='radio']:focus {
     + label {
-      box-shadow: 0 0 5px 1px hsla(60, 50, 50, .8);
+      box-shadow: 0 0 5px 1px hsla(60, 50%, 50%, .8);
       border-radius: 50px;
     }
   }
