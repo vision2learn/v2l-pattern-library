@@ -7,8 +7,8 @@
   "scripts": {
     "start-proto": "docker run -d --rm --cpus='.75' --name 'v2l-prototype' -v $(pwd):/code:cached -p 8080:8080 -p 3001:3001  mrsleeth/v2l:node10 start",
     "stop-proto": "docker stop v2l-prototype",
-    "start": "yarn install && yarn run dev",
-    "dev": "netlify-cms-proxy-server & ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev eleventy --serve",
+    "start": "yarn install && npx browserslist@latest --update-db && yarn run dev",
+    "dev": "ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev eleventy --serve",
     "debug": "ELEVENTY_ENV=dev gulp dev & ELEVENTY_ENV=dev DEBUG=Eleventy* eleventy --serve",
     "build": "ELEVENTY_ENV=dev gulp build && ELEVENTY_ENV=dev yarn eleventy",
     "staging": "ELEVENTY_ENV=staging gulp build && ELEVENTY_ENV=staging yarn eleventy",
