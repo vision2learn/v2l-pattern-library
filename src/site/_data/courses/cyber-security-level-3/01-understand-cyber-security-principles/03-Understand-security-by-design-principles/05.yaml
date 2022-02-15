@@ -1,12 +1,13 @@
 title: What did you learn? 
-intro: Well done, you’ve now completed the ﬁrst session of Understanding autism Level 2! 
-banner: ba-u1-s1-p6.jpg
+intro: Well done, you’ve now completed the third and final session of unit 1! 
+banner: summary.jpg
 sections:
   -
     title: Summary
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * Social and communication disorders
-      * How autism can be considered as a spectrum disorder
-      * Why it is important to recognise that autism is a lifelong condition
+      * What is meant by the term security by design
+      * The principles of security by design
+      * The consequences of not considering cyber security during the design phase
+      * The advantages and disadvantages of security by design
