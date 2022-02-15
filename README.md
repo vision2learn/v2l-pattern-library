@@ -23,3 +23,7 @@ You can create a [.NET export via GitHub Actions](https://github.com/MrSleeth/v2
 [Full documentation](https://v2lrefresh.netlify.app/documentation/getting-started/) on how to use the system to build courses can be found at [https://v2lrefresh.netlify.app/documentation/getting-started/](https://v2lrefresh.netlify.app/documentation/getting-started/). 
 
 Alternatively, if the system is running locally you can access the documentation at [http://localhost:8080/documentation/getting-started/](http://localhost:8080/documentation/getting-started/).
+
+## Staging
+
+Previewable Staging environment is available on Netlify — [https://staging--v2lrefresh.netlify.app](https://staging--v2lrefresh.netlify.app)
