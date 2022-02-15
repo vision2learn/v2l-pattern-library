@@ -1,51 +1,93 @@
-title: Lifelong condition
+title: Inadequate cyber security
 intro: |
-  On this page we are going to look at why it is important to recognise that autism is a lifelong condition
-banner: ua_u1_s1_p4_lifelong.jpg
+  On this page you will learn about the consequences and implications of inadequate cyber security.
+banner: placeholder.jpg
 sections:
+
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain why it is important to recognise that autism is a lifelong condition.
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand the consequences and implications of inadequate cyber security as you will be asked about this in your assessment.
   -
-    title: Lifelong condition
-    layout: media
-    theme: t-bg-primary
+    title: Reveal
+    theme: t-bg-supporting2
     copy: |
-      Autism spectrum disorder is a lifelong condition but there are treatments and services that can help to improve an individuals symptoms and ability to function. The way autism affects children and young people can change as they grow and develop and experience different environments.
+      text
 
-    img: /images/svg/ua/ua_u1_s1_p4_image.svg
-  -
-  -
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: f
+          copy: |
+            text
+          img: placeholder_icon.svg    
+  -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      In this video we are going to look at why autism is recognised as a lifelong condition.
-    video: ua_u1_s1_p4_lifelong_condition.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Can you think of reasons why it is important to recognise that autism is a lifelong condition?
-  -
+      ### Title
+      Please see the following video for 
+    video: placeholder_pc.mp4
+  -       
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: Autism spectrum disorder is a lifelong developmental condition. 
-          answer: lifelong
+          sentence: 
+          answer: 
         -
-          sentence: Autism spectrum disorder covers a wide variation of symptoms.
-          answer: symptoms
+          sentence: 
+          answer: 
         -
-          sentence: Individuals with autism have untypical social interactions or communication. 
-          answer: untypical
+          sentence: 
+          answer: 
         -
-          sentence: Individuals with autism may have some restrictive and or repetitive behaviours.
-          answer: behaviours
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
     theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: lorum ipsum
+    theme: t-bg-primary3 i-think
+  -
+     
