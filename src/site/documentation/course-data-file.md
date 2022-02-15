@@ -1,9 +1,9 @@
 ---
-title: Template Data File
+title: Course Data File
 eleventyNavigation:
   parent: creating-courses
   key: template-file
-  title: Template Data File
+  title: Course Data File
 tabledata:
   - 
     key: "course"
@@ -67,9 +67,22 @@ tabledata:
     datatype: Array
     desc: | 
       Display the "What you will learn" section on Unit 1 > Session 1 > Page 2. The contents of this array will be output as a bulleted list.
+  -
+    key: "partial"
+    datatype: Number
+    desc: | 
+      If you are doing a partial course release, enter the number of units to be released. This will disable the Next button at the end of the last session and add text explaining that the remaining units are coming soon.
+  -
+    key: "glossary"
+    datatype: String / Filename
+    desc: |
+      The name of the datafile with course's glossary data. The datafile should be saved in `src/site/_data/glossaries/[name-of-glossary-datafile]`.
+
 ---
 
-The Template Data File is required to correctly build a course and is written in JSON format, which is similar to YAML in that is based on key/value pairs but the formatting is different, as shown in the example below.
+The Course Data File — saved to `/src/site/content/[course-name]` — is required to correctly build a course and contains settings used by the templating engine to generate content within the course.
+ 
+It is written in JSON format, which is similar to YAML, but the formatting is different so care should be taken when editing these files. If you are having trouble, a service such as [JSON Lint](https://jsonlint.com/) can help find issues in JSON files.
 
 ## Example Template Data File
 
