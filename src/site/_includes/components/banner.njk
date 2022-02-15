@@ -8,31 +8,13 @@
   {%- set bannerImg = '/images/banners/placeholder.jpg'  -%}
 {%- endif -%}
 
+{%- set sessionIs = session | sessionOrdinal -%}  
 
-{%- if session ==  1  -%}
-  {%- set sessionIs = "first"  -%}  
-{%- elseif session ==  2 -%}
-  {%- set sessionIs = "second"  -%}  
-{%- elseif session ==  3 -%}
-  {%- set sessionIs = "third" -%}  
-{%- elseif session ==  4 -%}
-  {%- set sessionIs = "fourth" -%}  
-{%- elseif session ==  5 -%}
-  {%- set sessionIs = "fifth" -%}  
-{%- elseif session ==  6 -%}
-  {%- set sessionIs = "sixth" -%}  
-{%- elseif session ==  7 -%}
-  {%- set sessionIs = "seventh" -%}  
-{%- elseif session ==  8 -%}
-  {%- set sessionIs = "eighth" -%}  
-{%- elseif session ==  9 -%}
-  {%- set sessionIs = "ninth" -%}  
-{%- elseif session ==  10 -%}  
-  {%- set sessionIs = "tenth" -%}
-{%- else -%}
-  {%- set sessionIs = "--- not defined ---" -%}
-{%- endif -%}
-
+{# 
+  1. Text on final page of session is set here, not in YAML 
+  2. Unit 1, Session 1, Page 2 text is set here, not in YAML
+  3. Else, take text from YAML
+#}
 {%- if pagination.lastPageHref == page.url -%}
   {%- set lastPage = true -%}
   {%- set bannerTitle = "What did you learn?" -%}
@@ -63,7 +45,7 @@
   {%- if bannerImg.endsWith(".svg") -%}
     <img src="{{ '~' if site.env === 'dotnet' }}{{ bannerImg | d('banner.img') | lower }}" class="c-banner__img" alt="" aria-hidden="true">
   {%- else -%}
+    {# Call the image function from .eleventy.js #}
     {% image bannerImg, "c-banner__img", "", "100vw" %}
-    {# {{ img(file=bannerImg, class="c-banner__img", env=site.env)}} #}
   {%- endif %}
 </section>
