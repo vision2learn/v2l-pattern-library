@@ -48,7 +48,7 @@ cd /Users/dan/Sites/v2l-pattern-library
 Once you've got a Terminal up and running and pointing to the correct folder, type:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 This will start the system up which will be accessible via a web browser at [localhost:8080](http://localhost:8080).
