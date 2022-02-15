@@ -1,0 +1,109 @@
+title: Understand cyber security
+intro: |
+  On this course you will learn about autism, which will help you with your general understanding and appreciation of the subject. To start with we are going to look at autism and what it means.
+
+banner: ua_u1_s1_p3_autism.jpg
+sections:
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    copy: |
+      ### Introduction to our interviewees
+
+      Throughout this course there are a number of interviews. Please see below for an introduction to each of the key workers and an individual with autism.
+      
+    subInc:
+      type: vidgrid
+      videos:
+        Ellen: ua_u1_s1_p3_interview_ellen_intro.mp4
+        Kerry: ua_u1_s1_p3_interview_kerry_intro.mp4
+        Phil: ua_u1_s1_p3_interview_phil_intro.mp4
+        Matt: ua_u1_s1_p3_interview_matt_intro.mp4
+        Zoe: ua_u1_s1_p3_interview_zoe_intro.mp4
+        Zoe T: ua_u1_s1_p3_interview_zoe_t_intro.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to define the following:
+      * Autistic spectrum disorder 
+      * Asperger syndrome 
+      * High-functioning autism (HFA) 
+  -
+  -
+    title: Social and Communication Disorders
+    theme: t-bg-primary
+    copy: |
+      Let’s look at three social and communication disorders, what they mean and how they relate to each other. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Autism spectrum disorder
+          text: |
+            'Autism spectrum disorder’ is a lifelong developmental condition, relative to brain development and impacts how a person perceives others, causing problems with communication and social interaction. It can also include limited and repetitive patterns of behaviour.  
+
+          img: ua_u1_s1_p3_slide1.svg
+        -
+          title: Asperger syndrome
+          text: |
+            Those with ‘Asperger syndrome’ don't have the learning disabilities that many autistic people have, but may have specific learning difficulties with understanding and processing language. Some with Asperger syndrome say the world feels overwhelming and this can cause considerable anxiety especially relating to other people, and taking part in everyday family, school, work and social life.
+
+          img: ua_u1_s1_p3_slide2.svg
+        -
+          title: High functioning autism
+          text: |
+            'High-functioning’ autism isn’t an official medical term but its seen as more informative. It describes a milder form of autism or level 1 on the autism spectrum. Those with Asperger syndrome are often described as having high functioning autism showing symptoms but with little need for support and mostly living independent lives.
+          img: ua_u1_s1_p3_slide3.svg
+  -
+    title: QQ1
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        Which of the following is an example of an internal source of information about your rights and responsibilities?:
+          answers:
+            Citizens Advice Bureau: false
+            Libraries: false
+            Line managers: true
+        True or false? "You have the legal right to receive the terms of your employment in writing, after working for your employer for two months.":
+          answers:
+            True: true
+            False: false
+        Complete the following sentence - "People often assume that all employees within an organisation are 'the same' however a huge amount of ____________ exists within the workplace.":
+          answers:
+            Formaility: false
+            Diversity: true
+            Similarity: false
+  -
+    title: QQ2
+    theme: i-quiz
+    subInc: 
+      type: quick-quiz
+      content:
+        A question?:
+          answers:
+            Answer 1: false
+            Answer 2: false
+            Answer 3: true
+        Another question?:
+          answers:
+            True: false
+            False: true
+        Yet another question:
+          answers:
+            This: false
+            That: true
+            The other: false
+  -
+    title: Why is autism considered a spectrum disorder?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      What is meant by autism, the definition of autism has changed and will probably keep on changing as we understand more. Autism is a ‘spectrum’ condition and this refers to the wide range of symptoms and the severity. All autistic people share certain difficulties, but being autistic will affect them in different ways. 
+      
+      Some feel that the spectrum is too broad, as a person who needs full time support cannot be compared with someone who just finds things ‘too bright’ or ‘too loud’. But what is needed by all is understanding of what it is to be Autistic.
+    img: /images/svg/ua/ua_u1_s1_p3_image.svg

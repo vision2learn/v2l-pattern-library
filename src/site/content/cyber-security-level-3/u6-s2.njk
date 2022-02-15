@@ -1,0 +1,17 @@
+---js
+{
+  unit: 6,
+  session: 2,
+  pagination: {
+    data: "courses['cyber-security']['06-working-with-others-in-cyber-security']['02-understand-the-use-of-interpersonal-skills-for-working-in-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

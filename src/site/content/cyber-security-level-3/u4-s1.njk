@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['cyber-security']['04-understand-common-threats-to-cyber-security']['01-know-about-common-and-emerging-threats-to-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

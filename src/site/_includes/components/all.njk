@@ -399,7 +399,7 @@ Taken from: https://inclusive-components.design/collapsible-sections/
      <div class="l-media__body ">
       {{ data.copy | markdownify | safe }}
     </div>
-    <a href="{{ link }}" class="l-media__img" aria-label="{{ title }}">
+    <a href="{{ link }}" class="l-media__img" aria-label="{{ title }}" {{ "target=_blank" if data.type == 'activity' }}>
       {% include 'svg/buttons/' + icon %}
     </a>
   </div>
