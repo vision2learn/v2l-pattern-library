@@ -1,6 +1,6 @@
 title: Coding types
 intro: |
-  On this page you will learn about functional coding, object-orientated coding, and other coding types.  This page gives examples of some new programming paradigms with their key features and whether or not they follow a mainly imperative or declarative paradigm.
+  On this page you will learn about functional coding, object-oriented coding, and other coding types.  This page gives examples of some new programming paradigms with their key features and whether or not they follow a mainly imperative or declarative paradigm.
 banner: uc_u3_s1_p3_coding_types_b.jpg
 sections:
   -
@@ -9,7 +9,7 @@ sections:
     copy: |
       In your assessment you will be required to define:
       * Define what is meant by functional coding
-      * Define what is meant by object-orientated coding
+      * Define what is meant by object-oriented coding
       * Identify other coding types
   -
   -
@@ -33,9 +33,9 @@ sections:
 
           img: uc_u3_s1_p3_slide1.svg
         -
-          title: Object-orientated coding
+          title: Object-oriented coding
           text: |
-            Object-orientated programming (OOP) is a type of imperative programming. 
+            Object-oriented programming (OOP) is a type of imperative programming. 
 
             What distinguishes OOP is that it focuses on “objects” (a collection of data and functions) which change state, rather than actions which operate on separate pools of data.
 
@@ -72,7 +72,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to state the advantages and disadvantages of functional, object-orientated and other coding types.
+      In your assessment you will be required to state the advantages and disadvantages of functional, object-oriented and other coding types.
   -
   -
     title: Watch 
