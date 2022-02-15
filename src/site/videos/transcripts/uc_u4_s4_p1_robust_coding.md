@@ -26,6 +26,4 @@ Next let’s look at Stupidity. Write the error messages assuming that the calle
 
 And finally, don’t think it can't happen. Never assume that it is impossible that certain bugs or errors can occur so write the error handling code accordingly. In the worst case scenario, your program should at least contain code for flagging an error message in seemingly impossible cases, even if it cannot fix the issue. 
 
-If you anticipate 
-
-**Leah:** the problems which may occur, you can use robust programming to secure your code against the occurrence of errors, and respond appropriately to either keep the program running, or to provide the user with the exact nature of the error. This is done through employing appropriate defensive programming and exception handling which you will learn more about in this session.
+**Leah:** If you anticipate the problems which may occur, you can use robust programming to secure your code against the occurrence of errors, and respond appropriately to either keep the program running, or to provide the user with the exact nature of the error. This is done through employing appropriate defensive programming and exception handling which you will learn more about in this session.

@@ -8,7 +8,7 @@
 
 Referential transparency. 
 
-**Leah:** When testing a program, the more processes that run, the longer it takes. You might want to test a program but not run certain resource-heavy functions which make it take longer. Referential transparency is when you can replace a function with whatever the output would , without making any other parts of the program run differently. This compiles faster and helps readability.
+**Leah:** When testing a program, the more processes that run, the longer it takes. You might want to test a program but not run certain resource-heavy functions which make it take longer. Referential transparency is when you can replace a function with whatever the output would be, without making any other parts of the program run differently. This compiles faster and helps readability.
 
 **Jack:** Caching refers to using techniques to store results of functions, so they only need to be calculated once. As pure function’s outputs are always constant, caching is possible with pure functions.
 
