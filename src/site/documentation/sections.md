@@ -20,7 +20,7 @@ tabledata:
     key: theme
     datatype: String
     desc: |
-      Sets the colour scheme and iconography for the section. See [Colours](colours) for all possible options.
+      Sets the colour scheme and iconography for the section. See [Colours](/documentation/colours/) for all possible options.
   - 
     key: layout
     required: true
@@ -63,7 +63,7 @@ tabledata:
     datatype: Object
     desc: |
       Display content created in Adobe Animate. Requires the following sub keys:
-      - `file`: Filename of the Javascript file created by Animate. Does not require the full path or the `.js`.extension. Animate JS files are placed in `src/site/js/interactive/{{ shortcode }}`, where `{{ shortcode }}` maps to the the value of the `shortcode` key set in the [Template Data File](creating-courses/template-data-file/).
+      - `file`: Filename of the Javascript file created by Animate. Does not require the full path or the `.js`.extension. Animate JS files are placed in `src/site/js/interactive/{{ shortcode }}`, where `{{ shortcode }}` maps to the the value of the `shortcode` key set in the [course Data File](creating-courses/course-data-file/).
       - `width`: Number. The default width in pixels of the interactivity as defined in Animate.
       - `height`: Number. The default height of the interactivity as defined in Animate. 
       - `composition`: The Composition ID from Adobe Animate.
@@ -74,8 +74,10 @@ tabledata:
       Add a component to the section. See [components](components) for full details.
   - 
     key: activity
-    datatype: String
-    desc: Display Adobe Captivate content. This opens in an overlay window.
+    datatype: Object
+    desc: | 
+      Display Adobe Captivate content. This opens in an overlay window. Requires 1 subkey:
+      - 'ref': This is the folder name of the Captivate content. Stored in `src/site/captivate/course-name/`
   - 
     key: copy2
     datatype: String
