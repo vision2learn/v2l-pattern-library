@@ -8,7 +8,7 @@ With Docker installed and running, open a Terminal at the root of the codebase a
 
 `docker compose up`
 
-After the system starts up, the prototype will be available at `[http://localhost:8080](http://localhost:8080)`
+After the system starts up, the prototype will be available at [http://localhost:8080](http://localhost:8080)
 
 ---
 
