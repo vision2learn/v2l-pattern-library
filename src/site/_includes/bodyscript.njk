@@ -1,0 +1,140 @@
+var animateVars = {};
+var AdobeAn = {};
+
+var V2lPage = (function() {
+
+  var v2l = {};
+  var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
+  
+  v2l.init = function() {
+    if(document.querySelectorAll('.c-interactive').length > 0) {
+      v2l.attachHandlers();
+    }
+
+    externalLinks();
+  }
+
+  v2l.attachHandlers = function() {
+    document.querySelectorAll('[data-v2l-loadbtn]').forEach(function(btn) {
+      btn.removeAttribute('hidden');
+      btn.addEventListener('click', loadCanvas);
+      try {
+        btn.nextElementSibling.setAttribute('hidden', true); 
+      } catch (error) {
+        
+      }
+    });
+  }
+
+  function loadCanvas() {
+    
+    // Is there a canvas element on the page already?
+    var btnParent = this.parentElement;
+    var canvasAlt = btnParent.querySelector('[data-v2l-canvas-alt]');
+    var canvasLoaded = document.querySelector('.c-interactive > canvas');
+    var canvas = document.createElement('canvas');
+
+    canvas.id = +new Date();
+    canvas.setAttribute('tabindex', -1);
+
+    if(canvasAlt) {
+      var canvasAltDupe = canvasAlt.cloneNode(true);
+      canvasAltDupe.removeAttribute('hidden');
+      canvas.appendChild(canvasAltDupe);
+      btnParent.removeChild(canvasAlt);
+    }
+    
+    if(canvasLoaded) {
+      canvasLoaded.parentElement.parentElement.insertBefore(animateVars.activeCanvas, canvasLoaded.parentElement);
+      canvasLoaded.parentElement.parentElement.removeChild(canvasLoaded.parentElement);
+    }
+
+    animateVars.activeCanvas = this.parentElement.cloneNode(true)
+    animateVars.fileRef = btnParent.dataset.v2lInteractive;
+    animateVars.compRef = btnParent.dataset.v2lComp;
+    animateVars.canvasID = canvas.id;
+    
+    btnParent.insertBefore(canvas, this);
+    btnParent.removeChild(this);
+    canvas.focus();
+    
+    v2l.attachHandlers();
+    loadAnimateJS();
+  }
+  function loadAnimateJS() {
+    if(!animateVars.loaded) {
+      var scripts = [
+        '//code.createjs.com/1.0.0/createjs.min.js',
+        appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
+        appPath+'/js/interactive/init.js'
+      ].forEach(function(src) {
+        var script = document.createElement('script');
+        script.src = src;
+        script.async = false;
+        document.head.appendChild(script);
+      });
+
+      animateVars.loaded = true;
+    }
+    else {
+      AdobeAn = {};
+
+      Array.prototype.forEach.call(document.scripts, function(script) {
+        if(script.src.indexOf('/js/interactive/'+ animateVars.fileRef +'.js') > 0) {
+          scriptsLoaded = true;
+        }
+      });
+      
+      
+        [
+          appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
+          appPath+'/js/animateload.js'
+        ].forEach(function(src) {
+          var script = document.createElement('script');
+          script.src = src;
+          script.async = false;
+          document.head.appendChild(script);
+        });
+      //}
+    }
+  }
+  
+  // detect ES6 support, then load the main script file if OK
+  try {
+    new Function("(a = 0) => a");
+    
+    [
+      appPath+'/js/script.js'
+    ].forEach(function(src) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      script.integrity = "{% ssri 'script.js' %}";
+      document.head.appendChild(script);
+    });
+    
+  }
+  catch (err) {
+    console.info("Old browser, JS performance will be limited");
+    // return false;
+  }
+
+  function externalLinks() {
+    var ttp = document.querySelectorAll('.i-practice');
+
+    if(ttp.length > 0) {
+      ttp.forEach(function(section) {
+        section.querySelectorAll('a').forEach(function(link) {
+          console.log(link);
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+        });
+      });
+    }
+  }
+  
+  v2l.appPath = appPath;
+  return v2l;
+})();
+
+V2lPage.init();
