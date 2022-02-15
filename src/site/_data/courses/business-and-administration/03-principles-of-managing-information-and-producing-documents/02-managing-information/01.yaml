@@ -62,7 +62,7 @@ sections:
           img: /images/svg/ba/ba_u3_s2_p1_accordion_1.svg
   -
     title: Case study - The research brief
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
       ### Essential information
 
@@ -103,7 +103,7 @@ sections:
       You can see that this brief is clearer than the original brief detailed above. The researcher is now in a position to be more precise and accurate in their work.
   -
     title: Case study - A through research brief
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
       Here's another example of the difference a detailed research brief can make.
 

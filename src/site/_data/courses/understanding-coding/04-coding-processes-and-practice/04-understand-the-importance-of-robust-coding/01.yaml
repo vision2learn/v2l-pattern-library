@@ -2,7 +2,7 @@ title: Understand the importance of robust coding
 intro: |
     In this session you will learn about the importance of robust coding.  Robust coding and programming focusses on handling unexpected errors and actions. It utilises specific code to handle these by displaying accurate and unambiguous error messages.
 
-banner: placeholder.jpg
+banner: uc_u4_s4_p1_robust_coding.jpg
 sections:
   -
     title: What you will learn
@@ -17,11 +17,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with imagery and text titles_
-      
       ### Robust coding
 
-    video: placeholder_pc.mp4
+      Please see the following video where you will learn about the importance of robust coding.
+
+    video: uc_u4_s4_p1_robust_coding.mp4
   -
   -
     title: Key point
@@ -33,20 +33,103 @@ sections:
     title: So, what exactly is Exception Handling?
     theme:
     copy: |
-      Exception Handling refers to the way a program handles exceptional circumstances and when an exception occurs the program doesn’t just crash.
-      
-      Please see the following code example in python
+      Exception Handling refers to the way a program handles exceptional circumstances and continues to run in situations where it would otherwise crash. Different programming languages have different causes for errors which would cause the code to crash, as we discussed in Unit 4, Session 2. Using exception handling, if we can anticipate the specific type of error which may occur, we can code ways to deal with it rather than a terminal error occurring which causes the program to crash.
+
+      Lets use a simple example of some code to illustrate how we can use exception handling to prevent a program from crashing.
+
+      We have a function in Python that we want to add two numbers together, and then print the output to the console. As we can from the output of this example from test_1, this works fine when the input variables are both Ints.
 
     subInc:
       type: code
       lang: python
       highlight: 
       code: |
-        code
-    copy2: |
-      text
+        """ Python code with NO exception handling """
 
-      result here if needed
+        # Here we define a function to add two input values then print the answer.
+        def add_values_and_print(a, b):
+          c = a + b
+          print('The output is equal to: ', c)
+          return(c)
+
+        # Now we test the function. First with integers:
+        test_1 = add_values_and_print(2, 4)
+
+        # Now with an integer and a string:
+        test_2 = add_values_and_print(2, 'goat')
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        The output is equal to:  6
+        Traceback (most recent call last):
+          File "U4S4_Python_no_exception_handling.py", line 14, in <module>
+            test_2 = add_values_and_print(2, 'goat')
+          File "U4S4_Python_no_exception_handling.py", line 6, in add_values_and_print
+            c = a + b
+        TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+        [Finished in 125ms]
+    copy2: |
+      However, when one of the input variables is a string, it causes a ‘TypeError’ and crashes.
+  -
+  -
+    title: Anticipating a 'TypeError'
+    theme: t-bg-supporting3
+    copy: |
+      If we anticipate a ‘TypeError’ occurring, we can use exception handling to ensure that the program continues to run in spite of this error, or displays a more informative error message.
+      
+      In the following Python code, we have rewritten the code to do this using a “try/except” block which starts from line 6. This will ‘try’ the operation (adding the variables) and run the code in the exception following the occurrence of the specified ‘TypeError’ during this  operation.
+
+    subInc:
+      type: code
+      lang: python
+      highlight: 
+      code: |
+        """ Python code with exception handling """
+
+        # Here we define a function to add two input values then print the answer.
+        def add_values_and_print(a, b):
+
+          try:				# This is where we try the operation
+            c = a + b
+          except TypeError:	# This is where we state what to do (the exception) in case of a TypeError
+            print('TypeError. Please ensure that both input variables are Ints.')
+            return
+          else:
+            print('The output is equal to: ', c)
+
+            return(c)
+
+        # Now we test the function. First with integers:
+        test_1 = add_values_and_print(2, 4)
+
+        # Now with an integer and a string:
+        test_2 = add_values_and_print(2, 'goat')
+  -
+  -
+    title: Result
+    theme: t-bg-supporting3
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        The output is equal to:  6
+        TypeError. Please ensure that both input variables are Ints.
+
+        [Finished in 132ms]
+    copy2: |
+      Now, when a “TypeError” occurs due to one of the inputs being a string and not a number, the program throws an error and prints a custom error message, but it continues to run through to completion rather than causing an terminal error.
   -
   -
     title: Time to practice
@@ -56,68 +139,3 @@ sections:
       
       [Online Python](https://online-python.com)
   -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to explain what is meant by defensive programming.
-  -
-  -
-    title: Offensive example - Code
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-  -
-  -
-    title: Secure example - Code
-    theme:
-    copy: |
-      text
-
-      lang is either js, python, or cpp
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        let x = () => console.log('hello');
-
-        myFunction() {
-          return true;
-        }
-    copy2: |
-      text
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Now you have seen the code examples .....
-
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about Python exceptions handling.
-
-      links:
-        python exceptions: https://www.tutorialspoint.com/python/python_exceptions.htm 

@@ -1,7 +1,7 @@
 title: Understand the methods of testing code 
 intro: |
   In this session the learner will learn about the different methods used to test code.
-banner: placeholder.jpg
+banner: uc_u4_s2_p1_testing_code.jpg
 sections:
   -
     title: What you will learn
@@ -28,12 +28,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with images and titles_
-
       ### Testing code and the importance of testing
       
       We have talked about different code and how it should be written but to make sure it works it must be tested so let’s look at what is meant by testing code.
-    video: placeholder_pc.mp4
+    video: uc_u4_s2_p1_testing_importance.mp4
   -
   -
     title: On the web
@@ -69,7 +67,7 @@ sections:
             
             Black box testing: product testing where source code is not provided to the tester, who is a likely end-user of the product. No more technical expertise would be expected than from the average user.
 
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p1_slide1.svg
         -
           title: How do they test the code?
           text: |
@@ -79,7 +77,7 @@ sections:
             
             Regression testing: testing that new changes made to previously tested software do not affect the existing functionality. This is maintenance testing.
 
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p1_slide2.svg
         -
           title: When do they test the code?
           text: |
@@ -91,24 +89,33 @@ sections:
             
             These can encompass functional, non-functional, and maintenance testing.
 
-          img: placeholder_icon.svg
+          img: uc_u4_s2_p1_slide3.svg
   -
   -
     title: Quick quiz
-    copy: placeholder
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Functional testing is to ensure that the software operates in line with the specifications. 
+          answer: Functional
         -
-          sentence: example two
-          answer: two
+          sentence: Aspects which are not related to software architecture such as performance and reliability but still need to be tested are known as Non-functional testing.
+          answer: Non-functional
         -
-          sentence: example three 
-          answer: three
+          sentence: Maintenance testing is for the post-release to ensure compatibility with new hardware/software
+          answer: Maintenance
         -
-          sentence: example four
-          answer: four
+          sentence: White box product testing is where the source code is provided to the person doing the testing. 
+          answer: White box
+        -
+          sentence: Black box product testing is where source code is not provided to the tester, who is a likely end-user of the product. 
+          answer: Black box
+        -
+          sentence: Alpha testing is when the pre-release testing is done which involves both white box and black box testing.
+          answer: Alpha
+        -
+          sentence: Beta testing is a small sample of potential end-users who have agreed to report bugs, and involves black box and functionality testing.
+          answer: Beta
     theme: i-quiz

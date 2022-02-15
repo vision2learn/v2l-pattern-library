@@ -1,7 +1,7 @@
 title: Project management 
 intro: |
   In this session you will learn all about project management and the role of a project manager. 
-banner: placeholder.jpg
+banner: uc_u5_s3_p1_project_management.jpg
 sections:
   -
     title: What you will learn
@@ -37,27 +37,27 @@ sections:
           title: Initiating
           text: |
             This is the process of visualising what is to be accomplished and the initial ideas identified with the client and or stakeholders.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p1_slide1.svg
         -
           title: Planning
           text: |
             This is the basis of the project activity cycle where plans are documented for the development and execution of the project, and a schedule created. Plans are also drawn up to manage timing, costs, and risks and related issues.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p1_slide2.svg
         -
           title: Executing
           text: |
             This is also known as the implementation stage where plans are put into action. This is normally the longest stage of the process of project management and when any unexpected events will have to be dealt with by the team involved.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p1_slide3.svg
         -
           title: Monitoring and control
           text: |
             This process oversees all tasks to guarantee that the project keeps to plan and follows timing and budget guidelines.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p1_slide4.svg
         -
           title: Closing
           text: |
             This is the last process of the project activity cycle and a report is created to review the overall success of the project and delivery of the desired outcome to the client or stakeholders.
-          img: placeholder_icon.svg
+          img: uc_u5_s3_p1_slide5.svg
   -
   -
     title: Key point
@@ -70,12 +70,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with imagery to support_
-
       ### The role of the project manager
       
       Please see the following video on the role of the project manager.
-    video: placeholder_pc.mp4
+    video: uc_u5_s3_p1_project_manager.mp4
   -
   -
     title: Watch 
@@ -85,43 +83,23 @@ sections:
       ### Interview with a project manager
       
       Please see the following interview with a project manager.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    video: uc_u5_s3_p1_project_manager_interview.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Project managers are responsible for overseeing all the processes within the project life cycle.
+          answer: overseeing
         -
-          sentence: example two
-          answer: two
+          sentence: It is the Project manager's responsibility to make sure that the right people are assigned to the right roles.
+          answer: assigned
         -
-          sentence: example three 
-          answer: three
+          sentence: It is the Project manager's responsibility to make sure that all planning is carried out properly to achieve the target outcome.
+          answer: planning
         -
-          sentence: example four
-          answer: four
+          sentence: The Project manager will be on top of monitoring the progress of the project at all stages.
+          answer: progress
     theme: i-quiz

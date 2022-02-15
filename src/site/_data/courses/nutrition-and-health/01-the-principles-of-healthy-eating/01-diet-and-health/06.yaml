@@ -42,7 +42,7 @@ sections:
           img: nh_u1_s1_p6_reveal3.svg
   -
   -
-    title: Interactivity - Energy requirements and weight
+    title: Energy requirements and weight
     theme: 
     copy: |
       Once a person can calculate their total energy requirements they are in a position to maintain their weight.
@@ -108,7 +108,7 @@ sections:
   -
     title: Case study
     layout: media
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
       Gerry is 40 lbs overweight. His PAL is around 1.5. His BMR is 2200 calories per day and his total energy requirement is 3300 calories. However, he eats about 4000 calories every day. He is continuing to put on weight.
 

@@ -1,9 +1,7 @@
 title: Understand DevOps processes
 intro: |
-  _PLACEHOLDER PAGE - Need further information - Draft 1 document_
-  
   In this session you will learn about DevOps processes and what is meant by continuous integration, delivery and deployment and the differences between these processes.
-banner: placeholder.jpg
+banner: uc_u4_s3_p1_devops.jpg
 sections:
   -
     title: What you will learn
@@ -18,13 +16,13 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to **define** what is meant by; identify the **differences** between; and identify the **steps** required for:
+      In your assessment you will be required to **define** what is meant by; and identify the **steps** required for:
       * continuous integration
       * continuous delivery
       * continuous deployment
   -
   -
-    title: Continuous integration, delivery and deployment
+    title: The DevOps stages
     theme: t-bg-primary
     copy: |
       The DevOps process combines software development and IT operations. It consists of a set of principles and practices which aim to shorten the software development lifecyle whilst ensuring quality in the outcome.  In general, it consists of various working methodologies referred to as “toolchains” which encompass: 
@@ -37,6 +35,8 @@ sections:
       * Monitoring 
       
       DevOps aims to be flexible and is complimentary to a style of working called Agile. (We will be looking at Agile later on in Unit 5). 
+
+      For building, testing, and release (deployment) toolchains, DevOps uses continuous integration, continuous delivery, and continuous deployment, respectively, which have their basis in Agile workflow. Let’s have a look at DevOps processes and how they allow development teams to specify their pipeline flows, infrastructure and deployment settings. 
     
       Scroll through the slides below to learn more.
 
@@ -45,39 +45,59 @@ sections:
       title: 
       slides:
         -
-          title: Building and testing
+          title: Stage 1 - Continuous development
           text: |
-            For building and testing toolchains, DevOps uses continuous integration, and continuous testing, respectively, which have their basis in Agile workflow. Let’s have a look at DevOps processes and how they allow development teams to specify their pipeline flows, infrastructure and deployment settings.
-          img: placeholder_icon.svg
+            This stage is where the planning and coding of the software is done.
+          img: uc_u4_s3_p1_slide1.svg
         -
-          title: Continuous integration
+          title: Stage 2 - Continuous integration
           text: |
             Continuous Integration (CI) is a DevOps software development practice of the merging changes back to the main branch as often as possible. It put the emphasis on testing automation to check that the program is not broken.
-          img: placeholder_icon.svg
+          img: uc_u4_s3_p1_slide2.svg
         -
-          title: Continuous delivery
+          title: Stage 3 - Continuous testing
+          text: |
+            For building and testing toolchains, DevOps uses continuous integration, and continuous testing, respectively, which have their basis in Agile workflow. Let’s have a look at DevOps processes and how they allow development teams to specify their pipeline flows, infrastructure and deployment settings.
+          img: uc_u4_s3_p1_slide3.svg
+        -
+          title: Stage 4 - Continuous delivery
           text: |
             Continuous Delivery (CD) is an extension of continuous integration as it automatically deploys all code changes to the testing or programming environment after the build stage. 
-          img: placeholder_icon.svg
+          img: uc_u4_s3_p1_slide4.svg
         -
-          title: Continuous deployment
+          title: Stage 5 - Continuous deployment
           text: |
-            Continuous Deployment goes another step further and passes all stages of the production pipeline to customers. 
-          img: placeholder_icon.svg
+            Continuous Deployment goes another step further and passes all stages of the production pipeline to customers.
+          img: uc_u4_s3_p1_slide5.svg
+        -
+          title: Stage 6 - Continuous monitoring
+          text: |
+            Continuous Monitoring is at the end of the DevOps lifecycle. Once the software is released into production, Continuous Monitoring will notify dev and QA teams if there are any issues and give feedback on what is going wrong enabling issues to be fixed quickly.
+          img: uc_u4_s3_p1_slide6.svg
   -
   -
-    title: DevOps
+    title: DevOps processes
+    theme: t-bg-supporting3
+    copy: |
+      DevOps processes are used to 1) minimize the development time between releases, and 2) so that up-to-date product-ready versions can be released at any moment. 
+
+      Historically, programmers may have worked on their separate sections of code, only merging them together after extended time periods when individual pieces of work were complete. However, this meant that bugs and errors accumulated over time, which made them more time-consuming to fix, and only came to light when the work is brought together. This was also a longer process, which meant that there was extra time before the product was ready for use for the customers.
+
+      Using continuous integration, continuous delivery, and continuous deployment, small code sections can be merged into the main program, tested, and released as they are completed as an on-going process. They refer to different stages and practices of the development cycle.
+
+      ![](/images/svg/uc/uc_u4_s3_p1_wide_image.svg)
+  -
+  -
+    title: The DevOps lifecycle
     theme: 
     
     copy: |
-      Please see the below activity ....
-
-      _PLACEHOLDER - to be determined - to cover ALL Learning outcomes_
-
+      Please see the below activity which will take you through the lifecycle and stages of DevOps.  It also defines and clarifies the steps involved in continuous integration, continuous delivery, and continuous deployment.
+      
     interactive: 
-      file: 
-      width: 1200
-      height: 900
+      file: uc/u4_s3_p1_dev_ops
+      width: 1000
+      height: 1000
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
@@ -86,8 +106,30 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Now you have done the activity, list the steps in the continuous integration lifecycle.  Also, try to identify where continuous delivery and continuous deployment would take place within the lifecycle.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the **differences** between:
+      * continuous integration
+      * continuous delivery
+      * continuous deployment
+  -
+  -
+    title: The differences between the three stages
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Now that we have looked in detail in different processes involved in DevOps, it is important that we understand the differences between them. We can look at the process of continuous integration, delivery, and deployment as analogous to a parcel being prepared and delivered:
+      * Continuous integration – this is where the constituent parts of the parcel are assembled and checked that they are acceptable to be sent as they are.
+      * Continuous delivery – a delivery service delivers the package. You then check that the components are ready and meet expectations. If not, they are sent back.
+      * Continuous deployment – this is where the contents of the parcel are deployed for whatever purpose they were sent.
 
+      Continuous delivery and continuous deployment can seem quite similar. It may be useful to think about continuous delivery as a process whereby every change is PROVEN TO BE DEPLOYABLE TO PRODUCTION, though not necessarily deployed. This means that when it is finally ready, continuous deployment ensures that it can be deployed quickly.
+
+    img: /images/svg/uc/uc_u4_s3_p1_image.svg
   -
   -
     title: On the web
@@ -95,28 +137,25 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about continuous integration and the differences between the three stages.
 
       links:
-        website description: http://www.google.co.uk
+        cloudbees - continuous integration: https://www.cloudbees.com/continuous-delivery/continuous-integration
+        cloudbees - differences between the three stages: https://www.cloudbees.com/blog/continuous-integration-continuous-delivery-continuous-deployment
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Continuous integration is part of the build stage of the DevOps process. 
+          answer: integration
         -
-          sentence: example two
-          answer: two
+          sentence: Continuous delivery is after the build stage and is where the completed (and tested) code is placed in the programing environment after it has been approved.
+          answer: delivery
         -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
+          sentence: Continuous deployment allows code to be pushed straight to production after the developers commit it so it is ready for the customer. 
+          answer: deployment
+
     theme: i-quiz

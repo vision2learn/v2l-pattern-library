@@ -12,7 +12,7 @@ using namespace std;
 
 int main () {
 
-// Here are our variable declarations
+  // Here are our variable declarations
   int myInt = 5;
   float myFloat = 5.65;
   bool myBool = true;
@@ -20,7 +20,7 @@ int main () {
   char myStr[] = "A string";
 
 
-// Then we ask it to print the output
+  // Then we ask it to print the output
   cout << "Data type of myInt: " << typeid(myInt).name() << endl;
   cout << "Data type of myFloat: " << typeid(myFloat).name() << endl;
   cout << "Data type of myBool: " << typeid(myBool).name() << endl;

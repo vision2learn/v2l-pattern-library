@@ -1,4 +1,4 @@
-**Lloyd:** So now that you've completed session one of unit four, it's time to complete the relevant section and the assessment booklet. If you haven't already done so you can use the assessment link on the final page to save and download your assessment booklet in a suitable location on your computer. Once you've done that, you can then up in the assessment booklet and begin.
+**Lloyd:** So now that you've completed session one of unit four, it's time to complete the relevant section and the assessment booklet. If you haven't already done so you can use the assessment link on the final page to save and download your assessment booklet in a suitable location on your computer. Once you've done that, you can then open the assessment booklet and begin.
 
 You may also want to have a look at the hints and tips, which will assist you when you come to answer the questions. So assessment booklet 4, if you scroll down to page 2 and pop your name at the top. And then we come to section one, which is know about common and emerging threats to cyber security.
 

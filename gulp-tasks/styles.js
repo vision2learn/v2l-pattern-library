@@ -1,5 +1,5 @@
 var gulp    = require('gulp');
-var sass    = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 var autoprefixer = require('gulp-autoprefixer')
 var project = require('./toolchest/_project');
 

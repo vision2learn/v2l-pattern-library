@@ -6,7 +6,7 @@
     {% set seshOrUnit = "Unit" %}
   {% endif -%}
   <p>
-    By working through this {{ seshOrUnit }}, you will cover the following criteria of your Level 2 Certificate in {{ fulltitle if fulltitle else (course | replace('-', ' ') | formattitle) }} qualification:
+    By working through this {{ seshOrUnit }}, you will cover the following criteria of your Level {{ level }} Certificate in {{ fulltitle if fulltitle else (course | replace('-', ' ') | formattitle) }} qualification:
   </p>
   {# course | replace('-', ' ') | formattitle  #}
   {% if goals.will %}
@@ -118,6 +118,21 @@
   copy: "Take a look at this unit's Hints and Tips booklet (which you can download) which will help you when you come to complete the assessment:\n\n[Unit " + unit + " Hints and Tips](" + tilde + "/pdfs/" + shortcode + "_u" + unit + "_s"+ session +"_p1_hints_u" + unit + ".pdf)",
   theme: "t-bg-primary2 i-read"
 }) }}
+
+{% if glossary %}
+  {% set coursename = course | replace('-', ' ') | formattitle %}
+
+  {% if site.env == 'dotnet' %}
+    {% set glosLink = "~" %}
+  {% else %}
+    {% set glosLink = "/courses/" + course %}
+  {% endif %}
+  {{ components.section({
+    title: "Glossary",
+    copy: "You can view a glossary of terms used in this course:\n\n[" + coursename + " Glossary](" + glosLink + "/glossary/)",
+    theme: "t-bg-supporting3 i-glossary"
+  }) }}
+{% endif %}
 
 <section class="t-bg-primary">      
   <h2>You're Now Ready To Start Your Course. Good Luck!</h2>

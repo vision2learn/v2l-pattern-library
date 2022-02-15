@@ -31,7 +31,7 @@ sections:
             
             A key point is that functions take in EXISTING inputs (values, data structures, or functions) and return NEW values or data structures.
 
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide1.svg
         -
           title: Object-orientated coding
           text: |
@@ -39,34 +39,34 @@ sections:
 
             What distinguishes OOP is that it focuses on “objects” (a collection of data and functions) which change state, rather than actions which operate on separate pools of data.
 
-            Commonly, the objects are “classes”. These are data structures definitions which contain inbuilt data and class-specific functions (known as methods).
+            Commonly, the objects are “classes”. These are data structures definitions which contain inbuilt data and class-specific functions (known as methods).  _We will be looking at Classes later on in Unit 4._
 
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide2.svg
         -
           title: Procedural code
           text: |
             As previously described, type of imperative language. Composed of a set of procedures that run in a pre-determined order.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide3.svg
         -
           title: Logic programming
           text: |
             A type of declarative paradigm based on formal logic. Rules and details are based on mathematical system of reasoning.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide4.svg
         -
           title: Parallel process
           text: |
             A type of imperative paradigm. It allows processes to run concurrently rather than in sequence (sequential programming) like more fundamental paradigms.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide5.svg
         -
           title: Database processing approach
           text: |
             Database processing approach is declarative. Users can create and edit database systems using declarative control statements. They can also make queries to retrieve results matching specific criteria.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide6.svg
         -
           title: Event-driven programming
           text: |
             Technically both imperative and declarative languages support this approach. This is where the control flow of a program is determined by events (such as change in value of a variable) which determine the subsequent processes.
-          img: placeholder_icon.svg
+          img: uc_u3_s1_p3_slide7.svg
   -
   -
     title: Key point
@@ -79,36 +79,41 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with text for each code type_
-      
       ### Code type - advantages and disadvantages
 
       Let's take a look at the advantages and disadvantages of each code type in the following video.
-    video: placeholder_pc.mp4
+    video: uc_u3_s1_p3_code_types.mp4
   -
   -
     title: Quick quiz
-    copy: Use this in combination with above item?
+    copy: See if you can identify the advantages of code types in the following questions.
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one - OOP
-          answer: one
+          sentence: Object Oriented Programming is very mature and professionally appreciated, and is good for making sophisticated software.
+          answer: Object Oriented
         -
-          sentence: example two - Functional
-          answer: two
+          sentence: Functional coding is easy to debug - as there are no side effects or hidden inputs/outputs.
+          answer: Functional
         -
-          sentence: example three - Procedural
-          answer: three
+          sentence: Imperative coding is a relatively simple concept, and it simplifies code by reusing code sections.
+          answer: Imperative
         -
-          sentence: example four = Database
-          answer: four
+          sentence: Procedural coding is easy to track the flow of a program and it is also easy to implement, debug and adapt. 
+          answer: Procedural
+        -
+          sentence: Logic programming is a rather high level of coding which has good memory management being fast and efficient. 
+          answer: Logic
+        -
+          sentence: Parallel processing is more efficient than with sequential programming as it reaches the outcome quicker.
+          answer: Parallel
     theme: i-quiz
   -
   -
     title: Read - Code types
     theme: t-bg-primary2 i-read
     copy: | 
-      Take a look at the following [example doc]() document where you can download the full list of advantages and disadvantages of code types.
-  -
+      Take a look at the following document where you can see some of the advantages and disadvantages of code types.
+
+      [Advantages/disadvantages of different code types](/pdfs/uc_u3_s1_p3_read_code_types.pdf)

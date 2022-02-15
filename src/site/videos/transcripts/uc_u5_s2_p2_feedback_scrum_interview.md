@@ -1,0 +1,10 @@
+**Leah:** Let's hear about the importance of productive feedback in the scrum process.
+
+**Alex:** I think that's such a key element of the whole scrum process is that that rapid feedback loop that you're only kind of committing to a small amount of work at a time. And at the end of every sprint you are... you're having a kind of sprint review, you're demoing the product ideally to the key stakeholders, ideally to the end users or the customers, and you're getting that feedback that rapid feedback incorporating that back into the process so that you can then work out what to do differently for the next sprint and how you can then evolve the product.
+
+I would say it's important throughout the whole process. Quite specifically at the sprint reviews, that's a great time for the team to kind of demo the work that they've done for the previous sprint and get that that fast feedback from the stakeholders, from the end users Also for the core scrum team themselves at the retrospectives to kind of review what went well, what didn't go well, any kind of learnings. And then again, incorporating that into into the next sprint. Just as part of that continuous learning cycle, really.
+
+Feedback can be given in a variety of different ways. And I think throughout the whole process is it's important to get that feedback. Again, going back to the key sprint ceremonies, at the sprint reviews, at the retrospectives. Making sure you're giving kind of peer feedback, peer review and feedback throughout the process as well. We do obviously hold daily scrums every day, just to 15 minutes with the core scrum team, for them to talk about, you know, what they did yesterday, what they're doing today, any issues and blockers. So, you know, hopefully it it's a really open and honest kind of communication and feedback for the whole team on a daily basis.
+
+And then also incorporating that feedback from the stakeholders at the end of -- we work in two week sprints -- and then incorporating that then into, into what we plan to do for the next two weeks.
+

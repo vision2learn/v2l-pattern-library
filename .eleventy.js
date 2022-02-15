@@ -76,6 +76,7 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight);
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents));
+  config.addDataExtension("yml", contents => yaml.safeLoad(contents));
   config.addPlugin(eleventyNavigationPlugin);
   config.addNunjucksAsyncShortcode("image", imageShortcode);
   config.addAsyncShortcode("ssri", async function(file) {
@@ -124,6 +125,25 @@ module.exports = function(config) {
     }
   });
 
+  // Converts glossary page references into links
+  config.addShortcode('getURL', (string, coursename) => {
+    const course = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : `/courses/${coursename}`;
+
+    // Split string into array first as there may be more than one reference
+    let urls = string.split(",");
+    let links = "";
+
+    // Loop through strings and generate links to pages for each
+    urls.forEach((str, i) => {
+      const loc = str.trim().split(" "); // split the string into an array to separate the strings and numbers
+      var loc2Num = loc.map(entry => Number(entry)); // convert the strings to numbers
+      loc2Num = loc2Num.filter(entry => !isNaN(entry)); // "unit", "session", "page" will be NaN, so filter them out
+      links += `<a href="${course}/${loc2Num.join('/')}">${urls[i]}</a> `;
+    });
+
+    return links;
+  });
+
   config.addShortcode('video', (file, id) => {
     let ext = path.extname(file);
     let basename = path.basename(file, ext);
@@ -146,9 +166,12 @@ module.exports = function(config) {
     // Is there a VTT for this video?
     try {
       fs.accessSync(`src/site/videos/captions/vtt/${dirname}${basename}.vtt`, fs.constants.F_OK);
-      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${dirname}${basename}.vtt">`;
+
+      dirname = dirname === './' ? '' : dirname;
+
+      track = `<track default label="English" kind="captions" srclang="en" src="${tilde}/videos/captions/vtt/${dirname + basename}.vtt">`;
     } catch (err) {
-      console.log(`No VTT file for ${dirname}${file}`);
+      console.log(`No VTT file for ${dirname + file}`);
       missingCaptions.push(file);
     }
 
@@ -157,7 +180,7 @@ module.exports = function(config) {
 
       try {
 
-        fs.accessSync(`src/site/videos/transcripts/${dirname}${file}.md`, fs.constants.F_OK);
+        fs.accessSync(`src/site/videos/transcripts/${dirname + file}.md`, fs.constants.F_OK);
         let transcriptContent = fs.readFileSync(`src/site/videos/transcripts/${dirname}${file}.md`, 'utf-8', (err, data) => {
           if (err) throw err;
           return data;
@@ -170,16 +193,16 @@ module.exports = function(config) {
           </toggle-section>
         `;
       } catch (err) {
-        console.log(`No transcript for ${dirname}${file}`);
+        console.log(`No transcript for ${dirname + file}`);
         missingTranscripts.push(file)      
       }
     });
     
     // Remote video?
     try {
-      fs.accessSync(`src/site/videos/${dirname}${file}`, fs.constants.F_OK);
-      console.log(`Using local version of ${dirname}${file}`);
-      vidFilePath = `${tilde}/videos/${dirname}${file}`;
+      fs.accessSync(`src/site/videos/${dirname + file}`, fs.constants.F_OK);
+      console.log(`Using local version of ${dirname + file}`);
+      vidFilePath = `${tilde}/videos/${dirname + file}`;
     } catch (err) {
     }
 
@@ -305,7 +328,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
-  // config.addPassthroughCopy("./src/site/captivate");     
+  config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");

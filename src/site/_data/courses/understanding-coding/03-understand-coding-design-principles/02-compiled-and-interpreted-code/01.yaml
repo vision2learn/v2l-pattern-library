@@ -26,12 +26,12 @@ sections:
           title: Source code
           text: |
             Source code is human-readable text written in a specific programming language. This is the part the human interacts with and uses to generate a program. It is composed of a set of functions and syntax rules that the user can enter in the main language to get it to do something. The code sections in Unit 2 are examples of source code.
-          img: placeholder_icon.svg
+          img: uc_u3_s2_p1_slide1.svg
         -
           title: Machine code
           text: |
             Machine code is binary (1's and 0's) code that can be executed directly by the CPU. This is not edited directly by the programmer and the source code of a program must be translated to machine code to control the hardware. To a human, it might look a bit like the green text in the film “the Matrix”.
-          img: placeholder_icon.svg
+          img: uc_u3_s2_p1_slide2.svg
   -
   -
     title: Key point
@@ -49,18 +49,15 @@ sections:
 
       ### Compiled code
 
-      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code. 
+      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code.
          
-      ![](/images/banners/uc/placeholder.jpg)
+      ![](/images/svg/uc/uc_u3_s2_p1_image1.svg)
 
       ### Interpreted code
 
       Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter. 
             
       The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation.
-
-      _This will be a diagram illustrating the above - example on https://cs.stackexchange.com/questions/56478/jit-aot-interpretation-what-are-differences-between-them_
-  -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -76,17 +73,15 @@ sections:
     copy: |
       ### The principles of compiled and interpreted code
 
-      _Presentation style - Two presenters - bullet points and diagrams_
-      
       Please see the following video on the principles of compiled and interpreted code.
-    video: placeholder_pc.mp4
+    video: uc_u3_s2_p1_compiled_interpreted.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Now you have seen the video, list the main points of compiled code and interpreted code.
   -
   -
     title: Activity
@@ -95,28 +90,40 @@ sections:
     copy: |
       ### The advantages of compiled and interpreted code
 
-      Select the following icon to learn more about the advantages and disadvanges of compile and interpreted code.
-
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
 
     img: /images/svg/Activity_button.svg
-    activity: U1-S2-P2_DSE
+    activity: 
+      ref: uc_u3_s2_p1_activity_v2
   -
   -
     title: Quick quiz
-    copy: _May not need if we can include a quiz in the activity_
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one - compiled
-          answer: one
+          sentence: Interpreted code can be easier to debug.
+          answer: Interpreted
         -
-          sentence: example two - interpreted
-          answer: two
+          sentence: Compiled code can be run straight away.
+          answer: Compiled
         -
-          sentence: example three 
-          answer: three
+          sentence: Compiled code can be optimized to CPU so can be faster.
+          answer: Compiled
         -
-          sentence: example four
-          answer: four
+          sentence: Interpreted code can be used across platforms.
+          answer: Interpreted
+        -
+          sentence: Compilation is an extra step during testing with Compiled code.
+          answer: Compiled
+        -
+          sentence: Executable files are not crossed platform with Compiled code.
+          answer: Compiled
+        -
+          sentence: Everyone that wants to run Interpreted code needs an interpreter.
+          answer: Interpreted
+        -
+          sentence: Interpreted source code is public as everyone who runs the program has it.
+          answer: Interpreted
     theme: i-quiz
