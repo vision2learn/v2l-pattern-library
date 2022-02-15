@@ -5,13 +5,20 @@
 ---
 
 {# 
-    Logic for when on final page of section, unit etc
-
-    Determine if we're linking to the next session or 
-    the next unit or we're done
-  #}
-
+  Get individual folder names via folders filter => .eleventy.js #114 
+  Returns object with keys:
+    - course
+    - unit
+    - session
+#}
 {% set folders = pagination.data | folders %}
+
+{# 
+  moduleNum is alias for 11ty pagination object, set in all course template files => e.g. src/site/content/it-user-skills-2/u1-s1.njk
+  It is effectively the filename
+  11ty pagination => https://www.11ty.dev/docs/pagination/
+  module is all of the data in an individual YAML content file => e.g. src/site/_data/courses/it-user-skills-level-2/01-word-processing-software/01-welcome/03.yaml
+#}
 
 {% set module = courses[folders.course][folders.unit][folders.session][moduleNum] %}
 
@@ -30,6 +37,10 @@
 {%- set unitCount = unitData.size %}
 {%- set sessionCount = sessionData.size -%}
 
+{# 
+  IT1 & 2 have time to practice, not think 
+  shortcode is found in coursename.11tydata.js
+#}
 {% if shortcode == 'it2' or shortcode == 'it1' %}
   {% set timeToWhat = 'Practice'%}
 {% else %}
@@ -48,7 +59,7 @@
 
 {%- import 'components/all.njk' as components %}
 
-<!-- course-rev -->
+<!-- course -->
 {# BANNER #}
 {%- include 'components/banner.njk' %}
 {# /BANNER #}
