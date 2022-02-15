@@ -109,23 +109,12 @@ module.exports = function(config) {
     Used by banner.njk to convert unit number to ordinal string
   */
   config.addFilter('sessionOrdinal', sessionNo => {
-    switch(sessionNo) {
-      case 1: return 'first';
-      case 2: return 'second';
-      case 3: return 'third';
-      case 4: return 'fourth';
-      case 5: return 'fifth';
-      case 6: return 'sixth';
-      case 7: return 'seventh';
-      case 8: return 'eighth';
-      case 9: return 'ninth';
-      case 10: return 'tenth';
-      default: return '--- undefined ---';
-    }
+    const session = ['first', 'second', 'third', 'forth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth'];
+    return session[sessionNo - 1];
   });
   
   /*
-    Used by course-rev.njk
+    Used by course.njk
     Takes the pagination.data string and returns an object with the course, unit and session names for the current page
     These names are the folder names in the `_data/courses` folder
   */
