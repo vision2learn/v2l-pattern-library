@@ -9,7 +9,7 @@
   <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
-  {% comment %} <link rel="stylesheet" href="/css/main.css" integrity="{% ssri 'main.css' %}"> {% endcomment %}
+  {# <link rel="stylesheet" href="/css/main.css" integrity="{% ssri 'main.css' %}"> #}
   
   {%- if tags[0] == 'coding' %}
     <link rel="stylesheet" href="/css/themes/prism-xonokai.css">
@@ -18,10 +18,10 @@
 </head>
 
 {%- if tags[0] == "components" %}
-  {%- assign body-class = "component" %}
+  {%- set bodyClass = "component" %}
 {%- endif %}
 
-<body class="{{ body-class }}" data-v2l-env="{{ site.env }}" data-v2l-theme="{{ tags[0] }}">
+<body class="{{ bodyClass }}" data-v2l-env="{{ site.env }}" data-v2l-theme="{{ tags[0] }}">
   <div class="l-wrapper" >
     <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
     {%- if site.env == 'staging' -%}
@@ -39,7 +39,7 @@
         <strong>This development site is being constantly updated and not suitable for review purposes. Please visit the <a href="//v2lrefresh.netlify.app">{{ site.v2l }} review site</a>.</strong>
       </div>
     {%- endif -%}
-    {{ content }}
+    {{ content | safe }}
   </div>
   {% if site.env == 'netlify' %}
     <style>
@@ -81,8 +81,8 @@
     </div>
   {% endif %}
   <script>
-    {% comment %} Inline Script File... {% endcomment %}
-    {% include 'bodyscript' %}
+    {# Inline Script File... #}
+    {% include 'bodyscript.njk' %}
   </script>
 </body>
 </html>

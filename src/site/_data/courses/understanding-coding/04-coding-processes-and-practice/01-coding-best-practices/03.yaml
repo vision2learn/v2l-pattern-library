@@ -13,7 +13,7 @@ sections:
       * define what is meant by abstraction.
   -
   -
-    title: Introduction to Classes and Modulation
+    title: Introduction to Classes and Modularity
     theme: t-bg-supporting3
     copy: |
       Let’s look at some more principles related to best practice in coding. For this, we need to further understand some programming concepts. 
@@ -49,7 +49,7 @@ sections:
 
             Classes can have ‘public’ and ‘private’ attributes. Public attributes can be accessible from outside the of class. Private attributes can only be accessed from the environment within the class.            
         -
-          title: Modulation
+          title: Modularity
           copy: |
             To keep code maintainable, we aim to make it modular. Modularity is when small units of code, such as functions, modules, and even libraries, do not overlap and therefore can be edited separately from the rest of the code. 
             
@@ -93,6 +93,19 @@ sections:
     video: uc_u4_s1_p3_principles.mp4
   -
   -
+    title: Abstraction
+    theme: t-bg-primary
+    copy: |
+      For further clarity on Abstraction please see the table below:
+      
+      **Access to public and private attributes of classes**
+      
+      | Attribute | From OUTSIDE of the class...| From WITHIN the class...|
+      |------|------|-----|
+      | Public | Yes | Yes |
+      | Private | No | Yes |
+  -
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -130,7 +143,7 @@ sections:
           sentence: Open/Closed Principle – software entities should be open for extension, but closed for modification. 
           answer: Open/Closed
         -
-          sentence: Liskov Substitution Principle – properties one original class should be replaceable with objects built from classes adapted from the original without breaking the application. 
+          sentence: Liskov Substitution Principle – properties of one original class should be replaceable with objects built from classes adapted from the original without breaking the application. 
           answer: Liskov Substitution
     theme: i-quiz
   -

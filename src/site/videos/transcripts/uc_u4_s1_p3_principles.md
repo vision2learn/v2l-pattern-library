@@ -12,7 +12,7 @@ Here, we have collected all the things that are relevant to the single responsib
 
 We have also created separate classes which could change for different reasons, for example using different code to generate the payslip or changing delivery method from email to post. This adheres to SoC.
 
-Finally using this example again, we apply the principle of Abstraction which involves hiding things which are not required, outside of the class.
+Finally using this example again, we apply the principle of Abstraction which involves hiding things which are not required outside of the class.
 
 There may be information which we do not want to complicate the code or which may be sensitive in nature which can be hidden outside of the class. 
 

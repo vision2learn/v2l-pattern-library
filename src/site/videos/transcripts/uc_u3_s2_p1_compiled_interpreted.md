@@ -24,11 +24,9 @@ However, it is possible to generate binaries from the source code which run on d
 
 Examples of compiled languages are C, C++, Objective-C
 
-**Jack:** With Interpreted code the program is written in the source language. When the program is executed, the original source code is run line by line through a separate program called an interpreter in real time code.
+**Jack:** With Interpreted code the program is written in the source language. When the program is executed, the original source code is run line by line through a separate program called an interpreter in real time code. 
 
-As 
-
-**Leah:** it runs, the interpreter “translates” the source code into actions which are then executable line by line.
+**Leah:** As it runs, the interpreter “translates” the source code into actions which are then executable line by line.
 
 Interpreted code can be easy to debug, as the code can be run whilst it is being written. 
 
