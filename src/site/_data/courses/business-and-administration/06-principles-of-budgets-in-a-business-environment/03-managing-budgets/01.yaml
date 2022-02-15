@@ -115,8 +115,8 @@ sections:
 
             Extract budget in £ for first and second quarter
 
-            | Sales 2019 | Q1 Estimate| Q1 Actual | Q1 Variance | Q2 Estimate | Q2 Actual| Q2 Variance |
-            ||||||||
+            | Sales 2019 | Q1 Estimate| Q1 Actual | Q1 Variance | Q2 Estimate | Q2 Actual | Q2 Variance |
+            |-|-|-|-|-|-|-|
             | **Basic skis** | |  |  |  |  |  |
             | Volume | 1000 | 1050 | +50 | 1300 |  |  |
             | Price | 80 | 80 |  | 80 |  |  |
@@ -129,9 +129,9 @@ sections:
             | | | | | | | |
             | **Supreme skis** | |  |  |  |  |  |
             | Volume | 400 | 130 | -270 | 600 |  |  |
-            | Price | 120 | 120 |  | 120 |  |  |
+            | Price | 120 | 120 |  | 120 |  |  |  
             | Value | 48000 | 15600 | -32400 | 72000 |  |  |
-            || | | | | | | |
+            | | | | | | | | |
             | **Total values** | **191000** | **158100** | **-32900** | **257000** |  |  |
 
             Columns for the budget estimate (Est) the actual figure (Act) and any variation between the estimated and actual figures (Var).

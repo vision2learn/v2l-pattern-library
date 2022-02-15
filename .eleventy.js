@@ -73,6 +73,7 @@ module.exports = function(config) {
 
   config.addPlugin(pluginSyntaxHighlight); // see => https://www.11ty.dev/docs/plugins/syntaxhighlight/ (highlights code examples in Documentation and Understanding Coding)
   config.addPlugin(eleventyNavigationPlugin); // see => https://www.11ty.dev/docs/plugins/navigation/ (Only used on Documentation section)
+  config.addDataExtension("yml", contents => yaml.safeLoad(contents)); // see => https://www.11ty.dev/docs/data-custom/ (allows you to use YAML in _data folder)
   config.addDataExtension("yaml", contents => yaml.safeLoad(contents)); // see => https://www.11ty.dev/docs/data-custom/ (allows you to use YAML in _data folder)
   config.addNunjucksAsyncShortcode("image", imageShortcode); // see => https://www.11ty.dev/docs/plugins/image/ (responsive images, specifically on the banners)
   
@@ -134,6 +135,25 @@ module.exports = function(config) {
       unit: objStr[1],
       session: objStr[2]
     }
+  });
+
+  // Converts glossary page references into links
+  config.addShortcode('getURL', (string, coursename) => {
+    const course = process.env.ELEVENTY_ENV === 'dotnet' ? '~' : `/courses/${coursename}`;
+
+    // Split string into array first as there may be more than one reference
+    let urls = string.split(",");
+    let links = "";
+
+    // Loop through strings and generate links to pages for each
+    urls.forEach((str, i) => {
+      const loc = str.trim().split(" "); // split the string into an array to separate the strings and numbers
+      var loc2Num = loc.map(entry => Number(entry)); // convert the strings to numbers
+      loc2Num = loc2Num.filter(entry => !isNaN(entry)); // "unit", "session", "page" will be NaN, so filter them out
+      links += `<a href="${course}/${loc2Num.join('/')}">${urls[i]}</a> `;
+    });
+
+    return links;
   });
 
   /*
@@ -313,7 +333,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("./src/site/images");
   config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
-  // config.addPassthroughCopy("./src/site/captivate");     
+  config.addPassthroughCopy("./src/site/captivate");     
   config.addPassthroughCopy("./src/site/documents");
   config.addPassthroughCopy("./src/site/videos");
   config.addPassthroughCopy("./src/site/pdfs");

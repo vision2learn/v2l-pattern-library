@@ -1,0 +1,93 @@
+title: Inadequate cyber security
+intro: |
+  On this page you will learn about the consequences and implications of inadequate cyber security.
+banner: placeholder.jpg
+sections:
+
+  -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand the consequences and implications of inadequate cyber security as you will be asked about this in your assessment.
+  -
+    title: Reveal
+    theme: t-bg-supporting2
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: d
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: e
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: f
+          copy: |
+            text
+          img: placeholder_icon.svg    
+  -   
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Please see the following video for 
+    video: placeholder_pc.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+    theme: i-quiz
+    
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: lorum ipsum
+    theme: t-bg-primary3 i-think
+  -
+     

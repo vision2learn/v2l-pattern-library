@@ -1,0 +1,15 @@
+Imperative 
+
+Import database variable: Year_11_results
+Create new variable: Class_C_results
+Loop Year_11_results from first student to last student:
+	if Class = Class_C:
+		Copy student_results into Class_C_results
+	else
+		next student
+
+
+Declarative
+
+Import database variable: Year_11_results
+New variable: Class_C_results = FROM Year_11_results EXTRACT students_results if Class == Class_C

@@ -1,7 +1,7 @@
 title: Agile developments
 intro: |
   In this session you will learn about Agile developments, their advantages and disadvantages and the Scrum framework.  On this page we will take a closer look at Agile development.
-banner: placeholder.jpg
+banner: uc_u5_s4_p1_agile_developments.jpg
 sections:
   -
     title: What you will learn
@@ -30,21 +30,17 @@ sections:
     copy: |
       Agile is an iterative, people-oriented and result-focused way of working when delivering software products. The software is built incrementally in time-boxed 'sprints'.
             
-      ![](/images/banners/uc/placeholder.jpg)
-
-      _This will be the Agile diagram_
+      ![](/images/svg/uc/uc_u5_s4_p1_wide_image.svg)
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with the above diagram, words and below webpages about the Manifesto and the 12 principles_
-
       ### Agile development
       
       Please see the following video on Agile development.
-    video: placeholder_pc.mp4
+    video: uc_u5_s4_p1_agile.mp4
   -
   -
     title: Read - Agile Manifesto and the 12 principles
@@ -52,7 +48,7 @@ sections:
     copy: | 
       Take a look at the following document which gives the full details of the Agile Manifesto and the 12 principles:
 
-      [Agile Manifesto and the 12 principles]()
+      [Agile Manifesto and the 12 principles](/pdfs/uc_u5_s4_p1_read_manifesto.pdf)
   -
   -
     title: On the web
@@ -79,18 +75,12 @@ sections:
     theme: 
     
     copy: |
-      Please see the below activity which ....
-
-      _include key characteristics, advantages and disadvantages - make items on the diagram clickable_
-
-      _Interative, frequency, motivated, collaborative, customer focused, flexible, supportive, refective_
-
-      _PLACEHOLDER - work in progress_
+      Please see the below activity where you can learn about the key characteristics, advantages and disadvantages of Agile.
 
     interactive: 
-      file: 
-      width: 800
-      height: 600
+      file: uc/u5_s4_p1_agile
+      width: 1000
+      height: 1000
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
@@ -99,8 +89,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
+        Can you see how certain aspects of Agile development relate to the Manifesto? Have another look at the Manifesto and make some notes of on how the key characteristics of Agile relate to it.
   -
   -
     title: Read - Agile Subway Map
@@ -108,26 +97,24 @@ sections:
     copy: | 
       Take a look at the following document which will give you an idea of the different practices that are 'Agile'.
 
-      _Include website reference - https://www.agilealliance.org/agile101/subway-map-to-agile-practices/_
-
-      [Agile Subway Map]()
+      [Agile Subway Map](/pdfs/uc_u5_s4_p1_read_map.pdf)
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Agile has an iterative approach which makes it possible for the customer feedback to be taken into consideration.
+          answer: customer feedback
         -
-          sentence: example two
-          answer: two
+          sentence: Development tasks are broken down into bite size chunks, which can be achieved in a certain period.
+          answer: Development tasks
         -
-          sentence: example three 
-          answer: three
+          sentence: Agile is people-oriented and result-focused in respect to software delivery.
+          answer: people-oriented
         -
-          sentence: example four
-          answer: four
+          sentence: Instead of delivering all the product at the end of the project, the software is built incrementally from the start in time-boxed 'sprints'. 
+          answer: incrementally
     theme: i-quiz

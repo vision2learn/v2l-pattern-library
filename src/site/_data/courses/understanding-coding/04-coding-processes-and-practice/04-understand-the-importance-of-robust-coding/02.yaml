@@ -2,7 +2,7 @@ title: Defensive Programming
 intro: |
     On this page you will learn about defensive programming.
 
-banner: placeholder.jpg
+banner: uc_u4_s4_p2_defensive.jpg
 sections:
   -
     title: What is Defensive Programming?
@@ -80,7 +80,7 @@ sections:
 
         [Finished in 134ms]
     copy2: |
-      Now, test_1 and test_2 still act as expected. However, using the ‘if’ statements starting on lines 7 and 11, we whether inputs ‘a’ and ‘b’ are floating point numbers, and if they are, print a message to the console to inform the user that they are converted to Ints. 
+      Now, test_1 and test_2 still act as expected. However, using the ‘if’ statements starting on lines 7 and 11, whenever inputs ‘a’ and ‘b’ are 'floating point numbers', and if they are, print a message to the console to inform the user that they are converted to 'Ints'. 
       
       Using defensive programming, we can minimize the occurrence of bugs and errors, and make sure that we deal with them appropriately when they do occur.
   -

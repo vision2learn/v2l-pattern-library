@@ -1,7 +1,7 @@
 title: Understand the importance of communication
 intro: |
   In this session you will learn about the importance of communication and methods used to communicate to different audiences.
-banner: placeholder.jpg
+banner: uc_u5_s1_p2_communication.jpg
 sections:
   -
     title: Key point
@@ -23,17 +23,17 @@ sections:
           text: |
             In all businesses we spend our days communicating verbally, non-verbally and in written form by various methods such as by emails, meetings, conference calls, creating and sending reports, giving presentations, and by general face to face discussion. To do this effectively we need to make sure that our communication is clear, concise and accurate.
 
-          img: placeholder_icon.svg
+          img: uc_u5_s1_p2_slide1.svg
         -
           title: Why communication is important in a coding environment
           text: |
             The skill of communication is important in coding and programming as often the information that needs to be communicated is highly technical and not everyone involved in the process has the same technical knowledge or may be conversant with the terminology and coding languages used. 
-          img: placeholder_icon.svg
+          img: uc_u5_s1_p2_slide2.svg
         -
           title: Importance of effective communication when working in a team
           text: |
             Clear, concise communication is fundamental to the success of project management and those working in a coding environment as it is essential that teams collaborate effectively when striving to achieve successful results. Poor communication can lead to unnecessary costs to put things right.
-          img: placeholder_icon.svg
+          img: uc_u5_s1_p2_slide3.svg
   -
   -
     title: Key point
@@ -48,20 +48,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenters with headings for each point and imagery to support_
-
       ### Different methods of communication
       
       Please see the following video on different methods of communication and when to use different methods of communication.
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
+    video: uc_u5_s1_p2_communication_methods.mp4
   -
   -
     title: Key point
@@ -74,73 +64,41 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter with imagery to support_
-
       ### Adapting communication for different audiences
       
       Please see the following video on the importance of adapting communication for different audiences.
 
-    video: placeholder_pc.mp4
+    video: uc_u5_s1_p2_adaptive_communication.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        One of the ways to communicate effectively is to tailor the communication to the audience. Explain in your own words why this is important.
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _example here instead of case study_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Verbal communication involves speaking with others it may be face-to face, over the telephone or via digital media and the internet. 
+          answer: Verbal
         -
-          sentence: example two
-          answer: two
+          sentence: Informal communication is based on personal interactions and relationships. It can be unstructured and unplanned.
+          answer: Informal
         -
-          sentence: example three 
-          answer: three
+          sentence: Written communication can traditionally be in the form of a letter but often now involves emails, texts, memos, reports, Tweets, reports, contracts etc.
+          answer: Written
         -
-          sentence: example four
-          answer: four
+          sentence: Visual communication is all around us from posters and ads on a wall to images on a TV screen. 
+          answer: Visual
+        -
+          sentence: Non-verbal communication includes facial expressions, posture, eye contact, hand movements and touch and can be used on its own or alongside verbal communication. 
+          answer: Non-verbal
+        -
+          sentence: Formal communication is the flow of information through formal channels and can be verbal or written. 
+          answer: Formal
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

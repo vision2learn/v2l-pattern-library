@@ -47,14 +47,15 @@ sections:
             
             ferrari = car(‘Ferrari’, ‘GT4’, ‘black’)
 
-
-            _DIAGRAM ?_
-
             Classes can have ‘public’ and ‘private’ attributes. Public attributes can be accessible from outside the of class. Private attributes can only be accessed from the environment within the class.            
         -
           title: Modulation
           copy: |
-            To keep code maintainable, we aim to make it modular. Modularity is when small units of code, such as functions, modules, and even libraries, do not overlap and therefore can be edited separately from the rest of the code. If programs are designed and written well, this can make it much easier to debug as you do not have to go through the whole program to make the changes you need, just the section of code you are interested in. This principle is key for the concepts we will explain in the following sections.   
+            To keep code maintainable, we aim to make it modular. Modularity is when small units of code, such as functions, modules, and even libraries, do not overlap and therefore can be edited separately from the rest of the code. 
+            
+            If programs are designed and written well, this can make it much easier to debug as you do not have to go through the whole program to make the changes you need, just the section of code you are interested in. 
+            
+            This principle is key for the concepts we will explain in the following sections.   
   -
   -
     title: Principles relating to best practice
@@ -69,62 +70,45 @@ sections:
           title: The Single Responsibility Principle (SRP)
           text: |
             The Single Responsibility Principle states that every class or method is responsible for one single, separate part of a program’s functionality.
-          img: placeholder_icon.svg
+          img: uc_u4_s1_p3_slide1.svg
         -
           title: Separation of Concerns (SoC)
           text: |
             Separation of concerns, also known as SoC, is a principle for separating a computer program into distinct sections which each address a separate concern or set of information that affects the code of a program.
-          img: placeholder_icon.svg
+          img: uc_u4_s1_p3_slide2.svg
         -
           title: Abstraction
           text: |
             Abstraction is one of the key principles of object-oriented programming where the programmer hides all but the relevant data about an object so as to reduce its complexity and increase efficiency. 
-          img: placeholder_icon.svg
+          img: uc_u4_s1_p3_slide3.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style - Presenter(s) with titles and tables/diagrams_
-      
       ### Principles relating to best practice
 
       Please see the following video which goes into more detail of SRP, SoC and Abstraction.
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        To help you with your assessment, take a look at the following website where you can see an example of the principles being used:
-        
-        [PLACEHOLDER WEBSITE](https://www.google.co.uk) 
-        
-        _Need a website to illustrate this_
-
+    video: uc_u4_s1_p3_principles.mp4
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe what is meant by solid principles.
   -
   -
-    title: S O L I D  principles
+    title: S O L I D principles
     theme: 
     
     copy: |
       Please see the below activity which outlines the S O L I D principles.
 
-      _PLACEHOLDER - work in progress_
-
-    interactive: 
-      file: 
-      width: 800
-      height: 600
+    interactive:
+      file: uc/u4_s1_p3_solid
+      width: 1000
+      height: 800
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
@@ -134,17 +118,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Single Responsibility Principle – every class/method is responsible for one single separate part of the program.
+          answer: Single Responsibility
         -
-          sentence: example two
-          answer: two
+          sentence: Dependency Inversion Principle – abstraction should be used to decouple high-level and low-level modules from each other.  
+          answer: Dependency Inversion
         -
-          sentence: example three 
-          answer: three
+          sentence: Interface Segregation Principle – no client should be forced to depend on methods they do not use. 
+          answer: Interface Segregation
         -
-          sentence: example four
-          answer: four
+          sentence: Open/Closed Principle – software entities should be open for extension, but closed for modification. 
+          answer: Open/Closed
+        -
+          sentence: Liskov Substitution Principle – properties one original class should be replaceable with objects built from classes adapted from the original without breaking the application. 
+          answer: Liskov Substitution
     theme: i-quiz
   -
     title: On the web
@@ -152,8 +139,9 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about solid principles:
+        Please see the following websites where you can learn more about solid principles:
 
       links:
-        Solid design open closed principles: https://stackify.com/solid-design-open-closed-principle/ 
+        Solid design open closed principles: https://stackify.com/solid-design-open-closed-principle/
+        What are SOLID Principles?: https://www.technologylogs.com/development/what-are-solid-principles/
   -
