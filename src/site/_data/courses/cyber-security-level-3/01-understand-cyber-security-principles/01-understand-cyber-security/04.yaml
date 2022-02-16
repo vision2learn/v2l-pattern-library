@@ -47,7 +47,6 @@ sections:
           img: placeholder_icon.svg
         -
           title: Industry information systems.
-
           copy: |
             text
           img: placeholder_icon.svg    
@@ -82,13 +81,31 @@ sections:
         -
           sentence: 
           answer: 
-    theme: i-quiz
-    
+    theme: i-quiz 
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: lorum ipsum
+      copy: now have a think and answer the question
     theme: t-bg-primary3 i-think
+  -
+    title: accordion
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            text  
+            table example
+            | text | text |
+            |------|------|
+            |text  | text |
+          img: /images/svg/placeholder_icon.svg     
   -
      
