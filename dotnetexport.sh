@@ -1,4 +1,5 @@
 #!/bin/bash
+yarn install
 yarn run dotnet
 find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/pdfs_href="~/pdfs_g' "{}" \;
 find dist/dotnet -name '*.cshtml' -exec sed -i 's_href="/documents_href="~/documents_g' "{}" \;
