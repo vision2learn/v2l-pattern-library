@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 1,
+  pagination: {
+    data: "courses['cyber-security-level-3']['02-understand-cyber-threat-intelligence']['01-key-concepts']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

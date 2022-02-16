@@ -1,0 +1,90 @@
+title: TEMPLATE PAGE
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * one
+      * two
+      * three
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 2.1
+  -
+  -
+    title: Threat models
+    theme: t-bg-primary
+    copy: |
+      
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: STRIDE
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: PASTA
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: LINDDUN
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: CVSS
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Attack Trees
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on .
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      Evaluate a threat model (example with exercise) 
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Evaluate a threat model (example with exercise) 
+
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        link: https://www.google.co.uk
