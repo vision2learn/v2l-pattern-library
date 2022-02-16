@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "courses/{{ course | d('no string') | slug }}/glossary/index.html"
+permalink: "{{ 'dotnet/' if site.env == 'dotnet' else 'courses/' }}{{ course | d('no string') | slug }}/glossary/index.html"
 ---
 
 <header class="c-main-head">
