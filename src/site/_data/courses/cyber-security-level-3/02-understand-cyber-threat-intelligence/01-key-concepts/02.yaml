@@ -1,6 +1,6 @@
-title: Key concepts
+title: Understand cyber threat intelligence
 intro: |
-  intro text
+  In this session you will learn to identify the key concepts of cyber threat intelligence, how to identify immerging attack techniques and consider the current threat status for organisations and how they can be prepared.
 banner: placeholder.jpg
 sections:
   -
@@ -10,26 +10,40 @@ sections:
       In your assessment you will be required to identify key concepts of cyber threat intelligence, and explain cyber security terms.
   -
   -
-    title: Key concepts
+    title: Key concepts of cyber threat intelligence
     theme: t-bg-primary
     copy: |
-      Text
+      Threat intelligence is the activity of gathering, processing analysing and distributing information related to threats that may target applications and systems. Whereas Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
+      
+      A **Cyber Threat** is an intentional malicious act that seeks to damage systems, steal data or disrupt organisations in general. Cyber threats include acts of Phishing, Denial of Service attacks (DoS), Virus and Malware etc. 
+      
+      When **threat** is used without the word cyber in front it refers to a possible security violation that might exploit the vulnerability of a system putting an organisation at risk. The origin of this threat may be accidental, environmental, or due to human negligence.
     
-      Scroll through the slides below to learn more about the key concepts of cyber threat intelligence.
+      Scroll through the slides below to learn more about some of the most common terms in relation to cyber security.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Cyber threat
+          title: Threats
           text: |
-            text
+            Threats are potential negative actions or events that may occur due to a vulnerability and unauthorised access that can adversely impact organisational systems, operations and assets.
           img: placeholder_icon.svg
         -
-          title: Threat
+          title: Exploits
           text: |
-            text
+            Exploits are codes that take advantage of a software vulnerability. They allow unauthorised access remotely, gaining elevated privileges or to move deeper into the network. They can also be used as part of a multi-component attack.
+          img: placeholder_icon.svg
+        -
+          title: Vulnerabilities
+          text: |
+            Vulnerabilities refers to any week spot within the cyber security of an organisation that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation.
+          img: placeholder_icon.svg
+        -
+          title: Risk
+          text: |
+            Risk refers to the level of impact a cyber attack may have on an organisation and its operations for example financial loss, disruption and damage to reputation.
           img: placeholder_icon.svg
   -
   -
@@ -39,7 +53,13 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on 1.2 Cyber security terms.
+      
+      ### Key concepts of cyber threat intelligence
+      
+      Let’s have a look in this video what this can mean for an organisation.
+
+      _Video discussing sliders above and including the elements from spec_
+
     video: placeholder_pc.mp4
   -
   -
