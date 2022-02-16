@@ -21,32 +21,32 @@ sections:
       type: reveal
       content:
         -
-          title: a
+          title: Sensitive data
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Personally identifiable information (PII)
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: c
+          title: Protected health information (PHI)
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: d
+          title: Personal information
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: e
+          title: Intellectual property
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: f
+          title: Industry information systems.
           copy: |
             text
           img: placeholder_icon.svg    
