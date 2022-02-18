@@ -1,0 +1,100 @@
+title: Understand threat models
+intro: |
+  In this session you will learn about different ‘threat models’, the steps within them and how to evaluate them.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The range of threat models
+      * The steps within a threat model
+      * Evaluating a threat model
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe a range of threat models.
+  -
+  -
+    title: Threat models
+    theme: t-bg-primary
+    copy: |
+      Threat Models are structured processes to identify potential threats and prioritise mitigations.
+
+      Let’s have a look at some threat models.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: STRIDE
+          text: |
+            STRIDE is an acronym for the following threat categories. Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. It can be used to spot threats during the design phase of an app or system.
+          img: placeholder_icon.svg
+        -
+          title: PASTA
+          text: |
+            PASTA is an acronym for the Process of Attack Simulation and Threat Analysis and is a risk-centric threat model. It allows for collaboration between developers and business stakeholders.
+          img: placeholder_icon.svg
+        -
+          title: LINDDUN
+          text: |
+            LINDDUN is an acronym for Linkability, Identifiability, Non-repudiation, Detectability, Disclosure of information, Unawareness, Non-compliance. It is a model that supports analysts in systematically obtaining and mitigating privacy threats in software architecture.
+          img: placeholder_icon.svg
+        -
+          title: CVSS
+          text: |
+            CVSS stands for Common Vulnerability Scoring System which provides a way to capture the key characteristics of a vulnerability and produce a numerical score to reflect its severity. This can then be translated into low, medium, high, or critical to help assess and prioritise vulnerability.
+          img: placeholder_icon.svg
+        -
+          title: Attack Trees
+          text: |
+            Attack Trees are threat models that show a graphical representation of ways a system can be attacked. They are conceptual diagrams depicting attacks on a system in tree form with the root as the goal for the attack and the leaves as the ways to reach that goal.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Explain the steps within a threat model
+      * Evaluate a threat model
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+
+      ### Threat models
+      
+      Please see the following video on threat models.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      Evaluate a threat model (example with exercise) 
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Evaluate a threat model (example with exercise) 
+
+        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
+        
+      links:
+        link: https://www.google.co.uk

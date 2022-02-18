@@ -1,16 +1,24 @@
+{# 
+  If module.sections is empty, assume this is for documentation pages and pull data from _data/examples
+#}
 {% set sections = module.sections %}
 {% if not module.sections %}
   {% set sections = examples.sections %}
 {% endif %}
+
+{# 
+  Loops through the content in the 'sections' key within the data (.yml) files
+#}
 {%- for section in sections %}
-  {#
-    Only write out sections with data 
-  #}
   {% set themeIcon = false %}
   {%- if section.theme and section.theme.indexOf("i-") > -1 -%}
     {% set themeIcon = true %}
   {%- endif -%}
 
+  {# 
+    Only write out sections with data.
+    Legacy issue caused by double hyphens '-' in the data file creating empty sections 
+  #}
   {% if section.title %}
     {%- if section.theme == "i-quiz" and lastPage and (sessionCount == session) %}
       {# {{ section.title }} #}
@@ -30,12 +38,6 @@
             tilde: site.tilde,
             link: link
           }) }}
-
-        {# 
-        <a href="{{ '~' if buildenv === 'dotnet' }}/captivate/{{ course | d('no string') | slug }}/{{ link }}/" class="l-media__img" data-v2l-activity=true aria-label="Begin activity">
-          {% include 'svg/buttons/activity_button.svg' %}
-        </a>
-         #}
 
       {%- elseif section.title.toLowerCase() == 'forum' -%}
         {{ components.buttonSection({

@@ -1,0 +1,152 @@
+title: Understand cyber threat intelligence
+intro: |
+  In this session you will learn to identify the key concepts of cyber threat intelligence, how to identify immerging attack techniques and consider the current threat status for organisations and how they can be prepared.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify key concepts of cyber threat intelligence, and explain cyber security terms.
+  -
+  -
+    title: Key concepts of cyber threat intelligence
+    theme: t-bg-primary
+    copy: |
+      Threat intelligence is the activity of gathering, processing analysing and distributing information related to threats that may target applications and systems. Whereas Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
+      
+      A **Cyber Threat** is an intentional malicious act that seeks to damage systems, steal data or disrupt organisations in general. Cyber threats include acts of Phishing, Denial of Service attacks (DoS), Virus and Malware etc. 
+      
+      When **threat** is used without the word cyber in front it refers to a possible security violation that might exploit the vulnerability of a system putting an organisation at risk. The origin of this threat may be accidental, environmental, or due to human negligence.
+    
+      Scroll through the slides below to learn more about some of the most common terms in relation to cyber security.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Threats
+          text: |
+            Threats are potential negative actions or events that may occur due to a vulnerability and unauthorised access that can adversely impact organisational systems, operations and assets.
+          img: placeholder_icon.svg
+        -
+          title: Exploits
+          text: |
+            Exploits are codes that take advantage of a software vulnerability. They allow unauthorised access remotely, gaining elevated privileges or to move deeper into the network. They can also be used as part of a multi-component attack.
+          img: placeholder_icon.svg
+        -
+          title: Vulnerabilities
+          text: |
+            Vulnerabilities refers to any week spot within the cyber security of an organisation that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation.
+          img: placeholder_icon.svg
+        -
+          title: Risk
+          text: |
+            Risk refers to the level of impact a cyber attack may have on an organisation and its operations for example financial loss, disruption and damage to reputation.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      
+      ### Key concepts of cyber threat intelligence
+      
+      Let’s have a look in this video what this can mean for an organisation.
+
+      _Video discussing sliders above and including the elements from spec_
+
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the threat intelligence lifecycle.
+  -
+  -
+    title: The threat intelligence lifecycle
+    theme: 
+    
+    copy: |
+      _Activity here based on the SDL lifecyce from the Coding course_
+
+      ### What is the Threat Intelligence Lifecycle?
+      
+      The Threat Intelligence Lifecycle outlines the core steps that should be applied to maintain high standards of cyber security.
+
+      TEXT TO GO INTO INTERACTIVITY: 
+      Key objectives for each phase:
+      Phase 1-Planning and Direction- this is the most important as it sets the scope and objectives for intelligence requirements including what is at risk and what areas could benefit.
+      Phase 2-Collection- Data quantity and quality gathering are crucial aspects of this stage so as not to miss serious threats. Intelligence collection establishes the scope of sources
+      Phase 3-Analysis- is a mostly human oriented process aimed at contextualising and converting threat intelligence by applying data modelling.
+      Phase 4-Production- once the analysis is complete charts and report are created to assess the significance and severity of the intel to decide what action should take place.
+      Phase 5-Dissemination and feedback- fraud and security teams distribute intelligence reports to stakeholders and consider urgency. Feedback will then inform refinement of intelligence operations and the need for resource allocation and strategic planning.
+      https://www.flashpoint-intel.com/blog/threat-intelligence-lifecycle/
+
+
+      Let's look at the different stages involved in the following activity. _EXAMPLE PLACEHOLDER_
+
+    interactive: 
+      file: uc/u1_s3_p1_lifecycle
+      width: 1000
+      height: 600
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _1.4  Describe how to find out about emerging attack techniques and how to recognise them - get learners to do research and then answer T2T questions_
+
+        [example web link](https://www.google.co.uk)
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

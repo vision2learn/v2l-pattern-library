@@ -49,7 +49,7 @@ sections:
 
       ### Compiled code
 
-      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program will is involved in converting the instructions in the source code of the original program into machine code.
+      Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program is involved in converting the instructions in the source code of the original program into machine code.
          
       ![](/images/svg/uc/uc_u3_s2_p1_image1.svg)
 
@@ -106,7 +106,7 @@ sections:
           sentence: Interpreted code can be easier to debug.
           answer: Interpreted
         -
-          sentence: Compiled code can be run straight away.
+          sentence: Compiled programs can be run straight away.
           answer: Compiled
         -
           sentence: Compiled code can be optimized to CPU so can be faster.
