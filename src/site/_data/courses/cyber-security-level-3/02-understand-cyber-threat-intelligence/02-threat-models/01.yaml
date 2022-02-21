@@ -21,9 +21,9 @@ sections:
     title: Threat models
     theme: t-bg-primary
     copy: |
-      Threat Models are structured processes to identify potential threats and prioritise mitigations.
+      Threat Models are structured processes to identify potential threats and prioritise mitigations. Threat modelling is a way of evaluating risk of a cyber attack and how to prioritise so as to avoid or minimise the effects of a cyber attack.
 
-      Let’s have a look at some threat models.
+      Let’s have a look at some threat models and what they involve.
 
     subInc: 
       type: slider
@@ -32,7 +32,7 @@ sections:
         -
           title: STRIDE
           text: |
-            STRIDE is an acronym for the following threat categories. Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. It can be used to spot threats during the design phase of an app or system.
+            STRIDE is an acronym for the following threat categories. Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege. It can be used to spot threats during the design phase of an app or system. Stride was created by Microsoft engineers.
           img: placeholder_icon.svg
         -
           title: PASTA
@@ -42,34 +42,32 @@ sections:
         -
           title: LINDDUN
           text: |
-            LINDDUN is an acronym for Linkability, Identifiability, Non-repudiation, Detectability, Disclosure of information, Unawareness, Non-compliance. It is a model that supports analysts in systematically obtaining and mitigating privacy threats in software architecture.
+            LINDDUN is an acronym for Linkability, Identifiability, Non-repudiation, Detectability, Disclosure of information, Unawareness, Non-compliance. It is a model that supports analysts in systematically obtaining and mitigating privacy threats in software architecture. This is a 6 step process  the first 3 steps define the problem and the last 3 find solutions.
           img: placeholder_icon.svg
         -
           title: CVSS
           text: |
-            CVSS stands for Common Vulnerability Scoring System which provides a way to capture the key characteristics of a vulnerability and produce a numerical score to reflect its severity. This can then be translated into low, medium, high, or critical to help assess and prioritise vulnerability.
+            CVSS stands for Common Vulnerability Scoring System which provides a way to capture the key characteristics of a vulnerability and produce a numerical score to reflect its severity. This can then be translated into low, medium, high, or critical to help assess and prioritise vulnerability. This threat model helps to prioritise threats.
           img: placeholder_icon.svg
         -
           title: Attack Trees
           text: |
-            Attack Trees are threat models that show a graphical representation of ways a system can be attacked. They are conceptual diagrams depicting attacks on a system in tree form with the root as the goal for the attack and the leaves as the ways to reach that goal.
+            Attack Trees are threat models that show a graphical representation of ways a system can be attacked. They are conceptual diagrams depicting attacks on a system in tree form with the root as the goal for the attack and the leaves as the ways to reach that goal. This model is often used with other models such as STRIDE CVSS and PASTA.
           img: placeholder_icon.svg
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to:
-      * Explain the steps within a threat model
-      * Evaluate a threat model
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Choose 3 or more threat models and identify each stage in more detail.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-
       ### Threat models
       
       Please see the following video on threat models.

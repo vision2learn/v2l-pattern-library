@@ -23,8 +23,7 @@ sections:
     title: Types of malicious software
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about types of malicious software.
-
+      Malicious software or malware comes in different forms with a variety of names, but they all have one thing in common they attack systems and can be disastrous if cyber security is not in place. Let’s look at some of the most common ones in the following slides.
     subInc: 
       type: slider
       title: 
@@ -35,17 +34,22 @@ sections:
             text
           img: placeholder_icon.svg
         -
-          title: Spyware
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Trojan
+          title: Spyware and Adware
           text: |
             text
           img: placeholder_icon.svg
         -
           title: Worms
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Trojans
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Ransomware
           text: |
             text
           img: placeholder_icon.svg
@@ -64,9 +68,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Effects of malicious software
       
-      Please see the following video on malicous software attacks.
+      Let’s look at some of the most common effects that can be caused by malicious software, the motives behind them and how they are made more affective by human factors.
     video: placeholder_pc.mp4
   -
     title: Time to think
