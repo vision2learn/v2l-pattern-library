@@ -13,52 +13,55 @@ sections:
     title: Key concepts of cyber threat intelligence
     theme: t-bg-primary
     copy: |
-      Threat intelligence is the activity of gathering, processing analysing and distributing information related to threats that may target applications and systems. Whereas Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
+      Threat intelligence is the activity of gathering, processing analysing and distributing information related to threats that may target applications and systems. Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
       
-      A **Cyber Threat** is an intentional malicious act that seeks to damage systems, steal data or disrupt organisations in general. Cyber threats include acts of Phishing, Denial of Service attacks (DoS), Virus and Malware etc. 
-      
-      When **threat** is used without the word cyber in front it refers to a possible security violation that might exploit the vulnerability of a system putting an organisation at risk. The origin of this threat may be accidental, environmental, or due to human negligence.
-    
-      Scroll through the slides below to learn more about some of the most common terms in relation to cyber security.
+      Let’s look at this in more detail in the following slides.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Threats
+          title: Cyber threat
           text: |
-            Threats are potential negative actions or events that may occur due to a vulnerability and unauthorised access that can adversely impact organisational systems, operations and assets.
+            A Cyber threat is an intentional malicious act perpetrated by a threat actor or hacker that seeks to damage systems, steal data or disrupt organisations in general. It is important that all businesses and organisations understand the risks that they face. These are made up of the threat, any vulnerability and the impact this could have. Cyber threats include acts of Phishing, Denial of Service attacks (DoS), Virus and Malware etc. 
+
           img: placeholder_icon.svg
         -
-          title: Exploits
+          title: Cyber threat intelligence
           text: |
-            Exploits are codes that take advantage of a software vulnerability. They allow unauthorised access remotely, gaining elevated privileges or to move deeper into the network. They can also be used as part of a multi-component attack.
+            Cyber threat intelligence is the process of collecting and analysing information on potential cyber threats, including the motivation behind them the methods being s and the capability of the threat actors in making their attack. There are different types of threat intelligence which use different methods for different purposes.
           img: placeholder_icon.svg
         -
-          title: Vulnerabilities
+          title: Operational threat intelligence
           text: |
-            Vulnerabilities refers to any week spot within the cyber security of an organisation that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation.
+            Operational threat intelligence uses tools, techniques and procedures to try to understand threat actors and their potential attacks. It also is used to assess where resources are needed to prevent future attacks.
           img: placeholder_icon.svg
         -
-          title: Risk
+          title: Tactical threat intelligence
           text: |
-            Risk refers to the level of impact a cyber attack may have on an organisation and its operations for example financial loss, disruption and damage to reputation.
+            Tactical threat intelligence informs about current TTPs techniques, tactics and procedures that threat actors use. This information can see when an organisation or business has already been attacked, by monitoring logs and incident reports, to inform on how to defend against the threat.
           img: placeholder_icon.svg
+        -
+          title: Strategic threat intelligence
+          text: |
+            Strategic threat intelligence informs about changes in the threat landscape seeing if a new threat has emerged. This is usually done by strategic threat experts who publish their reports allowing senior management to make decision on organisation security and protection going forward.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the terms Threats, Exploits, Vulnerabilities and Risk, in relation to cyber security.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      
-      ### Key concepts of cyber threat intelligence
+      ### The terms: Threats, Exploits, Vulnerabilities and Risk, in relation to cyber security
       
       Let’s have a look in this video what this can mean for an organisation.
-
-      _Video discussing sliders above and including the elements from spec_
 
     video: placeholder_pc.mp4
   -
@@ -69,17 +72,17 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Threats take many different forms such as malware, data breaches and DoS attacks. 
+          answer: Threats
         -
-          sentence: example two
-          answer: two
+          sentence: Vulnerabilities refers to any week spot within the cyber security of an organisation that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation. 
+          answer: Vulnerabilities
         -
-          sentence: example three 
-          answer: three
+          sentence: Risk refers to the level of impact a cyber attack may have on an organisation and its operations for example financial loss, disruption, and damage to reputation.  
+          answer: Risk
         -
-          sentence: example four
-          answer: four
+          sentence: Exploits are codes that take advantage of a software vulnerability or flaw. 
+          answer: Exploits
     theme: i-quiz
   -
   -
@@ -118,35 +121,36 @@ sections:
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to find out about emerging attack techniques and how to recognise them.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Emerging attack techniques
+      
+      Cyber security professionals are always on the lookout for new threats and use many different sources to find them. By combining information from different sources, a better picture can be seen. Let’s look at some of the sources they use.
+
+    video: placeholder_pc.mp4
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _1.4  Describe how to find out about emerging attack techniques and how to recognise them - get learners to do research and then answer T2T questions_
-
-        [example web link](https://www.google.co.uk)
+        List here how to find out about emerging attack techniques and how to recognise them.
   -
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn about the open threat exchange.
+      links:
+        AT&T Open Threat Exchange: https://cybersecurity.att.com/open-threat-exchange

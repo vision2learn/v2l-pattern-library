@@ -16,9 +16,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### What is threat status?
       
-      Please see the following video on recommendations....
+      Cyber security professionals are responsible for analysing the current threat status and making recommendations for action. They have to take into consideration the intelligence information they have gathered and how it may impact the organisation or business and their systems. So, what exactly is threat status? Let’s look at this in the following video.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -31,7 +31,7 @@ sections:
         [example web link](https://www.google.co.uk)
   -
   -
-    title: Case study
+    title: Case study or SLIDES?
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
@@ -42,6 +42,40 @@ sections:
       _Learners must cover information on at least four different types of attack, a business to consumer (B2C) business is easier to focus on. Types of attack could include: phishing, ransomware, Denial of Service ( DOS) & DDoS, virus - slides recommended but feel that this needs to be more challenging as its a L3 - put in quiz??_
 
     img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: 1.9 title
+    theme: t-bg-primary
+    copy: |
+      Not all businesses and organisations are the same when it comes to cyber threat and the type of cyber threat intelligence they need. A large manufacturing, science or pharmaceutical based company may be concerned about theft of designs, formulas and secrets. A small online retail company may be more concerned with phishing attacks. Also the type and nature of attack may vary depending on whether a company is B2B business to business or B2C business to consumer.
+      
+      Lets have a look at different types of attack and how they may affect a business.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Phishing
+          text: |
+            Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources  and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names that are similar are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
+          img: cs_u2_s3_p1_slide1.svg
+        -
+          title: Ransomware
+          text: |
+            Ransomware or malware is often downloaded using phishing techniques or by hacking into servers and this can cripple a company or organisation. The ransomware encrypts and holds the victim’s information to ransom demanding payment to release it often in Bitcoin. It may also be delivered through infected client or supplier systems on the same network. Ransomware kits are readily sold on the dark web. Some ransomware attacks use data dump sites where they can prove that they have access to the data, threating to dump all of it if the ransom is not paid. 
+
+          img: placeholder_icon.svg
+        -
+          title: Dos or DDos
+          text: |
+            A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource.  This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow. 
+          img: placeholder_icon.svg.svg
+        -
+          title: Viruses
+          text: |
+            Viruses are similar to malware but by nature are designed to spread from computer to computer reproducing themselves. They are used to steal data, shut down services or damage reputations and equipment. They are often inserted into a legitimate program such as a software upgrade or through phishing attacks in order to execute their code. Viruses can also stay dormant until a device executes its code and once that is infected it can spread amongst other systems in a network. Large scale attacks are often launched against large organisations such as government, educational and healthcare services. Those that do not have strong firewalls or anti malware are also susceptible. 
+          img: placeholder_icon.svg.svg
+
   -
   -
     title: Quick quiz
@@ -62,27 +96,3 @@ sections:
           sentence: Viruses are by nature designed to spread from computer to computer and are able to reproduce themselves. 
           answer: Viruses
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
