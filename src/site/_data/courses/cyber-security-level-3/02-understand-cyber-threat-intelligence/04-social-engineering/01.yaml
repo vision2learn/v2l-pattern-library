@@ -1,8 +1,16 @@
 title: Know about social engineering
 intro: |
-    In this session you will learn about social engineering and how Open source Intelligence can be used to make an attack.
+    In this session you will learn about social engineering and how Open Source Intelligence can be used to make an attack.
 banner: cs_u2_s3_p1_social_engineering.jpeg
 sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * Social engineering
+      * How Open Source Intelligence can be used to make an attack
+  -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -10,9 +18,9 @@ sections:
       In your assessment you will be required to explain the term ‘social engineering’ and give examples of how Open Source Intelligence can be used for social engineering.
   -
     title: Social engineering
-    theme: t-bg-primary1a
+    theme: t-bg-primary
     copy: |
-      So what exactly is social engineering and why do cyber criminals like to use it?  
+      So what exactly is social engineering and how do cyber criminals like to use it?  
 
     subInc: 
       type: accordion
@@ -36,6 +44,7 @@ sections:
 
           img: cs/cs_u2_s3_p1_accordian2.svg  
   -
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
@@ -45,10 +54,31 @@ sections:
       So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
     video: cs_u2_s3_p1_open_source.mp4
   -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: For attacks against companies
+          copy: |
+            Threat actors can use corporate websites and directory listings to find targets, as well as Google dorking or LinkedIn.
+            
+            For example, LinkedIn has a special URL where you can quickly identify targets of interest: http://linkedin.com/title/<job-title>-at-<company>/
+            
+            Example:
+            The following URL would list all directors at example-company (fictitious company)
+            http://linkedin.com/title/director-at- example-company /
+            
+          img: /images/svg/placeholder_icon.svg
+  -
   - 
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        Learners could undertake a case study to gather information using Open Source Intelligence and give examples of how the information could be used to carry out a social engineering attack. 
+        Gather information using Open Source Intelligence and give examples of how the information could be used to carry out a social engineering attack.
