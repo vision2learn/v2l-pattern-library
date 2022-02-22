@@ -16,4 +16,79 @@ sections:
       4. Evaluate the advantages and disadvantages of security by design
 
   -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand what security by design is and how the principles behind it can be applied as you will be asked about this in your assessment.  
+  - 
+    title: What is security by design?
+    theme: t-bg-primary
+    copy: |
+     Security by design is an approach to cybersecurity that focuses on preventing a breach rather than just responding to one after the event! It enables an organisation to automate its data security by formalising the design of its infrastructure by building security into the IT system and subsequently the management processes. The security is in place from the beginning of a project so therefore is more likely to reduce the chance of flaws that may compromise an organisations information security. 
+  -
+    title: The principles of security by design
+    theme: t-bg-supporting2
+    copy: |
+      So let’s take a look at the principles of security by design as set out by the NCSC ( National Cyber Security Centre).
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Establish the context before designing a system
+          copy: |
+            Before creating a secure system there needs to be an understanding of what the system is for and address any short comings or issues.
+          img: placeholder_icon.svg
+        -
+          title: Make compromise difficult
+          copy: |
+            Designing a system with security in mind means applying concepts that make it harder for any attackers to compromise data or systems.
+          img: placeholder_icon.svg
+        -
+          title: Reduce the attack surface
+          copy: |
+            This refers to reducing the number of places where hackers can get in. You can take a number of steps to do this.
+          img: placeholder_icon.svg
+        -
+          title: Make Disruption Difficult
+          copy: |
+            Having standby systems can help by always making sure high value or critical services can be relied on.
+          img: placeholder_icon.svg
+        -
+          title: Make compromise detection easier
+          copy: |
+            Even when all precautions are taken systems can still become compromised. By having the right security systems in place this can be prepared for and spotted before any damage takes place.
+          img: placeholder_icon.svg  
+        -
+          title: Reduce the impact of compromise
+          copy: |
+            By designing a system which is more segmented or zoned this can help minimise the severity of a compromise.
+          img: placeholder_icon.svg  
+  -
+    title: Stretch - weblink
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Case study
+
+      To learn more about each of these principles and how they can be applied click on the link to the right.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.ncsc.gov.uk/collection/cyber-security-design-principles/examples/study-operational-tech
+  -
+        title: Time to think
+        include: 
+        type: time-to-think
+        copy: lorum ipsum
+        theme: t-bg-primary3 i-think   
+  -
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Please see the following video for 
+    video: placeholder_pc.mp4
+  -
     

@@ -88,34 +88,4 @@ sections:
       type: time-to-think
       copy: now have a think and answer the question
     theme: t-bg-primary3 i-think
-  -
-    title: Did you Know?
-    theme: t-bg-primary
-    copy:
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: According to a study ...
-          copy: |
-            ... by the UK government, in March 2021, four out of every ten UK businesses
-
-            (39%) and a quarter of charities (26%) reported either a cyber security breach or an attack in the
-            previous 12 months.
-
-            Among organisations that suffered from breaches or attacks, around a quarter experienced them
-            at least once a week. The most common types were phishing attacks (around 81% of organisations
-            reported these), followed by impersonation (around 25%).
-
-            The study also found that one in five of the organisations that suffered from a cyber attack ended
-            up losing money, data or other assets, while one-third reported having to spend time and money
-            responding to the breach, or lost business because of it. The mean cost of a cyber security breach
-            to organisations was estimated at £8,460.
-
-            The survey also found the following actions had been taken by organisations:
-            * 43% of businesses and 29% of charities had taken out some form of cyber insurance.
-            * 34% of businesses and 32% of charities had conducted a cyber security risk assessment.
-            * 20% of businesses and 14% of charities had conducted staff testing, such as mock phishing exercises.
-            * 15% of businesses and 12% of charities had carried out cyber security vulnerability audits.
-          img: /images/svg/placeholder_icon.svg     
-  -
+  
