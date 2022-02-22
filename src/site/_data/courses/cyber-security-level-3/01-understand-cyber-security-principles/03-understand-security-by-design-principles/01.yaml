@@ -83,7 +83,8 @@ sections:
         type: time-to-think
         copy: lorum ipsum
         theme: t-bg-primary3 i-think   
-  -
+  -   
+    title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
