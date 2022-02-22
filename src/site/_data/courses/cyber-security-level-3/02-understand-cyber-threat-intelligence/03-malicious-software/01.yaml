@@ -31,27 +31,27 @@ sections:
         -
           title: Virus
           text: |
-            text
+            Those who are not in the know often call all malware viruses, but they are actually quite different. A virus changes or modifies the host files so that when the code is executed then so is the virus. This enables them to infect other files and makes them hard to clean up and remove as they are executed from inside a legitimate program. Specialist Anti-virus or anti malware software can remove them but often the infected file must be quarantined or removed.
           img: placeholder_icon.svg
         -
           title: Spyware and Adware
           text: |
-            text
+            Adware exposes the user to unwanted and potentially malicious advertising. It might direct the user to a similar looking website that mimic the original but contains other product promotions. Spyware is used to check on ‘friends and family’ activities and is used in targeted attacks to log keystrokes and learn passwords or other information. Both Adware and Spyware are the easiest forms of malware to remove by finding the malicious code and removing it before its executed. However, the presence of it could signal that a device has a weakness and could be attack by more malicious threat actors.
           img: placeholder_icon.svg
         -
           title: Worms
           text: |
-            text
+            Worms are a type of malware that can spread a copy of itself but unlike viruses it doesn’t need a program to be executed to do this. They have been around longer than desktop computers and are mostly found in email attachments. Opening the attachment activates the worm and it then overwrites random files on a computer and will send a copy of itself to others in the users address book. Worms are less common these days due to people knowing not to click on a link from someone they don’t know.
           img: placeholder_icon.svg
         -
           title: Trojans
           text: |
-            text
+            Trojans are more popular with hackers than worms. Trojans often look like a legitimate piece of software but the contain malicious code. Unlike worms they need the victim to execute the code. A common example is a fake antivirus program which will pop up claiming a computer is infected and to click to clean it those who do download and activate the trojan so cyber criminals can gain access. Trojans are hard to guard against as they are easy to write and there are many out there and anti-malware programs find it hard to keep up with them.
           img: placeholder_icon.svg
         -
           title: Ransomware
           text: |
-            text
+            Ransomware is malware that encrypts and holds a victim’s information for ransom. They subsequently cannot access files, databases or applications and the attacker demands a ransom to provide access. If a system is infected with ransomware an appropriate decryption tool will be needed to regain access. Antivirus software should be able to protect systems but also having back up data will help in the short term.
           img: placeholder_icon.svg
   -
   -
@@ -78,49 +78,27 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - 3.1 - 3.3_
-
-  
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+        Conduct research to find some specific examples of attacks using the malicious software mentioned here. What type of software was used in the attack? How was it used? What was the outcome? How was it discovered?
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Every individual is a potential target of malicious software attacks as well as every business or organisation, no matter what the size.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+          feedback: By attacking one individual a threat actor can have access to so many others and the potential to access whole systems.
+        How can you stop malicious software infecting a system?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Have anti-malware software installed: true
+            Do not use the internet: false
+            Do not download items from websites: false
+          feedback: Make sure that a system is protected by legitimate 'anti-malware' purchased from a reputable company even if it is a mobile system and that it is kept up to date, both the operating system and any software installed on it such as a web browser. 
+        Select one option to complete the following sentence:"If malware removal is unsuccessful, it may be that the ________________ may need to be reinstalled along with applications and programs from scratch.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            software programs: false
+            document folders: false
+            operating system: true
+          feedback: If malware removal is unsuccessful, it may be that the operating system may need to be reinstalled along with applications and programs from scratch. If everything is backed up it shouldn't be a problem but contacting the system suppliers help desk may be necessary.

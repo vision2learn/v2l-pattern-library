@@ -78,9 +78,9 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Suitable threat models for a Pharmaceutical Company
 
-      Evaluate a threat model (example with exercise) 
+      Imagine that you are working for a multi-national pharmaceutical company that makes and tests vaccines for different diseases. The company has thousands of employees, who all work in one of the company’s offices. The company has regular security training for its employees and a very experienced cyber security team who have been working together for many years.
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
@@ -90,9 +90,6 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Evaluate a threat model (example with exercise) 
+        What type of threat model or models might be a good choice for the above case study company to use and why?
 
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        link: https://www.google.co.uk
+        Carry out some research and use examples to support your answer. 
