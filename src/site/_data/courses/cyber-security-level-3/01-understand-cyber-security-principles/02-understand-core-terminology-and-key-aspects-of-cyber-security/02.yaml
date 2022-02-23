@@ -1,7 +1,7 @@
-title: Key Sector Vulnerabilities
+title: Key actors and thier behaviours and motivations
 intro: |
   On this page you will learn about;
-  * Sector vulnerabilities
+  * Good actors and bad actors
   * Motivations for cyber attacks
   * How attacks are carried out 
  
@@ -9,4 +9,61 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
-    
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand the core terminology used in cyber security as you will be asked about this in your assessment. 
+  -   
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Please see the following video for 
+    video: placeholder_pc.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+        -
+          sentence: 
+          answer: 
+    theme: i-quiz 
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: now have a think and answer the question
+    theme: t-bg-primary3 i-think
+
+  -
+  
+    title: Stretch - activity
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  title
+
+      text
+
+      
+
+    img: /images/svg/Activity_button.svg
+    activity: U1-S7-P2_GetCreative
+  -  
