@@ -78,17 +78,72 @@ sections:
     img: /images/svg/stretch_button.svg
     link: https://www.ncsc.gov.uk/collection/cyber-security-design-principles/examples/study-operational-tech
   -
-        title: Time to think
-        include: 
-        type: time-to-think
-        copy: lorum ipsum
-        theme: t-bg-primary3 i-think   
+
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: now have a think and answer the question
+    theme: t-bg-primary3 i-think 
+
   -
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+      Make sure that you understand what security by design is and how the principles behind it can be applied as you will be asked about this in your assessment.  
+  -   
+    title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       ### Title
       Please see the following video for 
     video: placeholder_pc.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: its a wonderful life
+          answer: wonderful
+        -
+          sentence: its a wonderful life
+          answer: wonderful
+        -
+          sentence: its a wonderful life
+          answer: wonderful
+        -
+          sentence: its a wonderful life
+          answer: wonderful
+        -
+          sentence: its a wonderful life
+          answer: wonderful
+        -
+          sentence: its a wonderful life
+          answer: wonderful
+          
+    theme: i-quiz
+    
+  -
+    title: Stretch - activity
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  title
+
+      text
+
+      
+
+    img: /images/svg/Activity_button.svg
+    activity: U1-S7-P2_GetCreative
+  -
+  
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: now have a think and answer the question
+    theme: t-bg-primary3 i-think 
+
   -
     
