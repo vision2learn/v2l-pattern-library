@@ -22,14 +22,28 @@ sections:
     video: placeholder_pc.mp4
   -
     title: Case study
+    layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - The Suez Canal blockage
+      ### The Suez Canal blockage
 
-      Take a look at the following case study about using OSINT techniques to track the Suez Canal Blockage
-
-      [hackers-arise - suez canal blockage](https://www.hackers-arise.com/post/open-source-intelligence-osint-using-osint-techniques-to-track-the-suez-canal-blockage)
+       The blockage of the Suez Canal by the cargo ship Ever Given (EverGreen) in the narrow Suez Canal blocked billions of dollars of shipping and commerce between the Mediterranean Sea and the Middle East and South Asia.
+       
+       The Suez canal, enables approximately 12% of global shipping to bypass the long trip around the continent of Africa which saves around 2 weeks shipping time. If there is a blockage of this canal, it can have a serious impact in disrupting global commerce.
+       
+       Take a look at the website below to see what was gathered from open source intelligence sources.
+    img: /images/svg/placeholder_icon.svg
   -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the Suez Canal Blockage and the OSINT techniques used to track it.
+
+      links:
+        hackers-arise - suez canal blockage: https://www.hackers-arise.com/post/open-source-intelligence-osint-using-osint-techniques-to-track-the-suez-canal-blockage
   -
     title: Time to think
     theme: t-bg-primary3 i-think
