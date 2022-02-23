@@ -37,11 +37,13 @@ sections:
           copy: |
             There are advanced search functions, called ‘Google dork’ queries, that can be used to identify different types of public information. For example, typing:
 
-            “sensitive but unclassified” filetype:pdf site:publicintelligence.net
+            'sensitive but unclassified' filetype:pdf site:publicintelligence.net
             
-            into a search engine will return only PDF documents from the Public Intelligence website that contain the words ‘sensitive but unclassified’ somewhere in the document text. There are hundreds of similar tools, which both security professionals and threat actors can use to search for almost anything.
+            into a search engine will return only PDF documents from the Public Intelligence website that contain the words ‘sensitive but unclassified’ somewhere in the document text. 
             
-          img: /images/svg/placeholder_icon.svg
+            There are hundreds of similar tools, which both security professionals and threat actors can use to search for almost anything.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
   -
   -
     title: Time to think
