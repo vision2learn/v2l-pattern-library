@@ -96,28 +96,17 @@ sections:
     theme: 
     
     copy: |
-      _Activity here based on the SDL lifecyce from the Coding course_
-
       ### What is the Threat Intelligence Lifecycle?
       
       The Threat Intelligence Lifecycle outlines the core steps that should be applied to maintain high standards of cyber security.
 
-      TEXT TO GO INTO INTERACTIVITY: 
-      Key objectives for each phase:
-      Phase 1-Planning and Direction- this is the most important as it sets the scope and objectives for intelligence requirements including what is at risk and what areas could benefit.
-      Phase 2-Collection- Data quantity and quality gathering are crucial aspects of this stage so as not to miss serious threats. Intelligence collection establishes the scope of sources
-      Phase 3-Analysis- is a mostly human oriented process aimed at contextualising and converting threat intelligence by applying data modelling.
-      Phase 4-Production- once the analysis is complete charts and report are created to assess the significance and severity of the intel to decide what action should take place.
-      Phase 5-Dissemination and feedback- fraud and security teams distribute intelligence reports to stakeholders and consider urgency. Feedback will then inform refinement of intelligence operations and the need for resource allocation and strategic planning.
-      https://www.flashpoint-intel.com/blog/threat-intelligence-lifecycle/
 
-
-      Let's look at the different stages involved in the following activity. _EXAMPLE PLACEHOLDER_
+      Let's look at the different stages involved in the following activity.
 
     interactive: 
-      file: uc/u1_s3_p1_lifecycle
+      file: cs3/u2_s2_p1_cyber_lifecycle
       width: 1000
-      height: 600
+      height: 500
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
