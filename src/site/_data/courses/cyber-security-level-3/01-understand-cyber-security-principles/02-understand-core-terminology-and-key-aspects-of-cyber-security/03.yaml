@@ -9,4 +9,67 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
-    
+    title: Key point
+    theme: t-bg-supporting3
+    copy: 
+       
+  - 
+    title: Reveal
+    theme: t-bg-supporting2
+    copy: |
+      text
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Health
+          copy: |
+            Cyber criminals can access personal data from medical records that can be sold on.
+          img: placeholder_icon.svg
+        -
+          title: Manufacturing
+          copy: |
+            Can be held to ransom after having their data breached bringing companies to a standstill. 
+          img: placeholder_icon.svg
+        -
+          title: Finance
+          copy: |
+            Financially motivated data breaches and server attacks are top concerns.
+          img: placeholder_icon.svg
+        -
+          title: Government agencies and departments
+          copy: |
+            Cyber attacks can often be foreign state sponsored aiming to destabilise.
+          img: placeholder_icon.svg
+        -
+          title: Educational institutions
+          copy: |
+            Online learning due to the pandemic created greater threats from ransomware attacks.
+          img: placeholder_icon.svg
+  -   
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Title
+      Please see the following video for 
+    video: placeholder_pc.mp4
+  - 
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: now have a think and answer the question
+    theme: t-bg-primary3 i-think
+
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  - 
