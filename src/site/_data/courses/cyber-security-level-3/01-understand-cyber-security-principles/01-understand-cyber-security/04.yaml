@@ -10,12 +10,12 @@ sections:
     copy: 
       Make sure that you understand the consequences and implications of inadequate cyber security as you will be asked about this in your assessment.
   -
-    title: Reveal
-    theme: t-bg-supporting2
+    title: The consequences and implications of inadequate cyber security
+    theme: t-bg-primary
     copy: |
-      text
+      A successful cyber attack can cause major damage to an organisation or individual. It can lead to a loss of revenue, as well as the time and money spent on fixing the problem, and can also cause a loss of trust and even regulatory fines.
 
-      Select the images below to read 
+      Select the images below to read what the possible consequences of an attack can include:
 
     subInc: 
       type: reveal
@@ -23,40 +23,40 @@ sections:
         -
           title: Sensitive data
           copy: |
-            text
+            This can be sold on for money or used by competitors.
           img: placeholder_icon.svg
         -
           title: Personally identifiable information (PII)
           copy: |
-            text
+            This includes information that can be used to identify specific individuals for attacks such as spear phishing.
           img: placeholder_icon.svg
         -
           title: Protected health information (PHI)
           copy: |
-            text
+            This is often the target of cyber blackmailers.
           img: placeholder_icon.svg
         -
           title: Personal information
-          copy: |
-            text
+          copy: | 
+            This includes information such as birthdates and addresses that can be used in phishing attacks.
           img: placeholder_icon.svg
         -
           title: Intellectual property
           copy: |
-            text
+            This can be sold on for money or used by competitors.
           img: placeholder_icon.svg
         -
           title: Industry information systems.
           copy: |
-            text
+            Detailed information on this can be used to launch more sophisticated and damaging attacks.
           img: placeholder_icon.svg    
   -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Consequences of inadequate cyber security
+      Please see the following video for a more in depth look at these consequences.
     video: placeholder_pc.mp4
   -       
     title: Quick quiz
