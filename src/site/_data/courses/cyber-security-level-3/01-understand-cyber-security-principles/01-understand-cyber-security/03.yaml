@@ -20,10 +20,16 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Cyber security concepts
+      Lets have a look at these concepts in more detail.
     video: placeholder_pc.mp4
   -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: now have a think and answer the question
+    theme: t-bg-primary3 i-think
+  -  
     title: Key point
     theme: t-bg-supporting3
     copy: 
@@ -93,11 +99,12 @@ sections:
             * 15% of businesses and 12% of charities had carried out cyber security vulnerability audits.
           img: /images/svg/placeholder_icon.svg     
   -
-        title: Time to think
-        include: 
-        type: time-to-think
-        copy: lorum ipsum
-        theme: t-bg-primary3 i-think
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: now have a think and answer the question
+    theme: t-bg-primary3 i-think
+  -
       
       
     
