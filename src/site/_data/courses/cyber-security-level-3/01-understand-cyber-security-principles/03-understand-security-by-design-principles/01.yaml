@@ -20,15 +20,12 @@ sections:
     theme: t-bg-supporting3
     copy: 
       Make sure that you understand what security by design is and how the principles behind it can be applied as you will be asked about this in your assessment.  
-  - 
+  -
     title: What is security by design?
     theme: t-bg-primary
     copy: |
-     Security by design is an approach to cybersecurity that focuses on preventing a breach rather than just responding to one after the event! It enables an organisation to automate its data security by formalising the design of its infrastructure by building security into the IT system and subsequently the management processes. The security is in place from the beginning of a project so therefore is more likely to reduce the chance of flaws that may compromise an organisations information security. 
-  -
-    title: The principles of security by design
-    theme: t-bg-supporting2
-    copy: |
+      Security by design is an approach to cybersecurity that focuses on preventing a breach rather than just responding to one after the event! It enables an organisation to automate its data security by formalising the design of its infrastructure by building security into the IT system and subsequently the management processes. The security is in place from the beginning of a project so therefore is more likely to reduce the chance of flaws that may compromise an organisations information security.
+
       So let’s take a look at the principles of security by design as set out by the NCSC ( National Cyber Security Centre).
 
       Select the images below to read 
