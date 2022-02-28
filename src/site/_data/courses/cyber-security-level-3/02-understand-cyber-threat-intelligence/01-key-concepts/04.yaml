@@ -67,13 +67,13 @@ sections:
           title: Phishing
           text: |
             Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources  and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names that are similar are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p4_slide1.svg
         -
           title: Ransomware
           text: |
             Ransomware or malware is often downloaded using phishing techniques or by hacking into servers and this can cripple a company or organisation. The ransomware encrypts and holds the victim’s information to ransom demanding payment to release it often in Bitcoin. It may also be delivered through infected client or supplier systems on the same network. Ransomware kits are readily sold on the dark web. Some ransomware attacks use data dump sites where they can prove that they have access to the data, threating to dump all of it if the ransom is not paid. 
 
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide5.svg
         -
           title: Dos and DDos
           text: |
@@ -83,7 +83,7 @@ sections:
           title: Viruses
           text: |
             Viruses are similar to malware but by nature are designed to spread from computer to computer reproducing themselves. They are used to steal data, shut down services or damage reputations and equipment. They are often inserted into a legitimate program such as a software upgrade or through phishing attacks in order to execute their code. Viruses can also stay dormant until a device executes its code and once that is infected it can spread amongst other systems in a network. Large scale attacks are often launched against large organisations such as government, educational and healthcare services. Those that do not have strong firewalls or anti malware are also susceptible. 
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide1.svg
 
   -
   -
