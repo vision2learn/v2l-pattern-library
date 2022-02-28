@@ -32,27 +32,27 @@ sections:
           title: Virus
           text: |
             Those who are not in the know often call all malware viruses, but they are actually quite different. A virus changes or modifies the host files so that when the code is executed then so is the virus. This enables them to infect other files and makes them hard to clean up and remove as they are executed from inside a legitimate program. Specialist Anti-virus or anti malware software can remove them but often the infected file must be quarantined or removed.
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide1.svg
         -
           title: Spyware and Adware
           text: |
             Adware exposes the user to unwanted and potentially malicious advertising. It might direct the user to a similar looking website that mimic the original but contains other product promotions. Spyware is used to check on ‘friends and family’ activities and is used in targeted attacks to log keystrokes and learn passwords or other information. Both Adware and Spyware are the easiest forms of malware to remove by finding the malicious code and removing it before its executed. However, the presence of it could signal that a device has a weakness and could be attack by more malicious threat actors.
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide2.svg
         -
           title: Worms
           text: |
             Worms are a type of malware that can spread a copy of itself but unlike viruses it doesn’t need a program to be executed to do this. They have been around longer than desktop computers and are mostly found in email attachments. Opening the attachment activates the worm and it then overwrites random files on a computer and will send a copy of itself to others in the users address book. Worms are less common these days due to people knowing not to click on a link from someone they don’t know.
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide3.svg
         -
           title: Trojans
           text: |
             Trojans are more popular with hackers than worms. Trojans often look like a legitimate piece of software but the contain malicious code. Unlike worms they need the victim to execute the code. A common example is a fake antivirus program which will pop up claiming a computer is infected and to click to clean it those who do download and activate the trojan so cyber criminals can gain access. Trojans are hard to guard against as they are easy to write and there are many out there and anti-malware programs find it hard to keep up with them.
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide4.svg
         -
           title: Ransomware
           text: |
             Ransomware is malware that encrypts and holds a victim’s information for ransom. They subsequently cannot access files, databases or applications and the attacker demands a ransom to provide access. If a system is infected with ransomware an appropriate decryption tool will be needed to regain access. Antivirus software should be able to protect systems but also having back up data will help in the short term.
-          img: placeholder_icon.svg
+          img: cs3_u2_s3_p1_slide5.svg
   -
   -
     title: Key point
