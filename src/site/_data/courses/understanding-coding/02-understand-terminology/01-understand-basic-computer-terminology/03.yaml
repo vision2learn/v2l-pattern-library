@@ -53,7 +53,7 @@ sections:
         -
           title: Character (char)
           text: |
-            Is used to store a single letter, digit, punctuation mark, symbol or blank space. There are different types of blank spaces including a single space ‘ ‘, a new line character (known as a carriage), as well as tabs. Different characters specify upper/lower case characters. Some examples of chars are: y, T, @, !, 1
+            Is used to store a single letter, digit, punctuation mark, symbol or blank space. There are different types of blank spaces including a single space ‘ ‘, a new line character (known as a carriage), as well as tabs. Different characters specify upper/lower case characters. Some examples of chars are: y, T, !, 1
 
           img: uc_u2_s1_p3_slide3.svg
         -

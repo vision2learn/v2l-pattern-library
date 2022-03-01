@@ -26,27 +26,27 @@ sections:
           text: |
             A Cyber threat is an intentional malicious act perpetrated by a threat actor or hacker that seeks to damage systems, steal data or disrupt organisations in general. It is important that all businesses and organisations understand the risks that they face. These are made up of the threat, any vulnerability and the impact this could have. Cyber threats include acts of Phishing, Denial of Service attacks (DoS), Virus and Malware etc. 
 
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p2_slide1.svg
         -
           title: Cyber threat intelligence
           text: |
             Cyber threat intelligence is the process of collecting and analysing information on potential cyber threats, including the motivation behind them the methods being s and the capability of the threat actors in making their attack. There are different types of threat intelligence which use different methods for different purposes.
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p2_slide2.svg
         -
           title: Operational threat intelligence
           text: |
             Operational threat intelligence uses tools, techniques and procedures to try to understand threat actors and their potential attacks. It also is used to assess where resources are needed to prevent future attacks.
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p2_slide3.svg
         -
           title: Tactical threat intelligence
           text: |
             Tactical threat intelligence informs about current TTPs techniques, tactics and procedures that threat actors use. This information can see when an organisation or business has already been attacked, by monitoring logs and incident reports, to inform on how to defend against the threat.
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p2_slide4.svg
         -
           title: Strategic threat intelligence
           text: |
             Strategic threat intelligence informs about changes in the threat landscape seeing if a new threat has emerged. This is usually done by strategic threat experts who publish their reports allowing senior management to make decision on organisation security and protection going forward.
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p2_slide5.svg
   -
   -
     title: Key point
@@ -63,7 +63,7 @@ sections:
       
       Let’s have a look in this video what this can mean for an organisation.
 
-    video: placeholder_pc.mp4
+    video: u2_s1_p2_key_concepts.mp4
   -
   -
     title: Quick quiz
@@ -124,7 +124,7 @@ sections:
       
       Cyber security professionals are always on the lookout for new threats and use many different sources to find them. By combining information from different sources, a better picture can be seen. Let’s look at some of the sources they use.
 
-    video: placeholder_pc.mp4
+    video: u2_s1_p2_emerging_attack_techniques.mp4
   -
   -
     title: Time to think
