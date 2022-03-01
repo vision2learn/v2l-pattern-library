@@ -1,4 +1,4 @@
-title: Understand cyber security
+title: Understand cyber security principles
 intro: |
   In this session you will look at the concepts of cyber security and its importance and the consequences and implications of inadequate cyber security. 
  
@@ -27,7 +27,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: now have a think and answer the question
+      copy: Now that you have an outline of the basic concepts of cyber security, carry out some research and write a description or definition of each concept.  
     theme: t-bg-primary3 i-think
   -  
     title: Key point
@@ -39,8 +39,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### The importance of cyber security
+      Lets take a look at why cyber security is so important.  
     video: placeholder_pc.mp4
   -       
     title: Quick quiz
@@ -97,7 +97,7 @@ sections:
             * 34% of businesses and 32% of charities had conducted a cyber security risk assessment.
             * 20% of businesses and 14% of charities had conducted staff testing, such as mock phishing exercises.
             * 15% of businesses and 12% of charities had carried out cyber security vulnerability audits.
-          img: /images/svg/placeholder_icon.svg     
+          img: /images/svg/cs3/cs3_did_you_know.svg     
   -
     title: Time to think
     include: 
