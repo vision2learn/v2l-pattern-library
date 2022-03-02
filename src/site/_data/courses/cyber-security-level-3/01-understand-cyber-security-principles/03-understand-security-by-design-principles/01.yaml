@@ -79,21 +79,21 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: now have a think and answer the question
+      copy: Do you think that security by design is a good idea? Explain why or why not in the box to the right. 
     theme: t-bg-primary3 i-think 
 
   -
     title: Key point
     theme: t-bg-supporting3
     copy: 
-      Make sure that you understand what security by design is and how the principles behind it can be applied as you will be asked about this in your assessment.  
+      Make sure that you understand consequences of not considering cyber security during the design phase as well as the advantages and disadvantages of security by design as you will be asked about this in your assessmennt.   
   -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Design Phase
+      Lets take a look at security by design im nore detail. 
     video: placeholder_pc.mp4
   -       
     title: Quick quiz
@@ -101,23 +101,23 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Unless cyber security has been considered during the design phase, the organisation will be left to take a reactive approach to attacks.
+          answer: reactive
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Companies should always do a risk analysis beforehand to assess where the potential problems might lie and what the consequences might be if cyber security is not implemented from the beginning.
+          answer: risk analysis
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: It is always important that structure data can be validated or else it should be transformed, or it needs to be rendered carefully.
+          answer: validated 
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Unauthorised access may mean that the system has been modified or had its data destroyed, meaning that if a backup is not available all that data may be lost.
+          answer: backup
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: If validation and transformation are not possible rendering information in a disposable environment not linked to the system is the best option.
+          answer: disposable
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: The complexity of malicious code in documents means that it is safer to transform the file or content into another format. 
+          answer: transform
           
     theme: i-quiz
     
@@ -139,7 +139,11 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: now have a think and answer the question
+      copy:  Using your learning from this session, look at the questions below and make a note of your answers. 
+
+        -  What are the consequences of not considering cyber security during the design phase? 
+
+        -  What are the advantages and disadvantages of security by design? 
     theme: t-bg-primary3 i-think 
 
   -
