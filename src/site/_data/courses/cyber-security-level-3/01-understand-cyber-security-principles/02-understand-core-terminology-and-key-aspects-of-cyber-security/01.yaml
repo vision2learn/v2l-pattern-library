@@ -47,7 +47,7 @@ sections:
       As well as the terminology mentioned in the video there are an number of other terms used in cyber security. Click on the link to learn more about these terms.
 
     img: /images/svg/stretch_button.svg
-    link: https://comtact.co.uk/cyber-security-glossary-of-terms-the-ultimate-list/ 
+    link: https://www.ukcybersecuritycouncil.org.uk/glossary/ 
   -
     title: Time to think
     include: 
@@ -66,12 +66,12 @@ sections:
      While most people are familiar with the idea of a hacker as the ‘bad guy’, there are actually a number of different types of hacker, including many that are involved in the security industry. The terms ‘good actor’ and ‘bad actor’ are often used to distinguish between someone who breaks into computers or systems in order to cause damage or steal information (bad actor) and someone who breaks into computers or systems in order to test them.
      Here we take a look at some of the different categories of both good and bad actors. 
   -   
-    title: Watch 
+    title: Good and bad actors 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       ### Title
-      Please see the following video for 
+      Lets take a look at good and bad actors in more detail. 
     video: placeholder_pc.mp4
   -       
     title: Quick quiz
@@ -102,7 +102,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: lorum ipsum
+      copy: In the box to the right can you explain the differences between good actors and bad actors?
     theme: t-bg-primary3 i-think
   -
     

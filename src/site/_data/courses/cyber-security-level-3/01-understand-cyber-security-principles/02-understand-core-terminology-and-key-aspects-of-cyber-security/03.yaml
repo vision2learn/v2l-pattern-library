@@ -2,7 +2,7 @@ title: Key Sector Vulnerabilities
 intro: |
   On this page you will learn about;
   * Sector vulnerabilities
-  * Motivations for cyber attacks
+  * Motivations for cyber attacks in key sectors
   * How attacks are carried out 
  
 
@@ -12,12 +12,12 @@ sections:
     title: Key point
     theme: t-bg-supporting3
     copy: 
-       
+       Make sure that you understand the key sectors that are vulnerable to cyber attacks as you will be asked about this in your assessment. 
   - 
     title: Reveal
     theme: t-bg-supporting2
     copy: |
-      text
+      Anyone and any sector is vulnerable to a cyber attack. However, some sectors are more vulnerable than others. This may be because they hold a great deal of personal data or valuable information, or because they tend to have less secure systems. Here are some of the key sectors that are most vulnerable to a cyber attack.
 
       Select the images below to read 
 
@@ -54,8 +54,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Key sector vulnerabilities
+      Lets take a look at the key sector vulnerabilities in nmore detail.  
     video: placeholder_pc.mp4
   - 
     title: Time to think
