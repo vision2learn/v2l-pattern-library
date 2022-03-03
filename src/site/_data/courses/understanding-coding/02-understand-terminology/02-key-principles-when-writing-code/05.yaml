@@ -60,7 +60,7 @@ sections:
             else:
               print('Reached threshold at list length', len(input_list))
               print('List: ', input_list)
-              print('List sum: ', input_sum)
+              print('List sum: ', list_sum)
         
         # Define a list of numbers
         list_1 = [1, 5, 6, 5, 7, 3, 7, 3, 2]
