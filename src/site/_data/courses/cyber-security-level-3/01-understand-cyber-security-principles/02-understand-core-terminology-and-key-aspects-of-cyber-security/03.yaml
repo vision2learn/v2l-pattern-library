@@ -2,7 +2,7 @@ title: Key Sector Vulnerabilities
 intro: |
   On this page you will learn about;
   * Sector vulnerabilities
-  * Motivations for cyber attacks
+  * Motivations for cyber attacks in key sectors
   * How attacks are carried out 
  
 
@@ -10,14 +10,14 @@ banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
-       
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+       Make sure that you understand the key sectors that are vulnerable to cyber attacks as you will be asked about this in your assessment. 
   - 
     title: Reveal
     theme: t-bg-supporting2
     copy: |
-      text
+      Anyone and any sector is vulnerable to a cyber attack. However, some sectors are more vulnerable than others. This may be because they hold a great deal of personal data or valuable information, or because they tend to have less secure systems. Here are some of the key sectors that are most vulnerable to a cyber attack.
 
       Select the images below to read 
 
@@ -54,8 +54,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
+      ### Key sector vulnerabilities
+      Lets take a look at the key sector vulnerabilities in more detail.  
     video: placeholder_pc.mp4
   - 
     title: Time to think
@@ -65,11 +65,24 @@ sections:
     theme: t-bg-primary3 i-think
 
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+    title: Did you Know?
+    theme: t-bg-primary
+    copy:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: The WannaCry virus
+          copy: |
+             The WannaCry virus was a ransomware attack that affected thousands of computers, including many belonging to Britain’s NHS. Like other types of crypto-ransomware, WannaCry works by encrypting data and holding it hostage, promising to return it only if a ransom is paid.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+             WannaCry was launched in 2017 and targeted computers using Microsoft Windows as an operating system. The cyber criminals took advantage of a backdoor in the Windows operating system to gain access.
+
+             Microsoft had released a security patch which protected users’ systems against this exploit almost two months before the WannaCry attack began, but many of the organisations affected had not updated their operating systems and were left vulnerable.
+
+             Around a third of NHS hospital trusts were affected by the attack, which caused a disruption in NHS services. It was estimated to cost the NHS a whopping £92 million after 19,000 appointments were canceled as a result of the attack.
+             
+             As the ransomware spread beyond Europe, computer systems in 150 countries were affected. It is estimated this cyber crime caused $4 billion in losses across the globe. It also appears that the criminals had no way to track ransom payments to specific computers, so even those who paid did not get their files back.
+
+          img: /images/svg/cs3/cs3_did_you_know.svg     
   - 

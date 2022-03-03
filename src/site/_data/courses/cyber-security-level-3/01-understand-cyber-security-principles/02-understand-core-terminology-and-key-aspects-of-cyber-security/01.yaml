@@ -21,8 +21,8 @@ sections:
 
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the core terminology used in cyber security as you will be asked about this in your assessment. 
   - 
     title: Core terminology
@@ -47,62 +47,12 @@ sections:
       As well as the terminology mentioned in the video there are an number of other terms used in cyber security. Click on the link to learn more about these terms.
 
     img: /images/svg/stretch_button.svg
-    link: https://comtact.co.uk/cyber-security-glossary-of-terms-the-ultimate-list/ 
+    link: https://www.ukcybersecuritycouncil.org.uk/glossary/ 
   -
     title: Time to think
     include: 
       type: time-to-think
       copy: Using your learning from the video and the stretch task, identify a range of common terms used in cyber security and write a short definition for each one.
-    theme: t-bg-primary3 i-think
-  -
-    title: Key point
-    theme: t-bg-supporting3
-    copy: 
-      Make sure that you understand the terms good and bad actors, the typical behaviours they display, and their motivation as you will be asked about these in your assessment. 
-  - 
-    title: Actors
-    theme: t-bg-primary
-    copy: |
-     While most people are familiar with the idea of a hacker as the ‘bad guy’, there are actually a number of different types of hacker, including many that are involved in the security industry. The terms ‘good actor’ and ‘bad actor’ are often used to distinguish between someone who breaks into computers or systems in order to cause damage or steal information (bad actor) and someone who breaks into computers or systems in order to test them.
-     Here we take a look at some of the different categories of both good and bad actors. 
-  -   
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Title
-      Please see the following video for 
-    video: placeholder_pc.mp4
-  -       
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-    theme: i-quiz
-    
-  -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: lorum ipsum
     theme: t-bg-primary3 i-think
   -
     

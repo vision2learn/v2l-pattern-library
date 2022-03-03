@@ -7,21 +7,18 @@ banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
-      Make sure that you understand the concepts of cyber security as you will be asked about these in your assessment.
-  - 
-    title: The Concepts of Cyber Security
-    theme: t-bg-primary
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-     Cyber Security is the application of technologies, processes and controls that are used to protect systems, networks, programs, devices and data. In short, the aim of security is to assure that all information is safe, protected from the threat of cyber attack. It is a wide term, but the fundamental principles or concepts are Confidentiality, Integrity, Availability and Authentication. 
+      Make sure that you understand the concepts of cyber security as you will be asked about these in your assessment.
   -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Cyber security concepts
-      Lets have a look at these concepts in more detail.
+      ### The Concepts of Cyber Security
+       Cyber Security is the application of technologies, processes and controls that are used to protect systems, networks, programs, devices and data. In short, the aim of security is to assure that all information is safe, protected from the threat of cyber attack. It is a wide term, but the fundamental principles or concepts are Confidentiality, Integrity, Availability and Authentication. 
+       
+       Lets have a look at these concepts in more detail.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -31,9 +28,9 @@ sections:
     theme: t-bg-primary3 i-think
   -  
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
-      make sure that you understand the importance of cyber security as you will be asked about this in your assessment. 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the importance of cyber security as you will be asked about this in your assessment. 
   -   
     title: Watch 
     theme: t-bg-grey i-watch
@@ -48,14 +45,14 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Protecting confidentiality means controlling access levels of information and if someone doesn’t need to know, then they shouldn’t have access to the information
+          answer: confidentiality
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: In terms of cyber security, risk is the potential for loss, damage or destruction of assets or data
+          answer: risk
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Risk can be affected by a vulnerability, which is a weakness that can create exposure to a threat or a hazard.
+          answer: vulnerability
         -
           sentence: its a wonderful life
           answer: wonderful
@@ -76,27 +73,21 @@ sections:
       type: accordion
       content:
         - 
-          title: According to a study ...
+          title: According to a study by the UK government
           copy: |
-            ... by the UK government, in March 2021, four out of every ten UK businesses
+             In March 2021, four out of every ten UK businesses
 
-            (39%) and a quarter of charities (26%) reported either a cyber security breach or an attack in the
-            previous 12 months.
+              (39%) and a quarter of charities (26%) reported either a cyber security breach or an attack in the
+              previous 12 months.
 
-            Among organisations that suffered from breaches or attacks, around a quarter experienced them
-            at least once a week. The most common types were phishing attacks (around 81% of organisations
-            reported these), followed by impersonation (around 25%).
+              Among organisations that suffered from breaches or attacks, around a quarter experienced them
+              at least once a week. The most common types were phishing attacks, followed by impersonation.
 
-            The study also found that one in five of the organisations that suffered from a cyber attack ended
-            up losing money, data or other assets, while one-third reported having to spend time and money
-            responding to the breach, or lost business because of it. The mean cost of a cyber security breach
-            to organisations was estimated at £8,460.
+              The study also found that one in five of the organisations that suffered from a cyber attack ended
+              up losing money, data or other assets, while one-third reported having to spend time and money
+              responding to the breach, or lost business because of it. The mean cost of a cyber security breach
+              to organisations was estimated at £8,460.
 
-            The survey also found the following actions had been taken by organisations:
-            * 43% of businesses and 29% of charities had taken out some form of cyber insurance.
-            * 34% of businesses and 32% of charities had conducted a cyber security risk assessment.
-            * 20% of businesses and 14% of charities had conducted staff testing, such as mock phishing exercises.
-            * 15% of businesses and 12% of charities had carried out cyber security vulnerability audits.
           img: /images/svg/cs3/cs3_did_you_know.svg     
   -
     title: Time to think
