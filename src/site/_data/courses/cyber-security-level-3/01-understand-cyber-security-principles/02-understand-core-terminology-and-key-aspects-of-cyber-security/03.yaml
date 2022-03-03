@@ -55,7 +55,7 @@ sections:
     layout: media
     copy: |
       ### Key sector vulnerabilities
-      Lets take a look at the key sector vulnerabilities in nmore detail.  
+      Lets take a look at the key sector vulnerabilities in more detail.  
     video: placeholder_pc.mp4
   - 
     title: Time to think
@@ -65,11 +65,24 @@ sections:
     theme: t-bg-primary3 i-think
 
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+    title: Did you Know?
+    theme: t-bg-primary
+    copy:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: The WannaCry virus
+          copy: |
+             The WannaCry virus was a ransomware attack that affected thousands of computers, including many belonging to Britain’s NHS. Like other types of crypto-ransomware, WannaCry works by encrypting data and holding it hostage, promising to return it only if a ransom is paid.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+             WannaCry was launched in 2017 and targeted computers using Microsoft Windows as an operating system. The cyber criminals took advantage of a backdoor in the Windows operating system to gain access.
+
+             Microsoft had released a security patch which protected users’ systems against this exploit almost two months before the WannaCry attack began, but many of the organisations affected had not updated their operating systems and were left vulnerable.
+
+             Around a third of NHS hospital trusts were affected by the attack, which caused a disruption in NHS services. It was estimated to cost the NHS a whopping £92 million after 19,000 appointments were canceled as a result of the attack.
+             
+             As the ransomware spread beyond Europe, computer systems in 150 countries were affected. It is estimated this cyber crime caused $4 billion in losses across the globe. It also appears that the criminals had no way to track ransom payments to specific computers, so even those who paid did not get their files back.
+
+          img: /images/svg/cs3/cs3_did_you_know.svg     
   - 

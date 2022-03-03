@@ -10,18 +10,15 @@ sections:
     theme: t-bg-supporting3 i-keypoint
     copy: |
       Make sure that you understand the concepts of cyber security as you will be asked about these in your assessment.
-  - 
-    title: The Concepts of Cyber Security
-    theme: t-bg-primary
-    copy: |
-     Cyber Security is the application of technologies, processes and controls that are used to protect systems, networks, programs, devices and data. In short, the aim of security is to assure that all information is safe, protected from the threat of cyber attack. It is a wide term, but the fundamental principles or concepts are Confidentiality, Integrity, Availability and Authentication. 
   -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Cyber security concepts
-      Lets have a look at these concepts in more detail.
+      ### The Concepts of Cyber Security
+       Cyber Security is the application of technologies, processes and controls that are used to protect systems, networks, programs, devices and data. In short, the aim of security is to assure that all information is safe, protected from the threat of cyber attack. It is a wide term, but the fundamental principles or concepts are Confidentiality, Integrity, Availability and Authentication. 
+       
+       Lets have a look at these concepts in more detail.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -48,14 +45,14 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: its not a wonderful life
-          answer: wonderful
+          sentence: Protecting confidentiality means controlling access levels of information and if someone doesn’t need to know, then they shouldn’t have access to the information
+          answer: confidentiality
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: In terms of cyber security, risk is the potential for loss, damage or destruction of assets or data
+          answer: risk
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Risk can be affected by a vulnerability, which is a weakness that can create exposure to a threat or a hazard.
+          answer: vulnerability
         -
           sentence: its a wonderful life
           answer: wonderful
