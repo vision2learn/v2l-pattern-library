@@ -7,8 +7,8 @@ banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the concepts of cyber security as you will be asked about these in your assessment.
   - 
     title: The Concepts of Cyber Security
@@ -31,8 +31,8 @@ sections:
     theme: t-bg-primary3 i-think
   -  
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the importance of cyber security as you will be asked about this in your assessment. 
   -   
     title: Watch 
@@ -48,7 +48,7 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: its a wonderful life
+          sentence: its not a wonderful life
           answer: wonderful
         -
           sentence: its a wonderful life

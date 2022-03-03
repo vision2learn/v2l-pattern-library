@@ -17,8 +17,8 @@ sections:
 
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
       Make sure that you understand what security by design is and how the principles behind it can be applied as you will be asked about this in your assessment.  
   -
     title: What is security by design?
@@ -84,8 +84,8 @@ sections:
 
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
       Make sure that you understand consequences of not considering cyber security during the design phase as well as the advantages and disadvantages of security by design as you will be asked about this in your assessmennt.   
   -   
     title: Watch 

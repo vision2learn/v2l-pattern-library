@@ -10,8 +10,8 @@ banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
        Make sure that you understand the key sectors that are vulnerable to cyber attacks as you will be asked about this in your assessment. 
   - 
     title: Reveal

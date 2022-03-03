@@ -21,8 +21,8 @@ sections:
 
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the core terminology used in cyber security as you will be asked about this in your assessment. 
   - 
     title: Core terminology
@@ -56,8 +56,8 @@ sections:
     theme: t-bg-primary3 i-think
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the terms good and bad actors, the typical behaviours they display, and their motivation as you will be asked about these in your assessment. 
   - 
     title: Actors
