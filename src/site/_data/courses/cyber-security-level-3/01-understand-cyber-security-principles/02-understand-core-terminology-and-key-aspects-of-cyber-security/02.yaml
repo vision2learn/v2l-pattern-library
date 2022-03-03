@@ -100,19 +100,15 @@ sections:
       type: time-to-think
       copy: now have a think and answer the question
     theme: t-bg-primary3 i-think
-
   -
-  
-    title: Stretch - activity
+    title: Activity
     layout: media
-    theme: t-bg-primary2 i-stretch
+    theme: t-bg-primary2
     copy: |
-      ###  title
+      ### The advantages of compiled and interpreted code
 
-      text
-
-      
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
 
     img: /images/svg/Activity_button.svg
-    activity: U1-S7-P2_GetCreative
-  -  
+    activity: 
+      ref: cs3_u1_s2_p2_activity  
