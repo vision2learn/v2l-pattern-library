@@ -61,7 +61,10 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: now have a think and answer the question
+      copy: |
+        Download the following document . . . . . . .
+
+        [Read](/pdfs/cs3_u1_s2_p3_t2t_read.pdf).
     theme: t-bg-primary3 i-think
 
   -
