@@ -6,7 +6,7 @@ intro: |
   * How attacks are carried out 
  
 
-banner: placeholder.jpg
+banner: cs3_u1_s2_p3_vulnerabilities.jpg
 sections:
   -
     title: Key point
@@ -15,7 +15,7 @@ sections:
        Make sure that you understand the key sectors that are vulnerable to cyber attacks as you will be asked about this in your assessment. 
   - 
     title: Reveal
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       Anyone and any sector is vulnerable to a cyber attack. However, some sectors are more vulnerable than others. This may be because they hold a great deal of personal data or valuable information, or because they tend to have less secure systems. Here are some of the key sectors that are most vulnerable to a cyber attack.
 
@@ -28,27 +28,27 @@ sections:
           title: Health
           copy: |
             Cyber criminals can access personal data from medical records that can be sold on.
-          img: placeholder_icon.svg
+          img: cs3_u1_s2_p3_reveal1.svg
         -
           title: Manufacturing
           copy: |
             Can be held to ransom after having their data breached bringing companies to a standstill. 
-          img: placeholder_icon.svg
+          img: cs3_u1_s2_p3_reveal2.svg
         -
           title: Finance
           copy: |
             Financially motivated data breaches and server attacks are top concerns.
-          img: placeholder_icon.svg
+          img: cs3_u1_s2_p3_reveal3.svg
         -
           title: Government agencies and departments
           copy: |
             Cyber attacks can often be foreign state sponsored aiming to destabilise.
-          img: placeholder_icon.svg
+          img: cs3_u1_s2_p3_reveal4.svg
         -
           title: Educational institutions
           copy: |
             Online learning due to the pandemic created greater threats from ransomware attacks.
-          img: placeholder_icon.svg
+          img: cs3_u1_s2_p3_reveal5.svg
   -   
     title: Watch 
     theme: t-bg-grey i-watch
