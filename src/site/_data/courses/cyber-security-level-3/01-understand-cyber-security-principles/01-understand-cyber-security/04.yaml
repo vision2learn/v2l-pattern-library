@@ -1,7 +1,7 @@
 title: Inadequate cyber security
 intro: |
   On this page you will learn about the consequences and implications of inadequate cyber security.
-banner: placeholder.jpg
+banner: cs3_u1_s1_p4_inadequate.jpg
 sections:
 
   -
@@ -24,32 +24,32 @@ sections:
           title: Sensitive data
           copy: |
             This can be sold on for money or used by competitors.
-          img: placeholder_icon.svg
+          img: cs3_u1_s1_p4_reveal1.svg
         -
           title: Personally identifiable information (PII)
           copy: |
             This includes information that can be used to identify specific individuals for attacks such as spear phishing.
-          img: placeholder_icon.svg
+          img: cs3_u1_s1_p4_reveal2.svg
         -
           title: Protected health information (PHI)
           copy: |
             This is often the target of cyber blackmailers.
-          img: placeholder_icon.svg
+          img: cs3_u1_s1_p4_reveal3.svg
         -
           title: Personal information
           copy: | 
             This includes information such as birthdates and addresses that can be used in phishing attacks.
-          img: placeholder_icon.svg
+          img: cs3_u1_s1_p4_reveal4.svg
         -
           title: Intellectual property
           copy: |
             This can be sold on for money or used by competitors.
-          img: placeholder_icon.svg
+          img: cs3_u1_s1_p4_reveal5.svg
         -
           title: Industry information systems.
           copy: |
             Detailed information on this can be used to launch more sophisticated and damaging attacks.
-          img: placeholder_icon.svg    
+          img: cs3_u1_s1_p4_reveal6.svg    
   -   
     title: Watch 
     theme: t-bg-grey i-watch
