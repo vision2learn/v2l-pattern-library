@@ -1,7 +1,7 @@
 title: Recommendations
 intro: |
   On this page you will learn about recommendations you can make to combate threat models and the effects of malicious software. 
-banner: placeholder.jpg
+banner: cs3_u2_s1_p4_recommendations.jpg
 sections:
   -
     title: Key point
@@ -32,7 +32,7 @@ sections:
        The Suez canal, enables approximately 12% of global shipping to bypass the long trip around the continent of Africa which saves around 2 weeks shipping time. If there is a blockage of this canal, it can have a serious impact in disrupting global commerce.
        
        Take a look at the website below to see what was gathered from open source intelligence sources.
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u2_s1_p4_casestudy.svg
   -
   -
     title: On the web
@@ -78,7 +78,7 @@ sections:
           title: Dos and DDos
           text: |
             A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource.  This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow. 
-          img: placeholder_icon.svg
+          img: cs3_u2_s1_p4_slide3.svg
         -
           title: Viruses
           text: |
