@@ -3,7 +3,7 @@ intro: |
   On this page you will learn about;
   * Good actors and bad actors
   * Typical behaviour of good actors and bad actors
-  * the motivations of good and bad actors
+  * The motivations of good and bad actors
 banner: cs3_u1_s2_p2_actors.jpg
 sections:
   -
@@ -16,11 +16,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Good and bad actors
-       While most people are familiar with the idea of a hacker as the ‘bad guy’, there are actually a number of different types of hacker, including many that are involved in the security industry. The terms ‘good actor’ and ‘bad actor’ are often used to distinguish between someone who breaks into computers or systems in order to cause damage or steal information (bad actor) and someone who breaks into computers or systems in order to test them.
-       Here we take a look at some of the different categories of both good and bad actors.
-       
-       Lets take a look at good and bad actors in more detail. 
+      ### Good and bad actors and motivations
+      
+      While most people are familiar with the idea of a hacker as the ‘bad guy’, there are actually a number of different types of hacker, including many that are involved in the security industry. The terms ‘good actor’ and ‘bad actor’ are often used to distinguish between someone who breaks into computers or systems in order to cause damage or steal information (bad actor) and someone who breaks into computers or systems in order to test them. 
+      
+      There are a wide variety of motivations for both good actors and bad actors. Lets take a look at these in more detail. 
     video: placeholder_pc.mp4
   -       
     title: Quick quiz
@@ -57,55 +57,24 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: | 
-      Make sure that you understand the the motivations of good and bad actors as you will be asked about this in your assessment.  
-  -   
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### What motivates good and bad actors?
-      
-      There are a wide variety of motivations for both good actors and bad actors. Lets take a look at these in more detail. 
-    video: placeholder_pc.mp4
-  -       
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-    theme: i-quiz 
-  -
-    title: Time to think
-    include: 
-      type: time-to-think
-      copy: now have a think and answer the question
-    theme: t-bg-primary3 i-think
+      Make sure that you understand the the motivations of good and bad actors as you will be asked about this in your assessment.
   -
     title: Activity
     layout: media
     theme: t-bg-primary2
     copy: |
-      ### The advantages of compiled and interpreted code
+      ### Motivations of Good or Bad Actors
 
-      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
+      Select the following icon to have a go at an activity to learn more about the motivations of good and bad actors.
 
     img: /images/svg/Activity_button.svg
     activity: 
-      ref: cs3_u1_s2_p2_activity  
+      ref: cs3_u1_s2_p2_activity
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have tried the activity, pick one positive and one negative motive and do some research, record your findings here.
+
+    theme: t-bg-primary3 i-think
