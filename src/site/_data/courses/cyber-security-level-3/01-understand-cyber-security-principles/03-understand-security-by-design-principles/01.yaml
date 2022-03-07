@@ -93,7 +93,7 @@ sections:
     layout: media
     copy: |
       ### Design Phase
-      Lets take a look at security by design im nore detail. 
+      Lets take a look at security by design in nore detail and the potential consequences of not considering cyber security during the design phase. 
     video: placeholder_pc.mp4
   -       
     title: Quick quiz
@@ -125,9 +125,9 @@ sections:
     layout: media
     theme: t-bg-primary2
     copy: |
-      ### The advantages of compiled and interpreted code
+      ### Advantages and disadvantages of Security by Design
 
-      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of security by design.
 
     img: /images/svg/Activity_button.svg
     activity: 

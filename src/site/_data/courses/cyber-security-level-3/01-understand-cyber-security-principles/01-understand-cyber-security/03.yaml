@@ -54,14 +54,14 @@ sections:
           sentence: Risk can be affected by a vulnerability, which is a weakness that can create exposure to a threat or a hazard.
           answer: vulnerability
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Organisations of all sizes also need to be informed about their duties under regulations such as the GDPR, and how to meet these.
+          answer: GDPR
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Cyber crime is constantly evolving to adapt to security measures. So, cyber security must also constantly change and evolve in order to stay one step ahead of the criminals.
+          answer: evolving
         -
-          sentence: its a wonderful life
-          answer: wonderful
+          sentence: Cyber security breaches can now cause irreversible reputational damage to the organisations involved
+          answer: reputational
           
     theme: i-quiz
     
@@ -88,12 +88,15 @@ sections:
               responding to the breach, or lost business because of it. The mean cost of a cyber security breach
               to organisations was estimated at £8,460.
 
+              Please click on the link below to read about this study in more detail. 
+              https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2021/cyber-security-breaches-survey-2021
+
           img: /images/svg/cs3/cs3_did_you_know.svg     
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: now have a think and answer the question
+      copy: Using your learning from this page, can you explain why cyber security security is so important?
     theme: t-bg-primary3 i-think
   -
       
