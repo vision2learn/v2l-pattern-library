@@ -1,7 +1,7 @@
 title: Understand cyber threat intelligence
 intro: |
   In this session you will learn to identify the key concepts of cyber threat intelligence, how to identify immerging attack techniques and consider the current threat status for organisations and how they can be prepared.
-banner: placeholder.jpg
+banner: cs3_u2_s1_p2_threat.jpg
 sections:
   -
     title: Key point
@@ -13,7 +13,7 @@ sections:
     title: Key concepts of cyber threat intelligence
     theme: t-bg-primary
     copy: |
-      Threat intelligence is the activity of gathering, processing analysing and distributing information related to threats that may target applications and systems. Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
+      Threat intelligence is the activity of gathering, processing, analysing and distributing information related to threats that may target applications and systems. Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
       
       Let’s look at this in more detail in the following slides.
 
@@ -30,7 +30,7 @@ sections:
         -
           title: Cyber threat intelligence
           text: |
-            Cyber threat intelligence is the process of collecting and analysing information on potential cyber threats, including the motivation behind them the methods being s and the capability of the threat actors in making their attack. There are different types of threat intelligence which use different methods for different purposes.
+            Cyber threat intelligence is the process of collecting and analysing information on potential cyber threats, including the motivation behind them, the methods being used, and the capability of the threat actors in making their attack. There are different types of threat intelligence which use different methods for different purposes.
           img: cs3_u2_s1_p2_slide2.svg
         -
           title: Operational threat intelligence
@@ -45,7 +45,7 @@ sections:
         -
           title: Strategic threat intelligence
           text: |
-            Strategic threat intelligence informs about changes in the threat landscape seeing if a new threat has emerged. This is usually done by strategic threat experts who publish their reports allowing senior management to make decision on organisation security and protection going forward.
+            Strategic threat intelligence informs about changes in the threat landscape seeing if a new threat has emerged. This is usually done by strategic threat experts who publish their reports, allowing senior management to make decision on organisation security and protection going forward.
           img: cs3_u2_s1_p2_slide5.svg
   -
   -
@@ -75,7 +75,7 @@ sections:
           sentence: Threats take many different forms such as malware, data breaches and DoS attacks. 
           answer: Threats
         -
-          sentence: Vulnerabilities refers to any week spot within the cyber security of an organisation that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation. 
+          sentence: Vulnerabilities refers to any weak spots within the cyber security of an organisation, that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation. 
           answer: Vulnerabilities
         -
           sentence: Risk refers to the level of impact a cyber attack may have on an organisation and its operations for example financial loss, disruption, and damage to reputation.  
