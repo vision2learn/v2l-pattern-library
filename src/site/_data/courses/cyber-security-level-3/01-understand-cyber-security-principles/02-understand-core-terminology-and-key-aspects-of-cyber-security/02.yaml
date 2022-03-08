@@ -28,23 +28,21 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: 
-          answer: 
+          sentence: Cyber criminals or black hat hackers are the most common threat actors.
+          answer: black hat
         -
-          sentence: 
-          answer: 
+          sentence: Hacktivists are groups or collectives who instead of being motivated by purely financial or personal gain, carry out 'attacks' in support of ideological or political causes.
+          answer: Hacktivists
         -
-          sentence: 
-          answer: 
+          sentence: There are those who are motivated by personal reasons, just to have fun, create chaos or seek attention. These are threat actors known as script kiddies.
+          answer: script kiddies
         -
-          sentence: 
-          answer: 
+          sentence: Some hackers are engaged in terrorism and hope to cause damage and disruption to government or civil organisations and institutions, in order to sow confusion and fear.
+          answer: terrorism 
         -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
+          sentence: Highly skilled ethical hackers may find themselves in great demand.
+          answer: ethical hackers
+          
     theme: i-quiz
     
   -

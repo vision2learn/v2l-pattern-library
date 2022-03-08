@@ -53,10 +53,10 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Protecting confidentiality means controlling access levels of information and if someone doesn’t need to know, then they shouldn’t have access to the information
+          sentence: Protecting confidentiality means controlling access levels of information and if someone doesn’t need to know, then they shouldn’t have access to the information.
           answer: confidentiality
         -
-          sentence: In terms of cyber security, risk is the potential for loss, damage or destruction of assets or data
+          sentence: In terms of cyber security, risk is the potential for loss, damage or destruction of assets or data.
           answer: risk
         -
           sentence: Risk can be affected by a vulnerability, which is a weakness that can create exposure to a threat or a hazard.
@@ -68,7 +68,7 @@ sections:
           sentence: Cyber crime is constantly evolving to adapt to security measures. So, cyber security must also constantly change and evolve in order to stay one step ahead of the criminals.
           answer: evolving
         -
-          sentence: Cyber security breaches can now cause irreversible reputational damage to the organisations involved
+          sentence: Cyber security breaches can now cause irreversible reputational damage to the organisations involved.
           answer: reputational
           
     theme: i-quiz
@@ -96,8 +96,8 @@ sections:
               responding to the breach, or lost business because of it. The mean cost of a cyber security breach
               to organisations was estimated at £8,460.
 
-              Please click on the link below to read about this study in more detail. 
-              https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2021/cyber-security-breaches-survey-2021
+              click [here](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2021/cyber-security-breaches-survey-2021) to read about this study in more detail. 
+              
 
           img: /images/svg/cs3/cs3_did_you_know.svg     
   -

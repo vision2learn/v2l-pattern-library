@@ -36,13 +36,13 @@ sections:
       Lets take a look at some of this terminology in more detail in the following video.
     video: placeholder_pc.mp4
   -
-    title: Stretch - weblink
+    title: Stretch
     layout: media
     theme: t-bg-primary2 i-stretch
     copy: |
       ###  Terminology
 
-      As well as the terminology mentioned in the video there are an number of other terms used in cyber security. Click on the link to learn more about these terms.
+      As well as the terminology mentioned in the video there are an number of other terms used in cyber security. Click on the owl to learn more about these terms.
 
     img: /images/svg/stretch_button.svg
     link: https://www.ukcybersecuritycouncil.org.uk/glossary/ 
