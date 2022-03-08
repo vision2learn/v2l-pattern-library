@@ -46,7 +46,7 @@ sections:
             This can be sold on for money or used by competitors.
           img: cs3_u1_s1_p4_reveal5.svg
         -
-          title: Industry information systems.
+          title: Industry information systems
           copy: |
             Detailed information on this can be used to launch more sophisticated and damaging attacks.
           img: cs3_u1_s1_p4_reveal6.svg    
@@ -57,7 +57,7 @@ sections:
     copy: |
       ### Consequences of inadequate cyber security
       Please see the following video for a more in depth look at these consequences.
-    video: placeholder_pc.mp4
+    video: u1_s1_p4_consequences.mp4
   -       
     title: Quick quiz
     subInc: 
@@ -67,7 +67,7 @@ sections:
           sentence: For companies that do not have a recovery plan or back-ups in place, it may take weeks or months to get back to where they were before the attack.
           answer: recovery plan
         -
-          sentence: Not taking cyber security seriously can lead to irreparable reputational damage
+          sentence: Not taking cyber security seriously can lead to irreparable reputational damage.
           answer: reputational
         -
           sentence: Data breaches involving customer’s and commercial partner’s personal information, can lead to lawsuits against the company.
@@ -76,7 +76,7 @@ sections:
           sentence: Ransomware can lead to the shutting down of the company’s entire IT infrastructure and business critical systems, to isolate the damage, investigate and recover.
           answer: Ransomware
         -
-          sentence: Stolen data can be sold on to other thieves, used in phishing attacks or used to steal money directly from individuals and organisations 
+          sentence: Stolen data can be sold on to other thieves, used in phishing attacks or used to steal money directly from individuals and organisations. 
           answer: phishing
 
     theme: i-quiz 
@@ -84,7 +84,7 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: Carry out some further research and, along with your learning from this page, what do you think the consequences and implications of Inadequate Cyber security are? You should consider all of the following in your response. 
+      copy: Carry out some further research and, along with your learning from this page, what do you think the consequences and implications of inadequate cyber security are? You should consider all of the following in your response; 
 
         -  Legal consequences
 

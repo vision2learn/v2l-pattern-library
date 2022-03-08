@@ -21,30 +21,28 @@ sections:
       While most people are familiar with the idea of a hacker as the ‘bad guy’, there are actually a number of different types of hacker, including many that are involved in the security industry. The terms ‘good actor’ and ‘bad actor’ are often used to distinguish between someone who breaks into computers or systems in order to cause damage or steal information (bad actor) and someone who breaks into computers or systems in order to test them. 
       
       There are a wide variety of motivations for both good actors and bad actors. Lets take a look at these in more detail. 
-    video: placeholder_pc.mp4
+    video: u1_s2_p2_actors.mp4
   -       
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: 
-          answer: 
+          sentence: Cyber criminals or black hat hackers are the most common threat actors.
+          answer: black hat
         -
-          sentence: 
-          answer: 
+          sentence: Hacktivists are groups or collectives who instead of being motivated by purely financial or personal gain, carry out 'attacks' in support of ideological or political causes.
+          answer: Hacktivists
         -
-          sentence: 
-          answer: 
+          sentence: There are those who are motivated by personal reasons, just to have fun, create chaos or seek attention. These are threat actors known as script kiddies.
+          answer: script kiddies
         -
-          sentence: 
-          answer: 
+          sentence: Some hackers are engaged in terrorism and hope to cause damage and disruption to government or civil organisations and institutions, in order to sow confusion and fear.
+          answer: terrorism 
         -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
+          sentence: Highly skilled ethical hackers may find themselves in great demand.
+          answer: ethical hackers
+          
     theme: i-quiz
     
   -

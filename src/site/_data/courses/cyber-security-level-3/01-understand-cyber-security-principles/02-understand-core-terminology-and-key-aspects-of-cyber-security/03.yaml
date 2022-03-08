@@ -12,9 +12,9 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: | 
-       Make sure that you understand the key sectors that are vulnerable to cyber attacks as you will be asked about this in your assessment. 
+       Make sure that you understand the key sectors that are vulnerable to cyber attacks and the motivations for attacks in these areas as you will be asked about this in your assessment. 
   - 
-    title: Reveal
+    title: Key sectors
     theme: t-bg-primary
     copy: |
       Anyone and any sector is vulnerable to a cyber attack. However, some sectors are more vulnerable than others. This may be because they hold a great deal of personal data or valuable information, or because they tend to have less secure systems. Here are some of the key sectors that are most vulnerable to a cyber attack.
@@ -55,37 +55,61 @@ sections:
     layout: media
     copy: |
       ### Motivations for attacks in key areas
+
       Lets take a look at the key sectors and what motivates attackers in these areas.  
-    video: placeholder_pc.mp4
+    video: u1_s2_p3_key_sectors.mp4
   - 
     title: Time to think
     include: 
       type: time-to-think
       copy: |
-        Download the following document . . . . . . .
+        Download and complete the following document by considering the motivations that are important for the different areas. 
 
-        [Read](/pdfs/cs3_u1_s2_p3_t2t_read.pdf).
+        [Motivations document](/pdfs/cs3_u1_s2_p3_t2t_read.pdf).
     theme: t-bg-primary3 i-think
-
   -
-    title: Did you Know?
-    theme: t-bg-primary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+       Make sure that you understand how an actor may carry out a cyber attack as you will be asked about this in your assessment. 
+  -
+    title: Did you know?
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      A large UK company’s internal network was attacked through their externally managed corporate website. The attackers gained access through the company’s network service provider, which contained a known vulnerability. 
+      
+      They used software designed to exploit that vulnerability, which was purchased on the Dark Web. 
+      
+      See below for the following steps that were taken to facilitate the attack.
+    img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+    title: Plan of attack
+    theme: t-bg-primary1a
     copy:
     subInc: 
       type: accordion
       content:
         - 
-          title: The WannaCry virus
+          title: Steps
           copy: |
-             The WannaCry virus was a ransomware attack that affected thousands of computers, including many belonging to Britain’s NHS. Like other types of crypto-ransomware, WannaCry works by encrypting data and holding it hostage, promising to return it only if a ransom is paid.
+              __Survey stage:__ As part of their survey of the victim’s network and services, the attackers discovered that the corporate website was hosted by a service provider whose    systems contained a known vulnerability. 
 
-             WannaCry was launched in 2017 and targeted computers using Microsoft Windows as an operating system. The cyber criminals took advantage of a backdoor in the Windows operating system to gain access.
+              __Weaponisation:__ The attackers exploited the vulnerability they found to add a specialised exploit delivery script to the corporate website. The script compared the IP addresses of the website’s visitors against the IP range used by the company. 
 
-             Microsoft had released a security patch which protected users’ systems against this exploit almost two months before the WannaCry attack began, but many of the organisations affected had not updated their operating systems and were left vulnerable.
+              __Delivery stage:__ The attackers then infected a number of computers within the company by downloading malware to visitors’ computers within a directory that allowed file execution. More than 300 computers were infected during the delivery stage with remote access malware. 
 
-             Around a third of NHS hospital trusts were affected by the attack, which caused a disruption in NHS services. It was estimated to cost the NHS a whopping £92 million after 19,000 appointments were canceled as a result of the attack.
+              __Exploitation:__ The malware then delivered network information to domains owned by the attackers. 
 
-             As the ransomware spread beyond Europe, computer systems in 150 countries were affected. It is estimated this cyber crime caused $4 billion in losses across the globe. It also appears that the criminals had no way to track ransom payments to specific computers, so even those who paid did not get their files back.
+              __Anti-forensics/command and control:__ Once in the system, the attackers installed further tools and were consolidating their position and identified high value users.
 
-          img: /images/svg/cs3/cs3_did_you_know.svg     
+              __Detection and repair:__ While the breach was successful, it was detected using network security monitoring. The organisation had an incident response plan in place, which made it possible to investigate the incident using system and network logs, plus forensic examinations of many computers.
+    copy2: Click [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) to learn more about how attacks are planned and carried out.
   - 
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: |
+        Use the information above as well as your own research and think about a specific type of attack and how it could be carried out. 
+
+    theme: t-bg-primary3 i-think

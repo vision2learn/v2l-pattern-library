@@ -1,4 +1,4 @@
-title: "Understand security by design principles"
+title: Understand 'security by design' principles
 intro: |
   In this session you will learn about:
   What security by design means, the principles behind it and its advantages and disadvantages
@@ -64,13 +64,13 @@ sections:
             By designing a system which is more segmented or zoned this can help minimise the severity of a compromise.
           img: cs3_u1_s3_p1_reveal6.svg  
   -
-    title: Stretch - weblink
+    title: Stretch
     layout: media
     theme: t-bg-primary2 i-stretch
     copy: |
       ###  Case study
 
-      To learn more about each of these principles and how they can be applied click on the link to the right.
+      To learn more about each of these principles and how they can be applied click on the owl to see a case study on the National Cyber Security Centre government website.
 
     img: /images/svg/stretch_button.svg
     link: https://www.ncsc.gov.uk/collection/cyber-security-design-principles/examples/study-operational-tech
@@ -93,8 +93,9 @@ sections:
     layout: media
     copy: |
       ### Design Phase
+
       Lets take a look at security by design in nore detail and the potential consequences of not considering cyber security during the design phase. 
-    video: placeholder_pc.mp4
+    video: u1_s3_p1_design_phase.mp4
   -       
     title: Quick quiz
     subInc: 
