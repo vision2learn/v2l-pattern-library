@@ -55,8 +55,9 @@ sections:
     layout: media
     copy: |
       ### Motivations for attacks in key areas
+
       Lets take a look at the key sectors and what motivates attackers in these areas.  
-    video: placeholder_pc.mp4
+    video: u1_s2_p3_key_sectors.mp4
   - 
     title: Time to think
     include: 
@@ -64,26 +65,34 @@ sections:
       copy: |
         Download and complete the following document by considering the motivations that are important for the different areas. 
 
-        [Read](/pdfs/cs3_u1_s2_p3_t2t_read.pdf).
+        [Motivations document](/pdfs/cs3_u1_s2_p3_t2t_read.pdf).
     theme: t-bg-primary3 i-think
-
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: | 
        Make sure that you understand how an actor may carry out a cyber attack as you will be asked about this in your assessment. 
   -
-    title: Did you Know?
-    theme: t-bg-primary
+    title: Did you know?
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      A large UK company’s internal network was attacked through their externally managed corporate website. The attackers gained access through the company’s network service provider, which contained a known vulnerability. 
+      
+      They used software designed to exploit that vulnerability, which was purchased on the Dark Web. 
+      
+      See below for the following steps that were taken to facilitate the attack.
+    img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+    title: Plan of attack
+    theme: t-bg-primary1a
     copy:
     subInc: 
       type: accordion
       content:
         - 
-          title: Plan of attack
+          title: Steps
           copy: |
-              A large UK company’s internal network was attacked through their externally managed corporate website. The attackers gained access through the company’s network service provider, which contained a known vulnerability. They used software designed to exploit that vulnerability, which was purchased on the Dark Web. The following steps were taken to facilitate the attack;
-
               __Survey stage:__ As part of their survey of the victim’s network and services, the attackers discovered that the corporate website was hosted by a service provider whose    systems contained a known vulnerability. 
 
               __Weaponisation:__ The attackers exploited the vulnerability they found to add a specialised exploit delivery script to the corporate website. The script compared the IP addresses of the website’s visitors against the IP range used by the company. 
@@ -94,11 +103,8 @@ sections:
 
               __Anti-forensics/command and control:__ Once in the system, the attackers installed further tools and were consolidating their position and identified high value users.
 
-              __Detection and repair:__ While the breach was successful, it was detected using network security monitoring. The organisation had an incident response plan in place, which made it possible to investigate the incident using system and network logs, plus forensic examinations of many computers. 
-
-              click [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) to learn more about how attacks are planned and carried out.
-
-          img: /images/svg/cs3/cs3_did_you_know.svg 
+              __Detection and repair:__ While the breach was successful, it was detected using network security monitoring. The organisation had an incident response plan in place, which made it possible to investigate the incident using system and network logs, plus forensic examinations of many computers.
+    copy2: Click [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) to learn more about how attacks are planned and carried out.
   - 
     title: Time to think
     include: 
