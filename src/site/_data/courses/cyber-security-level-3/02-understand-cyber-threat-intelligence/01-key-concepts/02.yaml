@@ -1,0 +1,145 @@
+title: Understand cyber threat intelligence
+intro: |
+  In this session you will learn to identify the key concepts of cyber threat intelligence, how to identify immerging attack techniques and consider the current threat status for organisations and how they can be prepared.
+banner: cs3_u2_s1_p2_threat.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify key concepts of cyber threat intelligence, and explain cyber security terms.
+  -
+  -
+    title: Key concepts of cyber threat intelligence
+    theme: t-bg-primary
+    copy: |
+      Threat intelligence is the activity of gathering, processing, analysing and distributing information related to threats that may target applications and systems. Cyber security, instead of monitoring the threats, actively combats them. It attempts to keep ahead of the attacks by preventing them and responding to attacks to mitigate any damage as soon as possible. 
+      
+      Let’s look at this in more detail in the following slides.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Cyber threat
+          text: |
+            A Cyber threat is an intentional malicious act perpetrated by a threat actor or hacker that seeks to damage systems, steal data or disrupt organisations in general. It is important that all businesses and organisations understand the risks that they face. These are made up of the threat, any vulnerability and the impact this could have. Cyber threats include acts of Phishing, Denial of Service attacks (DoS), Virus and Malware etc. 
+
+          img: cs3_u2_s1_p2_slide1.svg
+        -
+          title: Cyber threat intelligence
+          text: |
+            Cyber threat intelligence is the process of collecting and analysing information on potential cyber threats, including the motivation behind them, the methods being used, and the capability of the threat actors in making their attack. There are different types of threat intelligence which use different methods for different purposes.
+          img: cs3_u2_s1_p2_slide2.svg
+        -
+          title: Operational threat intelligence
+          text: |
+            Operational threat intelligence uses tools, techniques and procedures to try to understand threat actors and their potential attacks. It also is used to assess where resources are needed to prevent future attacks.
+          img: cs3_u2_s1_p2_slide3.svg
+        -
+          title: Tactical threat intelligence
+          text: |
+            Tactical threat intelligence informs about current TTPs techniques, tactics and procedures that threat actors use. This information can see when an organisation or business has already been attacked, by monitoring logs and incident reports, to inform on how to defend against the threat.
+          img: cs3_u2_s1_p2_slide4.svg
+        -
+          title: Strategic threat intelligence
+          text: |
+            Strategic threat intelligence informs about changes in the threat landscape seeing if a new threat has emerged. This is usually done by strategic threat experts who publish their reports, allowing senior management to make decision on organisation security and protection going forward.
+          img: cs3_u2_s1_p2_slide5.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the terms Threats, Exploits, Vulnerabilities and Risk, in relation to cyber security.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The terms: Threats, Exploits, Vulnerabilities and Risk, in relation to cyber security
+      
+      Let’s have a look in this video what this can mean for an organisation.
+
+    video: u2_s1_p2_key_concepts.mp4
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Threats take many different forms such as malware, data breaches and DoS attacks. 
+          answer: Threats
+        -
+          sentence: Vulnerabilities refers to any weak spots within the cyber security of an organisation, that allows anyone to enter their systems and steal anything of value like data that may compromise and adversely impact an organisations operation. 
+          answer: Vulnerabilities
+        -
+          sentence: Risk refers to the level of impact a cyber attack may have on an organisation and its operations for example financial loss, disruption, and damage to reputation.  
+          answer: Risk
+        -
+          sentence: Exploits are codes that take advantage of a software vulnerability or flaw. 
+          answer: Exploits
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the threat intelligence lifecycle.
+  -
+  -
+    title: The threat intelligence lifecycle
+    theme: 
+    
+    copy: |
+      ### What is the Threat Intelligence Lifecycle?
+      
+      The Threat Intelligence Lifecycle outlines the core steps that should be applied to maintain high standards of cyber security.
+
+
+      Let's look at the different stages involved in the following activity.
+
+    interactive: 
+      file: cs3/u2_s2_p1_cyber_lifecycle
+      width: 1000
+      height: 500
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to find out about emerging attack techniques and how to recognise them.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Emerging attack techniques
+      
+      Cyber security professionals are always on the lookout for new threats and use many different sources to find them. By combining information from different sources, a better picture can be seen. Let’s look at some of the sources they use.
+
+    video: u2_s1_p2_emerging_attack_techniques.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        List here how to find out about emerging attack techniques and how to recognise them.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn about the open threat exchange.
+      links:
+        AT&T Open Threat Exchange: https://cybersecurity.att.com/open-threat-exchange

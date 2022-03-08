@@ -1,16 +1,115 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed session 2 of unit 1! 
-banner: summary.jpg
+title: Key Sector Vulnerabilities
+intro: |
+  On this page you will learn about;
+  * Sector vulnerabilities
+  * Motivations for cyber attacks in key sectors
+  * How attacks are carried out 
+ 
+
+banner: cs3_u1_s2_p3_vulnerabilities.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+       Make sure that you understand the key sectors that are vulnerable to cyber attacks and the motivations for attacks in these areas as you will be asked about this in your assessment. 
+  - 
+    title: Key sectors
+    theme: t-bg-primary
     copy: |
-      In this session, you have learnt about:
-      * Terminology used in cyber security
-      * The terms good actors and bad actors
-      * Typical behaviours of good actors and bad actors
-      * The motivations of good actors and bad actors
-      * Key sectors that are most vulnerable to a cyber-attack
-      * Compare the motivations for a cyber-attack in key sectors
-      * Consider how an actor may carry out a cyber-attack
+      Anyone and any sector is vulnerable to a cyber attack. However, some sectors are more vulnerable than others. This may be because they hold a great deal of personal data or valuable information, or because they tend to have less secure systems. Here are some of the key sectors that are most vulnerable to a cyber attack.
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Health
+          copy: |
+            Cyber criminals can access personal data from medical records that can be sold on.
+          img: cs3_u1_s2_p3_reveal1.svg
+        -
+          title: Manufacturing
+          copy: |
+            Can be held to ransom after having their data breached bringing companies to a standstill. 
+          img: cs3_u1_s2_p3_reveal2.svg
+        -
+          title: Finance
+          copy: |
+            Financially motivated data breaches and server attacks are top concerns.
+          img: cs3_u1_s2_p3_reveal3.svg
+        -
+          title: Government agencies and departments
+          copy: |
+            Cyber attacks can often be foreign state sponsored aiming to destabilise.
+          img: cs3_u1_s2_p3_reveal4.svg
+        -
+          title: Educational institutions
+          copy: |
+            Online learning due to the pandemic created greater threats from ransomware attacks.
+          img: cs3_u1_s2_p3_reveal5.svg
+  -   
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Motivations for attacks in key areas
+
+      Lets take a look at the key sectors and what motivates attackers in these areas.  
+    video: u1_s2_p3_key_sectors.mp4
+  - 
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: |
+        Download and complete the following document by considering the motivations that are important for the different areas. 
+
+        [Motivations document](/pdfs/cs3_u1_s2_p3_t2t_read.pdf).
+    theme: t-bg-primary3 i-think
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+       Make sure that you understand how an actor may carry out a cyber attack as you will be asked about this in your assessment. 
+  -
+    title: Did you know?
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      A large UK company’s internal network was attacked through their externally managed corporate website. The attackers gained access through the company’s network service provider, which contained a known vulnerability. 
+      
+      They used software designed to exploit that vulnerability, which was purchased on the Dark Web. 
+      
+      See below for the following steps that were taken to facilitate the attack.
+    img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+    title: Plan of attack
+    theme: t-bg-primary1a
+    copy:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Steps
+          copy: |
+              __Survey stage:__ As part of their survey of the victim’s network and services, the attackers discovered that the corporate website was hosted by a service provider whose    systems contained a known vulnerability. 
+
+              __Weaponisation:__ The attackers exploited the vulnerability they found to add a specialised exploit delivery script to the corporate website. The script compared the IP addresses of the website’s visitors against the IP range used by the company. 
+
+              __Delivery stage:__ The attackers then infected a number of computers within the company by downloading malware to visitors’ computers within a directory that allowed file execution. More than 300 computers were infected during the delivery stage with remote access malware. 
+
+              __Exploitation:__ The malware then delivered network information to domains owned by the attackers. 
+
+              __Anti-forensics/command and control:__ Once in the system, the attackers installed further tools and were consolidating their position and identified high value users.
+
+              __Detection and repair:__ While the breach was successful, it was detected using network security monitoring. The organisation had an incident response plan in place, which made it possible to investigate the incident using system and network logs, plus forensic examinations of many computers.
+    copy2: Click [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) to learn more about how attacks are planned and carried out.
+  - 
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: |
+        Use the information above as well as your own research and think about a specific type of attack and how it could be carried out. 
+
+    theme: t-bg-primary3 i-think

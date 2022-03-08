@@ -1,0 +1,104 @@
+title: Understand malicious software
+intro: |
+  In this session you will learn about malicious software, what it consists of, its effects and possible the motives behind it.
+banner: cs3_u2_s3_p1_malware.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Types of malicious software
+      * The effects of malicious software on an infected system
+      * Motives behind malicious software
+      * How human factors can make malicious software more effective
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify types of malicious software.
+  -
+  -
+    title: Types of malicious software
+    theme: t-bg-primary
+    copy: |
+      Malicious software or malware comes in different forms with a variety of names, but they all have one thing in common they attack systems and can be disastrous if cyber security is not in place. Let’s look at some of the most common ones in the following slides.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Virus
+          text: |
+            Those who are not in the know often call all malware viruses, but they are actually quite different. A virus changes or modifies the host files so that when the code is executed then so is the virus. This enables them to infect other files and makes them hard to clean up and remove as they are executed from inside a legitimate program. Specialist Anti-virus or anti malware software can remove them but often the infected file must be quarantined or removed.
+          img: cs3_u2_s3_p1_slide1.svg
+        -
+          title: Spyware and Adware
+          text: |
+            Adware exposes the user to unwanted and potentially malicious advertising. It might direct the user to a similar looking website that mimic the original but contains other product promotions. Spyware is used to check on ‘friends and family’ activities and is used in targeted attacks to log keystrokes and learn passwords or other information. Both Adware and Spyware are the easiest forms of malware to remove by finding the malicious code and removing it before its executed. However, the presence of it could signal that a device has a weakness and could be attack by more malicious threat actors.
+          img: cs3_u2_s3_p1_slide2.svg
+        -
+          title: Worms
+          text: |
+            Worms are a type of malware that can spread a copy of itself but unlike viruses it doesn’t need a program to be executed to do this. They have been around longer than desktop computers and are mostly found in email attachments. Opening the attachment activates the worm and it then overwrites random files on a computer and will send a copy of itself to others in the users address book. Worms are less common these days due to people knowing not to click on a link from someone they don’t know.
+          img: cs3_u2_s3_p1_slide3.svg
+        -
+          title: Trojans
+          text: |
+            Trojans are more popular with hackers than worms. Trojans often look like a legitimate piece of software but the contain malicious code. Unlike worms they need the victim to execute the code. A common example is a fake antivirus program which will pop up claiming a computer is infected and to click to clean it those who do download and activate the trojan so cyber criminals can gain access. Trojans are hard to guard against as they are easy to write and there are many out there and anti-malware programs find it hard to keep up with them.
+          img: cs3_u2_s3_p1_slide4.svg
+        -
+          title: Ransomware
+          text: |
+            Ransomware is malware that encrypts and holds a victim’s information for ransom. They subsequently cannot access files, databases or applications and the attacker demands a ransom to provide access. If a system is infected with ransomware an appropriate decryption tool will be needed to regain access. Antivirus software should be able to protect systems but also having back up data will help in the short term.
+          img: cs3_u2_s3_p1_slide5.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Describe the effects of different types of malicious software on an infected system 
+      * Describe the motives for using specific malicious software attacks
+      * Identify how specific malicious software attacks are made more effective due to human factors 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Effects of malicious software
+      
+      Let’s look at some of the most common effects that can be caused by malicious software, the motives behind them and how they are made more affective by human factors.
+    video: u2_s3_p1_malicous_software_attacks.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Conduct research to find some specific examples of attacks using the malicious software mentioned here. What type of software was used in the attack? How was it used? What was the outcome? How was it discovered?
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Every individual is a potential target of malicious software attacks as well as every business or organisation, no matter what the size.":
+          answers:
+            True: true
+            False: false
+          feedback: By attacking one individual a threat actor can have access to so many others and the potential to access whole systems.
+        How can you stop malicious software infecting a system?:
+          answers:
+            Have anti-malware software installed: true
+            Do not use the internet: false
+            Do not download items from websites: false
+          feedback: Make sure that a system is protected by legitimate 'anti-malware' purchased from a reputable company even if it is a mobile system and that it is kept up to date, both the operating system and any software installed on it such as a web browser. 
+        Select one option to complete the following sentence:"If malware removal is unsuccessful, it may be that the ________________ may need to be reinstalled along with applications and programs from scratch.":
+          answers:
+            software programs: false
+            document folders: false
+            operating system: true
+          feedback: If malware removal is unsuccessful, it may be that the operating system may need to be reinstalled along with applications and programs from scratch. If everything is backed up it shouldn't be a problem but contacting the system suppliers help desk may be necessary.

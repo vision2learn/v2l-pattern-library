@@ -1,0 +1,84 @@
+title: Know about social engineering
+intro: |
+    In this session you will learn about social engineering and how Open Source Intelligence can be used to make an attack.
+banner: cs3_u2_s4_p1_social.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * Social engineering
+      * How Open Source Intelligence can be used to make an attack
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the term ‘social engineering’ and give examples of how Open Source Intelligence can be used for social engineering.
+  -
+    title: Social engineering
+    theme: t-bg-primary
+    copy: |
+      So what exactly is social engineering and how do cyber criminals like to use it?  
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: What is Social engineering?
+          copy: |
+            Social engineering is the name given to techniques used by cyber criminals to manipulate and trick people into giving out confidential information, transferring money or downloading malware. 
+
+            Social engineers use psychology to manipulate a victim’s feelings of curiosity or fear to draw them into a trap. They often find it is easier to exploit a person’s willingness to trust rather than go to the trouble of trying to discover ways to hack their software.
+
+            As technology and subsequently cyber security gets more advanced, cyber criminals are now turning more to social engineering, to make their initial attack on a system by exploiting the weakest link in an organisational chain the user. 
+
+          img: cs3/cs3_u2_s4_p1_accordian1.svg
+        - 
+          title:  How do cyber criminals use it?
+          copy: |
+            Unlike cyber attacks that rely on system vulnerabilities to gain access to unauthorised devices, social engineering targets human vulnerabilities. They can use a variety of methods both online and offline such as phone calls, emails, text messages or other means to con unsuspecting users into compromising their own systems or their work-based systems by installing malware and handing over access to their sensitive and personal information and potentially that of their employer. 
+            
+            We have already looked at OSINT or open source intelligence information in previous videos but let’s have a quick recap and look at how open source information can help cyber criminals with social engineering.
+
+          img: cs3/cs3_u2_s4_p1_accordian2.svg  
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Open source information
+
+      So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
+    video:  u2_s4_p1_social engineering.mp4
+  -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: For attacks against companies
+          copy: |
+            Threat actors can use corporate websites and directory listings to find targets, as well as Google dorking or LinkedIn.
+            
+            For example, LinkedIn has a special URL where you can quickly identify targets of interest: http://linkedin.com/title/<job-title>-at-<company>/
+            
+            Example:
+            The following URL would list all directors at example-company (fictitious company)
+            http://linkedin.com/title/director-at- example-company /
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+  - 
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Gather information on someone you know using Open Source Intelligence, and give examples of how the information could be used to carry out a social engineering attack.

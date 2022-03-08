@@ -3,14 +3,14 @@ intro: |
   In this session you will learn about:
   
   Core terminology and the key aspects of cyber security including good and bad actors, their motivations and behaviours and the sectors most vulnerable to cyber attack.
-banner: placeholder.jpg
+banner: cs3_u1_s2_p1_terminology.jpg
 sections:
   -
     title: Your learning goals
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       By working through this session, you will cover the following criteria of your Level 3 Certificate in the Principles of Cyber Security.
-      
+
       * Define core terminology used in cyber security
       * Explain the terms good actors and bad actors
       * Distinguish typical behaviours of good actors and bad actors
@@ -21,8 +21,36 @@ sections:
 
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
-      Make sure that you understand the core terminology used in cyber security and what is meant by good and bad actors as you will be asked about these in your assessment. 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the core terminology used in cyber security as you will be asked about this in your assessment.    
+  -   
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Terminology
+
+      Understanding the different aspects of cyber security whether as an individual, a business or an organisation are important and the key to this is often the use of terminology and what it means. We see and hear many of these terms every day, but do we always know what they mean?
+
+      Lets take a look at some of this terminology in more detail in the following video.
+    video: u1_s2_p1_terminology.mp4
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Terminology
+
+      As well as the terminology mentioned in the video there are an number of other terms used in cyber security. Click on the owl to learn more about these terms.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.ukcybersecuritycouncil.org.uk/glossary/ 
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Using your learning from the video and the stretch task, identify a range of common terms used in cyber security and write a short definition for each one.
+    theme: t-bg-primary3 i-think
   -
     
