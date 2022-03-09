@@ -18,7 +18,7 @@ Birthday details, age, phone number etc. and then think about what could happen 
 
 **Abraham:** Protected Health Information [PHI] is [PII] that has been collected through healthcare services. This may relate to physical or mental health of an individual, their access to health care services, and any information about their health status, including medical histories, test results, mental health information and even case studies. PHI could be stolen by hackers and sold or ransomed until the healthcare organisation pays a fee if they not adequately protected. 
 
-**Nicole:** Personal information in the UK is covered by G.D.P.R. and all personal data must be processed securely using the appropriate organisational measures. To make sure this happens companies must consider risk analysis regarding the safety of data both physical and digital, making sure that all data is kept secure and encrypted.
+**Nicole:** Personal information in the UK is covered by GDPR G.D.P.R. and all personal data must be processed securely using the appropriate organisational measures. To make sure this happens companies must consider risk analysis regarding the safety of data both physical and digital, making sure that all data is kept secure and encrypted.
 
 **Abraham:** There are many kinds of cyber security incidents but those that involve personal data breaches need to be reported to the ICO [Information commissioners office] within 72 hours of becoming aware of it. If this affects an individual’s rights and freedoms, then they must also be told without delay.
 
@@ -32,9 +32,9 @@ Intellectual property usually belongs to the author or creators of the asset, bu
 
 **Abraham:** There are two important pieces of legislation concerning IP rights. The Copyright Design and Patents Act 1988 [CDPA] deals with copyright, including copyright in databases, and defines what a database is. The Copyright and Rights in Databases Regulations 1997 [CRDR] establishes what database rights are.
 
-**Nicole:** Information systems are present in most industries. Finance and insurance, education, Health services, Manufacturing, Telecommunications, Data processing and hosting and Government agencies of course.
+**Nicole:** Information systems are present in most industries. Finance and insurance, 
+
+Education, Health services, Manufacturing, Telecommunications, Data processing and hosting and Government agencies of course.
 
 **Abraham:** Common types of information systems are ‘transaction processing’, ‘management information’, ‘decision-support’, and ‘executive support’ systems. Poor security in information systems can leave an organisations systems and services at risk. It is therefore very important that cyber security is in place at all levels. Cyber security here involves personal information in most cases and GDPR compliance is a legal requirement. 
-
-**Nicole:** For further information regarding this subject please check out our other video links below.
 
