@@ -1,0 +1,17 @@
+---js
+{
+  unit: 3,
+  session: 4,
+  pagination: {
+    data: "courses['cyber-security-level-3']['03-cyber-security-testing-vulnerabilities-and-controls']['04-apply-a-cyber-security-control']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
