@@ -1,12 +1,78 @@
-title: Key Sector Vulnerabilities
+title: Key actors and their behaviours and motivations
 intro: |
   On this page you will learn about;
-  * Sector vulnerabilities
-  * Motivations for cyber attacks
-  * How attacks are carried out 
- 
-
-banner: placeholder.jpg
+  * Good actors and bad actors
+  * Typical behaviour of good actors and bad actors
+  * The motivations of good and bad actors
+banner: cs3_u1_s2_p2_actors.jpg
 sections:
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the terms good and bad actors, the typical behaviours they display, and their motivation as you will be asked about these in your assessment. 
+  -   
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Good and bad actors and motivations
+      
+      While most people are familiar with the idea of a hacker as the ‘bad guy’, there are actually a number of different types of hacker, including many that are involved in the security industry. The terms ‘good actor’ and ‘bad actor’ are often used to distinguish between someone who breaks into computers or systems in order to cause damage or steal information (bad actor), and someone who breaks into computers or systems in order to test their security (good actor). 
+      
+      There are a wide variety of motivations for both good actors and bad actors. Lets take a look at these in more detail. 
+    video: cs3_u1_s2_p2_actors.mp4
+  -       
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Cyber criminals or black hat hackers are the most common threat actors.
+          answer: black hat
+        -
+          sentence: Hacktivists are groups or collectives who instead of being motivated by purely financial or personal gain, carry out 'attacks' in support of ideological or political causes.
+          answer: Hacktivists
+        -
+          sentence: There are those who are motivated by personal reasons, just to have fun, create chaos or seek attention. These are threat actors known as script kiddies.
+          answer: script kiddies
+        -
+          sentence: Some hackers are engaged in terrorism and hope to cause damage and disruption to government or civil organisations and institutions, in order to sow confusion and fear.
+          answer: terrorism 
+        -
+          sentence: Highly skilled ethical hackers may find themselves in great demand.
+          answer: ethical hackers
+          
+    theme: i-quiz
     
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: In the box to the right can you explain the differences between good actors and bad actors?
+    theme: t-bg-primary3 i-think
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+      Make sure that you understand the the motivations of good and bad actors as you will be asked about this in your assessment.
+  -
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### Motivations of Good or Bad Actors
+
+      Select the following icon to have a go at an activity to learn more about the motivations of good and bad actors.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: cs3_u1_s2_p2_activity
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have tried the activity, pick one positive and one negative motive and do some research, record your findings here.
+
+    theme: t-bg-primary3 i-think

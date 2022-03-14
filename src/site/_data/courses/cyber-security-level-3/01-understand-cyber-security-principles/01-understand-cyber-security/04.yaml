@@ -1,93 +1,97 @@
 title: Inadequate cyber security
 intro: |
   On this page you will learn about the consequences and implications of inadequate cyber security.
-banner: placeholder.jpg
+banner: cs3_u1_s1_p4_inadequate.jpg
 sections:
 
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the consequences and implications of inadequate cyber security as you will be asked about this in your assessment.
   -
-    title: Reveal
-    theme: t-bg-supporting2
+    title: The consequences and implications of inadequate cyber security
+    theme: t-bg-primary
     copy: |
-      text
+      A successful cyber attack can cause major damage to an organisation or individual. It can lead to a loss of revenue, as well as the time and money spent on fixing the problem, and can also cause a loss of trust and even regulatory fines.
 
-      Select the images below to read 
+      Select the images below to read what the possible consequences of an attack can include:
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: Sensitive data
           copy: |
-            text
-          img: placeholder_icon.svg
+            This can be sold on for money or used by competitors.
+          img: cs3_u1_s1_p4_reveal1.svg
         -
-          title: b
+          title: Personally identifiable information (PII)
           copy: |
-            text
-          img: placeholder_icon.svg
+            This includes information that can be used to identify specific individuals for attacks such as spear phishing.
+          img: cs3_u1_s1_p4_reveal2.svg
         -
-          title: c
+          title: Protected health information (PHI)
           copy: |
-            text
-          img: placeholder_icon.svg
+            This is often the target of cyber blackmailers.
+          img: cs3_u1_s1_p4_reveal3.svg
         -
-          title: d
-          copy: |
-            text
-          img: placeholder_icon.svg
+          title: Personal information
+          copy: | 
+            This includes information such as birthdates and addresses that can be used in phishing attacks.
+          img: cs3_u1_s1_p4_reveal4.svg
         -
-          title: e
+          title: Intellectual property
           copy: |
-            text
-          img: placeholder_icon.svg
+            This can be sold on for money or used by competitors.
+          img: cs3_u1_s1_p4_reveal5.svg
         -
-          title: f
+          title: Industry information systems
           copy: |
-            text
-          img: placeholder_icon.svg    
+            Detailed information on this can be used to launch more sophisticated and damaging attacks.
+          img: cs3_u1_s1_p4_reveal6.svg    
   -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
-    video: placeholder_pc.mp4
+      ### Consequences of inadequate cyber security
+      Please see the following video for a more in depth look at these consequences.
+    video: cs3_u1_s1_p4_consequences.mp4
   -       
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: 
-          answer: 
+          sentence: For companies that do not have a recovery plan or back-ups in place, it may take weeks or months to get back to where they were before the attack.
+          answer: recovery plan
         -
-          sentence: 
-          answer: 
+          sentence: Not taking cyber security seriously can lead to irreparable reputational damage.
+          answer: reputational
         -
-          sentence: 
-          answer: 
+          sentence: Data breaches involving customer’s and commercial partner’s personal information, can lead to lawsuits against the company.
+          answer: lawsuits
         -
-          sentence: 
-          answer: 
+          sentence: Ransomware can lead to the shutting down of the company’s entire IT infrastructure and business critical systems, to isolate the damage, investigate and recover.
+          answer: Ransomware
         -
-          sentence: 
-          answer: 
-        -
-          sentence: 
-          answer: 
-    theme: i-quiz
-    
+          sentence: Stolen data can be sold on to other thieves, used in phishing attacks or used to steal money directly from individuals and organisations. 
+          answer: phishing
+
+    theme: i-quiz 
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: lorum ipsum
+      copy: |
+        Carry out some further research and, along with your learning from this page, think about the consequences and implications of inadequate cyber security. You should consider all of the following in your response: 
+
+        -  Legal consequences
+
+        -  Reputational damage
+        
+        -  Economic costs   
+
     theme: t-bg-primary3 i-think
-  -
-     
+

@@ -1,0 +1,119 @@
+title: Recommendations
+intro: |
+  On this page you will learn about recommendations you can make to combate threat models and the effects of malicious software. 
+banner: cs3_u2_s1_p4_recommendations.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Consider the current threat status and make possible recommendations based upon cyber threat intelligence information
+      * Analyse relevant cyber threat intelligence information requirements for an organisation.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### What is threat status?
+      
+      Cyber security professionals are responsible for analysing the current threat status and making recommendations for action. They have to take into consideration the intelligence information they have gathered and how it may impact the organisation or business and their systems. So, what exactly is threat status? Let’s look at this in the following video.
+    video: cs3_u2_s1_p4_recommendations.mp4
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### The Suez Canal blockage
+
+       The blockage of the Suez Canal by the cargo ship Ever Given (EverGreen) in the narrow Suez Canal blocked billions of dollars of shipping and commerce between the Mediterranean Sea and the Middle East and South Asia.
+       
+       The Suez canal, enables approximately 12% of global shipping to bypass the long trip around the continent of Africa which saves around 2 weeks shipping time. If there is a blockage of this canal, it can have a serious impact in disrupting global commerce.
+       
+       Take a look at the website below to see what was gathered from open source intelligence sources.
+    img: /images/svg/cs3/cs3_u2_s1_p4_casestudy.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the Suez Canal Blockage and the OSINT techniques used to track it.
+
+      links:
+        hackers-arise - suez canal blockage: https://www.hackers-arise.com/post/open-source-intelligence-osint-using-osint-techniques-to-track-the-suez-canal-blockage
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Research another case study which has used OSINT and summarise your findings.        
+  -
+  -
+    title: Cyber threat intelligence information requirements for an organisation
+    theme: t-bg-primary
+    copy: |
+      Not all businesses and organisations are the same when it comes to cyber threat and the type of cyber threat intelligence they need. A large manufacturing, science or pharmaceutical based company may be concerned about theft of designs, formulas and secrets. A small online retail company may be more concerned with phishing attacks. Also the type and nature of attack may vary depending on whether a company is B2B business to business or B2C business to consumer.
+      
+      Lets have a look at different types of attack and how they may affect a business.
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Phishing
+          text: |
+            Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources  and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names (that are similar to the actual domain name), are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
+          img: cs3_u2_s1_p4_slide1.svg
+        -
+          title: Ransomware
+          text: |
+            Ransomware or malware is often downloaded using phishing techniques or by hacking into servers and this can cripple a company or organisation. The ransomware encrypts and holds the victim’s information to ransom demanding payment (often in Bitcoin) to release it. It may also be delivered through infected client or supplier systems on the same network. Ransomware kits are readily sold on the dark web. Some ransomware attacks use data dump sites where they can prove that they have access to the data, threating to dump all of it if the ransom is not paid. 
+
+          img: cs3_u2_s3_p1_slide5.svg
+        -
+          title: DoS and DDoS
+          text: |
+            A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource.  This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow. 
+          img: cs3_u2_s1_p4_slide3.svg
+        -
+          title: Viruses
+          text: |
+            Viruses are similar to malware but by nature are designed to spread from computer to computer reproducing themselves. They are used to steal data, shut down services or damage reputations and equipment. They are often inserted into a legitimate program such as a software upgrade or through phishing attacks in order to execute their code. Viruses can also stay dormant until a device executes its code and once that is infected it can spread amongst other systems in a network. Large scale attacks are often launched against large organisations such as government, educational and healthcare services. Those that do not have strong firewalls or anti malware are also susceptible. 
+          img: cs3_u2_s3_p1_slide1.svg
+
+  -
+  -
+    title: Quick quiz
+    copy: Try this quiz to see if you can identify the type of attack.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Phishing is a term that covers a broad range for cyber attacks that involve tricking victims into sharing sensitive information such as passwords, usernames and financial (credit card and bank account) details for malicious reasons.  
+          answer: Phishing
+        -
+          sentence: Ransomware is malware that encrypts and holds a victim’s information for ransom. 
+          answer: Ransomware
+        -
+          sentence: A (DoS) denial of service attack is where a computer is used to flood or crash a system due by creating too much internet traffic causing it to slow down and eventually stop. 
+          answer: (DoS) denial of service
+        -
+          sentence: Viruses are by nature designed to spread from computer to computer and are able to reproduce themselves. 
+          answer: Viruses
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about OSINT.
+
+      links:
+        Recorded future - osint definition: https://www.recordedfuture.com/open-source-intelligence-definition/
+    

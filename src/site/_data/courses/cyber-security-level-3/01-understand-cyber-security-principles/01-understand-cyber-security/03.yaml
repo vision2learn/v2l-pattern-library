@@ -1,72 +1,112 @@
-title: Understand cyber security
+title: Understand cyber security principles
 intro: |
-  In this session you will look at the concepts of cyber security and its importance and the consequences and implications of inadequate cyber security. 
- 
+  In this session you will look at the concepts of cyber security and its importance and the consequences and implications of inadequate cyber security.
 
-banner: placeholder.jpg
+banner: cs3_u1_s1_p3_principles.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3
-    copy: 
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
       Make sure that you understand the concepts of cyber security as you will be asked about these in your assessment.
-  - 
+  -
+  -
     title: The Concepts of Cyber Security
+    layout: media
     theme: t-bg-primary
     copy: |
-     Cyber Security is the application of technologies, processes and controls that are used to protect systems, networks, programs, devices and data. In short, the aim of security is to assure that all information is safe, protected from the threat of cyber attack. It is a wide term, but the fundamental principles or concepts are Confidentiality, Integrity, Availability and Authentication. 
-  -   
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Title
-      Please see the following video for 
-    video: placeholder_pc.mp4
+      Cyber Security is the application of technologies, processes and controls that are used to protect systems, networks, programs, devices and data. In short, the aim of security is to assure that all information is safe, protected from the threat of cyber attack. It is a wide term, but the fundamental principles or concepts are Confidentiality, Integrity, Availability and Authentication. 
+
+    img: /images/svg/cs3/cs3_u1_s1_p3_image.svg
   -
-    title: Key point
-    theme: t-bg-supporting3
-    copy: 
-      make sure that you understand the importance of cyber security as you will be asked about this in your assessment. 
   -   
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      Please see the following video for 
-    video: placeholder_pc.mp4
+      ### The Concepts of Cyber Security
+       
+      Lets have a look at these concepts in more detail.
+    video: cs3_u1_s1_p3_concepts.mp4
+  -
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: Now that you have an outline of the basic concepts of cyber security, carry out some research and write a description or definition of each concept.  
+    theme: t-bg-primary3 i-think
+  -  
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you understand the importance of cyber security as you will be asked about this in your assessment. 
+  -   
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The importance of cyber security
+      Lets take a look at why cyber security is so important.  
+    video: cs3_u1_s1_p3_importance.mp4
   -       
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: 
-          answer: 
+          sentence: Protecting confidentiality means controlling access levels of information and if someone doesn’t need to know, then they shouldn’t have access to the information.
+          answer: confidentiality
         -
-          sentence: 
-          answer: 
+          sentence: In terms of cyber security, risk is the potential for loss, damage or destruction of assets or data.
+          answer: risk
         -
-          sentence: 
-          answer: 
+          sentence: Risk can be affected by a vulnerability, which is a weakness that can create exposure to a threat or a hazard.
+          answer: vulnerability
         -
-          sentence: 
-          answer: 
+          sentence: Organisations of all sizes also need to be informed about their duties under regulations such as the GDPR, and how to meet these.
+          answer: GDPR
         -
-          sentence: 
-          answer: 
+          sentence: Cyber crime is constantly evolving to adapt to security measures. So, cyber security must also constantly change and evolve in order to stay one step ahead of the criminals.
+          answer: evolving
         -
-          sentence: 
-          answer: 
+          sentence: Cyber security breaches can now cause irreversible reputational damage to the organisations involved.
+          answer: reputational
+          
     theme: i-quiz
     
+  -
+    title: Did you know?
+    theme: t-bg-primary
+    copy:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: According to a study by the UK government
+          copy: |
+            In March 2021, four out of every ten UK businesses
+
+            (39%) and a quarter of charities (26%) reported either a cyber security breach or an attack in the previous 12 months.
+            
+            Among organisations that suffered from breaches or attacks, around a quarter experienced them at least once a week. The most common types were phishing attacks, followed by impersonation.
+
+            The study also found that one in five of the organisations that suffered from a cyber attack ended up losing money, data or other assets, while one-third reported having to spend time and money responding to the breach, or lost business because of it. The mean cost of a cyber security breach to organisations was estimated at £8,460.
+
+          img: /images/svg/cs3/cs3_did_you_know.svg     
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website to read about this study in more detail. 
+
+      links:
+        Cyber security breaches survey - Government survey: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2021/cyber-security-breaches-survey-2021
+  -
   -
     title: Time to think
     include: 
       type: time-to-think
-      copy: lorum ipsum
+      copy: Using your learning from this page, can you explain why cyber security security is so important?
     theme: t-bg-primary3 i-think
-  -
-      
-    

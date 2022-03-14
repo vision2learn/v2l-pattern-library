@@ -1,0 +1,66 @@
+title: Open Source Intelligence
+intro: |
+  On this page you will learn about Open Source Intelligence, and the importance of using reliable sources of information. 
+banner: cs3_u2_s1_p3_osint.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Consider what could be included in Open Source Intelligence data sets
+      * Explain why it is important to only use reliable and valid sources of Open Source Intelligence information
+      * Explain the importance of using reliable sources of information in relation to cyber security threats.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Open Source Intelligence
+      
+      OSINT or open-source intelligence is information that comes from publicly available sources that can be accessed by the use of internet resources. 
+
+      Please see the following video on open source intelligence.
+    video: cs3_u2_s1_p3_osint.mp4
+  -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Advanced search functions
+          copy: |
+            There are advanced search functions, called ‘Google dork’ queries, that can be used to identify different types of public information. For example, typing:
+
+            'sensitive but unclassified' filetype:pdf site:publicintelligence.net
+            
+            into a search engine will return only PDF documents from the Public Intelligence website that contain the words ‘sensitive but unclassified’ somewhere in the document text. 
+            
+            There are hundreds of similar tools, which both security professionals and threat actors can use to search for almost anything.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think about a friend or family member. What type of OSINT could be gathered about that person?
+        Where and how would you gather the information? What might make it easier to gather the information? What might make it harder?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about public intelligence.
+
+      links:
+        Public intelligence: https://publicintelligence.net/

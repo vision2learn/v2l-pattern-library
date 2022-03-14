@@ -1,0 +1,101 @@
+title: Reduce or remove potential cyber security vulnerabilities
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 
+  -
+  -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      _Optional item depending on content - replace with a Section or Reveals if necessary_
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on .
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+
+  -
+  -
+    title: P L A C E H O L D E R item
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### ACTIVITY of some kind
+
+      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _Optional item depending on content_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _EXAMPLE of document_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
