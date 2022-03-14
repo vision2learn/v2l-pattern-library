@@ -93,18 +93,29 @@ sections:
         - 
           title: Steps
           copy: |
-              __Survey stage:__ As part of their survey of the victim’s network and services, the attackers discovered that the corporate website was hosted by a service provider whose    systems contained a known vulnerability. 
+            __Survey stage:__ As part of their survey of the victim’s network and services, the attackers discovered that the corporate website was hosted by a service provider whose    systems contained a known vulnerability. 
 
-              __Weaponisation:__ The attackers exploited the vulnerability they found to add a specialised exploit delivery script to the corporate website. The script compared the IP addresses of the website’s visitors against the IP range used by the company. 
+            __Weaponisation:__ The attackers exploited the vulnerability they found to add a specialised exploit delivery script to the corporate website. The script compared the IP addresses of the website’s visitors against the IP range used by the company. 
 
-              __Delivery stage:__ The attackers then infected a number of computers within the company by downloading malware to visitors’ computers within a directory that allowed file execution. More than 300 computers were infected during the delivery stage with remote access malware. 
+            __Delivery stage:__ The attackers then infected a number of computers within the company by downloading malware to visitors’ computers within a directory that allowed file execution. More than 300 computers were infected during the delivery stage with remote access malware. 
 
-              __Exploitation:__ The malware then delivered network information to domains owned by the attackers. 
+            __Exploitation:__ The malware then delivered network information to domains owned by the attackers. 
 
-              __Anti-forensics/command and control:__ Once in the system, the attackers installed further tools and were consolidating their position and identified high value users.
+            __Anti-forensics/command and control:__ Once in the system, the attackers installed further tools and were consolidating their position and identified high value users.
 
-              __Detection and repair:__ While the breach was successful, it was detected using network security monitoring. The organisation had an incident response plan in place, which made it possible to investigate the incident using system and network logs, plus forensic examinations of many computers.
-    copy2: Click [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) to learn more about how attacks are planned and carried out.
+            __Detection and repair:__ While the breach was successful, it was detected using network security monitoring. The organisation had an incident response plan in place, which made it possible to investigate the incident using system and network logs, plus forensic examinations of many computers.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about how attacks are planned and carried out.
+
+      links:
+        Sentinelone - Cyber Kill Chain: https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/
+  -
   - 
     title: Time to think
     include: 

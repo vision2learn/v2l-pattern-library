@@ -74,7 +74,7 @@ sections:
     theme: i-quiz
     
   -
-    title: Did you Know?
+    title: Did you know?
     theme: t-bg-primary
     copy:
     subInc: 
@@ -83,23 +83,27 @@ sections:
         - 
           title: According to a study by the UK government
           copy: |
-             In March 2021, four out of every ten UK businesses
+            In March 2021, four out of every ten UK businesses
 
-              (39%) and a quarter of charities (26%) reported either a cyber security breach or an attack in the
-              previous 12 months.
+            (39%) and a quarter of charities (26%) reported either a cyber security breach or an attack in the previous 12 months.
+            
+            Among organisations that suffered from breaches or attacks, around a quarter experienced them at least once a week. The most common types were phishing attacks, followed by impersonation.
 
-              Among organisations that suffered from breaches or attacks, around a quarter experienced them
-              at least once a week. The most common types were phishing attacks, followed by impersonation.
-
-              The study also found that one in five of the organisations that suffered from a cyber attack ended
-              up losing money, data or other assets, while one-third reported having to spend time and money
-              responding to the breach, or lost business because of it. The mean cost of a cyber security breach
-              to organisations was estimated at £8,460.
-
-              click [here](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2021/cyber-security-breaches-survey-2021) to read about this study in more detail. 
-              
+            The study also found that one in five of the organisations that suffered from a cyber attack ended up losing money, data or other assets, while one-third reported having to spend time and money responding to the breach, or lost business because of it. The mean cost of a cyber security breach to organisations was estimated at £8,460.
 
           img: /images/svg/cs3/cs3_did_you_know.svg     
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website to read about this study in more detail. 
+
+      links:
+        Cyber security breaches survey - Government survey: https://www.gov.uk/government/statistics/cyber-security-breaches-survey-2021/cyber-security-breaches-survey-2021
+  -
   -
     title: Time to think
     include: 

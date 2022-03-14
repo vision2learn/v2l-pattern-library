@@ -84,7 +84,8 @@ sections:
     title: Time to think
     include: 
       type: time-to-think
-      copy: Carry out some further research and, along with your learning from this page, what do you think the consequences and implications of inadequate cyber security are? You should consider all of the following in your response; 
+      copy: |
+        Carry out some further research and, along with your learning from this page, think about the consequences and implications of inadequate cyber security. You should consider all of the following in your response: 
 
         -  Legal consequences
 
@@ -92,6 +93,5 @@ sections:
         
         -  Economic costs   
 
-    
     theme: t-bg-primary3 i-think
 

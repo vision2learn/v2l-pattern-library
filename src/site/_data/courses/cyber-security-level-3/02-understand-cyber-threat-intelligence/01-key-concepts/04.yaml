@@ -66,12 +66,12 @@ sections:
         -
           title: Phishing
           text: |
-            Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources  and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names that are similar are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
+            Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources  and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names (that are similar to the actual domain name), are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
           img: cs3_u2_s1_p4_slide1.svg
         -
           title: Ransomware
           text: |
-            Ransomware or malware is often downloaded using phishing techniques or by hacking into servers and this can cripple a company or organisation. The ransomware encrypts and holds the victim’s information to ransom demanding payment to release it often in Bitcoin. It may also be delivered through infected client or supplier systems on the same network. Ransomware kits are readily sold on the dark web. Some ransomware attacks use data dump sites where they can prove that they have access to the data, threating to dump all of it if the ransom is not paid. 
+            Ransomware or malware is often downloaded using phishing techniques or by hacking into servers and this can cripple a company or organisation. The ransomware encrypts and holds the victim’s information to ransom demanding payment (often in Bitcoin) to release it. It may also be delivered through infected client or supplier systems on the same network. Ransomware kits are readily sold on the dark web. Some ransomware attacks use data dump sites where they can prove that they have access to the data, threating to dump all of it if the ransom is not paid. 
 
           img: cs3_u2_s3_p1_slide5.svg
         -
@@ -115,4 +115,5 @@ sections:
         Please see the following website where you can learn more about OSINT.
 
       links:
-        recorded future - osint definition: https://www.recordedfuture.com/open-source-intelligence-definition/
+        Recorded future - osint definition: https://www.recordedfuture.com/open-source-intelligence-definition/
+    
