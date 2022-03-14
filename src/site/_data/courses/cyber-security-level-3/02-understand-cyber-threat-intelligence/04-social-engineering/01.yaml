@@ -32,13 +32,13 @@ sections:
 
             Social engineers use psychology to manipulate a victim’s feelings of curiosity or fear to draw them into a trap. They often find it is easier to exploit a person’s willingness to trust rather than go to the trouble of trying to discover ways to hack their software.
 
-            As technology and subsequently cyber security gets more advanced, cyber criminals are now turning more to social engineering, to make their initial attack on a system by exploiting the weakest link in an organisational chain the user. 
+            As technology and subsequently cyber security gets more advanced, cyber criminals are now turning more to social engineering to make their initial attack on a system. They do this by exploiting the weakest link in an organisational chain - the user.
 
           img: cs3/cs3_u2_s4_p1_accordian1.svg
         - 
           title:  How do cyber criminals use it?
           copy: |
-            Unlike cyber attacks that rely on system vulnerabilities to gain access to unauthorised devices, social engineering targets human vulnerabilities. They can use a variety of methods both online and offline such as phone calls, emails, text messages or other means to con unsuspecting users into compromising their own systems or their work-based systems by installing malware and handing over access to their sensitive and personal information and potentially that of their employer. 
+            Unlike cyber attacks that rely on system vulnerabilities to gain access to unauthorised devices, social engineering targets human vulnerabilities. They can use a variety of methods both online and offline such as phone calls, emails, text messages or other means to con unsuspecting users into compromising their own systems or their work-based systems.  Users may do this by inadvertently installing malware, handing over access to their sensitive and personal information, and potentially that of their employer. 
             
             We have already looked at OSINT or open source intelligence information in previous videos but let’s have a quick recap and look at how open source information can help cyber criminals with social engineering.
 
@@ -52,7 +52,7 @@ sections:
       ### Open source information
 
       So What is meant by 'open-source information' and what information can cyber criminals obtain from it? Lets have a look at this in more detail.
-    video: cs3_u2_s4_p1_social engineering.mp4
+    video: cs3_u2_s4_p1_social_engineering.mp4
   -
   -
     title: Did you know?
@@ -70,7 +70,7 @@ sections:
             For example, LinkedIn has a special URL where you can quickly identify targets of interest: http://linkedin.com/title/<job-title>-at-<company>/
             
             Example:
-            The following URL would list all directors at example-company (fictitious company)
+            The following URL would list all directors at example-company (Fictional company)
             http://linkedin.com/title/director-at- example-company /
             
           img: /images/svg/cs3/cs3_did_you_know.svg

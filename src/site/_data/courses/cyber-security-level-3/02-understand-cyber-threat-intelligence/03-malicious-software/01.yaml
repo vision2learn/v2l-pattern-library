@@ -1,6 +1,6 @@
 title: Understand malicious software
 intro: |
-  In this session you will learn about malicious software, what it consists of, its effects and possible the motives behind it.
+  In this session you will learn about malicious software, what it consists of, its effects, and the possible motives behind it.
 banner: cs3_u2_s3_p1_malware.jpg
 sections:
   -
@@ -36,7 +36,7 @@ sections:
         -
           title: Spyware and Adware
           text: |
-            Adware exposes the user to unwanted and potentially malicious advertising. It might direct the user to a similar looking website that mimic the original but contains other product promotions. Spyware is used to check on ‘friends and family’ activities and is used in targeted attacks to log keystrokes and learn passwords or other information. Both Adware and Spyware are the easiest forms of malware to remove by finding the malicious code and removing it before its executed. However, the presence of it could signal that a device has a weakness and could be attack by more malicious threat actors.
+            Adware exposes the user to unwanted and potentially malicious advertising. It might direct the user to a similar looking website that mimics the original but contains other product promotions. Spyware is used to check on ‘friends and family’ activities and is used in targeted attacks to log keystrokes and learn passwords or other information. Both Adware and Spyware are the easiest forms of malware to remove by finding the malicious code and removing it before its executed. However, the presence of it could signal that a device has a weakness and could be attacked by more malicious threat actors.
           img: cs3_u2_s3_p1_slide2.svg
         -
           title: Worms
@@ -46,7 +46,7 @@ sections:
         -
           title: Trojans
           text: |
-            Trojans are more popular with hackers than worms. Trojans often look like a legitimate piece of software but the contain malicious code. Unlike worms they need the victim to execute the code. A common example is a fake antivirus program which will pop up claiming a computer is infected and to click to clean it those who do download and activate the trojan so cyber criminals can gain access. Trojans are hard to guard against as they are easy to write and there are many out there and anti-malware programs find it hard to keep up with them.
+            Trojans are more popular with hackers than worms. Trojans often look like a legitimate piece of software but they contain malicious code. Unlike worms they need the victim to execute the code. A common example is a fake antivirus program which will pop up claiming a computer is infected and to click to clean it. So those that do download and activate the trojan will give access to cyber criminals. Trojans are hard to guard against as they are easy to write and there are many out there, which means that anti-malware programs could find it hard to keep up with them.
           img: cs3_u2_s3_p1_slide4.svg
         -
           title: Ransomware
