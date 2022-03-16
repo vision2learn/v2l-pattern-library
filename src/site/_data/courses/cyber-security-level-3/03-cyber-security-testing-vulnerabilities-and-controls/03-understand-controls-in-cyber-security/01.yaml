@@ -18,10 +18,10 @@ sections:
       In your assessment you will be required to 
   -
   -
-    title: Reveal
+    title: Cyber security controls
     theme: t-bg-primary
     copy: |
-      text
+      _INTRO overview_
 
       Select the images below to read 
 
@@ -29,17 +29,17 @@ sections:
       type: reveal
       content:
         -
-          title: a
+          title: Physical security controls
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: b
+          title: Cyber security controls
           copy: |
             text
           img: placeholder_icon.svg
         -
-          title: c
+          title: Cloud security controls
           copy: |
             text
           img: placeholder_icon.svg
@@ -51,7 +51,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on 3.1.
     video: placeholder_pc.mp4
   -
   -
@@ -69,7 +69,7 @@ sections:
       In your assessment you will be required to 
   -
   -
-    title: slider
+    title: Frameworks
     theme: t-bg-primary
     copy: |
       _Optional item depending on content_
@@ -81,17 +81,17 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Control framework
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Program framework
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Risk framework
           text: |
             text
           img: placeholder_icon.svg
@@ -103,7 +103,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on 3.2.
     video: placeholder_pc.mp4
   -
   -
@@ -135,7 +135,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on 3.3.
     video: placeholder_pc.mp4
   -
   -
