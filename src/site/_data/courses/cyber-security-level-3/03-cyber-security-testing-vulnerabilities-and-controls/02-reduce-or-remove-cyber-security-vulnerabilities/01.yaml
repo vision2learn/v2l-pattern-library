@@ -1,8 +1,17 @@
 title: Reduce or remove potential cyber security vulnerabilities
 intro: |
-  intro text
+  intro text  TBD - TEMPLATE PAGE ONLY
 banner: placeholder.jpg
 sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * one
+      * two
+      * three
+  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
