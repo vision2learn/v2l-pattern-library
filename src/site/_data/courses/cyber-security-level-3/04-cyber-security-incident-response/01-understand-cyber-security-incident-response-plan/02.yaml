@@ -1,4 +1,4 @@
-title: TEMPLATE PAGE
+title: Cyber security incident response plan
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,72 +7,20 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Describe what a cyber security incident response plan is used for
+      * Explain when a cyber security incident response plan is used
+      * Describe the stages of a cyber security incident response lifecycle
   -
-    title: introduction text
+    title: P L A C E H O L D E R item
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      ### title
+
+      TBD - introduction text?
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
   -
   -
     title: Watch 
@@ -81,50 +29,8 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on .
+      Please see the following video on 1.1 and 1.2.
     video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
@@ -144,27 +50,77 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: 
+    subInc: 
+      type: accordion
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        - 
+          title: Implications of not haveing a cyber incident response plan
+          copy: |
+            * The average amount of time that a threat goes undetected in a network is 175 days.
+            * 70% of organisations don’t have a cyber incident response plan in place and are unprepared to respond to a cyber attack.
+            * Organisations must report data breaches/incidents under the GDPR and the NIS Regulations within 72 hours, or face heavy fines.
+            * The average cost for an organisation that has suffered a data breach is £2.94m.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+  -
+    title: The Incident Response lifecycle
+    theme: 
+    
+    copy: |
+      ### What is the Incident Response Lifecycle?
+      
+      1.3 text - base text on NIST example.
+
+
+      Let's look at the different stages involved in the following activity.
+
+    interactive: 
+      file: cs3/u4_s1_p2_incident_response_lifecycle
+      width: 
+      height: 
+      composition: 
+  -
+  -
+    title: Case study - Incident Response Lifecycle
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - SANS Institute
+
+      Another industry standard is the one developed by the SANS Institute, a private organisation that offers information security research and education. The SANS Incident Response Lifecycle has six steps:
+
+      1. Preparation: The organisation’s security policy is reviewed or established, a risk assessment is carried out, sensitive assets are identified and a Computer Security Incident Response Team is formed (CSIRT).
+      2. Identification: The IT team tracks and identifies any deviations from standard activities to identify any safety incidents. This also includes gathering information about the form and severity of any breach.
+      3. Containment: This includes short-term containment by isolating the portion of the network that is under threat, as well as long-term containment.
+      4. Eradication: Remove malware from all infected devices, identify the root cause of the attack and take steps to avoid similar attacks in the future.
+      5. Recovery: Put the affected systems back online and ensure there are no further breaches by testing the affected systems.
+      6. Lessons learned: Conduct a post mortem of the incident. This could include preparing a full incident report, conducting further investigation and analysis, and updating the incident response plan.
+      
+      Organisations may also want to develop their own incident response lifecycle. For each stage of the lifecycle, organisations should also have a checklist. This helps teams to know exactly what to do.
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Why is it important for organisations to have an incident response plan?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about SANs Institute incident response plan
+
+      links:
+        SANS Institute: https://www.sans.org/white-papers/1516/

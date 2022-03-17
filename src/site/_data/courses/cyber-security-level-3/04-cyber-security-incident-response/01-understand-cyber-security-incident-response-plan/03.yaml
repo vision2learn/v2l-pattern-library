@@ -1,13 +1,55 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the ? session of this unit! 
-banner: summary.jpg
+title: Cyber security incident response plan activity
+intro: |
+  intro text
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: introduction text
+    theme: t-bg-primary
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
-  
+      _Introduce learners to activity on this page_ 
+      
+      1.1, 1.2, 1.3 Learners should be aware that the cyber security incident response plan also contains a checklist which is a vital part of the plan. The description and explanation should include reference to the checklist as well as the overall plan. 
+  -
+  -
+    title: Case study - A sample checklist
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study? - 
+
+      _Activity item - this or Read or both?_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Read - Checklist
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _activity item - example of checklist?_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _relate to activity_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _Activity item._
+
+        Why might an organisation want to develop its own incident response plan and checklist, rather than using an industry standard?
