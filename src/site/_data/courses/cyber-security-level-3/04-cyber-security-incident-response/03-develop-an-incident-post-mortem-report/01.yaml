@@ -1,6 +1,6 @@
 title: Incident post mortem report
 intro: |
-  intro text
+  In this session we will look at incident post-mortems and their structure. We will look at some important features and how to create and analyse them.
 banner: placeholder.jpg
 sections:
   -
@@ -8,9 +8,11 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * What is meant by incident post-mortem
+      * The structure of an incident post-mortem
+      * The importance of the following when carrying out an incident post-mortem
+      * How to create a post-mortem report of an incident  
+      * Reflecting upon the report and making recommendations based on findings
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -34,6 +36,10 @@ sections:
     copy: |
       _Presentation style .... _
       
+      ### What is meant by an incident post mortem?
+
+      This is a process by which organisations as soon as possible after an incident will analyse and discuss its consequences to be better prepared should another occur in the future. Let’s have a look at this in more detail in this video.
+
       Please see the following video on 3.1 3.2 3.3
     video: placeholder_pc.mp4
   
@@ -43,16 +49,17 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        In your own words, describe an incident post-mortem.
+        1. In your own words, describe an incident post-mortem.
 
-        Search for a real-life incident report and read over it. What steps were included?
-
+        2. Search for a real-life incident report and read over it. What steps were included?
   -
   -
     title: Importance of Integrity, Rigour, and Discipline
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
+      When carrying out an incident post-mortem those involved need to thoroughly identify the issues looking at the bigger picture rather than a single vulnerability. They also must be prepared to act on any findings however expansive they may be.
+      
+      Finding all the causes of an incident can only occur if the post-mortem process has integrity, rigour and is a disciplined approach. Scroll through the slides below to learn more.
 
     subInc: 
       type: slider
@@ -74,6 +81,14 @@ sections:
             text
           img: placeholder_icon.svg
         
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Define the terms intensity, rigour and discipline as they refer to an incident post-mortem.
   -
   -
     title: On the web

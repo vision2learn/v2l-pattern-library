@@ -7,49 +7,27 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 2.4
+      In your assessment you will be required to develop a cyber security incident response plan for an organisation.
   -
   -
-    title: introduction text
+    title: Cyber security incident response plans
     theme: t-bg-primary
     copy: |
-      _Introduce learners to activity on this page_ 
+      Organisations come in different sizes and purposes and therefore require different cyber security incident plans. But what needs to be considered in all cases that an IR plan can help everyone in an organisation know what to do if an attack happens. 
       
-      2.4
-  -
-  -
-    title: Case study?
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study? - An example inciden Response Plan
+      When designing a plan, the first thing to think about is who will be using it and how many stages of escalation will there be. The plan should also include how to categorise each incident and lay down the ground rules appropriately.
 
-      _Activity item - this or Read or both?_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
   -
   -
-    title: Read - Create a plan template?
+    title: Read
     theme: t-bg-primary2 i-read
     copy: | 
-      _activity item - example of checklist?_
+      ### Example of an Incident Response Plan
 
-      Take a look at the following document about 
+      The following is a fairly detailed IR plan. Many organisations would use a much simpler IR plan. It would likely be contained in a physical folder, as well as online, so it can be referred to in the event of an incident.
 
-      [example doc]().
+      [Incident Response Plan Example]().
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _relate to activity_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -58,4 +36,28 @@ sections:
       copy: |
         _Activity item._
 
-        Create a plan.....
+        Create a plan using the following template .....
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _activity item - template of an Incident Response Plan_
+
+      ### Create an Incident Response Plan - template
+
+      Use the following document to create your own ...... - this can be used as part of your assessment so make sure you save it!
+
+      [Incident Response Plan TEMPLATE]().
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about 
+      
+      links:
+        website description: http://www.google.co.uk

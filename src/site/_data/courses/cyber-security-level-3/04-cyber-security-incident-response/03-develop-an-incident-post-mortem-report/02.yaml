@@ -10,46 +10,77 @@ sections:
       In your assessment you will be required to 3.4 and 3.5
   -
   -
-    title: introduction text
+    title: Post mortem report
     theme: t-bg-primary
     copy: |
+      As we have already discussed once an incident or attack has taken place the Incident response team will conclude the post-mortem process by creating a written report. The organisation may already have a template for this but you may need to be prepared to create your own so let’s have a look at what is involved.
+      
       _Introduce learners to activity on this page_ 
       
       3.4 and 3.5 - Create a post mortem report and reflect and make recommendations based on the findings
   -
   -
-    title: Case study - 3.4
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      ### Incident Post mortem report - example
+      
+      _post mortem report - example from page 23_
+
+      Take a look at the following document which shows an example....
+
+      [example of an incident post mortem report]().
+  -
+  -
+    title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study? - 
+      ### Family-ownd construction company
 
-      _Activity item - this or Read or both?_
+      A small family-owned construction company regularly used online banking. Employees logged in with both a company and user-specific ID and password. Two challenge questions had to be answered for transactions over £1,000.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      One day, the owner was notified that a transfer of £10,000 was initiated by an unknown source. They contacted the bank and identified that in just one week, cyber criminals had made six transfers from the company bank accounts, totalling £550,000. An investigation found that one of their employees had opened an email from what they thought was a materials supplier but was instead a malicious email that contained malware from an imposter account.
+      
+      The attackers were able to install malware onto the company’s computers, using a keylogger to capture the banking credentials. They used this info to access banking and other financial services online, using valid account numbers and passwords.
+
+      The bank was able to retrieve only £200,000 of the stolen money in the first weeks, leaving a loss of £350,000. Not having a cyber security plan in place delayed the company response to the fraud. The company shut down their bank account and pursued legal action to recover its losses.
+
+    img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Read - Post mortem report template?
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _Activity item._
+
+        Now you have seen the example go and read the above case study, write up a very brief incident post-mortem for this incident.
+  -
+  -
+    title: Read - Post mortem report template
     theme: t-bg-primary2 i-read
     copy: | 
       _activity item - interactive post mortem report_
 
-      Take a look at the following document about 
+      Use the following document to create your own ...... - this can be used as part of your assessment so make sure you save it!
 
-      [example doc]().
+      [Incident Post Mortem Repot - TEMPLATE]().
   -
+    title: Reflect and make recommendations
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      There is no right or wrong way to put together a post-mortem report as every incident is different. However, all reports should reflect on the incident and make recommendations based on findings. When reflecting on the report many things need to be taken into consideration such as:
+      * support from senior management,
+      * the exact threats and risks to an organisation, 
+      * the current security capabilities, 
+      * the organisations available budget, 
+      * and who will ultimately make the decisions.
+
+    img: /images/svg/placeholder_icon.svg
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _relate to activity_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -60,12 +91,14 @@ sections:
 
         Reflect upon the report and make recommendations based on the findings
   -
-    title: Read - Post mortem recommendations template?
+    title: Read
     theme: t-bg-primary2 i-read
     copy: | 
+      ### Post mortem recommendations template
+      
       _activity item - interactive recommendations report_
 
-      For the previous case study, reflect on the incident post-mortem that you drew up and make recommendations based on the findings.
+      For the previous case study, reflect on the incident post-mortem that you drew up and make recommendations based on the findings.  - this can be used as part of your assessment so make sure you save it!
 
-      [example doc]()
+      [Post mortem recommendations - TEMPLATE]()
 
