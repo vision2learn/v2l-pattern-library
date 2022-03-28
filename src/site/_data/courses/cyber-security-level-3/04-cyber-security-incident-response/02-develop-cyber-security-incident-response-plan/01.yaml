@@ -16,7 +16,10 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 2.1 2.2 2.3
+      In your assessment you will be required to explain:
+      * Why it is important to maintain an up to date cyber security incident log
+      * The steps to be included within a cyber security incident response plan
+      * Why it is important to have a cyber security incident response plan
   -
     title: P L A C E H O L D E R item
     layout: media
@@ -33,7 +36,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Cyber Security Incident Log
       
       When dealing with cyber security incidents it is important to maintain an up-to-date cyber security incident log, but what does this consist of? Please see the following video to learn more.
 
