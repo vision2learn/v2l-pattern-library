@@ -1,13 +1,121 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! 
-banner: summary.jpg
+title: Reduce or remove potential cyber security vulnerabilities
+intro: |
+  intro text
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
-  
+      In your assessment you will be required to 
+  -
+  -
+    title: P L A C E H O L D E R item
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### ACTIVITY of some kind
+
+      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - ABC Zipper
+
+      _Stretch and challenge on p20_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _ABC Zipper _
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _2.3_
+      
+      ### Apply the correct response to the vulnerability
+
+      Please see the following video on .
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _2.3_
+
+  -
+  -
+    title: P L A C E H O L D E R item
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### ACTIVITY of some kind
+
+      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - ANU
+
+      ANU case study from p22 ???? reference assessment
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _2.4 communicaiotn to mitigate future vulnerabilities_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _2.4_
+
+        What methods might you use to report the following vulnerabilities, and why?
+        * software that needs a regular security update from the manufacturer
+        * a serious hacking attempt where attackers gained access to the system from a subnet
+        * an employee who clicked on a link in an email from someone they did not know
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
