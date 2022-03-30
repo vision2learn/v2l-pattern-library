@@ -1,0 +1,13 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the fourth session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * How to apply controls
+      * How a basic cyber security control is implemented
+      * How to justify the implementation of the chosen cyber security control
+      * Why a control might not be applied
