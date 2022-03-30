@@ -1,13 +1,76 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the fourth session of this unit! 
-banner: summary.jpg
+title: Apply a cyber security control - ACTIVITY PAGE
+intro: |
+  In our previous session we have looked at cyber security controls but how do you actually apply them?
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Introduction
+    theme: t-bg-primary
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
+      Introduction text to activity
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * explain how to apply controls
+      * 4.2
+      * 4.3
+      * 4.4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - example of a control
+
+      Read through this case study and then do the tasks below ....
+
+    img: /images/svg/cs3/placeholder_icon.svg
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      _Download instructions for three documents_
+
+      _1 - 4.1 - READ interactive - or this could be within the assessment_
+      
+      _2 - 4.2 - Word document to put screen shots in - see below example text_
+      
+      _3 - 4.3 and 4.4 - READ interactive - or this could be within the assessment_
+
+    
+      Now that you have learnt about implementing a basic security control, its time to try this out.  Download the instructions and the practice document to show how you have implemented a basic security control using screenshots. 
+      
+      [Instructions on ....](/pdfs/cs3_u3_s4_p1_read.pdf)
+
+      [practice document....](/pdfs/cs3_u3_s4_p1_practice.doc)
+  
+  -
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _May use this instead of 'Time to Practice' ?_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _further example of control_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  
   

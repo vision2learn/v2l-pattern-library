@@ -7,10 +7,11 @@ sections:
     title: What you will learn
     theme: t-bg-primary
     copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
+      In this session you will learn:
+      * How to apply controls
+      * How a basic cyber security control is implemented
+      * How to justify the implementation of the chosen cyber security control
+      * Why a control might not be applied
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -23,7 +24,7 @@ sections:
     copy: |
       ### How to apply controls
       
-      Please see the following video to learn more.
+      Please see the following video to learn more. _4.1 and 4.4 (Email Beverley re script changes)_
     video: placeholder_pc.mp4
   -
     title: Time to practice
@@ -85,12 +86,6 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
       In your assessment you will be required to implement a basic cyber security control.
   -
   -
@@ -98,22 +93,50 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Implement a basic cyber security control
+      ### Implement a basic cyber security control - INSTRUCTIONS
       
       Please see the following video to get instructions on how to.
     video: placeholder_pc.mp4
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 4.3
+  -
+  -
+    title: Justify the implementation of the chosen cyber security control
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides below to learn more about ...
 
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Risk
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Cost
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Context
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Regulation
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Benefits
+          text: |
+            text
+          img: placeholder_icon.svg
   
