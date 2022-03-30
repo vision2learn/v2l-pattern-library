@@ -5,43 +5,46 @@ banner: placeholder.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
-  -
+      * Cyber security vulnerabilities
+      * The steps to be taken when a vulnerability has been identified
+      * How to apply the correct response to the vulnerability
+      * How to develop an appropriate communication to mitigate future vulnerabilities
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to 2.1
   -
   -
-    title: slider
+    title: Cyber security vulnerabilities
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content - replace with a Section or Reveals if necessary_
-    
-      Scroll through the slides below to learn more about ...
+      There are many different types of cyber security vulnerabilities these are based on where a vulnerability exists but they can be broken down into 4 types.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Network vulnerabilities
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Operating System vulnerabilities
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Human vulnerabilities
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Process vulnerabilities
           text: |
             text
           img: placeholder_icon.svg
@@ -51,9 +54,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### 
       
-      Please see the following video on .
+      In this video let’s look at some of the cyber security vulnerabilities in more detail.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -61,50 +64,15 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Research one or more types of cyber security vulnerability to learn more about it, how attackers use it and how it can be combatted.
 
   -
   -
-    title: P L A C E H O L D E R item
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      ### ACTIVITY of some kind
-
-      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _EXAMPLE of document_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+      ### 2.2 What to do in the event of a vulnerability
+      
+      In this video let’s look at what to do in the event of a vulnerability.
+    video: placeholder_pc.mp4

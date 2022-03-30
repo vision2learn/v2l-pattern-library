@@ -1,6 +1,6 @@
 title: Apply a cyber security control
 intro: |
-  intro text
+  In our previous session we have looked at cyber security controls but how do you actually apply them?
 banner: placeholder.jpg
 sections:
   -
@@ -15,32 +15,15 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on - INTRO video 4.1 and 4.4.
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
+      In your assessment you will be required to explain how to apply controls.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### How to apply controls
       
-      Please see the following video on - INSTRUCTIONAL VIDEO and T2T - 4.2
+      Please see the following video to learn more.
     video: placeholder_pc.mp4
   -
     title: Time to practice
@@ -96,9 +79,29 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _4.3 activity_
-
-        question or activity
+        Research the steps involved in applying a particular cyber security control.
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to implement a basic cyber security control.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Implement a basic cyber security control
+      
+      Please see the following video to get instructions on how to.
+    video: placeholder_pc.mp4
   -
   -
     title: On the web

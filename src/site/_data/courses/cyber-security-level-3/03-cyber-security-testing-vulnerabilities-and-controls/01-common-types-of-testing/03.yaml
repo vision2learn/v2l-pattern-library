@@ -7,13 +7,13 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to 1.5, 1.6, 1.7
   -
   -
     title: Testing
     theme: t-bg-primary
     copy: |
-      _Introduction slides_
+      _Intro item_
     
       Scroll through the slides below to learn more about ...
 
@@ -42,46 +42,36 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Importance of retesting and reporting outcomes
       
       Please see the following video on 1.5, 1.6, 1.7.
     video: placeholder_pc.mp4
-  -
-  -
-    title: Did you know?
-    theme: t-bg-primary1a
-    copy: |
-      
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: title
-          copy: |
-            Text
-
-            _If there is a link - create a 'on the web' item so it opens in a new tab_
-            
-          img: /images/svg/cs3/cs3_did_you_know.svg
-  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _Activity with the READ_
-
+        What can happen if an organisation does not conduct remediation verification testing?
   -
   -
-    title: Read - 
+    title: Read
     theme: t-bg-primary2 i-read
     copy: | 
-      _activity item_
+      ### Security Testing Report
 
-      Take a look at the following document about 
+      _use example on Did you know on P13 of workbook_
 
-      [example doc]().
+      Take a look at the following document to see an example of the sections that may be included in a security testing report.
+
+      [Security Testing Report example doc]().
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What are some of the risks of not reporting the results of cyber security testing?
   -
   -
     title: On the web

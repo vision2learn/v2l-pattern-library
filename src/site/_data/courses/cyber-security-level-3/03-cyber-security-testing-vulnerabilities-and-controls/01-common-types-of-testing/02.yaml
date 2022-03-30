@@ -1,21 +1,19 @@
 title: Understand common types of testing in cyber security
 intro: |
-  intro text
+  In this session we will look at the common types of testing in cyber security, why testing is important and the mitigations that follow testing.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain different types of cyber security testing.
   -
   -
-    title: Different types of cyber security testing
+    title: Cyber security testing
     theme: t-bg-primary
     copy: |
-      text
-
-      Select the images below to read 
+      Cyber security testing uses a range of methodologies and different tactics to measure how effective cyber security strategy is against a potential attack.
 
     subInc: 
       type: reveal
@@ -26,56 +24,82 @@ sections:
             text
           img: placeholder_icon.svg
         -
-          title: b
-          copy: |
+          title: Vulnerability scanning
+          text: |
             text
           img: placeholder_icon.svg
         -
-          title: c
-          copy: |
+          title: Security scanning 
+          text: |
             text
           img: placeholder_icon.svg
         -
-          title: d
-          copy: |
+          title: Penetration testing
+          text: |
             text
           img: placeholder_icon.svg
         -
-          title: e
-          copy: |
+          title: Social engineering testing
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Ethical hacking / Red teaming
+          text: |
             text
           img: placeholder_icon.svg
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 1.1 and 1.2.
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _T2T and Stretch activity_
-
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
+        Explain when you might use each of the following types of test:
+        * vulnerability scanning
+        * ethical hacking/red teaming
+        * social engineering testing
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Importance of cyber security testing
+      
+      Why is cyber security testing important? Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  
+  -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: McKinsey report
+          copy: |
+            According to a report by McKinsey, many companies report thousands of attacks every month, ranging from the trivial to the extremely serious. Several billion data sets are breached annually.
+
+            Every year, hackers produce some 120 million new variants of malware. At some global companies, the chief information security officer (CISO) has a team of more than 2,000 people.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 1.3 and 1.4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Compare types of cyber security testing and mitigations
       
       Please see the following video on 1.3 and 1.4.
     video: placeholder_pc.mp4
@@ -87,29 +111,17 @@ sections:
     copy: |
       ### Example of an evaluation - advantages and disadvantages
 
-      Select the following icon to have a go at an activity to learn more about .....
+      TBD - DnD - Pros and Cons?
 
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: 
+      [example doc](/pdfs/  ---filename----  ).
   -
-  
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _T2T and READ activity_
-
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      Take a look at the following example of :
-
-      [example doc](/pdfs/  ---filename----  ).
+        Link to Read? - Stretch and challenge - see workbook P9 and or P11 Case study - ABC Zipper company? - Assessment?
   -
   -
     title: On the web
