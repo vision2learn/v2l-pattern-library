@@ -34,8 +34,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
       ### What is meant by an incident post mortem?
 
       This is a process by which organisations as soon as possible after an incident will analyse and discuss its consequences to be better prepared should another occur in the future. Let’s have a look at this in more detail in this video.
@@ -68,7 +66,9 @@ sections:
         -
           title: Integrity
           text: |
-            text
+            Integrity is important in cyber security as a lack of it from an employee or department can lead to a security breach. Any broken link in the chain can lead to a breach and most of it is preventable with foresight and training. Mistakes make by individual employees can have an impact on a business.
+
+            To deal with integrity issues a company could focus on building a company culture with well-defined principles.
           img: placeholder_icon.svg
         -
           title: Rigour

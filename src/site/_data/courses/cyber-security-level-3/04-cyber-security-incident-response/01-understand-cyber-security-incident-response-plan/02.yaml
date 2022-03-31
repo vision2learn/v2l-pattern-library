@@ -24,7 +24,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Cyber security incident response plan
       
       What exactly is a cyber security incident response plan? Please see the following video to learn more.
     video: placeholder_pc.mp4
@@ -44,8 +44,8 @@ sections:
           sentence: A plan should provide a checklist approach so that actions are consistent across all areas appropriate to the plan.
           answer: checklist
         -
-          sentence: example four
-          answer: four
+          sentence: Incident response planning can help to protect a system by planning for security alerts to detect any malicious activity.
+          answer: planning
     theme: i-quiz
   -
   -
@@ -56,7 +56,7 @@ sections:
       type: accordion
       content:
         - 
-          title: Implications of not haveing a cyber incident response plan
+          title: Implications of not having a cyber incident response plan
           copy: |
             * The average amount of time that a threat goes undetected in a network is 175 days.
             * 70% of organisations don’t have a cyber incident response plan in place and are unprepared to respond to a cyber attack.
