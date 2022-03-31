@@ -26,7 +26,7 @@ sections:
 
       Let's look at the different stages involved in the following activity.
 
-      _TBD, may change this to a different kind of item_
+      _This will be an Animate activity_
 
     interactive: 
       file: cs3/u4_s1_p2_incident_response_lifecycle
@@ -35,30 +35,39 @@ sections:
       composition: 
   -
   -
-    title: Case study - Incident Response Lifecycle
-    layout: media
+    title: Case study
     theme: t-bg-primary1a i-case-study
     copy: |
       ### Case study - SANS Institute
 
-      Another industry standard is the one developed by the SANS Institute, a private organisation that offers information security research and education. The SANS Incident Response Lifecycle has six steps:
+      Another industry standard is the one developed by the SANS Institute, a private organisation that offers information security research and education.
 
-      1. Preparation: The organisation’s security policy is reviewed or established, a risk assessment is carried out, sensitive assets are identified and a Computer Security Incident Response Team is formed (CSIRT).
-      2. Identification: The IT team tracks and identifies any deviations from standard activities to identify any safety incidents. This also includes gathering information about the form and severity of any breach.
-      3. Containment: This includes short-term containment by isolating the portion of the network that is under threat, as well as long-term containment.
-      4. Eradication: Remove malware from all infected devices, identify the root cause of the attack and take steps to avoid similar attacks in the future.
-      5. Recovery: Put the affected systems back online and ensure there are no further breaches by testing the affected systems.
-      6. Lessons learned: Conduct a post mortem of the incident. This could include preparing a full incident report, conducting further investigation and analysis, and updating the incident response plan.
-      
-      Organisations may also want to develop their own incident response lifecycle. For each stage of the lifecycle, organisations should also have a checklist. This helps teams to know exactly what to do.
+      Organisations may also want to develop their own incident response lifecycle. For each stage of the lifecycle, organisations should also have a checklist. This helps teams to know exactly what to do. The SANS Incident Response Lifecycle has six steps:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: SANS Incident Response Lifecycle
+          copy: |
+            __1. Preparation:__ The organisation’s security policy is reviewed or established, a risk assessment is carried out, sensitive assets are identified and a Computer Security Incident Response Team is formed (CSIRT).
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+            __2. Identification:__ The IT team tracks and identifies any deviations from standard activities to identify any safety incidents. This also includes gathering information about the form and severity of any breach.
+            
+            __3. Containment:__ This includes short-term containment by isolating the portion of the network that is under threat, as well as long-term containment.
+            
+            __4. Eradication:__ Remove malware from all infected devices, identify the root cause of the attack and take steps to avoid similar attacks in the future.
+            
+            __5. Recovery:__ Put the affected systems back online and ensure there are no further breaches by testing the affected systems.
+            
+            __6. Lessons learned:__ Conduct a post mortem of the incident. This could include preparing a full incident report, conducting further investigation and analysis, and updating the incident response plan.
+            
+          img: /images/svg/placeholder_icon.svg     
   -
   -
     title: Read - Checklist
     theme: t-bg-primary2 i-read
     copy: | 
-      _activity item - example of checklist - from page 7 of NCFE workbook_
+      _Example of checklist - from page 7 of NCFE workbook_
 
       Take a look at the following example of a checklist.
 
@@ -69,9 +78,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Activity item._
-
-        Why might an organisation want to develop its own incident response plan and checklist, rather than using an industry standard?
+        Why might an organisation want to develop it's own incident response plan and checklist, rather than using an industry standard?
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
