@@ -10,25 +10,17 @@ sections:
       In this session you will learn about:
       * What is meant by incident post-mortem
       * The structure of an incident post-mortem
-      * The importance of the following when carrying out an incident post-mortem
+      * The importance of integity, rigour and discipline when carrying out an incident post-mortem
       * How to create a post-mortem report of an incident  
       * Reflecting upon the report and making recommendations based on findings
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 3.1 3.2 3.3
-  -
-    title: P L A C E H O L D E R item
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### title
-
-      TBD - introduction text / slides or reveals 
-
-    img: /images/svg/placeholder_icon.svg
-  -
+      In your assessment you will be required to explain:
+      * what is meant by an incident post-mortem
+      * the structure of an incident post-mortem
+      * the importance of integity, rigour and discipline when carrying out an incident post-mortem
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -37,10 +29,42 @@ sections:
       ### What is meant by an incident post mortem?
 
       This is a process by which organisations as soon as possible after an incident will analyse and discuss its consequences to be better prepared should another occur in the future. Let’s have a look at this in more detail in this video.
-
-      Please see the following video on 3.1 3.2 3.3
     video: placeholder_pc.mp4
-  
+  -
+  -
+    title: Quick quiz
+    copy: Select one of the drop-down options to complete the sentences.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A meeting would be set up with all of the people who were involved in incident response in order to discuss the incident.
+          answer: meeting
+        -
+          sentence: Team members must know the incident was blameless. This is very important. 
+          answer: blameless
+        -
+          sentence: The post-mortem report would created and would include incident details which explains what happened, what was impacted by the incident and any other incident information.
+
+          answer: incident details
+        -
+          sentence: The post-mortem report once created would be disseminated and conclusions would be given.
+          answer: conclusions
+        -
+          sentence:  If the post-mortem report included any recommendations for actions to take, there would be a follow up.
+          answer: follow up
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about a post-mortem checklist.
+
+      links:
+        digitalguardian - post mortem checklist: https://digitalguardian.com/blog/learning-security-incident-post-mortem-checklist
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -73,12 +97,19 @@ sections:
         -
           title: Rigour
           text: |
-            text
+            Looking at the attack in a rigorous way is also an important part of incident post-mortems. For example, you can ask questions such as: 
+            1. Was the organisation caught out by making assumptions? Did monitoring fail? 
+            2. Was something not specified clearly enough to ensure that everyone was on the same page? 
+            3. Did something go unmaintained because in-house staff were under-resourced? 
+            4. Were staff under-trained so that they didn’t recognise something they should have? 
+            5. Was someone in charge of staying up to date on threats?
           img: placeholder_icon.svg
         -
           title: Discipline
           text: |
-            text
+            Discipline is another important component of the post-mortem process. This means, in part, making sure that you are being thorough and comprehensive, rather than just finding obvious signs of vulnerability, such as incorrect firewall configurations, software bugs, rootkits and so on without looking at the bigger picture of what may be causing those things to happen. 
+            
+            For example, is poor software engineering practice, lax employee security or not having the right anti-virus tools an underlying cause? Is overwork of the IT team or a lack of configuration management for systems causing mistakes?
           img: placeholder_icon.svg
         
   -
@@ -89,58 +120,3 @@ sections:
       type: time-to-think
       copy: |
         Define the terms intensity, rigour and discipline as they refer to an incident post-mortem.
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

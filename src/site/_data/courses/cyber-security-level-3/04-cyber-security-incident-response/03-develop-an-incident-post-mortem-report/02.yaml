@@ -1,23 +1,21 @@
-title: Create a post mortem report of an incident - activity
+title: Create a post mortem report of an incident activity
 intro: |
-  intro text - Activity page 2.4
+  On this page we are going to look at an example of a cyber security incident post-mortem report, and a case study to help you to create a cyber security incident post-mortem report (with recommendations) which you will use as part of your assessment.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 3.4 and 3.5
+      In your assessment you will be required to:
+      * Create a post mortem report of an incident
+      * Reflect upon the report and make recommendations based on the findings
   -
   -
     title: Post mortem report
     theme: t-bg-primary
     copy: |
       As we have already discussed once an incident or attack has taken place the Incident response team will conclude the post-mortem process by creating a written report. The organisation may already have a template for this but you may need to be prepared to create your own so let’s have a look at what is involved.
-      
-      _Introduce learners to activity on this page_ 
-      
-      3.4 and 3.5 - Create a post mortem report and reflect and make recommendations based on the findings
   -
   -
     title: Read
@@ -27,16 +25,24 @@ sections:
       
       _post mortem report - example from page 23_
 
-      Take a look at the following document which shows an example....
+      Take a look at the following document which shows an example of a Cyber Security Incident post-mortem report.
 
-      [example of an incident post mortem report]().
+      [Incident post mortem report - example]().
   -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Take a look at the following case study and write up a very brief incident post-mortem for this incident using the following [Cyber Security Incident Post Mortem Report]() template document.
+      
+      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
+
   -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Family-ownd construction company
+      ### Family-owned construction company
 
       A small family-owned construction company regularly used online banking. Employees logged in with both a company and user-specific ID and password. Two challenge questions had to be answered for transactions over £1,000.
 
@@ -49,24 +55,10 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _Activity item._
-
-        Now you have seen the example go and read the above case study, write up a very brief incident post-mortem for this incident.
-  -
-  -
-    title: Read - Post mortem report template
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _activity item - interactive post mortem report_
-
-      Use the following document to create your own ...... - this can be used as part of your assessment so make sure you save it!
-
-      [Incident Post Mortem Repot - TEMPLATE]().
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      You will also need to reflect on the incident post-mortem and make recommendations based on the findings. Include within your document your recommendations taking into consideration the following points.
   -
     title: Reflect and make recommendations
     layout: media
@@ -80,25 +72,3 @@ sections:
       * and who will ultimately make the decisions.
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _Activity item._
-
-        Reflect upon the report and make recommendations based on the findings
-  -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Post mortem recommendations template
-      
-      _activity item - interactive recommendations report_
-
-      For the previous case study, reflect on the incident post-mortem that you drew up and make recommendations based on the findings.  - this can be used as part of your assessment so make sure you save it!
-
-      [Post mortem recommendations - TEMPLATE]()
-
