@@ -8,17 +8,19 @@ sections:
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to 
+      * demonstrate the steps to be taken when a vulnerability has been identified
+      * 2.3
+      * 2.4
   -
   -
-    title: P L A C E H O L D E R item
-    layout: media
-    theme: t-bg-primary
+    title: Example of a process map
+    theme: 
     copy: |
-      ### ACTIVITY of some kind
+      One way of demonstrating the steps that need to taken when a vulnerability has been identified is to use a process map.
+      
+      The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
 
-      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
-
-    img: /images/svg/placeholder_icon.svg
+      ![](/images/svg/ln/lm_u1_s3_p1_tv_flowchart.svg)
   -
   -
     title: Case study
@@ -27,20 +29,21 @@ sections:
     copy: |
       ### Case study - ABC Zipper
 
-      _Stretch and challenge on p20_
+      In your work for ABC Zipper, you use testing to discover a number of different security vulnerabilities: 
+      * a software backdoor (a way for hackers to gain access) that has been in the system for the past 5 years and has never been used by hackers; 
+      * software that does not have the latest patch (it is 1 week out of date); 
+      * an insecure application user interface that could make all of ASC’s top-secret zipper designs and customer information accessible to hackers; 
+      * and a back entrance to the building that is never locked because workers like to sneak in and out of it to go for smoke breaks. 
+      
+      How would you prioritise which vulnerabilities to fix first and why? Which steps would you use to manage these vulnerabilities?
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _ABC Zipper _
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Use the following [flowchart template]() document to show the steps that need to be taken for the ABC Zipper case study.
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -62,13 +65,33 @@ sections:
 
   -
   -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
     title: P L A C E H O L D E R item
     layout: media
     theme: t-bg-primary
     copy: |
-      ### ACTIVITY of some kind
+      ### 2.4 Develop an appropriate communication to mitigate future vulnerabilities
 
-      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
+      Item needed here
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -77,21 +100,22 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - ANU
+      ### Case study - ANU ?? THIS ONE OR A DIFFERENT ONE??
 
-      ANU case study from p22 ???? reference assessment
+      In 2018, a threat actor launched an attack on Australia National University (ANU) and gained access to the system containing confidential information about student administration, financial management and human resources. This breach allowed the attacker to steal an unknown quantity of information.
+
+      The attack was launched at first with spear phishing emails, to try and gain the login credentials of an administrator or someone with access to targeted systems. A senior staff member received this email and did not click on or open the window, only previewing it before deleting the email. But the malicious code in the email did not require more interaction from the staff member in order to steal their login credentials as well as access their calendar.
+
+      All the emails sent by the attacker looked legitimate and used information from ANU’s website to create believable emails. With each extra piece of information, the attacker found it easier to gain the next login credentials and more access to the network. 
+      In late November 2018, ANU put in place a remediation plan that included a routine firewall change, which removed the attacker’s access to the system. The actor, however, immediately began activity to get back into the network, and successfully regained access after two weeks. ANU was able to detect the next spear phishing campaign and remove the actor again. There were several more attacks after this, but the attacks were unsuccessful and stopped in March 2019.
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _2.4 communicaiotn to mitigate future vulnerabilities_
-
-      Take a look at the following document about 
-
-      [example doc]().
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Use the following [communications to mitigate future vulnerabilities template]() document to show the steps that were taken for the above ANU case study?.  THIS IS 2.4 BUT WHAT ABOUT 2.3?
   -
   -
     title: Time to think
