@@ -7,7 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain different types of cyber security testing.
+      In your assessment you will be required to:
+      * Explain different types of cyber security testing
+      * Identify why cyber security testing is important
   -
   -
     title: Cyber security testing
@@ -26,27 +28,27 @@ sections:
         -
           title: Vulnerability scanning
           text: |
-            text
+            Is using automated software to scan for and find system vulnerabilities identifying security weaknesses and flaws in systems and software running on them. A simple vulnerability scan may involve checking software against lists of known issues, or trying a brute force attack to see if they are secure.
           img: placeholder_icon.svg
         -
           title: Security scanning
           text: |
-            text
+            Uses both manual tools and automated software to assesses the general security level such by detecting weak points and loopholes in the security of a website, web-based program or network system. The more intricate the system the more complicated the security scan will be, and these can be done regularly or as a one-time check.
           img: placeholder_icon.svg
         -
           title: Penetration testing
           text: |
-            text
+            Combines automated and manual techniques and is done by trusted, certified security experts. The two most common forms are application penetration testing, to detect technical vulnerabilities, and infrastructure penetration testing, which examines servers, firewalls, and other hardware. Pentesters simulate a malicious attack and their goal is to expose unknown vulnerabilities such as zero-day threats and business logic flaws. They use vulnerability identification for web applications and Scenario-driven testing.
           img: placeholder_icon.svg
         -
           title: Social engineering testing
           text: |
-            text
+            Is the practice of attempting to perform social engineering scams on a company’s employees to check out the level of vulnerabilities and to test the employees use of security policies and guidance. The goal is to find out how successful security training is and where there is need for improvement. Tests that may be tried may involve looking for physical vulnerabilities, or phishing scams.
           img: placeholder_icon.svg
         -
           title: Ethical hacking / Red testing
           text: |
-            text
+            Is designed to take a hacker like approach to detect vulnerabilities. It involves a simulation test in which a hacker or group of hackers try to break into a system. A red team attack is a team exercise designed to see how well an organisation responds to an attack, and the rules of engagement will be agreed in advance.
           img: placeholder_icon.svg
   -
   -
@@ -92,7 +94,9 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 1.3 and 1.4
+      In your assessment you will be required to:
+      * Compare types of cyber security testing
+      * Consider mitigations following cyber security testing 
   -
   -
     title: Watch 
@@ -101,7 +105,7 @@ sections:
     copy: |
       ### Compare types of cyber security testing and mitigations
       
-      Please see the following video on 1.3 and 1.4.
+      Please see the following video to learn about types of cyber security testing and mitigations following the testing.
     video: placeholder_pc.mp4
   -
   -

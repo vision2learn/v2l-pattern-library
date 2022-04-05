@@ -1,6 +1,6 @@
 title: Reduce or remove potential cyber security vulnerabilities
 intro: |
-  intro text
+  On this page the focus will be on demonstrate the steps to be taken, how to apply the correct responses to a vulnerability, and how to develop the appropriate communications strategy to mitigate future vulnerabilities.
 banner: placeholder.jpg
 sections:
   -
@@ -9,25 +9,121 @@ sections:
     copy: |
       In your assessment you will be required to 
       * demonstrate the steps to be taken when a vulnerability has been identified
-      * 2.3
-      * 2.4
+      * apply the correct response to the vulnerability
+      * develop an appropriate communication to mitigate future vulnerabilities
+  -
+  -
+    title: Symbols and terminology
+    theme: t-bg-supporting3
+    copy: |
+      One way of demonstrating the steps that need to taken when a vulnerability has been identified is to use a **process map**.
+      
+      One popular method of process mapping is the creation of **flowcharts**. 
+
+      A flowchart provides a method for mapping the interlinked activities and tasks that form a process. It can help organisations to detect any problems that occur in processes.
+
+      Flowcharts work using symbols. Select each symbol below to learn more. 
+
+    subInc: 
+        type: reveal
+        content:
+            -
+                title: Start or End flow
+                copy: |
+                    Example:
+                    * Receive complaint
+                    * Receive request
+                    * Proposal
+
+                img: lm_u1_s3_p1_symbol_startend_1.svg
+            -
+                title: Process or activity
+                copy: |
+                    Example:
+                    * Hold a meeting
+                    * Make a phone call
+                    * Send a request
+                img: lm_u1_s3_p1_symbol_process_1.svg
+            -
+                title: Decision
+                copy: |
+                    Example:
+                    * Yes / No
+                    * Agree / Disagree
+                    * Pass / Fail
+                img: lm_u1_s3_p1_symbol_decision_1.svg
+            -
+                title: Document
+                copy: |
+                    Example:
+                    * Report is completed 
+                    * Meeting minutes 
+                    * Form is filled out
+                img: lm_u1_s3_p1_symbol_document_1.svg
+            -
+                title: Storage
+                copy: |
+                    Example:
+                    * Store documents
+                    * stack envelopes
+                    * File contacts
+                img: lm_u1_s3_p1_symbol_storage_1.svg
+            -
+                title: Database
+                copy: |
+                    Example:
+                    * Stock files
+                    * Order files
+                    * Sales record
+                img: lm_u1_s3_p1_symbol_database_1.svg
+    
+  -
+    title: The flow chart process
+    theme: t-bg-primary
+    copy: |
+      ### Main Steps
+
+      1. Identify all of the key processes or activities. You may write these on cards or sticky notes.
+      2. Sequence these processes on a large piece of paper.
+      3. Work through the sequence from start to finish, identifying key decisions and resulting documentation.
+      4. Finalise the sequence. Focus on links between processes, decisions and outputs.
+      5. Produce the final flowchart, checking you’ve involved all key personnel.
   -
   -
     title: Example of a process map
     theme: 
     copy: |
-      One way of demonstrating the steps that need to taken when a vulnerability has been identified is to use a process map.
-      
       The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
 
       ![](/images/svg/ln/lm_u1_s3_p1_tv_flowchart.svg)
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Response and communication to a vulnerability
+
+      Please see the following video on applying the correct response to a vulnerability, and developing an appropriate communication to mitigate future vulnerabilities.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What methods might you use to report the following vulnerabilities, and why?
+        * software that needs a regular security update from the manufacturer
+        * a serious hacking attempt where attackers gained access to the system from a subnet
+        * an employee who clicked on a link in an email from someone they did not know
   -
   -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - ABC Zipper
+      ### Case study - ABC Zipper 
+      
+      _To be replaced by Grange Secondary School case study - this left in for reference purposes_
 
       In your work for ABC Zipper, you use testing to discover a number of different security vulnerabilities: 
       * a software backdoor (a way for hackers to gain access) that has been in the system for the past 5 years and has never been used by hackers; 
@@ -43,103 +139,9 @@ sections:
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Use the following [flowchart template]() document to show the steps that need to be taken for the ABC Zipper case study.
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _2.3_
-      
-      ### Apply the correct response to the vulnerability
+      For the Grange Secondary School Case study use the following [Unit 4 Section 2 Assessment]() document to show the following:
+      * the steps that need to be taken
+      * response to the vulnerability
+      * communications to mitigate future vulnerabilities.
 
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _2.3_
-
-  -
-  -
-    title: Quick quiz
-    copy: 
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  -
-  -
-    title: P L A C E H O L D E R item
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### 2.4 Develop an appropriate communication to mitigate future vulnerabilities
-
-      Item needed here
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - ANU ?? THIS ONE OR A DIFFERENT ONE??
-
-      In 2018, a threat actor launched an attack on Australia National University (ANU) and gained access to the system containing confidential information about student administration, financial management and human resources. This breach allowed the attacker to steal an unknown quantity of information.
-
-      The attack was launched at first with spear phishing emails, to try and gain the login credentials of an administrator or someone with access to targeted systems. A senior staff member received this email and did not click on or open the window, only previewing it before deleting the email. But the malicious code in the email did not require more interaction from the staff member in order to steal their login credentials as well as access their calendar.
-
-      All the emails sent by the attacker looked legitimate and used information from ANU’s website to create believable emails. With each extra piece of information, the attacker found it easier to gain the next login credentials and more access to the network. 
-      In late November 2018, ANU put in place a remediation plan that included a routine firewall change, which removed the attacker’s access to the system. The actor, however, immediately began activity to get back into the network, and successfully regained access after two weeks. ANU was able to detect the next spear phishing campaign and remove the actor again. There were several more attacks after this, but the attacks were unsuccessful and stopped in March 2019.
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Use the following [communications to mitigate future vulnerabilities template]() document to show the steps that were taken for the above ANU case study?.  THIS IS 2.4 BUT WHAT ABOUT 2.3?
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _2.4_
-
-        What methods might you use to report the following vulnerabilities, and why?
-        * software that needs a regular security update from the manufacturer
-        * a serious hacking attempt where attackers gained access to the system from a subnet
-        * an employee who clicked on a link in an email from someone they did not know
-
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+      Remember that this document will be part of your Unit 4 assessment so make sure you save it with your name.
