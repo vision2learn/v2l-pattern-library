@@ -18,13 +18,9 @@ sections:
       Cyber security testing uses a range of methodologies and different tactics to measure how effective cyber security strategy is against a potential attack.
 
     subInc: 
-      type: reveal
-      content:
-        -
-          title: Security scanning
-          copy: |
-            text
-          img: placeholder_icon.svg
+      type: slider
+      title: 
+      slides:
         -
           title: Vulnerability scanning
           text: |
