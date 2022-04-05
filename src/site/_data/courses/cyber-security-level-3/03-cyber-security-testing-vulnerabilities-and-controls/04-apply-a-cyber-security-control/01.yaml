@@ -27,54 +27,6 @@ sections:
       Please see the following video to learn more.
     video: placeholder_pc.mp4
   -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Now you have watched the videos, have a go at . .  in the following [practice document]().
-
-      OR
-
-      on the following website . . . .
-      
-      [website description](https://wwww.google.co.uk)
-  -
-  -
-    title: Justify the implementation of the chosen cyber security control
-    theme: t-bg-primary
-    copy: |
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Risk
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Cost
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Context
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Regulation
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Benefit
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
