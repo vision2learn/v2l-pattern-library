@@ -22,9 +22,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### How to apply controls and
+      ### How to apply controls
       
-      Please see the following video to learn more. _4.1 and 4.4 (Email Beverley re script changes)_
+      Please see the following video to learn more.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -47,20 +47,20 @@ sections:
     copy: |
       ### Implement a basic cyber security control - INSTRUCTIONS
       
-      Please see the following video to get instructions on how to.
+      Please see the following video to get instructions on how to implement a basic cyber security control.
     video: placeholder_pc.mp4
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 4.3
+      In your assessment you will be required to justify the implementation of the chosen cyber security control.
   -
   -
     title: Justify the implementation of the chosen cyber security control
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
+      Whatever cyber control you end up applying, you will likely need to justify it to your line manager, especially if it is a new control, or one that will cost a lot of money to implement. If your organisation uses a security framework, then the justification will likely be included in the framework, and you can refer to this. When justifying the implementation of a particular cyber security control, you should consider the following:
 
     subInc: 
       type: slider
@@ -69,26 +69,26 @@ sections:
         -
           title: Risk
           text: |
-            text
+            How does the control mitigate or address a serious risk? What is the relationship between the risk and the organisation’s business objectives? Clarify what might happen if you don’t address the risk and how likely this is to happen.
           img: placeholder_icon.svg
         -
           title: Cost
           text: |
-            text
+            How much will the control cost to implement? Will there be ongoing fees, such as subscriptions? What are the internal costs related to people’s time? Consider the costs of alternative ways of addressing the risk.
           img: placeholder_icon.svg
         -
           title: Context
           text: |
-            text
+            What role does the control play in your organisation’s overall cyber security plan or framework? Is it an important part of this plan? How do other organisations that are similar to yours handle similar risks? How does the risk fit into the current threat landscape – for example, does it make sense to act quickly on an emerging risk, before your organisation is attacked?
           img: placeholder_icon.svg
         -
           title: Regulation
           text: |
-            text
+            Does the control help your organisation meet its obligations under regulations such as the UK GDPR? Would not implementing the control put your organisation at risk of a fine for non-compliance if an attack occurs?
           img: placeholder_icon.svg
         -
           title: Benefits
           text: |
-            text
+            What are the benefits to your organisation of implementing the control? Aside from preventing an attack, could it also help your organisation to compete better or improve customer satisfaction or trust?
           img: placeholder_icon.svg
   

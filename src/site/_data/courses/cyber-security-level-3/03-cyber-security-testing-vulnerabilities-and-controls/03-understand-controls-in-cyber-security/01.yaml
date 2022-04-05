@@ -8,9 +8,9 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Cyber security controls
+      * Cyber security framework
+      * Evaluating a cyber security framework
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -29,24 +29,24 @@ sections:
         -
           title: Physical security controls
           copy: |
-            text
+            Such as perimeter fencing, locks, entry controls, surveillance equipment and cameras, and intrusion detection.
           img: placeholder_icon.svg
         -
           title: Cyber security controls
           copy: |
-            text
+            Such as usernames and passwords, multifactor authentication, anti-malware, and firewalls.
           img: placeholder_icon.svg
         -
           title: Cloud security controls
           copy: |
-            text
+            Such as measures taken in conjunction with cloud services providers.
           img: placeholder_icon.svg
   -
   -
     title: Cyber security controls
     theme: t-bg-primary
     copy: |
-      Scroll through the slides to learn more
+      Scroll through the slides to learn more about cyber security controls in more detail.
 
     subInc: 
       type: slider
@@ -55,27 +55,27 @@ sections:
         -
           title: Encryption and Back Up of Data
           text: |
-            text
+            Encryption is used to protect data confidentiality whilst in transit and whilst stored on devices. Backing up data means that permanent loss can be prevented, and the impact of a breach lessened as data can be replaced but these backups must also be encrypted to also keep them safe from breach.
           img: placeholder_icon.svg
         -
           title: Antivirus, Antimalware and Patch Management
           text: |
-            text
+            Antivirus and antimalware can help to protect against malware infection and setting up regular update for all software and firmware can help to keep things protected from the latest threats.
           img: placeholder_icon.svg
         -
           title: Usernames, Passwords, and Multi Factor Authentication
           text: |
-            text
+            Adding multi factor authentication to usernames and passwords can help to create a more robust system of access making it harder for hackers to gain entry.
           img: placeholder_icon.svg
         -
           title: Access Controls and Permissions
           text: |
-            text
+            Users should only be granted access to areas that they specifically need to use and at a level appropriate to their role. Privileges and permissions should only be granted as they are needed for individuals to perform their role.
           img: placeholder_icon.svg
         -
           title: Network Perimeter Defences
           text: |
-            text
+            Network perimeter defences such as firewalls can filter network traffic and restrict access to websites deemed malicious and Virtual Private Networks (VPN) can be used to hide online users from potential attackers.
           img: placeholder_icon.svg
   -
   -
@@ -153,25 +153,14 @@ sections:
       In your assessment you will be required to evaluate a cyber security framework.
   -
   -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Example of an evaluation - advantages and disadvantages
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: 
-  -
-  -
     title: Read
     theme: t-bg-primary2 i-read
     copy: | 
       ### Example of an evaluation? This or case study?
 
       Take a look at the following document about 
+
+      NCFE workbook example- For example, your organisation’s firewall may need to be configured to block only very specific types of traffic. Or, your organisation may not want to encrypt network traffic, as this could prevent them from reading what is coming in from the network. 
 
       [Evaluation example doc]().
   -
