@@ -121,17 +121,12 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - ABC Zipper 
+      ### Case study - Grange Road Secondary School
       
-      _To be replaced by Grange Secondary School case study - this left in for reference purposes_
+      You’ve been recently begun working within the IT department of Grange Road Secondary school. The school has restricted computer access for staff and pupils and has procedures in place for security and GDPR. However, you’ve been unable to find a policy specifically for cyber security and recently there’s been an increase of pupils accessing unsecure sites and more phishing emails are being received. 
+      
+      Think about what steps will you need to take for the identified vulnerability and open the PowerPoint document in the below Time to practice to produce a flow chart to demonstrate the steps. This will form part of your assessment. 
 
-      In your work for ABC Zipper, you use testing to discover a number of different security vulnerabilities: 
-      * a software backdoor (a way for hackers to gain access) that has been in the system for the past 5 years and has never been used by hackers; 
-      * software that does not have the latest patch (it is 1 week out of date); 
-      * an insecure application user interface that could make all of ASC’s top-secret zipper designs and customer information accessible to hackers; 
-      * and a back entrance to the building that is never locked because workers like to sneak in and out of it to go for smoke breaks. 
-      
-      How would you prioritise which vulnerabilities to fix first and why? Which steps would you use to manage these vulnerabilities?
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
@@ -139,7 +134,7 @@ sections:
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      For the Grange Secondary School Case study use the following [Unit 4 Section 2 Assessment]() document to show the following:
+      For the Grange Secondary School Case study use the following [Unit 4 Section 2 Assessment - Flow Chart]() document to show the following:
       * the steps that need to be taken
       * response to the vulnerability
       * communications to mitigate future vulnerabilities.

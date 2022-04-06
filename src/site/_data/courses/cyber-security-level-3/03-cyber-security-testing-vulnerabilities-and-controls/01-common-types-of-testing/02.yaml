@@ -42,7 +42,7 @@ sections:
             Is the practice of attempting to perform social engineering scams on a company’s employees to check out the level of vulnerabilities and to test the employees use of security policies and guidance. The goal is to find out how successful security training is and where there is need for improvement. Tests that may be tried may involve looking for physical vulnerabilities, or phishing scams.
           img: placeholder_icon.svg
         -
-          title: Ethical hacking / Red testing
+          title: Ethical hacking / Red teaming
           text: |
             Is designed to take a hacker like approach to detect vulnerabilities. It involves a simulation test in which a hacker or group of hackers try to break into a system. A red team attack is a team exercise designed to see how well an organisation responds to an attack, and the rules of engagement will be agreed in advance.
           img: placeholder_icon.svg
@@ -105,21 +105,12 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
     copy: |
-      ### Example of an evaluation - advantages and disadvantages
+      Use the following [Document name here]() document to determine the advantages and disadvantages of ......
 
-      TBD - DnD - Pros and Cons?
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Link to Read? - Stretch and challenge - see workbook P9 and or P11 Case study - ABC Zipper company? - Assessment?
+      _Interactive PDF doc already done_
   -
   -
     title: On the web
