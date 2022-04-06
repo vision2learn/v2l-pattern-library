@@ -1,115 +1,116 @@
 title: Understand common types of testing in cyber security
 intro: |
-  intro text
+  In this session we will look at the common types of testing in cyber security, why testing is important and the mitigations that follow testing.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Explain different types of cyber security testing
+      * Identify why cyber security testing is important
   -
   -
-    title: Different types of cyber security testing
+    title: Cyber security testing
     theme: t-bg-primary
     copy: |
-      text
-
-      Select the images below to read 
+      Cyber security testing uses a range of methodologies and different tactics to measure how effective cyber security strategy is against a potential attack.
 
     subInc: 
-      type: reveal
-      content:
+      type: slider
+      title: 
+      slides:
+        -
+          title: Vulnerability scanning
+          text: |
+            Is using automated software to scan for and find system vulnerabilities identifying security weaknesses and flaws in systems and software running on them. A simple vulnerability scan may involve checking software against lists of known issues, or trying a brute force attack to see if they are secure.
+          img: placeholder_icon.svg
         -
           title: Security scanning
-          copy: |
-            text
+          text: |
+            Uses both manual tools and automated software to assesses the general security level such by detecting weak points and loopholes in the security of a website, web-based program or network system. The more intricate the system the more complicated the security scan will be, and these can be done regularly or as a one-time check.
           img: placeholder_icon.svg
         -
-          title: b
-          copy: |
-            text
+          title: Penetration testing
+          text: |
+            Combines automated and manual techniques and is done by trusted, certified security experts. The two most common forms are application penetration testing, to detect technical vulnerabilities, and infrastructure penetration testing, which examines servers, firewalls, and other hardware. Pentesters simulate a malicious attack and their goal is to expose unknown vulnerabilities such as zero-day threats and business logic flaws. They use vulnerability identification for web applications and Scenario-driven testing.
           img: placeholder_icon.svg
         -
-          title: c
-          copy: |
-            text
+          title: Social engineering testing
+          text: |
+            Is the practice of attempting to perform social engineering scams on a company’s employees to check out the level of vulnerabilities and to test the employees use of security policies and guidance. The goal is to find out how successful security training is and where there is need for improvement. Tests that may be tried may involve looking for physical vulnerabilities, or phishing scams.
           img: placeholder_icon.svg
         -
-          title: d
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: e
-          copy: |
-            text
+          title: Ethical hacking / Red teaming
+          text: |
+            Is designed to take a hacker like approach to detect vulnerabilities. It involves a simulation test in which a hacker or group of hackers try to break into a system. A red team attack is a team exercise designed to see how well an organisation responds to an attack, and the rules of engagement will be agreed in advance.
           img: placeholder_icon.svg
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 1.1 and 1.2.
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _T2T and Stretch activity_
+        Explain when you might use each of the following types of test:
+        * vulnerability scanning
+        * ethical hacking/red teaming
+        * social engineering testing
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Importance of cyber security testing
+      
+      Why is cyber security testing important? Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  
+  -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: McKinsey report
+          copy: |
+            According to a report by McKinsey, many companies report thousands of attacks every month, ranging from the trivial to the extremely serious. Several billion data sets are breached annually.
 
+            Every year, hackers produce some 120 million new variants of malware. At some global companies, the chief information security officer (CISO) has a team of more than 2,000 people.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Compare types of cyber security testing
+      * Consider mitigations following cyber security testing 
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Compare types of cyber security testing and mitigations
       
-      Please see the following video on 1.3 and 1.4.
+      Please see the following video to learn about types of cyber security testing and mitigations following the testing.
     video: placeholder_pc.mp4
   -
   -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
     copy: |
-      ### Example of an evaluation - advantages and disadvantages
+      Use the following [Document name here]() document to determine the advantages and disadvantages of ......
 
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: 
-  -
-  
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _T2T and READ activity_
-
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      Take a look at the following example of :
-
-      [example doc](/pdfs/  ---filename----  ).
+      _Interactive PDF doc already done_
   -
   -
     title: On the web

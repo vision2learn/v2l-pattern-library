@@ -1,0 +1,122 @@
+title: Incident post mortem report
+intro: |
+  In this session we will look at incident post-mortems and their structure. We will look at some important features and how to create and analyse them.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * What is meant by incident post-mortem
+      * The structure of an incident post-mortem
+      * The importance of integity, rigour and discipline when carrying out an incident post-mortem
+      * How to create a post-mortem report of an incident  
+      * Reflecting upon the report and making recommendations based on findings
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain:
+      * what is meant by an incident post-mortem
+      * the structure of an incident post-mortem
+      * the importance of integity, rigour and discipline when carrying out an incident post-mortem
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### What is meant by an incident post mortem?
+
+      This is a process by which organisations as soon as possible after an incident will analyse and discuss its consequences to be better prepared should another occur in the future. Let’s have a look at this in more detail in this video.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: Select one of the drop-down options to complete the sentences.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A meeting would be set up with all of the people who were involved in incident response in order to discuss the incident.
+          answer: meeting
+        -
+          sentence: Team members must know the incident was blameless. This is very important. 
+          answer: blameless
+        -
+          sentence: The post-mortem report would created and would include incident details which explains what happened, what was impacted by the incident and any other incident information.
+
+          answer: incident details
+        -
+          sentence: The post-mortem report once created would be disseminated and conclusions would be given.
+          answer: conclusions
+        -
+          sentence:  If the post-mortem report included any recommendations for actions to take, there would be a follow up.
+          answer: follow up
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about a post-mortem checklist.
+
+      links:
+        digitalguardian - post mortem checklist: https://digitalguardian.com/blog/learning-security-incident-post-mortem-checklist
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        1. In your own words, describe an incident post-mortem.
+
+        2. Search for a real-life incident report and read over it. What steps were included?
+  -
+  -
+    title: Importance of Integrity, Rigour, and Discipline
+    theme: t-bg-primary
+    copy: |
+      When carrying out an incident post-mortem those involved need to thoroughly identify the issues looking at the bigger picture rather than a single vulnerability. They also must be prepared to act on any findings however expansive they may be.
+      
+      Finding all the causes of an incident can only occur if the post-mortem process has integrity, rigour and is a disciplined approach. Scroll through the slides below to learn more.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Integrity
+          text: |
+            Integrity is important in cyber security as a lack of it from an employee or department can lead to a security breach. Any broken link in the chain can lead to a breach and most of it is preventable with foresight and training. Mistakes make by individual employees can have an impact on a business.
+
+            To deal with integrity issues a company could focus on building a company culture with well-defined principles.
+          img: placeholder_icon.svg
+        -
+          title: Rigour
+          text: |
+            Looking at the attack in a rigorous way is also an important part of incident post-mortems. For example, you can ask questions such as: 
+            1. Was the organisation caught out by making assumptions? Did monitoring fail? 
+            2. Was something not specified clearly enough to ensure that everyone was on the same page? 
+            3. Did something go unmaintained because in-house staff were under-resourced? 
+            4. Were staff under-trained so that they didn’t recognise something they should have? 
+            5. Was someone in charge of staying up to date on threats?
+          img: placeholder_icon.svg
+        -
+          title: Discipline
+          text: |
+            Discipline is another important component of the post-mortem process. This means, in part, making sure that you are being thorough and comprehensive, rather than just finding obvious signs of vulnerability, such as incorrect firewall configurations, software bugs, rootkits and so on without looking at the bigger picture of what may be causing those things to happen. 
+            
+            For example, is poor software engineering practice, lax employee security or not having the right anti-virus tools an underlying cause? Is overwork of the IT team or a lack of configuration management for systems causing mistakes?
+          img: placeholder_icon.svg
+        
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Define the terms intensity, rigour and discipline as they refer to an incident post-mortem.

@@ -1,64 +1,66 @@
 title: Apply a cyber security control
 intro: |
-  intro text
+  In our previous session we have looked at cyber security controls but how do you actually apply them?
 banner: placeholder.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary
     copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
+      In this session you will learn:
+      * How to apply controls
+      * How a basic cyber security control is implemented
+      * How to justify the implementation of the chosen cyber security control
+      * Why a control might not be applied
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain how to apply controls.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How to apply controls
+      
+      Please see the following video to learn more.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Research the steps involved in applying a particular cyber security control.
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to implement a basic cyber security control.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Implement a basic cyber security control - INSTRUCTIONS
       
-      Please see the following video on - INTRO video 4.1 and 4.4.
+      Please see the following video to get instructions on how to implement a basic cyber security control.
     video: placeholder_pc.mp4
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on - INSTRUCTIONAL VIDEO and T2T - 4.2
-    video: placeholder_pc.mp4
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Now you have watched the videos, have a go at . .  in the following [practice document]().
-
-      OR
-
-      on the following website . . . .
-      
-      [website description](https://wwww.google.co.uk)
+      In your assessment you will be required to justify the implementation of the chosen cyber security control.
   -
   -
     title: Justify the implementation of the chosen cyber security control
     theme: t-bg-primary
     copy: |
-      Scroll through the slides below to learn more about ...
+      Whatever cyber control you end up applying, you will likely need to justify it to your line manager, especially if it is a new control, or one that will cost a lot of money to implement. If your organisation uses a security framework, then the justification will likely be included in the framework, and you can refer to this. When justifying the implementation of a particular cyber security control, you should consider the following:
 
     subInc: 
       type: slider
@@ -67,50 +69,26 @@ sections:
         -
           title: Risk
           text: |
-            text
+            How does the control mitigate or address a serious risk? What is the relationship between the risk and the organisation’s business objectives? Clarify what might happen if you don’t address the risk and how likely this is to happen.
           img: placeholder_icon.svg
         -
           title: Cost
           text: |
-            text
+            How much will the control cost to implement? Will there be ongoing fees, such as subscriptions? What are the internal costs related to people’s time? Consider the costs of alternative ways of addressing the risk.
           img: placeholder_icon.svg
         -
           title: Context
           text: |
-            text
+            What role does the control play in your organisation’s overall cyber security plan or framework? Is it an important part of this plan? How do other organisations that are similar to yours handle similar risks? How does the risk fit into the current threat landscape – for example, does it make sense to act quickly on an emerging risk, before your organisation is attacked?
           img: placeholder_icon.svg
         -
           title: Regulation
           text: |
-            text
+            Does the control help your organisation meet its obligations under regulations such as the UK GDPR? Would not implementing the control put your organisation at risk of a fine for non-compliance if an attack occurs?
           img: placeholder_icon.svg
         -
-          title: Benefit
+          title: Benefits
           text: |
-            text
+            What are the benefits to your organisation of implementing the control? Aside from preventing an attack, could it also help your organisation to compete better or improve customer satisfaction or trust?
           img: placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _4.3 activity_
-
-        question or activity
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  
   

@@ -1,49 +1,54 @@
 title: Reduce or remove potential cyber security vulnerabilities
 intro: |
-  intro text  TBD - TEMPLATE PAGE ONLY
+  In this session, you will learn how to identify cyber security vulnerabilities, the steps to take once a vulnerability has been identified, how to apply the correct responses to a vulnerability and how to develop the appropriate communications strategy to mitigate future vulnerabilities.
 banner: placeholder.jpg
 sections:
   -
     title: What you will learn
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
-  -
+      * Cyber security vulnerabilities
+      * The steps to be taken when a vulnerability has been identified
+      * How to apply the correct response to the vulnerability
+      * How to develop an appropriate communication to mitigate future vulnerabilities
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Identify cyber security vulnerabilities
+      * Demonstrate the steps to be taken when a vulnerability has been 
   -
   -
-    title: slider
+    title: Cyber security vulnerabilities
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content - replace with a Section or Reveals if necessary_
-    
-      Scroll through the slides below to learn more about ...
+      There are many different types of cyber security vulnerabilities these are based on where a vulnerability exists but they can be broken down into 4 types.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Network vulnerabilities
           text: |
-            text
+            Issues with a networks hardware or software exposing it to attack form an external source. Examples would be insecure WiFi access points and poorly configured firewalls.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Operating System vulnerabilities
           text: |
-            text
+            These are found within assets that the OS is installed on and offer attackers access by hidden backdoor programs.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Human vulnerabilities
           text: |
-            text
+            Humans are often the weakest link in the cybersecurity architecture as they can easily expose sensitive data and inadvertently give access to hackers. They may also do this maliciously.
+          img: placeholder_icon.svg
+        -
+          title: Process vulnerabilities
+          text: |
+            Some organisations have weak processes in place or lack an organized cyber security system. An example of this could be weak passwords easily hackable, this can also fall under human vulnerabilities.
           img: placeholder_icon.svg
   -
   -
@@ -51,9 +56,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Cyber Security Vulnerabilities
       
-      Please see the following video on .
+      In this video let’s look at some of the cyber security vulnerabilities in more detail.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -61,50 +66,33 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Research one or more types of cyber security vulnerability to learn more about it, how attackers use it and how it can be combatted.
 
   -
   -
-    title: P L A C E H O L D E R item
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      ### ACTIVITY of some kind
-
-      TBD - Activity - T2T with Case study or Read or Web; OR Capitivate/Animate item
-
-    img: /images/svg/placeholder_icon.svg
+      ### Vulnerability events
+      
+      In this video let’s look at a vulnerability event.
+    video: placeholder_pc.mp4
   -
   -
-    title: Case study
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      ### Response to a vulnerability event
+      
+      In this video let’s look at what to do in the event of a vulnerability.
+    video: placeholder_pc.mp4
   -
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
+    title: Read
+    theme: t-bg-primary i-read
     copy: | 
-      _EXAMPLE of document_
+      [Read about organisational policies/procedures within the steps for responding to a vulnerability](/pdfs/cs3_u3_s2_p1_read.pdf).
 
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+      _OR a Weblink?_
