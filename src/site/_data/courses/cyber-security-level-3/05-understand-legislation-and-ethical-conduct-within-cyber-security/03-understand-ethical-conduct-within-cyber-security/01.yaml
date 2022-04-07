@@ -15,31 +15,34 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe ethical conduct within cyber security.
   -
-    title: slider
+    title: Ethical conduct
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Ethical conduct is very important for cyber security professionals as clients need to be able to trust that they will look after their data. So, what constitutes ethical conduct? 
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Maintaining confidentiality
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Adherence to applicable laws
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Promoting information security
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Refraining from conflicts of interest
           text: |
             text
           img: placeholder_icon.svg
@@ -49,9 +52,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Ethical conduct
       
-      Please see the following video on .
+      Please see the following video on ethical conduct in Cyber Security.
     video: placeholder_pc.mp4
   
   -
@@ -59,9 +62,11 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Case study - The ethics of resource use
 
-      _Optional item depending on content_
+      Dave works as a programmer for a large software company. He writes and tests utility programs such as compilers. His company operates both day and night. At night, batch production jobs are completed. Dave learns that the night shift has extra programming capacity, so that extra work could be done during the night shift that would not adversely affect performance of the computers.
+      
+      Dave comes back after normal hours to develop a program to manage his own stock portfolio. He uses very few expendable supplies, such as printer paper. Is Dave’s behaviour ethical? Please see below time to think to answer further questions.
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
@@ -71,7 +76,11 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+        In the above case study is Dave’s behaviour ethical? Would the ethics of the situation be different if:
+        * Dave began a business managing stock portfolios for many people for profit?
+        * Dave’s salary was below average for his experience, so that he felt he was due the computer use as a fringe benefit?
+        * Dave’s employer knew of other employees doing similar things and did not say anything or try to stop them?
+        * Dave worked for a government office instead of a private company and reasoned that the computer belonged ‘to the people’?
   -
   -
     title: On the web

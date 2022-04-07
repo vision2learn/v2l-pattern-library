@@ -7,13 +7,13 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify unethical conduct within cyber security.
   -
-    title: introduction text
+    title: placeholder
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      _TBD with further ID if this item is needed, or Reveals or a Slider depending on the content._ 
       
       Topic introduction text here 
 
@@ -24,17 +24,31 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
+      ### Unethical conduct
+
+      So how can we identify unethical conduct?
     video: placeholder_pc.mp4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - The ethics of whistleblowing
+
+      Whistleblowing is when an employee who knows their employer has done something wrong  or unethical brings this to the attention of the authorities or the media, and it has become an important ethical issue. For example, suppose you work for a company as a security professional and in the course of your work you discover information that one part of the company is involved in something you think is ethically wrong. If you steal electronic documentation of the business’s shady practices and provide it to the media or law enforcement, you could shine a light on their wrongdoing and hopefully put a stop to it. However, in order to do this, you need to steal proprietary information. Have you behaved ethically?
+
+      The answer, of course, is not clear. For example, to many people, Edward Snowden is a hero who discovered that the National Security Agency was conducting unethical surveillance on innocent Americans. However, he committed a crime when he stole the documentation of these practices and provided them to the public, and his actions put the lives of many people, and the security of the entire United States, in danger.
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        In the above case study, Did Edward Snowden behave ethically? What do you think?
   -
   -
     title: On the web
