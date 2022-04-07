@@ -153,26 +153,21 @@ sections:
       In your assessment you will be required to evaluate a cyber security framework.
   -
   -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Example of an evaluation? This or case study?
-
-      Take a look at the following document about 
-
-      NCFE workbook example- For example, your organisation’s firewall may need to be configured to block only very specific types of traffic. Or, your organisation may not want to encrypt network traffic, as this could prevent them from reading what is coming in from the network. 
-
-      [Evaluation example doc]().
-  -
-  -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - TBD - This or the above READ item?
+      ### Case study - TBD
 
-      _Optional item depending on content_
+      _Different types of business to evaluation or one business - TBD_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Look at the three different frameworks and identify which framework would be most appriopriate for above case study?
   

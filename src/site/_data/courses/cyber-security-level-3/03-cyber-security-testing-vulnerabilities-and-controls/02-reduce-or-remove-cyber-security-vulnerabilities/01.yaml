@@ -93,6 +93,17 @@ sections:
     title: Read
     theme: t-bg-primary i-read
     copy: | 
-      [Read about organisational policies/procedures within the steps for responding to a vulnerability](/pdfs/cs3_u3_s2_p1_read.pdf).
+      Read about [organisational policies/procedures within the steps for responding to a vulnerability](/pdfs/cs3_u3_s2_p1_read.pdf).
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Additional research
 
-      _OR a Weblink?_
+      Click on the owl to take you to a website for you to continue your research into organisational policies as this is something you will need to do as part of your assessment.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.google.co.uk
+  -
