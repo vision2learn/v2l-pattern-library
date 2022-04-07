@@ -4,18 +4,16 @@ intro: |
 banner: placeholder.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to:
-      * Create a post mortem report of an incident
-      * Reflect upon the report and make recommendations based on the findings
-  -
-  -
     title: Post mortem report
     theme: t-bg-primary
     copy: |
       As we have already discussed once an incident or attack has taken place the Incident response team will conclude the post-mortem process by creating a written report. The organisation may already have a template for this but you may need to be prepared to create your own so let’s have a look at what is involved.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to create a post mortem report of an incident.
   -
   -
     title: Read
@@ -23,20 +21,9 @@ sections:
     copy: | 
       ### Incident Post mortem report - example
       
-      _post mortem report - example from page 23_
-
       Take a look at the following document which shows an example of a Cyber Security Incident post-mortem report.
 
-      [Incident post mortem report - example]().
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Take a look at the following case study and write up a very brief incident post-mortem for this incident using the following [Cyber Security Incident Post Mortem Report]() template document.
-      
-      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
-
+      [Incident post mortem report - example](/pdfs/cs3_u4_s3_p2_read.pdf).
   -
     title: Case study
     layout: media
@@ -52,13 +39,13 @@ sections:
 
       The bank was able to retrieve only £200,000 of the stolen money in the first weeks, leaving a loss of £350,000. Not having a cyber security plan in place delayed the company response to the fraud. The company shut down their bank account and pursued legal action to recover its losses.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u4_s3_p2_case_study.svg
   -
   -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      You will also need to reflect on the incident post-mortem and make recommendations based on the findings. Include within your document your recommendations taking into consideration the following points.
+      In your assessment you will be required to reflect upon the report and make recommendations based on the findings
   -
     title: Reflect and make recommendations
     layout: media
@@ -71,4 +58,14 @@ sections:
       * the organisations available budget, 
       * and who will ultimately make the decisions.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u4_s3_p2_image1.svg
+  -
+  -
+    title: Time for an assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Taking the above case study into consideration, write up a very brief incident post-mortem for this incident using the following [Cyber Security Incident Post Mortem Report]() template document.
+
+      You will also need to reflect on the incident post-mortem and make recommendations based on the findings. Include within your document your recommendations taking into consideration the above points.
+      
+      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
