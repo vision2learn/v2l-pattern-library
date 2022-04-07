@@ -1,0 +1,109 @@
+title: How do the ISO standards support cyber security
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain how do the ISO standards support cyber security.
+  -
+    title: placeholder
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _TBD, or Reveals or a Slider depending on the content._ 
+      
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How ISO standards support cyber security
+      
+      So how do the ISO standards support cyber security?
+    video: placeholder_pc.mp4
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - The importance of ISO standards for business
+
+      Worldpay provides technology-led payment products and services to over 400,000 businesses around the world, enabling them to accept 300 different payment types. On a typical day, Worldpay processes 31 million mobile, online and in-store transactions. It has over 5,000 employees in 13 countries around the world. 
+      
+      Worldpay needs very high standards of security and reliability, and they wanted a recognised standard to prove they were the best in their field. They implemented ISO 27031 because it is closely tailored to the company’s specialty in the field of payment processing. 
+      
+      The company rolled out its certifications gradually, with its technology hubs being made a priority. For example, ISO 22301 was initially achieved by four offices, then later a further five, with the ultimate aim to have all its global locations covered by the standard, and a similar pattern was being adopted for ISO/IEC 27001 and ISO 27031. 
+      
+      The standards gave the company a structure to identify risks to their business and manage those risks. According to company head of Business Continuity, Ian Crossley, “They prove that we are doing everything we can. They also bring vital reassurance to customers and help the company win business because customers can see they’re resilient. If a customer comes in and says, ‘Great, you’ve got ISO 22301’, we can also show them we are aligned to ISO 27031. We can explain what it covers, and that we have been externally audited to it. And that we’re the only company in Europe to have this independent verification.” 
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text

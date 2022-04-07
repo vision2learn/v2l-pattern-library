@@ -1,0 +1,134 @@
+title: Understand legislation relating to cyber security
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe how legislation impacts on cyber security. 
+  -
+  -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      The best way to monitor that cyber security is being adhered to is to have the appropriate legislation in place to set down the rules and regulations of what is and is not allowed. Set standards can help to create a unified defence against cyber security criminals allowing government authorities to act against those who misuse the acts or do not follow the regulations or codes of conduct. There are many laws that impact cyber security so let’s have a look at some of them:
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: The Computer Misuse Act 1990
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Official Secrets Acts 1989
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Communications Act 2003
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Data Protection Act 2018/General Data Protection Regulation (GDPR) 
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Police and Criminal Evidence Act 1984 (PACE) 
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Directive on security of network and information systems (2016/1148) (NIS Directive)
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Does the GDPR still apply in the UK post-Brexit?
+          copy: |
+            The GDPR is retained in domestic law now that the transition period has ended, but the UK has the independence to keep the framework under review. The key principles, rights and obligations remain the same. However, there are some changes in the rules on the transfer of personal data between the UK and the European Economic Area (EEA).
+            
+            The UK GDPR also applies to controllers and processors based outside the UK if their processing activities relate to offering goods or services to individuals in the UK, or monitoring the behaviour of individuals taking place in the UK.
+            
+            There are also implications for UK data controllers who have an establishment in the EEA, have customers in the EEA, or who monitor individuals in the EEA. The EU GDPR still applies to this processing, but the way UK organisations interact with European data protection authorities has changed.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Complete the chart using the following [Cyber Security legislation]() document.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Check out the following websites to find out more information about this legislation.
+
+      links:
+        Guide to GDPR: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
+        UKPGA: https://www.legislation.gov.uk/ukpga/1990/18/introduction
+        Computer Misuse Act: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/415953/Factsheet_-_Computer_Misuse_-_Act.pdf
+        NCSC: https://www.ncsc.gov.uk
+        Cyber Security Regulation and Incentives Review: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/579442/Cyber_Security_Regulation_and_Incentives_Review.pdf
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
