@@ -21,11 +21,9 @@ sections:
     copy: | 
       ### Incident Post mortem report - example
       
-      _post mortem report - example from page 23_
-
       Take a look at the following document which shows an example of a Cyber Security Incident post-mortem report.
 
-      [Incident post mortem report - example]().
+      [Incident post mortem report - example](/pdfs/cs3_u4_s3_p2_read.pdf).
   -
     title: Case study
     layout: media
@@ -41,7 +39,7 @@ sections:
 
       The bank was able to retrieve only £200,000 of the stolen money in the first weeks, leaving a loss of £350,000. Not having a cyber security plan in place delayed the company response to the fraud. The company shut down their bank account and pursued legal action to recover its losses.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u4_s3_p2_case_study.svg
   -
   -
     title: Key point
@@ -60,7 +58,7 @@ sections:
       * the organisations available budget, 
       * and who will ultimately make the decisions.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u4_s3_p2_image1.svg
   -
   -
     title: Time for an assessment task

@@ -61,17 +61,15 @@ sections:
             
             __6. Lessons learned:__ Conduct a post mortem of the incident. This could include preparing a full incident report, conducting further investigation and analysis, and updating the incident response plan.
             
-          img: /images/svg/placeholder_icon.svg     
+          img: /images/svg/cs3/cs3_u4_s1_p3_case_study.svg     
   -
   -
     title: Read - Checklist
     theme: t-bg-primary2 i-read
     copy: | 
-      _Example of checklist - from page 7 of NCFE workbook_
-
       Take a look at the following example of a checklist.
 
-      [A Sample Checklist]().
+      [A Sample Checklist](/pdfs/cs3_u4_s1_p3_read.pdf).
   -
     title: Time to think
     theme: t-bg-primary3 i-think
