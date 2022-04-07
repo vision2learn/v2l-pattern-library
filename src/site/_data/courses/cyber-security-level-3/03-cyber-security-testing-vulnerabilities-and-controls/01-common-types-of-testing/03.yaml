@@ -16,8 +16,6 @@ sections:
     title: Testing
     theme: t-bg-primary
     copy: |
-      _Intro item_
-    
       Scroll through the slides below to learn more about ...
 
     subInc: 
@@ -28,17 +26,17 @@ sections:
           title: Importance
           text: |
             When changes are made to a system or network there is the potential to create new vulnerabilities. It is therefore imperative that further testing and retesting is done to mitigate this. This may be done on a regular basis and is called remediation verification testing.
-          img: placeholder_icon.svg
+          img: cs3_u3_s1_p3_slide1.svg
         -
           title: How
           text: |
             Once testing is done the most common form of reporting is the detailed reports usually sent to senior management. Smaller tests and regular scans may be reported as memos, incident logs or as a short report. 
-          img: placeholder_icon.svg
+          img: cs3_u3_s1_p3_slide2.svg
         -
           title: Why
           text: |
             Reporting testing results is the best way that an organisation can regain trust after a breach and reassure their clients and customers that their system is secure. This can also help an organization to better plan for any future threats and allocate the appropriate resources to help prevent this happening.
-          img: placeholder_icon.svg
+          img: cs3_u3_s1_p3_slide3.svg
   -
   -
     title: Watch 
@@ -63,11 +61,9 @@ sections:
     copy: | 
       ### Security Testing Report
 
-      _use example on Did you know on P13 of workbook_
-
       Take a look at the following document to see an example of the sections that may be included in a security testing report.
 
-      [Security Testing Report example doc]().
+      [Security Testing Report example doc](/pdfs/cs3_u3_s1_p3_read.pdf).
   -
     title: Time to think
     theme: t-bg-primary3 i-think
