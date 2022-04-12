@@ -30,17 +30,17 @@ sections:
           title: Physical security controls
           copy: |
             Such as perimeter fencing, locks, entry controls, surveillance equipment and cameras, and intrusion detection.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_reveal1.svg
         -
           title: Cyber security controls
           copy: |
             Such as usernames and passwords, multifactor authentication, anti-malware, and firewalls.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_reveal2.svg
         -
           title: Cloud security controls
           copy: |
             Such as measures taken in conjunction with cloud services providers.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_reveal3.svg
   -
   -
     title: Cyber security controls
@@ -56,27 +56,27 @@ sections:
           title: Encryption and Back Up of Data
           text: |
             Encryption is used to protect data confidentiality whilst in transit and whilst stored on devices. Backing up data means that permanent loss can be prevented, and the impact of a breach lessened as data can be replaced but these backups must also be encrypted to also keep them safe from breach.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide1.svg
         -
           title: Antivirus, Antimalware and Patch Management
           text: |
             Antivirus and antimalware can help to protect against malware infection and setting up regular update for all software and firmware can help to keep things protected from the latest threats.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide2.svg
         -
           title: Usernames, Passwords, and Multi Factor Authentication
           text: |
             Adding multi factor authentication to usernames and passwords can help to create a more robust system of access making it harder for hackers to gain entry.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide3.svg
         -
           title: Access Controls and Permissions
           text: |
             Users should only be granted access to areas that they specifically need to use and at a level appropriate to their role. Privileges and permissions should only be granted as they are needed for individuals to perform their role.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide4.svg
         -
           title: Network Perimeter Defences
           text: |
             Network perimeter defences such as firewalls can filter network traffic and restrict access to websites deemed malicious and Virtual Private Networks (VPN) can be used to hide online users from potential attackers.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide5.svg
   -
   -
     title: Time to think
