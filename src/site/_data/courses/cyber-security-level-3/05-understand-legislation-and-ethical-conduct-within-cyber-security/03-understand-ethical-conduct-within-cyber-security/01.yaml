@@ -1,16 +1,15 @@
 title: Ethical conduct within cyber security
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this section, we will discuss ethical and unethical conduct within cyber security.
+banner: cs3_u5_s1_p2_legislation_relating_to_cyber_security.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Ethical conduct within cyber security
+      * Unethical conduct within cyber security
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -29,22 +28,23 @@ sections:
         -
           title: Maintaining confidentiality
           text: |
-            text
+            Cyber security professionals in their role will have access to a great deal of personal and private information and this must be always kept confidential. For example, they need to make sure that they refrain from revealing any information that they discover whilst running a virus scan.
           img: placeholder_icon.svg
         -
           title: Adherence to applicable laws
           text: |
-            text
+            Cyber security professionals should always follow any applicable laws such as GDPR and should always report any breaches to the regulatory authorities. If they do not, they can be held responsible and fined. Both the law and ethics require that they report this even if their employer asks them not to.
+
           img: placeholder_icon.svg
         -
           title: Promoting information security
           text: |
-            text
+            It is the ethical responsibility of a cyber security professionals to encourage everyone in an organisation to follow cyber security protocols and good practices.
           img: placeholder_icon.svg
         -
           title: Refraining from conflicts of interest
           text: |
-            text
+            Cyber security professionals should never influence a decision for their own advantage by having prior knowledge of something this is a conflict of interest. For example, they should not be tempted to insert a bug and then get a bonus payment for finding it.
           img: placeholder_icon.svg
   -
   -

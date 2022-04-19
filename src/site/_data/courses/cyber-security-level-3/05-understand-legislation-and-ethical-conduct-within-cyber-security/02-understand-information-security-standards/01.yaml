@@ -1,16 +1,15 @@
 title: Understand information security standards
 intro: |
-  intro text
-banner: placeholder.jpg
+  This session focusses on ISO standards that relate to and support cyber security.
+banner: cs3_u5_s2_p1_understand_information_security_standards.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary
     copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
+      In this session you will learn:
+      * About ISO standards related to cyber security
+      * How ISO standards are used to support cyber security
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -33,17 +32,17 @@ sections:
         -
           title: ISO/IEC 27032:2012
           text: |
-            text
+            This standard provides guidance for improving cyber security looking in particular at: information security, network security, internet security and critical information infrastructure protection (CIIP). It also covers baseline security practices for stakeholders in cyberspace.
           img: placeholder_icon.svg
         -
           title: ISO/IEC 27000:2018
           text: |
-            text
+            Provides an overview of information security management systems (ISMS) as well as the terms and definitions more commonly used. This document applies to all types and sizes of organisations.
           img: placeholder_icon.svg
         -
           title: ISO/IEC 27001:2013
           text: |
-            text
+            This specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system. The requirements are generic and applicable to all organisations but should be tailored to the needs of the organisation.
           img: placeholder_icon.svg
   -
   -

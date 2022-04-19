@@ -1,7 +1,7 @@
 title: Understand legislation relating to cyber security
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this section, we will describe how legislation affects cyber security and explain some of the trends in international law for cyberspace.
+banner: cs3_u5_s1_p2_legislation_relating_to_cyber_security.jpg
 sections:
   -
     title: Key point
@@ -22,33 +22,38 @@ sections:
         -
           title: The Computer Misuse Act 1990
           text: |
-            text
-          img: placeholder_icon.svg
+            Before 1990 hacking was not easy to prosecute but this changed with the introduction of the Computer Misuse Act. The act created 3 new offences:
+            * Unauthorised access to computer material. (hacking)
+            * Unauthorised access with intent to commit or facilitate commission of further offences (planting a virus)
+            * Unauthorised modification of computer material. (modifying or deleting data and introduction of malware or spyware)
+            * Making and supplying or obtaining anything that can be used in computer misuse offences.
+
+          img: cs3_u5_s1_p2_slide1.svg
         -
           title: Official Secrets Acts 1989
           text: |
-            text
-          img: placeholder_icon.svg
+            These consist of four legal documents related to protecting the UK against espionage and the leaking of government secrets or sensitive data. All employees and those who work in associated areas have to sign the Official Secrets Act and are bound by is rules. The areas protected are: security and intelligence, defence, international relations, crime and special investigation powers, unauthorised disclosure of information, release of confidential information to other states or international organisations.
+          img: cs3_u5_s1_p2_slide2.svg
         -
           title: Communications Act 2003
           text: |
-            text
-          img: placeholder_icon.svg
+            This act was drafted in consideration of changes that have occurred in the telecommunications and media industries and established laws for the use of TV, phones and the internet.
+          img: cs3_u5_s1_p2_slide3.svg
         -
-          title: Data Protection Act 2018/General Data Protection Regulation (GDPR) 
+          title: Data Protection Act 2018 / General Data Protection Regulation (GDPR) 
           text: |
-            text
-          img: placeholder_icon.svg
+            GDPR is a European regulation which was brought into domestic law as UK GDPR and it covers personal data in the EU and UK. All businesses are required to keep safe any personal data and are only allowed to let third parties access it if there are sufficient guarantees as to its safety. It also stipulates that any organisations using personal data have in place protective measures and procedures to safeguard that data. The Data Protection Act also ensures that all data that is collected is appropriate, relevant and accurate and only kept for as long as is necessary in a secure place.
+          img: cs3_u5_s1_p2_slide4.svg
         -
           title: Police and Criminal Evidence Act 1984 (PACE) 
           text: |
-            text
-          img: placeholder_icon.svg
+            This act sets out the regulatory framework and codes of practice of the police and aims to balance them with the rights and freedoms of the public. It covers the powers of searching an individual or their premises. It also covers the collection of evidence from computer records and their accuracy and whether this can be used in court.
+          img: cs3_u5_s1_p2_slide5.svg
         -
           title: Directive on security of network and information systems (2016/1148) (NIS Directive)
           text: |
-            text
-          img: placeholder_icon.svg
+            NIS is concerned with the security of information systems and requires digital providers to take appropriate and proportionate measure to manage any risks and to minimise or prevent security incidents. The NCSC publishes guidance on how to comply with NIS and oversees a government backed certification scheme.
+          img: cs3_u5_s1_p2_slide6.svg
   -
   -
     title: Did you know?
