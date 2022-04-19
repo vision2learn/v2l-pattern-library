@@ -1,7 +1,7 @@
 title: Unethical conduct within cyber security
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page you will learn about unethical conduct within cyber security.
+banner: cs3_u5_s3_p2_unethical_conduct_within_cyber_security.jpg
 sections:
   -
     title: Key point
@@ -68,39 +68,12 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Maliciously spreading information or images can seriously damage the reputation of a colleague or business.  
+          answer: Maliciously spreading information
         -
-          sentence: example two
-          answer: two
+          sentence: As cyber security professional have access to a great deal of personal confidential data there is a risk of them disclosing or misusing confidential information.
+          answer: disclosing or misusing confidential
         -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
+          sentence: Sabotage is rather an obvious form of unethical conduct and this can be seen when an employee intentionally damages a system.  
+          answer: Sabotage
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
