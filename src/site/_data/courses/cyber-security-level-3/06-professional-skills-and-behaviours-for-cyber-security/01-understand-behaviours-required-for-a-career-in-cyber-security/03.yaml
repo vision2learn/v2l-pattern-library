@@ -1,0 +1,205 @@
+title: Security clearance and Bias
+intro: |
+  On this page we will look at the different levels of security clearance, at how bias can influence cyber security, and the benefits of a security by design mindset. 
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the following security clearance levels:
+      * BPSS (Baseline Personnel Security Standard)
+      * SC (Security Checked)
+      * DV (Developed Vetting)
+  -
+  -
+    title: Levels of security clearance
+    theme: t-bg-primary
+    copy: |
+      When working with or for a government organisation there will always be some form of security screening. This involves anyone in the civil service, armed forces, government contractors or even temporary staff. These are usually much more involved than just pre-employment checks and are more security oriented.
+      
+      Let’s look at the different levels of security clearance
+ 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: BPSS (Baseline Personnel Security Standard)
+          copy: |
+            This is the baseline for pre-employment security screening and although it is not formal security clearance is enough for most jobs. It can also be used with more rigorous vetting procedures.
+
+            It covers checks for:
+            * Identity, 
+            * Nationality and immigration status, 
+            * Employment history (past 3 years),
+            * Criminal record 
+            * and reasonable account of significant time spent abroad (6 months or more in the past 3 years)
+            
+            Documents will need to be supplied as proof.
+
+          img: /images/svg/placeholder_icon.svg 
+        - 
+          title: SC (Security Checked)
+          copy: |
+            Required for those with long term frequent uncontrolled access to secret and supervised access to top secret assets. This also includes anyone in a position who could learn about secret plans, policies, or projects.
+
+            Checks include a: 
+            * BPSS, 
+            * Security questionnaire, 
+            * Company records check, 
+            * Criminal records check. 
+            * Credit and financial history check, 
+            * Security service check (mi5)
+            * May also include a third part security questionnaire check
+            
+            For overseas posts with a significant espionage threat they may also need an Enhanced Security Check.
+
+          img: /images/svg/placeholder_icon.svg 
+        - 
+          title: DV (Developed Vetting)
+          copy: |
+            Is used for individuals employed in posts that often require access to top secret assets or code word material. Also, for those who work with category 1 nuclear material or have access to classified material that originates overseas.
+            
+            DV checks include:
+            * BPSS
+            * DV security questionnaire
+            * Departmental and company records check
+            * Criminal records check
+            * Credit and financial check
+            * Security service check (MI5)
+            * Review of personal finances assets and liabilities.
+            * Detailed interview with self and referees by trained investigating officer.
+            * Security questionnaire of third parties such as family members.
+            
+            Some positions may involve an EDV or Enhanced Developed Vetting
+
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: CTC (Counter Terrorist Check)
+          copy: |
+            This involves those who work in close proximity to public figures who may be at particular risk from terrorist attack or are given access to material that may be of value to terrorists.
+            
+            CTC checks include:
+            * BPSS
+            * Security questionnaire
+            * A records check including personal files and security records
+            * Criminal records
+            * Security service check (MI5)
+            * Possibly an interview.
+
+          img: /images/svg/placeholder_icon.svg     
+  -
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      ### Security clearance chart
+
+      _interactive chart from p10 of u6 ncfe workbook_
+
+      Have a go at filling in the following interactive chart for the different security clearance checks.
+
+      [Security clearance chart]().
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how bias can influence cyber security.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Bias
+      
+      How can bias influence cyber security - watch this video to find out more about it.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Bias in decision-making can be difficult to recognise and correct. One strategy that may help is to ask yourself questions whenever you need to make a decision. For example:
+        * Are we making assumptions about individuals?
+        * Am I hung up on one forensic detail and struggling to move away from it?
+        * Has the recent news cycle influenced my decision?
+        * When you run into the same problem over and over again, do you always come up with the same solution or answer, if it has not worked in the past?
+        * When offered new services and products, do you take the manufacturer’s or salesperson’s word at face value, or do you look at it in a balanced way from multiple perspectives?
+        * Does your team recognise all the possible sources of error before coming to a conclusion?
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the benefits of a security by design mindset.
+  -
+    title: Security by design mindset
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### What are the benefits of a security by design mindset? 
+
+      Security by design is a system or product that has been designed from the beginning to emphasis security. It is not a set plan or specific standard it is more of a philosophy or mindset which focusses on building in security from conception. Security shouldn’t be something that is reactive it should be proactive and continuous through the whole design process. It should be able to work in a reliable manner and be constantly evolving to meet and defeat any new threats. It should also be implicit in all processes.
+      
+      It is always a more cost-effective process to create a system using security by design as assessing any potential business risk at this stage means it can offer more stability to a system and meet the specific needs of an organisation. Building a secure system to start with is always better than trying to patch up the holes in an existing one later down the line.
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
