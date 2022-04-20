@@ -1,0 +1,17 @@
+---js
+{
+  unit: 6,
+  session: 3,
+  pagination: {
+    data: "courses['cyber-security-level-3']['06-professional-skills-and-behaviours-for-cyber-security']['03-importance-of-continuous-professional-development']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

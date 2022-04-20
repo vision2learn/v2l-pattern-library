@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Skills required for a career in cyber security
 intro: |
-  intro text
+  In this session you will learn about the skills that are required to have a career in cyber security.  You will also learn how to create a personal development plan.
 banner: placeholder.jpg
 sections:
   -
@@ -8,88 +8,39 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Skills required for a career in cyber security  
+      * Performing a personal skills analysis
+      * Assessing your skills against those required for a career in cyber security
+      * Creating a personal development plan
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to identify skills required for a career in cyber security.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Skills required for a cyber security career
       
-      Please see the following video on .
+      It is not essential to have a degree in computer science or maths to become a cyber security professional, but it can help you to enter the profession at a higher level. However, some organisations will take on those with a more general range of technical skills and experience and train them up. What is important to an employer is your ability to think in a logical manner and your ability to analyse things. It also helps if you are calm when it comes to stressful situations and are willing to develop your skills and knowledge base.
+      
+      The skills needed can be divided into hard technical skills such as working with networks and data and soft skills like interpersonal skills that are of benefit in most roles. 
+      
+      Let’s have a look at these in more detail in the following video.
+
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interview with a Cyber Security professional ???
+      
+      Let’s hear more from a cyber security professional.
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -97,24 +48,25 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
+        Think about your own skills. What skills do you have that are useful or important in cyber security? What other skills will you need for a career in cyber security?  
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
     copy: |
-      ### Case study - 
+      In your assessment you will be required to perform a personal skills analysis.
+  -
+  -
+    title: Time for assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      So, do you have the skills to become a cyber security professional? To check this out you should perform a personal skills analysis. You would use one of these approaches to do this:
+      * SWOT (Strength, Weakness, Opportunity, Threat) Method.
+      * SOAR (Strength, Opportunity, Aspirations, Results) Method.
 
-      _Optional item depending on content_
+      Use the following [Unit 6 Section 2 Assessment - Personal skills](/pdfs/cs3_u6_s2_assessment_workbook.pptx) document to conduct a SWOT analysis or SOAR analysis of your skills. Then evaluate your results to find ways of turning your weaknesses into strengths.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      Remember that this document will be part of your Unit 6 assessment so make sure you save it with your name.
   -
   -
     title: On the web
@@ -122,60 +74,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        You may find the following websites useful where you can learn more about these two approaches.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        SWOT: https://www.businessnewsdaily.com/5543-personal-swot-analysis.html
+        SOAR: https://getlucidity.com/strategy-resources/create-a-soar-analysis-in-5-steps/

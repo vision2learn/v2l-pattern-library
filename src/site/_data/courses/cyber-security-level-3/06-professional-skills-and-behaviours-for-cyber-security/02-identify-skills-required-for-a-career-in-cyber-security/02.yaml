@@ -1,106 +1,61 @@
-title: TEMPLATE PAGE
+title: Personal development plan
 intro: |
-  intro text
+  On this page you will learn about assessing your own skills, personal development plans, and how to create your own personal development plan.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to assess own skills against those required for a career in cyber security.
   -
-    title: introduction text
+    title: Assessing your own skills
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      After conducting ‘a skills review’ you should look at the skills you have identified and relate them to some roles within this field. You might find that you do not have all the skills needed at the moment, but you can identify where you might need to gain some or build on those you already have.
       
-      Topic introduction text here 
+      Try to be specific and not vague and identify areas that are relevant. For example, don’t just say you can code! Say what languages you know and are proficient in and how you have applied them.
+      
+      Think about your strengths and weaknesses and any assessments and performance reviews you have had and how you have improved your skills and performance in the past.
 
     img: /images/svg/placeholder_icon.svg
   -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Research the skills you need for a career in cyber security and use these along with the personal skills analysis conducted in the previous exercise to see if you have the skills required for a career in cyber security. Make a list of the skills you need to develop or improve.
   -
   -
-    title: Case study
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Creating a personal development plan
+      
+      So we have discussed the skills needed for a position in cyber security and we have looked at how you can identify what skills you have and what you need to work on. It’s time now to Create a personal Development plan.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to create a personal development plan.
+  -
+  -
+    title: Time for assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Once you have conducted a personal skills analysis and assessed your skills against those required for a career in cyber security, you are ready to create a personal development plan. You can think of this as a roadmap for acquiring the skills you need in order to achieve your goal of a position in cyber security. 
 
-      _Optional item depending on content_
+      Use the same document that you downloaded on the previous page [Unit 6 Section 2 Assessment - Personal development plan](/pdfs/cs3_u6_assessment_workbook.pptx) to complete.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      _ID question - two separate documents as content is accross two pages or one document with instructions?_
+
+      Remember that this document will be part of your Unit 6 assessment so make sure you save it with your name.
   -
   -
     title: On the web
@@ -108,60 +63,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about personal development plans.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        cpd online - personal development plans: https://cpdonline.co.uk/knowledge-base/business/what-are-personal-development-plans/
