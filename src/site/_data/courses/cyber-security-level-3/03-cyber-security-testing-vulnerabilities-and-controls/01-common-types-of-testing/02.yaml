@@ -1,7 +1,7 @@
 title: Understand common types of testing in cyber security
 intro: |
   In this session we will look at the common types of testing in cyber security, why testing is important and the mitigations that follow testing.
-banner: placeholder.jpg
+banner: cs3_u3_s1_p2_common_types.jpg
 sections:
   -
     title: Key point
@@ -129,17 +129,17 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Vulnerability scanning is using automated software to scan for and find security weaknesses and flaws in systems and software running on them. 
+          answer: Vulnerability
         -
-          sentence: example two
-          answer: two
+          sentence: Pentesters simulate a malicious attack and their goal is to expose unknown vulnerabilities such as zero-day threats and business logic flaws.
+          answer: Pentesters
         -
-          sentence: example three 
-          answer: three
+          sentence: Red teaming is designed to take a hacker like approach to detect vulnerabilities. 
+          answer: Red teaming
         -
-          sentence: example four
-          answer: four
+          sentence: social engineering testing can highlight issues with procedures and identify how susceptible staff might be to attacks.
+          answer: social engineering
     theme: i-quiz
   
   -
