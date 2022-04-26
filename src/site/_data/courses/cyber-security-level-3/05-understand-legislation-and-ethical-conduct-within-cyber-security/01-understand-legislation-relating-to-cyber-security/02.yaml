@@ -22,37 +22,79 @@ sections:
         -
           title: The Computer Misuse Act 1990
           text: |
-            Before 1990 hacking was not easy to prosecute but this changed with the introduction of the Computer Misuse Act. The act created 3 new offences:
-            * Unauthorised access to computer material. (hacking)
-            * Unauthorised access with intent to commit or facilitate commission of further offences (planting a virus)
-            * Unauthorised modification of computer material. (modifying or deleting data and introduction of malware or spyware)
-            * Making and supplying or obtaining anything that can be used in computer misuse offences.
+            Before 1990 hacking was not easy to prosecute but this changed with the introduction of the Computer Misuse Act. The act created these new offences:
+            - Unauthorised access to computer materials with intent to commit a further crime. This refers to entering a computer system to steal data or destroy a device or network (such as planting a virus).
+            - Unauthorised access to computer material. This refers to entering a computer system without permission (hacking).
+            - Unauthorised modification of data. This refers to modifying or deleting data, and also covers the introduction of malware or spyware onto a computer (electronic vandalism and theft of information).
+            - Making and supplying or obtaining anything that can be used in computer misuse offences.
+    
+            These offences can earn a sentence of up to 10 years in prison as well as a fine related to the severity of the crime and the damage caused. If this damage causes harm to human welfare or puts national security at risk, the sentence could be up to life imprisonment.
 
           img: cs3_u5_s1_p2_slide1.svg
         -
           title: Official Secrets Acts 1989
           text: |
-            These consist of four legal documents related to protecting the UK against espionage and the leaking of government secrets or sensitive data. All employees and those who work in associated areas have to sign the Official Secrets Act and are bound by is rules. The areas protected are: security and intelligence, defence, international relations, crime and special investigation powers, unauthorised disclosure of information, release of confidential information to other states or international organisations.
+            This act consists of four legal documents related to protecting the UK against espionage and the leaking of government secrets or sensitive data. Employees and ex-employees of the security services, civil servants, police, judges, members of the armed forces and government contractors are among those who are required to sign the Official Secrets Acts.
+
+            There are six categories of protected information in the Act:
+            - Security and intelligence.
+            - Defence
+            - International Relations
+            - Crime and Special Investigation Powers
+            - Information Relating from Unauthorised Disclosures
+            - Information Entrusted in Confidence to Other States or International Organisations
+
+            Prosecutions under the Official Secrets Act do not happen very often, only about once a year. The maximum penalty is two years imprisonment and/or an unlimited fine, although crimes related to spying carry a maximum sentence of 14 years.
+
           img: cs3_u5_s1_p2_slide2.svg
         -
           title: Communications Act 2003
           text: |
             This act was drafted in consideration of changes that have occurred in the telecommunications and media industries and established laws for the use of TV, phones and the internet.
+            
+            It also introduced the so-called ‘piggybacking’ ban, which made it illegal for people to access and use Wi-Fi that they did not pay for, unless it had been made available to the public, such as in coffee shops.
+           
+            The Act also banned some types of offensive online content. For example, Section 127 of the Act categorises social media as a public electronic communications network, and users can face punishment for sending or posting offensive content. It also forbids the sending “by means of a public electronic communications network a message or other matter that is grossly offensive or of an indecent, obscene or menacing character.” Critics of the Act argue that section 127 is too heavy-handed and infringes on free speech.
           img: cs3_u5_s1_p2_slide3.svg
         -
           title: Data Protection Act 2018 / General Data Protection Regulation (GDPR) 
           text: |
-            GDPR is a European regulation which was brought into domestic law as UK GDPR and it covers personal data in the EU and UK. All businesses are required to keep safe any personal data and are only allowed to let third parties access it if there are sufficient guarantees as to its safety. It also stipulates that any organisations using personal data have in place protective measures and procedures to safeguard that data. The Data Protection Act also ensures that all data that is collected is appropriate, relevant and accurate and only kept for as long as is necessary in a secure place.
+            The Data Protection Act works with the GDPR to safeguard all information held about an individual which could be classified as personal (e.g. name, address, financial details) or sensitive (e.g. ethnicity, political opinion, religion).
+
+            **Principles of the Data Protection Act:**
+            1. Data must be collected and used fairly and inside the law.
+            2. Data must only be held and used for the reasons given to the Information Commissioner.
+            3. Data can only be used for those registered purposes. You cannot give it away or sell it unless you said you would initially. For example, a school could not sell pupils’ data to a book or uniform supplier without permission.
+            4. The data held must be acceptable, appropriate and not beyond what is necessary when compare with the purpose for which the data is held.
+            5. Data must be accurate and be kept up to date. For example, making sure data subjects’ contact numbers are current.
+            6. Data must not be kept longer than is necessary. This rule means that it would be wrong to keep information about past customers longer than a few years at most.
+            7. Data must be kept safe and secure – for example, personal data should not be left open to be viewed by just anyone.
+            8. Data may not be transferred outside of the European Economic Area.
           img: cs3_u5_s1_p2_slide4.svg
         -
           title: Police and Criminal Evidence Act 1984 (PACE) 
           text: |
-            This act sets out the regulatory framework and codes of practice of the police and aims to balance them with the rights and freedoms of the public. It covers the powers of searching an individual or their premises. It also covers the collection of evidence from computer records and their accuracy and whether this can be used in court.
+            The Police and Criminal Evidence Act 1984 (PACE) set out a framework of regulations and codes of practice for police officers in England and Wales. The aim of the Act was to balance the powers of the police with the rights and freedoms of the public.
+
+            PACE mainly deals with police powers to search an individual or premises, the handling of materials seized during searches and the treatment of suspects once they are in custody. As such, a number of the provisions of PACE are concerned with collecting evidence from computer records, and determining whether this evidence can be used in court. For example, Section 69 states, in part:
+
+            **(1)** In any proceedings, a statement in a document produced by a computer shall not be admissible as evidence of any fact stated therein unless it is shown—
+
+            **(a)** that there are no reasonable grounds for believing that the statement is inaccurate because of improper use of the computer;
+
+            **(b)** that at all material times the computer was operating properly, or if not, that any respect in which it was not operating properly or was out of operation was not such as to affect the production of the document or the accuracy of its contents.
           img: cs3_u5_s1_p2_slide5.svg
         -
           title: Directive on security of network and information systems (2016/1148) (NIS Directive)
           text: |
-            NIS is concerned with the security of information systems and requires digital providers to take appropriate and proportionate measure to manage any risks and to minimise or prevent security incidents. The NCSC publishes guidance on how to comply with NIS and oversees a government backed certification scheme.
+            While the GDPR is concerned with the security of personal data, the NIS is concerned with the security of information systems. The NIS regulations require “digital service providers” and operators of “essential services” to take “appropriate” and “proportionate” measures to manage risks and to prevent, or minimise the impact of, security incidents that affect network and information systems.
+
+            It is up to individual organisations to determine what measures are appropriate and proportionate. However, in order to demonstrate that they have taken the correct measures, it is important that
+            organisations understand the risks they face. 
+            
+            To help with this, the National Cyber Security Centre (NCSC) publishes guidance for complying with the NIS. The NCSC also oversees a ‘cyber essentials’ certification scheme. This is a government-backed and industry-supported scheme that provides self-assessment certification to help organisations protect themselves against common cyber attacks and aids compliance with the NIS.
+            
+            A failure to meet the requirements of the NIS can result in fines up to a maximum of £17 million.
           img: cs3_u5_s1_p2_slide6.svg
   -
   -
