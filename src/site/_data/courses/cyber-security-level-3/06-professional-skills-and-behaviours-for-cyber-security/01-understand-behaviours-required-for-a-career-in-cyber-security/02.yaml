@@ -54,6 +54,8 @@ sections:
         -
           title: Guilty by Association check
           text: |
+            REWRITE
+            
             Guilty by Association refers to an individual being guilty because of their association with a person who has committed a crime or has extreme beliefs even if they themselves have not broken the law. This may involve checking out social media to see if any worrying allegiances apply.
           img: placeholder_icon.svg
         -
@@ -64,6 +66,7 @@ sections:
         -
           title: Credit Checks
           text: |
+            REWRITE 
             Businesses that involve law and finance are legally required to perform credit checks on their potential employees, but other companies may also do this if the role involves working with money.
           img: placeholder_icon.svg
   
