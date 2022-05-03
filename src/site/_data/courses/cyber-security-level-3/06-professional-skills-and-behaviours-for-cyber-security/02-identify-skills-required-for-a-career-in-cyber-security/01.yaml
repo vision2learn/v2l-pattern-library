@@ -1,7 +1,7 @@
 title: Skills required for a career in cyber security
 intro: |
   In this session you will learn about the skills that are required to have a career in cyber security.  You will also learn how to create a personal development plan.
-banner: placeholder.jpg
+banner: cs3_u6_s2_p1_skills.jpg
 sections:
   -
     title: What you will learn
@@ -32,6 +32,17 @@ sections:
       Let’s have a look at these in more detail in the following video.
 
     video: cs3_u6_s2_p1_skills.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following interview with a Cyber security apprectice from the bbc bitesize website:
+
+      links:
+        Cyber security apprentice interview: https://www.bbc.co.uk/bitesize/articles/zjvf2sg
   -
     title: Time to think
     theme: t-bg-primary3 i-think
