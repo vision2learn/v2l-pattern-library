@@ -25,14 +25,11 @@ sections:
       There are organisations who have developed standards for this such as ‘NIST’ National Institute of Standards and Technology and ‘SANS’ institute to find out more about these check out our links below.
 
       Let's look at the different stages involved in the following activity.
-
-      _This will be an Animate activity_
-
     interactive: 
-      file: cs3/u4_s1_p2_incident_response_lifecycle
-      width: 
-      height: 
-      composition: 
+      file: cs3/u4_s1_p3_incident_response_lifecycle
+      width: 1100
+      height: 500
+      composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
     title: Case study
