@@ -55,7 +55,7 @@ sections:
       ### Ethical conduct
       
       Please see the following video on ethical conduct in Cyber Security.
-    video: placeholder_pc.mp4
+    video: cs3_u5_s3_p1_ethical conduct.mp4
   
   -
     title: Case study
@@ -88,51 +88,25 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn about the UK Cyber Security Council Code of Ethics.
 
       links:
-        website description: http://www.google.co.uk
+        UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk/professional-standards-and-ethics/code-of-ethics/
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Ethical conduct refers to standards of behaviour that are appropriate and shows understanding of what is right and what is wrong. 
+          answer: standards of behaviour
         -
-          sentence: example two
-          answer: two
+          sentence: Most new employees must sign up to a policy agreement as part of their induction to say that they will follow all guidelines including ethical ones.
+          answer: policy agreement
         -
-          sentence: example three 
-          answer: three
+          sentence: It is not ethical of a business to expect employees to be available at all hours unless this is part of their role.
+          answer: available
         -
-          sentence: example four
-          answer: four
+          sentence: There are a range of ethical rules that link to legislation when it comes to using computer systems.
+          answer: legislation
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

@@ -9,11 +9,11 @@ sections:
     copy: |
       In your assessment you will be required to explain trends in international law for cyberspace.
   -
-    title: Placeholder
+    title: International law for cyberspace
     layout: media
     theme: t-bg-primary
     copy: |
-      One of the big benefits of the internet is the way that it connects people from almost anywhere on the planet. But in terms of law enforcement, this is also one of the big drawbacks. Threats can come from anywhere, and tracking down and stopping threat actors in other countries can be extremely difficult –especially if the laws in the host country differ from those in the country where the attack took place, or where the attack is international in scope. 
+      One of the big benefits of the internet is the way that it connects people from almost anywhere on the planet. But in terms of law enforcement, this is also one of the big drawbacks. Threats can come from anywhere, and tracking down and stopping threat actors in other countries can be extremely difficult – especially if the laws in the host country differ from those in the country where the attack took place, or where the attack is international in scope. 
       
       For this reason, the main challenge in international law for cyberspace is to craft binding laws that apply internationally and do not violate the sovereignty of individual states.
      
@@ -29,7 +29,7 @@ sections:
       ### Current trends in International Law for cyberspace
 
       Let’s look at the current trends in international law for cyberspace.
-    video: placeholder_pc.mp4
+    video: cs3_u5_s1_p2_trends.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -44,12 +44,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the debate over net neutrality:
 
       links:
-        website description: http://www.google.co.uk
+        NCSL - the debate over Net Neutrality: https://www.ncsl.org/research/telecommunications-and-information-technology/the-debate-over-net-neutrality.aspx
   -
     title: Quick quiz
     copy: 

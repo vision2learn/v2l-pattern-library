@@ -20,29 +20,34 @@ sections:
     title: ISO standards for Cyber Security
     theme: t-bg-primary
     copy: |
-      As stated on the ISO website, The ISO is an independent, non-governmental international organisation with a membership of 167 national standards bodies and it is based in Geneva in Switzerland. ISO standards are agreed internationally by experts as the best way of doing something. They cover a range of areas and IT security is one of them.
+      ISO stands for The International Organisation for Standardisation. This is an independent, non-governmental international organisation tasked with developing standards that are agreed internationally by experts as the best way of doing something.  Membership includes 167 national standards bodies and it is based in Geneva in Switzerland. Some of the areas of industry that The ISO has developed standards for includes: medical devices, energy management and social responsibility.
       
-      There are many standards in the ISO/IEC 27000 family which are responsible for keeping information assets secure. Using them helps to manage financial information, intellectual property, employee details or information entrusted by third parties. (ISO.org) 
-
-
+      Let’s have a look at some of the standards in the slides below:
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: ISO/IEC 27032:2012
-          text: |
-            This standard provides guidance for improving cyber security looking in particular at: information security, network security, internet security and critical information infrastructure protection (CIIP). It also covers baseline security practices for stakeholders in cyberspace.
-          img: placeholder_icon.svg
-        -
           title: ISO/IEC 27000:2018
           text: |
-            Provides an overview of information security management systems (ISMS) as well as the terms and definitions more commonly used. This document applies to all types and sizes of organisations.
+            Each industry area has its own set of standards, which are classified by number. Cyber falls within the security series 27000, which is responsible for keeping information assets secure and provides the overview of information security management systems. Using the ISO27000 standards them organisations to manage financial information, intellectual property, employee details or information entrusted by third parties. (ISO.org). 
+            
+            These standards are referred to as ISO/IEC 27000 and usually include a date e.g. ISO 27000:2018 (the date is the last year that the standard was updated).
           img: placeholder_icon.svg
         -
           title: ISO/IEC 27001:2013
           text: |
-            This specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system. The requirements are generic and applicable to all organisations but should be tailored to the needs of the organisation.
+            ISO27001 is perhaps the most important standard for cyber security. It includes the specification for information security management systems (ISMS) and businesses must meet this to become ISO27000 certified. ISMS helps organisations to secure their data and information and is a set of policies and procedures, including the legalities and technical control for their risk management processes. An ISMS can include areas of business that are not thought of as part of IT e.g. human resources and can protect all information from a range of threats including how to recover from an incident.
+          img: placeholder_icon.svg
+        -
+          title: ISO/IEC 27032:2012
+          text: |
+            This standard is used with ISO 270001 and provides guidance for improving cybersecurity, looking at: information security, network security, internet security and critical information infrastructure protection (CIIP). It also covers baseline security practices for stakeholders in cyberspace, prevents data leaks through encryption and provides guidance on information sharing, along with how to handle incidents.
+          img: placeholder_icon.svg
+        -
+          title: ISO/IEC 271017:2015
+          text: |
+            Specifically for cloud services, this standard provides guidelines for additional controls and implementation for both cloud service providers and customers. It informs both parties of roles and responsibilities and how to manage their relationship whilst maintaining the cloud service, e.g. the provider is responsible for security and the customer is responsible for their own decision in using the cloud service.
           img: placeholder_icon.svg
   -
   -
@@ -69,39 +74,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: ISO/IEC 27032:2012 is used with ISO 270001 and provides guidance for improving cybersecurity.
+          answer: ISO/IEC 27032:2012
         -
-          sentence: example two
-          answer: two
+          sentence: ISO/IEC 27001:2013 includes the specification for information security management systems (ISMS) and businesses must meet this to become ISO27000 certified.
+          answer: ISO/IEC 27001:2013
         -
-          sentence: example three 
-          answer: three
+          sentence: Cyber falls within the security series ISO/IEC 27000, which is responsible for keeping information assets secure and provides the overview of information security management systems.
+          answer: ISO/IEC 27000
         -
-          sentence: example four
-          answer: four
+          sentence: ISO/IEC 271017:2015 is specifically for cloud services.
+          answer: ISO/IEC 271017:2015
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
