@@ -107,7 +107,7 @@ sections:
         -
           title: Discipline
           text: |
-            Discipline is another important component of the post-mortem process. This means, in part, making sure that you are being thorough and comprehensive, rather than just finding obvious signs of vulnerability, such as incorrect firewall configurations, software bugs, rootkits and so on without looking at the bigger picture of what may be causing those things to happen. 
+            Discipline is another important component of the post-mortem process. This means, in part, making sure that you are being thorough and comprehensive, rather than just finding obvious signs of vulnerability. Vurlnerablilities such as incorrect firewall configurations, software bugs, rootkits, and so on without looking at the bigger picture of what may be causing those things to happen. 
             
             For example, is poor software engineering practice, lax employee security or not having the right anti-virus tools an underlying cause? Is overwork of the IT team or a lack of configuration management for systems causing mistakes?
           img: cs3_u4_s3_p1_slide3.svg
@@ -119,4 +119,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Define the terms intensity, rigour and discipline as they refer to an incident post-mortem.
+        Define the terms integrity, rigour and discipline as they refer to an incident post-mortem.
