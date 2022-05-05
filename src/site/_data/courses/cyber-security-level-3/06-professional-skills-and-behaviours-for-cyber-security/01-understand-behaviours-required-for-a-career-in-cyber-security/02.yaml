@@ -40,7 +40,9 @@ sections:
     title: Employee screening checks
     theme: t-bg-primary
     copy: |
-      Some employers operate screening checks for employees so what exactly are these?
+      Some employers operate screening checks for potential employees. These are usually carried out at recruitment and can assist an organisation to mitigate any negative impact and safeguard themselves. Some are legally required e.g. to check a candidates status for their right to work in the UK, or if they have any conviction that prevents them being employed in particular roles. 
+      
+      All pre-employment checks must comply with the Data Protection Act 2018 and not discriminate in anyway. 
 
     subInc: 
       type: slider
@@ -49,30 +51,22 @@ sections:
         -
           title: Disclosure and Barring Service (DBS) check
           text: |
-            A basic DBS check can be used for any position or purpose, and it can be requested by an individual. An employer may also be requested one to be provided. A DBS is a basic criminal record check which contains details of convictions and conditional cautions.
+            This is a legal requirement for anyone that wants to work with vulnerable people e.g. in healthcare or childcare. A basic DBS check can be used for any position or purpose and can even be requested by an individual. An enhanced DBS is needed to ensure safeguarding and both types will include details of convictions, conditional cautions and can include checks of terror watch lists.
           img: cs3_u6_s1_p2_slide1.svg
         -
           title: Guilty by Association check
           text: |
-            REWRITE - Incorrect (JM)
-            
-            Guilty by Association refers to an individual being guilty because of their association with a person who has committed a crime or has extreme beliefs even if they themselves have not broken the law. This may involve checking out social media to see if any worrying allegiances apply.
+            Employers, particularly those in cyber security, may carryout online and social media checks for candidates. Part of this check will be to see if the candidate is associated with any persons or bodies that may impact on the organisation’s reputation. This will also include if the candidate is linked to any extreme or radical information. Organisations should inform the candidate that social media checks will be carried out and provide them with the opportunity to discuss anything questionable that is discovered. 
           img: cs3_u6_s1_p2_slide2.svg
         -
           title: Security checks (terror lists, address checks, employment verification checks)
           text: |
-            Security checking is done as a screening process 
-            
-            REWRITE - Incorrect (JM) 'specially to check individuals who may have access to government assets'. 
-            
-            These may vary according to the role the individual is applying for and what area they will be working in. It may include previous employment checks, criminal record checks, address checks and checks against belonging to any terrorist groups or organisations.
+            These checks may also be carried out, depending on the position and sector that the candidate is applying for and may include all or some of the checks listed above. The higher the level of role and type of organisation will determine which checks are carried out e.g. for anyone working within Government security and banks they can expect the highest level of security checks. It’s important for organisations to ensure that any checks are appropriate to the role. 
           img: cs3_u6_s1_p2_slide3.svg
         -
           title: Credit Checks
           text: |
-            Businesses that involve law and finance are legally required to perform credit checks on their potential employees, but other companies may also do this 
-            
-            REWRITE - Incorrect (JM) 'if the role involves working with money'.
+            Any organisation may ask to carryout credit checks on candidates, especially if the role involves working with money. For some sectors it is a legal requirement e.g. law firms and financial institutions. As with all other checks, it’s important that the role benefits from the check e.g. this many not be needed for a site labourer but may be for a shopworker operating a cash till. 
           img: cs3_u6_s1_p2_slide4.svg
   
   -
