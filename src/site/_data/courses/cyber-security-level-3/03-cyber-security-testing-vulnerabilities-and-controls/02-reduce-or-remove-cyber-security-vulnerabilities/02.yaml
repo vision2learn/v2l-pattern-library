@@ -51,7 +51,7 @@ sections:
                     * Yes / No
                     * Agree / Disagree
                     * Pass / Fail
-                img: lm_u1_s3_p1_symbol_decision_1.svg
+                img: cs3_u3_s2_p2_reveal3.svg
             -
                 title: Document
                 copy: |
@@ -95,7 +95,7 @@ sections:
     copy: |
       The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
 
-      ![](/images/svg/ln/lm_u1_s3_p1_tv_flowchart.svg)
+      ![](/images/svg/cs3/cs3_u3_s2_p2_image.svg)
   -
     title: Watch 
     theme: t-bg-grey i-watch

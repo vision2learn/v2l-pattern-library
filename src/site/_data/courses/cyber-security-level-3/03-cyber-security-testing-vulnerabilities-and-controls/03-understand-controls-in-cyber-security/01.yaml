@@ -1,7 +1,7 @@
 title: Understand controls in cyber security
 intro: |
-  intro text
-banner: cs3_u3_s3_p1_understand_controls.jpg
+  In this session we will be looking at cyber security controls and frameworks.
+banner: placeholder.jpg
 sections:
   -
     title: What you will learn
@@ -109,17 +109,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Cyber security frameworks are a system of standards, guidelines for best practice to manage and mitigate cyber security risks.
+          answer: guidelines for best practice
         -
-          sentence: example two
-          answer: two
+          sentence: Following an appropriate cyber security framework will help to manage an organisations risk.
+          answer: manage an organisations risk
         -
-          sentence: example three 
-          answer: three
+          sentence: Control frameworks are often used by those who are new to cyber security, these offer a basic set of controls to follow. 
+          answer: Control frameworks
         -
-          sentence: example four
-          answer: four
+          sentence: Program frameworks assess the overall state of a security program and help to build and analyse a system conducting industry comparisons. 
+          answer: Program frameworks
+        -
+          sentence: Risk frameworks focus on risk and prioritise security.
+          answer: Risk frameworks
     theme: i-quiz
   -
   -
