@@ -1,7 +1,7 @@
 title: Create a Cyber security incident response plan activity
 intro: |
   On this page we are going to look at an example of a cyber security incident response plan, and a case study to help you to create a cyber security incident response plan which you will use as part of your assessment.
-banner: placeholder.jpg
+banner: cs3_u4_s2_p2_create_an_activity.jpg
 sections:
   -
     title: Key point
@@ -13,7 +13,7 @@ sections:
     title: Cyber security incident response plans
     theme: t-bg-primary
     copy: |
-      Organisations come in different sizes and purposes and therefore require different cyber security incident plans. But what needs to be considered in all cases that an IR plan can help everyone in an organisation know what to do if an attack happens. 
+      Organisations come in different sizes and purposes and therefore require different cyber security incident plans. In all cases an IR plan can help everyone in an organisation know what to do if an attack happens. 
       
       When designing a plan, the first thing to think about is who will be using it and how many stages of escalation will there be. The plan should also include how to categorise each incident and lay down the ground rules appropriately.
   -
@@ -25,10 +25,10 @@ sections:
 
       The following is a fairly detailed IR plan. Many organisations would use a much simpler IR plan. It would likely be contained in a physical folder, as well as online, so it can be referred to in the event of an incident.
 
-      [Incident Response Plan Example]().
+      [Incident Response Plan Example](/pdfs/cs3_u4_s2_p2_read.pdf).
   -
   -
-    title: Time to practice
+    title: Time for assessment task
     theme: t-bg-primary3 i-practice
     copy: |
       Take a look at the following case study and create an incident response plan using the following [Cyber Security Incident Response Plan]() template document.  
@@ -55,5 +55,5 @@ sections:
 
       Use the downloadable document in the above 'Time to practice' to create your incident response plan. 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u4_s2_p2_case_study.svg
   

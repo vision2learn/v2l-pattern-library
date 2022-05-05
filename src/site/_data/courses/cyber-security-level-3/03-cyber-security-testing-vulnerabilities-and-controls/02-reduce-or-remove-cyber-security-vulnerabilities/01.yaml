@@ -1,7 +1,7 @@
 title: Reduce or remove potential cyber security vulnerabilities
 intro: |
   In this session, you will learn how to identify cyber security vulnerabilities, the steps to take once a vulnerability has been identified, how to apply the correct responses to a vulnerability and how to develop the appropriate communications strategy to mitigate future vulnerabilities.
-banner: placeholder.jpg
+banner: cs3_u3_s2_p1_reduce_or_remove.jpg
 sections:
   -
     title: What you will learn
@@ -34,22 +34,22 @@ sections:
           title: Network vulnerabilities
           text: |
             Issues with a networks hardware or software exposing it to attack form an external source. Examples would be insecure WiFi access points and poorly configured firewalls.
-          img: placeholder_icon.svg
+          img: cs3_u3_s2_p1_slide1.svg
         -
           title: Operating System vulnerabilities
           text: |
             These are found within assets that the OS is installed on and offer attackers access by hidden backdoor programs.
-          img: placeholder_icon.svg
+          img: cs3_u3_s2_p1_slide2.svg
         -
           title: Human vulnerabilities
           text: |
             Humans are often the weakest link in the cybersecurity architecture as they can easily expose sensitive data and inadvertently give access to hackers. They may also do this maliciously.
-          img: placeholder_icon.svg
+          img: cs3_u3_s2_p1_slide3.svg
         -
           title: Process vulnerabilities
           text: |
             Some organisations have weak processes in place or lack an organized cyber security system. An example of this could be weak passwords easily hackable, this can also fall under human vulnerabilities.
-          img: placeholder_icon.svg
+          img: cs3_u3_s2_p1_slide4.svg
   -
   -
     title: Watch 
@@ -59,7 +59,7 @@ sections:
       ### Cyber Security Vulnerabilities
       
       In this video let’s look at some of the cyber security vulnerabilities in more detail.
-    video: placeholder_pc.mp4
+    video: cs3_u3_s2_p1_vulnerability.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -77,7 +77,7 @@ sections:
       ### Vulnerability events
       
       In this video let’s look at a vulnerability event.
-    video: placeholder_pc.mp4
+    video: cs3_u3_s2_p1_vulnerability_event.mp4
   -
   -
     title: Watch 
@@ -87,12 +87,29 @@ sections:
       ### Response to a vulnerability event
       
       In this video let’s look at what to do in the event of a vulnerability.
-    video: placeholder_pc.mp4
+    video: cs3_u3_s2_p1_vulnerability_response.mp4
   -
   -
     title: Read
     theme: t-bg-primary i-read
     copy: | 
-      [Read about organisational policies/procedures within the steps for responding to a vulnerability](/pdfs/cs3_u3_s2_p1_read.pdf).
+      Please see the following Read documents for some examples of organisation policies and procedures:
 
-      _OR a Weblink?_
+      [Acceptable use policy](/pdfs/cs3_u3_s2_read_acceptable_use_policy.pdf)
+
+      [Data breach response policy](/pdfs/cs3_u3_s2_read_data_breach_response_policy.pdf)
+
+      [Disaster recovery plan policy](/pdfs/cs3_u3_s2_read_disaster_recovery_plan_policy.pdf)
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Additional research
+
+      Click on the owl to take you to a website for you to continue your research into organisational policies as this is something you will need to do as part of your assessment.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.csoonline.com/article/3074825/critical-it-policies-you-should-have-in-place.html
+  -

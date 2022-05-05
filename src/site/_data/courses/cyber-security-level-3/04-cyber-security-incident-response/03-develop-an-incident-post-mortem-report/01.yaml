@@ -1,7 +1,7 @@
 title: Incident post mortem report
 intro: |
   In this session we will look at incident post-mortems and their structure. We will look at some important features and how to create and analyse them.
-banner: placeholder.jpg
+banner: cs3_u4_s3_p1_post_mortem_report.jpg
 sections:
   -
     title: What you will learn
@@ -29,7 +29,7 @@ sections:
       ### What is meant by an incident post mortem?
 
       This is a process by which organisations as soon as possible after an incident will analyse and discuss its consequences to be better prepared should another occur in the future. Let’s have a look at this in more detail in this video.
-    video: placeholder_pc.mp4
+    video: cs3_u4_s3_p1_incident_post_mortem.mp4
   -
   -
     title: Quick quiz
@@ -93,7 +93,7 @@ sections:
             Integrity is important in cyber security as a lack of it from an employee or department can lead to a security breach. Any broken link in the chain can lead to a breach and most of it is preventable with foresight and training. Mistakes make by individual employees can have an impact on a business.
 
             To deal with integrity issues a company could focus on building a company culture with well-defined principles.
-          img: placeholder_icon.svg
+          img: cs3_u4_s3_p1_slide1.svg
         -
           title: Rigour
           text: |
@@ -103,14 +103,14 @@ sections:
             3. Did something go unmaintained because in-house staff were under-resourced? 
             4. Were staff under-trained so that they didn’t recognise something they should have? 
             5. Was someone in charge of staying up to date on threats?
-          img: placeholder_icon.svg
+          img: cs3_u4_s3_p1_slide2.svg
         -
           title: Discipline
           text: |
-            Discipline is another important component of the post-mortem process. This means, in part, making sure that you are being thorough and comprehensive, rather than just finding obvious signs of vulnerability, such as incorrect firewall configurations, software bugs, rootkits and so on without looking at the bigger picture of what may be causing those things to happen. 
+            Discipline is another important component of the post-mortem process. This means, in part, making sure that you are being thorough and comprehensive, rather than just finding obvious signs of vulnerability. Vurlnerablilities such as incorrect firewall configurations, software bugs, rootkits, and so on without looking at the bigger picture of what may be causing those things to happen. 
             
             For example, is poor software engineering practice, lax employee security or not having the right anti-virus tools an underlying cause? Is overwork of the IT team or a lack of configuration management for systems causing mistakes?
-          img: placeholder_icon.svg
+          img: cs3_u4_s3_p1_slide3.svg
         
   -
   -
@@ -119,4 +119,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Define the terms intensity, rigour and discipline as they refer to an incident post-mortem.
+        Define the terms integrity, rigour and discipline as they refer to an incident post-mortem.

@@ -1,7 +1,7 @@
 title: Apply a cyber security control
 intro: |
   In our previous session we have looked at cyber security controls but how do you actually apply them?
-banner: placeholder.jpg
+banner: cs3_u3_s4_p1_apply_a_cyber.jpg
 sections:
   -
     title: What you will learn
@@ -25,7 +25,7 @@ sections:
       ### How to apply controls
       
       Please see the following video to learn more.
-    video: placeholder_pc.mp4
+    video: cs3_u3_s4_p1_controls.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -48,7 +48,7 @@ sections:
       ### Implement a basic cyber security control - INSTRUCTIONS
       
       Please see the following video to get instructions on how to implement a basic cyber security control.
-    video: placeholder_pc.mp4
+    video: cs3_u3_s4_p2_controls_instructions.mp4
   -
   -
     title: Key point
@@ -70,25 +70,25 @@ sections:
           title: Risk
           text: |
             How does the control mitigate or address a serious risk? What is the relationship between the risk and the organisation’s business objectives? Clarify what might happen if you don’t address the risk and how likely this is to happen.
-          img: placeholder_icon.svg
+          img: cs3_u3_s4_p1_slide1.svg
         -
           title: Cost
           text: |
             How much will the control cost to implement? Will there be ongoing fees, such as subscriptions? What are the internal costs related to people’s time? Consider the costs of alternative ways of addressing the risk.
-          img: placeholder_icon.svg
+          img: cs3_u3_s4_p1_slide2.svg
         -
           title: Context
           text: |
             What role does the control play in your organisation’s overall cyber security plan or framework? Is it an important part of this plan? How do other organisations that are similar to yours handle similar risks? How does the risk fit into the current threat landscape – for example, does it make sense to act quickly on an emerging risk, before your organisation is attacked?
-          img: placeholder_icon.svg
+          img: cs3_u3_s4_p1_slide3.svg
         -
           title: Regulation
           text: |
             Does the control help your organisation meet its obligations under regulations such as the UK GDPR? Would not implementing the control put your organisation at risk of a fine for non-compliance if an attack occurs?
-          img: placeholder_icon.svg
+          img: cs3_u3_s4_p1_slide4.svg
         -
           title: Benefits
           text: |
             What are the benefits to your organisation of implementing the control? Aside from preventing an attack, could it also help your organisation to compete better or improve customer satisfaction or trust?
-          img: placeholder_icon.svg
+          img: cs3_u3_s4_p1_slide5.svg
   

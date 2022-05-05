@@ -1,7 +1,7 @@
 title: Understand controls in cyber security
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this session we will be looking at cyber security controls and frameworks.
+banner: cs3_u3_s3_p1_understand_controls.jpg
 sections:
   -
     title: What you will learn
@@ -30,17 +30,17 @@ sections:
           title: Physical security controls
           copy: |
             Such as perimeter fencing, locks, entry controls, surveillance equipment and cameras, and intrusion detection.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_reveal1.svg
         -
           title: Cyber security controls
           copy: |
             Such as usernames and passwords, multifactor authentication, anti-malware, and firewalls.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_reveal2.svg
         -
           title: Cloud security controls
           copy: |
             Such as measures taken in conjunction with cloud services providers.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_reveal3.svg
   -
   -
     title: Cyber security controls
@@ -56,27 +56,27 @@ sections:
           title: Encryption and Back Up of Data
           text: |
             Encryption is used to protect data confidentiality whilst in transit and whilst stored on devices. Backing up data means that permanent loss can be prevented, and the impact of a breach lessened as data can be replaced but these backups must also be encrypted to also keep them safe from breach.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide1.svg
         -
           title: Antivirus, Antimalware and Patch Management
           text: |
             Antivirus and antimalware can help to protect against malware infection and setting up regular update for all software and firmware can help to keep things protected from the latest threats.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide2.svg
         -
           title: Usernames, Passwords, and Multi Factor Authentication
           text: |
             Adding multi factor authentication to usernames and passwords can help to create a more robust system of access making it harder for hackers to gain entry.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide3.svg
         -
           title: Access Controls and Permissions
           text: |
             Users should only be granted access to areas that they specifically need to use and at a level appropriate to their role. Privileges and permissions should only be granted as they are needed for individuals to perform their role.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide4.svg
         -
           title: Network Perimeter Defences
           text: |
             Network perimeter defences such as firewalls can filter network traffic and restrict access to websites deemed malicious and Virtual Private Networks (VPN) can be used to hide online users from potential attackers.
-          img: placeholder_icon.svg
+          img: cs3_u3_s3_p1_slide5.svg
   -
   -
     title: Time to think
@@ -100,7 +100,7 @@ sections:
       ### Cyber security frameworks
       
       Please see the following video to learn more.
-    video: placeholder_pc.mp4
+    video: cs3_u3_s3_p1_frameworks.mp4
   -
   -
     title: Quick quiz
@@ -109,17 +109,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Cyber security frameworks are a system of standards, guidelines for best practice to manage and mitigate cyber security risks.
+          answer: guidelines for best practice
         -
-          sentence: example two
-          answer: two
+          sentence: Following an appropriate cyber security framework will help to manage an organisations risk.
+          answer: manage an organisations risk
         -
-          sentence: example three 
-          answer: three
+          sentence: Control frameworks are often used by those who are new to cyber security, these offer a basic set of controls to follow. 
+          answer: Control frameworks
         -
-          sentence: example four
-          answer: four
+          sentence: Program frameworks assess the overall state of a security program and help to build and analyse a system conducting industry comparisons. 
+          answer: Program frameworks
+        -
+          sentence: Risk frameworks focus on risk and prioritise security.
+          answer: Risk frameworks
     theme: i-quiz
   -
   -
@@ -153,26 +156,21 @@ sections:
       In your assessment you will be required to evaluate a cyber security framework.
   -
   -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Example of an evaluation? This or case study?
-
-      Take a look at the following document about 
-
-      NCFE workbook example- For example, your organisation’s firewall may need to be configured to block only very specific types of traffic. Or, your organisation may not want to encrypt network traffic, as this could prevent them from reading what is coming in from the network. 
-
-      [Evaluation example doc]().
-  -
-  -
     title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - TBD - This or the above READ item?
+      ### Case study - TBD
 
-      _Optional item depending on content_
+      _Different types of business to evaluation or one business - TBD_
 
     img: /images/svg/ypmh/placeholder_icon.svg
-  
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Look at the three different frameworks and identify which framework would be most appriopriate for above case study?
   

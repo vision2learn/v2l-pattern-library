@@ -1,0 +1,17 @@
+---js
+{
+  unit: 6,
+  session: 2,
+  pagination: {
+    data: "courses['cyber-security-level-3']['06-professional-skills-and-behaviours-for-cyber-security']['02-identify-skills-required-for-a-career-in-cyber-security']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

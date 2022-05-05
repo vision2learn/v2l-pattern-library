@@ -1,0 +1,92 @@
+title: Continuous professional development
+intro: |
+  In this session we will look at the importance of continuous profession development and how to support this.
+banner: cs3_u6_s3_p1_cpd.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Continuous professional development (CPD)
+      * Methods of keeping up to date with industry knowledge
+      * Why it is important to keep CPD up to date 
+
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Explain the term continuous professional development (CPD)
+      * State methods of keeping up to date with industry knowledge
+      * Explain why it is important to keep CPD up to date
+  -
+    title: CPD
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      So what is CPD? 
+
+      CPD or Continuous Professional Development is the term given to ‘learning activities’ that all professionals engage in to develop their skills, knowledge and capabilities whilst following their career pathway. It is the way a professional can enhance their work based and personal skills and proficiency throughout their career and document the process. It combines different methodologies such as training events, workshops, conferences e-learning programs offering both academic and practical qualifications allowing individuals to up-skill and maintain their competitive advantage in their field.
+
+    img: /images/svg/cs3/cs3_u6_s3_p1_image1.svg
+  -
+  -
+    title: Did you know?
+    theme: t-bg-primary1a
+    copy: |
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Examples of cyber security CPD courses?
+          copy: |
+            * National Online Safety Certificate in Cyber Security in Schools
+            * GDPR – Access Control and Intruder Detection: This course looks at GDPR regulation and its effect on data collection for access control and intruder detection systems.
+            * Introduction to Intruder Detection Systems: This course introduces Intruder Detection Systems, covering the basic components of a solution and describing the ancillary devices and their operation. The course begins by exploring the principles of security in the context of an intruder detection system and its component parts. There is an explanation of the technologies used in different types of detectors, a description of their operation and where each would
+            be used. Finally, contacts and panic alarms are covered, concluding with a section on wiring configurations.
+            * Integration v Interoperability – What is integration in the context of Security? This course provides an understanding of the benefits of an integrated security system versus individual products from different manufacturers.
+            * GDPR – Video Surveillance and Cloud Based Systems: This course covers the effects of GDPR regulations on data collection and storage for video surveillance and cloud based systems.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### CPD
+      
+      Please see the following video on CPD and methods of keeping up to date with industry knowledge, and & why it is important to keep CPD up to date.
+    video: cs3_u6_s3_p1_cpd.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Imagine that you are working as a cyber security professional for the NHS. What methods would you use to stay up to date about the types of threats that you would face in your work? Conduct some research about places that you could go to find information that would be relevant to your work.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Many websites and magazines devoted to technology will cover aspects of security on a regular basis. A few that might be helpful for a general overview of risks and updates include:
+
+      links:
+        ncsc.gov: https://www.ncsc.gov.uk
+        wired: https://www.wired.com/category/threatlevel/
+        computer weekly: https://www.computerweekly.com
+        the hacker news: https://thehackernews.com
+
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Create a list of ways that CPD could help you in your own career. Research CPD courses or opportunities that you might be interested in.

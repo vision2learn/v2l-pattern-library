@@ -1,7 +1,7 @@
 title: Cyber security incident response plan
 intro: |
   In this session you will learn about the cyber security incident response plan.  You will also learn about the stages of a cyber security incident response lifecycle.
-banner: placeholder.jpg
+banner: cs3_u4_s1_p2_incident_response_plan.jpg
 sections:
   -
     title: Key point
@@ -15,9 +15,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      It doesn’t matter how large an organisation is, putting guidance in place to handle potential incidents can help to respond appropriately if an incident does actually happen. Taking time to create a plan can help to access any gaps that there may be in capabilities to handle an incident and the plan should be the starting point for handling any incident that might take place.
+      It doesn’t matter how large an organisation is, putting guidance in place to handle potential incidents can help to respond appropriately if an incident does actually happen. Taking time to create a plan can help to access any gaps that there may be in capabilities to handle an incident. The plan should be the starting point for handling any incident that might take place.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cs3/cs3_u4_s1_p2_image.svg
   -
   -
     title: Watch 
@@ -27,7 +27,7 @@ sections:
       ### Cyber security incident response plan
       
       What exactly is a cyber security incident response plan? Please see the following video to learn more.
-    video: placeholder_pc.mp4
+    video: cs3_u4_s1_p2_incident_response_plan.mp4
   -
     title: Quick quiz
     copy: 

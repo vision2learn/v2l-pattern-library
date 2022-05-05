@@ -1,0 +1,119 @@
+title: Unethical conduct within cyber security
+intro: |
+  On this page you will learn about unethical conduct within cyber security.
+banner: cs3_u5_s3_p2_unethical_conduct_within_cyber_security.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify unethical conduct within cyber security.
+  -
+  -
+    title: Unethical conduct
+    theme: t-bg-primary
+    copy: |
+      Of course, there are many types of unethical conduct – stealing, lying, etc. But cyber security professionals are in a position to engage in particular types of unethical conduct, including hacking.
+      Have a look below at some of the different types of unethical conduct. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sabotage
+          copy: |
+            This is one of the most obvious types of unethical conduct in cyber security. Hackers are also often used by governments to sabotage physical systems in other countries. For example, in 2010, malware called Stuxnet was used by the US and Israel to damage around one-fifth of the nuclear centrifuges in Iran. 
+            
+            Other types of sabotage might include ‘hacking back’. This is when an organisation retaliates against a hacking attack (for example, an attack from competitors) by hacking them back.
+
+            The ethical implications of this are not clear-cut, but it is becoming more common and is something you may need to think seriously about.
+          img: /images/svg/cs3/placeholder_icon.svg
+        - 
+          title: Disclosing or misusing confidential information
+          copy: |
+            It is extremely important that security professionals do not abuse their position by disclosing or misusing this information. While passing on a bit of gossip may not be considered unethical for most people, it is unethical to disclose information that you learned about without anyone else’s knowledge, perhaps while working on a colleague’s laptop or fixing a problem with their email.
+
+            More obvious examples of unethical behaviour could include stealing confidential information, such as a company’s trade secrets, to sell on for a profit or to use for blackmail.
+          img: /images/svg/cs3/placeholder_icon.svg 
+        - 
+          title: Maliciously injuring the reputation or prospects of an individual or business
+          copy: |
+            Reputational harm is a growing ethical concern. At its worst, spreading malicious information or images about someone can ruin the lives of innocent people and is clearly unethical. But what about injuring the reputation of a company or organisation? Keep in mind that this is different from telling the truth about an organisation that has broken the law or has itself acted unethically. What we are talking about here is spreading confidential or false information to purposely damage an organisation or person.
+            
+            Cyber professionals are often in a unique position to find out confidential information. Ethical cyber professionals will take precautions to avoid being in this position. For example, when repairing a colleague’s computer, they will not access any files they do not absolutely need to access for their work. But however the information is acquired, using it to maliciously cause damage is always unethical.
+          img: /images/svg/cs3/placeholder_icon.svg 
+        - 
+          title: Delaying disclosure
+          copy: |
+            Cyber security can be thought of as a type of risk management – you are reducing the risk of damage from cyber attacks or helping to recover from them. Because the risks of cyber attacks have a large impact on other people and organisations, there is a basic ethical duty to disclose any risks that you find, as soon as you find them, so that those affected can make informed decisions.
+
+            For example, most would agree that if an organisation discovers a critical vulnerability in its software, it should notify its customers and clients of the vulnerability as soon as it can, so they can install a patch (if available) or take other defensive measures. A delay could allow their systems to be attacked.
+
+            However, what counts as ‘timely’ is subject to considerable debate. For example, what if there is no patch and the vulnerability would be very challenging to discover and exploit by an attacker? In this case, is it ethical to wait until a patch is developed? What if making the vulnerability public would increase the chances of an attacker using it? 
+          img: /images/svg/cs3/placeholder_icon.svg 
+        - 
+          title: Other ethical issues to consider
+          copy: |
+            Deciding what is ethical and unethical can be a major concern for IT and security professionals. Take a look at the examples below, what would you do? 
+            * Professionals Who work for multiple companies may learn things about one of thier clients that might affect thier other client(s), is it more ethical to tell them or to keep the secret? 
+            * Suppose you have access to company trade secrets in your work and you later leave the company and go to work for a competitor. Is it wrong to use the secret knowledge you gained in your new job?
+            * What if you find information that showed that the company was violating government regulations or laws? Would it be more ethical to turn them in, or to respect your employer’s privacy?
+            * What if a client or employer wants to cut out some of the security measures that you recommended, but you have a very strong reason to believe that sensitive information will be at risk if they do this? Is it your ethical duty to tell them this, even if it means you lose the job?
+
+            You can see from the examples above that it is not always easy to tell what types of behaviour are ethical or unethical.
+          img: /images/svg/cs3/placeholder_icon.svg 
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Unethical conduct
+
+      So how can we identify unethical conduct?
+    video: cs3_u5_s3_p2_unethical conduct.mp4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - The ethics of whistleblowing
+
+      Whistleblowing is when an employee who knows their employer has done something wrong  or unethical brings this to the attention of the authorities or the media, and it has become an important ethical issue. For example, suppose you work for a company as a security professional and in the course of your work you discover information that one part of the company is involved in something you think is ethically wrong. If you steal electronic documentation of the business’s shady practices and provide it to the media or law enforcement, you could shine a light on their wrongdoing and hopefully put a stop to it. However, in order to do this, you need to steal proprietary information. Have you behaved ethically?
+
+      The answer, of course, is not clear. For example, to many people, Edward Snowden is a hero who discovered that the National Security Agency was conducting unethical surveillance on innocent Americans. However, he committed a crime when he stole the documentation of these practices and provided them to the public, and his actions put the lives of many people, and the security of the entire United States, in danger.
+
+    img: /images/svg/cs3/cs3_u5_s3_p2_case_study.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the above case study, Did Edward Snowden behave ethically? What do you think?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the above case study.
+
+      links:
+        The Guardian - Edward Snowden interview: https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Maliciously spreading information or images can seriously damage the reputation of a colleague or business.  
+          answer: Maliciously spreading information
+        -
+          sentence: As cyber security professional have access to a great deal of personal confidential data there is a risk of them disclosing or misusing confidential information.
+          answer: disclosing or misusing confidential
+        -
+          sentence: Sabotage is rather an obvious form of unethical conduct and this can be seen when an employee intentionally damages a system.  
+          answer: Sabotage
+    theme: i-quiz

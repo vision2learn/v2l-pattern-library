@@ -1,7 +1,7 @@
 title: Develop a cyber security incident response plan
 intro: |
   In this session you will learn about the importance of maintaining an up-to-date cyber security incident log and maintaining incident response plans.
-banner: placeholder.jpg
+banner: cs3_u4_s2_p1_develop_a_report.jpg
 sections:
   -
     title: What you will learn
@@ -33,17 +33,17 @@ sections:
           title: Incident Log
           copy: |
             A cyber security incident log is a short document created and maintained by cyber security professionals that indicates most of the relevant information about a security incident.
-          img: placeholder_icon.svg
+          img: cs3_u4_s2_p1_reveal1.svg
         -
           title: Incident Response Plan
           copy: |
             An incident response plan is a set of instructions to follow which would include key contacts, escalation criteria, a basic flowchart, and basic guidance on legal and regulatory.
-          img: placeholder_icon.svg
+          img: cs3_u4_s2_p1_reveal2.svg
         -
           title: Importance of an IR Plan
           copy: |
             It is important to have an incident response plan to help teams respond quickly, follow guidelines, to identify their role in the process, and know who to escalate the incident to.
-          img: placeholder_icon.svg
+          img: cs3_u4_s2_p1_reveal3.svg
   -
   -
     title: Watch 
@@ -58,7 +58,7 @@ sections:
       
       Please see the following video to learn more.
 
-    video: placeholder_pc.mp4
+    video: cs3_u4_s2_p1_incident_log.mp4
   -
     title: Quick quiz
     copy: Select one of the drop-down options to complete the sentences.
@@ -117,7 +117,7 @@ sections:
             9. Determining the potential business impact of the cyber security incident.
             10. Conducting sufficient investigation (e.g. using deep dive forensic capabilities) to identify (and prosecute, if appropriate) the perpetrator(s).
 
-          img: /images/svg/ypmh/placeholder_icon.svg
+          img: /images/svg/cs3/cs3_u4_s2_p1_case_study.svg
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web

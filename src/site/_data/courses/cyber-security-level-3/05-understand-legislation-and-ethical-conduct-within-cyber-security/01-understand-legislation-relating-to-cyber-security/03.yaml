@@ -1,0 +1,66 @@
+title: International law for Cyber space
+intro: |
+  On this page we will look at the current trends in international law for cyberspace.
+banner: cs3_u5_s1_p3_international_law_for_cyber_space.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain trends in international law for cyberspace.
+  -
+    title: International law for cyberspace
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      One of the big benefits of the internet is the way that it connects people from almost anywhere on the planet. But in terms of law enforcement, this is also one of the big drawbacks. Threats can come from anywhere, and tracking down and stopping threat actors in other countries can be extremely difficult – especially if the laws in the host country differ from those in the country where the attack took place, or where the attack is international in scope. 
+      
+      For this reason, the main challenge in international law for cyberspace is to craft binding laws that apply internationally and do not violate the sovereignty of individual states.
+     
+      While there are no clear answers for how to regulate cyberspace internationally, there are some clear trends.  
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Current trends in International Law for cyberspace
+
+      Let’s look at the current trends in international law for cyberspace.
+    video: cs3_u5_s1_p2_trends.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Why is the net neutrality debate important to the future of the internet?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the debate over net neutrality:
+
+      links:
+        NCSL - the debate over Net Neutrality: https://www.ncsl.org/research/telecommunications-and-information-technology/the-debate-over-net-neutrality.aspx
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The Cybersecurity Tech Accord works to foster collaboration amongst global companies to defend themselves from threat. 
+          answer: Cybersecurity Tech Accord
+        -
+          sentence: The Paris Call for Trust and Security in Cyberspace who invited states and the private sector, the world of research and civil society to work together to adopt fundamental principles and responsible behaviour. 
+          answer: Paris Call for Trust and Security in Cyberspace
+        -
+          sentence: The Global Commission on the Stability of Cyberspace which includes international governments, businesses and organisations helps to promote awareness and understanding on issues of cyber security.
+          answer: Global Commission on the Stability of Cyberspace
+    theme: i-quiz
