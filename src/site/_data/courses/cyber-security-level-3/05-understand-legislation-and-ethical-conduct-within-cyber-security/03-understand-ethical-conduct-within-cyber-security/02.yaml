@@ -26,21 +26,21 @@ sections:
             Other types of sabotage might include ‘hacking back’. This is when an organisation retaliates against a hacking attack (for example, an attack from competitors) by hacking them back.
 
             The ethical implications of this are not clear-cut, but it is becoming more common and is something you may need to think seriously about.
-          img: /images/svg/cs3/placeholder_icon.svg
+          img: /images/svg/cs3/cs3_u5_s3_p2_accordian1.svg
         - 
           title: Disclosing or misusing confidential information
           copy: |
             It is extremely important that security professionals do not abuse their position by disclosing or misusing this information. While passing on a bit of gossip may not be considered unethical for most people, it is unethical to disclose information that you learned about without anyone else’s knowledge, perhaps while working on a colleague’s laptop or fixing a problem with their email.
 
             More obvious examples of unethical behaviour could include stealing confidential information, such as a company’s trade secrets, to sell on for a profit or to use for blackmail.
-          img: /images/svg/cs3/placeholder_icon.svg 
+          img: /images/svg/cs3/cs3_u5_s3_p2_accordian2.svg 
         - 
           title: Maliciously injuring the reputation or prospects of an individual or business
           copy: |
             Reputational harm is a growing ethical concern. At its worst, spreading malicious information or images about someone can ruin the lives of innocent people and is clearly unethical. But what about injuring the reputation of a company or organisation? Keep in mind that this is different from telling the truth about an organisation that has broken the law or has itself acted unethically. What we are talking about here is spreading confidential or false information to purposely damage an organisation or person.
             
             Cyber professionals are often in a unique position to find out confidential information. Ethical cyber professionals will take precautions to avoid being in this position. For example, when repairing a colleague’s computer, they will not access any files they do not absolutely need to access for their work. But however the information is acquired, using it to maliciously cause damage is always unethical.
-          img: /images/svg/cs3/placeholder_icon.svg 
+          img: /images/svg/cs3/cs3_u5_s3_p2_accordian3.svg 
         - 
           title: Delaying disclosure
           copy: |
@@ -49,7 +49,7 @@ sections:
             For example, most would agree that if an organisation discovers a critical vulnerability in its software, it should notify its customers and clients of the vulnerability as soon as it can, so they can install a patch (if available) or take other defensive measures. A delay could allow their systems to be attacked.
 
             However, what counts as ‘timely’ is subject to considerable debate. For example, what if there is no patch and the vulnerability would be very challenging to discover and exploit by an attacker? In this case, is it ethical to wait until a patch is developed? What if making the vulnerability public would increase the chances of an attacker using it? 
-          img: /images/svg/cs3/placeholder_icon.svg 
+          img: /images/svg/cs3/cs3_u5_s3_p2_accordian4.svg 
         - 
           title: Other ethical issues to consider
           copy: |
@@ -60,7 +60,7 @@ sections:
             * What if a client or employer wants to cut out some of the security measures that you recommended, but you have a very strong reason to believe that sensitive information will be at risk if they do this? Is it your ethical duty to tell them this, even if it means you lose the job?
 
             You can see from the examples above that it is not always easy to tell what types of behaviour are ethical or unethical.
-          img: /images/svg/cs3/placeholder_icon.svg 
+          img: /images/svg/cs3/cs3_u5_s3_p2_accordian5.svg 
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -69,7 +69,7 @@ sections:
       ### Unethical conduct
 
       So how can we identify unethical conduct?
-    video: cs3_u5_s3_p2_unethical conduct.mp4
+    video: cs3_u5_s3_p2_unethical_conduct.mp4
   -
   -
     title: Case study
