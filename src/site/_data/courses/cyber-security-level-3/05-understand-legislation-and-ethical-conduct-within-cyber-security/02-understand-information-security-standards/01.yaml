@@ -30,25 +30,25 @@ sections:
         -
           title: ISO/IEC 27000:2018
           text: |
-            Each industry area has its own set of standards, which are classified by number. Cyber falls within the security series 27000, which is responsible for keeping information assets secure and provides the overview of information security management systems. Using the ISO27000 standards them organisations to manage financial information, intellectual property, employee details or information entrusted by third parties. (ISO.org). 
+            Each industry area has its own set of standards, which are classified by number. Cyber falls within the security series 27000, which is responsible for keeping information assets secure and provides the overview for information security management systems (ISMS). Using the ISO27000 standards assists organisations to manage financial information, intellectual property, employee details or information entrusted by third parties. (www.ISO.org). 
             
             These standards are referred to as ISO/IEC 27000 and usually include a date e.g. ISO 27000:2018 (the date is the last year that the standard was updated).
-          img: placeholder_icon.svg
+          img: cs3_u5_s2_p1_slide1.svg
         -
           title: ISO/IEC 27001:2013
           text: |
             ISO27001 is perhaps the most important standard for cyber security. It includes the specification for information security management systems (ISMS) and businesses must meet this to become ISO27000 certified. ISMS helps organisations to secure their data and information and is a set of policies and procedures, including the legalities and technical control for their risk management processes. An ISMS can include areas of business that are not thought of as part of IT e.g. human resources and can protect all information from a range of threats including how to recover from an incident.
-          img: placeholder_icon.svg
+          img: cs3_u5_s2_p1_slide2.svg
         -
           title: ISO/IEC 27032:2012
           text: |
             This standard is used with ISO 270001 and provides guidance for improving cybersecurity, looking at: information security, network security, internet security and critical information infrastructure protection (CIIP). It also covers baseline security practices for stakeholders in cyberspace, prevents data leaks through encryption and provides guidance on information sharing, along with how to handle incidents.
-          img: placeholder_icon.svg
+          img: cs3_u5_s2_p1_slide3.svg
         -
           title: ISO/IEC 271017:2015
           text: |
             Specifically for cloud services, this standard provides guidelines for additional controls and implementation for both cloud service providers and customers. It informs both parties of roles and responsibilities and how to manage their relationship whilst maintaining the cloud service, e.g. the provider is responsible for security and the customer is responsible for their own decision in using the cloud service.
-          img: placeholder_icon.svg
+          img: cs3_u5_s2_p1_slide4.svg
   -
   -
     title: On the web
