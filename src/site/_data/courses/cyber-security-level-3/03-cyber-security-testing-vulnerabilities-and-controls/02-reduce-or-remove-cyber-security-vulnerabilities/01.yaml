@@ -80,16 +80,6 @@ sections:
     video: cs3_u3_s2_p1_vulnerability_event.mp4
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Response to a vulnerability event
-      
-      In this video let’s look at what to do in the event of a vulnerability.
-    video: cs3_u3_s2_p1_vulnerability_response.mp4
-  -
-  -
     title: Read
     theme: t-bg-primary i-read
     copy: | 
