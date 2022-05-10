@@ -26,12 +26,12 @@ sections:
         - 
           title: BPSS (Baseline Personnel Security Standard)
           copy: |
-            This is the baseline for pre-employment security screening and although it is not formal security clearance is enough for most jobs. It can also be used with more rigorous vetting procedures.
+            This level of clearance is the baseline for pre-employment security screening.  It is not formal security clearance, but is enough for most jobs. It can also be used with more rigorous vetting procedures.
 
             It covers checks for:
-            * Identity, 
-            * Nationality and immigration status, 
-            * Employment history (past 3 years),
+            * Identity
+            * Nationality and immigration status
+            * Employment history (past 3 years)
             * Criminal record 
             * and reasonable account of significant time spent abroad (6 months or more in the past 3 years)
             
@@ -41,15 +41,15 @@ sections:
         - 
           title: SC (Security Checked)
           copy: |
-            Required for those with long term frequent uncontrolled access to secret and supervised access to top secret assets. This also includes anyone in a position who could learn about secret plans, policies, or projects.
+            This level of clearance is required for those with long term frequent uncontrolled access to secret information, and supervised access to top secret assets. This also includes anyone in a position who could learn about secret plans, policies, or projects.
 
             Checks include a: 
-            * BPSS, 
-            * Security questionnaire, 
-            * Company records check, 
-            * Criminal records check. 
-            * Credit and financial history check, 
-            * Security service check (mi5)
+            * BPSS
+            * Security questionnaire
+            * Company records check 
+            * Criminal records check 
+            * Credit and financial history check
+            * Security service check (MI5)
             * May also include a third part security questionnaire check
             
             For overseas posts with a significant espionage threat they may also need an Enhanced Security Check.
@@ -85,7 +85,7 @@ sections:
             * A records check including personal files and security records
             * Criminal records
             * Security service check (MI5)
-            * Possibly an interview.
+            * Possibly an interview
 
           img: /images/svg/cs3/cs3_u6_s1_p3_accordian4.svg     
   -
@@ -151,9 +151,9 @@ sections:
     copy: |
       ### What are the benefits of a security by design mindset? 
 
-      Security by design is a system or product that has been designed from the beginning to emphasis security. It is not a set plan or specific standard it is more of a philosophy or mindset which focusses on building in security from conception. Security shouldn’t be something that is reactive it should be proactive and continuous through the whole design process. It should be able to work in a reliable manner and be constantly evolving to meet and defeat any new threats. It should also be implicit in all processes.
+      Security by design is a system or product that has been designed from the beginning to emphasis security. It is not a set plan or specific standard it is more of a philosophy or mindset which focusses on building in security from conception. Security shouldn’t be something that is reactive, it should be proactive and continuous throughout the whole design process. It should be able to work in a reliable manner and be constantly evolving to meet and defeat any new threats. It should also be implicit in all processes.
       
-      It is always a more cost-effective process to create a system using security by design as assessing any potential business risk at this stage means it can offer more stability to a system and meet the specific needs of an organisation. Building a secure system to start with is always better than trying to patch up the holes in an existing one later down the line.
+      It is always a more cost-effective process to create a system using security by design, as assessing any potential business risk at this stage means it can offer more stability to a system and meet the specific needs of an organisation. Building a secure system to start with is always better than trying to patch up the holes in an existing one later down the line.
 
     img: /images/svg/cs3/cs3_u6_s1_p3_image1.svg
   -

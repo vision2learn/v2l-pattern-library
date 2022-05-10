@@ -55,17 +55,17 @@ sections:
         -
           title: Encryption and Back Up of Data
           text: |
-            Encryption is used to protect data confidentiality whilst in transit and whilst stored on devices. Backing up data means that permanent loss can be prevented, and the impact of a breach lessened as data can be replaced but these backups must also be encrypted to also keep them safe from breach.
+            Encryption is used to protect data confidentiality whilst in transit and whilst stored on devices. Backing up data means that permanent loss can be prevented, and the impact of a breach lessened as data can be replaced, but these backups must also be encrypted to also keep them safe from breach.
           img: cs3_u3_s3_p1_slide1.svg
         -
           title: Antivirus, Antimalware and Patch Management
           text: |
-            Antivirus and antimalware can help to protect against malware infection and setting up regular update for all software and firmware can help to keep things protected from the latest threats.
+            Antivirus and antimalware can help to protect against malware infection, and setting up regular update for all software and firmware.  This can help to keep things protected from the latest threats.
           img: cs3_u3_s3_p1_slide2.svg
         -
           title: Usernames, Passwords, and Multi Factor Authentication
           text: |
-            Adding multi factor authentication to usernames and passwords can help to create a more robust system of access making it harder for hackers to gain entry.
+            Adding multi factor authentication to usernames and passwords can help to create a more robust system of access, making it harder for hackers to gain entry.
           img: cs3_u3_s3_p1_slide3.svg
         -
           title: Access Controls and Permissions
@@ -162,7 +162,7 @@ sections:
     copy: |
       ### Case study - Ashley Madison Cyber Breach
 
-      In 2015 Ashley Madison, a specialised dating agency, had over 300GB of data stolen. This was very personal information that those using the agency certainly didn’t want anyone to find out. It included user’s real names, credit card details and banking information.
+      In 2015 Ashley Madison, a specialised dating agency, had over 300GB of data stolen. This was very personal information that those using the agency certainly didn’t want anyone to find out. It included users real names, credit card details and banking information.
       
       Following the attack it was discovered that personal data hadn’t been deleted. The company charged clients $19 to delete their accounts and erase all of their personal data, but the hackers evidenced this this wasn’t done, and they had users’ real names, addresses and credit card information for users that had paid to ensure all that their information was fully deleted. 
       
