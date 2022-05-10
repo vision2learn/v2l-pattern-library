@@ -1,0 +1,86 @@
+title: Cyber security incident response lifecycle
+intro: |
+  On this page you will learn about the stages of a cyber security incident response lifecycle.
+banner: cs3_u4_s1_p3_response_lifecycle.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the stages of a cyber security incident response lifecycle.
+  -
+  -
+    title: The Incident Response lifecycle
+    theme: 
+    
+    copy: |
+      ### What is the Incident Response Lifecycle?
+      
+      The whole process of the cyber security incident response lifecycle is the process by which an organisation sets up their framework and it involves four phases:
+      * Preparation, 
+      * Detection and Analysis, 
+      * Containment, Eradication and Recovery 
+      * Post Event Activity
+
+      There are organisations who have developed standards for this such as ‘NIST’ National Institute of Standards and Technology and ‘SANS’ institute. To find out more about these check out the case study and link below.
+
+      Let's look at the different stages involved in the following activity.
+    interactive: 
+      file: cs3/u4_s1_p3_incident_response_lifecycle
+      width: 1100
+      height: 500
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - SANS Institute
+
+      Another industry standard is the one developed by the SANS Institute, a private organisation that offers information security research and education.
+
+      Organisations may also want to develop their own incident response lifecycle. For each stage of the lifecycle, organisations should also have a checklist. This helps teams to know exactly what to do. The SANS Incident Response Lifecycle has six steps:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: SANS Incident Response Lifecycle
+          copy: |
+            __1. Preparation:__ The organisation’s security policy is reviewed or established, a risk assessment is carried out, sensitive assets are identified and a Computer Security Incident Response Team is formed (CSIRT).
+
+            __2. Identification:__ The IT team tracks and identifies any deviations from standard activities to identify any safety incidents. This also includes gathering information about the form and severity of any breach.
+            
+            __3. Containment:__ This includes short-term containment by isolating the portion of the network that is under threat, as well as long-term containment.
+            
+            __4. Eradication:__ Remove malware from all infected devices, identify the root cause of the attack and take steps to avoid similar attacks in the future.
+            
+            __5. Recovery:__ Put the affected systems back online and ensure there are no further breaches by testing the affected systems.
+            
+            __6. Lessons learned:__ Conduct a post mortem of the incident. This could include preparing a full incident report, conducting further investigation and analysis, and updating the incident response plan.
+            
+          img: /images/svg/cs3/cs3_u4_s1_p3_case_study.svg     
+  -
+  -
+    title: Read - Checklist
+    theme: t-bg-primary2 i-read
+    copy: | 
+      Take a look at the following example of a checklist.
+
+      [A Sample Checklist](/pdfs/cs3_u4_s1_p3_read.pdf).
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Why might an organisation want to develop it's own incident response plan and checklist, rather than using an industry standard?
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about SANs Institute incident response plan
+
+      links:
+        SANS Institute: https://www.sans.org/white-papers/1516/

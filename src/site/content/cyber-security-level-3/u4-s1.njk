@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['cyber-security-level-3']['04-cyber-security-incident-response']['01-understand-cyber-security-incident-response-plan']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

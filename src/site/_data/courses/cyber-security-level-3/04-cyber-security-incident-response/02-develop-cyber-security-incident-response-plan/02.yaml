@@ -1,0 +1,70 @@
+title: Create a Cyber security incident response plan activity
+intro: |
+  On this page we are going to look at an example of a cyber security incident response plan, and a case study to help you to create a cyber security incident response plan which you will use as part of your assessment.
+banner: cs3_u4_s2_p2_create_an_activity.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to develop a cyber security incident response plan for an organisation.
+  -
+  -
+    title: Cyber security incident response plans
+    theme: t-bg-primary
+    copy: |
+      Organisations come in different sizes and purposes and therefore require different cyber security incident plans. In all cases an IR plan can help everyone in an organisation know what to do if an attack happens. 
+      
+      When designing a plan, the first thing to think about is who will be using it and how many stages of escalation will there be. The plan should also include how to categorise each incident and lay down the ground rules appropriately.
+  -
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      ### Example of an Incident Response Plan
+
+      The following is a fairly detailed IR plan. Many organisations would use a much simpler IR plan. It would likely be contained in a physical folder, as well as online, so it can be referred to in the event of an incident.
+
+      [Incident Response Plan Example](/pdfs/cs3_u4_s2_p2_read.pdf).
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Take a look at the following website where you can watch a video on how to create an incident response plan and see documentation to help you do this.
+
+      links:
+        Incident Response Plan 101 - How to Build One, Templates and Examples - Exabeam: https://www.exabeam.com/incident-response/incident-response-plan/    
+  -
+  -
+    title: Time for assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Look at the following case study and create an incident response plan using the following [Cyber Security Incident Response Plan](/pdfs/cs3_u4_s2_assessment_incident_response_plan.docx) template document.  
+      
+      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Grange Road Secondary school
+
+      You’ve been working within the IT department of Grange Road Secondary school for a number of years. Recently there’s been an increase of pupils accessing unsecure sites and more phishing emails are being received. Although the school has restricted access for staff and pupils and has procedures in place for security and GDPR, they have never carried an analysist of their cyber attack risk. 
+      
+      You have now been promoted to the role of __Cyber Security Officer__ in order that you can minimise the school’s risk and you’ve identified the need for a cyber security incident response plan. 
+
+      Remember that this should contain:
+      * a system, such as a checklist, to prioritise possible incidents
+      * how to respond to the different incidents
+      * who should be contacted for each incident
+      * how to document the response
+      * when to inform regulators
+      * steps for a post-incident review process.
+
+      Use the downloadable document in the above 'Time to practice' to create your incident response plan. 
+
+    img: /images/svg/cs3/cs3_u4_s2_p2_case_study.svg
+  

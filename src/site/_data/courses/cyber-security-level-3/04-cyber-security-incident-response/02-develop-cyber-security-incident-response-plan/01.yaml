@@ -1,0 +1,130 @@
+title: Develop a cyber security incident response plan
+intro: |
+  In this session you will learn about the importance of maintaining an up-to-date cyber security incident log and maintaining incident response plans.
+banner: cs3_u4_s2_p1_develop_a_report.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Why it is important to maintain an up-to-date cyber security incident log
+      * The steps to be included within a cyber security incident response plan
+      * Why it is important to have a cyber security incident response plan
+      * How to develop a cyber security incident response plan for an organisation
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain:
+      * Why it is important to maintain an up to date cyber security incident log
+      * The steps to be included within a cyber security incident response plan
+      * Why it is important to have a cyber security incident response plan
+  -
+    title: Introduction
+    theme: t-bg-primary
+    copy: |
+      it is important for Companies to maintain an up-to-date cyber security incident log and to have a cyber security incident response plan in place.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Incident Log
+          copy: |
+            A cyber security incident log is a short document created and maintained by cyber security professionals that indicates most of the relevant information about a security incident.
+          img: cs3_u4_s2_p1_reveal1.svg
+        -
+          title: Incident Response Plan
+          copy: |
+            An incident response plan is a set of instructions to follow which would include key contacts, escalation criteria, a basic flowchart, and basic guidance on legal and regulatory.
+          img: cs3_u4_s2_p1_reveal2.svg
+        -
+          title: Importance of an IR Plan
+          copy: |
+            It is important to have an incident response plan to help teams respond quickly, follow guidelines, to identify their role in the process, and know who to escalate the incident to.
+          img: cs3_u4_s2_p1_reveal3.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Cyber Security Incident Log and Incident Response Plan
+      
+      When dealing with cyber security incidents it is important to maintain an up-to-date cyber security incident log, but what does this consist of? 
+
+      And what steps should be included within a cyber security incident response plan?
+      
+      Please see the following video to learn more.
+
+    video: cs3_u4_s2_p1_incident_log.mp4
+  -
+    title: Quick quiz
+    copy: Select one of the drop-down options to complete the sentences.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A cyber security incident log is a short document created and maintained by cyber security professionals.
+          answer: short document
+        -
+          sentence: A cyber security incident log indicates most of the relevant information about a security incident.
+          answer: relevant information
+        -
+          sentence: A cyber security incident log provides audit trails for tracking elements, processes or users involved in an attack.
+          answer: audit trails
+        -
+          sentence: It is important to keep the cyber security incident log up to date to maintain control to prevent breaches and loss of data. 
+          answer: up to date
+        -
+          sentence: A cyber security incident response plan should contain a checklist to help teams to organise themselves at each stage.
+          answer: checklist
+        -
+          sentence: Having a cyber security incident response plan enables teams at all levels to respond quickly, following clearly defined guidelines to help safeguard any data and systems. 
+          answer: help safeguard
+    theme: i-quiz
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What do you are some of the things that could happen if an organisation does not use an incident log?
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - CREST
+
+      Findings from a research project by the not-for-profit cyber security group CREST found that the top ten challenges organisations face in responding to a cyber security incident are:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: CREST - top ten challenges
+          copy: |
+            1. Identifying a suspected cyber security incident (e.g. monitoring evidence of unusual occurrences and assessing one or more trigger points).
+            2. Establishing the objectives of any investigation and clean-up operation.
+            3. Analysing all available information related to the potential cyber security incident.
+            4. Determining what has actually happened (e.g. a DDoS, malware attack, system hack, session hijack, data corruption, etc).
+            5. Identifying what systems, networks and information (assets) have been compromised.
+            6. Determining what information has been disclosed to unauthorised parties, stolen, deleted or corrupted.
+            7. Finding out who did it (i.e. which threat agent or agents) and why (e.g. financial gain, hacktivism, espionage, revenge, challenge or just for fun).
+            8. Working out how it happened (e.g. how did the attacker gain entry to the system).
+            9. Determining the potential business impact of the cyber security incident.
+            10. Conducting sufficient investigation (e.g. using deep dive forensic capabilities) to identify (and prosecute, if appropriate) the perpetrator(s).
+
+          img: /images/svg/cs3/cs3_u4_s2_p1_case_study.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about CREST and their cyber security incident response.
+
+      links:
+        CREST Cyber Security Incident Response: https://www.crest-approved.org/what-is-cyber-security-incident-response/index.html

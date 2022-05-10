@@ -1,0 +1,88 @@
+title: Understand information security standards
+intro: |
+  This session focusses on ISO standards that relate to and support cyber security.
+banner: cs3_u5_s2_p1_understand_information_security_standards.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn:
+      * About ISO standards related to cyber security
+      * How ISO standards are used to support cyber security
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify ISO standards related to cyber security.
+  -
+  -
+    title: ISO standards for Cyber Security
+    theme: t-bg-primary
+    copy: |
+      ISO stands for The International Organisation for Standardisation. This is an independent, non-governmental international organisation tasked with developing standards that are agreed internationally by experts as the best way of doing something.  Membership includes 167 national standards bodies and it is based in Geneva in Switzerland. Some of the areas of industry that The ISO has developed standards for includes: medical devices, energy management and social responsibility.
+      
+      Let’s have a look at some of the standards in the slides below:
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: ISO/IEC 27000:2018
+          text: |
+            Each industry area has its own set of standards, which are classified by number. Cyber falls within the security series 27000, which is responsible for keeping information assets secure and provides the overview for information security management systems (ISMS). Using the ISO27000 standards assists organisations to manage financial information, intellectual property, employee details or information entrusted by third parties. (www.ISO.org). 
+            
+            These standards are referred to as ISO/IEC 27000 and usually include a date e.g. ISO 27000:2018 (the date is the last year that the standard was updated).
+          img: cs3_u5_s2_p1_slide1.svg
+        -
+          title: ISO/IEC 27001:2013
+          text: |
+            ISO27001 is perhaps the most important standard for cyber security. It includes the specification for information security management systems (ISMS) and businesses must meet this to become ISO27000 certified. ISMS helps organisations to secure their data and information and is a set of policies and procedures, including the legalities and technical control for their risk management processes. An ISMS can include areas of business that are not thought of as part of IT e.g. human resources and can protect all information from a range of threats including how to recover from an incident.
+          img: cs3_u5_s2_p1_slide2.svg
+        -
+          title: ISO/IEC 27032:2012
+          text: |
+            This standard is used with ISO 270001 and provides guidance for improving cybersecurity, looking at: information security, network security, internet security and critical information infrastructure protection (CIIP). It also covers baseline security practices for stakeholders in cyberspace, prevents data leaks through encryption and provides guidance on information sharing, along with how to handle incidents.
+          img: cs3_u5_s2_p1_slide3.svg
+        -
+          title: ISO/IEC 271017:2015
+          text: |
+            Specifically for cloud services, this standard provides guidelines for additional controls and implementation for both cloud service providers and customers. It informs both parties of roles and responsibilities and how to manage their relationship whilst maintaining the cloud service, e.g. the provider is responsible for security and the customer is responsible for their own decision in using the cloud service.
+          img: cs3_u5_s2_p1_slide4.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about ISO.
+
+      links:
+        ISO: https://advisera.com/27001academy/blog/2015/08/25/iso-27001-vs-iso-27032-cybersecurity-standard/
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Research more about the ISO 27000 series of standards. How might you end up using some of these in your work?
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: ISO/IEC 27032:2012 is used with ISO 270001 and provides guidance for improving cybersecurity.
+          answer: ISO/IEC 27032:2012
+        -
+          sentence: ISO/IEC 27001:2013 includes the specification for information security management systems (ISMS) and businesses must meet this to become ISO27000 certified.
+          answer: ISO/IEC 27001:2013
+        -
+          sentence: Cyber falls within the security series ISO/IEC 27000, which is responsible for keeping information assets secure and provides the overview of information security management systems.
+          answer: ISO/IEC 27000
+        -
+          sentence: ISO/IEC 271017:2015 is specifically for cloud services.
+          answer: ISO/IEC 271017:2015
+    theme: i-quiz

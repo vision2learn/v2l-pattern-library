@@ -1,0 +1,112 @@
+title: Ethical conduct within cyber security
+intro: |
+  In this section, we will discuss ethical and unethical conduct within cyber security.
+banner: cs3_u5_s1_p2_legislation_relating_to_cyber_security.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Ethical conduct within cyber security
+      * Unethical conduct within cyber security
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe ethical conduct within cyber security.
+  -
+    title: Ethical conduct
+    theme: t-bg-primary
+    copy: |
+      Ethical conduct is very important for cyber security professionals as clients need to be able to trust that they will look after their data. So, what constitutes ethical conduct? 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Maintaining confidentiality
+          text: |
+            Cyber security professionals in their role will have access to a great deal of personal and private information and this must always be kept confidential. For example, they need to make sure that they refrain from revealing any information that they discover whilst running a virus scan.
+          img: cs3_u5_s3_p1_slide1.svg
+        -
+          title: Adherence to applicable laws
+          text: |
+            Cyber security professionals should always follow any applicable laws such as GDPR and should always report any breaches to the regulatory authorities. If they do not, they can be held responsible and fined. Both the law and ethics require that they report this even if their employer asks them not to.
+
+          img: cs3_u5_s3_p1_slide2.svg
+        -
+          title: Promoting information security
+          text: |
+            It is the ethical responsibility of cyber security professionals to encourage everyone in an organisation to follow cyber security protocols and good practices.
+          img: cs3_u5_s3_p1_slide3.svg
+        -
+          title: Refraining from conflicts of interest
+          text: |
+            Cyber security professionals should never influence a decision for their own advantage, e.g. by having prior knowledge of something, as this is a conflict of interest. For example, they should not be tempted to insert a bug and then get a bonus payment for finding it.
+          img: cs3_u5_s3_p1_slide4.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Ethical conduct
+      
+      Please see the following video on ethical conduct in Cyber Security.
+    video: cs3_u5_s3_p1_ethical_conduct.mp4
+  
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - The ethics of resource use
+
+      Dave works as a programmer for a large software company. He writes and tests utility programs such as compilers. His company operates both day and night. At night, batch production jobs are completed. Dave learns that the night shift has extra programming capacity, so that extra work could be done during the night shift that would not adversely affect performance of the computers.
+      
+      Dave comes back after normal hours to develop a program to manage his own stock portfolio. He uses very few expendable supplies, such as printer paper. Is Dave’s behaviour ethical? Please see below time to think to answer further questions.
+
+    img: /images/svg/cs3/cs3_u5_s3_p1_case_study.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the above case study is Dave’s behaviour ethical? Would the ethics of the situation be different if:
+        * Dave began a business managing stock portfolios for many people for profit?
+        * Dave’s salary was below average for his experience, so that he felt he was due the computer use as a fringe benefit?
+        * Dave’s employer knew of other employees doing similar things and did not say anything or try to stop them?
+        * Dave worked for a government office instead of a private company and reasoned that the computer belonged ‘to the people’?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn about the UK Cyber Security Council Code of Ethics.
+
+      links:
+        UK Cyber Security Council: https://www.ukcybersecuritycouncil.org.uk/professional-standards-and-ethics/code-of-ethics/
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Ethical conduct refers to standards of behaviour that are appropriate and shows understanding of what is right and what is wrong. 
+          answer: standards of behaviour
+        -
+          sentence: Most new employees must sign up to a policy agreement as part of their induction to say that they will follow all guidelines including ethical ones.
+          answer: policy agreement
+        -
+          sentence: It is not ethical of a business to expect employees to be available at all hours unless this is part of their role.
+          answer: available
+        -
+          sentence: There are a range of ethical rules that link to legislation when it comes to using computer systems.
+          answer: legislation
+    theme: i-quiz

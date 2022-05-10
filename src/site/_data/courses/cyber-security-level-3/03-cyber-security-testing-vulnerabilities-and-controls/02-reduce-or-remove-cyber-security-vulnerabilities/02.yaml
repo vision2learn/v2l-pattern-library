@@ -1,13 +1,142 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! 
-banner: summary.jpg
+title: Reduce or remove potential cyber security vulnerabilities
+intro: |
+  On this page the focus will be on demonstrate the steps to be taken, how to apply the correct responses to a vulnerability, and how to develop the appropriate communications strategy to mitigate future vulnerabilities.
+banner: cs3_u3_s2_p2_reduce_or_remove.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
-  
+      In your assessment you will be required to 
+      * demonstrate the steps to be taken when a vulnerability has been identified
+      * apply the correct response to the vulnerability
+      * develop an appropriate communication to mitigate future vulnerabilities
+  -
+  -
+    title: Symbols and terminology
+    theme: t-bg-supporting3
+    copy: |
+      One way of demonstrating the steps that need to taken when a vulnerability has been identified is to use a **process map**.
+      
+      One popular method of process mapping is the creation of **flowcharts**. 
+
+      A flowchart provides a method for mapping the interlinked activities and tasks that form a process. It can help organisations to detect any problems that occur in processes.
+
+      Flowcharts work using symbols. Select each symbol below to learn more. 
+
+    subInc: 
+        type: reveal
+        content:
+            -
+                title: Start or End flow
+                copy: |
+                    Example:
+                    * Receive complaint
+                    * Receive request
+                    * Proposal
+
+                img: lm_u1_s3_p1_symbol_startend_1.svg
+            -
+                title: Process or activity
+                copy: |
+                    Example:
+                    * Hold a meeting
+                    * Make a phone call
+                    * Send a request
+                img: lm_u1_s3_p1_symbol_process_1.svg
+            -
+                title: Decision
+                copy: |
+                    Example:
+                    * Yes / No
+                    * Agree / Disagree
+                    * Pass / Fail
+                img: cs3_u3_s2_p2_reveal3.svg
+            -
+                title: Document
+                copy: |
+                    Example:
+                    * Report is completed 
+                    * Meeting minutes 
+                    * Form is filled out
+                img: lm_u1_s3_p1_symbol_document_1.svg
+            -
+                title: Storage
+                copy: |
+                    Example:
+                    * Store documents
+                    * stack envelopes
+                    * File contacts
+                img: lm_u1_s3_p1_symbol_storage_1.svg
+            -
+                title: Database
+                copy: |
+                    Example:
+                    * Stock files
+                    * Order files
+                    * Sales record
+                img: lm_u1_s3_p1_symbol_database_1.svg
+    
+  -
+    title: The flow chart process
+    theme: t-bg-primary
+    copy: |
+      ### Main Steps
+
+      1. Identify all of the key processes or activities. You may write these on cards or sticky notes.
+      2. Sequence these processes on a large piece of paper.
+      3. Work through the sequence from start to finish, identifying key decisions and resulting documentation.
+      4. Finalise the sequence. Focus on links between processes, decisions and outputs.
+      5. Produce the final flowchart, checking you’ve involved all key personnel.
+  -
+  -
+    title: Example of a process map
+    theme: 
+    copy: |
+      The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
+
+      ![](/images/svg/cs3/cs3_u3_s2_p2_image.svg)
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Response and communication to a vulnerability
+
+      Please see the following video on applying the correct response to a vulnerability, and developing an appropriate communication to mitigate future vulnerabilities.
+    video: cs3_u3_s2_p1_vulnerability_response.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What methods might you use to report the following vulnerabilities, and why?
+        * software that needs a regular security update from the manufacturer
+        * a serious hacking attempt where attackers gained access to the system from a subnet
+        * an employee who clicked on a link in an email from someone they did not know
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Grange Road Secondary School
+      
+      You’ve recently begun working within the IT department of Grange Road Secondary school. The school has restricted computer access for staff and pupils and has procedures in place for security and GDPR. However, you’ve been unable to find a policy specifically for cyber security and recently there’s been an increase of pupils accessing unsecure sites and more phishing emails are being received. 
+      
+      Think about what steps will you need to take for the identified vulnerability and open the PowerPoint document in the below 'Time for assessment task' to produce a flow chart to demonstrate the steps. This will form part of your assessment. 
+
+
+    img: /images/svg/cs3/cs3_u3_s2_p2_case_study.svg
+  -
+  -
+    title: Time for assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      For the Grange Road Secondary School Case study use the following [Unit 3 Section 2 Assessment - Flow Chart](/pdfs/cs3_u3_s2_assessment_workbook.pptx) document to show the following:
+      * the steps that need to be taken
+      * response to the vulnerability
+      * communications to mitigate future vulnerabilities.
+
+      Remember that this document will be part of your Unit 3 assessment so make sure you save it with your name.

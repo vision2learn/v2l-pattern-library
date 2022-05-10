@@ -53,7 +53,7 @@ sections:
             
             # Base state 2: list sum is below threshold
             if list_sum > threshold_value:
-              input_list = input_list[2:len(input_list)]
+              input_list = input_list[1:len(input_list)-1]
 
               # Here is the recursive function call
               sum_of_list_below(input_list, threshold_value)
@@ -75,16 +75,16 @@ sections:
     title: Result
     theme:
     copy: |
-      In this example, we can see that the threshold is reached then it is down to the final 3 values in the list (7, 3, and 2).
+      In this example, we can see that the threshold was reached when it got to the middle 3 values in the list (5, 7, and 3).
     subInc:
       type: code
       lang: text
       highlight: 
       code: |
         Reached threshold at list length 3
-        List: [7, 3, 2]
-        List sum: 12
-        [Finished in 216ms]
+        List: [5, 7, 3]
+        List sum: 15
+
     copy2: |
       Recursive constructs are often used in algorithms and most programming languages implement recursion by allowing a function to call itself. However, if the base state is incorrectly defined, infinite loops can occur that may cause can crash the system as it balloons out of control.
   -

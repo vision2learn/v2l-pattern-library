@@ -1,0 +1,77 @@
+title: How do the ISO standards support cyber security
+intro: |
+  On this page you will learn how ISO standards are used to support cyber security.
+banner: cs3_u5_s2_p2_how_standards_support_cyber_security.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain how do the ISO standards support cyber security.
+  -
+    title: Why ISO standards are important in Cyber security
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      The ISO standards provide what is called ‘best practice’ for cyber security. Best practice means that the procedures that are used have been tested and found to be best or most effective for that industry or
+      use. So, having ISO 27000 certification is a way for organisations to show that they are using the best and
+      most effective security practices and procedures. This gives employees and clients more assurance that their data is safe with the company. 
+
+      Implementing the ISO standards also shows regulatory bodies that an organisation takes information security seriously and is doing everything possible to reduce and manage risks. This, in turn, will help draw in new customers and clients, reduce the organisation’s information security and data protection risks and improve the reputation of the organisation.
+
+    img: /images/svg/cs3/cs3_u5_s2_p2_image.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about this support.
+
+      links:
+        ISO standards in cyber security: https://advisera.com/27001academy/blog/2015/08/25/iso-27001-vs-iso-27032-cybersecurity-standard/
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How ISO standards support cyber security
+      
+      So how do the ISO standards support cyber security?
+    video: cs3_u5_s2_p1_iso_standards.mp4
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - The importance of ISO standards for business
+
+      Worldpay provides technology-led payment products and services to over 400,000 businesses around the world, enabling them to accept 300 different payment types. On a typical day, Worldpay processes 31 million mobile, online and in-store transactions. It has over 5,000 employees in 13 countries around the world. 
+      
+      Worldpay needs very high standards of security and reliability, and they wanted a recognised standard to prove they were the best in their field. They implemented ISO 27031 because it is closely tailored to the company’s specialty in the field of payment processing. 
+      
+      The company rolled out its certifications gradually, with its technology hubs being made a priority. For example, ISO 22301 was initially achieved by four offices, then later a further five, with the ultimate aim to have all its global locations covered by the standard, and a similar pattern was being adopted for ISO/IEC 27001 and ISO 27031. 
+      
+      The standards gave the company a structure to identify risks to their business and manage those risks. According to company head of Business Continuity, Ian Crossley, “They prove that we are doing everything we can. They also bring vital reassurance to customers and help the company win business because customers can see they’re resilient. If a customer comes in and says, ‘Great, you’ve got ISO 22301’, we can also show them we are aligned to ISO 27031. We can explain what it covers, and that we have been externally audited to it. And that we’re the only company in Europe to have this independent verification.” 
+
+    img: /images/svg/cs3/cs3_u5_s2_p2_case_study.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Take a look at the example company website below (or you could find your own example) and write some notes on how the ISO standards can support cyber security for that company.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn about Cohesity's next gen data management.
+
+      links:
+        Cohesity Next-Gen Data Management: https://www.cohesity.com/next-gen-data-management/?utm_content=next-gen-dm&utm_medium=ppc&utm_source=google&utm_campaign=fy22-q4-05-emea-uk-next-gen-data-management&utm_term=data%20management%20software%20companies&utm_targetid=kwd-301207207811&gclid=EAIaIQobChMIz9fmhr7S9wIVG-rtCh3ylwv3EAAYASAAEgL-DPD_BwE

@@ -1,139 +1,131 @@
 title: Understand common types of testing in cyber security
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this session we will look at the common types of testing in cyber security, why testing is important and the mitigations that follow testing.
+banner: cs3_u3_s1_p2_common_types.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Explain different types of cyber security testing
+      * Identify why cyber security testing is important
   -
   -
-    title: slider
+    title: Cyber security testing
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Cyber security testing uses a range of methodologies and different tactics to measure how effective cyber security strategy is against a potential attack.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Vulnerability scanning
           text: |
-            text
-          img: placeholder_icon.svg
+            Is using automated software to scan for and find system vulnerabilities identifying security weaknesses and flaws in systems and software running on them. A simple vulnerability scan may involve checking software against lists of known issues, or trying a brute force attack to see if they are secure.
+          img: cs3_u3_s1_p2_slide1.svg
         -
-          title: slide 2 title
+          title: Security scanning
           text: |
-            text
-          img: placeholder_icon.svg
+            Uses both manual tools and automated software to assesses the general security level such by detecting weak points and loopholes in the security of a website, web-based program or network system. The more intricate the system the more complicated the security scan will be, and these can be done regularly or as a one-time check.
+          img: cs3_u3_s1_p2_slide2.svg
         -
-          title: slide 3 title
+          title: Penetration testing
           text: |
-            text
-          img: placeholder_icon.svg
+            Combines automated and manual techniques and is done by trusted, certified security experts. The two most common forms are application penetration testing, to detect technical vulnerabilities, and infrastructure penetration testing, which examines servers, firewalls, and other hardware. Pentesters simulate a malicious attack and their goal is to expose unknown vulnerabilities such as zero-day threats and business logic flaws. They use vulnerability identification for web applications and Scenario-driven testing.
+          img: cs3_u3_s1_p2_slide3.svg
+        -
+          title: Social engineering testing
+          text: |
+            Is the practice of attempting to perform social engineering scams on a company’s employees to check out the level of vulnerabilities and to test the employees use of security policies and guidance. The goal is to find out how successful security training is and where there is need for improvement. Tests that may be tried may involve looking for physical vulnerabilities, or phishing scams.
+          img: cs3_u3_s1_p2_slide4.svg
+        -
+          title: Ethical hacking / Red teaming
+          text: |
+            Is designed to take a hacker like approach to detect vulnerabilities. It involves a simulation test in which a hacker or group of hackers try to break into a system. A red team attack is a team exercise designed to see how well an organisation responds to an attack, and the rules of engagement will be agreed in advance.
+          img: cs3_u3_s1_p2_slide5.svg
   -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 
+        Explain when you might use each of the following types of test:
+        * vulnerability scanning
+        * ethical hacking/red teaming
+        * social engineering testing
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Importance of cyber security testing
       
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      Why is cyber security testing important? Please see the following video to learn more.
+    video: cs3_u3_s1_p2_testing.mp4
+  
   -
   -
-    title: P L A C E H O L D E R item
-    layout: media
-    theme: t-bg-primary
+    title: Did you know?
+    theme: t-bg-primary1a
     copy: |
-      ### Title
+      
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: McKinsey report
+          copy: |
+            According to a report by McKinsey, many companies report thousands of attacks every month, ranging from the trivial to the extremely serious. Several billion data sets are breached annually.
 
-      TBD - Reveals? Slides? Section?
-
-    img: /images/svg/placeholder_icon.svg
+            Every year, hackers produce some 120 million new variants of malware. At some global companies, the chief information security officer (CISO) has a team of more than 2,000 people.
+            
+          img: /images/svg/cs3/cs3_did_you_know.svg
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Compare types of cyber security testing
+      * Consider mitigations following cyber security testing 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Compare types of cyber security testing and mitigations
+      
+      Please see the following video to learn about types of cyber security testing and mitigations following the testing.
+    video: cs3_u3_s1_p2_mitigations.mp4
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Use the following [Types of security testing](/pdfs/cs3_u3_s1_p2_read.pdf) document to determine the pros and cons of each type of test.
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Vulnerability scanning is using automated software to scan for and find security weaknesses and flaws in systems and software running on them. 
+          answer: Vulnerability
         -
-          sentence: example two
-          answer: two
+          sentence: Pentesters simulate a malicious attack and their goal is to expose unknown vulnerabilities such as zero-day threats and business logic flaws.
+          answer: Pentesters
         -
-          sentence: example three 
-          answer: three
+          sentence: Red teaming is designed to take a hacker like approach to detect vulnerabilities. 
+          answer: Red teaming
         -
-          sentence: example four
-          answer: four
+          sentence: social engineering testing can highlight issues with procedures and identify how susceptible staff might be to attacks.
+          answer: social engineering
     theme: i-quiz
   
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

@@ -1,69 +1,82 @@
 title: Understand controls in cyber security
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this session we will be looking at cyber security controls and frameworks.
+banner: cs3_u3_s3_p1_understand_controls.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Cyber security controls
+      * Cyber security framework
+      * Evaluating a cyber security framework
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify cyber security controls.
   -
   -
-    title: slider
+    title: What are cyber security controls?
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Security controls are systems used to protect data and infrastructure in fact any way of safeguarding an organization from security risks. These may be: 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Physical security controls
+          copy: |
+            Such as perimeter fencing, locks, entry controls, surveillance equipment and cameras, and intrusion detection.
+          img: cs3_u3_s3_p1_reveal1.svg
+        -
+          title: Cyber security controls
+          copy: |
+            Such as usernames and passwords, multifactor authentication, anti-malware, and firewalls.
+          img: cs3_u3_s3_p1_reveal2.svg
+        -
+          title: Cloud security controls
+          copy: |
+            Such as measures taken in conjunction with cloud services providers.
+          img: cs3_u3_s3_p1_reveal3.svg
+  -
+  -
+    title: Cyber security controls
+    theme: t-bg-primary
+    copy: |
+      Scroll through the slides to learn more about cyber security controls in more detail.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Encryption and Back Up of Data
           text: |
-            text
-          img: placeholder_icon.svg
+            Encryption is used to protect data confidentiality whilst in transit and whilst stored on devices. Backing up data means that permanent loss can be prevented, and the impact of a breach lessened as data can be replaced, but these backups must also be encrypted to also keep them safe from breach.
+          img: cs3_u3_s3_p1_slide1.svg
         -
-          title: slide 2 title
+          title: Antivirus, Antimalware and Patch Management
           text: |
-            text
-          img: placeholder_icon.svg
+            Antivirus and antimalware can help to protect against malware infection, and setting up regular update for all software and firmware.  This can help to keep things protected from the latest threats.
+          img: cs3_u3_s3_p1_slide2.svg
         -
-          title: slide 3 title
+          title: Usernames, Passwords, and Multi Factor Authentication
           text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Example of an evaluation ???
-
-      Take a look at the following document about 
-
-      [example doc]().
+            Adding multi factor authentication to usernames and passwords can help to create a more robust system of access, making it harder for hackers to gain entry.
+          img: cs3_u3_s3_p1_slide3.svg
+        -
+          title: Access Controls and Permissions
+          text: |
+            Users should only be granted access to areas that they specifically need to use and at a level appropriate to their role. Privileges and permissions should only be granted as they are needed for individuals to perform their role.
+          img: cs3_u3_s3_p1_slide4.svg
+        -
+          title: Network Perimeter Defences
+          text: |
+            Network perimeter defences such as firewalls can filter network traffic and restrict access to websites deemed malicious and Virtual Private Networks (VPN) can be used to hide online users from potential attackers.
+          img: cs3_u3_s3_p1_slide5.svg
   -
   -
     title: Time to think
@@ -71,34 +84,57 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        question / activity
-        
+        Research one or more types of cyber security control to learn more about them and how they are used.       
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      In your assessment you will be required to explain a basic cyber security framework.
   -
   -
-    title: Activity
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary2
     copy: |
-      ### Example of an evaluation - advantages and disadvantages
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: 
+      ### Cyber security frameworks
+      
+      Please see the following video to learn more.
+    video: cs3_u3_s3_p1_frameworks.mp4
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Cyber security frameworks are a system of standards, guidelines for best practice to manage and mitigate cyber security risks.
+          answer: guidelines for best practice
+        -
+          sentence: Following an appropriate cyber security framework will help to manage an organisations risk.
+          answer: manage an organisations risk
+        -
+          sentence: Control frameworks are often used by those who are new to cyber security, these offer a basic set of controls to follow. 
+          answer: Control frameworks
+        -
+          sentence: Program frameworks assess the overall state of a security program and help to build and analyse a system conducting industry comparisons. 
+          answer: Program frameworks
+        -
+          sentence: Risk frameworks focus on risk and prioritise security.
+          answer: Risk frameworks
+    theme: i-quiz
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        When might an organisation use each of the following cyber security frameworks?
+        * Center for Internet Security controls
+        * National Cyber Security Centre’s (NCSC’s) 10-step framework
+        * National Institute of Standards and Technology cyber security framework     
   -
   -
     title: On the web
@@ -106,10 +142,39 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        To find out about more about this and other cyber security frameworks check out the following websites.
 
       links:
-        website description: http://www.google.co.uk
+        ncsc 10 steps: https://www.ncsc.gov.uk/collection/10-steps
+        cis security controls list: https://www.cisecurity.org/controls/cis-controls-list
+        nist cyber framework: https://www.nist.gov/cyberframework
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to evaluate a cyber security framework.
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - Ashley Madison Cyber Breach
+
+      In 2015 Ashley Madison, a specialised dating agency, had over 300GB of data stolen. This was very personal information that those using the agency certainly didn’t want anyone to find out. It included users real names, credit card details and banking information.
+      
+      Following the attack it was discovered that personal data hadn’t been deleted. The company charged clients $19 to delete their accounts and erase all of their personal data, but the hackers evidenced this this wasn’t done, and they had users’ real names, addresses and credit card information for users that had paid to ensure all that their information was fully deleted. 
+      
+      Ashley Madison was attacked because hackers wanted to show the rest of the world the poor standards that were being upheld and to highlight the “fraud, deceit, and stupidity of Ashley Madison and their members. They promised security but didn’t deliver” (message posted on the dark web by the hackers).
+
+    img: /images/svg/cs3/cs3_u3_s3_p1_case_study.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What do you think Ashley Madison should have done to ensure that their systems were fully secure? Think about this for before the hack and afterwards. Which of the frameworks would have been most appropriate?
   

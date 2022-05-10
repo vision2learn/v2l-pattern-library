@@ -1,0 +1,14 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the third session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is meant by incident post-mortem
+      * The structure of an incident post-mortem
+      * The importance of integity, rigour and discipline when carrying out an incident post-mortem
+      * How to create a post-mortem report of an incident  
+      * Reflecting upon the report and making recommendations based on findings

@@ -1,0 +1,112 @@
+title: Positive digital identity and screening checks
+intro: |
+  In this session we will look at the behaviours required for a career in cyber security. On this page we will look at the importance of managing and promoting a positive digital identity, and employee screening checks.
+banner: cs3_u6_s1_p2_digital_identity_o2.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the importance of managing and promoting a positive digital identity.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Positive digital identity
+      
+      Please see the following video on the importance of managing and promoting a positive digital identity.
+    video: cs3_u6_s1_p2_positive_digital_id.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think about your digital identity. What are some ways you can establish a positive digital identity?
+        
+        What are some ways that you might be at risk from a negative digital identity?
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Describe possible employee screening checks that an employer might carry out
+      * Consider potential consequences of unsatisfactory findings as a result of employer checks
+  -
+  -
+    title: Employee screening checks
+    theme: t-bg-primary
+    copy: |
+      Some employers operate screening checks for potential employees. These are usually carried out at recruitment and can assist an organisation to mitigate any negative impact and safeguard themselves. Some are legally required e.g. to check a candidates status for their right to work in the UK, or if they have any conviction that prevents them being employed in particular roles. 
+      
+      All pre-employment checks must comply with the Data Protection Act 2018 and not discriminate in anyway. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Disclosure and Barring Service (DBS) check
+          text: |
+            This is a legal requirement for anyone that wants to work with vulnerable people e.g. in healthcare or childcare. A basic DBS check can be used for any position or purpose and can even be requested by an individual. An enhanced DBS is needed to ensure safeguarding and both types will include details of convictions, conditional cautions and can include checks of terror watch lists.
+          img: cs3_u6_s1_p2_slide1.svg
+        -
+          title: Guilty by Association check
+          text: |
+            Employers, particularly those in cyber security, may carryout online and social media checks for candidates. Part of this check will be to see if the candidate is associated with any persons or bodies that may impact on the organisation’s reputation. This will also include if the candidate is linked to any extreme or radical information. Organisations should inform the candidate that social media checks will be carried out and provide them with the opportunity to discuss anything questionable that is discovered. 
+          img: cs3_u6_s1_p2_slide2.svg
+        -
+          title: Security checks (terror lists, address checks, employment verification checks)
+          text: |
+            These checks may also be carried out, depending on the position and sector that the candidate is applying for and may include all or some of the checks listed above. The higher the level of role and type of organisation will determine which checks are carried out e.g. for anyone working within Government security and banks they can expect the highest level of security checks. It’s important for organisations to ensure that any checks are appropriate to the role. 
+          img: cs3_u6_s1_p2_slide3.svg
+        -
+          title: Credit Checks
+          text: |
+            Any organisation may ask to carryout credit checks on candidates, especially if the role involves working with money. For some sectors it is a legal requirement e.g. law firms and financial institutions. As with all other checks, it’s important that the role benefits from the check e.g. this many not be needed for a site labourer but may be for a shopworker operating a cash till. 
+          img: cs3_u6_s1_p2_slide4.svg
+  
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Screening checks and potential consequences
+      
+      Please see the following video to learn more about employee screening checks and the potential consequences of unsatisfactory findings as a result of employer checks.
+    video: cs3_u6_s1_p2_screening_checks.mp4
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - background check
+
+      A candidate named Bob applied for a senior IT architect role with a large IT firm that specialises in cyber security. He seemed very well qualified, but in the online application form, Bob’s CV and LinkedIn profile, he stated that he had worked for several years on government projects with a high level of clearance. He gave enough detail to appear credible, but he claimed he could not provide documents to prove the contracts or names of line managers because of the secret status of the projects.
+      
+      Criminal record checks showed that Bob had actually been previously arrested for hacking, fraud, and money laundering and had been in prison during the time he claimed to be working for the government. Bob had simply fabricated a CV that he hoped would never be challenged. 
+
+    img: /images/svg/cs3/cs3_u6_s1_p2_case_study.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Why is it better to inform potential employers of issues that may come up on their background check, such as a criminal conviction?
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about security screening.
+
+      links:
+        Security Screening, Security Vetting or Background Checks: http://www.security-vetting.co.uk
