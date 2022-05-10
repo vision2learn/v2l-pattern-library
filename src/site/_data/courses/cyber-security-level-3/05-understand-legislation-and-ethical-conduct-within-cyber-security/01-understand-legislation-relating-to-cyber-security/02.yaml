@@ -13,7 +13,7 @@ sections:
     title: Legislation
     theme: t-bg-primary
     copy: |
-      The best way to monitor that cyber security is being adhered to is to have the appropriate legislation in place to set down the rules and regulations of what is and is not allowed. Set standards can help to create a unified defence against cyber security criminals allowing government authorities to act against those who misuse the acts or do not follow the regulations or codes of conduct. There are many laws that impact cyber security so let’s have a look at some of them:
+      The best way to monitor that cyber security is being adhered to, is to have the appropriate legislation in place to set down the rules and regulations of what is and is not allowed. Set standards can help to create a unified defence against cyber security criminals, allowing government authorities to act against those who misuse the acts or do not follow the regulations or codes of conduct. There are many laws that impact cyber security so let’s have a look at some of them:
     subInc: 
       type: accordion
       content:
@@ -24,7 +24,7 @@ sections:
             - Unauthorised access to computer materials with intent to commit a further crime. This refers to entering a computer system to steal data or destroy a device or network (such as planting a virus).
             - Unauthorised access to computer material. This refers to entering a computer system without permission (hacking).
             - Unauthorised modification of data. This refers to modifying or deleting data, and also covers the introduction of malware or spyware onto a computer (electronic vandalism and theft of information).
-            - Making and supplying or obtaining anything that can be used in computer misuse offences.
+            - Making, supplying, or obtaining anything that can be used in computer misuse offences.
     
             These offences can earn a sentence of up to 10 years in prison as well as a fine related to the severity of the crime and the damage caused. If this damage causes harm to human welfare or puts national security at risk, the sentence could be up to life imprisonment.
           img: /images/svg/cs3/cs3_u5_s1_p2_slide1.svg
@@ -128,7 +128,6 @@ sections:
 
       links:
         Guide to GDPR: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/
-        UKPGA: https://www.legislation.gov.uk/ukpga/1990/18/introduction
-        Computer Misuse Act: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/415953/Factsheet_-_Computer_Misuse_-_Act.pdf
+        Computer Misuse Act: https://www.legislation.gov.uk/ukpga/1990/18/introduction
         NCSC: https://www.ncsc.gov.uk
         Cyber Security Regulation and Incentives Review: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/579442/Cyber_Security_Regulation_and_Incentives_Review.pdf
