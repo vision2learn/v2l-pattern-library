@@ -28,10 +28,21 @@ sections:
       [Incident Response Plan Example](/pdfs/cs3_u4_s2_p2_read.pdf).
   -
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Take a look at the following website where you can watch a video on how to create an incident response plan and see documentation to help you do this.
+
+      links:
+        Incident Response Plan 101 - How to Build One, Templates and Examples - Exabeam: https://www.exabeam.com/incident-response/incident-response-plan/    
+  -
+  -
     title: Time for assessment task
     theme: t-bg-primary3 i-practice
     copy: |
-      Take a look at the following case study and create an incident response plan using the following [Cyber Security Incident Response Plan]() template document.  
+      Look at the following case study and create an incident response plan using the following [Cyber Security Incident Response Plan](/pdfs/cs3_u4_s2_assessment_incident_response_plan.docx) template document.  
       
       Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
   -
