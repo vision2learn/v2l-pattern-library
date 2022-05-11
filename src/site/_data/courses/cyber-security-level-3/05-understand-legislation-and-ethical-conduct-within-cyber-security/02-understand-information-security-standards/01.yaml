@@ -56,10 +56,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about ISO.
+        Please see the following website where you can learn more about ISO standards.
 
       links:
-        ISO: https://advisera.com/27001academy/blog/2015/08/25/iso-27001-vs-iso-27032-cybersecurity-standard/
+        ISO standards: https://www.iso.org/standards.html
   -
     title: Time to think
     theme: t-bg-primary3 i-think
