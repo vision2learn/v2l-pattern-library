@@ -13,12 +13,12 @@ sections:
       * Kanban 
       * Waterfall
   -
-    title: Reveals
+    title: Software methodologies
     theme: t-bg-primary
     copy: |
-      _Introduction to topic_
-
-      Select the images below to read 
+      There are many different methodologies and frameworks used in project management for software projects.  In this course we are going to focus on four - Agile, Scrum, Kanban, and Waterfall. 
+      
+      Select the images below to see about the four different software methodologies.
 
     subInc: 
       type: reveal
@@ -72,7 +72,11 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      text
+      Kanban was developed (with LEAN methodology) by an engineer for Toyota in the 1940s in Japan. It was predominately used in ‘just-in-time’ manufacturing.  Kanban came to the attention of the software industry and is nowadays used in the Agile methodology. 
+      
+      It is a visual system and the flow of work is managed from using a Kanban project board.  Often these same types of project boards are used in Agile and Scrum methodology.  In its simplest form there are three columns which are labelled: To Do, In Progress, and Done. 
+      
+      The objective of Kanban is to simplify planning, manage work and inventory, and increase productivity and efficiency.
 
     img: /images/svg/placeholder_icon.svg
   -
