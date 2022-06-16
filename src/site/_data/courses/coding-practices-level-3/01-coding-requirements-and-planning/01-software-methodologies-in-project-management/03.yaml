@@ -1,6 +1,6 @@
 title: Software methodologies in project management
 intro: |
-  intro text
+  There are several different software methodologies used in project management. In this course we are going to focus on four which are Agile, Scrum, Kanban, and Waterfall.
 banner: placeholder.jpg
 sections:
   -
@@ -55,6 +55,25 @@ sections:
       ![](/images/svg/uc/uc_u5_s4_p1_wide_image.svg)
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      Please see the following video on 1.1 - Agile
+    video: placeholder_pc.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites which references the Agile Manifesto and the 12 principles based on the Agile Manifesto.
+
+      links:
+        The Agile Manifesto: https://agilemanifesto.org/
+        The Agile 12 Principles: https://www.agilemanifesto.org/principles.html
+  -
     title: Scrum
     theme: 
     
@@ -68,36 +87,11 @@ sections:
       composition: 1A9338FEE8584755AB48BB991EF417A3
   -
   -
-    title: Kanban
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      Kanban was developed (with LEAN methodology) by an engineer for Toyota in the 1940s in Japan. It was predominately used in ‘just-in-time’ manufacturing.  Kanban came to the attention of the software industry and is nowadays used in the Agile methodology. 
-      
-      It is a visual system and the flow of work is managed from using a Kanban project board.  Often these same types of project boards are used in Agile and Scrum methodology.  In its simplest form there are three columns which are labelled: To Do, In Progress, and Done. 
-      
-      The objective of Kanban is to simplify planning, manage work and inventory, and increase productivity and efficiency.
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Waterfall Project Management
-    theme: 
-    copy: |
-      The waterfall project management approach emphasises a linear approach from the beginning to the end of a project. It flows like a waterfall through all phases of a project with each phase wrapping up before the next phase begins. It is often used by engineers and is front loaded relying on careful planning, detailed documentation, and consecutive execution.
-      
-      It follows a chronological process and works on fixed dates, requirements, and outcomes.
-      
-      ![](/images/svg/uc/uc_u5_s3_p2_wide_image.svg)
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 1.1
+      Please see the following video on 1.1 - Scrum
     video: placeholder_pc.mp4
   -
   -
@@ -118,16 +112,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following websites which references the Agile Manifesto and the 12 principles based on the Agile Manifesto.
-
-      links:
-        The Agile Manifesto: https://agilemanifesto.org/
-        The Agile 12 Principles: https://www.agilemanifesto.org/principles.html
-        
