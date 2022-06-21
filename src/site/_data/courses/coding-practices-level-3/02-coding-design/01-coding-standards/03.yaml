@@ -12,7 +12,7 @@ sections:
     title: Processes and tools for coding standards
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      Introduction text
     
       Scroll through the slides below to learn more about ...
 
@@ -21,7 +21,7 @@ sections:
       title: 
       slides:
         -
-          title: Style guides
+          title: Style guides and tools
           text: |
             text
           img: placeholder_icon.svg
@@ -79,7 +79,11 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _examples of style guides_
+        _For each example in the video have a link here_
+        
+        _examples of style guides, tools, _
+
+
 
         Please see the following website where you can learn more about . . .
 
