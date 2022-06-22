@@ -1,6 +1,6 @@
 title: Understand how teamwork contributes to effective delivery of software
 intro: |
-  Session 4 intro
+  
   
 banner: placeholder.jpg
 sections:
@@ -9,135 +9,25 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
-  -
+      * The need to develop working relationships with other teams
+      * Benefits of developing positive working relationships with other teams and departments
+      * Conflict management techniques that may be used for effective team collaboration
+      * The potential impact of ineffective working relationships with other teams and departments
+      * How team members can reflect on progress and identify improvements
+  - 
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-grey2 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain the need to develop working relationships with other teams
   -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
+    title: Watch
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
+     
+    
+      Lets take a look at why it is important to develop good relationships with other teams.
     video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
     title: Quick quiz
     subInc: 
@@ -157,26 +47,86 @@ sections:
           answer: four
     theme: i-quiz
   
+  - 
+    title: Key point
+    theme: t-bg-grey2 i-keypoint
+    copy: |
+      In your assessment you will be required to identify the benefits of developing positive working relationships with other teams and departments
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    title: The benefits of developing positive working relationships with other teams and departments
+    theme: t-bg-primary
+    copy: |
+     Being able to have positive working relationships with other teams and departments enables access to a wide range of skills and working methods which can provide a higher level of creativity and innovation. 
+      
+
+      Select the images below to read about some other important benefits. 
+
+    subInc: 
+      type: reveal
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        -
+          title: Increased efficiency
+          copy: |
+            Cross team collaboration allows team members to focus on their own specialist skills while still having the opportunity to learn from each other. This can lead to increased efficiency and productivity across all teams.
+          img: placeholder_icon.svg
+        -
+          title: Improved performance
+          copy: |
+           When employees focus on what they do best and don’t have to deal with tasks that are beyond their current skills or capabilities, they produce higher quality work.
+          img: placeholder_icon.svg
+        -
+          title: Increased competency
+          copy: |
+            While collaboration enables individual team members to focus on their core competencies, it can also help to increase competencies. By collaborating with teams, team members learn more about what they do, and gain a broader understanding of the system they work within.
+          img: placeholder_icon.svg
+        -
+          title: Trust is built
+          copy: |
+            Strong teams cultivate a foundation of trust. Trust maintains open lines of communication between all teams and team members which encourages people to share information.
+          img: placeholder_icon.svg
+        -
+          title: Reduced stress
+          copy: |
+            When employees try to do too many tasks, it can negatively affect their productivity and health. In a multi team environment, employees can support each other, reducing the likelihood of burnout.
+          img: placeholder_icon.svg
+        -
+          title: Leads to innovation
+          copy: |
+            Most innovation comes as the result of the effort of a group or groups of people, rather than an individual. Most lasting innovations start with the creative process, which then moves through development, refinement, execution, and revision phases. Innovation usually involves input from many employees. The different experiences and perspectives of different teams can be utilised.
+          img: placeholder_icon.svg
+        -
+          title: Brings mutual support
+          copy: |
+           When teams work well together they are also supportive of one another. Mutual support can encourage people to achieve goals they may not have realised they could reach on their own. Furthermore, teams offer an environment that provides a sense of belonging.
+          img: placeholder_icon.svg
+        -
+          title: Job satisfaction
+          copy: |
+            The advantages of working with other teams and departments can lead to improved organisational efficiency and customer satisfaction. It also contributes to employees’ job satisfaction, through learning, reduced stress, more support and better use of skills. When employees are more satisfied, they tend to be motivated, less prone to absenteeism and more productive.
+          img: placeholder_icon.svg
+        -
+          title: Improved service
+          copy: |
+            In any successful organisation, there tends to be a strong team spirit that is appreciated by its internal customers, external customers and supporters. Having positive relationships with other teams leads to positive attitudes and a strong sense of commitment to the organisation. This in turn helps helps to maintain and improve the organisations reputation for delivering quality products on time.
+          img: placeholder_icon.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of a time when you worked as part of a team? What benefits did having an effective team bring? How did having good teamwork enable the team to complete projects. Make some notes in the box to the right.  
+  
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
