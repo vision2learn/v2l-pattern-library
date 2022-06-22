@@ -47,34 +47,6 @@ sections:
       In your assessment you will be required to explain the consequences of not following coding standards.
   -
   -
-    title: Consequences - issues
-    theme: t-bg-primary
-    copy: |
-      _Do we need this to support video?_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Security issues
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Maintaining or updating the code
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Performance issues 
-          text: |
-            Errors in code having an impact on performance issues.
-          img: placeholder_icon.svg
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
@@ -85,8 +57,7 @@ sections:
       * Issues 
       * Security 
       * Maintaining or updating the code 
-
-      Performance issues (errors in code) 
+      * Performance issues (errors in code) 
     video: placeholder_pc.mp4
   
   -
