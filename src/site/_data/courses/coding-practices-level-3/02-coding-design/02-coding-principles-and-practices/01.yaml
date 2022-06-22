@@ -1,0 +1,97 @@
+title: Coding principles and practices
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary1a
+    copy: |
+      In this session you will learn about:
+      * Good coding principles and practices
+      * The importance of following good coding principles and practices
+      * How processes and tools can be used to promote coding standards
+  -
+    title: Good coding principles and practices
+    layout: media
+    theme: t-bg-primary
+    copy: | 
+      
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to identify good coding principles and practices used by Software Developers.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on 2.1.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: S O L I D principles
+    theme: 
+    
+    copy: |
+      Please see the below activity which outlines the S O L I D principles.
+
+    interactive:
+      file: uc/u4_s1_p3_solid
+      width: 1000
+      height: 800
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Single Responsibility Principle – every class/method is responsible for one single separate part of the program.
+          answer: Single Responsibility
+        -
+          sentence: Dependency Inversion Principle – abstraction should be used to decouple high-level and low-level modules from each other.  
+          answer: Dependency Inversion
+        -
+          sentence: Interface Segregation Principle – no client should be forced to depend on methods they do not use. 
+          answer: Interface Segregation
+        -
+          sentence: Open/Closed Principle – software entities should be open for extension, but closed for modification. 
+          answer: Open/Closed
+        -
+          sentence: Liskov Substitution Principle – properties of one original class should be replaceable with objects built from classes adapted from the original without breaking the application. 
+          answer: Liskov Substitution
+    theme: i-quiz
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites where you can learn more about coding principles:
+
+      links:
+        KISS: https://www.freecodecamp.org/news/keep-it-simple-stupid-how-to-use-the-kiss-principle-in-design/
+        Solid design open closed principles: https://stackify.com/solid-design-open-closed-principle/
+        What are SOLID Principles?: https://www.technologylogs.com/development/what-are-solid-principles/
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - relate to the video._
+
+        text
+  

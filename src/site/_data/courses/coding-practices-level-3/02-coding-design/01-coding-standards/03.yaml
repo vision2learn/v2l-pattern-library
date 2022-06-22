@@ -9,30 +9,30 @@ sections:
     copy: |
       In your assessment you will be required to explain the processes and tools that could be used to promote coding standards.
   -
+  -
     title: Processes and tools for coding standards
     theme: t-bg-primary
     copy: |
       Introduction text
-    
-      Scroll through the slides below to learn more about ...
+
+      Select the images below to read 
 
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: reveal
+      content:
         -
           title: Style guides and tools
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
         -
           title: Code review
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
         -
           title: Static analysis
-          text: |
+          copy: |
             text
           img: placeholder_icon.svg
   -
@@ -55,7 +55,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        _LO or exercise - relate to the video._
 
   -
   -
