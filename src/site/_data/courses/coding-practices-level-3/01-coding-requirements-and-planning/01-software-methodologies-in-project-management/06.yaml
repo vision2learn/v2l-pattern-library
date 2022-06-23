@@ -1,111 +1,13 @@
-title: Suitable examples for each methodology
-intro: |
-  intro text
-banner: placeholder.jpg
+title: What did you learn? 
+intro: Well done, you’ve now completed the ﬁrst session of this unit! 
+banner: summary.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    title: Summary
+    theme: t-bg-primary i-summary
     copy: |
-      In your assessment you will be required to give examples where each methodology is most suitable.
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      Please see the following video on 1.4.
-    video: placeholder_pc.mp4
-  -
-    title: Four case studies
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      _Four examples of four different companies using each of the four methodologies, general descriptions are in video_
-    
-      Scroll through the slides below to see four examples of when each methodology is most suitable.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Agile
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Scrum
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Kanban
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Waterfall
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Taking the above case studies into consideration, do some research and write up . . . . . . . . using the following [Coding Practice name of document](/pdfs/) template document.
-      
-      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
-
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+      In this session, you have learnt about:
+      * Summarise the key features of Agile, Scrum, Kanban, and Waterfall
+      * Describe the similarities and differences between Agile, Scrum, Kanban, and Waterfall
+      * Consider the strengths and weaknesses of each methodology
+      * Give an example of when each methodology is most suitable
