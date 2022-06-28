@@ -1,0 +1,16 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the third session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * Different types of coding review
+      * Why code is reviewed
+      * Why it is important to undertake a coding review
+      * The importance of effective feedback in a coding review
+      * The difference between submitting and performing a coding review
+      * The advantages and disadvantages of pair programming and mob programming
+  
