@@ -1,15 +1,78 @@
-title: Pair and Mob Programming
+title: Databases
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    title: What you will learn
+    theme: t-bg-primary
     copy: |
-      In your assessment you will be required to explain the advantages and disadvantages of: 
-      * Pair programming
-      * Mob programming
+      In this session you will learn about:
+      * What is meant by structured data and unstructured data
+      * What is meant by databases
+      * The structure and key components of a database table
+      * The use of primary and foreign keys
+      * Techniques for querying databases
+      * The purpose of database indexing
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 
+  -
+    title: Reveals OR Slides
+    theme: t-bg-primary
+    copy: |
+      _Optional item depending on content_
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      _Optional item depending on content_
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
   -
   -
     title: Watch 
@@ -18,7 +81,7 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on 3.6.
+      Please see the following video on .
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -26,14 +89,22 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        _LO or exercise - relate to the video._
+
+  -
+  -
+    title: Wide image
+    theme: 
+    copy: |
+      Text
+      ![](/images/banners/placeholder.jpg)
   -
   -
     title: Activity
     layout: media
     theme: t-bg-primary2
     copy: |
-      ### Title - DnD - Pair or Mob
+      ### Title - DnD - Structured or unstructured
 
       Select the following icon to have a go at an activity to learn more about .....
 
@@ -53,7 +124,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
   -
     title: Quick quiz
     subInc: 
