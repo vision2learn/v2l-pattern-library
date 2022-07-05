@@ -1,4 +1,4 @@
-title: Importance of coding reviews
+title: Creative problem solving
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,9 +7,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to:
-      * Explain why it is important to undertake a coding review
-      * Explain the importance of effective feedback in a coding review
+      In your assessment you will be required to 5.3 and 5.4
   -
   -
     title: Watch 
@@ -18,69 +16,29 @@ sections:
     copy: |
       _Presentation style .... _
       
-      Please see the following video on 3.3 and 3.4.
+      Please see the following video on .
     video: placeholder_pc.mp4
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _3.3_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video and or case study._
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to distinguish the difference between submitting and performing a coding review.
-  -
-    title: slides OR Accordion
-    theme: t-bg-primary
-    copy: |
-      Text
-    
-      Scroll through the slides below to learn more about ... 3.5
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Submitting a request for a coding review
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Performing a coding review
-          text: |
-            text
-          img: placeholder_icon.svg
+        _LO or exercise - relate to the video._
   -
   -
     title: Activity
     layout: media
     theme: t-bg-primary2
     copy: |
-      ### Title - DnD - Submitting or Performing
+      ### Title - DnD - Structured or unstructured
 
-      Select the following icon to have a go at an activity to learn more about ..... 3.5
+      Select the following icon to have a go at an activity to learn more about .....
 
     img: /images/svg/Activity_button.svg
     activity: 
       ref: uc_u3_s2_p1_activity_v2
   -
-  
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
