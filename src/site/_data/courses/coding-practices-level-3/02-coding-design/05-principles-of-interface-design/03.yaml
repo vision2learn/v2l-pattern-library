@@ -1,35 +1,41 @@
-title: Importance of coding reviews
+title: HCI and User interface
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to:
-      * Explain why it is important to undertake a coding review
-      * Explain the importance of effective feedback in a coding review
+      In your assessment you will be required to 5.5
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Slides OR Accordion
+    theme: t-bg-primary
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 3.3 and 3.4.
-    video: placeholder_pc.mp4
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+      _Optional item depending on content_
+    
+      Scroll through the slides below to learn more about ...
 
-      _3.3_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
   -
   -
     title: Time to think
@@ -37,50 +43,8 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video and or case study._
+        _LO or exercise - relate to the video._
   -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to distinguish the difference between submitting and performing a coding review.
-  -
-    title: slides OR Accordion
-    theme: t-bg-primary
-    copy: |
-      Text
-    
-      Scroll through the slides below to learn more about ... 3.5
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Submitting a request for a coding review
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Performing a coding review
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Title - DnD - Submitting or Performing
-
-      Select the following icon to have a go at an activity to learn more about ..... 3.5
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
-  -
-  
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -95,7 +59,43 @@ sections:
         website description: http://www.google.co.uk
   -
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 5.6
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on 5.6.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: P L A C E H O L D E R
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+      Do we need an xtra item to support video for 5.6?
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think?
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - relate to the video._
+  -
+  -
     title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
     subInc: 
       type: word-quiz
       content:

@@ -1,0 +1,156 @@
+title: Understand 'security by design' principles CYBER 3 PAGE - REPURPOSE
+intro: |
+  In this session you will learn about 
+banner: cs3_u1_s3_p1_design.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * What is meant by building security by design into software at the development stage
+      * Methods used to ensure software is secure
+      * Types of security issues and threats that can impact software development
+  -
+  -
+    title: Your learning goals CYBER 3 PAGE
+    theme: t-bg-primary
+    copy: |
+      By working through this session, you will cover the following criteria of your Level 3 Certificate in the Principles of Cyber Security.
+    
+      1. Describe the term security by design
+      2. Explore the principles of security by design
+      3. State the consequences of not considering cyber security during the design phase
+      4. Evaluate the advantages and disadvantages of security by design
+
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+      In your assessment you will be required to 6.1 Describe what is meant by building security by design into software at the development stage.
+  -
+  -
+    title: What is security by design? CYBER 3 PAGE
+    theme: t-bg-primary
+    copy: |
+      Security by design is an approach to cybersecurity that focuses on preventing a breach rather than just responding to one after the event! It enables an organisation to automate its data security by formalising the design of its infrastructure by building security into the IT system and subsequently the management processes. The security is in place from the beginning of a project so therefore is more likely to reduce the chance of flaws that may compromise an organisations information security.
+
+      So let’s take a look at the principles of security by design as set out by the NCSC ( National Cyber Security Centre).
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Establish the context before designing a system
+          copy: |
+            Before creating a secure system there needs to be an understanding of what the system is for and address any short comings or issues.
+          img: cs3_u1_s3_p1_reveal1.svg
+        -
+          title: Make compromise difficult
+          copy: |
+            Designing a system with security in mind means applying concepts that make it harder for any attackers to compromise data or systems.
+          img: cs3_u1_s3_p1_reveal2.svg
+        -
+          title: Reduce the attack surface
+          copy: |
+            This refers to reducing the number of places where hackers can get in. You can take a number of steps to do this.
+          img: cs3_u1_s3_p1_reveal3.svg
+        -
+          title: Make Disruption Difficult
+          copy: |
+            Having standby systems can help by always making sure high value or critical services can be relied on.
+          img: cs3_u1_s3_p1_reveal4.svg
+        -
+          title: Make compromise detection easier
+          copy: |
+            Even when all precautions are taken systems can still become compromised. By having the right security systems in place this can be prepared for and spotted before any damage takes place.
+          img: cs3_u1_s3_p1_reveal5.svg  
+        -
+          title: Reduce the impact of compromise
+          copy: |
+            By designing a system which is more segmented or zoned this can help minimise the severity of a compromise.
+          img: cs3_u1_s3_p1_reveal6.svg  
+  -
+    title: Stretch CYBER 3 PAGE
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Case study
+
+      To learn more about each of these principles and how they can be applied click on the owl to see a case study on the National Cyber Security Centre government website.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.ncsc.gov.uk/collection/cyber-security-design-principles/examples/study-operational-tech
+  -
+
+    title: Time to think CYBER 3 PAGE
+    include: 
+      type: time-to-think
+      copy: Do you think that security by design is a good idea? Explain why or why not in the box to the right. 
+    theme: t-bg-primary3 i-think 
+
+  -
+    title: Key point CYBER 3 PAGE
+    theme: t-bg-supporting3 i-keypoint
+    copy: | 
+      Make sure that you understand consequences of not considering cyber security during the design phase as well as the advantages and disadvantages of security by design as you will be asked about this in your assessmennt.   
+  -   
+    title: Watch CYBER 3 PAGE
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Design Phase
+
+      Lets take a look at security by design in more detail and the potential consequences of not considering cyber security during the design phase. 
+    video: cs3_u1_s3_p1_design_phase.mp4
+  -       
+    title: Quick quiz CYBER 3 PAGE
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Unless cyber security has been considered during the design phase, the organisation will be left to take a reactive approach to attacks.
+          answer: reactive
+        -
+          sentence: Companies should always do a risk analysis beforehand to assess where the potential problems might lie and what the consequences might be if cyber security is not implemented from the beginning.
+          answer: risk analysis
+        -
+          sentence: It is always important that structure data can be validated or else it should be transformed, or it needs to be rendered carefully.
+          answer: validated 
+        -
+          sentence: Unauthorised access may mean that the system has been modified or had its data destroyed, meaning that if a backup is not available all that data may be lost.
+          answer: backup
+        -
+          sentence: If validation and transformation are not possible rendering information in a disposable environment not linked to the system is the best option.
+          answer: disposable
+        -
+          sentence: The complexity of malicious code in documents means that it is safer to transform the file or content into another format. 
+          answer: transform
+          
+    theme: i-quiz
+  -
+    title: Activity CYBER 3 PAGE
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### Advantages and disadvantages of Security by Design
+
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of security by design.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: cs3_u1_s3_p1_activity
+  -
+    title: Time to think CYBER 3 PAGE
+    include: 
+      type: time-to-think
+      copy:  Using your learning from this session, look at the questions below and make a note of your answers. 
+
+        -  What are the consequences of not considering cyber security during the design phase? 
+
+        -  What are the advantages and disadvantages of security by design? 
+    theme: t-bg-primary3 i-think
+  -
+    

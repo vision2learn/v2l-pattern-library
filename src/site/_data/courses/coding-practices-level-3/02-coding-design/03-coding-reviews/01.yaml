@@ -33,39 +33,27 @@ sections:
       * Walkthrough 
       * Technical review 
     video: placeholder_pc.mp4
+  
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - 
+
+      _3.1 case study_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _Activity item - either use this with a web item or case study_
+        _Activity item - use this with the case study_
 
         Choose one of the types of code review, research (or case study), write notes
-  -
-  -
-    title: Case study - this or web?
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
   -
     title: Key point
@@ -77,7 +65,7 @@ sections:
     title: slider OR Accordion
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      Text
     
       Scroll through the slides below to learn more about 3.2
 
