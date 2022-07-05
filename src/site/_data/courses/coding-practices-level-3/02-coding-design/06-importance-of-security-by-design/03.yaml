@@ -1,0 +1,13 @@
+title: What did you learn? 
+intro: Well done, you’ve now completed the sixth session of this unit! 
+banner: summary.jpg
+sections:
+  -
+    title: Summary
+    theme: t-bg-primary i-summary
+    copy: |
+      In this session, you have learnt about:
+      * What is meant by building security by design into software at the development stage
+      * Methods used to ensure software is secure
+      * Types of security issues and threats that can impact software development
+  
