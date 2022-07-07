@@ -64,10 +64,10 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Now you have seen the instructional video above, explain what is meant by a projects critical path using the following [Coding Practices Critical Path](/pdfs/cp3_u1_s3_assessment_critical_path.docx) template document.
-      
-      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Text
   
