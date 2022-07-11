@@ -14,15 +14,17 @@ sections:
       
       The objective of Kanban is to simplify planning, manage work and inventory, and increase productivity and efficiency.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u1_s1_p3_image3.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video on 1.1 - Kanban
-    video: placeholder_pc.mp4
+      ### Kanban
+
+      Please see the following video to learn more about Kanban.
+    video: cp3_u1_s1_p3_kanban_key_features.mp4
   -
   -
     title: On the web
@@ -41,15 +43,17 @@ sections:
       
       It follows a chronological process and works on fixed dates, requirements, and outcomes.
       
-      ![](/images/svg/uc/uc_u5_s3_p2_wide_image.svg)
+      ![](/images/svg/cp3/cp3_u1_s1_p4_wide_image_wf.svg)
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video on 1.1 - Waterfall
-    video: placeholder_pc.mp4
+      ### Waterfall
+
+      Please see the following video to learn more about the Waterfall methodology.
+    video: cp3_u1_s1_p3_waterfall_key_features.mp4
   -
   -
     title: Quick quiz
@@ -57,15 +61,12 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Strong documentation is created at every stage of the project, and this would include an initial meeting with the customer.
+          answer: Strong documentation
         -
-          sentence: example two
-          answer: two
+          sentence: Sequential structure is the main principle of the Waterfall model and most projects have 5 to 7 stages. 
+          answer: Sequential structure
         -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
+          sentence: There is low customer involvement with the Waterfall methodology - there are only two meetings with the client - these take place at the beginning and the end of the project.
+          answer: low customer involvement
     theme: i-quiz      

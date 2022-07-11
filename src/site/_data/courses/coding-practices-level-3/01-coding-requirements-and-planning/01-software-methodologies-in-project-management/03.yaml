@@ -27,22 +27,22 @@ sections:
           title: Agile
           copy: |
             Agile is an iterative, people-oriented and result-focused way of working when delivering software products. The software is built incrementally in time-boxed 'sprints'.
-          img: placeholder_icon.svg
+          img: cp3_u1_s1_p3_reveal1.svg
         -
           title: Scrum
           copy: |
             Scrum is an Agile methodology often called a framework to help teams to work together on a project. Scrum is quick and easy to adapt, clear visibility, low risk and fast feedback loops.
-          img: placeholder_icon.svg
+          img: cp3_u1_s1_p3_reveal2.svg
         -
           title: Kanban
           copy: |
             Kanban is a visual system and the flow of work is managed from using a Kanban project board.  Often these same types of project boards are used in Agile and Scrum methodology.
-          img: placeholder_icon.svg
+          img: cp3_u1_s1_p3_reveal3.svg
         -
           title: Waterfall
           copy: |
             Waterfall project management follows a chronological process and works on fixed dates, requirements, and outcomes. Its three main principles are low customer involvement, strong documentation, and sequential structure.
-          img: placeholder_icon.svg
+          img: cp3_u1_s1_p3_reveal4.svg
   -
   -
     title: Agile development
@@ -52,15 +52,17 @@ sections:
 
       Agile came about as a process to address issues that software developers faced, focussing on a project being flexible, so it could respond to any changes and deal with any uncertainty. 
             
-      ![](/images/svg/uc/uc_u5_s4_p1_wide_image.svg)
+      ![](/images/svg/cp3/cp3_u1_s1_p3_wide_image_agile.svg)
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video on 1.1 - Agile
-    video: placeholder_pc.mp4
+      ### Agile
+
+      Agile Development which is also more commonly known as Agile Software Development, is an umbrella term for a range of frameworks, please see the following video learn more.
+    video: cp3_u1_s1_p3_agile_key_features.mp4
   -
   -
     title: On the web
@@ -91,8 +93,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video on 1.1 - Scrum
-    video: placeholder_pc.mp4
+      ### Scrum
+
+      Scrum is an Agile methodology often called a framework to help teams to work together on a project. Please see the following video to learn more.
+    video: cp3_u1_s1_p3_scrum_key_features.mp4
   -
   -
     title: Quick quiz
@@ -100,15 +104,18 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The Sprint is a fixed length event which has a sprint goal. 
+          answer: Sprint
         -
-          sentence: example two
-          answer: two
+          sentence: The Scrum Master manages the Scrum Process and remove impediments.
+          answer: Scrum Master
         -
-          sentence: example three 
-          answer: three
+          sentence: The Product Owner would determine the priority tasks and decide on the sprint goal.
+          answer: Product Owner
         -
-          sentence: example four
-          answer: four
+          sentence: Sprint planning is where achievable items or user stories, are identified from the product backlog to be moved to the next sprint. 
+          answer: Sprint planning
+        -
+          sentence: The Scrum Team organises and manages its own work. They would deliver the agreed product increment inside a sprint.
+          answer: Scrum Team
     theme: i-quiz

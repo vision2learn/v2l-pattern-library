@@ -15,7 +15,7 @@ sections:
   -
   -
     title: Similarities and differences
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       There are many similarities and differences with the four methodologies.  For example, Scrum is a 'framework' of the Agile methodology so there will be many similarities between these two; however, as Agile was created to overcome the limitations and restrictions of the Waterfall methodology, there will be many differences between the Waterfall methodology and the other three.  Please see the below table. 
     subInc: 
@@ -46,19 +46,44 @@ sections:
             | Advanced requirements | no | maybe | no | yes | 
   -
   -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Similarities and differences
-
-      Select the following icon to have a go at an activity to learn more about similarities and differences between the four software methodologies.
-
-      _links to an example DnD activity from level 2 course
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Agile, Scrum and Kanban methodologies are adaptive and flexible.
+          answer: adaptive and flexible
+        -
+          sentence: Waterfall and Kanban are easy to use and learn, and very little training is needed.
+          answer: easy to use and learn
+        -
+          sentence: Scrum and Kanban methodologies are lean, visual and have low costs.
+          answer: have low costs
+        -
+          sentence: The Waterfall methodology is structured, fixed and inflexible.
+          answer: fixed and inflexible
+        -
+          sentence: Agile and Scrum methodologies are collaborative and have an interative process.
+          answer: interative process
+        -
+          sentence: The Waterfall methodology is sequential and has advanced requirements.
+          answer: sequential
+        -
+          sentence: Agile, Scrum and Kanban methodologies have self-organised teams.
+          answer: self-organised
+        -
+          sentence: Agile and Scrum (and possibly Kanban) methodologies have stakeholders and customer involvement.
+          answer: stakeholders and customer
+        -
+          sentence: The Waterfall methodology only has one project at a time.
+          answer: one project
+        -
+          sentence: The Waterfall methodology has managed teams and strong supporting documentation.
+          answer: supporting documentation
+        -
+          sentence: Agile, Scrum, Kanban and Waterfall methodologies all deliver quality products in an efficient way.
+          answer: deliver quality products
+    theme: i-quiz
   -
   -
     title: Key point
@@ -71,8 +96,20 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video on 1.3 and 1.4 - Agile, Scrum, and Kanban
-    video: placeholder_pc.mp4
+      ### Strengths and weaknesses of Agile, Scrum and Kanban
+
+      Please see the following video on the strengths and weaknesses for the Agile, Scrum, and Kanban methodologies.
+    video: cp3_u1_s1_p4_agile_scrum_kanban_strengths_weaknesses.mp4
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Strengths and weaknesses of Waterfall
+      
+      Waterfall is the opposite of Agile. Please see the following video on the strengths and weaknesses for the waterfall methodology.
+
+    video: cp3_u1_s1_p4_waterfall_strengths_weaknesses.mp4
   -
   -
     title: Quick quiz
@@ -80,34 +117,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Kanban is easy to learn and use, visual, adaptable and flexible. However, it often needs another framework to work and is not iterative.
+          answer: Kanban
         -
-          sentence: example two
-          answer: two
+          sentence: Agile is flexible, adaptable, creative and innovative.  However, intial changes and support is needed from within the organisation.
+          answer: Agile
         -
-          sentence: example three 
-          answer: three
+          sentence: Waterfall is easy to use and manage, and is suitable for certain types of projects that require a high degree of predictability.  However, it is difficult to change and the software is not delivered until the end of the project.
+          answer: Waterfall
     theme: i-quiz
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Include in text introduction how Waterfall is the opposite of Agile and historic - Agile is the opposite of Waterfall, its more flexible, good for urgent projects, higher level of complexity, with varying tolerance for change and bugs._
-
-      Please see the following video on 1.3 and 1.4 Waterfall
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _question about the first three and waterfall differences_
-
-        text
   -
   -
     title: Read
@@ -117,7 +135,7 @@ sections:
 
       Take a look at the following document to see more about the strengths and weaknesses of each methodology.
 
-      [Software methodology - Strengths and Weaknesses]().
+      [Software methodology - Strengths and Weaknesses](/pdfs/cp3_u1_s1_p5_read_strengths_weaknesses.pdf)
   -
   -
     title: Four case studies
