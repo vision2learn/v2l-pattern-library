@@ -40,12 +40,7 @@ sections:
           copy: |
             text
           img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
+        
   -
     title: slider
     theme: t-bg-primary
