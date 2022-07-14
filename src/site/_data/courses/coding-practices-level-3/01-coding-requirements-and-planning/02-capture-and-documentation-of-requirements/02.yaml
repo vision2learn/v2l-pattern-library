@@ -10,13 +10,15 @@ sections:
       In your assessment you will be required to explain alternative methods of documenting requirements.
   -
   -
-    title: introduction text
+    title: Requirements documentation
     layout: media
     theme: t-bg-primary
     copy: |
-      _Think we may need an introduction here for the Read item as its quite big_ 
+      There are many other documents that may be created depending on the size and scope of a project which can be used to communicate to all stakeholders. 
+      There will be a wide range of people involved in the creation of these documents and the most important of these is the customer, they are the originator of the project and will have ultimate responsibility for determining the requirements. 
       
-      Topic introduction text here 
+      You will also have a  business analyst who is responsible for looking at the projects requirements and providing the solutions to achieve these. There will be a project manager who is responsible for the delivery of the product in line with customer expectations and then there is the product manager who is responsible for managing the development team and setting out the why, when and what will be built. There may also be a marketing manager and a systems analyst depending on the nature of the product. 
+ 
 
     img: /images/svg/placeholder_icon.svg
   -
