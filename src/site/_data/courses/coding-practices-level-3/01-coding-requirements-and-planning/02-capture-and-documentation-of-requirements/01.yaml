@@ -1,6 +1,6 @@
 title: Capture and documentation of requirements
 intro: |
-  Unit 2 intro text
+  In this session you will learn about the different documentation that may be required to capure requirements and how these are used within a project.
 banner: placeholder.jpg
 sections:
   -
@@ -22,17 +22,42 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      Understanding requirements capture.
       
-      Please see the following video on 2.1.
+      Please see the following video to learn about the importance of requirements capture.
     video: placeholder_pc.mp4
   -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Functional Requirements give an overview of the high level objectives and requirements of the product.
+          answer: Functional
+        -
+          sentence: An SSL certificate would be classed as a non-functional requirement.
+          answer: non-functional
+        -
+          sentence: Brainstorming sessions are a type of elicitation activity.
+          answer: elicitation
+        -
+          sentence: A statement of work will be provided by a Technical writer.
+          answer: Technical writer
+        -
+          sentence: The product owner will add any changes to the backlog.
+          answer: backlog
+        -
+          sentence: New items are prioritised during backlog refinement.
+          answer: refinement
+
+    theme: i-quiz
+  -  
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+        Have you ever been involved in a project? Did you carry out requirements capture activties? If yes, what benefits did this have? If not, did this affect the project?
 
   -
   -
@@ -50,31 +75,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+     Agile Terminology
       
-      Please see the following video on 2.2.
+      Lets take a closer look at some of the most common terms that you hear about and use when working in an Agile environment.
     video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - relate to the video._
-
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     subInc: 
@@ -93,3 +97,23 @@ sections:
           sentence: example four - backlog
           answer: backlog
     theme: i-quiz
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - relate to the video._
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+ 

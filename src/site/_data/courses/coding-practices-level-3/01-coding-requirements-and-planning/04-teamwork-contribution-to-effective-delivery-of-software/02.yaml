@@ -50,26 +50,31 @@ sections:
     theme: t-bg-primary
     copy: |
     
-      Scroll through the slides below to learn more about 4.4
+      What we tend to notice when working relationships with other departments and teams fail is the negative, adversarial and uncomfortable atmosphere. But this negative work interaction has a significant impact on innovation which can cause severe damage to an organisations productivity, efficiency, reputation and even survival. To truly understand the value of team and department collaboration let’s take a look at some of the potential consequences when this collaboration fails;
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Productivity and Efficiency 
           text: |
-            text
+            Failure to communicate and work together with other teams and departments has a huge impact on productivity and efficiency, which in turn directly affects the progress of a project. It’s hard to imagine a team that isn’t communicating, has no shared vision or sense of shared responsibility, working efficiently together to meet deadlines.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Talent Retention
           text: |
-            text
+            There is a huge demand for high quality developers and talent retention is key to a business’s success. If developers find that there is a lack of co-operation and communication, they will quickly move on to another company. The atmosphere created by a lack of communication and collaboration will only drive talent away. The resulting turnover can have a serious impact on project timelines and costs.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Innovation
           text: |
-            text
+            For a company to stay relevant and on the cutting edge in any market the employees must remain innovative, failure to work effectively with other teams and departments significantly inhibits innovation. When a company falls behind in innovation it gets harder and harder to catch up, even possibly leading to the failure of the company.
+          img: placeholder_icon.svg
+        -
+          title: Reduced Collaboration
+          text: |
+            With a lack of communication and effective working relationships, collaboration will simply be impossible. This prevents any kind of synergistic interaction between teams and departments and therefore further impacts productivity and efficiency. Without collaboration,innovation and creativity will also become incredibly difficult and its implementation will become unfeasible.
           img: placeholder_icon.svg
   -
   -
@@ -78,9 +83,9 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to slides._
+        Carry out some research to find a company that had difficulty with recruiting or retaining staff. what do you think could have been done to avoid or address these problems? Make a note of the company and your suggestions in the box to the right.
 
-        Text
+      
 
   -
   -
