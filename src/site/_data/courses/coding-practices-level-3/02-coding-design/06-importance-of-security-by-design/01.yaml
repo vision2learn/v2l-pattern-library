@@ -29,6 +29,16 @@ sections:
     copy: | 
       In your assessment you will be required to 6.1 Describe what is meant by building security by design into software at the development stage.
   -
+  -   
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Security by design
+
+      6.1 and 6.2
+    video: cp3_u2_s6_p1_security_by_design.mp4
+  -
   -
     title: What is security by design? CYBER 3 PAGE
     theme: t-bg-primary
