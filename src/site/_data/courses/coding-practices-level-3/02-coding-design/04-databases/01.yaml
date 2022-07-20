@@ -16,101 +16,40 @@ sections:
       * The purpose of database indexing
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-    title: Reveals OR Slides
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to:
+      * Explain what is meant by structured and unstructured data
+      * describe what is meant by databases
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Databases
       
-      Please see the following video on 4.1 and 4.2.
+      In this video we are going to talk about Databases, and we’re also going to discuss structured and unstructured data and how this relates to databases.
     video: cp3_u2_s4_p1_databases.mp4
+  -
+    title: Wide image
+    theme: 
+    copy: |
+      Please see below an example of a structured data table:
+      
+      _Use same item shown in video_
+
+      ![](/images/banners/placeholder.jpg)
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+        Text
 
-  -
-  -
-    title: Wide image
-    theme: 
-    copy: |
-      Text
-      ![](/images/banners/placeholder.jpg)
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Title - DnD - Structured or unstructured
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
+        _LO or exercise - relate to the image and video._
   -
   -
     title: On the web
@@ -118,12 +57,15 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about structured and unstructured data.
 
       links:
-        website description: http://www.google.co.uk
+        Datamation - structured vs unstructured data: https://www.datamation.com/big-data/structured-vs-unstructured-data/
+        Brandwatch - what is unstructured data: https://www.brandwatch.com/blog/what-is-unstructured-data
+        Hubspot - structured data: https://blog.hubspot.com/marketing/structured-data
+        Types of databases: https://www.tutorialspoint.com/Types-of-databases
+        An overview of databases: http://bi-insider.com/portfolio-item/nosql-databases-an-overview/
+        Relational vs noSQL data: https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data
   -
     title: Quick quiz
     subInc: 

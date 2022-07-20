@@ -7,13 +7,20 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 4.3 - 4.6
+      In your assessment you will be required to:
+      * Describe the structure and key components of a database table
+      * Explore the use of primary and foreign keys
   -
   -
     title: Wide image
     theme: 
     copy: |
       Text
+
+      _example of a database table with highlighted areas for each item for 4.3 and 4.4_
+
+
+
       ![](/images/banners/placeholder.jpg)
   -
   -
@@ -29,72 +36,7 @@ sections:
     activity: 
       ref: uc_u3_s2_p1_activity_v2
   -
-  -
-    title: Watch - Instructional video?
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-  -
-    title: CODE example
-    theme:
-    copy: |
-      _This needs to be a SQL example so not sure we can use this code section type as at the moment it only allows for C++, JS and PY_
-      Text intro
-
-
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-          // comment
-
-          SQL code
-        
-  -
-  -
-    title: Result
-    theme:
-    copy: |
-      
-    subInc:
-      type: code
-      lang: text
-      highlight: 
-      code: |
-        output
-        
-    copy2: |
-      text
-  -
-  -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
-    copy: |
-      ### Practice ?:
-      
-      Text
-
-      _SQL compiler?_
-      
-      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
   
-  -
-  -
-    title: P L A C E H O L D E R
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Title
-
-      _Do we need an additional item here?_
-
-    img: /images/svg/placeholder_icon.svg
   -
   -
     title: On the web
@@ -108,15 +50,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
   -
     title: Quick quiz
     subInc: 
