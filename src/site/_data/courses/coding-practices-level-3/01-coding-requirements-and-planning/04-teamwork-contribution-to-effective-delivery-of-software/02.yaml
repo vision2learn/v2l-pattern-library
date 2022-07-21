@@ -14,9 +14,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 4.3
+     Let’s look at conflict management techniques and how they may be used for effective team collaboration and the impact that these may cause if not used effectively.
     video: placeholder_pc.mp4
   -
   -
@@ -25,17 +23,23 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: There are five conflict styles that can be utilised to resolve conflicts. 
+          answer: five
         -
-          sentence: example two
-          answer: two
+          sentence: accommodating is about putting the needs of others before your own.
+          answer: accommodating
         -
-          sentence: example three 
-          answer: three
+          sentence: Avoiding can be useful but can also cause more problems that it solves.
+          answer: Avoiding
         -
-          sentence: example four
-          answer: four
+          sentence: Compromise can be useful if there are critical time factors, or it is imperative that a solution is required immediately.
+          answer: Compromise
+        -
+          sentence: Competing is a strategy that is only effective if there is a serious issue and can only be used by those in authority.
+          answer: Competing
+        -
+          sentence: Collaboration can be the most useful style to use as it brings those that have differing opinions together to discuss the problem with an open mind encouraging them to focus on resolving the conflict.
+          answer: Collaboration
     theme: i-quiz
   
   -
@@ -85,28 +89,6 @@ sections:
       copy: |
         Carry out some research to find a company that had difficulty with recruiting or retaining staff. what do you think could have been done to avoid or address these problems? Make a note of the company and your suggestions in the box to the right.
 
-      
-
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain how team members can reflect on progress and identify improvements.
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### How team members can reflect on progress and identify improvements
-
-      Select the following icon to have a go at an activity to learn more about 4.5
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -120,44 +102,48 @@ sections:
       links:
         website description: http://www.google.co.uk
   -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain how team members can reflect on progress and identify improvements.
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    title: How can team members reflect on progress and identify improvements?
+    theme: t-bg-primary
+    copy: |
+      it's important for everyone to find ways to reflect. Reflective practice is a conscious effort to think about the work you've done and develop future plans. 
+      Managers should set up a team reflection, post-mortem, or **retrospectives** at set goalposts to move the team forward. By giving the team a chance to provide their input, standardize work, and put changes in place, you enable them to do their best work and meet project objectives. Lets take a look at how this can be achieved. 
+ 
+
+    subInc: 
+      type: accordion
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        - 
+          title: Sprint retrospective
+          copy: |
+            The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness while a project is in progress.
+
+            The Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their definition of done. Inspected elements often vary with the domain of work. Assumptions that led them astray are identified and their origins explored. The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.
+
+            The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.
+
+          img: /images/svg/ln/lm_u3_s2_p1_accordion_1.svg
+
+        - 
+          title: Other methods 
+          copy: |
+           Retrospectives are an important part of Agile methodology but what if you aren't working in an Agile environment? There are various other ways that team members can reflect on progess such as end of project evaluations or 360-degree reviews. Whichever method is used it is important that the reflection is used to make improvements to the overall effectiveness of the team and individual. If you want to learn about other methods of reflection click on the links below. 
+           
+           [Teamwork and reflection](https://www.saybrook.edu/unbound/teamwork-and-the-role-of-reflection/)
+
+           [360-degree review](https://www.thebalancecareers.com/what-is-a-360-review-1917541)
+
+
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        
+
+  -

@@ -81,22 +81,29 @@ sections:
     video: placeholder_pc.mp4
   -
     title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one - epics
-          answer: epics
-        -
-          sentence: example two - features
-          answer: features
-        -
-          sentence: example three - user stories
-          answer: user stories
-        -
-          sentence: example four - backlog
-          answer: backlog
     theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Team members move items from the sprint backlog into the product backlog":
+          answers:
+            True: false
+            False: true
+          feedback: The product backlog contains all the task for the project so items are moved into the sprint backlog by the team to be completed in the current sprint.
+       
+        Select one option to complete the following sentence:"high level requirements for the project would be called.":
+          answers:
+            User stories: false
+            Epics: true
+            Features: false
+          feedback: Epics contains details of the ultimate aim of the project.
+       
+        Select one option to complete the following sentence:"creating a drop down payment selector option would be classed as an  __________":
+          answers:
+            Epic: false
+            user story: false
+            Feature: true
+          feedback: This would be a feature of the payment option so is a sub task of the user story. 
   -
     title: Time to think
     theme: t-bg-primary3 i-think
