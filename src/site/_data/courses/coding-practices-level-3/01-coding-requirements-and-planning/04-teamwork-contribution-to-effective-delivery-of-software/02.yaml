@@ -85,28 +85,6 @@ sections:
       copy: |
         Carry out some research to find a company that had difficulty with recruiting or retaining staff. what do you think could have been done to avoid or address these problems? Make a note of the company and your suggestions in the box to the right.
 
-      
-
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain how team members can reflect on progress and identify improvements.
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### How team members can reflect on progress and identify improvements
-
-      Select the following icon to have a go at an activity to learn more about 4.5
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -119,6 +97,38 @@ sections:
 
       links:
         website description: http://www.google.co.uk
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain how team members can reflect on progress and identify improvements.
+  -
+    title: How can team members reflect on progress and identify improvements?
+    theme: t-bg-primary
+    copy: |
+      Each team member, including the team leader, has a **responsibility** to help the team achieve its purpose. Each individual should ask themselves whether any of their actions are undermining team performance and, if so, how they can change their actions. Whenever problems occur, the people involved should aim to **understand the facts** and focus on achieving the desired team outcomes. 
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: A key question to ask is 
+          copy: |
+            "What changes will enable us to achieve our desired outcomes?"
+
+            Both team members and leaders share the responsibility of helping the team achieve its purpose.
+          img: /images/svg/ln/lm_u3_s2_p1_accordion_1.svg
+
+        - 
+          title: Each individual should ask themselves 
+          copy: |
+            "Are any of my actions or behaviours undermining team performance?" 
+
+            "How can I change them?"
+          img: /images/svg/ln/lm_u3_s2_p1_accordion_2.svg
+
+    copy2:  Throughout this session we will look at how team members and team leaders can deal with the issues outlined above.
+
   -
     title: Quick quiz
     subInc: 
