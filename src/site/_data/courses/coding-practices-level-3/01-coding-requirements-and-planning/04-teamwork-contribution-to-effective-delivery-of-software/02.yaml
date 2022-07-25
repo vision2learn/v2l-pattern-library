@@ -94,13 +94,12 @@ sections:
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
-      copy: |
-        _Optional item depending on content_
+      copy: 
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about different ways to manage conflict.
 
       links:
-        website description: http://www.google.co.uk
+        Conflict resolution: https://blog.hubspot.com/service/conflict-resolution-skills
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -126,7 +125,7 @@ sections:
 
             The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.
 
-          img: /images/svg/ln/lm_u3_s2_p1_accordion_1.svg
+          img: /images/svg/cp3/placeholder_icon.svg
 
         - 
           title: Other methods 

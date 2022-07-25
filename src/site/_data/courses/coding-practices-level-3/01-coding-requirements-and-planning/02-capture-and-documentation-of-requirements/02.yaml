@@ -32,65 +32,36 @@ sections:
 
       [example doc]().
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
-
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  
-  -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The document that contains information on what must be provided is called a Business Requirments Document. 
+          answer: Business Requirments Document
         -
-          sentence: example two
-          answer: two
+          sentence: The document that sets out what users might observe when interacting with the system is called a Functional Requirements Document.
+          answer: Functional Requirements Document
         -
-          sentence: example three 
-          answer: three
+          sentence: The project manager or business analyst will be most likely to write the Quality Requirements Document.
+          answer: Quality Requirements Document
         -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+          sentence: The lead developer would normally compile the Software Requirements Document.
+          answer: Software Requirements Document
+        -
+          sentence: The document that sets out the look and feel of the user interface is called a User Interface Requirements Document.
+          answer: User Interface Requirements Document
+        -
+          sentence: The document that contains software, hardware and platform requirements is called a Technical Requirements Document.
+          answer: Technical Requirements Document
+       
+       
+    theme: i-quiz 
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+       Now that you have learnt about the different ways to document requirements can you think of some advantages and disadvantages of these document? 
+  -

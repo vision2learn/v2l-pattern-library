@@ -110,17 +110,17 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+       Think about a project that you have worked on either at work, school/college or even a personal project. Using your learning from this page think about how the project would have been broken down into epics, features and user stories.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+       
 
         Please see the following website where you can learn more about . . .
 
       links:
-        website description: http://www.google.co.uk
+        stories, epics and initiatives: https://www.atlassian.com/agile/project-management/epics-stories-themes
  

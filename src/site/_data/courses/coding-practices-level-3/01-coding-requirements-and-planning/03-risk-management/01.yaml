@@ -58,15 +58,15 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Think about a project that you worked in either in the workplace, at home at school. what were the risks that could have impacted the project? how did you nmanage the risks to ensure the project was successful?
+        Think about a project that you worked in either in the workplace, at home at school. what were the risks that could have impacted the project? how did you manage the risks to ensure the project was successful?
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about the impact that failure to manage risks effectively has had.
+        Please see the following website where you can learn more about some high profile software projects that failed in part due to poor risk management.
   
       links:
-        website description: https://appstronauts.co/blog/5-companies-that-lost-millions-after-choosing-wrong-it-outsourcing-provider/
+        Software development failures: https://readwrite.com/software-development-failure/
   -        
