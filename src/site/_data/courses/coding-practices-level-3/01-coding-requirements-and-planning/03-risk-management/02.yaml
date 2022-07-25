@@ -14,17 +14,40 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      Risk mitigation
       
-      Please see the following video on 3.3.
+      Please see the following video which discusses how to reduce and mitigate risks.
     video: placeholder_pc.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Time delays are more damaging in an Agile environment":
+          answers:
+            True: false
+            False: true
+          feedback: Time delays are more damaging in linear approach methodologies such as Waterfall or Kanban. 
+       
+        Select one option to complete the following sentence:"Using __________ methodolgy allows you to manange and mitigate risks more effectvely.":
+          answers:
+            Waterfall: false
+            Agile: true
+          feedback: Agile methodology gives greater scope to make changes at any stage of the project as several different items can be worked on at any given time.
+       
+        Is the following statement true or false? "As well as the project manager,Scrum team members are responsible for making decisions.":
+          answers:
+            true: true
+            false: false
+          feedback: In Scrum environments, decision making is pushed down to the team members to give them autonomy and control over the tasks that need to be completed.
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+        Think about a project that you have worked on or are currrently working on. How could you reduce or mitigate risks that may affect the successful completion of the project? 
   -
   -
     title: Key point
@@ -37,9 +60,8 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      ### Title
-
-      _Introduction to 3.4 topic and Read doc here_
+      
+      “Critical path” is one of the most important of all project management concepts, and it’s something that every project manager should understand before taking the reins of a major project. Put simply, the critical path of a project is a specific sequence of tasks that must be completed on time in order for the project to meet its deadline. Each task on the critical path can only begin after the previous task on the critical path is complete.
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
