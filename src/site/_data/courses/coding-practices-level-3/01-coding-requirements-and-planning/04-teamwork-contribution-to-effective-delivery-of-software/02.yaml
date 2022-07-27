@@ -14,9 +14,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 4.3
+     Let’s look at conflict management techniques and how they may be used for effective team collaboration and the impact that these may cause if not used effectively.
     video: placeholder_pc.mp4
   -
   -
@@ -25,17 +23,23 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: There are five conflict styles that can be utilised to resolve conflicts. 
+          answer: five
         -
-          sentence: example two
-          answer: two
+          sentence: accommodating is about putting the needs of others before your own.
+          answer: accommodating
         -
-          sentence: example three 
-          answer: three
+          sentence: Avoiding can be useful but can also cause more problems that it solves.
+          answer: Avoiding
         -
-          sentence: example four
-          answer: four
+          sentence: Compromise can be useful if there are critical time factors, or it is imperative that a solution is required immediately.
+          answer: Compromise
+        -
+          sentence: Competing is a strategy that is only effective if there is a serious issue and can only be used by those in authority.
+          answer: Competing
+        -
+          sentence: Collaboration can be the most useful style to use as it brings those that have differing opinions together to discuss the problem with an open mind encouraging them to focus on resolving the conflict.
+          answer: Collaboration
     theme: i-quiz
   
   -
@@ -50,26 +54,31 @@ sections:
     theme: t-bg-primary
     copy: |
     
-      Scroll through the slides below to learn more about 4.4
+      What we tend to notice when working relationships with other departments and teams fail is the negative, adversarial and uncomfortable atmosphere. But this negative work interaction has a significant impact on innovation which can cause severe damage to an organisations productivity, efficiency, reputation and even survival. To truly understand the value of team and department collaboration let’s take a look at some of the potential consequences when this collaboration fails;
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Productivity and Efficiency 
           text: |
-            text
+            Failure to communicate and work together with other teams and departments has a huge impact on productivity and efficiency, which in turn directly affects the progress of a project. It’s hard to imagine a team that isn’t communicating, has no shared vision or sense of shared responsibility, working efficiently together to meet deadlines.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Talent Retention
           text: |
-            text
+            There is a huge demand for high quality developers and talent retention is key to a business’s success. If developers find that there is a lack of co-operation and communication, they will quickly move on to another company. The atmosphere created by a lack of communication and collaboration will only drive talent away. The resulting turnover can have a serious impact on project timelines and costs.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Innovation
           text: |
-            text
+            For a company to stay relevant and on the cutting edge in any market the employees must remain innovative, failure to work effectively with other teams and departments significantly inhibits innovation. When a company falls behind in innovation it gets harder and harder to catch up, even possibly leading to the failure of the company.
+          img: placeholder_icon.svg
+        -
+          title: Reduced Collaboration
+          text: |
+            With a lack of communication and effective working relationships, collaboration will simply be impossible. This prevents any kind of synergistic interaction between teams and departments and therefore further impacts productivity and efficiency. Without collaboration,innovation and creativity will also become incredibly difficult and its implementation will become unfeasible.
           img: placeholder_icon.svg
   -
   -
@@ -78,81 +87,62 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to slides._
-
-        Text
+        Carry out some research to find a company that had difficulty with recruiting or retaining staff. what do you think could have been done to avoid or address these problems? Make a note of the company and your suggestions in the box to the right.
 
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: 
+
+        Please see the following website where you can learn more about different ways to manage conflict.
+
+      links:
+        Conflict resolution: https://blog.hubspot.com/service/conflict-resolution-skills
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to explain how team members can reflect on progress and identify improvements.
   -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
+    title: How can team members reflect on progress and identify improvements?
+    theme: t-bg-primary
     copy: |
-      ### How team members can reflect on progress and identify improvements
+      it's important for everyone to find ways to reflect. Reflective practice is a conscious effort to think about the work you've done and develop future plans. 
+      Managers should set up a team reflection, post-mortem, or **retrospectives** at set goalposts to move the team forward. By giving the team a chance to provide their input, standardize work, and put changes in place, you enable them to do their best work and meet project objectives. Lets take a look at how this can be achieved. 
+ 
 
-      Select the following icon to have a go at an activity to learn more about 4.5
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
     subInc: 
-      type: word-quiz
+      type: accordion
       content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+        - 
+          title: Sprint retrospective
+          copy: |
+            The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness while a project is in progress.
+
+            The Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their definition of done. Inspected elements often vary with the domain of work. Assumptions that led them astray are identified and their origins explored. The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.
+
+            The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.
+
+          img: /images/svg/cp3/placeholder_icon.svg
+
+        - 
+          title: Other methods 
+          copy: |
+           Retrospectives are an important part of Agile methodology but what if you aren't working in an Agile environment? There are various other ways that team members can reflect on progess such as end of project evaluations or 360-degree reviews. Whichever method is used it is important that the reflection is used to make improvements to the overall effectiveness of the team and individual. If you want to learn about other methods of reflection click on the links below. 
+           
+           [Teamwork and reflection](https://www.saybrook.edu/unbound/teamwork-and-the-role-of-reflection/)
+
+           [360-degree review](https://www.thebalancecareers.com/what-is-a-360-review-1917541)
+
+
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        
+
+  -
