@@ -27,9 +27,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      ### Developing working relationships with other teams
+
       Lets take a look at why it is important to develop good relationships with other teams.
 
-    video: placeholder_pc.mp4
+    video: cp3_u1_s4_p1_working_relationships.mp4
   -
   -
     title: The benefits of developing positive working relationships with other teams and departments
@@ -47,47 +49,47 @@ sections:
           title: Increased efficiency
           copy: |
             Cross team collaboration allows team members to focus on their own specialist skills while still having the opportunity to learn from each other. This can lead to increased efficiency and productivity across all teams.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal1.svg
         -
           title: Improved performance
           copy: |
            When employees focus on what they do best and don’t have to deal with tasks that are beyond their current skills or capabilities, they produce higher quality work.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal2.svg
         -
           title: Increased competency
           copy: |
             While collaboration enables individual team members to focus on their core competencies, it can also help to increase competencies. By collaborating with teams, team members learn more about what they do, and gain a broader understanding of the system they work within.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal3.svg
         -
           title: Trust is built
           copy: |
             Strong teams cultivate a foundation of trust. Trust maintains open lines of communication between all teams and team members which encourages people to share information.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal4.svg
         -
           title: Reduced stress
           copy: |
             When employees try to do too many tasks, it can negatively affect their productivity and health. In a multi team environment, employees can support each other, reducing the likelihood of burnout.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal5.svg
         -
           title: Leads to innovation
           copy: |
             Most innovation comes as the result of the effort of a group or groups of people, rather than an individual. Most lasting innovations start with the creative process, which then moves through development, refinement, execution, and revision phases. Innovation usually involves input from many employees. The different experiences and perspectives of different teams can be utilised.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal6.svg
         -
           title: Brings mutual support
           copy: |
            When teams work well together they are also supportive of one another. Mutual support can encourage people to achieve goals they may not have realised they could reach on their own. Furthermore, teams offer an environment that provides a sense of belonging.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal7.svg
         -
           title: Job satisfaction
           copy: |
             The advantages of working with other teams and departments can lead to improved organisational efficiency and customer satisfaction. It also contributes to employees’ job satisfaction, through learning, reduced stress, more support and better use of skills. When employees are more satisfied, they tend to be motivated, less prone to absenteeism and more productive.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal8.svg
         -
           title: Improved service
           copy: |
             In any successful organisation, there tends to be a strong team spirit that is appreciated by its internal customers, external customers and supporters. Having positive relationships with other teams leads to positive attitudes and a strong sense of commitment to the organisation. This in turn helps helps to maintain and improve the organisations reputation for delivering quality products on time.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p1_reveal9.svg
   -
     title: Time to think
     theme: t-bg-primary3 i-think
