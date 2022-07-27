@@ -128,11 +128,19 @@ sections:
         - 
           title: Other methods 
           copy: |
-            Retrospectives are an important part of Agile methodology but what if you aren't working in an Agile environment? There are various other ways that team members can reflect on progess such as end of project evaluations or 360-degree reviews. Whichever method is used it is important that the reflection is used to make improvements to the overall effectiveness of the team and individual. If you want to learn about other methods of reflection click on the links below.
-           
-            [Teamwork and reflection](https://www.saybrook.edu/unbound/teamwork-and-the-role-of-reflection/)
+            Retrospectives are an important part of Agile methodology but what if you aren't working in an Agile environment? There are various other ways that team members can reflect on progess such as end of project evaluations or 360-degree reviews. Whichever method is used it is important that the reflection is used to make improvements to the overall effectiveness of the team and individual. If you want to learn about other methods of reflection click on the links below.           
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites for other methods of reflection and to use for the below Time to Think activity.
 
-            [360-degree review](https://www.thebalancecareers.com/what-is-a-360-review-1917541)
+      links:
+        Teamwork and reflection: https://www.saybrook.edu/unbound/teamwork-and-the-role-of-reflection/
+        360-degree review: https://www.thebalancecareers.com/what-is-a-360-review-1917541
   -
     title: Time to think
     theme: t-bg-primary3 i-think
