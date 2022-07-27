@@ -96,10 +96,20 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Strengths and weaknesses of Agile, Scrum and Kanban
+      ### Strengths and weaknesses of Agile and Scrum
 
-      Please see the following video on the strengths and weaknesses for the Agile, Scrum, and Kanban methodologies.
-    video: cp3_u1_s1_p4_agile_scrum_kanban_strengths_weaknesses.mp4
+      Please see the following video on the strengths and weaknesses for the Agile and Scrum methodologies.
+    video: cp3_u1_s1_p4_agile_scrum_strengths_weaknesses.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Strengths and weaknesses of Kanban
+
+      Please see the following video on the strengths and weaknesses for the Kanban methodology.
+    video: cp3_u1_s1_p4_kanban_strengths_weaknesses.mp4
   -
     title: Watch 
     theme: t-bg-grey i-watch

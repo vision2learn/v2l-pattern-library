@@ -1,6 +1,6 @@
 title: Capture and documentation of requirements
 intro: |
-  Unit 2 intro text
+  In this session you will learn about the different documentation that may be required to capure requirements and how these are used within a project.
 banner: cp3_u1_s2_p1_capture_and_documentation.jpg
 sections:
   -
@@ -22,10 +22,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Understanding requirements capture.
+      ### Understanding requirements capture
       
       Please see the following video to learn about the importance of requirements capture.
-    video: placeholder_pc.mp4
+    video: cp3_u1_s2_p1_understanding_requirements_capture.mp4
   -
     title: Quick quiz
     subInc: 
@@ -75,10 +75,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-     Agile Terminology
+      ### Agile Terminology
       
       Lets take a closer look at some of the most common terms that you hear about and use when working in an Agile environment.
-    video: placeholder_pc.mp4
+    video: cp3_u1_s2_p1_epics_features_stories_backlogs.mp4
   -
     title: Quick quiz
     theme: i-quiz
@@ -117,10 +117,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-       
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about agile terms.
 
       links:
-        stories, epics and initiatives: https://www.atlassian.com/agile/project-management/epics-stories-themes
+        Stories, epics and initiatives: https://www.atlassian.com/agile/project-management/epics-stories-themes
  
