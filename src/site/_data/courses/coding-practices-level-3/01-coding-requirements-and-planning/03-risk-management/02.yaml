@@ -81,8 +81,18 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Please click on the link below for more a more in depth look at how important it is to identify a projects critical path and the methods that can be used. Make a note of your findings in the “Time to think” box to the right. 
-        
+        Please click on the link below for more a more in depth look at how important it is to identify a projects critical path and the methods that can be used.
+
+        Make a note of your findings in the box to the right.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website to use for the above Time to Think activity.
+
       links:
         The ABCs of the Critical Path Method: https://hbr.org/1963/09/the-abcs-of-the-critical-path-method
   
