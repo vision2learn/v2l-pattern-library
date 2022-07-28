@@ -1,6 +1,6 @@
 **Leah:** Let’s now look at Kanban starting with its strengths
 
-**Chris:** Easy to learn and use -Kanban is very straightforward with its approach and is easy to learn and use. It can be used in small simple projects such as for children to help plan their homework; to complex business projects using the Scrum framework. 
+**Chris:** Easy to learn and use-Kanban is very straightforward with its approach and is easy to learn and use. It can be used in small simple projects such as for children to help plan their homework; to complex business projects using the Scrum framework. 
 
 **Leah:** Visual-It is a visual system, and the flow of work is managed using a Kanban project board. In its simplest form there are three columns which are labelled: ‘To Do’, ‘In Progress’, and ‘Done’.
 
