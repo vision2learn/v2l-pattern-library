@@ -7,15 +7,17 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to explain conflict management techniques that may be used for effective team collaboration 
+      In your assessment you will be required to explain conflict management techniques that may be used for effective team collaboration. 
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+     ### Conflict resolution
+
      Let’s look at conflict management techniques and how they may be used for effective team collaboration and the impact that these may cause if not used effectively.
-    video: placeholder_pc.mp4
+    video: cp3_u1_s4_p2_conflict_resolution.mp4
   -
   -
     title: Quick quiz
@@ -53,8 +55,7 @@ sections:
     title: Ineffective working relationships with other teams and departments
     theme: t-bg-primary
     copy: |
-    
-      What we tend to notice when working relationships with other departments and teams fail is the negative, adversarial and uncomfortable atmosphere. But this negative work interaction has a significant impact on innovation which can cause severe damage to an organisations productivity, efficiency, reputation and even survival. To truly understand the value of team and department collaboration let’s take a look at some of the potential consequences when this collaboration fails;
+      What we tend to notice when working relationships with other departments and teams fail is the negative, adversarial and uncomfortable atmosphere. But this negative work interaction has a significant impact on innovation which can cause severe damage to an organisations productivity, efficiency, reputation and even survival. To truly understand the value of team and department collaboration let’s take a look at some of the potential consequences when this collaboration fails.
 
     subInc: 
       type: slider
@@ -64,22 +65,22 @@ sections:
           title: Productivity and Efficiency 
           text: |
             Failure to communicate and work together with other teams and departments has a huge impact on productivity and efficiency, which in turn directly affects the progress of a project. It’s hard to imagine a team that isn’t communicating, has no shared vision or sense of shared responsibility, working efficiently together to meet deadlines.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p2_slide1.svg
         -
           title: Talent Retention
           text: |
             There is a huge demand for high quality developers and talent retention is key to a business’s success. If developers find that there is a lack of co-operation and communication, they will quickly move on to another company. The atmosphere created by a lack of communication and collaboration will only drive talent away. The resulting turnover can have a serious impact on project timelines and costs.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p2_slide2.svg
         -
           title: Innovation
           text: |
             For a company to stay relevant and on the cutting edge in any market the employees must remain innovative, failure to work effectively with other teams and departments significantly inhibits innovation. When a company falls behind in innovation it gets harder and harder to catch up, even possibly leading to the failure of the company.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p2_slide3.svg
         -
           title: Reduced Collaboration
           text: |
             With a lack of communication and effective working relationships, collaboration will simply be impossible. This prevents any kind of synergistic interaction between teams and departments and therefore further impacts productivity and efficiency. Without collaboration,innovation and creativity will also become incredibly difficult and its implementation will become unfeasible.
-          img: placeholder_icon.svg
+          img: cp3_u1_s4_p2_slide4.svg
   -
   -
     title: Time to think
@@ -110,9 +111,7 @@ sections:
     theme: t-bg-primary
     copy: |
       it's important for everyone to find ways to reflect. Reflective practice is a conscious effort to think about the work you've done and develop future plans. 
-      Managers should set up a team reflection, post-mortem, or **retrospectives** at set goalposts to move the team forward. By giving the team a chance to provide their input, standardize work, and put changes in place, you enable them to do their best work and meet project objectives. Lets take a look at how this can be achieved. 
- 
-
+      Managers should set up a team reflection, post-mortem, or **retrospectives** at set goalposts to move the team forward. By giving the team a chance to provide their input, standardize work, and put changes in place, you enable them to do their best work and meet project objectives. Lets take a look at how this can be achieved.
     subInc: 
       type: accordion
       content:
@@ -125,24 +124,27 @@ sections:
 
             The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to the Sprint Backlog for the next Sprint.
 
-          img: /images/svg/cp3/placeholder_icon.svg
-
+          img: /images/svg/cp3/cp3_u1_s4_p2_accordion.svg
         - 
           title: Other methods 
           copy: |
-           Retrospectives are an important part of Agile methodology but what if you aren't working in an Agile environment? There are various other ways that team members can reflect on progess such as end of project evaluations or 360-degree reviews. Whichever method is used it is important that the reflection is used to make improvements to the overall effectiveness of the team and individual. If you want to learn about other methods of reflection click on the links below. 
-           
-           [Teamwork and reflection](https://www.saybrook.edu/unbound/teamwork-and-the-role-of-reflection/)
+            Retrospectives are an important part of Agile methodology but what if you aren't working in an Agile environment? There are various other ways that team members can reflect on progess such as end of project evaluations or 360-degree reviews. Whichever method is used it is important that the reflection is used to make improvements to the overall effectiveness of the team and individual. If you want to learn about other methods of reflection click on the links below.           
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites for other methods of reflection and to use for the below Time to Think activity.
 
-           [360-degree review](https://www.thebalancecareers.com/what-is-a-360-review-1917541)
-
-
+      links:
+        Teamwork and reflection: https://www.saybrook.edu/unbound/teamwork-and-the-role-of-reflection/
+        360-degree review: https://www.thebalancecareers.com/what-is-a-360-review-1917541
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        
-
-  -
+        Now you have taken a look at the sprint retrospective and other methods of reflection, make some notes to help you explain how team members can reflect on progress and identify improvements for your assessment.

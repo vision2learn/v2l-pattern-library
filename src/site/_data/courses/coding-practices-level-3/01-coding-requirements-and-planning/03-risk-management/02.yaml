@@ -1,6 +1,6 @@
 title: Risk mitigation and critial path
 intro: |
-  intro text
+  On this page you will learn about risk mitigation and be able to explain what a project critial path is.
 banner: cp3_u1_s3_p2_risk_mitigation.jpg
 sections:
   -
@@ -14,10 +14,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Risk mitigation
+      ### Risk mitigation
       
       Please see the following video which discusses how to reduce and mitigate risks.
-    video: placeholder_pc.mp4
+    video: cp3_u1_s3_p2_risk_mitigation.mp4
   -
     title: Quick quiz
     theme: i-quiz
@@ -63,27 +63,17 @@ sections:
       
       “Critical path” is one of the most important of all project management concepts, and it’s something that every project manager should understand before taking the reins of a major project. Put simply, the critical path of a project is a specific sequence of tasks that must be completed on time in order for the project to meet its deadline. Each task on the critical path can only begin after the previous task on the critical path is complete.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Example for 3.4_
-
-      Take a look at the following document about - 
-
-      [example doc]().
+    img: /images/svg/cp3/cp3_u1_s3_p2_image1.svg
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _INSTRUCTION VIDEO _
+      ### Project critical path - Instructions
       
-      Please see the following video on 3.4.
-    video: placeholder_pc.mp4
+      Please see the following video on how to create a project critical path.
+    video: cp3_u1_s3_p2_critical_path_instructions.mp4
   -
   -
     title: Time to think
@@ -91,5 +81,18 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Text
+        Please click on the link below for more a more in depth look at how important it is to identify a projects critical path and the methods that can be used.
+
+        Make a note of your findings in the box to the right.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website to use for the above Time to Think activity.
+
+      links:
+        The ABCs of the Critical Path Method: https://hbr.org/1963/09/the-abcs-of-the-critical-path-method
   
