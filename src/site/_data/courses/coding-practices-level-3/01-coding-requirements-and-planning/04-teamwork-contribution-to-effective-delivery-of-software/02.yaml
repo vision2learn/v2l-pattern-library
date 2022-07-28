@@ -40,10 +40,9 @@ sections:
           sentence: Competing is a strategy that is only effective if there is a serious issue and can only be used by those in authority.
           answer: Competing
         -
-          sentence: Collaboration can be the most useful style to use as it brings those that have differing opinions together to discuss the problem with an open mind encouraging them to focus on resolving the conflict.
+          sentence: Collaboration can be the most useful style to use, as it brings those that have differing opinions together to discuss the problem with an open mind, encouraging them to focus on resolving the conflict.
           answer: Collaboration
-    theme: i-quiz
-  
+    theme: i-quiz 
   -
   -
     title: Key point
@@ -55,31 +54,33 @@ sections:
     title: Ineffective working relationships with other teams and departments
     theme: t-bg-primary
     copy: |
-      What we tend to notice when working relationships with other departments and teams fail is the negative, adversarial and uncomfortable atmosphere. But this negative work interaction has a significant impact on innovation which can cause severe damage to an organisations productivity, efficiency, reputation and even survival. To truly understand the value of team and department collaboration let’s take a look at some of the potential consequences when this collaboration fails.
+      What we tend to notice when working relationships with other departments and teams fail is the negative, adversarial and uncomfortable atmosphere. This negative work interaction also has a significant impact on innovation, which can cause severe damage to an organisation's productivity, efficiency, reputation and even survival. To truly understand the value of team and department collaboration let’s take a look at some of the potential consequences when this collaboration fails.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Productivity and Efficiency 
+          title: Productivity and efficiency 
           text: |
             Failure to communicate and work together with other teams and departments has a huge impact on productivity and efficiency, which in turn directly affects the progress of a project. It’s hard to imagine a team that isn’t communicating, has no shared vision or sense of shared responsibility, working efficiently together to meet deadlines.
           img: cp3_u1_s4_p2_slide1.svg
         -
-          title: Talent Retention
+          title: Talent retention
           text: |
-            There is a huge demand for high quality developers and talent retention is key to a business’s success. If developers find that there is a lack of co-operation and communication, they will quickly move on to another company. The atmosphere created by a lack of communication and collaboration will only drive talent away. The resulting turnover can have a serious impact on project timelines and costs.
+            There is a huge demand for high quality developers and talent retention is key to a business’s success. If developers find that there is a lack of co-operation and communication, they will quickly move on to another company. The atmosphere created by a lack of communication and collaboration will only drive talent away. The resulting staff turnover can have a serious impact on project timelines and costs.
           img: cp3_u1_s4_p2_slide2.svg
         -
           title: Innovation
           text: |
-            For a company to stay relevant and on the cutting edge in any market the employees must remain innovative, failure to work effectively with other teams and departments significantly inhibits innovation. When a company falls behind in innovation it gets harder and harder to catch up, even possibly leading to the failure of the company.
+            For a company to stay relevant and on the cutting edge in any market, the employees must remain innovative. Failure to work effectively with other teams and departments significantly inhibits innovation. When a company falls behind in innovation it gets harder and harder to catch up, possibly even leading to the failure of the company.
           img: cp3_u1_s4_p2_slide3.svg
         -
-          title: Reduced Collaboration
+          title: Reduced collaboration
           text: |
-            With a lack of communication and effective working relationships, collaboration will simply be impossible. This prevents any kind of synergistic interaction between teams and departments and therefore further impacts productivity and efficiency. Without collaboration,innovation and creativity will also become incredibly difficult and its implementation will become unfeasible.
+            Collaboration could become impossible if there is a lack of communication and effective working relationships. This in turn will prevent any kind of synergistic interaction between teams and departments.  It will also have a further impact on productivity and efficiency. 
+            
+            Without collaboration, innovation and creativity will become incredibly difficult, and it's implementation will become unfeasible.
           img: cp3_u1_s4_p2_slide4.svg
   -
   -
@@ -88,8 +89,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Carry out some research to find a company that had difficulty with recruiting or retaining staff. what do you think could have been done to avoid or address these problems? Make a note of the company and your suggestions in the box to the right.
-
+        Carry out some research to find a company that had difficulty with recruiting or retaining staff. What do you think could have been done to avoid or address these problems? Make a note of the company and your suggestions in the box to the right.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -110,8 +110,11 @@ sections:
     title: How can team members reflect on progress and identify improvements?
     theme: t-bg-primary
     copy: |
-      it's important for everyone to find ways to reflect. Reflective practice is a conscious effort to think about the work you've done and develop future plans. 
-      Managers should set up a team reflection, post-mortem, or **retrospectives** at set goalposts to move the team forward. By giving the team a chance to provide their input, standardize work, and put changes in place, you enable them to do their best work and meet project objectives. Lets take a look at how this can be achieved.
+      it's important for everyone to find ways to reflect. Reflective practice is a conscious effort to think about the work you've done and develop future plans.
+
+      Managers should set up a team reflection, post-mortem, or **retrospectives** at set goalposts to move the team forward. 
+      
+      By giving the team a chance to provide their input, standardise work, and put changes in place, you enable them to do their best work and meet project objectives. Lets take a look at how this can be achieved.
     subInc: 
       type: accordion
       content:
@@ -147,4 +150,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Now you have taken a look at the sprint retrospective and other methods of reflection, make some notes to help you explain how team members can reflect on progress and identify improvements for your assessment.
+        Now you have taken a look at the sprint retrospective and other methods of reflection, make some notes in the box to the right to help you explain how team members can reflect on progress and identify improvements for your assessment.

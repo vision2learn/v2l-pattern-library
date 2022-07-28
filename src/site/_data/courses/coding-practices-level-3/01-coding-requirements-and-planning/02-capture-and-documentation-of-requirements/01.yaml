@@ -77,7 +77,7 @@ sections:
     copy: |
       ### Agile Terminology
       
-      Lets take a closer look at some of the most common terms that you hear about and use when working in an Agile environment.
+      Let's take a closer look at some of the most common terms that you hear about and use when working in an Agile environment.
     video: cp3_u1_s2_p1_epics_features_stories_backlogs.mp4
   -
     title: Quick quiz
@@ -117,7 +117,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about agile terms.
+        Please see the following website where you can learn more about Agile terms.
 
       links:
         Stories, epics and initiatives: https://www.atlassian.com/agile/project-management/epics-stories-themes
