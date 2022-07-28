@@ -1,6 +1,6 @@
 title: Risk Management
 intro: |
-  In this session you will learn all about risk management.  This includes how potential risks could affect project delivery and how to reduce them, and project critial path.
+  In this session you will learn all about risk management.  This includes how potential risks could affect project delivery and how to reduce them, and you will also learn about the project's critial path.
 banner: cp3_u1_s3_p1_risk_management.jpg
 sections:
   -
@@ -27,7 +27,7 @@ sections:
     copy: |
       ### Risk management
       
-      Lets take a look at what is meant by risk management and how it can affect project delivery.
+      Let's take a look at what is meant by risk management and how it can affect project delivery.
     video: cp3_u1_s3_p1_understand_risk_management.mp4
   -
     title: Quick quiz
@@ -47,7 +47,7 @@ sections:
             pure risk: true
           feedback: Failure or problems with software that will be used in high risk environments such as health care or emergency services can have serious consequences so will always have a high degree of pure risk.
        
-        Select one option to complete the following sentence:"The most common type of risk that will be encountered are  __________risks":
+        Select one option to complete the following sentence:"The most common type of risks that will be encountered are  __________risks":
           answers:
             business: true
             pure: false
@@ -58,14 +58,14 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Think about a project that you worked in either in the workplace, at home at school. what were the risks that could have impacted the project? how did you manage the risks to ensure the project was successful?
+        Think about a project that you worked on in either in the workplace, at home or at school. What were the risks that could have impacted the project? How did you manage the risks to ensure that the project was successful?
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about some high profile software projects that failed in part due to poor risk management.
+        Please see the following website, where you can learn more about some high profile software projects that failed, in part due to poor risk management.
   
       links:
         Software development failures: https://readwrite.com/software-development-failure/

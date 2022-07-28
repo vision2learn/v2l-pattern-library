@@ -1,6 +1,6 @@
 title: Risk mitigation and critial path
 intro: |
-  On this page you will learn about risk mitigation and be able to explain what a project critial path is.
+  On this page you will learn about risk mitigation and be able to explain what a project's critial path is.
 banner: cp3_u1_s3_p2_risk_mitigation.jpg
 sections:
   -
@@ -30,13 +30,13 @@ sections:
             False: true
           feedback: Time delays are more damaging in linear approach methodologies such as Waterfall or Kanban. 
        
-        Select one option to complete the following sentence:"Using __________ methodolgy allows you to manange and mitigate risks more effectvely.":
+        Select one option to complete the following sentence:"Using __________ methodolgy allows you to manage and mitigate risks more effectively.":
           answers:
             Waterfall: false
             Agile: true
           feedback: Agile methodology gives greater scope to make changes at any stage of the project as several different items can be worked on at any given time.
        
-        Is the following statement true or false? "As well as the project manager,Scrum team members are responsible for making decisions.":
+        Is the following statement true or false? "As well as the project manager, Scrum team members are responsible for making decisions.":
           answers:
             true: true
             false: false
@@ -81,7 +81,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Please click on the link below for more a more in depth look at how important it is to identify a projects critical path and the methods that can be used.
+        Please click on the link below for more a more in depth look at how important it is to identify a project's critical path and the methods that can be used.
 
         Make a note of your findings in the box to the right.
   -
