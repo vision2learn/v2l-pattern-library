@@ -10,15 +10,11 @@ There are five conflict styles that can be utilised to resolve conflicts
 
 This style is about putting the needs of others before your own. This can be useful if there is one party that has different feelings about an issue to others. For those who don’t feel strongly about something, keeping the peace is more important.
 
-Adopting an accommodating style can be useful to resolve small issues quickly and can create a sense of openness within the team as people feel that voicing their opinion will not automatically create conflict. 
-
-The downside of this method is that you can be seen as weak and prepared to give in quite easily. This is a technique that would not be appropriate for dealing with more serious issues that are affecting the team.
+Adopting an accommodating style can be useful to resolve small issues quickly and can create a sense of openness within the team as people feel that voicing their opinion will not automatically create conflict. The downside of this method is that you can be seen as weak and prepared to give in quite easily. This is a technique that would not be appropriate for dealing with more serious issues that are affecting the team.
 
 **Leah:** Avoiding
 
-This approach can be useful but can also cause more problems that it solves. It involves removing one or more of the conflicted parties from the project. This can be useful as it gives the removed party or parties time and space to reflect on the issues and it may resolve itself. 
-
-Alternatively, if used in the wrong situation this may cause more conflict as it can cause resentment with team members, and it may also have a detrimental impact on the projects progress. 
+This approach can be useful but can also cause more problems that it solves. It involves removing one or more of the conflicted parties from the project. This can be useful as it gives the removed party or parties time and space to reflect on the issues and it may resolve itself. Alternatively, if used in the wrong situation this may cause more conflict as it can cause resentment with team members, and it may also have a detrimental impact on the projects progress. 
 
 **Chris:** Compromise
 
@@ -32,9 +28,7 @@ This is a strategy that is only effective if there is a serious issue and can on
 
 **Chris:** Collaboration
 
-This method can be the most useful style to use as it brings those that have differing opinions together to discuss the problem with an open mind encouraging them to focus on resolving the conflict by finding solutions that are agreeable to all involved. Personal emotions are left out of this as the only purpose is to find out what is the best solution for the team which leads to a ‘win-win’ outcome. 
-
-A downside to this is that it can be very time consuming, and deadlines may be at risk while time is taken to find a solution. 
+This method can be the most useful style to use as it brings those that have differing opinions together to discuss the problem with an open mind encouraging them to focus on resolving the conflict by finding solutions that are agreeable to all involved. Personal emotions are left out of this as the only purpose is to find out what is the best solution for the team which leads to a ‘win-win’ outcome. A downside to this is that it can be very time consuming, and deadlines may be at risk while time is taken to find a solution. 
 
 **Leah:** In any conflict situation and no matter what style is used there are several steps to take that will make a significant contribution to reaching a resolution.
 
