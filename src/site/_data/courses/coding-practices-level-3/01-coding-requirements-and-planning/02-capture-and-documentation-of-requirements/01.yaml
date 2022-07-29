@@ -110,7 +110,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-       Think about a project that you have worked on either at work, school/college or even a personal project. Using your learning from this page think about how the project would have been broken down into epics, features and user stories.
+       Think about a project that you have worked on either at work, school/college or even a personal project. Using your learning from this page think about how the project could have been broken down into epics, features and user stories.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
