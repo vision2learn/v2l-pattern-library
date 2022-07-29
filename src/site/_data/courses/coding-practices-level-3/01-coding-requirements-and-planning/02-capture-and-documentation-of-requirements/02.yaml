@@ -35,14 +35,14 @@ sections:
       type: word-quiz
       content:
         -
+          sentence: The project manager or business analyst will be most likely to write the Quality Requirements Document.
+          answer: Quality Requirements Document
+        -
           sentence: The document that contains information on what must be provided is called a Business Requirments Document. 
           answer: Business Requirments Document
         -
           sentence: The document that sets out what users might observe when interacting with the system is called a Functional Requirements Document.
           answer: Functional Requirements Document
-        -
-          sentence: The project manager or business analyst will be most likely to write the Quality Requirements Document.
-          answer: Quality Requirements Document
         -
           sentence: The lead developer would normally compile the Software Requirements Document.
           answer: Software Requirements Document
@@ -51,9 +51,7 @@ sections:
           answer: User Interface Requirements Document
         -
           sentence: The document that contains software, hardware and platform requirements is called a Technical Requirements Document.
-          answer: Technical Requirements Document
-       
-       
+          answer: Technical Requirements Document      
     theme: i-quiz 
   -
     title: Time to think
