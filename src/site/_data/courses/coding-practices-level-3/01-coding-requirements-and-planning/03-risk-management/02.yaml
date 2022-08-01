@@ -1,0 +1,98 @@
+title: Risk mitigation and critial path
+intro: |
+  On this page you will learn about risk mitigation and be able to explain what a project's critial path is.
+banner: cp3_u1_s3_p2_risk_mitigation.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe how to reduce risk and follow risk mitigation.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Risk mitigation
+      
+      Please see the following video which discusses how to reduce and mitigate risks.
+    video: cp3_u1_s3_p2_risk_mitigation.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Time delays are more damaging in an Agile environment":
+          answers:
+            True: false
+            False: true
+          feedback: Time delays are more damaging in linear approach methodologies such as Waterfall or Kanban. 
+       
+        Select one option to complete the following sentence:"Using __________ methodolgy allows you to manage and mitigate risks more effectively.":
+          answers:
+            Waterfall: false
+            Agile: true
+          feedback: Agile methodology gives greater scope to make changes at any stage of the project as several different items can be worked on at any given time.
+       
+        Is the following statement true or false? "As well as the project manager, Scrum team members are responsible for making decisions.":
+          answers:
+            true: true
+            false: false
+          feedback: In Scrum environments, decision making is pushed down to the team members to give them autonomy and control over the tasks that need to be completed.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think about a project that you have worked on or are currrently working on. How could you reduce or mitigate risks that may affect the successful completion of the project? 
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain what is meant by a project’s critical path.
+  -
+  -
+    title: What is meant by a project's critical path?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      
+      “Critical path” is one of the most important of all project management concepts, and it’s something that every project manager should understand before taking the reins of a major project. Put simply, the critical path of a project is a specific sequence of tasks that must be completed on time in order for the project to meet its deadline. Each task on the critical path can only begin after the previous task on the critical path is complete.
+
+    img: /images/svg/cp3/cp3_u1_s3_p2_image1.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Project critical path - Instructions
+      
+      Please see the following video on how to create a project critical path.
+    video: cp3_u1_s3_p2_critical_path_instructions.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Please click on the link below for more a more in depth look at how important it is to identify a project's critical path and the methods that can be used.
+
+        Make a note of your findings in the box to the right.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website to use for the above Time to Think activity.
+
+      links:
+        The ABCs of the Critical Path Method: https://hbr.org/1963/09/the-abcs-of-the-critical-path-method
+  

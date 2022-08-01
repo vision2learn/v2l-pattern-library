@@ -1,0 +1,72 @@
+title: Risk Management
+intro: |
+  In this session you will learn all about risk management.  This includes how potential risks could affect project delivery and how to reduce them, and you will also learn about the project's critial path.
+banner: cp3_u1_s3_p1_risk_management.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * What is meant by risk management
+      * Potential risks that could affect project delivery
+      * How to reduce risk and follow risk mitigation
+      * What is meant by a project’s critical path
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Explain what is meant by risk management
+      * Describe potential risks that could affect project delivery
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Risk management
+      
+      Let's take a look at what is meant by risk management and how it can affect project delivery.
+    video: cp3_u1_s3_p1_understand_risk_management.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Risks always have a negative outcome":
+          answers:
+            True: false
+            False: true
+          feedback: If risks are managed effectively they can also have a positive outcome. 
+       
+        Select one option to complete the following sentence:"developing software that will be used in operating theatres is a __________ risk.":
+          answers:
+            business risk: false
+            pure risk: true
+          feedback: Failure or problems with software that will be used in high risk environments such as health care or emergency services can have serious consequences so will always have a high degree of pure risk.
+       
+        Select one option to complete the following sentence:"The most common type of risks that will be encountered are  __________risks":
+          answers:
+            business: true
+            pure: false
+          feedback: business risks are more common as they involve risks relating to financial aspects of the project.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think about a project that you worked on in either in the workplace, at home or at school. What were the risks that could have impacted the project? How did you manage the risks to ensure that the project was successful?
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website, where you can learn more about some high profile software projects that failed, in part due to poor risk management.
+  
+      links:
+        Software development failures: https://readwrite.com/software-development-failure/
+      

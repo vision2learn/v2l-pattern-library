@@ -1,0 +1,111 @@
+title: How teamwork contributes to effective delivery of software
+intro: |
+  In this session you will learn about how teamwork can contribute to the effective delivery of software.  This will include developing positive working relationships, conflict management, and reflection which will lead to improvements.
+banner: cp3_u1_s4_p1_teamwork.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The need to develop working relationships with other teams
+      * Benefits of developing positive working relationships with other teams and departments
+      * Conflict management techniques that may be used for effective team collaboration
+      * The potential impact of ineffective working relationships with other teams and departments
+      * How team members can reflect on progress and identify improvements
+  - 
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Explain the need to develop working relationships with other teams
+      * Identify the benefits of developing positive working relationships with other teams and departments
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Developing working relationships with other teams
+
+      Let's take a look at why it is important to develop good relationships with other teams.
+
+    video: cp3_u1_s4_p1_working_relationships.mp4
+  -
+  -
+    title: The benefits of developing positive working relationships with other teams and departments
+    theme: t-bg-primary
+    copy: |
+      Being able to have positive working relationships with other teams and departments enables access to a wide range of skills and working methods which can provide a higher level of creativity and innovation. 
+      
+      Select the images below to read about some other important benefits. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Increased efficiency
+          copy: |
+            Cross team collaboration allows team members to focus on their own specialist skills while still having the opportunity to learn from each other. This can lead to increased efficiency and productivity across all teams.
+          img: cp3_u1_s4_p1_reveal1.svg
+        -
+          title: Improved performance
+          copy: |
+           When employees focus on what they do best and don’t have to deal with tasks that are beyond their current skills or capabilities, they produce higher quality work.
+          img: cp3_u1_s4_p1_reveal2.svg
+        -
+          title: Increased competency
+          copy: |
+            While collaboration enables individual team members to focus on their core competencies, it can also help to increase competencies. By collaborating with teams, team members learn more about what they do, and gain a broader understanding of the system they work within.
+          img: cp3_u1_s4_p1_reveal3.svg
+        -
+          title: Trust is built
+          copy: |
+            Strong teams cultivate a foundation of trust. Trust maintains open lines of communication between all teams and team members which encourages people to share information.
+          img: cp3_u1_s4_p1_reveal4.svg
+        -
+          title: Reduced stress
+          copy: |
+            When employees try to do too many tasks, it can negatively affect their productivity and health. In a multi team environment, employees can support each other, reducing the likelihood of burnout.
+          img: cp3_u1_s4_p1_reveal5.svg
+        -
+          title: Leads to innovation
+          copy: |
+            Most innovation comes as the result of the effort of a group or groups of people, rather than an individual. Most lasting innovations start with the creative process, which then moves through development, refinement, execution, and revision phases. Innovation usually involves input from many employees. The different experiences and perspectives of different teams can be utilised.
+          img: cp3_u1_s4_p1_reveal6.svg
+        -
+          title: Brings mutual support
+          copy: |
+           When teams work well together they are also supportive of one another. Mutual support can encourage people to achieve goals they may not have realised they could reach on their own. Furthermore, teams offer an environment that provides a sense of belonging.
+          img: cp3_u1_s4_p1_reveal7.svg
+        -
+          title: Job satisfaction
+          copy: |
+            The advantages of working with other teams and departments can lead to improved organisational efficiency and customer satisfaction. It also contributes to employees’ job satisfaction, through learning, reduced stress, more support and better use of skills. When employees are more satisfied, they tend to be motivated, less prone to absenteeism and more productive.
+          img: cp3_u1_s4_p1_reveal8.svg
+        -
+          title: Improved service
+          copy: |
+            In any successful organisation, there tends to be a strong team spirit that is appreciated by its internal customers, external customers and supporters. Having positive relationships with other teams leads to positive attitudes and a strong sense of commitment to the organisation. This in turn helps helps to maintain and improve the organisation's reputation for delivering quality products on time.
+          img: cp3_u1_s4_p1_reveal9.svg
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of a time when you worked as part of a team? What benefits did having an effective team bring? How did having good teamwork enable the team to complete projects? 
+        
+        Make some notes in the box to the right.  
+  
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+
+        Please see the following website where you can learn more about teamwork in software development.
+
+      links:
+        Benefits of Teamwork and Collaboration: https://medium.com/@WeAreMobile1st/the-benefits-of-teamwork-and-collaboration-in-software-development-a843cb7e8f73

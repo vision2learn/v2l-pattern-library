@@ -1,0 +1,219 @@
+title: Similarities and differences
+intro: |
+  On this page we are going to look at the similarities and differences, strengths and weaknesses, and finish with an example for each of the four methodologies.
+banner: cp3_u1_s1_p5_similarities.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the similarities and differences between:
+      * Agile
+      * Scrum 
+      * Kanban 
+      * Waterfall 
+  -
+  -
+    title: Similarities and differences
+    theme: t-bg-primary
+    copy: |
+      There are many similarities and differences with the four methodologies.  For example, Scrum is a 'framework' of the Agile methodology so there will be many similarities between these two; however, as Agile was created to overcome the limitations and restrictions of the Waterfall methodology, there will be many differences between the Waterfall methodology and the other three.  Please see the below table. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Similarities and differences table
+          copy: |
+            |  | Agile | Scrum | Kanban | Waterfall |
+            |------|------|------|------|------|
+            | Flexible and Adaptive| yes | yes | yes | no | 
+            | Structured and fixed plan | no | no | no | yes | 
+            | Sequential and dependencies | no | no | no | yes |  
+            | Easy to use and learn | no | no | yes | yes | 
+            | Low costs | no | yes | yes | no | 
+            | Visual | no | maybe | yes | no | 
+            | Collaborative | yes | yes | no | no | 
+            | Self-organised team | yes | yes | yes | no | 
+            | Managed teams | no | no | no | yes | 
+            | Lean | no | yes | yes | no | 
+            | Iterative process | yes | yes | no | no | 
+            | Deliver quality products efficiently| yes | yes | yes | no | 
+            | Strong supporting documentation | no | no | no | yes | 
+            | Frequent stakeholder / customer involvement | yes | yes | maybe | no | 
+            | One project at a time | no | no | no | yes | 
+            | Less training needed | no | no | yes | yes | 
+            | Wider business support needed | yes | yes | no | no | 
+            | Advanced requirements | no | maybe | no | yes | 
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Agile, Scrum and Kanban methodologies are adaptive and flexible.
+          answer: adaptive and flexible
+        -
+          sentence: Waterfall and Kanban are easy to use and learn, and very little training is needed.
+          answer: easy to use and learn
+        -
+          sentence: Scrum and Kanban methodologies are lean, visual and have low costs.
+          answer: have low costs
+        -
+          sentence: The Waterfall methodology is structured, fixed and inflexible.
+          answer: fixed and inflexible
+        -
+          sentence: Agile and Scrum methodologies are collaborative and have an interative process.
+          answer: interative process
+        -
+          sentence: The Waterfall methodology is sequential and has advanced requirements.
+          answer: sequential
+        -
+          sentence: Agile, Scrum and Kanban methodologies have self-organised teams.
+          answer: self-organised
+        -
+          sentence: Agile and Scrum (and possibly Kanban) methodologies have stakeholders and customer involvement.
+          answer: stakeholders and customer
+        -
+          sentence: The Waterfall methodology only has one project at a time.
+          answer: one project
+        -
+          sentence: The Waterfall methodology has managed teams and strong supporting documentation.
+          answer: supporting documentation
+        -
+          sentence: Agile, Scrum, Kanban and Waterfall methodologies all deliver quality products in an efficient way.
+          answer: deliver quality products
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to consider the strengths and weaknesses of each methodology, and give an example of when each methodology is most suitable.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Strengths and weaknesses of Agile and Scrum
+
+      Please see the following video on the strengths and weaknesses for the Agile and Scrum methodologies.
+    video: cp3_u1_s1_p4_agile_and_scrum_strengths_weaknesses.mp4
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Strengths and weaknesses of Kanban
+
+      Please see the following video on the strengths and weaknesses for the Kanban methodology.
+    video: cp3_u1_s1_p4_kanban_strengths_weaknesses.mp4
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Strengths and weaknesses of Waterfall
+      
+      Waterfall is the opposite of Agile. Please see the following video on the strengths and weaknesses for the waterfall methodology.
+
+    video: cp3_u1_s1_p4_waterfall_strengths_weaknesses.mp4
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Kanban is easy to learn and use, visual, adaptable and flexible. However, it often needs another framework to work and is not iterative.
+          answer: Kanban
+        -
+          sentence: Agile is flexible, adaptable, creative and innovative.  However, intial changes and support is needed from within the organisation.
+          answer: Agile
+        -
+          sentence: Waterfall is easy to use and manage, and is suitable for certain types of projects that require a high degree of predictability.  However, it is difficult to change and the software is not delivered until the end of the project.
+          answer: Waterfall
+    theme: i-quiz
+  -
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      ### Strengths and weaknesses of each methodology
+
+      Take a look at the following document to see more about the strengths and weaknesses of each methodology.
+
+      [Software methodology - Strengths and Weaknesses](/pdfs/cp3_u1_s1_p5_read_strengths_weaknesses.pdf)
+  -
+  -
+    title: Four case studies
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      Scroll through the slides below to see four examples of when each methodology is most suitable.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Agile - GE Businesses
+          text: |
+            General Electric (GE) needed to update its performance review management system. Since GE became an Agile organisation, it has seen significant improvements as their previous ways of working with performance reviews was unethical, unyielding, and antiquated. 
+
+            Managers now guide and coach employees to achieve their goals, and now work under a much more flexible framework. GE also included an App that they built to facilitate employee feedback and productive performance conversations. 
+
+            Using the App, an employee can set a series of priorities and ask for feedback which they in turn can provide to others. Employees can ask for an in-person meeting at any time, and the conversations are focused on transparency, honesty and continuous improvement.  
+
+            Sonia Boyle from HR said: “It requires a measure of trust and vulnerability. These characteristics won’t appear overnight and will require a commitment to change and personal development.” 
+          img: cp3_u1_s1_p5_case_study_slide1.svg
+        -
+          title: Scrum - Adobe Premiere
+          text: |
+            Adobe Premiere Pro is video editing software and competes with Apple Final Cut Pro and Avid’s MediaComposer.  Adobe adopted the Agile Scrum methodology to improve product quality, speed to market, responsiveness, and team engagement for this product. 
+            
+            They used Scrum to successfully coordinate the actions of a distributed Scrum Team within an environment composed of non-Scrum Teams.  Their first release using Scrum – Adobe Premiere Pro CS5 - showed a large improvement in product quality, market perception, improved the quality of the team work-life balance, and created a sustainable pace of development for team members. 
+          img: cp3_u1_s1_p5_case_study_slide2.svg
+        -
+          title: Kanban - Spotify
+          text: |
+            Spotify is a music streaming service with around 60 million listeners. They decided to use Kanban after struggling to implement their projects. 
+
+            The Spotify operations team decided to make their Kanban board simple as it was important for them to not be overwhelmed with tasks. The team only used three sections of workflows - To Do, In Progress, and Complete. 
+
+            They also used some additional cards like the “Defer” card ( a task needs more time for completion), and “Blocked” cards to keep track of the tasks that could not be worked on. 
+
+            Spotify manages its workflow to have time for creativity rather than wasting it with other issues. Spotify make sure that the Kanban boards are  accessible for all employees, and that they can add new tasks to them. 
+          img: cp3_u1_s1_p5_case_study_slide3.svg
+        -
+          title: Waterfall - Product Labs
+          text: |
+            SovTech who develop custom software uses Agile development as an overall model, however, one of their business units - Product Labs decided to use the Waterfall model in addition to the Agile model. 
+
+            Product Labs decided on the Waterfall model in addition to the company wide Agile approach as it had proven to add value to their partners by ensuring the freedom and opportunity for change, and because it promises a  deliverable within a fixed time period and budget. This is known as an Agile/Waterfall hybrid approach.  They found that this approach accounted for risk management, product speed to market, and gave the flexibility needed for new solutions and improvements from a dedicated development team. 
+
+            SovTech says: “Once a decision to utilise an Agile, Waterfall or Hybrid development methodology has been made, the process can be refined to best fit the project goals. Delivering a solid and maintainable product that satisfies the customer is what really counts.” 
+          img: cp3_u1_s1_p5_case_study_slide4.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Taking the above case studies and below websites into consideration (or research companies of your own choice), make some notes of the suitability of each methodology for each project. This will help you with your assessment.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can see different examples of methodologies used:
+
+      links:
+        GE businesses: https://embapro.com/frontpage/agilecase/20800-ge-spin
+        Adobe premiere: https://authorzilla.com/p0pAx/adobe-premiere-pro-scrum-adoption-how-an-agile-approach-enabled-success-in-a-hyper-competitive-landscape.html
+        Spotify: https://www.infoq.com/articles/kanban-operations-spotify/
+        SovTech: https://www.sovtech.co.za/waterfall-vs-agile-development-models-in-software-development/

@@ -1,0 +1,121 @@
+title: Software methodologies in project management
+intro: |
+  There are several different software methodologies used in project management. In this course we are going to focus on four which are Agile, Scrum, Kanban, and Waterfall.
+banner: cp3_u1_s1_p3_software_methodology.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to summarise the key features of the following:
+      * Agile
+      * Scrum 
+      * Kanban 
+      * Waterfall
+  -
+    title: Software methodologies
+    theme: t-bg-primary
+    copy: |
+      There are many different methodologies and frameworks used in project management for software projects.  In this course we are going to focus on four - Agile, Scrum, Kanban, and Waterfall. 
+      
+      Select the images below to see about the four different software methodologies.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Agile
+          copy: |
+            Agile is an iterative, people-oriented and result-focused way of working when delivering software products. The software is built incrementally in time-boxed 'sprints'.
+          img: cp3_u1_s1_p3_reveal1.svg
+        -
+          title: Scrum
+          copy: |
+            Scrum is an Agile methodology often called a framework to help teams to work together on a project. Scrum is quick and easy to adapt, clear visibility, low risk and fast feedback loops.
+          img: cp3_u1_s1_p3_reveal2.svg
+        -
+          title: Kanban
+          copy: |
+            Kanban is a visual system and the flow of work is managed from using a Kanban project board.  Often these same types of project boards are used in Agile and Scrum methodology.
+          img: cp3_u1_s1_p3_reveal3.svg
+        -
+          title: Waterfall
+          copy: |
+            Waterfall project management follows a chronological process and works on fixed dates, requirements, and outcomes. Its three main principles are low customer involvement, strong documentation, and sequential structure.
+          img: cp3_u1_s1_p3_reveal4.svg
+  -
+  -
+    title: Agile development
+    theme: 
+    copy: |
+      ‘Agile Development’ which is also more commonly known as Agile Software Development, is an umbrella term for a range of frameworks, such as ‘Scrum’, and practices such as the ‘daily stand-up meeting’. It adopts the principles set out in the ‘Agile Manifesto’ and the ‘Agile 12 Principles’. 
+
+      Agile came about as a process to address issues that software developers faced, focussing on a project being flexible, so it could respond to any changes and deal with any uncertainty. 
+            
+      ![](/images/svg/cp3/cp3_u1_s1_p3_wide_image_agile.svg)
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Agile
+
+      Agile Development which is also more commonly known as Agile Software Development, is an umbrella term for a range of frameworks, please see the following video learn more.
+    video: cp3_u1_s1_p3_agile_key_features.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites which references the Agile Manifesto and the 12 principles based on the Agile Manifesto.
+
+      links:
+        The Agile Manifesto: https://agilemanifesto.org/
+        The Agile 12 Principles: https://agilemanifesto.org/principles.html
+  -
+    title: Scrum
+    theme: 
+    
+    copy: |
+      Please see the below activity which will give you an overview of what is meant by Scrum.
+
+    interactive: 
+      file: cp3/u1_s1_p3_scrum
+      width: 1000
+      height: 1000
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Scrum
+
+      Scrum is an Agile methodology (often called a framework) to help teams to work together on a project. Please see the following video to learn more.
+    video: cp3_u1_s1_p3_scrum_key_features.mp4
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The Sprint is a fixed length event which has a sprint goal. 
+          answer: Sprint
+        -
+          sentence: The Scrum Master manages the Scrum Process and remove impediments.
+          answer: Scrum Master
+        -
+          sentence: The Product Owner would determine the priority tasks and decide on the sprint goal.
+          answer: Product Owner
+        -
+          sentence: Sprint planning is where achievable items or user stories, are identified from the product backlog to be moved to the next sprint. 
+          answer: Sprint planning
+        -
+          sentence: The Scrum Team organises and manages its own work. They would deliver the agreed product increment inside a sprint.
+          answer: Scrum Team
+    theme: i-quiz

@@ -1,0 +1,72 @@
+title: Software methodologies
+intro: |
+  On the previous page we looked at the Agile and Scrum methodologies. On this page we are going to focus on the Kanban and Waterfall methodologies.
+banner: cp3_u1_s1_p4_software_methodology_b.jpg
+sections:
+  -
+    title: Kanban
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Kanban was developed (with LEAN methodology) by an engineer for Toyota in the 1940s in Japan. It was predominately used in ‘just-in-time’ manufacturing.  Kanban came to the attention of the software industry and is nowadays used in the Agile methodology. 
+      
+      It is a visual system and the flow of work is managed from using a Kanban project board.  Often these same types of project boards are used in Agile and Scrum methodology.  In its simplest form there are three columns which are labelled: To Do, In Progress, and Done. 
+      
+      The objective of Kanban is to simplify planning, manage work and inventory, and increase productivity and efficiency.
+
+    img: /images/svg/cp3/cp3_u1_s1_p3_image3.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Kanban
+
+      Please see the following video to learn more about Kanban.
+    video: cp3_u1_s1_p3_kanban_key_features.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the history of Kanban.
+      links:
+        Kanban history: https://getnave.com/blog/kanban-history/
+  -
+    title: Waterfall Project Management
+    theme: 
+    copy: |
+      The waterfall project management approach emphasises a linear approach from the beginning to the end of a project. It flows like a waterfall through all phases of a project with each phase wrapping up before the next phase begins. It is often used by engineers and is front loaded relying on careful planning, detailed documentation, and consecutive execution.
+      
+      It follows a chronological process and works on fixed dates, requirements, and outcomes.
+      
+      ![](/images/svg/cp3/cp3_u1_s1_p4_wide_image_wf.svg)
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Waterfall
+
+      Please see the following video to learn more about the Waterfall methodology.
+    video: cp3_u1_s1_p3_waterfall_key_features.mp4
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Strong documentation is created at every stage of the project, and this would include an initial meeting with the customer.
+          answer: Strong documentation
+        -
+          sentence: Sequential structure is the main principle of the Waterfall model and most projects have 5 to 7 stages. 
+          answer: Sequential structure
+        -
+          sentence: There is low customer involvement with the Waterfall methodology - there are only two meetings with the client - these take place at the beginning and the end of the project.
+          answer: low customer involvement
+    theme: i-quiz      

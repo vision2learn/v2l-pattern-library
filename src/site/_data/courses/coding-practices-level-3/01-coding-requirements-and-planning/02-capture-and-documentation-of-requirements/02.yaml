@@ -1,0 +1,62 @@
+title: Alternative methods of documenting requirements
+intro: |
+  On this page you will learn about alternative methods of documenting requirements.
+banner: cp3_u1_s2_p2_alternative_methods.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain alternative methods of documenting requirements.
+  -
+  -
+    title: Requirements documentation
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      There are many other documents that may be created depending on the size and scope of a project which can be used to communicate to all stakeholders.
+
+      There will be a wide range of people involved in the creation of these documents and the most important of these is the customer, they are the originator of the project and will have ultimate responsibility for determining the requirements. 
+      
+      You will also have a  business analyst who is responsible for looking at the projects requirements and providing the solutions to achieve these. There will be a project manager who is responsible for the delivery of the product in line with customer expectations and then there is the product manager who is responsible for managing the development team and setting out the why, when and what will be built. There may also be a marketing manager and a systems analyst depending on the nature of the product.
+
+    img: /images/svg/cp3/cp3_u1_s2_p2_image1.svg
+  -
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: |
+      Take a look at the following document to see examples of alternative methods of documenting requirements. This will support question 3 in section 2 of the assessment booklet.
+
+      [Requirements capture documentation](/pdfs/cp3_u1_s2_p2_doc_requirements_read.pdf).
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The project manager or business analyst will be most likely to write the Quality Requirements Document.
+          answer: Quality Requirements Document
+        -
+          sentence: The document that contains information on what must be provided is called a Business Requirments Document. 
+          answer: Business Requirments Document
+        -
+          sentence: The document that sets out what users might observe when interacting with the system is called a Functional Requirements Document.
+          answer: Functional Requirements Document
+        -
+          sentence: The lead developer would normally compile the Software Requirements Document.
+          answer: Software Requirements Document
+        -
+          sentence: The document that sets out the look and feel of the user interface is called a User Interface Requirements Document.
+          answer: User Interface Requirements Document
+        -
+          sentence: The document that contains software, hardware and platform requirements is called a Technical Requirements Document.
+          answer: Technical Requirements Document      
+    theme: i-quiz 
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+       Now that you have learnt about the different ways to document requirements can you think of some advantages and disadvantages of these document? 
