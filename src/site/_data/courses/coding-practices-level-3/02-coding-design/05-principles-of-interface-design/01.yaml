@@ -7,65 +7,74 @@ sections:
     title: What you will learn
     theme: t-bg-primary
     copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
+      In this session you will learn about the:
+      * Elements of UX (User Experience) design
+      * Differences between UX and UI (User Interface)
+      * Key skills required for creative problem-solving
+      * Key methods and techniques used in creative problem-solving 
+      * Importance of information architecture and UX
+      * Principles of good user interface design
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 5.1
+      In your assessment you will be required to identify the elements of UX (User Experience) design.
   -
-    title: slider
+  -
+    title: The elements of User Experience (UX) design
+    theme: 
+    copy: |
+      The goal of a User experience (UX) project is to make sure that the end user has a positive experience with a product. To enable this to happen, the 5 elements of UX design acts as a guide for UX designers as it provides structure and direction to their decision making for any given project. 
+
+      They were created by a UX designer called Jesse James Garrett which you can see in the below Read item the original diagram from his book which was published in 2002.
+
+      As can be seen in the diagram below the 5 elements of UX are on 5 separate planes each one is positioned on top of the previous one to create an outline of the full process from the bottom to the top. 
+
+      ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: The five elements of UX design
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about the five elements of UX design.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Strategy
           text: |
-            text
+            Strategy is the bottom plane of the model.  This is the most abstract and has the least constraints.  It is where the decisions are made to determine the objectives of the project and how they should be met with the design. The objectives  would include the goals of the clients and stakeholders, and they would decide at this stage why the site is needed, how it will be used, and who will be using it.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Scope
           text: |
-            text
+            The scope of the product can be determined once the strategy has been decided.  It is on this plane that the product features, content, and functionality are decided upon. It will include the requirements for the functions and features in the product and how they would work together.  Every single feature and list of content requirements of the product would be included at this stage. The requirements would be aligned with the project’s strategy. 
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Structure
           text: |
-            text
+            The structure of the product can be worked on once the scope has been outlined.  This is where information architecture (IA) and  interaction design would be considered. IA is the practice of deciding how to arrange the parts of the product (structure) so it can be understood. Interaction design is how users will interact with the site and how the system will respond. This would include deciding each element of navigation.
+          img: placeholder_icon.svg
+        -
+          title: Skeleton
+          text: |
+            Once the structure has been defined the skeleton of the site (also known as a wireframe) can be designed. The navigation and functional elements which were determined from the previous plane would be decided where they would go each product page.  Wireframes and prototypes would be created at this stage to arrange each part of the product e.g. buttons, images, text etc.  Interface design (ID), Navigation design, and Information design would be considered on this plane.  
+          img: placeholder_icon.svg
+        -
+          title: Surface
+          text: |
+            The wireframes and prototype that was created on the Skeleton plane would be used on the final Surface plane.  The surface plane is the top and most concrete plan and this is where the final pages for the product are created. Users’ sensory experience is considered at this stage and would include how colour and textures within the visual design would help them to navigate and interact with the site.  
           img: placeholder_icon.svg
   -
   -
-    title: Read - 
+    title: Read 
     theme: t-bg-primary2 i-read
     copy: | 
-      _Optional item depending on content - useful for additional reading_
+      Take a look at the following document to see the original 5 elements diagram from the UX designer Jesse James Garrett which was published in 2002.
 
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to 5.1
-  -
-  -
-    title: Wide image OR Interactivity (Infographic)
-    theme: 
-    copy: |
-      Text
-      ![](/images/banners/placeholder.jpg)
+      [Jesse James Garrett - 5 elements design](/pdfs/cp3_u2_s5_p1_jesse_james_garrett_five_elements.pdf).
   -
   -
     title: Time to think
@@ -73,8 +82,26 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise for 5.2._
+        Take a look at a site (website or App) that you are familiar with and see if you can identify each of the five planes within that site.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the differences between UX and UI (User Interface).
+  -
+  -
+    title: Wide image OR Interactivity (Infographic)
+    theme: 
+    copy: |
+      
+      _more content to be included here_
 
+      UX is the combination of the user’s attitude and emotions while using your product, service, application, or system.
+
+      UI deals with the interaction of your consumer to your service, system, or application. 
+      
+      ![](/images/banners/placeholder.jpg)
   -
   -
     title: Quick quiz
@@ -82,39 +109,21 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A user-friendly experience would be in the category of UI.
+          answer: UI
         -
-          sentence: example two
-          answer: two
+          sentence: Prototyping to test for quality results would be in the category of UX.
+          answer: UX
         -
-          sentence: example three 
-          answer: three
+          sentence: Human-computer interaction would be in the category of UI.
+          answer: UI
         -
-          sentence: example four
-          answer: four
+          sentence: Visual elements and graphical control would be in the category of UI.
+          answer: UI
+        -
+          sentence: User testing would be in the category of UX.
+          answer: UX
+        -
+          sentence: Usability and ease of use would be in the category of UX.
+          answer: UX
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

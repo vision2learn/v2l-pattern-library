@@ -7,37 +7,24 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 5.3 and 5.4
+      In your assessment you will be required to:
+      * Explain the key skills required for creative problem-solving
+      * Describe the key methods and techniques used in creative problem-solving
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 5.3 and 5.4.
-    video: cp3_ u2_s5_p2_ux_creative_problem_solving.mp4
+      Please see the following video on creative problem solving and the methods and techniques that would be used.
+    video: cp3_u2_s5_p2_ux_creative_problem_solving.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Title - DnD - Structured or unstructured
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
+        Think of a problem or issue that you wish to find a solution for. Make some notes on which methods and techniques you feel would help you to resolve the problem.
   -
   -
     title: On the web
