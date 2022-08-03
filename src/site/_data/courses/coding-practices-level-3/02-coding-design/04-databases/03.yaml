@@ -1,31 +1,82 @@
-title: TEMPLATE PAGE - may not need
+title: Queries and Indexing
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Describe techniques for querying databases
+      * Explain the purpose of database indexing
   -
-    title: introduction text
+  -
+    title: Watch - Instructional video
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on how to write an SQL query.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: CODE example
+    theme:
+    copy: |
+      _This needs to be a SQL example so not sure we can use this code section type as at the moment it only allows for C++, JS and PY_
+      Text intro
+
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+          // comment
+
+          SQL code
+        
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        output
+        
+    copy2: |
+      text
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Practice ?:
+      
+      Text
+
+      _SQL compiler?_
+      
+      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
+  
+  -
+  -
+    title: P L A C E H O L D E R
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      ### Title
 
-    img: /images/svg/placeholder_icon.svg 
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+      _Do we need an additional item here?_
 
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: On the web
@@ -33,15 +84,23 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        
 
         Please see the following website where you can learn more about . . .
 
       links:
         website description: http://www.google.co.uk
   -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _Optional item depending on content - useful for additional reading_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
     subInc: 
       type: word-quiz
       content:
@@ -81,4 +140,11 @@ sections:
             Negative: false
             Unprofessional: false
             Positive: true
-          feedback: text
+          feedback: text 
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - must relate to the video._
