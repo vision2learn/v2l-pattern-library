@@ -25,46 +25,68 @@ sections:
     title: CODE example
     theme:
     copy: |
-      _This needs to be a SQL example so not sure we can use this code section type as at the moment it only allows for C++, JS and PY_
-      Text intro
-
+      Now you have watched the video see below the same SQL code used to list the employees whose job title is _Senior Engineer_ from our database.
 
     subInc:
       type: code
-      lang: js
+      lang: sql
       highlight: 
       code: |
-          // comment
+          // SQL code to list the Senior Engineer employees
 
-          SQL code
-        
-  -
+          SELECT
+            `employees`.*
+          FROM
+            `titles`
+          LEFT JOIN `employees` ON `titles`.`emp_no` = `employees`.`emp_no`
+          WHERE
+            `titles`.`title` = 'Senior Engineer';
   -
     title: Result
     theme:
     copy: |
+      Here is an example of some sample data that you would get from the above SQL query:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sample data - result
+          copy: |
       
-    subInc:
-      type: code
-      lang: text
-      highlight: 
-      code: |
-        output
-        
-    copy2: |
-      text
+            title: Senior Engineer
+
+            | emp_no |	birth_date |	first_name |	last_name	| gender	| hire_date |
+            |------|------|------|------|------|------|
+            |	10001	|	9/2/1953	|	Georgi	|	Facello	|	M	|	6/26/1986 |
+            |	10003	|	12/3/1959	|	Parto	|	Bamford	|	M	|	8/28/1986 |
+            |	10004	|	5/1/1954	|	Chirstian	|	Koblick	|	M	|	12/1/1986 |
+            |	10006	|	4/20/1953	|	Anneke	|	Preusig	|	F	|	6/2/1989 |
+            |	10009	|	4/19/1952	|	Sumant	|	Peac	|	F	|	2/18/1985 |
+            |	10012	|	10/4/1960	|	Patricio	|	Bridgland	|	M	|	12/18/1992 |
+            |	10018	|	6/19/1954	|	Kazuhide	|	Peha	|	F	|	4/3/1987 |
+            |	10026	|	4/3/1953	|	Yongqiao	|	Berztiss	|	M	|	3/20/1995 |
+            |	10027	|	7/10/1962	|	Divier	|	Reistad	|	F	|	7/7/1989 |
+            |	10029	|	12/13/1956	|	Otmar	|	Herbst	|	M	|	11/20/1985 |
+            |	10030	|	7/14/1958	|	Elvis	|	Demeyer	|	M	|	2/17/1994 |
+            |	10031	|	1/27/1959	|	Karsten	|	Joslin	|	M	|	9/1/1991 |
+            |	10032	|	8/9/1960	|	Jeong	|	Reistad	|	F	|	6/20/1990 |
+            |	10035	|	2/8/1953	|	Alain	|	Chappelet	|	M	|	9/5/1988 |
+            |	10037	|	7/22/1963	|	Pradeep	|	Makrucki	|	M	|	12/5/1990 |
+            |	10040	|	9/13/1959	|	Weiyi	|	Meriste	|	F	|	2/14/1993 |
+            |	10043	|	9/19/1960	|	Yishay	|	Tzvieli	|	M	|	10/20/1990 |
+            |	10047	|	6/29/1952	|	Zvonko	|	Nyanchama	|	M	|	3/31/1989 |
+            |	10051	|	7/28/1953	|	Hidefumi	|	Caine	|	M	|	10/15/1992 |
+            |	10056	|	9/1/1961	|	Brendon	|	Bernini	|	F	|	2/1/1990 |
   -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      ### Practice ?:
+      ### Using the phpMyAdmin demo site
       
-      Text
-
-      _SQL compiler?_
+      In the below link you will find an example of a database on the phpMyAdmin demo site where you can practice using the GUI and writing your own SQL code.  If you wish you could also have a go at creating your own database!
       
-      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
+      [phpMyAdmin demo site](https://demo.phpmyadmin.net/master-config/index.php?route=/database/structure&db=sakila) 
   
   -
   -
@@ -72,9 +94,12 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      ### Title
+      ### Indexing
 
-      _Do we need an additional item here?_
+      _Not sure if we need this here as this topic may be covered in the video?_
+
+      text  
+      
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -94,7 +119,7 @@ sections:
     title: Read - 
     theme: t-bg-primary2 i-read
     copy: | 
-      _Optional item depending on content - useful for additional reading_
+      _May do a printout version of database covered in video?_
 
       Take a look at the following document about 
 
@@ -147,4 +172,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        _LO or exercise - indexing?_
