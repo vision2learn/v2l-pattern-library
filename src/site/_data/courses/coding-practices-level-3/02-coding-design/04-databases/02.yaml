@@ -15,9 +15,9 @@ sections:
     title: Wide image
     theme: 
     copy: |
-      Text
+      ### Key components
 
-      _example of a database table with highlighted areas for each item for 4.3 and 4.4_
+      _example of a database table with highlighted areas for each item for 4.3
 
 
 
@@ -36,7 +36,26 @@ sections:
     activity: 
       ref: uc_u3_s2_p1_activity_v2
   -
-  
+  -
+    title: P L A C E H O L D E R
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+      text
+
+  -
+  -
+    title: Wide image
+    theme: 
+    copy: |
+      ### Database Schema
+
+      _example of a database table with highlighted areas for 4.4_
+
+
+
+      ![](/images/banners/placeholder.jpg)
   -
   -
     title: On the web
