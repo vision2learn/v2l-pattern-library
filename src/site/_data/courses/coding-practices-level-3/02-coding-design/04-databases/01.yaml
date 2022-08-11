@@ -1,6 +1,6 @@
 title: Databases
 intro: |
-  intro text
+  There are many types of databases that are used today. A database is an organised structured collection of data which can be easily managed. In this session we are going to look at the main aspects that would need to be considered when working with databases. 
 banner: placeholder.jpg
 sections:
   -
@@ -32,7 +32,7 @@ sections:
       In this video we are going to talk about Databases, and we’re also going to discuss structured and unstructured data and how this relates to databases.
     video: cp3_u2_s4_p1_databases.mp4
   -
-    title: Wide image
+    title: Structured data
     theme: 
     copy: |
       Please see below an example of a structured data table:
@@ -47,9 +47,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Text
-
-        _LO or exercise - relate to the image and video._
+        Consider some information that you have which would benefited from being more organised. This could be a list of names and addresses or a simple 'to-do list'.  Create a table and organise your information so it is structured rather than 'unstructured' data. Use the text box to make some notes.
   -
   -
     title: On the web
@@ -72,39 +70,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A database is an organised structured collection of data which can be easily managed.
+          answer: structured
         -
-          sentence: example two
-          answer: two
+          sentence: Unstructured data is not organised and can be stored in a number of ways.  
+          answer: unstructured
         -
-          sentence: example three 
-          answer: three
+          sentence: Media such as images, video, or audio is unstructured data.
+          answer: unstructured
         -
-          sentence: example four
-          answer: four
+          sentence: Names and addresses data could be stored in a structured way in a table.
+          answer: structured
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
