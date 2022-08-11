@@ -1,6 +1,6 @@
 title: Queries and Indexing
 intro: |
-  intro text
+  On this page you will learn how to query a database using a software tool which manages databases.  You will also learn about indexing. 
 banner: placeholder.jpg
 sections:
   -
@@ -16,13 +16,13 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### How to query a database
       
-      Please see the following video on how to write an SQL query.
-    video: placeholder_pc.mp4
+      Please see the following video on how to use a software tool which has a graphical user interface (GUI) to manage database administration.  We will also show how to write SQL queries.
+    video: cp3_u2_s4_p3_database_instruction.mp4
   -
   -
-    title: CODE example
+    title: SQL CODE example
     theme:
     copy: |
       Now you have watched the video see below the same SQL code used to list the employees whose job title is _Senior Engineer_ from our database.
@@ -84,24 +84,9 @@ sections:
     copy: |
       ### Using the phpMyAdmin demo site
       
-      In the below link you will find an example of a database on the phpMyAdmin demo site where you can practice using the GUI and writing your own SQL code.  If you wish you could also have a go at creating your own database!
+      In the below link you will find an example of a database on the phpMyAdmin demo site where you can practice using the software tool and writing your own SQL code on the example databases.  If you wish you could also have a go at creating your own database!
       
-      [phpMyAdmin demo site](https://demo.phpmyadmin.net/master-config/index.php?route=/database/structure&db=sakila) 
-  
-  -
-  -
-    title: P L A C E H O L D E R
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Indexing
-
-      _Not sure if we need this here as this topic may be covered in the video?_
-
-      text  
-      
-
-    img: /images/svg/placeholder_icon.svg
+      [phpMyAdmin demo site](https://demo.phpmyadmin.net/master-config/index.php?route=/database/structure&db=sakila)
   -
   -
     title: On the web
@@ -109,21 +94,57 @@ sections:
     include:
       type: on-the-web
       copy: |
-        
+        ### C R U D
 
-        Please see the following website where you can learn more about . . .
+        The acronym CRUD stands for CREATE, READ, UPDATE and DELETE. They describe the four essential operations for creating and managing persistent data elements (data that is permanently stored) in databases.  See the following website to learn more: 
 
       links:
-        website description: http://www.google.co.uk
+        C R U D: https://www.humio.com/glossary/crud/#:~:text=CRUD%20is%20the%20acronym%20for,in%20relational%20and%20NoSQL%20databases. 
   -
-    title: Read - 
+  -
+    title: Read - TBD
     theme: t-bg-primary2 i-read
     copy: | 
+      ### SQL queries used in video
+
       _May do a printout version of database covered in video?_
 
-      Take a look at the following document about 
+      Take a look at the following document to see the example SQL queries that were used in the video.
 
       [example doc]().
+  -
+  -
+    title: Database indexing
+    theme: t-bg-primary
+    copy: |
+      Indexing (which isn’t seen) is used to minimise the resources needed and optimise the performance of a database – as in they speed up searches. This is for when the data is queried - when a SQL query is ran on the data.  A given database could have hundreds or thousands of records so it is important to have an index so you can access the data quickly and efficiently.  An index includes a ‘key’ or direct link to each record (row of data) so that record can be retrieved in an efficient way.  
+
+      The Primary key uniquely identifies a record, and it will have an index created on it and is automatically updated each time a new record is added.  You can also create your own index on a different (field) column. 
+
+      See below for an example of creating your own index:
+
+    subInc:
+      type: accordion
+      content:
+        - 
+          title: Create index
+          copy: |
+            
+            CREATE INDEX employee_last_name
+            ON last_name (employee) 
+
+            When you create an index within a database you are creating a physical object which is being saved to disk - so once you have performed the first search on a table, you would not need to read the entire table for subsequent times, as the database only needs to load the index from the disk into memory which will be much quicker.  This is because the values in the index ‘last_name’ are already sorted. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about indexing.
+
+      links:
+        Database indexing: http://www.google.co.uk
   -
     title: Quick quiz
     subInc: 
@@ -142,34 +163,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text 
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - indexing?_
