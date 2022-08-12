@@ -16,7 +16,7 @@ sections:
     copy: |
       
     
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about these threats.
 
     subInc: 
       type: slider
@@ -48,9 +48,21 @@ sections:
         -
           title: Injection attacks
           text: |
-           Injection attacks come in many forms but they all
+           Injection attacks come in many forms but they all have one feature in common, they are designed to inject malicious code into the system to gain access to, and take control of the contents of the systems database. SQL injection flaws are introduced during the software development stage which is why it is important to consider this risk during the SSDLC. There are numerous different types of injection attack methods and there is a link below to read about these in more detail.  
           img: placeholder_icon.svg
 
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+       Injection attacks
+
+        Please see the following website where you can learn more the different Injection attack methods.
+
+      links:
+        Injection attacks: https://crashtest-security.com/what-are-the-different-types-of-injection-attacks/
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -63,15 +75,15 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to identify the most common security issues and threats.
+      In your assessment you will be required to explain the methods that can be used to secure software.
   -
   -
-    title: Security issues and threats that can impact software development
+    title: Methods to keep software secure.
     theme: t-bg-primary
     copy: |
       
     
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more the different ways that you can ensure that software is secure. 
 
     subInc: 
       type: slider
@@ -114,18 +126,6 @@ sections:
 
       [example doc]().
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     theme: i-quiz
