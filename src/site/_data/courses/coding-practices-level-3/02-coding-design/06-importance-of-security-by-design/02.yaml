@@ -1,56 +1,20 @@
-title: TEMPLATE PAGE
+title: Software security and common threats
 intro: |
-  intro text
+  On this page you will learn about:
+  * The different methods that can be used to secure software
+  * The most common security issues and threats
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to identify common security issues and threats
   -
-    title: introduction text
-    layout: media
+    title: Security issues and threats that can impact software development
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
       
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
     
       Scroll through the slides below to learn more about ...
 
@@ -59,30 +23,34 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Social engineering
           text: |
-            text
+            Social engineering is the name given to techniques used by cyber criminals to manipulate and trick people into giving out confidential information, transferring money or downloading malware.
+
+            Social engineers use psychology to manipulate a victim’s feelings of curiosity or fear to draw them into a trap. They often find it is easier to exploit a person’s willingness to trust rather than go to the trouble of trying to discover ways to hack their software.
+          img: placeholder_icon.svg
+        -  
+          title: Phishing
+          text: |
+           Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names (that are similar to the actual domain name), are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Malware
           text: |
-            text
+           Malicious software or malware is any software that is designed for the purposes of intentionally causing damage or exploiting any programmable device, computer, service, network, or system.
+           Malicious software can include Viruses, Ransomware, Spyware,Trojans, Worms, Scareware and Adware. Some of these have already been mentioned in previous units but let's refresh our memories on what they involve.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: DoS and DDoS
           text: |
-            text
+           A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource. This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow.
           img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+        -
+          title: DoS and DDoS
+          text: |
+           A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource. This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow.
+          img: placeholder_icon.svg
+
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -92,6 +60,49 @@ sections:
         _LO or exercise - must relate to the video._
 
   -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the most common security issues and threats.
+  -
+  -
+    title: Security issues and threats that can impact software development
+    theme: t-bg-primary
+    copy: |
+      
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Social engineering
+          text: |
+          
+          img: placeholder_icon.svg
+        -  
+          title: Phishing
+          text: |
+          
+          img: placeholder_icon.svg
+        -
+          title: Malware
+          text: |
+           
+          img: placeholder_icon.svg
+        -
+          title: DoS and DDoS
+          text: |
+          
+          img: placeholder_icon.svg
+        -
+          title: DoS and DDoS
+          text: |
+           
+          img: placeholder_icon.svg
+
   -
     title: Case study
     layout: media
@@ -125,26 +136,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
   -
     title: Quick quiz
     theme: i-quiz
