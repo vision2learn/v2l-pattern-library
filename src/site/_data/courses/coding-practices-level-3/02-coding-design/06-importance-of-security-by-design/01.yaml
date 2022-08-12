@@ -36,7 +36,6 @@ sections:
     theme: t-bg-primary
     copy: |
      
-
       In recent years software developers have had to consider software security rather than just focusing on delivering functional software in the agreed timeframe. Previously there wasn’t a great deal of emphasis on security so checks for flaws in the software were only carried out at the testing stage of the SDLC which has the potential to cause serious issues relating the timely deployment of the software. What was need was a way to incorporate a security element within the SDLC. Let’s look at an example of a secure software development life cycle for a team creating a membership renewal portal:
 
 
@@ -65,7 +64,7 @@ sections:
           text: |
             When it’s time to actually implement the design and make it a reality, concerns usually shift to making sure the code well-written from the security perspective. As the vast majority of modern applications aren’t written from scratch, modern application developers can’t be concerned only with the code they write. Instead, developers rely on existing functionality, usually provided by free open source components to deliver new features and therefore value to the organization as quickly as possible.
             Secure coding guidelines, in this case, may include:
-            * Using parameterised, read-only SQL queries to read data from the database and minimize chances that anyone can ever commandeer these queries for nefarious purposes
+            * Using parameterised, read-only SQL queries to read data from the database and minimize chances that anyone can ever commandeer these queries for malicious purposes
             * Validating user inputs before processing data contained in them
             * Sanitising any data that’s being sent back out to the user from the database
             * Checking open source libraries for vulnerabilities before using them
@@ -112,13 +111,25 @@ sections:
           
     theme: i-quiz
   -
+  
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### Advantages and disadvantages of Security by Design
+
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of security by design.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: cp3_u1_s6_p1_activity
+  -
 
     title: Time to think
     include: 
       type: time-to-think
       copy: Do you think that incorporating security by design within the SDLC is a good idea? Explain why or why not in the box to the right. 
     theme: t-bg-primary3 i-think 
-
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
