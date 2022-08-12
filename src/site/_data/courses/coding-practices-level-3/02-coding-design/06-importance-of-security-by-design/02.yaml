@@ -103,17 +103,7 @@ sections:
            
           img: placeholder_icon.svg
 
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
 
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
   -
     title: Read - 
     theme: t-bg-primary2 i-read
