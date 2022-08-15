@@ -81,51 +81,56 @@ sections:
     title: Methods to keep software secure.
     theme: t-bg-primary
     copy: |
-      
-    
-      Scroll through the slides below to learn more the different ways that you can ensure that software is secure. 
+      So how can you protect systems from the attacks that we have looked at so far? As the complexity and sophistication of attacks develop, methods to secure systems and software are constantly developing and improving. Let’s take a quick look at some of these methods.
+     
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Social engineering
+          title: Encode and Escape Data
           text: |
-          
+           These are both techniques that are designed to stop injection attacks. 
+           Encoding is transforming data from one format into another format. 
+           This involves translating special characters into some different but equivalent character that cant be recognised by the attacking software and presents no danger to the target interpreter, for example translating the < character into the &lt; string when writing to an HTML page. 
+           Escaping is a subset of encoding, where not all characters need to be encoded. Only some characters are encoded (by using an escape character).
+
           img: placeholder_icon.svg
         -  
-          title: Phishing
+          title: Input validation
           text: |
-          
+           Input validation is a powerful too that is used to ensure that the data entered by a user is acceptable. For example, if a program were to ask for a score between 0 and 50, an input validation would be used to ensure that values below 0 and above 50 were rejected.
           img: placeholder_icon.svg
         -
-          title: Malware
+          title: HTTPS
           text: |
-           
+           Hypertext transfer protocol (HTTP) is the protocol that is used to send data from a web browser to a website. Hypertext Transfer Protocol Secure (HTTPS) is a secure version that enables visitors to the website to transmit sensitive data such as banking or payment details and login credentials securely over the internet.
           img: placeholder_icon.svg
         -
-          title: DoS and DDoS
+          title: Passwords
           text: |
-          
+           Poor password security is one of the most common and easiest ways that attackers gain access to a system. More sophisticated and secure methods to access sites and systems are becoming more common and features such as multi factor authentication and the ability for auto generated complex passwords can greatly increase system and software security.
           img: placeholder_icon.svg
         -
-          title: DoS and DDoS
+          title: Error handling
           text: |
-           
+           Understanding error messages is an important part of application development and troubleshooting. Error messages provide valuable information to the developer when something goes wrong, allowing them to fix problems with their application. Unfortunately, when errors are not handled in a secure manner, they can expose sensitive information. For example, an error message that includes information on the structure of a SQL database table may give attackers everything they need to know in order to carry out a successful SQL injection attack.
           img: placeholder_icon.svg
 
 
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+           
 
-      Take a look at the following document about 
 
-      [example doc]().
-  -
+
+      links:
+        Secure SDLC: https://www.synopsys.com/blogs/software-security/secure-sdlc/
   -
     title: Quick quiz
     theme: i-quiz
@@ -149,3 +154,12 @@ sections:
             Unprofessional: false
             Positive: true
           feedback: text
+  -
+    
+
+    title: Time to think
+    include: 
+      type: time-to-think
+      copy: in the slides above you have read about some of the methods that can be used to keep software and systems secure. Using this information and your own research explain how each of these  
+    theme: t-bg-primary3 i-think 
+  -      

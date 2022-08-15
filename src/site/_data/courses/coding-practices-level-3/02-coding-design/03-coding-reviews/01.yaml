@@ -25,25 +25,22 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 3.1.
-      * Pair programming 
-      * Inspection / formal review 
-      * Walkthrough 
-      * Technical review 
+     Undertaking code reviews should be part of any serious development process and developers need to understand that there are many different types of code reviews and each type has specific benefits and downsides depending on your project and team structure. Lets take a look at some of the most common review methods in more detail.
+ 
     video: cp3_u2_s3_p1_coding_reviews.mp4
   
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
 
-      _3.1 case study_
+        Please see the following website where you can learn more about . . .
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      links:
+        website description: http://www.google.co.uk
   -
   -
     title: Time to think
