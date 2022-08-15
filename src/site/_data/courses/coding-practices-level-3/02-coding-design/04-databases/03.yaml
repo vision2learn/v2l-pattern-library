@@ -32,15 +32,13 @@ sections:
       lang: sql
       highlight: 
       code: |
-          // SQL code to list the Senior Engineer employees
-
-          SELECT
-            `employees`.*
-          FROM
-            `titles`
-          LEFT JOIN `employees` ON `titles`.`emp_no` = `employees`.`emp_no`
-          WHERE
-            `titles`.`title` = 'Senior Engineer';
+        SELECT
+          `employees`.*
+        FROM
+          `titles`
+        LEFT JOIN `employees` ON `titles`.`emp_no` = `employees`.`emp_no`
+        WHERE
+          `titles`.`title` = 'Senior Engineer';
   -
     title: Result
     theme:
@@ -84,9 +82,9 @@ sections:
     copy: |
       ### Using the phpMyAdmin demo site
       
-      In the below link you will find an example of a database on the phpMyAdmin demo site where you can practice using the software tool and writing your own SQL code on the example databases.  If you wish you could also have a go at creating your own database!
+      In the below link you will find an example of a database on the phpMyAdmin demo site where you can practice using the software tool and writing your own SQL code.  If you wish you could also have a go at creating your own database!
       
-      [phpMyAdmin demo site](https://demo.phpmyadmin.net/master-config/index.php?route=/database/structure&db=sakila)
+      [phpMyAdmin demo site - Sakila cinema database example](https://demo.phpmyadmin.net/master-config/index.php?route=/database/structure&db=sakila)
   -
   -
     title: On the web
@@ -122,18 +120,17 @@ sections:
       The Primary key uniquely identifies a record, and it will have an index created on it and is automatically updated each time a new record is added.  You can also create your own index on a different (field) column. 
 
       See below for an example of creating your own index:
-
+    
     subInc:
-      type: accordion
-      content:
-        - 
-          title: Create index
-          copy: |
-            
-            CREATE INDEX employee_last_name
-            ON last_name (employee) 
+      type: code
+      lang: sql
+      highlight: 
+      code: |
+        CREATE INDEX employee_last_name
+        ON last_name (employee)
 
-            When you create an index within a database you are creating a physical object which is being saved to disk - so once you have performed the first search on a table, you would not need to read the entire table for subsequent times, as the database only needs to load the index from the disk into memory which will be much quicker.  This is because the values in the index ‘last_name’ are already sorted. 
+    copy2: When you create an index within a database you are creating a physical object which is being saved to disk - so once you have performed the first search on a table, you would not need to read the entire table for subsequent times, as the database only needs to load the index from the disk into memory which will be much quicker.  This is because the values in the index ‘last_name’ are already sorted.
+    
   -
   -
     title: On the web
