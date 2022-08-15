@@ -34,14 +34,16 @@ sections:
       ### ACE Software Development Agency
 
       The ACE Software Development Agency has decided to increase it’s team and employ two new Developers.  On their first day instruction was given to Malika the Lead Developer to show the two new Developers Tom and Dimitris, the agency’s Coding Standards guide which had just been updated that morning so the only version was a PDF. It included several sections including their practice for variable names:
-      * A variable name should describe the entity the variable represents 
-      * When writing your code, prioritise ease of reading over speed of writing 
-      * Use consistent standards throughout a project to minimize the cognitive burden of small decisions. 
+      * A variable name should describe what its purpose is
+      * Remember that ease of reading is more important than speed of writing 
+      * Minimise the overthinking with small decisions from following consistent standards. 
 
       ACE Coding Standard guide for Variable example:
       
       - use _const_  or  _let_  to declare variables.  
-      Not doing so will result in global variables. We want to avoid polluting the global namespace. e.g. const variableName = new VariableName(); 
+      Not doing so will result in global variables. We want to avoid polluting the global namespace. 
+      e.g. 
+      const variableName = new VariableName(); 
 
     img: /images/svg/cp3/cp3_u2_s1_p2_case_study_1.svg
   -
