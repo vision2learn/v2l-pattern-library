@@ -59,12 +59,11 @@ sections:
       In your assessment you will be required to explain why code is reviewed.
   -
   -
-    title: slider OR Accordion
+    title: Why code is reviewed
     theme: t-bg-primary
     copy: |
-      Text
+      Carrying out code reviews provide a range of benefits, scroll through the slides below to learn about these.
     
-      Scroll through the slides below to learn more about 3.2
 
     subInc: 
       type: slider
@@ -73,27 +72,27 @@ sections:
         -
           title: Consistent design and implementation 
           text: |
-            text
+            In the previous session we’ve already considered the importance of keeping code simple (KISS) and standardised. Reviewing code ensures that all developers are maintaining this method of working and a consistent style is adopted throughout the project. This ensures longevity of the programme and changes that are needed can be carried out by new staff years later. 
           img: placeholder_icon.svg
         -
           title: Minimising mistakes
           text: |
-            text
+            Anyone can make mistakes, and this is more likely if you’re working under pressure and are spending too long working on the same code. Finding your own mistakes can be difficult and a colleague is more likely to pick out small errors quite quickly. This is not only more efficient, but can also incorporate benefits of the wider code review e.g. learning new techniques.
           img: placeholder_icon.svg
         -
           title: Quality
           text: |
-            text
+           Individuals involved in a project may interpret some elements of code differently. The review process can ensure that all developers keep to the agreed standard and don’t become lost or get carried away with their own ideas, which can happen if working in isolation. Having someone check your code to ensure that nothing’s been overlooked can save a lot of time further down the line and assist with the final QA process. 
           img: placeholder_icon.svg
         -
           title: Performance
           text: |
-            text
+            The code review can help increase the skills of inexperienced developers. It’s a chance for them to learn from more experienced colleagues how they might have applied their code differently with more optimized techniques.
           img: placeholder_icon.svg
         -
           title: New technologies
           text: |
-            text
+            Sharing the code review between colleagues allows everyone to understand different techniques and develop their skill set. It allows new technologies to be shared in an equal environment where newer coders may teach more experienced ones the latest trends and more experienced developers can help newer ones understand the importance of tried and tested techniques.
           img: placeholder_icon.svg
   -
   -
