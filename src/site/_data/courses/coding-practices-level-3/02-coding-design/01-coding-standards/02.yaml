@@ -1,44 +1,49 @@
 title: Understand the use of coding standards
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this session we will cover the importance of coding standards and the consequences of not following them.  We will also look at processes and tools that are used.
+banner: cp3_u2_s1_p2_understand_coding_standards.jpg
 sections:
   -
     title: Coding standards
     layout: media
     theme: t-bg-primary
     copy: |
-      ### What are coding standards?
+      ### What are coding standards and the importance of them.
 
-      Text
+      Coding standards are agreed guides for best practice that the team of developers have decided to follow for a given project.  They include rules, best practice and guidelines and help to maintain consistency for coding.  
 
-    img: /images/svg/placeholder_icon.svg
+      Coding standards are important as they help your code be easier to:
+      * **Read** – by allowing others to understand your code  
+      * **Understand** – everyone following the coding standards will understand the same practices in use  
+      * **Maintain** – It will be easier to fix bugs and reduce development time 
+
+    img: /images/svg/cp3/cp3_u2_s1_p2_image1.svg
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to identify the importance of coding standards.
-      Explain the consequences of not following coding standards
+      In your assessment you will be required to:
+      * Identify the importance of coding standards
+      * Explain the consequences of not following coding standards
   -
-    title: Case study 1
+    title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - Example of a coding standard
+      ### ACE Software Development Agency
 
-      _example of a coding standard / research_
+      The ACE Software Development Agency has decided to increase it’s team and employ two new Developers.  On their first day instruction was given to Malika the Lead Developer to show the two new Developers Tom and Dimitris, the agency’s Coding Standards guide which had just been updated that morning so the only version was a PDF. It included several sections including their practice for variable names:
+      * A variable name should describe the entity the variable represents 
+      * When writing your code, prioritise ease of reading over speed of writing 
+      * Use consistent standards throughout a project to minimize the cognitive burden of small decisions. 
 
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - relate to case study._
+      ACE Coding Standard guide for Variable example:
+      
+      - use _const_  or  _let_  to declare variables.  
+      Not doing so will result in global variables. We want to avoid polluting the global namespace. e.g. const variableName = new VariableName(); 
 
+    img: /images/svg/cp3/cp3_u2_s1_p2_case_study_1.svg
   -
   -
     title: Key point
@@ -51,25 +56,24 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 1.2.
-      * Issues 
-      * Security 
-      * Maintaining or updating the code 
-      * Performance issues (errors in code) 
+      What are the consequences for not following Coding standards? Let’s have a look at these in more detail in this video. 
+
     video: cp3_u2_s1_p2_coding_standards_consequences.mp4
   
   -
-    title: Case study 2
+    title: Case study
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - Consequences
+      ### ACE Software Development Agency - Consequences
 
-      _consequences of the coding standard from first case study_
+      Two months into the project that both of the developers were assigned to, Malika the lead developer noticed that there were inconsistencies with Tom’s and the other developers' code who were also working on the same project.  Tom’s variable declarations and variable names did not match the other developers’ code. 
+      
+      This caused delays at the review and testing stage of the project.  The other developers’ also found his code difficult to follow.  
+      
+      Upon further investigation Malika realised that on their first day unfortunately she hadn’t been told that Tom was going to be starting a day later, and that he was a junior developer, and it transpired that he never got shown (or told to use) the agency’s most up to date coding standard guides.  
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u2_s1_p2_case_study_2.svg
   -
   -
     title: Time to think
@@ -77,8 +81,10 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to case study._
-
+        Where else was there a risk with Tom not using the agency's coding standards? Make some notes and take into consideration the following concerns and issues of the consequences of not using coding standards:
+        * Security
+        * Performance
+        * Maintaining or updating the code.
   -
   -
     title: On the web
@@ -86,52 +92,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Coding standards will differ depending on the industry, but there are some common aspects, please see the following websites: 
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        Pascal case vs camel case: https://www.theserverside.com/answer/Pascal-case-vs-camel-case-Whats-the-difference
+        Medium - coding standards in software development : https://medium.com/@psengayire/the-importance-of-coding-standards-and-conventions-in-the-software-development-team-how-they-can-5d252556a05
