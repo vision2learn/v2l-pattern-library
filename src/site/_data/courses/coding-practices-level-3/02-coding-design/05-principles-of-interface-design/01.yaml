@@ -1,7 +1,7 @@
 title: Principles of interface design
 intro: |
   The principles of interface design involve many considerations.  UX and UI designers would need to consider not only the design of the product but also the experience of the user.  This session will help you to understand user experience design, user interface design, information architecture, and creative problem solving.
-banner: placeholder.jpg
+banner: cp3_u2_s5_p1_interface_design2.jpg
 sections:
   -
     title: What you will learn
@@ -30,7 +30,7 @@ sections:
 
       As can be seen in the diagram below the 5 elements of UX are on 5 separate planes each one is positioned on top of the previous one to create an outline of the full process from the bottom to the top. 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u2_s5_p1_ux_wideimage.svg)
   -
   -
     title: The five elements of UX design
@@ -46,27 +46,27 @@ sections:
           title: Strategy
           text: |
             Strategy is the bottom plane of the model.  This is the most abstract and has the least constraints.  It is where the decisions are made to determine the objectives of the project and how they should be met with the design. The objectives  would include the goals of the clients and stakeholders, and they would decide at this stage why the site is needed, how it will be used, and who will be using it.
-          img: placeholder_icon.svg
+          img: cp3_u2_s5_p1_slide1.svg
         -
           title: Scope
           text: |
             The scope of the product can be determined once the strategy has been decided.  It is on this plane that the product features, content, and functionality are decided upon. It will include the requirements for the functions and features in the product and how they would work together.  Every single feature and list of content requirements of the product would be included at this stage. The requirements would be aligned with the project’s strategy. 
-          img: placeholder_icon.svg
+          img: cp3_u2_s5_p1_slide2.svg
         -
           title: Structure
           text: |
             The structure of the product can be worked on once the scope has been outlined.  This is where information architecture (IA) and  interaction design would be considered. IA is the practice of deciding how to arrange the parts of the product (structure) so it can be understood. Interaction design is how users will interact with the site and how the system will respond. This would include deciding each element of navigation.
-          img: placeholder_icon.svg
+          img: cp3_u2_s5_p1_slide3.svg
         -
           title: Skeleton
           text: |
             Once the structure has been defined the skeleton of the site (also known as a wireframe) can be designed. The navigation and functional elements which were determined from the previous plane would be decided where they would go each product page.  Wireframes and prototypes would be created at this stage to arrange each part of the product e.g. buttons, images, text etc.  Interface design (ID), Navigation design, and Information design would be considered on this plane.  
-          img: placeholder_icon.svg
+          img: cp3_u2_s5_p1_slide4.svg
         -
           title: Surface
           text: |
             The wireframes and prototype that was created on the Skeleton plane would be used on the final Surface plane.  The surface plane is the top and most concrete plan and this is where the final pages for the product are created. Users’ sensory experience is considered at this stage and would include how colour and textures within the visual design would help them to navigate and interact with the site.  
-          img: placeholder_icon.svg
+          img: cp3_u2_s5_p1_slide5.svg
   -
   -
     title: Read 
@@ -96,20 +96,30 @@ sections:
     copy: |
       UI and UX design are different, but are also related design disciplines. A user interface is where a ‘human would interact with a machine’.  User experience is the experience a person has when then interact with a product. UX design is more analytical and would consider cognitive behaviour and human psychology.
 
-      _Wide image OR Interactivity (Infographic)_
-
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u2_s5_p1_image2.svg)
   -
   -
     title: Differences between UI and UX
-    theme: t-bg-supporting2
+    theme: 
     copy: |
-      _May not need this if included in above infographic_
-
-      See below to learn more about the differences between UI and UX:
+      See below to see the differences between UI and UX:
     subInc: 
       type: accordion
       content:
+        - 
+          title: User experience (UX)
+          copy: |
+            UX is the experience a user would have when interacting with a product, service, application, or system. It would consider the user’s attitude and emotions when designing products that are easy to use and understand.
+
+            UX focuses on:
+            * Customer Research
+            * User Testing
+            * Development
+            * Content
+            * Usability
+            * Ease of use
+            * Pleasure
+            * Prototyping to test for quality results
         - 
           title: User interface (UI)
           copy: |
@@ -129,21 +139,7 @@ sections:
             * Layout
             * Design 
             * Branding 
-            * Visual elements 
-        - 
-          title: User experience (UX)
-          copy: |
-            UX is the experience a user would have when interacting with a product, service, application, or system. It would consider the user’s attitude and emotions when designing products that are easy to use and understand.
-
-            UX focuses on:
-            * Customer Research
-            * User Testing
-            * Development
-            * Content
-            * Usability
-            * Ease of use
-            * Pleasure
-            * Prototyping to test for quality results
+            * Visual elements
   -
     title: Quick quiz
     subInc: 
