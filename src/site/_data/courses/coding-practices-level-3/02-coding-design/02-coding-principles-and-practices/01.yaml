@@ -1,7 +1,7 @@
 title: Coding principles and practices
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this session we will be taking a look at good coding practices and principles which are used by Software Development teams.  These will include KISS and SOLID that are widely used in the software industry today.
+banner: cp3_u2_s2_p1_coding_principles_practices.jpg
 sections:
   -
     title: What you will learn
@@ -16,10 +16,12 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: | 
-      
-      Topic introduction text here 
+      There are many different coding principles that can be used by developers. They will help to decrease complexity and using them can significantly reduce development time and assist with ongoing maintenance.  
 
-    img: /images/svg/placeholder_icon.svg
+      Two of the main coding principles that are used in the industry today are:
+      * **The KISS principle** – an acronym which stands for ‘Keep it Simple and Straightforward’  
+
+    img: /images/svg/cp3/cp3_u2_s2_p1_image.svg
   -
   -
     title: Key point
@@ -32,9 +34,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 2.1.
+      Software developers need to use good coding principles and practices. Please see the following video where we take a look at some of the most common principles used in programming and software development.
     video: cp3_u2_s2_p1_principles_practices.mp4
   -
   -
@@ -45,7 +45,7 @@ sections:
       Please see the below activity which outlines the S O L I D principles.
 
     interactive:
-      file: uc/u4_s1_p3_solid
+      file: cp3/u2_s2_p1_solid
       width: 1000
       height: 800
       composition: 1A9338FEE8584755AB48BB991EF417A3
@@ -91,7 +91,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
-
-        text
-  
+        Select one of the principles and do some research. Write some notes on how it is used by Software Developers.
