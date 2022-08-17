@@ -73,10 +73,10 @@ sections:
           sentence: A database is an organised structured collection of data which can be easily managed.
           answer: structured
         -
-          sentence: Unstructured data is not organised and can be stored in a number of ways.  
+          sentence: Data that is unstructured is not organised and can be stored in a number of ways.  
           answer: unstructured
         -
-          sentence: Media such as images, video, or audio is unstructured data.
+          sentence: Media such as images, video, or audio would be categorised as unstructured data.
           answer: unstructured
         -
           sentence: Names and addresses data could be stored in a structured way in a table.

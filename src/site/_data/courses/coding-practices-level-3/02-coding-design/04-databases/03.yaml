@@ -100,16 +100,14 @@ sections:
         C R U D: https://www.humio.com/glossary/crud/#:~:text=CRUD%20is%20the%20acronym%20for,in%20relational%20and%20NoSQL%20databases. 
   -
   -
-    title: Read - TBD
+    title: Read
     theme: t-bg-primary2 i-read
     copy: | 
-      ### SQL queries used in video
-
-      _May do a printout version of database covered in video?_
+      ### Database example SQL queries
 
       Take a look at the following document to see the example SQL queries that were used in the video.
 
-      [example doc]().
+      [Database example SQL queries](pdfs/cp3_u2_s4_p3_query_examples_read.pdf).
   -
   -
     title: Database indexing
@@ -141,7 +139,7 @@ sections:
         Please see the following website where you can learn more about indexing.
 
       links:
-        Database indexing: http://www.google.co.uk
+        Database indexing: https://www.geeksforgeeks.org/indexing-in-databases-set-1/
   -
     title: Quick quiz
     subInc: 
