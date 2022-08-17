@@ -1,6 +1,6 @@
 title: Pair and Mob Programming
 intro: |
-  intro text
+  On this page you will learn about the advantages and disadvantages of pair and mob programming.
 banner: placeholder.jpg
 sections:
   -
@@ -12,12 +12,11 @@ sections:
       * Mob programming
   -
   -
-    title: Reveal
+    title: Pair and mob programming
     theme: t-bg-primary
     copy: |
-      text
-
-      Select the images below to read 
+      
+      Click on the images below for a reminder of what pair and mob programming are. 
 
     subInc: 
       type: reveal
@@ -25,30 +24,20 @@ sections:
         -
           title: Pair programming
           copy: |
-            text
+            2 coders work in pairs using one machine. One person, called the driver, writes the code, and the other person, called the observer, reviews it as it’s typed, 
           img: placeholder_icon.svg
         -
           title: Mob programming
           copy: |
-            text
+            The whole team work together in an extended version of pair programming, still on one computer. Along with the driver there will be several observers and diverse roles such as designing, testing and deployment. 
           img: placeholder_icon.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 3.6
+      Lets take a look at the advantages and disadvantages of pair and mob programming. 
     video: cp3_u2_s3_p3_pair_mob_programming.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
   -
     title: Activity
     layout: media
@@ -62,6 +51,12 @@ sections:
     activity: 
       ref: uc_u3_s2_p1_activity_v2
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you think of situations when it might be better to use pair programming and when it might be better to use mob programming? Carry out some research and make a note of you thoughts in the box to the right. 
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -73,47 +68,6 @@ sections:
         Please see the following website where you can learn more about . . .
 
       links:
-        website description: http://www.google.co.uk
+        Pair or Mob programming: https://www.agilealliance.org/pair-programming-versus-mob-programming/
   -
   -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
