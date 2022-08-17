@@ -45,7 +45,7 @@ sections:
     copy: |
       In your assessment you will be required to distinguish the difference between submitting and performing a coding review.
   -
-    title: slides OR Accordion
+    title: The difference between submitting and performing a coding review
     theme: t-bg-primary
     copy: |
       Text
@@ -59,7 +59,7 @@ sections:
         -
           title: Submitting a request for a coding review
           text: |
-            text
+            Code is submitted for review as each section is completed, after automated checks have been performed and before it’s merged with the main branch. The coder should consider the reviewer’s time and split large files to allow for multiple short reviews.  Using the Agile process, the coder should initiate the review request, include information for what the code is for and allocate a team member or team members as reviewers.
           img: placeholder_icon.svg
         -
           title: Performing a coding review
