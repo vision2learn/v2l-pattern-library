@@ -42,28 +42,29 @@ sections:
         4 Types Of Code Reviews Any Developer Should Know: 4 Types Of Code Reviews Any Developer Should Know
   -
     title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    subInc: 
+      type: word-quiz
       content:
-        Is the following statement true or false? "In pair programming the developer reviewing the code is the driver":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2: 
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:" __________ text.":
-          answers:
-            Walkthrough: True
-            Technical: false
-            Insepction: false
-          feedback: 
-  -
+        -
+          sentence: In instant code reviews there are two developers taking part.
+          answer: two
+        -
+          sentence: The driver is the developer inputting the code.
+          answer: driver
+        -
+          sentence: Inspection reviews consist of five steps.
+          answer: Five
+        -
+          sentence: Rework is step four of the inspection review method.
+          answer: four
+        -
+          sentence: Qualified developers carry out technical reviews
+          answer: technical
+        -
+          sentence: Walkthrough is a type of peer review.
+          answer: peer
+    theme: i-quiz
+  
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
