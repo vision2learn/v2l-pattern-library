@@ -77,6 +77,16 @@ sections:
             |	10056	|	9/1/1961	|	Brendon	|	Bernini	|	F	|	2/1/1990 |
   -
   -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      ### Database SQL query examples
+
+      Take a look at the following document to see the example SQL queries that were used in the instruction video.
+
+      [Database query examples document](/pdfs/cp3_u2_s4_p3_query_examples_read.pdf)
+  -
+  -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
@@ -98,16 +108,6 @@ sections:
 
       links:
         C R U D: https://www.humio.com/glossary/crud/#:~:text=CRUD%20is%20the%20acronym%20for,in%20relational%20and%20NoSQL%20databases. 
-  -
-  -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Database example SQL queries
-
-      Take a look at the following document to see the example SQL queries that were used in the video.
-
-      [Database example SQL queries](pdfs/cp3_u2_s4_p3_query_examples_read.pdf).
   -
   -
     title: Database indexing
@@ -146,15 +146,18 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The INSERT query allows you to put new data into a table within the database. 
+          answer: INSERT
         -
-          sentence: example two
-          answer: two
+          sentence: The UPDATE query is used to update a set of data in the database. 
+          answer: UPDATE
         -
-          sentence: example three 
-          answer: three
+          sentence: The DROP TABLE query lets you delete a table from the database. 
+          answer: DROP
         -
-          sentence: example four
-          answer: four
+          sentence: The DELETE query lets you remove data from a table in the database. 
+          answer: DELETE
+        -
+          sentence: The SELECT query allows you to see a set of data within the database. 
+          answer: SELECT
     theme: i-quiz
