@@ -1,7 +1,7 @@
 title: Pair and Mob Programming
 intro: |
   On this page you will learn about the advantages and disadvantages of pair and mob programming.
-banner: placeholder.jpg
+banner: cp3_u2_s3_p3_pair_mob.jpg
 sections:
   -
     title: Key point
@@ -16,7 +16,7 @@ sections:
     theme: t-bg-primary
     copy: |
       
-      Click on the images below for a reminder of what pair and mob programming are. 
+      Click on the images below for a summary of what pair and mob programming are. 
 
     subInc: 
       type: reveal
@@ -25,12 +25,12 @@ sections:
           title: Pair programming
           copy: |
             2 coders work in pairs using one machine. One person, called the driver, writes the code, and the other person, called the observer, reviews it as it’s typed, 
-          img: placeholder_icon.svg
+          img: cp3_u2_s3_p3_reveal1.svg
         -
           title: Mob programming
           copy: |
             The whole team work together in an extended version of pair programming, still on one computer. Along with the driver there will be several observers and diverse roles such as designing, testing and deployment. 
-          img: placeholder_icon.svg
+          img: cp3_u2_s3_p3_reveal2.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -38,18 +38,6 @@ sections:
     copy: |
       Lets take a look at the advantages and disadvantages of pair and mob programming. 
     video: cp3_u2_s3_p3_pair_mob_programming.mp4
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Title - DnD - Pair or Mob
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -63,11 +51,32 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about Pair and Mob programming.
 
       links:
         Pair or Mob programming: https://www.agilealliance.org/pair-programming-versus-mob-programming/
   -
   -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Pair programming is when two people within a team would collaborate.
+          answer: Pair
+        -
+          sentence: In Pair programming there is one Driver and one Navigator.
+          answer: Pair
+        -
+          sentence: Mob programming is when the whole team works together which would involve several people.
+          answer: Mob
+        -
+          sentence: Pair programming may not work as some developers need or prefer to work alone.
+          answer: Pair
+        -
+          sentence: In Mob programming there is one Driver and several Navigators.
+          answer: Mob
+        -
+          sentence: It has been found that Mob programming works well for complex software products.
+          answer: Mob
+    theme: i-quiz

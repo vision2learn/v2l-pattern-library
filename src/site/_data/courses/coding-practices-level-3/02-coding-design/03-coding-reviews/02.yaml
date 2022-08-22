@@ -1,7 +1,7 @@
 title: Importance of coding reviews
 intro: |
   on this page you will learn about the importance of reviews and providing effective feedback.
-banner: placeholder.jpg
+banner: cp3_u2_s3_p2_importance.jpg
 sections:
   -
     title: Key point
@@ -80,7 +80,7 @@ sections:
           title: Submitting a request for a coding review
           text: |
             Code is submitted for review as each section is completed, after automated checks have been performed and before it’s merged with the main branch. The coder should consider the reviewer’s time and split large files to allow for multiple short reviews.  Using the Agile process, the coder should initiate the review request, include information for what the code is for and allocate a team member or team members as reviewers.
-          img: placeholder_icon.svg
+          img: cp3_u2_s3_p2_slide1.svg
         -
           title: Performing a coding review
           text: |
@@ -88,7 +88,7 @@ sections:
 
             The reviewer should only comment on the code and not the coder themselves. They should advise any improvements that can be made and suggest where code can be simplified and structure can be strengthened. The reviewee can benefit from the critical evaluation and should look at this as a way to develop their knowledge and skills. 
 
-          img: placeholder_icon.svg
+          img: cp3_u2_s3_p2_slide2.svg
   -
   -
     title: Activity
