@@ -25,7 +25,7 @@ sections:
       
       **Record** - The data within one entity in a database which would be recorded as a row within a table – this would contain the data for each ‘employee’  Sor for example a record for one employee – 10001, 02/09/1953, Georgi Facello, Male, 26/06/1986 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u2_s4_p2_image1.svg)
 
       **Unit of data** – This is each piece of data within each record eg. ‘Facello’ – this is also known at data elements. 
       
@@ -81,7 +81,7 @@ sections:
 
       ### Database Schema
       
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u2_s4_p2_wideimage2.svg)
 
   -
   -
@@ -104,14 +104,14 @@ sections:
             **Verification** – checks the *data* is correct – e.g. the date of birth for an employee is correct  
 
             It is the *primary key* that enforces integrity constraints to the table.  No duplicates or NULL values are allowed. 
-          img: placeholder_icon.svg
+          img: cp3_u2_s4_p2_slide1.svg
         -
           title: Referential integrity
           text: |
             The accuracy and consistency of data within a *relationship* is known as referential integrity.  A relationship is when two or more tables are joined together as they have linked data. In our example the ‘employees’ table is linked to the ‘titles’ table.  For these relationships to work we need to ensure that the data on both sides of the relationship is unbroken.  Referential integrity is when a foreign key value in one table references a valid existing primary key in the parent table. So in our example referential integrity would ensure that the job title for an employee is correct as the primary key ‘emp_no’ in the ‘employees’ table is a foreign key in the ‘titles’ table. 
             
             Referential integrity would prevent adding a new record (row) to a related table if that record did not exist in the parent (primary) table, changing values or deleting records in a parent table that would result in orphaned records in the related table.  So for example if we deleted a record from the employee table, the same record in the titles table would be ‘orphaned record’ as in there would be no longer be a relationship with that record. 
-          img: placeholder_icon.svg
+          img: cp3_u2_s4_p2_slide2.svg
         -
           title: Constraints
           text: |
@@ -120,7 +120,7 @@ sections:
             **Entity integrity constraints** - no primary key can have a NULL value.
             
             **Referential integrity constraints** – is specified between a relationship between two tables to maintain the consistency of records, it is enforced through the foreign key, and the value of the foreign key can be either the Primary key from the parent table or can take a NULL value but cannot be empty. 
-          img: placeholder_icon.svg
+          img: cp3_u2_s4_p2_slide3.svg
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
