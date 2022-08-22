@@ -65,35 +65,33 @@ sections:
         Microsoft.NET official guide: https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-1.1/czefa0ke(v=vs.71)?redirectedfrom=MSDN
   -
   -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Code review and or Static analysis
-
-      Select the following icon to have a go at an activity to put the code review items and or static analysis in the correct order.
-
-      _links to an example DnD activity from level 2 course_
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
-  -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A code review which is also known as a peer review, is a form of software quality assurance. 
+          answer: code review
         -
-          sentence: example two
-          answer: two
+          sentence: A tool that is used to automatically check code for weaknesses that may cause issues later on is known as static analysis. 
+          answer: static analysis
         -
-          sentence: example three 
-          answer: three
+          sentence: A static analysis finds potential quality issues in the code before the program is run.
+          answer: static analysis
         -
-          sentence: example four
-          answer: four
+          sentence: A code review is when one or more of the developer team would check each other’s source code in a given project.
+          answer: code review
+        -
+          sentence: Typical elements of a code review would be to include which standards would be used, first passes, using a ticketing system and run tests.
+          answer: code review
+        -
+          sentence: A code review would check any changes made and complete the review with an in-depth pass.
+          answer: code review
+        -
+          sentence: A static analysis would be used to find and fix vulnerabilities, bugs, code errors, security risks, memory leaks, null pointers, and buffer overflow.
+          answer: static analysis
+        -
+          sentence: A static analysis would be used to find any violations of the coding standard whilst the code is not being run.
+          answer: static analysis
     theme: i-quiz
