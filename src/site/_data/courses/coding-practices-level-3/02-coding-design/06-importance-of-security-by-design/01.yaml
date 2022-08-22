@@ -35,7 +35,6 @@ sections:
     title:  SSDLC v’s SDLC
     theme: t-bg-primary
     copy: |
-     
       In recent years software developers have had to consider software security rather than just focusing on delivering functional software in the agreed timeframe. Previously there wasn’t a great deal of emphasis on security so checks for flaws in the software were only carried out at the testing stage of the SDLC which has the potential to cause serious issues relating the timely deployment of the software. What was need was a way to incorporate a security element within the SDLC. Let’s look at an example of a secure software development life cycle for a team creating a membership renewal portal:
 
 
@@ -111,7 +110,6 @@ sections:
           
     theme: i-quiz
   -
-  
     title: Activity
     layout: media
     theme: t-bg-primary2
@@ -124,7 +122,6 @@ sections:
     activity: 
       ref: cp3_u1_s6_p1_activity
   -
-
     title: Time to think
     include: 
       type: time-to-think
@@ -136,10 +133,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        
-
         Please see the following website where you can learn more about the importance of embedding security by design in the SDLC.
 
       links:
         Secure SDLC: https://www.synopsys.com/blogs/software-security/secure-sdlc/
-    

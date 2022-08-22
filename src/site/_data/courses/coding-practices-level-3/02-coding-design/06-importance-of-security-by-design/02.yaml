@@ -65,7 +65,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Of the common security issues and threats listed above, which one are you most familiar and not familiar with? why?
+        Of the common security issues and threats listed above, which ones are you most familiar, and not familiar with? Why?
 
   -
     title: Key point
@@ -90,27 +90,27 @@ sections:
            This involves translating special characters into some different but equivalent character that cant be recognised by the attacking software and presents no danger to the target interpreter, for example translating the < character into the &lt; string when writing to an HTML page. 
            Escaping is a subset of encoding, where not all characters need to be encoded. Only some characters are encoded (by using an escape character).
 
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide6.svg
         -  
           title: Input validation
           text: |
            Input validation is a powerful too that is used to ensure that the data entered by a user is acceptable. For example, if a program were to ask for a score between 0 and 50, an input validation would be used to ensure that values below 0 and above 50 were rejected.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide7.svg
         -
           title: HTTPS
           text: |
            Hypertext transfer protocol (HTTP) is the protocol that is used to send data from a web browser to a website. Hypertext Transfer Protocol Secure (HTTPS) is a secure version that enables visitors to the website to transmit sensitive data such as banking or payment details and login credentials securely over the internet.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide8.svg
         -
           title: Passwords
           text: |
            Poor password security is one of the most common and easiest ways that attackers gain access to a system. More sophisticated and secure methods to access sites and systems are becoming more common and features such as multi factor authentication and the ability for auto generated complex passwords can greatly increase system and software security.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide9.svg
         -
           title: Error handling
           text: |
            Understanding error messages is an important part of application development and troubleshooting. Error messages provide valuable information to the developer when something goes wrong, allowing them to fix problems with their application. Unfortunately, when errors are not handled in a secure manner, they can expose sensitive information. For example, an error message that includes information on the structure of a SQL database table may give attackers everything they need to know in order to carry out a successful SQL injection attack.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide10.svg
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -149,5 +149,5 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        in the slides above you have read about some of the methods that can be used to keep software and systems secure. Using this information and your own research explain how each of these keep software and systems secure. 
+        In the slides above you have read about some of the methods that can be used to keep software and systems secure. Using this information and your own research explain how each of these keep software and systems secure. 
     theme: t-bg-primary3 i-think
