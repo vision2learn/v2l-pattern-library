@@ -3,19 +3,17 @@ intro: |
   On this page you will learn about:
   * The different methods that can be used to secure software
   * The most common security issues and threats
-banner: placeholder.jpg
+banner: cp3_u2_s6_p2_importance_security.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to identify common security issues and threats
+      In your assessment you will be required to identify common security issues and threats.
   -
     title: Security issues and threats that can impact software development
     theme: t-bg-primary
     copy: |
-      
-    
       Scroll through the slides below to learn more about these threats.
 
     subInc: 
@@ -28,28 +26,28 @@ sections:
             Social engineering is the name given to techniques used by cyber criminals to manipulate and trick people into giving out confidential information, transferring money or downloading malware.
 
             Social engineers use psychology to manipulate a victim’s feelings of curiosity or fear to draw them into a trap. They often find it is easier to exploit a person’s willingness to trust rather than go to the trouble of trying to discover ways to hack their software.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide1.svg
         -  
           title: Phishing
           text: |
            Phishing covers a broad range for cyber attacks that may come via email, phone or video conferencing. They involve social engineering to trick victims into sharing sensitive information such as passwords, usernames and even financial details for malicious reasons. Their messages pertain to be from trusted sources and ask the victim to click on a link or download an attachment, navigate a fake webpage or give verbal information. These types of attack can come about because of a lack of staff training and or inadequate firewalls. The use of fake domain names (that are similar to the actual domain name), are often used to trick taking users to fake sites. All business should make sure their staff have the up to date information about potential phishing attacks.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide2.svg
         -
           title: Malware
           text: |
            Malicious software or malware is any software that is designed for the purposes of intentionally causing damage or exploiting any programmable device, computer, service, network, or system.
            Malicious software can include Viruses, Ransomware, Spyware,Trojans, Worms, Scareware and Adware. Some of these have already been mentioned in previous units but let's refresh our memories on what they involve.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide3.svg
         -
           title: DoS and DDoS
           text: |
            A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource. This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide4.svg
         -
           title: Injection attacks
           text: |
            Injection attacks come in many forms but they all have one feature in common, they are designed to inject malicious code into the system to gain access to, and take control of the contents of the systems database. SQL injection flaws are introduced during the software development stage which is why it is important to consider this risk during the SSDLC. There are numerous different types of injection attack methods and there is a link below to read about these in more detail.  
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p2_slide5.svg
 
   -
     title: On the web
@@ -57,8 +55,6 @@ sections:
     include:
       type: on-the-web
       copy: |
-       Injection attacks
-
         Please see the following website where you can learn more the different Injection attack methods.
 
       links:
@@ -69,7 +65,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        Of the common security issues and threats listed above, which one are you most familiar and not familiar with? why?
 
   -
     title: Key point
@@ -82,8 +78,6 @@ sections:
     theme: t-bg-primary
     copy: |
       So how can you protect systems from the attacks that we have looked at so far? As the complexity and sophistication of attacks develop, methods to secure systems and software are constantly developing and improving. Let’s take a quick look at some of these methods.
-     
-
     subInc: 
       type: slider
       title: 
@@ -117,17 +111,13 @@ sections:
           text: |
            Understanding error messages is an important part of application development and troubleshooting. Error messages provide valuable information to the developer when something goes wrong, allowing them to fix problems with their application. Unfortunately, when errors are not handled in a secure manner, they can expose sensitive information. For example, an error message that includes information on the structure of a SQL database table may give attackers everything they need to know in order to carry out a successful SQL injection attack.
           img: placeholder_icon.svg
-
-
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-           
-
-
+        Please see the following website to learn more about the software security SDLC:   
 
       links:
         Secure SDLC: https://www.synopsys.com/blogs/software-security/secure-sdlc/
@@ -155,11 +145,9 @@ sections:
             Positive: true
           feedback: text
   -
-    
-
     title: Time to think
     include: 
       type: time-to-think
-      copy: in the slides above you have read about some of the methods that can be used to keep software and systems secure. Using this information and your own research explain how each of these  
-    theme: t-bg-primary3 i-think 
-  -      
+      copy: |
+        in the slides above you have read about some of the methods that can be used to keep software and systems secure. Using this information and your own research explain how each of these keep software and systems secure. 
+    theme: t-bg-primary3 i-think

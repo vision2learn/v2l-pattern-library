@@ -4,7 +4,7 @@ intro: |
   * Incorporating security by design in the development stage
   * Why security by design is important
   * Threats in software development
-banner: cs3_u1_s3_p1_design.jpg
+banner: cp3_u2_s6_p1_software_development.jpg
 sections:
   -
     title: What you will learn
@@ -51,14 +51,14 @@ sections:
             *	__Sample functional requirement:__ user needs the ability to verify their contact information before they are able to renew their membership. 
             *	__Sample security consideration:__ users should be able to see only their own contact information and no one else’s.
 
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p1_slide1.svg
         -
           title: Stage 2:Design 
           text: |
            This phase translates in-scope requirements into a plan of what this should look like in the actual application. Here, functional requirements typically describe what should happen, while security requirements usually focus on what shouldn’t.
            * __Sample functional design:__ page should retrieve the user’s name, email, phone, and address from CUSTOMER_INFO table in the database and display it on screen.
            * __Sample security concern:__ we must verify that the user has a valid session token before retrieving information from the database. If absent, the user should be redirected to the login page.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p1_slide2.svg
         -
           title: Stage 3:Development
           text: |
@@ -69,7 +69,7 @@ sections:
             * Sanitising any data that’s being sent back out to the user from the database
             * Checking open source libraries for vulnerabilities before using them
             
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p1_slide3.svg
         -
           title: Stage 4:Testing
           text: |
@@ -77,14 +77,14 @@ sections:
             * Automated tests that express the critical paths of your application
             * Automated execution of application unit tests that verify the correctness of the underlying application
             * Automated deployment tools that dynamically swap in application secrets to be used in a production environment
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p1_slide4.svg
         -
           title: Stage 5:Deployment and Evolution
           text: |
             The story doesn’t end once the application is released. In fact, vulnerabilities that slipped through the cracks may be found in the application long after it’s been released. These vulnerabilities may be in the code developers wrote, but are increasingly found in the underlying open-source components that comprise an application. This leads to an increase in the number of “zero-days”—previously unknown vulnerabilities that are discovered in production by the application’s maintainers.
 
             These vulnerabilities then need to be patched by the development team, a process that may in some cases require significant rewrites of application functionality. Vulnerabilities at this stage may also come from other sources, such as external penetration tests conducted by ethical hackers or submissions from the public through what’s known as “bug bounty” programs. Addressing these types of production issues must be planned for and accommodated in future releases.
-          img: placeholder_icon.svg
+          img: cp3_u2_s6_p1_slide5.svg
   -       
     title: Quick quiz
     subInc: 
