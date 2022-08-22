@@ -71,17 +71,17 @@ sections:
 
       There are three types of relationships in a relational database: 
       
-      **One-to-one** – a relationship between two tables where there is only one matching record (row) in the other table 
+      **One-to-one** – a relationship between two tables where there is only one matching record (row) in the other table.
       
-      **One-to-many** – a relationship between two tables where there is multiple matching records in one of the tables linked to one record in the parent table 
+      **One-to-many** – a relationship between two tables where there is multiple matching records in one of the tables linked to one record in the parent table. In our example the one-to-many relationship is 'one' from the 'employees' _parent_ table and 'many' to four other tables ('salaries', 'titles', 'dept_emp', and 'dept_manager').
       
-      **Many-to-many** – a relationship where there are multiple records in both tables – in this instance a look-up table would be used (also known as a junction table).  In our example the ‘dept_emp’ table is a look-up table. 
+      **Many-to-many** – a relationship where there are multiple records in both tables – in this instance a look-up table would be used (also known as a junction table).  In our example the ‘departments’ table is a look-up table. 
 
       Take a look at the below diagram which shows the relationships in our example database:
 
       ### Database Schema
       
-      ![](/images/svg/cp3/cp3_u2_s4_p2_wideimage2.svg)
+      ![](/images/svg/cp3/cp3_u2_s4_p2_image2.svg)
 
   -
   -
