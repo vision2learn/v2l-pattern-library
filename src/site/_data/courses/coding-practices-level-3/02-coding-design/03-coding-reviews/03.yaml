@@ -24,7 +24,7 @@ sections:
         -
           title: Pair programming
           copy: |
-            2 coders work in pairs using one machine. One person, called the driver, writes the code, and the other person, called the observer, reviews it as it’s typed, 
+            2 coders work in pairs using one machine. One person, called the driver, writes the code, and the other person, called the observer, reviews it as it’s typed.
           img: cp3_u2_s3_p3_reveal1.svg
         -
           title: Mob programming
@@ -44,7 +44,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Can you think of situations when it might be better to use pair programming and when it might be better to use mob programming? Carry out some research and make a note of you thoughts in the box to the right. 
+        Can you think of situations when it might be better to use pair programming and when it might be better to use mob programming? Carry out some research and make a note of your thoughts in the box to the right. 
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web

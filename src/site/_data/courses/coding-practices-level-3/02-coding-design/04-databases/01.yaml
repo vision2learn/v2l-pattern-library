@@ -11,7 +11,7 @@ sections:
       * What is meant by structured data and unstructured data
       * What is meant by databases
       * The structure and key components of a database table
-      * The use of primary and foreign keys
+      * The use of Primary and Foreign keys
       * Techniques for querying databases
       * The purpose of database indexing
   -
@@ -45,7 +45,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Consider some information that you have which would benefited from being more organised. This could be a list of names and addresses or a simple 'to-do list'.  Create a table and organise your information so it is structured rather than 'unstructured' data. Use the text box to make some notes.
+        Consider some information that you have which will benefit from being more organised. This could be a list of names and addresses or a simple 'to-do list'.  Create a table and organise your information so it is structured rather than 'unstructured' data. Use the text box to make some notes.
   -
   -
     title: On the web

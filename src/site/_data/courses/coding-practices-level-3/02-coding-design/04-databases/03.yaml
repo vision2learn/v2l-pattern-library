@@ -18,7 +18,7 @@ sections:
     copy: |
       ### How to query a database
       
-      Please see the following video on how to use a software tool which has a graphical user interface (GUI) to manage database administration.  We will also show how to write SQL queries.
+      Please see the following video on how to use a software tool which has a graphical user interface (GUI) to manage database administration.  We will also show you how to write SQL queries.
     video: cp3_u2_s4_p3_database_instruction.mp4
   -
   -
@@ -113,9 +113,9 @@ sections:
     title: Database indexing
     theme: t-bg-primary
     copy: |
-      Indexing (which isn’t seen) is used to minimise the resources needed and optimise the performance of a database – as in they speed up searches. This is for when the data is queried - when a SQL query is ran on the data.  A given database could have hundreds or thousands of records so it is important to have an index so you can access the data quickly and efficiently.  An index includes a ‘key’ or direct link to each record (row of data) so that record can be retrieved in an efficient way.  
+      Indexing (which isn’t seen) is used to minimise the resources needed and optimise the performance of a database – as in they speed up searches. This is for when the data is queried - when a SQL query is ran on the data.  A given database could have hundreds or thousands of records so it is important to have an index that allows you to access the data quickly and efficiently.  An index includes a ‘key’ or direct link to each record (row of data) so that record can be retrieved in an efficient way.  
 
-      The Primary key uniquely identifies a record, and it will have an index created on it and is automatically updated each time a new record is added.  You can also create your own index on a different (field) column. 
+      The Primary key uniquely identifies a record, and it will have an index created on it which is automatically updated each time a new record is added.  You can also create your own index on a different (field) column. 
 
       See below for an example of creating your own index:
     
@@ -127,8 +127,7 @@ sections:
         CREATE INDEX employee_last_name
         ON last_name (employee)
 
-    copy2: When you create an index within a database you are creating a physical object which is being saved to disk - so once you have performed the first search on a table, you would not need to read the entire table for subsequent times, as the database only needs to load the index from the disk into memory which will be much quicker.  This is because the values in the index ‘last_name’ are already sorted.
-    
+    copy2: When you create an index within a database, you are creating a physical object which is being saved to disk - so once you have performed the first search on a table, you would not need to read the entire table for subsequent times. The database will only need to load the index from the disk into memory which will make it much quicker.  This is because the values in the index ‘last_name’ are already sorted.
   -
   -
     title: On the web

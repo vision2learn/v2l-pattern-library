@@ -41,7 +41,7 @@ sections:
         -
           title: DoS and DDoS
           text: |
-           A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource. This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as can increasing the number of clients a web server will allow.
+           A (DoS) denial of service and (DDoS) distributed denial of service attack involves computers flooding or crashing a system by creating too much internet traffic causing it to slow down and eventually stop. This can keep legitimate users from accessing a networked system, service, website, application or other resource. This type of attack uses malware and botnets. Many attackers are politically motivated and seek to damage a company’s reputation, others use it as a distraction to launch a hacking attack. Threat intelligence can be used to monitor those likely to pose a threat by checking forums etc. Filtering internet traffic and placing IP restrictions can help as this can increase the number of clients that a web server will allow.
           img: cp3_u2_s6_p2_slide4.svg
         -
           title: Injection attacks
@@ -55,7 +55,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more the different Injection attack methods.
+        Please see the following website where you can learn more about Injection attack methods.
 
       links:
         Injection attacks: https://crashtest-security.com/what-are-the-different-types-of-injection-attacks/
@@ -83,33 +83,34 @@ sections:
       title: 
       slides:
         -
-          title: Encode and Escape Data
+          title: Encode and Escape data
           text: |
-           These are both techniques that are designed to stop injection attacks. 
-           Encoding is transforming data from one format into another format. 
-           This involves translating special characters into some different but equivalent character that cant be recognised by the attacking software and presents no danger to the target interpreter, for example translating the < character into the &lt; string when writing to an HTML page. 
-           Escaping is a subset of encoding, where not all characters need to be encoded. Only some characters are encoded (by using an escape character).
+            These are both techniques that are designed to stop injection attacks. Encoding is transforming data from one format into another format. 
+            
+            This involves translating special characters into some different but equivalent character that cannot be recognised by the attacking software, which will present no danger to the target interpreter. For example translating the < character into the &lt; string when writing to an HTML page. 
+           
+            Escaping is a subset of encoding, where not all characters need to be encoded. Only some characters are encoded (by using an escape character).
 
           img: cp3_u2_s6_p2_slide6.svg
         -  
           title: Input validation
           text: |
-           Input validation is a powerful too that is used to ensure that the data entered by a user is acceptable. For example, if a program were to ask for a score between 0 and 50, an input validation would be used to ensure that values below 0 and above 50 were rejected.
+            Input validation is a powerful tool that is used to ensure that the data entered by a user is acceptable. For example, if a program were to ask for a score between 0 and 50, an input validation would be used to ensure that values below 0 and above 50 were rejected.
           img: cp3_u2_s6_p2_slide7.svg
         -
           title: HTTPS
           text: |
-           Hypertext transfer protocol (HTTP) is the protocol that is used to send data from a web browser to a website. Hypertext Transfer Protocol Secure (HTTPS) is a secure version that enables visitors to the website to transmit sensitive data such as banking or payment details and login credentials securely over the internet.
+            Hypertext transfer protocol (HTTP) is the protocol that is used to send data from a web browser to a website. Hypertext Transfer Protocol Secure (HTTPS) is a secure version that enables visitors to the website to transmit sensitive data such as banking or payment details and login credentials securely over the internet.
           img: cp3_u2_s6_p2_slide8.svg
         -
           title: Passwords
           text: |
-           Poor password security is one of the most common and easiest ways that attackers gain access to a system. More sophisticated and secure methods to access sites and systems are becoming more common and features such as multi factor authentication and the ability for auto generated complex passwords can greatly increase system and software security.
+            Poor password security is one of the most common and easiest ways that attackers gain access to a system. More sophisticated and secure methods to access sites and systems are becoming more common and features such as multi factor authentication and the ability for auto generated complex passwords can greatly increase system and software security.
           img: cp3_u2_s6_p2_slide9.svg
         -
           title: Error handling
           text: |
-           Understanding error messages is an important part of application development and troubleshooting. Error messages provide valuable information to the developer when something goes wrong, allowing them to fix problems with their application. Unfortunately, when errors are not handled in a secure manner, they can expose sensitive information. For example, an error message that includes information on the structure of a SQL database table may give attackers everything they need to know in order to carry out a successful SQL injection attack.
+            Understanding error messages is an important part of application development and troubleshooting. Error messages provide valuable information to the developer when something goes wrong, allowing them to fix problems with their application. Unfortunately, when errors are not handled in a secure manner, they can expose sensitive information. For example, an error message that includes information on the structure of a SQL database table may give attackers everything they need to know in order to carry out a successful SQL injection attack.
           img: cp3_u2_s6_p2_slide10.svg
   -
     title: On the web
@@ -127,23 +128,21 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "HTTP indicates that it is safe to transfer sensitive information.":
           answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
+            True: false
+            False: true
+          feedback: Only when a website is showing HTTPS can you be confident that the website is secure to transfer sensitive information.
+        Select one option to complete the following sentence:"Social engineering is carried out by targeting __________ to carry out malicious activities.":
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Systems: False
+            Individuals: true 
+            Software: false 
+        Is the following statement true or false? "SQL injection flaws are introduced during the software testing stage.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            True: false
+            False: true
+          feedback: SQL injection flaws are introduced during the software development stage.
   -
     title: Time to think
     include: 

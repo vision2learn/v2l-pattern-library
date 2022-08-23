@@ -38,7 +38,7 @@ sections:
           text: |
             Workflow is improved and teams communicate better by understanding the standardised principles universally used within the company. Everyone is able to understand what everyone else is doing and this leads to better collaboration and less conflict.  
             
-            The SOLID principles are useful for teams working together on a single project as they are designed to avoid well-known issues and make it easier to make changes to the code. As most businesses want to see a faster turnaround, this means in coding projects there needs to be less need for peer corrections.  
+            The SOLID principles are useful for teams working together on a single project as they are designed to avoid well-known issues and make it easier to make changes to the code. As most businesses want to see a faster turnaround, this means in coding projects there is less need for peer corrections.  
           img: cp3_u2_s2_p2_slide3.svg
   -
   -
@@ -47,7 +47,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Take a look at the below websites which discuss the importance of KISS and SOLID principles.  Choose one of the principles and make some notes of how the impact of following this principle has on the code written and how it can benefit the coder and their team members. 
+        Take a look at the below websites which discuss the importance of KISS and SOLID principles.  Choose one of the principles and make some notes on what impact following this principle has on the written code, and how it can benefit the coder and their team members. 
   -
   -
     title: On the web

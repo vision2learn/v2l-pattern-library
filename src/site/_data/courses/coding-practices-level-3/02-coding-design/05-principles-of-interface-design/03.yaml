@@ -21,9 +21,9 @@ sections:
     title: Importance of information architecture and UX
     theme: t-bg-primary
     copy: |
-      Information architecture (IA) and User experience (UX) are part of a wider design field called Human computer interaction (HCI). HCI concentrates on the interface (user interaction) between people (humans) and computers. It would include many different specialties including technology, psychology, ergonomics, and human factors. Fundamentally, HCI makes interactions more human. 
+      Information architecture (IA) and User experience (UX) are part of a wider design field called Human Computer Interaction (HCI). HCI concentrates on the interface (user interaction) between people (humans) and computers. It would include many different specialties including technology, psychology, ergonomics, and human factors. Fundamentally, HCI makes interactions more human. 
 
-      Good IA helps users to navigate through the piles of data and information that is available today in our modern digital world. Good IA is critical as it provides us with a logical way to organise and navigate through the vast amount of data. The key factor to consider in IA is the user; to understand how they think, what problems they are trying to solve, and presenting information in a logical way to support this.  A good site should be visually appealing with logical navigation and intuitive to use. 
+      Good IA helps users to navigate through the piles of data and information that is available today in our modern digital world. Good IA is critical as it provides us with a logical way to organise and navigate through the vast amount of data. The key factor to consider in IA is the user; to understand how they think, what problems they are trying to solve, and presenting information in a logical way to support this.  A good site should be visually appealing with logical navigation and be intuitive to use. 
 
       Scroll through the slides below to see reasons why good IA is important:
 
@@ -34,7 +34,7 @@ sections:
         -
           title: User focused
           text: |
-            Good IA will help to keep the user focussed and less likely to be distracted on what they are trying to achieve if the task they are looking at is easy to follow.
+            Good IA will help to keep the user focussed and less likely to be distracted on what they are trying to achieve.  This is especially so if the task they are looking at is easy to follow.
           img: cp3_u2_s5_p3_slide1.svg
         -
           title: Cognitive load and process speed
@@ -44,7 +44,7 @@ sections:
         -
           title: Context addition
           text: |
-            It will make it easier to understand and analyse information as a visual navigation path will provide more context for the content that the user is viewing.  So if the user can see the ‘bigger picture’ of where they are within a process, then the user is more likely to more comfortable with the task they are doing. 
+            It will make it easier to understand and analyse information as a visual navigation path will provide more context for the content that the user is viewing.  So if the user can see the ‘bigger picture’ of where they are within a process, then the user is more likely to be more comfortable with the task they are doing. 
           img: cp3_u2_s5_p3_slide3.svg
         -
           title: Duplication of information
@@ -54,7 +54,7 @@ sections:
         -
           title: Support needs
           text: |
-            It would reduce frustration for the user and would mean that there would be less support needed. This would also mean reduced cost of support to a business as they would have reduced requirements to provide support if a user does not have any issues in finding what they need.
+            If a user does not have any issues in finding what they need, this reduces their frustration and means that there would be less support needed. This also means reduced cost of support to a business as they would have reduced requirements to provide support.
           img: cp3_u2_s5_p3_slide5.svg
         -
           title: Less bounce time
@@ -124,7 +124,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Take another look at the good and bad websites that you found in the earlier task. See if you can identify how each of the principles of UI design have (or not) been used on those websites.
+        Take another look at the good and bad websites that you found in the earlier task. See if you can identify how each of the principles of UI design have (or have not) been used on those websites.
   -
   -
     title: Quick quiz
@@ -139,7 +139,7 @@ sections:
           sentence: Consistency – The UI design needs to be uniform such as the branding colours and typography. 
           answer: Consistency
         -
-          sentence: Tolerance – Users needs to be forgiven of their mistakes that they make especially when first using the interface. 
+          sentence: Tolerance – Users needs to be forgiven of their mistakes, especially when first using the interface. 
           answer: Tolerance
         -
           sentence: Efficiency – The interface should plan for minimal input and provide shortcuts for experienced users so they can be more productive. 
