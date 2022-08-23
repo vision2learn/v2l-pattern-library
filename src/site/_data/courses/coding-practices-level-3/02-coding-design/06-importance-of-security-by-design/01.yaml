@@ -35,8 +35,9 @@ sections:
     title:  SSDLC v’s SDLC
     theme: t-bg-primary
     copy: |
-      In recent years software developers have had to consider software security rather than just focusing on delivering functional software in the agreed timeframe. Previously there wasn’t a great deal of emphasis on security so checks for flaws in the software were only carried out at the testing stage of the SDLC which has the potential to cause serious issues relating the timely deployment of the software. What was need was a way to incorporate a security element within the SDLC. Let’s look at an example of a secure software development life cycle for a team creating a membership renewal portal:
-
+      In recent years software developers have had to consider software security rather than just focusing on delivering functional software in the agreed timeframe. Previously there wasn’t a great deal of emphasis on security, so checks for flaws in the software were only carried out at the testing stage of the SDLC.  This had the potential to cause serious issues relating to the timely deployment of the software. What was needed was a way to incorporate a security element within the SDLC. 
+      
+      Let’s look at an example of a secure software development life cycle for a team creating a membership renewal portal:
 
     subInc: 
       type: slider
@@ -61,7 +62,7 @@ sections:
         -
           title: Stage 3:Development
           text: |
-            When it’s time to actually implement the design and make it a reality, concerns usually shift to making sure the code well-written from the security perspective. As the vast majority of modern applications aren’t written from scratch, modern application developers can’t be concerned only with the code they write. Instead, developers rely on existing functionality, usually provided by free open source components to deliver new features and therefore value to the organization as quickly as possible.
+            When it’s time to actually implement the design and make it a reality, concerns usually shift to making sure the code is well-written from the security perspective. As the vast majority of modern applications aren’t written from scratch, modern application developers can’t be concerned only with the code they write. Instead, developers rely on existing functionality, usually provided by free open source components to deliver new features.  These  therefore give value to the organisation as quickly as possible.
             Secure coding guidelines, in this case, may include:
             * Using parameterised, read-only SQL queries to read data from the database and minimize chances that anyone can ever commandeer these queries for malicious purposes
             * Validating user inputs before processing data contained in them

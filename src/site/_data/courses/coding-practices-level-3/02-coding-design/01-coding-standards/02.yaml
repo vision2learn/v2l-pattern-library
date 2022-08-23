@@ -33,7 +33,7 @@ sections:
     copy: |
       ### ACE Software Development Agency
 
-      The ACE Software Development Agency has decided to increase it’s team and employ two new Developers.  On their first day instruction was given to Malika the Lead Developer to show the two new Developers Tom and Dimitris, the agency’s Coding Standards guide which had just been updated that morning so the only version was a PDF. It included several sections including their practice for variable names:
+      The ACE Software Development Agency has decided to increase it’s team and employ two new Developers. The first day's training includes an introduction to the agency’s Coding Standards guide. Malika, the lead developer, had just completed updating the guide that morning and only had a PDF version ready for the training, which included several sections for the agency's practice for variable names, such as:
       * A variable name should describe what its purpose is
       * Remember that ease of reading is more important than speed of writing 
       * Minimise the overthinking with small decisions from following consistent standards. 
@@ -69,11 +69,9 @@ sections:
     copy: |
       ### ACE Software Development Agency - Consequences
 
-      Two months into the project that both of the developers were assigned to, Malika the lead developer noticed that there were inconsistencies with Tom’s and the other developers' code who were also working on the same project.  Tom’s variable declarations and variable names did not match the other developers’ code. 
+      Two months into the project, the lead developer, Malika, noticed that there were inconsistencies with two new developers' code. Tom’s variable declarations and variable names did not match with Dimitris's code. This caused delays at the review and testing stage of the project. Other developers also found Tom's code difficult to follow. 
       
-      This caused delays at the review and testing stage of the project.  The other developers’ also found his code difficult to follow.  
-      
-      Upon further investigation Malika realised that on their first day unfortunately she hadn’t been told that Tom was going to be starting a day later, and that he was a junior developer, and it transpired that he never got shown (or told to use) the agency’s most up to date coding standard guides.  
+      Upon further investigation Malika discovered that Tom is a Junior Developer and he starting a day later than Dimitris. Therefore, Tom missed the training on the agency's coding standards and he was unaware of the most up to date guides.
 
     img: /images/svg/cp3/cp3_u2_s1_p2_case_study_2.svg
   -
@@ -83,7 +81,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Where else was there a risk with Tom not using the agency's coding standards? Make some notes and take into consideration the following concerns and issues of the consequences of not using coding standards:
+        Do you think there are other risks caused by Tom not knowing the agency's coding standards? Consider the following concerns and issues of the consequences of not using coding standard and make some notes here.
         * Security
         * Performance
         * Maintaining or updating the code.

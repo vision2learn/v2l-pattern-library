@@ -39,7 +39,7 @@ sections:
         Please see the following website where you can learn more about code reviews.
 
       links:
-        4 Types Of Code Reviews Any Developer Should Know: 4 Types Of Code Reviews Any Developer Should Know
+        4 Types Of Code Reviews Any Developer Should Know: https://www.scrum-tips.com/agile/types-of-code-reviews/
   -
     title: Quick quiz
     subInc: 
@@ -53,7 +53,7 @@ sections:
           answer: driver
         -
           sentence: Inspection reviews consist of five steps.
-          answer: Five
+          answer: five
         -
           sentence: Rework is step four of the inspection review method.
           answer: four
@@ -105,7 +105,7 @@ sections:
         -
           title: New technologies
           text: |
-            Sharing the code review between colleagues allows everyone to understand different techniques and develop their skill set. It allows new technologies to be shared in an equal environment where newer coders may teach more experienced ones the latest trends and more experienced developers can help newer ones understand the importance of tried and tested techniques.
+            Sharing the code review between colleagues allows everyone to understand different techniques and develop their skill set. It allows new technologies to be shared in an equal environment where newer coders may teach more experienced ones the latest trends. It also allows more experienced developers can help newer ones understand the importance of tried and tested techniques.
           img: cp3_u2_s3_p1_slide5.svg
   -
   -

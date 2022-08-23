@@ -26,9 +26,9 @@ sections:
     copy: |
       The goal of a User experience (UX) project is to make sure that the end user has a positive experience with a product. To enable this to happen, the 5 elements of UX design acts as a guide for UX designers as it provides structure and direction to their decision making for any given project. 
 
-      They were created by a UX designer called Jesse James Garrett which you can see in the below Read item the original diagram from his book which was published in 2002.
+      They were created by a UX designer called Jesse James Garrett. In the below Read item you can see the original diagram from his book which was published in 2000.
 
-      As can be seen in the diagram below the 5 elements of UX are on 5 separate planes each one is positioned on top of the previous one to create an outline of the full process from the bottom to the top. 
+      As can be seen in the diagram below the 5 elements of UX are on 5 separate planes. Each one is positioned on top of the previous one to create an outline of the full process from the bottom to the top.
 
       ![](/images/svg/cp3/cp3_u2_s5_p1_ux_wideimage.svg)
   -
@@ -45,7 +45,7 @@ sections:
         -
           title: Strategy
           text: |
-            Strategy is the bottom plane of the model.  This is the most abstract and has the least constraints.  It is where the decisions are made to determine the objectives of the project and how they should be met with the design. The objectives  would include the goals of the clients and stakeholders, and they would decide at this stage why the site is needed, how it will be used, and who will be using it.
+            Strategy is the bottom plane of the model.  This is the most abstract and has the least constraints.  It is where the decisions are made to determine the objectives of the project and how they should be met with the design. The objectives would include the goals of the clients and stakeholders, and they would decide at this stage why the site is needed, how it will be used, and who will be using it.
           img: cp3_u2_s5_p1_slide1.svg
         -
           title: Scope
@@ -60,19 +60,19 @@ sections:
         -
           title: Skeleton
           text: |
-            Once the structure has been defined the skeleton of the site (also known as a wireframe) can be designed. The navigation and functional elements which were determined from the previous plane would be decided where they would go each product page.  Wireframes and prototypes would be created at this stage to arrange each part of the product e.g. buttons, images, text etc.  Interface design (ID), Navigation design, and Information design would be considered on this plane.  
+            Once the structure has been defined the skeleton of the site (also known as a wireframe) can be designed. It would be decided where the navigation and functional elements (which were determined from the previous plane) would be placed for each product page.  Wireframes and prototypes would be created at this stage to arrange each part of the product e.g. buttons, images, text etc.  Interface design (ID), Navigation design, and Information design would be considered on this plane.  
           img: cp3_u2_s5_p1_slide4.svg
         -
           title: Surface
           text: |
-            The wireframes and prototype that was created on the Skeleton plane would be used on the final Surface plane.  The surface plane is the top and most concrete plan and this is where the final pages for the product are created. Users’ sensory experience is considered at this stage and would include how colour and textures within the visual design would help them to navigate and interact with the site.  
+            The wireframes and prototype that was created on the Skeleton plane would be used on the final Surface plane.  The Surface plane is the top and most concrete plan and this is where the final pages for the product are created. Users’ sensory experience is considered at this stage and would include how colour and textures within the visual design would help them to navigate and interact with the site.  
           img: cp3_u2_s5_p1_slide5.svg
   -
   -
     title: Read 
     theme: t-bg-primary2 i-read
     copy: | 
-      Take a look at the following document to see the original 5 elements diagram from the UX designer Jesse James Garrett which was published in 2002.
+      Take a look at the following document to see the original 5 elements diagram from the UX designer Jesse James Garrett which was published in 2000.
 
       [Jesse James Garrett - 5 elements design](/pdfs/cp3_u2_s5_p1_jesse_james_garrett_five_elements.pdf).
   -
@@ -94,7 +94,7 @@ sections:
     title: User experience and User interface
     theme: 
     copy: |
-      UI and UX design are different, but are also related design disciplines. A user interface is where a ‘human would interact with a machine’.  User experience is the experience a person has when then interact with a product. UX design is more analytical and would consider cognitive behaviour and human psychology.
+      UI and UX design are different, but are also related design disciplines. A user interface is where a ‘human would interact with a machine’.  User experience is the experience a person has when they interact with a product. UX design is more analytical and would consider cognitive behaviour and human psychology.
 
       ![](/images/svg/cp3/cp3_u2_s5_p1_image2.svg)
   -
@@ -123,7 +123,7 @@ sections:
         - 
           title: User interface (UI)
           copy: |
-            UI deals with the interaction of the individual to a service, system, or application. It will allow a user to operate a device such as a computer or tablet or phone to complete a task or achieve a specific goal (e.g. use an online website to purchase an item).   
+            UI deals with the interaction of the individual to a service, system, or application. It will allow a user to operate a device such as a computer, tablet or phone to complete a task or achieve a specific goal (e.g. use an online website to purchase an item).   
 
             The three main forms of user interfaces are:
             * graphic user interface (GUI),
