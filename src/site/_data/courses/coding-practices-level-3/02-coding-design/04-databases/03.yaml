@@ -1,31 +1,100 @@
-title: TEMPLATE PAGE - may not need
+title: Queries and Indexing
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page you will learn how to query a database using a software tool which manages databases.  You will also learn about indexing. 
+banner: cp3_u2_s4_p3_queries_indexing.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to:
+      * Describe techniques for querying databases
+      * Explain the purpose of database indexing
   -
-    title: introduction text
+  -
+    title: Watch - Instructional video
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      ### How to query a database
       
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg 
+      Please see the following video on how to use a software tool which has a graphical user interface (GUI) to manage database administration.  We will also show you how to write SQL queries.
+    video: cp3_u2_s4_p3_database_instruction.mp4
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+  -
+    title: SQL CODE example
+    theme:
+    copy: |
+      Now you have watched the video see below the same SQL code used to list the employees whose job title is _Senior Engineer_ from our database.
 
+    subInc:
+      type: code
+      lang: sql
+      highlight: 
+      code: |
+        SELECT
+          `employees`.*
+        FROM
+          `titles`
+        LEFT JOIN `employees` ON `titles`.`emp_no` = `employees`.`emp_no`
+        WHERE
+          `titles`.`title` = 'Senior Engineer';
+  -
+    title: Result
+    theme:
+    copy: |
+      Here is an example of some sample data that you would get from the above SQL query:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sample data - result
+          copy: |
+      
+            title: Senior Engineer
+
+            | emp_no |	birth_date |	first_name |	last_name	| gender	| hire_date |
+            |------|------|------|------|------|------|
+            |	10001	|	9/2/1953	|	Georgi	|	Facello	|	M	|	6/26/1986 |
+            |	10003	|	12/3/1959	|	Parto	|	Bamford	|	M	|	8/28/1986 |
+            |	10004	|	5/1/1954	|	Chirstian	|	Koblick	|	M	|	12/1/1986 |
+            |	10006	|	4/20/1953	|	Anneke	|	Preusig	|	F	|	6/2/1989 |
+            |	10009	|	4/19/1952	|	Sumant	|	Peac	|	F	|	2/18/1985 |
+            |	10012	|	10/4/1960	|	Patricio	|	Bridgland	|	M	|	12/18/1992 |
+            |	10018	|	6/19/1954	|	Kazuhide	|	Peha	|	F	|	4/3/1987 |
+            |	10026	|	4/3/1953	|	Yongqiao	|	Berztiss	|	M	|	3/20/1995 |
+            |	10027	|	7/10/1962	|	Divier	|	Reistad	|	F	|	7/7/1989 |
+            |	10029	|	12/13/1956	|	Otmar	|	Herbst	|	M	|	11/20/1985 |
+            |	10030	|	7/14/1958	|	Elvis	|	Demeyer	|	M	|	2/17/1994 |
+            |	10031	|	1/27/1959	|	Karsten	|	Joslin	|	M	|	9/1/1991 |
+            |	10032	|	8/9/1960	|	Jeong	|	Reistad	|	F	|	6/20/1990 |
+            |	10035	|	2/8/1953	|	Alain	|	Chappelet	|	M	|	9/5/1988 |
+            |	10037	|	7/22/1963	|	Pradeep	|	Makrucki	|	M	|	12/5/1990 |
+            |	10040	|	9/13/1959	|	Weiyi	|	Meriste	|	F	|	2/14/1993 |
+            |	10043	|	9/19/1960	|	Yishay	|	Tzvieli	|	M	|	10/20/1990 |
+            |	10047	|	6/29/1952	|	Zvonko	|	Nyanchama	|	M	|	3/31/1989 |
+            |	10051	|	7/28/1953	|	Hidefumi	|	Caine	|	M	|	10/15/1992 |
+            |	10056	|	9/1/1961	|	Brendon	|	Bernini	|	F	|	2/1/1990 |
+  -
+  -
+    title: Read
+    theme: t-bg-primary2 i-read
+    copy: | 
+      ### Database SQL query examples
+
+      Take a look at the following document to see the example SQL queries that were used in the instruction video.
+
+      [Database query examples document](/pdfs/cp3_u2_s4_p3_query_examples_read.pdf)
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Using the phpMyAdmin demo site
+      
+      In the below link you will find an example of a database on the phpMyAdmin demo site where you can practice using the software tool and writing your own SQL code.  If you wish you could also have a go at creating your own database!
+      
+      [phpMyAdmin demo site - Sakila cinema database example](https://demo.phpmyadmin.net/master-config/index.php?route=/database/structure&db=sakila)
   -
   -
     title: On the web
@@ -33,52 +102,61 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        ### C R U D
 
-        Please see the following website where you can learn more about . . .
+        The acronym CRUD stands for CREATE, READ, UPDATE and DELETE. They describe the four essential operations for creating and managing persistent data elements (data that is permanently stored) in databases.  See the following website to learn more: 
 
       links:
-        website description: http://www.google.co.uk
+        C R U D: https://www.humio.com/glossary/crud/#:~:text=CRUD%20is%20the%20acronym%20for,in%20relational%20and%20NoSQL%20databases. 
+  -
+  -
+    title: Database indexing
+    theme: t-bg-primary
+    copy: |
+      Indexing (which isn’t seen) is used to minimise the resources needed and optimise the performance of a database – as in they speed up searches. This is for when the data is queried - when a SQL query is ran on the data.  A given database could have hundreds or thousands of records so it is important to have an index that allows you to access the data quickly and efficiently.  An index includes a ‘key’ or direct link to each record (row of data) so that record can be retrieved in an efficient way.  
+
+      The Primary key uniquely identifies a record, and it will have an index created on it which is automatically updated each time a new record is added.  You can also create your own index on a different (field) column. 
+
+      See below for an example of creating your own index:
+    
+    subInc:
+      type: code
+      lang: sql
+      highlight: 
+      code: |
+        CREATE INDEX employee_last_name
+        ON last_name (employee)
+
+    copy2: When you create an index within a database, you are creating a physical object which is being saved to disk - so once you have performed the first search on a table, you would not need to read the entire table for subsequent times. The database will only need to load the index from the disk into memory which will make it much quicker.  This is because the values in the index ‘last_name’ are already sorted.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about indexing.
+
+      links:
+        Database indexing: https://www.geeksforgeeks.org/indexing-in-databases-set-1/
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The INSERT query allows you to put new data into a table within the database. 
+          answer: INSERT
         -
-          sentence: example two
-          answer: two
+          sentence: The UPDATE query is used to update a set of data in the database. 
+          answer: UPDATE
         -
-          sentence: example three 
-          answer: three
+          sentence: The DROP TABLE query lets you delete a table from the database. 
+          answer: DROP
         -
-          sentence: example four
-          answer: four
+          sentence: The DELETE query lets you remove data from a table in the database. 
+          answer: DELETE
+        -
+          sentence: The SELECT query allows you to see a set of data within the database. 
+          answer: SELECT
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

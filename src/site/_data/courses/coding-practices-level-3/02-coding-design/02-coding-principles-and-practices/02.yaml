@@ -1,7 +1,7 @@
 title: Importance and conclusions
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page we will look deeper into good coding principles and practices to determine why it is important to follow them.
+banner: cp3_u2_s2_p2_importance_conclusions.jpg
 sections:
   -
     title: Key point
@@ -13,29 +13,33 @@ sections:
     title: Importance of following good coding practices
     theme: t-bg-primary
     copy: |
-      Text
-    
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn more about why it’s important to follow good coding principles and practices:
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Standardised code
           text: |
-            text
-          img: placeholder_icon.svg
+            Good quality standardised code is easy to edit and is highly readable. It allows others to edit and can be used across software platforms. It is less complex and takes less time to write. Code that is easier to understand becomes easier to change. The more simple the code is, the more flexible it will be which will make it easier to be adapted if there are future changes.   
+            
+            For example ‘keep your variable name simple and make sure it clearly describes the variable that it holds’ e.g. ‘Age’ - would relate to the KISS principle. 
+          img: cp3_u2_s2_p2_slide1.svg
         -
-          title: slide 2 title
+          title: Reduced maintenance
           text: |
-            text
-          img: placeholder_icon.svg
+            Developing software is costly and spending time fixing bugs and errors adds to this. By using good coding principles and practices, maintenance is reduced and if security is breeched it’s easier to find and fix the vulnerability. With developers spending 45% of their time fixing bugs, a standardised approach is essential.   
+
+            For example ‘writing only enough code to pass a unit test’ would relate to the SOLID principle ‘Single Responsibility’. 
+          img: cp3_u2_s2_p2_slide2.svg
         -
-          title: slide 3 title
+          title: Improved workflow and communication
           text: |
-            text
-          img: placeholder_icon.svg
+            Workflow is improved and teams communicate better by understanding the standardised principles universally used within the company. Everyone is able to understand what everyone else is doing and this leads to better collaboration and less conflict.  
+            
+            The SOLID principles are useful for teams working together on a single project as they are designed to avoid well-known issues and make it easier to make changes to the code. As most businesses want to see a faster turnaround, this means in coding projects there is less need for peer corrections.  
+          img: cp3_u2_s2_p2_slide3.svg
   -
   -
     title: Time to think
@@ -43,7 +47,21 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Exercise to help with assessment on 2.2 - may need an additional item here?
+        Take a look at the below websites which discuss the importance of KISS and SOLID principles.  Choose one of the principles and make some notes on what impact following this principle has on the written code, and how it can benefit the coder and their team members. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the coding principles KISS and SOLID:
+
+      links:
+        The KISS principle in programming: https://dev.to/kwereutosu/the-k-i-s-s-principle-in-programming-1jfg#:~:text=KISS%20is%20an%20important%20term,and%20also%20equally%20as%20efficient. 
+        Best practices using SOLID and KISS: https://whitelabelcoders.com/blog/best-practices-in-programming-based-on-solid-kiss-and-personal-experience/ 
+        Why SOLID is important: https://medium.com/@valiodas/why-solid-is-important-8c1e99f56dd4
+        Why projects should use SOLID: https://mari-azevedo.medium.com/s-o-l-i-d-principles-what-are-they-and-why-projects-should-use-them-50b85e4aa8b6
   -
   -
     title: Key point
@@ -56,69 +74,29 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 2.3.
+      Let’s draw some conclusions and look at some of the principles we have already discussed and how they can affect code.
     video: cp3_u2_s2_p2_principles_practices_conclusions.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - could turn this into an assessment item?_
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The main rule with KISS is that the code should be simple and therefore easy to modify. 
+          answer: KISS
         -
-          sentence: example two
-          answer: two
+          sentence: Using good coding practices and principles can help create a better and more organised workflow. 
+          answer: organised workflow
         -
-          sentence: example three 
-          answer: three
+          sentence: Using good coding practices and principles can help increase efficiency and productivity.
+          answer: productivity
         -
-          sentence: example four
-          answer: four
+          sentence: Using good coding practices and principles can help enhance product quality.
+          answer: product quality
+        -
+          sentence: Using good coding practices and principles can help reduce costs. 
+          answer: costs
+        -
+          sentence: Using coding practices and principles can motivate Developers as it helps to avoids the frustration that comes with bugs and errors.
+          answer: bugs and errors
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

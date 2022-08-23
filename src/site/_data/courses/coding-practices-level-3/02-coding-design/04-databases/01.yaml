@@ -1,7 +1,7 @@
 title: Databases
 intro: |
-  intro text
-banner: placeholder.jpg
+  There are many types of databases that are used today. A database is an organised structured collection of data which can be easily managed. In this session we are going to look at the main aspects that would need to be considered when working with databases. 
+banner: cp3_u2_s4_p1_databases.jpg
 sections:
   -
     title: What you will learn
@@ -11,106 +11,41 @@ sections:
       * What is meant by structured data and unstructured data
       * What is meant by databases
       * The structure and key components of a database table
-      * The use of primary and foreign keys
+      * The use of Primary and Foreign keys
       * Techniques for querying databases
       * The purpose of database indexing
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-    title: Reveals OR Slides
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to:
+      * Explain what is meant by structured and unstructured data
+      * describe what is meant by databases
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Databases
       
-      Please see the following video on 4.1 and 4.2.
+      In this video we are going to talk about Databases, and we’re also going to discuss structured and unstructured data and how this relates to databases.
     video: cp3_u2_s4_p1_databases.mp4
+  -
+    title: Structured data
+    theme: 
+    copy: |
+      Please see below an example of a structured data table:
+
+      ![](/images/svg/cp3/cp3_u2_s4_p1_image1.svg)
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
-
-  -
-  -
-    title: Wide image
-    theme: 
-    copy: |
-      Text
-      ![](/images/banners/placeholder.jpg)
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Title - DnD - Structured or unstructured
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
+        Consider some information that you have which will benefit from being more organised. This could be a list of names and addresses or a simple 'to-do list'.  Create a table and organise your information so it is structured rather than 'unstructured' data. Use the text box to make some notes.
   -
   -
     title: On the web
@@ -118,51 +53,30 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about structured and unstructured data.
 
       links:
-        website description: http://www.google.co.uk
+        Datamation - structured vs unstructured data: https://www.datamation.com/big-data/structured-vs-unstructured-data/
+        Brandwatch - what is unstructured data: https://www.brandwatch.com/blog/what-is-unstructured-data
+        Hubspot - structured data: https://blog.hubspot.com/marketing/structured-data
+        Types of databases: https://www.tutorialspoint.com/Types-of-databases
+        An overview of databases: http://bi-insider.com/portfolio-item/nosql-databases-an-overview/
+        Relational vs noSQL data: https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A database is an organised structured collection of data which can be easily managed.
+          answer: structured
         -
-          sentence: example two
-          answer: two
+          sentence: Data that is unstructured is not organised and can be stored in a number of ways.  
+          answer: unstructured
         -
-          sentence: example three 
-          answer: three
+          sentence: Media such as images, video, or audio would be categorised as unstructured data.
+          answer: unstructured
         -
-          sentence: example four
-          answer: four
+          sentence: Names and addresses data could be stored in a structured way in a table.
+          answer: structured
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

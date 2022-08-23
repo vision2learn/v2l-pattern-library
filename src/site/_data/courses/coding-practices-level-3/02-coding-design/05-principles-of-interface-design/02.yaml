@@ -1,43 +1,30 @@
-title: Creative problem solving
+title: Creative problem-solving
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page you will learn about creative problem-solving and the key methods and techiniques used in creative problem-solving.
+banner: cp3_u2_s5_p2_creative_problem2.jpg
 sections:
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 5.3 and 5.4
+      In your assessment you will be required to:
+      * Explain the key skills required for creative problem-solving
+      * Describe the key methods and techniques used in creative problem-solving
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 5.3 and 5.4.
-    video: cp3_ u2_s5_p2_ux_creative_problem_solving.mp4
+      Please see the following video on creative problem solving and the methods and techniques that would be used.
+    video: cp3_u2_s5_p2_ux_creative_problem_solving.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### Title - DnD - Structured or unstructured
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
+        Think of a problem or issue that you wish to find a solution for. Make some notes on which methods and techniques you feel would help you to resolve the problem.
   -
   -
     title: On the web
@@ -45,12 +32,12 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can learn more about creative problem solving.
 
       links:
-        website description: http://www.google.co.uk
+        Creative problem solving for UX designers: https://www.webdesignerdepot.com/2021/11/creative-problem-solving-for-ux-designers/
+        Developing problems solving skills in design: https://uxdesign.cc/develop-your-problem-solving-skills-in-design-48ec6b47ed75
+        Solving the right problem: https://uxmag.com/articles/solving-the-right-problem
   -
   -
     title: Quick quiz
@@ -58,39 +45,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Possibly the most important skill in creative problem solving is to be open minded.
+          answer: open minded
         -
-          sentence: example two
-          answer: two
+          sentence: You would need to think outside of the box as the most obvious reason for something is not always the solution.
+          answer: think outside of the box
         -
-          sentence: example three 
-          answer: three
+          sentence: A creative thinker needs to use a range of different soft skills such as communication, intutitive and innovative thinking.
+          answer: different soft skills
         -
-          sentence: example four
-          answer: four
+          sentence: There are key methods and techniques that can be considered as a framework which help to ensure all the elements of an issue are considered. 
+          answer: key methods and techniques
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

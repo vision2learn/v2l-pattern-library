@@ -1,49 +1,71 @@
-title: HCI and User interface
+title: Information architecture and interface design
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page you will learn about the importance of information architecture and UX, and the principles of good user interface design (UI).
+banner: cp3_u2_s5_p3_information_architecture2.jpg
 sections:
+  -
+    title: Summary
+    theme: t-bg-primary1a i-summary
+    copy: |
+      “Information architecture is the practice of deciding how to arrange the parts of something to be understandable.”  
+
+      — The Information Architecture Institute 
+  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 5.5
+      In your assessment you will be required to explain the importance of information architecture (IA) and UX. You will also be required to reseach examples of good and bad IA.
   -
   -
-    title: Slides OR Accordion
+    title: Importance of information architecture and UX
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Information architecture (IA) and User experience (UX) are part of a wider design field called Human Computer Interaction (HCI). HCI concentrates on the interface (user interaction) between people (humans) and computers. It would include many different specialties including technology, psychology, ergonomics, and human factors. Fundamentally, HCI makes interactions more human. 
+
+      Good IA helps users to navigate through the piles of data and information that is available today in our modern digital world. Good IA is critical as it provides us with a logical way to organise and navigate through the vast amount of data. The key factor to consider in IA is the user; to understand how they think, what problems they are trying to solve, and presenting information in a logical way to support this.  A good site should be visually appealing with logical navigation and be intuitive to use. 
+
+      Scroll through the slides below to see reasons why good IA is important:
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: User focused
           text: |
-            text
-          img: placeholder_icon.svg
+            Good IA will help to keep the user focussed and less likely to be distracted on what they are trying to achieve.  This is especially so if the task they are looking at is easy to follow.
+          img: cp3_u2_s5_p3_slide1.svg
         -
-          title: slide 2 title
+          title: Cognitive load and process speed
           text: |
-            text
-          img: placeholder_icon.svg
+            It reduces cognitive load as a simple well-laid out page with clear navigation will help the user to focus, make choices, and speed up the process. Too much information and too many options will likely deter the user from making any choices at all.
+          img: cp3_u2_s5_p3_slide2.svg
         -
-          title: slide 3 title
+          title: Context addition
           text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - relate to the video._
+            It will make it easier to understand and analyse information as a visual navigation path will provide more context for the content that the user is viewing.  So if the user can see the ‘bigger picture’ of where they are within a process, then the user is more likely to be more comfortable with the task they are doing. 
+          img: cp3_u2_s5_p3_slide3.svg
+        -
+          title: Duplication of information
+          text: |
+            Good IA would ensure that similar or the same content is not duplicated.  This is a risk with websites which have a lot of information so understanding and documenting the content structure would prevent this issue.
+          img: cp3_u2_s5_p3_slide4.svg
+        -
+          title: Support needs
+          text: |
+            If a user does not have any issues in finding what they need, this reduces their frustration and means that there would be less support needed. This also means reduced cost of support to a business as they would have reduced requirements to provide support.
+          img: cp3_u2_s5_p3_slide5.svg
+        -
+          title: Less bounce time
+          text: |
+            It would keep customers on a website for longer which would equal ‘less bounce time’ and support the business.  Research has shown that the average time of visitors to a website is 10-20 seconds.
+          img: cp3_u2_s5_p3_slide6.svg
+        -
+          title: Create new customers
+          text: |
+            It could create new customers and reduce the risk of a customer going to a competitor website.  This would also lead to better return on investment (ROI). 
+          img: cp3_u2_s5_p3_slide7.svg
   -
   -
     title: On the web
@@ -51,39 +73,50 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can see examples of good and bad navigation:
 
       links:
-        website description: http://www.google.co.uk
+        Useful navigation: https://www.sears.com/ 
+        Visual navigation driven by search: https://www.pinterest.com/
+        Overwhelming navigation: https://translations.documentfoundation.org/languages/he/libo_ui-master/ 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        1. Take a look at the websites below and make some notes of good and bad information architecture. 
+
+        2. Do some research of your own and find one good example and one bad example of information architecture and give reasons why. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites where you can learn more about information architecture.
+
+      links:
+        website stressing out visitors: https://www.smashingmagazine.com/2020/06/website-stressing-out-visitors/
+        navigation best practices with examples: https://www.flux-academy.com/blog/7-website-navigation-best-practices-with-examples 
+        navigation mistakes you should avoid: https://speckyboy.com/awful-website-navigation-mistakes-you-should-avoid/
+        app navigation design mistakes: https://usabilitygeek.com/app-navigation-design-mistakes/
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 5.6
+      In your assessment you will be required to explain the principles of good user interface design.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 5.6.
-    video: cp3_ u2_s5_p3_ui_design.mp4
-  -
-  -
-    title: P L A C E H O L D E R
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Title
-
-      Do we need an xtra item to support video for 5.6?
-
-    img: /images/svg/placeholder_icon.svg
+      What are the principles of good user interace design? Watch this video to find out more.
+    video: cp3_u2_s5_p3_ui_design.mp4
   -
   -
     title: Time to think?
@@ -91,48 +124,33 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+        Take another look at the good and bad websites that you found in the earlier task. See if you can identify how each of the principles of UI design have (or have not) been used on those websites.
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: See if you can identify each of the UI design principles
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Clarity – All UI element need to be clear for users to interpretate correctly.  
+          answer: Clarity
         -
-          sentence: example two
-          answer: two
+          sentence: Consistency – The UI design needs to be uniform such as the branding colours and typography. 
+          answer: Consistency
         -
-          sentence: example three 
-          answer: three
+          sentence: Tolerance – Users needs to be forgiven of their mistakes, especially when first using the interface. 
+          answer: Tolerance
         -
-          sentence: example four
-          answer: four
+          sentence: Efficiency – The interface should plan for minimal input and provide shortcuts for experienced users so they can be more productive. 
+          answer: Efficiency
+        -
+          sentence: Ease of use – The interface needs to be intuitive and minimises confusion such as using simple navigation.
+          answer: Ease of use
+        -
+          sentence: Comfort - The UI should allow for previous experiences of the users, use simple language and include inclusivity. 
+          answer: Comfort
+        -
+          sentence: Accessibility – UI design needs to take motor, cognitive, hearing, or visual impairments into consideration.
+          answer: Accessibility
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

@@ -1,7 +1,7 @@
 title: Coding reviews
 intro: |
-  intro text
-banner: placeholder.jpg
+  In this session you will learn about the importance of coding reviews and the different methods for reviewing.
+banner: cp3_u2_s3_p1_coding_reviews.jpg
 sections:
   -
     title: What you will learn
@@ -25,49 +25,58 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on 3.1.
-      * Pair programming 
-      * Inspection / formal review 
-      * Walkthrough 
-      * Technical review 
+     Coding reviews
+ 
     video: cp3_u2_s3_p1_coding_reviews.mp4
   
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _3.1 case study_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
       copy: |
-        _Activity item - use this with the case study_
 
-        Choose one of the types of code review, research (or case study), write notes
+        Please see the following website where you can learn more about code reviews.
+
+      links:
+        4 Types Of Code Reviews Any Developer Should Know: https://www.scrum-tips.com/agile/types-of-code-reviews/
   -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: In instant code reviews there are two developers taking part.
+          answer: two
+        -
+          sentence: The driver is the developer inputting the code.
+          answer: driver
+        -
+          sentence: Inspection reviews consist of five steps.
+          answer: five
+        -
+          sentence: Rework is step four of the inspection review method.
+          answer: four
+        -
+          sentence: Qualified developers carry out technical reviews
+          answer: technical
+        -
+          sentence: Walkthrough is a type of peer review.
+          answer: peer
+    theme: i-quiz
+  
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: t-bg-supporting2 i-keypoint
     copy: |
       In your assessment you will be required to explain why code is reviewed.
   -
   -
-    title: slider OR Accordion
+    title: Why code is reviewed
     theme: t-bg-primary
     copy: |
-      Text
+      Carrying out code reviews provide a range of benefits, scroll through the slides below to learn about these.
     
-      Scroll through the slides below to learn more about 3.2
 
     subInc: 
       type: slider
@@ -76,80 +85,34 @@ sections:
         -
           title: Consistent design and implementation 
           text: |
-            text
-          img: placeholder_icon.svg
+            In the previous session we’ve already considered the importance of keeping code simple (KISS) and standardised. Reviewing code ensures that all developers are maintaining this method of working and a consistent style is adopted throughout the project. This ensures longevity of the programme and changes that are needed can be carried out by new staff years later. 
+          img: cp3_u2_s3_p1_slide1.svg
         -
           title: Minimising mistakes
           text: |
-            text
-          img: placeholder_icon.svg
+            Anyone can make mistakes, and this is more likely if you’re working under pressure and are spending too long working on the same code. Finding your own mistakes can be difficult and a colleague is more likely to pick out small errors quite quickly. This is not only more efficient, but can also incorporate benefits of the wider code review e.g. learning new techniques.
+          img: cp3_u2_s3_p1_slide2.svg
         -
           title: Quality
           text: |
-            text
-          img: placeholder_icon.svg
+           Individuals involved in a project may interpret some elements of code differently. The review process can ensure that all developers keep to the agreed standard and don’t become lost or get carried away with their own ideas, which can happen if working in isolation. Having someone check your code to ensure that nothing’s been overlooked can save a lot of time further down the line and assist with the final QA process. 
+          img: cp3_u2_s3_p1_slide3.svg
         -
           title: Performance
           text: |
-            text
-          img: placeholder_icon.svg
+            The code review can help increase the skills of inexperienced developers. It’s a chance for them to learn from more experienced colleagues how they might have applied their code differently with more optimized techniques.
+          img: cp3_u2_s3_p1_slide4.svg
         -
           title: New technologies
           text: |
-            text
-          img: placeholder_icon.svg
+            Sharing the code review between colleagues allows everyone to understand different techniques and develop their skill set. It allows new technologies to be shared in an equal environment where newer coders may teach more experienced ones the latest trends. It also allows more experienced developers can help newer ones understand the importance of tried and tested techniques.
+          img: cp3_u2_s3_p1_slide5.svg
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  - 
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+       Select one of the review methods that has been discussed on this page and carry out further research. When would the method you have selected be used and why? What are the benefits and drawbacks of the review method that you selected?
+        
