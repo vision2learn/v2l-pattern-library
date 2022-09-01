@@ -1,64 +1,19 @@
-title: Key concepts of coding
+title: Object oriented programming
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
-  -
-    title: What you will learn
-    theme: t-bg-primary
-    copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
       In your assessment you will be required to 
   -
-    title: programming concepts
-    layout: media
+  -
+    title: OO programming principles
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
+      Text (reference Trevors content)
     
       Scroll through the slides below to learn more about ...
 
@@ -67,23 +22,77 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Encapsulation
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Abstraction
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Inheritance
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Polymorphism
           text: |
             text
           img: placeholder_icon.svg
   -
   -
-    title: Watch 
+    title: OO overview
+    theme: 
+    copy: |
+      _wide image and/or interactivity_
+
+      Text (reference Trevors content)
+
+      ![](/images/banners/placeholder.jpg)
+
+      _More text here to describe above image or turn it into an interactivity_
+  -
+  -
+    title: P L A C E H O L D E R - Classes and Objects
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+      _one image (dogs) for objects - wide image or accordion?_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: P L A C E H O L D E R - Interfaces
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+      _Classes without code? - where is the best placement for this item? do we even need it?_
+      
+      _code example_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: P L A C E H O L D E R - Constructors (Methods)
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+      _include fields (Attibutes)_
+      
+      _code example_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch ?
     theme: t-bg-grey i-watch
     layout: media
     copy: |
@@ -98,12 +107,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
   -
   -
     title: Case study

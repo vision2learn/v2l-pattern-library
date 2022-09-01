@@ -7,26 +7,51 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 1.3
+      In your assessment you will be required to describe what is meant by source code control.
   -
   -
-    title: Source code control
+    title: What is Source code control?
     theme: 
     copy: |
       _wide image and/or interactivity_
 
-      Also known as __Version control__
+      Source code control (SCM) is a software __version control system__ that helps developers to collaborate on code and keep track of changes.  This is useful and important in a team of developers working on the same software project.  If their individual work is not tracked, then this could create conflicts in the shared code and cause issues as a later stage of the project.  
+
+      A source code management system (SCM) is a software tool that manages and co-ordinates a developer team’s code for a software project.  It provides file, configuration management (we cover this in more depth in Unit 5), and version control.  There are two main types of source control – distributed and centralised. 
+      The below illustration is typical of source control branch flow such as Git or GitHub. 
 
       ![](/images/banners/placeholder.jpg)
+
+      _More text here to describe above image or turn it into an interactivity_
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _For LO 1.3 - acitivity - use with websites below_
-        
+    title: Source Control Management solutions (SCM)
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Common features
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: SCM strategy
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Benefits
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: On the web
@@ -34,29 +59,28 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        ### Why it is important
+        
+        Source control allows a team of developers to work on the same codebase.  It enables them to work independently on their own piece of code (feature branch) which means that they can commit and merge code without conflicts. Please see the below websites to learn more.
 
       links:
-        website description: http://www.google.co.uk
+        Benefits of version control: https://reqtest.com/requirements-blog/what-are-benefits-of-version-control/ 
+        Why you should use source control: https://betterprogramming.pub/9-reasons-even-solo-developers-should-use-source-control-c4f5939e2a36
   -
   -
-    title: P L A C E H O L D E R 
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _may not need this_ 
-      
-      Accordion item here
-      
-      text here 
-
-    img: /images/svg/placeholder_icon.svg
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _For LO 1.3 - acitivity - use with websites?_
+        
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 1.4
+      In your assessment you will be required to evaluate source code control solutions.
   -
   -
     title: Watch 

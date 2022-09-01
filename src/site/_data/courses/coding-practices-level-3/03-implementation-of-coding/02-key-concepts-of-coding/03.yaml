@@ -1,13 +1,85 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! 
-banner: summary.jpg
+title: Iteration and selection
+intro: |
+  On this page you will learn about what is meant by iteration 
+banner: uc_u2_s2_p4_collection.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
+      In your assessment you will be required to explain the coding concept 'iteration'.
+  -
+    title: Iterations
+    theme: t-bg-primary
+    copy: |
+      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. 
+      
+      Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. 
+      
+      Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
+      
+      In our *JavaScript example* code contains an example of iteration using a for loop. This means that we repeat an operation (in this case printing a list index to the console) for a defined number of times (in this case once for each index, starting with the first item in the list and ending with the last).
+
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        // Control flow: Loop (iteration)
+
+          for (let i = 0; i < list_1.length; i++) {
+            console.log('List item ', i, ' = ', list_1[i])
+          }
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the coding concept 'selection'.
+  -
+  -
+    title: Selection
+    theme:
+    copy: |
+      Text with code example
+
+
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+          // comment
+
+          code here
+  -
+  -
+    title: Result
+    theme:
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        result
+        [Finished in 192ms]
+    copy2: |
+      text
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Practice 1:
+      
+      text
+
+      ### Practice 2:
+
+      text
+      
+      [suitable language Online Compiler](https://onecompiler.com/javascript) 
   
