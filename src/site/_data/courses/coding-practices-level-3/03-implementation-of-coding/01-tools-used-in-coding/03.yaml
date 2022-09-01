@@ -18,6 +18,7 @@ sections:
       Source code control (SCM) is a software __version control system__ that helps developers to collaborate on code and keep track of changes.  This is useful and important in a team of developers working on the same software project.  If their individual work is not tracked, then this could create conflicts in the shared code and cause issues as a later stage of the project.  
 
       A source code management system (SCM) is a software tool that manages and co-ordinates a developer team’s code for a software project.  It provides file, configuration management (we cover this in more depth in Unit 5), and version control.  There are two main types of source control – distributed and centralised. 
+
       The below illustration is typical of source control branch flow such as Git or GitHub. 
 
       ![](/images/banners/placeholder.jpg)
