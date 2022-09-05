@@ -1,4 +1,4 @@
-title: TEMPLATE PAGE
+title: Implement a solution
 intro: |
   intro text
 banner: placeholder.jpg
@@ -20,87 +20,73 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Instruction video - Compiled and interpreted code
+
+      Please see the following video 
+    video: cp3_u3_s3_p1_compiled_interpreted.mp4
+  -
+  -
+    title: Code example
+    theme:
+    copy: |
+      Text intro
+
+
+    subInc:
+      type: code
+      lang: py
+      highlight: 
+      code: |
+          print("Hello, World!")
+          input()
+  -
+  -
+    title: Result
+    theme: t-bg-supporting3
+    copy: |
       
-      Please see the following video on .
-    video: placeholder_pc.mp4
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+        Hello World!
+        
+    copy2: |
+      
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Practice 1:
+      
+      Have a go at writing out the above example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+
+      [Python Online Compiler]()
+      [C# Compiler]()
+
+      ### Practice 2: Interpreted code  
+  -
+  -
+    title: P L A C E H O L D E R
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Issues that can occur cross-platform
+
+    img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      copy: text
   -
   -
     title: On the web

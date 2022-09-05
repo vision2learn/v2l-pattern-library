@@ -1,0 +1,17 @@
+---js
+{
+  unit: 3,
+  session: 3,
+  pagination: {
+    data: "courses['coding-practices-level-3']['03-implementation-of-coding']['03-debug-and-write-code']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
