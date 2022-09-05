@@ -1,121 +1,76 @@
-title: Data and sequences
+title: Sequences, Selection, and Iteration
 intro: |
-  On this page you will learn about data types used in coding, and .
-banner: uc_u2_s1_p3_data.jpg
+  On this page you will learn about about the coding concepts sequences, selection, and iteration.
+banner: uc_u2_s2_p4_collection.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain the coding concept ‘data’.
-  -
-    title: What is Data?
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      In computing Data is information that has been translated into a form that can be read, moved and processed by the computer. Data is any collection of numbers, characters or other symbols that have been coded into a format that can be inputted into a computer and processed. On its own data means nothing but after processing it becomes information.  The main types of data that can be inputted into a computer are numeric, text, dates, graphics and sound. Raw data is a term used to describe data in its most basic digital form. 
-      
-      Data is digitally written, stored, and read on physical units such as CPUs, hard drives, and RAM. Data is stored by electrical circuits on the disk which are defined by binary inputs. To create these circuits, transistors within the processing units determine which binary state (on, ‘1’s or off, ‘0’s) parts of the memory are in.
-
-    img: /images/svg/uc/uc_u2_s1_p3_image.svg
+      In your assessment you will be required to explain the coding concepts:
+      * Sequences
+      * Selection
   -
   -
-    title: What is the purpose of data types in coding?
-    theme: t-bg-primary
-    copy: |
-      Data types in computing vary and can come in all shapes and sizes. Some are used to store numbers, some are used for text and some for more complicated types of data. A data type tells a computer system how to interpret its value.
-      
-      Let's have a look at some of the common data types.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Integer (int)
-          text: |
-            This is the most common numeric data type used to store whole numbers without fractions. Some examples of int’s are: 1, 0, -5, 263
-
-          img: uc_u2_s1_p3_slide1.svg
-        -
-          title: Float (or Real)
-          text: |
-            This is also a numeric data type used to store numbers that contain decimal points (like money) or for fractions. Float means ‘floating point’ number. Some examples of floats are: 0.3, 5.28568, -743.34854, 0.0
-
-
-          img: uc_u2_s1_p3_slide2.svg
-        -
-          title: Character (char)
-          text: |
-            Is used to store a single letter, digit, punctuation mark, symbol or blank space. There are different types of blank spaces including a single space ‘ ‘, a new line character (known as a carriage), as well as tabs. Different characters specify upper/lower case characters. Some examples of chars are: y, T, !, 1
-
-          img: uc_u2_s1_p3_slide3.svg
-        -
-          title: String (str or text)
-          text: |
-            Is the most common data type used to store text. It is a sequence of characters that can appear on a keyboard such as letters, numbers and symbols. Strings can contain any combination of characters: upper case, lower case, numerals, and symbols. The limit of how long a string depends on the language. Some example of strings are: Dog, sALamI, jump!, 21*&*("1
-
-          img: uc_u2_s1_p3_slide4.svg
-        -
-          title: Boolean (bool)
-          text: |
-            It used where data is restricted to true/false or yes/no options, also using binary true (1) or false (0).  Examples of Boolean are: TRUE, FALSE or 1, 0
-          img: uc_u2_s1_p3_slide5.svg
-  -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    copy: See if you can identify the different data types in the following word quiz.
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: A String is the most common data type used to store text.
-          answer: String
-        -
-          sentence: To store a whole number without fractions you would use an Integer data type.
-          answer: Integer
-        -
-          sentence: A Boolean data type would be used when data needs to be restricted to a true or false option.
-          answer: Boolean
-        -
-          sentence: A Character data type is used to store a single letter, digit, punctuation mark, symbol or blank space.
-          answer: Character
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to xplain the coding concept 'sequences'.
-  -
-  -
-    title: P L A C E H O L D E R - Sequences content
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Title
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Sequence example
+    title: Sequences, Selection and Control flow
     theme:
     copy: |
-      Text with code example
+      Sequence is the first programming construct. Statements are executed one after another and the sequence is the order in which those statements are executed.
+
+      Selection is the second programming construct and is used to make choices. It would use statements such as _If Then Else_ to repeat instructions or move to a different part of the code. Selection is also known as a decision - a question is asked and the answer determines the where the program moves next. So for example in the statement IF Condition A is true, THEN do Action A, ELSE do Action B.
+      
+      Selection is a kind of __Control flow__.
+      
+      Control flow is the order in which a computer executes statements in a script. Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow. 
+      
+      For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in.   The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. 
+      
+      Control flow means that when a script is read, it must be read from start to finish, but also the program structure should be read so as to know how it affects the order of execution. 
+      
+      Control Flow is often represented in a control flow graph (CFG) during the execution of programs or applications.
+      
+      Take a look at the following *Javascript example* and see if you can follow the control flow:
 
 
     subInc:
       type: code
-      lang: text
+      lang: js
       highlight: 
       code: |
-          // comment
+          // Declare some variables
 
-          code here
+          var variable_1 = 25
+          var variable_2 = 28
+          var list_1 = [5, 2, 6, 3, 7, 2]
+
+          // A conditional statement
+
+          if (variable_1 === variable_2){
+            console.log('the variables are equal.');
+          } else {
+            console.log('the variables are not equal.');
+          }
+        
+          // A type of iteration (a loop)
+
+          for (let i = 0; i < list_1.length; i++) {
+            console.log('List item ', i, ' = ', list_1[i])
+          }
+
+          // A function
+
+          function myFunction (input_1, input_2) {
+            sum_of_inputs = input_1 + input_2
+            console.log('The sum of inputs = ', sum_of_inputs);
+          }
+
+          // A function call
+
+          myFunction(variable_1, variable_2);
   -
   -
     title: Result
-    theme:
+    theme: t-bg-supporting3
     copy: |
       
     subInc:
@@ -123,10 +78,17 @@ sections:
       lang: text
       highlight: 
       code: |
-        result
+        The variables are not equal
+        List item 0 = 5
+        List item 1 = 2
+        List item 2 = 6
+        List item 3 = 3
+        List item 4 = 7
+        List item 5 = 2
+        The sum of inputs = 53
         [Finished in 192ms]
     copy2: |
-      text
+      Note that in JavaScript coding language, the first index value starts at 0 not 1.
   -
   -
     title: Time to practice
@@ -134,29 +96,84 @@ sections:
     copy: |
       ### Practice 1:
       
-      text
+      Have a go at writing out the above JavaScript example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
 
       ### Practice 2:
 
-      text
+      What will be the output of the function in the code above if:
+      * variable_1 is set to 7 and 
+      * variable_2 is set to 18? 
       
-      [suitable language Online Compiler](https://onecompiler.com/javascript) 
-  
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        text
+      Change the variable values to 7 and 18 and run it yourself to see what different results you get.
+      
+      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about 
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the coding concept 'iteration'.
+  -
+    title: Iterations
+    theme: 
+    copy: |
+      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. 
+      
+      Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. 
+      
+      Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
+      
+      Here is a very simple iteration in Python whereby we start with a variable of value 1, then using a While loop, check whether our input_variable multiplied by 2 is greater than 15. If it is not, we add 1, to it then carry on until our input variable reaches 10, otherwise we use an ‘if’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
 
-      links:
-        website: 
+    subInc:
+      type: code
+      lang: py
+      highlight: 
+      code: |
+          input_variable_1 = 1
+
+          while input_variable_1 != 10:
+            print('Input value = ', input_variable_1)
+
+          if input_variable_1 * 2 > 15:
+            print('Condition met at', input_variable_1)
+            break
+
+          input_variable_1 += 1
+          print('Condition not met, continuing While loop...')
+  -
+  -
+    title: Result
+    theme: t-bg-supporting3
+    copy: |
+      
+    subInc:
+      type: code
+      lang: text
+      highlight: 
+      code: |
+          Input value = 1
+          Condition not met, continuing While loop...
+          Input value = 2
+          Condition not met, continuing While loop...
+          Input value = 3
+          Condition not met, continuing While loop...
+          Input value = 4
+          Condition not met, continuing While loop...
+          Input value = 5
+          Condition not met, continuing While loop...
+          Input value = 6
+          Condition not met, continuing While loop...
+          Input value = 7
+          Condition not met, continuing While loop...
+          Input value = 8
+          Condition met at 8
+          [Finished in 132ms]
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above python example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      
+      [Python Online Compiler](https://online-python.com)

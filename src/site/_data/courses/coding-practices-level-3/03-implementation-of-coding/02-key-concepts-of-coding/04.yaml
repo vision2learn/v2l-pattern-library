@@ -1,4 +1,4 @@
-title: Object oriented programming
+title: Object oriented programming - Constructors
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,117 +7,131 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain the Constructors (Methods) object orientated programming concept.
   -
-  -
-    title: OO programming principles
-    theme: t-bg-primary
+    title: Constructors (Methods)
+    theme:
     copy: |
-      Text (reference Trevors content)
-    
-      Scroll through the slides below to learn more about ...
+      A Class Constructor is called to instantiate (i.e. create in memory) an object of its Class (‘blueprint’) type (e.g. Dog or Student).  Constructor methods therein also setup the initial state of the instantiated object (i.e. the starting values for name, gender, birthday etc).  Constructors have the same name as their class. 
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          public class Student { 
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Encapsulation
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Abstraction
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Inheritance
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Polymorphism
-          text: |
-            text
-          img: placeholder_icon.svg
+            String name; 
+            char gender; 
+            Date birthday; 
+            Preference pref; 
+            Boolean matched; 
+            public Student (String n, char g, Date b, Preference p){ 
+            name = n;  
+            gender = g;  
+            birthDay = b;  
+            pref = p; 
+            } 
+    copy2: |
+      _Is more text needed here?_
+  
   -
   -
-    title: OO overview
-    theme: 
+    title: Types of Constructors
+    theme: t-bg-supporting3
     copy: |
-      _wide image and/or interactivity_
-
-      Text (reference Trevors content)
-
-      ![](/images/banners/placeholder.jpg)
-
-      _More text here to describe above image or turn it into an interactivity_
-  -
-  -
-    title: P L A C E H O L D E R - Classes and Objects
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Title
-
-      _one image (dogs) for objects - wide image or accordion?_
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: P L A C E H O L D E R - Interfaces
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Title
-
-      _Classes without code? - where is the best placement for this item? do we even need it?_
+      A _Default Constructor_ does not contain any parameters and provides the default values to all object attributes depending on each attributes datatype, e.g int = 0, String = null etc. 
       
-      _code example_
+      A _Parameterised Constructor_ contains parameters  (possibly from user input) that are used to set the initial state of an object's attributes upon instantiation (i.e. creation in memory). 
 
-    img: /images/svg/placeholder_icon.svg
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          package exams;
+
+          public class StudentResults {
+            private String Full_Name;
+            private String Exam_Name;
+            private String Exam_Score;
+            private String Exam_Grade;
+
+            StudentResults() {
+
+            }
+          }    
   -
   -
-    title: P L A C E H O L D E R - Constructors (Methods)
-    layout: media
-    theme: t-bg-primary
+    title: Get and Set Methods
+    theme:
     copy: |
-      ### Title
+      ### Getters and Setters
 
-      _include fields (Attibutes)_
-      
-      _code example_
+      The Get method returns the current value of its associated attribute from a specified object. 
 
-    img: /images/svg/placeholder_icon.svg
+      The Set method allows an attribute of a specified object to be changed at run time (thus changing the State of the object).  This also allows values passed in to be validated prior to setting the attribute (e.g. age >= 0). 
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          // Java bean for Person
+          public class Person {
+            
+            // Private variable
+            private String fullName;
+            
+            // Constructor
+            public Person(String fullName){
+              setFullName(fullName);
+            }
+
+            // Getter and setter for variable
+            public String getFullName() {
+              return fullName;
+            }
+            public void SetFullName(String fullName){
+              this.fullName=fullName;
+            }
+
+          }
+
+    copy2: |
+      Important: Allows object attributes to be set as private, thus protecting these attributes, by controlling access through their Get and Set methods, to retrieve and amend an attributes value.  
   -
   -
-    title: Watch ?
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Behavioural Methods 
+    theme: t-bg-supporting3
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
+      The Behavioural Method contains behaviour functionality.  A Class can contain many Behavioural Methods.  These methods change the state of an object at run time (e.g. increasing a Person’s age attribute on their birthday).
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          class Car{
+            String colour;
+            int numberOfDoors;
 
-      _Optional item depending on content_
+            void startEngine(){
+              // Some code goes here
+            }
+            void stopEngine(){
+              int tempCounter=0;
+              // Some code goes here
+            }
+          }
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+    copy2: |
+      __Fields__ represent some attributes (properties) of a car - number of doors or colour.
+
+      __numberOfDoors__ is a variable of type _int_ - to store integers; 
+      __colour__ can hold a string of characters (text)
+
+      __Local variables__ are declared inside methods, 
+      __Fields__ (aka member variables) are outside.
+
+      __Methods__ describe what our car can do: stop and start the engine.
   -
   -
     title: On the web
@@ -125,12 +139,19 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
 
         Please see the following website where you can learn more about . . .
 
       links:
-        website description: http://www.google.co.uk
+        website: https://blog.finxter.com/python-property-vs-attribute/
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise_
   -
     title: Read - 
     theme: t-bg-primary2 i-read

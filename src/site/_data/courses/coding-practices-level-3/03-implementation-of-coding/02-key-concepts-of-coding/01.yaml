@@ -8,113 +8,95 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Common coding concepts
+      * Object orientated programming concepts
+  -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain the coding concept ‘data’.
   -
-    title: programming concepts
+    title: What is Data?
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      In computing Data is information that has been translated into a form that can be read, moved and processed by the computer. Data is any collection of numbers, characters or other symbols that have been coded into a format that can be inputted into a computer and processed. On its own data means nothing but after processing it becomes information.  The main types of data that can be inputted into a computer are numeric, text, dates, graphics and sound. Raw data is a term used to describe data in its most basic digital form. 
       
-      Topic introduction text here 
+      Data is digitally written, stored, and read on physical units such as CPUs, hard drives, and RAM. Data is stored by electrical circuits on the disk which are defined by binary inputs. To create these circuits, transistors within the processing units determine which binary state (on, ‘1’s or off, ‘0’s) parts of the memory are in.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u3_s2_p1_image.svg
   -
   -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
+    title: What is the purpose of data types in coding?
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Data types in computing vary and can come in all shapes and sizes. Some are used to store numbers, some are used for text and some for more complicated types of data. A data type tells a computer system how to interpret its value.
+      
+      Let's have a look at some of the common data types.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Integer (int)
           text: |
-            text
-          img: placeholder_icon.svg
+            This is the most common numeric data type used to store whole numbers without fractions. Some examples of int’s are: 1, 0, -5, 263
+
+          img: cp3_u3_s2_p1_slide1.svg
         -
-          title: slide 2 title
+          title: Float (or Real)
           text: |
-            text
-          img: placeholder_icon.svg
+            This is also a numeric data type used to store numbers that contain decimal points (like money) or for fractions. Float means ‘floating point’ number. Some examples of floats are: 0.3, 5.28568, -743.34854, 0.0
+
+
+          img: cp3_u3_s2_p1_slide2.svg
         -
-          title: slide 3 title
+          title: Character (char)
           text: |
-            text
-          img: placeholder_icon.svg
+            Is used to store a single letter, digit, punctuation mark, symbol or blank space. There are different types of blank spaces including a single space ‘ ‘, a new line character (known as a carriage), as well as tabs. Different characters specify upper/lower case characters. Some examples of chars are: y, T, !, 1
+
+          img: cp3_u3_s2_p1_slide3.svg
+        -
+          title: String (str or text)
+          text: |
+            Is the most common data type used to store text. It is a sequence of characters that can appear on a keyboard such as letters, numbers and symbols. Strings can contain any combination of characters: upper case, lower case, numerals, and symbols. The limit of how long a string depends on the language. Some example of strings are: Dog, sALamI, jump!, 21*&*("1
+
+          img: cp3_u3_s2_p1_slide4.svg
+        -
+          title: Boolean (bool)
+          text: |
+            It used where data is restricted to true/false or yes/no options, also using binary true (1) or false (0).  Examples of Boolean are: TRUE, FALSE or 1, 0
+          img: cp3_u3_s2_p1_slide5.svg
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+    title: Quick quiz
+    theme: i-quiz
+    copy: See if you can identify the different data types in the following word quiz.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A String is the most common data type used to store text.
+          answer: String
+        -
+          sentence: To store a whole number without fractions you would use an Integer data type.
+          answer: Integer
+        -
+          sentence: A Boolean data type would be used when data needs to be restricted to a true or false option.
+          answer: Boolean
+        -
+          sentence: A Character data type is used to store a single letter, digit, punctuation mark, symbol or blank space.
+          answer: Character
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+        text
   -
   -
     title: On the web
@@ -122,60 +104,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about 
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        website: 

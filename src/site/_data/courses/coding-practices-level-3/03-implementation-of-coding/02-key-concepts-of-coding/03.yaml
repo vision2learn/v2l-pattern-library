@@ -1,85 +1,253 @@
-title: Iteration and selection
+title: Object oriented programming
 intro: |
-  On this page you will learn about what is meant by iteration 
-banner: uc_u2_s2_p4_collection.jpg
+  intro text
+banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain the coding concept 'iteration'.
+      In your assessment you will be required to explain object orientated programming concepts.  Four of these concepts are the object orientated principles:
+      * encapsulation
+      * abstraction
+      * inheritance
+      * polymorphism
   -
-    title: Iterations
+  -
+    title: Object orientated programming principles
     theme: t-bg-primary
     copy: |
-      Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one. 
-      
-      Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. 
-      
-      Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
-      
-      In our *JavaScript example* code contains an example of iteration using a for loop. This means that we repeat an operation (in this case printing a list index to the console) for a defined number of times (in this case once for each index, starting with the first item in the list and ending with the last).
+      Object orientated programming (OOP) is a widely used concept in modern programming languages such as Java.
 
+      It is a programming concept that uses four principles. These are Encapsulation, Abstraction, Inheritance, and Polymorphism.  Using these principles programmers can create objects, and they would methods to handle the objects. The objects can be reused throughout a program and results are given from manipulating those objects in some way.
+    
+      Scroll through the slides below to learn more about four principles.
 
-    subInc:
-      type: code
-      lang: js
-      highlight: 
-      code: |
-        // Control flow: Loop (iteration)
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Encapsulation
+          text: |
+            In programming languages, encapsulation is used to refer to one of two related but distinct notions, and sometimes to the combination thereof: 
 
-          for (let i = 0; i < list_1.length; i++) {
-            console.log('List item ', i, ' = ', list_1[i])
-          }
+            A language mechanism for restricting direct access to an object's components. 
+
+            A language construct that facilitates the bundling of data with the associated methods (or other functions) operating on that data. 
+          img: placeholder_icon.svg
+        -
+          title: Abstraction
+          text: |
+            Abstraction is a process where you show only “relevant” details and “hide” the unnecessary details of an object from the user. 
+          img: placeholder_icon.svg
+        -
+          title: Inheritance
+          text: |
+            Inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class. 
+          img: placeholder_icon.svg
+        -
+          title: Polymorphism
+          text: |
+            Polymorphism refers to a programming language's ability to process objects differently depending on their data type or class. More specifically, it is the ability to redefine methods for derived classes. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        text
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain the coding concept 'selection'.
+      In your assessment you will be required to explain the following object orientated programming concepts:
+      * Classes
+      * Interfaces
+      * Objects
+      * Attributes (Fields)
+      * Properties
   -
   -
-    title: Selection
+    title: Object orientated programming overview
+    theme: 
+    copy: |
+      _wide image and/or interactivity_
+
+      Text
+
+      ![](/images/banners/placeholder.jpg)
+
+      _More text here to describe above image or turn it into an interactivity_
+  -
+  -
+    title: Classes
     theme:
     copy: |
-      Text with code example
-
+      A Class is a ‘blueprint’ that defines the attributes and methods common to all objects of this kind (e.g. dog or car).   
 
     subInc:
       type: code
-      lang: text
+      lang: java
       highlight: 
       code: |
-          // comment
-
-          code here
-  -
-  -
-    title: Result
-    theme:
-    copy: |
-      
-    subInc:
-      type: code
-      lang: text
-      highlight: 
-      code: |
-        result
-        [Finished in 192ms]
+          <Access-Modifier> class MyClass 
+          { 
+            // attribute, constructor, getter/setter 
+            and behavioural method declarations 
+          } 
     copy2: |
-      text
+      To instantiate (create (in memory)) an Object from a Class: 
+      
+      MyClass instance = new MyClass(<constructor parameters>);
+
+      We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
   -
   -
-    title: Time to practice
-    theme: t-bg-primary3 i-practice
+    title: Interfaces
+    layout: media
+    theme: t-bg-primary
     copy: |
-      ### Practice 1:
+      Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.  
       
-      text
+      So for example, in the programming language Java it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  this is useful because it can implement multiple interfaces.
 
-      ### Practice 2:
+      _Do we more information here?_
 
-      text
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Objects
+    theme: t-bg-supporting3
+    copy: |
       
-      [suitable language Online Compiler](https://onecompiler.com/javascript) 
+      An object is a self-contained component that would have methods and properties. So in our example:
+      
+      * Class: Dogs
+      * Attributes: Breed, Size, Age, and Colour
+      * Methods: Eat(), Sleep(), Sit(), and Run()
+
+      _one image (dogs) for objects - wide image or accordion?_
+
+      ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: Differences between Class and Object
+    theme: t-bg-supporting2
+    copy: |
+      See below to see a table that outlines the differences between Class and Object.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Class and Object
+          copy: |
+            | Class | Object |
+            |------|------|
+            |A class is a template for creating objects in program.  | The object is an instance of a class. |
+            |A class is a logical entity  | Object is a physical entity |
+            |A class does not allocate memory space when it is created. | Object allocates memory space whenever they are created. |
+            |You can declare class only once.  | You can create more than one object using a class. |
+            |Example: Car.  | Example: Jaguar, BMW, Tesla, etc. |
+            |Class generates objects | Objects provide life to the class. |
+            |Classes can’t be manipulated as they are not available in memory. |	They can be manipulated. |
+            |It doesn’t have any values which are associated with the fields. | Each and every object has its own values, which are associated with the fields. |
+            |You can create class using “class” keyword. | You can create object using “new” keyword in Java |
+  -
+  -
+    title: Properties and Attributes
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Attributes
+
+      Attributes are the _data members_ inside a class or an object.  Attributes may also be referred to as _fields_ or _class variables_ this will largely depend on which programming language is used. Attributes can be _Instance_ and _Class_ types.
+
+      So in our Objects Dog example the attributes for the _Class_ Dog would be: Breed, Size, Age, and Colour.
+
+
+      ### Properties
+
+      A Property is a broad concept and used to determine a particular characteristic of a class. Properties are a way to attach custom behaviours to writing or reading a field.  Properties are an _abstraction_. It is a special sort of _class_ and its functinality is somewhere between a _data member_ and a _method_.
+
+      Properties are a special kind of attribute that provide _getter, setter_ and _deleter_ functionality to an attribute.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        Property and Attribute differences: https://blog.finxter.com/python-property-vs-attribute/
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise_
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
   
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
