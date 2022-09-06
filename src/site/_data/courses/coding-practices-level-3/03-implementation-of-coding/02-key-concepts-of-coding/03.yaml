@@ -107,6 +107,15 @@ sections:
       We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
   -
   -
+    title: P L A C E H O L D E R - Abstract Class
+    layout: media
+    theme: t-bg-supporting3
+    copy: |
+      A class that is restricted and cannot be used to create objects is know as Abstract class.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
     title: Interfaces
     layout: media
     theme: t-bg-primary
