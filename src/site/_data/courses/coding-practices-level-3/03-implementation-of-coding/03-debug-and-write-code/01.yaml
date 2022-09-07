@@ -1,6 +1,6 @@
 title: Debug and write code
 intro: |
-  intro text
+  In this session you will learn how to write and debug interpreted and compiled code.  You will also learn about the issues that could occur cross-platform, and the differences between the two types of code.
 banner: placeholder.jpg
 sections:
   -
@@ -8,21 +8,16 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn:
-      * How to write and debug Interpreted and Compiled code
+      * How to write and debug interpreted and compiled code
       * The differences between the coding solutions
-      * About cross-platform issues
+      * Issues that could occur cross-platform
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to:
-      * Identify how to write and debug interpreted code
-      * Identify how to write and debug compiled code
-      * Implement a solution in compiled code
-      * Implement a solution in interpreted code
-      * Identify issues that can occur cross-platform
-      * Distinguish the differences between the coding solutions
-
+      In your assessment you will be required to identify how to write and debug:
+      * Interpreted code
+      * Compiled code
   -
   -
     title: What is meant by compiled code and interpreted code?
@@ -42,25 +37,130 @@ sections:
             
       The interpreter converting source code to machine code is somewhat like a translator translating from French to English between two languages during a speech or conversation.
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to explain the: 
-      * principles of compiled code and interpreted code,
-      * advantages and disadvantages of compiled code and interpreted code.
   -
-  -
-    title: Activity
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary2
     copy: |
-      ### The advantages of compiled and interpreted code
+      ### Compiled and interpreted code
 
-      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
+      Please see the following video on compiled and interpreted code.
 
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: uc_u3_s2_p1_activity_v2
+    video: cp3_u3_s3_p1_compiled_interpreted.mp4
+  -
+  -
+    title: Getting started with compiled and interpreted code
+    theme: t-bg-supporting3
+    copy: |
+      See below to learn how to get started with the Python and C# languages.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Compiled code - Python
+          copy: |
+            Download the latest version of Python and run the installer file. During the install process, choose the path where Python is installed. Once you finish the installation process, you can run Python in two ways: 
+
+            __1. Run Python in Immediate mode__ - You can type  ‘python’ in the command line – this will invoke the interpreter in immediate mode. We can directly type in Python code, and press Enter to get the output. 
+
+            __2. Run Python in the Integrated Development Environment (IDE)__ - You can use any text editing software to write a Python script file, make sure you save it with the .py extension.  Write your code in the file and save it, go to Run > Run Module or F5 to run, the debugging will occur whilst the file is being ran through the interpreter.
+
+            ### Debugging
+            
+            The compiler will run a check for syntax on the original source code. If there are errors, it will flag a message and it will not be able to compile; but if there are no syntax errors, it continues compiling the program.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Interpreted code - C#
+          copy: |
+            Install an IDE to edit and compile code such as Visual Studio – from the 'Workload' choose the .NET framework.
+
+            On the start window choose ‘Create a new project’, select the 'install more tools and features' button to select ‘Console App’ from the list and name your project. 
+
+            The IDE will generate some automatic code. Write your code, click 'Debug' to start debugging which will compile and execute your code.  If there are any errors, the compiler will stop and display a message in the ‘Terminal’ window. 
+            
+            ### Debugging
+
+            Interpreted code can be easy to debug, as the code can be run whilst it is being written. When the code is run, the interpreter runs the program line by line, checking for syntax errors, then performing the operations directly. If an error is encountered on any line, the operation of the program will halt in the state that it is in when the error occurs, unless instructions on how to deal with the error are written in. 
+            
+          img: /images/svg/placeholder_icon.svg     
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think about how you would write interpreted and compiled code. Consider how you would debug both types.
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify issues that can occur cross-platform.
+  -
+  -
+    title: Cross-platform issues
+    theme: t-bg-primary
+    copy: |
+      Most software nowadays is designed to work across different computing platforms such as smartphones, servers, tablets, desktop, and laptop computers using the operating systems Mac OS and Microsoft Windows.  Some software require separate builds for each platform but most will output a file that will work on both platforms. 
+
+      Developing code that needs to be compatible on different platform could have cross-platform issue such as: 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: UI / UX considerations
+          text: |
+            User interface (UI) and User experience (UX) are big considerations if the program needs to work across different platforms so there is a consistency with the design and user interaction.  This would include the program resizing correctly with correct placement of items, and the inputs and interactions such as touchscreen controls and or physical buttons which could be used on the different devices.
+          img: placeholder_icon.svg
+        -
+          title: Asset availability
+          text: |
+            If there are shared assets that sit outside of the program such as typefaces, then this would be considered.  For example, there are fonts that are available on one operating system but not another.
+          img: placeholder_icon.svg
+        -
+          title: Storage
+          text: |
+            Storage is a consideration if the program needs to run across different devices as smaller devices, such as a smartphone, has less storage so if the program is large this could cause issues and slow it down.   Data storage is another consideration as issues could occur if the program is using a cloud-based storage and there is no internet. 
+          img: placeholder_icon.svg
+        -
+          title: Security and compliance
+          text: |
+            Vulnerabilities and potential security issues could occur with the program if it is not kept up to date with the operating systems which would have regular security updates.  Compliance is another consideration if the program is to be used throughout the world as different regions have different laws and regulations for data handling. 
+          img: placeholder_icon.svg
+        -
+          title: Interpreted code
+          text: |
+            Interpreted code can essentially be run on any operating system or CPU, providing that there is an interpreter for that system. This means that the programs themselves can be much more “portable”, but that they may take longer to run that compiled programs as they are translated as they are run. 
+          img: placeholder_icon.svg
+        -
+          title: Compile code
+          text: |
+            Compilers must convert source code to a binary, which runs on the specific operating system that they are being compiled for. Compiled programs are therefore not cross-platform, meaning that they cannot be run directly from the source code on incompatible operating systems/CPUs. However, it is possible to generate binaries from the source code which run on different systems using the appropriate compiler.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: If a program needs to use a cloud-based resource then data storage would need to be a cross-platform consideration. 
+          answer: data storage
+        -
+          sentence: If there are shared items that sit outside of the program then asset availability would need to be a cross-platform consideration.  
+          answer: asset availability
+        -
+          sentence: A consistency with the design and user interaction of a program would be a UI and UX cross-platform consideration.
+          answer: UI and UX
+        -
+          sentence: Cross-platform security considerations would be needed as operating systems release new security updates.
+          answer: security
+    theme: i-quiz
   -
   -
     title: On the web
@@ -74,54 +174,3 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
