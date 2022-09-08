@@ -1,6 +1,6 @@
 title: Source code control
 intro: |
-  intro text
+  On this page you will learn about source code control which is also known as version code control.
 banner: placeholder.jpg
 sections:
   -
@@ -21,36 +21,60 @@ sections:
 
       ![](/images/svg/cp3/cp3_u3_s1_p3_image1.svg)
 
-      _WIP More text here to describe above image or turn it into an interactivity_
+      The __Dev branch__ is the main 'working' branch that would be used by the team.  Each developer would have their own ‘Feature branch’ where they would work on a certain aspect of the code that was needed for the project. They would push to the ‘Dev branch’ once their 'feature' had been completed, reviewed, and tested.   
+
+      If there were any bugs in the code then a independent ‘code fix’ branch would be created to keep this item separate. This fix would be merged into the 'Dev' and the 'Master' branches once completed, reviewed, and tested.
+
+      Once all the changes were done on the 'Dev branch' and had been reviewed, and tested, then it would be merged to the __Master branch__.  
+      
+      Once on the 'Master branch' it would have a final review and test.  It is at this stage that the stakeholders of the project would sign off that version, and then it would be deployed to the __live site__.  It is at this stage of the project that the 'version' of the software, application or website is recorded.
   -
   -
     title: Source Control Management solutions (SCM)
     theme: t-bg-supporting3
     copy: |
-      text WIP
+      Source control tracks changes in source code; Source code management tools (SCM) tracks the changes to a source code __repository, maintains a running history of changes, and helps to resolve conflicts when updates are merged to the codebase from multiple developers working on one software project. 
 
-      See below to learn more about 
+      See below to learn more about SCM.
     subInc: 
       type: accordion
       content:
         - 
           title: Common features
           copy: |
-            text  
+            The common features of most Source Control Management solutions (SCM) would include:
+            * A __repository__ which is where the source code is built, kept and managed 
+            * __Branching__ and merging which enables team members to work concurrently 
+            * __Traceability__ which means every change made to the code can be tracked, connected to project management tools and be tested for bugs. 
+            * The code is protected as the code is __backed up__ to a remote location
+            * Source control would include __deployment__ to a remote repository and deployment sites can be integrated so the code can be reviewed on a local or dedicated site.
             
           img: /images/svg/cp3/cp3_u3_s1_p3_accordian1.svg
         - 
           title: SCM strategy
           copy: |
-            text  
+            Having a source control management strategy can help minimise the cost and time of a project especially when working with a large developer team.  A branching strategy is something that a software developer team would use when using a version control system to manage the codebase of a project. 
+
+            Branching strategy for each developer working on a project team:
+            * Use branches and if working on a feature branch, check that you are on the right one
+            * Commit often and include a commit message 
+            * Review changes before committing – either on a local site or a ‘Staging area’ on a deployment site such as DevOps or Netlify. 
+            * Check that you’re working on the latest version of the codebase before merging code to the main codebase (the ‘Dev’ branch).  This is especially important if working on a distributed source control as the branch will be local. 
+            * Make sure that all of the team has agreed upon a workflow and is working to a standardisation. 
             
           img: /images/svg/cp3/cp3_u3_s1_p3_accordian2.svg
         - 
           title: Benefits
           copy: |
-            text  
+            The benefits of using an SCM would include:
+            * It allows a team of developers to work on the same codebase  
+            * It keeps a complete version history and a regular backup of the code. 
+            * There is clearer communication and effective collaboration as every member of the team can see what each is working on. 
+            * It has workflow automation which means it manages the flow of tasks.  So for example a centralised workflow would use a central repository to serve as the single point-of-entry for all changes to a project. 
             
           img: /images/svg/cp3/cp3_u3_s1_p3_accordian3.svg
+
+    copy2: The impact of not using a SCM could be vast especially if a developer team is large as not being able to return to a previous version of a codebase could be expensive and cause serious delays to a software project.
   -
   -
     title: On the web
@@ -108,12 +132,12 @@ sections:
         Azure: https://azure.microsoft.com/en-us/services/devops/server/ 
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: Identify the source control solutions in the following questions.
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: GitHub is easy to learn and use due to its graphical user interface.  
+          sentence: GitHub is easier to learn and use due to its graphical user interface.  
           answer: GitHub
         -
           sentence: Azure DevOps offers built in security in its Cloud based solution.
