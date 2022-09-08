@@ -1,6 +1,6 @@
-title: Tools used in coding and development environments
+title: Tools used in coding
 intro: |
-  intro text
+  In this session you will learn about the tools used in coding, development environment for different languages, and source code control.
 
 banner: placeholder.jpg
 sections:
@@ -14,9 +14,7 @@ sections:
     title: Tools used in coding
     theme: t-bg-primary
     copy: |
-      Text for 1.1
-    
-      Scroll through the slides below to learn more about ...
+      Scroll through the slides below to learn about the different tools used in coding.
 
     subInc: 
       type: slider
@@ -25,44 +23,80 @@ sections:
         -
           title: Text editors
           text: |
-            text
-          img: placeholder_icon.svg
+            A text editor is a common developer environment for coding, although similiar to an Integrated Development Environment (IDE), its functionality is much lighter with less integrated tools, and its main purpose would be for coding.  It is a good tool to start with as a new developer and there are several choices of which most are open-source.
+          img: cp3_u3_s1_p2_slide1.svg
         -
           title: Integrated Development Environment (IDE)
           text: |
-            text
-          img: placeholder_icon.svg
+            The main environment that would be used to write code in a typical Software project team would be an integrated development environment (IDE).  They provide a single program which can be used for all aspects of programming which would include several features for authoring, compiling, debugging, and deployment software.
+
+            Some IDEs are designed for specific programming languages but there are also ones that will support multiple languages.
+          img: cp3_u3_s1_p2_slide2.svg
         -
           title: Source control
           text: |
-            text
-          img: placeholder_icon.svg
+            Source code control (SCM) is a software __version control__ system that helps developers to collaborate on code and keep track of changes. This is useful and important in a team of developers working on the same software project. There are two main types of source control – distributed and centralised.  
+            
+            Source code control would allow developers to work on their own section of code on their own 'feature branch', which would mean that they could work independently, and 'commit' their own work (along with other team members) to the main 'Dev branch' without any conflicts.
+
+            Some of the more popular ones are Git, GitHub and Azure. 
+          img: cp3_u3_s1_p2_slide3.svg
         -
           title: Debugger
           text: |
-            text
-          img: placeholder_icon.svg
+            Debugging is the process of identifying and removing existing and potential errors or ‘bugs’ in code and debugging and testing are process which occur hand in hand.  Debugging tools would check and highlight syntax, runtime, logic, and compilation errors.  Most debuggers are run internally in the developer environment. 
+            
+            Testing aims to identify what happens when there are errors in the code. Debugging aims to locate and rectify mistakes. Often tests are written to identify bugs as the program is written. One way to do this is by writing unit tests. 
+          img: cp3_u3_s1_p2_slide4.svg
         -
           title: Compiler / Interpreter
           text: |
-            text
-          img: placeholder_icon.svg
+            The code which has been written by the programmer (the source code) needs to be translated into commands that can be executed (ran) by the hardware (machine code). The main way this happens is through programs called 'compilers' or 'interpreters' (depending on the language), which do this in different ways. 
+
+            Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language.
+
+            Interpreted code is source code that effectively gets translated into machine code line-by-line as the program executes through a intermediate program called an interpreter.
+          img: cp3_u3_s1_p2_slide5.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Debugging tools would check and highlight syntax, runtime, logic, and compilation errors. 
+          answer: Debugging tools
+        -
+          sentence: Integrated development environments provides a single program which can be used for all aspects of programming 
+          answer: Integrated development environments
+        -
+          sentence: A compiler will read source code and generate a separate program called an executable program from it. 
+          answer: compiler
+        -
+          sentence: Source code control is a software system that helps developers to collaborate on code and keep track of changes.
+          answer: Source code control
+        -
+          sentence: Code that gets translated into machine code line-by-line as the program executes is done through a program called an interpreter.
+          answer: interpreter
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
       copy: |
-        _For LO 1.1_
-        
-        text
+        Please see the following website where you can learn more about software development tools.
+
+      links:
+        Software development tools: https://codersera.com/blog/software-development-tools/
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 1.2
+      In your assessment you will be required to select the appropriate development environment for different languages.
   -
   -
     title: Watch 
@@ -79,8 +113,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO 1.2 - relate to the video._
-
+        Take a look at the below websites and choose one of the developer environments. Consider compatibility, productivity, extensibility, performance, and which languages it supports.
   -
   -
     title: On the web
@@ -88,50 +121,13 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about development tools.
+        Please see the following websites for the different development environments as discussed in the video.
 
       links:
-        Software development tools: https://codersera.com/blog/software-development-tools/
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        Visual Studio: https://visualstudio.microsoft.com/
+        Eclipse: https://eclipseide.org/
+        Netbeans: https://netbeans.apache.org/
+        Jetbrains: https://www.jetbrains.com/idea/
+        Sublime text: https://www.sublimetext.com/
+        Notepad plus plus: https://notepad-plus-plus.org/
+        Atom: https://atom.io/

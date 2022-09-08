@@ -28,7 +28,7 @@
         {%- set inc = section.include.type | lower %}
         {%- include 'components/' + inc + '.njk' ignore missing %}
       {%- elseif section.activity -%}
-        {%- set link = "/captivate/" + course + "/" + section.activity.ref + "/" -%}
+        {%- set link = "/captivate/" + shortcode + "/" + section.activity.ref + "/" -%}
         {{ components.buttonSection({
             type: 'activity',
             title: section.title,
