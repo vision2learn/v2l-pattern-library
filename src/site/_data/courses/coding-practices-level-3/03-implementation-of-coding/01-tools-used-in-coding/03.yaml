@@ -13,23 +13,21 @@ sections:
     title: What is Source code control?
     theme: 
     copy: |
-      _wide image and/or interactivity_
-
       Source code control (SCM) is a software __version control system__ that helps developers to collaborate on code and keep track of changes.  This is useful and important in a team of developers working on the same software project.  If their individual work is not tracked, then this could create conflicts in the shared code and cause issues as a later stage of the project.  
 
       A source code management system (SCM) is a software tool that manages and co-ordinates a developer team’s code for a software project.  It provides file, configuration management (we cover this in more depth in Unit 5), and version control.  There are two main types of source control – distributed and centralised. 
 
       The below illustration is typical of source control branch flow such as Git or GitHub. 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u3_s1_p3_image1.svg)
 
-      _More text here to describe above image or turn it into an interactivity_
+      _WIP More text here to describe above image or turn it into an interactivity_
   -
   -
     title: Source Control Management solutions (SCM)
     theme: t-bg-supporting3
     copy: |
-      text
+      text WIP
 
       See below to learn more about 
     subInc: 
@@ -40,19 +38,19 @@ sections:
           copy: |
             text  
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u3_s1_p3_accordian1.svg
         - 
           title: SCM strategy
           copy: |
             text  
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u3_s1_p3_accordian2.svg
         - 
           title: Benefits
           copy: |
             text  
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u3_s1_p3_accordian3.svg
   -
   -
     title: On the web
@@ -67,15 +65,6 @@ sections:
       links:
         Benefits of version control: https://reqtest.com/requirements-blog/what-are-benefits-of-version-control/ 
         Why you should use source control: https://betterprogramming.pub/9-reasons-even-solo-developers-should-use-source-control-c4f5939e2a36
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _For LO 1.3 - acitivity - use with websites?_
-        
   -
   -
     title: Key point
@@ -99,8 +88,24 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO 1.4 - relate to the video._
+        Take a look at the below websites and choose one of the source code control solutions. 
+        
+        1. Describe the key common features of the chosen solution and the potential impact to a software project of not using it.
+        2. Consider the language, popularity, hosting, tools, features, and ease of use with your choice.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites for the different source code control solutions as discussed in the video.
 
+      links:
+        Github: https://desktop.github.com/ 
+        Git: https://git-scm.com/ 
+        Bitbucket: https://bitbucket.org/ 
+        Azure: https://azure.microsoft.com/en-us/services/devops/server/ 
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
@@ -108,39 +113,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: GitHub is easy to learn and use due to its graphical user interface.  
+          answer: GitHub
         -
-          sentence: example two
-          answer: two
+          sentence: Azure DevOps offers built in security in its Cloud based solution.
+          answer: Azure DevOps
         -
-          sentence: example three 
-          answer: three
+          sentence: A popular solution such as Git have a large community which could be useful if support is needed.
+          answer: Git
         -
-          sentence: example four
-          answer: four
+          sentence: Bitbucket Server is a versioning solution which includes project management, and collaboration. 
+          answer: Bitbucket Server
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
