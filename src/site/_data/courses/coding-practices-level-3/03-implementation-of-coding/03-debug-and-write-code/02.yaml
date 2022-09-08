@@ -1,51 +1,42 @@
 title: Implement a solution
 intro: |
-  intro text
+  On this page you will learn how to implement a solution in both compiled and interpreted code.  You will also learn about the differences between compiled and interpreted code.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
+      In your assessment you will be required to implement a solution in:
+      * Compiled code
+      * Interpreted code
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Instruction video - Compiled and interpreted code
+      ### Instruction video - How to write Python and C# programs
 
-      Please see the following video 
+      Please see the following video for a demonstration on how to write code in Python (Interpreted code), and C# (Compiled code).
     video: cp3_u3_s3_p1_compiled_interpreted.mp4
   -
   -
-    title: Code example
+    title: Interpreted code example in Python
     theme:
     copy: |
-      Text intro
-
-
+      
     subInc:
       type: code
-      lang: py
+      lang: text
       highlight: 
       code: |
-          print("Hello, World!")
-          input()
+        print("Hello, World!")
+        input()
+
   -
   -
-    title: Result
+    title: Compiled code example in C#
     theme: t-bg-supporting3
     copy: |
       
@@ -54,39 +45,84 @@ sections:
       lang: text
       highlight: 
       code: |
-        Hello World!
+        {
+          Console.WriteLine("Hello world!");
+          string x = Console.ReadLine();
+        }
         
-    copy2: |
-      
   -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      ### Practice 1:
+      ### Practice task
       
-      Have a go at writing out the above example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      Have a go at writing out the above examples on the following online compiler practice website.  Check to see if you get the same result as in the above example.
 
-      [Python Online Compiler]()
-      [C# Compiler]()
+      [Python Online Compiler](https://replit.com/languages/python3)
 
-      ### Practice 2: Interpreted code  
+      [C# Compiler](https://replit.com/languages/csharp)
+
+
+      ### Assessment task
+
+      In your assessment you will be required to show evidence that you have implemented two solutions.  You can either do this with your own systems and software as demonstrated in the video or you can use an online service called _Replit_.  
+      
+      Sign up for a free version of _Replit_, create the same two examples and download your python and C# files to include in your submission to your Tutor. (Within Replit to download your files you would click the 3 dots above the file list.)
   -
   -
-    title: P L A C E H O L D E R
-    layout: media
-    theme: t-bg-primary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      ### Issues that can occur cross-platform
+      In your assessment you will be required to distinguish the differences between the coding solutions.
+  -
+  -
+    title: Differences between compile and interpreted languages
+    theme: t-bg-supporting3
+    copy: |
+      One of the main differences between a compiled and interpreted language is that one would need to be ‘compiled’ into an independent file (.exe) before it can be executed (run); and the other would need an intermediate program called an 'interpreter' as the code would need to be translated line-by-line so the program could run.
 
-    img: /images/svg/placeholder_icon.svg
+      See below to learn more:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Compiled code
+          copy: |
+            To work on a system a program written in compiled language would need to be ‘compiled’ into an executable file.
+
+            __Testing:__ With compiled code, testing can take longer, as this must be done every time a change is made which requires a new test. 
+
+            __Speed:__ Compiled code can run faster as the conversion to machine code is done during the process of generating an executable file.  
+
+            __Debugging:__ The compiler will run a check for syntax on the original source code. If there are errors, it will flag a message and it will not be able to compile; but if there are no syntax errors, it continues compiling the program.  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Interpreted code
+          copy: |
+            With interpreted code the program is written in the source language. When the program is executed, the original source code is run line by line through a separate program called an interpreter in real time code. As it runs, the interpreter “translates” the source code into actions which are then executable line by line. 
+            
+            __Testing:__ Interpreted code can be easy to debug, as the code can be run whilst it is being written.
+
+            __Speed:__ Larger programs written in interpreted code could run slower as it needs to be ran in 'real time' line-by-line.
+
+            __Debugging:__ When the code is run, the interpreter runs the program line by line, checking for syntax errors, then performing the operations directly. If an error is encountered on any line, the operation of the program will halt in the state that it is in when the error occurs, unless instructions on how to deal with the error are written in. 
+            
+          img: /images/svg/placeholder_icon.svg     
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: text
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### The advantages of compiled and interpreted code
+
+      Select the following icon to have a go at an activity to learn more about the advantages and disadvanges of compile and interpreted code.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: cp3_u3_s3_p2_activity_v2
   -
   -
     title: On the web
@@ -94,14 +130,25 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can learn more about the differences between compiled and interpreted code:
 
       links:
-        website description: http://www.google.co.uk
+        Differences between compiled and interpreted: https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
+        Differences between Python and Java: https://www.imaginarycloud.com/blog/python-vs-java/#Differences
+        Java vs Python: https://www.guru99.com/java-vs-python.html
   -
-    title: Read - 
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think about the differences between compiler and interpreter languages. Take look at the video demonstration, the activity and the website and make some notes here.  
+        
+        Now look at your coding solutions and the languagues used and make some notes of the differences between the two different coding solutions.
+  -
+  -
+    title: Read - TBD
     theme: t-bg-primary2 i-read
     copy: | 
       _Optional item depending on content - useful for additional reading_
@@ -109,45 +156,3 @@ sections:
       Take a look at the following document about 
 
       [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
