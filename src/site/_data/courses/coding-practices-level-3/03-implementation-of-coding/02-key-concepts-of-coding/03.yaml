@@ -113,6 +113,8 @@ sections:
     copy: |
       A class that is restricted and cannot be used to create objects is know as Abstract class.
 
+      _more text needed_
+
     img: /images/svg/placeholder_icon.svg
   -
   -
@@ -124,7 +126,7 @@ sections:
       
       So for example, in the programming language Java it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  this is useful because it can implement multiple interfaces.
 
-      _Do we more information here?_
+      _swap this out or add_
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -139,7 +141,7 @@ sections:
       * Attributes: Breed, Size, Age, and Colour
       * Methods: Eat(), Sleep(), Sit(), and Run()
 
-      _one image (dogs) for objects - wide image or accordion?_
+      _one image (dogs) for objects - wide image_
 
       ![](/images/banners/placeholder.jpg)
   -
@@ -193,7 +195,7 @@ sections:
       type: on-the-web
       copy: |
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the differences between Property and Attribute elements in the Python language.
 
       links:
         Property and Attribute differences: https://blog.finxter.com/python-property-vs-attribute/
@@ -212,12 +214,13 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
 
         Please see the following website where you can learn more about . . .
 
+        _videos from Trevor's YouTube channel?_
+
       links:
-        website description: http://www.google.co.uk
+        topic description here: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
     title: Quick quiz
     subInc: 

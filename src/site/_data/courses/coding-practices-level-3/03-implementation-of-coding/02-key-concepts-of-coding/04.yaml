@@ -142,8 +142,18 @@ sections:
 
         Please see the following website where you can learn more about . . .
 
+        _videos from Trevor's YouTube channel?_
+
       links:
-        website: https://blog.finxter.com/python-property-vs-attribute/
+        topic description here: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
+  -
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Have a go at writing out the above python example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      
+      [Java Online Compiler](https://replit.com/languages/java10)
   -
   -
     title: Time to think
@@ -151,7 +161,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise_
+        _LO or exercise OR Time to practice_
   -
     title: Read - 
     theme: t-bg-primary2 i-read

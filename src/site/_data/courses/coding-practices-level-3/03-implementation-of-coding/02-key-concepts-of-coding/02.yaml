@@ -176,4 +176,19 @@ sections:
     copy: |
       Have a go at writing out the above python example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
       
-      [Python Online Compiler](https://online-python.com)
+      [Python Online Compiler](https://replit.com/languages/python3)
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+
+        Please see the following website where you can learn more about Selection and Iteration.
+
+        _videos from Trevor's YouTube channel_
+
+      links:
+        Selection: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
+        Iteration: 
