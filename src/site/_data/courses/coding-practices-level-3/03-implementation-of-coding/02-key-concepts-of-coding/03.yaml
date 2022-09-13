@@ -53,12 +53,18 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
       copy: |
-        text
+
+        Please see the following website where you can learn more about the above principles.
+
+        _Video from Trevor's YouTube channel_
+
+      links:
+        object orientated principles: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
   -
     title: Key point
@@ -72,16 +78,11 @@ sections:
       * Properties
   -
   -
-    title: Object orientated programming overview
+    title: Object orientated programming
     theme: 
     copy: |
-      _wide image and/or interactivity_
-
-      Text
-
       ![](/images/svg/cp3/cp3_u3_s2_p3_image1.svg)
 
-      _More text here to describe above image or turn it into an interactivity_
   -
   -
     title: Classes
@@ -107,29 +108,59 @@ sections:
       We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
   -
   -
-    title: P L A C E H O L D E R - Abstract Class
-    layout: media
-    theme: t-bg-supporting3
+    title: Instantiate an Object
+    theme:
     copy: |
+      To instantiate (create (in memory)) an Object from a Class: 
+
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          MyClass instance = new MyClass(<constructor parameters>); 
+    copy2: |
+      We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Abstract Class
+
       A class that is restricted and cannot be used to create objects is know as Abstract class.
-
-      _more text needed_
-
-    img: /images/svg/placeholder_icon.svg
+      
+      Please see the following video to learn more about Abstract Classes.
+    video: cp3_u3_s3_p3_abstract_class.mp4
   -
   -
-    title: Interfaces
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
+      ### Interfaces
+
       Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.  
       
       So for example, in the programming language Java it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  this is useful because it can implement multiple interfaces.
 
-      _swap this out or add_
-
-    img: /images/svg/placeholder_icon.svg
+      Please see the following video to learn more about Interfaces.
+    video: cp3_u3_s3_p3_interfaces.mp4
   -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+
+        Please see the following website where you can see the above Abstract Class and Interfaces videos online.
+
+        _video from Trevor's YouTube channel_
+
+      links:
+        Abstract Class and Interfaces: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
     title: Objects
     theme: t-bg-supporting3
@@ -140,8 +171,6 @@ sections:
       * Class: Dogs
       * Attributes: Breed, Size, Age, and Colour
       * Methods: Eat(), Sleep(), Sit(), and Run()
-
-      _one image (dogs) for objects - wide image_
 
       ![](/images/banners/placeholder.jpg)
   -
@@ -207,59 +236,3 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise_
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-
-        Please see the following website where you can learn more about . . .
-
-        _videos from Trevor's YouTube channel?_
-
-      links:
-        topic description here: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
