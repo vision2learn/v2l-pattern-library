@@ -35,22 +35,22 @@ sections:
             A language mechanism for restricting direct access to an object's components. 
 
             A language construct that facilitates the bundling of data with the associated methods (or other functions) operating on that data. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide1.svg
         -
           title: Abstraction
           text: |
             Abstraction is a process where you show only “relevant” details and “hide” the unnecessary details of an object from the user. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide2.svg
         -
           title: Inheritance
           text: |
             Inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide3.svg
         -
           title: Polymorphism
           text: |
             Polymorphism refers to a programming language's ability to process objects differently depending on their data type or class. More specifically, it is the ability to redefine methods for derived classes. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide4.svg
   -
   -
     title: On the web
@@ -101,11 +101,7 @@ sections:
             and behavioural method declarations 
           } 
     copy2: |
-      To instantiate (create (in memory)) an Object from a Class: 
-      
-      MyClass instance = new MyClass(<constructor parameters>);
 
-      We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
   -
   -
     title: Instantiate an Object
@@ -123,16 +119,34 @@ sections:
       We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
   -
   -
+    title: Abstract Class
+    theme: 
+    copy: |
+      A class that is restricted and cannot be used to create objects is know as an Abstract Class.
+
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image2_1.svg)
+
+  -
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       ### Abstract Class
-
-      A class that is restricted and cannot be used to create objects is know as Abstract class.
       
       Please see the following video to learn more about Abstract Classes.
     video: cp3_u3_s3_p3_abstract_class.mp4
+  -
+  -
+    title: Interfaces
+    theme: 
+    copy: |
+      Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.
+      
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image3_1.svg)
+
+      So for example, in the programming language Java, it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  This is useful because it can implement multiple interfaces.
+
   -
   -
     title: Watch 
@@ -140,10 +154,6 @@ sections:
     layout: media
     copy: |
       ### Interfaces
-
-      Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.  
-      
-      So for example, in the programming language Java it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  this is useful because it can implement multiple interfaces.
 
       Please see the following video to learn more about Interfaces.
     video: cp3_u3_s3_p3_interfaces.mp4
@@ -163,7 +173,7 @@ sections:
         Abstract Class and Interfaces: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
     title: Objects
-    theme: t-bg-supporting3
+    theme: t-bg-supporting2
     copy: |
       
       An object is a self-contained component that would have methods and properties. So in our example:
@@ -172,7 +182,8 @@ sections:
       * Attributes: Breed, Size, Age, and Colour
       * Methods: Eat(), Sleep(), Sit(), and Run()
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image4_2.svg)
+
   -
   -
     title: Differences between Class and Object
