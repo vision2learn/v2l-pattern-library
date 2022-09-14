@@ -31,12 +31,14 @@ sections:
       
       Take a look at the following *Javascript example* and see if you can follow the control flow:
 
+      _To be replaced with Java version - TS_
+
 
     subInc:
       type: code
       lang: js
       highlight: 
-      code: |
+      code: | 
           // Declare some variables
 
           var variable_1 = 25
@@ -124,6 +126,8 @@ sections:
       Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
       
       Here is a very simple iteration in Python whereby we start with a variable of value 1, then using a While loop, check whether our input_variable multiplied by 2 is greater than 15. If it is not, we add 1, to it then carry on until our input variable reaches 10, otherwise we use an ‘if’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
+
+      _To be replaced with Java version - TS_
 
     subInc:
       type: code

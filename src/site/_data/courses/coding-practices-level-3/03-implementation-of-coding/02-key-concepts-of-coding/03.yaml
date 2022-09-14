@@ -35,30 +35,36 @@ sections:
             A language mechanism for restricting direct access to an object's components. 
 
             A language construct that facilitates the bundling of data with the associated methods (or other functions) operating on that data. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide1.svg
         -
           title: Abstraction
           text: |
             Abstraction is a process where you show only “relevant” details and “hide” the unnecessary details of an object from the user. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide2.svg
         -
           title: Inheritance
           text: |
             Inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide3.svg
         -
           title: Polymorphism
           text: |
             Polymorphism refers to a programming language's ability to process objects differently depending on their data type or class. More specifically, it is the ability to redefine methods for derived classes. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s2_p3_slide4.svg
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
       copy: |
-        text
+
+        Please see the following website where you can learn more about the above principles.
+
+        _Video from Trevor's YouTube channel_
+
+      links:
+        object orientated principles: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
   -
     title: Key point
@@ -72,16 +78,11 @@ sections:
       * Properties
   -
   -
-    title: Object orientated programming overview
+    title: Object orientated programming
     theme: 
     copy: |
-      _wide image and/or interactivity_
-
-      Text
-
       ![](/images/svg/cp3/cp3_u3_s2_p3_image1.svg)
 
-      _More text here to describe above image or turn it into an interactivity_
   -
   -
     title: Classes
@@ -100,39 +101,79 @@ sections:
             and behavioural method declarations 
           } 
     copy2: |
-      To instantiate (create (in memory)) an Object from a Class: 
-      
-      MyClass instance = new MyClass(<constructor parameters>);
 
+  -
+  -
+    title: Instantiate an Object
+    theme:
+    copy: |
+      To instantiate (create (in memory)) an Object from a Class: 
+
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          MyClass instance = new MyClass(<constructor parameters>); 
+    copy2: |
       We can instantiate an infinite number of objects from a class (i.e. multiple different cars, dogs, people etc.).      
   -
   -
-    title: P L A C E H O L D E R - Abstract Class
-    layout: media
-    theme: t-bg-supporting3
+    title: Abstract Class
+    theme: 
     copy: |
-      A class that is restricted and cannot be used to create objects is know as Abstract class.
+      A class that is restricted and cannot be used to create objects is know as an Abstract Class.
 
-      _more text needed_
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image2_1.svg)
 
-    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Abstract Class
+      
+      Please see the following video to learn more about Abstract Classes.
+    video: cp3_u3_s3_p3_abstract_class.mp4
   -
   -
     title: Interfaces
-    layout: media
-    theme: t-bg-primary
+    theme: 
     copy: |
-      Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.  
+      Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.
       
-      So for example, in the programming language Java it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  this is useful because it can implement multiple interfaces.
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image3_1.svg)
 
-      _swap this out or add_
+      So for example, in the programming language Java, it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  This is useful because it can implement multiple interfaces.
 
-    img: /images/svg/placeholder_icon.svg
   -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Interfaces
+
+      Please see the following video to learn more about Interfaces.
+    video: cp3_u3_s3_p3_interfaces.mp4
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+
+        Please see the following website where you can see the above Abstract Class and Interfaces videos online.
+
+        _video from Trevor's YouTube channel_
+
+      links:
+        Abstract Class and Interfaces: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
     title: Objects
-    theme: t-bg-supporting3
+    theme: t-bg-supporting2
     copy: |
       
       An object is a self-contained component that would have methods and properties. So in our example:
@@ -141,9 +182,8 @@ sections:
       * Attributes: Breed, Size, Age, and Colour
       * Methods: Eat(), Sleep(), Sit(), and Run()
 
-      _one image (dogs) for objects - wide image_
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image4_2.svg)
 
-      ![](/images/banners/placeholder.jpg)
   -
   -
     title: Differences between Class and Object
@@ -207,59 +247,3 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise_
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-
-        Please see the following website where you can learn more about . . .
-
-        _videos from Trevor's YouTube channel?_
-
-      links:
-        topic description here: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

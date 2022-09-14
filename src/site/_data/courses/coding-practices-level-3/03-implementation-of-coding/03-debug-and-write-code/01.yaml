@@ -29,7 +29,7 @@ sections:
 
       Compiled code is source code that has been processed by a program called compiler. The compiler will read the source code, then generate a separate program called an executable program from it. The executable program is self-contained in that it is run by the operating system, rather than the original language. This executable program is involved in converting the instructions in the source code of the original program into machine code.
          
-      ![](/images/svg/uc/uc_u3_s2_p1_image1.svg)
+      ![](/images/svg/cp3/cp3_u3_s3_p1_image1.svg)
 
       ### Interpreted code
 
@@ -138,7 +138,7 @@ sections:
             Interpreted code can essentially be run on any operating system or CPU, providing that there is an interpreter for that system. This means that the programs themselves can be much more “portable”, but that they may take longer to run that compiled programs as they are translated as they are run. 
           img: placeholder_icon.svg
         -
-          title: Compile code
+          title: Compiled code
           text: |
             Compilers must convert source code to a binary, which runs on the specific operating system that they are being compiled for. Compiled programs are therefore not cross-platform, meaning that they cannot be run directly from the source code on incompatible operating systems/CPUs. However, it is possible to generate binaries from the source code which run on different systems using the appropriate compiler.
           img: placeholder_icon.svg

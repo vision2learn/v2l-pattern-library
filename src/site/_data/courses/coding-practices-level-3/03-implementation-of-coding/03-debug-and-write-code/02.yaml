@@ -28,7 +28,7 @@ sections:
       
     subInc:
       type: code
-      lang: text
+      lang: java
       highlight: 
       code: |
         print("Hello, World!")
@@ -42,7 +42,7 @@ sections:
       
     subInc:
       type: code
-      lang: text
+      lang: csharp
       highlight: 
       code: |
         {
