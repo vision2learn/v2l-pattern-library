@@ -1,6 +1,6 @@
 title: Test driven development (TDD)
 intro: |
-  intro text
+  In this session you will learn about what is involved in test driven development.
 banner: placeholder.jpg
 sections:
   -
@@ -8,14 +8,15 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
-  -
+      * what is meant by test driven development
+      * the structural composition of a unit test
+      * the advantages and disadvantages of unit testing
+      * what makes a bad unit test
+  -   
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 2.1
+      In your assessment you will be required to explain what is meant by test driven development
   -
     title: introduction text
     layout: media
@@ -26,6 +27,15 @@ sections:
       Topic introduction text here 
 
     img: /images/svg/placeholder_icon.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+      Please see the following video on .
+    video: cp3_u4_s2_p1__tdd.mp4
   -
   -
     title: Reveals
