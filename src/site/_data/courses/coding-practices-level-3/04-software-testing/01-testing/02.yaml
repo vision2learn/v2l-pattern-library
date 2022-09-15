@@ -1,130 +1,33 @@
 title: Testing - levels, types and methods
 intro: |
-  intro text
+  On this page you will learn about the different levels, types and methods of testing. 
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 1.1
+      In your assessment you will be required to identify different levels, types and methods of testing.
   -
-    title: introduction text
+    title: So what is testing?
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      Testing can be defined as the process of evaluating software a system or its components with the intent to find out whether it satisfies the specified requirements or not. 
       
-      Topic introduction text here 
+      To ensure that each piece of code works the way it is supposed to there are a number of different types, level and methods of testing carried out. 
+      
+      Most testing methods can be categorised as either functional or non-functional which you will learn more about on this page. You will also learn about how testing is a critical element within software development cycle. 
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      Lets take a look at the levels of testing.
       
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
+    video: cp3_u4_s1_p1_testing.mp4
   -
     title: Quick quiz
     copy: Optional item - only one quiz if used - this type or the one below
@@ -146,25 +49,98 @@ sections:
     theme: i-quiz
   
   -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      In the video above we have talked about the different types of functional testing, but what about non-functional testing? 
+      The main non-functional testing technique is performance testing. This type of test is designed to find out how an application behaves under a range of conditions. Performance testing can be broken down in to four main types. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Load Testing
+          text: |
+           This is a process of testing the behavior of a software by applying maximum load in terms of software accessing and manipulating large input data. It can be done at both normal and peak load conditions. This type of testing identifies the maximum capacity of software and its behavior at peak time. For example;
+           You have an application that is designed to handle 1000 users at any one time and the response time should be 4 seconds. Load testing will apply a load sufficient to test that if there are 1000 users the response time is 4 seconds for all users. 
+
+          img: placeholder_icon.svg
+        -
+          title: Stress testing
+          text: |
+            Stress testing takes load testing one step further and goes beyond what the sofware was designed to handle. For example;
+            Your application has a response time of 4 seconds for 1000 simultaneous users so, a stress test for this would be to test with 1100, 1200, 1300 and so on until you find the failure point, which in this case would be when the response time is greater than 4 seconds.
+          img: placeholder_icon.svg
+        -
+          title: Endurance testing
+          text: |
+            This is more commonly known as Soak Testing. This is a type of software testing in which the system is tested under huge load over a continuous period to check the behavior of the system under production use. 
+            Soak Testing tests that system can withstand a huge volume of the load for an extended period of time. It also tests that what would happen outside the design expectations of the system
+          img: placeholder_icon.svg
+        -
+          title: Usability testing
+          text: |
+            Usability testing is a black-box testing technique and is used to identify any errors and improvements in the software by observing the users through their usage and operation. This method may also include user interface testing (UI). UI testing involves testing the Graphical User Interface of the Software. UI testing ensures that the GUI functions according to the requirements and is tested in terms of color, alignment, size, and other properties.
+          img: placeholder_icon.svg  
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation style .... _
+      
+       You may have heard the terms __black box testing__ and __white box testing__, so what exactly are these? lets take a look at this in more detail. 
+    video: placeholder_pc.mp4
+  -
     title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
       content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz  
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+
+  -
+    title: Read - 
+    theme: t-bg-primary2 i-read
+    copy: | 
+      _Optional item depending on content - useful for additional reading_
+
+      Take a look at the following document about 
+
+      [example doc]().
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about
+
+      links:
+        website description: http://www.google.co.uk
+
+  

@@ -2,8 +2,7 @@ title: Welcome to Unit 4
 intro: |
     ### Software testing
     
-    Welcome to the fourth unit of your Level 3 Certificate in Coding Practices.  This unit is about software testing. You will learn about ...
-
+    Welcome to the fourth unit of your Level 3 Certificate in Coding Practices. This unit is about software testing. You will learn about the different levels and methods of testing and what is meant by test driven development.
 banner: placeholder.jpg
 sections:
   -
@@ -14,9 +13,9 @@ sections:
 
       You will:
 
-      1. one
-      2. two
-      3. three
+      1. Understand different levels, types and methods of testing
+      2. Know about test driven development
+      3. Be able to identify and fix a bug
 
       [View the complete set of learning outcomes for this unit.](/pdfs/)
   -
@@ -25,6 +24,6 @@ sections:
     copy: |
       In this session you will learn about:
       
-      * one
-      * two
-      * three
+      * The different levels, types and methods of testing.
+      * The types and methods of testing used within the stages of the Software Development Lifecycle
+      * The differences between functional and non-functional testing
