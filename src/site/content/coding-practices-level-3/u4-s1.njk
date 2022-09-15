@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['coding-practices-level-3']['04-software-testing']['01-testing']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
