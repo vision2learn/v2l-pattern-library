@@ -68,7 +68,7 @@ sections:
 
       In your assessment you will be required to show evidence that you have implemented two solutions.  You can either do this with your own systems and software as demonstrated in the video or you can use an online service called _Replit_.  
       
-      Sign up for a free version of _Replit_, create the same two examples (or create your own) and download your python and C# files to include in your submission to your Tutor. (Within Replit to download your files you would click the 3 dots above the file list.)
+      Sign up for a free version of _Replit_, create the same two examples and download your python and C# files to include in your submission to your Tutor. (Within Replit to download your files you would click the 3 dots above the file list.)
   -
   -
     title: Key point
@@ -134,8 +134,8 @@ sections:
 
       links:
         Differences between compiled and interpreted: https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/
-        Differences between Python and C#: https://onlineitguru.com/blog/python-vs-c-sharp-what-is-the-difference
-        Python vs C#: https://www.stxnext.com/blog/python-vs-c-sharp-comparison/
+        Differences between Python and Java: https://www.imaginarycloud.com/blog/python-vs-java/#Differences
+        Java vs Python: https://www.guru99.com/java-vs-python.html
   -
   -
     title: Time to think
@@ -143,9 +143,9 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Think about the differences between compiler and interpreter languages. Take look at the video demonstration, the activity and the websites and make some notes here.  
+        Think about the differences between compiler and interpreter languages. Take look at the video demonstration, the activity and the website and make some notes here.  
         
-        Now look at your coding solutions and the languagues used, and make some notes of the differences between your two different coding solutions.
+        Now look at your coding solutions and the languagues used and make some notes of the differences between the two different coding solutions.
   -
   -
     title: Read - TBD

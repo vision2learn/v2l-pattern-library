@@ -1,6 +1,8 @@
-title: TEMPLATE PAGE
+title: Unit testing
 intro: |
-  intro text
+  On this page you will develop your understanding of developing unit test and its advantages and disadvantages. 
+
+  T E M P L A T E   P A G E 
 banner: placeholder.jpg
 sections:
   -
@@ -9,48 +11,48 @@ sections:
     copy: |
       In your assessment you will be required to 
   -
-    title: introduction text
+    title: Watch 
+    theme: t-bg-grey i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      _Presentation style .... _
       
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
+      Please see the following video on .
+    video: cp3_u4_s2_p2_unit_testing.mp4
   -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
     subInc: 
-      type: reveal
+      type: word-quiz
       content:
         -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
+          sentence: example one 
+          answer: one
         -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
+          sentence: example two
+          answer: two
         -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+
   -
-    title: slider
+    title: The cyclethree-step
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      In the video above you have looe
+      
     
       Scroll through the slides below to learn more about ...
 
@@ -75,23 +77,33 @@ sections:
           img: placeholder_icon.svg
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Advantages and disadvantages of unit testing.
+    theme: t-bg-primary
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
+      The types of information that your documents need to include will depend on the audience and purpose of the document.
 
-  -
+      See below to learn learn about the information that could be included in two different kinds of document.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Formal
+          copy: |
+            ### A financial report
+            
+            An accountant has been asked to produce a summary of a sales report for a company that sells hot air balloon rides. The document must include a small paragraph summarising the findings of the report, a table containing numbers and a chart to make the information in the table easier to understand.
+
+            Take a look at the following formal document — [Financial report example](/pdfs/it2_u1_s1_p5_read_formal.pdf). Do you think it is fit for purpose and its audience?
+        - 
+          title: Informal
+          copy: |
+            ### A local event
+
+            The local primary school has decided to host a Summer Fete to raise funds for the school's accessibility department.  They wish to create a flyer to advertise the fete to the residents of the village.  The document must include the date, time, location, activities and images.
+            
+            Take a look at the following informal document — [Event flyer example](/pdfs/it2_u1_s1_p5_read_informal.pdf). Do you think it is fit for purpose and its audience?
+
+    copy2: As you can see, the information used in Word documents is not always the same. Different types of document require different types of information. You will learn more about these different kinds of information later in this unit.    
   -
     title: Case study
     layout: media
