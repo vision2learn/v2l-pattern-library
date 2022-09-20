@@ -106,7 +106,7 @@ sections:
   -
   -
     title: Abstract Class
-    theme: 
+    theme: t-bg-supporting2
     copy: |
       A class that is restricted and cannot be used to create objects is know as an Abstract Class.
 

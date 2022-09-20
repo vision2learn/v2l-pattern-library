@@ -20,10 +20,11 @@ sections:
       code: |
           public class Dog {
           // Private attributes can only be accessed via the class
-              // and cannot be modified outside the class.
-              // All related constructors, getters and setters are all
-              // public to allow for changes to these attributes when
-              // the object is built.
+          // and cannot be modified outside the class.
+          // All related constructors, getters and setters are all
+          // public to allow for changes to these attributes when
+          // the object is built.
+
           private String name;
               private String breed;
               private int age;
@@ -44,17 +45,19 @@ sections:
       highlight: 
       code: |
           // This constructor is passing in the attributes from information
-            // declared when the object is created. This is known as a
-            // parameterised constructor
+          // declared when the object is created. This is known as a
+          // parameterised constructor
+          
           public Dog(String name, String breed, int age) {
           this.name = name;
-                  this.breed = breed;
-                  this.age = age;
+              this.breed = breed;
+              this.age = age;
           }
 
           // When no data is passed when the object is created the constructor
-              // is called a default constructor and is normally empty.  These types
-              // of constructors are only useful if there is a setter for all the attributes.
+          // is called a default constructor and is normally empty.  These types
+          // of constructors are only useful if there is a setter for all the attributes.
+
           public Dog(){
           name = "";
           breed = "";
@@ -76,13 +79,15 @@ sections:
       highlight: 
       code: |
           // Getter, allows the software to get the name of an object
-            // because it is public it is accessible outside the class
+          // because it is public it is accessible outside the class
+
           public String getName() {
           return name;
           }
 
           // This setter allows the software to change the name of an object
-              // if you do not wish the software to alter the name don't add a setter
+          // if you do not wish the software to alter the name don't add a setter
+
           public void setName(String name) {
           this.name = name;
           }
@@ -117,17 +122,17 @@ sections:
       highlight: 
       code: |
           // Examples of class methods.
+
           public void gettingOlder(){
           age++;
           }
 
           public void eat(){
-                  System.out.println("Nom nom nom!");
+              System.out.println("Nom nom nom!");
           }
 
           public void sleep(){
-                  System.out.println("Zzzzzzzzzzzz!");
-          }
+              System.out.println("Zzzzzzzzzzzz!");
           }
 
     copy2: |
@@ -146,22 +151,30 @@ sections:
           public class createDog {
 
             public static void main(String[] args) {
-                // Creating a dog from the dog class called myDog.  This is created using 
+                // Creating a dog from the dog class called myDog. This is created using 
                 // the parameterised constructor.
+
                 Dog myDog = new Dog("Fred","Jack Russell",5);
                 
+
                 // Using the getter getName to display the name of the dog
+
                 System.out.println(myDog.getName() + " is " + myDog.getAge());
 
+                
                 // Calling a method from the Dog class called gettingOlder
+
                 myDog.gettingOlder();
                 
+                
                 // Demonstrating the impact of running the gettingOlder method on the dog
+
                 System.out.println(myDog.getName() + " is now " + myDog.getAge());
                 
                 // Calling the method from the Dog class called sleep().  Note how all
                 // method calls from another class must use the object, which in this case
                 // is myDog, which we created above.
+                
                 myDog.sleep();
             }
           }
