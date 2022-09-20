@@ -28,7 +28,7 @@ sections:
       
     subInc:
       type: code
-      lang: java
+      lang: py
       highlight: 
       code: |
         print("Hello, World!")
@@ -145,14 +145,4 @@ sections:
       copy: |
         Think about the differences between compiler and interpreter languages. Take look at the video demonstration, the activity and the website and make some notes here.  
         
-        Now look at your coding solutions and the languagues used and make some notes of the differences between the two different coding solutions.
-  -
-  -
-    title: Read - TBD
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
+        Now look at your coding solutions and the languagues used, and make some notes of the differences between your two different coding solutions.
