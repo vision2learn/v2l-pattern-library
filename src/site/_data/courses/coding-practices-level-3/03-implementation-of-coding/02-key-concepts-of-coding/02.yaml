@@ -1,6 +1,6 @@
 title: Sequences, Selection, and Iteration
 intro: |
-  On this page you will learn about about the coding concepts sequences, selection, and iteration.
+  On this page you will learn about about the coding concepts Sequences, Selection, and Iteration.
 banner: uc_u2_s2_p4_collection.jpg
 sections:
   -
@@ -29,46 +29,47 @@ sections:
       
       Control Flow is often represented in a control flow graph (CFG) during the execution of programs or applications.
       
-      Take a look at the following *Javascript example* and see if you can follow the control flow:
-
-      _To be replaced with Java version - TS_
-
-
+      Take a look at the following *Java example* and see if you can follow the control flow:
     subInc:
       type: code
       lang: js
       highlight: 
       code: | 
-          // Declare some variables
+          public class V2L22 {
+          //The main method is needed to successfully run the application
+            public static void main(String[] args) {
 
-          var variable_1 = 25
-          var variable_2 = 28
-          var list_1 = [5, 2, 6, 3, 7, 2]
+              // Declare some variables
+              int num1 = 25; // creating an integer variable
+              float num2 = 28.01f; // creating a float variable
+              String name = "Joe Bloggs"; // creating a string variable
+              boolean gender = true; // creating a boolean variable
+              int[] arr = new int[5]; // creating a blank array with 5 slots
+              int[] arr2 = {5, 2, 6, 3, 7, 2}; // creating an array with values
 
-          // A conditional statement
+                      // Selection using a conditional statement
+              if (num1 == 25) {
+                  System.out.println("The value of the variable is 25");
+              } else {
+                  System.out.println("The value of the variable does not equal 25");
+              }
 
-          if (variable_1 === variable_2){
-            console.log('the variables are equal.');
-          } else {
-            console.log('the variables are not equal.');
+              // Example of iteration (a loop)
+              for (int i = 0; i < 5; i++) {
+                  System.out.println("This line will be printed 5 times, this is number: " + (i+1));
+              }
+
+              // Calling a method
+              int myAge = 16;
+              yourNextBirthday(myAge);
+            }
+
+              // A method which exists outside the main method
+              public static void yourNextBirthday(int age){
+                  age++;
+                  System.out.println("On your next birthday, you will be " + age + " years old.");
+              }
           }
-        
-          // A type of iteration (a loop)
-
-          for (let i = 0; i < list_1.length; i++) {
-            console.log('List item ', i, ' = ', list_1[i])
-          }
-
-          // A function
-
-          function myFunction (input_1, input_2) {
-            sum_of_inputs = input_1 + input_2
-            console.log('The sum of inputs = ', sum_of_inputs);
-          }
-
-          // A function call
-
-          myFunction(variable_1, variable_2);
   -
   -
     title: Result
@@ -80,17 +81,15 @@ sections:
       lang: text
       highlight: 
       code: |
-        The variables are not equal
-        List item 0 = 5
-        List item 1 = 2
-        List item 2 = 6
-        List item 3 = 3
-        List item 4 = 7
-        List item 5 = 2
-        The sum of inputs = 53
-        [Finished in 192ms]
+        The value of the variable is 25
+        This line will be printed 5 times, this is number: 1
+        This line will be printed 5 times, this is number: 2
+        This line will be printed 5 times, this is number: 3
+        This line will be printed 5 times, this is number: 4
+        This line will be printed 5 times, this is number: 5
+        On your next birthday, you will be 17 years old.
     copy2: |
-      Note that in JavaScript coding language, the first index value starts at 0 not 1.
+      
   -
   -
     title: Time to practice
@@ -98,17 +97,17 @@ sections:
     copy: |
       ### Practice 1:
       
-      Have a go at writing out the above JavaScript example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      Have a go at writing out the above Java example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
 
       ### Practice 2:
 
       What will be the output of the function in the code above if:
-      * variable_1 is set to 7 and 
-      * variable_2 is set to 18? 
+      * num_1 is set to 7 and 
+      * num_2 is set to 18.01f? 
       
-      Change the variable values to 7 and 18 and run it yourself to see what different results you get.
+      Change the variable values and run it yourself to see what different results you get.
       
-      [JavaScript Online Compiler](https://onecompiler.com/javascript) 
+      [Java Online Compiler](https://replit.com/languages/java10)
   -
   -
     title: Key point
@@ -125,26 +124,25 @@ sections:
       
       Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
       
-      Here is a very simple iteration in Python whereby we start with a variable of value 1, then using a While loop, check whether our input_variable multiplied by 2 is greater than 15. If it is not, we add 1, to it then carry on until our input variable reaches 10, otherwise we use an ‘if’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
-
-      _To be replaced with Java version - TS_
+      Here is a very simple iteration in Java where we start with a variable of value 1, then using a While loop, check whether our variable is less than 10. If it is not, we add 1 to it, and then carry on until our input variable reaches 10, otherwise we use an ‘while’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
 
     subInc:
       type: code
-      lang: py
+      lang: java
       highlight: 
       code: |
-          input_variable_1 = 1
+          public class UsingIteration {
+            public static void main(String[] args) {
+              int num1 = 1;
+              System.out.println("Loop will stop when num1 = 10");
 
-          while input_variable_1 != 10:
-            print('Input value = ', input_variable_1)
-
-          if input_variable_1 * 2 > 15:
-            print('Condition met at', input_variable_1)
-            break
-
-          input_variable_1 += 1
-          print('Condition not met, continuing While loop...')
+              while (num1 < 10) {
+                  System.out.println("Condition not met, num1 is " + num1);
+                  num1++;
+              }
+              System.out.println("Condition met, num1 is " + num1);
+            }
+          }
   -
   -
     title: Result
@@ -156,31 +154,24 @@ sections:
       lang: text
       highlight: 
       code: |
-          Input value = 1
-          Condition not met, continuing While loop...
-          Input value = 2
-          Condition not met, continuing While loop...
-          Input value = 3
-          Condition not met, continuing While loop...
-          Input value = 4
-          Condition not met, continuing While loop...
-          Input value = 5
-          Condition not met, continuing While loop...
-          Input value = 6
-          Condition not met, continuing While loop...
-          Input value = 7
-          Condition not met, continuing While loop...
-          Input value = 8
-          Condition met at 8
-          [Finished in 132ms]
+          Condition not met, num1 is 1
+          Condition not met, num1 is 2
+          Condition not met, num1 is 3
+          Condition not met, num1 is 4
+          Condition not met, num1 is 5
+          Condition not met, num1 is 6
+          Condition not met, num1 is 7
+          Condition not met, num1 is 8
+          Condition not met, num1 is 9
+          Condition met, num1 is 10
   -
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Have a go at writing out the above python example on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      Have a go at writing out the above Java example on the following online compiler practice website.  Check to see if you get the same result.
       
-      [Python Online Compiler](https://replit.com/languages/python3)
+      [Java Online Compiler](https://replit.com/languages/java10)
   -
   -
     title: On the web

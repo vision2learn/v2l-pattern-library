@@ -1,6 +1,6 @@
 title: Object oriented programming
 intro: |
-  intro text
+  On this page you will learn about object orientate programming concepts.  We cover the principles, Classes, Instantiation, Abstract Classes, Interfaces, Objects, Attributes, and Properties.
 banner: placeholder.jpg
 sections:
   -
@@ -51,20 +51,6 @@ sections:
           text: |
             Polymorphism refers to a programming language's ability to process objects differently depending on their data type or class. More specifically, it is the ability to redefine methods for derived classes. 
           img: cp3_u3_s2_p3_slide4.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-
-        Please see the following website where you can learn more about the above principles.
-
-        _Video from Trevor's YouTube channel_
-
-      links:
-        object orientated principles: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
   -
   -
     title: Key point
@@ -132,9 +118,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Abstract Class
+      ### Abstraction and the Abstract Class
       
-      Please see the following video to learn more about Abstract Classes.
+      Please see the following video to learn more about Abstraction and Abstract Classes.
     video: cp3_u3_s3_p3_abstract_class.mp4
   -
   -
@@ -207,27 +193,28 @@ sections:
             |Classes can’t be manipulated as they are not available in memory. |	They can be manipulated. |
             |It doesn’t have any values which are associated with the fields. | Each and every object has its own values, which are associated with the fields. |
             |You can create class using “class” keyword. | You can create object using “new” keyword in Java |
+
   -
   -
-    title: Properties and Attributes
-    layout: media
+    title: Attributes and Properties
     theme: t-bg-primary
     copy: |
-      ### Attributes
+      See below to learn about attributes and properties.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Attributes
+          copy: |
+            Attributes are the _data members_ inside a class or an object.  Attributes may also be referred to as _fields_ or _class variables_ this will largely depend on which programming language is used. Attributes can be _Instance_ and _Class_ types.
 
-      Attributes are the _data members_ inside a class or an object.  Attributes may also be referred to as _fields_ or _class variables_ this will largely depend on which programming language is used. Attributes can be _Instance_ and _Class_ types.
+            So in our Objects Dog example the attributes for the _Class_ Dog would be: Breed, Size, Age, and Colour.
+        - 
+          title: Properties
+          copy: |
+            A Property is a broad concept and used to determine a particular characteristic of a class. Properties are a way to attach custom behaviours to writing or reading a field.  Properties are an _abstraction_. It is a special sort of _class_ and its functinality is somewhere between a _data member_ and a _method_.
 
-      So in our Objects Dog example the attributes for the _Class_ Dog would be: Breed, Size, Age, and Colour.
-
-
-      ### Properties
-
-      A Property is a broad concept and used to determine a particular characteristic of a class. Properties are a way to attach custom behaviours to writing or reading a field.  Properties are an _abstraction_. It is a special sort of _class_ and its functinality is somewhere between a _data member_ and a _method_.
-
-      Properties are a special kind of attribute that provide _getter, setter_ and _deleter_ functionality to an attribute.
-
-    img: /images/svg/placeholder_icon.svg
-  -
+            Properties are a special kind of attribute that provide _getter, setter_ and _deleter_ functionality to an attribute.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -235,15 +222,7 @@ sections:
       type: on-the-web
       copy: |
 
-        Please see the following website where you can learn more about the differences between Property and Attribute elements in the Python language.
+        Please see the following websites where you can learn more about the differences between - Property and Attribute elements in the Python language.
 
       links:
         Property and Attribute differences: https://blog.finxter.com/python-property-vs-attribute/
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise_

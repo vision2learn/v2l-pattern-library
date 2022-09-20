@@ -1,6 +1,6 @@
 title: Key concepts of coding
 intro: |
-  intro text
+  In this session we will be learning about the common coding concepts (such as Sequences and Selection); and object orientated programming concepts.  On this page you will learn about the key coding concept 'data'.
 banner: placeholder.jpg
 sections:
   -
@@ -91,20 +91,12 @@ sections:
           answer: Character
   -
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        text
-  -
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about _Trevor YouTube video here_
+        Please see the following website where you can learn about the fundamental concepts of programming which include data types.
 
       links:
-        Arrays: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
+        Fundamental concepts of programming: https://www.educative.io/answers/what-are-the-basic-fundamental-concepts-of-programming
