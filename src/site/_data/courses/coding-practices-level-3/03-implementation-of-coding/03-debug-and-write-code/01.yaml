@@ -69,7 +69,7 @@ sections:
             
             The compiler will run a check for syntax on the original source code. If there are errors, it will flag a message and it will not be able to compile; but if there are no syntax errors, it continues compiling the program.
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u3_s3_p1_accordion1.svg
         - 
           title: Interpreted code - C#
           copy: |
@@ -83,7 +83,7 @@ sections:
 
             Interpreted code can be easy to debug, as the code can be run whilst it is being written. When the code is run, the interpreter runs the program line by line, checking for syntax errors, then performing the operations directly. If an error is encountered on any line, the operation of the program will halt in the state that it is in when the error occurs, unless instructions on how to deal with the error are written in. 
             
-          img: /images/svg/placeholder_icon.svg     
+          img: /images/svg/cp3/cp3_u3_s3_p1_accordion2.svg     
   -
   -
     title: Time to think
@@ -116,32 +116,32 @@ sections:
           title: UI / UX considerations
           text: |
             User interface (UI) and User experience (UX) are big considerations if the program needs to work across different platforms so there is a consistency with the design and user interaction.  This would include the program resizing correctly with correct placement of items, and the inputs and interactions such as touchscreen controls and or physical buttons which could be used on the different devices.
-          img: placeholder_icon.svg
+          img: cp3_u3_s3_p1_slide1.svg
         -
           title: Asset availability
           text: |
             If there are shared assets that sit outside of the program such as typefaces, then this would be considered.  For example, there are fonts that are available on one operating system but not another.
-          img: placeholder_icon.svg
+          img: cp3_u3_s3_p1_slide2.svg
         -
           title: Storage
           text: |
             Storage is a consideration if the program needs to run across different devices as smaller devices, such as a smartphone, has less storage so if the program is large this could cause issues and slow it down.   Data storage is another consideration as issues could occur if the program is using a cloud-based storage and there is no internet. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s3_p1_slide3.svg
         -
           title: Security and compliance
           text: |
             Vulnerabilities and potential security issues could occur with the program if it is not kept up to date with the operating systems which would have regular security updates.  Compliance is another consideration if the program is to be used throughout the world as different regions have different laws and regulations for data handling. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s3_p1_slide4.svg
         -
           title: Interpreted code
           text: |
             Interpreted code can essentially be run on any operating system or CPU, providing that there is an interpreter for that system. This means that the programs themselves can be much more “portable”, but that they may take longer to run that compiled programs as they are translated as they are run. 
-          img: placeholder_icon.svg
+          img: cp3_u3_s3_p1_slide5.svg
         -
           title: Compile code
           text: |
             Compilers must convert source code to a binary, which runs on the specific operating system that they are being compiled for. Compiled programs are therefore not cross-platform, meaning that they cannot be run directly from the source code on incompatible operating systems/CPUs. However, it is possible to generate binaries from the source code which run on different systems using the appropriate compiler.
-          img: placeholder_icon.svg
+          img: cp3_u3_s3_p1_slide6.svg
   -
   -
     title: Quick quiz

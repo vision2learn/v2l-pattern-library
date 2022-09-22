@@ -106,7 +106,7 @@ sections:
   -
   -
     title: Abstract Class
-    theme: 
+    theme: t-bg-supporting2
     copy: |
       A class that is restricted and cannot be used to create objects is know as an Abstract Class.
 
@@ -129,7 +129,7 @@ sections:
     copy: |
       Interfaces are _Classes_ without code.  Interfaces can define properties and methods but do not store data.
       
-      ![](/images/svg/cp3/cp3_u3_s2_p3_image3_1.svg)
+      ![](/images/svg/cp3/cp3_u3_s2_p3_image3_2.svg)
 
       So for example, in the programming language Java, it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  This is useful because it can implement multiple interfaces.
 
