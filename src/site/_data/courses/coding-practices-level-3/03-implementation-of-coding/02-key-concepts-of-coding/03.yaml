@@ -1,7 +1,7 @@
 title: Object oriented programming
 intro: |
   On this page you will learn about object orientate programming concepts.  We cover the principles, Classes, Instantiation, Abstract Classes, Interfaces, Objects, Attributes, and Properties.
-banner: placeholder.jpg
+banner: cp3_u3_s2_p3_object_oriented.jpg
 sections:
   -
     title: Key point
@@ -19,7 +19,7 @@ sections:
     copy: |
       Object orientated programming (OOP) is a widely used concept in modern programming languages such as Java.
 
-      It is a programming concept that uses four principles. These are Encapsulation, Abstraction, Inheritance, and Polymorphism.  Using these principles programmers can create objects, and they would methods to handle the objects. The objects can be reused throughout a program and results are given from manipulating those objects in some way.
+      It is a programming concept that uses four principles. These are Encapsulation, Abstraction, Inheritance, and Polymorphism.  Using these principles, programmers can create 'objects', as they would 'methods' to handle the objects. The objects can be reused throughout a program and results are given from manipulating those objects in some way.
     
       Scroll through the slides below to learn more about four principles.
 
@@ -121,7 +121,7 @@ sections:
       ### Abstraction and the Abstract Class
       
       Please see the following video to learn more about Abstraction and Abstract Classes.
-    video: cp3_u3_s3_p3_abstract_class.mp4
+    video: cp3_u3_s2_p3_abstract_class.mp4
   -
   -
     title: Interfaces
@@ -142,7 +142,7 @@ sections:
       ### Interfaces
 
       Please see the following video to learn more about Interfaces.
-    video: cp3_u3_s3_p3_interfaces.mp4
+    video: cp3_u3_s2_p3_interfaces.mp4
   -
   -
     title: On the web
@@ -153,16 +153,14 @@ sections:
 
         Please see the following website where you can see the above Abstract Class and Interfaces videos online.
 
-        _video from Trevor's YouTube channel_
-
       links:
-        Abstract Class and Interfaces: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
+        Abstract Class and Interfaces: 
   -
     title: Objects
     theme: t-bg-supporting2
     copy: |
       
-      An object is a self-contained component that would have methods and properties. So in our example:
+      An object is a self-contained component that has methods and properties. So in our example:
       
       * Class: Dogs
       * Attributes: Breed, Size, Age, and Colour
@@ -208,7 +206,7 @@ sections:
           copy: |
             Attributes are the _data members_ inside a class or an object.  Attributes may also be referred to as _fields_ or _class variables_ this will largely depend on which programming language is used. Attributes can be _Instance_ and _Class_ types.
 
-            So in our Objects Dog example the attributes for the _Class_ Dog would be: Breed, Size, Age, and Colour.
+            So in our Objects Dog example the attributes for the _Class_ Dog are: Breed, Size, Age, and Colour.
         - 
           title: Properties
           copy: |
