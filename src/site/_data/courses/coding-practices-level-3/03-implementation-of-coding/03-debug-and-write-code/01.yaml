@@ -1,7 +1,7 @@
 title: Debug and write code
 intro: |
   In this session you will learn how to write and debug interpreted and compiled code.  You will also learn about the issues that could occur cross-platform, and the differences between the two types of code.
-banner: placeholder.jpg
+banner: cp3_u3_s3_p1_debug_and_write.jpg
 sections:
   -
     title: What you will learn
@@ -104,9 +104,9 @@ sections:
     title: Cross-platform issues
     theme: t-bg-primary
     copy: |
-      Most software nowadays is designed to work across different computing platforms such as smartphones, servers, tablets, desktop, and laptop computers using the operating systems Mac OS and Microsoft Windows.  Some software require separate builds for each platform but most will output a file that will work on both platforms. 
+      Most software nowadays is designed to work across different computing platforms such as smartphones, servers, tablets, desktop, and laptop computers using the operating systems Mac OS and Microsoft Windows.  Some software requires separate builds for each platform but most will output a file that will work on both platforms. 
 
-      Developing code that needs to be compatible on different platform could have cross-platform issue such as: 
+      Developing code that needs to be compatible on different platforms could have cross-platform issue such as: 
 
     subInc: 
       type: slider
@@ -125,17 +125,21 @@ sections:
         -
           title: Storage
           text: |
-            Storage is a consideration if the program needs to run across different devices as smaller devices, such as a smartphone, has less storage so if the program is large this could cause issues and slow it down.   Data storage is another consideration as issues could occur if the program is using a cloud-based storage and there is no internet. 
+            Storage is a consideration if the program needs to run across different devices as smaller devices, such as a smartphone has less storage. So if the program is large,  this could cause issues and slow it down.   
+            
+            Also, if the program is using cloud-based storage and there is no internet, then issues could occur with data storage. 
           img: cp3_u3_s3_p1_slide3.svg
         -
           title: Security and compliance
           text: |
-            Vulnerabilities and potential security issues could occur with the program if it is not kept up to date with the operating systems which would have regular security updates.  Compliance is another consideration if the program is to be used throughout the world as different regions have different laws and regulations for data handling. 
+            If a program is not kept up to date with the operating system that it is on, this could create software vulnerabilities and potential security issues.  This is due to the operating system having regular security updates. 
+            
+            Compliance is another consideration if the program is to be used throughout the world, as different regions have different laws and regulations for data handling.
           img: cp3_u3_s3_p1_slide4.svg
         -
           title: Interpreted code
           text: |
-            Interpreted code can essentially be run on any operating system or CPU, providing that there is an interpreter for that system. This means that the programs themselves can be much more “portable”, but that they may take longer to run that compiled programs as they are translated as they are run. 
+            Interpreted code can essentially be run on any operating system or CPU, providing that there is an interpreter for that system. This means that the programs themselves can be much more 'portable'.  However, a program may take longer to run (than a compiled program), as the code is translated 'line by line' as it is run.
           img: cp3_u3_s3_p1_slide5.svg
         -
           title: Compile code

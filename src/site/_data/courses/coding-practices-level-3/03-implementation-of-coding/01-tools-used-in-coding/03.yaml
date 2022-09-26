@@ -1,7 +1,7 @@
 title: Source code control
 intro: |
   On this page you will learn about source code control which is also known as version code control.
-banner: placeholder.jpg
+banner: cp3_u3_s1_p3_source_code.jpg
 sections:
   -
     title: Key point
@@ -13,7 +13,7 @@ sections:
     title: What is Source code control?
     theme: 
     copy: |
-      Source code control (SCM) is a software __version control system__ that helps developers to collaborate on code and keep track of changes.  This is useful and important in a team of developers working on the same software project.  If their individual work is not tracked, then this could create conflicts in the shared code and cause issues as a later stage of the project.  
+      Source code control (SCM) is a software __version control system__ that helps developers to collaborate on code and keep track of changes.  This is useful and important in a team of developers working on the same software project.  If their individual work is not tracked, then this could create conflicts in the shared code and cause issues at a later stage of the project.  
 
       A source code management system (SCM) is a software tool that manages and co-ordinates a developer team’s code for a software project.  It provides file, configuration management (we cover this in more depth in Unit 5), and version control.  There are two main types of source control – distributed and centralised. 
 
@@ -33,7 +33,7 @@ sections:
     title: Source Control Management solutions (SCM)
     theme: t-bg-supporting3
     copy: |
-      Source control tracks changes in source code; Source code management tools (SCM) tracks the changes to a source code __repository, maintains a running history of changes, and helps to resolve conflicts when updates are merged to the codebase from multiple developers working on one software project. 
+      Source control tracks changes in source code. Source code management tools (SCM) track the changes to a source code __repository__, and maintains a running history of changes. This helps to __resolve conflicts__ when updates are merged to the codebase from multiple developers working on one software project. 
 
       See below to learn more about SCM.
     subInc: 
@@ -42,7 +42,7 @@ sections:
         - 
           title: Common features
           copy: |
-            The common features of most Source Control Management solutions (SCM) would include:
+            The common features of most Source Control Management solutions (SCM) include:
             * A __repository__ which is where the source code is built, kept and managed 
             * __Branching__ and merging which enables team members to work concurrently 
             * __Traceability__ which means every change made to the code can be tracked, connected to project management tools and be tested for bugs. 
@@ -53,7 +53,7 @@ sections:
         - 
           title: SCM strategy
           copy: |
-            Having a source control management strategy can help minimise the cost and time of a project especially when working with a large developer team.  A branching strategy is something that a software developer team would use when using a version control system to manage the codebase of a project. 
+            Having a source control management strategy can help minimise the cost and time of a project especially when working with a large developer team.  A __branching strategy__ is something that a software developer team uses for a version control system to manage the codebase of a project. 
 
             Branching strategy for each developer working on a project team:
             * Use branches and if working on a feature branch, check that you are on the right one
@@ -66,7 +66,7 @@ sections:
         - 
           title: Benefits
           copy: |
-            The benefits of using an SCM would include:
+            The benefits of using SCM would include:
             * It allows a team of developers to work on the same codebase  
             * It keeps a complete version history and a regular backup of the code. 
             * There is clearer communication and effective collaboration as every member of the team can see what each is working on. 
@@ -143,9 +143,9 @@ sections:
           sentence: Azure DevOps offers built in security in its Cloud based solution.
           answer: Azure DevOps
         -
-          sentence: A popular solution such as Git have a large community which could be useful if support is needed.
+          sentence: A popular solution such as Git has a large community which could be useful if support is needed.
           answer: Git
         -
-          sentence: Bitbucket Server is a versioning solution which includes project management, and collaboration. 
+          sentence: Bitbucket Server is a versioning solution which includes project management and collaboration. 
           answer: Bitbucket Server
     theme: i-quiz

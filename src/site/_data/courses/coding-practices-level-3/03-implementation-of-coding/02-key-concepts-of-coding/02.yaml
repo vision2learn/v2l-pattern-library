@@ -1,7 +1,7 @@
 title: Sequences, Selection, and Iteration
 intro: |
   On this page you will learn about about the coding concepts Sequences, Selection, and Iteration.
-banner: uc_u2_s2_p4_collection.jpg
+banner: cp3_u3_s2_p2_sequences_selection.jpg
 sections:
   -
     title: Key point
@@ -17,7 +17,7 @@ sections:
     copy: |
       Sequence is the first programming construct. Statements are executed one after another and the sequence is the order in which those statements are executed.
 
-      Selection is the second programming construct and is used to make choices. It would use statements such as _If Then Else_ to repeat instructions or move to a different part of the code. Selection is also known as a decision - a question is asked and the answer determines the where the program moves next. So for example in the statement IF Condition A is true, THEN do Action A, ELSE do Action B.
+      Selection is the second programming construct and is used to make choices. It would use statements such as _If Then Else_ to repeat instructions or move to a different part of the code. Selection is also known as a decision - a question is asked and the answer determines the where the program moves next. For example IF Condition A is true, THEN do Action A, ELSE do Action B.
       
       Selection is a kind of __Control flow__.
       
@@ -25,7 +25,7 @@ sections:
       
       For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in.   The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions. 
       
-      Control flow means that when a script is read, it must be read from start to finish, but also the program structure should be read so as to know how it affects the order of execution. 
+      Control flow means that when a script is read, it must be read from start to finish, but also the program structure should be read to know how it affects the order of execution. 
       
       Control Flow is often represented in a control flow graph (CFG) during the execution of programs or applications.
       
@@ -122,9 +122,9 @@ sections:
       
       Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise. 
       
-      Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash. 
+      Incorrect definition of an end condition will usually only cause the process to repeat on itself and will form a never-ending loop. However, this would only ever exist within CPU cycles and shouldn’t cause a system crash.
       
-      Here is a very simple iteration in Java where we start with a variable of value 1, then using a While loop, check whether our variable is less than 10. If it is not, we add 1 to it, and then carry on until our input variable reaches 10, otherwise we use an ‘while’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
+      Here is a very simple iteration in Java where we start with a variable of value 1, then using a While loop, check whether our variable is less than 10. If it is not, we add 1 to it, and then carry on until our input variable reaches 10. Otherwise we use a ‘while’ statement and ‘break’ statement to break out of the loop and print the value of the input variable.
 
     subInc:
       type: code
@@ -182,8 +182,7 @@ sections:
 
         Please see the following website where you can learn more about Selection and Iteration.
 
-        _videos from Trevor's YouTube channel_
-
       links:
-        Selection: https://www.youtube.com/watch?v=7if-Q-jNWE8&list=PLHZ0-yJM5X_NKMpW9BgmINJHtHw6empLa
+        Selection - Power of IF: https://www.youtube.com/watch?v=U-xuaERgzIw
+        Selection - IF ELSE and SWITCH: https://www.youtube.com/watch?v=JB4Y03xI5z8
         Iteration: 
