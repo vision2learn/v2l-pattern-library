@@ -1,71 +1,54 @@
 
-title: Types of teams and team roles in the workplace
+title: Types of team structures and team roles in the workplace
 intro: | 
-  There are many types of team that may be found in organisations. The types of teams will vary according to their roles, objectives and operating timescales. People can adopt different roles in these teams. 
-
-
+  Different organisations may choose different team structures, or even have more than one. For example, a large organisation may have a different team structure for the Senior Management Team to the team structure of the employees within each department. Regardless of structure, teams will include a variety of roles which may fit solely within one team or be spread across different teams. This will be dependent on the team structure(s) of the organisation.
 banner: lm_u3_s1_p4_types.svg
 sections:
   -
-    title: Types of teams
+    title: Team structures
     theme: t-bg-supporting2
     copy: |
-        In order for teams to be effective, it is very important that team members know exactly what their **goals** are and what they must to do achieve them. 
-
-        Teams can ensure that they do this by adhering to seven key steps, as you saw on the previous page.
-
-        There are many types of team that may be found in organisations. The types of teams will vary according to their roles, objectives and operating timescales.
-
-        Scroll along the slides below to learn more about five different types of team. 
+        A team structure refers to how a team is made up. A well-structured team ensures that outcomes are met, that there is effective leadership, mutual support within the team and good communication. The team’s structure differs from the type of team. E.g. an organisation may have different types of teams: marketing, production, sales and so on. Each of these will be structured in a way that best serves its purpose. 
+        
+        Scroll along the slides below to learn more about five different team structures.
     subInc:
       type: slider
       title: 
       slides:
         -
-          title: Improvement teams
+          title: Operational teams
           text: |
-              Improvement teams are created to make **targeted improvements** in a work environment. These teams focus on specific processes that team members know most about. For example, in the public sector, teams may improve the way patients are ‘processed’ in A&E (Health). In the private sector, the team may focus on improving the delivery of a product. When an approach called **Total Quality Management** was popular, the improvement teams were often referred to as **Quality Circles.**
-
-              These teams may be in continuous existence or they may be created to address a particular process that needs to be improved.
-
+              Operational teams usually have well-defined roles and responsibilities. It needs a variety of people with the right skills for the roles and responsibilities. Examples include a supermarket or bank, where services are provided and there’s a number of different roles to be carried out. Its purpose is usually specified by its level of service or quality of goods.
           img: lm_u3_s1_p4_slide_1.svg
         -
-          title: Management teams
+          title: Functional teams
           text: |
-              Many organisations have groups of managers who come together **periodically** to exchange information and points of view. This type of management team is often ineffective.
-              
-              However, some management teams specify issues and timescales (objectives), and ensure that managers have clear roles and responsibilities within the team. The managers have the ability to look at the way many tasks interact and how processes relate to each other. Managers can ensure that an organisation’s processes work well together so that everything runs efficiently. 
+              A functional team structure groups employees by their skill set e.g. many organisations have departments such as human resources, IT, accounts, sales and so on. Each of these is independent of each other and is hierarchal as it will have a manager and possibly different levels of workers. The functional team allows employees to work in a group of similarly skilled people and achieve set objectives. This is more common in large organisations and helps everyone to know where to go for their specific needs e.g. when paying an invoice you would contact the accounts department.  
 
           img: lm_u3_s1_p4_slide_2.svg
         -
-          title: Project teams
+          title: Divisional teams
           text: |
-              A project team is usually created to address a specific problem or challenge that cannot easily be addressed by a group of employees currently working together. 
-              
-              The project team should have a clearly defined **objective** and the team members should possess the skills, resources and authority to achieve it. Once the objective has been achieved, the project team is likely to be disbanded. Sometimes, organisations have project teams who move from one project to another. 
+              Like the functional teams a large organisation may be divided up into divisions depending on the products or service is providing e.g. a large telecommunications organisation may have separate divisions for mobile phones, TV packages and Wi-Fi. Each division may have its own functional teams to manage its own sales, accounts and services.
 
           img: lm_u3_s1_p4_slide_3.svg
         -
-          title: Task teams
+          title: Flat structure
           text: |
-              Task teams are **time-limited teams** made up of people from across two or more functions. Often, the objective of the task team is to resolve an issue that overlaps between two or more groups, teams, departments or processes. 
-              
-              The task team may implement changes or make recommendations to senior decision makers. In a rapidly changing environment, task teams may stay ‘on call’ to address any new problems or challenges that may arise.
+              Unlike the hierarchy found with the functional and divisional teams, the flat structure allows employees to freely contribute to work as it’s needed. This works well for small organisations and start ups and means that job titles and seniority do not need to be considered.
 
           img: lm_u3_s1_p4_slide_4.svg
         -
-          title: Work unit teams
+          title: Matrix
           text: |
-              In work unit teams, the team members tend to work together most of the time in a particular business function or process. These teams may have ongoing objectives – such as continuously improving performance – or have a specific remit/task.
-              
-              These teams often have names that relate to their functions, such as ‘customer service team’, ‘the sales team’ or the ‘quality inspection team’. They tend to be permanent teams. 
+              Within a matrix structure it’s usual for an employee to report to two managers. E.g. you might report to both an operational manager who oversees that the teams are moving towards to overall business objectives and you may also report to a product manager for an individual product or service you’re involved in delivering. Whilst this maintains a traditional hierarchy, it allows cross-collaboration to bring different teams together for a specific purpose.  
 
           img: lm_u3_s1_p4_slide_5.svg
   -
     title: Summary
     theme: t-bg-primary i-summary
     copy: |
-      Although types of team vary, they share one main aim – to improve the performance of the organisation and enhance the experience of the customer. Within each team, there are employees with different skills. Therefore, team members usually have different **team roles**. These roles make a significant contribution to the effectiveness of the team. 
+      Although types of team structure vary, they share one main aim – to improve the performance of the organisation and enhance the experience of the customer. Within each team, there are employees with different skills. Therefore, team members usually have different team roles. These roles make a significant contribution to the effectiveness of the team.
   -
     title: Quick quiz
     copy: Match each scenario to the correct team that would deal with the issue.
@@ -73,21 +56,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: The way that students are registered at university must be improved. Improvement team
-          answer: Improvement team
+          sentence: Small organisations may benefit from a flat structure, which will allow free flow of employees’ contribution depending on current requirements. 
+          answer: flat
         -
-          sentence: A company must ensure that all of their various processes work together. Management team
-          answer: Management team
+          sentence: Organisations that include many roles, such as banks and retail, usually have an operational structure.
+          answer: operational
         -
-          sentence: A company is required to complete a brand new project. Project team
-          answer: Project team
+          sentence: Large organisations with different products may have a divisional team structure.
+          answer: divisional
         -
-          sentence: There is a problem that is affecting two departments at a company. Tasks team
-          answer: Tasks team
+          sentence: Where different teams need to work in collaboration, a matrix structure is most suitable.
+          answer: matrix
         -
-          sentence: A company decides that it must continuously improve its sales. Work unit team
-          answer: Work unit team
-      feedback: You know all about purpose of the different types of teams found in organisations.
+          sentence: A hierarchal structure grouped by the functions of each team is known as a functional team structure.
+          answer: functional
     theme: i-quiz
   -
     title: Team roles
