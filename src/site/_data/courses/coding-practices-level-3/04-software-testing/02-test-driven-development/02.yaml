@@ -71,13 +71,20 @@ sections:
         - 
           title: Disadvantages
           copy: |
-            * The most notable drawback of unit testing is the time and effort required - both during the testing process itself, and in maintaining and keeping up with the automated tests. Additionally, unit testing can be quite disruptive to the normal flow of development - making it difficult to move forward with other tasks while the tests are running.
-            Unit testing can’t be expected to catch every error in a program. It is not possible to evaluate all execution paths even in the most trivial programs
+            * The most notable drawback of unit testing is the time and effort required - both during the testing process itself and in maintaining and keeping up with the automated tests.
+            * Unit testing can’t be expected to catch every error in a program. It is not possible to evaluate all execution paths even in the most trivial programs.
+            * Unit tests may cause problems when you need to test the user interface (UI).
+            * When changing or adding code as a result of unit testing it may introduce navigation issues so more time is needed to address these before integration testing can begin.
+            * Unit testing on more complex systems requires more tests to be written to ensure that there is no contradiction in results. 
         - 
-          title: Bad unit tests
+          title: Bad unit testing
           copy: |
-           
-    copy2: As you can see, while there are clear benefits to unit testing, it's important to keep the drawbacks in mind before deciding to invest time and effort into a unit testing approach.    
+            As you can see there are both advangtages and disadvantages to unit testing but it is also important to ensure that the unit test is valid. There are a number of factors to consider when writing unit tests and some of the common mistakes that would result in a badly designed unit test are;
+            * __Testing irrelevant things__: This is where a test is valid but it is not specific enough and tests more than one element. 
+            * __Testing multiple things in assertions__: Trying to make a test with more than one assertation may be required but this violates the single responsibility priniciple. Unless absolutely neccessary tests should be only testing one feature or function at a time.
+            * __Test passes but the feature does not work__: This occurs when the test is testing another feature or function than the one intended.
+            * __Test which depends on excessive setup__: The more things that have occur before the test starts creates complexity which can reduce the effectiveness of the test. 
+    
   
   -
     title: Time to think
@@ -85,7 +92,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Carry out some further research to find other advantages and disadvanges of unit testing and what makes a bad unit test. 
 
   -
     title: On the web

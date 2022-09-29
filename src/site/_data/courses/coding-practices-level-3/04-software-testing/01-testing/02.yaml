@@ -30,22 +30,28 @@ sections:
     video: cp3_u4_s1_p1_testing.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Integration testing ascertains how well the units of code work together. 
+          answer: Integration
         -
-          sentence: example two
-          answer: two
+          sentence: Acceptance testing determines if the software is finally ready to be launched to the general public.
+          answer: Acceptance
         -
-          sentence: example three 
-          answer: three
+          sentence: Unit Testing is where specific lines of code, distinct functionalities, and desired procedures are isolated and tested.
+          answer: Unit
         -
-          sentence: example four
-          answer: four
+          sentence: System testing is carried out to verify that software operates as required and is compatible across platforms.
+          answer: System
+        -
+          sentence: Beta testing is carried out by selected users on their own devices and operating systems.
+          answer: Beta
+        -
+          sentence: Alpha testing is carried out by selected users, alongside an internal team of developers who control the testing environment aiming to mimic realistic conditions during testing.
+          answer: Alpha    
     theme: i-quiz
   
   -
@@ -83,7 +89,12 @@ sections:
           text: |
             Usability testing is a black-box testing technique and is used to identify any errors and improvements in the software by observing the users through their usage and operation. This method may also include user interface testing (UI). UI testing involves testing the Graphical User Interface of the Software. UI testing ensures that the GUI functions according to the requirements and is tested in terms of color, alignment, size, and other properties.
           img: placeholder_icon.svg  
+       
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the types and methods of testing used within the stages of the Software Development Lifecycle
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -118,18 +129,8 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Can you explain the different types and methods of testing that take place during the software development lifecyle? 
 
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
