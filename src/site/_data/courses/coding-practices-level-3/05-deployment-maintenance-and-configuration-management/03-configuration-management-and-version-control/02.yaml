@@ -1,4 +1,4 @@
-title: Deployment - planning and packaging
+title: Version control systems
 intro: |
   intro text
 banner: placeholder.jpg
@@ -7,20 +7,20 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 1.1
+      In your assessment you will be required to 3.3
   -
-    title: Artefacts and packages
+    title: Version control
     theme: 
     copy: |
-      Text
+      Intro text
 
       ![](/images/banners/placeholder.jpg)
   -
   -
-    title: Types of artifacts
+    title: Types of version control
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      Two types
     
       Scroll through the slides below to learn more about ...
 
@@ -29,26 +29,38 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Centralised
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
+          title: Distributed
           text: |
             text
           img: placeholder_icon.svg
   -
   -
-    title: Examples of Artifacts TDD MAY NOT USE
+    title: Benefits TDD
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg 
+  -
+  -
+    title: Benefits TDD
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      _may not use_
 
       Select the images below to read 
 
@@ -72,6 +84,23 @@ sections:
           img: placeholder_icon.svg
   -
   -
+    title: The DevOps lifecycle PLACEHOLDER
+    theme: 
+    
+    copy: |
+      _Use this as a basis to do a new one for the version control element of the lifecycle_
+
+      Version control software (for example Git) is used to allow additions and revisions to code to be uploaded to a central repository. When an update is made to a section of code, previous versions are stored in case there is a need to revert back to these.
+      
+      Please see the below activity which will take you through the lifecycle and stages of DevOps.  It also defines and clarifies the steps involved in continuous integration, continuous delivery, and continuous deployment.
+      
+    interactive: 
+      file: uc/u4_s3_p1_dev_ops
+      width: 1000
+      height: 1000
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
@@ -89,7 +118,7 @@ sections:
     copy: |
       ### Case study - 
 
-      _could use Azure as an example of packaging an artifact?_
+      _could use an example of a project when Version control isnt used_
 
     img: /images/svg/ypmh/placeholder_icon.svg
   -
@@ -114,31 +143,6 @@ sections:
     theme: i-quiz
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to 1.2
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Deployment planning
-      
-      Please see the following video on .
-
-    video: cp3_u5_s1_p1_deployment_planning.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise OR QUIZ._
-
-  -
-  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -150,24 +154,3 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  -
-  

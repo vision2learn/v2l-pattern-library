@@ -1,4 +1,4 @@
-title: Deployment - planning and packaging
+title: Artifacts, packaging, and deployment planning
 intro: |
   intro text
 banner: placeholder.jpg
@@ -20,7 +20,7 @@ sections:
     title: Types of artifacts
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      Text
     
       Scroll through the slides below to learn more about ...
 
@@ -128,7 +128,7 @@ sections:
       
       Please see the following video on .
 
-    video: cp3_u5_s1_p1_deployment_planning.mp4
+    video: cp3_u5_s1_p2_deployment_planning.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think

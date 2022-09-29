@@ -17,11 +17,11 @@ sections:
       ### Deployment strategy
       
       Please see the following video on .
-    video: placeholder_pc.mp4
+    video: cp3_u5_s1_p3_deployment_strategy.mp4
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to 1.4
   -
@@ -45,25 +45,31 @@ sections:
     copy: |
       ### Rollback strategy
       
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      Please see the following video on rollback strategy.
+    video: cp3_u5_s1_p3_rollback.mp4
   -
   -
-    title: accordion
-    theme: t-bg-supporting3
+    title: Rollback plan
+    theme: 
     copy: |
-      text
+      A rollback plan is a written document that outlines all the steps required to recover an application and or database to the point before the deployment.
 
-      See below to learn more about 
+      See below to see the difference between a deployment plan without rollback, wannabe rollback, and an actual rollback plan.
     subInc: 
       type: accordion
       content:
         - 
-          title: title
+          title: Examples of rollback plans
           copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
+            | No rollback plan | Wannabe rollback plan | Actual rollback plan |
+            |------|------|------|
+            | N/A there is not need for a rollback plan, change will be successful | | DBA Task |
+            | | | Scripts are located: D:\dba\CC4562\rollback\ |
+            | | | Login to the DB_APPS database as the system user and run the following scripts: |
+            | | - drop the tables | 1.--drop tables - SQL>@drop tables.sql |
+            | | - run the deletes and updates | 2.--run required DML to restore previous state of tables - SQL>@run delete.sql and SQL>@run update.sql |
+            | | - test | 3.--verify - SQL>@post_rollback_verify.sql|
+            | | | All logs need to be saved to: D:\dba\CC4562\rollback\logs |
   -
   -
     title: On the web
@@ -71,12 +77,11 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can learn more about rollback strategy and see the above example table.
 
       links:
-        Rollback strategy: https://www.linkedin.com/pulse/lessons-from-management-rollback-plan-jos-accapadi-mba?trk=pulse-article
+        Rollback strategy 5 ingredients: https://www.linkedin.com/pulse/how-good-your-rollback-strategy-5-ingredients-diana-robete
+        Rollback plan - lessons from management: https://www.linkedin.com/pulse/lessons-from-management-rollback-plan-jos-accapadi-mba?trk=pulse-article
   -
     title: Time to think
     theme: t-bg-primary3 i-think

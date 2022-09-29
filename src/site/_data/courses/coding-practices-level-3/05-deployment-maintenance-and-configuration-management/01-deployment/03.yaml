@@ -1,4 +1,4 @@
-title: Deployment - build and deploy
+title: Deployment - build, deploy, and continuous deployment
 intro: |
   intro text
 banner: placeholder.jpg
@@ -13,6 +13,8 @@ sections:
     title: The DevOps stages
     theme: t-bg-primary
     copy: |
+      Before we go into more detail about the build, deployment, and continuous deployment, it is useful to know where these fit within the DevOps process.
+      
       The DevOps process combines software development and IT operations. It consists of a set of principles and practices which aim to shorten the software development lifecyle whilst ensuring quality in the outcome.  In general, it consists of various working methodologies referred to as “toolchains” which encompass: 
       * Coding 
       * Building
@@ -57,7 +59,7 @@ sections:
     title: Build and Deploy
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
+      Intro text
     
       Scroll through the slides below to learn more about ...
 

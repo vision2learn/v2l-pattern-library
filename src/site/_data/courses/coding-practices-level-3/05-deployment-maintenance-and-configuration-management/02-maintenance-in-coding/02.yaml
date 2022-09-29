@@ -1,88 +1,23 @@
-title: TEMPLATE PAGE
+title: Improvements and change management
 intro: |
   intro text
 banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to 2.3
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
+      ### Improvements in maintenance
       
       Please see the following video on .
-    video: placeholder_pc.mp4
+    video: cp3_u5_s2_p2_improvements.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -93,21 +28,27 @@ sections:
 
   -
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      ### Case study - 
+      In your assessment you will be required to 2.4
+  -
+    title: placeholder item TBD
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      
+      Text
 
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+    img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Read - 
+    title: Read
     theme: t-bg-primary2 i-read
     copy: | 
-      _Optional item depending on content - useful for additional reading_
+      ### Change management process
+
+      _Change management process doc?_
 
       Take a look at the following document about 
 
