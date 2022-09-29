@@ -1,6 +1,6 @@
 title: Identify and fix a bug
 intro: |
-  intro text
+  In this session you will learn how to identify and fix bugs within code. 
 banner: placeholder.jpg
 sections:
   -
@@ -8,14 +8,22 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * Techniques which can be used to identify and fix bugs
+      * the benefits of the following techniques:
+        * variable watching
+        * compiler warnings
+        * unit test
+      * Diagnose the cause of a bug using the following techniques:
+        * variable watching
+        * compiler warnings
+        * unit test
+      * How to perform a fix on broken code
+      * How the bug could have been prevented
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 3.1 3.2
+      In your assessment you will be required to explain techniques which can be used to identify and fix bugs
   -
     title: introduction 3.1
     layout: media

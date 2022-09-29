@@ -14,9 +14,19 @@ sections:
       * what makes a bad unit test
   -   
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to explain what is meant by test driven development
+  -
+    title: T E M P L A T E   P A G E 
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
