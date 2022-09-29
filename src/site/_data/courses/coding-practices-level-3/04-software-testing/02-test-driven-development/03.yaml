@@ -1,13 +1,153 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! 
-banner: summary.jpg
+title: Unit Testing Practice
+intro: |
+  On this page you will learn how to write your own unit test ....... 
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Introduction
+    theme: t-bg-primary
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
-  
+
+      _Text here to introduce learners to task_
+
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      _Presentation / Demonstration video on how to do a unit test_
+      
+      Please see the following video on ......
+    video: cp3_u4_s2_p2_unit_testing.mp4
+  -
+  -
+    title: Test-Driven Development
+    theme:
+    copy: |
+      Now that we know what testing is, and why we should do it, let's look at TDD. TDD is the principle that testing should be done actively, rather than retrospectively. We should write tests before we've even written a line of code, see them fail, then write the code necessary to pass them. This is called the 'Red-Green-Refactor'. 
+
+      So, how do we do TDD in JavaScript? 
+      
+      ## The Problem
+      
+      Let's do this with a simple function and tests. Let's say we're building a function that sums all the numbers in an array. If it's not given an array, or there are no numbers in the array, then we'll return 0. 
+      
+
+      ## Test 1 
+
+      To begin with, we should write a test to ensure that we return 0 when our function is given an empty array. This should look something like this: 
+
+
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        describe('sumArray', () => {
+          it ('returns 0 when not giving an empty array', () => {
+            expect(sumArray([])).to.equal(0);
+          });
+        });
+
+    copy2: In our describe block, we name the function we are testing (sumArray). In our it block, we name the test we are making. In our expects, we lay out the expectations, which must all be correct in order for the test to pass.   
+  -
+  -
+    title: Test 1 Function
+    theme:
+    copy: |
+      When speaking in terms of TDD, the simplest way to get this particular test to pass is this:
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        function sumArray () {
+          return 0;
+        }
+        
+    copy2: |
+      This says that, no matter what we call sumArray with, it will always return 0. Clearly this isn't our end goal of our function, but this is the very nature of TDD. We increase the complexity of our tests step by step, and write the necessary code for them to pass.  
+ 
+  -
+  -
+    title: Test 2
+    theme:
+    copy: |
+      Now we need to increase the complexity of our test cases, with our end goal in mind. Our next it block could look something like this. 
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        it ('returns the sum of an array containing numbers', () => {
+            expect(sumArray([10])).to.equal(10);
+            expect(sumArray([1,2,3])).to.equal(6);
+        });
+
+  -
+  -
+    title: Test 2 Function
+    theme:
+    copy: |
+      Now we need to write a function that actually traverses the array and sums the numbers. For this we could write a for loop, but let's do it with a reduce. Because our first test took an empty array and returned 0, a reduce with an accumulator that starts at 0 should also still work. 
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        function sumArray (arr) {
+          return arr.reduce((acc, num) => acc += num, 0);
+        }
+        
+    copy2: |
+      So here we reduce, summing each of our array's numbers into our accumulator (acc) and returning the final accumulator. 
+  -
+  -
+    title: Test 3
+    theme:
+    copy: |
+      Our final test, to ensure our function is working as it should, should be  running it with an array containing non-numerical values. Ideally, it should just ignore them, while counting numbers if they're apparent.
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        it ('ignores non-numerical values in arrays', () => {
+            expect(sumArray(['hello'])).to.equal(0);
+            expect(sumArray([{}, [], 'hi', true])).to.equal(0);
+            expect(sumArray([1, 'woo', 2, false, []])).to.equal(3);
+        });
+        
+  -
+  -
+    title: Test 3 Function
+    theme:
+    copy: |
+      In order to get this test to pass, we once again need to modify our function. We'll need to update our reduce to handle non-numerical values. Our final function will look like this:
+    subInc:
+      type: code
+      lang: js
+      highlight: 
+      code: |
+        function sumArray (arr) {
+          if (!Array.isArray(arr)) return 0;
+          return arr.reduce((acc, num) => {
+            return typeof num === 'number' ? acc += num : num;
+          }, 0);
+        }
+        
+  -
+  -
+    title: Break it down
+    theme: t-bg-primary
+    copy: |
+      Hopefully you can see that, along with providing tests for the long term, TDD helps you to break the problem down into smaller chunks. This means there's a greater chance of not forgetting important, code-breaking edge cases, and not diving in too quickly, and trying to solve the entire problem at once.
+
+  -
+    title: Time to practice
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Text
+      
+      [JavaScript Online Compiler](https://replit.com/languages/js)

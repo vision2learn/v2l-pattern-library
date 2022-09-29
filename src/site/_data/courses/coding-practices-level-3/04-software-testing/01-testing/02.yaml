@@ -55,7 +55,7 @@ sections:
     theme: i-quiz
   
   -
-    title: slider
+    title: Non-functional testing
     theme: t-bg-primary
     copy: |
       In the video above we have talked about the different types of functional testing, but what about non-functional testing? 
@@ -143,5 +143,4 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-
-  
+ 
