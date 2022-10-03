@@ -18,13 +18,46 @@ sections:
       In your assessment you will be required to 3.1 and 3.2
   -
   -
+    title: Configuration tools
+    theme: t-bg-primary
+    copy: |
+      _Intro text_
+    
+      Scroll through the slides below to learn about configuration tools.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Version control
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Deployment
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Asset management / Configuration manangement database
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Configuration backup and recovery
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
       ### Configuration management
       
-      Please see the following video on .
+      Please see the following video on 2.1 and 2.2.
     video: cp3_u5_s3_p1_Configuration_management.mp4
   -
   -
@@ -33,40 +66,16 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _List of websites shown in video_
-
-        Please see the following website where you can learn more about . . .
-
+        Please see the following website where you can see the examples of tools which were shown in the video:
       links:
-        website description: http://www.google.co.uk
-  -
-  -
-    title: Configuration tools
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+        Auvik: https://www.auvik.com/
+        Ansible: https://www.ansible.com/ 
+        CFEngine: https://cfengine.com/ 
+        Chef: https://www.chef.io/products/chef-automate 
+        Desktop Central: https://www.manageengine.com/products/desktop-central/ 
+        Git: https://git-scm.com/ 
+        Puppet: https://puppet.com/ 
+        Terraform: https://www.terraform.io/ 
   -
   -
     title: Time to think
@@ -74,7 +83,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video._
+        Take a look at one of the tools listed above and explain how its features would be used in configuration management.
 
   -
   -

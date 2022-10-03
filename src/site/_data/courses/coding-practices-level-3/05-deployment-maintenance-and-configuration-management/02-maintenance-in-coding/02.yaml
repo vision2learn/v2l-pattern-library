@@ -16,7 +16,7 @@ sections:
     copy: |
       ### Improvements in maintenance
       
-      Please see the following video on .
+      Please see the following video on 2.3.
     video: cp3_u5_s2_p2_improvements.mp4
   -
     title: Time to think
@@ -24,7 +24,10 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        For each type of software maintenance, have a think and make some notes about the:
+        * uses, 
+        * conditions, and 
+        * consequences. 
 
   -
   -
@@ -33,12 +36,40 @@ sections:
     copy: |
       In your assessment you will be required to 2.4
   -
-    title: placeholder item TBD
-    layout: media
+  -
+    title: Change management
     theme: t-bg-primary
     copy: |
+      _Intro text_
+    
+      Scroll through the slides below to learn more about change management.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Operational quality
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Managing risk
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Overall strategy
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+    title: placeholder item TBD
+    layout: media
+    theme: t-bg-supporting2
+    copy: |
       
-      Text
+      _Do we need an additional item here for change management?_
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -50,9 +81,9 @@ sections:
 
       _Change management process doc?_
 
-      Take a look at the following document about 
+      Take a look at the following to see an example of a change management process document:
 
-      [example doc]().
+      [Change management process document]().
   -
   -
     title: On the web

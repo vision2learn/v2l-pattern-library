@@ -29,24 +29,24 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Code related artifacts
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Document artifacts
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Project management artifacts
           text: |
             text
           img: placeholder_icon.svg
   -
   -
-    title: Examples of Artifacts TDD MAY NOT USE
-    theme: t-bg-primary
+    title: Examples of Artifacts TBD - Probably won't need
+    theme: 
     copy: |
       _Optional item depending on content_
 
@@ -87,7 +87,7 @@ sections:
     layout: media
     theme: t-bg-primary1a i-case-study
     copy: |
-      ### Case study - 
+      ### Case study - TBD - may not use
 
       _could use Azure as an example of packaging an artifact?_
 
