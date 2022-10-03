@@ -1,0 +1,91 @@
+title: Deployment strategy
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 1.5
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Deployment strategy
+      
+      Please see the following video on .
+    video: cp3_u5_s1_p3_deployment_strategy.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 1.4
+  -
+    title: Canary deployment
+    theme: 
+    copy: |
+      Text
+
+      ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 1.7
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Rollback strategy
+      
+      Please see the following video on rollback strategy.
+    video: cp3_u5_s1_p3_rollback.mp4
+  -
+  -
+    title: Rollback plan
+    theme: 
+    copy: |
+      A rollback plan is a written document that outlines all the steps required to recover an application and or database to the point before the deployment.
+
+      See below to see the difference between a deployment plan without rollback, wannabe rollback, and an actual rollback plan.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Examples of rollback plans
+          copy: |
+            | No rollback plan | Wannabe rollback plan | Actual rollback plan |
+            |------|------|------|
+            | N/A there is not need for a rollback plan, change will be successful | | DBA Task |
+            | | | Scripts are located: D:\dba\CC4562\rollback\ |
+            | | | Login to the DB_APPS database as the system user and run the following scripts: |
+            | | - drop the tables | 1.--drop tables - SQL>@drop tables.sql |
+            | | - run the deletes and updates | 2.--run required DML to restore previous state of tables - SQL>@run delete.sql and SQL>@run update.sql |
+            | | - test | 3.--verify - SQL>@post_rollback_verify.sql|
+            | | | All logs need to be saved to: D:\dba\CC4562\rollback\logs |
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites where you can learn more about rollback strategy and see the above example table.
+
+      links:
+        Rollback strategy 5 ingredients: https://www.linkedin.com/pulse/how-good-your-rollback-strategy-5-ingredients-diana-robete
+        Rollback plan - lessons from management: https://www.linkedin.com/pulse/lessons-from-management-rollback-plan-jos-accapadi-mba?trk=pulse-article
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._

@@ -1,0 +1,173 @@
+title: Artifacts, packaging, and deployment planning
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 1.1
+  -
+    title: Artefacts and packages
+    theme: 
+    copy: |
+      Text
+
+      ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: Types of artifacts
+    theme: t-bg-primary
+    copy: |
+      Text
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Code related artifacts
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Document artifacts
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Project management artifacts
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Examples of Artifacts TBD - Probably won't need
+    theme: 
+    copy: |
+      _Optional item depending on content_
+
+      Select the images below to read 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: a
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: b
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: c
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise. OR/AND QUIZ OR CASE STUDY_
+
+        text
+
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - TBD - may not use
+
+      _could use Azure as an example of packaging an artifact?_
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to 1.2
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Deployment planning
+      
+      Please see the following video on .
+
+    video: cp3_u5_s1_p2_deployment_planning.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise OR QUIZ._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  

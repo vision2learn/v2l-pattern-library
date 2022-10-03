@@ -1,0 +1,165 @@
+title: Version control systems
+intro: |
+  Version control includes version control software, version control systems, or version control tools. Version control helps teams to develop products in a more efficient way and helps to deploy a product quicker.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 3.3
+  -
+  -
+    title: Version control and Source code control
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Version control is as aspect of Source control (which we looked at in Unit 3), and the terms tend to be used interchangeable.  Source control systems manage the source code versions.  Each time a product is deployed it would be identified by its version.
+      
+      ### Source code control
+
+      Source code control is a software system that helps developers to collaborate on code and keep track of changes. This is useful and important in a team of developers working on the same software project. Source code control would allow developers to work on their own section of code on their own 'feature branch', which would mean that they could work independently, and 'commit' their own work (along with other team members) to the main 'Dev branch' without any conflicts.
+
+      ### Version control
+
+      Version control includes version control software, version control systems, or version control tools. It should be noted that _source control is specific to source code_. __Version control also covers large binary files and digital assets.__
+
+      Version control allows teams to manage changes over time.  Revisions to the project assets such as source code, graphics, videos, etc can be tracked using __version control systems__.  Version control is used in both hardware and software product development projects. Version control helps teams to develop products in a more efficient way and helps to deploy a product quicker.
+
+    img: /images/svg/cp3/cp3_u3_s1_p2_slide3.svg
+  -
+  -
+    title: Version control within a Source Code control system
+    theme: 
+    copy: |
+      So going back to the source code control branch flow diagram (from Unit 3) – you will note that each time the product is deployed to the main branch it is assigned a version number.
+
+      A version number would be assigned each time a version is deployed - for example a piece of software would be pre-production versions as it is being developed such as v0.1, v0.2 etc, and then once the first release is deployed into the production (live) environment this would then be incremented to v1.0.  Subsequent minor updates would be named v1.1, v1.2 etc.  The next major update would be named v2.0. 
+
+      ![](/images/svg/cp3/cp3_u3_s1_p3_image1.svg)
+      
+      Once on the 'Master branch' it would have a final review and test.  It is at this stage that the stakeholders of the project would sign off that __version__, and then it would be deployed to the __live site__.  __It is at this stage of the project that the 'version' of the software, application or website is recorded.__
+  -
+  -
+    title: Types of version control
+    theme: t-bg-primary
+    copy: |
+      _Intro text_
+    
+      Scroll through the slides below to learn more about the different types of version control systems.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Local
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Centralised
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Distributed
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Benefits of version control
+    theme: t-bg-supporting3
+    copy: |
+      _Intro text_
+
+      See below to learn more about the capabilities of version control.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Concurrent development
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Automation
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Team collaboration
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Preserving history
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Availability and Recovery
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg 
+  -
+  -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      ### Case study - TBD
+
+      _could use an example of a project when Version control isnt used_
+
+      What issues do you think could arise for a Software Development team of not using version control processes? 
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What issues do you think could arise for a Software Development team of not using version control processes?
+
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        ### Version control video
+
+        Please see the following youtube video where you can learn more about version control and how to set one up in your own IDE.
+
+      links:
+        Version control: https://www.youtube.com/watch?v=8zNiwUDc1gQ 

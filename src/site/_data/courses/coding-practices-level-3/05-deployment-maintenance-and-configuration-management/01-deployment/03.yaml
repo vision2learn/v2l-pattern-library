@@ -1,0 +1,157 @@
+title: Deployment - build, deploy, and continuous deployment
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 1.3
+  -
+  -
+    title: The DevOps stages
+    theme: t-bg-primary
+    copy: |
+      Before we go into more detail about the build, deployment, and continuous deployment, it is useful to know where these fit within the DevOps process.
+      
+      The DevOps process combines software development and IT operations. It consists of a set of principles and practices which aim to shorten the software development lifecyle whilst ensuring quality in the outcome.  In general, it consists of various working methodologies referred to as “toolchains” which encompass: 
+      * Coding 
+      * Building
+      * Testing
+      * Packaging
+      * Release
+      * Configuring 
+      * Monitoring 
+      
+      DevOps aims to be flexible and is complimentary to a style of working called Agile.
+
+      For building, testing, and release (deployment) toolchains, DevOps uses continuous integration, continuous delivery, and continuous deployment, respectively, which have their basis in Agile workflow. Let’s have a look at DevOps processes and how they allow development teams to specify their pipeline flows, infrastructure and deployment settings.
+  -
+  -
+    title: DevOps processes
+    theme: t-bg-supporting3
+    copy: |
+      DevOps processes are used to:
+      1. minimize the development time between releases, and 
+      2. so that up-to-date product-ready versions can be released at any moment. 
+
+      Historically, programmers may have worked on their separate sections of code, only merging them together after extended time periods when individual pieces of work were complete. However, this meant that bugs and errors accumulated over time, which made them more time-consuming to fix, and only came to light when the work is brought together. This was also a longer process, which meant that there was extra time before the product was ready for use for the customers.
+
+      Using continuous integration, continuous delivery, and continuous deployment, small code sections can be merged into the main program, tested, and released as they are completed as an on-going process. They refer to different stages and practices of the development cycle.
+
+      ![](/images/svg/uc/uc_u4_s3_p1_wide_image.svg)
+  -
+  -
+    title: The DevOps lifecycle
+    theme: 
+    
+    copy: |
+      Please see the below activity which will take you through the lifecycle and stages of DevOps.  It also defines and clarifies the steps involved in continuous integration, continuous delivery, and continuous deployment.
+      
+    interactive: 
+      file: uc/u4_s3_p1_dev_ops
+      width: 1000
+      height: 1000
+      composition: 1A9338FEE8584755AB48BB991EF417A3
+  -
+  -
+    title: Build and Deploy
+    theme: t-bg-primary
+    copy: |
+      Intro text
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Build
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Deploy
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    copy: Build or Deploy?
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 1.6
+  -
+    title: Continuous deployment
+    theme: 
+    copy: |
+      Text
+
+      ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        _Optional item depending on content_
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
