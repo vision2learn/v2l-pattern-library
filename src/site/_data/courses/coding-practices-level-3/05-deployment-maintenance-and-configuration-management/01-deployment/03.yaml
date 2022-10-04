@@ -1,6 +1,6 @@
 title: Deployment - build, deploy, and continuous deployment
 intro: |
-  intro text
+  On this page you will learn about the difference between build and deploy; and what is meant by continuous deployment.
 banner: placeholder.jpg
 sections:
   -
@@ -59,7 +59,7 @@ sections:
     title: Build and Deploy
     theme: t-bg-primary
     copy: |
-      Intro text
+      Intro text   _more work needed on content here_
     
       Scroll through the slides below to learn more about ...
 
@@ -70,32 +70,34 @@ sections:
         -
           title: Build
           text: |
-            text
+            A 'Build' is when a version of a fully developed software product is ‘built’ into a package or form that can be deployed. For example an executable file is a built software product.  Built is a compiled file of a project.  Build is putting the project together.  A software build is a set of executable code that is ready for use.  The team compiles the source code into a binary file.  Each time the source code is built it will be assigned a version. Repeated builds are known as continuous integration and are part of the development process which would involve collecting and packaging all of the application components.  Two types of builds – a full build and an incremental build.  
           img: placeholder_icon.svg
         -
           title: Deploy
           text: |
-            text
+            Installed, tested and implemented a system, application or website. Making it runnable or live on a website.  Deployment is a process of hosting the project on a server. 
+            
+            Take code from version control and make it available to users – you can deploy to a dev, test, and production environments – manually or automatically.  Continuous deployment is automated and would release the new or updated source code into the production (live) environment. (_use l2 text_). 
           img: placeholder_icon.svg
   -
   -
     title: Quick quiz
-    copy: Build or Deploy?
+    copy: Build or Deployed?
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Making a software product runnable is Deployed.
+          answer: Deployed
         -
-          sentence: example two
-          answer: two
+          sentence: The Build would generate a compiled file of a project.
+          answer: Build
         -
-          sentence: example three 
-          answer: three
+          sentence: Bringing a software project together is a Build. 
+          answer: Build
         -
-          sentence: example four
-          answer: four
+          sentence: Installing, testing and implementing a system is Deployed. 
+          answer: Deployed
     theme: i-quiz
   -
   -
@@ -107,9 +109,17 @@ sections:
     title: Continuous deployment
     theme: 
     copy: |
-      Text
+      Continuous Deployment (CD) is the final stage in a software project.  It is a strategy that automates software releases into the production environment due to the source code passing all testing in previous phrases.  
+
+      Whilst Continuous Integration (CI) and Continuous Delivery ensure that the program is continuously functional during production, CD goes another step further and passes all stages of the production pipeline to customers.  It aims to minimise the ‘lead time’, the time between any changes being made to the software, and the software being usable by the customer. 
+
+      It involves the full end to end testing of the complete software package.  The whole package will go through automated dependency, integration, and unit testing.  If the package passes the tests it can be deployed, else it is revised using test-driven development practices. 
+
+      Once signed off it will be uploaded to a central repository from which all system files are contained and can be accessed by the end user. 
 
       ![](/images/banners/placeholder.jpg)
+
+      One of the main advantages with CD is that once all the manual tests and review aspects have been done in the Continuous Delivery stage there is no time-lag as it can automatically be deployed into the production environment. However, testing and monitoring are more critical in CD as there is no human (manual) approval.  Tools used in the CD stage would include those used in Continuous Delivery but with an emphasis on testing before and after deployment.
   -
   -
     title: Time to think
