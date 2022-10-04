@@ -8,14 +8,17 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * The key elements of maintenance
+      * Why documentation of maintenance is important
+      * The improvements that could be made in maintenance
+      * Why change management is used in maintenance
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 2.1 and 2.2
+      In your assessment you will be required to:
+      * Identify the key elements of maintenance
+      * Explain why documentation of maintenance is important
   -
   -
     title: Key elements of maintenance
