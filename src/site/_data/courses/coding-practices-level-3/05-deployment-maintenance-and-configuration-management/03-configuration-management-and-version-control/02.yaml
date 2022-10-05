@@ -11,22 +11,28 @@ sections:
   -
   -
     title: Version control and Source code control
-    layout: media
     theme: t-bg-primary
     copy: |
       Version control is as aspect of Source control (which we looked at in Unit 3), and the terms tend to be used interchangeable.  Source control systems manage the source code versions.  Each time a product is deployed it would be identified by its version.
-      
-      ### Source code control
 
-      Source code control is a software system that helps developers to collaborate on code and keep track of changes. This is useful and important in a team of developers working on the same software project. Source code control would allow developers to work on their own section of code on their own 'feature branch', which would mean that they could work independently, and 'commit' their own work (along with other team members) to the main 'Dev branch' without any conflicts.
+      See below to learn more about the differences:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Source code control
+          copy: |
+            Source code control is a software system that helps developers to collaborate on code and keep track of changes. This is useful and important in a team of developers working on the same software project. Source code control would allow developers to work on their own section of code on their own 'feature branch', which would mean that they could work independently, and 'commit' their own work (along with other team members) to the main 'Dev branch' without any conflicts.
 
-      ### Version control
+            It should be noted that _source code control is specific to source code_. 
+          img: /images/svg/cp3/cp3_u3_s1_p2_slide3.svg
+        - 
+          title: Version control
+          copy: |
+            Version control includes version control software, version control systems, or version control tools. __Version control also covers large binary files and digital assets.__
 
-      Version control includes version control software, version control systems, or version control tools. It should be noted that _source control is specific to source code_. __Version control also covers large binary files and digital assets.__
-
-      Version control allows teams to manage changes over time.  Revisions to the project assets such as source code, graphics, videos, etc can be tracked using __version control systems__.  Version control is used in both hardware and software product development projects. Version control helps teams to develop products in a more efficient way and helps to deploy a product quicker.
-
-    img: /images/svg/cp3/cp3_u3_s1_p2_slide3.svg
+            Version control allows teams to manage changes over time.  Revisions to the project assets such as source code, graphics, videos, etc can be tracked using __version control systems__.  Version control is used in both hardware and software product development projects. Version control helps teams to develop products in a more efficient way and helps to deploy a product quicker.
+          img: /images/svg/placeholder_icon.svg     
   -
   -
     title: Version control within a Source Code control system
@@ -38,89 +44,70 @@ sections:
 
       ![](/images/svg/cp3/cp3_u3_s1_p3_image1.svg)
       
-      Once on the 'Master branch' it would have a final review and test.  It is at this stage that the stakeholders of the project would sign off that __version__, and then it would be deployed to the __live site__.  __It is at this stage of the project that the 'version' of the software, application or website is recorded.__
+      Once on the 'Master branch' it would have a final review and test.  It is at this stage that the stakeholders of the project would sign off that __version__, and then it would be deployed to the 'live site'.  __It is at this stage of the project that the 'version' of the software, application or website is recorded.__
   -
   -
     title: Types of version control
+    theme: t-bg-supporting3
+    copy: |
+      Although in most software development projects there are two types of version control systems - centralised and distributed, there is also a another 'local' type which can is used so this has been included. Scroll through the slides below to learn more about the different types of version control systems. See below to see the three different types.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Local Version Control System (LVCS)
+          copy: |
+            This is the simplist type and is when the project files are kept on a local computer.  A local version control system (LVCS) has a simple database which keeps tracks of changes to files using a Revision Control System (RCS). So for each working file (or document) you would instate its RCS file once, and enter a cycle of checkout, change, and checkin tasks.   RCS is often compared to a library system – so for example you would accept a library card (instate), take the book home (checkout), read it, and then return it to the library (checkin).
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Centralised Version Control System (CVCS)
+          copy: |
+            Issues can be encountered when development teams needed to collaboration on other systems that were not local.  To overcome this issue Centralised Version Control Systems (CVCS) were created. The history of changes to the source code, files and documents are kept on a central server.  Everyone in the team would request the latest version of the project and would push their most recent changes to.  All of the team would share everyone’s work.  This type of system would allow more access and use folder permissions.  They are also backed up on a regular basis and have strong security.  However, there can be issues if the server goes down or if the centralised database gets corrupted.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Distributed Version Control System (DVCS)
+          copy: |
+            With Distributed version control systems (DVCS) the developers would check out the latest versions of the files and mirror the repository. Every checkout is a full backup of all the data as it would also be on each of the team developers local environment. Developers can have their own workflow (and their own branch) in this type of system - this isn’t possible with CVCS. The advantages of this system is that the history is fully available, it is fast because of its local way of working, it doesn’t require access to remote servers, and branching and merging is very straightforward.
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Benefits of version control
     theme: t-bg-primary
     copy: |
-      _Intro text_
-    
-      Scroll through the slides below to learn more about the different types of version control systems.
+      Scroll through the slides below to learn about the benefits and capabilities of version control.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Local
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Centralised
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Distributed
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Benefits of version control
-    theme: t-bg-supporting3
-    copy: |
-      _Intro text_
-
-      See below to learn more about the capabilities of version control.
-    subInc: 
-      type: accordion
-      content:
-        - 
           title: Concurrent development
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
+          text: |
+            Multiple developers and other team members such as designers can work on the same set of files at the same time without the concern of duplicating work or accidently overwriting other team members work.  Given the degree of complexity within a modern software product there is a need to manage multiple versions of source code files and completed products. 
+          img: placeholder_icon.svg
+        -
           title: Automation
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
+          text: |
+            Automation improves productivity and the quality of a project.  It is now common in modern version control systems for Testing and Deployment to be automated.  Within the DevOps stages Continuous integration with automated builds and code reviews are standard aspects.
+          img: placeholder_icon.svg
+        -
           title: Team collaboration
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
+          text: |
+            In the virtual world of remote working Team members may be located in different geographical areas. So there needs to be a way for all team members to have access to the same product development environment system.  A single source of truth which has secured identify and access management, and the ability to reuse IPs and software will enable the team to use the system collaborate.
+          img: placeholder_icon.svg
+        -
           title: Preserving history
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Availability and Recovery
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg 
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - TBD
-
-      _could use an example of a project when Version control isnt used_
-
-      What issues do you think could arise for a Software Development team of not using version control processes? 
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+          text: |
+            Changes that are being made to the system is important and should include what, who, why, and when they are being made. Version control will capture detailed information on each change made and give you access to that history forever.
+          img: placeholder_icon.svg
+        -
+          title: Availability and recovery
+          text: |
+            Because you can have different versions of the source control working at the same time – this gives different members of a large team the ability to work on the same code in cases of more complex items or server access issues which will increase productivity and efficiency.  With some version control software you can also have a replica of the repository on a different location. Also, because everything is backed up on the system, a version could be rolled back to a previous version if there were any issues.
+          img: placeholder_icon.svg
   -
   -
     title: Time to think
@@ -129,26 +116,25 @@ sections:
       type: time-to-think
       copy: |
         What issues do you think could arise for a Software Development team of not using version control processes?
-
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: Types of version control systems
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: With a centralised version control system the history of changes to the source code, files and documents are kept on a central server.
+          answer: centralised
         -
-          sentence: example two
-          answer: two
+          sentence: With a distributed version control system the history is fully available and it is fast because of its local way of working.
+          answer: distributed
         -
-          sentence: example three 
-          answer: three
+          sentence: A local version control system has a simple database which keeps tracks of changes to files using a Revision Control System (RCS). 
+          answer: local
         -
-          sentence: example four
-          answer: four
+          sentence: There can be issues with a centralised version control system if the server goes down or if the database gets corrupted.
+          answer: centralised
     theme: i-quiz
   -
   -
@@ -157,7 +143,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        ### Version control video
+        ### Version control system - Video
 
         Please see the following youtube video where you can learn more about version control and how to set one up in your own IDE.
 
