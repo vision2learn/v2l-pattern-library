@@ -14,7 +14,7 @@ sections:
     copy: |
       An artefact is any of the single items that would be part of the software project. A package is a packaged project which would contain the artefacts.   As you can see from the below diagram, different artefacts would be created by different members of the product team at different stages of the project lifecycle. 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u5_s1_p2_image.svg)
 
       Artefacts can also include things like case studies, data models, design documents, scripts, and work products.  
 
@@ -96,9 +96,9 @@ sections:
 
       Docker is a container management service. Docker uses an ‘image’ format which stores data and metadata.  A docker image make good release artefacts because the image format is a portable application package.  
 
-      Using a package management tool such as Docker would expand on steps 4 and 5 in the above. 
+      Using a package management tool such as Docker would expand on the steps 4 and 5 illustrated in the above diagram. 
 
-      As you can see from the following diagram, custom software is packaged into a Docker image, which is tested, and then published into a releasable artifact. 
+      As you can see in the below diagram, custom software is packaged into a Docker image, which is tested, and then published into a releasable artifact. 
 
       ![](/images/banners/placeholder.jpg)
 
@@ -121,11 +121,11 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about the examples used above.
+        Please see the following website where you can learn more about the two example package management tools:
 
       links:
-        docker: https://www.docker.com/
-        nuget: https://www.nuget.org/
+        Docker: https://www.docker.com/
+        NuGet: https://www.nuget.org/
   -
   -
     title: Key point
