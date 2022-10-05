@@ -8,14 +8,16 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * What is meant by configuration management
+      * The tools and techniques used in configuration management systems
+      * The main features and benefits of version control systems
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 3.1 and 3.2
+      In your assessment you will be required to:
+      * Explain what is meant by configuration management
+      * Explain the tools and techniques used in configuration management systems
   -
   -
     title: Configuration tools

@@ -1,13 +1,13 @@
-title: Deployment - build, deploy, and continuous deployment
+title: Build, Deploy, and Continuous Deployment
 intro: |
-  intro text
+  On this page you will learn about the difference between build and deploy; and what is meant by continuous deployment.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 1.3
+      In your assessment you will be required to explain the difference between build and deploy.
   -
   -
     title: The DevOps stages
@@ -40,7 +40,7 @@ sections:
 
       Using continuous integration, continuous delivery, and continuous deployment, small code sections can be merged into the main program, tested, and released as they are completed as an on-going process. They refer to different stages and practices of the development cycle.
 
-      ![](/images/svg/uc/uc_u4_s3_p1_wide_image.svg)
+      ![](/images/svg/cp3/cp3_u5_s5_p3_wide_image.svg)
   -
   -
     title: The DevOps lifecycle
@@ -50,7 +50,7 @@ sections:
       Please see the below activity which will take you through the lifecycle and stages of DevOps.  It also defines and clarifies the steps involved in continuous integration, continuous delivery, and continuous deployment.
       
     interactive: 
-      file: uc/u4_s3_p1_dev_ops
+      file: cp3/u5_s1_p3_dev_ops
       width: 1000
       height: 1000
       composition: 1A9338FEE8584755AB48BB991EF417A3
@@ -59,57 +59,81 @@ sections:
     title: Build and Deploy
     theme: t-bg-primary
     copy: |
-      Intro text
-    
-      Scroll through the slides below to learn more about ...
+      Within a software development project, 'build' and 'deploy' are common terms but are also connected to each other as the  deployment is dependent upon the build.  See below to see the differences between the two:
 
     subInc: 
-      type: slider
-      title: 
-      slides:
-        -
+      type: accordion
+      content:
+        - 
           title: Build
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
+          copy: |
+            A version of a fully developed software product is ‘built’ into a package or form that can be deployed. For example, an executable file is a built software product; it is a compiled file of a project. Or a software build (such as a website) is a set of executable code that is ready to be tested.  There are two types of builds – a full build and an incremental build. 
+
+            Repeated builds are known as Continuous Integration (CI) and are part of the development process which would involve collecting and packaging all the application components. CI is part of the build stage in DevOps processes; once the code has been created, committed to version control (a repository) and tested, the build would put all of the elements of the project together before continuing to the next stage. Each time the source code is built it is assigned a version. 
+            
+            It is at the build stage that the team compiles the source code into a binary (executable) file.
+          img: /images/svg/placeholder_icon.svg
+        - 
           title: Deploy
-          text: |
-            text
-          img: placeholder_icon.svg
+          copy: |
+            Once the build has been packaged it is ready to be deployed. The deployment would be installed, tested, and implemented as a system, application, or website. If the project is a website, deployment is making it live on the internet.  If a dedicated  system, deployment is the process of hosting the project on a server. If an application, deployment is creating the final executable (compiled) file.  
+
+            Deployment can be to 'Development', 'Test', and 'Production' environments, and can be done manually or automatically. Deployment would take the source code from 'Version Control' and make it available to users. 
+            
+            Continuous Deployment (CD) is automated and would release the new or updated source code into the production (live) environment.  It would involve the whole package going through automated dependency testing, integration testing, and unit testing.  Test-driven development practices would be used if the package does not pass the tests.  
+
+            Deployment is the final stage of the project and is when the product is ready for the customer and is ready to be deployed into the live environment. 
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Quick quiz
-    copy: Build or Deploy?
+    copy: Build or Deployment?
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A build will produce an executable file. 
+          answer: build
         -
-          sentence: example two
-          answer: two
+          sentence: A build is a packaged version of a fully developed software product. 
+          answer: build
         -
-          sentence: example three 
-          answer: three
+          sentence: Deployment would mean that the product is installed, tested, and implemented as a system, application, or website. 
+          answer: Deployment
         -
-          sentence: example four
-          answer: four
+          sentence: Continuous Integration (CI) is part of the build stage in DevOps processes. 
+          answer: build
+        -
+          sentence: Deployment is the final stage of the project and is when the product is ready for the customer. 
+          answer: Deployment
+        -
+          sentence: Bringing the source code with all of its components together is a build.
+          answer: build
+        -
+          sentence: Deployment is installing, testing, and implementing a system into the production environment. 
+          answer: Deployment
     theme: i-quiz
   -
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 1.6
+      In your assessment you will be required to describe what is meant by continuous deployment.
   -
     title: Continuous deployment
     theme: 
     copy: |
-      Text
+      Continuous Deployment (CD) is the final stage in a software project.  It is a strategy that automates software releases into the production environment due to the source code passing all testing in previous phrases.  
+
+      Whilst Continuous Integration (CI) and Continuous Delivery ensure that the program is continuously functional during production, CD goes another step further and passes all stages of the production pipeline to customers.  It aims to minimise the ‘lead time’, the time between any changes being made to the software, and the software being usable by the customer. 
+
+      It involves the full end to end testing of the complete software package.  The whole package will go through automated dependency, integration, and unit testing.  If the package passes the tests it can be deployed, else it is revised using test-driven development practices. 
+
+      Once signed off it will be uploaded to a central repository from which all system files are contained and can be accessed by the end user. 
 
       ![](/images/banners/placeholder.jpg)
+
+      One of the main advantages with CD is that once all the manual tests and review aspects have been done in the Continuous Delivery stage there is no time-lag as it can automatically be deployed into the production environment. However, testing and monitoring are more critical in CD as there is no human (manual) approval.  Tools used in the CD stage would include those used in Continuous Delivery but with an emphasis on testing before and after deployment.
   -
   -
     title: Time to think
@@ -117,8 +141,9 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
-
+        Take a look at the below website (or research your own) and make some notes of the steps involved in the following stages:
+        * Continuous Integration (which is part of the 'build')
+        * Continuous Deployment 
   -
   -
     title: On the web
@@ -126,32 +151,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the Build and Deploy stages within DevOps:
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        DevOps - Commit, Build and Deploy: https://medium.com/wearehumblebee/devops-commit-build-and-deploy-your-code-1d30c8f20a13
