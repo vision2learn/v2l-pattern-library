@@ -1,6 +1,6 @@
 title: Configuration management and version control
 intro: |
-  intro text
+  In this session you will learn about configuration management and version control systems.  On this page we look at the tools and techniques used in configuration management systems.
 banner: placeholder.jpg
 sections:
   -
@@ -23,9 +23,7 @@ sections:
     title: Configuration tools
     theme: t-bg-primary
     copy: |
-      _Intro text_
-    
-      Scroll through the slides below to learn about configuration tools.
+      A Software configuration management system (SCM) would have a set of software tools which would be used to track and control changes in the stages of a software project. Scroll through the slides below to learn about configuration tools.
 
     subInc: 
       type: slider
@@ -34,22 +32,24 @@ sections:
         -
           title: Version control
           text: |
-            text
+            A version control system tool would be used to track code and asset changes. It would also have comparison capabilities so the current state can be compared to the previous state if needed  It should be noted that source control is specific to source code. Version control also covers large binary files and digital assets. 
           img: placeholder_icon.svg
         -
           title: Deployment
           text: |
-            text
+            A deployment tool would automate deployment from the Continuous Delivery (CD) stage of the project.  The deployment tool would be connected to the version control tool.  
+            
+            A 'Deployment site' would also be used for the Continuous Integration (CI) stages of a project so the developer, testing and review teams could check the product on a Developer site or Staging site before final deployment. 
           img: placeholder_icon.svg
         -
           title: Asset management / Configuration manangement database
           text: |
-            text
+            Asset management would store, classify, and manage configuration assets. A Configuration Management Database (CMDB) helps to manage configuration assets. It stores the configuration records for the assets, and includes the attributes, such as type, owner, or version.  It also stores the relationships with other assets in the system.
           img: placeholder_icon.svg
         -
           title: Configuration backup and recovery
           text: |
-            text
+             If there are any issues the system can be restored from a backup.  This would also be related to version control and rollback strategy. It would improve a system recovery with its automation capabilities, and would keep an audit trail which would document any changes or update. If a system failed or crashed, the reason could be identified and avoided in future deployments.
           img: placeholder_icon.svg
   -
   -
@@ -59,7 +59,7 @@ sections:
     copy: |
       ### Configuration management
       
-      Please see the following video on 2.1 and 2.2.
+      Configuration management is a process that defines, controls, documents, and reports the configuration items in a system. Please see the following video learn more about configuration management and Software Configuration Management (SCM) tools.
     video: cp3_u5_s3_p1_Configuration_management.mp4
   -
   -
@@ -86,7 +86,6 @@ sections:
       type: time-to-think
       copy: |
         Take a look at one of the tools listed above and explain how its features would be used in configuration management.
-
   -
   -
     title: Quick quiz
@@ -94,39 +93,15 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A version control tool would be used to track code and asset changes.
+          answer: version control
         -
-          sentence: example two
-          answer: two
+          sentence: An asset management tool would store, classify, and manage configuration items.
+          answer: asset management
         -
-          sentence: example three 
-          answer: three
+          sentence: A backup and recovery tool would be used if a system failed or crashed.
+          answer: backup and recovery
         -
-          sentence: example four
-          answer: four
+          sentence: A deployment tool would automate the rollout of the product from the Continuous Delivery (CD) stage of the project.
+          answer: deployment
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
