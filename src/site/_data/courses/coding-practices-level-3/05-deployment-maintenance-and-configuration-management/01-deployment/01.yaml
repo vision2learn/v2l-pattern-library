@@ -14,17 +14,21 @@ sections:
 
       You will:
 
-      1. one
-      2. two
-      3. three
+      1. Know about deployment
+      2. Understand maintenance in coding
+      3. Understand configuration management and version control systems
 
-      [View the complete set of learning outcomes for this unit.](/pdfs/)
+      [View the complete set of learning outcomes for this unit.](/pdfs/v2l_cp3_learning_outcomes_u5.pdf)
   -
     title: What you will learn
     theme: t-bg-primary1a
     copy: |
       In this session you will learn about:
       
-      * one
-      * two
-      * three
+      * How to package an artefact
+      * The importance of deployment planning
+      * The difference between build and deploy
+      * What is meant by continuous deployment
+      * What is meant by deployment strategy
+      * The advantages and disadvantages of canary deployment
+      * What is meant by rollback strategy

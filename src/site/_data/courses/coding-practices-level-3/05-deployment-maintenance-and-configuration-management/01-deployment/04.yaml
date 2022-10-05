@@ -1,13 +1,13 @@
 title: Deployment strategy
 intro: |
-  intro text
+  On this page you will learn about deployment strategy, canary deployment, and what is meant by rollback strategy.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 1.5
+      In your assessment you will be required to describe what is meant by deployment strategy.
   -
   -
     title: Watch 
@@ -16,27 +16,36 @@ sections:
     copy: |
       ### Deployment strategy
       
-      Please see the following video on .
+      A deployment strategy is a process to change (or upgrade) a software product. One of the aims of a deployment strategy is to release a new version without downtime so the user is free to continue using the product. Please see the following video to learn more.
+
     video: cp3_u5_s1_p3_deployment_strategy.mp4
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 1.4
+      In your assessment you will be required to identify the advantages and disadvantages of canary deployment.
   -
     title: Canary deployment
-    theme: 
+    theme: t-bg-primary
     copy: |
-      Text
+      Canary deployment (which is also known as ‘phased’ or ‘incremental rollout’) rolls out the latest version of a software product to a smaller group of uses so they can act as a test group to catch errors and issues before deploying to the wider group. 
 
-      ![](/images/banners/placeholder.jpg)
+      Canary deployment would alleviate capacity planning as the target audience is much smaller so the product would only need to be deployed to a single server or a limited set.  A subset of end users would test the update and alert the production team if there were any issues. 
+
+      ![](/images/svg/cp3/cp3_u5_s1_p4_image.svg)
+
+      It is quite robust as if there are any issues with the new release, users can still be directed to the existing ‘live’ version whilst updates and bug fixes are being carried out on the Canary updated  version.  
+
+      One of the disadvantages is the resources that may be needed as the time it would take to complete the updated version as it is tested and phased into production could be slow.   
+
+      Also, version management would be a critical consideration as more than one version would need to be managed simultaneously.  However, rollback can be quick with this type of deployment if it was found that was needed.
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 1.7
+      In your assessment you will be required to identify what is meant by rollback strategy.
   -
   -
     title: Watch 
@@ -45,23 +54,23 @@ sections:
     copy: |
       ### Rollback strategy
       
-      Please see the following video on rollback strategy.
+      Choosing the right deployment strategy for a project would include several considerations.  One serious consideration is it’s support with rollback. Please see the following video to learn more.
     video: cp3_u5_s1_p3_rollback.mp4
   -
   -
     title: Rollback plan
-    theme: 
+    theme: t-bg-supporting3
     copy: |
       A rollback plan is a written document that outlines all the steps required to recover an application and or database to the point before the deployment.
 
-      See below to see the difference between a deployment plan without rollback, wannabe rollback, and an actual rollback plan.
+      See below to see the difference between a deployment plan without rollback, minimal rollback, and an actual rollback plan.
     subInc: 
       type: accordion
       content:
         - 
           title: Examples of rollback plans
           copy: |
-            | No rollback plan | Wannabe rollback plan | Actual rollback plan |
+            | No rollback plan | Minimal rollback plan | Actual rollback plan |
             |------|------|------|
             | N/A there is not need for a rollback plan, change will be successful | | DBA Task |
             | | | Scripts are located: D:\dba\CC4562\rollback\ |
@@ -88,4 +97,8 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Choose from one of the following types of deployment strategy, and make some notes on why you would select that strategy for a software project:
+        * Basic deployment
+        * Blue-green deployment
+        * Canary deployment
+        * A/B testing

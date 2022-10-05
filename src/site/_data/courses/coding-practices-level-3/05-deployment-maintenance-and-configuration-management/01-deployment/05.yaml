@@ -1,5 +1,5 @@
 title: What did you learn? 
-intro: Well done, you’ve now completed the ? session of this unit! 
+intro: Well done, you’ve now completed the first session of this unit! 
 banner: summary.jpg
 sections:
   -
@@ -7,7 +7,11 @@ sections:
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * one
-      * two
-      * three
+      * How to package an artefact
+      * The importance of deployment planning
+      * The difference between build and deploy
+      * What is meant by continuous deployment
+      * What is meant by deployment strategy
+      * The advantages and disadvantages of canary deployment
+      * What is meant by rollback strategy
   
