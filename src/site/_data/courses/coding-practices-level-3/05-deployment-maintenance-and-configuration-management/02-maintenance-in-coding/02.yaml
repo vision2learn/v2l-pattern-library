@@ -1,6 +1,6 @@
 title: Improvements and change management
 intro: |
-  intro text
+  On this page we will look at maintenance improvements and why change management is used in maintenance.
 banner: placeholder.jpg
 sections:
   -
@@ -16,7 +16,7 @@ sections:
     copy: |
       ### Improvements in maintenance
       
-      Please see the following video on 2.3.
+      In this video we take a look at the improvements that can be made during maintenance and the potential negative consequences that this may have.
     video: cp3_u5_s2_p2_improvements.mp4
   -
     title: Time to think
@@ -24,11 +24,10 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        For each type of software maintenance, have a think and make some notes about the:
+        Have a think and make some notes about how what could occur during improvement work - take the following into consideration for each type of software maintenance:
         * uses, 
         * conditions, and 
-        * consequences. 
-
+        * consequences.
   -
   -
     title: Key point
@@ -64,22 +63,13 @@ sections:
             text
           img: placeholder_icon.svg
   -
-    title: placeholder item TBD
-    layout: media
-    theme: t-bg-supporting2
-    copy: |
-      
-      _Do we need an additional item here for change management?_
-
-    img: /images/svg/placeholder_icon.svg
-  -
   -
     title: Read
     theme: t-bg-primary2 i-read
     copy: | 
       ### Change management process
 
-      _Change management process doc?_
+      _Change management process doc example from booklet?_
 
       Take a look at the following to see an example of a change management process document:
 

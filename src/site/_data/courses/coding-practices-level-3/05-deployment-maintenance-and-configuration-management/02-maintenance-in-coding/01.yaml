@@ -1,6 +1,6 @@
 title: Maintenance, Elements and Documentation
 intro: |
-  intro text
+  This session is all about maintenance.  It includes the key elements, improvements, change management, and documentation.  
 banner: placeholder.jpg
 sections:
   -
@@ -16,17 +16,13 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to:
-      * Identify the key elements of maintenance
-      * Explain why documentation of maintenance is important
+      In your assessment you will be required to identify the key elements of maintenance.
   -
   -
     title: Key elements of maintenance
     theme: t-bg-primary
     copy: |
-      Text
-    
-      Scroll through the slides below to learn more about the key elements of maintenance.
+      Developing a piece of software can take a couple of years but maintenance is ongoing for the lifetime of the product and can last up to 20 years and sometimes even more. Let’s look at the four main types of software maintenance.
 
     subInc: 
       type: slider
@@ -35,22 +31,22 @@ sections:
         -
           title: Corrective maintenance
           text: |
-            text
+            The typical, classic form of maintenance is known as ‘Corrective software maintenance’.  Basically, if something goes wrong, a solution is identified and developed to fix it. Corrective software maintenance is necessary when a piece of software shows faults and errors, or there is a compatibility issue with another piece of newly released software. 
           img: placeholder_icon.svg
         -
           title: Adaptive maintenance
           text: |
-            text
+            ‘Adaptive maintenance’ takes into consideration that technology is constantly changing, and that it is importance that software is able to keep up with these changes.  Sometimes adaptive maintenance will also take organisation’s polices and rules into consideration as well. 
           img: placeholder_icon.svg
         -
           title: Perfective maintenance
           text: |
-            text
+            Perfective software maintenance is about improving the software and system performance once the product has been released.  It is normally in response to the customer feedback.  It’s focus is on features and functional enhancements that improve the user experience.
           img: placeholder_icon.svg
         -
           title: Preventative software maintenance 
           text: |
-            text
+            Preventative software maintenance is about future-proofing and the shelf-life of the software product. It makes changes and adaptations to the software product with new features and updates. It reduces the risk of deterioration as new features would improve reliability, performance, maintainability, and stability.
           img: placeholder_icon.svg
   -
   -
@@ -60,8 +56,43 @@ sections:
     copy: |
       ### Maintenance
       
-      Please see the following video on 2.1 and 2.2.
+      Please see the following video which takes a further look at the four main types of software maintenance.
     video: cp3_u5_s2_p1_maintenance.mp4
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain why documentation of maintenance is important.
+  -
+  -
+    title: Importance of maintenance documents
+    theme: t-bg-supporting3
+    copy: |
+      Intro text. 
+      
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Why it is important
+          copy: |
+            Text
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Types of maintenance documents
+          copy: |
+            Text
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Live documents
+          copy: |
+            Text
+            
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Read
@@ -69,24 +100,11 @@ sections:
     copy: | 
       ### Documentation of maintenance
 
-      _2.2 - Documentation of maintenance_
-
       Intro text.
       
-      Take a look at the following document to see an example of.....
+      Take a look at the following document to see an example of a ..... maintenance document.
 
       [Maintenance documentation examples]().
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Not keeping documentation
-
-      _Case study or and/or a T2T exercise on what could happen when a team does not keep documentation_
-
-    img: /images/svg/placeholder_icon.svg
   -
   -
     title: Time to think
@@ -94,7 +112,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Pitfalls of not keeping documentation exercise?_
+        What do you think are the potential pitfalls for __not__ keeping maintenance documents?
   -
   -
     title: Quick quiz
@@ -120,9 +138,9 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about . . . _my reference sites for now_
 
       links:
-        website description: http://www.google.co.uk
+        Technical documents in software development: https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools/
+        Software documents and maintenance: https://se.jku.at/dogma-software-documentation-and-maintenance/
+
