@@ -61,15 +61,19 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to explain why documentation of maintenance is important.
   -
   -
-    title: Importance of maintenance documents
-    theme: t-bg-supporting3
+    title: Maintenance documentation
+    theme: t-bg-primary
     copy: |
-      Intro text. 
+      Agile methodology has shaken the traditional view of software documentation as it is more aligned with the philosophy of information communication.  But the Agile model is not suitable once the development project is complete as software maintenance becomes the focus so there is a much greater need for supporting maintenance documentation. 
+
+      It has been found that there are two extremes with maintenance support. There is either no documentation at all due to planning and budget pressures during development, or too much is written as the software is developed so it ends up out of date and irrelevant. Neither of these two scenarios support the developer who is responsible for maintaining the software. 
+
+      The purpose of the software maintenance manual is to help software engineers to understand the software so they can maintain it. 
       
       See below to learn more.
     subInc: 
@@ -78,33 +82,75 @@ sections:
         - 
           title: Why it is important
           copy: |
-            Text
+            Up to date technical documentation will greatly increase the productivity and efficiency of the maintenance (and new features) that will be needed for a software application.  A role of technical maintenance documentation is to bring a new team member up to speed and be used as a reference for an existing developer. Developers often change as they may be working on multiple projects, have left or are new to the team.   
+            
+            Well written thought-out technical documents would include all of the software development from a general overview to specific details which explains how the software works.  It would include the architectural diagram, test plans, brand guidelines, maintenance plans, release processes, etc.  This document would be a working document as it would need to be updated in line with the software application most recent versions. 
+            
+            Maintenance of any software item need to be properly planned for.  So first of all a software maintenance plan would be created during the project build.
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: Types of maintenance documents
+          title: Different maintenance document needs
           copy: |
-            Text
+            The maintenance document needs would vary according to who is using them: 
+            * Managers – Decision support info - e.g. the size of the system or the alteration/update costs
+            * Analysts – Application domain, requirements, and a global view of the system 
+            * System Designers – Architectural understanding, and design information such as data structures
+            * Programmers – A detailed understanding of the source code and the architectural	view. 
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: Live documents
+          title: Stages of experience
           copy: |
-            Text
+            There are four stages of developer experience, from newcomer to expert.  Each stage will need to be considered with maintenance documents: 
+            * Newcomers – A short general view of the system 
+            * Apprentices – The system architecture 
+            * Graduates / Intermediates – Task orientated - e.g. requirement description, process description, examples, step-by-step instructions 
+            * Experts – All levels to be included – low level documentation, requirement description, and design specification.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Types of artefacts included
+          copy: |
+            Documents that should be created (or automatically generated) at the end of a project should include: stories, tests, data model, class model, business process description, user manual, and project minutes.  It is also important that the document describes the hierarchical architecture of the system.
+
+            Documentation artefacts that are important to those software developers who maintains the software system include:
+            * Source code and comments
+            * Data model
+            * Requirement specification
+            * Architectural model
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Tools / Live documents
+          copy: |
+            Most development environments now include a document tool which would be used as a __Knowledge Management Tool__.  The knowledge base would be updated as the software is built, bugs are fixed, new features and enhancements are added to the software, and new versions of the software application are rolled out. 
+            
+            The knowledge base would be managed in different ways according to the type of document tool used. For example, GitHub would treat documents as artefacts so they would have their own document folders with their own repository and can be published to their own website page. Another tool - Tettra, is a flexible document tool which manages the knowledge base to share timely and accurate information amongst team members. It would create a catalog with a Q&A format which can be accesses via a collaboration tool such as Slack. 
+
+            A system could be set to automatically generate documents each time a change is made to the software so it is always up to date. An automatic re-documentation tool could be used with a focus on:
+            * High level view with a description of requirements
+            * The data model
+            * Cross references between functionalities, functions, and data
+            * Business rules
+            * Subsystem description and interaction
+            * Comments
             
           img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Documentation of maintenance
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        ### Examples
 
-      Intro text.
-      
-      Take a look at the following document to see an example of a ..... maintenance document.
+        Please see the following website to see examples of maintenance documents.
 
-      [Maintenance documentation examples]().
+      links:
+        EMI software maintenance and support plan example: https://cds.cern.ch/record/1277556/files/EMI-DSA1.1-1277556-Software_Maintenance_Support_Plan-v1.0.pdf 
+        Template sample: https://images.prod-techstreet.com/direct/SEPT/SW_Maint_Template_Sample.pdf 
   -
   -
     title: Time to think
@@ -120,17 +166,17 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Perfective maintenance is about improving the system performance in response to customer feedback. 
+          answer: Perfective
         -
-          sentence: example two
-          answer: two
+          sentence: Corrective software maintenance is necessary when a piece of software shows faults and errors, or there is a compatibility issue with another piece of newly released software. 
+          answer: Corrective
         -
-          sentence: example three 
-          answer: three
+          sentence: Preventive software maintenance would include refining software to reduce complexity to make it easier to maintain and understand.
+          answer: Preventive
         -
-          sentence: example four
-          answer: four
+          sentence: Adaptive maintenance is commonly used if a new version of an operating system is launched or a new type of processor is introduced.
+          answer: Adaptive
     theme: i-quiz
   -
     title: On the web
@@ -138,9 +184,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . . _my reference sites for now_
+        Please see the following website where you can learn more about software maintenance and documentation.
 
       links:
-        Technical documents in software development: https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools/
-        Software documents and maintenance: https://se.jku.at/dogma-software-documentation-and-maintenance/
-
+        Types of software maintenance: https://medium.com/swlh/types-of-software-maintenance-2b0503848b43
+        Software maintenance best practices: https://www.fullmetalsoftware.com/software-maintenance-best-practices/ 
+        Documentation tools: https://www.devteam.space/blog/documentation-tools/
+        GitHub project documentation: https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/
