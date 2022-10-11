@@ -110,7 +110,7 @@ sections:
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: Types of artefacts included
+          title: Types of artefacts included - REPLACE - SECTION?
           copy: |
             Documents that should be created (or automatically generated) at the end of a project should include: stories, tests, data model, class model, business process description, user manual, and project minutes.  It is also important that the document describes the hierarchical architecture of the system.
 
@@ -122,7 +122,7 @@ sections:
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: Tools / Live documents
+          title: Tools / Live documents - REPLACE - ACTIVITY?
           copy: |
             Most development environments now include a document tool which would be used as a __Knowledge Management Tool__.  The knowledge base would be updated as the software is built, bugs are fixed, new features and enhancements are added to the software, and new versions of the software application are rolled out. 
             
@@ -137,6 +137,18 @@ sections:
             * Comments
             
           img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Stages of experience
+    theme: t-bg-primary
+    copy: |
+      There are four stages of developer experience, from newcomer to expert.  Each stage will need to be considered with maintenance documents: 
+      * Newcomers – A short general view of the system 
+      * Apprentices – The system architecture 
+      * Graduates / Intermediates – Task orientated - e.g. requirement description, process description, examples, step-by-step instructions 
+      * Experts – All levels to be included – low level documentation, requirement description, and design specification.
+
+      ![](/images/banners/placeholder.jpg)                     
   -
   -
     title: On the web
