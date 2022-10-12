@@ -1,14 +1,145 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the second session of this unit! 
-banner: summary.jpg
+title: Improvements and change management
+intro: |
+  On this page we will look at maintenance improvements and why change management is used in maintenance.
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * The key elements of maintenance
-      * Why documentation of maintenance is important
-      * The improvements that could be made in maintenance
-      * Why change management is used in maintenance
-  
+      In your assessment you will be required to explain the improvements that could be made in maintenance.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Improvements in maintenance
+      
+      In this video we take a look at the improvements that can be made during maintenance and the potential negative consequences that this may have.
+    video: cp3_u5_s2_p2_improvements.mp4
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: With corrective software maintenance, it’s important to work fast and frequently which will help to minimise any potential user problems and keep your product working as expected. 
+          answer: corrective
+        -
+          sentence: With perfective software maintenance users will notice any changes that are clearly visible in the way the product looks and performs.  
+          answer: perfective
+        -
+          sentence: Users of the software are unlikely to notice preventive software changes directly, but they may see the positive effect later.
+          answer: preventive
+        -
+          sentence: Adaptive software changes tend to be low impact for users as they deal with the internal workings of the software such as making sure it can integrate with new tech.
+          answer: Adaptive
+    theme: i-quiz
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think and make some notes about how what could occur during improvement work - take the following into consideration for each type of software maintenance:
+        * uses, 
+        * conditions, and 
+        * consequences.
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain why change management is used in maintenance.
+  -
+  -
+    title: Change management
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### What is change management? 
+      
+      Change management in software development is a term used to describe the transition period of when an existing state of a software product moves into an improved state. So, this would describe the phase of when a software product is going from its existing version, e.g. 1.0, to the next deployed (live) version 2.0 where it would include the enhancements of the improved software. 
+      
+      Change management would manage changes to artefacts such as code, process, and documentation. Change could be for different reasons and from different sources such as a business reorganisation, changes to the market, technical reasons, fixes and bugs, Sales/marketing ideas, or budget restrictions. Change management tools can be used to manage the process and can also be used for project planning, creating flow charts, and data collection.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Change management process in maintenance
+    theme: t-bg-supporting2
+    copy: |
+      Each organisation and development team would have slightly different processes for managing change, but they would normally include the type and scope of the change needed, business justification, planning, communication, resource needs, testing, tracking of the changes, evaluate, adjust, and identifying improvements.
+
+      A typical sequence of CCP in a software development project would include the following steps: 
+      1. Change Request identification (Identify the need for the change)
+      2. Review the Change Request (Assessment – is it valid)
+      3. Plan the change (Assessment – resources and potential impact)
+      4. Test the change (Analysis – will it work)
+      5. Create a change proposal (Approval - Identify change risk, complexity, impact level)
+      6. Implement changes (Update project procedures/plans, communication to team, monitor progress, record completion)
+      7. Review the change performance
+      8. Close the process
+
+      _CCP Diagram_
+
+      ![](/images/banners/placeholder.jpg)
+    
+      The focus of Change Control Process (CCP) for a software product is to identify the change, document, and sign-off the change request.  CCP includes activities that would improve the overall performance of the software product. Change control is useful as it helps the software product to maintain its integrity, so the proposed changes do not affect other parts of the software.        
+  -
+  -
+    title: Benefits and considerations
+    theme: t-bg-supporting3
+    copy: |
+      See below for the benefits and considerations in change management.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Benefits
+          copy: |
+            The benefits to change management in software maintenance would:
+            * Improve the performance of the product
+            * Increase engagement
+            * Enhance innovation
+            * Keep up to date with new technologies
+            * Implement new requirements
+            * Reduce costs 
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Considerations
+          copy: |
+            Potential issues could occur in change management if the following is not considered:
+            * Reason for the change
+            * Alternatives
+            * Result of the change
+            * Risks involved
+            * Individuals involved
+            * Resources needed
+            * Relationships and or dependencies 
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Take a look at the above considerations and list here what the potential issues could be if they are not considered.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about change management and change control.
+
+      links:
+        Change management: https://www.atlassian.com/itsm/change-management 
+        Change management in software Dev projects: https://eversoft.company/blog/4-steps-to-successful-change-management-in-software-dev-projects/ 
+        Change control: https://www.guru99.com/change-control-business-analyst.html

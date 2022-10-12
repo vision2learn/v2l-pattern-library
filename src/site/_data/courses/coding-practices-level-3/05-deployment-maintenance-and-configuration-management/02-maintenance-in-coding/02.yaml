@@ -1,79 +1,75 @@
-title: Improvements and change management
+title: Maintenance Documentation
 intro: |
-  On this page we will look at maintenance improvements and why change management is used in maintenance.
+  On this page you will learn about the documentation that is needed in maintenance.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to explain the improvements that could be made in maintenance.
+      In your assessment you will be required to explain why documentation of maintenance is important.
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Improvements in maintenance
-      
-      In this video we take a look at the improvements that can be made during maintenance and the potential negative consequences that this may have.
-    video: cp3_u5_s2_p2_improvements.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Have a think and make some notes about how what could occur during improvement work - take the following into consideration for each type of software maintenance:
-        * uses, 
-        * conditions, and 
-        * consequences.
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      In your assessment you will be required to explain why change management is used in maintenance.
-  -
-  -
-    title: Change management
+    title: Maintenance documentation
     theme: t-bg-primary
     copy: |
-      _Intro text_
-    
-      Scroll through the slides below to learn more about change management.
+      Agile methodology has shaken the traditional view of software documentation as it is more aligned with the philosophy of information communication.  But the Agile model is not suitable once the development project is complete as software maintenance becomes the focus so there is a much greater need for supporting maintenance documentation. 
 
+      It has been found that there are two extremes with maintenance support. There is either no documentation at all due to planning and budget pressures during development, or too much is written as the software is developed so it ends up out of date and irrelevant. Neither of these two scenarios support the developer who is responsible for maintaining the software. 
+
+      The purpose of the software maintenance manual is to help software engineers to understand the software so they can maintain it. 
+      
+      See below to learn more.
     subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Operational quality
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Managing risk
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: Overall strategy
-          text: |
-            text
-          img: placeholder_icon.svg
+      type: accordion
+      content:
+        - 
+          title: Why it is important
+          copy: |
+            Up to date technical documentation will greatly increase the productivity and efficiency of the maintenance (and new features) that will be needed for a software application.  A role of technical maintenance documentation is to bring a new team member up to speed and be used as a reference for an existing developer. Developers often change as they may be working on multiple projects, have left or are new to the team.   
+            
+            Well written thought-out technical documents would include all of the software development from a general overview to specific details which explains how the software works.  It would include the architectural diagram, test plans, brand guidelines, maintenance plans, release processes, etc.  This document would be a working document as it would need to be updated in line with the software application most recent versions. 
+            
+            Maintenance of any software item need to be properly planned for.  So first of all a software maintenance plan would be created during the project build.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Different maintenance document needs
+          copy: |
+            The maintenance document needs would vary according to who is using them: 
+            * __Managers__ – Decision support info - e.g. the size of the system or the alteration/update costs
+            * __Analysts__ – Application domain, requirements, and a global view of the system 
+            * __System Designers__ – Architectural understanding, and design information such as data structures
+            * __Programmers__ – A detailed understanding of the source code and the architectural	view. 
+            
+          img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Change management process
+    title: Stages of experience
+    theme: t-bg-supporting2
+    copy: |
+      There are four stages of developer experience, from newcomer to expert.  Each stage will need to be considered with maintenance documents: 
+      * Newcomers – A short general view of the system 
+      * Apprentices – The system architecture 
+      * Graduates / Intermediates – Task orientated - e.g. requirement description, process description, examples, step-by-step instructions 
+      * Experts – All levels to be included – low level documentation, requirement description, and design specification.
 
-      _Change management process doc example from booklet?_
+      ![](/images/banners/placeholder.jpg)                     
+  -
+  -
+    title: Types of artefacts included
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Documents that should be created (or automatically generated) at the end of a project should include: stories, tests, data model, class model, business process description, user manual, and project minutes.  It is also important that the document describes the hierarchical architecture of the system.
 
-      Take a look at the following to see an example of a change management process document:
+      Documentation artefacts that are important to those software developers who maintains the software system include:
+      * Source code and comments
+      * Data model
+      * Requirement specification
+      * Architectural model
 
-      [Change management process document]().
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: On the web
@@ -81,52 +77,75 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        ### Examples
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website to see examples of maintenance documents.
 
       links:
-        website description: http://www.google.co.uk
+        EMI software maintenance and support plan example: https://cds.cern.ch/record/1277556/files/EMI-DSA1.1-1277556-Software_Maintenance_Support_Plan-v1.0.pdf 
+        Template sample: https://images.prod-techstreet.com/direct/SEPT/SW_Maint_Template_Sample.pdf 
   -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What do you think are the potential pitfalls for __not__ keeping maintenance documents?
+  -
+  -
+    title: Document Tools
+    theme: t-bg-supporting3
+    copy: |
+      ### Document tools, Live documentation / Automation
+
+      Most development environments now include a document tool which would be used as a __Knowledge Management Tool__.  The __knowledge base__ would be updated as the software is built, bugs are fixed, new features and enhancements are added to the software, and new versions of the software application are rolled out. Take a look below to see some examples.
+      
     subInc: 
-      type: word-quiz
+      type: accordion
       content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+        - 
+          title: Examples of document tools
+          copy: |
+            ### GitHub
+
+            The knowledge base would be managed in different ways according to the type of document tool used. For example, __GitHub__ would treat documents as artefacts so they would have their own document folders with their own repository and can be published to their own website page. 
+
+            ### Tettra
+            
+            Another tool - __Tettra__, is a flexible document tool which manages the knowledge base to share timely and accurate information amongst team members. It would create a catalog with a Q&A format which can be accesses via a collaboration tool such as Slack.
+        - 
+          title: Automatic documentation tool
+          copy: |
+            Documentation could also be automated. A system could be set to automatically generate documents each time a change is made to the software so it is always up to date. The tool could be used with a focus on:
+            * High level view with a description of requirements
+            * The data model
+            * Cross references between functionalities, functions, and data
+            * Business rules
+            * Subsystem description and interaction
+            * Comments
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites where you can learn more about document tools which includes the two examples GitHub and Tettra:
+
+      links:
+        GitHub project documentation: https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/
+        Tettra vs Google docs: https://support.tettra.com/article/327-tettra-vs-google-docs
+        Automated documentation: https://blog.submain.com/automated-documentation-3-tools/
+        Documentation tools: https://www.devteam.space/blog/documentation-tools/
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Re-Documentation process and tool
+
+      Another software process and tool to consider with documentation for software is __Re-Documentation__.  Many legacy systems lack documentation which makes maintenance difficult as software engineers would need to study and understand the system repeatedly.  One solution is to re-document the legacy system using tools to automate the process. Click on the owl which will take you to a website which discusses this process and tool.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.academia.edu/18057479/Software_Re_Documentation_Process_and_Tool

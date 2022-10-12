@@ -60,77 +60,22 @@ sections:
     video: cp3_u5_s2_p1_maintenance.mp4
   -
   -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to explain why documentation of maintenance is important.
-  -
-  -
-    title: Importance of maintenance documents
-    theme: t-bg-supporting3
-    copy: |
-      Intro text. 
-      
-      See below to learn more.
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Why it is important
-          copy: |
-            Text
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Types of maintenance documents
-          copy: |
-            Text
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Live documents
-          copy: |
-            Text
-            
-          img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      ### Documentation of maintenance
-
-      Intro text.
-      
-      Take a look at the following document to see an example of a ..... maintenance document.
-
-      [Maintenance documentation examples]().
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        What do you think are the potential pitfalls for __not__ keeping maintenance documents?
-  -
-  -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Perfective maintenance is about improving the system performance in response to customer feedback. 
+          answer: Perfective
         -
-          sentence: example two
-          answer: two
+          sentence: Corrective software maintenance is necessary when a piece of software shows faults and errors, or there is a compatibility issue with another piece of newly released software. 
+          answer: Corrective
         -
-          sentence: example three 
-          answer: three
+          sentence: Preventive software maintenance would include refining software to reduce complexity to make it easier to maintain and understand.
+          answer: Preventive
         -
-          sentence: example four
-          answer: four
+          sentence: Adaptive maintenance is commonly used if a new version of an operating system is launched or a new type of processor is introduced.
+          answer: Adaptive
     theme: i-quiz
   -
     title: On the web
@@ -138,9 +83,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . . _my reference sites for now_
+        Please see the following website where you can learn more about software maintenance and documentation.
 
       links:
-        Technical documents in software development: https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools/
-        Software documents and maintenance: https://se.jku.at/dogma-software-documentation-and-maintenance/
-
+        Types of software maintenance: https://medium.com/swlh/types-of-software-maintenance-2b0503848b43
+        Software maintenance best practices: https://www.fullmetalsoftware.com/software-maintenance-best-practices/
