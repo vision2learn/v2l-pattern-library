@@ -26,11 +26,9 @@ sections:
         - 
           title: Why it is important
           copy: |
-            Up to date technical documentation will greatly increase the productivity and efficiency of the maintenance (and new features) that will be needed for a software application.  A role of technical maintenance documentation is to bring a new team member up to speed and be used as a reference for an existing developer. Developers often change as they may be working on multiple projects, have left or are new to the team.   
+            Maintenance of any software item need to be properly planned for.  So a software maintenance plan would be created during the project build. Up to date technical documentation will greatly increase the productivity and efficiency of the maintenance (and new features) that will be needed for a software application.  A role of technical maintenance documentation is to bring a new team member up to speed and be used as a reference for an existing developer. Developers often change as they may be working on multiple projects, have left or are new to the team.   
             
             Well written thought-out technical documents would include all of the software development from a general overview to specific details which explains how the software works.  It would include the architectural diagram, test plans, brand guidelines, maintenance plans, release processes, etc.  This document would be a working document as it would need to be updated in line with the software application most recent versions. 
-            
-            Maintenance of any software item need to be properly planned for.  So first of all a software maintenance plan would be created during the project build.
             
           img: /images/svg/placeholder_icon.svg
         - 
@@ -49,10 +47,10 @@ sections:
     theme: t-bg-supporting2
     copy: |
       There are four stages of developer experience, from newcomer to expert.  Each stage will need to be considered with maintenance documents: 
-      * Newcomers – A short general view of the system 
-      * Apprentices – The system architecture 
-      * Graduates / Intermediates – Task orientated - e.g. requirement description, process description, examples, step-by-step instructions 
-      * Experts – All levels to be included – low level documentation, requirement description, and design specification.
+      * __Newcomers__ – A short general view of the system 
+      * __Apprentices__ – The system architecture 
+      * __Intermediates__ – Task orientated - e.g. requirement description, process description, examples, step-by-step instructions 
+      * __Experts__ – All levels to be included – low level documentation, requirement description, and design specification.
 
       ![](/images/banners/placeholder.jpg)                     
   -
@@ -99,7 +97,7 @@ sections:
     copy: |
       ### Document tools, Live documentation / Automation
 
-      Most development environments now include a document tool which would be used as a __Knowledge Management Tool__.  The __knowledge base__ would be updated as the software is built, bugs are fixed, new features and enhancements are added to the software, and new versions of the software application are rolled out. Take a look below to see some examples.
+      Most development environments now include a document tool which would often be used as a __Knowledge Management Tool__.  The __knowledge base__ would be updated as the software is built, bugs are fixed, new features and enhancements are added to the software, and new versions of the software application are rolled out. Take a look below to see some examples.
       
     subInc: 
       type: accordion

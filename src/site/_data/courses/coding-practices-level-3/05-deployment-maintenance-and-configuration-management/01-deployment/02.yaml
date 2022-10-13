@@ -43,7 +43,7 @@ sections:
             * Test output, 
             * Prototypes, and 
             * Assets such as images.
-          img: placeholder_icon.svg
+          img: cp3_u5_s1_p2_slide1.svg
         -
           title: Document artefacts
           text: |
@@ -55,7 +55,7 @@ sections:
             * Software documents, 
             * Design documents, and 
             * Scripts.
-          img: placeholder_icon.svg
+          img: cp3_u5_s1_p2_slide2.svg
         -
           title: Project management artefacts
           text: |
@@ -69,7 +69,7 @@ sections:
             * Visual data and information, 
             * Reports, 
             * Agreements and contracts.
-          img: placeholder_icon.svg
+          img: cp3_u5_s1_p2_slide3.svg
   -
   -
     title: Packaging an artefact
@@ -86,7 +86,7 @@ sections:
 
       As you can see from the diagram, the Artefacts package would be created in step 4. 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u5_s1_p2_image1.svg)
   -
   -
     title: Example of a package management tool
@@ -100,7 +100,7 @@ sections:
 
       As you can see in the below diagram, custom software is packaged into a Docker image, which is tested, and then published into a releasable artifact. 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u5_s1_p2_image2.svg)
 
       The Docker image builds an artefact that is easy to inspect which means it can be built and tested before it is published. The Dockerfile (which is a software artifact), would contain instructions for packaging an application in a Docker image.
   -
@@ -113,7 +113,7 @@ sections:
 
       NuGet packages are zip files with a manifest of metadata, data, and config files.  It is the standard packaging format for the Microsoft .NET platform.  It would typically be used within Azure DevOps which is Microsoft’s cloud CI/CD platform at the deployment stage of the project.  Once a build has been done it would show as a packaged artefact.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u5_s1_p2_image3.svg
   -
   -
     title: On the web
