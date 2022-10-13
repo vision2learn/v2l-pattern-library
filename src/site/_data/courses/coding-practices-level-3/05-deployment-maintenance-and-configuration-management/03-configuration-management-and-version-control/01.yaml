@@ -33,24 +33,24 @@ sections:
           title: Version control
           text: |
             A version control system tool would be used to track code and asset changes. It would also have comparison capabilities so the current state can be compared to the previous state if needed  It should be noted that source control is specific to source code. Version control also covers large binary files and digital assets. 
-          img: placeholder_icon.svg
+          img: cp3_u5_s3_p1_slide1.svg
         -
           title: Deployment
           text: |
             A deployment tool would automate deployment from the Continuous Delivery (CD) stage of the project.  The deployment tool would be connected to the version control tool.  
             
             A 'Deployment site' would also be used for the Continuous Integration (CI) stages of a project so the developer, testing and review teams could check the product on a Developer site or Staging site before final deployment. 
-          img: placeholder_icon.svg
+          img: cp3_u5_s3_p1_slide2.svg
         -
           title: Asset management / Configuration manangement database
           text: |
             Asset management would store, classify, and manage configuration assets. A Configuration Management Database (CMDB) helps to manage configuration assets. It stores the configuration records for the assets, and includes the attributes, such as type, owner, or version.  It also stores the relationships with other assets in the system.
-          img: placeholder_icon.svg
+          img: cp3_u5_s3_p1_slide3.svg
         -
           title: Configuration backup and recovery
           text: |
              If there are any issues the system can be restored from a backup.  This would also be related to version control and rollback strategy. It would improve a system recovery with its automation capabilities, and would keep an audit trail which would document any changes or update. If a system failed or crashed, the reason could be identified and avoided in future deployments.
-          img: placeholder_icon.svg
+          img: cp3_u5_s3_p1_slide4.svg
   -
   -
     title: Watch 

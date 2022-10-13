@@ -72,7 +72,7 @@ sections:
             Repeated builds are known as Continuous Integration (CI) and are part of the development process which would involve collecting and packaging all the application components. CI is part of the build stage in DevOps processes; once the code has been created, committed to version control (a repository) and tested, the build would put all of the elements of the project together before continuing to the next stage. Each time the source code is built it is assigned a version. 
             
             It is at the build stage that the team compiles the source code into a binary (executable) file.
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u5_s1_p3_slide1.svg
         - 
           title: Deploy
           copy: |
@@ -83,7 +83,7 @@ sections:
             Continuous Deployment (CD) is automated and would release the new or updated source code into the production (live) environment.  It would involve the whole package going through automated dependency testing, integration testing, and unit testing.  Test-driven development practices would be used if the package does not pass the tests.  
 
             Deployment is the final stage of the project and is when the product is ready for the customer and is ready to be deployed into the live environment. 
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u5_s1_p3_slide2.svg
   -
   -
     title: Quick quiz
