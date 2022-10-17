@@ -13,7 +13,6 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
       
       So far you have learnt about different types, levels and methods of coding and we have talked about functional and non-functional testing. Lets take a look at the differences in more detail and when you would use the different methods.
     video: placeholder_pc.mp4
@@ -47,17 +46,6 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise._
-
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web

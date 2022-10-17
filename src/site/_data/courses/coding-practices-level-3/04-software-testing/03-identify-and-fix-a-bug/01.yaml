@@ -25,16 +25,14 @@ sections:
     copy: |
       In your assessment you will be required to explain techniques which can be used to identify and fix bugs
   -
-    title: introduction 3.1
+    title: Watch 
+    theme: t-bg-supporting3 i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      _Presentation video - 3.1
       
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
+      Please see the following video on .
+    video: placeholder_pc.mp4
   -
     title: Testing techniques
     theme: t-bg-supporting3
@@ -51,19 +49,16 @@ sections:
           copy: |
             text  
             
-          img: /images/svg/placeholder_icon.svg
         - 
           title: Compiler warnings
           copy: |
             text  
             
-          img: /images/svg/placeholder_icon.svg
         - 
           title: Unit test
           copy: |
             text  
             
-          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Time to think
@@ -88,7 +83,7 @@ sections:
       _Instruction video - 3.3 - 3.5_
       
       Please see the following video on .
-    video: placeholder_pc.mp4
+    video: cp3_u4_s3_p1_bug_fix_demo.mp4
   -
     title: Time to practice
     theme: t-bg-primary3 i-practice
