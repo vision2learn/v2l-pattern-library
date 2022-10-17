@@ -1,7 +1,7 @@
 title: Build, Deploy, and Continuous Deployment
 intro: |
   On this page you will learn about the difference between build and deploy; and what is meant by continuous deployment.
-banner: placeholder.jpg
+banner: cp3_u5_s1_p3_build_deploy.jpg
 sections:
   -
     title: Key point
@@ -131,7 +131,7 @@ sections:
 
       Once signed off it will be uploaded to a central repository from which all system files are contained and can be accessed by the end user. 
 
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u5_s1_p3_image2.svg)
 
       One of the main advantages with CD is that once all the manual tests and review aspects have been done in the Continuous Delivery stage there is no time-lag as it can automatically be deployed into the production environment. However, testing and monitoring are more critical in CD as there is no human (manual) approval.  Tools used in the CD stage would include those used in Continuous Delivery but with an emphasis on testing before and after deployment.
   -
