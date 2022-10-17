@@ -23,7 +23,7 @@ sections:
     title: Configuration tools
     theme: t-bg-primary
     copy: |
-      A Software configuration management system (SCM) would have a set of software tools which would be used to track and control changes in the stages of a software project. Scroll through the slides below to learn about configuration tools.
+      A Software Configuration Management System (SCM) would have a set of software tools which would be used to track and control changes in the stages of a software project. Scroll through the slides below to learn about configuration tools.
 
     subInc: 
       type: slider
@@ -32,7 +32,7 @@ sections:
         -
           title: Version control
           text: |
-            A version control system tool would be used to track code and asset changes. It would also have comparison capabilities so the current state can be compared to the previous state if needed  It should be noted that source control is specific to source code. Version control also covers large binary files and digital assets. 
+            A version control system tool would be used to track code and asset changes. It would also have comparison capabilities so the current state can be compared to the previous state if needed. It should be noted that __source control is specific to source code__. Version control also covers large binary files and digital assets. 
           img: cp3_u5_s3_p1_slide1.svg
         -
           title: Deployment
@@ -59,7 +59,7 @@ sections:
     copy: |
       ### Configuration management
       
-      Configuration management is a process that defines, controls, documents, and reports the configuration items in a system. Please see the following video learn more about configuration management and Software Configuration Management (SCM) tools.
+      Configuration management is a process that defines, controls, documents, and reports the configuration items in a system. Please see the following video to learn more about configuration management and Software Configuration Management (SCM) tools.
     video: cp3_u5_s3_p1_Configuration_management.mp4
   -
   -

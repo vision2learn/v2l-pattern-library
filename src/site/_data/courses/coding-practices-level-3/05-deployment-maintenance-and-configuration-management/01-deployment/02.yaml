@@ -20,7 +20,7 @@ sections:
 
       Artefacts are like roadmaps which can be used for developers to trace the project process. Artefacts are documented and would be stored in the code repository or in a separate ‘Artefact repository’ – this is a decision that a DevOps engineer would make. Keeping relevant artefacts in a repository helps developers to access artefacts as and when they need them during the project. 
 
-      Some of the artefacts explains how the code is run but others would enable the code to run for example one artefact could be a list of resources needed for the project, whilst another could be the project source code. 
+      Some of the artefacts __explains how__ the code is run; but others would __enable the code to run__. For example, one artefact could be a list of resources needed for the project, whilst another could be the project source code.
   -
   -
     title: Types of artefacts

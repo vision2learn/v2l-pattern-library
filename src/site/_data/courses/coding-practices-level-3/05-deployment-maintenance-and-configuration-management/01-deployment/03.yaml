@@ -34,11 +34,11 @@ sections:
     copy: |
       DevOps processes are used to:
       1. minimize the development time between releases, and 
-      2. so that up-to-date product-ready versions can be released at any moment. 
+      2. allow up-to-date product-ready versions can be released at any moment. 
 
-      Historically, programmers may have worked on their separate sections of code, only merging them together after extended time periods when individual pieces of work were complete. However, this meant that bugs and errors accumulated over time, which made them more time-consuming to fix, and only came to light when the work is brought together. This was also a longer process, which meant that there was extra time before the product was ready for use for the customers.
+      Historically, programmers may have worked on their separate sections of code, only merging them together after extended time periods when individual pieces of work were complete. However, this meant that bugs and errors accumulated over time, which made them more time-consuming to fix, and only come to light when the work is brought together. This was also a longer process, which meant that there was extra time before the product was ready for use by the customers.
 
-      Using continuous integration, continuous delivery, and continuous deployment, small code sections can be merged into the main program, tested, and released as they are completed as an on-going process. They refer to different stages and practices of the development cycle.
+      Using continuous integration, continuous delivery, and continuous deployment, small code sections can be merged into the main program. These code sections can then be tested, and released as each stage is completed as an on-going process.
 
       ![](/images/svg/cp3/cp3_u5_s5_p3_wide_image.svg)
   -
@@ -82,7 +82,7 @@ sections:
             
             Continuous Deployment (CD) is automated and would release the new or updated source code into the production (live) environment.  It would involve the whole package going through automated dependency testing, integration testing, and unit testing.  Test-driven development practices would be used if the package does not pass the tests.  
 
-            Deployment is the final stage of the project and is when the product is ready for the customer and is ready to be deployed into the live environment. 
+            Deployment is the final stage of the project and is when the product is ready for the customer; it is ready to be deployed into the live environment. 
           img: /images/svg/cp3/cp3_u5_s1_p3_slide2.svg
   -
   -

@@ -29,15 +29,15 @@ sections:
     title: Canary deployment
     theme: t-bg-primary
     copy: |
-      Canary deployment (which is also known as ‘phased’ or ‘incremental rollout’) rolls out the latest version of a software product to a smaller group of uses so they can act as a test group to catch errors and issues before deploying to the wider group. 
+      Canary deployment (which is also known as ‘phased’ or ‘incremental rollout’) rolls out the latest version of a software product to a smaller group of users, so they can act as a test group to catch errors and issues before deploying to the wider group. 
 
       Canary deployment would alleviate capacity planning as the target audience is much smaller so the product would only need to be deployed to a single server or a limited set.  A subset of end users would test the update and alert the production team if there were any issues. 
 
       ![](/images/svg/cp3/cp3_u5_s1_p4_image.svg)
 
-      It is quite robust as if there are any issues with the new release, users can still be directed to the existing ‘live’ version whilst updates and bug fixes are being carried out on the Canary updated  version.  
+      It is quite robust because if there are any issues with the new release, users can still be directed to the existing ‘live’ version whilst updates and bug fixes are being carried out on the Canary updated version.  
 
-      One of the disadvantages is the resources that may be needed as the time it would take to complete the updated version as it is tested and phased into production could be slow.   
+      One of the disadvantages is the resources that may be needed. This is because the time it would take to complete the updated version, as it is tested and phased into production, could be slow.   
 
       Also, version management would be a critical consideration as more than one version would need to be managed simultaneously.  However, rollback can be quick with this type of deployment if it was found that was needed.
   -
@@ -54,7 +54,7 @@ sections:
     copy: |
       ### Rollback strategy
       
-      Choosing the right deployment strategy for a project would include several considerations.  One serious consideration is it’s support with rollback. Please see the following video to learn more.
+      Choosing the right deployment strategy for a project would include several considerations.  One serious consideration is its support with rollback. Please see the following video to learn more.
     video: cp3_u5_s1_p3_rollback.mp4
   -
   -
@@ -72,7 +72,7 @@ sections:
           copy: |
             | No rollback plan | Minimal rollback plan | Actual rollback plan |
             |------|------|------|
-            | N/A there is not need for a rollback plan, change will be successful | | DBA Task |
+            | N/A there is no need for a rollback plan, change will be successful | | DBA Task |
             | | | Scripts are located: D:\dba\CC4562\rollback\ |
             | | | Login to the DB_APPS database as the system user and run the following scripts: |
             | | - drop the tables | 1.--drop tables - SQL>@drop tables.sql |

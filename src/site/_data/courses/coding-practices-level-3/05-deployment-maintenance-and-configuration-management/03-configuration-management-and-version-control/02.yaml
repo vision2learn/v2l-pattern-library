@@ -13,7 +13,7 @@ sections:
     title: Version control and Source code control
     theme: t-bg-primary
     copy: |
-      Version control is as aspect of Source control (which we looked at in Unit 3), and the terms tend to be used interchangeable.  Source control systems manage the source code versions.  Each time a product is deployed it would be identified by its version.
+      Version control is an aspect of Source control (which we looked at in Unit 3), and the terms tend to be used interchangeable.  Source control systems manage the source code versions.  Each time a product is deployed it would be identified by its version.
 
       See below to learn more about the differences:
     subInc: 
@@ -65,7 +65,7 @@ sections:
         - 
           title: Centralised Version Control System (CVCS)
           copy: |
-            Issues can be encountered when development teams needed to collaboration on other systems that were not local.  To overcome this issue Centralised Version Control Systems (CVCS) were created. The history of changes to the source code, files and documents are kept on a central server.  Everyone in the team would request the latest version of the project and would push their most recent changes to.  All of the team would share everyone’s work.  This type of system would allow more access and use folder permissions.  They are also backed up on a regular basis and have strong security.  However, there can be issues if the server goes down or if the centralised database gets corrupted.
+            Issues can be encountered when development teams needed to collaboration on other systems that were not local.  To overcome this issue Centralised Version Control Systems (CVCS) were created. The history of changes to the source code, files and documents are kept on a central server.  Everyone in the team would request the latest version of the project to push their most recent changes.  All of the team would share everyone’s work.  This type of system would allow more access and use folder permissions.  They are also backed up on a regular basis and have strong security.  However, there can be issues if the server goes down or if the centralised database gets corrupted.
             
           img: /images/svg/cp3/cp3_u5_s3_p2_accordion4.svg
         - 
@@ -103,12 +103,12 @@ sections:
         -
           title: Preserving history
           text: |
-            Changes that are being made to the system is important and should include what, who, why, and when they are being made. Version control will capture detailed information on each change made and give you access to that history forever.
+            Changes that are being made to the system are important and should include what, who, why, and when they are being made. Version control will capture detailed information on each change made and give you access to that history forever.
           img: cp3_u5_s3_p2_slide4.svg
         -
           title: Availability and recovery
           text: |
-            Because you can have different versions of the source control working at the same time – this gives different members of a large team the ability to work on the same code in cases of more complex items or server access issues which will increase productivity and efficiency.  With some version control software you can also have a replica of the repository on a different location. Also, because everything is backed up on the system, a version could be rolled back to a previous version if there were any issues.
+            Because you can have different versions of the source control working at the same time – this gives different members of a large team the ability to work on the same code. In cases of more complex items or server access issues - this will increase productivity and efficiency.  With some version control software you can also have a replica of the repository on a different location. Also, because everything is backed up on the system, a version could be rolled back to a previous version if there were any issues.
           img: cp3_u5_s3_p2_slide5.svg
   -
   -
