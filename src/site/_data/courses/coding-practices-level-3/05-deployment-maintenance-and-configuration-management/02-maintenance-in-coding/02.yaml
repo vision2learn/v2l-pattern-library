@@ -13,7 +13,7 @@ sections:
     title: Maintenance documentation
     theme: t-bg-primary
     copy: |
-      Agile methodology has shaken the traditional view of software documentation as it is more aligned with the philosophy of information communication.  But the Agile model is not suitable once the development project is complete as software maintenance becomes the focus so there is a much greater need for supporting maintenance documentation. 
+      Agile methodology has shaken the traditional view of software documentation as it is more aligned with the philosophy of information communication.  But the Agile model is not suitable once the development project is complete, as software maintenance becomes the focus, so there is a much greater need for supporting maintenance documentation. 
 
       It has been found that there are two extremes with maintenance support. There is either no documentation at all due to planning and budget pressures during development, or too much is written as the software is developed so it ends up out of date and irrelevant. Neither of these two scenarios support the developer who is responsible for maintaining the software. 
 
@@ -30,7 +30,7 @@ sections:
             
             Well written thought-out technical documents would include all of the software development from a general overview to specific details which explains how the software works.  It would include the architectural diagram, test plans, brand guidelines, maintenance plans, release processes, etc.  This document would be a working document as it would need to be updated in line with the software application most recent versions. 
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u5_s2_p2_accordion1.svg
         - 
           title: Different maintenance document needs
           copy: |
@@ -40,7 +40,7 @@ sections:
             * __System Designers__ – Architectural understanding, and design information such as data structures
             * __Programmers__ – A detailed understanding of the source code and the architectural	view. 
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/cp3/cp3_u5_s2_p2_accordion2.svg
   -
   -
     title: Stages of experience
@@ -52,7 +52,7 @@ sections:
       * __Intermediates__ – Task orientated - e.g. requirement description, process description, examples, step-by-step instructions 
       * __Experts__ – All levels to be included – low level documentation, requirement description, and design specification.
 
-      ![](/images/banners/placeholder.jpg)                     
+      ![](/images/svg/cp3/cp3_u5_s2_p2_image1.svg)                     
   -
   -
     title: Types of artefacts included
@@ -67,7 +67,7 @@ sections:
       * Requirement specification
       * Architectural model
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u5_s2_p2_image2.svg
   -
   -
     title: On the web
