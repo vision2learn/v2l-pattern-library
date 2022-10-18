@@ -6,7 +6,15 @@ sections:
     title: Summary
     theme: t-bg-primary i-summary
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
+      In this session you will learn about:
+      * Techniques which can be used to identify and fix bugs
+      * the benefits of the following techniques:
+        * variable watching
+        * compiler warnings
+        * unit test
+      * Diagnose the cause of a bug using the following techniques:
+        * variable watching
+        * compiler warnings
+        * unit test
+      * How to perform a fix on broken code
+      * How the bug could have been prevented

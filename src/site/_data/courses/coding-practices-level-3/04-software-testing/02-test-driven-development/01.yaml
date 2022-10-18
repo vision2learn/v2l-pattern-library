@@ -8,21 +8,23 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * what is meant by test driven development
-      * the structural composition of a unit test
-      * the advantages and disadvantages of unit testing
-      * what makes a bad unit test
+      * What is meant by test driven development
+      * The structural composition of a unit test
+      * The advantages and disadvantages of unit testing
+      * What makes a bad unit test
   -   
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to explain what is meant by test driven development
+      In your assessment you will be required to explain what is meant by test driven development.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      TDD, or test-driven development, is a process that involves creating tests before writing any code. The idea is to think critically about the goal of the code before putting pen to paper or more appropriately hand to keyboard. Having a clear idea about what a function should do makes it much easier to correctly write it out. Lets take a look at what TDD involves. 
+      ### Test driven development
+
+      TDD, or test-driven development, is a process that involves creating tests before writing any code. The idea is to think critically about the goal of the code before putting pen to paper, or more appropriately hand to keyboard. Having a clear idea about what a function should do makes it much easier to correctly write it out. Lets take a look at what TDD involves. 
     video: cp3_u4_s2_p1__tdd.mp4
 
   -

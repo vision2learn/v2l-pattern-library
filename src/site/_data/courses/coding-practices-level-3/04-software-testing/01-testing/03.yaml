@@ -13,7 +13,8 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      
+      ### Functional and non-functional testing
+
       So far you have learnt about different types, levels and methods of coding and we have talked about functional and non-functional testing. Lets take a look at the differences in more detail and when you would use the different methods.
     video: cp3_u4_s1_p2_functional_testing.mp4
   -
@@ -52,8 +53,6 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
         Please see the following website where you can learn more about . . .
 
       links:

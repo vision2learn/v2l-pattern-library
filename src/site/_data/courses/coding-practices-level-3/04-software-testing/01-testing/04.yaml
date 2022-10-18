@@ -1,5 +1,5 @@
 title: What did you learn? 
-intro: Well done, you’ve now completed the ? session of this unit! 
+intro: Well done, you’ve now completed the first session of this unit! 
 banner: summary.jpg
 sections:
   -
@@ -7,7 +7,7 @@ sections:
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * one
-      * two
-      * three
+      * Different levels, types and methods of testing.
+      * Types and methods of testing used within the stages of the Software Development Lifecycle
+      * Differences between functional and non-functional testing
   

@@ -1,6 +1,6 @@
 title: Unit Testing Practice
 intro: |
-  On this page you will learn how to write your own unit test 
+  On this page you will learn how to write your own unit test.
 banner: cp3_u4_s2_p3_unit_test_practice.jpg
 sections:
   -
@@ -8,13 +8,15 @@ sections:
     theme: t-bg-primary
     copy: |
 
-      So far in this session you have learnt about the purposes of and structure of unit tests but how do actually create one? lets take a look at creating and carrying out a unit test.
+      So far in this session you have learnt about the purposes of and structure of unit tests but how do actually create one? Lets take a look at creating and carrying out a unit test.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Unit testing using junit
+      ### JUnit demonstration
+      
+      Please see the following video which demonstrates unit testing using JUnit.
       
     video: cp3_u4_s2_p3_junit_demo.mp4
   -

@@ -8,17 +8,19 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to describe the structural composition of a unit test
+      In your assessment you will be required to describe the structural composition of a unit test.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-     Lets take a look at unit testing in more detail.
+      ### Unit testing
+      
+      Lets take a look at unit testing in more detail.
     video: cp3_u4_s2_p2_unit_testing.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
@@ -29,8 +31,8 @@ sections:
           sentence: The piece of an application to be tested is know as the system under test.
           answer: system under test
         -
-          sentence: Unit tests make it easier to refractor code. 
-          answer: refractor
+          sentence: Unit tests make it easier to refactor code. 
+          answer: refactor
         -
           sentence: Unit tests are problematic when you need to test the user interface.
           answer: user interface
@@ -56,7 +58,7 @@ sections:
     copy: |
       In your assessment you will be required to identify tools used in coding.
   -
-    title: Advantages and disadvantages of unit testing.
+    title: Advantages and disadvantages of unit testing
     theme: t-bg-primary
     copy: |
       Unit testing is an important part of software development and it can have a number of advantages for your project. However there are also some disadvantages. Lets take a look at these:
@@ -86,7 +88,7 @@ sections:
         - 
           title: Bad unit testing
           copy: |
-            As you can see there are both advangtages and disadvantages to unit testing but it is also important to ensure that the unit test is valid. There are a number of factors to consider when writing unit tests and some of the common mistakes that would result in a badly designed unit test are;
+            As you can see there are both advantages and disadvantages to unit testing but it is also important to ensure that the unit test is valid. There are a number of factors to consider when writing unit tests and some of the common mistakes that would result in a badly designed unit test are;
             * __Testing irrelevant things__: This is where a test is valid but it is not specific enough and tests more than one element. 
             * __Testing multiple things in assertions__: Trying to make a test with more than one assertation may be required but this violates the single responsibility priniciple. Unless absolutely neccessary tests should be only testing one feature or function at a time.
             * __Test passes but the feature does not work__: This occurs when the test is testing another feature or function than the one intended.
