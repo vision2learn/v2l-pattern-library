@@ -23,8 +23,8 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The step where we will execute the test and do the actual unit testing is call the act step.
+          answer: act
         -
           sentence: example two
           answer: two
