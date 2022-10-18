@@ -14,16 +14,15 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation / Demonstration video on how to do a unit test_
+      Unit testing using junit
       
-      Please see the following video on ......
-    video: cp3_u4_s2_p2_unit_testing.mp4
+    video: cp3_u4_s2_p3_junit_demo.mp4
   -
   -
-    title: Test-Driven Development
+    title: Unit testing in practice
     theme:
     copy: |
-      Now that we know what testing is, and why we should do it, let's look at TDD. TDD is the principle that testing should be done actively, rather than retrospectively. We should write tests before we've even written a line of code, see them fail, then write the code necessary to pass them. This is called the 'Red-Green-Refactor'. 
+      Now that you have seen what testing is, and why we should do it, let's look at another example. TDD is the principle that testing should be done actively, rather than retrospectively. We should write tests before we've even written a line of code, see them fail, then write the code necessary to pass them. This is called the 'Red-Green-Refactor'. 
 
       So, how do we do TDD in JavaScript? 
       
@@ -146,6 +145,6 @@ sections:
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
-      Text
+      Now that you have seen how to creat a unit test you can use the code examples above to try this out yourself using the JavaScript compiler below. 
       
       [JavaScript Online Compiler](https://replit.com/languages/js)

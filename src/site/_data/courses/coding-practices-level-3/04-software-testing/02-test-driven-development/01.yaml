@@ -43,7 +43,7 @@ sections:
           sentence: Developers write only the minimum required code, to pass the test case that previously failed.
           answer: pass
         -
-          sentence: Once the test ‘passes’ the developer will check for any ‘unnecessary code’ which can be removed
+          sentence: Once the test ‘passes’ the developer will check for any ‘unnecessary code’ which can be removed.
           answer: unnecessary code  
     theme: i-quiz
   
@@ -53,22 +53,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+        Can you explain what is meant by test driven development? What are the steps required when taking a TDD approach?
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
@@ -77,8 +62,8 @@ sections:
       copy: |
         _Optional item depending on content_
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about TDD
 
       links:
-        website description: http://www.google.co.uk
+        Test driven develoment: https://www.guru99.com/test-driven-development.html
   
