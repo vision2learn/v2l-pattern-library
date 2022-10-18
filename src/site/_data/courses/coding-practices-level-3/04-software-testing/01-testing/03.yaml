@@ -22,39 +22,37 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Functional testing checks the performance and behaviour of an application.":
           answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
+            True: false
+            False: true
+        Is the following statement true or false? "An example of a functional test is whether a login page loads within 5 seconds.": 
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            True: false
+            False: true
+          feedback: This would be a non functional test. A functional test relating to this would be that the textboxes for the logins are displayed correctly.
+        Select one option to complete the following sentence:"__________ is an example of a functional testing.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            performance testing: false
+            volume testing: false
+            Smoke testing: true
+          feedback: performance testing and volume testing are both non-functional testing methods.
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+       Can you explain the difference between functional and non-functional testing? 
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about functional and non-functional testing
 
       links:
-        website description: http://www.google.co.uk
+        functional-testing-vs-non-functional-testing: https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/

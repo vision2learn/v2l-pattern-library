@@ -7,7 +7,8 @@ sections:
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * one
-      * two
-      * three
+       * what is meant by test driven development
+       * the structural composition of a unit test
+       * the advantages and disadvantages of unit testing
+       * what makes a bad unit test
   
