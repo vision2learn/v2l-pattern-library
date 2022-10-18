@@ -60,8 +60,6 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
         Please see the following website where you can learn more about TDD
 
       links:

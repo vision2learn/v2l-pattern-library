@@ -31,14 +31,14 @@ sections:
     copy: |
       
       Lets take a look at the different techniques that can be used to identify and fix bugs in code.
-    video: placeholder_pc.mp4
+    video: cp3_u4_s3_p1_bug_fix_presentation.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-       can you explain the different types of techniques that can be used to identify and fix bugs? 
+       Can you explain the different types of techniques that can be used to identify and fix bugs? 
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -50,15 +50,28 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      
+      ### How to diagnose code for bugs
+
       Please see the following video which demonstrates how to diagnose code for bugs.
     video: cp3_u4_s3_p1_bug_fix_demo.mp4
   -
   -
+    title: Time for assessment
+    theme: t-bg-primary3 i-practice
+    copy: |
+      As part of your assessment, you are required to show evidence that you have diagnosed the cause of a bug using the following techniques:
+      * Variable watching
+      * Compiler warnings
+      * Unit test
+      
+      Using an IDE of your choice and the sample code provided below, carry out a diagnosis of the code and perform fixes to any bugs identified.
+
+      To complete the task, you will need to upload a copy of your fixed code with your assessment.
+  -
     title: Java code example
     theme:
     copy: |
-      Here is the example of code which was shown in the video.
+      Here is an example of code which has the errors that you need to fix for your assessment.
       
     subInc:
       type: code
@@ -181,19 +194,3 @@ sections:
                   System.out.println("The answer is: " + sum)
               }
           }
-        
-  -
-  -
-    title: Time to practice
-    title: Time for assessment
-    theme: t-bg-primary3 i-practice
-    copy: |
-      As part of your assessment, you are required to show evidence that you have diagnosed the cause of a bug using the following techniques;
-
-      *Variable watching
-      *Compiler warnings
-      *Unit test
-      
-      Using an IDE of your choice and the sample code provided, carry out a diagnosis of the code and perform fixes to any bugs identified.  
-
-      To complete the task, you will need to upload a copy of your fixed code with your assessment.
