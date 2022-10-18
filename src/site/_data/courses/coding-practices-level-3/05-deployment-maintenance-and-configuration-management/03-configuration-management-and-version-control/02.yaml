@@ -117,7 +117,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        What issues do you think could arise for a Software Development team of not using version control processes?
+        What issues do you think could arise for a Software development team of __not__ using version control processes?
   -
   -
     title: Quick quiz
@@ -145,7 +145,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        ### Version control system - Video
+        ### Version control system - video demonstration
 
         Please see the following youtube video where you can learn more about version control and how to set one up in your own IDE.
 

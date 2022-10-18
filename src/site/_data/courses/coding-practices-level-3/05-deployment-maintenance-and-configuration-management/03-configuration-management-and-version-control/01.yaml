@@ -42,7 +42,7 @@ sections:
             A 'Deployment site' would also be used for the Continuous Integration (CI) stages of a project so the developer, testing and review teams could check the product on a Developer site or Staging site before final deployment. 
           img: cp3_u5_s3_p1_slide2.svg
         -
-          title: Asset management / Configuration manangement database
+          title: Asset management / Configuration management database
           text: |
             Asset management would store, classify, and manage configuration assets. A Configuration Management Database (CMDB) helps to manage configuration assets. It stores the configuration records for the assets, and includes the attributes, such as type, owner, or version.  It also stores the relationships with other assets in the system.
           img: cp3_u5_s3_p1_slide3.svg

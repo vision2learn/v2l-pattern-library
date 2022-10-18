@@ -34,10 +34,10 @@ sections:
           feedback: This would be a non functional test. A functional test relating to this would be that the textboxes for the logins are displayed correctly.
         Select one option to complete the following sentence:"__________ is an example of a functional testing.":
           answers:
-            performance testing: false
-            volume testing: false
+            Performance testing: false
+            Volume testing: false
             Smoke testing: true
-          feedback: performance testing and volume testing are both non-functional testing methods.
+          feedback: Performance testing and volume testing are both non-functional testing methods.
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -53,7 +53,7 @@ sections:
       copy: |
         
 
-        Please see the following website where you can learn more about functional and non-functional testing
+        Please see the following website where you can learn more about functional and non-functional testing.
 
       links:
-        functional-testing-vs-non-functional-testing: https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/
+        Functional testing versus non-functional testing: https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/
