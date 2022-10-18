@@ -29,60 +29,29 @@ sections:
     theme: t-bg-supporting3 i-watch
     layout: media
     copy: |
-      _Presentation video - 3.1
       
-      Please see the following video on .
+      Lets take a look at the different techniques that can be used to identify and fix bugs in code.
     video: placeholder_pc.mp4
-  -
-    title: Testing techniques
-    theme: t-bg-supporting3
-    copy: |
-      text 3.2
-
-      See below to learn more about 
-
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Variable watching
-          copy: |
-            text  
-            
-        - 
-          title: Compiler warnings
-          copy: |
-            text  
-            
-        - 
-          title: Unit test
-          copy: |
-            text  
-            
-  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
-        
-  -
+       can you explain the different types of techniques that can be used to identify and fix bugs? 
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 3.3 - 3.5
+      In your assessment you will be required to diagnose the cause of a bug using, variable watching, compiler warnings and unit testing and perform a fix on any broken code found.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Instruction video - 3.3 - 3.5_
       
-      Please see the following video on .
+      Please see the following video which demonstrates how to diagnose code for bugs.
     video: cp3_u4_s3_p1_bug_fix_demo.mp4
   -
   -
@@ -216,27 +185,15 @@ sections:
   -
   -
     title: Time to practice
+    title: Time for assessment
     theme: t-bg-primary3 i-practice
     copy: |
-      ## Practice task
+      As part of your assessment, you are required to show evidence that you have diagnosed the cause of a bug using the following techniques;
+
+      *Variable watching
+      *Compiler warnings
+      *Unit test
       
-      Have a go at writing out the above examples on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      Using an IDE of your choice and the sample code provided, carry out a diagnosis of the code and perform fixes to any bugs identified.  
 
-      [EXAMPLE - REPLACE WITH CHOSEN LANGUAGE Python Online Compiler](https://replit.com/languages/python3)
-
-
-      ## Assessment task
-
-      In your assessment you will be required to ...... 3.3 - 3.5
-
-      Sign up for a free version of _Replit_, create the same two examples and download your python and C# files to include in your submission to your Tutor. (Within Replit to download your files you would click the 3 dots above the file list.)
-  -
-  -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - could use to include all the code used_
-
-      Take a look at the following document about ....
-
-      [example doc]().
+      To complete the task, you will need to upload a copy of your fixed code with your assessment.

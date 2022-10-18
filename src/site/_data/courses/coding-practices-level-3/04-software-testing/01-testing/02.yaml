@@ -105,22 +105,25 @@ sections:
     video: placeholder_pc.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: In Black Box testing the underlying code is invisible to the person carrying out the test.
+          answer: invisible
         -
-          sentence: example two
-          answer: two
+          sentence: In White Box testing, testers have to have to have a good understanding of the underlying code.
+          answer: White Box
         -
-          sentence: example three 
-          answer: three
+          sentence: Black Box testing can be done without any underlying knowledge of the code. 
+          answer: Black Box
         -
-          sentence: example four
-          answer: four
+          sentence: Performance, scalability and usability are types of Non-Functional testing. 
+          answer: Non-Functional
+        -
+          sentence: Performance, scalability and usability are types of Non-Functional testing. 
+          answer: Non-Functional
     theme: i-quiz  
   -
     title: Time to think

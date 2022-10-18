@@ -23,17 +23,23 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: The step where we will execute the test and do the actual unit testing is call the act step.
+          sentence: The step where you will execute the test is call the act step.
           answer: act
         -
-          sentence: example two
-          answer: two
+          sentence: The piece of an application to be tested is know as the system under test.
+          answer: system under test
         -
-          sentence: example three 
-          answer: three
+          sentence: Unit tests make it easier to refractor code. 
+          answer: refractor
         -
-          sentence: example four
-          answer: four
+          sentence: Unit tests are problematic when you need to test the user interface.
+          answer: user interface
+        -
+          sentence: To apply stimulus to the system under test you would call a method on it.
+          answer: call a method on it
+        -
+          sentence: Unit testing would not be appropriate to find integration bugs.
+          answer: integration bugs    
     theme: i-quiz
   
   -
@@ -42,7 +48,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Can you describe the structural composition of a unit test? 
 
   -
     title: Key point
@@ -101,10 +107,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the importance of unit testing.
 
       links:
-        website description: http://www.google.co.uk
-  
+        Test driven develoment: https://www.javatpoint.com/unit-testing
