@@ -75,9 +75,9 @@ sections:
             | N/A there is no need for a rollback plan, change will be successful | | DBA Task |
             | | | Scripts are located: D:\dba\CC4562\rollback\ |
             | | | Login to the DB_APPS database as the system user and run the following scripts: |
-            | | - drop the tables | 1.--drop tables - SQL>@drop tables.sql |
-            | | - run the deletes and updates | 2.--run required DML to restore previous state of tables - SQL>@run delete.sql and SQL>@run update.sql |
-            | | - test | 3.--verify - SQL>@post_rollback_verify.sql|
+            | | - drop the tables | 1.--drop tables - SQL>&#64;drop tables.sql |
+            | | - run the deletes and updates | 2.--run required DML to restore previous state of tables - SQL>&#64;run delete.sql and SQL>&#64;run update.sql |
+            | | - test | 3.--verify - SQL>&#64;post_rollback_verify.sql|
             | | | All logs need to be saved to: D:\dba\CC4562\rollback\logs |
   -
   -
