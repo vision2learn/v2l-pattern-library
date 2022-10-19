@@ -132,7 +132,6 @@ sections:
       ![](/images/svg/cp3/cp3_u3_s2_p3_image3_2.svg)
 
       So for example, in the programming language Java, it is used to define a collection of method definitions and constant values. This means it can be implemented by classes that define this interface with the 'implements' keyword.  This is useful because it can implement multiple interfaces.
-
   -
   -
     title: Watch 
@@ -145,19 +144,8 @@ sections:
     video: cp3_u3_s2_p3_interfaces.mp4
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-
-        Please see the following website where you can see the above Abstract Class and Interfaces videos online.
-
-      links:
-        Abstract Class and Interfaces: 
-  -
     title: Objects
-    theme: t-bg-supporting2
+    theme: 
     copy: |
       
       An object is a self-contained component that has methods and properties. So in our example:
@@ -167,11 +155,10 @@ sections:
       * Methods: Eat(), Sleep(), Sit(), and Run()
 
       ![](/images/svg/cp3/cp3_u3_s2_p3_image4_2.svg)
-
   -
   -
     title: Differences between Class and Object
-    theme: t-bg-supporting2
+    theme: t-bg-supporting3
     copy: |
       See below to see a table that outlines the differences between Class and Object.
     subInc: 
