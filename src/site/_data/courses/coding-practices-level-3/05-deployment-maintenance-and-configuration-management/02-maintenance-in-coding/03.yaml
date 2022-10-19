@@ -1,7 +1,7 @@
 title: Improvements and change management
 intro: |
   On this page we will look at maintenance improvements and why change management is used in maintenance.
-banner: placeholder.jpg
+banner: cp3_u5_s2_p3_improvements.jpg
 sections:
   -
     title: Key point
@@ -44,9 +44,9 @@ sections:
       type: time-to-think
       copy: |
         Have a think and make some notes about how what could occur during improvement work - take the following into consideration for each type of software maintenance:
-        * uses, 
-        * conditions, and 
-        * consequences.
+        * Uses
+        * Conditions
+        * Consequences
   -
   -
     title: Key point
@@ -65,7 +65,7 @@ sections:
       
       Change management would manage changes to artefacts such as code, process, and documentation. Change could be for different reasons and from different sources such as a business reorganisation, changes to the market, technical reasons, fixes and bugs, Sales/marketing ideas, or budget restrictions. Change management tools can be used to manage the process and can also be used for project planning, creating flow charts, and data collection.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u5_s2_p3_image1.svg
   -
   -
     title: Change management process in maintenance
@@ -83,9 +83,7 @@ sections:
       7. Review the change performance
       8. Close the process
 
-      _CCP Diagram_
-
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/cp3/cp3_u5_s2_p3_image2.svg)
     
       The focus of Change Control Process (CCP) for a software product is to identify the change, document, and sign-off the change request.  CCP includes activities that would improve the overall performance of the software product. Change control is useful as it helps the software product to maintain its integrity, so the proposed changes do not affect other parts of the software.        
   -
@@ -106,9 +104,7 @@ sections:
             * Enhance innovation
             * Keep up to date with new technologies
             * Implement new requirements
-            * Reduce costs 
-            
-          img: /images/svg/placeholder_icon.svg
+            * Reduce costs
         - 
           title: Considerations
           copy: |
@@ -119,9 +115,7 @@ sections:
             * Risks involved
             * Individuals involved
             * Resources needed
-            * Relationships and or dependencies 
-            
-          img: /images/svg/placeholder_icon.svg
+            * Relationships and or dependencies
   -
   -
     title: Time to think

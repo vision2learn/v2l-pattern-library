@@ -1,7 +1,7 @@
 title: Maintenance, Elements and Documentation
 intro: |
   This session is all about maintenance.  It includes the key elements, improvements, change management, and documentation.  
-banner: placeholder.jpg
+banner: cp3_u5_s2_p1_maintenance_elements.jpg
 sections:
   -
     title: What you will learn
@@ -32,22 +32,22 @@ sections:
           title: Corrective maintenance
           text: |
             The typical, classic form of maintenance is known as ‘Corrective software maintenance’.  Basically, if something goes wrong, a solution is identified and developed to fix it. Corrective software maintenance is necessary when a piece of software shows faults and errors, or there is a compatibility issue with another piece of newly released software. 
-          img: placeholder_icon.svg
+          img: cp3_u5_s2_p1_slide1.svg
         -
           title: Adaptive maintenance
           text: |
             ‘Adaptive maintenance’ takes into consideration that technology is constantly changing, and that it is importance that software is able to keep up with these changes.  Sometimes adaptive maintenance will also take organisation’s polices and rules into consideration as well. 
-          img: placeholder_icon.svg
+          img: cp3_u5_s2_p1_slide2.svg
         -
           title: Perfective maintenance
           text: |
             Perfective software maintenance is about improving the software and system performance once the product has been released.  It is normally in response to the customer feedback.  It’s focus is on features and functional enhancements that improve the user experience.
-          img: placeholder_icon.svg
+          img: cp3_u5_s2_p1_slide3.svg
         -
           title: Preventative software maintenance 
           text: |
             Preventative software maintenance is about future-proofing and the shelf-life of the software product. It makes changes and adaptations to the software product with new features and updates. It reduces the risk of deterioration as new features would improve reliability, performance, maintainability, and stability.
-          img: placeholder_icon.svg
+          img: cp3_u5_s2_p1_slide4.svg
   -
   -
     title: Watch 

@@ -195,21 +195,19 @@ sections:
           Zzzzzzzzzzzz!
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-
-        Please see the following website where you can learn more about classes and methods.
-
-      links:
-        Classes and Methods: 
-  -
-  -
     title: Time to practice
     theme: t-bg-primary3 i-practice
     copy: |
       Have a go at writing out the above Java examples on the following online compiler practice website.
       
       [Java Online Compiler](https://replit.com/languages/java10)
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Classes
+
+      Please see the following video for a demonstration on how to create an object from a class.
+    video: cp3_u3_s2_p4_classes.mp4

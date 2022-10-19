@@ -1,7 +1,7 @@
 title: Identify and fix a bug
 intro: |
   In this session you will learn how to identify and fix bugs within code. 
-banner: placeholder.jpg
+banner: cp3_u4_s3_p1_identify_fix.jpg
 sections:
   -
     title: What you will learn
@@ -9,14 +9,14 @@ sections:
     copy: |
       In this session you will learn about:
       * Techniques which can be used to identify and fix bugs
-      * the benefits of the following techniques:
-        * variable watching
-        * compiler warnings
-        * unit test
+      * The benefits of the following techniques:
+        * Variable watching
+        * Compiler warnings
+        * Unit test
       * Diagnose the cause of a bug using the following techniques:
-        * variable watching
-        * compiler warnings
-        * unit test
+        * Variable watching
+        * Compiler warnings
+        * Unit test
       * How to perform a fix on broken code
       * How the bug could have been prevented
   -
@@ -25,93 +25,172 @@ sections:
     copy: |
       In your assessment you will be required to explain techniques which can be used to identify and fix bugs
   -
-    title: introduction 3.1
+    title: Watch 
+    theme: t-bg-supporting3 i-watch
     layout: media
-    theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
       
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Testing techniques
-    theme: t-bg-supporting3
-    copy: |
-      text 3.2
-
-      See below to learn more about 
-
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Variable watching
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Compiler warnings
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Unit test
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg
-  -
+      Lets take a look at the different techniques that can be used to identify and fix bugs in code.
+    video: cp3_u4_s3_p1_bug_fix_presentation.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
-        
-  -
+       Can you explain the different types of techniques that can be used to identify and fix bugs? 
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to 3.3 - 3.5
+      In your assessment you will be required to diagnose the cause of a bug using, variable watching, compiler warnings and unit testing and perform a fix on any broken code found.
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Instruction video - 3.3 - 3.5_
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      ### How to diagnose code for bugs
+
+      Please see the following video which demonstrates how to diagnose code for bugs.
+    video: cp3_u4_s3_p1_bug_fix_demo.mp4
   -
-    title: Time to practice
+  -
+    title: Time for assessment
     theme: t-bg-primary3 i-practice
     copy: |
-      ## Practice task
+      As part of your assessment, you are required to show evidence that you have diagnosed the cause of a bug using the following techniques:
+      * Variable watching
+      * Compiler warnings
+      * Unit test
       
-      Have a go at writing out the above examples on the following online compiler practice website.  Check to see if you get the same result as in the above example.
+      Using an IDE of your choice and the sample code provided below, carry out a diagnosis of the code and perform fixes to any bugs identified.
 
-      [EXAMPLE - REPLACE WITH CHOSEN LANGUAGE Python Online Compiler](https://replit.com/languages/python3)
-
-
-      ## Assessment task
-
-      In your assessment you will be required to ...... 3.3 - 3.5
-
-      Sign up for a free version of _Replit_, create the same two examples and download your python and C# files to include in your submission to your Tutor. (Within Replit to download your files you would click the 3 dots above the file list.)
+      To complete the task, you will need to upload a copy of your fixed code with your assessment.
   -
-  -
-    title: Read
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - could use to include all the code used_
+    title: Java code example
+    theme:
+    copy: |
+      Here is an example of code which has errors that you need to fix for your assessment.
+      
+    subInc:
+      type: code
+      lang: java
+      highlight: 
+      code: |
+          import java.util.Scanner;
 
-      Take a look at the following document about ....
+          public class StudentVersion {
+              public static void main(String[] args) {
+                  boolean run = true;
+                  String choice;
 
-      [example doc]().
+                  do {
+                      choice = displayMenu();
+                      if (choice.equals("x")){
+                          run = false;
+                      }
+                      else if (choice.equals("1")){
+                          double x = getNumber(1);
+                          double y = getNumber(2);
+                          int total = sumMethod(x,y);
+                          display(totl);
+                          run = checkFinish();
+                      }
+                      else if (choice.equals("2")){
+                          double x = getNumber(1);
+                          double y = getNumber(2);
+                          double total = subtractMethod(x,y);
+                          display(total);
+                          run = checkFinish();
+                      }
+                      else if (choice.equals("3")){
+                          double x = getNumber(1);
+                          double y = getNumber(2);
+                          double total = multiplymethod(x,y);
+                          display(total);
+                          run = checkFinish();
+                      }
+                      else  (choice.equals("4")){
+                          double x = getNumber(1);
+                          double y = getNumber(2);
+                          double total = divideMethod(x,y);
+                          display(total);
+                          run = checkFinish();
+                      }
+                      else {
+                          System.out.println("Entry not recognised, please try again...");
+                      }
+
+                  } while (run);
+              }
+
+              public static double getNumber(int count){
+                  boolean numberWrong = true;
+                  while (numberWrong) {
+                      if (count == 1) {
+                          System.out.print("Enter 1st number: ");
+                      } else {
+                          System.out.println("Enter 2nd number: ");
+                      }
+                      Scanner reader = new Scanner(System.in);
+                      try {
+                          double x = reader.nextLine();
+                          return x;
+                      } catch (Exception e){
+                          System.out.println("Number not recognised, please try again.");
+                      }
+                  }
+                  return 0;
+              }
+
+              public static String displayMenu(){
+                  System.out.println(" Calculator Menu");
+                  System.out.println("1. Add numbers");
+                  System.out.println("2. Subtract numbers");
+                  System.out.println("3. Multiply numbers");
+                  System.out.println("4. Divide numbers");
+                  System.out.println("x. Exit program");
+                  System.out.println();
+                  Scanner reader = new Scanner(System.in);
+                  System.out.print("Enter option (1,2,3,4,x): ");
+                  return reader.nextLine();
+              }
+
+              public static boolean checkFinish(){
+                  Scanner reader = new Scanner(System.in);
+                  boolean check = true;
+                  System.out.print("Have you finished (y/n): ");
+                  String ans = reader.nextLine().trim().toLowerCase();
+                  if (ans.equals("y")){
+                      return false;
+                  }
+                  else{
+                      return true;
+                  }
+              }
+
+              public static double sumMethod(double n, double m){
+                  System.out.println("When adding the numbers");
+                  return (n * m);
+              }
+
+              public static double subtractMethod(double n, double m){
+                  System.out.println("When subtracting the numbers");
+                  return (n - m);
+              }
+
+              public static double multiplyMethod(double n, double m){
+                  System.out.println("When multiplying the numbers");
+                  return (n * m);
+              }
+
+              public static double divideMethod(double n, double m){
+                  System.out.println("When dividing the numbers");
+                  return ((double)n / m);
+              }
+
+              public static void display(double sum){
+                  System.out.println("The answer is: " + sum)
+              }
+          }

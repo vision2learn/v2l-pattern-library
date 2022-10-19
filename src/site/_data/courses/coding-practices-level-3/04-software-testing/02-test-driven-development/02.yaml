@@ -2,39 +2,46 @@ title: Unit testing
 intro: |
   On this page you will develop your understanding of developing unit test and its advantages and disadvantages. 
 
-  T E M P L A T E   P A G E 
-banner: placeholder.jpg
+banner: cp3_u4_s2_p2_unit_test.jpg
 sections:
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to describe the structural composition of a unit test
+      In your assessment you will be required to describe the structural composition of a unit test.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-     Lets take a look at unit testing in more detail.
+      ### Unit testing
+      
+      Lets take a look at unit testing in more detail.
     video: cp3_u4_s2_p2_unit_testing.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The step where you will execute the test is call the act step.
+          answer: act
         -
-          sentence: example two
-          answer: two
+          sentence: The piece of an application to be tested is know as the system under test.
+          answer: system under test
         -
-          sentence: example three 
-          answer: three
+          sentence: Unit tests make it easier to refactor code. 
+          answer: refactor
         -
-          sentence: example four
-          answer: four
+          sentence: Unit tests are problematic when you need to test the user interface.
+          answer: user interface
+        -
+          sentence: To apply stimulus to the system under test you would call a method on it.
+          answer: call a method on it
+        -
+          sentence: Unit testing would not be appropriate to find integration bugs.
+          answer: integration bugs    
     theme: i-quiz
   
   -
@@ -43,7 +50,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Can you describe the structural composition of a unit test? 
 
   -
     title: Key point
@@ -51,7 +58,7 @@ sections:
     copy: |
       In your assessment you will be required to identify tools used in coding.
   -
-    title: Advantages and disadvantages of unit testing.
+    title: Advantages and disadvantages of unit testing
     theme: t-bg-primary
     copy: |
       Unit testing is an important part of software development and it can have a number of advantages for your project. However there are also some disadvantages. Lets take a look at these:
@@ -81,7 +88,7 @@ sections:
         - 
           title: Bad unit testing
           copy: |
-            As you can see there are both advangtages and disadvantages to unit testing but it is also important to ensure that the unit test is valid. There are a number of factors to consider when writing unit tests and some of the common mistakes that would result in a badly designed unit test are;
+            As you can see there are both advantages and disadvantages to unit testing but it is also important to ensure that the unit test is valid. There are a number of factors to consider when writing unit tests and some of the common mistakes that would result in a badly designed unit test are;
             * __Testing irrelevant things__: This is where a test is valid but it is not specific enough and tests more than one element. 
             * __Testing multiple things in assertions__: Trying to make a test with more than one assertation may be required but this violates the single responsibility priniciple. Unless absolutely neccessary tests should be only testing one feature or function at a time.
             * __Test passes but the feature does not work__: This occurs when the test is testing another feature or function than the one intended.
@@ -102,52 +109,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about the importance of unit testing.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        Test driven develoment: https://www.javatpoint.com/unit-testing

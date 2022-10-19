@@ -1,7 +1,7 @@
 title: Testing - levels, types and methods
 intro: |
   On this page you will learn about the different levels, types and methods of testing. 
-banner: placeholder.jpg
+banner: cp3_u4_s1_p2_testing_levels_types.jpg
 sections:
   -
     title: Key point
@@ -13,18 +13,20 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Testing can be defined as the process of evaluating software a system or its components with the intent to find out whether it satisfies the specified requirements or not. 
+      Testing can be defined as the process of evaluating software, a system, or its components with the intent to find out whether it satisfies the specified requirements or not. 
       
-      To ensure that each piece of code works the way it is supposed to there are a number of different types, level and methods of testing carried out. 
+      To ensure that each piece of code works the way it is supposed to there are a number of different types, level, and methods of testing carried out. 
       
       Most testing methods can be categorised as either functional or non-functional which you will learn more about on this page. You will also learn about how testing is a critical element within software development cycle. 
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/cp3/cp3_u4_s1_p2_image.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      ### Levels of testing
+      
       Lets take a look at the levels of testing.
       
     video: cp3_u4_s1_p1_testing.mp4
@@ -41,7 +43,7 @@ sections:
           sentence: Acceptance testing determines if the software is finally ready to be launched to the general public.
           answer: Acceptance
         -
-          sentence: Unit Testing is where specific lines of code, distinct functionalities, and desired procedures are isolated and tested.
+          sentence: Unit testing is where specific lines of code, distinct functionalities, and desired procedures are isolated and tested.
           answer: Unit
         -
           sentence: System testing is carried out to verify that software operates as required and is compatible across platforms.
@@ -66,62 +68,68 @@ sections:
       title: 
       slides:
         -
-          title: Load Testing
+          title: Load testing
           text: |
-           This is a process of testing the behavior of a software by applying maximum load in terms of software accessing and manipulating large input data. It can be done at both normal and peak load conditions. This type of testing identifies the maximum capacity of software and its behavior at peak time. For example;
-           You have an application that is designed to handle 1000 users at any one time and the response time should be 4 seconds. Load testing will apply a load sufficient to test that if there are 1000 users the response time is 4 seconds for all users. 
+           This is a process of testing the behavior of a software by applying maximum load in terms of software accessing and manipulating large input data. It can be done at both normal and peak load conditions. This type of testing identifies the maximum capacity of software and its behavior at peak time. 
+           
+           For example: You have an application that is designed to handle 1000 users at any one time and the response time should be 4 seconds. Load testing will apply a load sufficient to test that if there are 1000 users the response time is 4 seconds for all users. 
 
-          img: placeholder_icon.svg
+          img: cp3_u4_s1_p2_slide1.svg
         -
           title: Stress testing
           text: |
-            Stress testing takes load testing one step further and goes beyond what the sofware was designed to handle. For example;
-            Your application has a response time of 4 seconds for 1000 simultaneous users so, a stress test for this would be to test with 1100, 1200, 1300 and so on until you find the failure point, which in this case would be when the response time is greater than 4 seconds.
-          img: placeholder_icon.svg
+            Stress testing takes load testing one step further and goes beyond what the sofware was designed to handle. 
+            
+            For example: Your application has a response time of 4 seconds for 1000 simultaneous users so, a stress test for this would be to test with 1100, 1200, 1300 and so on until you find the failure point, which in this case would be when the response time is greater than 4 seconds.
+          img: cp3_u4_s1_p2_slide2.svg
         -
           title: Endurance testing
           text: |
-            This is more commonly known as Soak Testing. This is a type of software testing in which the system is tested under huge load over a continuous period to check the behavior of the system under production use. 
-            Soak Testing tests that system can withstand a huge volume of the load for an extended period of time. It also tests that what would happen outside the design expectations of the system
-          img: placeholder_icon.svg
+            This is more commonly known as Soak testing. This is a type of software testing in which the system is tested under huge load over a continuous period to check the behavior of the system under production use.
+
+            Soak testing tests that the system can withstand a huge volume of the load for an extended period of time. It also tests that what would happen outside the design expectations of the system
+          img: cp3_u4_s1_p2_slide3.svg
         -
           title: Usability testing
           text: |
-            Usability testing is a black-box testing technique and is used to identify any errors and improvements in the software by observing the users through their usage and operation. This method may also include user interface testing (UI). UI testing involves testing the Graphical User Interface of the Software. UI testing ensures that the GUI functions according to the requirements and is tested in terms of color, alignment, size, and other properties.
-          img: placeholder_icon.svg  
+            Usability testing is a black-box testing technique and is used to identify any errors and improvements in the software by observing the users through their usage and operation. This method may also include user interface testing (UI). UI testing involves testing the Graphical User Interface (GUI) of the software. UI testing ensures that the GUI functions according to the requirements and is tested in terms of color, alignment, size, and other properties.
+          img: cp3_u4_s1_p2_slide4.svg 
        
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to explain the types and methods of testing used within the stages of the Software Development Lifecycle
+      In your assessment you will be required to explain the types and methods of testing used within the stages of the Software Development Lifecycle.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-       You may have heard the terms __black box testing__ and __white box testing__, so what exactly are these? lets take a look at this in more detail. 
-    video: placeholder_pc.mp4
+      ### Black box and white box testing
+
+      You may have heard the terms __black box testing__ and __white box testing__, so what exactly are these? Lets take a look at this in more detail. 
+    video: cp3_u4_s1_p1_black_white_box_testing.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: In Black box testing the underlying code is invisible to the person carrying out the test.
+          answer: invisible
         -
-          sentence: example two
-          answer: two
+          sentence: In White box testing, testers have to have to have a good understanding of the underlying code.
+          answer: White box
         -
-          sentence: example three 
-          answer: three
+          sentence: Black box testing can be done without any underlying knowledge of the code. 
+          answer: Black box
         -
-          sentence: example four
-          answer: four
+          sentence: Performance, scalability and usability are types of non-functional testing. 
+          answer: non-functional
+        -
+          sentence: Performance, scalability and usability are types of non-functional testing. 
+          answer: non-functional
     theme: i-quiz  
   -
     title: Time to think
@@ -137,10 +145,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about
+       Please see the following website where you can learn more about testing.
 
       links:
-        website description: http://www.google.co.uk
+        Software testing: https://www.guru99.com/software-testing.html
  

@@ -1,7 +1,7 @@
 title: Functional and non-functional testing
 intro: |
   On this page you learn more about functional and non-function testing and the differences between the two. 
-banner: placeholder.jpg
+banner: cp3_u4_s1_p3_functional_and_non.jpg
 sections:
   -
     title: Key point
@@ -13,60 +13,47 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
+      ### Functional and non-functional testing
+
       So far you have learnt about different types, levels and methods of coding and we have talked about functional and non-functional testing. Lets take a look at the differences in more detail and when you would use the different methods.
-    video: placeholder_pc.mp4
+    video: cp3_u4_s1_p2_functional_testing.mp4
   -
     title: Quick quiz
     theme: i-quiz
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "Functional testing checks the performance and behaviour of an application.":
           answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
+            True: false
+            False: true
+        Is the following statement true or false? "An example of a functional test is whether a login page loads within 5 seconds.": 
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            True: false
+            False: true
+          feedback: This would be a non functional test. A functional test relating to this would be that the textboxes for the logins are displayed correctly.
+        Select one option to complete the following sentence:"__________ is an example of a functional testing.":
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            Performance testing: false
+            Volume testing: false
+            Smoke testing: true
+          feedback: Performance testing and volume testing are both non-functional testing methods.
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
-
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
+       Can you explain the difference between functional and non-functional testing? 
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
+        
 
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about functional and non-functional testing.
 
       links:
-        website description: http://www.google.co.uk
+        Functional testing versus non-functional testing: https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/
