@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Understand the advantages of team working
 intro: |
-  intro text
+  In this session you will learn about effective working teams.
 banner: placeholder.jpg
 sections:
   -
@@ -8,113 +8,90 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * The characteristics of an effective team and the advantages of working in a team
+      * The possible barriers to effective team working
+      * The possible effects of identified barriers on the team
+      * How to create and maintain an effective team
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      Make sure you can identify the characteristics of an effective team and the advantages of working in a team.
   -
-    title: introduction text
+    title: Effective teams
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
+      An effective team is great for its organisation and for the people who make it up. It’s much easier and more satisfying to work in a team that gets the job done.
       
-      Topic introduction text here 
+      It can take a lot of work to build an effective team – really, it’s a project in itself. You need to have a very clear idea of the kind of experience and skills you want included in your team for it to be a success.
+
+      A key element of an effective team is that everyone in it should feel like they’re contributing to the overall success of their team and organisation. That means people have to be able to see the big picture. One of the responsibilities of a team leader is to keep that big picture visible.
 
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Reveals
-    theme: t-bg-supporting2
+    title: Characteristics of an effective team
+    theme: t-bg-supporting3
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Let’s look at some of the characteristics of an effective team in detail.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Strong leadership
           text: |
-            text
+            Strong leadership doesn’t mean being a mini-dictator. A true leader is someone who is trusted by their team to deliver guidance and security. A strong leader keeps their team unified while respecting differences in opinion.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Collaboration
           text: |
-            text
+            An effective team is a team where people collaborate. They share skills, knowledge and time with one another to make sure that people are hitting their goals and thus propelling the team along to hitting its overall goals.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Communication
           text: |
-            text
+            An effective team prioritises clear lines of communication. This allows individuals in a team to quickly understand their own tasks and how they relate to their colleagues. Collaboration, strong leadership and other features of effective teams aren’t possible without this.
+          img: placeholder_icon.svg
+        -
+          title: Constructive conflict resolution
+          text: |
+            Conflicts and friction are inevitable in every team – but that isn’t the same thing as arguments or fights. Conflict and friction just mean there’s a lack of consensus and people are taking sides. In an effective team, conflict resolution emphasises listening to both sides and finding a solution that everyone is happy with.
+          img: placeholder_icon.svg
+        -
+          title: Clear goals
+          text: |
+            Without clearly defined goals, either nothing will get done or, worse, the wrong thing will get done. Precise goals, communicated clearly by a leader who gives direction are what make a team truly effective.
           img: placeholder_icon.svg
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Advantages of team working
+    theme: t-bg-primary
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+      We’ve seen already that there are benefits to working in teams over working in groups. Now we’re going to look at more of the specific advantages of team working as opposed to working alone.
 
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sharing ideas
+          copy: |
+            In a team, you’re exposed to your colleagues’ ideas – and they’re exposed to yours too. This creates an environment where ideas and knowledge are being freely shared to the benefit of all.
+        - 
+          title: Morale and motivation
+          copy: |
+            Extended periods of working alone are bad for your morale and wellbeing. Human beings are social creatures, and we need the companionship that a team provides. Working together in a team boosts your motivation because of this.
+        - 
+          title: Improved productivity
+          copy: |
+            Working in a team boosts productivity. This is because of the support network that a team provides you – it’s easier to learn new and methods for working, as well as asking your colleagues for advice and guidance.       
+        - 
+          title: Safer risk taking
+          copy: |
+            Because of the safety that being in a team provides, you’re more likely to take risks when you belong to one. That’s because of the resources at your disposal to support you; both the shared pool of knowledge and experience, and the collaborative spirit of the team.   
   -
   -
     title: On the web
@@ -122,60 +99,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please click on the following links where you can read more about the advantages of working in a team.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        The importance of teamwork (as proven by science): https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork
+        7 advantages of teamwork: https://www.intheloop.io/blog/advantages-of-teamwork/

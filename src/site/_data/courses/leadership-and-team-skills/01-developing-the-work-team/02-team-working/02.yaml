@@ -1,167 +1,67 @@
-title: TEMPLATE PAGE
+title: Working in a team - pros and cons 
 intro: |
-  intro text
+  On this page you will learn about the advantages and disadvantages of working in a team. 
 banner: placeholder.jpg
 sections:
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
+      ### Advantages and disadvantages of working in a team
+
+      In this video, we’re going to talk about the strengths and the weaknesses of working in a team.
     video: placeholder_pc.mp4
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
+      Make sure you can explain how you can list the advantages and disadvantages of working in a team. 
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Shaper is the person who gives the team momentum and direction.
+          answer: Shaper
         -
-          sentence: example two
-          answer: two
+          sentence: Plant is the creative lateral thinker who finds unexpected solutions.
+          answer: Plant
         -
-          sentence: example three 
-          answer: three
+          sentence: The curious one who is always on the hunt for new ideas is Resource investigator.
+          answer: Resource investigator
         -
-          sentence: example four
-          answer: four
+          sentence: Teamworker prioritises the harmony of the team. 
+          answer: Teamworker
+        -
+          sentence: Specialist is the expert in a relevant field.
+          answer: Specialist
+        -
+          sentence: The logical analyst who likes to keep things objective is Monitor evaluator.
+          answer: Monitor evaluator
+        -
+          sentence: Complete finisher makes sure all the work is up to the right standard. 
+          answer: Complete finisher
+        -
+          sentence: Co-ordinator keeps the team’s focus on its objectives and makes appropriate delegations.
+          answer: Co-ordinator
+        -
+          sentence: Implementer is creates the strategic plan that gets the team’s objectives done.
+          answer: Implementer
     theme: i-quiz
-  
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the advantages and disadvantages of working in a team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right.
+  -
+  -
+    title: Teams, individuals, organisations
+    theme: t-bg-primary
+    copy: |
+      It’s important to remember that when weighing up the advantages and disadvantages of team working, you shouldn’t just be thinking about what’s good for individuals – you need to think about what’s good for the organisation too.  
+      
+      But that doesn’t mean you shouldn’t override the preferences and opinions of the people involved either – the important thing is to find the right balance between organisational and individual needs when it comes to working in teams.

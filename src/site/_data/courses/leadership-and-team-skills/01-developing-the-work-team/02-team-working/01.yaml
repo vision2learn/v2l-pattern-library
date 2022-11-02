@@ -1,120 +1,79 @@
-title: TEMPLATE PAGE
+title: Understand the advantages of team working
 intro: |
-  intro text
+  In this session you will learn about the advantages and disadvantages of team working. 
 banner: placeholder.jpg
 sections:
   -
     title: What you will learn
     theme: t-bg-primary
     copy: |
-      In this session you will learn about:
-      * one
-      * two
-      * three
+      In this session you will learn about the:
+      * responsibilities of team members 
+      * advantages of working in a team 
+      * disadvantages of working in a team 
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      Make sure you can identify the responsibilities of team members.
   -
-    title: introduction text
-    layout: media
-    theme: t-bg-primary
+  -
+    title: Team roles
+    theme: t-bg-supporting3
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      In a team, you’ll find that similar roles and behaviours tend to organically develop. This is generally true of all healthy teams, regardless of the industry or area of work. 
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
+      We’ve used the Belbin model for this example. In the Belbin model, there are nine team roles.
 
-      Select the images below to read 
-
+      See below to learn more.
     subInc: 
-      type: reveal
+      type: accordion
       content:
-        -
-          title: a
+        - 
+          title: Resource investigator
           copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
+            The resource investigator is the curious one – they’re the one in your team who’s always researching new approaches, methods, and ideas, and then sharing them with the rest of the team. 
+        - 
+          title: Teamworker
           copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
+            The teamworker puts the team first. Their priority is keeping the team happy and harmonious, and they will go the extra mile to prevent conflicts and friction in the team.  
+        - 
+          title: Co-ordinator
           copy: |
-            text
-          img: placeholder_icon.svg
+            The co-ordinator is highly focused on the objectives the team is working towards. They make sure that tasks are being delegated to the right people and that the team’s goals are properly explained to everyone.  
+        - 
+          title: Plant
+          copy: |
+            The plant is the lateral thinker – they’re the one who finds the solution to the problem that no one expected. They’re a creative free thinker who’s great at solving knotty problems.
+        - 
+          title: Monitor evaluator
+          copy: |
+            The logical analyser – they focus on the facts so they can make decisions as objectively as possible.
+        - 
+          title: Specialist
+          copy: |
+            They’re the expert in a particular field that’s relevant for the team. 
+        - 
+          title: Shaper
+          copy: |
+            The shaper is the engine that keeps the team moving. They give direction and motivation to the team.
+        - 
+          title: Implementer
+          copy: |
+            The implementer is the planner – they’re the ones who look at the team’s goals and figure out the best way to get there.  
+        - 
+          title: Complete finisher
+          copy: |
+            The complete finisher is the quality controller. They look at the work that has been done to make sure it is to the correct standard.
+                
   -
   -
-    title: slider
+    title: Benefits of taking on responsibility
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
+      Understanding team roles is the first step to giving team members responsibilities. Being able to effectively delegate is a key skill for a team leader. 
       
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      Team members taking on responsibilities reduces the amount of time you need to spend micro-managing your team. It allows you to focus on more important, strategic tasks. It also empowers team members, making them feel in control of their own work and encouraging them to think about their future career development.
   -
   -
     title: On the web
@@ -122,60 +81,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please click on the following link where you can read more about team roles.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        Belbin Team Roles: https://www.belbin.com/about/belbin-team-roles

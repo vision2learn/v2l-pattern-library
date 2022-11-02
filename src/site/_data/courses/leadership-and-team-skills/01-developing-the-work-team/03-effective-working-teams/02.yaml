@@ -1,106 +1,93 @@
-title: TEMPLATE PAGE
+title: Blockers to teamwork
 intro: |
-  intro text
+  On this page you will learn about possible barriers to effective team working and their effects.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      Make sure you can identify possible barriers to effective team working.
   -
-    title: introduction text
-    layout: media
+  -
+    title: Common barriers
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Barriers to effective teamworking are factors or elements that prevent the team from working as well as it could. There are many possible barriers to effective teamworking. Awareness of these will help you avoid them.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Location
           text: |
-            text
+            Many workplaces now feature hybrid working, meaning at least part of their workforce is primarily based at home or in another location, which can be hard to coordinate.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Poor leadership
           text: |
-            text
+            Bad leadership, or lack of any leadership at all, is very unhealthy for a team. It undermines the team’s efficiency, morale and unity.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Lack of communication
           text: |
-            text
+            Without clear communication, it’s extremely difficult for team members to know what they’re meant to do.
+          img: placeholder_icon.svg
+        -
+          title: Conflict
+          text: |
+            Although conflict is to some extent inevitable, a team where conflict is frequent and meaningful resolutions are rare is a team that’s failing.
+          img: placeholder_icon.svg
+        -
+          title: Undefined goals
+          text: |
+            This can be one of the worst barriers for a team – without clear goals, the team lacks purpose and direction. 
           img: placeholder_icon.svg
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      Make sure you can identify possible effects of these identified barriers. 
+  -
+  -
+    title: Possible effects
+    theme: t-bg-supporting3
+    copy: |
+      The barriers above can have severe effects for any team.
+
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Location
+          copy: |
+            A geographically dispersed team that isn’t properly co-ordinated will feel directionless and disparate. It won’t have a strong sense of unity and team members will feel isolated from one another, which is bad for morale, well-being, and productivity.  
+        - 
+          title: Poor leadership
+          copy: |
+            Without good leadership, the team will be like a ship lost at sea. A leader is meant to cut through the distractions and establish strategic direction. Without that, the team is unlikely to know how to approach its goals, leading to avoidable mistakes.
+        - 
+          title: Lack of communication
+          copy: |
+            Without communication, a team is likely to start pulling in different directions. People will make assumptions about other peoples’ work, at best leading to misunderstanding and at worse leading to a functional breakdown. The team won’t know what it’s meant to be doing, or even what it is doing.
+        - 
+          title: Conflict
+          copy: |
+            Friendly disagreement and debate are both a normal part of working life, but unchecked conflict can literally destroy a team. Team members won’t want to work with one another, they’ll lose sight of their goals, and may even quit altogether in a situation like that.
+        - 
+          title: Undefined goals
+          copy: |
+            Goals that aren’t clearly defined aren’t real goals. A team has to know what its function is and what its goals are. Without this being clearly defined, the team simply won’t know what to do.
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - 
-
-      _Optional item depending on content_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+        Make a note of the possible barriers to effective team working and their possible effects. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
   -
   -
     title: On the web
@@ -108,60 +95,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please click on the following link where you can read more about barriers to working in a team and their effects.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+        11 Common Barriers to Teamwork and How You Can Overcome Them: https://www.indeed.com/career-advice/career-development/barriers-to-teamwork
