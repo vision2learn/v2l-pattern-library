@@ -25,7 +25,7 @@ sections:
 
       We’ve used the Belbin model for this example. In the Belbin model, there are nine team roles.
 
-      See below to learn more.
+      Select the 'EXPAND ALL' button to learn more.
     subInc: 
       type: accordion
       content:
@@ -69,11 +69,22 @@ sections:
   -
   -
     title: Benefits of taking on responsibility
+    layout: media
     theme: t-bg-primary
     copy: |
       Understanding team roles is the first step to giving team members responsibilities. Being able to effectively delegate is a key skill for a team leader. 
       
       Team members taking on responsibilities reduces the amount of time you need to spend micro-managing your team. It allows you to focus on more important, strategic tasks. It also empowers team members, making them feel in control of their own work and encouraging them to think about their future career development.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: P L A C E H O L D E R
+    theme: t-bg-supporting3
+    copy: |
+      
+      _Additional item here to show how belbin fit into a team - e.g. Video, Case study, T2T with a web link, or Drag and Drop activity?_
+
   -
   -
     title: On the web

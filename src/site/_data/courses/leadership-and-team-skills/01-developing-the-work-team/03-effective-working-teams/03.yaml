@@ -20,6 +20,14 @@ sections:
     video: placeholder_pc.mp4
   -
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of how to create and maintain an effective team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
+  -
+  -
     title: Quick quiz
     theme: i-quiz
     subInc:

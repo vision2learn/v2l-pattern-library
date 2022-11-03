@@ -14,7 +14,7 @@ sections:
     video: placeholder_pc.mp4
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: i-keypoint
     copy: |
       Make sure you can explain how you can list the advantages and disadvantages of working in a team. 
   -
@@ -60,8 +60,11 @@ sections:
   -
   -
     title: Teams, individuals, organisations
+
     theme: t-bg-primary
+    layout: media
     copy: |
       It’s important to remember that when weighing up the advantages and disadvantages of team working, you shouldn’t just be thinking about what’s good for individuals – you need to think about what’s good for the organisation too.  
       
       But that doesn’t mean you shouldn’t override the preferences and opinions of the people involved either – the important thing is to find the right balance between organisational and individual needs when it comes to working in teams.
+    img: /images/svg/placeholder_icon.svg

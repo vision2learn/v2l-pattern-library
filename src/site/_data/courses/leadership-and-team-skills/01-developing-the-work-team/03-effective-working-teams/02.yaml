@@ -15,33 +15,34 @@ sections:
     copy: |
       Barriers to effective teamworking are factors or elements that prevent the team from working as well as it could. There are many possible barriers to effective teamworking. Awareness of these will help you avoid them.
 
+      Select the images below to learn more:
+
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: reveal
+      content:
         -
           title: Location
-          text: |
+          copy: |
             Many workplaces now feature hybrid working, meaning at least part of their workforce is primarily based at home or in another location, which can be hard to coordinate.
           img: placeholder_icon.svg
         -
           title: Poor leadership
-          text: |
+          copy: |
             Bad leadership, or lack of any leadership at all, is very unhealthy for a team. It undermines the team’s efficiency, morale and unity.
           img: placeholder_icon.svg
         -
           title: Lack of communication
-          text: |
+          copy: |
             Without clear communication, it’s extremely difficult for team members to know what they’re meant to do.
           img: placeholder_icon.svg
         -
           title: Conflict
-          text: |
+          copy: |
             Although conflict is to some extent inevitable, a team where conflict is frequent and meaningful resolutions are rare is a team that’s failing.
           img: placeholder_icon.svg
         -
           title: Undefined goals
-          text: |
+          copy: |
             This can be one of the worst barriers for a team – without clear goals, the team lacks purpose and direction. 
           img: placeholder_icon.svg
   -
@@ -57,7 +58,7 @@ sections:
     copy: |
       The barriers above can have severe effects for any team.
 
-      See below to learn more.
+      Select the 'EXPAND ALL' button to learn more.
     subInc: 
       type: accordion
       content:
