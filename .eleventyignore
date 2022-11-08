@@ -9,7 +9,8 @@
 # In development
 # /src/site/content/leadership-and-team-skills
 
-# Uncomment to stop building specific 
+# Uncomment to stop building specific
+/src/site/content/business-improvement-techniques
 /src/site/content/coding-practices-level-3
 /src/site/content/cyber-security-level-3
 /src/site/content/understanding-coding
