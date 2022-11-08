@@ -7,9 +7,11 @@
 # /src/site/content/
 
 # In development
-# /src/site/content/coding-practices-level-3
+# /src/site/content/business-improvement-techniques
+
 
 # Uncomment to stop building specific courses
+/src/site/content/coding-practices-level-3
 /src/site/content/cyber-security-level-3
 /src/site/content/understanding-coding
 /src/site/content/cyber-security
@@ -21,3 +23,4 @@
 /src/site/content/understanding-autism
 /src/site/content/it-user-skills-1
 /src/site/content/lean-organisation-techniques
+/src/site/content/leadership-and-team-skills
