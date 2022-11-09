@@ -1,85 +1,10 @@
-title: Understand the nature of teams - REVIEWED VERSION of P3
+title: Team characteristics and development
 intro: |
-  On this page you will learn about: 
-  * Explain how teams differ from groups in the workplace
-  * Describe the behavioural characteristics of an effective team
-  * Outline the stages of team development using a recognised model  
+  On this page you will learn about the:
+  * Behavioural characteristics of an effective team
+  * Stages of team development using a recognised model  
 banner: placeholder.jpg
 sections:
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      Make sure you can explain how teams differ from groups in the workplace.
-  -
-    title: Teams vs groups
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      Groups and teams may appear superficially similar. Both involve more than one individual, and both involve individuals having to work together. But the difference between them is important to grasp.  
-
-      A group is a collection of individuals who have individual goals. These goals may overlap somewhat, but there isn’t a single, shared goal that brings everyone in the group together. There are different reasons why a group might exist – it may be more convenient for the organisation to group individuals together so they can share ideas, even when working towards different goals, for example creating an informal brainstorming group of people from related disciplines. But the important thing is, whatever the shared identity in the group, the individuals aren’t all working towards the same goal.  
-
-      In a team, the individuals involved share a common goal that they are working together to achieve. This is a specific and clearly defined goal which requires joint effort and coordination to achieve. For example, a team might be a group of individuals with IT experience working to migrate their company from one suite of software to another. 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Teams vs groups PLACEHOLDER ITEM
-    theme: t-bg-supporting2
-    copy: |
-      _Example or scenarios of the differences_
-
-      See below to learn more.
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Teams
-          copy: |
-            Text
-            
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: Groups
-          copy: |
-            Text
-            
-          img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: The benefits of teams
-    theme: t-bg-primary
-    copy: |
-      Although there are situations where groups are appropriate, there are several benefits to teams. Scroll through the slides below to learn more.
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Communication
-          text: |
-            Because individuals in a group are all pursuing individual goals, they have little incentive to communicate with each other. However, as a team is a collective pursuing a shared goal, communication is a constant feature. This means people in a team will be transparent with one another, keeping clean lines of communication open, so that everyone can work together.
-          img: placeholder_icon.svg
-        -
-          title: Collaboration
-          text: |
-            A shared goal requires shared effort. If it was possible for one person to achieve it, there wouldn’t be a team! Achieving a shared goal means that people with different skill sets, talents, and specialisms collaborate. This encourages an environment where people help each other because they understand it isn’t possible for one person to do all the work. Teamwork is collaboration in practice.
-          img: placeholder_icon.svg
-        -
-          title: Problem solving
-          text: |
-            Achieving a shared goal means solving a problem. How do we get to the goal? What’s the best way to get it? What are the blockers? By embodying the collaborative spirit, along with good communication, teams are problem-solving machines. If everyone contributes their effort and knowledge, there are few problems the right team can’t solve.
-          img: placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Make a note of the differences between a team and a group. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
-  -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -182,8 +107,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please click on the following links where you can read more about team development stages and the difference between groups and teams.
+        Please click on the following link where you can read more about team development stages.
 
       links:
         Tuckman's model: https://www.thecoachingtoolscompany.com/get-your-team-performing-beautifully-with-this-powerful-group-development-model/
-        Groups vs teams: https://asana.com/resources/group-vs-team

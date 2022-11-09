@@ -1,9 +1,6 @@
 title: Understand the nature of teams
 intro: |
-  On this page you will learn about: 
-  * Explain how teams differ from groups in the workplace
-  * Describe the behavioural characteristics of an effective team
-  * Outline the stages of team development using a recognised model  
+  On this page you will learn how teams differ from groups in the workplace.
 banner: placeholder.jpg
 sections:
   -
@@ -23,6 +20,45 @@ sections:
       In a team, the individuals involved share a common goal that they are working together to achieve. This is a specific and clearly defined goal which requires joint effort and coordination to achieve. For example, a team might be a group of individuals with IT experience working to migrate their company from one suite of software to another. 
 
     img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: What’s the difference between teams and groups?
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      To help you understand, here are two examples each of teams and groups.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Team - Developing an app
+          text: |
+            Magic Co. is a gaming platform. They want to provide an app to give gamers who use their platform a more flexible experience by allowing them to play their games on the go. They gather a group of their best developers together with the shared aim of producing a new app. Because everyone has the same go – developing the app – this is an example of a team.
+          img: placeholder_icon.svg
+        -
+          title: Team - Kitchen staff
+          text: |
+            The staff in the kitchen at The Pickled Cucumber, a vegetarian restaurant, form a team as well. They’ve all got the same shared goal – preparing and delivering their customers’ orders correctly, to the right standard, and in good time. The key thing is that everyone in the team shares the same goal, whatever that goal is.
+          img: placeholder_icon.svg
+        -
+          title: Group - work social club 
+          text: |
+            Lots of workplaces recognise that people who work together will also want to get to know each other socially. This helps colleagues find out what they have in common and feel more relaxed with each other. A workplace social club, like a book club or a baking club, is an example of a group because everyone involved shares something in common, but they’re not working towards a shared goal.
+          img: placeholder_icon.svg
+        -
+          title: Group - support at work
+          text: |
+            In modern workplaces, diversity is recognised as very important. To be more inclusive, and to encourage wellbeing, workplaces often have support groups. Examples include LGBTQ+ groups and groups for people who belong to ethnic minorities. These are groups, rather than teams, because everyone involved has something in common but there isn’t a particular target or goal they’re trying to achieve.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the differences between a team and a group. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
   -
   -
     title: The benefits of teams
@@ -54,101 +90,19 @@ sections:
           img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      Make sure you can describe the behavioural characteristics of an effective team.
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Behaviours in an effective team
-      
-      This video is going talk about the behavioural characteristics of an effective team.
-    video: placeholder_pc.mp4
-  -
-  -
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
-    copy: |
-      Make sure you can describe the stages of team development using a recognised model.
-  -
-  -
-    title: Stages of team development
-    theme: t-bg-primary
-    copy: |
-      Every team is unique and will follow its own development path. And there are also more than one ways of modelling team development too. But there are general principles that apply to most teams, and you need to understand at least one model of team development.  
-      
-      We’ve used Tuckman’s Model for this example of the stages of team development.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Forming
-          text: |
-            In the initial stage of team development, the individuals in the team will need guidance from their leader. They’ll have a lot of questions about the team’s purpose, how they fit in with it, and what the expectations are for them. Some people are likely to feel nervous, so be aware of that and make sure you’re available to answer questions and reassure.  
-          img: placeholder_icon.svg
-        -
-          title: Storming
-          text: |
-            Once the team gets settled and its purpose becomes clear, conflicts may emerge. This may be partly because the plan has started to encounter reality (and things never go entirely to plan!) and because people’s personalities and ways of working are making themselves felt. It’s important that people are very clear on what their roles and responsibilities are, and that you make it clear that you have authority over the team too.  
-          img: placeholder_icon.svg
-        -
-          title: Norming
-          text: |
-            At this point, things have settled down and the team has found its groove. People are working together, differences are less important than similarities, and your authority is clear. Because everyone should be more comfortable with one another, it’s good to encourage asking for and giving out constructive feedback.  
-          img: placeholder_icon.svg
-        -
-          title: Performing
-          text: |
-            The team is now achieving its expected goals and has met its efficiency targets. The roles and responsibilities that were initially allocated may have altered somewhat by this stage, and team members will be happier working outside their comfort zone. 
-          img: placeholder_icon.svg
-  -
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: A Group is a collection of individuals who have individual goals. 
-          answer: Group
-        -
-          sentence: Communication, Collaboration, and problem solving are all benefits of teams. 
-          answer: Collaboration
-        -
-          sentence: Storming is the stage in team development where conflicts may start emerging. 
-          answer: Storming
-        -
-          sentence: Forming is the initial stage of team development. 
-          answer: Forming
-        -
-          sentence: Norming is the stage in team development where your team’s structure is more or less settled. 
-          answer: Norming
-        -
-          sentence: Performing is the stage in team development where your team is achieving its goals. 
-          answer: Performing
-    theme: i-quiz 
-  -
-  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        Make a note of the differences between a team and a group, the behavioural characteristics of an effective team, and the stages of team development. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right. 
-  -
+        Make a note of the benefits of teams over groups. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right.
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        Please click on the following links where you can read more about team development stages and the difference between groups and teams.
+        Please click on the following link where you can read more about the difference between groups and teams.
 
       links:
-        Tuckman's model: https://www.thecoachingtoolscompany.com/get-your-team-performing-beautifully-with-this-powerful-group-development-model/
         Groups vs teams: https://asana.com/resources/group-vs-team

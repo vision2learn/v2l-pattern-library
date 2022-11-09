@@ -1,6 +1,6 @@
 title: Understand the advantages of team working
 intro: |
-  In this session you will learn about the advantages and disadvantages of team working. 
+  In this session you will learn about the advantages and disadvantages of team working.
 banner: placeholder.jpg
 sections:
   -
@@ -16,6 +16,60 @@ sections:
     theme: t-bg-grey i-keypoint
     copy: |
       Make sure you can identify the responsibilities of team members.
+  -
+  -
+    title: Case study - Magic Co.
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### The App development team: Part one
+
+      Do you remember the App development team in Session 1? See below to learn more.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Initial issues
+          copy: |
+            They’re finding it surprisingly difficult to get the ball rolling with creating their app. They know they’ve got all the technical skills in the team that they need, but progress is much slower than it should be. 
+
+            More than once, people in the team have told other colleagues outside the team things like:
+            * “I never know who exactly to report to…”
+            * “I keep getting asked to do stuff that’s nothing to do with why I was brought into the team.”
+            * “I’ll be honest, when I need help, the manager doesn’t seem to know what to do.”
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "In the Magic Co. app development team, people understand their roles and responsibilities.":
+          answers:
+            True: false
+            False: true
+  -
+  -
+    title: Case study - Magic Co.
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### The App development team: Part two
+
+      The problem for the app development team is that they’ve not identified the key responsibilities of the team members. This means it’s not clear to everyone what they should be doing, who they should report to, or what support they’re expected to provide to colleagues.  
+
+      It can sometimes be tricky identifying responsibilities. These might not match peoples’ official titles.
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Solution
+          copy: |
+            In the case of Magic Co., they looked at each team members skillsets and their experience. They talked to the team members about how they like to work and what their work patterns were like. By doing this, they were able to identify who should be responsible for what parts of the development of the app. That included identifying people who should receive reports about progress, people who should communicate important decisions to the rest of the team, and people who should negotiate with other teams too. 
+
+            Taking the time to do this made the team more efficient and got them back on track.
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Team roles
@@ -77,14 +131,6 @@ sections:
       Team members taking on responsibilities reduces the amount of time you need to spend micro-managing your team. It allows you to focus on more important, strategic tasks. It also empowers team members, making them feel in control of their own work and encouraging them to think about their future career development.
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: P L A C E H O L D E R
-    theme: t-bg-supporting3
-    copy: |
-      
-      _Additional item here to show how belbin fit into a team - e.g. Video, Case study, T2T with a web link, or Drag and Drop activity?_
-
   -
   -
     title: On the web
