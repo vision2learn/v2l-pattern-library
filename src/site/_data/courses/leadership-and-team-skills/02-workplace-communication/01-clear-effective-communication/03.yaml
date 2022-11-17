@@ -1,0 +1,118 @@
+title: Communication and barriers
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 
+  -
+  -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      _Optional item depending on content_
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            
+            text
+
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to 
+  -
+  -
+    title: section
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      
+      Text
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: accordion with images
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title 1
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: title 2 
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: title 3
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._

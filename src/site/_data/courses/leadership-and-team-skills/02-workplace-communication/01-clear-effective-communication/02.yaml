@@ -1,0 +1,88 @@
+title: Clear and effective communication
+intro: |
+  On this page, you will learn why clear and effective communication is essential in the workplace.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can explain why clear and effective communication is essential in the workplace.
+  -
+    title: Clear and effective workplace communication
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      No matter the business or industry you're working in, without communication nothing gets done. If people in a team are going to work together to achieve their shared goals, they need to know what they're meant to be doing. Without clear and effective communication, that knowledge isn't being shared. This means that team members lose their direction, and the team loses its purpose. 
+
+      Clear and effective communication means: 
+
+      * Communication which is easy to understand and not confusing 
+      * Communication which gives the right information to the right people at the right time 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: accordion with images
+    theme: t-bg-supporting3
+    copy: |
+      text
+
+      See below to learn more about 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title 1
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: title 2 
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: title 3
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: slider
+    theme: t-bg-primary
+    copy: |
+      _Optional item depending on content_
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
