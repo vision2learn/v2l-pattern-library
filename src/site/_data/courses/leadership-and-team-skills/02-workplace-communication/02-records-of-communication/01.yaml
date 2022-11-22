@@ -20,26 +20,28 @@ sections:
     title: Reasons to keep records
     theme: t-bg-supporting3
     copy: |
-      
-    
-      Scroll through the slides below to learn more about ...
-
+      After an email has been sent or a conversation has been concluded, it's important that a record of the communication is kept. We're going to look at some reasons why. 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Double-checking instructions
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Reference for other people
           text: |
             text
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Legal reasons
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Proof of what was said
           text: |
             text
           img: placeholder_icon.svg
