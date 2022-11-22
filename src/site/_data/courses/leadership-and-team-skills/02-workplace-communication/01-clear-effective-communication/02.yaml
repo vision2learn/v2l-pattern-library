@@ -23,60 +23,83 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: accordion with images
+    title: How to communicate clearly and effectively
     theme: t-bg-supporting3
     copy: |
-      text
-
-      See below to learn more about 
+      Different forms of communication are suitable for different occasions. There's no one way that's better than all the others. What matters is that the communication is clear and effective.  
+      
+      Here's how you can achieve clear and effective communication in the main forms of communication. Remember that these different methods will often be combined in different ways. 
     subInc: 
       type: accordion
       content:
         - 
-          title: title 1
+          title: Written communication
           copy: |
-            text  
+            Written communication includes emails, handwritten memos, typed letters, digital messages, SMS messages, and much more besides. This digital course you're taking right now is an example of written communication too! 
+
+            Written communication needs to be precise, clear, and unambiguous. Make sure you're being explicit with what you want to communicate – don't leave it to interpretation. Review everything you write before you send it.  
+
+            When receiving written communication, make sure you take the time to read it carefully, so you don't miss anything.  
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: title 2 
+          title: Oral communication
           copy: |
-            text  
+            This includes face-to-face conversations, phone calls, video calls, and giving presentations. 
+
+            When speaking, make sure that you're speaking slowly and clearly. You don't want the other person to mishear you, so make sure you're being precise with your words. If you need to give someone a lot of information this way, take your time so you don't overwhelm them by speaking quickly. Make sure you use language and terminology they'll understand. 
+
+            Although all forms of communication involve a back-and-forth, this is especially true for oral communication. Make sure the other person has time to reply and ask you questions. Don't assume they've understood everything, especially if they look worried. Gently ask them if they want you to clarify, and listen carefully to what they say at all times.
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: title 3
+          title: Non-verbal communication
           copy: |
-            text  
+            Nonverbal means "without words". Typically, it's about body language and appearance. It's your facial expressions, your tone of voice, and what you're doing with your arms and legs. It's everything you're doing except writing or speaking. 
+
+            Try to be aware of things like posture and stance. It's important to appear confident and calm, but also be wary of appearing physically imposing or defensive. Try to be aware of your expressions too – sometimes when we're in a difficult conversation, it's easy to say a lot with just how our face looks. 
+
+            Nonverbal communication also includes things like clothes. Think about the environment you're in and who you're going to be speaking to when deciding what you're going to wear. What impression are you giving with your clothes? 
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Visual communication
+          copy: |
+            This is when images or video are used to communicate information. This is often used along with words or speech. For example, including graphs or animations in a presentation. 
+
+            The important thing is that the visual element of communication should complement the other elements. Sometimes people will include visual elements in communication which are distracting and don't enhance the message or contain any information on their own.
             
           img: /images/svg/placeholder_icon.svg
   -
   -
-    title: slider
+    title: What are the consequences of unclear, ineffective communication?
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Here are some of the potential results of bad communication. 
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Missed goals and wasted effort
           text: |
-            text
+            Because without communication, the right information isn't circulating, it's likely people in a team will miss the goals they're meant to achieve. This might be because they don't know how urgent a goal might be, or because they're working towards the wrong goal altogether, meaning effort and resources have been wasted.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Poor leadership
           text: |
-            text
+            If a team leader can't communicate clearly and effectively, they're not giving their team the direction they need. They're also damaging their credibility as a leader. If a team leader can't communicate properly, their team will feel like their leader doesn't care or can't be relied on.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Loss of morale
           text: |
-            text
+            If communication channels aren't working, members of a team will feel isolated, even if they're in the same physical space together. This means that, even if everyone knows what they're meant to be doing, they won't feel enthusiastic about their work. Productivity will be reduced, as will everyone's wellbeing.
+          img: placeholder_icon.svg
+        -
+          title: Lack of new ideas
+          text: |
+            Without communication, new ideas aren't going to be widely shared. You might have people in the team who have fantastic ideas that could fix important problems other people are facing, but they've got no idea the problems even exist because no one's told them. A lack of communication means a lack of information, and a lack of information means a lack of creativity and curiosity.
           img: placeholder_icon.svg
   -
   -
@@ -85,4 +108,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Make a note of why clear and effective communication is essential in the workplace. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box to the right.
