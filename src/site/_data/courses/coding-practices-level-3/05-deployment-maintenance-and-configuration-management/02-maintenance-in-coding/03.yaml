@@ -61,7 +61,7 @@ sections:
     copy: |
       ### What is change management? 
       
-      Change management in software development is a term used to describe the transition period of when an existing state of a software product moves into an improved state. So, this would describe the phase of when a software product is going from its existing version, e.g. 1.0, to the next deployed (live) version 2.0 where it would include the enhancements of the improved software. 
+      Change management in software development is a term used to describe the transition period of when an existing state for a software product moves into an improved state. This describes the phase for a software product going from its existing version, e.g. 1.0, to the next deployed (live) version, e.g. 2.0, where it includes the enhancements of the improved software. 
       
       Change management would manage changes to artefacts such as code, process, and documentation. Change could be for different reasons and from different sources such as a business reorganisation, changes to the market, technical reasons, fixes and bugs, Sales/marketing ideas, or budget restrictions. Change management tools can be used to manage the process and can also be used for project planning, creating flow charts, and data collection.
 

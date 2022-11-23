@@ -56,7 +56,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to identify tools used in coding.
+      In your assessment you will be required to explain the advantages and disadvantages of unit testing, and consider what would make a bad unit test.
   -
     title: Advantages and disadvantages of unit testing
     theme: t-bg-primary
@@ -90,7 +90,7 @@ sections:
           copy: |
             As you can see there are both advantages and disadvantages to unit testing but it is also important to ensure that the unit test is valid. There are a number of factors to consider when writing unit tests and some of the common mistakes that would result in a badly designed unit test are;
             * __Testing irrelevant things__: This is where a test is valid but it is not specific enough and tests more than one element. 
-            * __Testing multiple things in assertions__: Trying to make a test with more than one assertation may be required but this violates the single responsibility priniciple. Unless absolutely neccessary tests should be only testing one feature or function at a time.
+            * __Testing multiple things in assertions__: Trying to make a test with more than one assertion may be required but this violates the single responsibility priniciple. Unless absolutely neccessary, testing  should only be for one feature or function at a time.
             * __Test passes but the feature does not work__: This occurs when the test is testing another feature or function than the one intended.
             * __Test which depends on excessive setup__: The more things that have occur before the test starts creates complexity which can reduce the effectiveness of the test. 
     
