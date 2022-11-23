@@ -57,14 +57,11 @@ sections:
           sentence: Waterfall and Kanban are easy to use and learn, and very little training is needed.
           answer: easy to use and learn
         -
-          sentence: Scrum and Kanban methodologies are lean, visual and have low costs.
-          answer: have low costs
-        -
           sentence: The Waterfall methodology is structured, fixed and inflexible.
           answer: fixed and inflexible
         -
-          sentence: Agile and Scrum methodologies are collaborative and have an interative process.
-          answer: interative process
+          sentence: Agile and Scrum methodologies are collaborative and have an iterative process.
+          answer: iterative process
         -
           sentence: The Waterfall methodology is sequential and has advanced requirements.
           answer: sequential
