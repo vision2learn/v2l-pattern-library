@@ -1,0 +1,16 @@
+<Course id="999" name="Demo">
+  <Units>
+    <Unit number="1" title="Unit 1 of 2: Unit one">
+      <Sessions>
+        <Session number="1" title="Session 1 of 2: Session one" pages="5" />
+        <Session number="2" title="Session 2 of 2: Session two" pages="2" />
+      </Sessions>
+    </Unit>
+    <Unit number="2" title="Unit 2 of 2: Unit two">
+      <Sessions>
+        <Session number="1" title="Session 1 of 2: Session one" pages="3" />
+        <Session number="2" title="Session 2 of 2: Session two" pages="5" />
+      </Sessions>
+    </Unit>
+  </Units>
+</Course>

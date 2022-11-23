@@ -1,0 +1,402 @@
+/* Base styles for elements */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+
+  &:focus {
+    top: 10px;
+    left: 10px;
+    background: white;
+    display: block;
+    width: auto;
+    height: auto;
+    clip: auto;
+    padding: .5em;
+  }
+}
+
+.skip-link {
+  background-color: var(--secondary1blue);
+}
+
+[hidden] {
+  display: none;
+}
+
+:focus,
+%focus {
+  outline: solid 2px $highlight;
+  outline: solid 2px var(--highlight);
+  outline-offset: -2px;
+}
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border: 0;
+  border-style: none;
+  padding: 0;
+}
+
+/* Reset the box model and zero margins... */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;  /* TODO: Zeroing all margins could be too destructive? */
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  // background-color: $secondary1;
+  // background-color: --var(secondary1);
+  background-color: #fff;
+  border-left: solid 1px rgba(255,255,255,.6);
+  border-right: solid 1px rgba(255,255,255,.6);
+  color: $secondary1; // TODO: This can't be right!
+  color: var(--secondary1blue);
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 75rem; // 1200px
+
+  @supports(display: grid) {
+    border: none;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  line-height: $flow;
+
+  &.component {
+    margin-top: 0;
+  }
+}
+
+// For IE
+main,
+details {
+  display: block;
+}
+
+main > section {
+  background-color: #fff;
+}
+
+summary {
+  display: list-item;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+/* Text */
+h1 {
+  font-size: 2em; /* Override smaller h1 sizes when embedded in certain sectioning content */
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+}
+
+a {
+  color: $primary1;
+
+  &[target="_blank"]:not([class]),
+  &[href$=".pdf"]:not([class]) {
+    display: inline-flex;
+    align-items: center;
+
+    &::after {
+      content: "Link opens in a new tab or window";
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    > svg {
+      width: 1em;
+      height: 1em;
+      margin-left: .5em;
+    }
+  }
+}
+
+p a {
+
+  color: currentColor;
+
+  &:focus {
+    background-color: var(--highlight);
+    outline: none;
+  }
+
+  text-decoration-skip-ink: auto;
+}
+
+q,
+blockquote {
+  font-size: 1.5em;
+  quotes: "“" "”" "‘" "’";
+
+  & :first-child::before {
+    content: open-quote;
+    // float: left;
+  }
+
+  & :last-child::after {
+    content: close-quote;
+  }
+
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 2.5rem; /* 40px */
+}
+
+// [class*="c-"] *:not(select) {
+//   padding: 0;
+// }
+
+nav {
+  > ul,
+  > ol {
+    padding: 0;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+}
+
+
+// Don't follow the flow system if the element is part of a component.
+// All components have classes prefixed with "c-"
+// [class*="c-"],
+// TODO: Flow system isn't working really
+// [class*="c-"] > *:not(p) {
+//   margin: 0;
+// }
+
+// Taken from https://www.filamentgroup.com/lab/select-css.html
+select {
+  display: block;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #444;
+  line-height: 1.3;
+  padding: .2em 1.4em .2em .8em;
+  width: 100%;
+  max-width: 100%; 
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+  border-radius: .5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%;
+
+  &::-ms-expand {
+    display: none;
+  }
+
+  &:hover {
+    border-color: #888;
+  }
+
+  &:focus {
+    border-color: $highlight;
+    border-color: var(--highlight);
+    box-shadow: 0 0 1px 3px var(--highlight);
+    color: #222; 
+    outline: none;
+  }
+  
+  & option {
+    font-weight:normal;
+  }
+}
+
+button,
+[type="button"],
+[type="reset"],   
+[type="submit"],
+.button,
+[data-netlify-identity-button] {
+  -webkit-appearance: none;
+  background-color: $primary2;
+  background-color: var(--primary2);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: .5em 1em;
+  width: max-content;
+
+  &:active {
+    box-shadow: inset 0 0 10px 0 rgba(0,0,0,.6);
+  }
+
+  &::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+
+  &:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+
+  &[disabled] {
+    filter: opacity(.2);
+    cursor: not-allowed;
+  }
+}
+
+main * + blockquote,
+main * + figure {
+
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+
+  margin-top: calc(var(--flow) * 2rem);
+  margin-bottom: calc(var(--flow) * 2rem);
+}
+
+/* Media */
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  max-width: 100%;
+  justify-self: center;
+  object-fit: contain;
+  aspect-ratio: 16 / 9;
+
+  &[poster] {
+    background-color: black;//var(--primary1);
+    background-color: var(--secondary1);
+    // border: solid 1px var(--secondary1);
+    // border-radius: 5px;
+  }
+}
+
+
+/* Tables */
+// TODO: Wide tables on narrow screens!
+table {
+  // border: solid 1px currentColor;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tbody tr:nth-child(even) {
+  // background-color: rgb(218, 218, 218);
+  background-color: rgba(0,0,0,.2);
+}
+
+th,
+td {
+  border: solid 1px currentColor;
+  padding: .8em 1.5em;
+}
+
+thead th {
+  border-bottom-width: 3px;
+}
+
+/* Forms */
+label {
+  
+  // Makes labels act like block elements when they have <input> after and inline if label is after input
+  &::after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+input:not([type="color"]) {
+  font-size: 1rem;
+  padding: .5em;
+}
+
+svg {
+  fill: currentColor;
+  max-width: 300px; // TODO: needed?
+  
+  .js & {
+    max-width: unset;
+  }
+}
+
+// Lists
+
+dl:not([class]) {
+  dt,
+  dd {
+    display: inline;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin: 0;
+  
+    & + dt::before {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
+
+// ******************************************************** //
+
+.page-title {
+  &::before {
+    @extend .visually-hidden;
+    content: "Page ";
+  }
+}
+ 
+.breadcrumb {
+  font-size: .8em;
+
+  &__node {
+    &::after {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}

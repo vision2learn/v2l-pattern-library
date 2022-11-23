@@ -1,0 +1,26 @@
+<Course id="NO COURSE ID PROVIDED" name="Lean Management">
+  <Units>
+    <Unit number="1" title="Unit 1 of 3: Lean organisation techniques in business">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: A lean environment" pages="6" />
+        <Session number="2" title="Session 2 of 3: The productivity needs analysis process" pages="4" />
+        <Session number="3" title="Session 3 of 3: Producing a process map" pages="5" />
+      </Sessions>
+    </Unit>
+    <Unit number="2" title="Unit 2 of 3: Business improvement tools and techniques">
+      <Sessions>
+        <Session number="1" title="Session 1 of 4: Continuous improvement techniques" pages="5" />
+        <Session number="2" title="Session 2 of 4: Principles and techniques of workplace organisation" pages="5" />
+        <Session number="3" title="Session 3 of 4: Use visual indicators to improve the work environment" pages="5" />
+        <Session number="4" title="Session 4 of 4: Eliminate variance from processes in the workplace" pages="5" />
+      </Sessions>
+    </Unit>
+    <Unit number="3" title="Unit 3 of 3: Working in business teams">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Making an effective team" pages="6" />
+        <Session number="2" title="Session 2 of 3: Working effectively in a team" pages="5" />
+        <Session number="3" title="Session 3 of 3: The role of team leader" pages="4" />
+      </Sessions>
+    </Unit>
+  </Units>
+</Course>

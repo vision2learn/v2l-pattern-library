@@ -1,0 +1,43 @@
+<Course id="NO COURSE ID PROVIDED" name="Coding Practices Level 3">
+  <Units>
+    <Unit number="1" title="Unit 1 of 5: Coding requirements and planning">
+      <Sessions>
+        <Session number="1" title="Session 1 of 4: Software methodologies in project management" pages="6" />
+        <Session number="2" title="Session 2 of 4: Capture and documentation of requirements" pages="3" />
+        <Session number="3" title="Session 3 of 4: Risk management" pages="3" />
+        <Session number="4" title="Session 4 of 4: Teamwork contribution to effective delivery of software" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="2" title="Unit 2 of 5: Coding design">
+      <Sessions>
+        <Session number="1" title="Session 1 of 6: Coding standards" pages="4" />
+        <Session number="2" title="Session 2 of 6: Coding principles and practices" pages="3" />
+        <Session number="3" title="Session 3 of 6: Coding reviews" pages="4" />
+        <Session number="4" title="Session 4 of 6: Databases" pages="4" />
+        <Session number="5" title="Session 5 of 6: Principles of interface design" pages="4" />
+        <Session number="6" title="Session 6 of 6: Importance of security by design" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="3" title="Unit 3 of 5: Implementation of coding">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Tools used in coding" pages="4" />
+        <Session number="2" title="Session 2 of 3: Key concepts of coding" pages="5" />
+        <Session number="3" title="Session 3 of 3: Debug and write code" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="4" title="Unit 4 of 5: Software testing">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Testing" pages="4" />
+        <Session number="2" title="Session 2 of 3: Test driven development" pages="4" />
+        <Session number="3" title="Session 3 of 3: Identify and fix a bug" pages="2" />
+      </Sessions>
+    </Unit>
+    <Unit number="5" title="Unit 5 of 5: Deployment maintenance and configuration management">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Deployment" pages="5" />
+        <Session number="2" title="Session 2 of 3: Maintenance in coding" pages="4" />
+        <Session number="3" title="Session 3 of 3: Configuration management and version control" pages="3" />
+      </Sessions>
+    </Unit>
+  </Units>
+</Course>

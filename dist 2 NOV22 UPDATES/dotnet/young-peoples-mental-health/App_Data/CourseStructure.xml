@@ -1,0 +1,40 @@
+<Course id="NO COURSE ID PROVIDED" name="Young Peoples Mental Health">
+  <Units>
+    <Unit number="1" title="Unit 1 of 5: Understand children and young peoples mental health in context">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understanding the concept of mental health" pages="5" />
+        <Session number="2" title="Session 2 of 3: Legislation and guidance" pages="4" />
+        <Session number="3" title="Session 3 of 3: Society's view of mental health" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="2" title="Unit 2 of 5: Understand factors which may affect children and young peoples mental health">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understand risk factors" pages="4" />
+        <Session number="2" title="Session 2 of 3: Understand the effects of puberty and developmental changes" pages="2" />
+        <Session number="3" title="Session 3 of 3: Understand the effects of bullying or abuse" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="3" title="Unit 3 of 5: Understand children and young peoples mental health concerns">
+      <Sessions>
+        <Session number="1" title="Session 1 of 4: Mental health concerns and behaviour" pages="5" />
+        <Session number="2" title="Session 2 of 4: Stress and anxiety" pages="3" />
+        <Session number="3" title="Session 3 of 4: Depression" pages="3" />
+        <Session number="4" title="Session 4 of 4: Specific mental health conditions" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="4" title="Unit 4 of 5: Understand the impact of children and young peoples mental health concerns">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: The impact of mental health concerns" pages="4" />
+        <Session number="2" title="Session 2 of 3: The impact on others" pages="4" />
+        <Session number="3" title="Session 3 of 3: The importance of diagnosis" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="5" title="Unit 5 of 5: Understand how to support children and young people with mental health concerns">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Person centre approaches to support" pages="4" />
+        <Session number="2" title="Session 2 of 3: How to promote mental well being" pages="3" />
+        <Session number="3" title="Session 3 of 3: Understand services and treatment involved" pages="4" />
+      </Sessions>
+    </Unit>
+  </Units>
+</Course>

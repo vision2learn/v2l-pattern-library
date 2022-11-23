@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vision&amp;#x200B;2&amp;#x200B;learn Prototype Environment</title>
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/webcomponents-loader.js"></script>
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.2.10/custom-elements-es5-adapter.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/themes/prism-xonokai.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23bd10e0'></rect><path d='M46.44 78.40L25.24 78.40L25.24 21.60L46.44 21.60Q55.80 21.60 62.08 25.40Q68.36 29.20 71.56 35.64Q74.76 42.08 74.76 49.92L74.76 49.92Q74.76 58.56 71.24 64.96Q67.72 71.36 61.36 74.88Q55 78.40 46.44 78.40L46.44 78.40ZM61.40 49.92L61.40 49.92Q61.40 44.96 59.64 41.16Q57.88 37.36 54.52 35.24Q51.16 33.12 46.44 33.12L46.44 33.12L38.36 33.12L38.36 66.88L46.44 66.88Q51.24 66.88 54.56 64.68Q57.88 62.48 59.64 58.60Q61.40 54.72 61.40 49.92Z' fill='%23fff'></path></svg>" />
+</head>
+
+<body class="" data-v2l-env="dotnet" data-v2l-theme="coding">
+  <div class="l-wrapper" >
+    <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+<header class="c-main-head">
+  <div class="l-head l-head--lite">
+    <a href="/" class="v2l-logo" aria-label="Vision 2 Learn">
+      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="394 181 182 26"><g fill="#FFF"><path d="M401.3 204.8l-7.3-16.2h2.4l6 14 6.1-14h2.3l-7.4 16.2h-2.1zM413.2 185.3v-2.4h2.1v2.5h-2.1v-.1zm0 19.5v-16.2h2.1v16.2h-2.1zM418.5 199.7h2.1c.1 1.2.7 2.1 1.6 2.7.9.6 2.2.9 4 .9 1.8 0 3.2-.3 4.2-.8s1.4-1.2 1.4-2.2c0-.7-.2-1.2-.7-1.6-.5-.4-1.2-.6-2.3-.8l-4.7-.7c-1.8-.3-3.2-.7-4-1.4-.8-.7-1.2-1.7-1.2-3 0-1.4.6-2.6 1.9-3.5 1.3-.8 3.1-1.3 5.3-1.3 2.2 0 4.1.5 5.3 1.4 1.2.9 1.9 2.2 1.9 3.9h-2.1c-.2-1.1-.7-1.9-1.6-2.4s-2-.8-3.7-.8c-1.5 0-2.6.2-3.5.7-.8.5-1.2 1.1-1.2 1.9 0 .7.3 1.2.8 1.6.5.4 1.5.7 3 .9l4.2.6c1.8.3 3.1.7 3.9 1.4.8.7 1.2 1.6 1.2 3 0 1.7-.7 3.1-2 3.9-1.3.8-3.4 1.3-6 1.3-2.2 0-4.1-.5-5.4-1.5-1.4-1-2.2-2.3-2.4-4.2zM437.3 185.3v-2.4h2.1v2.5h-2.1v-.1zm0 19.5v-16.2h2.1v16.2h-2.1zM443.1 196.8c0-2.5.8-4.7 2.3-6.3 1.5-1.6 3.7-2.4 6.3-2.4 2.5 0 4.7.8 6.3 2.4 1.6 1.6 2.4 3.7 2.4 6.3 0 2.5-.8 4.7-2.4 6.3-1.6 1.6-3.7 2.4-6.3 2.4-2.5 0-4.7-.8-6.3-2.4-1.6-1.6-2.3-3.8-2.3-6.3zm2.2 0c0 2 .6 3.7 1.7 4.8 1.1 1.1 2.7 1.8 4.7 1.8s3.6-.6 4.7-1.8 1.7-2.8 1.7-4.8-.6-3.6-1.7-4.8c-1.2-1.2-2.7-1.8-4.7-1.8s-3.6.6-4.7 1.8c-1.1 1.1-1.7 2.7-1.7 4.8zM463.9 204.8v-16.2h2v3c.8-1.1 1.7-1.9 2.8-2.4 1.1-.5 2.4-.8 3.9-.8 2.1 0 3.7.5 4.7 1.4 1 .9 1.5 2.5 1.5 4.6v10.5h-2.1v-9.1c0-2-.3-3.5-1-4.3-.7-.8-1.7-1.2-3.4-1.2-1.8 0-3.4.5-4.6 1.5-1.2 1-1.8 2.3-1.8 3.9v9.3h-2v-.2zM481.9 204.8v-.3-.3c0-1.5.5-3 1.4-4.3s2.4-2.7 4.6-4.3c.5-.4 1.3-.9 2.2-1.5 2.3-1.5 3.5-2.7 3.5-3.9 0-.8-.2-1.5-.7-2-.5-.5-1.1-.7-1.9-.7-1 0-1.7.3-2.2.9s-.7 1.6-.7 3v.4h-5.7v-.3-.3c0-2.6.8-4.7 2.4-6.2 1.6-1.5 3.8-2.2 6.6-2.2 2.5 0 4.7.6 6.2 1.9 1.5 1.3 2.3 3 2.3 5 0 1.3-.3 2.5-.9 3.5-.6.9-1.8 1.9-3.7 3.1-.2.1-.6.3-1 .6-1.7 1-3.2 1.9-4.1 2.7h9.6v5.3h-17.9v-.1zM503.6 204.8v-22h2.1v22.1h-2.1v-.1zM525.8 199.7c-.4 1.7-1.3 3.2-2.7 4.2-1.4 1-3.2 1.5-5.2 1.5-2.5 0-4.7-.8-6.3-2.3-1.6-1.5-2.3-3.7-2.3-6.3 0-2.5.8-4.7 2.3-6.3 1.5-1.6 3.7-2.4 6.3-2.4 2.5 0 4.7.8 6.2 2.3s2.3 3.7 2.3 6.3v.5h-15c.1 1.9.7 3.5 1.8 4.6 1.1 1.1 2.6 1.6 4.5 1.6 1.4 0 2.5-.3 3.6-.9s1.6-1.5 2-2.7h2.5zm-14.2-4.2h12.5c-.1-1.6-.7-3-1.8-3.9-1.1-.9-2.5-1.4-4.3-1.4-1.7 0-3.3.5-4.4 1.4-1.1.9-1.8 2.2-2 3.9zM546.4 202.8v1.8c-.3.1-.6.2-.9.2s-.6.1-.8.1c-.7 0-1.2-.2-1.5-.6-.3-.4-.5-1-.6-2-.9 1-1.8 1.7-3 2.2-1.1.5-2.4.7-4 .7-1.9 0-3.5-.4-4.6-1.2-1.1-.8-1.6-2-1.6-3.6 0-.7.1-1.3.4-1.9s.7-1.1 1.3-1.5c.4-.3 1-.6 1.8-.8.8-.2 2-.4 4-.7.4 0 .9-.1 1.6-.2 2.6-.3 4-1.1 4-2.3 0-.9-.4-1.5-1.1-2s-1.8-.7-3.4-.7c-1.8 0-3.3.3-4.2.9-.9.6-1.5 1.5-1.5 2.8h-2.1c.1-1.9.8-3.4 2-4.3 1.2-.9 3.2-1.4 5.5-1.4 1.5 0 2.7.2 3.8.5 1 .3 1.7.8 2.2 1.5.3.4.6.9.7 1.4.1.5.2 1.3.2 2.5v7.2c0 .7.1 1.1.2 1.3.1.2.4.3.7.3h.4c.2.1.4-.1.5-.2zm-3.9-6.7c-.4.2-1 .4-1.7.6-.7.2-2 .4-3.9.7-2.3.4-3.8.8-4.5 1.2-.7.4-.9 1-.9 1.9 0 .9.4 1.5 1.1 2.1.7.6 1.7.8 3.1.8 2 0 3.7-.5 4.9-1.4 1.2-.9 1.8-2.1 1.8-3.7V196h.1zM551.9 204.8h-2.1v-16.2h2.1v2.6c.5-1 1.1-1.8 2-2.4.9-.6 1.8-.8 2.8-.8.3 0 .7 0 1 .1.3.1.7.2 1.1.3v2c-.4-.1-.7-.2-1-.2-.3 0-.6-.1-.9-.1-1.2 0-2.3.3-3.2 1-.8.7-1.5 1.7-1.9 3.1l.1 10.6zM561 204.8v-16.2h2v3c.8-1.1 1.7-1.9 2.8-2.4 1.1-.5 2.4-.8 3.9-.8 2.1 0 3.7.5 4.7 1.4s1.5 2.5 1.5 4.6v10.5h-2.1v-9.1c0-2-.3-3.5-1-4.3-.7-.8-1.8-1.2-3.5-1.2-1.8 0-3.4.5-4.6 1.5-1.2 1-1.8 2.3-1.8 3.9v9.3H561v-.2z"/></g></svg>
+    </a>
+    <p class="c-main-head__details">
+      <span class="c-main-head__course">understanding coding</span>
+    </p>
+  </div>
+</header>
+
+<main id="main" data-v2l-tags="coding" data-v2l-course="understanding-coding" data-v2l-level="2" data-v2l-unit="" data-v2l-session="" data-v2l-page="">
+  <section>
+    <h1>Glossary</h1>
+    <p>
+      <a href="~/1/1/2">Back to Learning Goals</a>
+    </p>
+    <dl class="l-glossary">
+    
+      <dt>Abstraction</dt>
+      <dd>
+        <p>The process of hiding non-essential data from users for clarity and security. The term is used to refer to classes and methods.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Agile</dt>
+      <dd>
+        <p>An approach to project management which is outlined in the Agile Manifesto. Team members work primarily independently and progress in increments towards the end goal, reporting their progress in regular meetings called Scrums.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        <p>Also in: <a href="~/5/2/2">Unit 5 Session 2 Page 2</a> <a href="~/5/4/1"> Unit 5 Session 4 Page 1</a> </p>
+        <p>Best definition: <a href="~/5/4/1">Unit 5 Session 4 Page 1</a> </p>
+      </dd>
+    
+      <dt>Algorithm</dt>
+      <dd>
+        <p>A sequential set of logical or mathematical problems which, if followed, result in the solution to a problem.</p>
+        <p>First seen: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        <p>Also in: <a href="~/2/2/5">Unit 2 Session 2 Page 5</a> </p>
+        <p>Best definition: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+      </dd>
+    
+      <dt>Attributes</dt>
+      <dd>
+        <p>The data which characterise a class or a class instance in object-oriented programming.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Backend</dt>
+      <dd>
+        <p>The part of a program or website that the user does not see. In contrast to frontend, which is what the users do see, and consists of the User Interface (UI).</p>
+        <p>First seen: <a href="~/1/2/2">Unit 1 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Binary</dt>
+      <dd>
+        <p>A number system which only has two units, ‘0’ and ‘1’. Forms the basis of most aspects of modern computing.</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Black box testing</dt>
+      <dd>
+        <p>A type of testing whereby software is tested by somebody who has no prior knowledge of the internal workings.</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Boolean</dt>
+      <dd>
+        <p>A data type with two possible values (true or false).</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Byte code</dt>
+      <dd>
+        <p>Program code that has been converted from source code to low-level code designed for a software interpreter.</p>
+        <p>First seen: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Caching</dt>
+      <dd>
+        <p>A data storage layer which is used to improve accessibility and speed of a program, typically stored in the Random-Access Memory (RAM).</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Central Processing Unit (CPU)</dt>
+      <dd>
+        <p>The primary component of a computer which takes care of all of the basic central and system-related processes, generally made up of a number of processing cores.</p>
+        <p>First seen: <a href="~/2/1/2">Unit 2 Session 1 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Character</dt>
+      <dd>
+        <p>A data type which holds a single character (such as a number, letter, symbol, or punctuation mark, etc).</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Class</dt>
+      <dd>
+        <p>A definitive data structure of object-oriented programming (OOP) which holds a template for data or behaviours that may be used more than once in a program.</p>
+        <p>First seen: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        <p>Also in: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Closed source</dt>
+      <dd>
+        <p>Software where source code is encrypted by the author so that third parties cannot copy, edit, or delete sections. Also known as proprietary software.</p>
+        <p>First seen: <a href="~/2/3/2">Unit 2 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Collection</dt>
+      <dd>
+        <p>A data structure used for storing sets of data which may be of a different type, but are related in content.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Comment</dt>
+      <dd>
+        <p>A section in the code which is ignored by the compiler or interpreter. Mostly used for annotations to explain the code which human users can understand.</p>
+        <p>First seen: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        <p>Best definition: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+      </dd>
+    
+      <dt>Compilation error</dt>
+      <dd>
+        <p>The occurrence of an error when building the machine code for a program.</p>
+        <p>First seen: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Compiler</dt>
+      <dd>
+        <p>A program which reads source code, then generates a separate program called an executable program from it.</p>
+        <p>First seen: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> <a href="~/3/2/1"> Unit 3 Session 2 Page 1</a> </p>
+        <p>Best definition: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+      </dd>
+    
+      <dt>Conditional statement</dt>
+      <dd>
+        <p>A statement such as an ‘if/else’ statement which assesses a specific condition (e.g., the value held by a variable), and then acts according to this.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        <p>Also in: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        <p>Best definition: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+      </dd>
+    
+      <dt>Console</dt>
+      <dd>
+        <p>A text-based terminal through which a human can interact with a system or program through key presses.</p>
+        <p>First seen: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        <p>Best definition: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+      </dd>
+    
+      <dt>Constant</dt>
+      <dd>
+        <p>A value in a program which cannot be changed.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Continuous delivery (CD)</dt>
+      <dd>
+        <p>A DevOps process whereby all changes to code are automatically deployed to the testing or programming environment following the build stage.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Continuous deployment (CD)</dt>
+      <dd>
+        <p>A DevOps process whereby all completed stages of the production pipeline can be passed directly to the customer.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Continuous development (CD)</dt>
+      <dd>
+        <p>A stage of DevOps where the planning and coding of the software is done.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Continuous integration (CI)</dt>
+      <dd>
+        <p>A DevOps process whereby changes are merged to the main branch as often as possible with an emphasis on testing automation.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Continuous monitoring</dt>
+      <dd>
+        <p>A stage which occurs at the end of the DevOps lifecycle whereby development and quality assurance teams are given feedback by end users so that they can quickly fix issues after a product is released.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Continuous testing</dt>
+      <dd>
+        <p>A DevOps process which focuses on on-going automated testing of software during development.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Control flow</dt>
+      <dd>
+        <p>The order in which a computer executes statements in a script, including statements like conditionals and loops.</p>
+        <p>First seen: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        <p>Also in: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        <p>Best definition: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+      </dd>
+    
+      <dt>Control flow graph (CFG)</dt>
+      <dd>
+        <p>A flow-chart type graph used to represent the control flow in executions of programs or applications.</p>
+        <p>First seen: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Data</dt>
+      <dd>
+        <p>Information that is processed or stored by a computer, represented in its lowest-level form in binary.</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Declaration</dt>
+      <dd>
+        <p>The section of code which specifies where an entity (such as a variable, function, constant, or class) is assigned.</p>
+        <p>First seen: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Declarative programming</dt>
+      <dd>
+        <p>A programming paradigm which focuses on statements which specify what action must be performed, rather than the control flow or logic by which it should be achieved as in imperative programming.</p>
+        <p>First seen: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        <p>Also in: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+      </dd>
+    
+      <dt>Defensive programming</dt>
+      <dd>
+        <p>An approach to programming where the programmer anticipates potential problems that could be encountered and includes routines to deal with them which would ensure ongoing function of the program.</p>
+        <p>First seen: <a href="~/4/4/2">Unit 4 Session 4 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Dependency</dt>
+      <dd>
+        <p>A prerequisite for a program or piece of code to function properly. Commonly a dependency would refer to a library, a script, or a function.</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Deployment</dt>
+      <dd>
+        <p>A phase of the Software Development Life Cycle (SDLC) where the finished product is introduced into the target production environment, including all tests, creation of guides, and administration required for this.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Design document specification (DDS)</dt>
+      <dd>
+        <p>A document drawn up by the project manager along with the IT team during the Software Development Life Cycle (SDLC) which outlines roadmaps to project completion.</p>
+        <p>First seen: <a href="~/1/3/2">Unit 1 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>DevOps</dt>
+      <dd>
+        <p>A set of practices, tools, and philosophy that combines software development (Dev) and IT operations (Ops). Incorporates agile practices and continuous development.</p>
+        <p>First seen: <a href="~/4/1/2">Unit 4 Session 1 Page 2</a> </p>
+        <p>Also in: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        <p>Best definition: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+      </dd>
+    
+      <dt>Dictionary</dt>
+      <dd>
+        <p>A data structure in used many languages (including Python) which stores data values in key/value pairs.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>DRY</dt>
+      <dd>
+        <p>Acronym for ‘Don’t Repeat Yourself’. Refers to an approach to formatting code where sections of code which are repeated are generalised and inserted into functions to reduce unnecessary repetition of code. The opposite of WET.</p>
+        <p>First seen: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Element</dt>
+      <dd>
+        <p>One single entry of a data structure composed of a collection of data entries. For example, the first element in a list is the first entry in the list.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Event-driven programming</dt>
+      <dd>
+        <p>A programming paradigm where the control flow depends on the occurrence of events.</p>
+        <p>First seen: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Exception handling</dt>
+      <dd>
+        <p>A form of defensive programming whereby sections of code are written into programs to deal with all possible errors which could occur and either allow the program to continue running or deliver meaningful information to the user.</p>
+        <p>First seen: <a href="~/4/4/1">Unit 4 Session 4 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Executable file</dt>
+      <dd>
+        <p>A program compiled into a file which can be run when opened on a computer.</p>
+        <p>First seen: <a href="~/2/3/2">Unit 2 Session 3 Page 2</a> </p>
+        <p>Also in: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+        <p>Best definition: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+      </dd>
+    
+      <dt>Execute</dt>
+      <dd>
+        <p>The act of a computer reading and acting on instructions written into a program.</p>
+        <p>First seen: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Expression</dt>
+      <dd>
+        <p>A section of code which can be resolved to return a value.</p>
+        <p>First seen: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>First in First Out (FIFO)</dt>
+      <dd>
+        <p>A way of dealing with a data entity so that the FIRST element is the first to be processed.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Floating point number</dt>
+      <dd>
+        <p>A variable type consisting of a number which has a decimal point, usually to a fixed number of digits. Also known as a real number.</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Formal logic</dt>
+      <dd>
+        <p>The practice of deriving logical conclusions from premises that are known or assumed to be true.</p>
+        <p>First seen: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Frontend</dt>
+      <dd>
+        <p>The part of a program or website that the user does see, and interacts with, for example, the User Interface (UI). In contrast to backend, which is what the background working that the users do not see.</p>
+        <p>First seen: <a href="~/1/2/2">Unit 1 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Full Stack Developer</dt>
+      <dd>
+        <p>Somebody who works on the development of a program from backend to frontend, and the code that connects the two.</p>
+        <p>First seen: <a href="~/1/2/2">Unit 1 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Function</dt>
+      <dd>
+        <p>A section of code that can have input and output values which is packaged together and can be called by an alias as needed without having to reproduce all of the required code each time. Also known as ‘Procedures’ or ‘Methods’ depending on the language or context in which they are used.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        <p>Also in: <a href="~/2/2/2">Unit 2 Session 2 Page 2</a> <a href="~/2/2/4"> Unit 2 Session 2 Page 4</a> <a href="~/2/2/5"> Unit 2 Session 2 Page 5</a> <a href="~/2/3/1"> Unit 2 Session 3 Page 1</a> <a href="~/3/1/3"> Unit 3 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/2/2/2">Unit 2 Session 2 Page 2</a> </p>
+      </dd>
+    
+      <dt>Functional Programming</dt>
+      <dd>
+        <p>A declarative programming paradigm which uses expressions rather than statements whereby functions are used to evaluate expressions, rather than focussing on the execution of commands.</p>
+        <p>First seen: <a href="~/1/1/4">Unit 1 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> <a href="~/3/1/3"> Unit 3 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Functional testing</dt>
+      <dd>
+        <p>Software testing that validates the software system against the functional requirements/specifications. For example, unit testing.</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Generalisability</dt>
+      <dd>
+        <p>An approach to writing classes or functions which make them more generally applicable (in contrast to more specialised) in order to avoid a situation where, for example, several similar specialised functions exist which could be replaced by one more general function.</p>
+        <p>First seen: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Global variable</dt>
+      <dd>
+        <p>A variable which is held in memory OUTSIDE of a function.</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>High-level</dt>
+      <dd>
+        <p>A programming language which is closer to human spoken language, in contrast to low-level machine code which is what high-level languages are converted to in order to be read by the Central Processing Unit (CPU).</p>
+        <p>First seen: <a href="~/1/1/3">Unit 1 Session 1 Page 3</a> </p>
+        <p>Also in: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        <p>Best definition: <a href="~/1/1/3">Unit 1 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Imperative programming</dt>
+      <dd>
+        <p>A programming paradigm that focuses on the control flow and logic that the computer must undertake in order to run a program, rather than on statements which specify what it must accomplish as in declarative programming.</p>
+        <p>First seen: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Impure function</dt>
+      <dd>
+        <p>A function that violates the criteria for a pure function. For example, changing a variable which is being held in the memory OUTSIDE of a function call which is not one of the output variables.</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Index</dt>
+      <dd>
+        <p>The address of elements of a data entity. For example, in a 0-based list, the index of the first element would be ‘0’.</p>
+        <p>First seen: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Instance</dt>
+      <dd>
+        <p>One occurrence of a class or object. For example, a program may have one class named Car, but several instances could be created to characterize different types of cars, such as Ford, BMW, VW.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Integer</dt>
+      <dd>
+        <p>A data type which consists of a whole number, which can be positive, negative, or 0.</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        <p>Also in: <a href="~/2/2/5">Unit 2 Session 2 Page 5</a> </p>
+        <p>Best definition: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Integration testing</dt>
+      <dd>
+        <p>A form of functional testing which refers to the testing of a system as a whole when new units are added (e.g., interactions of units).</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Interpreter</dt>
+      <dd>
+        <p>An intermediate program which converts source code into machine code as a program is run in order to execute the program.</p>
+        <p>First seen: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Iteration</dt>
+      <dd>
+        <p>The process of repeating sequential steps or instructions. Each repetition of the process is a single iteration.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        <p>Also in: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> <a href="~/2/2/5"> Unit 2 Session 2 Page 5</a> </p>
+        <p>Best definition: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+      </dd>
+    
+      <dt>Keep It Simple, Stupid (KISS)</dt>
+      <dd>
+        <p>A coding design principle which states that programs and systems should be kept as simple as possible.</p>
+        <p>First seen: <a href="~/4/1/2">Unit 4 Session 1 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Lean project management</dt>
+      <dd>
+        <p>An approach to project management based on the Agile framework which aims to achieve continuous improvement whilst being flexible and willing to change as needed. Can be broken down into three main stepSession 1 . Deliver quickly, 2. Test, 3. Reiterate.</p>
+        <p>First seen: <a href="~/5/3/2">Unit 5 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Last in First Out (LIFO)</dt>
+      <dd>
+        <p>A way of dealing with a data entity so that the LAST element is the first to be processed.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Linear list</dt>
+      <dd>
+        <p>Usually referred to simply as a ‘list’, a data structure which is composed of a sequence of data objects of a certain type which are stored in a linear sequence.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Linked list</dt>
+      <dd>
+        <p>A sequence of data objects which are linked contiguously.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>List</dt>
+      <dd>
+        <p>A data structure which is composed of a sequence of data objects of a certain type which are stored in a linear sequence.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        <p>Also in: <a href="~/2/2/5">Unit 2 Session 2 Page 5</a> </p>
+        <p>Best definition: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+      </dd>
+    
+      <dt>Local variable</dt>
+      <dd>
+        <p>A variable that is only held in memory INSIDE of a function.</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Logic error</dt>
+      <dd>
+        <p>An error which occurs when no error message is created, but the functionality is not what the programmer intended. Also known as semantic error.</p>
+        <p>First seen: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Loop</dt>
+      <dd>
+        <p>A type of iteration whereby the same sequence of steps are repeated until a specified end point.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        <p>Also in: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        <p>Best definition: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+      </dd>
+    
+      <dt>Low-level</dt>
+      <dd>
+        <p>A programming language which is closer to machine code, which is what is read by the Central Processing Unit (CPU), n contrast to high-level programming language which is closer to human spoken language.</p>
+        <p>First seen: <a href="~/1/1/3">Unit 1 Session 1 Page 3</a> </p>
+        <p>Also in: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        <p>Best definition: <a href="~/1/1/3">Unit 1 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Machine code</dt>
+      <dd>
+        <p>Binary code (1&#39;s and 0&#39;s) that can be executed directly by the CPU. Not edited directly by the programmer. The source code of a program must be translated to machine code to control the hardware.</p>
+        <p>First seen: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Maintenance testing</dt>
+      <dd>
+        <p>Testing which is performed on software once it has been deployed in order to enhanced, change, or migrate the software to other hardware.</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Markup language</dt>
+      <dd>
+        <p>A computer language that uses tags to define elements within a document to specify content and visual settings. Most commonly used are HTML and CSS.</p>
+        <p>First seen: <a href="~/1/1/3">Unit 1 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Method</dt>
+      <dd>
+        <p>In object-oriented programming (OOP), a method refers to a section of code which specifies the behaviour of a class (for example, a function defined within a class).</p>
+        <p>First seen: <a href="~/2/2/2">Unit 2 Session 2 Page 2</a> </p>
+        <p>Also in: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> <a href="~/3/1/3"> Unit 3 Session 1 Page 3</a> <a href="~/4/1/3"> Unit 4 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Modularity</dt>
+      <dd>
+        <p>A fundamental concept in programming, which features prominently in object-oriented programming, whereby a program or system is composed of relatively independent components which are combined to create the whole. Aims to reduce the complexity of the system.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Multi-paradigm</dt>
+      <dd>
+        <p>A programming language that supports more than one programming paradigm.</p>
+        <p>First seen: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Object</dt>
+      <dd>
+        <p>A data type which is a feature of object-oriented programming (OOP) that can contain data (in this context often known as attributes or properties) and code in the form of procedures (often known as methods).</p>
+        <p>First seen: <a href="~/1/1/4">Unit 1 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> <a href="~/4/1/3"> Unit 4 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Object-oriented programming (OOP)</dt>
+      <dd>
+        <p>A programming paradigm which revolves heavily around the use of ‘objects’. In OOP, these objects are what change state, rather than in other programming paradigms, where operations might be performed which act on separate pools of data.</p>
+        <p>First seen: <a href="~/1/1/4">Unit 1 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> <a href="~/3/1/3"> Unit 3 Session 1 Page 3</a> <a href="~/4/1/3"> Unit 4 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Open source</dt>
+      <dd>
+        <p>Open source software (OSS) is software to which the source code software is publicly available, does not have licenses which restrict its use, and can often be edited by any contributor. Open source code is usually stored in a public repository and shared with the public.</p>
+        <p>First seen: <a href="~/2/3/2">Unit 2 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Operand</dt>
+      <dd>
+        <p>An object within code that is capable of being changed or manipulated in some way.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Operator</dt>
+      <dd>
+        <p>An object within code that affects that is capable of changing or manipulating operands.</p>
+        <p>First seen: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Parallel processing</dt>
+      <dd>
+        <p>A way of managing processing power whereby several cores of the Central Processing Unit (CPUs) handle separate parts of an overall task, rather than all being handled as one as in sequential programming. Breaking the task between multiple processors reduces the amount of time required to run a program.</p>
+        <p>First seen: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        <p>Also in: <a href="~/3/3/2">Unit 3 Session 3 Page 2</a> </p>
+        <p>Best definition: <a href="~/3/3/2">Unit 3 Session 3 Page 2</a> </p>
+      </dd>
+    
+      <dt>Parallelisation</dt>
+      <dd>
+        <p>A way to write code which enables parallel processing, rather than sequential processing.</p>
+        <p>First seen: <a href="~/3/3/2">Unit 3 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>PEP8</dt>
+      <dd>
+        <p>A widely adopted style guide for Python which advises on conventions regarding syntax, variable naming, etc., in order to keep code accessible.</p>
+        <p>First seen: <a href="~/4/1/2">Unit 4 Session 1 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Print statement</dt>
+      <dd>
+        <p>A simple operation whereby an output is printed to the console.</p>
+        <p>First seen: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Private</dt>
+      <dd>
+        <p>In Object-Oriented Programming (OOP), private members (such as methods/variables) of a class are only accessible from within the current class.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Procedural programming</dt>
+      <dd>
+        <p>A programming paradigm that is defined whereby the code directly instructs a computer on how to complete a task in logical steps. Uses a linear top-down approach and treats data and procedures as two separate entities, in contrast to Object-Oriented Programming (OOP), whereby both are incorporated into objects.</p>
+        <p>First seen: <a href="~/1/1/4">Unit 1 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> <a href="~/2/3/1"> Unit 2 Session 3 Page 1</a> <a href="~/3/1/3"> Unit 3 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>Procedure</dt>
+      <dd>
+        <p>An independent unit of code which accomplishes some specific task which is referenced within the broader context of a program. Also known as a function or a sub-routine.</p>
+        <p>First seen: <a href="~/2/2/2">Unit 2 Session 2 Page 2</a> </p>
+        <p>Also in: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        <p>Best definition: <a href="~/2/2/2">Unit 2 Session 2 Page 2</a> </p>
+      </dd>
+    
+      <dt>Product Owner</dt>
+      <dd>
+        <p>The primary point of contact on a scrum team who acts on behalf of the customer to identify the product requirements for the development team.</p>
+        <p>First seen: <a href="~/5/4/2">Unit 5 Session 4 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Programming language</dt>
+      <dd>
+        <p>A set of commands, instructions, and other syntax use to create a software program.</p>
+        <p>First seen: <a href="~/1/1/3">Unit 1 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Programming paradigm</dt>
+      <dd>
+        <p>A description of a way of writing code. Not all programming languages subscribe to a single paradigm.</p>
+        <p>First seen: <a href="~/1/1/4">Unit 1 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        <p>Best definition: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+      </dd>
+    
+      <dt>Property</dt>
+      <dd>
+        <p>In Object-Oriented Programming (OOP), a class member that provides a flexible mechanism to read, write, or compute the value of a private field.</p>
+        <p>First seen: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Proprietary Software</dt>
+      <dd>
+        <p>Software that legally remains the property of its creator, who owns all rights from intellectual property rights to the source code. Also referred to as ‘Closed source software’.</p>
+        <p>First seen: <a href="~/2/3/2">Unit 2 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Public</dt>
+      <dd>
+        <p>In Object-Oriented Programming (OOP), public members (such as methods/variables) of a class are accessible from outside of the current class.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Pure function</dt>
+      <dd>
+        <p>A function which fulfils the following criteria: 1. Always gives the same return value for a given input, 2. Does not change anything unrelated to the function (no side effects), 3. Does not modify any arguments which is passed to it.
+</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Queue</dt>
+      <dd>
+        <p>A data structure from which data is retrieved using the First in First Out (FIFO) principle.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Random-Access Memory (RAM)</dt>
+      <dd>
+        <p>Short term memory where data is stored for use as the processor needs it.</p>
+        <p>First seen: <a href="~/2/1/2">Unit 2 Session 1 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Real number</dt>
+      <dd>
+        <p>A variable type consisting of a number which has a decimal point, usually to a fixed number of digits. Also known as a floating point number.</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Recursion</dt>
+      <dd>
+        <p>In programming, refers to when an entity such as function calls itself.</p>
+        <p>First seen: <a href="~/2/2/5">Unit 2 Session 2 Page 5</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Regression testing</dt>
+      <dd>
+        <p>A type of maintenance testing to ensure that new changes made to previously tested software do not affect the existing functionality.</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Repository</dt>
+      <dd>
+        <p>In software development, a central file storage location which contains all elements such as code required for a program. Used by version control systems to store multiple versions of files, and can be public or private, and be accessed by a single or multiple users.</p>
+        <p>First seen: <a href="~/2/3/2">Unit 2 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Runtime error</dt>
+      <dd>
+        <p>An error which occurs when a program is run or executed caused by problems such as infinite loops, memory leaks, or corrupt files.</p>
+        <p>First seen: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Scope</dt>
+      <dd>
+        <p>Used in reference to the name of an entity in the code, such as a variable, and where in the code that name can be used. For example, a variable would be considered &#39;out of scope&#39; if it was called but was no longer held in the memory.</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Script</dt>
+      <dd>
+        <p>A list of commands in code that are executed by a certain program or compiler.</p>
+        <p>First seen: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Scrum</dt>
+      <dd>
+        <p>A framework within Agile workflow within which people work independently, but cooperatively in order to develop software.</p>
+        <p>First seen: <a href="~/5/2/2">Unit 5 Session 2 Page 2</a> </p>
+        <p>Also in: <a href="~/5/4/2">Unit 5 Session 4 Page 2</a> </p>
+        <p>Best definition: <a href="~/5/4/2">Unit 5 Session 4 Page 2</a> </p>
+      </dd>
+    
+      <dt>Scrum Master</dt>
+      <dd>
+        <p>The member of an Agile team who is responsible for the coordination side of the process, such as organising and running sprint meetings.</p>
+        <p>First seen: <a href="~/5/4/2">Unit 5 Session 4 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Semantic error</dt>
+      <dd>
+        <p>An error which occurs when no error message is created, but the functionality is not what the programmer intended. Also known as a logic error.</p>
+        <p>First seen: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+        <p>Also in: <a href="~/4/4/1">Unit 4 Session 4 Page 1</a> </p>
+        <p>Best definition: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+      </dd>
+    
+      <dt>Separation of Concerns (SoC)</dt>
+      <dd>
+        <p>A principle for separating a computer program into distinct sections which each address a separate concern or set of information that affects the code of a program.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Sequential programming</dt>
+      <dd>
+        <p>A way of managing processing power whereby tasks are handled sequentially in contrast to parallel process, where tasks are broken down and different sections run on separate cores. The default approach to programming.</p>
+        <p>First seen: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        <p>Also in: <a href="~/3/3/2">Unit 3 Session 3 Page 2</a> </p>
+        <p>Best definition: <a href="~/3/3/2">Unit 3 Session 3 Page 2</a> </p>
+      </dd>
+    
+      <dt>Side effects</dt>
+      <dd>
+        <p>When a function changes a variable which is not one of the output variables of the function. For example, changing a global variable from within a function.</p>
+        <p>First seen: <a href="~/3/3/1">Unit 3 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Single Responsibility Principle (SRP)</dt>
+      <dd>
+        <p>A principle that states that every class or method is responsible for one single, separate part of a program’s functionality.</p>
+        <p>First seen: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Software development lifecycle (SDLC)</dt>
+      <dd>
+        <p>The different stages of software development practiced in software development companies. Also known as the software development lifecycle process.</p>
+        <p>First seen: <a href="~/1/3/1">Unit 1 Session 3 Page 1</a> </p>
+        <p>Also in: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        <p>Best definition: <a href="~/1/3/1">Unit 1 Session 3 Page 1</a> </p>
+      </dd>
+    
+      <dt>Software requirement specification (SRS) document</dt>
+      <dd>
+        <p>A document which outlines the economic, operational, and technical details of a software product.</p>
+        <p>First seen: <a href="~/1/3/2">Unit 1 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Source code</dt>
+      <dd>
+        <p>The human-readable text of a program that is written in a specific programming language.</p>
+        <p>First seen: <a href="~/2/3/2">Unit 2 Session 3 Page 2</a> </p>
+        <p>Also in: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> <a href="~/3/2/1"> Unit 3 Session 2 Page 1</a> </p>
+        <p>Best definition: <a href="~/3/2/1">Unit 3 Session 2 Page 1</a> </p>
+      </dd>
+    
+      <dt>Sprint</dt>
+      <dd>
+        <p>In Agile workflow, a defined period of time in between two ‘sprint meetings’ within which the work discussed at the previous sprint meeting is carried out.</p>
+        <p>First seen: <a href="~/5/2/2">Unit 5 Session 2 Page 2</a> </p>
+        <p>Also in: <a href="~/5/4/1">Unit 5 Session 4 Page 1</a> </p>
+        <p>Best definition: <a href="~/5/2/2">Unit 5 Session 2 Page 2</a> </p>
+      </dd>
+    
+      <dt>Stack</dt>
+      <dd>
+        <p>A data structure from which data is retrieved using the Last in First Out (LIFO) principle.</p>
+        <p>First seen: <a href="~/2/2/3">Unit 2 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>State</dt>
+      <dd>
+        <p>The condition of a programming regarding stored inputs (e.g., the values held by variables).</p>
+        <p>First seen: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+        <p>Also in: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> <a href="~/3/3/1"> Unit 3 Session 3 Page 1</a> </p>
+        <p>Best definition: <a href="~/3/1/2">Unit 3 Session 1 Page 2</a> </p>
+      </dd>
+    
+      <dt>Statement</dt>
+      <dd>
+        <p>A section of code which performs some action.</p>
+        <p>First seen: <a href="~/2/2/4">Unit 2 Session 2 Page 4</a> </p>
+        <p>Also in: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/3/1/3">Unit 3 Session 1 Page 3</a> </p>
+      </dd>
+    
+      <dt>String</dt>
+      <dd>
+        <p>A data type which is the most common for storing multiple characters (including letters, symbols, punctuation marks, numbers, etc).</p>
+        <p>First seen: <a href="~/2/1/3">Unit 2 Session 1 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Subroutine</dt>
+      <dd>
+        <p>A sequence of program instructions that perform a specific task, packaged as a unit.</p>
+        <p>First seen: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Syntax</dt>
+      <dd>
+        <p>The ‘grammatical’ rules which define a programming language. Without the correct syntax, a language may not function as intended.</p>
+        <p>First seen: <a href="~/1/1/4">Unit 1 Session 1 Page 4</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Syntax error</dt>
+      <dd>
+        <p>An error created by incorrect syntax, such as missing end of line characters/indents, unrecognised characters or variable names, or incorrect case sensitivity.</p>
+        <p>First seen: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Terminal error</dt>
+      <dd>
+        <p>An error in a program which causes the terminal to crash.</p>
+        <p>First seen: <a href="~/4/4/1">Unit 4 Session 4 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Test Driven Development (TDD)</dt>
+      <dd>
+        <p>An approach to development whereby test cases are created to specify and validate what the code will do. Tests are created for each function before the actual development of the application or program. If the test fails new code is written.</p>
+        <p>First seen: <a href="~/4/2/3">Unit 4 Session 2 Page 3</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Thread</dt>
+      <dd>
+        <p>A single sequential flow of control within a program. Whilst operations are performed on a single thread in Sequential Programming, parallel processing allows multiple threads to be utilised at one time.</p>
+        <p>First seen: <a href="~/3/3/2">Unit 3 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Toolchain</dt>
+      <dd>
+        <p>Working methodologies used in DevOps.</p>
+        <p>First seen: <a href="~/4/3/1">Unit 4 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Triple constraint</dt>
+      <dd>
+        <p>A project management model which describes the three most significant restrictions on any project, often referred to as the project management triangle. The sides of the triangle are Scope, Schedule and Cost and quality sits in the middle.</p>
+        <p>First seen: <a href="~/5/3/2">Unit 5 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Unit</dt>
+      <dd>
+        <p>Units are the smallest groups of code that can be maintained, executed, reused, and tested independently. A unit can be almost anything such as a line of code.</p>
+        <p>First seen: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        <p>Also in: <a href="~/4/1/3">Unit 4 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+      </dd>
+    
+      <dt>Unit test</dt>
+      <dd>
+        <p>A test which is designed to test units, the smallest piece of code that can be logically isolated in a system. Smaller tests give a granular view of how the code and can be run quickly.</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        <p>Also in: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> <a href="~/4/2/3"> Unit 4 Session 2 Page 3</a> </p>
+        <p>Best definition: <a href="~/4/2/2">Unit 4 Session 2 Page 2</a> </p>
+      </dd>
+    
+      <dt>User Acceptance Testing (UAT)</dt>
+      <dd>
+        <p>Testing carried out as part of the Software Development Lifecycle (SDLC) whereby potential users test-run the software within the intended domain.</p>
+        <p>First seen: <a href="~/1/3/2">Unit 1 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>User Interface (UI)</dt>
+      <dd>
+        <p>The part of a program or website that the user interacts with. Part of the frontend.</p>
+        <p>First seen: <a href="~/1/2/2">Unit 1 Session 2 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>Variable</dt>
+      <dd>
+        <p>A container of a specific type of data which has the potential to alter during the running of a program, unlike a constant which is fixed.</p>
+        <p>First seen: <a href="~/2/1/4">Unit 2 Session 1 Page 4</a> </p>
+        <p>Also in: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> <a href="~/3/1/3"> Unit 3 Session 1 Page 3</a> </p>
+        <p>Best definition: <a href="~/2/2/1">Unit 2 Session 2 Page 1</a> </p>
+      </dd>
+    
+      <dt>Waterfall</dt>
+      <dd>
+        <p>An approach to project management which emphasises a linear approach from the beginning to the end of a project. It flows like a waterfall through sequential phases, with each phase wrapping up before the next phase begins.</p>
+        <p>First seen: <a href="~/5/3/2">Unit 5 Session 3 Page 2</a> </p>
+        
+        
+      </dd>
+    
+      <dt>WET</dt>
+      <dd>
+        <p>Acronym for ‘Write Everything Twice’. Refers to an approach to formatting code where sections of code are repeated instead of being generalised and inserted into functions. The opposite of DRY.</p>
+        <p>First seen: <a href="~/2/3/1">Unit 2 Session 3 Page 1</a> </p>
+        
+        
+      </dd>
+    
+      <dt>White box testing</dt>
+      <dd>
+        <p>Product testing where the source code is provided to the person doing the testing. This person may have knowledge about the software itself, or at least domain-specific knowledge.</p>
+        <p>First seen: <a href="~/4/2/1">Unit 4 Session 2 Page 1</a> </p>
+        
+        
+      </dd>
+    
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <small>
+    &copy; Copyright vision&#x200B;2&#x200B;learn, 2022. All rights reserved (Env: dotnet). 
+  </small>
+</footer>
+
+  </div>
+  
+  <script>
+    
+    var animateVars = {};
+var AdobeAn = {};
+
+var V2lPage = (function() {
+
+  var v2l = {};
+  var appPath = document.querySelector('body').dataset.v2lEnv !== 'dotnet' ? '' : '@ViewBag.ApplicationPath';
+  
+  v2l.init = function() {
+    if(document.querySelectorAll('.c-interactive').length > 0) {
+      v2l.attachHandlers();
+    }
+
+    externalLinks();
+  }
+
+  v2l.attachHandlers = function() {
+    document.querySelectorAll('[data-v2l-loadbtn]').forEach(function(btn) {
+      btn.removeAttribute('hidden');
+      btn.addEventListener('click', loadCanvas);
+      try {
+        btn.nextElementSibling.setAttribute('hidden', true); 
+      } catch (error) {
+        
+      }
+    });
+  }
+
+  function loadCanvas() {
+    
+    // Is there a canvas element on the page already?
+    var btnParent = this.parentElement;
+    var canvasAlt = btnParent.querySelector('[data-v2l-canvas-alt]');
+    var canvasLoaded = document.querySelector('.c-interactive > canvas');
+    var canvas = document.createElement('canvas');
+
+    canvas.id = +new Date();
+    canvas.setAttribute('tabindex', -1);
+
+    if(canvasAlt) {
+      var canvasAltDupe = canvasAlt.cloneNode(true);
+      canvasAltDupe.removeAttribute('hidden');
+      canvas.appendChild(canvasAltDupe);
+      btnParent.removeChild(canvasAlt);
+    }
+    
+    if(canvasLoaded) {
+      canvasLoaded.parentElement.parentElement.insertBefore(animateVars.activeCanvas, canvasLoaded.parentElement);
+      canvasLoaded.parentElement.parentElement.removeChild(canvasLoaded.parentElement);
+    }
+
+    animateVars.activeCanvas = this.parentElement.cloneNode(true)
+    animateVars.fileRef = btnParent.dataset.v2lInteractive;
+    animateVars.compRef = btnParent.dataset.v2lComp;
+    animateVars.canvasID = canvas.id;
+    
+    btnParent.insertBefore(canvas, this);
+    btnParent.removeChild(this);
+    canvas.focus();
+    
+    v2l.attachHandlers();
+    loadAnimateJS();
+  }
+  function loadAnimateJS() {
+    if(!animateVars.loaded) {
+      var scripts = [
+        '//code.createjs.com/1.0.0/createjs.min.js',
+        appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
+        appPath+'/js/interactive/init.js'
+      ].forEach(function(src) {
+        var script = document.createElement('script');
+        script.src = src;
+        script.async = false;
+        document.head.appendChild(script);
+      });
+
+      animateVars.loaded = true;
+    }
+    else {
+      AdobeAn = {};
+
+      Array.prototype.forEach.call(document.scripts, function(script) {
+        if(script.src.indexOf('/js/interactive/'+ animateVars.fileRef +'.js') > 0) {
+          scriptsLoaded = true;
+        }
+      });
+      
+      
+        [
+          appPath+'/js/interactive/'+ animateVars.fileRef +'.js',
+          appPath+'/js/animateload.js'
+        ].forEach(function(src) {
+          var script = document.createElement('script');
+          script.src = src;
+          script.async = false;
+          document.head.appendChild(script);
+        });
+      //}
+    }
+  }
+  
+  // detect ES6 support, then load the main script file if OK
+  try {
+    new Function("(a = 0) => a");
+    
+    [
+      appPath+'/js/script.js'
+    ].forEach(function(src) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      script.integrity = "sha256-wwiw6fRJ+54AjMoSK9HgkDrrROuM7k8oN70k9oi7Obc=";
+      document.head.appendChild(script);
+    });
+    
+  }
+  catch (err) {
+    console.info("Old browser, JS performance will be limited");
+    // return false;
+  }
+
+  function externalLinks() {
+    var ttp = document.querySelectorAll('.i-practice');
+
+    if(ttp.length > 0) {
+      ttp.forEach(function(section) {
+        section.querySelectorAll('a').forEach(function(link) {
+          console.log(link);
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+        });
+      });
+    }
+  }
+  
+  v2l.appPath = appPath;
+  return v2l;
+})();
+
+V2lPage.init();
+
+  </script>
+</body>
+</html>

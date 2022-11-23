@@ -1,0 +1,34 @@
+<Course id="NO COURSE ID PROVIDED" name="IT  User Skills Level 2">
+  <Units>
+    <Unit number="1" title="Unit 1 of 3: Word processing software">
+      <Sessions>
+        <Session number="1" title="Session 1 of 6: Welcome" pages="8" />
+        <Session number="2" title="Session 2 of 6: Managing documents" pages="3" />
+        <Session number="3" title="Session 3 of 6: Word processing editing tools" pages="4" />
+        <Session number="4" title="Session 4 of 6: Structure and layout" pages="5" />
+        <Session number="5" title="Session 5 of 6: Combining information" pages="4" />
+        <Session number="6" title="Session 6 of 6: Document quality control" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="2" title="Unit 2 of 3: Presentation software">
+      <Sessions>
+        <Session number="1" title="Session 1 of 6: Entering information into presentations" pages="5" />
+        <Session number="2" title="Session 2 of 6: Managing presentations" pages="3" />
+        <Session number="3" title="Session 3 of 6: Presentation editing tools" pages="4" />
+        <Session number="4" title="Session 4 of 6: Slide formatting" pages="4" />
+        <Session number="5" title="Session 5 of 6: Animating your presentation" pages="2" />
+        <Session number="6" title="Session 6 of 6: Preparing your presentation" pages="4" />
+      </Sessions>
+    </Unit>
+    <Unit number="3" title="Unit 3 of 3: Spreadsheet software">
+      <Sessions>
+        <Session number="1" title="Session 1 of 6: Creating a spreadsheet" pages="4" />
+        <Session number="2" title="Session 2 of 6: Managing spreadsheets" pages="2" />
+        <Session number="3" title="Session 3 of 6: Analysing data" pages="5" />
+        <Session number="4" title="Session 4 of 6: Formatting and presenting data" pages="4" />
+        <Session number="5" title="Session 5 of 6: Charts and graphs" pages="4" />
+        <Session number="6" title="Session 6 of 6: Spreadsheet quality control" pages="5" />
+      </Sessions>
+    </Unit>
+  </Units>
+</Course>

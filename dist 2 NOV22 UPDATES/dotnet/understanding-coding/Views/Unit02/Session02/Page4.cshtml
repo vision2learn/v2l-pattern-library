@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- course -->
+<section class="c-banner" data-session="2">
+  <div class="c-banner__text boxout">
+    <h1>Iteration and control flow</h1>
+      <p>On this page you will learn about what is meant by iteration and control flow.</p>
+
+  </div>
+    <picture><source type="image/webp" srcset="~/images/banners/uc/uc_u2_s2_p4_collection-400.webp 400w, ~/images/banners/uc/uc_u2_s2_p4_collection-600.webp 600w, ~/images/banners/uc/uc_u2_s2_p4_collection-800.webp 800w, ~/images/banners/uc/uc_u2_s2_p4_collection-1000.webp 1000w, ~/images/banners/uc/uc_u2_s2_p4_collection-2000.webp 2000w" sizes="100vw"><source type="image/jpeg" srcset="~/images/banners/uc/uc_u2_s2_p4_collection-400.jpeg 400w, ~/images/banners/uc/uc_u2_s2_p4_collection-600.jpeg 600w, ~/images/banners/uc/uc_u2_s2_p4_collection-800.jpeg 800w, ~/images/banners/uc/uc_u2_s2_p4_collection-1000.jpeg 1000w, ~/images/banners/uc/uc_u2_s2_p4_collection-2000.jpeg 2000w" sizes="100vw"><img class="c-banner__img" alt="" loading="lazy" decoding="async" src="~/images/banners/uc/uc_u2_s2_p4_collection-400.jpeg" width="2000" height="773"></picture>
+</section>
+
+
+  
+  <!-- sections.njk -->
+
+
+
+
+  
+  
+        <section id="key-point"  class="t-bg-grey i-keypoint">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO keypoint -->
+    <svg viewBox="0 0 180 244.85" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m90 0a90 90 0 0 0 -90 90c0 20.72 7.54 39.28 18.65 54.85l71.35 100 71.36-100c11.11-15.58 18.64-34.19 18.64-54.85a90 90 0 0 0 -90-90z" fill="#007da8"/><path d="m157 90a67 67 0 1 1 -67-67 67 67 0 0 1 67 67z" fill="#fff"/><g fill="#25282b"><path d="m90.01 36.38-9.48 53.62 9.48 53.62 9.46-53.62z"/><path d="m36.39 90 53.62 9.47 53.6-9.47-53.6-9.46z"/><path d="m63.2 63.19 22.07 31.54 31.54 22.08-22.07-31.53z"/><path d="m63.2 116.81 31.54-22.09 22.07-31.53-31.53 22.08z"/></g></svg>
+Key point</h2>
+              <p>In your assessment you will be required to define what is meant by iterations.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+  
+        <section id="iterations"  class="t-bg-primary">
+          
+            <h2>Iterations</h2>
+              <p>Iteration in programming is the process of repeating sequential steps or instructions over and over in order to generate an intended outcome. Each repetition of the process is a single iteration, and the outcome of each iteration forms the starting point for the next one.</p>
+<p>Algorithms consist of instructions that are carried out one after another. Sometimes an algorithm needs to repeat certain steps until it is told to stop, or a desired condition has been met. Iteration allows algorithms to be simplified by making them repeat until told otherwise.</p>
+<p>Incorrect definition of an end condition will usually only cause the process to repeat on itself forming a never-ending loop though this would only ever exist within CPU cycles and shouldn’t cause a system crash.</p>
+<p>In our <em>JavaScript example</em> code contains an example of iteration using a for loop. This means that we repeat an operation (in this case printing a list index to the console) for a defined number of times (in this case once for each index, starting with the first item in the list and ending with the last).</p>
+
+              
+              <div class="c-code"><pre class="language-js"><code class="language-js"><span class="highlight-line"><span class="token comment">// Control flow: Loop (iteration)</span></span><br><span class="highlight-line"></span><br><span class="highlight-line">  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> list_1<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'List item '</span><span class="token punctuation">,</span> i<span class="token punctuation">,</span> <span class="token string">' = '</span><span class="token punctuation">,</span> list_1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span></span><br><span class="highlight-line">  <span class="token punctuation">}</span></span></code></pre>
+</div>
+
+            
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="key-point"  class="t-bg-grey i-keypoint">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO keypoint -->
+    <svg viewBox="0 0 180 244.85" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m90 0a90 90 0 0 0 -90 90c0 20.72 7.54 39.28 18.65 54.85l71.35 100 71.36-100c11.11-15.58 18.64-34.19 18.64-54.85a90 90 0 0 0 -90-90z" fill="#007da8"/><path d="m157 90a67 67 0 1 1 -67-67 67 67 0 0 1 67 67z" fill="#fff"/><g fill="#25282b"><path d="m90.01 36.38-9.48 53.62 9.48 53.62 9.46-53.62z"/><path d="m36.39 90 53.62 9.47 53.6-9.47-53.6-9.46z"/><path d="m63.2 63.19 22.07 31.54 31.54 22.08-22.07-31.53z"/><path d="m63.2 116.81 31.54-22.09 22.07-31.53-31.53 22.08z"/></g></svg>
+Key point</h2>
+              <p>In your assessment you will be required to explain what is meant by control flow.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="control-flow" >
+          
+            <h2>Control flow</h2>
+              <p>Control flow is the order in which a computer executes statements in a script.</p>
+<p>Code runs from the first line to the last unless the computer comes across structures like conditionals and loops which change the control flow.</p>
+<p>For example say a script is used to validate user data for a webpage but if a field is left empty the script prompts them to fill it in.   The script uses a conditional structure so different code will be executed. Javascript amongst others includes many control structures including conditionals, loops and functions.</p>
+<p>Control flow means that when a script is read, it must be read from start to finish, but also the program structure should be read so as to know how it affects the order of execution.</p>
+<p>Control Flow is often represented in a control flow graph (CFG) during the execution of programs or applications.</p>
+<p>Take a look at our <em>Javascript example</em> again and see if you can follow the control flow:</p>
+
+              
+              <div class="c-code"><pre class="language-js"><code class="language-js"><span class="highlight-line"><span class="token comment">// Declare some variables</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token keyword">var</span> variable_1 <span class="token operator">=</span> <span class="token number">25</span></span><br><span class="highlight-line"><span class="token keyword">var</span> variable_2 <span class="token operator">=</span> <span class="token number">28</span></span><br><span class="highlight-line"><span class="token keyword">var</span> list_1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token comment">// A conditional statement</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token keyword">if</span> <span class="token punctuation">(</span>variable_1 <span class="token operator">===</span> variable_2<span class="token punctuation">)</span><span class="token punctuation">{</span></span><br><span class="highlight-line">  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'the variables are equal.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'the variables are not equal.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token comment">// A type of iteration (a loop)</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> list_1<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'List item '</span><span class="token punctuation">,</span> i<span class="token punctuation">,</span> <span class="token string">' = '</span><span class="token punctuation">,</span> list_1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token comment">// A function</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token keyword">function</span> <span class="token function">myFunction</span> <span class="token punctuation">(</span><span class="token parameter">input_1<span class="token punctuation">,</span> input_2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  sum_of_inputs <span class="token operator">=</span> input_1 <span class="token operator">+</span> input_2</span><br><span class="highlight-line">  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'The sum of inputs = '</span><span class="token punctuation">,</span> sum_of_inputs<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token comment">// A function call</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token function">myFunction</span><span class="token punctuation">(</span>variable_1<span class="token punctuation">,</span> variable_2<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
+</div>
+
+            
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="result" >
+          
+            <h2>Result</h2>
+              
+              <div class="c-code"><pre class="language-text"><code class="language-text"><span class="highlight-line">The variables are not equal</span><br><span class="highlight-line">List item 0 = 5</span><br><span class="highlight-line">List item 1 = 2</span><br><span class="highlight-line">List item 2 = 6</span><br><span class="highlight-line">List item 3 = 3</span><br><span class="highlight-line">List item 4 = 7</span><br><span class="highlight-line">List item 5 = 2</span><br><span class="highlight-line">The sum of inputs = 53</span><br><span class="highlight-line">[Finished in 192ms]</span></code></pre>
+</div>
+
+            
+              <p>Note that in JavaScript coding language, the first index value starts at 0 not 1.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="time-to-practice"  class="t-bg-primary3 i-practice">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO practice -->
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"  aria-hidden="true" focusable="false" viewBox="0 0 223 223"><defs><style>.a{fill:#00a6e0}.b{fill:#99dbf3}.c{fill:#f3f3f3;stroke:#fff;stroke-width:2px}.c,.g,.h{stroke-miterlimit:10}.d{fill:#f7be00}.e{fill:#00a7e1}.f{fill:#007da8}.g,.h{fill:none;stroke:#4a4f55}.g{stroke-width:2.5px}.h{stroke-width:4px}</style></defs><title>practice</title><path class="a" d="M28.23,145.19a7.39,7.39,0,0,0,7.36,7.43h0l151.12.32a7.43,7.43,0,0,0,7.43-7.4l.26-109.1A7.37,7.37,0,0,0,187.07,29h0L35.9,28.71a7.39,7.39,0,0,0-7.45,7.34v.05Z"/><rect class="b" x="170.96" y="37.7" width="12.31" height="12.31" rx=".88" transform="translate(132.83 220.86) rotate(-89.86)"/><rect class="b" x="154.54" y="37.66" width="12.31" height="12.31" rx=".88" transform="translate(116.5 204.41) rotate(-89.86)"/><rect class="b" x="138.13" y="37.61" width="12.31" height="12.31" rx=".88" transform="translate(100.16 187.95) rotate(-89.86)"/><rect class="b" x="121.28" y="37.35" width="12.31" height="12.31" rx=".88"/><rect class="b" x="105.29" y="37.54" width="12.31" height="12.31" rx=".88" transform="translate(67.47 155.04) rotate(-89.86)"/><rect class="b" x="88.87" y="37.5" width="12.31" height="12.31" rx=".88" transform="translate(51.14 138.58) rotate(-89.86)"/><rect class="b" x="72.44" y="37.46" width="12.31" height="12.31" rx=".88" transform="translate(34.8 122.11) rotate(-89.87)"/><rect class="b" x="56.03" y="37.42" width="12.31" height="12.31" rx=".88" transform="matrix(0, -1, 1, 0, 18.45, 105.65)"/><path class="b" d="M39.66,48.78a.9.9,0,0,0,.88.9H51.07a.9.9,0,0,0,.9-.87V38.27a.87.87,0,0,0-.86-.88H40.55a.88.88,0,0,0-.89.88Z"/><rect class="b" x="170.9" y="54.48" width="12.31" height="12.31" rx=".88" transform="translate(115.99 237.55) rotate(-89.86)"/><rect class="b" x="154.5" y="54.45" width="12.31" height="12.31" rx=".88" transform="translate(99.66 221.12) rotate(-89.86)"/><rect class="b" x="137.61" y="54.14" width="12.31" height="12.31" rx=".88"/><rect class="b" x="121.69" y="54.38" width="12.31" height="12.31" rx=".88" transform="translate(67 188.23) rotate(-89.86)"/><rect class="b" x="105.24" y="54.32" width="12.31" height="12.31" rx=".88" transform="translate(50.67 171.74) rotate(-89.87)"/><rect class="b" x="88.83" y="54.27" width="12.31" height="12.31" rx=".88" transform="translate(34.31 155.25) rotate(-89.85)"/><path class="b" d="M72.41,65.66a.87.87,0,0,0,.88.88H83.82a.9.9,0,0,0,.9-.88V55.14a.88.88,0,0,0-.88-.88H73.3a.88.88,0,0,0-.89.88Z"/><rect class="b" x="55.99" y="54.18" width="12.31" height="12.31" rx=".88" transform="translate(1.65 122.33) rotate(-89.86)"/><rect class="b" x="39.61" y="54.46" width="12.31" height="12.31" rx=".88" transform="translate(-14.96 106.24) rotate(-89.86)"/><rect class="b" x="170.36" y="70.98" width="12.31" height="12.31" rx=".88"/><rect class="b" x="154.47" y="71.22" width="12.31" height="12.31" rx=".88" transform="matrix(0, -1, 1, 0, 82.82, 237.8)"/><rect class="b" x="138.05" y="71.2" width="12.31" height="12.31" rx=".88" transform="matrix(0, -1, 1, 0, 66.48, 221.36)"/><rect class="b" x="121.63" y="71.16" width="12.31" height="12.31" rx=".88" transform="translate(50.16 204.91) rotate(-89.86)"/><path class="b" d="M105.2,82.52a.88.88,0,0,0,.88.89h10.53a.91.91,0,0,0,.9-.89V72a.9.9,0,0,0-.88-.9H106.08a.9.9,0,0,0-.88.9Z"/><rect class="b" x="88.77" y="71.06" width="12.31" height="12.31" rx=".88" transform="translate(17.48 171.96) rotate(-89.86)"/><rect class="b" x="72.39" y="71.03" width="12.31" height="12.31" rx=".88" transform="translate(1.16 155.54) rotate(-89.86)"/><path class="b" d="M56,82.41a.87.87,0,0,0,.88.88H67.36a.9.9,0,0,0,.9-.88V71.86a.89.89,0,0,0-.88-.88H56.83a.88.88,0,0,0-.88.88Z"/><rect class="b" x="39.54" y="70.95" width="12.31" height="12.31" rx=".88" transform="translate(-31.52 122.62) rotate(-89.86)"/><rect class="b" x="170.81" y="88.04" width="12.31" height="12.31" rx=".88" transform="translate(82.37 270.95) rotate(-89.87)"/><rect class="b" x="154.42" y="88.02" width="12.31" height="12.31" rx=".88" transform="matrix(0, -1, 1, 0, 66, 254.52)"/><rect class="b" x="138.02" y="87.98" width="12.31" height="12.31" rx=".88" transform="translate(49.68 238.08) rotate(-89.86)"/><path class="b" d="M91.74,99.28a.89.89,0,0,0,.89.89l40.36.1a.88.88,0,0,0,.89-.88V88.84A.87.87,0,0,0,133,88l-40.37-.1a.88.88,0,0,0-.89.88Z"/><rect class="b" x="105.17" y="87.91" width="12.31" height="12.31" rx=".88" transform="translate(16.99 205.17) rotate(-89.86)"/><rect class="b" x="88.76" y="87.87" width="12.31" height="12.31" rx=".88" transform="translate(0.64 188.69) rotate(-89.85)"/><rect class="b" x="72.33" y="87.81" width="12.31" height="12.31" rx=".88" transform="translate(-15.67 172.23) rotate(-89.86)"/><rect class="b" x="55.92" y="87.78" width="12.31" height="12.31" rx=".88" transform="translate(-32.02 155.78) rotate(-89.86)"/><rect class="b" x="39.51" y="87.74" width="12.31" height="12.31" rx=".88" transform="translate(-48.34 139.34) rotate(-89.86)"/><path class="b" d="M88.6,138a3,3,0,0,0,3,3l39.22.1a3,3,0,0,0,3-2.94h0l.07-27.09a3,3,0,0,0-3-3l-39.22-.1a3,3,0,0,0-3,3v0Z"/><path class="a" d="M19.08,24.07v-6.7a7.41,7.41,0,0,1,7.44-7.31l170,.34a7.39,7.39,0,0,1,7.38,7.41h0v6.64Z"/><rect class="c" x="25.82" y="63.12" width="110.87" height="139.23" transform="translate(-46.98 44.55) rotate(-24.01)"/><rect class="b" x="30.91" y="86.31" width="55.39" height="47.51" transform="translate(-40.25 34.06) rotate(-24.41)"/><circle class="d" cx="64.82" cy="101.13" r="6.91"/><polyline class="e" points="42.66 142.7 37.2 130.35 46.8 110.7 57.73 114.09 87.13 123.2"/><polygon class="f" points="85.55 124.14 47.51 112.31 38.37 131.64 36.9 128.44 46.09 109.08 88.75 122.24 85.55 124.14"/><rect class="g" x="30.53" y="86.48" width="55.25" height="47.26" transform="translate(-39.77 33.19) rotate(-24.01)"/><line class="h" x1="50.65" y1="167.15" x2="126.41" y2="133.4"/><line class="h" x1="60.35" y1="187.95" x2="102.47" y2="169.19"/></svg>
+Time to practice</h2>
+              <h3>Practice 1:</h3>
+<p>Now you have learnt about all the different aspects within our JavaScript example, have a go at writing out the above JavaScript example on the following online compiler practice website.  Check to see if you get the same result as in the above example.</p>
+<h3>Practice 2:</h3>
+<p>What will be the output of the function in the code above if:</p>
+<ul>
+<li>variable_1 is set to 7 and</li>
+<li>variable_2 is set to 18?</li>
+</ul>
+<p>Change the variable values to 7 and 18 and run it yourself to see what different results you get.</p>
+<p><a href="https://onecompiler.com/javascript">JavaScript Online Compiler</a></p>
+
+          
+        </section>
+        
+    
+     
+    
+
+  <!-- sections -->
+
+
+

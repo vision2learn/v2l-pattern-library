@@ -1,0 +1,345 @@
+
+
+
+
+
+
+
+
+
+  
+
+
+<!-- course -->
+<section class="c-banner" data-session="1">
+  <div class="c-banner__text boxout">
+    <h1>Deployment strategy</h1>
+      <p>On this page you will learn about deployment strategy, canary deployment, and what is meant by rollback strategy.</p>
+
+  </div>
+    <picture><source type="image/webp" srcset="~/images/banners/cp3/cp3_u5_s1_p4_deployment-400.webp 400w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-600.webp 600w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-800.webp 800w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-1000.webp 1000w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-2000.webp 2000w" sizes="100vw"><source type="image/jpeg" srcset="~/images/banners/cp3/cp3_u5_s1_p4_deployment-400.jpeg 400w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-600.jpeg 600w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-800.jpeg 800w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-1000.jpeg 1000w, ~/images/banners/cp3/cp3_u5_s1_p4_deployment-2000.jpeg 2000w" sizes="100vw"><img class="c-banner__img" alt="" loading="lazy" decoding="async" src="~/images/banners/cp3/cp3_u5_s1_p4_deployment-400.jpeg" width="2000" height="773"></picture>
+</section>
+
+
+  
+  <!-- sections.njk -->
+
+
+
+
+  
+  
+        <section id="key-point"  class="t-bg-supporting3 i-keypoint">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO keypoint -->
+    <svg viewBox="0 0 180 244.85" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m90 0a90 90 0 0 0 -90 90c0 20.72 7.54 39.28 18.65 54.85l71.35 100 71.36-100c11.11-15.58 18.64-34.19 18.64-54.85a90 90 0 0 0 -90-90z" fill="#007da8"/><path d="m157 90a67 67 0 1 1 -67-67 67 67 0 0 1 67 67z" fill="#fff"/><g fill="#25282b"><path d="m90.01 36.38-9.48 53.62 9.48 53.62 9.46-53.62z"/><path d="m36.39 90 53.62 9.47 53.6-9.47-53.6-9.46z"/><path d="m63.2 63.19 22.07 31.54 31.54 22.08-22.07-31.53z"/><path d="m63.2 116.81 31.54-22.09 22.07-31.53-31.53 22.08z"/></g></svg>
+Key point</h2>
+              <p>In your assessment you will be required to describe what is meant by deployment strategy.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="watch"  class="t-bg-grey i-watch">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO watch -->
+    <svg viewBox="0 0 232.18 168.39" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m0 146v16.58a5.77 5.77 0 0 0 5.78 5.78h220.58a5.78 5.78 0 0 0 5.78-5.78v-16.58z" fill="#00a6e0"/><path d="m232.18 146.21v-140.43a5.78 5.78 0 0 0 -5.78-5.78h-220.59a5.78 5.78 0 0 0 -5.81 5.78v140.43z" fill="#00a6e0"/><path d="m9.54 9.31h213.13v127.59h-213.13z" fill="#4a4f55"/><ellipse cx="116.11" cy="71.74" fill="#ddf2fb" rx="40.37" ry="40.15"/><path d="m116.11 112.57a40.83 40.83 0 1 1 41.05-40.83 41 41 0 0 1 -41.05 40.83zm0-80.3a39.47 39.47 0 1 0 39.68 39.47 39.62 39.62 0 0 0 -39.68-39.47z" fill="#32b6eb"/><path d="m101.03 98.26v-50.32l43.81 25.16z" fill="#00a6e0"/></svg>
+Watch</h2>
+              <h3>Deployment strategy</h3>
+<p>A deployment strategy is a process to change (or upgrade) a software product. One of the aims of a deployment strategy is to release a new version without downtime so the user is free to continue using the product. Please see the following video to learn more.</p>
+
+              <!-- sections.njk VIDEO! -->
+              
+              
+              
+      <div class="l-video-container">
+        <video poster="~/images/svg/poster.svg" controls preload="metadata" aria-labelledby="watch" width="1000"
+          data-base="cp3_u5_s1_p3_deployment_strategy" 
+          data-ext=".mp4" 
+          data-multi="false"
+          data-trans="cp3_u5_s1_p3_deployment_strategy undefined">
+          <source src="https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/cp3_u5_s1_p3_deployment_strategy.mp4" type="video/mp4">
+          <track default label="English" kind="captions" srclang="en" src="~/videos/captions/vtt/cp3_u5_s1_p3_deployment_strategy.vtt">
+          <p>Sorry, your browser doesn't support embedded videos</p>
+        </video>
+      </div>
+      
+          <toggle-section open="false">
+            <h3>Video transcript </h3>
+            <p><strong>Chris:</strong> So, what is a Deployment strategy?</p>
+<p>A ‘deployment strategy’ is a process to change or upgrade a software product. One of the aims of a ‘deployment strategy’, is to release a new version without downtime, so that the user is free to continue using the product. One of the more common strategies is the ‘blue-green’ deployment strategy but there are several different strategies that can be used</p>
+<p>Let’s have a look at these in a little more detail.</p>
+<p><strong>Leah:</strong> Basic deployment is fast, simple, and cost-effective. To create a new version, it does a full update of the product in the environment simultaneously, This process makes it vulnerable, more difficult to update, and this strategy would make it harder to rollback. It carries the highest risk and would be unsuitable for business-critical products or services.</p>
+<p><strong>Chris:</strong> The blue-green deployment strategy would have two versions of a software product at the same time. The new ‘blue’ version goes through testing and evaluation while the user continues to use the stable ‘green’ version. The user will be switched to the ‘blue’ version when it is ready.</p>
+<p>This is a good strategy to use, as if there is a problem, it can be switched back to the ‘green’ version. One way to think of this is how it would look in a source [version] code control environment such as ‘Git’ or ‘GitHub’, there would be a ‘Staging branch’ which would be the ‘blue’ version, and a Master branch which would be the ‘green’ version.</p>
+<p><strong>Leah:</strong> Multi-service deployments are also simple, fast, cheap but are not as risky as a ‘basic deployment’. This is due to it being used for products that have service or version dependencies, meaning they will only work if they are up to date. In a multi-service deployment, all the parts of the software are kept separately, but updated at the same time. This type of deployment is, however, slow to rollback and can be difficult to manage, test and verify.</p>
+<p><strong>Chris:</strong> Rather than doing a ‘full update’ at each deployment, a rolling deployment updates an ‘instance’ of the previous version of the software product. It will wait until it is ready before redirecting users to the new version, therefore eliminating downtime. If there is an issue such as a bug, the rolling deployment can be stopped, so is easy to rollback.</p>
+<p><strong>Leah:</strong> A canary deployment is used to test a ‘new version’ of a software product and can be easily rolled back to the ‘previous version’ if there is an issue. This strategy is used within both ‘blue-green’ and ‘A/B testing’. A new version [the canary] is tested before the old instances are replaced. If it fails the readiness test, then the ‘canary instance’ is removed, and the deployment would automatically be rolled back. A ‘canary release’ has the lowest risk due to its element of control.</p>
+<p><strong>Chris:</strong> An alternative strategy is to use A/B testing which is also known as ‘A/B versions’ This is where both versions are active at the same time with different groups of users on each version. It can be used to test ‘interface changes’ and ‘features’ to get ‘user feedback’ and be used for ‘verification’. This strategy differs to the other deployment strategies as its focus is on ‘experimentation and exploration’. A/B testing is more about testing multiple ideas, rather than deploying one specific tested idea.</p>
+
+          </toggle-section>
+        
+      
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="key-point"  class="t-bg-supporting3 i-keypoint">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO keypoint -->
+    <svg viewBox="0 0 180 244.85" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m90 0a90 90 0 0 0 -90 90c0 20.72 7.54 39.28 18.65 54.85l71.35 100 71.36-100c11.11-15.58 18.64-34.19 18.64-54.85a90 90 0 0 0 -90-90z" fill="#007da8"/><path d="m157 90a67 67 0 1 1 -67-67 67 67 0 0 1 67 67z" fill="#fff"/><g fill="#25282b"><path d="m90.01 36.38-9.48 53.62 9.48 53.62 9.46-53.62z"/><path d="m36.39 90 53.62 9.47 53.6-9.47-53.6-9.46z"/><path d="m63.2 63.19 22.07 31.54 31.54 22.08-22.07-31.53z"/><path d="m63.2 116.81 31.54-22.09 22.07-31.53-31.53 22.08z"/></g></svg>
+Key point</h2>
+              <p>In your assessment you will be required to identify the advantages and disadvantages of canary deployment.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+  
+        <section id="canary-deployment"  class="t-bg-primary">
+          
+            <h2>Canary deployment</h2>
+              <p>Canary deployment (which is also known as ‘phased’ or ‘incremental rollout’) rolls out the latest version of a software product to a smaller group of users, so they can act as a test group to catch errors and issues before deploying to the wider group.</p>
+<p>Canary deployment would alleviate capacity planning as the target audience is much smaller so the product would only need to be deployed to a single server or a limited set.  A subset of end users would test the update and alert the production team if there were any issues.</p>
+<p><img src="~/images/svg/cp3/cp3_u5_s1_p4_image.svg" alt=""></p>
+<p>It is quite robust because if there are any issues with the new release, users can still be directed to the existing ‘live’ version whilst updates and bug fixes are being carried out on the Canary updated version.</p>
+<p>One of the disadvantages is the resources that may be needed. This is because the time it would take to complete the updated version, as it is tested and phased into production, could be slow.</p>
+<p>Also, version management would be a critical consideration as more than one version would need to be managed simultaneously.  However, rollback can be quick with this type of deployment if it was found that was needed.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="key-point"  class="t-bg-supporting3 i-keypoint">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO keypoint -->
+    <svg viewBox="0 0 180 244.85" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m90 0a90 90 0 0 0 -90 90c0 20.72 7.54 39.28 18.65 54.85l71.35 100 71.36-100c11.11-15.58 18.64-34.19 18.64-54.85a90 90 0 0 0 -90-90z" fill="#007da8"/><path d="m157 90a67 67 0 1 1 -67-67 67 67 0 0 1 67 67z" fill="#fff"/><g fill="#25282b"><path d="m90.01 36.38-9.48 53.62 9.48 53.62 9.46-53.62z"/><path d="m36.39 90 53.62 9.47 53.6-9.47-53.6-9.46z"/><path d="m63.2 63.19 22.07 31.54 31.54 22.08-22.07-31.53z"/><path d="m63.2 116.81 31.54-22.09 22.07-31.53-31.53 22.08z"/></g></svg>
+Key point</h2>
+              <p>In your assessment you will be required to identify what is meant by rollback strategy.</p>
+
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="watch"  class="t-bg-grey i-watch">
+          
+            <h2>
+    
+    <!-- THEME ICON MACRO watch -->
+    <svg viewBox="0 0 232.18 168.39" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m0 146v16.58a5.77 5.77 0 0 0 5.78 5.78h220.58a5.78 5.78 0 0 0 5.78-5.78v-16.58z" fill="#00a6e0"/><path d="m232.18 146.21v-140.43a5.78 5.78 0 0 0 -5.78-5.78h-220.59a5.78 5.78 0 0 0 -5.81 5.78v140.43z" fill="#00a6e0"/><path d="m9.54 9.31h213.13v127.59h-213.13z" fill="#4a4f55"/><ellipse cx="116.11" cy="71.74" fill="#ddf2fb" rx="40.37" ry="40.15"/><path d="m116.11 112.57a40.83 40.83 0 1 1 41.05-40.83 41 41 0 0 1 -41.05 40.83zm0-80.3a39.47 39.47 0 1 0 39.68 39.47 39.62 39.62 0 0 0 -39.68-39.47z" fill="#32b6eb"/><path d="m101.03 98.26v-50.32l43.81 25.16z" fill="#00a6e0"/></svg>
+Watch</h2>
+              <h3>Rollback strategy</h3>
+<p>Choosing the right deployment strategy for a project would include several considerations.  One serious consideration is its support with rollback. Please see the following video to learn more.</p>
+
+              <!-- sections.njk VIDEO! -->
+              
+              
+              
+      <div class="l-video-container">
+        <video poster="~/images/svg/poster.svg" controls preload="metadata" aria-labelledby="watch" width="1000"
+          data-base="cp3_u5_s1_p3_rollback" 
+          data-ext=".mp4" 
+          data-multi="false"
+          data-trans="cp3_u5_s1_p3_rollback undefined">
+          <source src="https://kpcontent.blob.core.windows.net/$web/resources/v2l/720/cp3_u5_s1_p3_rollback.mp4" type="video/mp4">
+          <track default label="English" kind="captions" srclang="en" src="~/videos/captions/vtt/cp3_u5_s1_p3_rollback.vtt">
+          <p>Sorry, your browser doesn't support embedded videos</p>
+        </video>
+      </div>
+      
+          <toggle-section open="false">
+            <h3>Video transcript </h3>
+            <p><strong>Leah:</strong> As we have already discussed previously choosing the right deployment strategy for a project would include several considerations. One serious consideration is it’s support with rollback.</p>
+<p><strong>Chris:</strong> Rollback is the process of ‘rolling back’ a software product to a previous version. This normally occurs when there is an issue with the current release [the latest version] such as several bug fixes that need to be done. It may be a simple process if it only involves small changes: However, it could become an issue if it involves several elements of a software project, as they may have multiple dependencies.</p>
+<p>It would also become an issue, if the deployment strategy choice, such as Basic deployment, makes it difficult to support rollback.</p>
+<p><strong>Leah:</strong> Rollbacks can be fully automated, this is where a system would examine a set measurement or metric, and would either, mark it as complete which would finish the deployment, or roll it back.</p>
+<p>Rollbacks need to be quick, so as not to interrupt the end user using the product, and if the product uses a database, it will need to ensure that no data is lost.</p>
+<p><strong>Chris:</strong> For deployments to be successful, a rollback strategy would need to be considered in the Deployment plan. This written document outlines all the steps required to recover an application and or database to the point before the deployment, outlining the specific steps for each member of the deployment team. The plan would be tested so all the components could be determined, and it would include the locations of the scripts, needed to ‘rollback’ the deployment. It would also include the database name and the developer responsible for running the scripts.</p>
+<p><strong>Leah:</strong> When something does go wrong with a deployment, a team is more likely to respond in a systematic, calm, and logical way if it has a rollback strategy.</p>
+
+          </toggle-section>
+        
+      
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+        <section id="rollback-plan"  class="t-bg-supporting3">
+          
+            <h2>Rollback plan</h2>
+              <p>A rollback plan is a written document that outlines all the steps required to recover an application and or database to the point before the deployment.</p>
+<p>See below to see the difference between a deployment plan without rollback, minimal rollback, and an actual rollback plan.</p>
+
+              
+              
+  <div class="toggle-group">
+  
+<toggle-section open="false">
+    <h3>Examples of rollback plans</h3>
+    <table>
+<thead>
+<tr>
+<th>No rollback plan</th>
+<th>Minimal rollback plan</th>
+<th>Actual rollback plan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N/A there is no need for a rollback plan, change will be successful</td>
+<td></td>
+<td>DBA Task</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Scripts are located: D:\dba\CC4562\rollback\</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Login to the DB_APPS database as the system user and run the following scripts:</td>
+</tr>
+<tr>
+<td></td>
+<td>- drop the tables</td>
+<td>1.--drop tables - SQL&gt;@drop tables.sql</td>
+</tr>
+<tr>
+<td></td>
+<td>- run the deletes and updates</td>
+<td>2.--run required DML to restore previous state of tables - SQL&gt;@run delete.sql and SQL&gt;@run update.sql</td>
+</tr>
+<tr>
+<td></td>
+<td>- test</td>
+<td>3.--verify - SQL&gt;@post_rollback_verify.sql</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>All logs need to be saved to: D:\dba\CC4562\rollback\logs</td>
+</tr>
+</tbody>
+</table>
+
+</toggle-section>
+</div>
+
+            
+          
+        </section>
+        
+    
+     
+    
+  
+     
+    
+  
+  
+      <!-- A -->
+
+<section id="on-the-web_3573967870298" class="i-on-web t-bg-secondary2">
+  <h2><svg viewBox="0 0 222.27 185" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" ><path d="m78.25 151.21h65.78v28.81h-65.78z" fill="#b5c7ca"/><g fill="#dcf1fa"><path d="m148.09 179.51h-73.91c-1.87 0-3.4 1.79-3.4 4v1.49h80.71v-1.5a3.73 3.73 0 0 0 -3.4-3.99z"/><path d="m0 140v15.88a5.52 5.52 0 0 0 5.53 5.53h211.21a5.53 5.53 0 0 0 5.53-5.53v-15.88z"/><path d="m222.27 140v-134.46a5.54 5.54 0 0 0 -5.53-5.54h-211.21a5.53 5.53 0 0 0 -5.53 5.54v134.46z"/></g><path d="m9.11 8.65h204.06v122.17h-204.06z" fill="#00a6e0"/><path d="m214 131.61h-205.69v-123.76h205.69zm-204.1-1.61h202.47v-120.56h-202.47z" fill="#4a4f55"/></svg>
+ On the web</h2>
+
+  <p>Please see the following websites where you can learn more about rollback strategy and see the above example table.</p>
+
+
+  <ul>
+      <li><a href="//www.linkedin.com/pulse/how-good-your-rollback-strategy-5-ingredients-diana-robete" target="_blank" rel="noopener">Rollback strategy 5 ingredients <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M22 14.5v5c0 2.484-2.016 4.5-4.5 4.5h-13A4.502 4.502 0 0 1 0 19.5v-13C0 4.016 2.016 2 4.5 2h11c.281 0 .5.219.5.5v1c0 .281-.219.5-.5.5h-11A2.507 2.507 0 0 0 2 6.5v13C2 20.875 3.125 22 4.5 22h13c1.375 0 2.5-1.125 2.5-2.5v-5c0-.281.219-.5.5-.5h1c.281 0 .5.219.5.5zM28 1v8c0 .547-.453 1-1 1a.99.99 0 0 1-.703-.297l-2.75-2.75L13.36 17.14c-.094.094-.234.156-.359.156s-.266-.063-.359-.156l-1.781-1.781c-.094-.094-.156-.234-.156-.359s.063-.266.156-.359L21.048 4.454l-2.75-2.75a.996.996 0 0 1-.297-.703c0-.547.453-1 1-1h8c.547 0 1 .453 1 1z"/></svg></a></li>
+      <li><a href="//www.linkedin.com/pulse/lessons-from-management-rollback-plan-jos-accapadi-mba?trk=pulse-article" target="_blank" rel="noopener">Rollback plan - lessons from management <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><path d="M22 14.5v5c0 2.484-2.016 4.5-4.5 4.5h-13A4.502 4.502 0 0 1 0 19.5v-13C0 4.016 2.016 2 4.5 2h11c.281 0 .5.219.5.5v1c0 .281-.219.5-.5.5h-11A2.507 2.507 0 0 0 2 6.5v13C2 20.875 3.125 22 4.5 22h13c1.375 0 2.5-1.125 2.5-2.5v-5c0-.281.219-.5.5-.5h1c.281 0 .5.219.5.5zM28 1v8c0 .547-.453 1-1 1a.99.99 0 0 1-.703-.297l-2.75-2.75L13.36 17.14c-.094.094-.234.156-.359.156s-.266-.063-.359-.156l-1.781-1.781c-.094-.094-.156-.234-.156-.359s.063-.266.156-.359L21.048 4.454l-2.75-2.75a.996.996 0 0 1-.297-.703c0-.547.453-1 1-1h8c.547 0 1 .453 1 1z"/></svg></a></li>
+  </ul>
+
+  <p>
+    <small>vision&#x200B;2&#x200B;learn is not responsible for the content of external sites.</small>
+  </p>
+</section>
+  
+    
+     
+    
+  
+  
+      <!-- A -->
+
+<section id="time-to-think" class="t-bg-primary3 i-think">
+  <div class="l-media l-media--half l-media--max">
+    <h2 class="l-media__title" id="ttt_4505461458746">
+      Time to Think 
+    </h2>
+    <div class="l-media__body" id="ttt_desc_4505461458746">
+      <p>Choose from one of the following types of deployment strategy, and make some notes on why you would select that strategy for a software project:</p>
+<ul>
+<li>Basic deployment</li>
+<li>Blue-green deployment</li>
+<li>Canary deployment</li>
+<li>A/B testing</li>
+</ul>
+
+    </div>
+      @Html.Partial("_JournalAddEntry", new JournalData((int)@ViewBag.CurrentUnit,
+        (int)@ViewBag.CurrentSession, (int)@ViewBag.CurrentPage, @ViewBag.CurrentSessionTitle,
+        "Choose from one of the following types of deployment strategy, and make some notes on why you would select that strategy for a software project: * Basic deployment * Blue-green deployment * Canary deployment * A/B testing",
+        formClassAttribute: "l-media__img l-think", 
+        formIdAttribute: "formJournal_7668316273040", 
+        formLabelledBy: "ttt_4505461458746", 
+        formDescribedBy: "ttt_desc_4505461458746"))
+  </div>
+</section>
+  
+    
+     
+    
+
+  <!-- sections -->
+
+
+

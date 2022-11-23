@@ -1,0 +1,46 @@
+<Course id="137" name="Cyber Security">
+  <Units>
+    <Unit number="1" title="Unit 1 of 6: Introduction to cyber security">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understand motivations for cyber crime" pages="5" />
+        <Session number="2" title="Session 2 of 3: Understand the need for cyber security" pages="3" />
+        <Session number="3" title="Session 3 of 3: Know about job roles within cyber security" pages="4" />
+      </Sessions>
+    </Unit>
+    <Unit number="2" title="Unit 2 of 6: Understand terminology used in cyber security">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understand cyber security terminology" pages="6" />
+        <Session number="2" title="Session 2 of 3: Understand current and emerging challenges in cyber security" pages="2" />
+        <Session number="3" title="Session 3 of 3: Understand what is meant by social engineering" pages="2" />
+      </Sessions>
+    </Unit>
+    <Unit number="3" title="Unit 3 of 6: Understand legal and ethical aspects of cyber security">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understand key legislation related to cyber security" pages="3" />
+        <Session number="2" title="Session 2 of 3: Understand procedures to maintain data confidentiality and security" pages="2" />
+        <Session number="3" title="Session 3 of 3: Understand ethical conduct in cyber security" pages="2" />
+      </Sessions>
+    </Unit>
+    <Unit number="4" title="Unit 4 of 6: Understand common threats to cyber security">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Know about common and emerging threats to cyber security" pages="3" />
+        <Session number="2" title="Session 2 of 3: Understand what is meant by malicious software" pages="2" />
+        <Session number="3" title="Session 3 of 3: Understand physical threats to cyber security" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="5" title="Unit 5 of 6: Understand methods of maintaining cyber security">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understand preventative methods used to maintain cyber security" pages="4" />
+        <Session number="2" title="Session 2 of 3: Understand the principles of user access control" pages="2" />
+        <Session number="3" title="Session 3 of 3: Understand the use of firewalls" pages="3" />
+      </Sessions>
+    </Unit>
+    <Unit number="6" title="Unit 6 of 6: Working with others in cyber security">
+      <Sessions>
+        <Session number="1" title="Session 1 of 3: Understand team working for cyber security" pages="4" />
+        <Session number="2" title="Session 2 of 3: Understand the use of interpersonal skills for working in cyber security" pages="2" />
+        <Session number="3" title="Session 3 of 3: Understand types of written communications used in cyber security" pages="3" />
+      </Sessions>
+    </Unit>
+  </Units>
+</Course>

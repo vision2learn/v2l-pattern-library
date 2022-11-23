@@ -1,0 +1,53 @@
+[class*="i-"] h2 {
+  display: flex;
+  align-items: center;
+
+  > svg {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+  }
+}
+
+// data:image/svg+xml;charset=UTF-8,<svg ...> ... </svg>
+// .i-quiz h2::before {
+//   // content: url(/images/svg/course-features/quiz.svg);
+//   content: url("data:image/svg+xml;base64,#{$quiz}")
+// }
+
+// .i-on-web h2::before {
+//   content: url("data:image/svg+xml;base64,#{$web}");
+// }
+
+// .i-summary h2::before {
+//   content: url("data:image/svg+xml;base64,#{$summary}");
+// }
+
+// .i-stretch h2::before {
+//   content: url("data:image/svg+xml;base64,#{$stretch}");
+// }
+
+// .i-keypoint h2::before {
+//   content: url("data:image/svg+xml;base64,#{$keypoint}");
+// }
+
+// .i-think h2::before {
+//   content: url("data:image/svg+xml;base64,#{$think}");
+// }
+
+// .i-read h2::before {
+//   content: url("data:image/svg+xml;base64,#{$read}");
+// }
+
+// .i-watch h2::before {
+//   content: url("data:image/svg+xml;base64,#{$watch}");
+// }
+
+// .i-casestudy h2::before {
+//   content: url("data:image/svg+xml;base64,#{$case-study}");
+// }
+
+// .i-practice h2::before {
+//   content: url("data:image/svg+xml;base64,#{$practice}");
+// }
