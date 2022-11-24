@@ -1,0 +1,84 @@
+title: The right impression
+intro: |
+  In this session, you will learn how to present a positive impression to those outside the team.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Why it is important to give a positive impression to internal and external customers 
+      * Why product/service knowledge is important in presenting a positive impression to those outside the team 
+      * Why it is important to observe legal, organisational and ethical rules when providing information to customers 
+      * Communication skills that could improve the relationship with customers 
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you can explain why it is important to give a positive impression to internal and external customers.
+  -
+    title: What are internal and external customers?
+    theme: t-bg-primary
+    copy: |
+      Text
+  -
+  -
+    title: The importance of making a positive impression
+    theme: t-bg-primary
+    copy: |
+      These are the reasons it's important to give a positive impression to internal and external customers.  
+      
+      For internal customers, it's important to make a positive impression because it will reflect well on the competency of your team. This will raise their profile and may mean they're in line for bonuses and greater responsibilities. Internal customers aren't likely to pay for your services, unlike external customers who would be expected to pay. 
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Magic Co.'s negative impression  
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Loss of customers
+          copy: |
+            text
+          
+        - 
+          title: Failure to find new customers
+          copy: |
+            text
+          
+        - 
+          title: Collapse of recommendations
+          copy: |
+            text
+          
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of why it is important to give a positive impression to internal and external customers. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.

@@ -1,0 +1,61 @@
+title: How to communicate outside the team
+intro: |
+  On this page you will learn about:
+  * Methods for communicating with those outside of the team
+  * The advantages and disadvantages of each method 
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure that you can give examples of methods for communicating with those outside of the team. 
+  -
+    title: Methods for communicating with those outside of your team 
+    theme: t-bg-supporting3
+    copy: |
+      Over this unit, we've discussed a lot of different communication methods. Here, we're going to talk about them in relation to communicating outside of your team. 
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Presentations and meetings
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Emails
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Face-to-face conversations
+          copy: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Phone and video calls
+          copy: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Advantages and disadvantages of those methods
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Text
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of methods for communicating with those outside of your team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+
+ 

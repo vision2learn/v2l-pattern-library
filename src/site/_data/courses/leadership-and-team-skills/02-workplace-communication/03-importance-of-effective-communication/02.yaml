@@ -1,0 +1,84 @@
+title: Workplace communication
+intro: |
+  On this page you will learn about:
+    * The possible impacts of poor communication in the workplace 
+    * Methods to communicate in the workplace 
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure you can outline the possible impacts of poor communication in the workplace. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Communicating in the workplace
+      
+      In this video, you'll find out about the possible impacts of poor communication in the workplace.
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the possible impacts of poor communication in the workplace. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure you can identify methods to communicate in the workplace.
+  -
+  -
+    title: Methods of communication in the workplace
+    theme: t-bg-primary
+    copy: |
+      We've talked about different methods of communication already, but now we're going to look at them in the workplace. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Oral
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Written
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Electronic
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of methods to communicate in the workplace. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can read more about common methods of communication in the workplace. 
+
+      links:
+        4 Types of Workplace Communication: https://www.texthelp.com/en-gb/resources/blog/4-types-of-workplace-communication/
