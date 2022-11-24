@@ -11,90 +11,66 @@ sections:
     copy: |
       In your assessment you will be required to describe the specific regulations, safe working practices and procedures that apply to a work activity 
   -
-    title: Introduction
+    title: Introduction 
+    layout: media
     theme: t-bg-primary
     copy: |
-      All workplaces must adhere to certain regulations. To do this they must have safe working practices and procedures in place. Some of these will be very familiar to you e.g. Health and Safety.  To understand what the difference is between regulations, safe working practices and procedures, you can think about the overall legislation which is The Health and Safety at Work Act 1974. This tells employers what they must do, it’s then up to the employer to ensure that their staff comply. Safe working practices are what’s done day to day by everone, often they will have a writtten procedure for all staff to follow.  
-  
+      All workplaces must adhere to certain regulations. To do this they must have safe working practices and procedures in place. Some of these will be very familiar to you e.g. Health and Safety.  To understand what the difference is between regulations, safe working practices and procedures, you can think about the overall legislation which is The Health and Safety at Work Act 1974. This tells employers what they must do, it’s then up to the employer to ensure that their staff comply. Safe working practices are what’s done day to day by everone, often they will have a writtten procedure for all staff to follow. 
+
+    img: /images/svg/placeholder_icon.svg
   -
-    title: Health, safety and wellbeing
+    title: Regulations, safe working practices and procedures 
     theme: t-bg-supporting3
     copy: |
-      Health, safety and wellbeing is a vital aspect in our daily lives, and it is taken very serious in the workplace through laws and regulations aimed at protecting employers, employees, visitors, customers and public at large. lets take a look at some key reasons why health and safety is important.
+      There are many regulations, procedures and working practices relevant to workplaces. Some are specific to the type  of work being performed whilst others are relevant to all workplaces.
+
+      Scroll through the slides below to see an example of how one piece of legislation is applied in the workplace 
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Key reasons
+          title: Legislation
           text: |
-            **Legal** &rarr; Employer and employee have a legal responsibility to minimise and eliminate hazards and unsafe practices that could cause injuries or death.
+            The Health and Safety at Work Act 1974 (HASAWA) is the law that tells every employer that they must ensure, so far as reasonably practicable, the health, safety and welfare of persons at work. It states that employers are responsible for protecting the safety of their employees at work. Elements within the legislation include:
 
-            **Morale** &rarr; The physical harm to any employee; resulting in pain, suffering, potential loss of future earning capacity, and high staff turnover from low morale
+            **Safety** &rarr; No illness or risk of illness due to working conditions.
 
-            __Financial__ &rarr; Not operating safely can seriously affect the balance sheet and profitability of an organisation.
+            **Morale** &rarr; No injury or accident or risk of accident or death due to work.
 
+            **Welfare** &rarr; Good working conditions – washing, toilets, rest breakout area, refreshment facilities, ventilation etc.
 
+            **Environment** &rarr; Controlling pollution to the air, water and land.
+          img: placeholder_icon.svg
+        -
+          title: Safe Working Practices
+          text: |
+            Employees are expected to follow safe working practices within their day to day activities, which align with HASAWA. These include:
+
+             * Take reasonable care for your own health and safety and that of others who may be affected by what you do or don’t do.
+
+             * Co-operate with your employer on health and safety.
+
+             * Correctly use work items provided by your employer including personal protective equipment, in accordance with training or instructions.
+
+             * Not to interfere with or misuse anything provided for your health, safety, or welfare.
+
+             * Report any accidents or near misses as they happen.
 
           img: placeholder_icon.svg
         -
-          title: What does it Mean?
+          title: Policies
           text: |
-            Under health and safety law, every employer must ensure, so far as reasonably practicable, the health and safety of all their employees and others who could be affected by their business.
+            The legislation states that organisations with more than 5 employees must have a written Health and Safety policy. The policy will inform staff and visitors how the organisation manages their health, safety and wellbeing, clearly identifying who does what, how they do it and when. The policy should contain:
+            
+            * Statement of intent – what the organisations aims are for health & Safety. This should be displayed where all can read it. 
 
-             __Health__ &rarr; No illness or risk of illness due to working conditions. 
+            * Responsibilities for health & safety – name the people and their job roles with specific responsibility
 
-             __Safety__ &rarr; No injury or accident or risk of accident or death due to work.
+            * Arrangements for health & Safety – describe precisely how the organisation will control risks. 
 
-             __Welfare__ &rarr; Good working conditions – washing, toilets, rest breakout area, refreshment facilities, ventilation etc.
-
-             __Environment__ &rarr; Controlling pollution to the air, water and land.
-
-
-          img: placeholder_icon.svg
-        -
-          title: Main ‘Employer’ Health and Safety Responsibilities
-          text: |
-            There may be specific measures that your employer shall need to provide protection for you and others against any risks arising from the particular work being carried out, the environment being worked in or the tools, materials or equipment being used. Under the __Health and Safety at Work Act (HASAWA)__, the ‘employer’ must cover the following:
-
-            __Risk Assessment__ &rarr; Assess the risks to your health and safety and take action to minimise or remove the risks identified, making the workplace safe. 
-
-            __Standards__ &rarr; Set up safe working practices, mitigating any risk identified in the health and safety risk assessment and ensure these are followed.
-          
-            __Training__ &rarr; Provide you with health and safety training you need to do your job.
-
-            __Protective Equipment__ &rarr; Provide you with any personal protective equipment (PPE) clothing free of charge and ensure it is properly looked after and stored. 
-
-            __Safety Representative__ &rarr; Appoint somebody competent to assist with health and safety responsibilities.
-
-            __Hazard Awareness__ &rarr; Tell you about any potential hazards, ensuring chemicals and other substances are handled and stored safely in accordance with instructions.
-
-            __Welfare facilities__ &rarr; Provide adequate first-aid facilities and break out area, e.g. toilets, washing rest and refreshment facilities.
-
-            __Emergency Procedures__ &rarr; Set up emergency procedures, with clear signage, together with HSE or local authority reporting processes of injuries and dangerous occurrences
-
-          img: placeholder_icon.svg
-        -
-          title: What about employee responsibilities?
-          text: |
-            Health and safety is about preventing you getting injured or ill through work tasks. Your employer is responsible for health and safety provision and management, but you have a legal obligation to help too. Your responsibilities include:
-
-            &rarr; Take reasonable care for your own health and safety and that of others who may be affected by what you do or don’t do.
-
-            &rarr; Co-operate with your employer on health and safety.
-
-            &rarr; Correctly use work items provided by your employer including personal protective equipment, in accordance with training or instructions.
-
-            &rarr; Not to interfere with or misuse anything provided for your health, safety, or welfare.
-
-            &rarr; Report any accidents or near misses as they happen.
-
-          img: placeholder_icon.svg
-        -
-          title: 
-          text: |
-          
+            Organisations with less than 5 people do not have to write down a policy, but it’s considered good practice to do so. 
           img: placeholder_icon.svg   
          
   -
