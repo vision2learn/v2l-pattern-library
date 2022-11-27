@@ -1,0 +1,102 @@
+title: Blockers to teamwork
+intro: |
+  On this page you will learn about possible barriers to effective team working and their effects.
+banner: lts_u1_s3_p2_blockers.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can identify possible barriers to effective team working.
+  -
+  -
+    title: Common barriers
+    theme: t-bg-primary
+    copy: |
+      Barriers to effective teamworking are factors or elements that prevent the team from working as well as it could. There are many possible barriers to effective teamworking. Awareness of these will help you avoid them.
+
+      Select the images below to learn more:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Location
+          copy: |
+            Many workplaces now feature hybrid working, meaning at least part of their workforce is primarily based at home or in another location, which can be hard to coordinate.
+          img: placeholder_icon.svg
+        -
+          title: Poor leadership
+          copy: |
+            Bad leadership, or lack of any leadership at all, is very unhealthy for a team. It undermines the team’s efficiency, morale and unity.
+          img: placeholder_icon.svg
+        -
+          title: Lack of communication
+          copy: |
+            Without clear communication, it’s extremely difficult for team members to know what they’re meant to do.
+          img: placeholder_icon.svg
+        -
+          title: Conflict
+          copy: |
+            Although conflict is to some extent inevitable, a team where conflict is frequent and meaningful resolutions are rare is a team that’s failing.
+          img: placeholder_icon.svg
+        -
+          title: Undefined goals
+          copy: |
+            This can be one of the worst barriers for a team – without clear goals, the team lacks purpose and direction. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can identify possible effects of these identified barriers. 
+  -
+  -
+    title: Possible effects
+    theme: t-bg-supporting3
+    copy: |
+      The barriers above can have severe effects for any team.
+
+      Select the 'EXPAND ALL' button to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Location
+          copy: |
+            A geographically dispersed team that isn’t properly co-ordinated will feel directionless and disparate. It won’t have a strong sense of unity and team members will feel isolated from one another, which is bad for morale, well-being, and productivity.  
+        - 
+          title: Poor leadership
+          copy: |
+            Without good leadership, the team will be like a ship lost at sea. A leader is meant to cut through the distractions and establish strategic direction. Without that, the team is unlikely to know how to approach its goals, leading to avoidable mistakes.
+        - 
+          title: Lack of communication
+          copy: |
+            Without communication, a team is likely to start pulling in different directions. People will make assumptions about other peoples’ work, at best leading to misunderstanding and at worse leading to a functional breakdown. The team won’t know what it’s meant to be doing, or even what it is doing.
+        - 
+          title: Conflict
+          copy: |
+            Friendly disagreement and debate are both a normal part of working life, but unchecked conflict can literally destroy a team. Team members won’t want to work with one another, they’ll lose sight of their goals, and may even quit altogether in a situation like that.
+        - 
+          title: Undefined goals
+          copy: |
+            Goals that aren’t clearly defined aren’t real goals. A team has to know what its function is and what its goals are. Without this being clearly defined, the team simply won’t know what to do.
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the possible barriers to effective team working and their possible effects. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can read more about barriers to working in a team and their effects.
+
+      links:
+        11 Common Barriers to Teamwork and How You Can Overcome Them: https://www.indeed.com/career-advice/career-development/barriers-to-teamwork

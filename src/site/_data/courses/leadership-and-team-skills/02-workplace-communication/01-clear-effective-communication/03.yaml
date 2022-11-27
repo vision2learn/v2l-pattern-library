@@ -1,0 +1,184 @@
+title: Communication and barriers
+intro: |
+  On this page you will learn about the key stages in the communication process, and the potential barriers to communication and outline how these could be overcome. 
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can describe the key stages in the communication process.
+  -
+  -
+    title: The components of communication
+    theme: t-bg-primary
+    copy: |
+      Communication can be thought of as a process that has several distinct components:
+      * Sender
+      * Encoding
+      * Channel
+      * Receiver
+      * Decoding
+      * Feedback 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Sender
+          text: |
+            The sender has information they want to communicate to someone else. The sender could be one person, or it could be a whole organisation, like a business or a political party.
+          img: placeholder_icon.svg
+        -
+          title: Encoding
+          text: |
+            Encoding is when you take the information you want to communicate to and put it into a form that lets it be shared with someone else. To encode the message, you need to know the audience who'll be receiving it, as different audiences will have their own needs.
+          img: placeholder_icon.svg
+        -
+          title: Channel
+          text: |
+            This is the way the message is going to be communicated. The channel could be any form of written, oral, or nonverbal communication, like we talked about on the last page. Think about which channel will be right for this message and this audience.
+          img: placeholder_icon.svg
+        -
+          title: Receiver
+          text: |
+            The receiver is the audience for the message. It could be an individual, an organisation, or even the whole general public.
+          img: placeholder_icon.svg
+        -
+          title: Decoding
+          text: |
+            This is what happens when someone receives a message. To successfully decode a message, the receiver has to be able to understand it. Make sure that you've got the time and space to properly understand messages you need to decode.
+          img: placeholder_icon.svg
+        -
+          title: Feedback
+          text: |
+            This is what happens when someone receives a message. To successfully decode a message, the receiver has to be able to understand it. Make sure that you've got the time and space to properly understand messages you need to decode.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - The whole process
+
+      Let's check in with the app development team at Magic Co., who we met in Unit 1.  
+      
+      They want to raise awareness of the app now that it's ready for release. Here's how the components of the communication process apply to them. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sender
+          copy: |
+            In this example, the sender is Magic Co. They want to communicate the fact that they have a new app to download.
+        - 
+          title: Encoding
+          copy: |
+            Encoding in this example means deciding what they want to say about the app. They want to emphasise that it works alongside their platform seamlessly and gives users a more mobile gaming experience.
+        - 
+          title: Channel
+          copy: |
+            They decide they want to use multiple channels – ads on spaces and websites, emails sent to people who already use their platform, and billboard ads in public spaces. This is a combination of the different methods we talked about on the previous page.
+        - 
+          title: Receiver
+          copy: |
+            The receiver here is the potential audience for the app. Magic Co. want current users of their platform to download the app, as well as people who are altogether new to their business. They've adjusted their messaging to target both sides of their audience.
+        - 
+          title: Decoding
+          copy: |
+            Decoding is successful in this example if people who see the adverts for the app understand what is being advertised, and decide to download the app. That means it needs to be obvious what the adverts are about and where the app can be found.
+        - 
+          title: Feedback
+          copy: |
+            It's important to remember that feedback doesn't necessarily have to be communication in the same form. In this case, feedback might be received in the form of surveys about the ad campaign, public discussion about the app, and people's behaviour – are they downloading the app or not?
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What do you think about the communication that the app development team at Magic Co. has used? Could this be improved? Have you an example of using a similar process?
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can list potential barriers to communication and outline how these could be overcome.  
+  -
+  -
+    title: Barriers to communication
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Now we've identified the main components of communication, we're going to take a look at the most common barriers to clear and effective communication in the workplace. 
+
+      * Cultural differences – this occurs when the kind of language (vocabulary, style) being used is unsuitable or unfamiliar to the receiver.
+      * Inattention and lack of engagement – that means that neither the sender, the receiver, or both really care about communicating so not enough attention is being paid.
+      * Information overload – too much information is being communicated; this could either be because the wrong channel is being used, or the information hasn't been encoded right.
+      * Distractions and noise – this can be literal noise, such as if you're trying to have a sensitive conversation in a business area, or it can be more general, like if an email is cluttered with unnecessary pictures.
+      * Emotions – in nonverbal and oral communication, in particular, it's easy to let our emotions get the better of us and undermine our message.
+      * Lack of clarity – either because of poor encoding or an inappropriate channel, the information in the message just isn't clear to the receiver.
+      * Wrong style and tone – the message could be in the right channel, but it's too formal and impersonal, or it could be too informal and casual.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: How to overcome these barriers
+    theme: t-bg-supporting3
+    copy: |
+      Now we've identified some common barriers to communication, we can look at ways you can overcome these.  
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Cultural differences
+          copy: |
+            The important thing with language barriers is to establish a common ground that both sender and receiver are familiar with. This will make communication smoother and more reliable. It's also important to bear in mind who the audience is – what can you do to make the language you're using more appropriate for them? 
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Inattention and lack of engagement
+          copy: |
+            For the sender, it's important to invest time and energy into making the communication relevant to the receiver – it should be clear *why* this is important for them. Receivers should try to avoid distractions when they receive a message so they can focus on it fully; it's also important to ask follow-up questions if needed.  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Information overload
+          copy: |
+            Senders need to be mindful of how much information they need to communicate and how much they are communicating. It's easy to go into too much detail about irrelevant points sometimes. In general, the shorter the message, the easier it is to understand (though that doesn't mean you should omit important details if they're necessary). 
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Distraction and noise
+          copy: |
+            Keep communications clear and to the point. Don't throw in visuals or graphics or fancy phrases just for the sake of them. Everything in the message should have a reason to be there. Make sure that conversations happen somewhere quiet and private, especially if they're on a sensitive subject.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Emotions
+          copy: |
+            Human beings aren't robots – there's nothing wrong with your emotions coming through in communication! But you need to consider how you're expressing your feelings, and if it's appropriate to do so. Being too emotive or trying to provoke an emotional response in the receiver might not always be appropriate.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Lack of clarity
+          copy: |
+            If a communication is too vague or too long, the receiver may feel like they're time is being wasted. They'll lose focus and miss important information. Your communications should be direct and to the point. Avoid using complicated imagery or metaphors and be clear about the purpose of the communication.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Wrong style and tone
+          copy: |
+            Everyone has their own style of writing and speaking, and that's fine. In fact, a bit of personality in your communication will often make them easier to understand. But be mindful of the tone and style of your communications. Think about what your audience is expecting from you, and what you need to say. Think about times you've received communications that felt like they were in an inappropriate tone or style – how would you have said things differently?
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of potential barriers to communication and outline how these could be overcome. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.

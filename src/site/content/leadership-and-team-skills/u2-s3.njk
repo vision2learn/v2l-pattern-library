@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 3,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['02-workplace-communication']['03-importance-of-effective-communication']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

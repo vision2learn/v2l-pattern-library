@@ -1,0 +1,149 @@
+title: The importance of records
+intro: |
+  In this session you will learn about the importance of maintaining accurate records of communication.
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Why it is important to have a record of communication. 
+      * The importance of keeping a record of oral communication. 
+      * Methods of maintaining accurate records of electronic and oral communication. 
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can explain why it is important to have a record of communication.
+  -
+    title: Reasons to keep records
+    theme: t-bg-supporting3
+    copy: |
+      After an email has been sent or a conversation has been concluded, it's important that a record of the communication is kept. We're going to look at some reasons why. 
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Double-checking instructions
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Reference for other people
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Legal reasons
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Proof of what was said
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: What could happen if records aren't kept?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      
+      
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can explain the importance of keeping a record of oral communication. 
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Who said what? 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            
+            text
+
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Keeping records of oral communication 
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      
+      
+      Topic introduction text here 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise_
+
+        Text
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        
+
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk

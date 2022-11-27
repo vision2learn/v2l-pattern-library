@@ -1,0 +1,106 @@
+title: Effective working teams
+intro: |
+  In this session you will learn about effective working teams.
+banner: lts_u1_s3_p1_effective.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * The characteristics of an effective team and the advantages of working in a team
+      * The possible barriers to effective team working
+      * The possible effects of identified barriers on the team
+      * How to create and maintain an effective team
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can identify the characteristics of an effective team and the advantages of working in a team.
+  -
+    title: Effective teams
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      An effective team is great for its organisation and for the people who make it up. It’s much easier and more satisfying to work in a team that gets the job done.
+      
+      It can take a lot of work to build an effective team – really, it’s a project in itself. You need to have a very clear idea of the kind of experience and skills you want included in your team for it to be a success.
+
+      A key element of an effective team is that everyone in it should feel like they’re contributing to the overall success of their team and organisation. That means people have to be able to see the big picture. One of the responsibilities of a team leader is to keep that big picture visible.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Characteristics of an effective team
+    theme: t-bg-supporting3
+    copy: |
+      Let’s look at some of the characteristics of an effective team in detail.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Strong leadership
+          text: |
+            Strong leadership doesn’t mean being a mini-dictator. A true leader is someone who is trusted by their team to deliver guidance and security. A strong leader keeps their team unified while respecting differences in opinion.
+          img: placeholder_icon.svg
+        -
+          title: Collaboration
+          text: |
+            An effective team is a team where people collaborate. They share skills, knowledge and time with one another to make sure that people are hitting their goals and thus propelling the team along to hitting its overall goals.
+          img: placeholder_icon.svg
+        -
+          title: Communication
+          text: |
+            An effective team prioritises clear lines of communication. This allows individuals in a team to quickly understand their own tasks and how they relate to their colleagues. Collaboration, strong leadership and other features of effective teams aren’t possible without this.
+          img: placeholder_icon.svg
+        -
+          title: Constructive conflict resolution
+          text: |
+            Conflicts and friction are inevitable in every team – but that isn’t the same thing as arguments or fights. Conflict and friction just mean there’s a lack of consensus and people are taking sides. In an effective team, conflict resolution emphasises listening to both sides and finding a solution that everyone is happy with.
+          img: placeholder_icon.svg
+        -
+          title: Clear goals
+          text: |
+            Without clearly defined goals, either nothing will get done or, worse, the wrong thing will get done. Precise goals, communicated clearly by a leader who gives direction are what make a team truly effective.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Advantages of team working
+    theme: t-bg-primary
+    copy: |
+      We’ve seen already that there are benefits to working in teams over working in groups. Now we’re going to look at more of the specific advantages of team working as opposed to working alone.
+
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sharing ideas
+          copy: |
+            In a team, you’re exposed to your colleagues’ ideas – and they’re exposed to yours too. This creates an environment where ideas and knowledge are being freely shared to the benefit of all.
+        - 
+          title: Morale and motivation
+          copy: |
+            Extended periods of working alone are bad for your morale and wellbeing. Human beings are social creatures, and we need the companionship that a team provides. Working together in a team boosts your motivation because of this.
+        - 
+          title: Improved productivity
+          copy: |
+            Working in a team boosts productivity. This is because of the support network that a team provides you – it’s easier to learn new and methods for working, as well as asking your colleagues for advice and guidance.       
+        - 
+          title: Safer risk taking
+          copy: |
+            Because of the safety that being in a team provides, you’re more likely to take risks when you belong to one. That’s because of the resources at your disposal to support you; both the shared pool of knowledge and experience, and the collaborative spirit of the team.   
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following links where you can read more about the advantages of working in a team.
+
+      links:
+        The importance of teamwork (as proven by science): https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork
+        7 advantages of teamwork: https://www.intheloop.io/blog/advantages-of-teamwork/

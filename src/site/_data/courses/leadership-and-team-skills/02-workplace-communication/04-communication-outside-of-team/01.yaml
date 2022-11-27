@@ -1,0 +1,92 @@
+title: Communicating outside the team
+intro: |
+  In this session, you will learn about the importance of effective communication with people outside the team. 
+banner: placeholder.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * Why effective communication with those outside the team is important
+      * Methods of communicating with those outside of the team
+      * The advantages and disadvantages of each method
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can explain why effective communication with those outside the team is important.
+  -
+    title: Communicating with people outside of the team
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Text
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: How to communicate with those outside of the team
+    theme: t-bg-supporting2
+    copy: |
+      text
+
+      See below to learn more.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: one
+          copy: |
+            one
+            
+          
+        - 
+          title: two
+          copy: |
+            two
+            
+          
+        - 
+          title: three
+          copy: |
+            three
+            
+        - 
+          title: four
+          copy: |
+            four            
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - The Pickled Cucumber's teams 
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            text
+          
+        - 
+          title: title
+          copy: |
+            text
+          
+        - 
+          title: title
+          copy: |
+            text
+          
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+       Make a note of why effective communication with those outside the team is important. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 

@@ -1,0 +1,17 @@
+---js
+{
+  unit: 2,
+  session: 4,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['02-workplace-communication']['04-communication-outside-of-team']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
