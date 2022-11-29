@@ -1,6 +1,6 @@
-title: TEMPLATE PAGE
+title: Understand effective team working 
 intro: |
-  intro text
+  In this session you will learn about effective team working, the importance of building effective teams and working relationships, the types of problems that can occur and how to deal with them. 
 banner: placeholder.jpg
 sections:
   -
@@ -8,25 +8,78 @@ sections:
     theme: t-bg-primary
     copy: |
       In this session you will learn about:
-      * one
-      * two
-      * three
+      * The characteristics of an effective team 
+      * The factors that contribute to effective team working
+      * The importance of creating and maintaining effective working relationships 
+      * How the principle of team role theory is used in team building
+      * The types of problem that can occur with working relationships
+      * The actions that can be taken to deal with specific problems in working relationships 
+      * The importance of sharing knowledge, information and performance measures with other people in the team and with other groups
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe the characteristics of an effective team 
   -
-    title: introduction text
+    title: All about teamwork
     layout: media
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
+      Organisations are made up of teams of employees who work together. Teams are often more effective at completing tasks than individuals, particularly when the tasks are complex or require creative thinking.
+      A team has:
 
+      * Members who work together
+      * A degree of ‘loyalty’ among members
+      * An interdependence working towards goals
+      * Goals and objectives it works towards
+      * A perception of itself as a team.
     img: /images/svg/placeholder_icon.svg
   -
+    title: Team characteristics
+    theme: t-bg-supporting3
+    copy: |
+     
+    
+      Scroll through the slides below to learn more about the characteristics that contribute to effective teams
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Common goals
+          text: |
+            A chief characteristic of any successful team is that members place the common goal above individual interests. While scaling individual targets is great for personal morale, teams succeed when they understand, appreciate and work with a common purpose.
+          img: placeholder_icon.svg
+        -
+          title: Good communication
+          text: |
+            In any team, communication is crucial to building a sense of camaraderie between members. The manner of communication — how freely and frequently team members communicate — determines the effectiveness of the team. Put simply, the more freely you talk to your fellow team members, the more comfortable you are in sharing insights and ideas. This is just one major reason why modern businesses emphasize communication and collaboration tools.
+          img: placeholder_icon.svg
+        -
+          title: Trust
+          text: |
+            Team members who cannot trust one other or who don’t believe in the process and goals of the team seldom find success. Effective teams focus on solving problems. Trust is an adjunct of effective communication; there can be trust between team members only if they are allowed to air their views freely. This is the reason why organizations often undertake team-building exercises that put team members in positions of trust.
+          img: placeholder_icon.svg
+        -
+          title: Defined roles
+          text: |
+            Roles might shift somewhat once the team is assembled, but understand the skill sets and thinking styles are needed on the team. If a team needs to develop a new product for market, that team will need a detail-oriented person (the task-master), who is methodical and can keep the team on track.
+
+            The explorer will be more of a big-picture thinker who can help the team see what is possible. The number-cruncher will take charge of measurement and metrics. It’s possible your team will have other roles to fill, but you should have a good handle on those roles before you begin staffing.
+            Once you have a plan for those basics, begin choosing the strongest team members to carry out the project.
+
+          img: placeholder_icon.svg
+        -
+          title:  Mutually accountable
+          text: |
+            Teams accept responsibility as individuals and as a team. They don’t blame one another for team mistakes and failures. No one should spend any time, useless time, in personal justifications. They should celebrate their successes together and recognize special performances and contributions that each team member makes to the total work of the team.
+          img: placeholder_icon.svg
+        -
+          title:  Collaboration
+          text: |
+            Close collaboration is a trait shared by every successful team, whether it be the Apple leadership team or Lennon-McCartney of the Beatles fame or Jordan-Pippen of the Chicago Bulls fame. The idea is simple enough: the more you collaborate and the more you communicate, the more you create.
+          img: placeholder_icon.svg    
   -
     title: Reveals
     theme: t-bg-supporting2

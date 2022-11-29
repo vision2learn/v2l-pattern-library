@@ -1,110 +1,187 @@
 title: How to work safely
 intro: |
-  intro text
+  In this session you will develop your understanding of how to work safely and effectively as part of a team. 
+  
+  You will also learn about regulations, safe working practices and procedures that apply to a work area, and be able to identify hazards and risks and how they can be reduced.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe the specific regulations, safe working practices and procedures that apply to a work activity 
   -
-    title: introduction text title
+    title: Introduction 
     layout: media
     theme: t-bg-primary
     copy: |
-      _Topic introduction text here_
+      All workplaces must adhere to certain regulations. To do this they must have safe working practices and procedures in place. Some of these will be very familiar to you e.g. Health and Safety.  To understand what the difference is between regulations, safe working practices and procedures, you can think about the overall legislation which is The Health and Safety at Work Act 1974. This tells employers what they must do, it’s then up to the employer to ensure that their staff comply. Safe working practices are what’s done day to day by everone, often they will have a writtten procedure for all staff to follow. 
 
     img: /images/svg/placeholder_icon.svg
   -
-  -
-    title: Legislation, procedures and working practices
+    title: Regulations, safe working practices and procedures 
     theme: t-bg-supporting3
     copy: |
-      _Slides for different legislation, procedures and working practices_
-    
-      Scroll through the slides below to learn more about ...
+      There are many regulations, procedures and working practices relevant to workplaces. Some are specific to the type  of work being performed whilst others are relevant to all workplaces.
+
+      Scroll through the slides below to see an example of how one piece of legislation is applied in the workplace 
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Legislation
           text: |
-            text
+            The Health and Safety at Work Act 1974 (HASAWA) is the law that tells every employer that they must ensure, so far as reasonably practicable, the health, safety and welfare of persons at work. It states that employers are responsible for protecting the safety of their employees at work. Elements within the legislation include:
+
+            **Safety** &rarr; No illness or risk of illness due to working conditions.
+
+            **Morale** &rarr; No injury or accident or risk of accident or death due to work.
+
+            **Welfare** &rarr; Good working conditions – washing, toilets, rest breakout area, refreshment facilities, ventilation etc.
+
+            **Environment** &rarr; Controlling pollution to the air, water and land.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: Safe Working Practices
           text: |
-            text
+            Employees are expected to follow safe working practices within their day to day activities, which align with HASAWA. These include:
+
+             * Take reasonable care for your own health and safety and that of others who may be affected by what you do or don’t do.
+
+             * Co-operate with your employer on health and safety.
+
+             * Correctly use work items provided by your employer including personal protective equipment, in accordance with training or instructions.
+
+             * Not to interfere with or misuse anything provided for your health, safety, or welfare.
+
+             * Report any accidents or near misses as they happen.
+
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Policies
           text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      ### Case study - Title
+            The legislation states that organisations with more than 5 employees must have a written Health and Safety policy. The policy will inform staff and visitors how the organisation manages their health, safety and wellbeing, clearly identifying who does what, how they do it and when. The policy should contain:
+            
+            * Statement of intent – what the organisations aims are for health & Safety. This should be displayed where all can read it. 
 
-      _Case study on an org e.g. building co. demoloshing house,what leg/policies needed/risk assess what could go wrong._
+            * Responsibilities for health & safety – name the people and their job roles with specific responsibility
 
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
+            * Arrangements for health & Safety – describe precisely how the organisation will control risks. 
 
-      Take a look at the following document about 
-
-      [example doc]().
-  -
+            Organisations with less than 5 people do not have to write down a policy, but it’s considered good practice to do so. 
+          img: placeholder_icon.svg   
+         
   -
     title: Reveals
     theme: t-bg-primary
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
+     There are many pieces of legislation in place to help keep the workplace as safe possible. The ones that are relevant to you will depend on the type of work you do, but let’s take a look at some of the most common:
 
     subInc: 
       type: reveal
       content:
         -
-          title: a
+          title: MHSWR
           copy: |
-            text
+            Management of Health and Safety at Work Regulations 1999 - Covers risk assessments in the workplace 
           img: placeholder_icon.svg
         -
-          title: b
+          title: WHSWR
           copy: |
-            text
+            Workplace (Health, Safety and Welfare) Regulations 1992 - Covers slipping and tripping hazards such as trailing cables, floor cleaning and spillages
           img: placeholder_icon.svg
         -
-          title: c
+          title: MHOR
           copy: |
-            text
+            Manual Handling Operations Regulations 1992 - Covering manual lifting practices and mechanical lifting aids.
           img: placeholder_icon.svg
+        -
+          title: EAWR
+          copy: |
+            Electricity at Work Regulations 1989 - Covers making sure electrical equipment is safe to use, applies to all aspects of the use of electricity within the workplace.
+          img: placeholder_icon.svg
+        -
+          title: DSE
+          copy: |
+            Health & Safety (Display Screen Equipment) Regulations 1992 (2002) - Covers making sure electrical equipment is safe to use, applies to all aspects of the use of electricity within the workplace.
+          img: placeholder_icon.svg
+        -
+          title: WAHR
+          copy: |
+            Work at Height Regulations 2005 - covers falls from height including stepladders and lifting equipment.
+          img: placeholder_icon.svg
+        -
+          title: COSHH
+          copy: |
+            Control of Substances Hazardous to Health Regulations 2002 - Regulations require employers to control exposure to substances that can harm workers health.
+          img: placeholder_icon.svg
+        -
+          title: PPE
+          copy: |
+            Personal Protective Equipment Regulations 2002 - As required, employers must provide personal protective equipment to reduce the risk of injury free of charge.
+          img: placeholder_icon.svg  
+        -
+          title: RIDDOR
+          copy: |
+            Reporting of Injuries, Diseases & Dangerous Occurrences Regulations 1995 - Requires employers, self-employed and those in control of premises to report specified workplace incidents to the HSE or Local authority. 
+          img: placeholder_icon.svg               
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+       There are many other types of workplace Health and Safety legislation that may be relevant to you and your job role. Here are some links to read more:
+
+      links:
+        Control of Noise at Work Regulations 2005: https://www.hse.gov.uk/noise/employers.htm#:~:text=The%20Control%20of%20Noise%20at,duties%20under%20the%20Regulations%20too
+        Lifting Operations and Lifting Equipment Regulations (LOLER): https://www.hse.gov.uk/work-equipment-machinery/loler.htm
+        Provision and Use of Work Equipment Regulations (PUWER): https://www.hse.gov.uk/work-equipment-machinery/puwer.htm#:~:text=PUWER%20requires%20that%20equipment%20provided,adequate%20information%2C%20instruction%20and%20training
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise - relate to the video?_
   -
   
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain what constitutes a hazard and what constitutes a risk in the workplace.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
+      Hazards and risks in the workplace.
       
       _1.2 and 1.3_
 
-      Please see the following video on .
+      So what are hazards and risks? Lets take a look at the different hazards and risks that can be present in the workplace. 
     video: placeholder_pc.mp4
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -125,24 +202,6 @@ sections:
 
       links:
         website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
   -
   -
     title: Time for an assessment task ?
