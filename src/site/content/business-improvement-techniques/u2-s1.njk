@@ -1,0 +1,16 @@
+---js
+{
+  unit: 2,
+  session: 1,
+  pagination: {
+    data: "courses['business-improvement-techniques']['02-workplace-organisation']['01-understand-workplace-organisation']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->
