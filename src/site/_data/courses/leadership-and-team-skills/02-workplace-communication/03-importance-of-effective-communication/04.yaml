@@ -1,0 +1,110 @@
+title: Overcoming barriers
+intro: |
+  On this page, you will learn about the barriers to communication and explain how these could be overcome. 
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can list barriers to communication and explain how these could be overcome.
+  -
+  -
+    title: Common communication barriers 
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      There are a lot of barriers that can make effective communication difficult. Here are some of the most common ones: 
+
+      * Jargon: Unnecessary "business language" can be confusing and obscure.  
+
+      * Stress: If people in the workplace are very stressed, they're going to be less interested in communication. 
+
+      * Unengaged: Communication is an active, two-way process. If people in the workforce aren't interested in what's happening, they may not see why they should bother with communication. 
+
+      * Unclear channels: When you need time off work, do you email your boss? Or text them? Or call them? Or leave a memo stuck to their desk? People need to know what channels they're meant to use. 
+
+      * Unworkable channels: If people know how they're expected to communicate, but the channel is unreliable, unsuitable, or just doesn't work, they can't communicate.  
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Removing those barriers 
+    theme: t-bg-supporting2
+    copy: |
+      Now we've identified those barriers, we can take steps to remove them.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Jargon
+          copy: |
+            If you're talking about very specific business points, then technical language would be expected. But for general communication, use words and phrases that are easily understood and don't rely on specialist knowledge. Avoiding meaningless buzz words is always a good idea too. 
+        - 
+          title: Stress
+          copy: |
+            Take steps to identify the causes of stress when it's impacting communication. Maybe people aren't focused or interested in a regular meeting because it's been scheduled during an inconvenient time of day. Try to make sure you're not bombarding people with communications during intense parts of the work cycle.
+        - 
+          title: Unengaged
+          copy: |
+            Keep communications relevant to people. It can help to send a short summary of the main points that will be covered before the main communication, as people can then see why it's relevant to them.
+        - 
+          title: Unclear channels
+          copy: |
+            People should always know what channels they're meant to be using. Make it clear to everyone, even if you need to meet with them personally to explain, which channels are expected to be used for different types of communication. Make sure people know they can ask you about this.
+        - 
+          title: Unworkable channels
+          copy: |
+            If there are persistent problems with particular channels, then they need to be fixed or alternatives should be provided. If a certain piece of software is unreliable, consider replacing it when you can. It's a good idea to have back-up channels (email is usually very reliable). 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the barriers to communication and explain how these could be overcome. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure you can identify the positive benefits of effective communication.
+  -
+  -
+    title: Positive benefits of communication 
+    theme: t-bg-primary
+    copy: |
+      Now we're going to consider the positive benefits of communication. It's a great idea to make these clear to your team as they will encourage them to value communication.  
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Conflict resolution
+          copy: |
+            Communication reduces the risk of conflict and makes resolving conflicts easier. Most workplace conflicts come from misunderstanding and miscommunication. If people in the team regularly and effectively communicate, conflicts are much less likely to occur. 
+          img: placeholder_icon.svg
+        -
+          title: Productivity
+          copy: |
+            Even when people aren't in regular contact with the rest of the team, they're not truly working alone. Everyone is part of a team, and their work is contributing to shared goals. With effective communication in place, teams work better, and productivity will increase. 
+          img: placeholder_icon.svg
+        -
+          title: Engagement
+          copy: |
+            If people feel left out of the loop, they won't feel as engaged. By making sure clear channels of communication are always open and information is freely circulating, people will feel a closer connection with their colleagues. This will make them more engaged and promote trust and loyalty. 
+          img: placeholder_icon.svg
+        -
+          title: Innovation
+          copy: |
+            When information is spread through effective communication, new ideas are more likely to be generated. It encourages people to think about things in new, different ways, finding unexpected solutions to problems and more efficient ways of working.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the positive benefits of effective communication. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.

@@ -22,22 +22,22 @@ sections:
         -
           title: Presentations and meetings
           copy: |
-            text
+            If you need to communicate with a large number of people at once – maybe everyone in another team – a presentation or group meeting is perfect for this. Suitable if you need to present a lot of information, maybe explaining at a basic level what your team's purpose is.
           img: placeholder_icon.svg
         -
           title: Emails
           copy: |
-            text
+            This is ideal if you just need to communicate with a small number of people at once. If there are specific pieces of information you need to share outside of your team, email can be the right choice.
           img: placeholder_icon.svg
         -
           title: Face-to-face conversations
           copy: |
-            text
+            This is especially appropriate if you're building relationships or dealing with something difficult. Consider this if the people outside your team you need to talk to are in the same location as you are.  
           img: placeholder_icon.svg
         -
           title: Phone and video calls
           copy: |
-            text
+            These serve a similar function to face-to-face conversations, but if the people you need to speak to aren't in the same location as you.
           img: placeholder_icon.svg
   -
   -
@@ -45,11 +45,29 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Text
+      Now we've identified some methods and explained why they might be used, we can look at their relative advantages and disadvantages.
+
+      ### Presentations and meetings 
+      * Advantages: Can communicate with a lot of people at the same time and cover a lot of points 
+      * Disadvantages: Rely on people being in travelling distance; can be difficult to go into detail about specific points 
+
+
+      ### Emails
+      * Advantages: Reliable and usually secure; can go into as much or as little detail as possible 
+      * Disadvantages: Emails can be sent to the wrong people; emails can be misunderstood or missed 
+
+
+      ### Face-to-face conversations 
+      * Advantages: Intimate and less likely to cause misunderstandings; especially suitable if delicate issues need to be explained at length 
+      * Disadvantages: Can be awkward, depending on familiarity and subject matter; can't occur with large groups of people (then it becomes a meeting!); can't occur if people aren't in the same location 
+
+
+      ### Phone and video calls 
+      * Advantages: Can achieve similar effects as face-to-face conversations; can occur between people in different locations 
+      * Disadvantages: Can still feel less personal than face-to-face conversations; dependent on technology working 
 
     img: /images/svg/placeholder_icon.svg
   -
-  
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -57,5 +75,4 @@ sections:
       type: time-to-think
       copy: |
         Make a note of methods for communicating with those outside of your team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
-
  

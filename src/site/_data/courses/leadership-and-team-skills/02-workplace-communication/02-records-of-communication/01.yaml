@@ -28,22 +28,22 @@ sections:
         -
           title: Double-checking instructions
           text: |
-            text
+            It's useful to have a record of communications that contain instructions. You might need to double-check details or deadlines, especially if the instructions are about a new task or activity.
           img: placeholder_icon.svg
         -
           title: Reference for other people
           text: |
-            text
+            Sometimes people who weren't there when communication took place need to know what was said or written. For example, people who couldn't attend an important meeting. 
           img: placeholder_icon.svg
         -
           title: Legal reasons
           text: |
-            text
+            Sometimes there are specific legal reasons why records need to be kept. This could be to prove that work processes are at the expected standard or because the content of a meeting needs to be in the public record. Records of communications can even be used as a legal defence in some situations.  
           img: placeholder_icon.svg
         -
           title: Proof of what was said
           text: |
-            text
+            Sometimes, the parties involved in communication can have different interpretations of what was said. There are even some occasions where people involved might want to lie about this. Keeping accurate records can act as proof of what was – and what wasn't – said.  
           img: placeholder_icon.svg
   -
   -
@@ -51,9 +51,12 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      
-      
-      Topic introduction text here 
+      There are a lot of potentially very bad consequences if records aren't kept.
+
+      * Without a record of instructions, people can forget what tasks they're expected to perform, how, where, and by when.  This can be very damaging to productivity.
+      * If other people can't find out about communications relevant to them after they've happened, it can be extremely difficult to give everyone access to the information they need.
+      * There can serious legal consequences if records the law requires to be kept are not created or are deleted or lost.
+      * Records can be offered as proof of what was said and agreed. In commercial transactions, like contract negotiations, if these records aren't kept it can result in products and services not being delivered.
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -63,7 +66,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Make a note of why it is important to have a record of communication. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
 
   -
   -
@@ -78,26 +81,40 @@ sections:
     copy: |
       ### Case study - Who said what? 
 
-      text
+      Magic Co.'s app development team are in a sticky situation. 
+
+      Two days after the app was released, they realised an important feature hasn't been enabled. They've had to issue an update to fix this, and the team behind the app feel very embarrassed that this happened.  
+
+      Micky, the member of the team responsible for that feature, is insisting that no one told him that it was needed. He's getting very defensive.  
+
+      Carl, the team leader, figures out that there was a meeting two weeks ago where that feature was meant to be discussed. He's going to look at the records. 
     subInc: 
       type: accordion
       content:
         - 
-          title: title
+          title: What does the record say?
           copy: |
             
-            text
+            Carl realises that Micky was right.  
 
-          img: /images/svg/placeholder_icon.svg
+            The meeting took place via video call and it was recorded. He watches the recording and realises that the missing feature was never mentioned.  
+
+            Micky has also shown Carl his emails from after that meeting – no one ever sent him an email asking him to prepare that feature for the app. 
+
+            Thanks to accurate record keeping, Micky has been proved right and feels relieved that people realise the missing feature wasn't his fault.  
+
+          img: /images/svg/lts/lts_u1_s1_p3_slide1.svg
   -
   -
     title: Keeping records of oral communication 
     layout: media
     theme: t-bg-primary
     copy: |
-      
-      
-      Topic introduction text here 
+      As you've just seen in the case study above, keeping records of oral communication in particular is very important. People can often remember conversations differently from one another. As time goes on, the differences in memory can become bigger and bigger. You can even end up forgetting the conversation happened in the first place.  
+
+      Even a short conversation can involve important agreements being made. Making sure that an accurate record of oral conversations is kept means that you and other people can refer back to what was actually said and agreed. This can clear up misremembering, clarify the details, and make sure there isn't disagreement about what was said.  
+
+      In the above example, if a record of that meeting hadn't been kept, Micky could have been held responsible for a mistake that wasn't his fault. But because there was a recording of the whole meeting, he could prove that he wasn't in error. 
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -107,23 +124,18 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Is the following statement true or false? "If you can rely on your memory, you don't have to worry about keeping records of communication.":
+          answers:
+            True: false
+            False: true
+        Is the following statement true or false? "If there's a record of a conversation, this can form part of a legal defence.":
           answers:
             True: true
             False: false
-          feedback: text
-        Question 2:
+        Is the following statement true or false? "It's not important to keep records of oral conversations because people generally remember what was said.":
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+            True: false
+            False: true
   -
   -
     title: Time to think
@@ -131,9 +143,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise_
-
-        Text
+        Make a note of the importance of keeping a record of oral communication. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
   -
   -
     title: On the web
@@ -141,9 +151,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        
-
-        Please see the following website where you can learn more about . . .
+        Please click on the following links where you can read more about the importance of keeping records. 
 
       links:
-        website description: http://www.google.co.uk
+        The importance of keeping accurate communication records: https://www.linkedin.com/pulse/importance-keeping-accurate-communication-records-beaumont-techiosh/
