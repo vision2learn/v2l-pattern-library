@@ -1,35 +1,28 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the fifth session of this unit! 
-banner: ba-u1-s1-p6.jpg
+title: Following the rules 
+intro: |
+  On this page, you will learn why it is important to observe legal, organisational and ethical rules when providing information to customers.
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
+      Make sure that you can explain why it is important to observe legal, organisational and ethical rules when providing information to customers.
   -
-    title: Session quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Legal, organisational, and ethical rules 
+      
+      In this video, you'll find out why it's important to observe legal, organisational and ethical rules when providing information to customers. 
+
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of why it is important to observe legal, organisational and ethical rules when providing information to customers. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
