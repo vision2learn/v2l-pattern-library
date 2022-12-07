@@ -48,22 +48,39 @@ sections:
   -
   -
     title: Advantages and disadvantages
-    layout: media
     theme: t-bg-supporting3
     copy: |
-      Here are the main advantages and disadvantages of each of these methods of communication. Remember, think carefully about the context and audience of each communication when choosing the method. 
+      Here are the main advantages and disadvantages of each of these methods of communication. Remember, think carefully about the context and audience of each communication when choosing the method.
 
-      * **Emails:** The main advantage is that emails are instantaneous, can carry almost unlimited information, and can have attached files. But they can feel impersonal, can't be taken back when they're sent, and can be prone to causing information overload. 
-
-      * **Instant messages:** The main advantage of instant messages is they're instant! They can be sent and read almost at the same time, meaning you can have real-time conversations. But it can be easy to accidentally give someone the wrong impression if you word your messages wrongly. 
-
-      * **Phone and video calls:** Phone and video calls are the closest you can get to face-to-face conversations without actually being in the same room, meaning they can feel very personal, and you can allow lots of different people to take part. But they can become unfocused or overlong too. 
-
-      * **Face-to-face conversations:** They are a very natural way of communicating which we're all used to. But it can be difficult to talk about important or personal topics this way, and like phone and video calls they can lose their focus too.  
-
-      * **Letters:** When you're writing a letter, you can be as personal or impersonal as you need to be. And you can spend as long as you need getting it right if you give yourself enough time. But letters can feel like an outdated method. 
-
-    img: /images/svg/placeholder_icon.svg
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Emails
+          text: |
+            The main advantage is that emails are instantaneous, can carry almost unlimited information, and can have attached files. But they can feel impersonal, can't be taken back when they're sent, and can be prone to causing information overload. 
+          img: placeholder_icon.svg
+        -
+          title: Instant messages
+          text: |
+            The main advantage of instant messages is they're instant! They can be sent and read almost at the same time, meaning you can have real-time conversations. But it can be easy to accidentally give someone the wrong impression if you word your messages wrongly. 
+          img: placeholder_icon.svg
+        -
+          title: Phone and video calls
+          text: |
+            Phone and video calls are the closest you can get to face-to-face conversations without actually being in the same room, meaning they can feel very personal, and you can allow lots of different people to take part. But they can become unfocused or overlong too. 
+          img: placeholder_icon.svg
+        -
+          title: Face-to-face conversations
+          text: |
+            They are a very natural way of communicating which we're all used to. But it can be difficult to talk about important or personal topics this way, and like phone and video calls they can lose their focus too. 
+          img: placeholder_icon.svg
+        -
+          title: Letters
+          text: |
+            Sometimes, the parties involved in communication can have different interpretations of what was said. There are even some occasions where people involved might want to lie about this. Keeping accurate records can act as proof of what was – and what wasn't – said.
+          img: placeholder_icon.svg
   -
   -
     title: Case study
@@ -112,4 +129,6 @@ sections:
     include: 
       type: time-to-think
       copy: |
+        What do you think Fatima did right when she was communicating with Mark? Which methods did she use?  
+        
         Make a note of communication methods and their best uses when communicating with the team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.

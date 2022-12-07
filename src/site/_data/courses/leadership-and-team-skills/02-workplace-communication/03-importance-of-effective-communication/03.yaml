@@ -16,38 +16,33 @@ sections:
       On the last page, we identified these methods of communication in the workplace. Now, we're going to find out the advantages and disadvantages of each method.
 
     subInc: 
-      type: slider
-      title: 
-      slides:
+      type: accordion
+      content:
         -
           title: Oral
-          text: |
-            ### Group meetings 
+          copy: |
+            ### Group meetings
             * Advantages: Can cover a lot of information; can go on as long as they need to; can bring together a lot of people
             * Disadvantages: Can be unfocused; can go on too long and leave people feeling exhausted; can cause information overload if too much is covered 
 
-
             ### One-to-ones
-            * Advantages: Personal; can be very specific 
+            * Advantages: Personal; can be very specific
             * Disadvantages: Can be intimidating and/or awkward, depending on the subject matter 
 
-
-            ### Phone calls 
-            * Advantages: Very flexible; ideal for a dispersed workforce 
+            ### Phone calls
+            * Advantages: Very flexible; ideal for a dispersed workforce
             * Disadvantages: Often the people involved have to stop all their work to speak; can be unfocused; can be intrusive 
           img: placeholder_icon.svg
         -
           title: Written
-          text: |
+          copy: |
             ### Reports 
             * Advantages: Can be highly targeted and precise; create a lasting record of events 
             * Disadvantages: Can be difficult to capture everything that needs to be recorded; may only give "one side" of a situation 
 
-
             ### Memos 
             * Advantages: Short and to the point; very easy to use; very flexible 
             * Disadvantages: Can only capture small bits of information; generate a lot of wastepaper 
-
 
             ### Letters 
             * Advantages: Very good for formal communication; can be used to convey a lot of information in a structured way 
@@ -55,16 +50,14 @@ sections:
           img: placeholder_icon.svg
         -
           title: Electronic
-          text: |
+          copy: |
             ### Email
             * Advantages: Very flexible; instantaneous; can be used to communicate any amount of information 
             * Disadvantages: Can be impersonal; can't be taken back after they've been sent; can cause information overload if too much is being communicated in one go; can be sent to the wrong people by accident; not suitable for some sensitive information 
 
-
             ### Instant messenger
             * Advantages: Most people are familiar with; instantaneous; can be very to the point 
             * Disadvantages: Can be impersonal; not always an appropriate channel; not always possibly to reliably record chat logs; the information might not be secure 
-
 
             ### Video calls 
             * Advantages: Can be very personal; can bring together a dispersed workforce 
