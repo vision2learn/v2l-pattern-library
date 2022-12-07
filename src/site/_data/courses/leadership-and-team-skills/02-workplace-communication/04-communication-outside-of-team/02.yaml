@@ -12,7 +12,7 @@ sections:
       Make sure that you can give examples of methods for communicating with those outside of the team. 
   -
     title: Methods for communicating with those outside of your team 
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       Over this unit, we've discussed a lot of different communication methods. Here, we're going to talk about them in relation to communicating outside of your team. 
 
@@ -42,31 +42,42 @@ sections:
   -
   -
     title: Advantages and disadvantages of those methods
-    layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
-      Now we've identified some methods and explained why they might be used, we can look at their relative advantages and disadvantages.
+      Now we've identified some methods and explained why they might be used, we can look at their relative advantages and disadvantages. 
 
-      ### Presentations and meetings 
-      * Advantages: Can communicate with a lot of people at the same time and cover a lot of points 
-      * Disadvantages: Rely on people being in travelling distance; can be difficult to go into detail about specific points 
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Presentations and meetings
+          text: |
+            * Advantages: Can communicate with a lot of people at the same time and cover a lot of points 
 
+            * Disadvantages: Rely on people being in travelling distance; can be difficult to go into detail about specific points 
+          img: placeholder_icon.svg
+        -
+          title: Emails
+          text: |
+            * Advantages: Reliable and usually secure; can go into as much or as little detail as possible 
 
-      ### Emails
-      * Advantages: Reliable and usually secure; can go into as much or as little detail as possible 
-      * Disadvantages: Emails can be sent to the wrong people; emails can be misunderstood or missed 
-
-
-      ### Face-to-face conversations 
-      * Advantages: Intimate and less likely to cause misunderstandings; especially suitable if delicate issues need to be explained at length 
-      * Disadvantages: Can be awkward, depending on familiarity and subject matter; can't occur with large groups of people (then it becomes a meeting!); can't occur if people aren't in the same location 
-
-
-      ### Phone and video calls 
-      * Advantages: Can achieve similar effects as face-to-face conversations; can occur between people in different locations 
-      * Disadvantages: Can still feel less personal than face-to-face conversations; dependent on technology working 
-
-    img: /images/svg/placeholder_icon.svg
+            * Disadvantages: Emails can be sent to the wrong people; emails can be misunderstood or missed 
+          img: placeholder_icon.svg
+        -
+          title: Face-to-face conversations
+          text: |
+            * Advantages: Intimate and less likely to cause misunderstandings; especially suitable if delicate issues need to be explained at length 
+            
+            * Disadvantages: Can be awkward, depending on familiarity and subject matter; can't occur with large groups of people (then it becomes a meeting!); can't occur if people aren't in the same location 
+          img: placeholder_icon.svg
+        -
+          title: Phone and video calls 
+          text: |
+            * Advantages: Can achieve similar effects as face-to-face conversations; can occur between people in different locations 
+            
+            * Disadvantages: Can still feel less personal than face-to-face conversations; dependent on technology working
+          img: placeholder_icon.svg
   -
   -
     title: Time to think
