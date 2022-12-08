@@ -36,23 +36,31 @@ sections:
       Lets take a look at the different hazards and risks that can be present in the workplace. 
     video: placeholder_pc.mp4
   -
+    title: Case study
+    layout: media
+    theme: t-bg-primary1a i-case-study
+    copy: |
+      Remember the case study on page 3, where Sonia found some boxes on the stairway? If not, go back and refresh your memory, then answer the following questions.  
+
+    img: /images/svg/ypmh/placeholder_icon.svg
+  -
     title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: three
     theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        In this Scenario the hazard is:
+          answers:
+            The stairs are not used often: false 
+            Sonia is using the wrong exit to leave the building: false
+            Boxes on the stairs: True
+        The risk is:
+          answers:
+            The boxes might fall: false
+            Someone using the stairs might trip on the boxes: false
+            The boxes could block the access in an emergency: false
+            All of the above: true
+          
   -
     title: Time to think
     theme: t-bg-primary3 i-think
