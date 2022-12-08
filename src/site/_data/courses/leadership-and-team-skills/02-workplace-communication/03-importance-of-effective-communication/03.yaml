@@ -1,7 +1,7 @@
 title: Pros and cons
 intro: |
   On this page, you will learn about the advantages and disadvantages of identified communication methods and their best use.
-banner: placeholder.jpg
+banner: lts_u2_s3_p3_pros_cons.jpg
 sections:
   -
     title: Key point
@@ -32,7 +32,7 @@ sections:
             ### Phone calls
             * Advantages: Very flexible; ideal for a dispersed workforce
             * Disadvantages: Often the people involved have to stop all their work to speak; can be unfocused; can be intrusive 
-          img: placeholder_icon.svg
+          img: /images/svg/lts/lts_u2_s3_p3_accordion1.svg
         -
           title: Written
           copy: |
@@ -47,7 +47,7 @@ sections:
             ### Letters 
             * Advantages: Very good for formal communication; can be used to convey a lot of information in a structured way 
             * Disadvantages: Not used as often as they used to be; can appear old fashioned; can generate wastepaper 
-          img: placeholder_icon.svg
+          img: /images/svg/lts/lts_u2_s3_p3_accordion2.svg
         -
           title: Electronic
           copy: |
@@ -62,7 +62,7 @@ sections:
             ### Video calls 
             * Advantages: Can be very personal; can bring together a dispersed workforce 
             * Disadvantages: Can be vulnerable to IT failures and disruption 
-          img: placeholder_icon.svg
+          img: /images/svg/lts/lts_u2_s3_p3_accordion3.svg
   -
     title: Case study
     theme: t-bg-primary1a i-casestudy
@@ -92,7 +92,7 @@ sections:
             
             "It's quick, it's modern, and it usually has an instant record too. Basically, anywhere that has a mobile signal can be reached this way. But it can also be impersonal, the records can be deleted pretty easily sometimes, and it isn't always secure. Plus it can be impersonal." 
 
-          img: /images/svg/lts/lts_u1_s1_p3_slide1.svg
+          img: /images/svg/lts/lts_u2_s3_p3_casestudy1.svg
   -
   -
     title: Quick quiz
