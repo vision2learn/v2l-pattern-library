@@ -81,68 +81,26 @@ sections:
             Close collaboration is a trait shared by every successful team, whether it be the Apple leadership team or Lennon-McCartney of the Beatles fame or Jordan-Pippen of the Chicago Bulls fame. The idea is simple enough: the more you collaborate and the more you communicate, the more you create.
           img: placeholder_icon.svg    
   -
-    title: Reveals
-    theme: t-bg-supporting2
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
     copy: |
-      _Optional item depending on content_
+      ### Title
 
-      Select the images below to read 
+      _Captivate activity - Drag and Drop_
 
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      Select the following icon to have a go at an activity to learn more about .....
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
-  -
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: uc_u3_s2_p1_activity_v2
+  
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
+      Lets take a look at the importance of creating and maintaining effective working relationships
     video: placeholder_pc.mp4
   -
     title: Time to think
