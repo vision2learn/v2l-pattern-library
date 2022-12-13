@@ -36,16 +36,9 @@ sections:
       Lets take a look at the different hazards and risks that can be present in the workplace. 
     video: placeholder_pc.mp4
   -
-    title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
-    copy: |
-      Remember the case study on page 3, where Sonia found some boxes on the stairway? If not, go back and refresh your memory, then answer the following questions.  
-
-    img: /images/svg/ypmh/placeholder_icon.svg
-  -
     title: Quick quiz
     theme: i-quiz
+    copy: Remember the case study on page 3, where Sonia found some boxes on the stairway? If not, go back and refresh your memory, then answer the following questions.
     subInc:
       type: quick-quiz
       content:
@@ -137,10 +130,9 @@ sections:
       
       ![](/images/banners/placeholder.jpg)
   -
-  -
     title: Time for an assessment
     theme: t-bg-primary3 i-practice
     copy: |
       _Link to animated video and image above_
 
-  -
+  
