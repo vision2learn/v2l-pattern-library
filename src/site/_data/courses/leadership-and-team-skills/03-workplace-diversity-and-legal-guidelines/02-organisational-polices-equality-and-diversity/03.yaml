@@ -1,0 +1,96 @@
+title: Equality and diversity
+intro: |
+  On this page, you will learn about organisational policy on equality and diversity in the workplace and key legislation on this topic.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can describe the organisational policy on equality and diversity in the workplace and key legislation on this topic. 
+  -
+    title: What does equality and diversity mean?
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Equality and diversity means treating everybody fairly. It’s against the law to discriminate against people based on protected characteristics like age, sex, sexual orientation, gender reassignment, or racial background. Diversity means making sure that people from minority groups have representation in a workplace.  
+      
+      Organisations are expected to have equality and diversity policies in place to make sure they obey antidiscrimination laws. This is part of the policies that cover statutory employee rights in the UK. And many organisations also have policies around making sure they hire people from minority backgrounds, because diverse workplaces are fairer and more creative. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Equality Act 2010
+    theme: t-bg-primary
+    copy: |
+      The most important piece of legislation around equality and diversity is the Equality Act 2010. It replaced several older antidiscrimination laws and brought all their protections together into one act.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: slide 1 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 2 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 3 title
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 4 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: An example policy
+    theme: t-bg-supporting3
+    copy: |
+      As with grievances, equality and diversity policies vary between organisations, so we’re going to talk about what’s generally included in one. You may find that these policies are called “diversity and inclusion” or something similar.  
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title 1
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: title 2 
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: title 3
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of organisational policy on equality and diversity in the workplace and key legislation on this topic. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can read more about organisational policy on equality and diversity in the workplace and key legislation on this topic.  
+
+      links:
+        website description: http://www.google.co.uk
