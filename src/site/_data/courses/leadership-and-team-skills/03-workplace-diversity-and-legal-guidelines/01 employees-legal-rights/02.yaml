@@ -1,0 +1,67 @@
+title: Employee legal rights
+intro: |
+  On this page you will learn about the statutory rights employees have under UK law.
+banner: lts_u3_s1_p2_employee_legal_rights.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can explain at least two employee statutory rights under UK law.
+  -
+    title: Employees, workers, and the self-employed
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      The focus of this unit is the statutory rights of employees. Before we begin, we’re going to define employees, workers, and the self-employed. This is important to do, because the statutory rights of these three categories are different to one another.
+
+      * An __employee__ is someone who works for a person, business or organisation under the terms of an __employment contract__. The person, business or organisation they work for is their __employer__.
+      * A __worker__ is someone who isn’t self-employed and works under __any kind of contract__. All employees are workers, but not all workers are employees. When we refer to workers in particular, we usually mean people like agency workers or outside contractors. They don’t have all the same rights as an __employee__. 
+      * A __self-employed__ person is someone who is their own employer. They sell their services to other people, businesses or organisations. 
+
+    img: /images/svg/lts/lts_u3_s1_p2_image1.svg
+  -
+  -
+    title: Workers’ and employees’ rights
+    theme: t-bg-supporting3
+    copy: |
+      We’ve already explained that workers and employees have slightly different rights. Now, we’re going to look at the rights that workers and employees __both__ have. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Pay
+          copy: |
+            All workers and employees have the right to receive at least the National Minimum Wage. They are protected against unlawful deductions from their wages. They’re also both entitled to the statutory minimum level of paid holiday. 
+            
+          img: /images/svg/lts/lts_u3_s1_p2_accordion1.svg 
+        - 
+          title: Time
+          copy: |
+            Workers and employees are both entitled to the statutory minimum length of rest breaks. Neither workers nor employees have to work more than 48 hours on average per week, and can opt out if they’re asked to do so. 
+            
+          img: /images/svg/lts/lts_u3_s1_p2_accordion2.svg 
+        - 
+          title: Protection
+          copy: |
+            Workers and employees are both protected against unlawful discrimination. They’re protected if they act as whistleblowers and report on wrongding in their workplace. They’re also protected from being treated less favourable if they work part-time. 
+            
+          img: /images/svg/lts/lts_u3_s1_p2_accordion3.svg
+
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Employee rights
+      
+      In this video you’re going to learn about the rights that employees enjoy. Some workers may also be eligible for these too, but in general these are the rights you get under a contract of employment.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of at least two statutory employee rights in detail. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 
