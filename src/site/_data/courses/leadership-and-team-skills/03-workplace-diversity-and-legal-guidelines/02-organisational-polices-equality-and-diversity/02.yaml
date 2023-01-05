@@ -23,7 +23,7 @@ sections:
   -
   -
     title: What should a grievance policy contain? 
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
       Employers must have a grievance policy which is set out in writing and accessible by all employees. This is what it should contain.
 
@@ -69,7 +69,7 @@ sections:
   -
   -
     title: A grievance procedure
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       Although the details will vary between organisations, this is a typical example of the steps followed in a grievance procedure.
     subInc: 
@@ -78,37 +78,47 @@ sections:
         - 
           title: Informal discussion 
           copy: |
-            text  
+            Lots of organisations encourage their employees to try and resolve grievances informally at first. This doesn’t mean it would just be a chat over coffee though. It would still be correct to involve a manager to witness the discussion. If the parties don’t feel they can resolve the grievance informally, the formal process should be used.
+            
+            There are also situations where the grievance is so severe or sensitive it cannot be resolved informally. In which case, you’d skip this step altogether.
             
           img: /images/svg/lts/lts_u3_s2_p2_accordion1.svg
         - 
           title: Raising a formal grievance 
           copy: |
-            text  
+            If a grievance has to be raised formally, this should be down as as soon as possible. The report should be detailed and precise. It should include examples of the problem, witnesses, and the employee’s preferred outcome.  
+
+            The employee should contact the person designated for handling grievances in their organisation’s grievance policy. This is probably their line manager or a member of HR. The grievance will probably have to be raised in writing, or written down by the contact for the employee.  
+
+            There will be a time limit for the contact to formally respond to the employee, usually within five days or a week. 
             
           img: /images/svg/lts/lts_u3_s2_p2_accordion2.svg
         - 
           title: Grievance meeting 
           copy: |
-            text  
+            The meeting should be held as soon as possible, usually between a week and a fortnight after the grievance is raised. The employee will be reminded that they can bring another colleague or a trade union representative with them for support and advice, and the organisation must make sure they can do this if they want. 
+
+            The reasons behind the grievance and the employee’s preferred outcome will be discussed. Following the meeting, it may be necessary to investigate further before reaching a decision.  
             
           img: /images/svg/lts/lts_u3_s2_p2_accordion3.svg
         - 
           title: Investigations  
           copy: |
-            text  
+            Investigations usually involve fact finding, interviewing people involved, and reviewing the evidence that’s been submitted. People interviewed can include witnesses and the person the grievance has been made against. 
+            
+            Even if it isn’t necessary to formally interview them, if the grievance has been made against another employee, they must be informed about this and told what the allegations are, although it may not always be appropriate to share the written report of the grievance. 
             
           img: /images/svg/lts/lts_u3_s2_p2_accordion4.svg
         - 
           title: Grievance outcome 
           copy: |
-            text  
+            The outcome must be given to the employee who’s raised the grievance as soon as possible, such as within 14 days of the investigation being concluded. If the outcome affects other people, they must be told, but confidentiality around the people involved should still be respected.    
             
           img: /images/svg/lts/lts_u3_s2_p2_accordion5.svg
         - 
           title: Appeal 
           copy: |
-            text  
+            If the employee who raised the grievance isn’t happy with the outcome, they can appeal it. They’ll usually have a time window in which they need to do this, such as within a week of the outcome being given. They have to state the reason why they’re appealing the outcome. The case is then reviewed by their employer. 
             
           img: /images/svg/lts/lts_u3_s2_p2_accordion6.svg
   -
@@ -119,23 +129,23 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: An appeal occurs if the employee who raised the grievance is unhappy with the outcome.  
+          answer: appeal
         -
-          sentence: example two
-          answer: two
+          sentence: An informal discussion is a step that may be taken before the formal grievance procedure begins. 
+          answer: informal discussion
         -
-          sentence: example three 
-          answer: three
+          sentence: The result of the investigation is the grievance outcome.
+          answer: grievance outcome
         -
-          sentence: example four
-          answer: four
+          sentence: Raising a formal grievance initiates the formal grievance process. 
+          answer: Raising a formal grievance
         -
-          sentence: five
-          answer: one
+          sentence: A grievance meeting take place after the formal grievance has been raised. 
+          answer: grievance meeting
         -
-          sentence: example six
-          answer: two
+          sentence: Investigations determines what the outcome of the grievance should be.
+          answer: Investigations
     theme: i-quiz
   -
   -
