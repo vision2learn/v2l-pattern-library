@@ -1,0 +1,128 @@
+title: Referral
+intro: |
+  On this page, you will learn about organisational referral processes for dealing with inappropriate behaviour that is beyond the team leader’s authority. 
+banner: lts_u3_s3_p2_referral.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can describe organisational referral processes for dealing with inappropriate behaviour that is beyond the team leader’s authority. 
+  -
+    title: Inappropriate behaviour that goes beyond your authority 
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Sometimes, inappropriate behaviour in a team will be so serious that the team leader has to escalate. What this means in practice depends on the level of authority the team leader has and the kind of inappropriate behaviour in question.  
+
+      Organisations often distinguish between misconduct and gross misconduct. Misconduct usually triggers some kind of formal disciplinary process, though could still be handled informally at least initially. Gross misconduct is an action so severe that it results in automatic dismissal.
+
+    img: /images/svg/lts/lts_u3_s3_p2_image1.svg
+  -
+  -
+    title: Examples of misconduct and gross misconduct
+    theme: t-bg-supporting3
+    copy: |
+      The lines between misconduct and gross misconduct can be blurry – a one-off act of misconduct could become an act of gross misconduct if it’s repeated or doesn’t improve. Typically, misconduct is any act that violates an organisation’s code of conduct, with gross misconduct being extreme violations.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Absenteeism
+          copy: |
+            This means being late or absent without permission or a good reason. If, for example, someone just didn’t turn up or answer their phone for a whole day and didn’t have a good excuse, this would probably count as misconduct. If this was something that kept happening without sign of improvement, it would count as gross misconduct.  
+            
+          img: /images/svg/lts/lts_u3_s3_p2_accordion1.svg
+        - 
+          title: Bullying
+          copy: |
+            An off-colour remark or upsetting comment would probably count as misconduct, however it could amount to gross misconduct depending on what has been said. Sustained bullying of a colleague or an act of physical agression would almost certainly count as gross misconduct.
+            
+          img: /images/svg/lts/lts_u3_s3_p2_accordion2.svg
+        - 
+          title: Theft or deliberate damage of property
+          copy: |
+            Taking valuable goods from your employer or colleagues, or deliberately damaging your employer’s or colleauges’ property, would count as misconduct or gross misconduct, depending on the severity of the action. Taking a pen without asking isn’t likely to warrant a disciplinary action, but a harddrive would be a different matter.  
+            
+          img: /images/svg/lts/lts_u3_s3_p2_accordion3.svg
+        - 
+          title: Sexual harassment and assault
+          copy: |
+            This is an extremely serious action and it should be responded to severely. It’s highly likely that any act of sexual harassment would result in dismissal. Sexual assault is a criminal offence and should be handled accordingly.
+            
+          img: /images/svg/lts/lts_u3_s3_p2_accordion4.svg
+        - 
+          title: Insubordination
+          copy: |
+            Insurbordination is when someone refuses to do what they’ve been asked by a superior, or if they deliberately undermine a superior’s authority or judgement without good reason. A minor act of insurbordination would probably only result in an informal reprimand, but more serious examples (such as insulting a team leader in a meeting in front a client) could result in dismissal. 
+            
+          img: /images/svg/lts/lts_u3_s3_p2_accordion5.svg
+        - 
+          title: Improper disclosure
+          copy: |
+            This is when someone reveals sensitive commercial or organisational information to a competitor or the public at large. __It is not the same thing as whistleblowing, which is something any employee should feel safe doing.__ An example of improper disclosure would be offering to show a confidential business plan to a competitor or inadvertently revealing sensitive information, such as if you were to accidentally email a group of people about a colleague’s health problems.  
+            
+          img: /images/svg/lts/lts_u3_s3_p2_accordion6.svg
+  -
+  -
+    title: Referral and escalation
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      In order to understand how your organisation expects you to respond to incidents of misconduct and gross misconduct, you should familiarise yourself with your organisation’s disciplinary policy and code of conduct. This will capture that in detail. 
+
+      In general though, your initial steps would likely be to contact your own manager or superior to explain to them what has happened, along with your HR department. They will advise you about the steps you need to take.   
+
+    img: /images/svg/lts/lts_u3_s3_p2_image2.svg
+  -
+  -
+  -
+    title: Whistleblowing
+    theme: t-bg-supporting3
+    copy: |
+      There are some situations where in order to escalate a situation you have to blow the whistle.  
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: What is whistleblowing? 
+          text: |
+            Whistleblowing is when a worker reports: 
+            * Criminality, like fraud  
+            * Danger to people’s health and safety 
+            * Damage to the environment or risk of damage  
+            * A miscarriage of justice  
+            * A company breaking the law 
+            * Someone is covering up wrongdoing 
+          img: lts_u3_s3_p2_slide1.svg
+        -
+          title: Legal protections 
+          text: |
+            If you whistleblow on any of those situations, __you are protected by law.__ Reporting on personal grievances like bullying, harassment, and discrimination don’t fall under whistleblowing, but remember you’re protected against being victimised for reporting on these behaviours by the Equality Act 2010. 
+          img: lts_u3_s3_p2_slide2.svg
+        -
+          title: Who should I tell? 
+          text: |
+            It depends. Many organisations have whistleblowing hotlines that you can use. You can sometimes do this anonymously, but that might mean your report isn’t acted on. If you can’t or don’t want to report to your employer – for example if you think senior management are involved in a criminal coverup – then contacting a body like the police or an industry standards organisation might be the right decision.
+          img: lts_u3_s3_p2_slide3.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of what counts as inappropriate behaviour in relation to equality and diversity in the workplace and how it should be addressed. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can read more about UK legislation on whistleblowing.  
+
+      links:
+            Whistleblowing: https://www.gov.uk/whistleblowing#:~:text=As%20a%20whistleblower%20you're,happen%20in%20the%20near%20future.  
