@@ -41,6 +41,14 @@ sections:
           img: lts_u3_s3_p3_slide4.svg
   -
   -
+    title: Prevent
+    theme: t-bg-supporting2
+    copy: |
+      Prevent is the government-led, multi-agency programme that helps the police tackle terrorism. It does this by identifying people who may be vulnerable to becoming radicalised, and thus more likely to carry out or support terrorism.  
+
+      If you suspect someone in your team is being radicalised, you should treat this very seriously and sensitively, and escalate it. Speak to your HR department and contact the national police Prevent advice line: __0800 011 3764.__ 
+  -
+  -
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
@@ -94,3 +102,16 @@ sections:
       type: time-to-think
       copy: |
         Make a note of situations where an individual’s views may clash with organisational expectations. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can read more about __Prevent__.
+
+      links:
+            Counter Terrorism Policing: https://www.counterterrorism.police.uk/
+            Act Early: https://actearly.uk/
+            Metropolitan Police advice on Prevent: https://www.met.police.uk/advice/advice-and-information/t/prevent/prevent/#:~:text=You%20can%20also%20call%20the,you%20can%20report%20it%20online%20.
