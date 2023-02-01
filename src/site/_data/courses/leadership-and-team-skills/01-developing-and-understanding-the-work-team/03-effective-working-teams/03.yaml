@@ -1,0 +1,64 @@
+title: Creating the team
+intro: |
+  On this page you will learn how to create and maintain an effective team.
+banner: lts_u1_s3_p3_create_team.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can explain how to create and maintain an effective team.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Creating and maintaining an effective team 
+      
+      In this video, you’ll find out about how to create and maintain an effective team. 
+
+    video: lts_u1_s3_p3_effective_team.mp4
+  -
+  -
+    title: Maths and English skills 
+    theme: t-bg-primary
+    copy: |
+      In all workplaces, it’s important to possess basic skills in maths and English. These skills have universal value, meaning that they are useful in every industry, role, and walk of life.  
+      
+      For example:
+      * Maths skills will make you confident when dealing with money or thinking about timekeeping and resourcing 
+      * English skills will make a better communicator, helping you understand other people and make yourself understood to them 
+      
+      If you don’t feel like you’re confident with your maths and English skills, you might want to explore options for additional training or qualifications in those areas.  
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of how to create and maintain an effective team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "The fifth Tuckman step is called Mourning.":
+          answers:
+            True: true
+            False: false
+        Is the following statement true or false? "Whether or not people work well together isn’t a factor you need to consider when creating a team.":
+          answers:
+            True: false
+            False: true
+        Is the following statement true or false? "The storming stage is when your team are operating at their peak.":
+          answers:
+            True: false
+            False: true
+        Is the following statement true or false? "The stages of team development and maintenance are one-way – you can’t go back once you have gone forward.":
+          answers:
+            True: false
+            False: true
+          feedback: text

@@ -1,0 +1,127 @@
+title: Communication and barriers
+intro: |
+  On this page you will learn about the key stages in the communication process, and the potential barriers to communication and outline how these could be overcome. 
+banner: lts_u2_s1_p3_communication3.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can outline the key stages in the communication process.
+  -
+  -
+    title: The components of communication
+    theme: t-bg-primary
+    copy: |
+      Communication can be thought of as a process that has several distinct components:
+      * Sender
+      * Encoding
+      * Channel
+      * Receiver
+      * Decoding
+      * Feedback 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Sender
+          text: |
+            The sender has information they want to communicate to someone else. The sender could be one person, or it could be a whole organisation, like a business or a political party.
+          img: lts_u2_s1_p3_slide1.svg
+        -
+          title: Encoding
+          text: |
+            Encoding is when you take the information you want to communicate to and put it into a form that lets it be shared with someone else. To encode the message, you need to know the audience who'll be receiving it, as different audiences will have their own needs.
+          img: lts_u2_s1_p3_slide2.svg
+        -
+          title: Channel
+          text: |
+            This is the way the message is going to be communicated. The channel could be any form of written, oral, or nonverbal communication, like we talked about on the last page. Think about which channel will be right for this message and this audience.
+          img: lts_u2_s1_p3_slide3.svg
+        -
+          title: Receiver
+          text: |
+            The receiver is the audience for the message. It could be an individual, an organisation, or even the whole general public.
+          img: lts_u2_s1_p3_slide4.svg
+        -
+          title: Decoding
+          text: |
+            This is what happens when someone receives a message. To successfully decode a message, the receiver has to be able to understand it. Make sure that you've got the time and space to properly understand messages you need to decode.
+          img: lts_u2_s1_p3_slide5.svg
+        -
+          title: Feedback
+          text: |
+            Feedback is the immediate response to the message. It's very important to pay close attention to the feedback as it will let you know if your message was communicated clearly and effectively.
+          img: lts_u2_s1_p3_slide6.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - The whole process
+
+      Let's check in with the app development team at Magic Co., who we met in Unit 1.  
+      
+      They want to raise awareness of the app now that it's ready for release. Here's how the components of the communication process apply to them. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Sender
+          copy: |
+            In this example, the sender is Magic Co. They want to communicate the fact that they have a new app to download.
+        - 
+          title: Encoding
+          copy: |
+            Encoding in this example means deciding what they want to say about the app. They want to emphasise that it works alongside their platform seamlessly and gives users a more mobile gaming experience.
+        - 
+          title: Channel
+          copy: |
+            They decide they want to use multiple channels – ads on spaces and websites, emails sent to people who already use their platform, and billboard ads in public spaces. This is a combination of the different methods we talked about on the previous page.
+        - 
+          title: Receiver
+          copy: |
+            The receiver here is the potential audience for the app. Magic Co. want current users of their platform to download the app, as well as people who are altogether new to their business. They've adjusted their messaging to target both sides of their audience.
+        - 
+          title: Decoding
+          copy: |
+            Decoding is successful in this example if people who see the adverts for the app understand what is being advertised, and decide to download the app. That means it needs to be obvious what the adverts are about and where the app can be found.
+        - 
+          title: Feedback
+          copy: |
+            It's important to remember that feedback doesn't necessarily have to be communication in the same form. In this case, feedback might be received in the form of surveys about the ad campaign, public discussion about the app, and people's behaviour – are they downloading the app or not?
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What do you think about the communication that the app development team at Magic Co. has used? Could this be improved? Have you got an example of using a similar process?
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure you can list potential barriers to communication and explain how these could be overcome.  
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Barriers to effective communication and how to overcome them
+
+      In this video you’re going to learn about barriers to effective communication and how to overcome them.
+
+    video: lts_u2_s1_p3_overcome_barriers.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of potential barriers to communication and outline how these could be overcome. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.

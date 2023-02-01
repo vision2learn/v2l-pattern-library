@@ -1,0 +1,128 @@
+title: Pros and cons
+intro: |
+  On this page, you will learn about the advantages and disadvantages of identified communication methods and their best use.
+banner: lts_u2_s3_p3_pros_cons.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure that you can list the advantages and disadvantages of identified communication methods and their best use. 
+  -
+  -
+    title: Advantages and disadvantages  
+    theme: t-bg-primary
+    copy: |
+      On the last page, we identified these methods of communication in the workplace. Now, we're going to find out the advantages and disadvantages of each method.
+
+    subInc: 
+      type: accordion
+      content:
+        -
+          title: Oral
+          copy: |
+            ### Group meetings
+            * Advantages: Can cover a lot of information; can go on as long as they need to; can bring together a lot of people
+            * Disadvantages: Can be unfocused; can go on too long and leave people feeling exhausted; can cause information overload if too much is covered 
+
+            ### One-to-ones
+            * Advantages: Personal; can be very specific
+            * Disadvantages: Can be intimidating and/or awkward, depending on the subject matter 
+
+            ### Phone calls
+            * Advantages: Very flexible; ideal for a dispersed workforce
+            * Disadvantages: Often the people involved have to stop all their work to speak; can be unfocused; can be intrusive 
+          img: /images/svg/lts/lts_u2_s3_p3_accordion1.svg
+        -
+          title: Written
+          copy: |
+            ### Reports 
+            * Advantages: Can be highly targeted and precise; create a lasting record of events 
+            * Disadvantages: Can be difficult to capture everything that needs to be recorded; may only give "one side" of a situation 
+
+            ### Memos 
+            * Advantages: Short and to the point; very easy to use; very flexible 
+            * Disadvantages: Can only capture small bits of information; generate a lot of wastepaper 
+
+            ### Letters 
+            * Advantages: Very good for formal communication; can be used to convey a lot of information in a structured way 
+            * Disadvantages: Not used as often as they used to be; can appear old fashioned; can generate wastepaper 
+          img: /images/svg/lts/lts_u2_s3_p3_accordion2.svg
+        -
+          title: Electronic
+          copy: |
+            ### Email
+            * Advantages: Very flexible; instantaneous; can be used to communicate any amount of information 
+            * Disadvantages: Can be impersonal; can't be taken back after they've been sent; can cause information overload if too much is being communicated in one go; can be sent to the wrong people by accident; not suitable for some sensitive information 
+
+            ### Instant messenger
+            * Advantages: Most people are familiar with; instantaneous; can be very to the point 
+            * Disadvantages: Can be impersonal; not always an appropriate channel; not always possibly to reliably record chat logs; the information might not be secure 
+
+            ### Video calls 
+            * Advantages: Can be very personal; can bring together a dispersed workforce 
+            * Disadvantages: Can be vulnerable to IT failures and disruption 
+          img: /images/svg/lts/lts_u2_s3_p3_accordion3.svg
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Communication at Magic Co.
+
+      Magic Co. make use of all the methods we've mentioned above. Different employees there share their experiences using them and discuss their strengths and weaknesses.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Oral
+          copy: |
+            ### Carl, the team leader, prefers oral communication. 
+
+            "I think it's hard to beat how personal it is. In a meeting or a one-to-one, senders and receivers are much more present in the moment and more likely to pay attention. Although sometimes, if there are too many people or there isn't an agenda, the meeting can lose its focus and people stop paying attention and you have to manually create a record unless the meeting is recorded." 
+        - 
+          title: Written
+          copy: |
+            ### Micky likes to have everything in writing
+
+            "The thing with written communication at work is you always already have a record of it, provided it doesn't get lost! Most importantly, you don't have to rely on your memory, you can just refer back to it if you need to. Only thing is, it's sometimes harder to figure out what someone means in writing than it is when they're actually speaking to you." 
+        - 
+          title: Electronic 
+          copy: |
+            ### Jessica is all about electronic communication
+            
+            "It's quick, it's modern, and it usually has an instant record too. Basically, anywhere that has a mobile signal can be reached this way. But it can also be impersonal, the records can be deleted pretty easily sometimes, and it isn't always secure. Plus it can be impersonal." 
+
+          img: /images/svg/lts/lts_u2_s3_p3_casestudy1.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Which of the following are advantages of group meetings?:
+          answers:
+            Can bring together a lot of people and cover a lot of information: true
+            Suitable for dispersed workforces: false
+            Instantons record always available: false
+        Which of these is NOT a disadvantage of emails?:
+          answers:
+            Generate wastepaper : true
+            Can cause information overload : false
+            Can be impersonal : false
+            Can be sent to the wrong people by accident : false
+        Which of the following is an advantage of reports?:
+          answers:
+            Instantaneous: false
+            Very flexible: false
+            Can be highly targeted and precise: true
+            There is no record of events: false    
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the advantages and disadvantages of identified communication methods and their best use. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -

@@ -1,0 +1,121 @@
+title: Team characteristics and development
+intro: |
+  On this page you will learn about the:
+  * Behavioural characteristics of an effective team
+  * Stages of team development using a recognised model  
+banner: lts_u1_s1_p4_team_characteristics.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure you can outline the behavioural characteristics of an effective team.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Behaviours in an effective team
+      
+      This video is going talk about the behavioural characteristics of an effective team.
+    video: lts_u1_s1_p4_creating_and_maintaining_an_effective_team.mp4
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the behavioural characteristics of an effective team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      Make sure you can describe the stages of team development using a recognised model.
+  -
+  -
+    title: Stages of team development
+    theme: t-bg-primary
+    copy: |
+      Every team is unique and will follow its own development path. There are principles that apply to most teams, and for your assesssment you need to understand at least one model of team development.
+      
+      We’ve used Tuckman’s Model for this example of the stages of team development.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Forming
+          text: |
+            In the initial stage of team development, the individuals in the team will need guidance from their leader. They’ll have a lot of questions about the team’s purpose, how they fit in with it, and what the expectations are for them. Some people are likely to feel nervous, so be aware of that and make sure you’re available to answer questions and reassure.  
+          img: lts_u1_s1_p4_slide1.svg
+        -
+          title: Storming
+          text: |
+            Once the team gets settled and its purpose becomes clear, conflicts may emerge. This may be partly because the plan has started to encounter reality (and things never go entirely to plan!) and because people’s personalities and ways of working are making themselves felt. It’s important that people are very clear on what their roles and responsibilities are, and that you make it clear that you have authority over the team too.  
+          img: lts_u1_s1_p4_slide2.svg
+        -
+          title: Norming
+          text: |
+            At this point, things have settled down and the team has found its groove. People are working together, differences are less important than similarities, and your authority is clear. Because everyone should be more comfortable with one another, it’s good to encourage asking for and giving out constructive feedback.  
+          img: lts_u1_s1_p4_slide3.svg
+        -
+          title: Performing
+          text: |
+            The team is now achieving its expected goals and has met its efficiency targets. The roles and responsibilities that were initially allocated may have altered somewhat by this stage, and team members will be happier working outside their comfort zone. 
+          img: lts_u1_s1_p4_slide4.svg
+  -
+  -
+    title: Developing relationships
+    theme: t-bg-primary1a
+    copy: |
+      A very important part of having a healthy, positive, and successful workplace environment is for people to develop relationships with each other. That means learning to see people as more than just colleagues, but as people too. This helps us respect each other, and it encourages us to work together better with less chance of conflict.
+      
+      Relationships should be kept appropriate to the workplace. People should remain mindful of the standards they’re expected to work to, and what conduct is and isn’t appropriate in a place of work. 
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: A Group is a collection of individuals who have individual goals. 
+          answer: Group
+        -
+          sentence: Communication, Collaboration, and problem solving are all benefits of teams. 
+          answer: Collaboration
+        -
+          sentence: Storming is the stage in team development where conflicts may start emerging. 
+          answer: Storming
+        -
+          sentence: Forming is the initial stage of team development. 
+          answer: Forming
+        -
+          sentence: Norming is the stage in team development where your team’s structure is more or less settled. 
+          answer: Norming
+        -
+          sentence: Performing is the stage in team development where your team is achieving its goals. 
+          answer: Performing
+    theme: i-quiz 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the stages of team development. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can read more about team development stages.
+
+      links:
+        Tuckman's model: https://www.thecoachingtoolscompany.com/get-your-team-performing-beautifully-with-this-powerful-group-development-model/

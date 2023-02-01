@@ -1,0 +1,17 @@
+---js
+{
+  unit: 1,
+  session: 2,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['01-developing-and-understanding-the-work-team']['02-team-working']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

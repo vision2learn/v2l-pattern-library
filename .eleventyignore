@@ -7,12 +7,15 @@
 # /src/site/content/
 
 # In development
-# /src/site/content/coding-practices-level-3
+# /src/site/content/leadership-and-team-skills
+/src/site/content/business-improvement-techniques
 
-# Uncomment to stop building specific courses
+# Uncomment to stop building specific
+/src/site/content/business-improvement-techniques
+/src/site/content/coding-practices-level-3
 /src/site/content/cyber-security-level-3
-# /src/site/content/understanding-coding
-# /src/site/content/cyber-security
+/src/site/content/understanding-coding
+/src/site/content/cyber-security
 /src/site/content/business-administration
 /src/site/content/employability-and-personal-development
 /src/site/content/it-user-skills-2

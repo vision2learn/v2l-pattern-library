@@ -1,0 +1,17 @@
+---js
+{
+  unit: 3,
+  session: 1,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['03-workplace-diversity-and-legal-guidelines']['01 employees-legal-rights']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
