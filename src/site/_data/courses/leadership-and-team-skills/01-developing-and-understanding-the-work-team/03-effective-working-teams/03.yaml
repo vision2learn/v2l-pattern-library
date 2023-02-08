@@ -5,19 +5,40 @@ banner: lts_u1_s3_p3_create_team.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-supporting3 i-keypoint
+    theme: t-bg-supporting2 i-keypoint
     copy: |
       Make sure that you can explain how to create and maintain an effective team.
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+  -
+    title: Creating and maintaining an effective team 
+    theme: t-bg-supporting3
     copy: |
-      ### Creating and maintaining an effective team 
+      It takes time and hard work to create an effective team and to keep its effectiveness going into the future. 
       
-      In this video, you’ll find out about how to create and maintain an effective team. 
-
-    video: lts_u1_s3_p3_effective_team.mp4
+      Here are some of the key principles for creating and maintaining an effective team.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Start with the vision
+          copy: |
+            Unlike groups, teams exist to work towards a particular set of goals or objectives. Achieving these are the vision and purpose for that team. Before you start gathering people together to make the team, you should be completely clear on why that team is needed and what the vision that will guide it is.
+        - 
+          title: The right people
+          copy: |
+            Once you have your vision defined, you can start gathering the right people for the job. This is why it’s so important to spend time defining the team’s purpose first – it’s that vision that will guide you in selecting the best people to achieve your goals and objectives. Think about who has the right skills and experience based on the team’s purpose, and make your choices from there. 
+        - 
+          title: Know your team as people
+          copy: |
+            People don’t like feeling as if they’re just cogs in a machine. Teams are made up of people and that needs to be acknowledged. Spend time getting to know them as people as well as colleagues. This will help build a team spirit and make you more accessible as their team leader.  
+        - 
+          title: Make goals and expectations clear
+          copy: |
+            People in the team need to understand their goals and the expectations of their team. If these are poorly defined, there’s a risk that competing interpretations of the team’s purpose will develop. This will undermine the team’s unity and cohesion, making it less effective.  
+        - 
+          title: Acknowledge the successes, learn from the failures  
+          copy: |
+            It’s very important that achievements are acknowledged and praised, both at a team and individual level. This will inspire everyone to do their best because they know their hard work won’t go without acknowledgement. Likewise, don’t ignore the failures. Treat them as learning opportunities and don’t look to blame people when things go wrong. This creates an environment where people feel safe to fail because they know they’ll be supported to correct the mistake.
   -
   -
     title: Maths and English skills 
@@ -37,27 +58,4 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Make a note of how to create and maintain an effective team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided. 
-  -
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "The fifth Tuckman step is called Mourning.":
-          answers:
-            True: true
-            False: false
-        Is the following statement true or false? "Whether or not people work well together isn’t a factor you need to consider when creating a team.":
-          answers:
-            True: false
-            False: true
-        Is the following statement true or false? "The storming stage is when your team are operating at their peak.":
-          answers:
-            True: false
-            False: true
-        Is the following statement true or false? "The stages of team development and maintenance are one-way – you can’t go back once you have gone forward.":
-          answers:
-            True: false
-            False: true
+        Make a note of how to create and maintain an effective team. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
