@@ -51,7 +51,7 @@
     "node-fetch": "^2.6.7",
     "require-dir": "^1.0.0",
     "ssri": "^8.0.1",
-    "terser": "^4.6.13",
+    "terser": "^4.8.1",
     "xml2js": "^0.4.19"
   },
   "resolutions": {
