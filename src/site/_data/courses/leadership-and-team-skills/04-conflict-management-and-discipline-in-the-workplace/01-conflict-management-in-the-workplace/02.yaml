@@ -1,0 +1,126 @@
+title: Causes and stages of conflict
+  On this page you will learn about the causes of conflict at work and the stages in the development of conflict. 
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can identify the causes of conflict at work. 
+  -
+  -
+    title: What causes conflict?
+    theme: t-bg-primary
+    copy: |
+      No workplace is completely free of conflicts, but understanding what tends to cause conflicts at work can help you prevent and minimise them.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Lack of communication
+          copy: |
+            Conflict is inevitable if there isn't clear and effective communication in a workplace. People won't know what to do or when to do it. They might not be sure what the organisation's goals are. This will lead to people misunderstanding each other, problems going unfixed, and targets being missed, – all of which contribute to a bad atmosphere.
+          img: placeholder_icon.svg
+        -
+          title: Undefined job roles
+          copy: |
+            If people's jobs are undefined, they won't know what their duties and responsibilities are. This can lead to work going undone, or overstepping and doing other people's work for them, both of which can cause a lot of resentment.
+          img: placeholder_icon.svg
+        -
+          title: Unfair treatment
+          copy: |
+            If people perceive favouritism or bias at work in a team, this can ignite a lot of conflict, even if it isn't true. People in the team may become angry that other people are getting opportunities and advantages that feel undeserved, or if they feel like they're being treated badly.
+          img: placeholder_icon.svg
+        -
+          title: Insufficient training 
+          copy: |
+            If your team are being given tasks that are unfamiliar and that they've not been prepared for, you're on your way to major conflict. Not only will tasks potentially go undone or be completed to the wrong standard, people may feel resentment at being "thrown in at the deep end". They may even feel like they were deliberately set up to fail.
+          img: placeholder_icon.svg
+        -
+          title: Personality clashes
+          copy: |
+            You don't have to like your colleagues to work well with them. But sometimes people, for whatever reasons, just can't get along well enough to work together. For example, two people in the same team might have incompatible ideas about the best way to complete a task, or they might speak with their colleagues in a way the other considers inappropriate or disrespectful.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of several causes of conflict, along with examples. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can describe the stages in the development of conflict.  
+  -
+  -
+    title: Stages in the development of conflict 
+    theme: t-bg-primary
+    copy: |
+      Every conflict is as unique as the people involved, but there is a general structure that most conflicts tend to follow. There are different ways of representing these stages, but this is a common one. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Latent
+          text: |
+            Conflicts begin before people even notice them. If someone has misunderstood a task and begun it in the wrong way, the conflict has started. This stage, when the conflict is real but unnoticed, is the __latent stage__. 
+          img: placeholder_icon.svg
+        -
+          title: Perceived
+          text: |
+            The conflict won't go unnoticed for long. When it begins to have a direct impact on individuals and the team, the conflict is in the __perceived stage__, meaning it has been noticed and can't be ignored.
+          img: placeholder_icon.svg
+        -
+          title: Felt
+          text: |
+            Once it's acknowledged the conflict is occurring, it will start to affect the people involved emotionally. This is the __felt stage__. It will cause emotions like stress, anger, and anxiety. These negative emotions will also have an effect on how people work, meaning the problem starts to get worse.  
+          img: placeholder_icon.svg
+        -
+          title: Manifested
+          text: |
+            This is when the conflict is out in the open and steps are being taken because of it. This is when the emails start to be sent, the phone calls are made, and the meetings take place. We call this the __manifest stage__, because this is when the conflict is acknowledged openly as a conflict.
+          img: placeholder_icon.svg
+        -
+          title: Aftermath
+          text: |
+            In the __aftermath stage__, the conflict is resolved, but its effects may still be felt. This isn't necessarily a bad thing – an effect of a conflict can be that steps are put in place to make the problem that caused the conflict less likely. 
+          img: placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the five stages of the development of conflict. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: In the Felt stage, the conflict triggers emotional responses. 
+          answer: Felt
+        -
+          sentence: The conflict has begun but hasn't yet been noticed in the Latent stage. 
+          answer: Latent
+        -
+          sentence: The conflict has moved into resolution in the Aftermath stage. 
+          answer: Aftermath
+        -
+          sentence: The conflict has now been noticed. It's the Perceived stage. 
+          answer: Perceived
+        -
+          sentence: In the Manifested stage, the conflict is now in its public phase and steps are being taken because of it. 
+          answer: Manifested
+    theme: i-quiz
