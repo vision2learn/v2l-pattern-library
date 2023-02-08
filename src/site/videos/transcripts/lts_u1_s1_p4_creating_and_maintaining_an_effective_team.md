@@ -1,7 +1,3 @@
-Hi I’m Phillip
-
-And I’m Maddy
-
 Knowing how to create and maintain an effective team is an important part of team leadership.
 
 But it’s important to realise that the evolution of teams and their good running isn’t always a clear and linear process. It can often be unpredictable and can even be a little chaotic! 

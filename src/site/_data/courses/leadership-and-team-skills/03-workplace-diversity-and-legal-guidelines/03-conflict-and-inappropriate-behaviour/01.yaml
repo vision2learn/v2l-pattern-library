@@ -60,11 +60,10 @@ sections:
       content:
         Marcus is a victim of discrimination here. Which form of discrimination has he experienced?:
           answers:
-            Direct descrimination: true
+            Direct discrimination: true
             Harassment: false
             Indirect discrimination: false
             Victimisation: false
-          feedback: text
   -
   -
     title: Case study

@@ -9,7 +9,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      Make sure you can outline the behavioural characteristics of an effective team.
+      Make sure you can describe the behavioural characteristics of an effective team.
   -
   -
     title: Watch 
@@ -19,7 +19,7 @@ sections:
       ### Behaviours in an effective team
       
       This video is going talk about the behavioural characteristics of an effective team.
-    video: lts_u1_s1_p4_creating_and_maintaining_an_effective_team.mp4
+    video: lts_u1_s3_p3_effective_team.mp4
   -
   -
     title: Time to think
@@ -33,40 +33,17 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      Make sure you can describe the stages of team development using a recognised model.
+      Make sure you can outline the stages of team development using a recognised model.
   -
   -
-    title: Stages of team development
-    theme: t-bg-primary
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
     copy: |
-      Every team is unique and will follow its own development path. There are principles that apply to most teams, and for your assesssment you need to understand at least one model of team development.
+      ### Stages of team development
       
-      We’ve used Tuckman’s Model for this example of the stages of team development.
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: Forming
-          text: |
-            In the initial stage of team development, the individuals in the team will need guidance from their leader. They’ll have a lot of questions about the team’s purpose, how they fit in with it, and what the expectations are for them. Some people are likely to feel nervous, so be aware of that and make sure you’re available to answer questions and reassure.  
-          img: lts_u1_s1_p4_slide1.svg
-        -
-          title: Storming
-          text: |
-            Once the team gets settled and its purpose becomes clear, conflicts may emerge. This may be partly because the plan has started to encounter reality (and things never go entirely to plan!) and because people’s personalities and ways of working are making themselves felt. It’s important that people are very clear on what their roles and responsibilities are, and that you make it clear that you have authority over the team too.  
-          img: lts_u1_s1_p4_slide2.svg
-        -
-          title: Norming
-          text: |
-            At this point, things have settled down and the team has found its groove. People are working together, differences are less important than similarities, and your authority is clear. Because everyone should be more comfortable with one another, it’s good to encourage asking for and giving out constructive feedback.  
-          img: lts_u1_s1_p4_slide3.svg
-        -
-          title: Performing
-          text: |
-            The team is now achieving its expected goals and has met its efficiency targets. The roles and responsibilities that were initially allocated may have altered somewhat by this stage, and team members will be happier working outside their comfort zone. 
-          img: lts_u1_s1_p4_slide4.svg
+      This video is going talk about the stages of team development using a recognised model.
+    video: lts_u1_s1_p4_creating_and_maintaining_an_effective_team.mp4
   -
   -
     title: Developing relationships
