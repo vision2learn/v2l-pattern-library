@@ -1,1 +1,0 @@
-init(animateVars.canvasID, animateVars.compRef, animateVars.fileRef);
