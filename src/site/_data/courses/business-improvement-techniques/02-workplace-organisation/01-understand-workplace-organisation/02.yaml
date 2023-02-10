@@ -1,60 +1,27 @@
-title: TEMPLATE PAGE
+title: Understand workplace organisation
 intro: |
-  intro text
+ On this page you will learn about the principles and techniques that support workplace organisation and the benfits of having an organised workplace environment.
 banner: placeholder.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to explain the principles and techniques of workplace organisation
   -
-    title: section
+    title: Workplace organisation
     layout: media
     theme: t-bg-primary
     copy: |
-      Text
+      Workplace organisation is important for any business because it can directly impact the safety, health, and well-being of employees, as well as the efficiency and productivity of a business. A well-organised workplace can help reduce the risk of accidents, minimize the spread of illnesses, and prevent injuries. It can also make it easier for employees to locate tools and equipment, reduce clutter, and increase morale. By establishing clear processes and procedures, workplace organization can also help improve communication, reduce confusion, and prevent errors.
 
     img: /images/svg/placeholder_icon.svg
   -
-  -
-    title: Reveals
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
 
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to 
-  -
-  -
     title: slider
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
-      _Optional item depending on content_
+      Workplace organisation involves the arrangement of resources, tools, and equipment in a way that promotes efficiency, safety, and productivity. Lets take a look at some of the principles and techniques of workplace organisation:
     
       Scroll through the slides below to learn more about ...
 
@@ -63,21 +30,42 @@ sections:
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Layout and design
           text: |
-            text
+            The layout and design of the workplace should be designed to optimize the flow of materials and people. This can be achieved through the use of flow diagrams and process mapping, which helps to identify inefficiencies and bottlenecks in the workflow.
           img: placeholder_icon.svg
         -
-          title: slide 2 title
+          title: 5S principles
           text: |
-            text
+            5S is a workplace organisation methodology that includes five key principles: Sort, Set in Order, Shine, Standardize, and Sustain. The 5S principles involve decluttering, cleaning, organizing, and labeling the work environment. It helps to create a clean and orderly workplace that is safe and easy to navigate.
           img: placeholder_icon.svg
         -
-          title: slide 3 title
+          title: Standardisation
           text: |
-            text
+            Establishing standard procedures for tasks, processes, and equipment helps to ensure that everyone is working with the same information and following the same procedures. This can help to reduce errors, improve efficiency and safety.
           img: placeholder_icon.svg
+        -
+          title: Kanban
+          text: |
+            Kanban is a workplace organisation technique that is used to control the flow of materials and equipment. It involves the use of cards, boards, or electronic systems to signal when a new batch of materials is needed. This can help to minimize waste and improve the flow of materials.
+          img: placeholder_icon.svg  
+        -
+          title: Visual management
+          text: |
+            Visual management is a technique that uses visual cues, such as signs, labels, or color-coding, to communicate information and instructions. This can help to improve communication and reduce errors in the workplace.
+          img: placeholder_icon.svg
+        -
+          title: Employee involvement
+          text: |
+            Employee involvement is critical to the success of workplace organisation. By involving employees in the process of organizing their own workspaces, they will take ownership and be more motivated to maintain a safe and productive environment.
+          img: placeholder_icon.svg  
+          
   -
+  
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the factors to be considered when selecting a work area for an activity
   -
     title: Watch 
     theme: t-bg-grey i-watch
