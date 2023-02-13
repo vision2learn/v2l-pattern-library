@@ -330,7 +330,18 @@ module.exports = function(config) {
   config.setDataDeepMerge(true);
 
   // pass some assets right through
-  config.addPassthroughCopy("./src/site/images");
+  //config.addPassthroughCopy("./src/site/images");
+
+  config.addPassthroughCopy("./src/site/images/banners/lts");
+  config.addPassthroughCopy("./src/site/images/banners/*.jpg");
+  config.addPassthroughCopy("./src/site/images/svg/lts");
+  config.addPassthroughCopy("./src/site/images/svg/course-features");
+  config.addPassthroughCopy("./src/site/images/svg/*.svg");
+  config.addPassthroughCopy("./src/site/images/svg/*.png");
+  config.addPassthroughCopy("./src/site/images/jpegs");
+  config.addPassthroughCopy("./src/site/images/*.png");
+  config.addPassthroughCopy("./src/site/images/*.svg");
+  
   config.addPassthroughCopy("./src/site/documentation/img");
   config.addPassthroughCopy("./src/site/css/themes");
   config.addPassthroughCopy("./src/site/captivate");     
