@@ -1,7 +1,7 @@
 title: Minimising and resolving conflict
 intro: |
   On this page, you'll learn about a recognised technique to minimise and resolve conflict in the workplace.
-banner: placeholder.jpg
+banner: lts_u4_s1_p4_resolving_conflict.jpg
 sections:
   -
     title: Key point
@@ -17,7 +17,7 @@ sections:
       A team leader would be expected to take steps to resolve conflicts that occur in their team, and minimise the effects that conflicts have. This is because, as a team leader, it's their duty to make sure the team is productive and hitting its targets, which it can't do if it's wracked with conflicts.  
 
       But the other reason why it's up to them is because of their duty of care to their team. Conflicts cause stress and anxiety, which are bad for mental and physical health. And on rare occasions, conflicts can escalate from angry words to physical actions. But if the team leader is there to de-escalate, resolve, and minimise conflicts, the  team will be happier, more efficient, and safer. 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/lts/lts_u4_s1_p4_image1.svg
   -
   -
     title: Resolving conflict - the main steps
@@ -66,34 +66,6 @@ sections:
           title: Collaborate
           copy: |
             This is the most difficult form of conflict resolution, but it can be the most effective and long-term. It occurs when everyone involved decides to put aside their personal interests and look for a solution together, as one group, rather than as opposing sides in a conflict. It requires a great deal of commitment and trust to achieve, and can take a long time to work. An example of this might be if a team has come to acknowledge that their whole way of working simply isn't suitable for their current project, meaning they have to change their whole approach.         
-  -
-  -
-    title: slider - instead of accordion?
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
-
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
   -
   -
     title: Quick quiz
