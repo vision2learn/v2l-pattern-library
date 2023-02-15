@@ -111,28 +111,39 @@ sections:
           feedback: text
 
   -
+  -
     title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - 
+      ### Case study - Physical 3D
 
-      _Something relating to Belbin_
-
-    img: /images/svg/ypmh/placeholder_icon.svg
+      When the new development team at Physical 3D was initially formed, they each spent time completing the Belbin team roles questionnaire. This informed the team leader, Ash of each individual’s strengths and weaknesses and helped her to understand which roles were best suited to each person. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: The results
+          copy: |
+            Some people came out as expected e.g. Ash herself as team worker and co-ordinator, which are both good for a team leader. The results also showed that Ash isn’t so good as a resource investigator or plant which are useful qualities for a team leader. 
+            
+            The information allowed Ash to understand who else in the team is strong in these areas. She was then able to utilise their strengths to help the innovation within the team. 
+            
+            This helped the team remain successful and allowed the individuals to feel valued as they could contribute to the team using their strengths.
+          img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to describe the importance of sharing knowledge, information and performance measures with other people in the team and with other groups
+      In your assessment you will be required to describe the importance of sharing knowledge, information and performance measures with other people in the team and with other groups.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      benfits of sharing knowledge
+      ### The Benefits of sharing knowledge
       
-      Please see the following video on .
+      Please see the following video where you will learn about the benefits of sharing knowledge, information and performance measures with other people in the team and with other groups, and the consequences if knowledge, information and performance measures are not shared. 
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -140,5 +151,5 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
+        text
   
