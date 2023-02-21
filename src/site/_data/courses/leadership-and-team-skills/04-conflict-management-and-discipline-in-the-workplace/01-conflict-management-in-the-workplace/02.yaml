@@ -1,7 +1,7 @@
 title: Causes and stages of conflict
 intro: |
   On this page you will learn about the causes of conflict at work and the stages in the development of conflict. 
-banner: placeholder.jpg
+banner: lts_u4_s1_p2_causes_stages.jpg
 sections:
   -
     title: Key point
@@ -27,12 +27,12 @@ sections:
           title: Undefined job roles
           copy: |
             If people's jobs are undefined, they won't know what their duties and responsibilities are. This can lead to work going undone, or overstepping and doing other people's work for them, both of which can cause a lot of resentment.
-          img: lts_u4_s1_p2_reveal2.svg
+          img: lts_u4_s1_p2_reveal2_b.svg
         -
           title: Unfair treatment
           copy: |
             If people perceive favouritism or bias at work in a team, this can ignite a lot of conflict, even if it isn't true. People in the team may become angry that other people are getting opportunities and advantages that feel undeserved, or if they feel like they're being treated badly.
-          img: lts_u4_s1_p2_reveal3.svg
+          img: lts_u4_s1_p2_reveal3_b.svg
         -
           title: Insufficient training 
           copy: |
@@ -82,13 +82,13 @@ sections:
         -
           title: Felt
           text: |
-            Once it's acknowledged the conflict is occurring, it will start to affect the people involved emotionally. This is the __felt stage__. It will cause emotions like stress, anger, and anxiety. These negative emotions will also have an effect on how people work, meaning the problem starts to get worse.  
+            Once it's acknowledged the conflict is occurring, it will start to affect the people involved emotionally. This is the __felt stage__. It will cause emotions like stress, anger, and anxiety. These negative emotions will also have an effect on how people work, meaning the problem starts to get worse. 
           img: lts_u4_s1_p2_slide3.svg
         -
           title: Manifested
           text: |
             This is when the conflict is out in the open and steps are being taken because of it. This is when the emails start to be sent, the phone calls are made, and the meetings take place. We call this the __manifest stage__, because this is when the conflict is acknowledged openly as a conflict.
-          img: lts_u4_s1_p2_slide4.svg
+          img: lts_u4_s1_p2_slide4_b.svg
         -
           title: Aftermath
           text: |
@@ -110,18 +110,18 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: In the Felt stage, the conflict triggers emotional responses. 
+          sentence: In the Felt stage, the conflict triggers emotional responses.
           answer: Felt
         -
-          sentence: The conflict has begun but hasn't yet been noticed in the Latent stage. 
+          sentence: The conflict has begun but hasn't yet been noticed in the Latent stage.
           answer: Latent
         -
-          sentence: The conflict has moved into resolution in the Aftermath stage. 
+          sentence: The conflict has moved into resolution in the Aftermath stage.
           answer: Aftermath
         -
-          sentence: The conflict has now been noticed. It's the Perceived stage. 
+          sentence: The conflict has now been noticed. It's the Perceived stage.
           answer: Perceived
         -
-          sentence: In the Manifested stage, the conflict is now in its public phase and steps are being taken because of it. 
+          sentence: In the Manifested stage, the conflict is now in its public phase and steps are being taken because of it.
           answer: Manifested
     theme: i-quiz
