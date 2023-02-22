@@ -3,24 +3,41 @@
 <svg version="1.1" id="_x31__x5F_2_x5F_130_x5F_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#99DBF3;}
+	.st0{fill:#007DA8;}
 	.st1{fill:#DB536A;}
-	.st2{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:5.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:3.8015;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{opacity:0.5;fill:#99DBF3;}
+	.st5{fill:#FFFFFF;}
 </style>
 <g id="lts_x5F_u2_x5F_s1_x5F_p2_x5F_slide1">
 	<g id="circle_00000088116812259576371470000003070902784870770827_">
 		<ellipse class="st0" cx="150" cy="150" rx="150" ry="150"/>
 	</g>
 </g>
+<circle class="st1" cx="241.1" cy="47" r="27.5"/>
+<g>
+	<line class="st2" x1="235.2" y1="58.7" x2="228" y2="51.4"/>
+	<line class="st2" x1="235.3" y1="58.7" x2="254.8" y2="39.2"/>
+</g>
+<circle class="st1" cx="34.8" cy="243.6" r="19.9"/>
+<g>
+	<line class="st3" x1="30.5" y1="252" x2="25.3" y2="246.8"/>
+	<line class="st3" x1="30.6" y1="252" x2="44.7" y2="237.9"/>
+</g>
+<path class="st4" d="M249.2,215.8v25.9c0,6-4.8,10.9-10.9,10.9h-86.7l-12.5,12.5v-12.5h-16.4c-6,0-10.9-4.8-10.9-10.9v-25.9
+	c0-6,4.8-10.9,10.9-10.9h115.6C244.4,204.9,249.3,209.8,249.2,215.8z"/>
+<path class="st4" d="M156.9,65.1v21.2c0,4.9-4,8.9-8.9,8.9H77.2L67,105.5V95.2H53.7c-4.9,0-8.9-4-8.9-8.9V65.1c0-4.9,4-8.9,8.9-8.9
+	H148C152.8,56.2,156.9,60.2,156.9,65.1z"/>
 <g>
 	<g id="lts_x5F_u2_x5F_s1_x5F_p2_x5F_slide1_00000144295725293784729020000004708170458545771958_">
 		<g id="circle_00000101820417052690971700000008700590558560839092_">
-			<ellipse class="st1" cx="150" cy="150" rx="99.2" ry="99.2"/>
+			<ellipse class="st1" cx="149.5" cy="151.7" rx="83.4" ry="83.4"/>
 		</g>
 	</g>
 	<g>
-		<path class="st2" d="M162.2,205h-17.7v-71c0-8.5,0.2-15.2,0.6-20.2c-1.2,1.2-2.6,2.5-4.3,4c-1.7,1.5-7.3,6.1-16.9,13.8l-8.9-11.2
-			L147.4,95h14.7V205z"/>
+		<path class="st5" d="M159.8,197.9h-14.9v-59.7c0-7.1,0.2-12.8,0.5-17c-1,1-2.2,2.1-3.6,3.4s-6.1,5.1-14.2,11.6l-7.5-9.4l27.2-21.3
+			h12.4L159.8,197.9L159.8,197.9z"/>
 	</g>
 </g>
 </svg>
