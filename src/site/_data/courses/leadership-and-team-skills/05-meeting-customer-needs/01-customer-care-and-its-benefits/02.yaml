@@ -77,6 +77,17 @@ sections:
     img: /images/svg/lts/lts_u5_s1_p2_image1.svg
   -
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can find some examples of customer care policies.  
+
+      links:
+        Customer care policy examples: https://www.liveagent.com/templates/customer-service-policy-templates/
+        How to create a customer service policy: https://blog.bit.ai/how-to-create-customer-service-policy/ 
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
@@ -115,17 +126,6 @@ sections:
             
             For example, if you tell a customer service worker in your team that their work “just isn’t good enough”, they’d probably find that very unhelpful statement. But, if you can say, “we aim to always respond to customer enquiries within 48 hours, and you’ve been leaving enquires unanswered for over three days,” you’ve already narrowed the situation down to a particular point. 
   -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please click on the following link where you can find some examples of customer care policies.  
-
-      links:
-        Customer care policy examples: https://www.liveagent.com/templates/customer-service-policy-templates/
-        How to create a customer service policy: https://blog.bit.ai/how-to-create-customer-service-policy/ 
   -
     title: Time to think
     theme: t-bg-primary3 i-think
