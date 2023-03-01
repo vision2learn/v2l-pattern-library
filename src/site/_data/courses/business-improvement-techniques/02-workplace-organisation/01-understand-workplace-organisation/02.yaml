@@ -7,7 +7,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain the principles and techniques of workplace organisation
+      In your assessment you will be required to explain the principles and techniques of workplace organisation.
   -
     title: Workplace organisation
     layout: media
@@ -17,13 +17,10 @@ sections:
 
     img: /images/svg/placeholder_icon.svg
   -
-
-    title: slider
-    theme: t-bg-supporting3
+    title: Principles and techniques of workplace organisation
+    theme: t-bg-supporting2
     copy: |
       Workplace organisation involves the arrangement of resources, tools, and equipment in a way that promotes efficiency, safety, and productivity. Lets take a look at some of the principles and techniques of workplace organisation:
-    
-      Scroll through the slides below to learn more about ...
 
     subInc: 
       type: slider
@@ -63,27 +60,47 @@ sections:
   -
   
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to describe the factors to be considered when selecting a work area for an activity
+      In your assessment you will be required to describe the factors to be considered when selecting a work area for an activity.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title of video topic
+      ### Selecting a work area for an activity
       
-      Please see the following video on .
+      Please see the following video on 1.2.
     video: placeholder_pc.mp4
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
-
   -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - with accordion
+
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            
+            text
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+    title: Time for an assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Taking the above case study into consideration, .....
+
+      You will also need to ..... - this is in your main Unit 2 Assessment document.
+      
+      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
+  -
+  
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
