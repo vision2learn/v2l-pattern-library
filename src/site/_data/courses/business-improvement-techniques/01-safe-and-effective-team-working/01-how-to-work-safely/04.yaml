@@ -12,7 +12,7 @@ sections:
     copy: |
       In your assessment you will be required to explain what constitutes a hazard and what constitutes a risk in the workplace.
   -
-    title: Introduction 
+    title: Workplace hazard
     layout: media
     theme: t-bg-primary
     copy: |
@@ -31,7 +31,7 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Hazards and risks in the workplace.
+      ### Hazards and risks in the workplace.
 
       Lets take a look at the different hazards and risks that can be present in the workplace. 
     video: placeholder_pc.mp4
