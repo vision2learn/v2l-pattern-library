@@ -1,13 +1,13 @@
 title: Team roles
 intro: |
   On this page you will learn about Belbins team role theory and the importance of sharing knowledge, information and performance measures with other people in the team and with other groups. 
-banner: placeholder.jpg
+banner: bit_u1_s2_p2_banner.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to explain how the principle of team role theory is used in team building
+      In your assessment you will be required to explain how the principle of team role theory is used in team building.
   -
     title: Team roles
     layout: media
@@ -15,7 +15,7 @@ sections:
     copy: |
       Understanding each individuals strengths and weakness can help a team work more effectively, reduce conflict and achieve a better result for the team. It helps to allocate the right task to the right person e.g. there’s no point in expecting an introvert that dislikes communicating with clients the role of client liaison, this is better suited the person that has strong communication skills. Likewise by knowing who the **Completer Finisher** is, this person can work best on the finer detail of the task leaving the initial ideas and creativity to the **Resource Investigator**.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/bit/bit_u1_s2_p2_image1.svg
   -
   -
     title: Belbin Roles
@@ -86,31 +86,6 @@ sections:
       links:
         Belbin test: https://www.123test.com/team-roles-test/
   -
-
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-
-  -
   -
     title: Case study
     theme: t-bg-primary1a i-casestudy
@@ -129,7 +104,7 @@ sections:
             The information allowed Ash to understand who else in the team is strong in these areas. She was then able to utilise their strengths to help the innovation within the team. 
             
             This helped the team remain successful and allowed the individuals to feel valued as they could contribute to the team using their strengths.
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/bit/bit_u1_s2_p2_case_study.svg
   -
   -
     title: Key point
@@ -151,5 +126,5 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        text
+        Think of a situation which involves a group of people with an outcome - this can be a work situation or not. Describe how the outcome would be affected if knowledge is shared or withheld.
   

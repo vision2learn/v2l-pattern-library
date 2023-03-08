@@ -74,7 +74,7 @@ sections:
           img: bit_u1_s1_p3_slide3.svg   
          
   -
-    title: Reveals
+    title: Different workplace legislation
     theme: t-bg-primary
     copy: |
      There are many pieces of legislation in place to help keep the workplace as safe possible. The ones that are relevant to you will depend on the type of work you do, but let’s take a look at some of the most common:
@@ -140,20 +140,43 @@ sections:
         Lifting Operations and Lifting Equipment Regulations (LOLER): https://www.hse.gov.uk/work-equipment-machinery/loler.htm
         Provision and Use of Work Equipment Regulations (PUWER): https://www.hse.gov.uk/work-equipment-machinery/puwer.htm#:~:text=PUWER%20requires%20that%20equipment%20provided,adequate%20information%2C%20instruction%20and%20training
   -
+  -
     title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      Sonia is the office manager at Physical 3D, a 3D printing company. She’s just used the back stairs to exit the building for the first time in several weeks and notices that there’s a pile of boxes on the landing, the boxes are a hazard as they partially block the access “someone could knock these on their way past and risk having an accident” Sonia thinks to herself.  She checks the Health & Safety policy, which states that stairways must remain clear and that as part of their safe working practices, all staff are responsible for report anything might cause harm. 
+      ### Physical 3D
 
-    img: /images/svg/bit/bit_u1_s1_p3_image2.svg
+      Sonia is the office manager at Physical 3D, a 3D printing company. She’s just used the back stairs to exit the building for the first time in several weeks and notices that there’s a pile of boxes on the landing.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Hazard
+          copy: |
+            The boxes are a hazard as they partially block the access.
+            
+            “Someone could knock these on their way past and risk having an accident” Sonia thinks to herself.  
+            
+            She checks the Health and Safety Policy, which states that stairways must remain clear and that as part of their safe working practices, all staff are responsible for report anything might cause harm. 
+            
+          img: /images/svg/bit/bit_u1_s1_p3_image2.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        In the about case study, which of the following legislations would be referenced?:
+          answers:
+            DSE : false
+            WHSWR : true
+            MHOR : false
+            PPE : false
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - relate to the video?_
-  -
-  
-  
+        In the above case study, Sonia only noticed the hazard when she used the back stairs which she doesn't use very often. What do you think could have been done to prevent the hazard from happening in the first place?

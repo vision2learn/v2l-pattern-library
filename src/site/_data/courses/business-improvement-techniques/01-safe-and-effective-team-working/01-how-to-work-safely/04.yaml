@@ -12,7 +12,7 @@ sections:
     copy: |
       In your assessment you will be required to explain what constitutes a hazard and what constitutes a risk in the workplace.
   -
-    title: Introduction 
+    title: Workplace hazard
     layout: media
     theme: t-bg-primary
     copy: |
@@ -22,16 +22,13 @@ sections:
 
       So what about Risks?
       A __risk__ is the __chance__ or __probability__ that a person will be harmed or experience an adverse health effect if exposed to a hazard. It may also apply to situations with property or equipment loss, or harmful effects on the environment. 
-
-
-
     img: /images/svg/bit/bit_u1_s1_p4_image1.svg
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Hazards and risks in the workplace.
+      ### Hazards and risks in the workplace
 
       Lets take a look at the different hazards and risks that can be present in the workplace. 
     video: placeholder_pc.mp4
@@ -53,86 +50,53 @@ sections:
             Someone using the stairs might trip on the boxes: false
             The boxes could block the access in an emergency: false
             All of the above: true
-          
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - relate to the video?_
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-  -
-    title: Time for an assessment task ?
-    theme: t-bg-primary3 i-practice
-    copy: |
-      _Says Assessment reference in spreadsheet so I've put this here as a placeholder as wasnt sure what was meant by that?_
   -
     title: Activity
     layout: media
     theme: t-bg-primary2
     copy: |
-      ### Title
+      ### Hazard or Risk?
 
       _Captivate activity - Drag and Drop_
 
-      Select the following icon to have a go at an activity to learn more about .....
+      Select the following icon to have a go at an activity to see if you can identify the differences between a hazard and a risk.
 
     img: /images/svg/Activity_button.svg
     activity: 
       ref: uc_u3_s2_p1_activity_v2
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      ### Title
-      
-      _Animated scenario video_
-
-      _Animation - Fred stairs/boxes/doors/trips) video of what risk assessment would look like._
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      In your assessment you will be required to:
+      * Identify potential risks and hazards associated with a work activity
+      * Describe how potential risks and hazards can be reduced
   -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title
-      
-      _Normal video for 1.5_
-      
-      Please see the following video on .
+      ### What is a risk assessment?
 
-    video: placeholder_pc.mp4
-  -
-    title: Wide image
-    theme: 
-    copy: |
-      _wide image from animated video above - link with time for assessment_
-      Text
+      _Example of a risk assessment._
       
-      ![](/images/banners/placeholder.jpg)
+      In the following video you will learn what a risk assessment is and how it will help you to identify the risks and hazards associated with a work activity and how to reduce them.
+    video: placeholder_pc.mp4
   -
     title: Time for an assessment
     theme: t-bg-primary3 i-practice
     copy: |
-      _Link to animated video and image above_
+      ### Risk assessment
 
-  
+      Download and complete the following document: [Unit 1 Session 1 Question 4 - Risk Assessment](/pdfs/bit_u1_s1_p4_risk_assessment.docx) 
+
+      Use the below image to identify the hazards and risks.  List them in the table provided (in the document) and describe how they can be reduced.
+      
+      _wide image showing an untidy unsafe office area - link with time for assessment_
+      
+      ![](/images/banners/placeholder.jpg)
+      
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 1 assessment.
