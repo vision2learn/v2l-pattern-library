@@ -7,7 +7,9 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to describe the types of problem that can occur with working relationships
+      In your assessment you will be required to describe the:
+      * Types of problem that can occur with working relationships
+      * Actions that can be taken to deal with specific problems in working relationships
   -
   -
     title: Types of problems with working relationships
@@ -23,7 +25,7 @@ sections:
           title: Poor communication
           text: |
             Leads to lack of understanding. People may be unsure of their goals and what they need to do. Misunderstandings will occur and problems won’t be resolved. A bad atmosphere will build up and staff will begin to mistrust each other.
-          img: placeholder_icon.svg
+          img: bit_u1_s2_p3_slide1.svg
         -
           title: Lack of trust
           text: |
@@ -31,23 +33,17 @@ sections:
             * Staff that don’t trust the organisation’s management are unlikely to work to their full potential and will be less innovative. 
             * Team leaders that don’t trust the staff are unlikely to delegate work and utilise individual’s skills effectively. 
             * Finally mistrust within teams won’t share information and my even prevent others from doing their job.
-          img: placeholder_icon.svg
+          img: bit_u1_s2_p3_slide2.svg
         -
           title: Conflict
           text: |
             Text
-          img: placeholder_icon.svg
+          img: bit_u1_s2_p3_slide3.svg
         -
           title: Lack of sharing information
           text: |
             Text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Key point
-    theme: t-bg-grey i-keypoint
-    copy: |
-      In your assessment you will be required to describe the actions that can be taken to deal with specific problems in working relationships.
+          img: bit_u1_s2_p3_slide4.svg
   -
   -
     title: Case study
@@ -76,15 +72,7 @@ sections:
             The team spent some time reviewing their skills and experience, including their preferred working methods and patterns. This informed the team on which team member would be best for the different aspects of the development. A clear team leader was appointed to take responsibility for receiving reports and communicating decisions to the rest of the team. The team leader also supported individuals within the team to know which other team members could assist them when the need arose.   
 
             Although this review took a little time, it was evident that it quickly made the team more efficient and assisted individuals to work together more collaboratively to achieve the team’s objectives.
-          img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Text
+          img: /images/svg/bit/bit_u1_s2_p3_case_study.svg
   -
   -
     title: On the web
@@ -92,50 +80,33 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can learn more about teamwork challenges. 
 
       links:
-        website description: http://www.google.co.uk
+        Teamwork challenges: https://uk.indeed.com/career-advice/career-development/teamwork-challenges
+        Challenges of teamwork and how to overcome them: https://blog.jostle.me/blog/5-challenges-of-teamwork-and-how-to-overcome-them
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Conflict within a team could occur if there are personality clashes, internal rivalry, or philosophical differences.
+          answer: Conflict
         -
-          sentence: example two
-          answer: two
+          sentence: If a team member is withholding information this could cause problems if the other team members are trying to complete the project with incomplete information.
+          answer: withholding information
         -
-          sentence: example three 
-          answer: three
+          sentence: A lack of trust could break down a team as it threatens productivity and slows down communication.
+          answer: lack of trust
         -
-          sentence: example four
-          answer: four
+          sentence: Poor communication can lead to a lack of understanding between team members and misunderstandings could happen.
+          answer: Poor communication
     theme: i-quiz
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think of a time when you were in a team (work or personal) where there was a problem or a challenge.  Make some notes on how you dealt with it at the time, and what you would do different now taking the above information into consideration.

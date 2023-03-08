@@ -19,7 +19,7 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to describe the characteristics of an effective team 
+      In your assessment you will be required to describe the characteristics of an effective team.
   -
     title: All about teamwork
     layout: media
@@ -41,9 +41,7 @@ sections:
     title: Team characteristics
     theme: t-bg-supporting3
     copy: |
-     
-    
-      Scroll through the slides below to learn more about the characteristics that contribute to effective teams
+      Scroll through the slides below to learn more about the characteristics that contribute to effective teams.
 
     subInc: 
       type: slider
@@ -106,7 +104,7 @@ sections:
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
-      In your assessment you will be required to describe the importance of creating and maintaining effective working relationships
+      In your assessment you will be required to describe the importance of creating and maintaining effective working relationships.
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -120,18 +118,28 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        text
+        Think of a time or situation when it was important to you to create and maintain an effective working relationship. Make some notes on how well (or not) the working relationship worked, and what you would do differently taking in consideration the points raised in the above video.
   -
   -
     title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-     Physical 3D have recently won a new contract and are expanding their products to provide some medical devises, starting with 3D printed hands. They gather their best designers and engineers together with the shared aim of producing a hand suitable for the new client’s requirements. Because everyone has the same go – developing the 3D printed hand – this is an example of a team. 
+      ### Physical 3D - New contract
 
-     The team work well together, each member has an assigned role, they know what they need to do and there is a team leader that ensures everyone is kept up to date with the whole team’s progress. Small problems are dealt with quickly and trust between the team members is quickly established.  
-
-    img: /images/svg/bit/bit_u1_s2_p1_image2.svg
+      Physical 3D have recently won a new contract and are expanding their products to provide some medical devices, starting with 3D printed hands. They gather their best designers and engineers together with the shared aim of producing a hand suitable for the new client’s requirements. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Working as a team
+          copy: |
+            Because everyone has the same goal – developing the 3D printed hand – this is an example of a team. 
+            
+            The team work well together, each member has an assigned role, they know what they need to do, and there is a team leader that ensures everyone is kept up to date with the whole team’s progress. 
+            
+            Small problems are dealt with quickly and trust between the team members is quickly established.
+            
+          img: /images/svg/bit/bit_u1_s2_p1_image2.svg
   -
   -
     title: On the web
@@ -139,8 +147,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn about the importance of teamwork.
 
       links:
-        website description: http://www.google.co.uk
+        The importance of teamwork: https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork
   
