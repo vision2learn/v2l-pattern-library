@@ -75,6 +75,14 @@ sections:
           img: /images/svg/bit/bit_u1_s2_p3_case_study.svg
   -
   -
+    title: Communication
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      The information on this page shows us how important communication is and the consequences for when it goes wrong. With clear communication the team leader in Physical 3D was able to overcome difficulties within the team, gain respect and assist everyone to do their job. Communication is arguably the most important skill that you can develop within the workplace. 
+
+    img: /images/svg/placeholder_icon.svg
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:

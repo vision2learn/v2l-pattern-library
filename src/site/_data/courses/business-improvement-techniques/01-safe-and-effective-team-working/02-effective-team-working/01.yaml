@@ -142,6 +142,15 @@ sections:
           img: /images/svg/bit/bit_u1_s2_p1_image2.svg
   -
   -
+    title: Personal professional development & developing relationships 
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      On this page we’ve considered the importance of developing relationships within the workplace. We can see how good relationships help teams and individuals work towards their objectives, enjoy their work and allow everyone to develop. In the video we see how negative attitudes bring difficulties and prevent progress. We can therefore conclude that developing positive relationships are beneficial to everyone and can aid you to achieve your personal goals.
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
