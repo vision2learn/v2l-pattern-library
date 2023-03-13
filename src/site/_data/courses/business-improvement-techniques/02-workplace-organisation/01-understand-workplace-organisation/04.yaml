@@ -1,13 +1,93 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the first session of this unit! 
-banner: summary.jpg
+title: Workplace Audits and SOPs
+intro: |
+  intro text 1.4 1.5 1.6
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
     copy: |
-      In this session, you have learnt about:
-      * one
-      * two
-      * three
-  
+      In your assessment you will be required to explain how to score and audit a workplace organisation.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How to score and audit a workplace organisation
+      
+      Please see the following video on 1.4.
+    video: placeholder_pc.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+
+  -
+  -
+    title: Quick quiz
+    copy: Optional item - only one quiz if used - this type or the one below
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Perform a workplace organisation audit using appropriate tools and techniques
+      * Provide recommendations for the creation of, or changes to, standard operating procedures (SOPs) and visual controls
+  -
+  -
+    title: P L A C E H O L D E R
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      ### Title
+
+      _Do we need an introduction to the time for assessment activity?_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - 
+
+      _To be used for the assessment task_
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: accordion title
+          copy: |
+            
+            text
+
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time for an assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
+
+      text
+      
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 1 assessment.
