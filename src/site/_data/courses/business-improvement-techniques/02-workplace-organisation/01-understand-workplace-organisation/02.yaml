@@ -1,4 +1,4 @@
-title: Understand workplace organisation
+title: Principles and techniques in the workplace
 intro: |
  On this page you will learn about the principles and techniques that support workplace organisation and the benfits of having an organised workplace environment.
 banner: placeholder.jpg
@@ -56,51 +56,84 @@ sections:
           text: |
             Employee involvement is critical to the success of workplace organisation. By involving employees in the process of organizing their own workspaces, they will take ownership and be more motivated to maintain a safe and productive environment.
           img: placeholder_icon.svg  
-          
   -
-  
-    title: Key point
-    theme: t-bg-supporting3 i-keypoint
+  -
+    title: The 5C/5S technique
+    theme: t-bg-supporting3
     copy: |
-      In your assessment you will be required to describe the factors to be considered when selecting a work area for an activity.
+      When aiming to create a clean, orderly and logical workplace, it helps to have a structured, **systematic approach** in order to identify where and how improvements can be made. 
+
+      The **5C/5S technique** approach enables workers to set appropriate workplace **standards** then identify any negative variations or abnormalities. Once these have been identified, it is possible to take action to correct them. 
+
+      ### Factors that influence an organised workplace
+
+      * The people
+      * The jobs that are done
+      * The order in which jobs are done
+      * The physical space required to do jobs
+      * The tools, equipment and materials needed to carry out jobs
+      * The use of shared resources
+      * Storage space
+  -
+    title: The 5C/5S technique
+    theme: t-bg-primary
+    copy: |
+      
+      The 5C/5S technique is based on five Japanese words: seiri, seiton, seiso, seiketsu and shitsuke. 
+
+      These words can be translated into English to make up the 5C and 5Ss. Select the following images to discover what they are:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Seiri
+          copy: |
+              5S: Sort  
+              5C: Clear out
+          img: placeholder_icon.svg
+        -
+          title: Seiton
+          copy: |
+              5S: Straighten/Simplify  
+              5C: Configure
+          img: placeholder_icon.svg
+        -
+          title: Seiso
+          copy: |
+              5S: Sweep/Shine/Scrub  
+              5C: Clean and check
+          img: placeholder_icon.svg
+        -
+          title: Seiketsu
+          copy: |
+              5S: Standardise  
+              5C: Conformity 
+          img: placeholder_icon.svg
+        -
+          title: Shitsuke
+          copy: |
+              5S: Sustain/Self-discipline  
+              5C: Custom and practice
+          img: placeholder_icon.svg
+  -
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Selecting a work area for an activity
+      ### Principles and techniques of workplace organisation
       
-      Please see the following video on 1.2.
+      Please see the following video on 1.1.
     video: placeholder_pc.mp4
   -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
   -
-    title: Case study
-    theme: t-bg-primary1a i-casestudy
-    copy: |
-      ### Case study - with accordion
-
-      text
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: title
-          copy: |
-            
-            text
-            
-          img: /images/svg/placeholder_icon.svg
-  -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Taking the above case study into consideration, .....
-
-      You will also need to ..... - this is in your main Unit 2 Assessment document.
-      
-      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
-  -
-  
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
