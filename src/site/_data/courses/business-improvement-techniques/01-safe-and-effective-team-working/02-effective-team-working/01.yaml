@@ -110,8 +110,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      ### Effective working relationships
+
       When describing the importance of creating and maintaining effective working relationships, learners could consider the benefits of doing so and the consequences of ineffective working relationships. Lets take a look at the importance of creating and maintaining effective working relationships in the following video.
-    video: placeholder_pc.mp4
+    video: bit_u1_s2_p1_effective_working_relationships.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
