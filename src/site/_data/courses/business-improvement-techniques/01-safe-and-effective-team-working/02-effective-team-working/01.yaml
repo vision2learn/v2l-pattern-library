@@ -92,13 +92,11 @@ sections:
     copy: |
       ### Factors that contribute to effective team working
 
-      _Captivate activity - Drag and Drop - Factors that contribute to effective team working include (but are not limited to) team size, motivation levels, company culture and balance of roles within the team._
-
       Select the following icon to have a go at an activity to learn more about the factors that contribute to effective team working.
 
     img: /images/svg/Activity_button.svg
     activity: 
-      ref: uc_u3_s2_p1_activity_v2
+      ref: bit_u1_s2_p1_activity_effective
   
   -
     title: Key point
@@ -110,8 +108,10 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
+      ### Effective working relationships
+
       When describing the importance of creating and maintaining effective working relationships, learners could consider the benefits of doing so and the consequences of ineffective working relationships. Lets take a look at the importance of creating and maintaining effective working relationships in the following video.
-    video: placeholder_pc.mp4
+    video: bit_u1_s2_p1_effective_working_relationships.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
