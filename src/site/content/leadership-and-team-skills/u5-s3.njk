@@ -1,0 +1,17 @@
+---js
+{
+  unit: 5,
+  session: 3,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['05-meeting-customer-needs']['03-collecting-storing-and-interpreting-customer-feedback']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

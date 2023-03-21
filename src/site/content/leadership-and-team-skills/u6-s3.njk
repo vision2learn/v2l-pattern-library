@@ -1,0 +1,17 @@
+---js
+{
+  unit: 6,
+  session: 3,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['06-innovation-and-change-in-an-organisation']['03-the-effects-of-implementating-innovation-and-change']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->

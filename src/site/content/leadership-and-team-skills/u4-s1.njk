@@ -1,0 +1,17 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['leadership-and-team-skills']['04-conflict-management-and-discipline-in-the-workplace']['01-conflict-management-in-the-workplace']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+
+<!-- {{ module.data.title }} -->
