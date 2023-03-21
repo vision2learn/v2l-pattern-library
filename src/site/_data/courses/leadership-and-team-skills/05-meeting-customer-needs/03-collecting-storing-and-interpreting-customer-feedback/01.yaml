@@ -1,0 +1,131 @@
+title: Customer feedback
+intro: |
+  In this session you will learn how to collect, store, and interpret customer feedback.  you will also learn how to improve customer satisfaction, and the Data Protectin Act.
+banner: lts_u5_s3_p1_customer_feedback.jpg
+sections:
+  -
+    title: What you will learn
+    theme: t-bg-primary
+    copy: |
+      In this session you will learn about:
+      * the importance of customer feedback 
+      * different methods of collecting formal and informal feedback from customers 
+      * how to interpret feedback from customers 
+      * how to improve customer satisfaction 
+      * implications of the Data Protection Act for collecting, storing and using customer feedback. 
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      Make sure you can explain the importance of customer feedback. 
+  -
+    title: The importance of customer feedback 
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Customer feedback is a stream of useful information about your product or service. It allows you to hear from the end user how well, or not, things are going.  
+
+      Customer feedback can help you identify problems that otherwise would have been missed. This is because customers are engaging with the product or service in a direct and practical way. You might not realise that there are inefficiencies or errors until they’re discovered out in the real world. 
+
+      Giving customers the opportunity to give feedback can also help them to feel like your organisation listens and cares. It can help create a sense of loyalty to your brand because the customer feels like their opinion matters to you. Even if the customer is unhappy, being given a feedback opportunity can help convince them to stay with you, rather than go to a competitor. Receiving feedback in the form of public reviews can also attract more customers if the reviews are positive. 
+
+    img: /images/svg/lts/lts_u5_s3_p1_image1.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the importance of customer feedback. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+  -
+  -
+    title: Collecting formal and informal feedback
+    theme: t-bg-supporting2
+    copy: |
+      Before we talk about feedback collection, let’s define formal and informal feedback. 
+
+      * __Formal feedback__ is organised and systematic. It tends to be done in a highly structured way, which can make it easier to be objective, though can also put customers off if it feels too complicated. 
+
+      * __Informal feedback__ is looser and more organic. It can be easy to engage with customers this way, but it’s more difficult to separate facts from opinions.  
+
+      Both of these forms of feedback are important for any organisation to stay on top of customer needs and expectations. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Conversations and observations 
+          copy: |
+            These are examples of __informal feedback__. 
+
+            Having a chat with a customer about their experiences with and opinions of your product or service can help you know if customer expectations are being met or not. Likewise, watching how customers behave when handling the product (if this applies to you) can help you gauge what they think about it.  
+          img: /images/svg/lts/lts_u5_s3_p1_accordion1.svg
+        - 
+          title: Social media comments and topics 
+          copy: |
+            These are examples of __informal feedback__. 
+            
+            What are people saying about your organisation, product, or service on social media? Take a look at the comments on social media updates your organisation puts out to discover more informal customer feedback. You can also read comments on consumer discussion forums.  
+            
+            Another thing you can do is keep an eye on trending topics on social media, to see if any are relevant to your organisation, product, service, or industry. 
+          img: /images/svg/lts/lts_u5_s3_p1_accordion2.svg
+        - 
+          title: Surveys
+          copy: |
+            This is an example of __formal feedback__. 
+            
+            A survey is a systematic, proactive exercise in gathering customer feedback. It can take a lot of different forms: 
+
+            * Asking customers in-store to answer survey questions 
+            * Online surveys on your website that are open to everyone 
+            * Targeted surveys sent to known customers, either by post, email, or via a telephone consultation 
+
+            Surveys allow you to gather large amounts of customer feedback in a rigorous and systematised way, which helps you stay objective and stick to the facts. 
+          img: /images/svg/lts/lts_u5_s3_p1_accordion3.svg
+        - 
+          title: Customer feedback forms
+          copy: |
+            This is an example of __formal feedback__. 
+            
+            A customer feedback form – either paper or digital – allows the customer to express their opinions to you in a clear and direct way. Often, organisations will have a formal channel through which customers can express themselves by using a feedback form. 
+          img: /images/svg/lts/lts_u5_s3_p1_accordion4.svg
+  -
+  -
+    title: Quick quiz
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Informal feedback is a form of feedback collected from methods like customer conversations, observations, and monitoring social media. 
+          answer: Informal feedback
+        -
+          sentence: Customer feedback forms allows customers to directly express their opinions to you. 
+          answer: Customer feedback forms
+        -
+          sentence: Formal feedback is feedback collected in an organised, systematic way. 
+          answer: Formal feedback
+        -
+          sentence: Surveys is a proactive exercise in gathering feedback which can be targeted directly at your customers.  
+          answer: Surveys
+    theme: i-quiz
+  
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of the different methods of collecting formal and informal feedback from customers. You could also carry out additional research to find examples that you could use in your assessment. Make a note of these in the box provided.
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following link where you can find some examples of customer care policies.  
+
+      links:
+        Customer care policy examples: https://www.liveagent.com/templates/customer-service-policy-templates/ 
