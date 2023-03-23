@@ -1,4 +1,4 @@
-title: Understand workplace organisation - NOT FOR REVIEW - WORK IN PROGRESS
+title: Understand workplace organisation
 intro: |
   intro text 1.2 and 1.3
 banner: placeholder.jpg
@@ -24,15 +24,16 @@ sections:
     copy: |
       ### Case study - Selecting a work area for an activity
 
-      text
+      Physical 3Ds’s new project team are collaborating with many people to ensure that their design for the prosthetic hand is exactly right for the client’s requirements, as such they need a regular meeting place to bring together a range of specialists, the client and members of the project team. This is an expansion that they’ve not given thought to previously and have found the cramped upstairs office unsuitable, particularly as the space must be accessible for one of the client team.  
+      
+      The production area downstairs is more spacious and is not fully utilised, therefore it seems a simple solution to build a partition here for a new meeting space to be created. However, even this isn’t as simple as first thought and there are many obstacles to overcome e.g.: the designated space is at the back of the production area and involves walking through a noisy, dusty area. There is no natural light once the area is partitioned and a fire exit hasn’t been considered.  
     subInc: 
       type: accordion
       content:
         - 
-          title: title
+          title: The Solution
           copy: |
-            
-            text
+            After a more thorough evaluation of the space available, Physical 3D decided that moving some of the existing production area was possible. This created space near to the front entrance of building and allowed the room divider to be built in a place that included a window to the new meeting room, as well as easy access directly into the room. Noise was still an issue and soundproofing was added to create a final safe environment that met all of the conditions needed for a meeting room. 
             
           img: /images/svg/placeholder_icon.svg
   -
@@ -62,65 +63,18 @@ sections:
     video: placeholder_pc.mp4
   -
   -
+    title: Physical and Mental Health
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      _Ofsted item_
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
         _LO or exercise._
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text

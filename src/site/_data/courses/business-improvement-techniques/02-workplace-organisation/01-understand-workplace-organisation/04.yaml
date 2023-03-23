@@ -1,6 +1,6 @@
-title: Workplace Audits and SOPs - NOT FOR REVIEW - WORK IN PROGRESS
+title: Workplace Audits
 intro: |
-  intro text 1.4 1.5 1.6
+  intro text 1.4 1.5
 banner: placeholder.jpg
 sections:
   -
@@ -15,7 +15,7 @@ sections:
     copy: |
       ### How to score and audit a workplace organisation
       
-      Please see the following video on 1.4.
+      Please see the following video on 1.4. and an introduction to 1.5
     video: placeholder_pc.mp4
   -
     title: Time to think
@@ -28,7 +28,7 @@ sections:
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
@@ -49,18 +49,16 @@ sections:
     title: Key point
     theme: t-bg-supporting2 i-keypoint
     copy: |
-      In your assessment you will be required to:
-      * Perform a workplace organisation audit using appropriate tools and techniques
-      * Provide recommendations for the creation of, or changes to, standard operating procedures (SOPs) and visual controls
+      In your assessment you will be required to perform a workplace organisation audit using appropriate tools and techniques.
   -
   -
-    title: P L A C E H O L D E R
+    title: Workplace organisation audit
     layout: media
     theme: t-bg-primary
     copy: |
       ### Title
 
-      _Do we need an introduction to the time for assessment activity?_
+      _Introduction to the time for assessment activity_
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -68,19 +66,21 @@ sections:
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - 
+      ### Case study - Perform a workplace organisation audit
 
-      _To be used for the assessment task_
+      _To be used for the assessment task - wide image to be created_
     subInc: 
       type: accordion
       content:
         - 
-          title: accordion title
+          title: Before scenario environment
           copy: |
             
             text
 
-          img: /images/svg/placeholder_icon.svg
+            ![](/images/banners/placeholder.jpg)
+
+            text
   -
   -
     title: Time for an assessment task
@@ -90,4 +90,4 @@ sections:
 
       text
       
-      Make sure you save this document as you will need to submit it to your tutor along with your unit 1 assessment.
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 2 assessment.
