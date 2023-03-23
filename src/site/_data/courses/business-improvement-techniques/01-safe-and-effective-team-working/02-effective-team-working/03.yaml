@@ -1,167 +1,120 @@
-title: TEMPLATE PAGE
+title: Problems in the workplace
 intro: |
-  intro text
-banner: placeholder.jpg
+  On this page you will learn about problems that can occur in the workplace and the actions that can be taken to resolve them.
+banner: bit_u1_s2_p3_banner.jpg
 sections:
   -
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to 
+      In your assessment you will be required to describe the:
+      * Types of problem that can occur with working relationships
+      * Actions that can be taken to deal with specific problems in working relationships
   -
-    title: introduction text
-    layout: media
+  -
+    title: Types of problems with working relationships
     theme: t-bg-primary
     copy: |
-      _The introduction/topic text could either be in a single section like this, or Reveals or a Slider depending on the content._ 
-      
-      Topic introduction text here 
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Reveals
-    theme: t-bg-supporting2
-    copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: slider
-    theme: t-bg-primary
-    copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      So far we’ve looked at how a team works well together, but what happens when things don’t go so well? When teams aren’t managed well, stop sharing information and lose trust it can lead to conflict within the team and poor communication. The team then stops functioning, productivity goes down and clients become unhappy with the service. In the following we’ll look more at some of the problems that can occur with working relationships.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: slide 1 title
+          title: Poor communication
           text: |
-            text
-          img: placeholder_icon.svg
+            Leads to lack of understanding. People may be unsure of their goals and what they need to do. Misunderstandings will occur and problems won’t be resolved. A bad atmosphere will build up and staff will begin to mistrust each other.
+          img: bit_u1_s2_p3_slide1.svg
         -
-          title: slide 2 title
+          title: Lack of trust
           text: |
-            text
-          img: placeholder_icon.svg
+            There are three directions for trust: 
+            * Staff that don’t trust the organisation’s management are unlikely to work to their full potential and will be less innovative. 
+            * Team leaders that don’t trust the staff are unlikely to delegate work and utilise individual’s skills effectively. 
+            * Mistrust within the teams may lead to less sharing of information and may even prevent others from doing their job.
+          img: bit_u1_s2_p3_slide2.svg
         -
-          title: slide 3 title
+          title: Conflict
           text: |
-            text
-          img: placeholder_icon.svg
-  -
-  -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise - must relate to the video._
+            We’ve touched on conflict in the previous slides and can see how this can be created when problems occur in working relationships. Conflict in the workplace can lead to emotions such as anger, resentment and frustration; all of which make it even more challenging for the team to work together. It’s likely that in such an environment staff begin to leave, increasing the turnover and affecting productivity.
+          img: bit_u1_s2_p3_slide3.svg
+        -
+          title: Lack of sharing information
+          text: |
+            When information isn’t shared between team members it can lead to the poor communication and lack of trust described on the previous slides. It is also likely that without all of the information, poor decisions will be made and conflict will occur. Team members will dislike the feeling of being ‘kept in the dark’. Without knowledge of what everyone is doing, work will be duplicated which wastes time, effort and resources. 
+          img: bit_u1_s2_p3_slide4.svg
   -
   -
     title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - 
+      ### Case study - Physical 3D
 
-      _Optional item depending on content_
+      ### The problem
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+      Do you remember that Physical 3D have brought a team together to develop an artificial hand? 
+
+      They’re finding it surprisingly difficult to get the ball rolling with the development. They’re sure that they’ve got the right people in the team, with the technical skills that they need, but they’re not making the progress that they expected.  
+
+      More than once, people in the team have told other colleagues outside the team things like: 
+      * “I never know who exactly to report to…” 
+      * “I’ve been asked to do stuff that’s not my responsibility and I’m not sure what I should be doing anymore.” 
+      * “I’ve asked for help, but it feels as though no one else knows what to do either.” 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: The solution
+          copy: |
+            The team roles and responsibilities haven’t been clearly defined and communicated to everyone; team members are not sure what they should be doing, who they should be giving information and support to, or who they should report to.   
+
+            The team spent some time reviewing their skills and experience, including their preferred working methods and patterns. This informed the team on which team member would be best for the different aspects of the development. A clear team leader was appointed to take responsibility for receiving reports and communicating decisions to the rest of the team. The team leader also supported individuals within the team to know which other team members could assist them when the need arose.
+
+            Although this review took a little time, it was evident that it quickly made the team more efficient and assisted individuals to work together more collaboratively to achieve the team’s objectives.
+          img: /images/svg/bit/bit_u1_s2_p3_case_study.svg
   -
+  -
+    title: Communication
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      The information on this page shows us how important communication is and the consequences for when it goes wrong. With clear communication the team leader in Physical 3D was able to overcome difficulties within the team, gain respect and assist everyone to do their job. Communication is arguably the most important skill that you can develop within the workplace.
+
+    img: /images/svg/bit/bit_u1_s2_p3_image1.svg
   -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can learn more about teamwork challenges. 
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
+        Teamwork challenges: https://uk.indeed.com/career-advice/career-development/teamwork-challenges
+        Challenges of teamwork and how to overcome them: https://blog.jostle.me/blog/5-challenges-of-teamwork-and-how-to-overcome-them
   -
     title: Quick quiz
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Conflict within a team could occur if there are personality clashes, internal rivalry, or philosophical differences.
+          answer: Conflict
         -
-          sentence: example two
-          answer: two
+          sentence: If a team member is withholding information this could cause problems if the other team members are trying to complete the project with incomplete information.
+          answer: withholding information
         -
-          sentence: example three 
-          answer: three
+          sentence: A lack of trust could break down a team as it threatens productivity and slows down communication.
+          answer: lack of trust
         -
-          sentence: example four
-          answer: four
+          sentence: Poor communication can lead to a lack of understanding between team members and misunderstandings could happen.
+          answer: Poor communication
     theme: i-quiz
-  
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Think of a time when you were in a team (work or personal) where there was a problem or a challenge.  Make some notes on how you dealt with it at the time, and what you would do differently now taking the above information into consideration.

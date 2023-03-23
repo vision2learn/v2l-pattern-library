@@ -7,29 +7,8 @@ sections:
     theme: t-bg-primary i-summary
     copy: |
       In this session, you have learnt about:
-      * one
-      * two
-      * three
-  -
-    title: Session quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+      * Describe the specific regulations, safe working practices and procedures that apply to a work activity
+      * Explain what constitutes a hazard in the workplace
+      * Explain what constitutes a risk in the workplace
+      * Identify potential risks and hazards associated with a work activity
+      * Describe how potential risks and hazards can be reduced

@@ -1,7 +1,7 @@
 title: Understand effective team working 
 intro: |
   In this session you will learn about effective team working, the importance of building effective teams and working relationships, the types of problems that can occur and how to deal with them. 
-banner: placeholder.jpg
+banner: bit_u1_s2_p1_banner.jpg
 sections:
   -
     title: What you will learn
@@ -19,13 +19,16 @@ sections:
     title: Key point
     theme: t-bg-grey i-keypoint
     copy: |
-      In your assessment you will be required to describe the characteristics of an effective team 
+      In your assessment you will be required to describe the characteristics of an effective team.
   -
     title: All about teamwork
     layout: media
     theme: t-bg-primary
     copy: |
       Organisations are made up of teams of employees who work together. Teams are often more effective at completing tasks than individuals, particularly when the tasks are complex or require creative thinking.
+
+      A team is a group of individuals who work together to achieve a common goal or task. 
+      
       A team has:
 
       * Members who work together
@@ -33,14 +36,12 @@ sections:
       * An interdependence working towards goals
       * Goals and objectives it works towards
       * A perception of itself as a team.
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/bit/bit_u1_s2_p1_image1.svg
   -
     title: Team characteristics
     theme: t-bg-supporting3
     copy: |
-     
-    
-      Scroll through the slides below to learn more about the characteristics that contribute to effective teams
+      Scroll through the slides below to learn more about the characteristics that contribute to effective teams.
 
     subInc: 
       type: slider
@@ -49,125 +50,104 @@ sections:
         -
           title: Common goals
           text: |
-            A chief characteristic of any successful team is that members place the common goal above individual interests. While scaling individual targets is great for personal morale, teams succeed when they understand, appreciate and work with a common purpose.
-          img: placeholder_icon.svg
+            A chief characteristic of any successful team is that members place the common goal above individual interests. While scaling individual targets is great for personal morale, teams succeed when they understand, appreciate and work with a common purpose. 
+          img: bit_u1_s2_p1_slide1.svg
         -
           title: Good communication
           text: |
-            In any team, communication is crucial to building a sense of camaraderie between members. The manner of communication — how freely and frequently team members communicate — determines the effectiveness of the team. Put simply, the more freely you talk to your fellow team members, the more comfortable you are in sharing insights and ideas. This is just one major reason why modern businesses emphasize communication and collaboration tools.
-          img: placeholder_icon.svg
+            In any team, communication is crucial to building a sense of camaraderie between members. The manner of communication — how freely and frequently team members communicate — determines the effectiveness of the team. Put simply, the more freely you talk to your fellow team members, the more comfortable you are in sharing insights and ideas. This is just one major reason why modern businesses emphasize communication and collaboration tools. 
+          img: bit_u1_s2_p1_slide2.svg
         -
           title: Trust
           text: |
-            Team members who cannot trust one other or who don’t believe in the process and goals of the team seldom find success. Effective teams focus on solving problems. Trust is an adjunct of effective communication; there can be trust between team members only if they are allowed to air their views freely. This is the reason why organizations often undertake team-building exercises that put team members in positions of trust.
-          img: placeholder_icon.svg
+            Team members who cannot trust one other or who don’t believe in the process and goals of the team seldom find success. Effective teams focus on solving problems. Trust is an adjunct of effective communication; there can be trust between team members only if they are allowed to air their views freely. This is the reason why organisations often undertake team-building exercises that put team members in positions of trust. 
+          img: bit_u1_s2_p1_slide3.svg
         -
           title: Defined roles
           text: |
-            Roles might shift somewhat once the team is assembled, but understand the skill sets and thinking styles are needed on the team. If a team needs to develop a new product for market, that team will need a detail-oriented person (the task-master), who is methodical and can keep the team on track.
+            Roles might shift somewhat once the team is assembled, but understanding the skill sets and thinking styles are needed on the team. If a team needs to develop a new product for market, that team will need a detail-oriented person (the task-master), who is methodical and can keep the team on track. 
+            
+            The explorer will be more of a big-picture thinker who can help the team see what is possible. The number-cruncher will take charge of measurement and metrics. It’s possible your team will have other roles to fill, but you should have a good handle on those roles before you begin staffing. Once you have a plan for those basics, begin choosing the strongest team members to carry out the project. 
 
-            The explorer will be more of a big-picture thinker who can help the team see what is possible. The number-cruncher will take charge of measurement and metrics. It’s possible your team will have other roles to fill, but you should have a good handle on those roles before you begin staffing.
-            Once you have a plan for those basics, begin choosing the strongest team members to carry out the project.
-
-          img: placeholder_icon.svg
+          img: bit_u1_s2_p1_slide4.svg
         -
           title:  Mutually accountable
           text: |
-            Teams accept responsibility as individuals and as a team. They don’t blame one another for team mistakes and failures. No one should spend any time, useless time, in personal justifications. They should celebrate their successes together and recognize special performances and contributions that each team member makes to the total work of the team.
-          img: placeholder_icon.svg
+            Teams accept responsibility as individuals and as a team. They don’t blame one another for team mistakes and failures. No one should spend any time, in personal justifications. They should celebrate their successes together and recognise special performances and contributions that each team member makes to the total work of the team. 
+          img: bit_u1_s2_p1_slide5.svg
         -
           title:  Collaboration
           text: |
             Close collaboration is a trait shared by every successful team, whether it be the Apple leadership team or Lennon-McCartney of the Beatles fame or Jordan-Pippen of the Chicago Bulls fame. The idea is simple enough: the more you collaborate and the more you communicate, the more you create.
-          img: placeholder_icon.svg    
+          img: bit_u1_s2_p1_slide6.svg    
   -
-    title: Reveals
-    theme: t-bg-supporting2
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      _Optional item depending on content_
-
-      Select the images below to read 
-
-    subInc: 
-      type: reveal
-      content:
-        -
-          title: a
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: b
-          copy: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: c
-          copy: |
-            text
-          img: placeholder_icon.svg
+      In your assessment you will be required to identify the factors that contribute to effective team working.
   -
-  -
-    title: slider
-    theme: t-bg-primary
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
     copy: |
-      _Optional item depending on content_
-    
-      Scroll through the slides below to learn more about ...
+      ### Factors that contribute to effective team working
 
-    subInc: 
-      type: slider
-      title: 
-      slides:
-        -
-          title: slide 1 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 2 title
-          text: |
-            text
-          img: placeholder_icon.svg
-        -
-          title: slide 3 title
-          text: |
-            text
-          img: placeholder_icon.svg
+      Select the following icon to have a go at an activity to learn more about the factors that contribute to effective team working.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: bit_u1_s2_p1_activity_effective
   -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the importance of creating and maintaining effective working relationships.
   -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      _Presentation style .... _
-      
-      Please see the following video on .
-    video: placeholder_pc.mp4
+      ### Effective working relationships
+
+      Lets take a look at the importance of creating and maintaining effective working relationships in the following video.
+    video: bit_u1_s2_p1_effective_working_relationships.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise - must relate to the video._
-
-        Using the link below carry out some research .... Make a note of your findings in the “Time to think” box to the right. 
-        
-      links:
-        Mental health statistics: https://www.mentalhealth.org.uk/statistics/mental-health-statistics-children-and-young-people
-
+        Think of a time or situation when it was important to you to create and maintain an effective working relationship. Make some notes on how well (or not) the working relationship worked, and what you would do differently taking in consideration the points raised in the above video.
   -
   -
     title: Case study
-    layout: media
-    theme: t-bg-primary1a i-case-study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - 
+      ### Physical 3D - New contract
 
-      _Optional item depending on content_
+      Physical 3D have recently won a new contract and are expanding their products to provide some medical devices, starting with 3D printed hands. They gather their best designers and engineers together with the shared aim of producing a hand suitable for the new client’s requirements. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Working as a team
+          copy: |
+            Because everyone has the same goal – developing the 3D printed hand – this is an example of a team. 
+            
+            The team work well together, each member has an assigned role, they know what they need to do, and there is a team leader that ensures everyone is kept up to date with the whole team’s progress. 
+            
+            Small problems are dealt with quickly and trust between the team members is quickly established.
+            
+          img: /images/svg/bit/bit_u1_s2_p1_image2.svg
+  -
+  -
+    title: Personal professional development & developing relationships 
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      On this page we’ve considered the importance of developing relationships within the workplace. We can see how good relationships help teams and individuals work towards their objectives, enjoy their work and allow everyone to develop. In the video we see how negative attitudes bring difficulties and prevent progress. We can therefore conclude that developing positive relationships are beneficial to everyone and can aid you to achieve your personal goals.
 
-    img: /images/svg/ypmh/placeholder_icon.svg
+    img: /images/svg/bit/bit_u1_s2_p1_image3.svg
   -
   -
     title: On the web
@@ -175,60 +155,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn about the importance of teamwork.
 
       links:
-        website description: http://www.google.co.uk
-  -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      _Optional item depending on content - useful for additional reading_
-
-      Take a look at the following document about 
-
-      [example doc]().
-  -
-    title: Quick quiz
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+        The importance of teamwork: https://www.atlassian.com/blog/teamwork/the-importance-of-teamwork
   
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
