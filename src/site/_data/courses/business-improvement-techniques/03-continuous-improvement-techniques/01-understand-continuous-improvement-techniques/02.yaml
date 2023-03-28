@@ -94,9 +94,9 @@ sections:
   -
     title: Kaizen P l a c e h o l d e r
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
-      _Do we need to include New thinking approaches, Information flow, the benefits of new thinking, and Five continuous improvement questions? - from https://www.vision2learn.com/courses/lean-management/2/1/3_
+      _Do we need to include New thinking approaches, Information flow, and the benefits of new thinking? - from https://www.vision2learn.com/courses/lean-management/2/1/3_
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -108,7 +108,7 @@ sections:
   -
   -
     title: Types of waste FROM LEAN
-    theme: t-bg-supporting2
+    theme: t-bg-primary
     copy: |
       These seven types of waste were devised by Taiichi Ohno, an executive at Toyota who played an important role in the creation of TPS. They are known as the seven types of **muda**, which is the Japanese word for ‘waste’ or ‘wastefulness’.
 

@@ -44,8 +44,7 @@ sections:
           img: LM_U2_S4_P1_Slide_5.svg
   -
   -
-    title: The benefits of standardisation FROM LEAN
-    layout: media
+    title: Benefits of standardisation FROM LEAN
     theme: t-bg-primary
     copy: |
       Organisations seek to standardise in order to improve reliability and cut wasted time, materials and labour.
@@ -56,12 +55,10 @@ sections:
 
       Another potential benefit of standardisation is reduced stock levels carried in organisations. If one component can be standardised and used for all models produced by a business, reducing stock, then storage, monitoring and the potential for error can be achieved cost-effectively.
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Benefits of standardisation FROM LEAN
-    theme: t-bg-primary
-    copy: |
+      
+
+      _The above text was in a separate section, the below is the introduction to the slides_
+
       In addition to improving reliability and eliminating waste, standardisation is also used to reduce costs, eliminate problems and aid in health and safety
 
       The process of standardisation can make a significant contribution to quality, efficiency and safety in the workplace. It may be used in all types of organisation and for all types of business functions.
