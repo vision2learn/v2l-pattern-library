@@ -63,31 +63,17 @@ sections:
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Case study
-    theme: t-bg-primary1a i-casestudy
-    copy: |
-      ### Case study - Perform a workplace organisation audit
-
-      _To be used for the assessment task - wide image to be created_
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Before scenario environment
-          copy: |
-            
-            text
-
-            ![](/images/banners/placeholder.jpg)
-
-            text
-  -
-  -
     title: Time for an assessment task
     theme: t-bg-primary3 i-practice
     copy: |
+      ### Perform a workplace organisation audit
+
+      
       Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
 
-      text
+      _Before scenario environment_
       
+      ![](/images/banners/placeholder.jpg)
+
+
       Make sure you save this document as you will need to submit it to your tutor along with your unit 2 assessment.
