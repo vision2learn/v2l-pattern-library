@@ -11,55 +11,16 @@ sections:
   -
     title: Introduction
     layout: media
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
-      _Not sure we need this?_
+      We briefly looked at some Lean tools and techniques in unit 2. Here will explore another Lean practice, known as Kaizen. Kaizen is a Japanese term, translated it means ‘continuous improvement’ and it uses incremental and continuous improvements in all areas of organisational operations e.g. processes, products, services and even people. The goal of Kaizen is to improve quality, efficiency, productivity and reduce waste and costs.  
 
     img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Principles of lean management FROM LEAN
-    theme: t-bg-supporting3
-    copy: |
-      The philosophy of lean management and manufacturing is a generic set of ideas that have been adapted to fit different kinds of manufacturing and business processes.
-
-      Across all these different businesses, attempts to improve productivity and quality using lean organisation techniques have the same set of principles at heart.
-
-      See below to learn more about the five principles of lean management.
-
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: 1. Specify what creates value for customers
-          copy: |
-            Here, value is the quality of service provided to the end customer. Only a small fraction of the time and effort spent working in a business directly adds value for the customer. By specifying activities in the work process that add value for the customer, it becomes easier to identify non-value activities that could be minimised or removed.
-        - 
-          title: 2. Identify steps along the process chain
-          copy: |
-            The process chain contains all the activities and processes that help deliver the product or service to the end customer. This represents, from start to finish, how value is delivered to the customer.
-        - 
-          title: 3. Make processes flow by eliminating waste
-          copy: |
-            Once activities and processes have been identified, the challenge is then to find ways to remove or minimise non-value waste. You’ll learn about the seven different types of waste later in this session. 
-        - 
-          title: 4. Respond to customer demand 
-          copy: |
-            Check what the customer wants so that the business produces what is wanted exactly when the customer wants it. This can help to make sure that any changes and attempts to minimise waste are working. 
-        - 
-          title: 5. Strive for perfection by continual improvement
-          copy: |
-            A lean business that doesn’t want to stand still must constantly be on the lookout for ways to improve. The aim is to introduce lean management techniques throughout the business so that the employees are always looking for ways to improve efficiency and minimise waste.
-  -
-  -
-    title: What is Kaizen?  CONTENT FROM LEAN (different section types)
+    title: The four principles of Kaizen
     theme: t-bg-primary
     copy: |
-      The term ‘Kaizen’ means ‘gradual and orderly continuous improvement’. It comes from the words ‘kai’ (which means ‘continuous’) and ‘zen’ (which means ‘good’).
-
-      In Japan, the word carries the meaning of change, renewal and spirit. Adopting a Kaizen approach in the workplace brings a spirit of renewal. This means the organisation should operate within a culture where change and continuous improvement are the norm.
-
-      ### The four principles of Kaizen
 
     subInc: 
       type: reveal
@@ -92,231 +53,27 @@ sections:
       Decisions about day-to-day activities may be made by the people doing the activities, rather than by the managers at the top of the organisation. Therefore, information flows both up and down and back and forth throughout the organisation, rather than simply from the top-downwards.
   -
   -
-    title: Kaizen P l a c e h o l d e r
-    layout: media
-    theme: t-bg-supporting3
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      _Do we need to include New thinking approaches, Information flow, and the benefits of new thinking? - from https://www.vision2learn.com/courses/lean-management/2/1/3_
-
-    img: /images/svg/placeholder_icon.svg
+      ### Case study - Show how Kaizen is important in Lean
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: title
+          copy: |
+            
+            text
+            
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe the 8 wastes of lean and how to eliminate them.
-  -
-  -
-    title: Types of waste FROM LEAN
-    theme: t-bg-primary
-    copy: |
-      These seven types of waste were devised by Taiichi Ohno, an executive at Toyota who played an important role in the creation of TPS. They are known as the seven types of **muda**, which is the Japanese word for ‘waste’ or ‘wastefulness’.
-
-      All seven types can be applied to the service industry just as much as they can to the manufacturing industry.
-
-      Scroll through the slides below to learn more about the seven types of waste:
-
-    subInc: 
-      type: slider
-      title: Waste
-      slides:
-        -
-          title: Transportation
-          text: |
-            When products and materials are moved unnecessarily due to poor layout, there is too much stock to transport or there are insufficiently sized storage areas.
-
-            ### Case study  
-            Working from two offices in two different cities, a stationery supplies company often has to send invoice forms between offices which takes up valuable time and costs money for postage.
-          img: LM_U1_S1_p4_Transport.svg
-        -
-          title: Inventory
-          text: |
-            If a business finds itself with large stocks of work in progress or large stocks of raw materials then they can clutter the workplace.
-
-            ### Case study
-
-            Sam has recently opened Sam’s Deli in the centre of town, selling freshly made sandwiches and other snacks. Despite a successful opening week, Sam’s business inexperience has caused him to over order on some ingredients and under order on others. As a result, a whole batch of tomatoes has gone off while the popular turkey sandwich has had to be taken off the menu as he’s run out of turkey. 
-
-          img: LM_U1_S1_p4_Inventory.svg
-        - 
-          title: Motion
-          text: |
-            Unnecessary movements such as too much stretching or bending and walking for tools and materials can mean work time is totally unproductive and puts workers at greater risk of injury.
-
-            ### Case study
-
-            For example, an office may have a post room on the second floor of the building when all letters and correspondence are prepared on the first floor. Moving the post up and downstairs may be wasting precious work time that adds up over a long period of time. 
-
-          img: LM_U1_S1_p4_Motion.svg
-        -
-          title: Waiting
-          text: |
-            Time can be wasted when waiting for the next step in the process as a result of some areas working quicker or slower than others, machines needing constant monitoring or if there are delays in changeovers.
-
-            ### Case study
-
-            A factory that manufactures specially designed bikes has quality controls in place that ensure each part is made to the highest standard. However, production is often held up when a new frame is tested for durability leaving others further along the manufacturing chain with nothing to do.
-
-          img: LM_U1_S1_p4_Waiting.svg
-        -
-          title: Overproduction
-          text: |
-            Waste can occur if production outputs exceed demand or if production is far too ahead of schedule.
-
-            ### Case study
-
-            Bertha’s Bonnie Jams have managed to secure an order from a local supermarket of 300 jars of their gourmet jam. They decide to make another 600 jars on top of the initial 300 as they fully expect the supermarket to order even more. Unfortunately, no more orders are forthcoming so instead the jars are left to sit in a warehouse unsold and eventually have to be thrown away.
-
-          img: LM_U1_S1_p4_Overproduction.svg
-        -
-          title: Overprocessing
-          text: |
-            Outputs that require more work or are of a higher quality than is required can create unnecessary work with processes that are unproductive or too complicated.
-            ### Case study
-
-            When launching a new variety of crisps, a small snack company decides to commission an artist to personally draw, by hand, each individual packet. While the packets look attractive, most consumers barely pay any attention to the packets which end up being thrown away once the crisps have been eaten! 
-
-          img: LM_U1_S1_p4_Overprocessing.svg
-        -
-          title: Defects
-          text: |
-            When outputs need to be reworked or scrapped then waste can occur as a result of extra quality checks, storage for rejects, increased customer complaints and excess overtime.
-
-            ### Case study
-
-            A local sofa company has printed off 1000 leaflets to post through people’s doors in the area but just as they’re about to be sent off an employee notices a major spelling error in the tagline. The company has no option but to dispose of the leaflets and print another 1000 with the typo corrected at great cost.
-
-          img: LM_U1_S1_p4_Defects.svg
-        -
-          title: Waste 8
-          text: |
-            Text
-
-            ### Case study
-
-            Text
-
-          img: placeholder_icon.svg
-  -
-  -
-    title: Eliminating waste FROM LEAN - could use for video?
-    theme: 
-    copy: |
-      In a continuous improvement workplace, the aim is to identify and eliminate waste in order to lower costs and improve outputs. 
-
-      Taiichi Ohno, the chief engineer at Toyota, devised seven types of waste (known as Muda in Japanese). His classifications apply to both product and service industries. The classification system can help organisations to identify and eliminate waste, providing a focus for activity in the workplace. 
-
-      ### Types of waste
-
-      The seven types of waste make the acronym ‘TIMWOOD’. Use it to help you remember them.
-
-      Scroll through the slides below to learn more
-    subInc:
-      type: slider
-      title: 
-      slides:
-        -
-          title: 1. Transport
-          text: |
-            **Key aspects**
-            * Poor layout
-            * Wrong position of raw materials
-            * Too much inventory
-            * Insufficiently sized storage areas
-
-            **Benefits of elimination**
-            * Efficient access to materials
-            * Reduced handling costs
-            * Reduced internal movement of materials
-            * Reduced risk of handling damage
-            * Reduced risk of health and safety hazards
-
-          img: LM_U2_S1_P4_Slide_1.svg
-        -
-          title: 2. Inventory
-          text: |
-            **Key aspects**
-            * Large stocks of work in progress
-            * Large stocks of raw materials
-            * Work-in-progress and raw materials cluttering the workplace
-
-            **Benefits of elimination**
-            * Money not tied up
-            * Workspaces not tied up
-            * Easier movement and transportation
-            * Lower potential hazards
-
-          img: LM_U2_S1_P4_Slide_2.svg
-        -
-          title: 3. Motion (by operators)
-          text: |
-            **Key aspects**
-            * Too much stretching and bending to do the job
-            * Too much walking to get tools and materials etc.
-            * Unproductive work time
-            * Greater risk of injury
-
-            **Benefits of elimination**
-            * Reduction in injury and absenteeism
-            * Greater productivity
-            * Better environment and morale
-          img: LM_U2_S1_P4_Slide_3.svg
-        -
-          title: 4. Waiting (idle time)
-          text: |
-            **Key aspects**
-            * Some work areas working quicker/slower than others
-            * Different or conflicting cycle times
-            * Machines needing constant monitoring
-            * Delays in change over
-
-            **Benefits of elimination**
-            * Better use of operator time
-            * More efficient use of equipment
-            * Reduced likelihood of operator boredom with potentially fewer accidents as a result.
-          img: LM_U2_S1_P4_Slide_4.svg
-
-        -
-          title: 5. Overproduction
-          text: |
-            **Key aspects**
-            * Creating an output that exceeds demand
-            * Producing outputs far ahead of schedule
-
-            **Benefits of elimination**
-            * Saves money on unnecessary production
-            * Exposes underlying causes of overproduction
-            * Cuts the risk of being left with stock that cannot be sold
-          img: LM_U2_S1_P4_Slide_5.svg
-        -
-          title: 6. Over-processing
-          text: |
-            **Key aspects**
-            * Too much time spent on set-ups change overs and down time
-            * Unproductive, unnecessary and complicated processes
-
-            **Benefits of elimination**
-            * Money saved by removing unnecessary processes
-            * Higher levels of equipment utilisation
-            * More efficient workflows
-          img: LM_U2_S1_P4_Slide_6.svg
-        -
-          title: 7. Defects (bad quality)
-          text: |
-            **Key aspects**
-            * Planned overproduction to meet lower targets
-            * Large temporary storage areas/containers for rejects
-            * Excess overtime
-            * Increased customer complaints
-            * Additional resources needed for quality checks
-
-            **Benefits of elimination**
-            * Higher customer satisfaction
-            * Reduced rework costs
-            * Reduced waste disposal costs
-            * Lower overtime
-            * Reduced need for overproduction
-          img: LM_U2_S1_P4_Slide_7.svg
   -
   -
     title: Watch 
