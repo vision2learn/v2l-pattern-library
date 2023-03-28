@@ -37,14 +37,24 @@ sections:
             
           img: /images/svg/placeholder_icon.svg
   -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Taking the above case study into consideration, .....
-
-      You will also need to ..... - this is in your main Unit 2 Assessment document.
-      
-      Remember to 'Save As' and add your name as you will be using this document as part of your assessment.
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
   -
   -
     title: Key point
@@ -67,7 +77,9 @@ sections:
     layout: media
     theme: t-bg-primary1b
     copy: |
-      _Ofsted item_
+      So far in this unit we have considered different factors for making a workplace environment organised and efficient. These have mostly consisted of the physical environment such as health & safety, location, layout and accessibility, all of which are important and impact on individual’s physical health, but what about mental health? This can suffer if people find the environment difficult and although this can be individual e.g. some people like to work with background noise and thrive in busy, noisy environment. Others would have difficulty concentrating and prefer quiet, smaller, more relaxed spaces. 
+      
+      Although accommodating all differences is difficult, it’s important that individuality is taken into consideration and adaptions made where needed. E.g. if the noise, busy environment can’t be avoided, then a quiet, relaxed and comfortable breakout room could help those that need it. 
 
     img: /images/svg/placeholder_icon.svg
   -
