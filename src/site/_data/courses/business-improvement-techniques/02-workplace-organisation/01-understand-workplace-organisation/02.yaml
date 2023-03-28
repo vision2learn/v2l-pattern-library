@@ -13,14 +13,30 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Workplace organisation is important for any business because it can directly impact the safety, health, and well-being of employees, as well as the efficiency and productivity of a business. A well-organised workplace can help reduce the risk of accidents, minimize the spread of illnesses, and prevent injuries. It can also make it easier for employees to locate tools and equipment, reduce clutter, and increase morale. By establishing clear processes and procedures, workplace organization can also help improve communication, reduce confusion, and prevent errors.
+      Workplace organisation is important for any business because it can directly impact the safety, health, and well-being of employees, as well as the efficiency and productivity of a business. A well-organised workplace can help reduce the risk of accidents, minimize the spread of illnesses, and prevent injuries. It can also make it easier for employees to locate tools and equipment, reduce clutter, and increase morale. By establishing clear processes and procedures, workplace organization can also help improve communication, reduce confusion, and prevent errors. 
 
     img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Principles and techniques of workplace organisation
     theme: t-bg-supporting2
     copy: |
-      Workplace organisation involves the arrangement of resources, tools, and equipment in a way that promotes efficiency, safety, and productivity. Lets take a look at some of the principles and techniques of workplace organisation:
+      5S is a workplace organisation methodology that includes five key principles: Sort, Set in Order, Shine, Standardize, and Sustain. The 5S principles involve decluttering, cleaning, organizing, and labeling the work environment. It helps to create a clean and orderly workplace that is safe and easy to navigate.
+  -
+  -
+    title: Lean methodology
+    theme: t-bg-supporting3
+    copy: |
+      Lean is a management philosophy emphasising elimination of waste and the continuous improvement of processes to increase efficiency, reduce costs, and improve quality. The concept of lean originated in the Toyota Production System, a manufacturing system developed by Toyota in the 1950s, and has since been adopted by many other organizations in various industries. 
+
+      The main principles of lean are: 
+      1. __Value__: Identify the value that customers place on the product or service. 
+      2. __Value stream__: Identify the steps in the process that create value and eliminate any steps that do not. 
+      3. __Flow__: Ensure that the remaining steps in the process flow smoothly and without interruption. 
+      4. __Pull__: Produce only what is needed, when it is needed, and in the quantity needed. 
+      5. __Perfection__: Continuously improve the process to eliminate waste and increase efficiency. 
+
+      Lean methodology involves the use of various tools and techniques to help organizations achieve these principles. These include: 
 
     subInc: 
       type: slider
@@ -54,35 +70,29 @@ sections:
   -
   -
     title: 5S principles
-    layout: media
-    theme: t-bg-primary
+    theme: t-bg-primary1a
     copy: |
       5S is a workplace organisation methodology that includes five key principles: Sort, Set in Order, Shine, Standardize, and Sustain. The 5S principles involve decluttering, cleaning, organizing, and labeling the work environment. It helps to create a clean and orderly workplace that is safe and easy to navigate.
-
-    img: /images/svg/placeholder_icon.svg
   -
   -
-    title: The 5C/5S technique
+    title: Applying the 5S principles
     theme: t-bg-primary
     copy: |
-      _Text needs to be updated_
-
       When aiming to create a clean, orderly and logical workplace, it helps to have a structured, **systematic approach** in order to identify where and how improvements can be made. 
 
-      The **5C/5S technique** approach enables workers to set appropriate workplace **standards** then identify any negative variations or abnormalities. Once these have been identified, it is possible to take action to correct them.
+      The **5S** approach enables workers to set appropriate workplace **standards** then identify any negative variations or abnormalities. Once these have been identified, it is possible to take action to correct them.
     subInc: 
       type: accordion
       content:
         - 
-          title: Factors that influence an organised workplace
+          title: The five principles
           copy: |
-            * The people
-            * The jobs that are done
-            * The order in which jobs are done
-            * The physical space required to do jobs
-            * The tools, equipment and materials needed to carry out jobs
-            * The use of shared resources
-            * Storage space
+            * __Sort__: separate items into what’s necessary and unnecessary. Remove the unnecessary and organise the necessary items.  
+            * __Set in order__: Order everything so that each item has a place and can be easily found. 
+            * __Shine__: Have a regular cleaning and maintenance system to ensure that the workplace remains organised 
+            * __Standardise__: Ensure that everyone follows the same process by setting clear standards and procedures.  
+            * __Sustain__: Maintain the organised workplace through training, auditing and improvement practices. 
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Time to think
