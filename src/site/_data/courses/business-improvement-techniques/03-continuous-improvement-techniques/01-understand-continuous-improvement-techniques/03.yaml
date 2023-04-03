@@ -9,35 +9,15 @@ sections:
     copy: |
       In your assessment you will be required to explain how to carry out a Kaizen activity and establish measurable movements.
   -
-    title: P L A C E H O L D E R
+    title: Introduction
     layout: media
     theme: t-bg-primary
     copy: |
-      _1.3 item_
+      We’ve had a brief look at Kaizen on the previous page and seen some of the principles employed within the improvement process. An important part of this is having measurable movements, or to put it simply – ways to measure progress. These should be identified within the planning stage when the goal is known. E.g., if the goal is to reduce waste, how much is there to begin and what is the target? Once changes have been implemented, it’s then possible to measure if the waste has reduced by the target amount and if the change was successful.
+      
+      Remember the case study for Physical 3D on page 2? They had a measurable movement and reduced their assembly time by 20 minutes.
 
     img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Five continuous improvement questions FROM LEAN
-    theme: t-bg-primary
-    copy: |
-      At all times, the organisation and its staff should attempt to look at QCD and the seven Department of Trade and Industry (DTI) measures. The organisation should also be sensitive to the potential impact a change in one area may have on the performance of another. This is why the vertical flow of information is so important. 
-
-      See below the five questions that any organisation committed to continuous improvement should ask regularly.
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Five questions
-          copy: |
-            1. Are the changes too big or small? 
-            2. Are the right people involved in the changes?
-            3. Is the necessary documentation and training available?
-            4. Are our improvement priorities right?
-            5. Are we focused on adding value for customers?
-
-            As you can see, any organisation that is committed to continuous improvement thinks and operates in very different ways to traditional businesses. The new approach requires information to be communicated more freely, and for staff to be trained and empowered to make more decisions. This requires a lot of time, effort and resources. However, the benefits to individuals, the organisation and the economy as a whole may be sizable.
-          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Watch 
@@ -45,8 +25,6 @@ sections:
     layout: media
     copy: |
       ### How to carry out a Kaizen activity
-
-      __could show example to prepare learners for 1.7?_
       
       In the following video we are going to show you how to carry out a Kaizen activity.
     video: placeholder_pc.mp4
@@ -66,185 +44,36 @@ sections:
       In your assessment you will be required to identify waste, problems or conditions within a work area or activity where improvements can be made.
   -
   -
-    title: Three categories FROM LEAN 2/1/4
-    theme: t-bg-primary
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      When thinking about waste in the workplace it is helpful to divide general work activities and business processes into three categories. 
+      ### Case study - Physical 3D
 
+      Physical 3D have begun assembling the first prosthetic hands ready for the upcoming delivery date. Surprisingly, assembly has taken longer than expected with staff showing frustration and complaining about seemingly small things. A review of the assembly line was undertaken by Ariel, who noted a few things:
+      * Some small items such as nuts and bolts were not easily to hand, meaning workers brought a pile to their work area and then had difficulty keeping track of them as they fell on the floor or rolled around the workstation.
+      * Some parts were still in the warehouse and needed a forklift to bring them down from high shelving.
+      * The production space was crowded with people sharing a workstation even though they were working on different assembly parts.
+      * There was delay with packing and assembled hands were piling up, causing even less room to manoeuvre and becoming hazardous.
     subInc: 
       type: accordion
       content:
         - 
-          title: 1. Value added
+          title: Solution
           copy: |
-            **Value added** work and processes include any changes to the product or service that increase the value of the output.  
-        -
-          title: 2. Non-value added
-          copy: |
-            The term ‘**non-value added**’ is used to describe any necessary work activities and processes that do not add value to the output. Organisations aim to minimise the amount of non-value added activity without undermining the product or service.  
-        -
-          title: 3. Waste
-          copy: |
-            Any unnecessary aspects of the business process, which do not add value, are called **waste**. Waste should be eliminated. 
+            Ariel applied his kaizen knowledge to the 3d hand assembly. Firstly, he listened to each individual and noted their concerns. He also asked them, what they’d like changed and how they prefer to work. Ariel then re-arranged the assembly area and re-distributed some of the tasks to fit the individuals better e.g. Meena was fitting small bolts, however she found this difficult with her arthritis, so she swapped with Jesse at the end of the line.
+
+            Through the re-arrangement of workstations and creation of new storage areas, a just in time system of parts was implemented, allowing for parts to be easily accessible for each task of the production. A new working pattern was provided to the packers, thus ensuring that their time was utilised effectively, and they were able to keep the completed hands flowing to the delivery area where storage was available.
+
+            As a result of these Kaizen initiatives, Physical 3D has been able to significantly improve its efficiency and reduce errors in its assembly. For example, the company has reduced its average time assembly time for each hand from an hour to 40 minutes.
+
+          img: /images/svg/placeholder_icon.svg
   -
   -
-    title: How is waste eliminated? FROM LEAN 2/1/4
-    theme: t-bg-supporting3
+    title: Time for an assessment task
+    theme: t-bg-primary3 i-practice
     copy: |
-      Waste costs money and can lead to poor quality products and services. Once waste has been identified, the company must look for ways to eliminate it.
+      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
 
-      Companies use a three-step approach to eliminate waste:
-
-      1. Identify
-      2. Categorise
-      3. Eliminate
-
-      See below to learn more
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: 1. Identify
-          copy: |
-            First, the company must decide upon which activities and processes to investigate. Employees who have hands-on experience in the chosen area should participate in the investigation. The process may be videoed for review. 
-            
-            Sometimes, investigators ‘walk through’ the process and identify sources of waste as they do so. This is called a **waste walk**. They may record each individual waste source on a sticky note and place the note near the source of waste.
-            
-            During the ‘identify’ step, the participants should resist the temptation to discuss solutions and counter measures. This is a distraction and people may miss further sources of waste.
-          img: /images/svg/ln/LM_U2_S1_P4_Slide_1B.svg
-        - 
-          title: 2. Categorise
-          copy: |
-            Once the ‘identify’ stage has been completed, the company must consider solutions. For each source of waste, they should list as many solutions as possible. Sometimes, organisations use specific brainstorming techniques to help. The solutions may be listed alongside each source of waste.
-            
-            The potential solutions are then categorised using criteria such as:
-            
-            * **Time** – Can they be tackled short term, medium term or long term?
-            * **Cost** – How much will the solution cost to implement?
-            * **Benefit** – What will be the saving?
-
-            The organisation can then prioritise its elimination actions.
-          img: /images/svg/ln/LM_U2_S1_P4_Slide_2B.svg
-        - 
-          title: 3. Eliminate
-          copy: |
-            Finally, the organisation must take action to eliminate the sources of the waste. Once this is done, it is important to **check** and **evaluate** the effectiveness of the elimination actions. 
-            
-            When waste is produced by an organisation, it is a clear indication that there are potential inefficiencies in some way. 
-            
-            The effort to identify and eliminate waste shows that the organisation is seeking to improve its performance. By continuously identifying and eliminating waste, the organisation continuously improves its performance.
-          img: /images/svg/ln/LM_U2_S1_P4_Slide_3B.svg
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Text
-  -
-  -
-    title: Benchmarking FROM LEAN 2/1/4
-    theme: t-bg-primary
-    copy: |
-      When an organisation wants to improve its work activities and processes, it must take a **systematic approach**. One particular approach is called **benchmarking**. 
-
-      Benchmarking requires the organisation to **compare** its processes with other processes. These other processes set a standard (called a ‘**benchmark**’) so that comparisons can be made. The benchmarks can be **internal** or **external**. 
-
-
-      Select each image to see an explanation of each type of benchmarking.
-    subInc: 
-      type: reveal
-      layout: 
-      content:
-        -
-          title: Internal benchmarking
-          copy: The benchmark comes from an internal business process.  The current performance of a process may be used as a **starting point**. The organisation may return to a process later and compare it to the starting point. The organisation may make comparisons with different processes in other units, departments and sections.
-
-          img: LM_U2_S1_P4_Reveal_1.svg
-        -
-          title: External benchmarking
-          copy: |
-            The benchmark comes from an external business process.  For example, the organisation may use a **competitor**, the **sector** or a similar function in a non-competitive organisation as a benchmark. 
-
-          img: LM_U2_S1_P4_Reveal_2.svg  
-  -
-    title: Benchmarking is used to answer five key questions FROM LEAN 2/1/4
-    theme: t-bg-primary
-    copy: 
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: Five key questions
-          copy: |
-            1. Where are we now?
-            2. How does this process compare with others?
-            3. Can we identify areas of improvement?
-            4. Can we make appropriate changes?
-            5. Where are we now?
-
-        - 
-          title: Some popular benchmarking areas include
-          copy: |
-            * Quality
-            * Productivity
-            * Material costs
-            * Labour costs
-            * Sales levels
-            * Space utilisation.
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
+      text
+      
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 3 assessment.
