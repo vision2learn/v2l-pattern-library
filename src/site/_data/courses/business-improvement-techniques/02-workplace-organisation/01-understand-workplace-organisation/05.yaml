@@ -9,7 +9,7 @@ sections:
     copy: |
       In your assessment you will be required to provide recommendations for the creation of, or changes to, standard operating procedures (SOPs) and visual controls.
   -
-    title: TBD Watch (video or other content)
+    title: Watch
     theme: t-bg-grey i-watch
     layout: media
     copy: |
@@ -19,19 +19,8 @@ sections:
     video: placeholder_pc.mp4
   -
   -
-    title: TBD placeholder item
-    layout: media
-    theme: t-bg-primary
-    copy: |
-      ### Title
-
-      _This, slides or accordion instead of the video?_
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
@@ -50,20 +39,16 @@ sections:
     theme: i-quiz
   -
   -
-    title: Read - 
-    theme: t-bg-primary2 i-read
-    copy: | 
-      Take a look at the following example of a SOP:
-
-      [example doc]().
-  -
-  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        On the previous page you looked at a case study and conducted your own workplace audit.  For question 6 of your assessment you will be required to provide recommendations for the creation of, or changes to, SOP and visual controls.
+
+        Make some notes here on how you would do this with your own SOP that you created on the previous page.
+        
+        _link in with Q5_
   -
   -
     title: On the web
