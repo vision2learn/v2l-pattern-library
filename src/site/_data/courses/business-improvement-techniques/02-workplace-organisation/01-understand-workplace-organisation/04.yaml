@@ -52,15 +52,24 @@ sections:
       In your assessment you will be required to perform a workplace organisation audit using appropriate tools and techniques.
   -
   -
-    title: Workplace organisation audit
-    layout: media
-    theme: t-bg-primary
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Title
+      ### Workplace organisation audit
 
-      _Introduction to the time for assessment activity_
-
-    img: /images/svg/placeholder_icon.svg
+      text
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Before scenario environment
+          copy: |
+            
+            _Before scenario environment_
+      
+            ![](/images/banners/placeholder.jpg)
+            
+            text
   -
   -
     title: Time for an assessment task
@@ -68,12 +77,6 @@ sections:
     copy: |
       ### Perform a workplace organisation audit
 
-      
-      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
-
-      _Before scenario environment_
-      
-      ![](/images/banners/placeholder.jpg)
-
+      Taking the above case study into consideration, use the above image to conduct your own workplace audit .......... using the following [DOCUMENT NAME](/pdfs/) template document.
 
       Make sure you save this document as you will need to submit it to your tutor along with your unit 2 assessment.
