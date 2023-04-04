@@ -1,0 +1,113 @@
+title: Good visual management in the workplace
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify elements that contribute to good visual management in the workplace.
+  -
+  -
+    title: Good visual management elements
+    theme: t-bg-primary
+    copy: |
+      _1.5 elements_
+    
+      Scroll through the slides below to learn more about ...
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Purposeful information
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Involve Team members in production
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Information is current and up-to-date
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Customer focused
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: slide 5 title
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to prepare appropriate visual indicators for parts of a process or work area.
+  -
+  -
+    title: TBD 1.6 Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - prepare appropriate visual indicators
+
+      _To be used for the assessment task ?_
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Before scenario environment
+          copy: |
+            
+            text
+
+            ![](/images/banners/placeholder.jpg)
+
+            text
+  -
+  -
+    title: TBD 1.6 Time for an assessment task
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
+      
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 4 assessment.
