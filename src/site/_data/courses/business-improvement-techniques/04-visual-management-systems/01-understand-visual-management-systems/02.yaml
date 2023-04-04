@@ -101,9 +101,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about visual management
 
       links:
-        website description: http://www.google.co.uk
+        My Visual Management: https://myvisualmanagement.co.uk/
