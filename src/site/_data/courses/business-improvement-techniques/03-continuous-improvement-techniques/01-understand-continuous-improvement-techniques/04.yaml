@@ -28,33 +28,45 @@ sections:
       In the following video we are going to look at ways in which standardised working methods benefit the workplace.
     video: placeholder_pc.mp4
   -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: By using standardised procedures, the amount of resources can be measured, thus minimising waste.
+          answer: waste
+        -
+          sentence: Products that meet the same quality standard every time along with good service builds trust, and this ensures customer satisfaction.
+          answer: customer satisfaction
+        -
+          sentence: An industry will need to comply with certain regulations to ensure that they remain safe and offer good quality. 
+          answer: comply
+        -
+          sentence: When done correctly, guidelines help employees to carry out their tasks efficiently, thus increasing productivitiy.
+          answer: productivitiy
+    theme: i-quiz
   -
   -
-    title: TBD Case study FROM LEAN
+    title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - Automotive and Hotel industries
+      ### Case study - Starbucks continuous improvements
 
-      The automotive and hotel industries are both examples of industries which use standardisations to make themselves more competitive.
+      Starbucks, which was established in 1971, has remained a thriving enterprise for 37 years, continuously making minor adjustments to its products and operations in order to enhance the quality of its offerings and services. Read below for one such example of a continuous improvement.
+
     subInc: 
       type: accordion
       content:
         - 
-          title: The automotive industry
+          title: A richer sweeter taste of coffee
           copy: |
-            In the early years of the automotive industry, vehicles were manufactured with non-interchangeable parts. When a part needed to be replaced, the old part had to be measured and manufactured to suit the old part. Today, all components are standardised within a set of serial numbers. 
+            Whilst a latte was being prepared one morning, a customer noticed that instead of the espresso shots being poured into shot glasses, they were going straight into the cardboard cup. Curious, she asked the barista about the absence of the shot glasses, and he explained that Starbucks had decided to direct the coffee residue, known as "crema," into the cup with the espresso, as it contributes to a richer, sweeter taste. 
+            
+            This small change not only improves the quality of the product but also saves up to five seconds per drink, and reduces waste.
 
-          img: /images/svg/placeholder_icon.svg
-        - 
-          title: The hotel industry
-          copy: |
-            When a new hotel is built, rooms are built to very accurate dimensions and even the size of the bathroom tiles is standardised. This makes the tiling process much faster than if each bathroom were different in size and all the tiles had to be cut to different sizes.
+            _(Source of case study: https://www.fastcompany.com/1054623/starbucks-and-kaizen)_
 
           img: /images/svg/placeholder_icon.svg
   -
@@ -64,28 +76,17 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about standardisation.
 
       links:
-        website description: http://www.google.co.uk
+        Kaizen standardisation: https://in.kaizen.com/blog/post/2013/12/05/standardization
+        15 benefits of standard work: https://blog.kainexus.com/improvement-disciplines/lean/standard-work/15-benefits-of-standard-work
+        Examples of standardisation in business: https://www.indeed.com/career-advice/career-development/examples-of-standardization-in-business
   -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Using the websites above (or do some research of your own), make some notes here on how standardised working methods could benefit the workplace.
