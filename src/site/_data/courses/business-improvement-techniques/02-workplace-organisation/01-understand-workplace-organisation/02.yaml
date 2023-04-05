@@ -19,13 +19,56 @@ sections:
   -
   -
     title: Principles and techniques of workplace organisation
-    theme: t-bg-primary
+    theme: t-bg-supporting3
     copy: |
-      Workplace organisation involves the arrangement of resources, tools, and equipment in a way that promotes efficiency, safety, and productivity. Below, we will look at the main principle of workplace organisation – the 5S. Firstly, let’s explore the main techniques, which are all part of Lean organisation. You can see the different elements of Lean in the following slides.
+      Workplace organisation involves designing and implementing efficient systems and processes that help employees to work more effectively and efficiently. Here we look at just a few of the many principles and techniques that might be employed within the workplace.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 5S
+          copy: |
+            5S is a workplace organization technique that involves sorting, simplifying, sweeping, standardizing, and sustaining. It is a systematic approach to eliminate waste and improve efficiency in the workplace. The five steps are:
+
+            * Sort: Remove all unnecessary items from the work area. 
+
+            * Simplify: Organize the remaining items in a way that they can be easily accessed and used. 
+
+            * Sweep: Clean the work area regularly to maintain a safe and healthy work environment. 
+
+            * Standardise: Establish a set of guidelines and procedures to ensure consistency in workplace organization. 
+
+            * Sustain: Maintain the 5S system and continuously improve it. 
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Lean Manufacturing
+          copy: |
+            Lean Manufacturing: Lean manufacturing is a technique used to eliminate waste in the manufacturing process. It involves identifying and eliminating non-value-added activities and optimizing the flow of materials and information. Some of the key principles of lean manufacturing include:
+
+            * Just-in-Time (JIT) production: Produce only what is needed, when it is needed, and in the quantity needed. 
+
+            * Continuous Improvement: Continuously improve the production process to eliminate waste and improve efficiency. 
+
+            * Total Productive Maintenance (TPM): Maintain and improve the equipment to reduce downtime and increase efficiency. 
+
+            * Kaizen: Encourage small, incremental improvements in the production process. 
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Visual Management
+          copy: |
+            Visual Management: Visual management involves using visual tools such as charts, diagrams, and color-coded labels to communicate information quickly and efficiently. Some of the key techniques of visual management include:
+
+            * Kanban: A visual scheduling system that uses cards to signal the need for materials or resources. 
+
+            * Andon: A visual signalling system that alerts workers to problems in the production process. 
+
+            * Poka-Yoke: A mistake-proofing technique that uses visual cues to prevent errors from occurring. 
+            
+          img: /images/svg/placeholder_icon.svg
   -
   -
     title: Lean methodology
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       Lean is a management philosophy emphasising elimination of waste and the continuous improvement of processes to increase efficiency, reduce costs, and improve quality. The concept of lean originated in the Toyota Production System, a manufacturing system developed by Toyota in the 1950s, and has since been adopted by many other organizations in various industries. 
     subInc: 
