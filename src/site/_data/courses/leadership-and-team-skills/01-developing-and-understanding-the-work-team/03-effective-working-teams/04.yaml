@@ -12,30 +12,15 @@ sections:
       * The possible effects of identified barriers on the team
       * How to create and maintain an effective team
   -
-    title: Unit quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        What does the Belbin model map?:
-          answers:
-            Stages of team development: false
-            Organic team roles: true
-            Conflict resolution steps: false
-            A standard project lifecycle: false
-        What does the Tuckman model map?:
-          answers:
-            Stages of team development and maintenance: true
-            Strategic team roles: false
-            Resourcing: false
-            Career development: false
-        Select one option to complete the following sentence:"A group is a __________ .":
-          answers:
-            Collection of individuals all pursuing the same goals: false
-            Collection of individuals somehow related but with different goals: true
-            Functionally identical to a team: false
-            Any collection of individuals, regardless of if they have anything in common: false    
-        Is the following statement true or false? "Geographic distribution of team members isn’t likely to be a problem with modern technology.":
-          answers:
-            True: false
-            False: true
+  -
+    title: Unit assessment
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Please select the following link:
+      
+      [Unit 1 Assessment](/resources/leadership-and-team-skills-l2-u1-assessment.docx) 
+      
+      to download your assessment document.
+
+
+      _Please note the following two links do not work on this temporary site_
