@@ -97,6 +97,19 @@ sections:
             * Can action be directly taken by others within the organisation?
             * Is action unable to be taken by anyone in the organisation?
   -
+    title: Unit assessment
+    theme: t-bg-primary3 i-practice
+    copy: |
+      Please select the following link:
+      
+      [Unit 3 Assessment](/resources/lean-management-l2-u3-assessment.doc) 
+      
+      to download your assessment document.
+
+
+      _Please note the following two links do not work on this temporary site_
+  -
+  -
     title: Unit Quiz
     theme: i-quiz
     subInc:
