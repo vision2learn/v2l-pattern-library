@@ -10,23 +10,35 @@ sections:
       In your assessment you will be required to describe the business need for problem identification and removal.
   -
   -
-    title: Problem identification
+    title: The business need to identify and remove problems
     theme: t-bg-primary
     copy: |
-      text
+      _Introductin text_
 
-      See below to learn more about 
+      See below to see more reasons on why the identification and removal of a problem within a business is important:
     subInc: 
       type: accordion
       content:
         - 
-          title: The benefits of identifying problems
+          title: Efficiency
           copy: |
             text  
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: The benefits of removing the identified problems
+          title: Customer satisfaction
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Compliance
+          copy: |
+            text  
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Reputation
           copy: |
             text  
             
