@@ -15,7 +15,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Text
+      _One of the first thing to consider when selecting a visual management system is the purpose. What are the goals? What do you wish to achieve with the visual management system? For example, is it needed to increase efficiency, improve communication, or reduce errors?_
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -101,7 +101,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about visual management
+        Please see the following website where you can learn more about visual controls in the workplace.
 
       links:
-        My Visual Management: https://myvisualmanagement.co.uk/
+        Visual controls in the workplace: https://txm.com/visual-controls-workplace/
+        5 types of visual controls: https://txm.com/5-types-of-visual-controls/

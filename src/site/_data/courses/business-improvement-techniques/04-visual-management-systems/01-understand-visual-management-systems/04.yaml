@@ -13,18 +13,16 @@ sections:
     title: Good visual management elements
     theme: t-bg-primary
     copy: |
-      _1.5 elements_
-    
-      Scroll through the slides below to learn more about ...
+      Good visual management relies on several key elements, please scroll through the slides below to learn more:
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Purposeful information
+          title: Purposeful and relevant information
           text: |
-            text
+            _Purpose of the system; and relevant to the audience so it helps them to make better decisions and take appropriate actions_
           img: placeholder_icon.svg
         -
           title: Involve Team members in production
@@ -42,9 +40,9 @@ sections:
             text
           img: placeholder_icon.svg
         -
-          title: slide 5 title
+          title: Simple and intuitive design
           text: |
-            text
+            _Appropriate colours to emphasie important information, and user can understand it easily without any special training._
           img: placeholder_icon.svg
   -
   -
@@ -54,17 +52,17 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Visual management should provide clear and concise information so the audience can easily understand the message being conveyed.
+          answer: clear and concise
         -
-          sentence: example two
-          answer: two
+          sentence: Visual management should provide purposeful and relevant information so it helps the audience to make better decisions.
+          answer: purposeful and relevant
         -
-          sentence: example three 
-          answer: three
+          sentence: Visual management should have an intuitive and simple design so the audience can understand it quickly and easily.
+          answer: intuitive and simple design
         -
-          sentence: example four
-          answer: four
+          sentence: Visual management should use appropriate colours to emphasise important information.
+          answer: appropriate colours
     theme: i-quiz
   -
   -
