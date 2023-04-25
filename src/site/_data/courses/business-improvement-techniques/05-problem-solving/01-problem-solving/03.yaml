@@ -1,0 +1,202 @@
+title: The impact of unresolved problems
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the impact of unresolved problems.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The impact of unresolved problems
+      
+      Please see the following video on 1.3.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to identify and verify the root cause of a problem.
+  -
+  -
+    title: Techniques to find the root cause of a problem
+    theme: t-bg-primary
+    copy: |
+      Text
+
+      Scroll through the slides below to learn more about different techniques to find the root cause of a problem.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Brainstorming
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: The 5 Whys
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Ishikawa diagrams
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Root cause paths
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Testing decisions
+          text: |
+            text
+          img: placeholder_icon.svg
+        -
+          title: Verification techniques
+          text: |
+            text
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - 
+
+      _Case study of how to identify and verify the root cause of a problem - this could be a continuation of the same company from the prevous page_
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Identity and verify
+          copy: |
+            
+            text
+
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _Identify and verify the root cause of a problem in the above case study_
+
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the different techniques that can be used to find the root cause of a problem.
+
+      links:
+        The 5 Whys: https://kanbanize.com/lean-management/improvement/5-whys-analysis-tool
+        Ishikawa diagrams: http://www.google.co.uk
+  -
+  -
+    title: Quick quiz
+    copy: Select the technique used to find the root cause of a problem
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one - the 5 whys
+          answer: the 5 whys
+        -
+          sentence: example two - Ishikawa diagrams
+          answer: Ishikawa diagrams
+        -
+          sentence: example three - root cause paths
+          answer: root cause paths
+        -
+          sentence: example four - brainstorming
+          answer: brainstorming
+    theme: i-quiz
+  
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to prevent reoccurrence of the problems.
+  
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### how to prevent reoccurrence of the problems
+      
+      Please see the following video on 1.5.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: _This one or the next type to be used_
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
