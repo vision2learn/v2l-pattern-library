@@ -1,0 +1,62 @@
+title: Standard Operating Procedures (SOPs)
+intro: |
+  intro text 1.6
+banner: bit_u2_s1_p5_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to provide recommendations for the creation of, or changes to, standard operating procedures (SOPs) and visual controls.
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Provide recommendations for the creation of a SOP
+      
+      Please see the following video on 1.6
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: example one 
+          answer: one
+        -
+          sentence: example two
+          answer: two
+        -
+          sentence: example three 
+          answer: three
+        -
+          sentence: example four
+          answer: four
+    theme: i-quiz
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        On the previous page you looked at a case study and conducted your own workplace audit.  For question 6 of your assessment you will be required to provide recommendations for the creation of, or changes to, SOP and visual controls.
+
+        Make some notes here on how you would do this with your own SOP that you created on the previous page.
+        
+        _link in with Q5_
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about . . .
+
+      links:
+        website description: http://www.google.co.uk  

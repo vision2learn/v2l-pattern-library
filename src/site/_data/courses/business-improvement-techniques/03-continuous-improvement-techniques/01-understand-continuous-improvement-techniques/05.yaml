@@ -1,0 +1,159 @@
+title: Standardised working document (SOP)
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the information required to create a standard operating procedure (SOP).
+  -
+  -
+    title: TBD Standard operating procedures FROM LEAN
+    theme: t-bg-supporting3
+    copy: |
+      The use of standard operating procedures may bring considerable benefits to an organisation. They provide people with all the safety, health, environmental and operational information necessary to perform a job properly and to enable quality standards to be maintained.
+
+      See below for some more reasons for creating SOPs:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: They ensure that 
+          copy: |
+            * production operations are performed consistently to maintain quality control of processes and products
+            * processes continue uninterrupted and are completed on a prescribed schedule 
+            * no failures occur in manufacturing and other processes that would harm anyone in the surrounding community 
+            * approved procedures are followed in compliance with company and government regulations. 
+        - 
+          title: They serve as 
+          copy: |
+            * a training document for teaching users about the process for which the SOP was written
+            * a checklist for co-workers who observe job performance, and as a checklist for auditor 
+            * a historical record of an existing process, so there is a factual basis for revising those steps when a process or piece of equipment is changed 
+            * an explanation of steps in a process, so they can be reviewed in accident investigations. 
+    copy2: |
+      By creating SOPs, it is possible to develop a safer and more **efficient** environment where products and services are delivered to consistent **standards**.
+
+      SOPs provide a framework for **continuous improvement**. They can be monitored, reviewed and amended where necessary. By recording these actions, an organisation may safeguard against repeated errors. 
+
+      Some activities are not standardised in this way, such as the discussions between sales staff and customers, and sales prices, which need to allow for variation and flexibility.
+  -
+  -
+    title: TBD Things to consider when creating a SOP
+    theme: t-bg-primary
+    copy: |
+     Standard operating procedures make a significant contribution to organisations. They provide a foundation for lowering variability, enhancing consistency and improving efficiency within an organisation. 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Features of SOPs
+          text: |
+            * Documents
+            * All types of business and work areas 
+            * Provide a blueprint
+            * Repetitive tasks
+
+          img: placeholder_icon.svg
+        -
+          title: Creating a SOP
+          text: |
+            SOPs should be written by teams that include some, or all, of the following people:
+            * Those who will perform the job
+            * Those who will perform maintenance on equipment involved in the SOP
+            * Engineers or others who design equipment and processes
+            * Technical writers
+            * Safety personnel
+            * Environmental personnel
+            * Equipment manufacturers.
+
+          img: placeholder_icon.svg
+        -
+          title: Team writing FROM LEAN
+          text: |
+            Team writing ensures that comprehensive knowledge (acquired from different perspectives) is applied to the SOP. It also creates ‘buy-in’, which increases the likelihood that SOPs will be implemented under the guidance of the writers. Finally, it trains coaches – the people who write the SOP – and encourages employees to follow the SOP because they know the coaches invested time and effort on their behalf.
+
+            Teams can write or edit parts of the SOP independently and then the contributions can be brought together. The draft SOP can then be circulated for further comments. Throughout the writing process, the team should be mindful of the health and safety implications of what they are creating.
+
+            The ideal time to create a SOP is before a new process is introduced within the organisation. However, it is possible that an organisation latterly recognises that SOPs may improve the way a process performs.
+
+          img: placeholder_icon.svg
+        -
+          title: Developing a procedure
+          text: |
+            * Layout of the area
+            * People
+            * Actions
+            * Time taken
+            * Tools
+            * Key components
+          img: placeholder_icon.svg
+        -
+          title: Refinement and improvement
+          text: |
+            * Sub-divide large processes
+            * Question if things could be done to increase efficiency or to reduce hazards
+            * Plan for contingency actions
+            * Record the date of creation and issue number
+          img: placeholder_icon.svg
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following short youtube video on why a Standard Operating Procedure is important.
+
+      links:
+        Why is a Standard Operating Procedure important: https://www.youtube.com/watch?v=nT81nHZyCYM
+  -
+  -
+    title: Sample SOP
+    theme: t-bg-primary2 i-read
+    copy: |
+      Please take a look at the following example SOP document:
+
+      [Sample SOP for serving food](/pdfs/LM_U2_S4_P4_Read.pdf).
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Make a note of all the information that was required in order to create the above sample SOP.
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to prepare a standardised work document suggesting how to eliminate variance to process.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Prepare a standardised work document
+
+      _Demo video_
+      
+      Please see the following video which will show you how to prepare a standardised work document.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Time for an assessment
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Prepare a standardisation work document (SOP)
+
+      Download and complete the following document: [Unit 3 Session 1 Question ? - SOP](/pdfs/bit_u1_s1_p5_sop.docx) 
+
+      What to do......
+      
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 3 assessment.

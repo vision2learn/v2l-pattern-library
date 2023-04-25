@@ -1,0 +1,16 @@
+---js
+{
+  unit: 1,
+  session: 1,
+  pagination: {
+    data: "courses['business-improvement-techniques']['01-safe-and-effective-team-working']['01-how-to-work-safely']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->

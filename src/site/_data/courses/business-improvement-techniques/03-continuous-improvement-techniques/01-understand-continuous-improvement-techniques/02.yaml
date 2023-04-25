@@ -1,0 +1,167 @@
+title: Understand continuous improvement techniques
+intro: |
+  On this page we will take a look at the main Kaizen principles and the eight wastes of lean.
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify the main Kaizen principles and their application.
+  -
+    title: Introduction
+    layout: media
+    theme: t-bg-supporting3
+    copy: |
+      We briefly looked at some Lean tools and techniques in unit 2. Here will explore another Lean practice, known as Kaizen. Kaizen is a Japanese term, translated it means ‘continuous improvement’ and it uses incremental and continuous improvements in all areas of organisational operations e.g. processes, products, services and even people. The goal of Kaizen is to improve quality, efficiency, productivity and reduce waste and costs.  
+
+    img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Principles of Kaizen
+    theme: t-bg-primary
+    copy: |
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Continuous improvement
+          copy: |
+            Kaizen encourages organisations to continually seek to improve their organisation and processes. Businesses should always be looking to make all areas of their organisation better.
+          img: placeholder_icon.svg
+        -
+          title: People
+          copy: |
+            Employees need to have a voice and decision-making should not just be restricted to management. Information should flow between the customers, people in the organisation and the suppliers.
+          img: placeholder_icon.svg
+        -
+          title: Change
+          copy: |
+            Change is good! Change should not be feared and avoided, but should be gradual. It is necessary for developing and improving businesses.
+          img: placeholder_icon.svg
+        -
+          title: Eliminating waste
+          copy: |
+            The less waste, the better! Resources should be used as efficiently as possible. As waste is eliminated in a business, value is added.
+          img: placeholder_icon.svg
+        -
+          title: Standardisation
+          copy: |
+            Standard processes and procedures ensure consistency and efficiency in all areas of the organisation. 
+          img: placeholder_icon.svg
+        -
+          title: Just in Time
+          copy: |
+            Services and goods should be produced or ordered just in time to meet demand. Large inventories are discouraged.
+          img: placeholder_icon.svg
+        -
+          title: Quality Control
+          copy: |
+            Quality control is introduced at every stage of the production process to ensure that products and service meet or exceed customer expectations. It also ensures that errors are detected quickly and dealt with immediately. 
+          img: placeholder_icon.svg
+        -
+          title: Teamwork
+          copy: |
+            Every member of the organisation is important and all work together to achieve common goals. Emphasis is on teamwork and collaboration.  
+          img: placeholder_icon.svg
+    copy2: |
+      The term ‘Kaizen’ means ‘gradual and orderly continuous improvement’.
+
+      Adopting a Kaizen approach in the workplace means that the organisation should operate within a culture where change and continuous improvement are the norm. Kaizen is a new way of thinking.
+
+      Decisions about day-to-day activities may be made by the people doing the activities, rather than by the managers at the top of the organisation. Therefore, information flows both up and down and back and forth throughout the organisation, rather than simply from the top-downwards.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Toyota Motor Corporation
+
+      Toyota Motor Corporation famously implemented the Kaizen philosophy across its entire organization. Within its production process, Toyota employs a lean manufacturing system with the kaizen principles at its heart.  
+      
+      Through the elimination of waste and the continuation processes, Toyota has been able to implement numerous improvements in its production processes, leading to increased efficiency and improved quality. 
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Toyota's Just in Time implementation
+          copy: |
+            One example of change that was implemented was when Toyota noticed that a small number of parts were frequently being left out of vehicles during the assembly process. Rather than simply fixing the problem each time it occurred, Toyota's employees worked together to identify the root cause and develop a permanent solution. 
+
+            They discovered that the parts were often missing because they were not being delivered to the assembly line on time. To address this issue, the team implemented a new ‘just in time’ system for delivering parts, which ensured that they were always available when needed. 
+
+            By implementing this small change, Toyota was able to reduce waste and improve efficiency in the production process. This is just one example of how the Kaizen philosophy has helped Toyota to continuously improve its operations and maintain its reputation for quality and reliability. 
+            
+          img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ### Kaizen
+
+      Click on the Owl to see a youtube video where you can learn more about the Kaizen philosophy for continuous improvement and the PDCA cycle.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.youtube.com/watch?v=LoDs8tBcQvQ
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the 8 wastes of lean and how to eliminate them.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The 8 wastes of Lean
+      
+      Please see the following video on the 8 wastes of Lean and how to eliminate them.
+
+    video: placeholder_pc.mp4
+  -
+    title: Quick quiz
+    copy: See if you can identify the 8 wastes of Lean in the following quiz questions.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Transport waste occurs when movement of any material isn’t part of the immediate production.
+          answer: Transport
+        -
+          sentence: Motion waste is usually caused by ineffective layout and workplace organisation.
+          answer: Motion
+        -
+          sentence: Unutilised talent is the only waste relating to management.
+          answer: Unutilised
+        -
+          sentence: Overproduction waste may be down to poor planning, teams working at different speeds, or incorrectly placed automation. 
+          answer: Overproduction
+        -
+          sentence: Defects detected early in the production can stop difficulties occurring for teams further along, which can impact on overproduction, wating and inventory.
+          answer: Defects
+        -
+          sentence: Any unnecessary work that results in more time and effort than is needed is considered overprocessing.
+          answer: overprocessing
+        -
+          sentence: Any waiting time in the production process is waste. 
+          answer: waiting
+        -
+          sentence: Inventory waste can be a result of inefficient processes and unbalanced production processes. 
+          answer: Inventory
+    theme: i-quiz
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can see everyday examples of the 8 wastes of lean.
+
+      links:
+        Examples of the 8 wastes of lean: hhttps://blog.kainexus.com/improvement-disciplines/lean/7-wastes-of-lean/everyday-examples-of-the-8-wastes-of-lean
