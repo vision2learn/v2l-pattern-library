@@ -11,7 +11,7 @@ sections:
   -
   -
     title: Problem identification
-    theme: t-bg-supporting3
+    theme: t-bg-primary
     copy: |
       text
 
@@ -20,23 +20,17 @@ sections:
       type: accordion
       content:
         - 
-          title: How to identify problems
+          title: The benefits of identifying problems
           copy: |
             text  
             
           img: /images/svg/placeholder_icon.svg
         - 
-          title: How to remove identified problems
+          title: The benefits of removing the identified problems
           copy: |
             text  
             
           img: /images/svg/placeholder_icon.svg
-        - 
-          title: Consequences / Benefits
-          copy: |
-            text  
-            
-          img: /images/svg/placeholder_icon.svg     
   -
   -
     title: Case study
@@ -44,7 +38,10 @@ sections:
     copy: |
       ### Case study - 
 
-      _Case study of problem and how it was identified and resolved_
+      _Case study of a problem and how it was identified and resolved_
+
+      _Research: https://www.onlinecollege.org/2011/10/03/20-classic-case-studies-every-business-student-should-know/_
+
     subInc: 
       type: accordion
       content:
@@ -62,21 +59,8 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Describe the consequences / benefits / business need in the above case study_
+        _Think what the business need was in the above case study_
 
-  -
-  -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
-
-      links:
-        website description: http://www.google.co.uk
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -142,4 +126,15 @@ sections:
       type: time-to-think
       copy: |
         _LO or exercise._
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites where you can see some examples of business problems and how to solve them.
+
+      links:
+        11 Common Business Problems and How You Can Solve Them: https://www.indeed.com/career-advice/career-development/business-problem
+        30 examples of business problems: https://simplicable.com/new/business-problems
   

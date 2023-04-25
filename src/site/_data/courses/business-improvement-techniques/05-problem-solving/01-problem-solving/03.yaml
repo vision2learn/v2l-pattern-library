@@ -126,18 +126,6 @@ sections:
 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        Please see the following website where you can learn more about the different techniques that can be used to find the root cause of a problem.
-
-      links:
-        The 5 Whys: https://kanbanize.com/lean-management/improvement/5-whys-analysis-tool
-        Ishikawa diagrams: http://www.google.co.uk
-  -
-  -
     title: Quick quiz
     copy: Select the technique used to find the root cause of a problem
     subInc: 
@@ -156,7 +144,20 @@ sections:
           sentence: example four - brainstorming
           answer: brainstorming
     theme: i-quiz
-  
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the different techniques that can be used to find the root cause of a problem.
+
+      links:
+        The 5 Whys: https://kanbanize.com/lean-management/improvement/5-whys-analysis-tool
+        Ishikawa diagrams: http://www.google.co.uk
+        Root Cause Analysis: https://www.mindtools.com/ag6pkn9/root-cause-analysis
+        
   -
   -
     title: Key point
@@ -176,7 +177,7 @@ sections:
   -
   -
     title: Quick quiz
-    copy: _This one or the next type to be used_
+    copy: 
     subInc: 
       type: word-quiz
       content:
