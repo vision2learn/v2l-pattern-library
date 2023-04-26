@@ -1,6 +1,6 @@
 title: Apply a structured approach to problem solving
 intro: |
-  intro text
+  On this page we will look at how to apply a structured approach to solve a problem.
 banner: placeholder.jpg
 sections:
   -
@@ -9,43 +9,45 @@ sections:
     copy: |
       In your assessment you will be required to apply a structured approach to problem solving.
   -
-    title: Introduction
-    layout: media
+    title: A structured approach to problem solving
     theme: t-bg-primary
     copy: |
-      Text
+      _A structured approach to problem solving is essential in identifying, analyzing, and resolving business problems effectively._
+      
+      _A structured approach to problem-solving helps businesses to identify, analyze, and resolve problems in a systematic and effective manner. It enables them to make informed decisions and take actions that result in positive outcomes._
 
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Case study
-    theme: t-bg-primary1a i-casestudy
-    copy: |
-      ### Using a structured approach to solve a problem
-
-      text
+      _See below for an example of a structured approach to problem solving:_
     subInc: 
       type: accordion
       content:
         - 
-          title: Before scenario environment
+          title: 1. Identify the problem
           copy: |
-            
-            _Before scenario environment_
-      
-            ![](/images/banners/placeholder.jpg)
-            
-            text
-  -
-  -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      ### Apply a structured problem solving approach
-
-      Taking the above case study into consideration, use the above image to apply a structured problem solving approach .......... using the following [DOCUMENT NAME](/pdfs/) template document.
-
-      Make sure you save this document as you will need to submit it to your tutor along with your unit 5 assessment.
+            _The first step is to identify the problem that needs to be solved. For example, a company may identify a decline in sales revenue or a decrease in customer satisfaction._
+        - 
+          title: 2. Gather information
+          copy: |
+            _Once the problem is identified, gather relevant data and information to understand the problem thoroughly. For instance, the company may conduct surveys to understand why customers are not satisfied or analyze sales data to identify the root cause of revenue decline._
+        - 
+          title: 3. Define the problem
+          copy: |
+            _Based on the information gathered, define the problem precisely. This helps to avoid confusion and ensures that everyone involved in the problem-solving process has a clear understanding of the problem. For instance, the company may define the problem as "The decline in sales revenue is due to a decrease in customer loyalty caused by poor customer service."_
+        - 
+          title: 4. Develop potential solutions
+          copy: |
+            _Brainstorm potential solutions to address the defined problem. For instance, the company may consider improving customer service by providing staff training, enhancing online customer support, or offering loyalty programs._
+        - 
+          title: 5. Evaluate potential solutions
+          copy: |
+            _Evaluate the potential solutions based on the feasibility, impact, and costs associated with each solution. For example, the company may consider the cost of training staff, the impact of loyalty programs on sales, and the feasibility of implementing online customer support._
+        - 
+          title: 6. Implement the chosen solution
+          copy: |
+            _Once a solution is selected, implement it with a plan to measure its effectiveness. For instance, the company may monitor customer satisfaction levels and sales revenue to measure the impact of its new loyalty program._
+        - 
+          title: 7. Monitor and adjust
+          copy: |
+            _Monitor the implemented solution regularly and adjust as needed to ensure it is effective in resolving the problem._
   -
   -
     title: On the web
@@ -53,34 +55,47 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about the basics of structured problem solving mothodologies using DMAIC and 8D.
-
-        _Not sure if these are stretches rather than websites? - we could spread them out over the session if stretches?_
+        Please see the following website where you can learn more about different structured problem solving mothodologies.
 
       links:
-        DMAIC and 8D Problem solving methodologies: https://blog.minitab.com/en/the-basics-of-structured-problem-solving-methodologies-dmaic-8d
         Case analysis in business: https://www.indeed.com/career-advice/career-development/case-analysis-example
         Case study examples: https://www.socialpilot.co/blog/case-study-examples
   -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### High employee turnover
+
+      _A common business problem is high employee turnover, which can result in lost productivity, decreased morale, and increased costs associated with hiring and training new employees. A structured approach can help to identify the underlying causes of high employee turnover and develop effective solutions to address the problem._
+
+      _Here is an example of how a structured approach was used to address high employee turnover._
     subInc: 
-      type: word-quiz
+      type: accordion
       content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
+        - 
+          title: Seven steps to solve the problem
+          copy: |
+            1. Identify the problem: A company identified high employee turnover as a significant problem affecting its productivity and bottom line.
+            2. Gather information: The company conducted exit interviews and surveyed current employees to gather data on the reasons for turnover. They also analysed hiring and onboarding processes, employee engagement levels, and compensation and benefits packages.
+            3. Define the problem: Based on the information gathered, the company defined the problem as "High employee turnover is due to a lack of career development opportunities and inadequate compensation and benefits packages."
+            4. Develop potential solutions: The company brainstormed potential solutions, including implementing a career development program, improving employee benefits, and conducting regular employee engagement surveys.
+            5. Evaluate potential solutions: The company evaluated each potential solution based on feasibility, impact, and cost. They decided to implement a career development program and improve employee benefits, which they believed would have the most significant impact on employee retention.
+            6. Implement the chosen solution: The company implemented a career development program that included training, mentoring, and coaching opportunities for employees. They also improved employee benefits by offering health insurance, retirement plans, and additional paid time off.
+            7. Monitor and adjust: The company monitored employee turnover rates and conducted regular employee engagement surveys to measure the effectiveness of the new programs. They adjusted the programs as needed based on employee feedback.
+            
+          img: /images/svg/placeholder_icon.svg
+    copy2: As a result of this structured approach, the company was able to reduce employee turnover, improve productivity and morale, and save costs associated with hiring and training new employees.
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _In the above case study, in step 4 the company used the Brainstorming technique; which other techniques do you think they could have used to develop potential solutions?_
+
+        _Using the above seven steps as a guide, pick from one of the following business problems to resolve: Skilled workers need, Expand a small business, or Increase employee productivity._
   -
     title: Quick quiz
     theme: i-quiz
@@ -104,3 +119,14 @@ sections:
             Unprofessional: false
             Positive: true
           feedback: text
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  DMAIC and 8D Problem solving methodologies
+
+      Click on the owl which will take to a website where you can learn about the DMAIC and 8D problem solving methodologies.
+
+    img: /images/svg/stretch_button.svg
+    link: https://blog.minitab.com/en/the-basics-of-structured-problem-solving-methodologies-dmaic-8d

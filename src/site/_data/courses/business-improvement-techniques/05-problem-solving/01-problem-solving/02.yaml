@@ -1,6 +1,6 @@
 title: Problem solving
 intro: |
-  intro text
+  On this page we take a look at the business need for problem identification and removal; and a formalised problem solving process.
 banner: placeholder.jpg
 sections:
   -
@@ -49,13 +49,13 @@ sections:
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - American Express - Retiring Employees, Lost Knowledge
+      ### Case study - American Express - Retiring Employees
 
       _Case study of a problem and how it was identified and resolved_
 
       _Example:_
 
-      _One crucial concern regarding retirement is the loss of valuable knowledge. When retirees depart, they take with them years of experience and expertise, leaving businesses without that vital information. However, American Express has devised a solution to this problem._
+      _When retirees depart, they take with them years of experience and expertise, leaving businesses without that vital information. However, American Express has devised a solution to this problem._
 
     subInc: 
       type: accordion
@@ -79,7 +79,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Think about what the business need was in the above case study and make some notes._
+        _Think about what the business need was in the above case study and make some notes. - the loss of valuable knowledge._
 
   -
     title: Key point

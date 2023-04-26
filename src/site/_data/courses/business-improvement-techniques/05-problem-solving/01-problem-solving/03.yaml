@@ -1,6 +1,6 @@
 title: The impact of unresolved problems
 intro: |
-  intro text
+  On this page we take a look at the impact of unresolved problems, the root cause of a problem, and how to prevent reoccurrences of the problems.
 banner: placeholder.jpg
 sections:
   -
@@ -102,19 +102,29 @@ sections:
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - 
+      ### Case study - The Iskikawa diagram used in Manufacturing
 
-      _Case study of how to identify and verify the root cause of a problem - this could be a continuation of the same company from the prevous page_
+      _Example:_
+
+      _The Ishikawa diagram is utilised in manufacturing to investigate problematic events. In this specific instance, an assembly line production process was discovered to be inefficient. The analysis team has identified the problematic statement and the major categories of causes involved using the 6Ms framework. Potential causes have been pinpointed through brainstorming, and all elements have been mapped onto the diagram in their designated location._
+
+      _Source: https://kanbanize.com/lean-management/lean-manufacturing/root-cause-analysis/fishbone-diagram_
+
     subInc: 
       type: accordion
       content:
         - 
-          title: Identity and verify
+          title: The 6Ms in Ishikawa diagram used in Manufacturing
           copy: |
             
-            text
+            1. Manpower - Refers to the physical or mind/knowledge work of personnel. 
+            2. Method - Refers to the production process. 
+            3. Machine - Refers to all the equipment, tools, and facilities used for the production. 
+            4. Material - Refers to the raw materials used for the production of a final product. 
+            5. Medium (Environment) - Refers to the effect of unpredictable environmental factors such as weather, floods, humidity, etc. 
+            6. Measurement - Refers to inspections and physical measurements such as volume or temperature, etc.
 
-          img: /images/svg/placeholder_icon.svg
+            ![](/images/banners/placeholder.jpg)
   -
   -
     title: Time to think
@@ -122,8 +132,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Identify and verify the root cause of a problem in the above case study_
-
+        _In addition to the Ishikawa diagram and Brainstorming that was used in the above case study; what other techniques do you think could have also been used?_
   -
   -
     title: Quick quiz
@@ -132,17 +141,17 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one - the 5 whys
-          answer: the 5 whys
+          sentence: The 5 whys technique involves asking a series of questions to identify the underlying cause of the problem.
+          answer: The 5 whys
         -
-          sentence: example two - Ishikawa diagrams
+          sentence: Ishikawa diagrams help identify possible causes of a problem by breaking down the issue into categories.
           answer: Ishikawa diagrams
         -
-          sentence: example three - root cause paths
-          answer: root cause paths
+          sentence: Root cause paths trace the events back to their origin.
+          answer: Root cause paths
         -
-          sentence: example four - brainstorming
-          answer: brainstorming
+          sentence: Brainstorming encourages open discussion and creative thinking which allows for several different ideas to be considered.
+          answer: Brainstorming
     theme: i-quiz
   -
   -
