@@ -50,7 +50,7 @@ sections:
     theme: i-quiz
   -
   -
-    title: TBD Activity
+    title: Activity
     layout: media
     theme: t-bg-primary2
     copy: |
@@ -65,7 +65,7 @@ sections:
       ref: 
   -
   -
-    title: TBD 1.2 Case study
+    title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
       ### Case study - Identify visual controls
@@ -85,7 +85,7 @@ sections:
             text
   -
   -
-    title: TBD 1.2 Time for an assessment task
+    title: Time for an assessment task
     theme: t-bg-primary3 i-practice
     copy: |
       Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.

@@ -118,14 +118,13 @@ sections:
       copy: |
         Select one or more of the visual management systems that you would use to create a visual workplace, and describe why and how you would use it.
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _This may be a stretch_
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  How Visual Management Tools Start & Sustain Improvement
 
-        Please see the following website where you can learn more about types of visual management tools and how they support improvement in the workplace.
+      Click on the owl to see a website where you can learn more about types of visual management tools and how they support improvement in the workplace.
 
-      links:
-        How Visual Management Tools Start & Sustain Improvement: https://blog.kainexus.com/improvement-disciplines/visual-management/how-visual-management-tools-start-and-sustain-improvement
+    img: /images/svg/stretch_button.svg
+    link: https://blog.kainexus.com/improvement-disciplines/visual-management/how-visual-management-tools-start-and-sustain-improvement
