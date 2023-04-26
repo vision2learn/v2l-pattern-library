@@ -61,7 +61,7 @@ sections:
     copy: |
       Text
 
-      Scroll through the slides below to learn more about different techniques to find the root cause of a problem.
+      Scroll through the slides below to learn about different techniques to find the root cause of a problem.
 
     subInc: 
       type: slider
@@ -70,32 +70,32 @@ sections:
         -
           title: Brainstorming
           text: |
-            text
+            _This technique involves gathering a group of people to generate ideas and to identify the possible causes of a problem. It encourages open discussion and creative thinking, allowing for a broad range of ideas to be considered._
           img: placeholder_icon.svg
         -
           title: The 5 Whys
           text: |
-            text
+            _This technique involves asking a series of "why" questions to identify the underlying cause of the problem. By asking "why" repeatedly, the root cause can be uncovered._
           img: placeholder_icon.svg
         -
           title: Ishikawa diagrams
           text: |
-            text
+            _Ishikawa diagrams are also known as fishbone diagrams. These diagrams help identify possible causes of a problem by breaking down the issue into categories such as people, processes, materials, and equipment. This visual representation helps to identify the underlying causes of the problem._
           img: placeholder_icon.svg
         -
           title: Root cause paths
           text: |
-            text
+            _This method involves mapping out the sequence of events that led to the problem. By tracing the events back to their origin, the root cause can be identified._
           img: placeholder_icon.svg
         -
           title: Testing decisions
           text: |
-            text
+            _This method involves testing different scenarios to see which one leads to the problem. By systematically testing different factors, the root cause can be isolated._
           img: placeholder_icon.svg
         -
           title: Verification techniques
           text: |
-            text
+            _This method involves verifying the assumptions made during the problem-solving process. By testing the assumptions, the root cause can be confirmed or ruled out. This can include techniques such as data analysis, observation, and experimentation._
           img: placeholder_icon.svg
   -
   -
