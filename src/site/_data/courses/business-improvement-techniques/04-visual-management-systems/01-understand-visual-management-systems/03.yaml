@@ -12,7 +12,7 @@ sections:
     title: Selecting a visual management system
     theme: t-bg-primary
     copy: |
-      _1.3 - factors to be considered_
+      _1.3 - factors to be considered - text is not final - ideas only_
     
       Scroll through the slides below to learn more about ...
 
@@ -21,29 +21,35 @@ sections:
       title: 
       slides:
         -
-          title: The type of information to be communicated
+          title: What is the purpose?
           text: |
-            text
+            _What do you wish to acheive with the visual management system? for example - increase efficiency or reduce errors?_
           img: placeholder_icon.svg
         -
-          title: How to make information informative
+          title: Who are the audience?
           text: |
-            text
+            _Who will be using the system? Choose one that is useful for all the users and one that is easy to understand._
           img: placeholder_icon.svg
         -
-          title: Cost effectivement
+          title: What information needs to be displayed?
           text: |
-            text
+            _Visual management systems can display a wide range of information such as production schedules.  What information do you need to convey and is the system you are choosing fit for purpose?_
           img: placeholder_icon.svg
         -
-          title: slide 4 title
+          title: Is it accessible to everyone that needs to use it?
           text: |
-            text
+            _Is it placed in a position that everyone can access? Does it need to be mobile or used remotely?_
           img: placeholder_icon.svg
         -
-          title: slide 5 title
+          title: Cost
           text: |
-            text
+            _Purchase price, ongoing maintenace or support costs; Return of investment._
+          img: placeholder_icon.svg
+        -
+          title: Future proof / Adaptability
+          text: |
+            _How long is it needed for? Can it be adapted if needed? Or can it be customised or does it come with pre-made templates?_
+
           img: placeholder_icon.svg
   -
   -
@@ -52,10 +58,11 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about types of visual controls
+        Please see the following website where you can learn more about selecting and the components of vusial management systems.
 
       links:
-        5 types of visual controls: https://txm.com/5-types-of-visual-controls/
+        Selecting a visual management system: https://www.linkedin.com/pulse/selecting-visual-management-system-la%C3%ABtitia-donovan-mba?trk=read_related_article-card_title
+        The Main Components of an Effective Visual Management System: https://citoolkit.com/articles/visual-management/
   -
   -
     title: Time to think
@@ -63,7 +70,7 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _Could relate to the website?_
+        Take a look at the above websites (or research your own) and list the elements that you think contributes to a good visual manangement system.
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -77,7 +84,7 @@ sections:
     copy: |
       ### The visual workplace
       
-      Please see the following video on .
+      Please see the following video where you will learn about the differnt visual management systems that are available.
     video: placeholder_pc.mp4
   -
   -
@@ -87,17 +94,20 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
+          sentence: example one - Kanban systems
           answer: one
         -
-          sentence: example two
+          sentence: example two - Floor footprints
           answer: two
         -
-          sentence: example three 
+          sentence: example three - Colour coding
           answer: three
         -
-          sentence: example four
+          sentence: example four - Team boards
           answer: four
+        -
+          sentence: example five - Graphs
+          answer: five
     theme: i-quiz
   -
   -
@@ -106,4 +116,15 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        _LO or exercise._
+        Select one or more of the visual management systems that you would use to create a visual workplace, and describe why and how you would use it.
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  How Visual Management Tools Start & Sustain Improvement
+
+      Click on the owl to see a website where you can learn more about types of visual management tools and how they support improvement in the workplace.
+
+    img: /images/svg/stretch_button.svg
+    link: https://blog.kainexus.com/improvement-disciplines/visual-management/how-visual-management-tools-start-and-sustain-improvement

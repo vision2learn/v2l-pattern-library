@@ -13,18 +13,16 @@ sections:
     title: Good visual management elements
     theme: t-bg-primary
     copy: |
-      _1.5 elements_
-    
-      Scroll through the slides below to learn more about ...
+      Good visual management relies on several key elements, please scroll through the slides below to learn more:
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Purposeful information
+          title: Purposeful and relevant information
           text: |
-            text
+            _Purpose of the system; and relevant to the audience so it helps them to make better decisions and take appropriate actions_
           img: placeholder_icon.svg
         -
           title: Involve Team members in production
@@ -42,9 +40,9 @@ sections:
             text
           img: placeholder_icon.svg
         -
-          title: slide 5 title
+          title: Simple and intuitive design
           text: |
-            text
+            _Appropriate colours to emphasie important information, and user can understand it easily without any special training._
           img: placeholder_icon.svg
   -
   -
@@ -54,17 +52,17 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Visual management should provide clear and concise information so the audience can easily understand the message being conveyed.
+          answer: clear and concise
         -
-          sentence: example two
-          answer: two
+          sentence: Visual management should provide purposeful and relevant information so it helps the audience to make better decisions.
+          answer: purposeful and relevant
         -
-          sentence: example three 
-          answer: three
+          sentence: Visual management should have an intuitive and simple design so the audience can understand it quickly and easily.
+          answer: intuitive and simple design
         -
-          sentence: example four
-          answer: four
+          sentence: Visual management should use appropriate colours to emphasise important information.
+          answer: appropriate colours
     theme: i-quiz
   -
   -
@@ -85,29 +83,40 @@ sections:
       In your assessment you will be required to prepare appropriate visual indicators for parts of a process or work area.
   -
   -
-    title: TBD 1.6 Case study
+    title: Real-life visual indicators
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - prepare appropriate visual indicators
+      _From Lean - https://www.vision2learn.com/courses/lean-management/2/3/2_
 
-      _To be used for the assessment task ?_
+      All businesses who wish to continually improve must focus on controlling **health** and **safety** as well as **quality**, **cost** and **delivery**. Effective visual indicators can help when it comes to the control and feedback of these five factors.
+
+      However, in order to be effective, there should be a balance between visual and verbal indicators.
+
+      Read the case studies on this page to see how this might work in real work environments.
+
     subInc: 
       type: accordion
       content:
         - 
-          title: Before scenario environment
+          title: Case study 1
           copy: |
-            
-            text
-
-            ![](/images/banners/placeholder.jpg)
-
-            text
+            On a white goods assembly line, there were hold-ups due to the accessibility of a particular component. To address this problem, a square-shaped area was first ‘taped’ off and later the lines were painted. The area was in a safe location. It was also convenient for the assembly team. The square was subdivided into two halves. When half the square was empty the team knew it was time to request the delivery of more components to their work area. Staff were trained that the components were stored within the designated area. This approach would be reviewed in three months time. Further changes would be made if appropriate.
+          img: /images/svg/ln/LM_U2_S3_P2_CaseStudy_1.svg
+        - 
+          title: Case study 2
+          copy: |
+            A company delivering farming equipment had occasional problems with delivery times. They discovered that the lorries were running out of petrol with less experienced drivers. These drivers waited until the petrol light went on before re-fuelling. However, if the light went on in remote country areas, there were no petrol stations available.
+          img: /images/svg/ln/LM_U2_S3_P2_CaseStudy_2.svg
+        - 
+          title: Case study 3
+          copy: |
+            On a production line, the team were told weekly what the rejects per thousand figures had been. Rarely could they remember what had happened the week earlier and they had no understanding of how well they were doing. Also, if the figure appeared high, they waited a week to discover a problem. It was decided to plot the average reject figure per week and show the figures over time. This was updated weekly and the staff could now see trends. They then moved to daily figures that made appropriate analysis and adjustments possible. It was intended to see if even more regular feedback could improve performance. The time series was updated daily by the team leader and pinned on the team notice board.
+          img: /images/svg/ln/LM_U2_S3_P2_CaseStudy_3.svg
   -
   -
-    title: TBD 1.6 Time for an assessment task
+    title: Time for an assessment task
     theme: t-bg-primary3 i-practice
     copy: |
-      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
+      Taking the above case studies into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
       
-      Make sure you save this document as you will need to submit it to your tutor along with your unit 4 assessment.
+      Make sure you save this document as you will need to submit it to your tutor along with your Unit 4 assessment.
