@@ -97,6 +97,18 @@ sections:
           img: /images/svg/placeholder_icon.svg
   -
   -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ### Kaizen
+
+      Click on the Owl to see a youtube video where you can learn more about the Kaizen philosophy for continuous improvement and the PDCA cycle.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.youtube.com/watch?v=LoDs8tBcQvQ
+  -
+  -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
@@ -107,57 +119,49 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### 1.2 The 8 wastes of Lean
+      ### The 8 wastes of Lean
       
       Please see the following video on the 8 wastes of Lean and how to eliminate them.
 
     video: placeholder_pc.mp4
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: See if you can identify the 8 wastes of Lean in the following quiz questions.
     subInc: 
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: Transport waste occurs when movement of any material isn’t part of the immediate production.
+          answer: Transport
         -
-          sentence: example two
-          answer: two
+          sentence: Motion waste is usually caused by ineffective layout and workplace organisation.
+          answer: Motion
         -
-          sentence: example three 
-          answer: three
+          sentence: Unutilised talent is the only waste relating to management.
+          answer: Unutilised
         -
-          sentence: example four
-          answer: four
+          sentence: Overproduction waste may be down to poor planning, teams working at different speeds, or incorrectly placed automation. 
+          answer: Overproduction
+        -
+          sentence: Defects detected early in the production can stop difficulties occurring for teams further along, which can impact on overproduction, wating and inventory.
+          answer: Defects
+        -
+          sentence: Any unnecessary work that results in more time and effort than is needed is considered overprocessing.
+          answer: overprocessing
+        -
+          sentence: Any waiting time in the production process is waste. 
+          answer: waiting
+        -
+          sentence: Inventory waste can be a result of inefficient processes and unbalanced production processes. 
+          answer: Inventory
     theme: i-quiz
   -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
       copy: |
-        _LO or exercise._
+        Please see the following website where you can see everyday examples of the 8 wastes of lean.
+
+      links:
+        Examples of the 8 wastes of lean: hhttps://blog.kainexus.com/improvement-disciplines/lean/7-wastes-of-lean/everyday-examples-of-the-8-wastes-of-lean

@@ -102,6 +102,17 @@ sections:
           img: placeholder_icon.svg
   -
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following short youtube video on why a Standard Operating Procedure is important.
+
+      links:
+        Why is a Standard Operating Procedure important: https://www.youtube.com/watch?v=nT81nHZyCYM
+  -
+  -
     title: Sample SOP
     theme: t-bg-primary2 i-read
     copy: |
@@ -130,7 +141,7 @@ sections:
     copy: |
       ### Prepare a standardised work document
 
-      _Captivate demo video_
+      _Demo video_
       
       Please see the following video which will show you how to prepare a standardised work document.
     video: placeholder_pc.mp4
