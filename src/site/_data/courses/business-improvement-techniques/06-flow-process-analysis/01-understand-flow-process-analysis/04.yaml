@@ -1,0 +1,138 @@
+title: Value added and non-value added activities
+intro: |
+  intro text
+banner: placeholder.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the difference between value added and non-value added activities.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Value added and non-value added activities
+      
+      Please see the following video on the differences between value added and non-value added activities.
+    video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "statement":
+          answers:
+            True: true
+            False: false
+          feedback: text
+        Question 2:
+          answers:
+            Receiving calls: false
+            Summarising calls: false
+            Asking about the weather: true
+          feedback: text
+        Select one option to complete the following sentence:"text __________ text.":
+          answers:
+            Negative: false
+            Unprofessional: false
+            Positive: true
+          feedback: text
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify value added and non-value added steps in the process and any waste that may occur.
+  -
+  -
+    title: Value and non-value steps in a process
+    theme: t-bg-primary
+    copy: |
+      When looking at a process, we can find steps that add value and steps that don't add value or are not necessary.
+
+      By understanding value-added and non-value-added steps, and being aware of waste, we can find ways to make the process better and more efficient. This helps us save time, resources, and energy, and deliver a better product or service.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Value-added steps
+          text: |
+            These are the important steps that make the product or service better and give it value. For example, if we are making a sandwich, the value-added steps would be preparing the bread, adding fresh ingredients, and putting it all together.
+          img: placeholder_icon.svg
+        -
+          title: Non-value-added steps
+          text: |
+            These are the steps that don't really make the product or service better and are not needed. They can make the process slower or more complicated. For example, if we spend a lot of time looking for the ingredients or if we put too much mayonnaise on the sandwich, those would be non-value-added steps.
+          img: placeholder_icon.svg
+        -
+          title: Waste
+          text: |
+            Waste is when we use up time, materials, or energy on things that are not needed or don't make the product better. It's like using more than we should. Some common types of waste are transportation, inventory, motion, waiting, overproduction, overprocessing, defects, and under used skills.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Online Toy Store Order Process
+
+      Let's explore how an online toy store fulfills orders to understand value-added and non-value-added activities.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Value-added steps
+          copy: |
+            1. Order Processing: When a customer places an order, the toy store verifies the payment and checks the order details to ensure everything is correct. This step is important for processing the order accurately.
+
+            2. Picking and Packing: The store team selects the toys that the customer ordered from their inventory and carefully packs them in a box. This step ensures that the right toys are ready to be shipped.
+
+            3. Shipping and Delivery: The toy store hands over the packaged order to a delivery service like a postal carrier or a delivery person. They make sure the package gets to the customer's address so they can enjoy their new toys.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Non-value added steps
+          copy: |
+            1. Manual Data Entry: Sometimes, the store team needs to type in the customer's information manually into their computer system. Although important, it can take time and may have a higher chance of mistakes.
+
+            2. Quality Control Inspections: Occasionally, the store team checks the toys for any defects or problems before packing them. While important for quality, doing excessive checks can slow down the process without adding much value.
+
+            3. Excessive Packaging: Using too much packaging material, like excessive wrapping or boxes, that doesn't really protect the toys any better. This can create unnecessary waste.
+            
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: Identifying waste
+          copy: |
+            1. Overproduction waste: Ordering or stocking more toys than what is needed, leading to excess inventory that may not be sold quickly.
+
+            2. Waiting waste: Delay in processing the order due to waiting for specific toys to be restocked or for approvals from others involved in the process.
+
+            3. Transportation waste: Unnecessary movement of toys between different locations or multiple handling that can increase the risk of damage or errors.
+            
+          img: /images/svg/placeholder_icon.svg
+    copy2: By understanding these value-added and non-value-added steps, as well as waste, the toy store can find ways to make their order process more efficient. 
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about value added and non-value added.
+
+      links:
+        value add vs non-value add: https://dcmlearning.ie/lean-course-content/lean-six-sigma-value-add-vs.-non-value-add.html
