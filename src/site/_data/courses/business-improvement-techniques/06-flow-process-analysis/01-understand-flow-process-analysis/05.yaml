@@ -5,7 +5,7 @@ banner: placeholder.jpg
 sections:
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to:
       * Explain how to identify opportunities for improvements to the process
@@ -24,14 +24,14 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Title of video topic
+      ### Improvements and recommendations
       
       Please see the following video on .
     video: placeholder_pc.mp4
   -
   -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
@@ -61,7 +61,7 @@ sections:
   -
   -
     title: Key point
-    theme: t-bg-grey i-keypoint
+    theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to describe the purpose of an action plan.
   -
