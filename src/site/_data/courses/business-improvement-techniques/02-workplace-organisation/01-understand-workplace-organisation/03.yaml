@@ -1,6 +1,6 @@
 title: Understand workplace organisation
 intro: |
-  intro text 1.2 and 1.3
+  On this page you will learn about selecting a work area for an activity, and the benefits of having an organised working environment.
 banner: bit_u2_s1_p3_banner.jpg
 sections:
   -
@@ -15,7 +15,7 @@ sections:
     copy: |
       ### Selecting a work area for an activity
       
-      Please see the following video on 1.2.
+      This video will look at why it’s important that the area selected for a work activity should be carefully chosen and what to consider when making your decision.
     video: placeholder_pc.mp4
   -
   -
@@ -35,27 +35,20 @@ sections:
           copy: |
             After a more thorough evaluation of the space available, Physical 3D decided that moving some of the existing production area was possible. This created space near to the front entrance of building and allowed the room divider to be built in a place that included a window to the new meeting room, as well as easy access directly into the room. Noise was still an issue and soundproofing was added to create a final safe environment that met all of the conditions needed for a meeting room. 
             
-          img: /images/svg/bit/placeholder_icon.svg
+          img: /images/svg/bit/bit_u2_s1_p3_case_study.svg
   -
-    title: Quick quiz
-    copy: 
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        What do you think Physical 3D considered at the planning stage of selecting a suitable work area for the meeting room needed? Make some notes on the following which were discussed in the video: 
+        * Health & Safety 
+        * Cleanliness 
+        * Product quality 
+        * Accessibility 
+        * Noise level 
+        * Environmental conditions 
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
@@ -69,8 +62,28 @@ sections:
     copy: |
       ### Organised working environment
       
-      Please see the following video on 1.3
+      We’re now going to look at why having an organised working environment is beneficial to you, the team and the organisation.
     video: placeholder_pc.mp4
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: By having an organised workspace, you're better able to prioritise your tasks and manage your time effectively.
+          answer: manage your time
+        -
+          sentence: When your workspace is organised, you know exactly where everything is and you spend less time searching for things which increases productivity.
+          answer: increases productivity
+        -
+          sentence: An organized workspace can help to create a calm and productive environment, which can lead to improved creativity and problem-solving skills.
+          answer: improved creativity
+        -
+          sentence: When you work in an organised environment, it's easier for you and your colleagues to have better collaboration.
+          answer: better collaboration
+    theme: i-quiz
   -
   -
     title: Physical and Mental Health
@@ -82,11 +95,3 @@ sections:
       Although accommodating all differences is difficult, it’s important that individuality is taken into consideration and adaptions made where needed. E.g. if the noise, busy environment can’t be avoided, then a quiet, relaxed and comfortable breakout room could help those that need it. 
 
     img: /images/svg/bit/bit_u2_s1_p3_image1.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
