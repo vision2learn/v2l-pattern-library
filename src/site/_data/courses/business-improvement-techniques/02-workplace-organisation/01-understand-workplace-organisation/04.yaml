@@ -1,6 +1,6 @@
 title: Workplace Audits
 intro: |
-  intro text 1.4 1.5
+  On this page we will take a look at how to do a workplace audit using tools and techniques.
 banner: bit_u2_s1_p4_banner.jpg
 sections:
   -
@@ -15,17 +15,8 @@ sections:
     copy: |
       ### How to score and audit a workplace organisation
       
-      Please see the following video on 1.4. and an introduction to 1.5
+      Please see the following video on how to conduct a workplace audit.
     video: placeholder_pc.mp4
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        Using your learning from the video about visual indicators in the kitchen can you suggest appropriate visual indicators for the office?
-
-  -
   -
     title: Quick quiz
     copy: 
@@ -33,18 +24,26 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: A workplace organisation audit is a systematic evaluation of the cleanliness, organisation, and efficiency of a workplace.  
+          answer: systematic evaluation
         -
-          sentence: example two
-          answer: two
+          sentence: The first step in scoring and auditing a workplace organisation is to develop a scoring system.
+          answer: scoring system
         -
-          sentence: example three 
-          answer: three
+          sentence: The purpose of an audit is to identify areas for improvement and to ensure that the workplace is operating safely and efficiently.  
+          answer: safely and efficiently
         -
-          sentence: example four
-          answer: four
+          sentence: When conducting a workplace audit, the 5S principles can be incorporated into the scoring system.
+          answer: 5S principles
     theme: i-quiz
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Can you carry out a workplace audit of your current surroundings? This could be in your own workplace or at home. Think about the 5Ss and how you would score the items within each stage.
+  -
   -
     title: Key point
     theme: t-bg-supporting2 i-keypoint
@@ -58,8 +57,6 @@ sections:
       ### Workplace organisation audit
 
       Do you remember that Physical 3D created a new meeting area? If you recall, it was very successful. However, during the building work the staff became distracted and the main office, which has never been the tidiest, become a bit messy – actually, that’s being polite. As you can see from the image below, it is now a risk to anyone entering the room.
-
-
     subInc: 
       type: accordion
       content:
@@ -69,8 +66,9 @@ sections:
             
             Sonia isn’t happy about this. She went on annual leave after sorting the boxes that were causing a hazard at the top of the stairs and is appalled to see the state of the office on her return. “It’s not just my responsibility to keep the office free from hazards” she thinks to herself.
       
-            ![](/images/banners/placeholder.jpg)
-            
+            ![](/images/svg/bit/bit_u2_s1_p4_image1.svg)
+            _Image showing the hazardous office environment at Physical 3D_
+
             After a chat with some of the staff, Sonia makes this her first priority and begins by conducting a workplace audit. 
             
   -
@@ -79,4 +77,4 @@ sections:
     copy: |
       ### Perform a workplace organisation audit
 
-      Taking the above case study into consideration, use the above image to recommend what changes Sonia should make to Physical 3D’s standard operating procedures (SOPs) and what visual controls could be implemented.
+      Taking the above case study into consideration, use the above image to conduct your own workplace audit using the following document: [Unit 2 Session 1 Question 5 - Workplace Audit](/pdfs/bit_u2_s1_p5_workplace_audit.docx).
