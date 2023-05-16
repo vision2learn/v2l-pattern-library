@@ -57,20 +57,19 @@ sections:
       ### Workplace organisation audit
 
       Do you remember that Physical 3D created a new meeting area? If you recall, it was very successful. However, during the building work the staff became distracted and the main office, which has never been the tidiest, become a bit messy – actually, that’s being polite. As you can see from the image below, it is now a risk to anyone entering the room.
+
+      Sonia isn’t happy about this. She went on annual leave after sorting the boxes that were causing a hazard at the top of the stairs and is appalled to see the state of the office on her return. “It’s not just my responsibility to keep the office free from hazards” she thinks to herself.
+
+      After a chat with some of the staff, Sonia makes this her first priority and begins by conducting a workplace audit. 
+
     subInc: 
       type: accordion
       content:
         - 
-          title: Before scenario environment
+          title: 
           copy: |
-            
-            Sonia isn’t happy about this. She went on annual leave after sorting the boxes that were causing a hazard at the top of the stairs and is appalled to see the state of the office on her return. “It’s not just my responsibility to keep the office free from hazards” she thinks to herself.
-      
             ![](/images/svg/bit/bit_u2_s1_p4_image1.svg)
-            _Image showing the hazardous office environment at Physical 3D_
-
-            After a chat with some of the staff, Sonia makes this her first priority and begins by conducting a workplace audit. 
-            
+            _Image showing the hazardous office environment at Physical 3D_      
   -
     title: Time for an assessment task
     theme: t-bg-primary3 i-practice
