@@ -1,16 +1,112 @@
-title: What did you learn? 
-intro: Well done, you’ve now completed the first session of this unit! 
-banner: summary.jpg
+title: Apply a structured approach to problem solving
+intro: |
+  On this page we will look at how to apply a structured approach to solve a problem.
+banner: placeholder.jpg
 sections:
   -
-    title: Summary
-    theme: t-bg-primary i-summary
+    title: Key point
+    theme: t-bg-grey i-keypoint
     copy: |
-      In this session, you have learnt:
-      * about the business need for problem identification and removal
-      * about the benefits of adopting a formalised problem solving process
-      * about the impact of unresolved problems
-      * how to identify and verify the root cause of a problem
-      * how to prevent reoccurrence of the problems
-      * how to apply a structured approach to problem solving
-  
+      In your assessment you will be required to apply a structured approach to problem solving.
+  -
+    title: A structured approach to problem solving
+    theme: t-bg-primary
+    copy: |
+      A structured approach to problem solving is essential in identifying, analysing, and resolving business problems effectively.
+      
+      A structured approach to problem-solving helps businesses to identify, analyse, and resolve problems in a systematic and effective manner. It enables them to make informed decisions and take actions that result in positive outcomes.
+
+      See below for an example of a structured approach to problem solving:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 1. Identify the problem
+          copy: |
+            The first step is to identify the problem that needs to be solved. For example, a company may identify a decline in sales revenue or a decrease in customer satisfaction.
+        - 
+          title: 2. Gather information
+          copy: |
+            Once the problem is identified, gather relevant data and information to understand the problem thoroughly. For instance, the company may conduct surveys to understand why customers are not satisfied or analyse sales data to identify the root cause of revenue decline.
+        - 
+          title: 3. Define the problem
+          copy: |
+            Based on the information gathered, define the problem precisely. This helps to avoid confusion and ensures that everyone involved in the problem-solving process has a clear understanding of the problem. For instance, the company may define the problem as "The decline in sales revenue is due to a decrease in customer loyalty caused by poor customer service."
+        - 
+          title: 4. Develop potential solutions
+          copy: |
+            Brainstorm potential solutions to address the defined problem. For instance, the company may consider improving customer service by providing staff training, enhancing online customer support, or offering loyalty programs.
+        - 
+          title: 5. Evaluate potential solutions
+          copy: |
+            Evaluate the potential solutions based on the feasibility, impact, and costs associated with each solution. For example, the company may consider the cost of training staff, the impact of loyalty programs on sales, and the feasibility of implementing online customer support.
+        - 
+          title: 6. Implement the chosen solution
+          copy: |
+            Once a solution is selected, implement it with a plan to measure its effectiveness. For instance, the company may monitor customer satisfaction levels and sales revenue to measure the impact of its new loyalty program.
+        - 
+          title: 7. Monitor and adjust
+          copy: |
+            Monitor the implemented solution regularly and adjust as needed to ensure it is effective in resolving the problem.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### High employee turnover
+
+      A common business problem is high employee turnover, which can result in lost productivity, decreased morale, and increased costs associated with hiring and training new employees. A structured approach can help to identify the underlying causes of high employee turnover and develop effective solutions to address the problem.
+
+      Here is an example of how a structured approach was used to address high employee turnover.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Seven steps to solve the problem
+          copy: |
+            1. __Identify the problem__: A company identified high employee turnover as a significant problem affecting its productivity and bottom line.
+            2. __Gather information__: The company conducted exit interviews and surveyed current employees to gather data on the reasons for turnover. They also analysed hiring and onboarding processes, employee engagement levels, and compensation and benefits packages.
+            3. __Define the problem__: Based on the information gathered, the company defined the problem as "High employee turnover is due to a lack of career development opportunities and inadequate compensation and benefits packages."
+            4. __Develop potential solutions__: The company brainstormed potential solutions, including implementing a career development program, improving employee benefits, and conducting regular employee engagement surveys.
+            5. __Evaluate potential solutions__: The company evaluated each potential solution based on feasibility, impact, and cost. They decided to implement a career development program and improve employee benefits, which they believed would have the most significant impact on employee retention.
+            6. __Implement the chosen solution__: The company implemented a career development program that included training, mentoring, and coaching opportunities for employees. They also improved employee benefits by offering health insurance, retirement plans, and additional paid time off.
+            7. __Monitor and adjust__: The company monitored employee turnover rates and conducted regular employee engagement surveys to measure the effectiveness of the new programs. They adjusted the programs as needed based on employee feedback.
+            
+          img: /images/svg/placeholder_icon.svg
+    copy2: As a result of this structured approach, the company was able to reduce employee turnover, improve productivity and morale, and save costs associated with hiring and training new employees.
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the above case study, in step 4 the company used the __Brainstorming technique__; which other techniques do you think they could have used to develop potential solutions?
+
+
+        Using the above seven steps as a guide, pick from one of the following business problems to resolve: 
+        * Skilled workers need, 
+        * Expand a small business, or 
+        * Increase employee productivity.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can see some case study examples of small businesses that needed to resolve a business issue.
+
+      links:
+        Case study examples: https://www.socialpilot.co/blog/case-study-examples
+  -
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ### __Case analysis__ in business
+
+      If you wish to stretch yourself further, click on the owl which will take to a website where you can learn about the _case analysis_ business solving methodology.
+
+    img: /images/svg/stretch_button.svg
+    link: https://www.indeed.com/career-advice/career-development/case-analysis-example
