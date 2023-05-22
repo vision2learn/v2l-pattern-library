@@ -1,6 +1,6 @@
 title: Standardised working document (SOP)
 intro: |
-  intro text
+  On this page you will learn about standard operating procudures (SOPs) and how to create one.
 banner: placeholder.jpg
 sections:
   -
@@ -10,41 +10,12 @@ sections:
       In your assessment you will be required to describe the information required to create a standard operating procedure (SOP).
   -
   -
-    title: TBD Standard operating procedures FROM LEAN
-    theme: t-bg-supporting3
-    copy: |
-      The use of standard operating procedures may bring considerable benefits to an organisation. They provide people with all the safety, health, environmental and operational information necessary to perform a job properly and to enable quality standards to be maintained.
-
-      See below for some more reasons for creating SOPs:
-    subInc: 
-      type: accordion
-      content:
-        - 
-          title: They ensure that 
-          copy: |
-            * production operations are performed consistently to maintain quality control of processes and products
-            * processes continue uninterrupted and are completed on a prescribed schedule 
-            * no failures occur in manufacturing and other processes that would harm anyone in the surrounding community 
-            * approved procedures are followed in compliance with company and government regulations. 
-        - 
-          title: They serve as 
-          copy: |
-            * a training document for teaching users about the process for which the SOP was written
-            * a checklist for co-workers who observe job performance, and as a checklist for auditor 
-            * a historical record of an existing process, so there is a factual basis for revising those steps when a process or piece of equipment is changed 
-            * an explanation of steps in a process, so they can be reviewed in accident investigations. 
-    copy2: |
-      By creating SOPs, it is possible to develop a safer and more **efficient** environment where products and services are delivered to consistent **standards**.
-
-      SOPs provide a framework for **continuous improvement**. They can be monitored, reviewed and amended where necessary. By recording these actions, an organisation may safeguard against repeated errors. 
-
-      Some activities are not standardised in this way, such as the discussions between sales staff and customers, and sales prices, which need to allow for variation and flexibility.
-  -
-  -
-    title: TBD Things to consider when creating a SOP
+    title: Things to consider when creating a SOP
     theme: t-bg-primary
     copy: |
-     Standard operating procedures make a significant contribution to organisations. They provide a foundation for lowering variability, enhancing consistency and improving efficiency within an organisation. 
+     When creating a Standard Operating Procedure (SOP), several important factors should be considered. SOPs play a crucial role in organisations by providing a structured framework for operations, and they offer numerous benefits, including reducing variability, ensuring consistency, and improving overall efficiency.
+
+     By considering these factors during the creation of SOPs, organisations can establish a solid foundation for standardisation and improvement. SOPs serve as a valuable resource for employees, enabling them to perform their duties consistently and efficiently. They provide a framework for continuous enhancement, ensuring that processes evolve and adapt to changing needs and industry standards. Ultimately, well-designed SOPs contribute to the overall success and effectiveness of an organisation.
 
     subInc: 
       type: slider
@@ -53,10 +24,11 @@ sections:
         -
           title: Features of SOPs
           text: |
-            * Documents
-            * All types of business and work areas 
-            * Provide a blueprint
-            * Repetitive tasks
+            SOPs possess several key features that contribute to their effectiveness and usefulness. These features include:
+            * Documented format - SOPs are documented guidelines or instructions that are typically written in a clear, structured format. 
+            * Applicable to all business and work areas - SOPs can be developed and implemented across various types of businesses and work areas.
+            * Blueprint for operations - SOPs serve as a blueprint or roadmap for carrying out repetitive tasks or processes within an organisation. 
+            * Emphasis on repetitive tasks - SOPs are particularly beneficial for documenting and guiding repetitive tasks or processes that occur frequently within a business. 
 
           img: placeholder_icon.svg
         -
@@ -73,32 +45,24 @@ sections:
 
           img: placeholder_icon.svg
         -
-          title: Team writing FROM LEAN
+          title: Team writing
           text: |
-            Team writing ensures that comprehensive knowledge (acquired from different perspectives) is applied to the SOP. It also creates ‘buy-in’, which increases the likelihood that SOPs will be implemented under the guidance of the writers. Finally, it trains coaches – the people who write the SOP – and encourages employees to follow the SOP because they know the coaches invested time and effort on their behalf.
-
-            Teams can write or edit parts of the SOP independently and then the contributions can be brought together. The draft SOP can then be circulated for further comments. Throughout the writing process, the team should be mindful of the health and safety implications of what they are creating.
-
-            The ideal time to create a SOP is before a new process is introduced within the organisation. However, it is possible that an organisation latterly recognises that SOPs may improve the way a process performs.
+            Team writing improves SOPs by incorporating diverse perspectives and fostering ownership. It develops coaching skills and encourages adherence to SOPs. Teams can independently write sections, merge them into a cohesive document, and seek input from members. Safety considerations are prioritised. Ideally, SOPs are created before new processes, but can also be implemented later for improved performance.
 
           img: placeholder_icon.svg
         -
           title: Developing a procedure
           text: |
-            * Layout of the area
-            * People
-            * Actions
-            * Time taken
-            * Tools
-            * Key components
+            Developing a procedure involves considering key aspects: area layout, involving relevant individuals, defining actions, estimating time, identifying tools, and recognising key components.
           img: placeholder_icon.svg
         -
           title: Refinement and improvement
           text: |
-            * Sub-divide large processes
-            * Question if things could be done to increase efficiency or to reduce hazards
-            * Plan for contingency actions
-            * Record the date of creation and issue number
+            Process refinement and improvement involve continuous assessment to optimise performance, safety, and effectiveness.
+            * Sub-dividing processes breaks them into manageable components
+            * Seek efficiency and hazard reduction opportunities
+            * Plan for contingencies to address unexpected events or failures
+            * Date and issue number documentation for version control and traceability.
           img: placeholder_icon.svg
   -
   -
@@ -118,7 +82,7 @@ sections:
     copy: |
       Please take a look at the following example SOP document:
 
-      [Sample SOP for serving food](/pdfs/LM_U2_S4_P4_Read.pdf).
+      [Sample SOP for serving food](/pdfs/bit_u3_s1_p5_read_sop.pdf).
   -
   -
     title: Time to think
@@ -126,13 +90,26 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        Make a note of all the information that was required in order to create the above sample SOP.
+        Taking into consideration the above SOP and the audit that you worked on in Unit 2, make a note of what information would be needed to create a SOP for maintaining a clean and tidy office at Physical 3D.
   -
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to prepare a standardised work document suggesting how to eliminate variance to process.
+  -
+  -
+    title: Eliminate variance in process
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      "Eliminate variance in process" means to reduce or remove any inconsistencies, variations, or deviations from the established standard or desired outcome of a process. It aims to create a consistent and predictable workflow where all steps are performed consistently and produce similar results each time.
+
+      By eliminating variance, organisations strive to achieve greater efficiency, quality, and reliability in their operations. It involves identifying and addressing factors that contribute to variations, such as inadequate training, unclear instructions, equipment issues, or external influences. 
+      
+      Standardising processes, providing clear guidelines, and implementing quality control measures are some of the approaches used to eliminate variance in a process. 
+
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: Watch 
