@@ -56,9 +56,9 @@ sections:
     copy: |
       ### Workplace organisation audit
 
-      Do you remember that Physical 3D created a new meeting area? If you recall, it was very successful. However, during the building work the staff became distracted and the main office, which has never been the tidiest, become a bit messy – actually, that’s being polite. As you can see from the image below, it is now a risk to anyone entering the room.
+      Do you remember that Physical 3D created a new meeting area? If you recall, it was very successful. However, during the building work the staff became distracted and the main office, which has never been the tidiest, became a bit messy – actually, that’s being polite. As you can see from the image below, it is now a risk to anyone entering the room.
 
-      Sonia isn’t happy about this. She went on annual leave after sorting the boxes that were causing a hazard at the top of the stairs and is appalled to see the state of the office on her return. “It’s not just my responsibility to keep the office free from hazards” she thinks to herself.
+      Sonia isn’t happy about this. After soring the boxes at the top of the stairs that were causing a hazard, she went on annual leave and is appalled to see the state of the office on her return. “It’s not just my responsibility to keep the office free from hazards” she thinks to herself.
 
       After a chat with some of the staff, Sonia makes this her first priority and begins by conducting a workplace audit. 
 
@@ -66,14 +66,19 @@ sections:
       type: accordion
       content:
         - 
-          title: 
+          title: 5S - Sort, Set in Order, Shine
           copy: |
             ![](/images/svg/bit/bit_u2_s1_p4_image1.svg)
-            _Image showing the hazardous office environment at Physical 3D_      
+            _Image showing the hazardous office environment at Physical 3D_
+        - 
+          title: 5S - Standardise and Sustain
+          copy: |
+            ![](/images/svg/bit/bit_u2_s1_p4_image2.svg)
+            _Image showing the office environment at Physical 3D after the audit_      
   -
     title: Time for an assessment task
     theme: t-bg-primary3 i-practice
     copy: |
       ### Perform a workplace organisation audit
 
-      Taking the above case study into consideration, use the above image to conduct your own workplace audit using the following document: [Unit 2 Session 1 Question 5 - Workplace Audit](/pdfs/bit_u2_s1_p5_workplace_audit.docx).
+      Taking the above case study into consideration, use the above image to conduct your own workplace audit using the following document: [Unit 2 Session 1 Question 5 - Workplace Audit](/pdfs/bit_u2_s1_p5_5s_audit1_(before).xls).
