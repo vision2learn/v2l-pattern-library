@@ -63,16 +63,14 @@ sections:
 
             Through the re-arrangement of workstations and creation of new storage areas, a just in time system of parts was implemented, allowing for parts to be easily accessible for each task of the production. A new working pattern was provided to the packers, thus ensuring that their time was utilised effectively, and they were able to keep the completed hands flowing to the delivery area where storage was available.
 
-            As a result of these Kaizen initiatives, Physical 3D has been able to significantly improve its efficiency and reduce errors in its assembly. For example, the company has reduced its average time assembly time for each hand from an hour to 40 minutes.
+            As a result of these Kaizen initiatives, Physical 3D has been able to significantly improve its efficiency and reduce errors in its assembly. For example, the company has reduced its average assembly time for each hand from an hour to 40 minutes.
 
           img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
-
-      text
-      
-      Make sure you save this document as you will need to submit it to your tutor along with your unit 3 assessment.
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think about how you could improve a work area that you frequently use - see if you can identify any waste or problems.
