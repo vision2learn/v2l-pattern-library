@@ -1,6 +1,6 @@
 title: The Visual workplace
 intro: |
-  intro text
+  On this page you will learn about selecting a visual management system and the factors that you would need to consider to create 'the visual workplace'.
 banner: placeholder.jpg
 sections:
   -
@@ -12,9 +12,7 @@ sections:
     title: Selecting a visual management system
     theme: t-bg-primary
     copy: |
-      _1.3 - factors to be considered - text is not final - ideas only_
-    
-      Scroll through the slides below to learn more about ...
+      When selecting a visual management system, it is essential to: define the purpose and desired outcomes, identify the individuals or groups who will be using the system on a regular basis, determine the specific information that needs to be displayed, make sure it is accessible, the cost, and adaptability.
 
     subInc: 
       type: slider
@@ -23,32 +21,47 @@ sections:
         -
           title: What is the purpose?
           text: |
-            _What do you wish to acheive with the visual management system? for example - increase efficiency or reduce errors?_
+            What do you wish to acheive with the visual management system? for example - increase efficiency or reduce errors?
+
+            The purpose can vary depending on the specific needs of your organisation, but common goals include increasing efficiency, reducing errors, improving communication, enhancing productivity, fostering collaboration, promoting safety, and facilitating process improvement.
           img: placeholder_icon.svg
         -
           title: Who are the audience?
           text: |
-            _Who will be using the system? Choose one that is useful for all the users and one that is easy to understand._
+            Who will be using the system? Choose one that is useful for all the users and one that is easy to understand.
+
+            It is important to choose a system that caters to the needs of all users and is accessible and easy to understand for everyone. By selecting a system that is useful and comprehensible for all users, you can maximise its effectiveness and ensure widespread adoption and engagement throughout the organisation.
           img: placeholder_icon.svg
         -
           title: What information needs to be displayed?
           text: |
-            _Visual management systems can display a wide range of information such as production schedules.  What information do you need to convey and is the system you are choosing fit for purpose?_
+            Visual management systems can display a wide range of information such as production schedules.  What information do you need to convey and is the system you are choosing fit for purpose?
+
+            it is important to determine the specific information that needs to be displayed to support your organisational goals. This may include production schedules, key performance indicators (KPIs), progress tracking, safety metrics, quality data, project timelines, resource allocation, and more. 
+
           img: placeholder_icon.svg
         -
           title: Is it accessible to everyone that needs to use it?
           text: |
-            _Is it placed in a position that everyone can access? Does it need to be mobile or used remotely?_
+            Is it placed in a position that everyone can access? Does it need to be mobile or used remotely?
+
+            Ideally, it should be placed in a central area where employees can view the information conveniently and regularly. Additionally, consider the need for mobility or remote access. Depending on the nature of your organisation's operations, it may be beneficial to have a system that can be accessed remotely or via mobile devices. 
+
           img: placeholder_icon.svg
         -
           title: Cost
           text: |
-            _Purchase price, ongoing maintenace or support costs; Return of investment._
+            What is the initial purchase price? Does it have ongoing maintenace or support costs? Is there a  Return of investment?
+
+            Include assessing the initial purchase price of the system as well as any recurring costs such as licensing fees or subscription fees. Additionally, consider the costs related to system updates, upgrades, and technical support to ensure the system remains functional and up-to-date. It is important to weigh these costs against the potential return on investment (ROI) that the system can deliver. 
+
           img: placeholder_icon.svg
         -
           title: Future proof / Adaptability
           text: |
-            _How long is it needed for? Can it be adapted if needed? Or can it be customised or does it come with pre-made templates?_
+            How long is it needed for? Can it be adapted if needed? Or can it be customised or does it come with pre-made templates?
+
+            Evaluate the anticipated duration for which the system will be needed, taking into account potential changes in organisational processes or requirements. Look for a system that offers flexibility and adaptability to accommodate future needs. Assess whether the system can be easily customised to fit your specific requirements or if it provides pre-made templates that can be tailored to your organisation's needs. 
 
           img: placeholder_icon.svg
   -
@@ -58,7 +71,7 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about selecting and the components of vusial management systems.
+        Please see the following website where you can learn more about selecting and the components of visual management systems.
 
       links:
         Selecting a visual management system: https://www.linkedin.com/pulse/selecting-visual-management-system-la%C3%ABtitia-donovan-mba?trk=read_related_article-card_title
@@ -84,31 +97,34 @@ sections:
     copy: |
       ### The visual workplace
       
-      Please see the following video where you will learn about the differnt visual management systems that are available.
+      Please see the following video where you will learn about the different visual management systems that are available.
     video: placeholder_pc.mp4
   -
   -
     title: Quick quiz
-    copy: 
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one - Kanban systems
-          answer: one
-        -
-          sentence: example two - Floor footprints
-          answer: two
-        -
-          sentence: example three - Colour coding
-          answer: three
-        -
-          sentence: example four - Team boards
-          answer: four
-        -
-          sentence: example five - Graphs
-          answer: five
     theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        What is the primary purpose of a visual management system?:
+          answers:
+            To automate business processes: false
+            To track employee attendance: false
+            To enhance communication within the organisation: true
+        Which of the following is an example of information that can be displayed using a visual management system?:
+          answers:
+            Employee performance evaluations: false
+            Production schedules: true
+            Customer complaints: false
+        Is the following statement true or false? "Visual management systems are only applicable to large organisations.":
+          answers:
+            True: false
+            False: true
+        What is the role of visual controls in a visual management system?:
+          answers:
+            To present information in a clear and easily understandable manner: true
+            To ensure privacy and confidentiality of data: false
+            To provide physical barriers to access information: false      
   -
   -
     title: Time to think

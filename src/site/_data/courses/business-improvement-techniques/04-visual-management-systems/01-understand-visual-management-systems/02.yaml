@@ -1,6 +1,6 @@
 title: Visual Management Systems and Visual controls
 intro: |
-  intro text
+  On this page you will learn about visual management systems and visual controls.
 banner: placeholder.jpg
 sections:
   -
@@ -11,11 +11,13 @@ sections:
       * Explain the purpose of a visual management system
       * Identify appropriate parts of a process or work area that would benefit from visual controls
   -
-    title: Introduction
+    title: Visual Management Systems
     layout: media
     theme: t-bg-primary
     copy: |
-      _One of the first thing to consider when selecting a visual management system is the purpose. What are the goals? What do you wish to achieve with the visual management system? For example, is it needed to increase efficiency, improve communication, or reduce errors?_
+      One of the first thing to consider when selecting a visual management system is the purpose. What are the goals? What do you wish to achieve with the visual management system? For example, is it needed to increase efficiency, improve communication, or reduce errors?
+
+      A Visual Management System uses visual cues, such as charts, graphs, and signs, to make information easy to understand and help teams work more efficiently. It allows for quick communication, helps to identify problems, and promotes improvement.
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -26,7 +28,7 @@ sections:
     copy: |
       ### Visual Management Systems and Visual controls
       
-      Please see the following video on 1.1 and 1.2.
+      Please see the following video to see an example of how a visual management system with visual controls was implemented.
     video: placeholder_pc.mp4
   -
   -
@@ -36,64 +38,78 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: example one 
-          answer: one
+          sentence: The purpose of a Visual Management System is to provide a visual representation of information and data in order to enhance communication and understanding within the organisation.
+          answer: communication and understanding
         -
-          sentence: example two
-          answer: two
+          sentence: Visual Management Systems are designed to promote standardisation and consistency in processes and improve overall operational efficiency.
+          answer: standardisation and consistency
         -
-          sentence: example three 
-          answer: three
+          sentence: By using visual cues and displays, a Visual Management System helps teams and organisations to quickly identify areas of improvement and performance gaps.
+          answer: improvement and performance
         -
-          sentence: example four
-          answer: four
+          sentence: The main goal of implementing a Visual Management System is to enable effective decision-making and problem-solving in real-time.
+          answer: decision-making and problem-solving
     theme: i-quiz
-  -
-  -
-    title: Activity
-    layout: media
-    theme: t-bg-primary2
-    copy: |
-      ### 1.2 Identify visual controls
-
-      _Drag and Drop activty to identify where visual indicator is needed in a work area?_
-
-      Select the following icon to have a go at an activity to learn more about .....
-
-    img: /images/svg/Activity_button.svg
-    activity: 
-      ref: 
   -
   -
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - Identify visual controls
+      ### Case study - Compact Kitchen
 
-      _To be used for the assessment task - wide image to be created_
+      Compact Kitchen is a small company specialising in the manufacturing of small items for kitchens, such as kitchen utensils, gadgets, and storage containers. With a growing customer base and increasing demand for their products, the company aims to enhance productivity, improve quality, and ensure efficient workflow within their manufacturing processes.
+
     subInc: 
       type: accordion
       content:
         - 
-          title: Before scenario environment
+          title: Challenges
           copy: |
+            As Compact Kitchen expands its operations, they had several challenges related to process efficiency and standardisation. To address these challenges, the company aims to implement visual controls within their process workflow and work areas. The objectives include:
+            1. Streamlining workstation organisation
+            2. Enhancing Quality control
+            3. Improving equipment operation and maintenance
+            4. Visualising process sequencing
+            5. Ensuring safety compliance
+          img: /images/svg/placeholder_icon.svg
             
-            text
-
-            ![](/images/banners/placeholder.jpg)
-
-            text
   -
   -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think about how Compact Kitchen identified where in their process and work areas that would benefit from visual controls before reading further.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
     copy: |
-      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
+      ### Case study - Compact Kitchen
 
-      text
-      
-      Make sure you save this document as you will need to submit it to your tutor along with your unit 4 assessment.
+      Through the implementation of visual controls, Compact Kitchen successfully improved process efficiency, quality control, equipment operation, workflow management, and safety compliance. By effectively utilising visual cues, the company enhanced organisation, productivity, and overall performance within their manufacturing processes and work areas.
 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Results and benefits
+          copy: |
+            __Enhanced organisation and efficiency:__
+            By using color-coded markings, labeled storage systems, and designated workstations, Compact Kitchen improved organisation, reduced clutter, and increased productivity. Operators can quickly locate tools and materials, leading to smoother workflow and reduced setup time.
+
+            __Improved Quality Control:__
+            Visual controls at quality checkpoints enabled operators to visually identify quality standards and promptly address any deviations. This resulted in improved product quality, reduced defects, and increased customer satisfaction.
+
+            __Effective equipment operation and maintenance:__
+            Equipment-specific visual controls, such as diagrams and instructions, helped operators operate machinery correctly and perform routine maintenance tasks. This led to increased equipment reliability, reduced downtime, and improved overall equipment effectiveness (OEE).
+
+            __Streamlined process sequencing:__
+            Visual controls, such as flowcharts or digital displays, provided operators with a clear visual representation of process sequencing. This minimised errors, improved task coordination, and facilitated efficient workflow management.
+
+            __Enhanced safety awareness:__
+            Visual controls, including safety signs, labels, and color-coded markings, heightened safety awareness among employees. Operators could easily identify safety procedures, equipment locations, and potential hazards, resulting in a safer working environment and reduced accident risks.
   -
   -
     title: On the web
