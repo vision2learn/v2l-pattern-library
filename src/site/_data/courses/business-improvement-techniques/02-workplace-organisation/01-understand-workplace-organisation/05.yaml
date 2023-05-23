@@ -63,9 +63,11 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Provide recommendations for the creation or changes to an SOP and visual controls
+      ### Provide recommendations for the creation or changes to an SOP
       
-      Please see the following video which gives an example of using visual controls in a kitchen.
+      Please see the following video which . . . 
+
+      _Do a simple video based on the case study about Sonia from Physical 3D_
 
     video: placeholder_pc.mp4
   -
