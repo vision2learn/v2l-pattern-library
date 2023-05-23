@@ -13,57 +13,44 @@ sections:
     title: Things to consider when creating a SOP
     theme: t-bg-primary
     copy: |
-     When creating a Standard Operating Procedure (SOP), several important factors should be considered. SOPs play a crucial role in organisations by providing a structured framework for operations, and they offer numerous benefits, including reducing variability, ensuring consistency, and improving overall efficiency.
-
-     By considering these factors during the creation of SOPs, organisations can establish a solid foundation for standardisation and improvement. SOPs serve as a valuable resource for employees, enabling them to perform their duties consistently and efficiently. They provide a framework for continuous enhancement, ensuring that processes evolve and adapt to changing needs and industry standards. Ultimately, well-designed SOPs contribute to the overall success and effectiveness of an organisation.
+     When creating a Standard Operating Procedure (SOP), several factors should be considered. SOPs play an important role in organisations by providing a structured framework for operations. They offer numerous benefits including reducing variability, ensuring consistency, and improving overall efficiency.
 
     subInc: 
       type: slider
       title: 
       slides:
         -
-          title: Features of SOPs
+          title: Format, audience, and purpose
           text: |
-            SOPs possess several key features that contribute to their effectiveness and usefulness. These features include:
-            * Documented format - SOPs are documented guidelines or instructions that are typically written in a clear, structured format. 
-            * Applicable to all business and work areas - SOPs can be developed and implemented across various types of businesses and work areas.
-            * Blueprint for operations - SOPs serve as a blueprint or roadmap for carrying out repetitive tasks or processes within an organisation. 
-            * Emphasis on repetitive tasks - SOPs are particularly beneficial for documenting and guiding repetitive tasks or processes that occur frequently within a business. 
+            When creating a Standard Operating Procedure (SOP), it is important to consider the format used, ensuring it is clear and concise for the intended audience. 
+            
+            The format should be chosen based on the organisation's needs and may include step-by-step instructions, flowcharts, or checklists. The language, technical terms, and level of detail will  need to be considered for the intended audience, and this will also enhance accessibility. 
+            
+            Clearly stating the purpose of the SOP will help to provide context and direction for standardising processes, help to ensure compliance, enhance safety, and improve efficiency.
 
           img: placeholder_icon.svg
         -
-          title: Creating a SOP
+          title: Content to consider
           text: |
-            SOPs should be written by teams that include some, or all, of the following people:
-            * Those who will perform the job
-            * Those who will perform maintenance on equipment involved in the SOP
-            * Engineers or others who design equipment and processes
-            * Technical writers
-            * Safety personnel
-            * Environmental personnel
-            * Equipment manufacturers.
+            When developing a Standard Operating Procedure (SOP), it is essential to include comprehensive information about the work activity. This entails specifying the required materials, equipment, and quantities, as well as provide a detailed overview of the task's purpose, objectives, and context. 
+            
+            It is a good idea to clearly define the responsibilities of each individual involved in the process and break down the task into clear and logical steps with appropriate instructions for each team member; this will ensures accountability and help to facilitate smooth execution.
+            
+            Addressing potential problem areas or challenges that may arise during the process, while incorporating quality control measures, such as inspections or checkpoints, will ensure the desired outcome and adhere to set standards.
 
           img: placeholder_icon.svg
         -
-          title: Team writing
+          title: Instructions
           text: |
-            Team writing improves SOPs by incorporating diverse perspectives and fostering ownership. It develops coaching skills and encourages adherence to SOPs. Teams can independently write sections, merge them into a cohesive document, and seek input from members. Safety considerations are prioritised. Ideally, SOPs are created before new processes, but can also be implemented later for improved performance.
+            The task or process needs to be broken down into clear and logical steps. A consistent structure and numbering system should be used to guide the reader through the procedure. An easy-to-follow structure, such as headings, subheadings, and a numbering system, can be used to enhance clarity and organisation. Each step should be described in sufficient detail, outlining the specific actions to be taken and the sequence in which they should occur. 
+            
+            Additionally, necessary warnings, cautions, or important considerations can be included at relevant points to ensure safety, minimise errors, and address potential risks or challenges that may arise during the task or process. 
+            
+            By providing explicit and detailed instructions, the SOP enables employees to perform their tasks accurately and efficiently, promoting consistency and quality in the work performed.
 
           img: placeholder_icon.svg
-        -
-          title: Developing a procedure
-          text: |
-            Developing a procedure involves considering key aspects: area layout, involving relevant individuals, defining actions, estimating time, identifying tools, and recognising key components.
-          img: placeholder_icon.svg
-        -
-          title: Refinement and improvement
-          text: |
-            Process refinement and improvement involve continuous assessment to optimise performance, safety, and effectiveness.
-            * Sub-dividing processes breaks them into manageable components
-            * Seek efficiency and hazard reduction opportunities
-            * Plan for contingencies to address unexpected events or failures
-            * Date and issue number documentation for version control and traceability.
-          img: placeholder_icon.svg
+    copy2: |
+      A well-crafted SOP should be user-friendly, easily understandable, and provide comprehensive guidance to the individuals performing the task. Regular review and updates should also be conducted to keep the SOP relevant and accurate.
   -
   -
     title: On the web
@@ -117,10 +104,8 @@ sections:
     layout: media
     copy: |
       ### Prepare a standardised work document
-
-      _Demo video_
       
-      Please see the following video which will show you how to prepare a standardised work document.
+      Please see the following video which gives an example of a standardised work document (SOP).
     video: placeholder_pc.mp4
   -
   -

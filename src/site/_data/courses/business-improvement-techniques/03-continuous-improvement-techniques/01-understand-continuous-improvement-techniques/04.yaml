@@ -1,6 +1,6 @@
 title: Standardised working methods
 intro: |
-  intro text
+  On this page you will learn about standardised working methods and how they can benefit the workplace.
 banner: placeholder.jpg
 sections:
   -
@@ -14,7 +14,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Standardised working methods are another key principle of Kaizen. These are documented procedures that outline the steps required to complete a task or process. By documenting a task or process an organisation can ensure that all staff are doing the same thing and producing the same quality. It promotes consistency and improved quality, increased efficiency and reduced waste. When it comes to improvements, this is easier if everyone is following the same processes and procedures, allowing areas of improvement to be identified and incremental changes to me made.
+      Standardised working methods are another key principle of Kaizen. These are documented procedures that outline the steps required to complete a task or process. By documenting a task or process an organisation can ensure that all staff are doing the same thing and producing the same quality. 
+      
+      It promotes consistency and improved quality, increases efficiency, and reduces waste. When it comes to improvements, this is easier if everyone is following the same processes and procedures, allowing areas of improvement to be identified and incremental changes to be made.
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -69,6 +71,15 @@ sections:
             _(Source of case study: https://www.fastcompany.com/1054623/starbucks-and-kaizen)_
 
           img: /images/svg/placeholder_icon.svg
+  -
+  -
+    title: Sustainability
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      _O F S T E D  Placeholder_
+
+    img: /images/svg/placeholder_icon.svg
   -
   -
     title: On the web
