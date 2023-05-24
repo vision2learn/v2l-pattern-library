@@ -1,6 +1,6 @@
 title: Value added and non-value added activities
 intro: |
-  intro text
+  On this page you will learn about the differences between value added and non-value added activities and how to identify them within a process.
 banner: placeholder.jpg
 sections:
   -
@@ -25,31 +25,21 @@ sections:
     subInc:
       type: quick-quiz
       content:
-        Is the following statement true or false? "statement":
+        Which of the following is an example of a value-added activity in a manufacturing process?:
           answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
+            Inspecting the final product for defects: false
+            Waiting for materials to arrive from suppliers: false
+            Assembling components to create the final product: true
+        Which of the following is considered a non-value-added activity in a service industry?:
           answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
+            Developing new product features based on customer feedback: false
+            Waiting for approval from management: true
+            Providing personalised customer support: false
+        In an office environment, which activity can be categorised as a non-value-added activity?:
           answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
-  -
+           Organising and filing important documents: false
+           Printing and filing emails as well as saving them on the computer: true
+           Attending a training session to develop new skills: false
   -
     title: Key point
     theme: t-bg-grey i-keypoint
@@ -81,7 +71,7 @@ sections:
         -
           title: Waste
           text: |
-            Waste is when we use up time, materials, or energy on things that are not needed or don't make the product better. It's like using more than we should. Some common types of waste are transportation, inventory, motion, waiting, overproduction, overprocessing, defects, and under used skills.
+            Waste is when we use up time, materials, or energy on things that are not needed or don't make the product better. It's like using more than we should. Some common types of waste are transportation, inventory, motion, waiting, overproduction, overprocessing, defects, and under used skills. In our example too much mayonnaise in the sandwich is an inventory waste. 
           img: placeholder_icon.svg
   -
   -
@@ -97,34 +87,42 @@ sections:
         - 
           title: Value-added steps
           copy: |
-            1. Order Processing: When a customer places an order, the toy store verifies the payment and checks the order details to ensure everything is correct. This step is important for processing the order accurately.
+            1. __Order Processing:__ When a customer places an order, the toy store verifies the payment and checks the order details to ensure everything is correct. This step is important for processing the order accurately.
 
-            2. Picking and Packing: The store team selects the toys that the customer ordered from their inventory and carefully packs them in a box. This step ensures that the right toys are ready to be shipped.
+            2. __Picking and Packing:__ The store team selects the toys that the customer ordered from their inventory and carefully packs them in a box. This step ensures that the right toys are ready to be shipped.
 
-            3. Shipping and Delivery: The toy store hands over the packaged order to a delivery service like a postal carrier or a delivery person. They make sure the package gets to the customer's address so they can enjoy their new toys.
+            3. __Shipping and Delivery:__ The toy store hands over the packaged order to a delivery service like a postal carrier or a delivery person. They make sure the package gets to the customer's address so they can enjoy their new toys.
             
           img: /images/svg/placeholder_icon.svg
         - 
           title: Non-value added steps
           copy: |
-            1. Manual Data Entry: Sometimes, the store team needs to type in the customer's information manually into their computer system. Although important, it can take time and may have a higher chance of mistakes.
+            1. __Manual Data Entry:__ Sometimes, the store team needs to type in the customer's information manually into their computer system. Although important, it can take time and may have a higher chance of mistakes.
 
-            2. Quality Control Inspections: Occasionally, the store team checks the toys for any defects or problems before packing them. While important for quality, doing excessive checks can slow down the process without adding much value.
+            2. __Quality Control Inspections:__ Occasionally, the store team checks the toys for any defects or problems before packing them. While important for quality, doing excessive checks can slow down the process without adding much value.
 
-            3. Excessive Packaging: Using too much packaging material, like excessive wrapping or boxes, that doesn't really protect the toys any better. This can create unnecessary waste.
+            3. __Excessive Packaging:__ Using too much packaging material, like excessive wrapping or boxes, that doesn't really protect the toys any better. This can create unnecessary waste.
             
           img: /images/svg/placeholder_icon.svg
         - 
           title: Identifying waste
           copy: |
-            1. Overproduction waste: Ordering or stocking more toys than what is needed, leading to excess inventory that may not be sold quickly.
+            1. __Overproduction waste:__ Ordering or stocking more toys than what is needed, leading to excess inventory that may not be sold quickly.
 
-            2. Waiting waste: Delay in processing the order due to waiting for specific toys to be restocked or for approvals from others involved in the process.
+            2. __Waiting waste:__ Delay in processing the order due to waiting for specific toys to be restocked or for approvals from others involved in the process.
 
-            3. Transportation waste: Unnecessary movement of toys between different locations or multiple handling that can increase the risk of damage or errors.
+            3. __Transportation waste:__ Unnecessary movement of toys between different locations or multiple handling that can increase the risk of damage or errors.
             
           img: /images/svg/placeholder_icon.svg
     copy2: By understanding these value-added and non-value-added steps, as well as waste, the toy store can find ways to make their order process more efficient. 
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        _LO or exercise._
   -
   -
     title: On the web

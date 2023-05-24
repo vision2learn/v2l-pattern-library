@@ -12,14 +12,18 @@ sections:
     title: Flow process analysis
     theme: t-bg-primary
     copy: |
-      Flow process analysis involves studying and improving how things are done. Here are the steps to follow:
+      Flow process analysis is a method used to analyse and understand the sequence of activities and interactions within a process. By visually mapping out the flow of a process and examining the relationships between different steps, flow process analysis provides valuable insights into process efficiency, bottlenecks, and opportunities for improvement. 
+      
+      It helps identify areas of waste, delays, or redundancies, enabling organizations to streamline operations, optimise resource utilisation, and enhance overall productivity. With a focus on understanding the movement of information, materials, or individuals through a process, flow process analysis is a powerful tool for enhancing process performance and driving continuous improvement.
+
+      Here are the steps to follow:
     subInc: 
       type: accordion
       content:
         - 
           title: 1. Understand the process
           copy: |
-            Figure out what you want to analyze and who is involved. Think about the beginning and end of the process and what happens in between.
+            Figure out what you want to analyse and who is involved. Think about the beginning and end of the process and what happens in between.
         - 
           title: 2. Draw a picture
           copy: |
@@ -48,14 +52,14 @@ sections:
           title: 8. Keep improving
           copy: |
             Keep an eye on the process even after making changes. Collect feedback and check if things are getting better. Make more improvements if necessary.
-    copy2: Remember, flow process analysis is about finding ways to make things easier and more efficient. It's like solving a puzzle to make things work better!
+    copy2: Remember, flow process analysis is about finding ways to make things easier and more efficient. It's like solving a puzzle to make things work better.
   -
   -
     title: P L A C E H O L D E R section
     layout: media
     theme: t-bg-supporting3
     copy: |
-      Text
+      _not sure if the above covers the LO enough?_
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -75,42 +79,49 @@ sections:
       In your assessment you will be required to explain how to map out a process using __recognised symbols__.
   -
   -
-    title: Beginning the process (LEAN)
-    theme: 
+    title: Mapping out a process
+    theme: t-bg-primary
     copy: |
-      Here you will be introduced to process maps. A process map is a **picture** of the sequence of steps in a process.
-      
-      Scroll through the slides below to learn more about mapping processes.
+      Mapping out a process using recognised symbols is commonly known as process mapping or flowcharting. It's a visual representation of a sequence of steps, decisions, and interactions within a process. 
     subInc:
       type: slider
       title: Starting to map a process
       slides:
         -
-          title: Symbols to represent
-          text: It is possible to use different boxes or symbols to represent different types of activity or different steps.
-          img: LM_U1_S3_p1_slide_start_1.svg
+          title: Identify the key steps
+          text: |
+            Break down the process into individual steps or activities. These steps should represent the major actions or decisions involved in completing the process.
+          img: placeholder_icon.svg
 
         -
-          title: Pictures to describe
-          text: Step-by-step pictures can be used to describe a workplace process as it currently operates or as it could operate in the future.
-          img: LM_U1_S3_p1_slide_start_2.svg
+          title: Select appropriate symbols
+          text: |
+            Choose recognised symbols to represent different elements of the process. There are various symbols used in process mapping, and they have specific meanings.
+          img: placeholder_icon.svg
+        -
+          title: Draw the process map
+          text: |
+            Using a software tool or pen and paper, start drawing the process map. Begin with the start symbol, then add the process/activity symbols, decision symbols, input/output symbols, and connectors as needed. Connect the symbols with arrows to show the flow of the process.
 
+            Add relevant information to each symbol. This may include labels, descriptions, data inputs/outputs, decision criteria, and any other important details that clarify the process steps.
+          img: placeholder_icon.svg
         -
-          title: Helps understanding
-          text: This helps people to understand what is currently happening in a process and helps identify what needs to be done to make improvements. 
-          img: LM_U1_S3_p1_slide_start_3.svg
+          title: Review and refine
+          text: |
+            Review the process map for accuracy, clarity, and completeness. Ensure that the map accurately reflects the actual process and that it is understandable to others. Validate it with subject matter experts or stakeholders to confirm its accuracy.
+
+            If necessary, make revisions to the process map based on feedback and further analysis. Refine the symbols, clarify the steps, or adjust the flow as needed.
+          img: placeholder_icon.svg
         -
-          title: Purpose of the process
-          text: It is important to know that before starting to map a process you need to be clear about the **purpose** of the process. 
-          img: LM_U1_S3_p1_slide_start_4.svg
-        -
-          title: Identifying output
-          text: This means identifying the **output** (product or service) that the work process is designed for, who receives the outputs and understanding what happens to inputs (materials, information or documents).
-          img: LM_U1_S3_p1_slide_start_5.svg
-        -
-          title: Clarity of flow
-          text: The aim is to be clear about what is **flowing** through the process and to be able to follow this activity.
-          img: LM_U1_S3_p1_slide_start_6.svg
+          title: Share it
+          text: |
+            Once the process map is finalised, share it with the relevant stakeholders or team members. Use it as a visual tool for discussions, process improvement, training, or documentation purposes.
+
+            Remember, process mapping is a flexible technique, and there is no one-size-fits-all approach. Adapt the symbols and level of detail to suit your specific needs and audience.
+          img: placeholder_icon.svg
+    copy2: |
+      Process mapping is a flexible technique, and there is no one-size-fits-all approach. Adapt the symbols and level of detail to suit your specific needs and audience.
+  -
   -
     title: Symbols and terminology (LEAN)
     theme: t-bg-supporting3
@@ -124,71 +135,58 @@ sections:
     subInc: 
         type: reveal
         content:
-            -
-                title: Start or End flow
-                copy: |
-                    Example:
-                    * Receive complaint
-                    * Receive request
-                    * Proposal
+          -
+            title: Start or End flow
+            copy: |
+              Represents the beginning or end of the process. It is typically represented by a rounded rectangle or oval shape. Examples include:
+              * Receive complaint
+              * Receive request
+              * Proposal
 
-                img: LM_U1_S3_p1_Symbol_StartEnd_1.svg
-            -
-                title: Process or activity
-                copy: |
-                    Example:
-                    * Hold a meeting
-                    * Make a phone call
-                    * Send a request
-                img: LM_U1_S3_p1_Symbol_Process_1.svg
-            -
-                title: Decision
-                copy: |
-                    Example:
-                    * Yes / No
-                    * Agree / Disagree
-                    * Pass / Fail
-                img: LM_U1_S3_p1_Symbol_Decision_1.svg
-            -
-                title: Document
-                copy: |
-                    Example:
-                    * Report is completed 
-                    * Meeting minutes 
-                    * Form is filled out
-                img: LM_U1_S3_p1_Symbol_Document_1.svg
-            -
-                title: Storage
-                copy: |
-                    Example:
-                    * Store documents
-                    * stack envelopes
-                    * File contacts
-                img: LM_U1_S3_p1_Symbol_Storage_1.svg
-            -
-                title: Database
-                copy: |
-                    Example:
-                    * Stock files
-                    * Order files
-                    * Sales record
-                img: LM_U1_S3_p1_Symbol_Database_1.svg
-    
-  -
-    title: The flow chart process (LEAN)
-    theme: t-bg-primary
-    copy: |
-      ### Main Steps
-
-      1. Identify all of the key processes or activities. You may write these on cards or sticky notes.
-      2. Sequence these processes on a large piece of paper.
-      3. Work through the sequence from start to finish, identifying key decisions and resulting documentation.
-      4. Finalise the sequence. Focus on links between processes, decisions and outputs.
-      5. Produce the final flowchart, checking you’ve involved all key personnel.
-  -
+            img: LM_U1_S3_p1_Symbol_StartEnd_1.svg
+          -
+            title: Process or activity
+            copy: |
+              Represents a specific action or task within the process. It is usually depicted as a rectangle with rounded corners. Examples include:
+              * Hold a meeting
+              * Make a phone call
+              * Send a request
+            img: LM_U1_S3_p1_Symbol_Process_1.svg
+          -
+            title: Decision
+            copy: |
+              Represents a point in the process where a decision needs to be made. It is often represented by a diamond shape, with arrows indicating different possible outcomes based on the decision. Examples include:
+              * Yes / No
+              * Agree / Disagree
+              * Pass / Fail
+            img: LM_U1_S3_p1_Symbol_Decision_1.svg
+          -
+            title: Document
+            copy: |
+                Examples:
+                * Report is completed 
+                * Meeting minutes 
+                * Form is filled out
+            img: LM_U1_S3_p1_Symbol_Document_1.svg
+          -
+            title: Storage
+            copy: |
+                Examples:
+                * Store documents
+                * stack envelopes
+                * File contacts
+            img: LM_U1_S3_p1_Symbol_Storage_1.svg
+          -
+            title: Database
+            copy: |
+                Examples:
+                * Stock files
+                * Order files
+                * Sales record
+            img: LM_U1_S3_p1_Symbol_Database_1.svg
+  - 
   -
     title: Turning on a TV (LEAN)
-    #layout: media-half
     theme: 
     copy: |
       The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
