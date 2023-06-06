@@ -13,7 +13,7 @@ sections:
     layout: media
     theme: t-bg-supporting3
     copy: |
-      We briefly looked at some Lean tools and techniques in unit 2. Here will explore another Lean practice, known as Kaizen. Kaizen is a Japanese term, translated it means ‘continuous improvement’ and it uses incremental and continuous improvements in all areas of organisational operations e.g. processes, products, services and even people. The goal of Kaizen is to improve quality, efficiency, productivity and reduce waste and costs.  
+      We briefly looked at some Lean tools and techniques in unit 2. Here we will explore another Lean practice, known as Kaizen. Kaizen is a Japanese term, translated it means ‘continuous improvement’ and it uses incremental and continuous improvements in all areas of organisational operations e.g. processes, products, services and even people. The goal of Kaizen is to improve quality, efficiency, productivity and reduce waste and costs.  
 
     img: /images/svg/placeholder_icon.svg
   -
@@ -63,7 +63,7 @@ sections:
         -
           title: Teamwork
           copy: |
-            Every member of the organisation is important and all work together to achieve common goals. Emphasis is on teamwork and collaboration.  
+            Every member of the organisation is important and everyone works together to achieve common goals. Emphasis is on teamwork and collaboration.  
           img: placeholder_icon.svg
     copy2: |
       The term ‘Kaizen’ means ‘gradual and orderly continuous improvement’.
@@ -164,4 +164,4 @@ sections:
         Please see the following website where you can see everyday examples of the 8 wastes of lean.
 
       links:
-        Examples of the 8 wastes of lean: hhttps://blog.kainexus.com/improvement-disciplines/lean/7-wastes-of-lean/everyday-examples-of-the-8-wastes-of-lean
+        Examples of the 8 wastes of lean: https://blog.kainexus.com/improvement-disciplines/lean/7-wastes-of-lean/everyday-examples-of-the-8-wastes-of-lean
