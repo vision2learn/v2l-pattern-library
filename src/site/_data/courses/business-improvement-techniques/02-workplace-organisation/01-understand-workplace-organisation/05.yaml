@@ -29,24 +29,24 @@ sections:
             Visual displays, such as posters and diagrams, share information but don't tell you what to do. On the other hand, __visual controls__ not only share information but also give you directions on what actions to take based on what you see.
 
             Visual displays provide information, but __visual controls__ are designed to drive specific behaviors or actions. Displays and controls can be as simple or complicated as needed, starting from simple posters to detailed work instructions.
-          img: placeholder_icon.svg
+          img: bit_u2_s1_p5_slide1.svg
         -
           title: Using visuals controls to help understand the SOP
           text: |
             Visual controls should make things easier for you to understand and help you follow the SOP better. Visuals can include: Flowcharts, Checklists, Diagrams, Visual examples, Colour coding, Icons and symbols. For example, you could use a flowchart to show the order of steps, a diagram to explain complicated systems, or a checklist to mark off completed steps.
-          img: placeholder_icon.svg
+          img: bit_u2_s1_p5_slide2.svg
         -
           title: Visual controls in a production process
           text: |
             Visual controls are like special tools and signs that show you how well a production process is going. They can be things like charts, boards, lights, labels, and symbols which help to share information, give instructions, give feedback, and send warnings to the workers and managers. They also help to quickly find and fix mistakes or problems that might happen. Visual controls are like helpers that make it easier to see and understand what's happening in the production process.
-          img: placeholder_icon.svg
+          img: bit_u2_s1_p5_slide3.svg
         -
           title: Examples of visual controls in a production environment
           text: |
             A simple shadow board for tools is a visual control because it guides you to put each tool in its designated spot, matching its shape.
             
             Color-coding is another type of visual control used on equipment. A flashing red light indicates a problem that needs inspection and intervention, while a flashing green light means everything is working fine and no action is required.
-          img: placeholder_icon.svg
+          img: bit_u2_s1_p5_slide4.svg
         -
           title: Types of visual controls used in Industry
           text: |
@@ -56,7 +56,7 @@ sections:
             * Standard work - ensures that employees understand allocated tasks, sequence of task, timings and outcome.
             * Floor lines and signs - show pathways, intersections, vehicle lanes, working cells and ensure flow and safety.
             * Kamishbai board and Tee Cards - are a simple way to determine if a task is complete or not.
-          img: placeholder_icon.svg      
+          img: bit_u2_s1_p5_slide5.svg      
   -
   -
     title: Watch
@@ -101,7 +101,7 @@ sections:
             3. __Kanban System__: a kanban system was implemented using visual cards to manage inventory. These cards provided real-time information on part numbers and quantities, enabling just-in-time production.
 
             4. __Visual Quality Controls__: Visual controls were used to improve quality. Color-coded tags were used to indicate the status of components or products, identifying defects, rework needs, or acceptance.
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/bit/bit_u2_s1_p5_case_study1.svg
         - 
           title: Benefits and results
           copy: |
@@ -113,7 +113,7 @@ sections:
 
             * __Empowered Workforce__: The visual controls empowered employees by providing clarity in their tasks, leading to increased engagement and contributions to process improvements.
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/bit/bit_u2_s1_p5_case_study2.svg
     copy2: |
       By implementing visual controls, TableArt Industries successfully improved efficiency, communication, and quality. Standardised work instructions, the andon system, the kanban system, and visual quality controls played vital roles in achieving operational excellence. 
       
