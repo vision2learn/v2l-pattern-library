@@ -91,6 +91,36 @@ sections:
       In your assessment you will be required to describe the visual management systems available to create ‘the visual workplace’.
   -
   -
+    title: Visual management systems
+    theme: t-bg-primary
+    copy: |
+      Visual Management Systems, such as Kanban boards, play a crucial role in improving efficiency and productivity. They enhance communication, facilitate problem-solving, and drive continuous improvement in various work environments.
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: Kanban board
+          copy: |
+            Kanban boards visually organise workflow, improving efficiency and productivity.
+          img: placeholder_icon.svg
+        -
+          title: Andon System
+          copy: |
+            Andon systems provide real-time alerts, enabling quick issue resolution during production or work processes.
+          img: placeholder_icon.svg
+        -
+          title: Visual work instructions
+          copy: |
+            Visual work instructions standardise procedures, reducing errors and ensuring consistent outcomes.
+          img: placeholder_icon.svg
+        -
+          title: Visual performance dashboard
+          copy: |
+            Visual performance dashboards display real-time key performance indicators, facilitating monitoring and data-driven decision-making.
+          img: placeholder_icon.svg
+  -
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media

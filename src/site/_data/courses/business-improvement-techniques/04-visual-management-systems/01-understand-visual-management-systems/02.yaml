@@ -21,7 +21,27 @@ sections:
 
     img: /images/svg/placeholder_icon.svg
   -
-
+  -
+    title: Benefits
+    theme: t-bg-primary
+    copy: |
+      A visual management system has several benefits including:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Compliance with Health and Safety
+          copy: |
+            Clear visual indicators, such as color-coded instructions, safety signs, and labels, help employees easily identify and follow safety guidelines. This promotes a safe work environment, reduces the risk of accidents, and helps organizations meet their legal obligations.
+        - 
+          title: Improved communication
+          copy: |
+            By using visual cues such as charts, diagrams, and Kanban boards, information is presented in a clear and concise manner, making it easier for everyone to understand, regardless of language barriers or educational backgrounds. This fosters effective communication, ensuring that tasks, goals, progress, and expectations are communicated accurately and efficiently. 
+        - 
+          title: Awareness of performance
+          copy: |
+            Visual management systems provide real-time visual dashboards that offer insights into key performance indicators (KPIs) and metrics. These visual representations enable employees to track their performance and understand how the organisation is performing as a whole. By providing clear visibility of performance data, employees gain a deeper awareness of their contribution, can identify areas for improvement, and take proactive measures to enhance their own performance. 
+  -
     title: Watch 
     theme: t-bg-grey i-watch
     layout: media
@@ -57,7 +77,7 @@ sections:
     copy: |
       ### Case study - Compact Kitchen
 
-      Compact Kitchen is a small company specialising in the manufacturing of small items for kitchens, such as kitchen utensils, gadgets, and storage containers. With a growing customer base and increasing demand for their products, the company aims to enhance productivity, improve quality, and ensure efficient workflow within their manufacturing processes.
+      Compact Kitchen is a small company specialising in the manufacturing of small items for kitchens, such as kitchen utensils, gadgets, and storage containers. With a growing customer base and increasing demand for their products, the company aims to enhance productivity, improve quality, and ensure efficient workflow within their manufacturing processes. To do this they needed to identify where in their current process and/or work areas would benefit from visual controls.
 
     subInc: 
       type: accordion
@@ -65,14 +85,19 @@ sections:
         - 
           title: Challenges
           copy: |
-            As Compact Kitchen expands its operations, they had several challenges related to process efficiency and standardisation. To address these challenges, the company aims to implement visual controls within their process workflow and work areas. The objectives include:
+            As Compact Kitchen expands its operations, they had several challenges related to process efficiency and standardisation. To address these challenges, the company aims to implement visual controls within a particular process workflow and dedicated work area. 
+
+            First of all the company need to:
+
+            Identify which part of the process or work area would benefit from visual controls.
+            
+            The objectives include:
             1. Streamlining workstation organisation
             2. Enhancing Quality control
             3. Improving equipment operation and maintenance
             4. Visualising process sequencing
             5. Ensuring safety compliance
-          img: /images/svg/placeholder_icon.svg
-            
+          img: /images/svg/placeholder_icon.svg         
   -
   -
     title: Time to think
@@ -88,7 +113,7 @@ sections:
     copy: |
       ### Case study - Compact Kitchen
 
-      Through the implementation of visual controls, Compact Kitchen successfully improved process efficiency, quality control, equipment operation, workflow management, and safety compliance. By effectively utilising visual cues, the company enhanced organisation, productivity, and overall performance within their manufacturing processes and work areas.
+      Through the implementation of visual controls in a dedicated work area, Compact Kitchen successfully improved process efficiency, quality control, equipment operation, workflow management, and safety compliance. By effectively utilising visual cues, the company enhanced organisation, productivity, and overall performance within their manufacturing processes and dedicated work areas.
 
     subInc: 
       type: accordion
