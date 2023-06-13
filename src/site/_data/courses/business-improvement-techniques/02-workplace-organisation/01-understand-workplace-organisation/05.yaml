@@ -14,9 +14,10 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Introduction 
+      Introduction text
 
-    img: /images/svg/placeholder_icon.svg
+
+    img: /images/svg/bit/bit_u2_s1_p5_image1.svg
   -
   -
     title: Watch
@@ -140,4 +141,3 @@ sections:
         SOP - What, Types and How to Write: https://blog.bit.ai/standard-operating-procedures-sop/ 
         What is visual control: http://www.businessknowledgesource.com/manufacturing/what_is_visual_control_extended_entry_026161.html
         5 types of visual controls: https://txm.com/5-types-of-visual-controls/
-        
