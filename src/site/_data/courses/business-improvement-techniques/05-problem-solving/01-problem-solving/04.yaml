@@ -1,14 +1,13 @@
 title: How to prevent reoccurrences of the problems
 intro: |
   On this page we take a look at how to prevent reoccurrences of the problems.
-banner: placeholder.jpg
+banner: bit_u5_s1_p4_banner.jpg
 sections:
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
     copy: |
       In your assessment you will be required to explain how to prevent reoccurrence of the problems.
-  
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -22,7 +21,7 @@ sections:
   -
   -
     title: Quick quiz
-    copy: Have a go at identifying the following steps that can help prevent reoccurrence of a business problem.
+    copy: _REPLACE QUIZ WITH ACTIVITY_ Have a go at identifying the following steps that can help prevent reoccurrence of a business problem.
     subInc: 
       type: word-quiz
       content:
@@ -49,6 +48,19 @@ sections:
           answer: five
         
     theme: i-quiz
+  -
+  -
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### How to prevent reoccurrence of the problems
+
+      Select the following icon to have a go at an activity at identifying the steps that can help prevent reoccurrence of a business problem.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: 
   -
   -
     title: Case study

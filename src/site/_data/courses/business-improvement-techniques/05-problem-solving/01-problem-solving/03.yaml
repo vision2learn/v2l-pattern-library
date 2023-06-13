@@ -1,7 +1,7 @@
 title: The impact of unresolved problems
 intro: |
   On this page we take a look at the impact of unresolved problems, and the root cause of a problem.
-banner: placeholder.jpg
+banner: bit_u5_s1_p3_banner.jpg
 sections:
   -
     title: Key point
@@ -94,13 +94,11 @@ sections:
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      ### Case study - BrightWidgets Manufacturing and the Iskikawa diagram
+      ### Case study - Physical 3D and the Iskikawa diagram
 
-      BrightWidgets Manufacturing, a company that produces colorful widgets, faced a problem with their assembly line production process. The team wanted to find ways to make the process more efficient and improve productivity. They decided to use the Ishikawa diagram to help them identify the causes of the problem and come up with solutions.
+      Physical 3D faced a problem with their assembly line production process. The team wanted to find ways to make the process more efficient and improve productivity. They decided to use the Ishikawa diagram to help them identify the causes of the problem and come up with solutions.
 
-      BrightWidgets Manufacturing's assembly line production process was not running smoothly, causing delays and affecting the overall productivity. The company aimed to uncover the reasons behind these issues and find ways to make the production line more efficient.
-
-      
+      Physical 3D's assembly line production process was not running smoothly, causing delays and affecting the overall productivity. The company aimed to uncover the reasons behind these issues and find ways to make the production line more efficient.
 
     subInc: 
       type: accordion
@@ -110,9 +108,9 @@ sections:
           copy: |
             To solve the problem, the team used the Ishikawa diagram, also known as the fishbone diagram. It helped them identify different categories of potential causes that could be contributing to the production issues. By organising their thoughts using this diagram, they hoped to find solutions.
 
-            Form using this technique, the team found potential causes, mapped the causes onto the diagram, analysed the diagram and made recommendations, implemented the solutions one by one, and tracked the results.  
+            From using this technique, the team found potential causes, mapped the causes onto the diagram, analysed the diagram and made recommendations, implemented the solutions one by one, and tracked the results.  
             
-            BrightWidgets Manufacturing successfully addressed their production issues by using the Ishikawa diagram to identify causes and implement targeted solutions. Through their efforts, the company improved the efficiency of their assembly line production process, resulting in smoother operations and increased productivity.
+            Physical 3D successfully addressed their production issues by using the Ishikawa diagram to identify causes and implement targeted solutions. Through their efforts, the company improved the efficiency of their assembly line production process, resulting in smoother operations and increased productivity.
           img: /images/svg/placeholder_icon.svg
         - 
           title: The 6Ms in Ishikawa diagram used in Manufacturing
