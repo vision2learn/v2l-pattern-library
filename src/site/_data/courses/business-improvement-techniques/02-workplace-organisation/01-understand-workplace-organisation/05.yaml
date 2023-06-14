@@ -10,6 +10,29 @@ sections:
       In your assessment you will be required to provide recommendations for the creation of, or changes to, standard operating procedures (SOPs) and visual controls.
   -
   -
+    title: Standard Operating Procedures
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Introduction text
+
+
+    img: /images/svg/bit/bit_u2_s1_p5_image1.svg
+  -
+  -
+    title: Watch
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Provide recommendations for the creation or changes to a SOP
+      
+      Please see the following video which . . . 
+
+      _Do a simple video based on the case study about Sonia from Physical 3D_
+
+    video: bit_u2_s1_p5_sop_recommendations.mp4
+  -
+  -
     title: Visual controls
     theme: t-bg-primary
     copy: |
@@ -57,19 +80,6 @@ sections:
             * Floor lines and signs - show pathways, intersections, vehicle lanes, working cells and ensure flow and safety.
             * Kamishbai board and Tee Cards - are a simple way to determine if a task is complete or not.
           img: bit_u2_s1_p5_slide5.svg      
-  -
-  -
-    title: Watch
-    theme: t-bg-grey i-watch
-    layout: media
-    copy: |
-      ### Provide recommendations for the creation or changes to a SOP
-      
-      Please see the following video which . . . 
-
-      _Do a simple video based on the case study about Sonia from Physical 3D_
-
-    video: bit_u2_s1_p5_sop_recommendations.mp4
   -
   -
     title: Time to think
@@ -131,4 +141,3 @@ sections:
         SOP - What, Types and How to Write: https://blog.bit.ai/standard-operating-procedures-sop/ 
         What is visual control: http://www.businessknowledgesource.com/manufacturing/what_is_visual_control_extended_entry_026161.html
         5 types of visual controls: https://txm.com/5-types-of-visual-controls/
-        
