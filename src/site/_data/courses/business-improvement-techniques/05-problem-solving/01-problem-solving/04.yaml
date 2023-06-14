@@ -20,47 +20,46 @@ sections:
     video: bit_u5_s1_p4_prevent_reoccurrence.mp4
   -
   -
-    title: Quick quiz
-    copy: _REPLACE QUIZ WITH ACTIVITY_ Have a go at identifying the following steps that can help prevent reoccurrence of a business problem.
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: Step one - Identify the root cause. 
-          answer: one
-        -
-          sentence: Step seven - Learn from past experiences.
-          answer: seven
-        -
-          sentence: Step three - Implement preventive measures.
-          answer: three
-        -
-          sentence: Step four - Monitor effectiveness.
-          answer: four
-        -
-          sentence: Step six - Conduct regular reviews.
-          answer: six
-        -
-          sentence: Step two - Create a plan to address the problem.
-          answer: two
-        -
-          sentence: Step five - Encourage continuous improvement.
-          answer: five
-        
-    theme: i-quiz
-  -
-  -
     title: Activity
     layout: media
     theme: t-bg-primary2
     copy: |
       ### How to prevent reoccurrence of the problems
 
-      Select the following icon to have a go at an activity at identifying the steps that can help prevent reoccurrence of a business problem.
+      Select the following icon to have a go at a drag and drop activity at identifying the steps that can help prevent reoccurrence of a business problem.
 
     img: /images/svg/Activity_button.svg
     activity: 
-      ref: 
+      ref: bit_u5_s1_p4_reoccurrence_steps
+  -
+  -
+    title: Quick quiz
+    copy: _REPLACE QUIZ WITH ACTIVITY or have both?_ Have a go at identifying the following steps that can help prevent reoccurrence of a business problem.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Step one - Identify the root cause. 
+          answer: Identify the root cause
+        -
+          sentence: Step two - Create a plan to address the problem.
+          answer: Create a plan to address the problem
+        -
+          sentence: Step three - Implement preventive measures.
+          answer: Implement preventive measures
+        -
+          sentence: Step four - Monitor effectiveness.
+          answer: Monitor effectiveness
+        -
+          sentence: Step five - Encourage continuous improvement.
+          answer: Encourage continuous improvement
+        -
+          sentence: Step six - Conduct regular reviews.
+          answer: Conduct regular reviews
+        -
+          sentence: Step seven - Learn from past experiences.
+          answer: Learn from past experiences        
+    theme: i-quiz
   -
   -
     title: Case study
