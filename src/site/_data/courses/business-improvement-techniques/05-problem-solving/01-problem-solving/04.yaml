@@ -26,25 +26,25 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Step one - Identify the root cause. 
+          sentence: Step 1 - Identify the root cause. 
           answer: Identify the root cause
         -
-          sentence: Step two - Create a plan to address the problem.
+          sentence: Step 2 - Create a plan to address the problem.
           answer: Create a plan to address the problem
         -
-          sentence: Step three - Implement preventive measures.
+          sentence: Step 3 - Implement preventive measures.
           answer: Implement preventive measures
         -
-          sentence: Step four - Monitor effectiveness.
+          sentence: Step 4 - Monitor effectiveness.
           answer: Monitor effectiveness
         -
-          sentence: Step five - Encourage continuous improvement.
+          sentence: Step 5 - Encourage continuous improvement.
           answer: Encourage continuous improvement
         -
-          sentence: Step six - Conduct regular reviews.
+          sentence: Step 6 - Conduct regular reviews.
           answer: Conduct regular reviews
         -
-          sentence: Step seven - Learn from past experiences.
+          sentence: Step 7 - Learn from past experiences.
           answer: Learn from past experiences        
     theme: i-quiz
   -
