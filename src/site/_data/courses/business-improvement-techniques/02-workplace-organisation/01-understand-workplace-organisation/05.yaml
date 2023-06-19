@@ -14,8 +14,7 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      To assist organisations with their processes they may use a Standard Operating Procedure, usually referred to as a SOP. These documents help with achieving consistency, quality, and the safety of operations and staff. SOPS are detailed instructions that outline the steps required to carry out specific tasks or activities. They are the processes and protocols that all staff are expected to follow, thus ensuring a uniformed approach, which minimises errors, inconsistencies and reduces variance.
-
+      To assist organisations with their processes they may use a Standard Operating Procedure, usually referred to as a SOP.  These documents help with achieving consistency, quality, and the safety of operations and staff. SOPS are detailed instructions that outline the steps required to carry out specific tasks or activities. They are the processes and protocols that all staff are expected to follow, thus ensuring a uniformed approach, which minimises errors, inconsistencies and reduces variance.
 
     img: /images/svg/bit/bit_u2_s1_p5_image1.svg
   -
@@ -24,7 +23,9 @@ sections:
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      Please see the following video which will show you an example of a SOP
+      ### Provide recommendations for the creation or changes to a SOP
+      
+      Please see the following video which will show you an example of a SOP.
 
     video: bit_u2_s1_p5_sop_recommendations.mp4
   -
