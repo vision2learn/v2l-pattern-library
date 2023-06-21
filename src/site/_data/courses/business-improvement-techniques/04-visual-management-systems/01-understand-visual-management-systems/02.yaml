@@ -42,14 +42,24 @@ sections:
           copy: |
             Visual management systems provide real-time visual dashboards that offer insights into key performance indicators (KPIs) and metrics. These visual representations enable employees to track their performance and understand how the organisation is performing as a whole. By providing clear visibility of performance data, employees gain a deeper awareness of their contribution, can identify areas for improvement, and take proactive measures to enhance their own performance. 
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+  -
+    title: Visual controls
+    theme: 
+    
     copy: |
-      ### Visual Management Systems and Visual controls
+      ### Visual controls
       
-      Please see the following video to see an example of how a visual management system with visual controls was implemented.
-    video: bit_u4_s1_p2_visual_management_systems.mp4
+      Please see the following to see an example of how a visual management system with visual controls can be implemented. 
+
+      Let's look at the different parts of the process involved in the following activity. 
+
+      _A wide image of a warehouse with several popup items - so when you click on the different items a window opens with an icon and text e.g. "Safety Measure - Visual controls can be utilised to communicate safety instructions and precautions. For example, strategically placed signs with clear visuals can indicate the proper handling procedures for hazardous materials or highlight areas with potential safety hazards."._
+
+    interactive: 
+      file: 
+      width: 
+      height: 
+      composition: 
   -
   -
     title: Quick quiz
