@@ -20,7 +20,7 @@ sections:
       type: slider
       title:
       slides:
-        - 
+        -
           title: Efficiency
           text: |
             Problems within a business can lead to inefficiencies that waste valuable time, resources, and money. By identifying and removing problems, companies can streamline processes and operations, which can lead to increased productivity and save costs.
@@ -91,14 +91,47 @@ sections:
       In your assessment you will be required to describe the benefits of adopting a formalised problem solving process.
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
-    layout: media
+    title: A formalised problem-solving process
+    theme: t-bg-primary
     copy: |
-      ### Adopting a formalised problem solving process
-      
-      Having a formalised problem-solving process can be really helpful. Let's see why in the following video.
-    video: bit_u5_s1_p2_formalised_process.mp4
+      Having a formalised problem-solving process can be really helpful. Let's see why: 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Easy steps
+          copy: |
+            It gives us a clear and simple way to solve problems. We follow the steps one by one to make sure we don't miss anything important. 
+        - 
+          title: Better choices
+          copy: |
+            With a structured process, we can think carefully about our options and make smart decisions. We gather information, look at different possibilities, and choose the best solution. 
+        - 
+          title: Saves time
+          copy: |
+            Following a process helps us work faster and smarter. We know what to do and when to do it, so we don't waste time figuring things out. This means we can solve problems quicker and move on to other things. 
+        - 
+          title: Gets the same results
+          copy: |
+            When we use the same process every time, we get consistent results. This means we can trust that our solutions will work well. It helps us feel confident and know what to expect. 
+        - 
+          title: Teamwork and sharing
+          copy: |
+            Using a problem-solving process helps us work better with others. We can work together, share ideas, and help each other find solutions. It's like being on a team where everyone has a role to play. 
+        - 
+          title: Always getting better
+          copy: |
+            When we have a process, we can learn from our mistakes and make improvements. We look back at what we did and find ways to do it even better next time. This helps us grow and become better problem solvers. 
+        - 
+          title: Taking charge
+          copy: |
+            Having a process makes us feel in control. We can take charge of the problem and find our own solutions. It helps us feel more confident and responsible for finding answers. 
+        - 
+          title: Long-lasting solutions
+          copy: |
+            The process helps us find solutions that last. Instead of just fixing the problem for now, we look for the main cause and solve it. This way, the problem is less likely to happen again. 
+        
+    copy2: So, having a formalised problem-solving process is like having a map that guides us to find the best solutions. It helps us make good choices, work well with others, and keep getting better at solving problems. 
   -
   -
     title: Quick quiz
@@ -121,6 +154,64 @@ sections:
     theme: i-quiz
   -
   -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - American Express - using a formalised problem-solving process
+
+      As we saw earlier "The Workforce Transformation Group" program allowed senior employees to enjoy their final years of work, share their knowledge, and facilitate the development of the current workforce. AMEX's program used a __formalised problem-solving process__, resulting in a successful job handoff strategy and yielded significant benefits. 
+    
+    subInc: 
+      type: slider
+      title:
+      slides:
+        - 
+          title: Clear and simple steps
+          text: |
+            The program followed a clear and simple step-by-step process. Retiring employees had the option to transition gradually, reducing their workload over time. Simultaneously, they were encouraged to mentor and teach their successors, ensuring a smooth transfer of knowledge. This structured approach ensured that important aspects of the job handoff were not overlooked. 
+          img: placeholder_icon.svg
+        - 
+          title: Informed decision-making
+          text: |
+            AMEX's program enabled retiring employees to make informed decisions about their retirement transition. They were provided with the opportunity to plan and design their phased retirement, balancing their desire for reduced responsibilities with the satisfaction of continuing to contribute through mentorship. This empowered them to make choices that aligned with their personal and professional goals. 
+          img: placeholder_icon.svg
+        - 
+          title: Time-saving
+          text: |
+            The phased retirement option offered by the program allowed retiring employees to gradually reduce their workload, resulting in time savings. They could enjoy increased free time while still being engaged in the workforce through mentoring and teaching. This balanced approach ensured a smooth transition without abruptly losing the expertise and guidance of senior employees. 
+          img: placeholder_icon.svg
+        - 
+          title: Consistent results
+          text: |
+            "The Workforce Transformation Group" program ensured consistent results in job handoffs. By following a structured process, retiring employees and their successors were guided through the transition, reducing the risk of critical knowledge gaps. The program fostered a consistent and reliable transfer of expertise, ensuring continuity and minimising disruption. 
+          img: placeholder_icon.svg
+        - 
+          title: Teamwork and collaboration
+          text: |
+            AMEX's program emphasised teamwork and collaboration between retiring employees and their successors. By engaging retiring employees as mentors, the program encouraged knowledge sharing and collaboration with the current workforce. This created a supportive environment where experiences were exchanged, ideas were developed, and relationships were strengthened, leading to a more seamless transfer of skills and expertise.  
+          img: placeholder_icon.svg
+        - 
+          title: Continuous improvement
+          text: |
+            The formalised program provided opportunities for continuous improvement. Retiring employees, as mentors, could reflect on their experiences and identify areas for enhancement in the job handoff process. This iterative learning allowed AMEX to refine and improve the program over time, resulting in increasingly effective knowledge transfer and mentorship practices. 
+          img: placeholder_icon.svg
+        - 
+          title: Empowerment
+          text: |
+            By participating in the program, retiring employees felt empowered to take charge of their retirement transition. They could shape their final years of work by gradually reducing their responsibilities while providing guidance to their successors. This sense of empowerment increased their engagement and satisfaction, creating a positive and fulfilling end to their careers. 
+          img: placeholder_icon.svg
+        - 
+          title: Long-lasting solutions
+          text: |
+            The program ensured long-lasting solutions by enabling the transfer of critical knowledge and skills to the current workforce. Through mentorship and teaching, retiring employees passed on their expertise, contributing to the development and success of the next generation of employees. This approach reduced the risk of knowledge loss and enhanced the organisation's capacity to address future challenges effectively. 
+          img: placeholder_icon.svg
+        
+    copy2: |
+      American Express' "The Workforce Transformation Group" program serves as a successful example of a __formalised problem-solving process__ in the context of job handoffs. By implementing a phased retirement option combined with mentoring and teaching responsibilities, AMEX effectively addressed the challenge of managing the departure of senior employees while ensuring knowledge transfer and continuity. 
+      
+      The program's clear steps, informed decision-making, time savings, consistent results, teamwork, continuous improvement, empowerment, and long-lasting solutions exemplify the benefits of a structured problem-solving approach. 
+  -
+  -
     title: On the web
     theme: t-bg-secondary2 i-on-web
     include:
@@ -131,4 +222,3 @@ sections:
       links:
         11 Common Business Problems and How You Can Solve Them: https://www.indeed.com/career-advice/career-development/business-problem
         30 examples of business problems: https://simplicable.com/new/business-problems
-  
