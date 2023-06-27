@@ -1,4 +1,4 @@
-title: Creating your process map (LEAN)
+title: Creating a process map
 intro: | 
   It is now time to create your own process map. You will create a flowchart to provide a visual representation of an organisation’s processes. 
 
@@ -13,66 +13,29 @@ sections:
       In your assessment you will be required to produce a process map using appropriate symbols and terminology within a given work area.
   -
   -
-    title: Recap
-    theme: t-bg-supporting3
-    copy: |
-      Before you begin to put your flowchart together click on the shapes below to remind yourself of some of the most commonly used symbols in flowcharts.
-    subInc: 
-        type: reveal
-        content:
-            -
-                title: Start or End flow of activity
-                copy: |
-                    The oval shape represents the start or the end of a flow. For example, if the flowchart represented a complaint process, it would start with the complaint being received and end with it being dealt with.
-
-                img: LM_U1_S3_p1_Symbol_StartEnd_1.svg
-            -
-                title: Process or activity
-                copy: |
-                    Rectangles are usually the most common symbols found in flowcharts as they represent processes or activities. Examples can range from making phone calls in an office to cutting metal in a factory.
-                img: LM_U1_S3_p1_Symbol_Process_1.svg
-            -
-                title: Decision – yes or no outcome
-                copy: |
-                    A diamond symbol represents decisions in a flowchart. You’ll see these a lot as they lead to yes or no outcomes, shaping the rest of the process.
-                img: LM_U1_S3_p1_Symbol_Decision_1.svg
-            -
-                title: Document
-                copy: |
-                    A document symbol can sometimes be seen in flowcharts. For example, it may feature when reports must be completed or when forms need filling out.
-                img: LM_U1_S3_p1_Symbol_Document_1.svg
-            -
-                title: Storage
-                copy: |
-                    The downwards triangle symbol represents storage in a process. For example, this could be the storage of documents or the stacking of envelopes in a mailing process.
-                img: LM_U1_S3_p1_Symbol_Storage_1.svg
-            -
-                title: Database
-                copy: |
-                    You may see a database symbol used in flowcharts that deal with data. For example, this may be in the form of stock files or sales records.
-                img: LM_U1_S3_p1_Symbol_Database_1.svg
-    
-  -
     title: Case study
     theme: t-bg-primary1a i-casestudy
     copy: |
-      You will create a process map for the case below.
-
-      A supermarket has decided to create a new ‘make your own’ pizza section in store. At the counter, customers can create a pizza of their own choice, providing an alternative to buying pre-packaged pizza. Fresh foods manager, Valerie, collects customer feedback to investigate how successful the new foods section is operating. It seems whilst many customers are more than satisfied with their pizzas, there remains some dissatisfaction. In some cases, customers complained about their waiting time although the biggest complaint seemed to be with the highly popular advertised ‘special sauce’ option often being unavailable.
-
-      ### Pizza processing
-
-      The diagram below will remind you of what to include in a process map.
-
-      ![](/images/svg/ln/lm_u1_s3_p1_summary_flowchart.svg)
+      A supermarket has decided to create a new ‘make your own’ pizza section in store. At the counter, customers can create a pizza of their own choice, providing an alternative to buying pre-packaged pizza. Fresh foods manager, Valerie, collects customer feedback to investigate how successful the new foods section is operating. It seems whilst many customers are more than satisfied with their pizzas, there remains some dissatisfaction. In some cases, customers complained about their waiting time although the biggest complaint seemed to be with some ingredients, and particularly the highly popular advertised ‘special sauce’ option, often being unavailable. 
+      
+      Following a flow process analysis, Valarie identified that ingredients at the customer counter were not being refreshed often enough, meaning that the most popular ones were running out. The special sauce was a particular problem as this was not always in the store fridge, which meant it was unavailable when staff did stock up the customer counter.
   -
-    title: Brainstorming session
+  -
+    title: The process
     layout: media
     theme: t-bg-primary1a
     copy: |
-      This process may be unfamiliar to you, so a brainstorming session has been provided. Read the main parts of the pizza making process which you will have to put in a flowchart yourself.
+      Valarie began by putting all steps needed for the pizza making process on post-it notes: 
+
+      * Stock store fridge 
+      * Refill customer counter 
+      * Re-order ingredients  
+      * Check stock levels for all ingredients 
+      * Request ingredients needed 
+      * Check customer counter for low ingredients 
 
     img: /images/svg/ln/LM_U1_S3_P3_Post-it_All.svg
+  -
   -
     title: Pizza processing
     copy: |
@@ -80,6 +43,7 @@ sections:
 
       Take a look at the following flowchart and answer the questions below.
       ![](/images/svg/ln/lm_u1_s3_p3_quiz_flowchart.svg)
+  -
   -
     title: Quick quiz
     copy: |
@@ -118,7 +82,7 @@ sections:
           sentence: Stage 10 - End
           answer: End
     theme: i-quiz
-    
+  -
   -
     title: Analysis
     theme: t-bg-supporting2

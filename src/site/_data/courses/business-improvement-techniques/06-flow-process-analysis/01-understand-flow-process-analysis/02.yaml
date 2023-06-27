@@ -9,68 +9,83 @@ sections:
     copy: |
       In your assessment you will be required to explain how to carry out flow process analysis.
   -
+  -
     title: Flow process analysis
     theme: t-bg-primary
     copy: |
       Flow process analysis is a method used to analyse and understand the sequence of activities and interactions within a process. By visually mapping out the flow of a process and examining the relationships between different steps, flow process analysis provides valuable insights into process efficiency, bottlenecks, and opportunities for improvement. 
-      
-      It helps identify areas of waste, delays, or redundancies, enabling organizations to streamline operations, optimise resource utilisation, and enhance overall productivity. With a focus on understanding the movement of information, materials, or individuals through a process, flow process analysis is a powerful tool for enhancing process performance and driving continuous improvement.
 
-      Here are the steps to follow:
+      It helps identify areas of waste, delays, or redundancies, enabling organizations to streamline operations, optimise resource utilisation, and enhance overall productivity. With a focus on understanding the movement of information, materials, or individuals through a process, flow process analysis is a powerful tool for enhancing process performance and driving continuous improvement. 
+
+      The steps included with a flow chart maybe informative or directive: 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Informative Flow Process Analysis
+          text: |
+            Informative Flow Process Analysis focuses on gathering information, mapping the sequence of activities, and identifying bottlenecks or inefficiencies. This results in the creation of process maps, flowcharts, and documentation that describe the current state of the process. It may also highlight areas of concern or improvement opportunities based on the gathered data. 
+
+          img: placeholder_icon.svg
+        -
+          title: Directive Flow Process Analysis
+          text: |
+            Directive Flow Process Analysis aims to identify areas of improvement, streamline activities, and suggest changes for increased efficiency. This is a more proactive approach and includes a redesigned process flow, with specific recommendations for process improvement. It may include a new process map, revised standard operating procedures, or a proposed implementation plan for the suggested changes. 
+
+          img: placeholder_icon.svg
+  -
+  -
+    title: Steps
+    theme: t-bg-primary
+    copy: |
+      The following steps are commonly found within flow process analysis. These may vary depending on the overall object with some analysis including either more or less steps. E.g. if multiple problems are discovered, there may be more steps included to measure and resolve these.
     subInc: 
       type: accordion
       content:
         - 
           title: 1. Understand the process
           copy: |
-            Figure out what you want to analyse and who is involved. Think about the beginning and end of the process and what happens in between.
+            Set out the purpose of the process analysis and define the boundaries and objectives of the analysis. Think about the beginning and end of the process and what happens in between. 
         - 
-          title: 2. Draw a picture
+          title: 2. Identify Stakeholders
           copy: |
-            Make a diagram or flowchart to show the steps in the process. This helps you see the sequence of activities.
+            Identify the key stakeholders who are involved in or affected by the process. Ensure their active participation throughout the analysis and redesign phases. 
         - 
-          title: 3. Get information
+          title: 3. Map the current process
           copy: |
-            Collect data about the process. You can watch how things are done, ask questions, or use tools to gather information.
+            Create a visual representation of the process flow. This can be done using flowcharts, process maps, or other process modelling techniques. Document each step in the process, including decision points, loops, and feedback mechanisms 
         - 
-          title: 4. Look for problems
+          title: 4. Gather information
           copy: |
-            Study the process and see if there are any parts that are slow, inefficient, or not needed. Find out if there are things that can be improved.
+            Collect relevant information about the process. This can be done through various methods such as interviews, surveys, observations, and document reviews. The goal is to understand how the process currently operates and gather data on inputs, outputs, activities, decision points, cycle times, and any associated metrics. 
         - 
-          title: 5. Measure performance
+          title: 5. Analyse the current process
           copy: |
-            Measure how well the process is working. You can use numbers to see how long it takes, how many things get done, or how resources are used.
+            Evaluate the current process to identify inefficiencies, bottlenecks, redundancies, delays, and any areas for improvement. Look for non-value-added activities, handoffs, unnecessary approvals, or other factors that hinder the process's efficiency. 
         - 
-          title: 6. Find ways to improve
+          title: 6. Set performance goals
           copy: |
-            Think of ideas to make the process better. It could be simplifying steps, removing unnecessary things, or using technology to make things faster.
+            Define specific performance goals and metrics for the redesigned process. This could include targets for cycle time reduction, cost reduction, quality improvement, customer satisfaction, or any other relevant performance indicators. 
         -
-          title: 7. Try the solutions
+          title: 7. Identify improvements
           copy: |
-            Pick the best ideas and give them a try. See if they work and make the process better. Keep an eye on how things are going and make adjustments if needed.
+            Generate Redesign Ideas: Brainstorm and generate ideas for process redesign. Encourage creative thinking and explore different possibilities for optimizing the process. Consider automation, simplification, elimination of non-value-added activities, and resequencing of tasks. 
         -
-          title: 8. Keep improving
+          title: 8. Evaluate and select redesign options
           copy: |
-            Keep an eye on the process even after making changes. Collect feedback and check if things are getting better. Make more improvements if necessary.
+            Evaluate the generated redesign ideas and select the most promising options for implementation. Assess each option based on feasibility, potential impact, risks, resource requirements, and alignment with the defined performance goals. 
+        -
+          title: 9. Develop implementation plan
+          copy: |
+            Create a detailed plan for implementing the redesigned process. Identify the necessary resources, responsibilities, timelines, and potential barriers to implementation. Develop a strategy for change management and communication to ensure smooth adoption of the new process. 
+        -
+          title: 10. Continuous improvement
+          copy: |
+            Informative flow process analysis is often part of a continuous improvement cycle. Encourage ongoing monitoring, measurement, and feedback to track the impact of implemented changes and identify further areas for improvement.
+
     copy2: Remember, flow process analysis is about finding ways to make things easier and more efficient. It's like solving a puzzle to make things work better.
-  -
-  -
-    title: P L A C E H O L D E R section
-    layout: media
-    theme: t-bg-supporting3
-    copy: |
-      _not sure if the above covers the LO enough?_
-
-    img: /images/svg/placeholder_icon.svg
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
-
   -
   -
     title: Key point
@@ -123,7 +138,7 @@ sections:
       Process mapping is a flexible technique, and there is no one-size-fits-all approach. Adapt the symbols and level of detail to suit your specific needs and audience.
   -
   -
-    title: Symbols and terminology (LEAN)
+    title: Symbols and terminology
     theme: t-bg-supporting3
     copy: |
       One popular method of process mapping is the creation of **flowcharts**. 
@@ -153,54 +168,49 @@ sections:
               * Send a request
             img: LM_U1_S3_p1_Symbol_Process_1.svg
           -
-            title: Decision
+            title: Operation
             copy: |
-              Represents a point in the process where a decision needs to be made. It is often represented by a diamond shape, with arrows indicating different possible outcomes based on the decision. Examples include:
-              * Yes / No
-              * Agree / Disagree
-              * Pass / Fail
-            img: LM_U1_S3_p1_Symbol_Decision_1.svg
+              The operation symbol represents a task or activity being performed in the process. It is typically depicted as a rectangle with rounded corners. 
+            img: placeholder_icon.svg
           -
-            title: Document
+            title: Inspection
             copy: |
-                Examples:
-                * Report is completed 
-                * Meeting minutes 
-                * Form is filled out
-            img: LM_U1_S3_p1_Symbol_Document_1.svg
+              The inspection symbol represents a step in the process where a quality check or inspection takes place. It is often depicted as a diamond-shaped symbol. 
+            img: placeholder_icon.svg
           -
             title: Storage
             copy: |
-                Examples:
-                * Store documents
-                * stack envelopes
-                * File contacts
+              Examples:
+              * Store documents
+              * stack envelopes
+              * File contacts
             img: LM_U1_S3_p1_Symbol_Storage_1.svg
           -
-            title: Database
+            title: Transport
             copy: |
-                Examples:
-                * Stock files
-                * Order files
-                * Sales record
-            img: LM_U1_S3_p1_Symbol_Database_1.svg
+              The transport symbol represents the movement of materials, products, or information from one location to another. It is commonly depicted as an arrow or a line with an open arrowhead.
+            img: placeholder_icon.svg
+          -
+            title: Waiting
+            copy: |
+              The waiting symbol represents a pause or delay in the process where no active work is being done. It indicates a period of waiting for a resource, information, or completion of a preceding task. It is typically depicted as a half-circle or a dashed line.
+            img: placeholder_icon.svg
+    copy2: Please note that these symbols can vary depending on the specific process mapping methodology or notation being used. The examples provided here are general representations commonly used in process flowcharts. 
   - 
   -
-    title: Turning on a TV (LEAN)
+    title: Example of a process sequence chart
     theme: 
     copy: |
-      The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
+      The flowchart below shows a process sequence chart.....
 
-      ![](/images/svg/ln/lm_u1_s3_p1_tv_flowchart.svg)
+      ![](/images/banners/placeholder.jpg)
   -
-    title: Time to think (Lean)
+    title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        Turning on a TV to watch a programme is one of many simple home based processes. Can you think of any other processes you do at home which could be shown in a process map like the one above?
-      
-        Make some notes of your idea in the box to the right, and have a go at creating your own process map. Take a look at the below video to see how you can do this in PowerPoint.
+        _relate to example_
   -
   -
     title: On the web
@@ -215,8 +225,9 @@ sections:
       links:
         website description: http://www.google.co.uk
   -
+  -
     title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
+    copy: 
     subInc: 
       type: word-quiz
       content:
@@ -233,27 +244,3 @@ sections:
           sentence: example four
           answer: four
     theme: i-quiz
-  
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
