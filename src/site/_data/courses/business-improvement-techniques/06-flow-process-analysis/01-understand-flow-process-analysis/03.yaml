@@ -1,10 +1,8 @@
 title: Creating a process map
 intro: | 
-  It is now time to create your own process map. You will create a flowchart to provide a visual representation of an organisation’s processes. 
+  On this page we take a look at a case study which will help you to understand how to create your own process map.
 
-  Once you have your completed flowchart you will then look at using it to increase the productivity of your chosen organisation. 
-
-banner: LM_U1_S3_P3_createMap.svg
+banner: placeholder.jpg
 sections:
   -
     title: Key point
@@ -27,22 +25,25 @@ sections:
     copy: |
       Valarie began by putting all steps needed for the pizza making process on post-it notes: 
 
-      * Stock store fridge 
+      * Check stock levels for all ingredients 
+      * Stock store fridge if ingredients are low 
+      * check customer counter for low ingredients 
+      * Evaluate customer satisfaction
+      * Make necessary adjustments
+      * Monitor and collect feedback after improvement
       * Refill customer counter 
       * Re-order ingredients  
-      * Check stock levels for all ingredients 
-      * Request ingredients needed 
-      * Check customer counter for low ingredients 
 
-    img: /images/svg/ln/LM_U1_S3_P3_Post-it_All.svg
+    img: /images/svg/placeholder_icon.svg
   -
   -
-    title: Pizza processing
+    title: Pizza making process sequence flowchart
     copy: |
-      You learnt about the main stages of the pizza making process from the results of the brainstorming session. These stages now need to be transferred into a flowchart to show what type of process happens at each stage and in what order.
+      Valerie now needed to transfer the above steps into a process sequence flowchart to show what type of process happens at each stage and in what order.
 
-      Take a look at the following flowchart and answer the questions below.
-      ![](/images/svg/ln/lm_u1_s3_p3_quiz_flowchart.svg)
+      Take a look at the following process sequence flowchart and answer the questions below.
+
+      ![](/images/banners/placeholder.jpg)
   -
   -
     title: Quick quiz
@@ -52,42 +53,48 @@ sections:
       type: word-quiz
       content:
         -
-          sentence: Stage 1 - Start
+          sentence: Step 1 - Start
           answer: Start
         -
-          sentence: Stage 2 - Take customer's order
-          answer: Take customer's order
+          sentence: Step 2 - Inspection - Check stock levels for all ingredients in store fridge
+          answer: Inspection - Check stock levels for all ingredients in store fridge
         -
-          sentence: Stage 3 - Stack pizza bases
-          answer: Stack pizza bases
+          sentence: Step 3 - Activity - Ingredients and 'Special sauce' available 
+          answer: Activity - Ingredients and 'Special sauce' available 
         -
-          sentence: Stage 4 - Does customer want special sauce?
-          answer: Does customer want special sauce?
+          sentence: Step 3 - Waiting - Ingredients and 'Special sauce' unavailable
+          answer: Waiting - Ingredients and 'Special sauce' unavailable
         -
-          sentence: Stage 5 - Yes - Apply special sauce and cheese
-          answer: Yes - Apply special sauce and cheese
+          sentence: Step 3 - Transport - Order and Transport ingredients and 'special sauce' to the store
+          answer: Transport - Order and Transport ingredients and 'special sauce' to the store
         -
-          sentence: Stage 6 - No - Apply tomato sauce and cheese
-          answer: No - Apply tomato sauce and cheese
+          sentence: Step 4 - Inspection - Check customer counter for low ingredients and 'special sauce' 
+          answer: Inspection - Check customer counter for low ingredients and 'special sauce' 
         -
-          sentence: Stage 7 - Select desired toppings
-          answer: Select desired toppings
+          sentence: Step 5 - Activity/Storage - Refresh ingredients at counter 
+          answer: Activity/Storage - Refresh ingredients at counter 
         -
-          sentence: Stage 8 - Attach cellophane cover
-          answer: Attach cellophane cover
+          sentence: Step 6 - Inspection - Monitor frequency of counter ingredients refreshment 
+          answer: Inspection - Monitor frequency of counter ingredients refreshment 
         -
-          sentence: Stage 9 - Apply barcode sticker
-          answer: Apply barcode sticker
+          sentence: Step 7 - Operation - Monitor and collect feedback after improvements 
+          answer: Operation - Monitor and collect feedback after improvements 
         -
-          sentence: Stage 10 - End
+          sentence: Step 8 - Inspection - Evaluate customer satisfaction 
+          answer: Inspection - Evaluate customer satisfaction 
+        -
+          sentence: Step 9 - Operation - Make necessary adjustments 
+          answer: Operation - Make necessary adjustments 
+        -
+          sentence: Step 10 - End
           answer: End
     theme: i-quiz
   -
   -
-    title: Analysis
+    title: Analyse the current process
     theme: t-bg-supporting2
     copy: |
-      Your completion of the flowchart in the previous tasks means that you now have a clear indication of how the process operates and in what order. You are now able to ask a series of questions about the process which could help to create an improved service.
+      The completion of the flowchart in the previous tasks has provided Valarie with a clear indication of how the process operates and the steps involved. this should now be analysed as part of the flow process. To view some of the questions that might be asked as part of the analysis, click on the images below.   
 
       ### The question process
 
@@ -123,6 +130,6 @@ sections:
     copy2: |
       ### Actions
 
-      The creation of the flowchart showed you a clear overview of the whole process. As a result, you can question the process and identify areas where waste can be reduced and productivity can be improved.
-
-      For example, to meet the demand of popularity, the pizza counter may choose to store more ingredients and special sauce. This could be represented visually in a new flowchart by introducing more storage symbols which would add value to the process.
+      An important part of the flow process is identifying areas where waste can be reduced and productivity can be improved. Now that Valarie has completed the above steps, she can identify why and how all of the ingredients are not available to the customer. This allows Valarie to implement a new ordering system and checks for the customer counter. 
+      
+      As these are additional processes, she will need to create a flow chart for each activity e.g. stocking and ordering ingredients, checking the customer counter. Part of this might include visual indicators to clearly see when stock items are low and need re-ordering. 

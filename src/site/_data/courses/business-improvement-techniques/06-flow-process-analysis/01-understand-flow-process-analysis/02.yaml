@@ -198,10 +198,12 @@ sections:
     copy2: Please note that these symbols can vary depending on the specific process mapping methodology or notation being used. The examples provided here are general representations commonly used in process flowcharts. 
   - 
   -
-    title: Example of a process sequence chart
+    title: Example of a process sequence diagram
     theme: 
     copy: |
-      The flowchart below shows a process sequence chart.....
+      The flowchart below shows a process sequence diagram for Order Fulfilment within a retail company:
+
+      
 
       ![](/images/banners/placeholder.jpg)
   -
