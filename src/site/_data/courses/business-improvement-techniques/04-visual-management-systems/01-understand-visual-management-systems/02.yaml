@@ -43,6 +43,16 @@ sections:
             Visual management systems provide real-time visual dashboards that offer insights into key performance indicators (KPIs) and metrics. These visual representations enable employees to track their performance and understand how the organisation is performing as a whole. By providing clear visibility of performance data, employees gain a deeper awareness of their contribution, can identify areas for improvement, and take proactive measures to enhance their own performance. 
   -
   -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Visual management systems
+      
+      Please see the following video where you will learn more about the purpose and benefits of visual management systems.
+    video: bit_u4_s1_p2_visual_management_systems.mp4
+  -
+  -
     title: Visual controls
     theme: 
     
