@@ -160,7 +160,7 @@ sections:
 
             img: bit_u6_s1_p2_reveal1.svg
           -
-            title: Process or activity
+            title: Operation, Process or Activity
             copy: |
               Represents a specific action or task within the process. It is usually depicted as a rectangle with rounded corners. Examples include:
               * Hold a meeting
@@ -208,8 +208,8 @@ sections:
         Take a look at the following example of a process that would be used by a retail customer to fulfil a customer order.  See if you can identify the steps and symbols for each step before taking a look at the accordion below:
         * Check product availability
         * Generate shipping label
-        * Hand over package to carrier
-        * Sign off once delivery has been confirmed
+        * Give package to carrier
+        * Sign off once delivered
         * Pick and pack the ordered items
         * Recieve customer order
         * Track package shipment

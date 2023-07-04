@@ -68,16 +68,18 @@ sections:
       In your assessment you will be required to describe the purpose of an action plan.
   -
   -
-    title: Watch 
-    theme: t-bg-grey i-watch
+    title: P L A C E H O L D E R 
     layout: media
+    theme: t-bg-primary
     copy: |
       ### Purpose of an action plan
 
       By following an action plan, we can work together to make things better. We focus on important areas, set goals, make a plan, assign tasks, keep track of time, check our progress, and make changes if needed. This way, we can improve and make things even more efficient.
 
-      Please see the following video to learn more.
-    video: bit_u6_s1_p5_action_plan_purpose.mp4
+      _More content needed here_
+
+    img: /images/svg/placeholder_icon.svg
+  -
   -
     title: Time to think
     theme: t-bg-primary3 i-think

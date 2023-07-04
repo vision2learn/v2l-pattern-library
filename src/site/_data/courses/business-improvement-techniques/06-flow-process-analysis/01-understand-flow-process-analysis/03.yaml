@@ -23,14 +23,12 @@ sections:
     layout: media
     theme: t-bg-primary1a
     copy: |
-      Valarie began by putting all steps needed for the pizza making process on post-it notes: 
+      Valerie began by putting all steps needed for the pizza making process on post-it notes: 
 
       * Check stock levels for all ingredients 
       * Stock store fridge if ingredients are low 
-      * check customer counter for low ingredients 
+      * Check customer counter for low ingredients 
       * Evaluate customer satisfaction
-      * Make necessary adjustments
-      * Monitor and collect feedback after improvement
       * Refill customer counter 
       * Re-order ingredients  
 
@@ -59,34 +57,22 @@ sections:
           sentence: Step 2 - Inspection - Check stock levels for all ingredients in store fridge
           answer: Inspection - Check stock levels for all ingredients in store fridge
         -
-          sentence: Step 3 - Activity - Ingredients and 'Special sauce' available 
-          answer: Activity - Ingredients and 'Special sauce' available 
+          sentence: Step 3 - Activity - Check ingredients and 'Special sauce' availability 
+          answer: Activity - Check ingredients and 'Special sauce' availability 
         -
-          sentence: Step 3 - Waiting - Ingredients and 'Special sauce' unavailable
-          answer: Waiting - Ingredients and 'Special sauce' unavailable
+          sentence: Step 4 - Transport - Order and Transport ingredients and 'special sauce' to the store if low
+          answer: Transport - Order and Transport ingredients and 'special sauce' to the store if low
         -
-          sentence: Step 3 - Transport - Order and Transport ingredients and 'special sauce' to the store
-          answer: Transport - Order and Transport ingredients and 'special sauce' to the store
-        -
-          sentence: Step 4 - Inspection - Check customer counter for low ingredients and 'special sauce' 
+          sentence: Step 5 - Inspection - Check customer counter for low ingredients and 'special sauce' 
           answer: Inspection - Check customer counter for low ingredients and 'special sauce' 
         -
-          sentence: Step 5 - Activity/Storage - Refresh ingredients at counter 
-          answer: Activity/Storage - Refresh ingredients at counter 
+          sentence: Step 6 - Activity/Storage - Refresh ingredients at counter
+          answer: Activity/Storage - Refresh ingredients at counter
         -
-          sentence: Step 6 - Inspection - Monitor frequency of counter ingredients refreshment 
-          answer: Inspection - Monitor frequency of counter ingredients refreshment 
+          sentence: Step 7 - Inspection - Monitor quantity of counter ingredients
+          answer: Inspection - Monitor quantity of counter ingredients
         -
-          sentence: Step 7 - Operation - Monitor and collect feedback after improvements 
-          answer: Operation - Monitor and collect feedback after improvements 
-        -
-          sentence: Step 8 - Inspection - Evaluate customer satisfaction 
-          answer: Inspection - Evaluate customer satisfaction 
-        -
-          sentence: Step 9 - Operation - Make necessary adjustments 
-          answer: Operation - Make necessary adjustments 
-        -
-          sentence: Step 10 - End
+          sentence: Step 8 - End
           answer: End
     theme: i-quiz
   -
@@ -94,7 +80,7 @@ sections:
     title: Analyse the current process
     theme: t-bg-supporting2
     copy: |
-      The completion of the flowchart in the previous tasks has provided Valarie with a clear indication of how the process operates and the steps involved. this should now be analysed as part of the flow process. To view some of the questions that might be asked as part of the analysis, click on the images below.   
+      The completion of the flowchart in the previous tasks has provided Valerie with a clear indication of how the process operates and the steps involved. This should now be analysed as part of the flow process. To view some of the questions that might be asked as part of the analysis, click on the images below.   
 
       ### The question process
 
@@ -103,33 +89,27 @@ sections:
         type: reveal
         content:
             -
-                title: Review
+                title: Purpose
                 copy: |
-                    Review the process being studied and its boundaries as defined by your project.
+                    Does this flowchart meet its purpose?
                 img: LM_U1_S3_p3_Reveal_1.svg
             -
                 title: Quantity
                 copy: |
                     Are there enough pizza bases near the counter?
+
+                    Do more ingredients need to be stored before taking an order?
                 img: LM_U1_S3_p3_Reveal_2.svg
             -
                 title: Timing
                 copy: |
                     Is anything else slowing the process?
-                img: LM_U1_S3_p3_Reveal_3.svg
-            -
-                title: Timing
-                copy: |
+
                     In which areas can the process be quickened?
-                img: LM_U1_S3_p3_Reveal_4.svg
-            -
-                title: Quantity
-                copy: |
-                    Do more ingredients need to be stored before taking an order?
-                img: LM_U1_S3_p3_Reveal_5.svg
+                img: LM_U1_S3_p3_Reveal_3.svg
     copy2: |
       ### Actions
 
-      An important part of the flow process is identifying areas where waste can be reduced and productivity can be improved. Now that Valarie has completed the above steps, she can identify why and how all of the ingredients are not available to the customer. This allows Valarie to implement a new ordering system and checks for the customer counter. 
+      An important part of the flow process is identifying areas where waste can be reduced and productivity can be improved. Now that Valerie has completed the above steps, she can identify why and how all of the ingredients are not available to the customer. This allows Valarie to implement a new ordering system and checks for the customer counter. 
       
       As these are additional processes, she will need to create a flow chart for each activity e.g. stocking and ordering ingredients, checking the customer counter. Part of this might include visual indicators to clearly see when stock items are low and need re-ordering. 
