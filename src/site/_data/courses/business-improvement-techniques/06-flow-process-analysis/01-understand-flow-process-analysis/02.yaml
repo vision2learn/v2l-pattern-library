@@ -158,7 +158,7 @@ sections:
               * Receive request
               * Proposal
 
-            img: LM_U1_S3_p1_Symbol_StartEnd_1.svg
+            img: bit_u6_s1_p2_reveal1.svg
           -
             title: Process or activity
             copy: |
@@ -166,17 +166,12 @@ sections:
               * Hold a meeting
               * Make a phone call
               * Send a request
-            img: LM_U1_S3_p1_Symbol_Process_1.svg
-          -
-            title: Operation
-            copy: |
-              The operation symbol represents a task or activity being performed in the process. It is typically depicted as a rectangle with rounded corners. 
-            img: placeholder_icon.svg
+            img: bit_u6_s1_p2_reveal2.svg
           -
             title: Inspection
             copy: |
               The inspection symbol represents a step in the process where a quality check or inspection takes place. It is often depicted as a diamond-shaped symbol. 
-            img: placeholder_icon.svg
+            img: bit_u6_s1_p2_reveal3.svg
           -
             title: Storage
             copy: |
@@ -184,35 +179,57 @@ sections:
               * Store documents
               * stack envelopes
               * File contacts
-            img: LM_U1_S3_p1_Symbol_Storage_1.svg
+            img: bit_u6_s1_p2_reveal4.svg
           -
             title: Transport
             copy: |
               The transport symbol represents the movement of materials, products, or information from one location to another. It is commonly depicted as an arrow or a line with an open arrowhead.
-            img: placeholder_icon.svg
+            img: bit_u6_s1_p2_reveal5.svg
           -
             title: Waiting
             copy: |
               The waiting symbol represents a pause or delay in the process where no active work is being done. It indicates a period of waiting for a resource, information, or completion of a preceding task. It is typically depicted as a half-circle or a dashed line.
-            img: placeholder_icon.svg
+            img: bit_u6_s1_p2_reveal6.svg
     copy2: Please note that these symbols can vary depending on the specific process mapping methodology or notation being used. The examples provided here are general representations commonly used in process flowcharts. 
   - 
   -
     title: Example of a process sequence diagram
     theme: 
     copy: |
-      The flowchart below shows a process sequence diagram for Order Fulfilment within a retail company:
+      The flowchart below shows a process sequence diagram for making product orders from a supplier:
 
-      
-
-      ![](/images/banners/placeholder.jpg)
+      ![](/images/svg/bit/bit_u6_s1_p2_wide_image.svg)
   -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 
       type: time-to-think
       copy: |
-        _relate to example_
+        Take a look at the following example of a process that would be used by a retail customer to fulfil a customer order.  See if you can identify the steps and symbols for each step before taking a look at the accordion below:
+        * Check product availability
+        * Generate shipping label
+        * Hand over package to carrier
+        * Sign off once delivery has been confirmed
+        * Pick and pack the ordered items
+        * Recieve customer order
+        * Track package shipment
+        * Transport items to shipping area
+        * Wait for carrier pickup
+  -
+  -
+    title: Fulfil a customer order example
+    theme: t-bg-primary3
+    copy: |
+      Please see below for the correct process diagram for the above example.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            Fulfilling a customer order process flow diagram:
+
+            ![](/images/svg/bit/bit_u6_s1_p2_wide_image2.svg)
   -
   -
     title: On the web
