@@ -32,34 +32,17 @@ sections:
     video: bit_u6_s1_p5_improvements.mp4
   -
   -
-    title: Quick quiz
-    copy: 
+    title: Counter refreshment process diagram IMPROVED VERSION
+    theme: t-bg-supporting3
+    copy: |
+      Please see below for the improved process diagram from the 'Make your own pizza' case study on page 3.
     subInc: 
-      type: word-quiz
+      type: accordion
       content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
-  
-  -
-  -
-    title: Time to think
-    theme: t-bg-primary3 i-think
-    include: 
-      type: time-to-think
-      copy: |
-        _LO or exercise._
-
+        - 
+          title: 
+          copy: |
+            ![](/images/svg/bit/bit_u6_s1_p3_wide_image_1.svg)
   -
   -
     title: Key point
@@ -68,7 +51,7 @@ sections:
       In your assessment you will be required to describe the purpose of an action plan.
   -
   -
-    title: P L A C E H O L D E R 
+    title: P L A C E H O L D E R  SLIDES or ACCORDION
     layout: media
     theme: t-bg-primary
     copy: |
@@ -90,57 +73,14 @@ sections:
 
   -
   -
-    title: On the web
-    theme: t-bg-secondary2 i-on-web
-    include:
-      type: on-the-web
-      copy: |
-        _Optional item depending on content_
+    title: Stretch
+    layout: media
+    theme: t-bg-primary2 i-stretch
+    copy: |
+      ###  Read - The Payback Matrix
 
-        Please see the following website where you can learn more about . . .
+      text
 
-      links:
-        website description: http://www.google.co.uk
-  -
-    title: Quick quiz
-    copy: Optional item - only one quiz if used - this type or the one below
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+    img: /images/svg/stretch_button.svg
+    link: 
   
-  -
-    title: Quick quiz
-    theme: i-quiz
-    subInc:
-      type: quick-quiz
-      content:
-        Is the following statement true or false? "statement":
-          answers:
-            True: true
-            False: false
-          feedback: text
-        Question 2:
-          answers:
-            Receiving calls: false
-            Summarising calls: false
-            Asking about the weather: true
-          feedback: text
-        Select one option to complete the following sentence:"text __________ text.":
-          answers:
-            Negative: false
-            Unprofessional: false
-            Positive: true
-          feedback: text
