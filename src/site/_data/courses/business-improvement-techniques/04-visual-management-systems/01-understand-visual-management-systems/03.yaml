@@ -24,14 +24,14 @@ sections:
             What do you wish to acheive with the visual management system? for example - increase efficiency or reduce errors?
 
             The purpose can vary depending on the specific needs of your organisation, but common goals include increasing efficiency, reducing errors, improving communication, enhancing productivity, fostering collaboration, promoting safety, and facilitating process improvement.
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_slide1.svg
         -
           title: Who are the audience?
           text: |
             Who will be using the system? Choose one that is useful for all the users and one that is easy to understand.
 
             It is important to choose a system that caters to the needs of all users and is accessible and easy to understand for everyone. By selecting a system that is useful and comprehensible for all users, you can maximise its effectiveness and ensure widespread adoption and engagement throughout the organisation.
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_slide2.svg
         -
           title: What information needs to be displayed?
           text: |
@@ -39,7 +39,7 @@ sections:
 
             it is important to determine the specific information that needs to be displayed to support your organisational goals. This may include production schedules, key performance indicators (KPIs), progress tracking, safety metrics, quality data, project timelines, resource allocation, and more. 
 
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_slide3.svg
         -
           title: Is it accessible to everyone that needs to use it?
           text: |
@@ -47,7 +47,7 @@ sections:
 
             Ideally, it should be placed in a central area where employees can view the information conveniently and regularly. Additionally, consider the need for mobility or remote access. Depending on the nature of your organisation's operations, it may be beneficial to have a system that can be accessed remotely or via mobile devices. 
 
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_slide4.svg
         -
           title: Cost
           text: |
@@ -55,7 +55,7 @@ sections:
 
             Include assessing the initial purchase price of the system as well as any recurring costs such as licensing fees or subscription fees. Additionally, consider the costs related to system updates, upgrades, and technical support to ensure the system remains functional and up-to-date. It is important to weigh these costs against the potential return on investment (ROI) that the system can deliver. 
 
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_slide5.svg
         -
           title: Future proof / Adaptability
           text: |
@@ -63,7 +63,7 @@ sections:
 
             Evaluate the anticipated duration for which the system will be needed, taking into account potential changes in organisational processes or requirements. Look for a system that offers flexibility and adaptability to accommodate future needs. Assess whether the system can be easily customised to fit your specific requirements or if it provides pre-made templates that can be tailored to your organisation's needs. 
 
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_slide6.svg
   -
   -
     title: On the web
@@ -103,22 +103,32 @@ sections:
           title: Kanban board
           copy: |
             Kanban boards visually organise workflow, improving efficiency and productivity.
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_reveal1.svg
         -
           title: Andon System
           copy: |
             Andon systems provide real-time alerts, enabling quick issue resolution during production or work processes.
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_reveal2.svg
         -
           title: Visual work instructions
           copy: |
             Visual work instructions standardise procedures, reducing errors and ensuring consistent outcomes.
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_reveal3.svg
         -
           title: Visual performance dashboard
           copy: |
             Visual performance dashboards display real-time key performance indicators, facilitating monitoring and data-driven decision-making.
-          img: placeholder_icon.svg
+          img: bit_u4_s1_p3_reveal4.svg
+        -
+          title: Visual sign
+          copy: |
+            Text
+          img: bit_u4_s1_p3_reveal5.svg
+        -
+          title: Shadow board
+          copy: |
+            Organises workspaces by having a clearly defined space for every day object such as tools or office equipment.  Allows items to be easily found and identified if lost.
+          img: bit_u4_s1_p3_reveal6.svg
   -
   -
     title: Watch 
