@@ -1,7 +1,7 @@
 title: Kaizen activity and improvements
 intro: |
   On this page you will learn how to carry out a Kaizen activity, and identify where improvements can be made within a work area or activity.
-banner: placeholder.jpg
+banner: bit_u3_s1_p3_banner.jpg
 sections:
   -
     title: Key point
@@ -13,11 +13,11 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      We’ve had a brief look at Kaizen on the previous page and seen some of the principles employed within the improvement process. An important part of this is having measurable movements, or to put it simply – ways to measure progress. These should be identified within the planning stage when the goal is known. E.g., if the goal is to reduce waste, how much is there to begin and what is the target? Once changes have been implemented, it’s then possible to measure if the waste has reduced by the target amount and if the change was successful.
+      We’ve had a brief look at Kaizen on the previous page and seen some of the principles employed within the improvement process. An important part of this is having measurable movements, or to put it simply – ways to measure progress. These should be identified within the planning stage when the goal is known. E.g., if the goal is to reduce waste, how much is there to begin with and what is the target? Once changes have been implemented, it’s then possible to measure if the waste has reduced by the target amount and if the change was successful.
       
       Remember the case study for Physical 3D on page 2? They had a measurable movement and reduced their assembly time by 20 minutes.
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/bit/bit_u3_s1_p3_image1.svg
   -
   -
     title: Watch 
@@ -27,7 +27,7 @@ sections:
       ### How to carry out a Kaizen activity
       
       In the following video we are going to show you how to carry out a Kaizen activity.
-    video: placeholder_pc.mp4
+    video: bit_u3_s1_p3_kaizen_activity.mp4
   -
     title: Time to think
     theme: t-bg-primary3 i-think
@@ -61,18 +61,16 @@ sections:
           copy: |
             Ariel applied his kaizen knowledge to the 3d hand assembly. Firstly, he listened to each individual and noted their concerns. He also asked them, what they’d like changed and how they prefer to work. Ariel then re-arranged the assembly area and re-distributed some of the tasks to fit the individuals better e.g. Meena was fitting small bolts, however she found this difficult with her arthritis, so she swapped with Jesse at the end of the line.
 
-            Through the re-arrangement of workstations and creation of new storage areas, a just in time system of parts was implemented, allowing for parts to be easily accessible for each task of the production. A new working pattern was provided to the packers, thus ensuring that their time was utilised effectively, and they were able to keep the completed hands flowing to the delivery area where storage was available.
+            Through the re-arrangement of workstations and creation of new storage areas, a just-in-time system of parts was implemented, allowing for parts to be easily accessible for each task of the production. A new working pattern was provided to the packers, thus ensuring that their time was utilised effectively, and they were able to keep the completed hands flowing to the delivery area where storage was available.
 
-            As a result of these Kaizen initiatives, Physical 3D has been able to significantly improve its efficiency and reduce errors in its assembly. For example, the company has reduced its average time assembly time for each hand from an hour to 40 minutes.
+            As a result of these Kaizen initiatives, Physical 3D has been able to significantly improve its efficiency and reduce errors in its assembly. For example, the company has reduced its average assembly time for each hand from an hour to 40 minutes. 
 
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/bit/bit_u3_s1_p3_case_study.svg
   -
   -
-    title: Time for an assessment task
-    theme: t-bg-primary3 i-practice
-    copy: |
-      Taking the above case study into consideration, .......... using the following [DOCUMENT NAME](/pdfs/) template document.
-
-      text
-      
-      Make sure you save this document as you will need to submit it to your tutor along with your unit 3 assessment.
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think about how you could improve a work area that you frequently use - see if you can identify any waste or problems.

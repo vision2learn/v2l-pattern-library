@@ -1,7 +1,7 @@
 title: Understand continuous improvement techniques
 intro: |
   On this page we will take a look at the main Kaizen principles and the eight wastes of lean.
-banner: placeholder.jpg
+banner: bit_u3_s1_p2_banner.jpg
 sections:
   -
     title: Key point
@@ -13,9 +13,9 @@ sections:
     layout: media
     theme: t-bg-supporting3
     copy: |
-      We briefly looked at some Lean tools and techniques in unit 2. Here will explore another Lean practice, known as Kaizen. Kaizen is a Japanese term, translated it means ‘continuous improvement’ and it uses incremental and continuous improvements in all areas of organisational operations e.g. processes, products, services and even people. The goal of Kaizen is to improve quality, efficiency, productivity and reduce waste and costs.  
+      We briefly looked at some Lean tools and techniques in unit 2. Here we will explore another Lean practice, known as Kaizen. Kaizen is a Japanese term, translated it means ‘continuous improvement’ and it uses incremental and continuous improvements in all areas of organisational operations e.g. processes, products, services and even people. The goal of Kaizen is to improve quality, efficiency, productivity and reduce waste and costs.  
 
-    img: /images/svg/placeholder_icon.svg
+    img: /images/svg/bit/bit_u3_s1_p2_image1.svg
   -
   -
     title: Principles of Kaizen
@@ -29,42 +29,42 @@ sections:
           title: Continuous improvement
           copy: |
             Kaizen encourages organisations to continually seek to improve their organisation and processes. Businesses should always be looking to make all areas of their organisation better.
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal1.svg
         -
           title: People
           copy: |
             Employees need to have a voice and decision-making should not just be restricted to management. Information should flow between the customers, people in the organisation and the suppliers.
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal2.svg
         -
           title: Change
           copy: |
             Change is good! Change should not be feared and avoided, but should be gradual. It is necessary for developing and improving businesses.
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal3.svg
         -
           title: Eliminating waste
           copy: |
             The less waste, the better! Resources should be used as efficiently as possible. As waste is eliminated in a business, value is added.
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal4.svg
         -
           title: Standardisation
           copy: |
             Standard processes and procedures ensure consistency and efficiency in all areas of the organisation. 
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal5.svg
         -
           title: Just in Time
           copy: |
             Services and goods should be produced or ordered just in time to meet demand. Large inventories are discouraged.
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal6.svg
         -
           title: Quality Control
           copy: |
             Quality control is introduced at every stage of the production process to ensure that products and service meet or exceed customer expectations. It also ensures that errors are detected quickly and dealt with immediately. 
-          img: placeholder_icon.svg
+          img: bit_u3_s1_p2_reveal7.svg
         -
           title: Teamwork
           copy: |
-            Every member of the organisation is important and all work together to achieve common goals. Emphasis is on teamwork and collaboration.  
-          img: placeholder_icon.svg
+            Every member of the organisation is important and everyone works together to achieve common goals. Emphasis is on teamwork and collaboration.  
+          img: bit_u3_s1_p2_reveal8.svg
     copy2: |
       The term ‘Kaizen’ means ‘gradual and orderly continuous improvement’.
 
@@ -94,7 +94,7 @@ sections:
 
             By implementing this small change, Toyota was able to reduce waste and improve efficiency in the production process. This is just one example of how the Kaizen philosophy has helped Toyota to continuously improve its operations and maintain its reputation for quality and reliability. 
             
-          img: /images/svg/placeholder_icon.svg
+          img: /images/svg/bit/bit_u3_s1_p2_case_study.svg
   -
   -
     title: Stretch
@@ -123,7 +123,7 @@ sections:
       
       Please see the following video on the 8 wastes of Lean and how to eliminate them.
 
-    video: placeholder_pc.mp4
+    video: bit_u3_s1_p2_eight_wastes_lean.mp4
   -
     title: Quick quiz
     copy: See if you can identify the 8 wastes of Lean in the following quiz questions.
@@ -164,4 +164,4 @@ sections:
         Please see the following website where you can see everyday examples of the 8 wastes of lean.
 
       links:
-        Examples of the 8 wastes of lean: hhttps://blog.kainexus.com/improvement-disciplines/lean/7-wastes-of-lean/everyday-examples-of-the-8-wastes-of-lean
+        Examples of the 8 wastes of lean: https://blog.kainexus.com/improvement-disciplines/lean/7-wastes-of-lean/everyday-examples-of-the-8-wastes-of-lean

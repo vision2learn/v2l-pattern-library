@@ -13,9 +13,9 @@ sections:
     layout: media
     theme: t-bg-primary
     copy: |
-      Workplace organisation is important for any business because it can directly impact the safety, health, and well-being of employees, as well as the efficiency and productivity of a business. A well-organised workplace can help reduce the risk of accidents, minimize the spread of illnesses, and prevent injuries. It can also make it easier for employees to locate tools and equipment, reduce clutter, and increase morale. By establishing clear processes and procedures, workplace organization can also help improve communication, reduce confusion, and prevent errors. 
+      Workplace organisation is important for any business because it can directly impact the safety, health, and well-being of employees, as well as the efficiency and productivity of a business. A well-organised workplace can help reduce the risk of accidents, minimise the spread of illnesses, and prevent injuries. It can also make it easier for employees to locate tools and equipment, reduce clutter, and increase morale. By establishing clear processes and procedures, workplace organisation can also help improve communication, reduce confusion, and prevent errors. 
 
-    img: /images/svg/bit/placeholder_icon.svg
+    img: /images/svg/bit/bit_u2_s1_p2_image1.svg
   -
   -
     title: Principles and techniques of workplace organisation
@@ -27,7 +27,7 @@ sections:
     title: 5S principles
     theme: t-bg-supporting3
     copy: |
-      5S is a workplace organisation methodology that includes five key principles: Sort, Set in Order, Shine, Standardize, and Sustain. The 5S principles involve decluttering, cleaning, organizing, and labeling the work environment. It helps to create a clean and orderly workplace that is safe and easy to navigate.
+      5S is a workplace organisation methodology that includes five key principles: Sort, Set in Order, Shine, Standardise, and Sustain. The 5S principles involve decluttering, cleaning, organising, and labeling the work environment. It helps to create a clean and orderly workplace that is safe and easy to navigate.
     subInc: 
       type: accordion
       content:
@@ -50,7 +50,7 @@ sections:
     title: Lean methodology
     theme: t-bg-supporting2
     copy: |
-      Lean is a management philosophy emphasising elimination of waste and the continuous improvement of processes to increase efficiency, reduce costs, and improve quality. The concept of lean originated in the Toyota Production System, a manufacturing system developed by Toyota in the 1950s, and has since been adopted by many other organizations in various industries. 
+      Lean is a management philosophy emphasising elimination of waste and the continuous improvement of processes to increase efficiency, reduce costs, and improve quality. The concept of lean originated in the Toyota Production System, a manufacturing system developed by Toyota in the 1950s, and has since been adopted by many other organisations in various industries. 
     subInc: 
       type: accordion
       content:
@@ -68,7 +68,7 @@ sections:
     title: Lean tools and techniques
     theme: t-bg-primary
     copy: |
-      Lean methodology involves the use of various tools and techniques to help organizations achieve these principles. These include: 
+      Lean methodology involves the use of various tools and techniques to help organisations achieve these principles. These include: 
 
     subInc: 
       type: slider
@@ -77,7 +77,7 @@ sections:
         -
           title: Layout and design
           text: |
-            The layout and design of the workplace should be designed to optimize the flow of materials and people. This can be achieved through the use of flow diagrams and process mapping, which helps to identify inefficiencies and bottlenecks in the workflow.
+            The layout and design of the workplace should be designed to optimise the flow of materials and people. This can be achieved through the use of flow diagrams and process mapping, which helps to identify inefficiencies and bottlenecks in the workflow.
           img: bit_u2_s1_p2_slide1.svg
         -
           title: Standardisation
@@ -87,8 +87,8 @@ sections:
         -
           title: Kanban
           text: |
-            Kanban is a workplace organisation technique that is used to control the flow of materials and equipment. It involves the use of cards, boards, or electronic systems to signal when a new batch of materials is needed. This can help to minimize waste and improve the flow of materials.
-          img: placeholder_icon.svg  
+            Kanban is a workplace organisation technique that is used to control the flow of materials and equipment. It involves the use of cards, boards, or electronic systems to signal when a new batch of materials is needed. This can help to minimise waste and improve the flow of materials.
+          img: bit_u2_s1_p2_slide3.svg  
         -
           title: Visual management
           text: |
@@ -97,7 +97,7 @@ sections:
         -
           title: Employee involvement
           text: |
-            Employee involvement is critical to the success of workplace organisation. By involving employees in the process of organizing their own workspaces, they will take ownership and be more motivated to maintain a safe and productive environment.
+            Employee involvement is critical to the success of workplace organisation. By involving employees in the process of organising their own workspaces, they will take ownership and be more motivated to maintain a safe and productive environment.
           img: bit_u2_s1_p2_slide5.svg  
   -
   -
@@ -106,9 +106,6 @@ sections:
     subInc: 
       type: word-quiz
       content:
-        -
-          sentence: Value stream is a principle of Lean.
-          answer: Lean
         -
           sentence: Set in order is a principle of 5S.
           answer: 5S

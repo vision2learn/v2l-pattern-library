@@ -1,6 +1,6 @@
-title: Standard Operating Procedures (SOPs)
+title: Standard Operating Procedures (SOPs) and Visual Controls
 intro: |
-  intro text 1.6
+  On this page you will learn about standard operating procedures and how to provide recommendations.  We will also look at visual controls.
 banner: bit_u2_s1_p5_banner.jpg
 sections:
   -
@@ -9,34 +9,74 @@ sections:
     copy: |
       In your assessment you will be required to provide recommendations for the creation of, or changes to, standard operating procedures (SOPs) and visual controls.
   -
+  -
+    title: Standard Operating Procedures
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      To assist organisations with their processes they may use a Standard Operating Procedure, usually referred to as a SOP.  These documents help with achieving consistency, quality, and the safety of operations and staff. SOPS are detailed instructions that outline the steps required to carry out specific tasks or activities. They are the processes and protocols that all staff are expected to follow, thus ensuring a uniformed approach, which minimises errors, inconsistencies and reduces variance.
+
+    img: /images/svg/bit/bit_u2_s1_p5_image1.svg
+  -
+  -
     title: Watch
     theme: t-bg-grey i-watch
     layout: media
     copy: |
-      ### Provide recommendations for the creation of a SOP
+      ### Provide recommendations for the creation or changes to a SOP
       
-      Please see the following video on 1.6
-    video: placeholder_pc.mp4
+      Please see the following video which will show you an example of a SOP.
+
+    video: bit_u2_s1_p5_sop_recommendations.mp4
   -
   -
-    title: Quick quiz
-    copy: 
+    title: Visual controls
+    theme: t-bg-primary
+    copy: |
+      When creating a Standard Operating Procedure (SOP), visual controls can help make things easier to understand.
+
+      Visual controls are part of visual management, which is a way of sharing information using pictures, signs, and other visual means.  (We take a look at visual mangement systems in more depth in Unit 4).
+      
+      Scroll through the slides below to learn more.
+
     subInc: 
-      type: word-quiz
-      content:
+      type: slider
+      title: 
+      slides:
         -
-          sentence: example one 
-          answer: one
+          title: Visual displays
+          text: |
+            Visual displays, such as posters and diagrams, share information but don't tell you what to do. On the other hand, __visual controls__ not only share information but also give you directions on what actions to take based on what you see.
+
+            Visual displays provide information, but __visual controls__ are designed to drive specific behaviors or actions. Displays and controls can be as simple or complicated as needed, starting from simple posters to detailed work instructions.
+          img: bit_u2_s1_p5_slide1.svg
         -
-          sentence: example two
-          answer: two
+          title: Using visuals controls to help understand the SOP
+          text: |
+            Visual controls should make things easier for you to understand and help you follow the SOP better. Visuals can include: Flowcharts, Checklists, Diagrams, Visual examples, Colour coding, Icons and symbols. For example, you could use a flowchart to show the order of steps, a diagram to explain complicated systems, or a checklist to mark off completed steps.
+          img: bit_u2_s1_p5_slide2.svg
         -
-          sentence: example three 
-          answer: three
+          title: Visual controls in a production process
+          text: |
+            Visual controls are like special tools and signs that show you how well a production process is going. They can be things like charts, boards, lights, labels, and symbols which help to share information, give instructions, give feedback, and send warnings to the workers and managers. They also help to quickly find and fix mistakes or problems that might happen. Visual controls are like helpers that make it easier to see and understand what's happening in the production process.
+          img: bit_u2_s1_p5_slide3.svg
         -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+          title: Examples of visual controls in a production environment
+          text: |
+            A simple shadow board for tools is a visual control because it guides you to put each tool in its designated spot, matching its shape.
+            
+            Color-coding is another type of visual control used on equipment. A flashing red light indicates a problem that needs inspection and intervention, while a flashing green light means everything is working fine and no action is required.
+          img: bit_u2_s1_p5_slide4.svg
+        -
+          title: Types of visual controls used in Industry
+          text: |
+            Typical types of visual controls used in industry include:
+            * Color coding - can be used to communicate status.
+            * Andon - is a system that indicates quality or a process issues.
+            * Standard work - ensures that employees understand allocated tasks, sequence of task, timings and outcome.
+            * Floor lines and signs - show pathways, intersections, vehicle lanes, working cells and ensure flow and safety.
+            * Kamishbai board and Tee Cards - are a simple way to determine if a task is complete or not.
+          img: bit_u2_s1_p5_slide5.svg      
   -
   -
     title: Time to think
@@ -44,11 +84,47 @@ sections:
     include: 
       type: time-to-think
       copy: |
-        On the previous page you looked at a case study and conducted your own workplace audit.  For question 6 of your assessment you will be required to provide recommendations for the creation of, or changes to, SOP and visual controls.
+        Using your learning from the video about visual controls in the kitchen, can you suggest appropriate visual controls for an office?
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - TableArt Industries
 
-        Make some notes here on how you would do this with your own SOP that you created on the previous page.
-        
-        _link in with Q5_
+      TableArt Industries is a small startup business which had grown a lot faster than expected.  Although this is good, it caused several issues on the production floor as the team were no longer able to work in their initial organic way which suited a smaller business. They were now overworked and disorganised due to the increased demand for the products.  This was causing quality issues and considerable stress.
+      
+      The manager and the team had a meeting to see what they could do to resolve these issues. They decided that they needed to simplify their operations, maintain the quality of their products, and maintain and promote the positive culture and working environment.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Implementation of Visual Controls
+          copy: |
+            1. __Standardised Work Instructions__: TableArt Industries created visual work instructions with clear illustrations and color coding. These instructions were displayed at each work station to ensure consistent operations.
+
+            2. __Andon System__: An andon system was introduced, featuring lights that workers could activate to signal production issues. This allowed for quick response and resolution by supervisors and maintenance staff.
+
+            3. __Kanban System__: a kanban system was implemented using visual cards to manage inventory. These cards provided real-time information on part numbers and quantities, enabling just-in-time production.
+
+            4. __Visual Quality Controls__: Visual controls were used to improve quality. Color-coded tags were used to indicate the status of components or products, identifying defects, rework needs, or acceptance.
+          img: /images/svg/bit/bit_u2_s1_p5_case_study1.svg
+        - 
+          title: Benefits and results
+          copy: |
+            * __Enhanced Communication__: Visual controls improved communication among team members, reducing errors and promoting collaboration.
+
+            * __Improved Efficiency__: The visual controls streamlined workflows, reducing delays and improving overall efficiency.
+
+            * __Increased Quality__: Visual quality controls helped identify and address defects promptly, resulting in improved product quality and customer satisfaction.
+
+            * __Empowered Workforce__: The visual controls empowered employees by providing clarity in their tasks, leading to increased engagement and contributions to process improvements.
+            
+          img: /images/svg/bit/bit_u2_s1_p5_case_study2.svg
+    copy2: |
+      By implementing visual controls, TableArt Industries successfully improved efficiency, communication, and quality. Standardised work instructions, the andon system, the kanban system, and visual quality controls played vital roles in achieving operational excellence. 
+      
+      This demonstrates the effectiveness of visual controls in simplifying operations and delivering positive outcomes for businesses.
   -
   -
     title: On the web
@@ -56,7 +132,9 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about . . .
+        Please see the following website where you can learn more about Standard Operating Procedures (SOP) and Visual Controls.
 
       links:
-        website description: http://www.google.co.uk  
+        SOP - What, Types and How to Write: https://blog.bit.ai/standard-operating-procedures-sop/ 
+        What is visual control: http://www.businessknowledgesource.com/manufacturing/what_is_visual_control_extended_entry_026161.html
+        5 types of visual controls: https://txm.com/5-types-of-visual-controls/
