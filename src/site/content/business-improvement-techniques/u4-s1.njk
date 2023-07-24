@@ -1,0 +1,16 @@
+---js
+{
+  unit: 4,
+  session: 1,
+  pagination: {
+    data: "courses['business-improvement-techniques']['04-visual-management-systems']['01-understand-visual-management-systems']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->

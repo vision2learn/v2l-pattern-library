@@ -1,0 +1,163 @@
+title: Visual Management Systems and Visual controls
+intro: |
+  On this page you will learn about visual management systems and visual controls.
+banner: bit_u4_s1_p2_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Explain the purpose of a visual management system
+      * Identify appropriate parts of a process or work area that would benefit from visual controls
+  -
+    title: Visual Management Systems
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      One of the first things to consider when selecting a visual management system is the purpose. What are the goals? What do you wish to achieve with the visual management system? For example, is it needed to increase efficiency, improve communication, or reduce errors?
+
+      A visual management system uses visual cues, such as charts, graphs, and signs, to make information easy to understand and help teams work more efficiently. It allows for quick communication, helps to identify problems, and promotes improvement. Do you recall that we looked at these briefly at the end of unit 2? In this unit we'll learn more about what they are and how they're used.
+
+    img: /images/svg/bit/bit_u4_s1_p2_image1.svg
+  -
+  -
+    title: Benefits
+    theme: t-bg-primary
+    copy: |
+      A visual management system has several benefits including:
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Compliance with Health and Safety
+          copy: |
+            Clear visual indicators, such as color-coded instructions, safety signs, and labels, help employees easily identify and follow safety guidelines. This promotes a safe working environment, reduces the risk of accidents, and helps organisations meet their legal obligations.
+        - 
+          title: Improved communication
+          copy: |
+            By using visual cues such as charts, diagrams, and Kanban boards, information is presented in a clear and concise manner, making it easier for everyone to understand, regardless of language barriers or educational backgrounds. This fosters effective communication, ensuring that tasks, goals, progress, and expectations are communicated accurately and efficiently. 
+        - 
+          title: Awareness of performance
+          copy: |
+            Visual management systems provide real-time visual dashboards that offer insights into key performance indicators (KPIs) and metrics. These visual representations enable employees to track their performance and understand how the organisation is performing as a whole. By providing clear visibility of performance data, employees gain a deeper awareness of their contribution, can identify areas for improvement, and take proactive measures to enhance their own performance. 
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Visual management systems
+      
+      Please see the following video where you will learn more about the purpose and benefits of visual management systems.
+    video: bit_u4_s1_p2_visual_management_systems.mp4
+  -
+  -
+    title: Visual controls
+    theme: 
+    
+    copy: |
+      The following activity is an example of a warehouse which shows how a visual management system with visual controls can be implemented. Have a look at the different parts of the process that are involved. 
+
+    interactive: 
+      file: bit/u4_s1_p2_visual_controls
+      width: 1024
+      height: 800
+      composition: 97AB9FE1DC314C56B195F809D7FADB52
+  -
+  -
+    title: Quick quiz
+    copy: 
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The purpose of a visual management system is to provide a visual representation of information and data in order to enhance communication and understanding within the organisation.
+          answer: communication and understanding
+        -
+          sentence: Visual management systems are designed to promote standardisation and consistency in processes and improve overall operational efficiency.
+          answer: standardisation and consistency
+        -
+          sentence: By using visual cues and displays, a visual management system helps teams and organisations to quickly identify areas of improvement and performance gaps.
+          answer: improvement and performance
+        -
+          sentence: The main goal of implementing a visual management system is to enable effective decision-making and problem-solving in real-time.
+          answer: decision-making and problem-solving
+    theme: i-quiz
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Physical 3D
+
+      In unit 3, Physical 3D did a great job of applying Kaizen techniques to improve efficiency and reduce errors in its assembly.  They are looking at how they can further enhance productivity, improve quality, and ensure efficient workflow within their manufacturing processes.  To do this they needed to identify where in their current process and/or work areas would benefit from visual controls.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Challenges
+          copy: |
+            After further reviewing the assembly of the prosthetic hands, Physical 3D found several challenges related to process efficiency and standardisation. To address these challenges, the company aims to implement visual controls within a particular process workflow and dedicated work area. 
+
+            First of all the company needed to:
+
+            Identify which part of the process or work area would benefit from visual controls.
+            
+            The objectives include:
+            1. Streamlining workstation organisation
+            2. Enhancing Quality control
+            3. Improving equipment operation and maintenance
+            4. Visualising process sequencing
+            5. Ensuring safety compliance
+          img: /images/svg/bit/bit_u4_s1_p2_case_study.svg         
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think about how Physical 3D identified where in their process and work areas that would benefit from visual controls before reading further.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Physical 3D
+
+      Through the implementation of visual controls in a dedicated work area, Physical 3D successfully improved process efficiency, quality control, equipment operation, workflow management, and safety compliance. By effectively utilising visual cues, the company enhanced organisation, productivity, and overall performance within their manufacturing and office processes and dedicated work areas.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Results and benefits
+          copy: |
+            __Enhanced organisation and efficiency:__
+            By using color-coded markings, labeled storage systems, and designated workstations, Physical 3D improved organisation, reduced clutter, and increased productivity. Operators can quickly locate tools and materials, leading to smoother workflow and reduced setup time.
+
+            __Improved Quality Control:__
+            Visual controls at quality checkpoints enabled operators to visually identify quality standards and promptly address any deviations. This resulted in improved product quality, reduced defects, and increased customer satisfaction.
+
+            __Effective equipment operation and maintenance:__
+            Equipment-specific visual controls, such as diagrams and instructions, helped operators operate machinery correctly and perform routine maintenance tasks. This led to increased equipment reliability, reduced downtime, and improved overall equipment effectiveness (OEE).
+
+            __Streamlined process sequencing:__
+            Visual controls, such as flowcharts or digital displays, provided operators with a clear visual representation of process sequencing. This minimised errors, improved task coordination, and facilitated efficient workflow management.
+
+            __Enhanced safety awareness:__
+            Visual controls, including safety signs, labels, and color-coded markings, heightened safety awareness among employees. Operators could easily identify safety procedures, equipment locations, and potential hazards, resulting in a safer working environment and reduced accident risks.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about visual controls in the workplace.
+
+      links:
+        Visual controls in the workplace: https://txm.com/visual-controls-workplace/
+        5 types of visual controls: https://txm.com/5-types-of-visual-controls/
