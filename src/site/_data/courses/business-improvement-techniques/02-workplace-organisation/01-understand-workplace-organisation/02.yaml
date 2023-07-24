@@ -1,0 +1,147 @@
+title: Principles and techniques in the workplace
+intro: |
+ On this page you will learn about the principles and techniques that support workplace organisation and the benfits of having an organised workplace environment.
+banner: bit_u2_s1_p2_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain the principles and techniques of workplace organisation.
+  -
+    title: Workplace organisation
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      Workplace organisation is important for any business because it can directly impact the safety, health, and well-being of employees, as well as the efficiency and productivity of a business. A well-organised workplace can help reduce the risk of accidents, minimise the spread of illnesses, and prevent injuries. It can also make it easier for employees to locate tools and equipment, reduce clutter, and increase morale. By establishing clear processes and procedures, workplace organisation can also help improve communication, reduce confusion, and prevent errors. 
+
+    img: /images/svg/bit/bit_u2_s1_p2_image1.svg
+  -
+  -
+    title: Principles and techniques of workplace organisation
+    theme: 
+    copy: |
+      Workplace organisation involves the arrangement of resources, tools, and equipment in a way that promotes efficiency, safety, and productivity. Below, we will look at the main principle of workplace organisation – the 5S. Firstly, let’s explore the main techniques, which are all part of Lean organisation. You can see the different elements of Lean in the following slides:
+  -
+  -
+    title: 5S principles
+    theme: t-bg-supporting3
+    copy: |
+      5S is a workplace organisation methodology that includes five key principles: Sort, Set in Order, Shine, Standardise, and Sustain. The 5S principles involve decluttering, cleaning, organising, and labeling the work environment. It helps to create a clean and orderly workplace that is safe and easy to navigate.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Applying the 5S principles
+          copy: |
+            When aiming to create a clean, orderly and logical workplace, it helps to have a structured, **systematic approach** in order to identify where and how improvements can be made. 
+            
+            The **5S** approach enables workers to set appropriate workplace **standards** then identify any negative variations or abnormalities. Once these have been identified, it is possible to take action to correct them.
+            
+            The five principles includes: 
+            * __Sort__: separate items into what’s necessary and unnecessary. Remove the unnecessary and organise the necessary items.  
+            * __Set in order__: Order everything so that each item has a place and can be easily found. 
+            * __Shine__: Have a regular cleaning and maintenance system to ensure that the workplace remains organised 
+            * __Standardise__: Ensure that everyone follows the same process by setting clear standards and procedures.  
+            * __Sustain__: Maintain the organised workplace through training, auditing and improvement practices. 
+          img: /images/svg/bit/bit_u2_s1_p2_accordion1.svg
+  -
+  -
+    title: Lean methodology
+    theme: t-bg-supporting2
+    copy: |
+      Lean is a management philosophy emphasising elimination of waste and the continuous improvement of processes to increase efficiency, reduce costs, and improve quality. The concept of lean originated in the Toyota Production System, a manufacturing system developed by Toyota in the 1950s, and has since been adopted by many other organisations in various industries. 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: The main principles of lean
+          copy: |
+            1. __Value__: Identify the value that customers place on the product or service. 
+            2. __Value stream__: Identify the steps in the process that create value and eliminate any steps that do not. 
+            3. __Flow__: Ensure that the remaining steps in the process flow smoothly and without interruption. 
+            4. __Pull__: Produce only what is needed, when it is needed, and in the quantity needed. 
+            5. __Perfection__: Continuously improve the process to eliminate waste and increase efficiency.  
+            
+          img: /images/svg/bit/bit_u2_s1_p2_accordion2.svg
+  -
+    title: Lean tools and techniques
+    theme: t-bg-primary
+    copy: |
+      Lean methodology involves the use of various tools and techniques to help organisations achieve these principles. These include: 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Layout and design
+          text: |
+            The layout and design of the workplace should be designed to optimise the flow of materials and people. This can be achieved through the use of flow diagrams and process mapping, which helps to identify inefficiencies and bottlenecks in the workflow.
+          img: bit_u2_s1_p2_slide1.svg
+        -
+          title: Standardisation
+          text: |
+            Establishing standard procedures for tasks, processes, and equipment helps to ensure that everyone is working with the same information and following the same procedures. This can help to reduce errors, improve efficiency and safety.
+          img: bit_u2_s1_p2_slide2.svg
+        -
+          title: Kanban
+          text: |
+            Kanban is a workplace organisation technique that is used to control the flow of materials and equipment. It involves the use of cards, boards, or electronic systems to signal when a new batch of materials is needed. This can help to minimise waste and improve the flow of materials.
+          img: bit_u2_s1_p2_slide3.svg  
+        -
+          title: Visual management
+          text: |
+            Visual management is a technique that uses visual cues, such as signs, labels, or color-coding, to communicate information and instructions. This can help to improve communication and reduce errors in the workplace.
+          img: bit_u2_s1_p2_slide4.svg
+        -
+          title: Employee involvement
+          text: |
+            Employee involvement is critical to the success of workplace organisation. By involving employees in the process of organising their own workspaces, they will take ownership and be more motivated to maintain a safe and productive environment.
+          img: bit_u2_s1_p2_slide5.svg  
+  -
+  -
+    title: Quick quiz
+    copy: Select Lean or 5S to complete the following sentences.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Set in order is a principle of 5S.
+          answer: 5S
+        -
+          sentence: Sort is a principle of 5S.
+          answer: 5S
+        -
+          sentence: Perfection is a principle of Lean.
+          answer: Lean
+        -
+          sentence: Sustain is a principle of 5S.
+          answer: 5S
+        -
+          sentence: Flow is a principle of Lean.
+          answer: Lean
+        -
+          sentence: Pull is a principle of Lean.
+          answer: Lean
+        -
+          sentence: Shine is a principle of 5S.
+          answer: 5S
+        -
+          sentence: Standardise is a principle of 5S.
+          answer: 5S
+        -
+          sentence: Value is a principle of Lean.
+          answer: Lean
+    theme: i-quiz
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about 5S and Lean.
+
+      links:
+        Connection between 5S and Lean: https://blog.5stoday.com/connection-between-5s-and-lean/
+        Lean methodology: https://uk.indeed.com/career-advice/career-development/what-is-lean-methodology

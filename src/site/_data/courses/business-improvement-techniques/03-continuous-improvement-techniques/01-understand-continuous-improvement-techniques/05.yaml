@@ -1,0 +1,109 @@
+title: Standardised working document (SOP)
+intro: |
+  On this page you will learn about standard operating procedures (SOPs) and how to create one.
+banner: bit_u3_s1_p5_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      In your assessment you will be required to describe the information required to create a standard operating procedure (SOP).
+  -
+  -
+    title: Things to consider when creating a SOP
+    theme: t-bg-primary
+    copy: |
+     When creating a Standard Operating Procedure (SOP), several factors should be considered. SOPs play an important role in organisations by providing a structured framework for operations. They offer numerous benefits including reducing variability, ensuring consistency, and improving overall efficiency.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Format, audience, and purpose
+          text: |
+            When creating a Standard Operating Procedure (SOP), it is important to consider the format used, ensuring it is clear and concise for the intended audience. The format should be chosen based on the organisation's needs and may include step-by-step instructions, flowcharts, or checklists. 
+            
+            The language, technical terms, and level of detail will need to be considered for the intended audience, and this will also enhance accessibility. 
+            
+            Clearly stating the purpose of the SOP will help to provide context and direction for standardising processes, help to ensure compliance, enhance safety, and improve efficiency.
+
+          img: bit_u3_s1_p5_slide1.svg
+        -
+          title: Content to consider
+          text: |
+            When developing a Standard Operating Procedure (SOP), it is essential to include comprehensive information about the work activity. This entails specifying the required materials, equipment, and quantities, as well as provide a detailed overview of the task's purpose, objectives, and context. 
+            
+            It is a good idea to clearly define the responsibilities of each individual involved in the process and break down the task into clear and logical steps with appropriate instructions for each team member; this will ensures accountability and helps to facilitate smooth execution.
+            
+            Addressing potential problem areas or challenges that may arise during the process, while incorporating quality control measures, such as inspections or checkpoints, will ensure the desired outcome and adhere to set standards.
+
+          img: bit_u3_s1_p5_slide2.svg
+        -
+          title: Instructions
+          text: |
+            The task or process needs to be broken down into clear and logical steps. A consistent structure and numbering system should be used to guide the reader through the procedure. An easy-to-follow structure, such as headings, subheadings, and a numbering system, can be used to enhance clarity and organisation. Each step should be described in sufficient detail, outlining the specific actions to be taken and the sequence in which they should occur. 
+            
+            Additionally, necessary warnings, cautions, or important considerations can be included at relevant points to ensure safety, minimise errors, and address potential risks or challenges that may arise during the task or process. 
+            
+            By providing explicit and detailed instructions, the SOP enables employees to perform their tasks accurately and efficiently, promoting consistency and quality in the work performed.
+
+          img: bit_u3_s1_p5_slide3.svg
+    copy2: |
+      A well-crafted SOP should be user-friendly, easily understandable, and provide comprehensive guidance to the individuals performing the task. Regular review and updates should also be conducted to keep the SOP relevant and accurate.
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following short youtube video on why a Standard Operating Procedure is important.
+
+      links:
+        Why is a Standard Operating Procedure important: https://www.youtube.com/watch?v=nT81nHZyCYM
+  -
+  -
+    title: Sample SOP
+    theme: t-bg-primary2 i-read
+    copy: |
+      Please take a look at the following example SOP document: 
+
+      [Sample SOP for serving food](/pdfs/bit_u3_s1_p5_read_sop.pdf).
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Taking into consideration the above SOP and the audit that you worked on in Unit 2 (Page 4), make a note of what information would be needed to create a SOP for maintaining a clean and tidy office at Physical 3D. (Refer back to Unit 2, Page 4 to recap on the audit of Physical 3D's office)
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to prepare a standardised work document suggesting how to eliminate variance to process.
+  -
+  -
+    title: Eliminate variance in process
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      "Eliminate variance in process" means to reduce or remove any inconsistencies, variations, or deviations from the established standard or desired outcome of a process. It aims to create a consistent and predictable workflow where all steps are performed consistently and produce similar results each time.
+
+      Organisation’s may use SOPs to eliminate variance, strive to achieve greater efficiency, quality, and reliability in their operations. Using a SOP can help with identifying and addressing factors that contribute to variations, such as inadequate training, unclear instructions, equipment issues, or external influences.
+
+      SOPs allow for standardised processes, clear guidelines, and quality control measures; all of which may be used to eliminate variance in a process.
+
+    img: /images/svg/bit/bit_u3_s1_p5_image1.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Prepare a standardised work document
+      
+      Please see the following video which gives an example of a standardised work document (SOP).
+    video: bit_u3_s1_p5_prepare_sop.mp4
