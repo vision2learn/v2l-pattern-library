@@ -1,0 +1,96 @@
+title: Workplace hazards and risks
+intro: |
+  On this page you will learn about
+  * The difference between hazards and risks
+  * How to identify hazards and risk
+  * How to reduce hazards and risks
+banner: bit_u1_s1_p4_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain what constitutes a hazard and what constitutes a risk in the workplace.
+  -
+    title: Workplace hazard
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      The meaning of the word hazard can be confusing. Often dictionaries do not give specific definitions or combine it with the term "risk". For example, one dictionary defines hazard as "a danger or risk" which helps explain why many people use the terms interchangeably. There are many definitions for hazard but the most common definition when talking about workplace health and safety is:
+
+      A __hazard__ is any source of __potential__ damage, harm or adverse health effects on something or someone, (for example, to people as health effects, to organizations as property or equipment losses, or to the environment). 
+
+      So what about Risks?
+      A __risk__ is the __chance__ or __probability__ that a person will be harmed or experience an adverse health effect if exposed to a hazard. It may also apply to situations with property or equipment loss, or harmful effects on the environment. 
+    img: /images/svg/bit/bit_u1_s1_p4_image1.svg
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### Hazards and risks in the workplace
+
+      Lets take a look at the different hazards and risks that can be present in the workplace. 
+    video: bit_u1_s1_p4_hazards_risks.mp4
+  -
+    title: Quick quiz
+    theme: i-quiz
+    copy: Remember the case study on page 3, where Sonia found some boxes on the stairway? If not, go back and refresh your memory, then answer the following questions.
+    subInc:
+      type: quick-quiz
+      content:
+        In this Scenario the hazard is:
+          answers:
+            The stairs are not used often: false 
+            Sonia is using the wrong exit to leave the building: false
+            Boxes on the stairs: True
+        The risk is:
+          answers:
+            The boxes might fall: false
+            Someone using the stairs might trip on the boxes: false
+            The boxes could block the access in an emergency: false
+            All of the above: true
+  -
+  -
+    title: Activity
+    layout: media
+    theme: t-bg-primary2
+    copy: |
+      ### Hazard or Risk?
+
+      Select the following icon to have a go at an activity to see if you can identify the differences between a hazard and a risk.
+
+    img: /images/svg/Activity_button.svg
+    activity: 
+      ref: bit_u1_s1_p4_activity_hazards_risks
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to:
+      * Identify potential risks and hazards associated with a work activity
+      * Describe how potential risks and hazards can be reduced
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### What is a risk assessment?
+
+      In the following video you will learn what a risk assessment is and how it will help you to identify the risks and hazards associated with a work activity and how to reduce them.
+    video: bit_u1_s1_p4_risk_assessment.mp4
+  -
+    title: Time for an assessment
+    theme: t-bg-primary3 i-practice
+    copy: |
+      ### Risk assessment
+
+      Download and complete the following document: [Unit 1 Session 1 Question 4 - Risk Assessment](/pdfs/bit_u1_s1_p4_risk_assessment.docx) 
+
+      Use the below image to identify the hazards and risks, and complete the risk assessment (download from above).
+      
+      ![](/images/svg/bit/bit_u1_s1_p4_wide_image.svg)
+      
+      Make sure you save this document as you will need to submit it to your tutor along with your unit 1 assessment.

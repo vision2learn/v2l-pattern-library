@@ -1,0 +1,76 @@
+title: Kaizen activity and improvements
+intro: |
+  On this page you will learn how to carry out a Kaizen activity, and identify where improvements can be made within a work area or activity.
+banner: bit_u3_s1_p3_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to carry out a Kaizen activity and establish measurable movements.
+  -
+    title: Introduction
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      We’ve had a brief look at Kaizen on the previous page and seen some of the principles employed within the improvement process. An important part of this is having measurable movements, or to put it simply – ways to measure progress. These should be identified within the planning stage when the goal is known. E.g., if the goal is to reduce waste, how much is there to begin with and what is the target? Once changes have been implemented, it’s then possible to measure if the waste has reduced by the target amount and if the change was successful.
+      
+      Have a look at the case study at the bottom of this page to see how Physical 3D reduced their assembly time following a review using Kaizen principles. 
+
+    img: /images/svg/bit/bit_u3_s1_p3_image1.svg
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How to carry out a Kaizen activity
+      
+      In the following video we are going to show you how to carry out a Kaizen activity.
+    video: bit_u3_s1_p3_kaizen_activity.mp4
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Now you have watched the video, make some notes here on establishing measurable movements within a Kaizen activity.
+  -
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to identify waste, problems or conditions within a work area or activity where improvements can be made.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Physical 3D
+
+      Physical 3D have begun assembling the first prosthetic hands ready for the upcoming delivery date. Surprisingly, assembly has taken longer than expected with staff showing frustration and complaining about seemingly small things. A review of the assembly line was undertaken by Ariel, who noted a few things:
+      * Some small items such as nuts and bolts were not easily to hand, meaning workers brought a pile to their work area and then had difficulty keeping track of them as they fell on the floor or rolled around the workstation.
+      * Some parts were still in the warehouse and needed a forklift to bring them down from high shelving.
+      * The production space was crowded with people sharing a workstation even though they were working on different assembly parts.
+      * There was delay with packing and assembled hands were piling up, causing even less room to manoeuvre and becoming hazardous.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Solution
+          copy: |
+            Ariel applied his kaizen knowledge to the 3d hand assembly. Firstly, he listened to each individual and noted their concerns. He also asked them, what they’d like changed and how they prefer to work. Ariel then re-arranged the assembly area and re-distributed some of the tasks to fit the individuals better e.g. Meena was fitting small bolts, however she found this difficult with her arthritis, so she swapped with Jesse at the end of the line.
+
+            Through the re-arrangement of workstations and creation of new storage areas, a just-in-time system of parts was implemented, allowing for parts to be easily accessible for each task of the production. A new working pattern was provided to the packers, thus ensuring that their time was utilised effectively, and they were able to keep the completed hands flowing to the delivery area where storage was available.
+
+            As a result of these Kaizen initiatives, Physical 3D has been able to significantly improve its efficiency and reduce errors in its assembly. For example, the company has reduced its average assembly time for each hand from an hour to 40 minutes. 
+
+          img: /images/svg/bit/bit_u3_s1_p3_case_study.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Have a think about how you could improve a work area that you frequently use - see if you can identify any waste or problems.

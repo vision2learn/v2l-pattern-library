@@ -1,0 +1,189 @@
+title: How to work safely
+intro: |
+  In this session you will develop your understanding of how to work safely and effectively as part of a team. 
+  
+  You will also learn about regulations, safe working practices and procedures that apply to a work area, and be able to identify hazards and risks and how they can be reduced.
+banner: bit_u1_s1_p3_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to describe the specific regulations, safe working practices and procedures that apply to a work activity 
+  -
+    title: Introduction 
+    layout: media
+    theme: t-bg-primary
+    copy: |
+      All workplaces must adhere to certain regulations. To do this they must have safe working practices and procedures in place. Some of these will be very familiar to you e.g. Health and Safety.  To understand what the difference is between regulations, safe working practices and procedures, you can think about the overall legislation which is The Health and Safety at Work Act 1974. This tells employers what they must do, it’s then up to the employer to ensure that their staff comply. Safe working practices are what’s done day to day by everyone, often they will have a writtten procedure for all staff to follow. 
+
+    img: /images/svg/bit/bit_u1_s1_p3_image1.svg
+  -
+    title: Regulations, safe working practices and procedures 
+    theme: t-bg-supporting3
+    copy: |
+      There are many regulations, procedures and working practices relevant to workplaces. Some are specific to the type  of work being performed whilst others are relevant to all workplaces.
+
+      Scroll through the slides below to see an example of how one piece of legislation is applied in the workplace 
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Legislation
+          text: |
+            The Health and Safety at Work Act 1974 (HASAWA) is the law that tells every employer that they must ensure, so far as reasonably practicable, the health, safety and welfare of persons at work. It states that employers are responsible for protecting the safety of their employees at work. Elements within the legislation include:
+
+            * **Safety** &rarr; No illness or risk of illness due to working conditions.
+            * **Morale** &rarr; No injury or accident or risk of accident or death due to work.
+            * **Welfare** &rarr; Good working conditions – washing, toilets, rest breakout area, refreshment facilities, ventilation etc.
+            * **Environment** &rarr; Controlling pollution to the air, water and land.
+          img: bit_u1_s1_p3_slide1.svg
+        -
+          title: Safe Working Practices
+          text: |
+            Employees are expected to follow safe working practices within their day to day activities, which align with HASAWA. These include:
+
+             * Take reasonable care for your own health and safety and that of others who may be affected by what you do or don’t do.
+
+             * Co-operate with your employer on health and safety.
+
+             * Correctly use work items provided by your employer including personal protective equipment, in accordance with training or instructions.
+
+             * Not to interfere with or misuse anything provided for your health, safety, or welfare.
+
+             * Report any accidents or near misses as they happen.
+
+          img: bit_u1_s1_p3_slide2.svg
+        -
+          title: Policies
+          text: |
+            The legislation states that organisations with more than 5 employees must have a written Health and Safety policy. The policy will inform staff and visitors how the organisation manages their health, safety and wellbeing, clearly identifying who does what, how they do it and when. The policy should contain:
+
+            * Statement of intent – what the organisations aims are for health & Safety. This should be displayed where all can read it. 
+
+            * Responsibilities for health & safety – name the people and their job roles with specific responsibility
+
+            * Arrangements for health & Safety – describe precisely how the organisation will control risks. 
+
+            Organisations with less than 5 people do not have to write down a policy, but it’s considered good practice to do so. 
+          img: bit_u1_s1_p3_slide3.svg   
+         
+  -
+    title: Different workplace legislation
+    theme: t-bg-primary
+    copy: |
+     There are many pieces of legislation in place to help keep the workplace as safe possible. The ones that are relevant to you will depend on the type of work you do, but let’s take a look at some of the most common:
+
+    subInc: 
+      type: reveal
+      content:
+        -
+          title: MHSWR
+          copy: |
+            Management of Health and Safety at Work Regulations 1999 - Covers risk assessments in the workplace 
+          img: bit_u1_s1_p3_reveal1.svg
+        -
+          title: WHSWR
+          copy: |
+            Workplace (Health, Safety and Welfare) Regulations 1992 - Covers slipping and tripping hazards such as trailing cables, floor cleaning and spillages
+          img: bit_u1_s1_p3_reveal2.svg
+        -
+          title: MHOR
+          copy: |
+            Manual Handling Operations Regulations 1992 - Covering manual lifting practices and mechanical lifting aids.
+          img: bit_u1_s1_p3_reveal3.svg
+        -
+          title: EAWR
+          copy: |
+            Electricity at Work Regulations 1989 - Covers making sure electrical equipment is safe to use, applies to all aspects of the use of electricity within the workplace.
+          img: bit_u1_s1_p3_reveal4.svg
+        -
+          title: DSE
+          copy: |
+            Health & Safety (Display Screen Equipment) Regulations 1992 (2002) - Covers making sure electrical equipment is safe to use, applies to all aspects of the use of electricity within the workplace.
+          img: bit_u1_s1_p3_reveal5.svg
+        -
+          title: WAHR
+          copy: |
+            Work at Height Regulations 2005 - covers falls from height including stepladders and lifting equipment.
+          img: bit_u1_s1_p3_reveal6.svg
+        -
+          title: COSHH
+          copy: |
+            Control of Substances Hazardous to Health Regulations 2002 - Regulations require employers to control exposure to substances that can harm workers health.
+          img: bit_u1_s1_p3_reveal7.svg
+        -
+          title: PPE
+          copy: |
+            Personal Protective Equipment Regulations 2002 - As required, employers must provide personal protective equipment to reduce the risk of injury free of charge.
+          img: bit_u1_s1_p3_reveal8.svg  
+        -
+          title: RIDDOR
+          copy: |
+            Reporting of Injuries, Diseases & Dangerous Occurrences Regulations 1995 - Requires employers, self-employed and those in control of premises to report specified workplace incidents to the HSE or Local authority. 
+          img: bit_u1_s1_p3_reveal9.svg             
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+       There are many other types of workplace Health and Safety legislation that may be relevant to you and your job role. Here are some links to read more:
+
+      links:
+        Control of Noise at Work Regulations 2005: https://www.hse.gov.uk/noise/employers.htm#:~:text=The%20Control%20of%20Noise%20at,duties%20under%20the%20Regulations%20too
+        Lifting Operations and Lifting Equipment Regulations (LOLER): https://www.hse.gov.uk/work-equipment-machinery/loler.htm
+        Provision and Use of Work Equipment Regulations (PUWER): https://www.hse.gov.uk/work-equipment-machinery/puwer.htm#:~:text=PUWER%20requires%20that%20equipment%20provided,adequate%20information%2C%20instruction%20and%20training
+  -
+  -
+    title: Other risks and hazards
+    layout: media
+    theme: t-bg-primary1b
+    copy: |
+      Other risks and hazards that we may encounter within any job and interaction that we have include: __safeguarding, Prevent, British values, equality, Diversity & Inclusion, sexual consent and harassment__. It’s important that you are aware of your organisation’s policies for such areas and understand the correct conduct that you and your colleagues should display. Sometimes a person may not realise that they are being radicalised (encouraged to support extreme ideologies), groomed or are facilitating racial behaviour. It’s therefore important that you are vigilant to such possibilities and know how to address any unwarranted behaviour should it occur.
+
+    img: /images/svg/bit/bit_u1_s1_p3_image2.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Physical 3D
+
+      Sonia is the office manager at Physical 3D, a 3D printing company. She’s just used the back stairs to exit the building for the first time in several weeks and notices that there’s a pile of boxes on the landing.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Hazard
+          copy: |
+            The boxes are a hazard as they partially block the access.
+            
+            “Someone could knock these on their way past and risk having an accident” Sonia thinks to herself.  
+            
+            She checks the Health and Safety Policy, which states that stairways must remain clear and that as part of their safe working practices, all staff are responsible for reporting anything might cause harm. 
+            
+          img: /images/svg/bit/bit_u1_s1_p3_case_study.svg
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        In the about case study, which of the following legislations would be referenced?:
+          answers:
+            DSE : false
+            WHSWR : true
+            MHOR : false
+            PPE : false
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In the above case study, Sonia only noticed the hazard when she used the back stairs which she doesn't use very often. What do you think could have been done to prevent the hazard from happening in the first place?
