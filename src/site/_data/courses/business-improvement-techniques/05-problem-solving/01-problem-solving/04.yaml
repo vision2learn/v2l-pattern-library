@@ -1,0 +1,108 @@
+title: How to prevent reoccurrences of the problems
+intro: |
+  On this page we take a look at how to prevent reoccurrences of the problems.
+banner: bit_u5_s1_p4_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to prevent reoccurrence of the problems.
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### How to prevent reoccurrence of the problems
+      
+      Preventing the reoccurrence of a business problem involves implementing proactive measures to address the root cause and create safeguards against future occurrences. Take a look at the following video which outlines seven steps to help prevent reoccurrence of a business problem.
+
+    video: bit_u5_s1_p4_prevent_reoccurrence.mp4
+  -
+  -
+    title: Quick quiz
+    copy: Have a go at identifying the following steps that can help prevent reoccurrence of a business problem.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Step 1 - Identify the root cause. 
+          answer: Identify the root cause
+        -
+          sentence: Step 2 - Create a plan to address the problem.
+          answer: Create a plan to address the problem
+        -
+          sentence: Step 3 - Implement preventive measures.
+          answer: Implement preventive measures
+        -
+          sentence: Step 4 - Monitor effectiveness.
+          answer: Monitor effectiveness
+        -
+          sentence: Step 5 - Encourage continuous improvement.
+          answer: Encourage continuous improvement
+        -
+          sentence: Step 6 - Conduct regular reviews.
+          answer: Conduct regular reviews
+        -
+          sentence: Step 7 - Learn from past experiences.
+          answer: Learn from past experiences        
+    theme: i-quiz
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Sweet Delights
+
+      A small bakery called Sweet Delights had a problem with their delivery service. Many customers complained that their orders arrived late or were sometimes incorrect. This caused frustration and affected the bakery's reputation.
+
+      The bakery's owner, Mrs. Eclair, realised the seriousness of the problem and decided to take action. She gathered her team and implemented a formalised problem-solving process.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: A formalised problem-solving process
+          copy: |
+            First, they identified the root causes of the delivery issues. They discovered that the bakery's delivery schedule was not well-organised, leading to delays and mix-ups. Additionally, there was a lack of communication between the bakery and the delivery team.
+
+            With the causes identified, Mrs. Eclair and her team created a plan. They established a clear delivery schedule and assigned specific responsibilities to each team member involved in the process. They also implemented a communication system to keep everyone updated on any changes or special requests.
+            
+          img: /images/svg/bit/bit_u5_s1_p4_case_study1.svg
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        Question: How do you think __Sweet Delights__ prevented the problem from reoccuring?  
+        
+        Make some notes here before reading below.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Sweet Delights
+
+      See below to see what changes __Sweet delights__ made to prevent the problem from reoccurring, 
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Changes
+          copy: |
+            The bakery invested in a tracking system that allowed customers to monitor their orders in real-time. This way, customers could see when their deliveries were on the way and expected to arrive. The bakery also provided additional training to the delivery team to ensure they were familiar with the routes and customer requirements.
+
+            Mrs. Eclair and her team regularly monitored the delivery process to check if the plan was working. They reviewed feedback from customers and made adjustments as needed. By keeping a close eye on the delivery service, they were able to address any emerging issues promptly and find solutions.
+            
+          img: /images/svg/bit/bit_u5_s1_p4_case_study2.svg
+        - 
+          title: Results
+          copy: |
+            The results were remarkable. Customers started receiving their orders on time and with greater accuracy. The number of complaints decreased significantly, and positive feedback began pouring in. Sweet Delights' reputation improved, and more customers started ordering from them.
+
+            The successful resolution of the delivery problem had a lasting impact on the bakery. It not only improved customer satisfaction but also increased their loyalty. The bakery became known for its reliable and efficient delivery service, which attracted more customers and boosted sales.
+            
+          img: /images/svg/bit/bit_u5_s1_p4_case_study3.svg

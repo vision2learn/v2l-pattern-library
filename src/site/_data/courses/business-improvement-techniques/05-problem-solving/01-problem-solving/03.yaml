@@ -1,0 +1,167 @@
+title: The impact of unresolved problems
+intro: |
+  On this page we take a look at the impact of unresolved problems, and the root cause of a problem.
+banner: bit_u5_s1_p3_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-supporting3 i-keypoint
+    copy: |
+      In your assessment you will be required to explain the impact of unresolved problems.
+  -
+  -
+    title: Watch 
+    theme: t-bg-grey i-watch
+    layout: media
+    copy: |
+      ### The impact of unresolved problems
+      
+      Unresolved problems can have various impacts on individuals and organisations. Let's explore some of these effects in the following video.
+    video: bit_u5_s1_p3_unresolved_problems.mp4
+  -
+  -
+    title: Quick quiz
+    theme: i-quiz
+    subInc:
+      type: quick-quiz
+      content:
+        Is the following statement true or false? "Unresolved problems can hinder productivity and efficiency.":
+          answers:
+            True: true
+            False: false
+          feedback: Unresolved problems can hinder productivity and efficiency. They create roadblocks and distractions, diverting attention and resources away from important tasks. As a result, work may be delayed, goals may be missed, and overall performance may suffer.
+        What could possibly create tension and erode trust resulting in strained relationships at work?:
+          answers:
+            Teamwork: false
+            Collaboration: false
+            Communication breakdowns: true
+          feedback: Problems left unresolved can strain relationships among team members, colleagues, or even with customers or clients. Communication breakdowns, misunderstandings, and unresolved conflicts can create tension and erode trust. This can negatively affect collaboration, teamwork, and the overall work environment.
+        Select one option to complete the following sentence - "When ____________ linger without a solution, individuals may feel overwhelmed, anxious, and frustrated.":
+          answers:
+            negative issues: false
+            unprofessionalism: false
+            unresolved problems: true
+          feedback: Unresolved problems can lead to increased stress levels. When problems linger without a solution, individuals may feel overwhelmed, anxious, and frustrated. This can negatively impact mental and emotional well-being, leading to decreased productivity and overall dissatisfaction.
+  -
+  -
+    title: Key point
+    theme: t-bg-supporting2 i-keypoint
+    copy: |
+      In your assessment you will be required to explain how to identify and verify the root cause of a problem.
+  -
+  -
+    title: Techniques to find the root cause of a problem
+    theme: t-bg-primary
+    copy: |
+      To effectively solve a problem, it's important to find its root cause. This helps address the underlying source instead of just dealing with the symptoms. Several techniques can help uncover the root cause, such as the 5 Whys, Fishbone Diagram, Pareto Analysis, and Failure Mode and Effects Analysis (FMEA). These methods provide valuable insights and aid in developing targeted solutions for lasting results.
+
+    subInc: 
+      type: slider
+      title: 
+      slides:
+        -
+          title: Brainstorming
+          text: |
+            This technique involves gathering a group of people to generate ideas and to identify the possible causes of a problem. It encourages open discussion and creative thinking, allowing for a broad range of ideas to be considered.
+          img: placeholder_icon.svg
+        -
+          title: The 5 Whys
+          text: |
+            This technique involves asking a series of "why" questions to identify the underlying cause of the problem. By asking "why" repeatedly, the root cause can be uncovered.
+          img: placeholder_icon.svg
+        -
+          title: Ishikawa diagrams
+          text: |
+            Ishikawa diagrams are also known as fishbone diagrams. These diagrams help identify possible causes of a problem by breaking down the issue into categories such as people, processes, materials, and equipment. This visual representation helps to identify the underlying causes of the problem.
+          img: placeholder_icon.svg
+        -
+          title: Root cause paths
+          text: |
+            This method involves mapping out the sequence of events that led to the problem. By tracing the events back to their origin, the root cause can be identified.
+          img: placeholder_icon.svg
+        -
+          title: Testing decisions
+          text: |
+            This method involves testing different scenarios to see which one leads to the problem. By systematically testing different factors, the root cause can be isolated.
+          img: placeholder_icon.svg
+        -
+          title: Verification techniques
+          text: |
+            This method involves verifying the assumptions made during the problem-solving process. By testing the assumptions, the root cause can be confirmed or ruled out. This can include techniques such as data analysis, observation, and experimentation.
+          img: placeholder_icon.svg
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### Case study - Physical 3D and the Iskikawa diagram
+
+      You’ll remember that Physical 3D faced a problem with their assembly line production process and they carried out a review to find ways that will make the process more efficient and improve productivity. One of the methods that they used for this review was the Ishikawa diagram which helped them identify the causes of the problem and come up with solutions.
+
+      Physical 3D's assembly line production process was not running smoothly, causing delays and affecting the overall productivity. The company aimed to uncover the reasons behind these issues and find ways to make the production line more efficient.
+
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: Solving the problem with the Ishikawa diagram
+          copy: |
+            To solve the problem, the team used the Ishikawa diagram, also known as the fishbone diagram. It helped them identify different categories of potential causes that could be contributing to the production issues. By organising their thoughts using this diagram, they hoped to find solutions.
+
+            From using this technique, the team found potential causes, mapped the causes onto the diagram, analysed the diagram and made recommendations, implemented the solutions one by one, and tracked the results.  
+            
+            Physical 3D successfully addressed their production issues by using the Ishikawa diagram to identify causes and implement targeted solutions. Through their efforts, the company improved the efficiency of their assembly line production process, resulting in smoother operations and increased productivity.
+          img: /images/svg/placeholder_icon.svg
+        - 
+          title: The 6Ms in Ishikawa diagram used in Manufacturing
+          copy: |
+            
+            1. Manpower - Refers to the physical or mind/knowledge work of personnel. 
+            2. Method - Refers to the production process. 
+            3. Machine - Refers to all the equipment, tools, and facilities used for the production. 
+            4. Material - Refers to the raw materials used for the production of a final product. 
+            5. Medium (Environment) - Refers to the effect of unpredictable environmental factors such as weather, floods, humidity, etc. 
+            6. Measurement - Refers to inspections and physical measurements such as volume or temperature, etc.
+
+            ![](/images/banners/placeholder.jpg)
+  -
+  -
+    title: Time to think
+    theme: t-bg-primary3 i-think
+    include: 
+      type: time-to-think
+      copy: |
+        In addition to the __Ishikawa diagram__ and __Brainstorming__ techniques that were used in the above case study; what other techniques do you think could have been used?
+  -
+  -
+    title: Quick quiz
+    copy: Select the technique used to find the root cause of a problem
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: The 5 whys technique involves asking a series of questions to identify the underlying cause of the problem.
+          answer: The 5 whys
+        -
+          sentence: Ishikawa diagrams help identify possible causes of a problem by breaking down the issue into categories.
+          answer: Ishikawa diagrams
+        -
+          sentence: Root cause paths trace the events back to their origin.
+          answer: Root cause paths
+        -
+          sentence: Brainstorming encourages open discussion and creative thinking which allows for several different ideas to be considered.
+          answer: Brainstorming
+    theme: i-quiz
+  -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about the different techniques that can be used to find the root cause of a problem.
+
+      links:
+        The 5 Whys: https://kanbanize.com/lean-management/improvement/5-whys-analysis-tool
+        Ishikawa diagrams: http://www.google.co.uk
+        Root Cause Analysis: https://www.mindtools.com/ag6pkn9/root-cause-analysis
