@@ -1,6 +1,6 @@
 title: Flow process analysis
 intro: |
-  intro text
+  On this page we will take a look at flow process analysis and how to map out a process using recognised symbols.
 banner: bit_u6_s1_p2_banner.jpg
 sections:
   -
@@ -28,13 +28,13 @@ sections:
           text: |
             Informative Flow Process Analysis focuses on gathering information, mapping the sequence of activities, and identifying bottlenecks or inefficiencies. This results in the creation of process maps, flowcharts, and documentation that describe the current state of the process. It may also highlight areas of concern or improvement opportunities based on the gathered data. 
 
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide1.svg
         -
           title: Directive Flow Process Analysis
           text: |
             Directive Flow Process Analysis aims to identify areas of improvement, streamline activities, and suggest changes for increased efficiency. This is a more proactive approach and includes a redesigned process flow, with specific recommendations for process improvement. It may include a new process map, revised standard operating procedures, or a proposed implementation plan for the suggested changes. 
 
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide2.svg
   -
   -
     title: Steps
@@ -106,34 +106,34 @@ sections:
           title: Identify the key steps
           text: |
             Break down the process into individual steps or activities. These steps should represent the major actions or decisions involved in completing the process.
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide3.svg
 
         -
           title: Select appropriate symbols
           text: |
             Choose recognised symbols to represent different elements of the process. There are various symbols used in process mapping, and they have specific meanings.
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide4.svg
         -
           title: Draw the process map
           text: |
             Using a software tool or pen and paper, start drawing the process map. Begin with the start symbol, then add the process/activity symbols, decision symbols, input/output symbols, and connectors as needed. Connect the symbols with arrows to show the flow of the process.
 
             Add relevant information to each symbol. This may include labels, descriptions, data inputs/outputs, decision criteria, and any other important details that clarify the process steps.
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide5.svg
         -
           title: Review and refine
           text: |
             Review the process map for accuracy, clarity, and completeness. Ensure that the map accurately reflects the actual process and that it is understandable to others. Validate it with subject matter experts or stakeholders to confirm its accuracy.
 
             If necessary, make revisions to the process map based on feedback and further analysis. Refine the symbols, clarify the steps, or adjust the flow as needed.
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide6.svg
         -
           title: Share it
           text: |
             Once the process map is finalised, share it with the relevant stakeholders or team members. Use it as a visual tool for discussions, process improvement, training, or documentation purposes.
 
             Remember, process mapping is a flexible technique, and there is no one-size-fits-all approach. Adapt the symbols and level of detail to suit your specific needs and audience.
-          img: placeholder_icon.svg
+          img: bit_u6_s1_p2_slide7.svg
     copy2: |
       Process mapping is a flexible technique, and there is no one-size-fits-all approach. Adapt the symbols and level of detail to suit your specific needs and audience.
   -
@@ -237,29 +237,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        _Optional item depending on content_
-
-        Please see the following website where you can learn more about . . .
+        Please see the following websites where you can learn more about process analysis.
 
       links:
-        website description: http://www.google.co.uk
-  -
-  -
-    title: Quick quiz
-    copy: 
-    subInc: 
-      type: word-quiz
-      content:
-        -
-          sentence: example one 
-          answer: one
-        -
-          sentence: example two
-          answer: two
-        -
-          sentence: example three 
-          answer: three
-        -
-          sentence: example four
-          answer: four
-    theme: i-quiz
+        IBM - business process analysis: https://www.ibm.com/blog/business-process-analysis/
+        Business Analysis - 7 Steps in the Process flow: https://www.linkedin.com/pulse/business-analysis-7-steps-process-flow-mayank-sahu
