@@ -1,0 +1,123 @@
+title: Creating a process map
+intro: | 
+  On this page we take a look at a case study which will help you to understand how to create your own process map.
+
+banner: bit_u6_s1_p3_banner.jpg
+sections:
+  -
+    title: Key point
+    theme: t-bg-grey i-keypoint
+    copy: |
+      In your assessment you will be required to produce a process map using appropriate symbols and terminology within a given work area.
+  -
+  -
+    title: Case study
+    theme: t-bg-primary1a i-casestudy
+    copy: |
+      ### 'Make your own pizza' - counter refreshment process
+      
+      A supermarket has decided to create a new ‘make your own’ pizza section in store. At the counter, customers can create a pizza of their own choice, providing an alternative to buying pre-packaged pizza. Fresh foods manager, Valarie, collects customer feedback to investigate how successful the new foods section is operating. It seems whilst many customers are more than satisfied with their pizzas, there remains some dissatisfaction. In some cases, customers complained about their waiting time although the biggest complaint seemed to be with some ingredients, and particularly the highly popular advertised ‘special sauce’ option, often being unavailable. 
+      
+      Following a flow process analysis, Valarie identified that ingredients at the customer counter were not being refreshed often enough, meaning that the most popular ones were running out. The special sauce was a particular problem as this was not always in the store fridge, which meant it was unavailable when staff did stock up the customer counter.
+  -
+  -
+    title: The process
+    layout: media
+    theme: t-bg-primary1a
+    copy: |
+      Valarie began by putting all steps needed for the pizza making process on post-it notes: 
+
+      * Check stock levels for all ingredients 
+      * Stock store fridge if ingredients are low 
+      * Check customer counter for low ingredients 
+      * Monitor counter ingredients
+      * Refill customer counter 
+      * Re-order ingredients  
+
+      Valarie now needed to transfer the above steps into a process sequence flowchart to show what type of process happens at each stage and in what order.
+
+    img: /images/svg/bit/bit_u6_s1_p3_case_study.svg
+  -
+  -
+    title: Quick quiz
+    copy: |
+      Answer the questions and then take a look at Valaries flow diagram below.
+    subInc: 
+      type: word-quiz
+      content:
+        -
+          sentence: Step 1 - Start
+          answer: Start
+        -
+          sentence: Step 2 - Inspection - Check customer counter for low ingredients and 'special sauce' 
+          answer: Inspection - Check customer counter for low ingredients and 'special sauce'
+        -
+          sentence: Step 3 - Inspection/Storage - Check stock levels for all ingredients in store fridge
+          answer: Inspection/Storage - Check stock levels for all ingredients in store fridge
+        -
+          sentence: Step 4 - Activity - If low stock - check with supplier for availability of ingredients and 'Special sauce'
+          answer: Activity - If low stock - check with supplier for availability of ingredients and 'Special sauce'
+        -
+          sentence: Step 5 - Transport - Order and Transport ingredients and/or 'special sauce' if low
+          answer: Transport - Order and Transport ingredients and/or 'special sauce' if low 
+        -
+          sentence: Step 6 - Storage/Inspection - Refresh ingredients at counter
+          answer: Storage/Inspection - Refresh ingredients at counter
+        -
+          sentence: Step 7 - Inspection - Monitor quantity of counter ingredients
+          answer: Inspection - Monitor quantity of counter ingredients
+        -
+          sentence: Step 8 - End
+          answer: End
+    theme: i-quiz
+  -
+  -
+    title: Counter refreshment process diagram
+    theme: t-bg-supporting3
+    copy: |
+      Please see below for Valaries counter refreshment process diagram.
+    subInc: 
+      type: accordion
+      content:
+        - 
+          title: 
+          copy: |
+            ![](/images/svg/bit/bit_u6_s1_p3_wide_image_1.svg)
+  -
+  -
+    title: Analyse the current process
+    theme: t-bg-primary
+    copy: |
+      The completion of the flowchart in the previous tasks has provided Valarie with a clear indication of how the process operates and the steps involved. This should now be analysed as part of the flow process. To view some of the questions that might be asked as part of the analysis, click on the images below.   
+
+      ### The question process
+
+      Select the images below to see some questions that arose from the process map.
+    subInc: 
+        type: reveal
+        content:
+            -
+                title: Purpose
+                copy: |
+                    Does this flowchart meet its purpose?
+                img: bit_u6_s1_p3_reveal1.svg
+            -
+                title: Quantity
+                copy: |
+                    Are there enough pizza bases near the counter?
+
+                    Do more ingredients need to be stored before taking an order?
+                img: bit_u6_s1_p3_reveal2.svg
+            -
+                title: Timing
+                copy: |
+                    Is anything else slowing the process?
+
+                    In which areas can the process be quickened?
+                img: bit_u6_s1_p3_reveal3.svg
+    copy2: |
+      ### Actions
+
+      An important part of the flow process is identifying areas where waste can be reduced and productivity can be improved. Now that Valarie has completed the above steps, she can identify why and how all of the ingredients are not available to the customer. This allows Valarie to implement a new ordering system and checks for the customer counter. 
+      
+      As these are additional processes, she will need to create a flow chart for each activity e.g. stocking and ordering ingredients, checking the customer counter. Part of this might include visual indicators to clearly see when stock items are low and need re-ordering. 
