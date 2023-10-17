@@ -1,0 +1,16 @@
+---js
+{
+  unit: 6,
+  session: 1,
+  pagination: {
+    data: "courses['business-improvement-techniques']['06-flow-process-analysis']['01-understand-flow-process-analysis']",
+    size: 1,
+    alias: "moduleNum",
+    addAllPagesToCollections: true,
+    before: function(data) {
+      return data.sort();
+    }
+  }
+}
+---
+<!-- {{ module.data.title }} -->
