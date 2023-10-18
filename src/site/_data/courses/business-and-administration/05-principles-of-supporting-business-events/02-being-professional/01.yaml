@@ -23,10 +23,9 @@ sections:
     include:
       type: on-the-web
       copy: |
-        As you work through this session, you can check out the following websites for additional information on the subject:
+        As you work through this session, you can check out the following website for additional information on the subject:
       links:
         wordconstructions.com: http://www.wordconstructions.com/articles/business/professional.html
-        livecareer.com: http://www.livecareer.com/career-tips/career-advice/professionalism
   -
     title: Quick quiz
     theme: i-quiz
