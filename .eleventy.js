@@ -110,7 +110,7 @@ module.exports = function(config) {
     Used by banner.njk to convert unit number to ordinal string
   */
   config.addFilter('sessionOrdinal', sessionNo => {
-    const session = ['first', 'second', 'third', 'forth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth'];
+    const session = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth'];
     return session[sessionNo - 1];
   });
   

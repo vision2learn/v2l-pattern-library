@@ -21,8 +21,6 @@ sections:
     copy: |
       In your assessment you will be required to:
       * define what is meant by an Agile development
-      * identify the key characteristics of an Agile development
-      * identify the advantages and disadvantages of an Agile development
   -
   -
     title: Agile development
@@ -60,7 +58,7 @@ sections:
 
       links:
         The Agile Manifesto: https://agilemanifesto.org/
-        The Agile 12 Principles: https://www.agilemanifesto.org/principles.html
+        The Agile 12 Principles: http://agilemanifesto.org/principles.html
   -
   -
     title: Key point
@@ -75,7 +73,9 @@ sections:
     theme: 
     
     copy: |
-      Please see the below activity where you can learn about the key characteristics, advantages and disadvantages of Agile.
+      Please see the below activity where you can learn about the key characteristics, advantages and disadvantages of Agile. Make sure you click on all 3 main icons which has a further 5 icons each to see the full information for this topic.
+
+      _(Note: the word "Interation" within this activity should read "Iteration")_
 
     interactive: 
       file: uc/u5_s4_p1_agile
