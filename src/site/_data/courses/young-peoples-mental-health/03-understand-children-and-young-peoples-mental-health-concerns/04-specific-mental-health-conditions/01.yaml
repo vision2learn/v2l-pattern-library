@@ -67,6 +67,20 @@ sections:
             Psychosis is when a child or young person’s thoughts are so disturbed that they lose touch with reality.They might hear voices, see or feel things that aren't there, feel paranoid or believe things that don't rationally make sense. This type of problem can be severe and distressing and should be checked as it can be a symptom of serious mental illness like bipolar disorder or schizophrenia.
           img: ypmh_u3_s4_p1_slider7.svg
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Be aware that ADHD although is often concurrent with mental health issues; it is defined as a neurological condition rather than something that an individual can recover from. 
+
+        School based anxiety - our understanding of the impact of school upon CYPMH is growing – below is a great link to help you understand the latest evidence.
+
+        Please click on the following links where you can read more:
+
+      links:
+        ADHD awareness: https://adhdaware.org.uk/what-is-adhd/adhd-and-mental-health/
+        School based anxiety: https://www.youtube.com/watch?v=HbzkOA7-o5g
   -
     title: Key point
     theme: t-bg-supporting3 i-keypoint
