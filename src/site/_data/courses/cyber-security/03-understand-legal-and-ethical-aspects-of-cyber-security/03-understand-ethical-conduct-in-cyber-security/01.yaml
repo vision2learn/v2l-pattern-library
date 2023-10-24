@@ -31,13 +31,13 @@ sections:
     video: cs_u3_s3_p1_ethical_and_unethical.mp4
    
   -
-    title: Stretch - weblink
+    title: Stretch
     layout: media
     theme: t-bg-primary2 i-stretch
     copy: |
       ###  Unethical conduct
 
-      There’s plenty of news stories about fines under HIPAA for healthcare workers using their access to look into celebrity medical records, for example:
+      There’s plenty of news stories about fines under HIPAA for healthcare workers using their access to look into celebrity medical records, click on the owl for an example from the US:
 
     img: /images/svg/stretch_button.svg
     link: https://etactics.com/blog/celebrity-hipaa-violations
@@ -48,3 +48,12 @@ sections:
       type: time-to-think
       copy: Can you describe ethical and unethical conduct within cyber security? Make a note of your answer in the box to the right. 
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please click on the following links where you can read more about ethical practices in the UK:
+
+      links:
+        Ethics: https://www.ukcybersecuritycouncil.org.uk/ethics/

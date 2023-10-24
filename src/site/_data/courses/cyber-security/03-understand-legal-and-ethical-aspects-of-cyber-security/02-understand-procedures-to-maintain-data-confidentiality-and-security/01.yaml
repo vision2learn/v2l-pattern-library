@@ -65,7 +65,9 @@ sections:
         -
           title: Asymmetric key encryption
           text: |
-            Asymmetric Encryption works by having a public key and a private key. Only the private key can encrypt the data and only the public key can decrypt the data. The public key is distributed widely and can be given to semi-trusted entities. The private key however, as the name suggests, must be kept private. An example of this is HTTPS the protocol that the internet works on. The ‘S” refers to TLS which is an asymmetric encryption where only the server of the website has the private her and public keys are embedded in your browser to decrypt the data. The downfall of asymmetric encryption is that it’s more operationally intensive for computers to process and takes longer, and is more complex to set up.
+            Asymmetric Encryption works by having a public key and a private key. Only the public key can encrypt the data and only the private key can decrypt the data. The public key is distributed widely and can be given to semi-trusted entities. 
+            
+            The private key however, as the name suggests, must be kept private. An example of this is HTTPS the protocol that the internet works on. The ‘S” refers to TLS which is an asymmetric encryption where only the server of the website has the private her and public keys are embedded in your browser to decrypt the data. The downfall of asymmetric encryption is that it’s more operationally intensive for computers to process and takes longer, and is more complex to set up.
           img: cs_u3_s2_p1_slide2.svg
 
   -
@@ -120,9 +122,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please click on the following links where you can read more about the data sharing code of practice
+        Please click on the following links where you can read more about encryption and the data sharing code of practice:
 
       links:
-        ICO code of practice: https://ico.org.uk/media/for-organisations/documents/1068/data_sharing_code_of_practice.pdf
+        Encryption Keys: https://sectigostore.com/blog/public-key-vs-private-key-how-do-they-work/  
+        Types of encryption: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/encryption/what-types-of-encryption-are-there/
+        ICO code of practice: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/data-sharing-a-code-of-practice/
   
-        

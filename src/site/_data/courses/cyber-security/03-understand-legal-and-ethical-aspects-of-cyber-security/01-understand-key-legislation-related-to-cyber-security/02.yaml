@@ -93,9 +93,9 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about planned changes.
+        Please see the following websites where you can learn more about planned changes and UK regulations.
 
       links:
-        cyber security laws: https://www.gov.uk/government/news/new-cyber-security-laws-to-protect-smart-devices-amid-pandemic-sales-surge     
-  - 
+        cyber security laws: https://www.gov.uk/government/news/new-cyber-security-laws-to-protect-smart-devices-amid-pandemic-sales-surge   
+        UK GDPR – UK regulations: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/ 
   
