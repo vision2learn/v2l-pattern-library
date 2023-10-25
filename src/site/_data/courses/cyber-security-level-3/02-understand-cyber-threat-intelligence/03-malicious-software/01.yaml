@@ -73,6 +73,17 @@ sections:
       Let’s look at some of the most common effects that can be caused by malicious software, the motives behind them and how they are made more affective by human factors.
     video: cs3_u2_s3_p1_malicous_software_attacks.mp4
   -
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        This links discusses a few motives and the use of malware in more detail:
+
+      links:
+        Motives and the use of malware: https://www.techradar.com/how-to/do-cybercriminals-use-malware
+  -
     title: Time to think
     theme: t-bg-primary3 i-think
     include: 

@@ -140,6 +140,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn about the open threat exchange.
+        Please see the following websites where you can learn about threats and vulnerabilities.
+
       links:
-        AT&T Open Threat Exchange: https://cybersecurity.att.com/open-threat-exchange
+        ATT Open Threat Exchange: https://cybersecurity.att.com/open-threat-exchange
+        Understanding vulnerabilities (ncsc): https://www.ncsc.gov.uk/information/understanding-vulnerabilities
+        Emerging attack techniques (ncsc): https://www.ncsc.gov.uk/cisp/home
+        Emerging attack techniques (fsisac): https://www.fsisac.com/

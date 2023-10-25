@@ -35,17 +35,17 @@ sections:
             These standards are referred to as ISO/IEC 27000 and usually include a date e.g. ISO 27000:2018 (the date is the last year that the standard was updated).
           img: cs3_u5_s2_p1_slide1.svg
         -
-          title: ISO/IEC 27001:2013
+          title: ISO/IEC 27001:2022
           text: |
             ISO27001 is perhaps the most important standard for cyber security. It includes the specification for information security management systems (ISMS) and businesses must meet this to become ISO27000 certified. ISMS helps organisations to secure their data and information and is a set of policies and procedures, including the legalities and technical control for their risk management processes. An ISMS can include areas of business that are not thought of as part of IT e.g. human resources and can protect all information from a range of threats including how to recover from an incident.
           img: cs3_u5_s2_p1_slide2.svg
         -
-          title: ISO/IEC 27032:2012
+          title: ISO/IEC 27032:2023
           text: |
             This standard is used with ISO 270001 and provides guidance for improving cybersecurity, looking at: information security, network security, internet security and critical information infrastructure protection (CIIP). It also covers baseline security practices for stakeholders in cyberspace, prevents data leaks through encryption and provides guidance on information sharing, along with how to handle incidents.
           img: cs3_u5_s2_p1_slide3.svg
         -
-          title: ISO/IEC 271017:2015
+          title: ISO/IEC 27017:2015
           text: |
             Specifically for cloud services, this standard provides guidelines for additional controls and implementation for both cloud service providers and customers. It informs both parties of roles and responsibilities and how to manage their relationship whilst maintaining the cloud service, e.g. the provider is responsible for security and the customer is responsible for their own decision in using the cloud service.
           img: cs3_u5_s2_p1_slide4.svg

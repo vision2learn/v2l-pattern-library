@@ -128,4 +128,15 @@ sections:
           sentence: social engineering testing can highlight issues with procedures and identify how susceptible staff might be to attacks.
           answer: social engineering
     theme: i-quiz
-  
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following websites to learn more about 'high availability' mitigation.
+
+      links:
+        High availability (techtarget): https://www.techtarget.com/searchdatacenter/definition/high-availability
+        Failover strategies for high availability (Intersystems): https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GHA_FAILOVER
+

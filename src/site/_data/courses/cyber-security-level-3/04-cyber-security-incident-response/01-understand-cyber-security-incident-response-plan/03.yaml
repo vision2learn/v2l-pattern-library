@@ -61,6 +61,16 @@ sections:
           img: /images/svg/cs3/cs3_u4_s1_p3_case_study.svg     
   -
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following website where you can learn more about SANs Institute incident response plan.
+
+      links:
+        SANS Institute: https://www.sans.org/white-papers/1516/
+  -
     title: Read - Checklist
     theme: t-bg-primary2 i-read
     copy: | 
@@ -80,7 +90,8 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about SANs Institute incident response plan
+        The two main lifecycles discussed are the NIST framework, which is a 4 stage process; and the SANS  framework, which is a 6 stage process. Please see the following websites where you can learn more.
 
       links:
-        SANS Institute: https://www.sans.org/white-papers/1516/
+        NIST 4 stage process: https://www.cynet.com/incident-response/nist-incident-response/
+        SANS 6 stage process: https://www.cynet.com/incident-response/incident-response-sans-the-6-steps-in-depth/

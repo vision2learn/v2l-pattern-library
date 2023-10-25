@@ -24,10 +24,13 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about this support.
+        Please see the following websites where you can learn more about this support.
 
       links:
         ISO standards in cyber security: https://advisera.com/27001academy/blog/2015/08/25/iso-27001-vs-iso-27032-cybersecurity-standard/
+        Definition ISO: https://www.techtarget.com/searchdatacenter/definition/ISO
+        ISO standards for improving: https://www.globalsuitesolutions.com/iso-standards-and-regulations-for-improving-cybersecurity/
+
   -
   -
     title: Watch 

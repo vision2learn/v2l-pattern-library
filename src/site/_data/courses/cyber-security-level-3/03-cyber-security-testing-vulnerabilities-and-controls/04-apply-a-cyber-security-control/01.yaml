@@ -48,7 +48,7 @@ sections:
       ### Implement a basic cyber security control - Instructions
       
       Please see the following video to get instructions on how to implement a basic cyber security control.
-    video: cs3_u3_s4_p2_controls_instructions.mp4
+    video: cs3_u3_s4_p1_controls_instructions.mp4
   -
   -
     title: Key point
@@ -91,4 +91,15 @@ sections:
           text: |
             What are the benefits to your organisation of implementing the control? Aside from preventing an attack, could it also help your organisation to compete better or improve customer satisfaction or trust?
           img: cs3_u3_s4_p1_slide5.svg
+  -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Please see the following weblinks to learn more about controls.
+
+      links:
+        Applying controls (MFA): https://www.microsoft.com/en-us/security/blog/2020/01/15/how-to-implement-multi-factor-authentication/
+        File passwords: https://support.microsoft.com/en-gb/office/protect-a-document-with-a-password-05084cc3-300d-4c1a-8416-38d3e37d6826
   

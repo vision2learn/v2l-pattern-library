@@ -90,12 +90,23 @@ sections:
       5. Produce the final flowchart, checking you’ve involved all key personnel.
   -
   -
+    title: On the web
+    theme: t-bg-secondary2 i-on-web
+    include:
+      type: on-the-web
+      copy: |
+        Creating a Process Map/Flow chart – the following YouTube video will assist you in understanding how to create a map:
+
+      links:
+        How to create a process map: https://www.youtube.com/watch?v=Cve1JN2rxb4
+  -
     title: Example of a process map
     theme: 
     copy: |
       The flowchart below shows the processes for turning on a TV to watch a programme. Notice the shapes used to show the various functions in the flowchart.
 
       ![](/images/svg/cs3/cs3_u3_s2_p2_image.svg)
+  -
   -
     title: Watch 
     theme: t-bg-grey i-watch
@@ -138,5 +149,7 @@ sections:
       * the steps that need to be taken
       * response to the vulnerability
       * communications to mitigate future vulnerabilities.
+
+      This relates to identifying the steps required to check the systems (following phishing emails and the use of unsecure websites) and, if required, remove any malware.
 
       Remember that this document will be part of your Unit 3 assessment so make sure you save it with your name.

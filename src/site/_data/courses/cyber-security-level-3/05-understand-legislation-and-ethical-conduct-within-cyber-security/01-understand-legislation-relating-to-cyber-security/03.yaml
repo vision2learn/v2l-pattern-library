@@ -44,9 +44,10 @@ sections:
     include:
       type: on-the-web
       copy: |
-        Please see the following website where you can learn more about the debate over net neutrality:
+        Please see the following websites where you can learn more:
 
       links:
+        Current trends in international law for cyberspace: https://carnegieendowment.org/2021/06/14/brief-primer-on-international-law-and-cyberspace-pub-84763
         NCSL - the debate over Net Neutrality: https://www.ncsl.org/research/telecommunications-and-information-technology/the-debate-over-net-neutrality.aspx
   -
     title: Quick quiz
