@@ -12,11 +12,11 @@ with them or in this case, we're actually
 gonna create an object from a class.
 
 00:00:09.420 --> 00:00:11.730
-So let's, uh, get started on this right away.
+So let's,   get started on this right away.
 
 00:00:12.210 --> 00:00:18.090
 So first of all, I'm gonna create a class
-object so let's, uh, start with new Java
+object so let's,   start with new Java
 
 00:00:18.090 --> 00:00:20.790
 class, I'm gonna call this class Dog.
@@ -321,11 +321,11 @@ So what I'm gonna do is I'm just gonna go
 public Cat, and it's just gonna be blank
 
 00:06:42.900 --> 00:06:55.395
-like so, and I'm gonna say, uh, this dot name
+like so, and I'm gonna say,   this dot name
 equals no name, this dot age equals, well, we
 
 00:06:55.395 --> 00:06:58.215
-can't put no age because it's, uh, an integer
+can't put no age because it's,   an integer
 
 00:06:58.215 --> 00:07:05.565
 so I'm just gonna set the value to zero
