@@ -33,7 +33,7 @@
     "@11ty/eleventy-img": "^0.8.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "@paulobontempo/hsl-to-hex": "^1.0.3",
-    "axios": "^0.21.2",
+    "axios": "^0.33.0",
     "backstopjs": "^5.3.7",
     "concurrent-transform": "^1.0.0",
     "dotenv": "^6.2.0",
